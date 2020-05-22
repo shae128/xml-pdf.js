@@ -1,2 +1,2 @@
 # xml-pdf.js
-JavaScript/Node.js library to convert XML to PDF
+This JavaScript/Node.js library in aimed to convert XML documents especially documents in TEI format to PDF.
