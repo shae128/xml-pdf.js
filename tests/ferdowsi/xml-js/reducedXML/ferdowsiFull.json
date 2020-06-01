@@ -1,0 +1,1262 @@
+{
+    "declaration": {
+        "attributes": {
+            "version": "1.0",
+            "encoding": "UTF-8"
+        }
+    },
+    "elements": [
+        {
+            "type": "doctype",
+            "doctype": "TEI SYSTEM \"tei_lite.dtd\""
+        },
+        {
+            "type": "instruction",
+            "name": "xml-stylesheet",
+            "instruction": "type=\"text/xsl\" href=\"style.xsl\""
+        },
+        {
+            "type": "element",
+            "name": "TEI",
+            "attributes": {
+                "xmlns": "http://www.tei-c.org/ns/1.0"
+            },
+            "elements": [
+                {
+                    "type": "comment",
+                    "comment": " Metadata  "
+                },
+                {
+                    "type": "element",
+                    "name": "teiHeader",
+                    "elements": [
+                        {
+                            "type": "element",
+                            "name": "encodingDesc",
+                            "elements": [
+                                {
+                                    "type": "element",
+                                    "name": "projectDesc",
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "p",
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "The project is realized for the course of Texts Encoding of the 2017/2018 academic year. \n                    "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "soCalled",
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Sample text encoded with a customized TEI-lite."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "\n                    Any Person, Place, Dynastic, and important name are in italic style.\n                "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "p",
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "\n                    To increase the functionality of the project, \n                    in addition to XML and XSLT, it is used JavaScript and jQuery. \n                    Thanks to the use of "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "abbr",
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "JS"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", know it is possible to sort \n                    all listed items either alphabetically or numerically \n                    ( based on the number of appearance in the text ), \n                    also highlighting is available, just by selecting any item from the lists.  \n                "
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "comment",
+                    "comment": " Content "
+                },
+                {
+                    "type": "element",
+                    "name": "text",
+                    "elements": [
+                        {
+                            "type": "comment",
+                            "comment": " Text "
+                        },
+                        {
+                            "type": "element",
+                            "name": "body",
+                            "elements": [
+                                {
+                                    "type": "comment",
+                                    "comment": " Chapter 1 "
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "div",
+                                    "attributes": {
+                                        "type": "chapter",
+                                        "n": "1"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "head",
+                                            "attributes": {
+                                                "rend": "chapterHead"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Life"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "p",
+                                            "elements": [
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "person",
+                                                        "key": "Ferdowsi"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Ferdowsi"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " was born into a family of \n                    "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Iranian"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Iranian"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " landowners ("
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Dehqans"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Dehqans"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ") \n                    in "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "date",
+                                                    "attributes": {
+                                                        "when": "940"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "940"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " in the village of "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "place",
+                                                        "key": "Paj"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Paj"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", \n                    near the city of "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "place",
+                                                        "key": "Tus"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Tus"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", \n                    in the "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "place",
+                                                        "key": "Khorasan"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Khorasan"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " region of the \n                    "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Samanid"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Samanid"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "s Empire, \n                    which is located in the present-day "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Razavi"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Razavi"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "place",
+                                                        "key": "Khorasan"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Khorasan"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " \n                    Province of northeastern "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "place",
+                                                        "key": "Iran"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Iran"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ".        \n                    Little is known about "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "person",
+                                                        "key": "Ferdowsi"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Ferdowsi"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "'s early life. \n                    The poet had a wife, who was probably literate and came from the same \n                    "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Dehqans"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Dehqans"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " class.\n                    He had a son, who died at the age of "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "num",
+                                                    "attributes": {
+                                                        "value": "37"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "37"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", and was mourned by the poet in an elegy \n                    which he inserted into the "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "distinct",
+                                                    "attributes": {
+                                                        "xml:lang": "fa",
+                                                        "time": "ancient"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "element",
+                                                            "name": "name",
+                                                            "attributes": {
+                                                                "type": "book",
+                                                                "key": "Shahnameh"
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "Shahnameh"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ".\n                "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "p",
+                                            "elements": [
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "person",
+                                                        "key": "Ferdowsi"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Ferdowsi"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " belonged to the class of \n                    "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Dehqans"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Dehqans"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ". \n                    These were landowning "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Iranian"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Iranian"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Aristocrats"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Aristocrats"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " \n                    who had flourished under the "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Sassanid"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Sassanid"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "s dynasty \n                    (the last pre-Islamic dynasty to rule "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "place",
+                                                        "key": "Iran"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Iran"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ") \n                    and whose power, though diminished, had survived into the Islamic era which followed the Islamic conquests \n                    of the "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "date",
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "7th century"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ". The "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Dehqans"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Dehqans"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " were attached to \n                    the pre-Islamic literary heritage, as their status was associated with it \n                    (so much so that "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Dehqans"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Dehqans"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " is sometimes used as a synonym \n                    for \""
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Iranian"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Iranian"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "\" in \n                    the "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "distinct",
+                                                    "attributes": {
+                                                        "xml:lang": "fa",
+                                                        "time": "ancient"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "element",
+                                                            "name": "name",
+                                                            "attributes": {
+                                                                "type": "book",
+                                                                "key": "Shahnameh"
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "Shahnameh"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "). \n                    Thus they saw it as their task to preserve the pre-Islamic cultural traditions, \n                    including tales of legendary kings.\n                "
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "comment",
+                                    "comment": " Chapter 2 "
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "div",
+                                    "attributes": {
+                                        "type": "chapter",
+                                        "n": "2"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "head",
+                                            "attributes": {
+                                                "rend": "chapterHead"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Life as a poet"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "p",
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "\n                    It is possible that "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "person",
+                                                        "key": "Ferdowsi"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Ferdowsi"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " \n                    wrote some early poems which have not survived. \n                    He began work on the \n                    "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "distinct",
+                                                    "attributes": {
+                                                        "xml:lang": "fa",
+                                                        "time": "ancient"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "element",
+                                                            "name": "name",
+                                                            "attributes": {
+                                                                "type": "book",
+                                                                "key": "Shahnameh"
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "Shahnameh"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " \n                    around "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "date",
+                                                    "attributes": {
+                                                        "when": "977"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "977"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", \n                    intending it as a continuation of the work of his fellow poet "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "person",
+                                                        "key": "Daqiqi"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Daqiqi"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ",\n                    who had been assassinated by a slave. Like "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "person",
+                                                        "key": "Daqiqi"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Daqiqi"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", \n                    "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "person",
+                                                        "key": "Ferdowsi"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Ferdowsi"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " employed the prose \n                    "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "distinct",
+                                                    "attributes": {
+                                                        "xml:lang": "fa",
+                                                        "time": "ancient"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "element",
+                                                            "name": "name",
+                                                            "attributes": {
+                                                                "type": "book",
+                                                                "key": "Shahnameh"
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "Shahnameh"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " \n                    of "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "person",
+                                                        "key": "AbdAlRazzaq"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Abd Al Razzaq"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " as a source. \n                    He received generous patronage from the "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Samanid"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Samanid"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "s \n                    prince, "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "person",
+                                                        "key": "Mansur"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Mansur"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " and completed the first version of \n                    the "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "distinct",
+                                                    "attributes": {
+                                                        "xml:lang": "fa",
+                                                        "time": "ancient"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "element",
+                                                            "name": "name",
+                                                            "attributes": {
+                                                                "type": "book",
+                                                                "key": "Shahnameh"
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "Shahnameh"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " \n                    in "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "date",
+                                                    "attributes": {
+                                                        "when": "994"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "994"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ".\n                    When the "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Turkic"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Turkic"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Ghaznavids"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Ghaznavids"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " \n                    overthrew the "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Samanid"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Samanid"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "s in the late "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "date",
+                                                    "attributes": {
+                                                        "when": "990"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "990"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "s, \n                    "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "person",
+                                                        "key": "Ferdowsi"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Ferdowsi"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " continued to work on the poem, \n                    rewriting sections to praise the "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Ghaznavids"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Ghaznavids"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "person",
+                                                        "key": "SultanMahmud"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "element",
+                                                            "name": "distinct",
+                                                            "attributes": {
+                                                                "xml:lang": "fa",
+                                                                "time": "ancient"
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "Sultan"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "text",
+                                                            "text": " Mahmud"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ". \n                "
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "p",
+                                            "elements": [
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "person",
+                                                        "key": "SultanMahmud"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "element",
+                                                            "name": "distinct",
+                                                            "attributes": {
+                                                                "xml:lang": "fa",
+                                                                "time": "ancient"
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "Sultan"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "text",
+                                                            "text": " Mahmud"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "'s attitude to \n                    "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "person",
+                                                        "key": "Ferdowsi"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Ferdowsi"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " and \n                    how well he rewarded the poet are matters which have long been \n                    subject to dispute and have formed the basis \n                    of legends about the poet and his patron. The "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Turkic"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Turkic"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "person",
+                                                        "key": "SultanMahmud"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "element",
+                                                            "name": "distinct",
+                                                            "attributes": {
+                                                                "xml:lang": "fa",
+                                                                "time": "ancient"
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "Sultan"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "text",
+                                                            "text": " Mahmud"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " \n                    may have been less interested in tales from \n                    "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Iranian"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Iranian"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " history than \n                    the "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "dynastic",
+                                                        "key": "Samanid"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Samanid"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "s. \n                    The later sections of the \n                    "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "distinct",
+                                                    "attributes": {
+                                                        "xml:lang": "fa",
+                                                        "time": "ancient"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "element",
+                                                            "name": "name",
+                                                            "attributes": {
+                                                                "type": "book",
+                                                                "key": "Shahnameh"
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "Shahnameh"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "\n                    have passages which reveal "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "person",
+                                                        "key": "Ferdowsi"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Ferdowsi"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "'s fluctuating moods, \n                    in some he complains about old age, poverty, illness and the death of his son; \n                    in others, he appears happier. "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "name",
+                                                    "attributes": {
+                                                        "type": "person",
+                                                        "key": "Ferdowsi"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Ferdowsi"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " \n                    finally completed his epic on "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "date",
+                                                    "attributes": {
+                                                        "when": "1010-03-08"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "8 March 1010"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ". \n                    Virtually nothing is known with any certainty about the last decade of his life.\n                "
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_lite.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- Metadata  -->
+    <teiHeader>
+        <encodingDesc>
+            <projectDesc>
+                <p>The project is realized for the course of Texts Encoding of the 2017/2018 academic year. 
+                    <soCalled>Sample text encoded with a customized TEI-lite.</soCalled>
+                    Any Person, Place, Dynastic, and important name are in italic style.
+                </p>
+                <p>
+                    To increase the functionality of the project, 
+                    in addition to XML and XSLT, it is used JavaScript and jQuery. 
+                    Thanks to the use of <abbr>JS</abbr>, know it is possible to sort 
+                    all listed items either alphabetically or numerically 
+                    ( based on the number of appearance in the text ), 
+                    also highlighting is available, just by selecting any item from the lists.  
+                </p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+    <!-- Content -->
+    <text>
+      <!-- Text -->
+        <body>
+            <!-- Chapter 1 -->
+            <div type="chapter" n="1">
+                <head rend="chapterHead">Life</head>
+                <p><name type="person" key="Ferdowsi">Ferdowsi</name> was born into a family of 
+                    <name type="dynastic" key="Iranian">Iranian</name> landowners (<name type="dynastic" key="Dehqans">Dehqans</name>) 
+                    in <date when="940">940</date> in the village of <name type="place" key="Paj">Paj</name>, 
+                    near the city of <name type="place" key="Tus">Tus</name>, 
+                    in the <name type="place" key="Khorasan">Khorasan</name> region of the 
+                    <name type="dynastic" key="Samanid">Samanid</name>s Empire, 
+                    which is located in the present-day <name type="dynastic" key="Razavi">Razavi</name> 
+                    <name type="place" key="Khorasan">Khorasan</name> 
+                    Province of northeastern <name type="place" key="Iran">Iran</name>.        
+                    Little is known about <name type="person" key="Ferdowsi">Ferdowsi</name>'s early life. 
+                    The poet had a wife, who was probably literate and came from the same 
+                    <name type="dynastic" key="Dehqans">Dehqans</name> class.
+                    He had a son, who died at the age of <num value="37">37</num>, and was mourned by the poet in an elegy 
+                    which he inserted into the <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct>.
+                </p>
+                <p>
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> belonged to the class of 
+                    <name type="dynastic" key="Dehqans">Dehqans</name>. 
+                    These were landowning <name type="dynastic" key="Iranian">Iranian</name> 
+                    <name type="dynastic" key="Aristocrats">Aristocrats</name> 
+                    who had flourished under the <name type="dynastic" key="Sassanid">Sassanid</name>s dynasty 
+                    (the last pre-Islamic dynasty to rule <name type="place" key="Iran">Iran</name>) 
+                    and whose power, though diminished, had survived into the Islamic era which followed the Islamic conquests 
+                    of the <date>7th century</date>. The <name type="dynastic" key="Dehqans">Dehqans</name> were attached to 
+                    the pre-Islamic literary heritage, as their status was associated with it 
+                    (so much so that <name type="dynastic" key="Dehqans">Dehqans</name> is sometimes used as a synonym 
+                    for "<name type="dynastic" key="Iranian">Iranian</name>" in 
+                    the <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct>). 
+                    Thus they saw it as their task to preserve the pre-Islamic cultural traditions, 
+                    including tales of legendary kings.
+                </p>
+            </div>
+            <!-- Chapter 2 -->
+            <div type="chapter" n="2">
+                <head rend="chapterHead">Life as a poet</head>
+                <p>
+                    It is possible that <name type="person" key="Ferdowsi">Ferdowsi</name> 
+                    wrote some early poems which have not survived. 
+                    He began work on the 
+                    <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct> 
+                    around <date when="977">977</date>, 
+                    intending it as a continuation of the work of his fellow poet <name type="person" key="Daqiqi">Daqiqi</name>,
+                    who had been assassinated by a slave. Like <name type="person" key="Daqiqi">Daqiqi</name>, 
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> employed the prose 
+                    <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct> 
+                    of <name type="person" key="AbdAlRazzaq">Abd Al Razzaq</name> as a source. 
+                    He received generous patronage from the <name type="dynastic" key="Samanid">Samanid</name>s 
+                    prince, <name type="person" key="Mansur">Mansur</name> and completed the first version of 
+                    the <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct> 
+                    in <date when="994">994</date>.
+                    When the <name type="dynastic" key="Turkic">Turkic</name> 
+                    <name type="dynastic" key="Ghaznavids">Ghaznavids</name> 
+                    overthrew the <name type="dynastic" key="Samanid">Samanid</name>s in the late <date when="990">990</date>s, 
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> continued to work on the poem, 
+                    rewriting sections to praise the <name type="dynastic" key="Ghaznavids">Ghaznavids</name> 
+                    <name type="person" key="SultanMahmud"><distinct xml:lang="fa" time="ancient">Sultan</distinct> Mahmud</name>. 
+                </p>
+                <p>
+                    <name type="person" key="SultanMahmud"><distinct xml:lang="fa" time="ancient">Sultan</distinct> Mahmud</name>'s attitude to 
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> and 
+                    how well he rewarded the poet are matters which have long been 
+                    subject to dispute and have formed the basis 
+                    of legends about the poet and his patron. The <name type="dynastic" key="Turkic">Turkic</name> 
+                    <name type="person" key="SultanMahmud"><distinct xml:lang="fa" time="ancient">Sultan</distinct> Mahmud</name> 
+                    may have been less interested in tales from 
+                    <name type="dynastic" key="Iranian">Iranian</name> history than 
+                    the <name type="dynastic" key="Samanid">Samanid</name>s. 
+                    The later sections of the 
+                    <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct>
+                    have passages which reveal <name type="person" key="Ferdowsi">Ferdowsi</name>'s fluctuating moods, 
+                    in some he complains about old age, poverty, illness and the death of his son; 
+                    in others, he appears happier. <name type="person" key="Ferdowsi">Ferdowsi</name> 
+                    finally completed his epic on <date when="1010-03-08">8 March 1010</date>. 
+                    Virtually nothing is known with any certainty about the last decade of his life.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

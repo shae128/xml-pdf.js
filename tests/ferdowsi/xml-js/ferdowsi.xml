@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_lite.dtd">
+<?xml-stylesheet type="text/xsl" href="style.xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- Metadata  -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><name type="person" key="Ferdowsi">Ferdowsi</name></title>
+                <author>SeyedHosseinAli Emami</author>
+                <respStmt>
+                    <resp>TEI P5 conversion by</resp>
+                    <name xml:id="MR">SeyedHosseinAli Emami</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <distributor>UNIPI</distributor>
+                <pubPlace>PSA</pubPlace>
+                <publisher>UNIPI</publisher>
+                <date when="2018-04-04">Aprile 2018</date>
+                <availability status="restricted" ><p>Reproduction prohibited.</p></availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title><name type="person" key="Ferdowsi">Ferdowsi</name></title>
+                    <author>Arno Lagrange</author>
+                    <editor>Various Editores</editor>
+                    <publisher>Wikipedia/Enciclopedia</publisher>
+                    <date when="2005">2005</date>                    
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <projectDesc>
+                <p>The project is realized for the course of Texts Encoding of the 2017/2018 academic year. 
+                    <soCalled>Sample text encoded with a customized TEI-lite.</soCalled>
+                    Any Person, Place, Dynastic, and important name are in italic style.
+                </p>
+                <p>
+                    To increase the functionality of the project, 
+                    in addition to XML and XSLT, it is used JavaScript and jQuery. 
+                    Thanks to the use of <abbr>JS</abbr>, know it is possible to sort 
+                    all listed items either alphabetically or numerically 
+                    ( based on the number of appearance in the text ), 
+                    also highlighting is available, just by selecting any item from the lists.  
+                </p>
+            </projectDesc>
+        </encodingDesc>
+    </teiHeader>
+    <!-- Content -->
+    <text>
+        <!-- Title and Abstract -->
+        <front>
+
+            <titlePage rend="center">
+                <byline><name type="person" key="Ferdowsi">Ferdowsi</name></byline>
+            </titlePage>
+            
+            <div>
+                <head rend="frontHead">The Savior Of The <name type="dynastic" key="Persian">Persian</name> Language</head>
+                <figure>
+                    
+                    <graphic url="images/Ferdosi_Square.png" />
+                    <figDesc><name type="person" key="Ferdowsi">Ferdowsi</name> Square</figDesc>
+                </figure>
+                
+                <p>
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> was a <name type="dynastic" key="Persian">Persian</name> poet and the author of 
+                    <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct> ("Book of Kings"), 
+                    which is the world's longest epic poem created by a single poet, 
+                    and the national epic of Greater <name type="place" key="Iran">Iran</name>. 
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> is celebrated as the most influential figure 
+                    in <name type="dynastic" key="Persian">Persian</name> 
+                    literature and one of the greatest in the history of literature. 
+                    He was called "the Lord of the <name type="dynastic" key="Persian">Persian</name>" 
+                    and "the Savior of the <name type="dynastic" key="Persian">Persian</name> Language"
+                    
+                </p>
+            </div>
+        </front>
+        <!-- Text -->
+        <body>
+            <!-- Chapter 1 -->
+            <div type="chapter" n="1">
+                <head rend="chapterHead">Life</head>
+                <p><name type="person" key="Ferdowsi">Ferdowsi</name> was born into a family of 
+                    <name type="dynastic" key="Iranian">Iranian</name> landowners (<name type="dynastic" key="Dehqans">Dehqans</name>) 
+                    in <date when="940">940</date> in the village of <name type="place" key="Paj">Paj</name>, 
+                    near the city of <name type="place" key="Tus">Tus</name>, 
+                    in the <name type="place" key="Khorasan">Khorasan</name> region of the 
+                    <name type="dynastic" key="Samanid">Samanid</name>s Empire, 
+                    which is located in the present-day <name type="dynastic" key="Razavi">Razavi</name> 
+                    <name type="place" key="Khorasan">Khorasan</name> 
+                    Province of northeastern <name type="place" key="Iran">Iran</name>.        
+                    Little is known about <name type="person" key="Ferdowsi">Ferdowsi</name>'s early life. 
+                    The poet had a wife, who was probably literate and came from the same 
+                    <name type="dynastic" key="Dehqans">Dehqans</name> class.
+                    He had a son, who died at the age of <num value="37">37</num>, and was mourned by the poet in an elegy 
+                    which he inserted into the <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct>.
+                </p>
+                <p>
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> belonged to the class of 
+                    <name type="dynastic" key="Dehqans">Dehqans</name>. 
+                    These were landowning <name type="dynastic" key="Iranian">Iranian</name> 
+                    <name type="dynastic" key="Aristocrats">Aristocrats</name> 
+                    who had flourished under the <name type="dynastic" key="Sassanid">Sassanid</name>s dynasty 
+                    (the last pre-Islamic dynasty to rule <name type="place" key="Iran">Iran</name>) 
+                    and whose power, though diminished, had survived into the Islamic era which followed the Islamic conquests 
+                    of the <date>7th century</date>. The <name type="dynastic" key="Dehqans">Dehqans</name> were attached to 
+                    the pre-Islamic literary heritage, as their status was associated with it 
+                    (so much so that <name type="dynastic" key="Dehqans">Dehqans</name> is sometimes used as a synonym 
+                    for "<name type="dynastic" key="Iranian">Iranian</name>" in 
+                    the <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct>). 
+                    Thus they saw it as their task to preserve the pre-Islamic cultural traditions, 
+                    including tales of legendary kings.
+                </p>
+                <p>
+                    The Islamic conquests of the <date>7th century</date> brought gradual linguistic and cultural changes 
+                    to the <name type="dynastic" key="Iranian">Iranian</name> <name type="place" key="Plateau">Plateau</name>.
+                    By the late <date>9th century</date>, as the power of the 
+                    <distinct xml:lang="ar-AE" time="ancient">caliphate</distinct> had weakened, 
+                    several local dynasties emerged in Greater <name type="place" key="Iran">Iran</name>.
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> grew up in <name type="place" key="Tus">Tus</name>, 
+                    a city under the control of one of these dynasties, the <name type="dynastic" key="Samanid">Samanid</name>s, 
+                    who claimed descent from the <name type="dynastic" key="Sassanid">Sassanid</name>s 
+                    general <name type="person" key="Bahram">Bahram</name> 
+                    (whose story <name type="person" key="Ferdowsi">Ferdowsi</name> recounts in one of the later sections of 
+                    the <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct>).
+                    The <name type="dynastic" key="Samanid">Samanid</name>s bureaucracy used the 
+                    New <name type="dynastic" key="Persian">Persian</name> language, 
+                    which had been used to bring Islam to the Eastern regions of 
+                    the <name type="dynastic" key="Iranian">Iranian</name> world and supplanted local languages, 
+                    and commissioned translations of <name type="dynastic" key="Pahlavi">Pahlavi</name> 
+                    (Middle <name type="dynastic" key="Persian">Persian</name>) texts into 
+                    New <name type="dynastic" key="Persian">Persian</name>. 
+                    <name type="person" key="AbuMansurMuhammad">Abu Mansur Muhammad</name>, 
+                    a <name type="dynastic" key="Dehqans">Dehqans</name> and governor of <name type="place" key="Tus">Tus</name>, 
+                    had ordered his minister <name type="person" key="AbuMansurMamari">Abu Mansur Mamari</name> to 
+                    invite several local scholars to compile a prose 
+                    <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct> ("Book of Kings"), 
+                    which was completed in <date when="1010">1010</date>.
+                    Although it no longer survives, <name type="person" key="Ferdowsi">Ferdowsi</name> 
+                    used it as one of the sources of his epic. <name type="dynastic" key="Samanid">Samanid</name>s rulers were patrons 
+                    of such important <name type="dynastic" key="Persian">Persian</name> poets as <name type="person" key="Rudaki">Rudaki</name> and 
+                    <name type="person" key="Daqiqi">Daqiqi</name>, 
+                    and <name type="person" key="Ferdowsi">Ferdowsi</name> followed in the footsteps of these writers.
+                    Details about <name type="person" key="Ferdowsi">Ferdowsi</name>'s education are lacking. 
+                    Judging by the <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct>, 
+                    there is no evidence he knew either <name type="dynastic" key="Arabic">Arabic</name> 
+                    or <name type="dynastic" key="Pahlavi">Pahlavi</name>.
+                </p>
+            </div>
+            <!-- Chapter 2 -->
+            <div type="chapter" n="2">
+                <head rend="chapterHead">Life as a poet</head>
+                <p>
+                    It is possible that <name type="person" key="Ferdowsi">Ferdowsi</name> 
+                    wrote some early poems which have not survived. 
+                    He began work on the 
+                    <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct> 
+                    around <date when="977">977</date>, 
+                    intending it as a continuation of the work of his fellow poet <name type="person" key="Daqiqi">Daqiqi</name>,
+                    who had been assassinated by a slave. Like <name type="person" key="Daqiqi">Daqiqi</name>, 
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> employed the prose 
+                    <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct> 
+                    of <name type="person" key="AbdAlRazzaq">Abd Al Razzaq</name> as a source. 
+                    He received generous patronage from the <name type="dynastic" key="Samanid">Samanid</name>s 
+                    prince, <name type="person" key="Mansur">Mansur</name> and completed the first version of 
+                    the <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct> 
+                    in <date when="994">994</date>.
+                    When the <name type="dynastic" key="Turkic">Turkic</name> 
+                    <name type="dynastic" key="Ghaznavids">Ghaznavids</name> 
+                    overthrew the <name type="dynastic" key="Samanid">Samanid</name>s in the late <date when="990">990</date>s, 
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> continued to work on the poem, 
+                    rewriting sections to praise the <name type="dynastic" key="Ghaznavids">Ghaznavids</name> 
+                    <name type="person" key="SultanMahmud"><distinct xml:lang="fa" time="ancient">Sultan</distinct> Mahmud</name>. 
+                </p>
+                <p>
+                    <name type="person" key="SultanMahmud"><distinct xml:lang="fa" time="ancient">Sultan</distinct> Mahmud</name>'s attitude to 
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> and 
+                    how well he rewarded the poet are matters which have long been 
+                    subject to dispute and have formed the basis 
+                    of legends about the poet and his patron. The <name type="dynastic" key="Turkic">Turkic</name> 
+                    <name type="person" key="SultanMahmud"><distinct xml:lang="fa" time="ancient">Sultan</distinct> Mahmud</name> 
+                    may have been less interested in tales from 
+                    <name type="dynastic" key="Iranian">Iranian</name> history than 
+                    the <name type="dynastic" key="Samanid">Samanid</name>s. 
+                    The later sections of the 
+                    <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct>
+                    have passages which reveal <name type="person" key="Ferdowsi">Ferdowsi</name>'s fluctuating moods, 
+                    in some he complains about old age, poverty, illness and the death of his son; 
+                    in others, he appears happier. <name type="person" key="Ferdowsi">Ferdowsi</name> 
+                    finally completed his epic on <date when="1010-03-08">8 March 1010</date>. 
+                    Virtually nothing is known with any certainty about the last decade of his life.
+                </p>
+            </div>
+            <!-- Chapter 3 -->
+            <div type="chapter" n="3">
+                <head rend="chapterHead">Tomb</head>
+                <figure>  
+                    <graphic url="images/FerdowsiTomb.jpg" />    
+                    <figDesc><name type="person" key="Ferdowsi">Ferdowsi</name> Tomb</figDesc>                                                                                                                                                                             
+                </figure>
+                
+                <p>
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> was buried in his own garden, 
+                    burial in the cemetery of <name type="place" key="Tus">Tus</name> having been forbidden 
+                    by a local cleric. A <name type="dynastic" key="Ghaznavids">Ghaznavids</name> governor of 
+                    <name type="place" key="Khorasan">Khorasan</name> constructed 
+                    a <name type="place" key="mausoleum">mausoleum</name> over the grave and it became a revered site. 
+                    The tomb, which had fallen into decay, was rebuilt between <date when="1928">1928</date> and <date when="1934">1934</date> by the 
+                    Society for the National Heritage of <name type="place" key="Iran">Iran</name> 
+                    on the orders of <name type="person" key="RezaShah">Reza <distinct xml:lang="fa" time="ancient">Shah</distinct></name>, 
+                    and has now become the equivalent of a national shrine.                    
+                </p>
+                <p>
+                    The basic structure of the tomb is rectangular with a large garden 
+                    surrounding the structure and interacting with the structure in the 
+                    <name type="dynastic" key="Persian">Persian</name> style of gardening known as 
+                    <distinct xml:lang="fa" >CharbBagh</distinct> 
+                    (translating to four gardens in <name type="dynastic" key="Persian">Persian</name>). 
+                    In the center of the cross created by the legs of the garden surrounding 
+                    it is an edifice made of primarily white marble. 
+                    The edifice can be divided into a "wide chamber" 
+                    that lies at the base and a cubical erection on top, 
+                    with four pillars surrounding it and scenes from the epic of 
+                    <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct> 
+                    and text ornating it. 
+                    The body of the poet is actually interred in the center of the rectangular wide 
+                    chamber underneath the overlying four pillars cube.There are <num value="12">twelve</num> steps leading 
+                    from the lowest point of the wide chamber all the way to the level of the cube. 
+                    The wide base has a total height of <num value="16">16</num>m. 
+                    The edifice has equal dimensions of <num value="30">30</num>m on each side.
+                </p>                
+            </div>
+            <!-- Chapter 4 -->
+            <div type="chapter" n="4">
+                <head rend="chapterHead">Legend</head>
+                <p>
+                    According to legend, 
+                    <name type="person" key="SultanMahmud"><distinct xml:lang="fa" time="ancient">Sultan</distinct> Mahmud</name> of 
+                    <name type="dynastic" key="Ghazni">Ghazni</name> offered 
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> 
+                    a gold piece for every couplet of the 
+                    <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct> he wrote. 
+                    The poet agreed to receive the money as a lump sum when 
+                    he had completed the epic. 
+                    He planned to use it to rebuild the dykes in his native 
+                    <name type="place" key="Tus">Tus</name>. 
+                    After <num value="30">thirty</num> years of work, <name type="person" key="Ferdowsi">Ferdowsi</name> finished 
+                    his masterpiece. 
+                    <name type="person" key="SultanMahmud"><distinct xml:lang="fa" time="ancient">Sultan</distinct> Mahmud</name> prepared to give him 
+                    <num value="60000">60,000</num> gold pieces, one for every couplet, as agreed. 
+                    However, the courtier whom 
+                    <name type="person" key="SultanMahmud"><distinct xml:lang="fa" time="ancient">Sultan</distinct> Mahmud</name> 
+                    had entrusted with the money despised <name type="person" key="Ferdowsi">Ferdowsi</name>, 
+                    regarding him as a heretic, and he replaced the gold coins with silver. 
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> was in the bath house 
+                    when he received the reward. Finding it was silver and not gold, 
+                    he gave the money away to the bathkeeper, a refreshment seller, 
+                    and the slave who had carried the coins. 
+                    When the courtier told the 
+                    <name type="person" key="SultanMahmud"><distinct xml:lang="fa" time="ancient">Sultan</distinct> Mahmud</name>
+                    about <name type="person" key="Ferdowsi">Ferdowsi</name>'s behaviour, 
+                    he was furious and threatened to execute him.
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> fled 
+                    <name type="place" key="Khorasan">Khorasan</name>, having first written a satire on 
+                    <name type="person" key="SultanMahmud"><distinct xml:lang="fa" time="ancient">Sultan</distinct> Mahmud</name>, 
+                    and spent most of the remainder of his life in exile. 
+                    <name type="person" key="SultanMahmud"><distinct xml:lang="fa" time="ancient">Sultan</distinct> Mahmud</name> eventually learned 
+                    the truth about the courtier's deception and had him either banished or executed. 
+                    By this time, the aged <name type="person" key="Ferdowsi">Ferdowsi</name> had returned 
+                    to <name type="place" key="Tus">Tus</name>. 
+                    <name type="person" key="SultanMahmud"><distinct xml:lang="fa" time="ancient">Sultan</distinct> Mahmud</name> 
+                    sent him a new gift of <num value="60000">60,000</num> gold pieces, but just as the caravan bearing 
+                    the money entered the gates of <name type="place" key="Tus">Tus</name>, 
+                    a funeral procession exited the gates on the opposite side 
+                    the poet had died from a heart attack.
+                </p>                
+            </div>
+            <!-- Chapter 5 -->
+            <div type="chapter" n="5">
+                <head rend="chapterHead"><distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct></head>  
+                <figure>  
+                    <graphic url="images/shahnameh.jpg" />    
+                    <figDesc><distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct></figDesc>                                                                                                                                                                             
+                </figure> 
+                <p>
+                    <name type="person" key="Ferdowsi">Ferdowsi</name>'s 
+                    <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct> is the most popular 
+                    and influential national epic in <name type="place" key="Iran">Iran</name> 
+                    and other <name type="dynastic" key="Persian">Persian</name>-speaking nations. 
+                    The <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct> 
+                    is the only surviving work by <name type="person" key="Ferdowsi">Ferdowsi</name> 
+                    regarded as indisputably genuine. He may have written poems earlier in his life 
+                    but they no longer exist
+                </p>
+                <p>
+                    The <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct> 
+                    provides a poetic account of the prehistory and history of <name type="place" key="Iran">Iran</name>, 
+                    beginning with the creation of the world and the introduction of the arts of civilization 
+                    (fire, cooking, metallurgy, law), and ending with the Islamic Conquest 
+                    of <name type="place" key="Persia">Persia</name>.                            
+                    The work is divided into three parts: the "mythical", "heroic", and "historical" ages.                                        
+                </p>
+                <p>
+                    Mythical age portion of the 
+                    <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct> is relatively short, 
+                    amounting to some <num value="2100">2,100</num> verses or <num value="4">four</num> percent of the entire book, 
+                    and it narrates events with the simplicity, predictability, and swiftness of a historical work.                    
+                    After an opening in praise of God and Wisdom, 
+                    the <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct> 
+                    gives an account of the creation of the world and of man as believed by the 
+                    <name type="dynastic" key="Sassanid">Sassanid</name>s. 
+                    This introduction is followed by the story of the first man, 
+                    <name type="person" key="Keyumars">Keyumars</name>, 
+                    who also became the first king after a period of mountain dwelling. 
+                    His grandson <name type="person" key="Hushang">Hushang</name>, 
+                    son of <name type="person" key="Siyamak">Siyamak</name>, 
+                    accidentally discovered fire and established the 
+                    <distinct xml:lang="fa" time="ancient">Sadeh</distinct> Feast in its honor. 
+                    Stories of <name type="person" key="Tahmuras">Tahmuras</name>, 
+                    <name type="person" key="Jamshid">Jamshid</name>, 
+                    <name type="person" key="Zahhak">Zahhak</name>, 
+                    <name type="person" key="Kawa">Kawa</name> or 
+                    <name type="person" key="Kaveh">Kaveh</name>, 
+                    <name type="person" key="Fereydun">Fereydun</name> and his three sons 
+                    <name type="person" key="Salm">Salm</name>, 
+                    <name type="person" key="Tur">Tur</name>, and 
+                    <name type="person" key="Iraj">Iraj</name>, and his grandson 
+                    <name type="person" key="Manuchehr">Manuchehr</name> are related in this section.
+                </p>
+                <p>
+                    Almost <num value="2">two</num>-<num value="3">thirds</num> of the 
+                    <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct> 
+                    is devoted to the age of heroes, extending from 
+                    <name type="person" key="Manuchehr">Manuchehr</name>'s 
+                    reign until the conquest of 
+                    <name type="person" key="Alexander">Alexander</name> the Great 
+                    (<name type="person" key="Eskandar">Eskandar</name>). 
+                    The main feature of this period is the major role played by the 
+                    <name type="person" key="Saka">Saka</name> or 
+                    <name type="place" key="Sistan">Sistan</name> heroes 
+                    who appear as the backbone of the <name type="dynastic" key="Persian">Persian</name> Empire. 
+                    <name type="person" key="Garshasp">Garshasp</name> is briefly mentioned with 
+                    his son <name type="person" key="Nariman">Nariman</name>, 
+                    whose own son <name type="person" key="Sam">Sam</name> acted as the leading paladin of 
+                    <name type="person" key="Manuchehr">Manuchehr</name> while reigning in 
+                    <name type="place" key="Sistan">Sistan</name> in his own right. 
+                    His successors were his son <name type="person" key="Zal">Zal</name> 
+                    and <name type="person" key="Zal">Zal</name>'s son 
+                    <emph><name type="person" key="Rostam">Rostam</name></emph>, 
+                    the bravest of the brave, and then 
+                    <name type="person" key="Faramarz">Faramarz</name>.                    
+                    Among the stories described in this section are the romance of 
+                    <name type="person" key="Zal">Zal</name> and 
+                    <name type="person" key="Rudaba">Rudaba</name>, the <num value="7">Seven</num> Stages (or Labors) of 
+                    <emph><name type="person" key="Rostam">Rostam</name></emph>,
+                    <emph><name type="person" key="Rostam"> Rostam</name></emph> and 
+                    <name type="person" key="Sohrab">Sohrab</name>, 
+                    <name type="person" key="Siyavash">Siyavash</name> and <name type="person" key="Sudaba">Sudaba</name>, 
+                    <emph><name type="person" key="Rostam">Rostam</name></emph> and 
+                    <name type="person" key="AkvanDiv">Akvan Div</name>, the romance of 
+                    <name type="person" key="Bijan">Bijan</name> and <name type="person" key="Manijeh">Manijeh</name>, 
+                    the wars with <name type="person" key="Afrasiyab">Afrasiyab</name>, 
+                    <name type="person" key="Daqiqi">Daqiqi</name>'s account of the story of 
+                    <name type="person" key="Goshtasp">Goshtasp</name> and 
+                    <name type="person" key="Arjasp">Arjasp</name>, 
+                    and <emph><name type="person" key="Rostam">Rostam</name></emph> and 
+                    <name type="person" key="Esfandyar">Esfandyar</name>.
+                    A brief mention of the <name type="dynastic" key="Arsacid">Arsacid</name> dynasty 
+                    follows the history of <name type="person" key="Alexander">Alexander</name> and 
+                    precedes that of <name type="person" key="Ardashir">Ardashir</name> <num value="1">I</num>, 
+                    founder of the <name type="dynastic" key="Sassanid">Sassanid</name>s Empire. 
+                    After this, <name type="dynastic" key="Sassanid">Sassanid</name>s history is 
+                    related with a good deal of accuracy. 
+                    The fall of the <name type="dynastic" key="Sassanid">Sassanid</name>s and 
+                    the <name type="dynastic" key="Arabic">Arabic</name> conquest of 
+                    <name type="place" key="Persia">Persia</name> are narrated romantically.                
+                </p>
+                <p>
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> did not expect his readers 
+                    to pass over historical events indifferently, but asked them to think carefully, 
+                    to see the grounds for the rise and fall of individuals and nations; 
+                    and to learn from the past in order to improve the present, 
+                    and to better shape the future.
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> stresses his belief that 
+                    since the world is transient, and since everyone is merely a passerby, 
+                    one is wise to avoid cruelty, lying, avarice, and other evils; 
+                    instead one should strive for justice, honor, truth, order, and other virtues. 
+                    The singular message that the 
+                    <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct> of 
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> strives to convey is 
+                    the idea that the history of 
+                    the <name type="dynastic" key="Sassanid">Sassanid</name>s Empire was a complete 
+                    and immutable whole. It started with <name type="person" key="Keyumars">Keyumars</name>, 
+                    the <num value="1">first</num> man, and ended with his <num value="50">fiftieth</num> scion and successor, 
+                    <name type="person" key="Yazdegerd">Yazdegerd</name> <num value="3">III</num>, 
+                    <num value="6">six</num> <num value="1000">thousand</num> years 
+                    of history of <name type="place" key="Iran">Iran</name>. 
+                    The task of <name type="person" key="Ferdowsi">Ferdowsi</name> was to prevent 
+                    this history from being lost to 
+                    future <name type="dynastic" key="Persian">Persian</name> generations.
+                    
+                    According to <name type="person" key="JalalKhaleghiMutlaq">Jalal Khaleghi Mutlaq</name>, 
+                    the <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct> 
+                    teaches a wide variety of moral virtues, like worship of one God; patriotism; 
+                    love of wife, family and children; and helping the poor.
+                </p>
+
+                
+            </div>
+              <!-- Chapter 6 -->
+            <div type="chapter" n="6">
+                <head rend="chapterHead">Influence</head>
+                <p>
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> is one of the undisputed giants of 
+                    <name type="dynastic" key="Persian">Persian</name> literature. 
+                    After <name type="person" key="Ferdowsi">Ferdowsi</name>'s 
+                    <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct>, 
+                    a number of other works similar in nature surfaced over the centuries within 
+                    the cultural sphere of the <name type="dynastic" key="Persian">Persian</name> language. 
+                    Without exception, all such works were based in 
+                    style and method on <name type="person" key="Ferdowsi">Ferdowsi</name>'s 
+                    <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct>, 
+                    but none of them could quite achieve the same degree of fame and popularity 
+                    as <name type="person" key="Ferdowsi">Ferdowsi</name>'s masterpiece.
+                </p>
+                <p>
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> has a unique place 
+                    in <name type="dynastic" key="Persian">Persian</name> history because of 
+                    the strides he made in reviving and regenerating 
+                    the <name type="dynastic" key="Persian">Persian</name> language and cultural traditions. 
+                    His works are cited as a crucial component in the persistence of 
+                    the <name type="dynastic" key="Persian">Persian</name> language, 
+                    as those works allowed much of the tongue to remain codified and intact. 
+                    In this respect, <name type="person" key="Ferdowsi">Ferdowsi</name> surpasses 
+                    <name type="person" key="Nizami">Nizami</name>, 
+                    <name type="person" key="Khayyam">Khayyam</name>, 
+                    and other seminal <name type="dynastic" key="Persian">Persian</name> 
+                    literary figures in his impact on 
+                    <name type="dynastic" key="Persian">Persian</name> culture and language.
+                    Many modern <name type="dynasti" key="Iranian">Iranians</name> see him as 
+                    the father of the modern <name type="dynastic" key="Persian">Persian</name> language.
+                </p>
+                <p>     
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> in fact was a 
+                    motivation behind many future <name type="dynastic" key="Persian">Persian</name> figures. 
+                    One such notable figure was 
+                    <name type="person" key="RezaShah">Reza <distinct xml:lang="fa" time="ancient">Shah</distinct></name> 
+                    <name type="dynastic" key="Pahlavi">Pahlavi</name>, 
+                    who established an Academy of <name type="dynastic" key="Persian">Persian</name> Language 
+                    and Literature, in order to attempt to remove <name type="dynastic" key="Arabic">Arabic</name> 
+                    and <name type="dynastic" key="French">French</name> words from 
+                    the <name type="dynastic" key="Persian">Persian</name> language, 
+                    replacing them with suitable <name type="dynastic" key="Persian">Persian</name> alternatives. 
+                    In <date when="1934">1934</date>, 
+                    <name type="person" key="RezaShah">Reza <distinct xml:lang="fa" time="ancient">Shah</distinct></name> 
+                    set up a ceremony in <name type="place" key="Mashhad">Mashhad</name>, 
+                    <name type="place" key="Khorasan">Khorasan</name>, 
+                    celebrating a <num value="1000">thousand</num> years of 
+                    <name type="dynastic" key="Persian">Persian</name> literature 
+                    since the time of <name type="person" key="Ferdowsi">Ferdowsi</name>, 
+                    titled "<name type="person" key="Ferdowsi">Ferdowsi</name> <num value="1000">Millennial</num> Celebration", 
+                    inviting notable European as well as <name type="dynastic" key="Iranian">Iranian</name> scholars.
+                    <name type="person" key="Ferdowsi">Ferdowsi</name> University of 
+                    <name type="place" key="Mashhad">Mashhad</name> is a university established in <num value="1949">1949</num> that 
+                    also takes its name from <name type="person" key="Ferdowsi">Ferdowsi</name>.
+                </p>    
+                <p>
+                    The <name type="dynastic" key="Persian">Persian</name>s 
+                    regard <name type="person" key="Ferdowsi">Ferdowsi</name> as the greatest of their poets. 
+                    For nearly a <num value="1000">thousand</num> years they have continued to read and to listen 
+                    to recitations from his masterwork, 
+                    the <distinct xml:lang="fa" time="ancient"><name type="book" key="Shahnameh">Shahnameh</name></distinct>, 
+                    in which the <name type="dynastic" key="Persian">Persian</name> national epic found its 
+                    final and enduring form. Though written about <num value="1000">1,000</num> years ago, 
+                    this work is as intelligible to the average, modern <name type="dynastic" key="Iranian">Iranian</name> 
+                    as the King <name type="person" key="James">James</name> Version of the Bible 
+                    is to a modern English-speaker. The language, based as the poem is on a 
+                    <name type="dynastic" key="Dari">Dari</name> original, 
+                    is pure <name type="dynastic" key="Persian">Persian</name> 
+                    with no admixture of <name type="dynastic" key="Arabic">Arabic</name>.
+                </p>                
+            </div>
+        </body>
+    </text>
+</TEI>

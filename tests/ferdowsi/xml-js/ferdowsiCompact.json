@@ -1,0 +1,2904 @@
+{
+    "_declaration": {
+        "_attributes": {
+            "version": "1.0",
+            "encoding": "UTF-8"
+        }
+    },
+    "_doctype": "TEI SYSTEM \"tei_lite.dtd\"",
+    "_instruction": {
+        "xml-stylesheet": "type=\"text/xsl\" href=\"style.xsl\""
+    },
+    "TEI": {
+        "_attributes": {
+            "xmlns": "http://www.tei-c.org/ns/1.0"
+        },
+        "_comment": [
+            " Metadata  ",
+            " Content "
+        ],
+        "teiHeader": {
+            "fileDesc": {
+                "titleStmt": {
+                    "title": {
+                        "name": {
+                            "_attributes": {
+                                "type": "person",
+                                "key": "Ferdowsi"
+                            },
+                            "_text": "Ferdowsi"
+                        }
+                    },
+                    "author": {
+                        "_text": "SeyedHosseinAli Emami"
+                    },
+                    "respStmt": {
+                        "resp": {
+                            "_text": "TEI P5 conversion by"
+                        },
+                        "name": {
+                            "_attributes": {
+                                "xml:id": "MR"
+                            },
+                            "_text": "SeyedHosseinAli Emami"
+                        }
+                    }
+                },
+                "publicationStmt": {
+                    "distributor": {
+                        "_text": "UNIPI"
+                    },
+                    "pubPlace": {
+                        "_text": "PSA"
+                    },
+                    "publisher": {
+                        "_text": "UNIPI"
+                    },
+                    "date": {
+                        "_attributes": {
+                            "when": "2018-04-04"
+                        },
+                        "_text": "Aprile 2018"
+                    },
+                    "availability": {
+                        "_attributes": {
+                            "status": "restricted"
+                        },
+                        "p": {
+                            "_text": "Reproduction prohibited."
+                        }
+                    }
+                },
+                "sourceDesc": {
+                    "bibl": {
+                        "title": {
+                            "name": {
+                                "_attributes": {
+                                    "type": "person",
+                                    "key": "Ferdowsi"
+                                },
+                                "_text": "Ferdowsi"
+                            }
+                        },
+                        "author": {
+                            "_text": "Arno Lagrange"
+                        },
+                        "editor": {
+                            "_text": "Various Editores"
+                        },
+                        "publisher": {
+                            "_text": "Wikipedia/Enciclopedia"
+                        },
+                        "date": {
+                            "_attributes": {
+                                "when": "2005"
+                            },
+                            "_text": "2005"
+                        }
+                    }
+                }
+            },
+            "encodingDesc": {
+                "projectDesc": {
+                    "p": [
+                        {
+                            "_text": [
+                                "The project is realized for the course of Texts Encoding of the 2017/2018 academic year. \n                    ",
+                                "\n                    Any Person, Place, Dynastic, and important name are in italic style.\n                "
+                            ],
+                            "soCalled": {
+                                "_text": "Sample text encoded with a customized TEI-lite."
+                            }
+                        },
+                        {
+                            "_text": [
+                                "\n                    To increase the functionality of the project, \n                    in addition to XML and XSLT, it is used JavaScript and jQuery. \n                    Thanks to the use of ",
+                                ", know it is possible to sort \n                    all listed items either alphabetically or numerically \n                    ( based on the number of appearance in the text ), \n                    also highlighting is available, just by selecting any item from the lists.  \n                "
+                            ],
+                            "abbr": {
+                                "_text": "JS"
+                            }
+                        }
+                    ]
+                }
+            }
+        },
+        "text": {
+            "_comment": [
+                " Title and Abstract ",
+                " Text "
+            ],
+            "front": {
+                "titlePage": {
+                    "_attributes": {
+                        "rend": "center"
+                    },
+                    "byline": {
+                        "name": {
+                            "_attributes": {
+                                "type": "person",
+                                "key": "Ferdowsi"
+                            },
+                            "_text": "Ferdowsi"
+                        }
+                    }
+                },
+                "div": {
+                    "head": {
+                        "_attributes": {
+                            "rend": "frontHead"
+                        },
+                        "_text": [
+                            "The Savior Of The ",
+                            " Language"
+                        ],
+                        "name": {
+                            "_attributes": {
+                                "type": "dynastic",
+                                "key": "Persian"
+                            },
+                            "_text": "Persian"
+                        }
+                    },
+                    "figure": {
+                        "graphic": {
+                            "_attributes": {
+                                "url": "images/Ferdosi_Square.png"
+                            }
+                        },
+                        "figDesc": {
+                            "name": {
+                                "_attributes": {
+                                    "type": "person",
+                                    "key": "Ferdowsi"
+                                },
+                                "_text": "Ferdowsi"
+                            },
+                            "_text": " Square"
+                        }
+                    },
+                    "p": {
+                        "name": [
+                            {
+                                "_attributes": {
+                                    "type": "person",
+                                    "key": "Ferdowsi"
+                                },
+                                "_text": "Ferdowsi"
+                            },
+                            {
+                                "_attributes": {
+                                    "type": "dynastic",
+                                    "key": "Persian"
+                                },
+                                "_text": "Persian"
+                            },
+                            {
+                                "_attributes": {
+                                    "type": "place",
+                                    "key": "Iran"
+                                },
+                                "_text": "Iran"
+                            },
+                            {
+                                "_attributes": {
+                                    "type": "person",
+                                    "key": "Ferdowsi"
+                                },
+                                "_text": "Ferdowsi"
+                            },
+                            {
+                                "_attributes": {
+                                    "type": "dynastic",
+                                    "key": "Persian"
+                                },
+                                "_text": "Persian"
+                            },
+                            {
+                                "_attributes": {
+                                    "type": "dynastic",
+                                    "key": "Persian"
+                                },
+                                "_text": "Persian"
+                            },
+                            {
+                                "_attributes": {
+                                    "type": "dynastic",
+                                    "key": "Persian"
+                                },
+                                "_text": "Persian"
+                            }
+                        ],
+                        "_text": [
+                            " was a ",
+                            " poet and the author of \n                    ",
+                            " (\"Book of Kings\"), \n                    which is the world's longest epic poem created by a single poet, \n                    and the national epic of Greater ",
+                            ". \n                    ",
+                            " is celebrated as the most influential figure \n                    in ",
+                            " \n                    literature and one of the greatest in the history of literature. \n                    He was called \"the Lord of the ",
+                            "\" \n                    and \"the Savior of the ",
+                            " Language\"\n                    \n                "
+                        ],
+                        "distinct": {
+                            "_attributes": {
+                                "xml:lang": "fa",
+                                "time": "ancient"
+                            },
+                            "name": {
+                                "_attributes": {
+                                    "type": "book",
+                                    "key": "Shahnameh"
+                                },
+                                "_text": "Shahnameh"
+                            }
+                        }
+                    }
+                }
+            },
+            "body": {
+                "_comment": [
+                    " Chapter 1 ",
+                    " Chapter 2 ",
+                    " Chapter 3 ",
+                    " Chapter 4 ",
+                    " Chapter 5 ",
+                    " Chapter 6 "
+                ],
+                "div": [
+                    {
+                        "_attributes": {
+                            "type": "chapter",
+                            "n": "1"
+                        },
+                        "head": {
+                            "_attributes": {
+                                "rend": "chapterHead"
+                            },
+                            "_text": "Life"
+                        },
+                        "p": [
+                            {
+                                "name": [
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Iranian"
+                                        },
+                                        "_text": "Iranian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Dehqans"
+                                        },
+                                        "_text": "Dehqans"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Paj"
+                                        },
+                                        "_text": "Paj"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Tus"
+                                        },
+                                        "_text": "Tus"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Khorasan"
+                                        },
+                                        "_text": "Khorasan"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Samanid"
+                                        },
+                                        "_text": "Samanid"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Razavi"
+                                        },
+                                        "_text": "Razavi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Khorasan"
+                                        },
+                                        "_text": "Khorasan"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Iran"
+                                        },
+                                        "_text": "Iran"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Dehqans"
+                                        },
+                                        "_text": "Dehqans"
+                                    }
+                                ],
+                                "_text": [
+                                    " was born into a family of \n                    ",
+                                    " landowners (",
+                                    ") \n                    in ",
+                                    " in the village of ",
+                                    ", \n                    near the city of ",
+                                    ", \n                    in the ",
+                                    " region of the \n                    ",
+                                    "s Empire, \n                    which is located in the present-day ",
+                                    " \n                    Province of northeastern ",
+                                    ".        \n                    Little is known about ",
+                                    "'s early life. \n                    The poet had a wife, who was probably literate and came from the same \n                    ",
+                                    " class.\n                    He had a son, who died at the age of ",
+                                    ", and was mourned by the poet in an elegy \n                    which he inserted into the ",
+                                    ".\n                "
+                                ],
+                                "date": {
+                                    "_attributes": {
+                                        "when": "940"
+                                    },
+                                    "_text": "940"
+                                },
+                                "num": {
+                                    "_attributes": {
+                                        "value": "37"
+                                    },
+                                    "_text": "37"
+                                },
+                                "distinct": {
+                                    "_attributes": {
+                                        "xml:lang": "fa",
+                                        "time": "ancient"
+                                    },
+                                    "name": {
+                                        "_attributes": {
+                                            "type": "book",
+                                            "key": "Shahnameh"
+                                        },
+                                        "_text": "Shahnameh"
+                                    }
+                                }
+                            },
+                            {
+                                "name": [
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Dehqans"
+                                        },
+                                        "_text": "Dehqans"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Iranian"
+                                        },
+                                        "_text": "Iranian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Aristocrats"
+                                        },
+                                        "_text": "Aristocrats"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Sassanid"
+                                        },
+                                        "_text": "Sassanid"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Iran"
+                                        },
+                                        "_text": "Iran"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Dehqans"
+                                        },
+                                        "_text": "Dehqans"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Dehqans"
+                                        },
+                                        "_text": "Dehqans"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Iranian"
+                                        },
+                                        "_text": "Iranian"
+                                    }
+                                ],
+                                "_text": [
+                                    " belonged to the class of \n                    ",
+                                    ". \n                    These were landowning ",
+                                    " \n                    who had flourished under the ",
+                                    "s dynasty \n                    (the last pre-Islamic dynasty to rule ",
+                                    ") \n                    and whose power, though diminished, had survived into the Islamic era which followed the Islamic conquests \n                    of the ",
+                                    ". The ",
+                                    " were attached to \n                    the pre-Islamic literary heritage, as their status was associated with it \n                    (so much so that ",
+                                    " is sometimes used as a synonym \n                    for \"",
+                                    "\" in \n                    the ",
+                                    "). \n                    Thus they saw it as their task to preserve the pre-Islamic cultural traditions, \n                    including tales of legendary kings.\n                "
+                                ],
+                                "date": {
+                                    "_text": "7th century"
+                                },
+                                "distinct": {
+                                    "_attributes": {
+                                        "xml:lang": "fa",
+                                        "time": "ancient"
+                                    },
+                                    "name": {
+                                        "_attributes": {
+                                            "type": "book",
+                                            "key": "Shahnameh"
+                                        },
+                                        "_text": "Shahnameh"
+                                    }
+                                }
+                            },
+                            {
+                                "_text": [
+                                    "\n                    The Islamic conquests of the ",
+                                    " brought gradual linguistic and cultural changes \n                    to the ",
+                                    ".\n                    By the late ",
+                                    ", as the power of the \n                    ",
+                                    " had weakened, \n                    several local dynasties emerged in Greater ",
+                                    ".\n                    ",
+                                    " grew up in ",
+                                    ", \n                    a city under the control of one of these dynasties, the ",
+                                    "s, \n                    who claimed descent from the ",
+                                    "s \n                    general ",
+                                    " \n                    (whose story ",
+                                    " recounts in one of the later sections of \n                    the ",
+                                    ").\n                    The ",
+                                    "s bureaucracy used the \n                    New ",
+                                    " language, \n                    which had been used to bring Islam to the Eastern regions of \n                    the ",
+                                    " world and supplanted local languages, \n                    and commissioned translations of ",
+                                    " \n                    (Middle ",
+                                    ") texts into \n                    New ",
+                                    ". \n                    ",
+                                    ", \n                    a ",
+                                    " and governor of ",
+                                    ", \n                    had ordered his minister ",
+                                    " to \n                    invite several local scholars to compile a prose \n                    ",
+                                    " (\"Book of Kings\"), \n                    which was completed in ",
+                                    ".\n                    Although it no longer survives, ",
+                                    " \n                    used it as one of the sources of his epic. ",
+                                    "s rulers were patrons \n                    of such important ",
+                                    " poets as ",
+                                    " and \n                    ",
+                                    ", \n                    and ",
+                                    " followed in the footsteps of these writers.\n                    Details about ",
+                                    "'s education are lacking. \n                    Judging by the ",
+                                    ", \n                    there is no evidence he knew either ",
+                                    " \n                    or ",
+                                    ".\n                "
+                                ],
+                                "date": [
+                                    {
+                                        "_text": "7th century"
+                                    },
+                                    {
+                                        "_text": "9th century"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "when": "1010"
+                                        },
+                                        "_text": "1010"
+                                    }
+                                ],
+                                "name": [
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Iranian"
+                                        },
+                                        "_text": "Iranian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Plateau"
+                                        },
+                                        "_text": "Plateau"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Iran"
+                                        },
+                                        "_text": "Iran"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Tus"
+                                        },
+                                        "_text": "Tus"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Samanid"
+                                        },
+                                        "_text": "Samanid"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Sassanid"
+                                        },
+                                        "_text": "Sassanid"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Bahram"
+                                        },
+                                        "_text": "Bahram"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Samanid"
+                                        },
+                                        "_text": "Samanid"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Iranian"
+                                        },
+                                        "_text": "Iranian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Pahlavi"
+                                        },
+                                        "_text": "Pahlavi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "AbuMansurMuhammad"
+                                        },
+                                        "_text": "Abu Mansur Muhammad"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Dehqans"
+                                        },
+                                        "_text": "Dehqans"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Tus"
+                                        },
+                                        "_text": "Tus"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "AbuMansurMamari"
+                                        },
+                                        "_text": "Abu Mansur Mamari"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Samanid"
+                                        },
+                                        "_text": "Samanid"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Rudaki"
+                                        },
+                                        "_text": "Rudaki"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Daqiqi"
+                                        },
+                                        "_text": "Daqiqi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Arabic"
+                                        },
+                                        "_text": "Arabic"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Pahlavi"
+                                        },
+                                        "_text": "Pahlavi"
+                                    }
+                                ],
+                                "distinct": [
+                                    {
+                                        "_attributes": {
+                                            "xml:lang": "ar-AE",
+                                            "time": "ancient"
+                                        },
+                                        "_text": "caliphate"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "book",
+                                                "key": "Shahnameh"
+                                            },
+                                            "_text": "Shahnameh"
+                                        }
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "book",
+                                                "key": "Shahnameh"
+                                            },
+                                            "_text": "Shahnameh"
+                                        }
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "book",
+                                                "key": "Shahnameh"
+                                            },
+                                            "_text": "Shahnameh"
+                                        }
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "type": "chapter",
+                            "n": "2"
+                        },
+                        "head": {
+                            "_attributes": {
+                                "rend": "chapterHead"
+                            },
+                            "_text": "Life as a poet"
+                        },
+                        "p": [
+                            {
+                                "_text": [
+                                    "\n                    It is possible that ",
+                                    " \n                    wrote some early poems which have not survived. \n                    He began work on the \n                    ",
+                                    " \n                    around ",
+                                    ", \n                    intending it as a continuation of the work of his fellow poet ",
+                                    ",\n                    who had been assassinated by a slave. Like ",
+                                    ", \n                    ",
+                                    " employed the prose \n                    ",
+                                    " \n                    of ",
+                                    " as a source. \n                    He received generous patronage from the ",
+                                    "s \n                    prince, ",
+                                    " and completed the first version of \n                    the ",
+                                    " \n                    in ",
+                                    ".\n                    When the ",
+                                    " \n                    overthrew the ",
+                                    "s in the late ",
+                                    "s, \n                    ",
+                                    " continued to work on the poem, \n                    rewriting sections to praise the ",
+                                    ". \n                "
+                                ],
+                                "name": [
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Daqiqi"
+                                        },
+                                        "_text": "Daqiqi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Daqiqi"
+                                        },
+                                        "_text": "Daqiqi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "AbdAlRazzaq"
+                                        },
+                                        "_text": "Abd Al Razzaq"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Samanid"
+                                        },
+                                        "_text": "Samanid"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Mansur"
+                                        },
+                                        "_text": "Mansur"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Turkic"
+                                        },
+                                        "_text": "Turkic"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Ghaznavids"
+                                        },
+                                        "_text": "Ghaznavids"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Samanid"
+                                        },
+                                        "_text": "Samanid"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Ghaznavids"
+                                        },
+                                        "_text": "Ghaznavids"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "SultanMahmud"
+                                        },
+                                        "distinct": {
+                                            "_attributes": {
+                                                "xml:lang": "fa",
+                                                "time": "ancient"
+                                            },
+                                            "_text": "Sultan"
+                                        },
+                                        "_text": " Mahmud"
+                                    }
+                                ],
+                                "distinct": [
+                                    {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "book",
+                                                "key": "Shahnameh"
+                                            },
+                                            "_text": "Shahnameh"
+                                        }
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "book",
+                                                "key": "Shahnameh"
+                                            },
+                                            "_text": "Shahnameh"
+                                        }
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "book",
+                                                "key": "Shahnameh"
+                                            },
+                                            "_text": "Shahnameh"
+                                        }
+                                    }
+                                ],
+                                "date": [
+                                    {
+                                        "_attributes": {
+                                            "when": "977"
+                                        },
+                                        "_text": "977"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "when": "994"
+                                        },
+                                        "_text": "994"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "when": "990"
+                                        },
+                                        "_text": "990"
+                                    }
+                                ]
+                            },
+                            {
+                                "name": [
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "SultanMahmud"
+                                        },
+                                        "distinct": {
+                                            "_attributes": {
+                                                "xml:lang": "fa",
+                                                "time": "ancient"
+                                            },
+                                            "_text": "Sultan"
+                                        },
+                                        "_text": " Mahmud"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Turkic"
+                                        },
+                                        "_text": "Turkic"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "SultanMahmud"
+                                        },
+                                        "distinct": {
+                                            "_attributes": {
+                                                "xml:lang": "fa",
+                                                "time": "ancient"
+                                            },
+                                            "_text": "Sultan"
+                                        },
+                                        "_text": " Mahmud"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Iranian"
+                                        },
+                                        "_text": "Iranian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Samanid"
+                                        },
+                                        "_text": "Samanid"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    }
+                                ],
+                                "_text": [
+                                    "'s attitude to \n                    ",
+                                    " and \n                    how well he rewarded the poet are matters which have long been \n                    subject to dispute and have formed the basis \n                    of legends about the poet and his patron. The ",
+                                    " \n                    may have been less interested in tales from \n                    ",
+                                    " history than \n                    the ",
+                                    "s. \n                    The later sections of the \n                    ",
+                                    "\n                    have passages which reveal ",
+                                    "'s fluctuating moods, \n                    in some he complains about old age, poverty, illness and the death of his son; \n                    in others, he appears happier. ",
+                                    " \n                    finally completed his epic on ",
+                                    ". \n                    Virtually nothing is known with any certainty about the last decade of his life.\n                "
+                                ],
+                                "distinct": {
+                                    "_attributes": {
+                                        "xml:lang": "fa",
+                                        "time": "ancient"
+                                    },
+                                    "name": {
+                                        "_attributes": {
+                                            "type": "book",
+                                            "key": "Shahnameh"
+                                        },
+                                        "_text": "Shahnameh"
+                                    }
+                                },
+                                "date": {
+                                    "_attributes": {
+                                        "when": "1010-03-08"
+                                    },
+                                    "_text": "8 March 1010"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "type": "chapter",
+                            "n": "3"
+                        },
+                        "head": {
+                            "_attributes": {
+                                "rend": "chapterHead"
+                            },
+                            "_text": "Tomb"
+                        },
+                        "figure": {
+                            "graphic": {
+                                "_attributes": {
+                                    "url": "images/FerdowsiTomb.jpg"
+                                }
+                            },
+                            "figDesc": {
+                                "name": {
+                                    "_attributes": {
+                                        "type": "person",
+                                        "key": "Ferdowsi"
+                                    },
+                                    "_text": "Ferdowsi"
+                                },
+                                "_text": " Tomb"
+                            }
+                        },
+                        "p": [
+                            {
+                                "name": [
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Tus"
+                                        },
+                                        "_text": "Tus"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Ghaznavids"
+                                        },
+                                        "_text": "Ghaznavids"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Khorasan"
+                                        },
+                                        "_text": "Khorasan"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "mausoleum"
+                                        },
+                                        "_text": "mausoleum"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Iran"
+                                        },
+                                        "_text": "Iran"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "RezaShah"
+                                        },
+                                        "_text": "Reza ",
+                                        "distinct": {
+                                            "_attributes": {
+                                                "xml:lang": "fa",
+                                                "time": "ancient"
+                                            },
+                                            "_text": "Shah"
+                                        }
+                                    }
+                                ],
+                                "_text": [
+                                    " was buried in his own garden, \n                    burial in the cemetery of ",
+                                    " having been forbidden \n                    by a local cleric. A ",
+                                    " governor of \n                    ",
+                                    " constructed \n                    a ",
+                                    " over the grave and it became a revered site. \n                    The tomb, which had fallen into decay, was rebuilt between ",
+                                    " and ",
+                                    " by the \n                    Society for the National Heritage of ",
+                                    " \n                    on the orders of ",
+                                    ", \n                    and has now become the equivalent of a national shrine.                    \n                "
+                                ],
+                                "date": [
+                                    {
+                                        "_attributes": {
+                                            "when": "1928"
+                                        },
+                                        "_text": "1928"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "when": "1934"
+                                        },
+                                        "_text": "1934"
+                                    }
+                                ]
+                            },
+                            {
+                                "_text": [
+                                    "\n                    The basic structure of the tomb is rectangular with a large garden \n                    surrounding the structure and interacting with the structure in the \n                    ",
+                                    " style of gardening known as \n                    ",
+                                    " \n                    (translating to four gardens in ",
+                                    "). \n                    In the center of the cross created by the legs of the garden surrounding \n                    it is an edifice made of primarily white marble. \n                    The edifice can be divided into a \"wide chamber\" \n                    that lies at the base and a cubical erection on top, \n                    with four pillars surrounding it and scenes from the epic of \n                    ",
+                                    " \n                    and text ornating it. \n                    The body of the poet is actually interred in the center of the rectangular wide \n                    chamber underneath the overlying four pillars cube.There are ",
+                                    " steps leading \n                    from the lowest point of the wide chamber all the way to the level of the cube. \n                    The wide base has a total height of ",
+                                    "m. \n                    The edifice has equal dimensions of ",
+                                    "m on each side.\n                "
+                                ],
+                                "name": [
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    }
+                                ],
+                                "distinct": [
+                                    {
+                                        "_attributes": {
+                                            "xml:lang": "fa"
+                                        },
+                                        "_text": "CharbBagh"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "book",
+                                                "key": "Shahnameh"
+                                            },
+                                            "_text": "Shahnameh"
+                                        }
+                                    }
+                                ],
+                                "num": [
+                                    {
+                                        "_attributes": {
+                                            "value": "12"
+                                        },
+                                        "_text": "twelve"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "value": "16"
+                                        },
+                                        "_text": "16"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "value": "30"
+                                        },
+                                        "_text": "30"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "type": "chapter",
+                            "n": "4"
+                        },
+                        "head": {
+                            "_attributes": {
+                                "rend": "chapterHead"
+                            },
+                            "_text": "Legend"
+                        },
+                        "p": {
+                            "_text": [
+                                "\n                    According to legend, \n                    ",
+                                " of \n                    ",
+                                " offered \n                    ",
+                                " \n                    a gold piece for every couplet of the \n                    ",
+                                " he wrote. \n                    The poet agreed to receive the money as a lump sum when \n                    he had completed the epic. \n                    He planned to use it to rebuild the dykes in his native \n                    ",
+                                ". \n                    After ",
+                                " years of work, ",
+                                " finished \n                    his masterpiece. \n                    ",
+                                " prepared to give him \n                    ",
+                                " gold pieces, one for every couplet, as agreed. \n                    However, the courtier whom \n                    ",
+                                " \n                    had entrusted with the money despised ",
+                                ", \n                    regarding him as a heretic, and he replaced the gold coins with silver. \n                    ",
+                                " was in the bath house \n                    when he received the reward. Finding it was silver and not gold, \n                    he gave the money away to the bathkeeper, a refreshment seller, \n                    and the slave who had carried the coins. \n                    When the courtier told the \n                    ",
+                                "\n                    about ",
+                                "'s behaviour, \n                    he was furious and threatened to execute him.\n                    ",
+                                " fled \n                    ",
+                                ", having first written a satire on \n                    ",
+                                ", \n                    and spent most of the remainder of his life in exile. \n                    ",
+                                " eventually learned \n                    the truth about the courtier's deception and had him either banished or executed. \n                    By this time, the aged ",
+                                " had returned \n                    to ",
+                                ". \n                    ",
+                                " \n                    sent him a new gift of ",
+                                " gold pieces, but just as the caravan bearing \n                    the money entered the gates of ",
+                                ", \n                    a funeral procession exited the gates on the opposite side \n                    the poet had died from a heart attack.\n                "
+                            ],
+                            "name": [
+                                {
+                                    "_attributes": {
+                                        "type": "person",
+                                        "key": "SultanMahmud"
+                                    },
+                                    "distinct": {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "_text": "Sultan"
+                                    },
+                                    "_text": " Mahmud"
+                                },
+                                {
+                                    "_attributes": {
+                                        "type": "dynastic",
+                                        "key": "Ghazni"
+                                    },
+                                    "_text": "Ghazni"
+                                },
+                                {
+                                    "_attributes": {
+                                        "type": "person",
+                                        "key": "Ferdowsi"
+                                    },
+                                    "_text": "Ferdowsi"
+                                },
+                                {
+                                    "_attributes": {
+                                        "type": "place",
+                                        "key": "Tus"
+                                    },
+                                    "_text": "Tus"
+                                },
+                                {
+                                    "_attributes": {
+                                        "type": "person",
+                                        "key": "Ferdowsi"
+                                    },
+                                    "_text": "Ferdowsi"
+                                },
+                                {
+                                    "_attributes": {
+                                        "type": "person",
+                                        "key": "SultanMahmud"
+                                    },
+                                    "distinct": {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "_text": "Sultan"
+                                    },
+                                    "_text": " Mahmud"
+                                },
+                                {
+                                    "_attributes": {
+                                        "type": "person",
+                                        "key": "SultanMahmud"
+                                    },
+                                    "distinct": {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "_text": "Sultan"
+                                    },
+                                    "_text": " Mahmud"
+                                },
+                                {
+                                    "_attributes": {
+                                        "type": "person",
+                                        "key": "Ferdowsi"
+                                    },
+                                    "_text": "Ferdowsi"
+                                },
+                                {
+                                    "_attributes": {
+                                        "type": "person",
+                                        "key": "Ferdowsi"
+                                    },
+                                    "_text": "Ferdowsi"
+                                },
+                                {
+                                    "_attributes": {
+                                        "type": "person",
+                                        "key": "SultanMahmud"
+                                    },
+                                    "distinct": {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "_text": "Sultan"
+                                    },
+                                    "_text": " Mahmud"
+                                },
+                                {
+                                    "_attributes": {
+                                        "type": "person",
+                                        "key": "Ferdowsi"
+                                    },
+                                    "_text": "Ferdowsi"
+                                },
+                                {
+                                    "_attributes": {
+                                        "type": "person",
+                                        "key": "Ferdowsi"
+                                    },
+                                    "_text": "Ferdowsi"
+                                },
+                                {
+                                    "_attributes": {
+                                        "type": "place",
+                                        "key": "Khorasan"
+                                    },
+                                    "_text": "Khorasan"
+                                },
+                                {
+                                    "_attributes": {
+                                        "type": "person",
+                                        "key": "SultanMahmud"
+                                    },
+                                    "distinct": {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "_text": "Sultan"
+                                    },
+                                    "_text": " Mahmud"
+                                },
+                                {
+                                    "_attributes": {
+                                        "type": "person",
+                                        "key": "SultanMahmud"
+                                    },
+                                    "distinct": {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "_text": "Sultan"
+                                    },
+                                    "_text": " Mahmud"
+                                },
+                                {
+                                    "_attributes": {
+                                        "type": "person",
+                                        "key": "Ferdowsi"
+                                    },
+                                    "_text": "Ferdowsi"
+                                },
+                                {
+                                    "_attributes": {
+                                        "type": "place",
+                                        "key": "Tus"
+                                    },
+                                    "_text": "Tus"
+                                },
+                                {
+                                    "_attributes": {
+                                        "type": "person",
+                                        "key": "SultanMahmud"
+                                    },
+                                    "distinct": {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "_text": "Sultan"
+                                    },
+                                    "_text": " Mahmud"
+                                },
+                                {
+                                    "_attributes": {
+                                        "type": "place",
+                                        "key": "Tus"
+                                    },
+                                    "_text": "Tus"
+                                }
+                            ],
+                            "distinct": {
+                                "_attributes": {
+                                    "xml:lang": "fa",
+                                    "time": "ancient"
+                                },
+                                "name": {
+                                    "_attributes": {
+                                        "type": "book",
+                                        "key": "Shahnameh"
+                                    },
+                                    "_text": "Shahnameh"
+                                }
+                            },
+                            "num": [
+                                {
+                                    "_attributes": {
+                                        "value": "30"
+                                    },
+                                    "_text": "thirty"
+                                },
+                                {
+                                    "_attributes": {
+                                        "value": "60000"
+                                    },
+                                    "_text": "60,000"
+                                },
+                                {
+                                    "_attributes": {
+                                        "value": "60000"
+                                    },
+                                    "_text": "60,000"
+                                }
+                            ]
+                        }
+                    },
+                    {
+                        "_attributes": {
+                            "type": "chapter",
+                            "n": "5"
+                        },
+                        "head": {
+                            "_attributes": {
+                                "rend": "chapterHead"
+                            },
+                            "distinct": {
+                                "_attributes": {
+                                    "xml:lang": "fa",
+                                    "time": "ancient"
+                                },
+                                "name": {
+                                    "_attributes": {
+                                        "type": "book",
+                                        "key": "Shahnameh"
+                                    },
+                                    "_text": "Shahnameh"
+                                }
+                            }
+                        },
+                        "figure": {
+                            "graphic": {
+                                "_attributes": {
+                                    "url": "images/shahnameh.jpg"
+                                }
+                            },
+                            "figDesc": {
+                                "distinct": {
+                                    "_attributes": {
+                                        "xml:lang": "fa",
+                                        "time": "ancient"
+                                    },
+                                    "name": {
+                                        "_attributes": {
+                                            "type": "book",
+                                            "key": "Shahnameh"
+                                        },
+                                        "_text": "Shahnameh"
+                                    }
+                                }
+                            }
+                        },
+                        "p": [
+                            {
+                                "name": [
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Iran"
+                                        },
+                                        "_text": "Iran"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    }
+                                ],
+                                "_text": [
+                                    "'s \n                    ",
+                                    " is the most popular \n                    and influential national epic in ",
+                                    " \n                    and other ",
+                                    "-speaking nations. \n                    The ",
+                                    " \n                    is the only surviving work by ",
+                                    " \n                    regarded as indisputably genuine. He may have written poems earlier in his life \n                    but they no longer exist\n                "
+                                ],
+                                "distinct": [
+                                    {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "book",
+                                                "key": "Shahnameh"
+                                            },
+                                            "_text": "Shahnameh"
+                                        }
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "book",
+                                                "key": "Shahnameh"
+                                            },
+                                            "_text": "Shahnameh"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "_text": [
+                                    "\n                    The ",
+                                    " \n                    provides a poetic account of the prehistory and history of ",
+                                    ", \n                    beginning with the creation of the world and the introduction of the arts of civilization \n                    (fire, cooking, metallurgy, law), and ending with the Islamic Conquest \n                    of ",
+                                    ".                            \n                    The work is divided into three parts: the \"mythical\", \"heroic\", and \"historical\" ages.                                        \n                "
+                                ],
+                                "distinct": {
+                                    "_attributes": {
+                                        "xml:lang": "fa",
+                                        "time": "ancient"
+                                    },
+                                    "name": {
+                                        "_attributes": {
+                                            "type": "book",
+                                            "key": "Shahnameh"
+                                        },
+                                        "_text": "Shahnameh"
+                                    }
+                                },
+                                "name": [
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Iran"
+                                        },
+                                        "_text": "Iran"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Persia"
+                                        },
+                                        "_text": "Persia"
+                                    }
+                                ]
+                            },
+                            {
+                                "_text": [
+                                    "\n                    Mythical age portion of the \n                    ",
+                                    " is relatively short, \n                    amounting to some ",
+                                    " verses or ",
+                                    " percent of the entire book, \n                    and it narrates events with the simplicity, predictability, and swiftness of a historical work.                    \n                    After an opening in praise of God and Wisdom, \n                    the ",
+                                    " \n                    gives an account of the creation of the world and of man as believed by the \n                    ",
+                                    "s. \n                    This introduction is followed by the story of the first man, \n                    ",
+                                    ", \n                    who also became the first king after a period of mountain dwelling. \n                    His grandson ",
+                                    ", \n                    son of ",
+                                    ", \n                    accidentally discovered fire and established the \n                    ",
+                                    " Feast in its honor. \n                    Stories of ",
+                                    ", \n                    ",
+                                    ", \n                    ",
+                                    ", \n                    ",
+                                    " or \n                    ",
+                                    ", \n                    ",
+                                    " and his three sons \n                    ",
+                                    ", \n                    ",
+                                    ", and \n                    ",
+                                    ", and his grandson \n                    ",
+                                    " are related in this section.\n                "
+                                ],
+                                "distinct": [
+                                    {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "book",
+                                                "key": "Shahnameh"
+                                            },
+                                            "_text": "Shahnameh"
+                                        }
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "book",
+                                                "key": "Shahnameh"
+                                            },
+                                            "_text": "Shahnameh"
+                                        }
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "_text": "Sadeh"
+                                    }
+                                ],
+                                "num": [
+                                    {
+                                        "_attributes": {
+                                            "value": "2100"
+                                        },
+                                        "_text": "2,100"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "value": "4"
+                                        },
+                                        "_text": "four"
+                                    }
+                                ],
+                                "name": [
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Sassanid"
+                                        },
+                                        "_text": "Sassanid"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Keyumars"
+                                        },
+                                        "_text": "Keyumars"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Hushang"
+                                        },
+                                        "_text": "Hushang"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Siyamak"
+                                        },
+                                        "_text": "Siyamak"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Tahmuras"
+                                        },
+                                        "_text": "Tahmuras"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Jamshid"
+                                        },
+                                        "_text": "Jamshid"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Zahhak"
+                                        },
+                                        "_text": "Zahhak"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Kawa"
+                                        },
+                                        "_text": "Kawa"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Kaveh"
+                                        },
+                                        "_text": "Kaveh"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Fereydun"
+                                        },
+                                        "_text": "Fereydun"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Salm"
+                                        },
+                                        "_text": "Salm"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Tur"
+                                        },
+                                        "_text": "Tur"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Iraj"
+                                        },
+                                        "_text": "Iraj"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Manuchehr"
+                                        },
+                                        "_text": "Manuchehr"
+                                    }
+                                ]
+                            },
+                            {
+                                "_text": [
+                                    "\n                    Almost ",
+                                    "-",
+                                    " of the \n                    ",
+                                    " \n                    is devoted to the age of heroes, extending from \n                    ",
+                                    "'s \n                    reign until the conquest of \n                    ",
+                                    " the Great \n                    (",
+                                    "). \n                    The main feature of this period is the major role played by the \n                    ",
+                                    " or \n                    ",
+                                    " heroes \n                    who appear as the backbone of the ",
+                                    " Empire. \n                    ",
+                                    " is briefly mentioned with \n                    his son ",
+                                    ", \n                    whose own son ",
+                                    " acted as the leading paladin of \n                    ",
+                                    " while reigning in \n                    ",
+                                    " in his own right. \n                    His successors were his son ",
+                                    " \n                    and ",
+                                    "'s son \n                    ",
+                                    ", \n                    the bravest of the brave, and then \n                    ",
+                                    ".                    \n                    Among the stories described in this section are the romance of \n                    ",
+                                    " and \n                    ",
+                                    ", the ",
+                                    " Stages (or Labors) of \n                    ",
+                                    ",\n                    ",
+                                    " and \n                    ",
+                                    ", \n                    ",
+                                    " and ",
+                                    ", \n                    ",
+                                    " and \n                    ",
+                                    ", the romance of \n                    ",
+                                    " and ",
+                                    ", \n                    the wars with ",
+                                    ", \n                    ",
+                                    "'s account of the story of \n                    ",
+                                    " and \n                    ",
+                                    ", \n                    and ",
+                                    " and \n                    ",
+                                    ".\n                    A brief mention of the ",
+                                    " dynasty \n                    follows the history of ",
+                                    " and \n                    precedes that of ",
+                                    ", \n                    founder of the ",
+                                    "s Empire. \n                    After this, ",
+                                    "s history is \n                    related with a good deal of accuracy. \n                    The fall of the ",
+                                    "s and \n                    the ",
+                                    " conquest of \n                    ",
+                                    " are narrated romantically.                \n                "
+                                ],
+                                "num": [
+                                    {
+                                        "_attributes": {
+                                            "value": "2"
+                                        },
+                                        "_text": "two"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "value": "3"
+                                        },
+                                        "_text": "thirds"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "value": "7"
+                                        },
+                                        "_text": "Seven"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "value": "1"
+                                        },
+                                        "_text": "I"
+                                    }
+                                ],
+                                "distinct": {
+                                    "_attributes": {
+                                        "xml:lang": "fa",
+                                        "time": "ancient"
+                                    },
+                                    "name": {
+                                        "_attributes": {
+                                            "type": "book",
+                                            "key": "Shahnameh"
+                                        },
+                                        "_text": "Shahnameh"
+                                    }
+                                },
+                                "name": [
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Manuchehr"
+                                        },
+                                        "_text": "Manuchehr"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Alexander"
+                                        },
+                                        "_text": "Alexander"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Eskandar"
+                                        },
+                                        "_text": "Eskandar"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Saka"
+                                        },
+                                        "_text": "Saka"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Sistan"
+                                        },
+                                        "_text": "Sistan"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Garshasp"
+                                        },
+                                        "_text": "Garshasp"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Nariman"
+                                        },
+                                        "_text": "Nariman"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Sam"
+                                        },
+                                        "_text": "Sam"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Manuchehr"
+                                        },
+                                        "_text": "Manuchehr"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Sistan"
+                                        },
+                                        "_text": "Sistan"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Zal"
+                                        },
+                                        "_text": "Zal"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Zal"
+                                        },
+                                        "_text": "Zal"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Faramarz"
+                                        },
+                                        "_text": "Faramarz"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Zal"
+                                        },
+                                        "_text": "Zal"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Rudaba"
+                                        },
+                                        "_text": "Rudaba"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Sohrab"
+                                        },
+                                        "_text": "Sohrab"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Siyavash"
+                                        },
+                                        "_text": "Siyavash"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Sudaba"
+                                        },
+                                        "_text": "Sudaba"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "AkvanDiv"
+                                        },
+                                        "_text": "Akvan Div"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Bijan"
+                                        },
+                                        "_text": "Bijan"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Manijeh"
+                                        },
+                                        "_text": "Manijeh"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Afrasiyab"
+                                        },
+                                        "_text": "Afrasiyab"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Daqiqi"
+                                        },
+                                        "_text": "Daqiqi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Goshtasp"
+                                        },
+                                        "_text": "Goshtasp"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Arjasp"
+                                        },
+                                        "_text": "Arjasp"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Esfandyar"
+                                        },
+                                        "_text": "Esfandyar"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Arsacid"
+                                        },
+                                        "_text": "Arsacid"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Alexander"
+                                        },
+                                        "_text": "Alexander"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ardashir"
+                                        },
+                                        "_text": "Ardashir"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Sassanid"
+                                        },
+                                        "_text": "Sassanid"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Sassanid"
+                                        },
+                                        "_text": "Sassanid"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Sassanid"
+                                        },
+                                        "_text": "Sassanid"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Arabic"
+                                        },
+                                        "_text": "Arabic"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Persia"
+                                        },
+                                        "_text": "Persia"
+                                    }
+                                ],
+                                "emph": [
+                                    {
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "person",
+                                                "key": "Rostam"
+                                            },
+                                            "_text": "Rostam"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "person",
+                                                "key": "Rostam"
+                                            },
+                                            "_text": "Rostam"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "person",
+                                                "key": "Rostam"
+                                            },
+                                            "_text": " Rostam"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "person",
+                                                "key": "Rostam"
+                                            },
+                                            "_text": "Rostam"
+                                        }
+                                    },
+                                    {
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "person",
+                                                "key": "Rostam"
+                                            },
+                                            "_text": "Rostam"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": [
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Sassanid"
+                                        },
+                                        "_text": "Sassanid"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Keyumars"
+                                        },
+                                        "_text": "Keyumars"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Yazdegerd"
+                                        },
+                                        "_text": "Yazdegerd"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Iran"
+                                        },
+                                        "_text": "Iran"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "JalalKhaleghiMutlaq"
+                                        },
+                                        "_text": "Jalal Khaleghi Mutlaq"
+                                    }
+                                ],
+                                "_text": [
+                                    " did not expect his readers \n                    to pass over historical events indifferently, but asked them to think carefully, \n                    to see the grounds for the rise and fall of individuals and nations; \n                    and to learn from the past in order to improve the present, \n                    and to better shape the future.\n                    ",
+                                    " stresses his belief that \n                    since the world is transient, and since everyone is merely a passerby, \n                    one is wise to avoid cruelty, lying, avarice, and other evils; \n                    instead one should strive for justice, honor, truth, order, and other virtues. \n                    The singular message that the \n                    ",
+                                    " of \n                    ",
+                                    " strives to convey is \n                    the idea that the history of \n                    the ",
+                                    "s Empire was a complete \n                    and immutable whole. It started with ",
+                                    ", \n                    the ",
+                                    " man, and ended with his ",
+                                    " scion and successor, \n                    ",
+                                    ", \n                    ",
+                                    " years \n                    of history of ",
+                                    ". \n                    The task of ",
+                                    " was to prevent \n                    this history from being lost to \n                    future ",
+                                    " generations.\n                    \n                    According to ",
+                                    ", \n                    the ",
+                                    " \n                    teaches a wide variety of moral virtues, like worship of one God; patriotism; \n                    love of wife, family and children; and helping the poor.\n                "
+                                ],
+                                "distinct": [
+                                    {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "book",
+                                                "key": "Shahnameh"
+                                            },
+                                            "_text": "Shahnameh"
+                                        }
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "book",
+                                                "key": "Shahnameh"
+                                            },
+                                            "_text": "Shahnameh"
+                                        }
+                                    }
+                                ],
+                                "num": [
+                                    {
+                                        "_attributes": {
+                                            "value": "1"
+                                        },
+                                        "_text": "first"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "value": "50"
+                                        },
+                                        "_text": "fiftieth"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "value": "3"
+                                        },
+                                        "_text": "III"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "value": "6"
+                                        },
+                                        "_text": "six"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "value": "1000"
+                                        },
+                                        "_text": "thousand"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "_attributes": {
+                            "type": "chapter",
+                            "n": "6"
+                        },
+                        "head": {
+                            "_attributes": {
+                                "rend": "chapterHead"
+                            },
+                            "_text": "Influence"
+                        },
+                        "p": [
+                            {
+                                "name": [
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    }
+                                ],
+                                "_text": [
+                                    " is one of the undisputed giants of \n                    ",
+                                    " literature. \n                    After ",
+                                    "'s \n                    ",
+                                    ", \n                    a number of other works similar in nature surfaced over the centuries within \n                    the cultural sphere of the ",
+                                    " language. \n                    Without exception, all such works were based in \n                    style and method on ",
+                                    "'s \n                    ",
+                                    ", \n                    but none of them could quite achieve the same degree of fame and popularity \n                    as ",
+                                    "'s masterpiece.\n                "
+                                ],
+                                "distinct": [
+                                    {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "book",
+                                                "key": "Shahnameh"
+                                            },
+                                            "_text": "Shahnameh"
+                                        }
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "xml:lang": "fa",
+                                            "time": "ancient"
+                                        },
+                                        "name": {
+                                            "_attributes": {
+                                                "type": "book",
+                                                "key": "Shahnameh"
+                                            },
+                                            "_text": "Shahnameh"
+                                        }
+                                    }
+                                ]
+                            },
+                            {
+                                "name": [
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Nizami"
+                                        },
+                                        "_text": "Nizami"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Khayyam"
+                                        },
+                                        "_text": "Khayyam"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynasti",
+                                            "key": "Iranian"
+                                        },
+                                        "_text": "Iranians"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    }
+                                ],
+                                "_text": [
+                                    " has a unique place \n                    in ",
+                                    " history because of \n                    the strides he made in reviving and regenerating \n                    the ",
+                                    " language and cultural traditions. \n                    His works are cited as a crucial component in the persistence of \n                    the ",
+                                    " language, \n                    as those works allowed much of the tongue to remain codified and intact. \n                    In this respect, ",
+                                    " surpasses \n                    ",
+                                    ", \n                    ",
+                                    ", \n                    and other seminal ",
+                                    " \n                    literary figures in his impact on \n                    ",
+                                    " culture and language.\n                    Many modern ",
+                                    " see him as \n                    the father of the modern ",
+                                    " language.\n                "
+                                ]
+                            },
+                            {
+                                "name": [
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "RezaShah"
+                                        },
+                                        "_text": "Reza ",
+                                        "distinct": {
+                                            "_attributes": {
+                                                "xml:lang": "fa",
+                                                "time": "ancient"
+                                            },
+                                            "_text": "Shah"
+                                        }
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Pahlavi"
+                                        },
+                                        "_text": "Pahlavi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Arabic"
+                                        },
+                                        "_text": "Arabic"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "French"
+                                        },
+                                        "_text": "French"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "RezaShah"
+                                        },
+                                        "_text": "Reza ",
+                                        "distinct": {
+                                            "_attributes": {
+                                                "xml:lang": "fa",
+                                                "time": "ancient"
+                                            },
+                                            "_text": "Shah"
+                                        }
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Mashhad"
+                                        },
+                                        "_text": "Mashhad"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Khorasan"
+                                        },
+                                        "_text": "Khorasan"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Iranian"
+                                        },
+                                        "_text": "Iranian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "place",
+                                            "key": "Mashhad"
+                                        },
+                                        "_text": "Mashhad"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    }
+                                ],
+                                "_text": [
+                                    " in fact was a \n                    motivation behind many future ",
+                                    " figures. \n                    One such notable figure was \n                    ",
+                                    ", \n                    who established an Academy of ",
+                                    " Language \n                    and Literature, in order to attempt to remove ",
+                                    " \n                    and ",
+                                    " words from \n                    the ",
+                                    " language, \n                    replacing them with suitable ",
+                                    " alternatives. \n                    In ",
+                                    ", \n                    ",
+                                    " \n                    set up a ceremony in ",
+                                    ", \n                    ",
+                                    ", \n                    celebrating a ",
+                                    " years of \n                    ",
+                                    " literature \n                    since the time of ",
+                                    ", \n                    titled \"",
+                                    " Celebration\", \n                    inviting notable European as well as ",
+                                    " scholars.\n                    ",
+                                    " University of \n                    ",
+                                    " is a university established in ",
+                                    " that \n                    also takes its name from ",
+                                    ".\n                "
+                                ],
+                                "date": {
+                                    "_attributes": {
+                                        "when": "1934"
+                                    },
+                                    "_text": "1934"
+                                },
+                                "num": [
+                                    {
+                                        "_attributes": {
+                                            "value": "1000"
+                                        },
+                                        "_text": "thousand"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "value": "1000"
+                                        },
+                                        "_text": "Millennial"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "value": "1949"
+                                        },
+                                        "_text": "1949"
+                                    }
+                                ]
+                            },
+                            {
+                                "_text": [
+                                    "\n                    The ",
+                                    "s \n                    regard ",
+                                    " as the greatest of their poets. \n                    For nearly a ",
+                                    " years they have continued to read and to listen \n                    to recitations from his masterwork, \n                    the ",
+                                    ", \n                    in which the ",
+                                    " national epic found its \n                    final and enduring form. Though written about ",
+                                    " years ago, \n                    this work is as intelligible to the average, modern ",
+                                    " \n                    as the King ",
+                                    " Version of the Bible \n                    is to a modern English-speaker. The language, based as the poem is on a \n                    ",
+                                    " original, \n                    is pure ",
+                                    " \n                    with no admixture of ",
+                                    ".\n                "
+                                ],
+                                "name": [
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "Ferdowsi"
+                                        },
+                                        "_text": "Ferdowsi"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Iranian"
+                                        },
+                                        "_text": "Iranian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "person",
+                                            "key": "James"
+                                        },
+                                        "_text": "James"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Dari"
+                                        },
+                                        "_text": "Dari"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Persian"
+                                        },
+                                        "_text": "Persian"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "type": "dynastic",
+                                            "key": "Arabic"
+                                        },
+                                        "_text": "Arabic"
+                                    }
+                                ],
+                                "num": [
+                                    {
+                                        "_attributes": {
+                                            "value": "1000"
+                                        },
+                                        "_text": "thousand"
+                                    },
+                                    {
+                                        "_attributes": {
+                                            "value": "1000"
+                                        },
+                                        "_text": "1,000"
+                                    }
+                                ],
+                                "distinct": {
+                                    "_attributes": {
+                                        "xml:lang": "fa",
+                                        "time": "ancient"
+                                    },
+                                    "name": {
+                                        "_attributes": {
+                                            "type": "book",
+                                            "key": "Shahnameh"
+                                        },
+                                        "_text": "Shahnameh"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}
