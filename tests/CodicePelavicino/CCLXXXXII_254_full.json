@@ -1,0 +1,1206 @@
+{
+    "declaration": {
+        "attributes": {
+            "version": "1.0",
+            "encoding": "UTF-8"
+        }
+    },
+    "elements": [
+        {
+            "type": "instruction",
+            "name": "xml-model",
+            "instruction": "href=\"../schema/tei_cp.rng\" type=\"application/xml\" schematypens=\"http://relaxng.org/ns/structure/1.0\""
+        },
+        {
+            "type": "element",
+            "name": "TEI",
+            "attributes": {
+                "xmlns": "http://www.tei-c.org/ns/1.0"
+            },
+            "elements": [
+                {
+                    "type": "element",
+                    "name": "teiHeader",
+                    "elements": [
+                        {
+                            "type": "element",
+                            "name": "fileDesc",
+                            "elements": [
+                                {
+                                    "type": "element",
+                                    "name": "titleStmt",
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "title"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "publicationStmt",
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "publisher"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "sourceDesc",
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "msDesc",
+                                            "elements": [
+                                                {
+                                                    "type": "element",
+                                                    "name": "msIdentifier"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "element",
+                    "name": "text",
+                    "attributes": {
+                        "xml:id": "CCLXXXXII_254"
+                    },
+                    "elements": [
+                        {
+                            "type": "element",
+                            "name": "front",
+                            "attributes": {
+                                "xml:id": "CCLXXXXII_front"
+                            },
+                            "elements": [
+                                {
+                                    "type": "element",
+                                    "name": "titlePart",
+                                    "attributes": {
+                                        "type": "numerazioneNuova"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "254"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "titlePart",
+                                    "attributes": {
+                                        "type": "numerazioneOrig"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "text",
+                                            "text": "CCLXXXXII"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "docDate",
+                                    "attributes": {
+                                        "xml:id": "CCLXXXXII_docDate"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "date",
+                                            "attributes": {
+                                                "when": "1258-05-05"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "1258 maggio 5"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "text",
+                                            "text": ", "
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "placeName",
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Carrara ("
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "term",
+                                                    "attributes": {
+                                                        "xml:lang": "latin"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Carrarie, in domo Cumçaferri de Marçasio"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ")"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "div",
+                                    "attributes": {
+                                        "type": "regesto",
+                                        "xml:id": "CCLXXXXII_regesto"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "p",
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Bonacorso del fu Levacastello di Buzzano vende a Guglielmo, vescovo di Luni, i suoi\n          villani Durante e Migliore, fratelli, del fu Bonaiuta di Castelnuovo. Nella vendita sono\n          compresi il fitto di due stai di frumento e 6 denari che i due fratelli davano a Bonacorso\n          annualmente. Il prezzo è di 20 lire in denari minuti lucchesi. Il venditore s’impegna a\n          difendere la vendita, rispondendone con i propri beni, dalle rivendicazioni di chiunque e\n          in special modo di suo nipote Paganello, figlio del fu Pietro, che era stato suo figlio,\n          degli altri eredi di Pietro e di suo nipote, Lanfranchino di Petrognano."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "element",
+                                    "name": "div",
+                                    "attributes": {
+                                        "type": "footer",
+                                        "xml:id": "CCLXXXXII_footer"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "div",
+                                            "attributes": {
+                                                "type": "orig_doc"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "element",
+                                                    "name": "p",
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Copia [C] CP c. 279r., c. CCLXXIr. secondo la numerazione originale."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "div",
+                                            "attributes": {
+                                                "type": "biblio"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "element",
+                                                    "name": "p",
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Edizione parziale in "
+                                                        },
+                                                        {
+                                                            "type": "element",
+                                                            "name": "ref",
+                                                            "attributes": {
+                                                                "target": "#LUPO_GENTILE_1912"
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "LUPO GENTILE 1912"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "text",
+                                                            "text": ", n. 292,\n            pp. 265-266."
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "div",
+                                            "attributes": {
+                                                "type": "crit_notes"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "element",
+                                                    "name": "note"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "div",
+                                            "attributes": {
+                                                "type": "appr"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "element",
+                                                    "name": "p",
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Nell'indice del codice (doc. 1) il documento è titolato "
+                                                        },
+                                                        {
+                                                            "type": "element",
+                                                            "name": "term",
+                                                            "attributes": {
+                                                                "xml:lang": "latin"
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "CCLXXXXII. Emptionis Durantis et Melioris villanis cum II stariis frumenti ficti et\n              cum denariis VI pensionis a domino Bonacurso de Buçano."
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "element",
+                            "name": "body",
+                            "elements": [
+                                {
+                                    "type": "element",
+                                    "name": "div",
+                                    "attributes": {
+                                        "xml:id": "CCLXXXXII_div"
+                                    },
+                                    "elements": [
+                                        {
+                                            "type": "element",
+                                            "name": "p",
+                                            "attributes": {
+                                                "xml:id": "CCLXXXXII_p_001",
+                                                "n": "1"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "element",
+                                                    "name": "pb",
+                                                    "attributes": {
+                                                        "n": "279r",
+                                                        "xml:id": "fol_279r"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "In Dei nomine, amen."
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "date",
+                                                    "attributes": {
+                                                        "when": "1258-05-05"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": " Anno a nativitate Eius millesimo CCLVIII, indictione Iª, V intrantis\n            maii"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ". Dominus "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#BonacursusLevacastelli"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Bonacursus quondam\n            Levacastelli de "
+                                                        },
+                                                        {
+                                                            "type": "element",
+                                                            "name": "placeName",
+                                                            "attributes": {
+                                                                "ref": "#Buçano"
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "Buçano"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " per se suosque\n          heredes vendidit, dedit et tradidit venerabili patri domino "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#GuilEpLuni"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Guilielmo, Dei gratia "
+                                                        },
+                                                        {
+                                                            "type": "element",
+                                                            "name": "roleName",
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "Lunensi episcopo"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", recipienti pro\n          se suisque successoribus nomine episcopatus, "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#DuransBonaiute"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Durantem"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " et "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#MeliorBonaiute"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Meliorem"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", fratres,\n          quondam Bonaiute de "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "placeName",
+                                                    "attributes": {
+                                                        "ref": "#Castelnuovo"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Castronovo"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", villanos suos,\n          cum duobus stariis frumenti et "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "measure",
+                                                    "attributes": {
+                                                        "quantity": "6",
+                                                        "unit": "denarius"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "VI\n          denariis"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", quod frumentum et denarios idem dominus "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#BonacursusLevacastelli"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Bonacursus"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " recipiebat et recipere debebat ab\n          eisdem fratribus annuatim nomine ficti et pensionis, quod frumentum et denarios et ipsos\n          fratres, sicut confitebatur publice, a Lunensi curia in feudum detinebat, cedendo et dando\n          eidem domino episcopo, recipienti ut dictum est, omne dominium, proprietatem, usum et\n          utilitatem, amasiamentum et dismasiamentum, accessus et regressus, superiora et inferiora,\n          actiones et rationes, utiles et directas, reales et personales seu mixtas, sibi\n          competentes et competentia seu competitura in dictis fratribus, ficto et pensione,\n          faciendo eundem dominum episcopum procuratorem et dominum in rem suam, ita ut ex hiis\n          omnibus et singulis ipse dominus episcopus suique successores et cui dederint vel\n          commiserint possint agere et experiri, tueri, causari et deffendere suo proprio nomine\n          directo et utiliter adversus quamcumque personam et locum et exinde facere quicquid\n          voluerint, sine contradictione dicti domini "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#BonacursusLevacastelli"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Bonacursi"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " et heredum eius vel alterius persone, dando eidem domino episcopo\n          licenciam intrandi in tenutam et possessionem accipiendi suprascriptorum omnium et\n          singulorum, quandocumque voluerit, sua auctoritate. Pro precio quorum fuit confessus\n          suprascriptus dominus "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#BonacursusLevacastelli"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Bonacursus"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " se\n          recepisse et habuisse a suprascripto domino episcopo "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "measure",
+                                                    "attributes": {
+                                                        "type": "Lucenses",
+                                                        "quantity": "20",
+                                                        "unit": "libra"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "libras XX lucensium denariorum"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " minutorum,\n          renunciando exceptioni non numerate pecunie et precii integre non habiti et soluti et omni\n          alii iuri et legum auxilio. Et fuit confessus idem dominus "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#BonacursusLevacastelli"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Bonacursus"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " quod predicta omnia valebant plus\n          precio suprascripto, unde totum et quicquid plus valebant, eidem domino episcopo donavit\n          titulo pure ac simplicis donationis inter vivos, et renunciavit specialiter illi legi que\n          iuvat deceptos in vendictionibus ultra dimidiam iusti precii. Insuper dominus "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#BonacursusLevacastelli"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Bonacursus"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " per se suosque heredes promisit et\n          convenit dicto domino episcopo, recipienti ut dictum est, dictos "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#DuransBonaiute"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Durantem"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " et "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#MeliorBonaiute"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Meliorem"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", frumentum et denarios suprascriptum et suprascriptos non imbrigare\n          vel molestare deinceps, immo ipsos et ea omnia deffendere et exbrigare cum ratione ab omni\n          molestante persona et loco, et specialiter a "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#PaganellusPetri"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Paganello\n            quondam Petri"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", olim filii sui, et ab aliis heredibus ipsius "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#PetrusBonacursi"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Petri"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " et a "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#LanfranchinusPetrognano"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Lanfranchino, nepote suo, de "
+                                                        },
+                                                        {
+                                                            "type": "element",
+                                                            "name": "placeName",
+                                                            "attributes": {
+                                                                "ref": "#Petrognano"
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "Petrognano"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", quem"
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "note",
+                                                    "attributes": {
+                                                        "xml:id": "CCLXXXXII_n_002",
+                                                        "n": "b",
+                                                        "place": "foot"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "element",
+                                                            "name": "term",
+                                                            "attributes": {
+                                                                "type": "incerto"
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "quem"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "text",
+                                                            "text": ": "
+                                                        },
+                                                        {
+                                                            "type": "element",
+                                                            "name": "emph",
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "così nel testo"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "text",
+                                                            "text": "."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "\n          dicebat habere partem in "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "measure",
+                                                    "attributes": {
+                                                        "quantity": "6",
+                                                        "unit": "denarius"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "VI denariis\n            suprascriptis"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": "; quod, si non faceret vel non posset, salvum cambium ei inde\n          dare promisit in bonis suis, sub extimatione bonorum hominum, remittendo et condonando\n          eisdem fratribus omnem offensam et iniuriam quibus posset contra ipsos procedere aliquo\n          modo vel iure et omne frastegnimentum"
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "note",
+                                                    "attributes": {
+                                                        "xml:id": "CCLXXXXII_n_001",
+                                                        "n": "a",
+                                                        "place": "foot"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "element",
+                                                            "name": "term",
+                                                            "attributes": {
+                                                                "xml:lang": "latin"
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "frastegnimentum"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "text",
+                                                            "text": ": "
+                                                        },
+                                                        {
+                                                            "type": "element",
+                                                            "name": "emph",
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "la prima"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "text",
+                                                            "text": " e "
+                                                        },
+                                                        {
+                                                            "type": "element",
+                                                            "name": "emph",
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "corretta\n              su"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "text",
+                                                            "text": " i."
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " sive solutionem quam eidem domino "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#BonacursusLevacastelli"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Bonacurso"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " facere deberent seu retinuissent de\n          predictis frumento et denariis olim, et eos de hoc penitus absolvit et liberavit. Hanc\n          autem vendictionem et omnia et singula suprascripta suprascriptus dominus "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#BonacursusLevacastelli"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Bonacursus"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " per se suosque heredes et pro\n          suprascriptis "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#PaganellusPetri"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Paganello"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " et "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#LanfranchinusPetrognano"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Lanfranchino"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " promisit et convenit suprascripto\n          domino episcopo, recipienti ut dictum est, attendere et observare et in nullo contravenire\n          de iure vel de facto, sub pena "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "measure",
+                                                    "attributes": {
+                                                        "type": "lucenses",
+                                                        "quantity": "40",
+                                                        "unit": "libra"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "XL\n            librarum lucensium"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", quam dare et solvere promisit eidem domino episcopo et cui\n          dederit vel commiserit tociens quociens fuerit contraventum et pro quolibet capitulo non\n          observato; et, pena soluta, suprascriptis omnibus et singulis nichillominus semper firmis,\n          obligando se ad hec attendenda suosque heredes et predictos "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#PaganellusPetri"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Paganellum"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " et "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#LanfranchinusPetrognano"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Lanfranchinum"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " et sua et eorum bona, renunciando omni iuri et legibus quibus\n          contra predicta vel aliquod predictorum possent ullo tempore facere vel venire."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "p",
+                                            "attributes": {
+                                                "xml:id": "CCLXXXXII_p_002",
+                                                "n": "2"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "text",
+                                                    "text": "Actum "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "placeName",
+                                                    "attributes": {
+                                                        "ref": "#Carrara"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Carrarie"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", in\n          domo "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#CumçaferrusMarçasio"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Cumçaferri de "
+                                                        },
+                                                        {
+                                                            "type": "element",
+                                                            "name": "placeName",
+                                                            "attributes": {
+                                                                "ref": "#Marciaso"
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "Marçasio"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", presentibus "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#Gerardusarc"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "element",
+                                                            "name": "roleName",
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "magistro"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "text",
+                                                            "text": " Gerardo "
+                                                        },
+                                                        {
+                                                            "type": "element",
+                                                            "name": "roleName",
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "archipresbytero"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "text",
+                                                            "text": " de\n              "
+                                                        },
+                                                        {
+                                                            "type": "element",
+                                                            "name": "placeName",
+                                                            "attributes": {
+                                                                "ref": "#Marnasco"
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "type": "element",
+                                                                    "name": "orgName",
+                                                                    "attributes": {
+                                                                        "ref": "#Marinasco_S_Stefano"
+                                                                    },
+                                                                    "elements": [
+                                                                        {
+                                                                            "type": "text",
+                                                                            "text": "Marnasco"
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#Saladinusarc"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "element",
+                                                            "name": "roleName",
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "magistro"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "text",
+                                                            "text": " Saladino "
+                                                        },
+                                                        {
+                                                            "type": "element",
+                                                            "name": "roleName",
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "archipresbytero"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "text",
+                                                            "text": " de\n              "
+                                                        },
+                                                        {
+                                                            "type": "element",
+                                                            "name": "placeName",
+                                                            "attributes": {
+                                                                "ref": "#Viano"
+                                                            },
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "Viano"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#ParensPasqualini"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Parente "
+                                                        },
+                                                        {
+                                                            "type": "element",
+                                                            "name": "roleName",
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "castaldione"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " domini\n          episcopi suprascripti et "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#Nicholetuscastro"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Nicholeto "
+                                                        },
+                                                        {
+                                                            "type": "element",
+                                                            "name": "roleName",
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "castaldione\n              eodem modo ipsius domini episcopi"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", testibus ad hec rogatis."
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "element",
+                                            "name": "p",
+                                            "attributes": {
+                                                "xml:id": "CCLXXXXII_p_003",
+                                                "n": "3"
+                                            },
+                                            "elements": [
+                                                {
+                                                    "type": "element",
+                                                    "name": "ptr",
+                                                    "attributes": {
+                                                        "target": "#CCLXXXXII_st_001"
+                                                    }
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": " Ego "
+                                                },
+                                                {
+                                                    "type": "element",
+                                                    "name": "persName",
+                                                    "attributes": {
+                                                        "ref": "#Adiutusnot"
+                                                    },
+                                                    "elements": [
+                                                        {
+                                                            "type": "text",
+                                                            "text": "Adiutus, "
+                                                        },
+                                                        {
+                                                            "type": "element",
+                                                            "name": "roleName",
+                                                            "elements": [
+                                                                {
+                                                                    "type": "text",
+                                                                    "text": "sacri palacii notarius"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "text",
+                                                    "text": ", hiis\n          interfui et de mandato suprascripti domini episcopi hanc cartam abreviavi et in publicam\n          formam redegi, signum et nomen proprium apponendo."
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
