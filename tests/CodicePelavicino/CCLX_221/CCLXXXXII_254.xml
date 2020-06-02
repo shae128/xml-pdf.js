@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXXXII_254">
+    <front xml:id="CCLXXXXII_front">
+
+      <titlePart type="numerazioneNuova">254</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXXXII</titlePart>
+
+      <docDate xml:id="CCLXXXXII_docDate">
+        <date when="1258-05-05">1258 maggio 5</date>, <placeName>Carrara (<term xml:lang="latin"
+            >Carrarie, in domo Cumçaferri de Marçasio</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXXXII_regesto">
+        <p>Bonacorso del fu Levacastello di Buzzano vende a Guglielmo, vescovo di Luni, i suoi
+          villani Durante e Migliore, fratelli, del fu Bonaiuta di Castelnuovo. Nella vendita sono
+          compresi il fitto di due stai di frumento e 6 denari che i due fratelli davano a Bonacorso
+          annualmente. Il prezzo è di 20 lire in denari minuti lucchesi. Il venditore s’impegna a
+          difendere la vendita, rispondendone con i propri beni, dalle rivendicazioni di chiunque e
+          in special modo di suo nipote Paganello, figlio del fu Pietro, che era stato suo figlio,
+          degli altri eredi di Pietro e di suo nipote, Lanfranchino di Petrognano.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXXXII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 279r., c. CCLXXIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 292,
+            pp. 265-266.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCLXXXXII. Emptionis Durantis et Melioris villanis cum II stariis frumenti ficti et
+              cum denariis VI pensionis a domino Bonacurso de Buçano.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXXXII_div">
+        <p xml:id="CCLXXXXII_p_001" n="1"><pb n="279r" xml:id="fol_279r"/>In Dei nomine, amen.<date
+            when="1258-05-05"> Anno a nativitate Eius millesimo CCLVIII, indictione Iª, V intrantis
+            maii</date>. Dominus <persName ref="#BonacursusLevacastelli">Bonacursus quondam
+            Levacastelli de <placeName ref="#Buçano">Buçano</placeName></persName> per se suosque
+          heredes vendidit, dedit et tradidit venerabili patri domino <persName ref="#GuilEpLuni"
+            >Guilielmo, Dei gratia <roleName>Lunensi episcopo</roleName></persName>, recipienti pro
+          se suisque successoribus nomine episcopatus, <persName ref="#DuransBonaiute"
+            >Durantem</persName> et <persName ref="#MeliorBonaiute">Meliorem</persName>, fratres,
+          quondam Bonaiute de <placeName ref="#Castelnuovo">Castronovo</placeName>, villanos suos,
+          cum duobus stariis frumenti et <measure quantity="6" unit="denarius">VI
+          denariis</measure>, quod frumentum et denarios idem dominus <persName
+            ref="#BonacursusLevacastelli">Bonacursus</persName> recipiebat et recipere debebat ab
+          eisdem fratribus annuatim nomine ficti et pensionis, quod frumentum et denarios et ipsos
+          fratres, sicut confitebatur publice, a Lunensi curia in feudum detinebat, cedendo et dando
+          eidem domino episcopo, recipienti ut dictum est, omne dominium, proprietatem, usum et
+          utilitatem, amasiamentum et dismasiamentum, accessus et regressus, superiora et inferiora,
+          actiones et rationes, utiles et directas, reales et personales seu mixtas, sibi
+          competentes et competentia seu competitura in dictis fratribus, ficto et pensione,
+          faciendo eundem dominum episcopum procuratorem et dominum in rem suam, ita ut ex hiis
+          omnibus et singulis ipse dominus episcopus suique successores et cui dederint vel
+          commiserint possint agere et experiri, tueri, causari et deffendere suo proprio nomine
+          directo et utiliter adversus quamcumque personam et locum et exinde facere quicquid
+          voluerint, sine contradictione dicti domini <persName ref="#BonacursusLevacastelli"
+            >Bonacursi</persName> et heredum eius vel alterius persone, dando eidem domino episcopo
+          licenciam intrandi in tenutam et possessionem accipiendi suprascriptorum omnium et
+          singulorum, quandocumque voluerit, sua auctoritate. Pro precio quorum fuit confessus
+          suprascriptus dominus <persName ref="#BonacursusLevacastelli">Bonacursus</persName> se
+          recepisse et habuisse a suprascripto domino episcopo <measure type="Lucenses"
+            quantity="20" unit="libra">libras XX lucensium denariorum</measure> minutorum,
+          renunciando exceptioni non numerate pecunie et precii integre non habiti et soluti et omni
+          alii iuri et legum auxilio. Et fuit confessus idem dominus <persName
+            ref="#BonacursusLevacastelli">Bonacursus</persName> quod predicta omnia valebant plus
+          precio suprascripto, unde totum et quicquid plus valebant, eidem domino episcopo donavit
+          titulo pure ac simplicis donationis inter vivos, et renunciavit specialiter illi legi que
+          iuvat deceptos in vendictionibus ultra dimidiam iusti precii. Insuper dominus <persName
+            ref="#BonacursusLevacastelli">Bonacursus</persName> per se suosque heredes promisit et
+          convenit dicto domino episcopo, recipienti ut dictum est, dictos <persName
+            ref="#DuransBonaiute">Durantem</persName> et <persName ref="#MeliorBonaiute"
+            >Meliorem</persName>, frumentum et denarios suprascriptum et suprascriptos non imbrigare
+          vel molestare deinceps, immo ipsos et ea omnia deffendere et exbrigare cum ratione ab omni
+          molestante persona et loco, et specialiter a <persName ref="#PaganellusPetri">Paganello
+            quondam Petri</persName>, olim filii sui, et ab aliis heredibus ipsius <persName
+            ref="#PetrusBonacursi">Petri</persName> et a <persName ref="#LanfranchinusPetrognano"
+            >Lanfranchino, nepote suo, de <placeName ref="#Petrognano"
+            >Petrognano</placeName></persName>, quem<note xml:id="CCLXXXXII_n_002" n="b"
+            place="foot"><term type="incerto">quem</term>: <emph>così nel testo</emph>.</note>
+          dicebat habere partem in <measure quantity="6" unit="denarius">VI denariis
+            suprascriptis</measure>; quod, si non faceret vel non posset, salvum cambium ei inde
+          dare promisit in bonis suis, sub extimatione bonorum hominum, remittendo et condonando
+          eisdem fratribus omnem offensam et iniuriam quibus posset contra ipsos procedere aliquo
+          modo vel iure et omne frastegnimentum<note xml:id="CCLXXXXII_n_001" n="a" place="foot"
+              ><term xml:lang="latin">frastegnimentum</term>: <emph>la prima</emph> e <emph>corretta
+              su</emph> i.</note> sive solutionem quam eidem domino <persName
+            ref="#BonacursusLevacastelli">Bonacurso</persName> facere deberent seu retinuissent de
+          predictis frumento et denariis olim, et eos de hoc penitus absolvit et liberavit. Hanc
+          autem vendictionem et omnia et singula suprascripta suprascriptus dominus <persName
+            ref="#BonacursusLevacastelli">Bonacursus</persName> per se suosque heredes et pro
+          suprascriptis <persName ref="#PaganellusPetri">Paganello</persName> et <persName
+            ref="#LanfranchinusPetrognano">Lanfranchino</persName> promisit et convenit suprascripto
+          domino episcopo, recipienti ut dictum est, attendere et observare et in nullo contravenire
+          de iure vel de facto, sub pena <measure type="lucenses" quantity="40" unit="libra">XL
+            librarum lucensium</measure>, quam dare et solvere promisit eidem domino episcopo et cui
+          dederit vel commiserit tociens quociens fuerit contraventum et pro quolibet capitulo non
+          observato; et, pena soluta, suprascriptis omnibus et singulis nichillominus semper firmis,
+          obligando se ad hec attendenda suosque heredes et predictos <persName
+            ref="#PaganellusPetri">Paganellum</persName> et <persName ref="#LanfranchinusPetrognano"
+            >Lanfranchinum</persName> et sua et eorum bona, renunciando omni iuri et legibus quibus
+          contra predicta vel aliquod predictorum possent ullo tempore facere vel venire.</p>
+        <p xml:id="CCLXXXXII_p_002" n="2">Actum <placeName ref="#Carrara">Carrarie</placeName>, in
+          domo <persName ref="#CumçaferrusMarçasio">Cumçaferri de <placeName ref="#Marciaso"
+              >Marçasio</placeName></persName>, presentibus <persName ref="#Gerardusarc"
+              ><roleName>magistro</roleName> Gerardo <roleName>archipresbytero</roleName> de
+              <placeName ref="#Marnasco"><orgName ref="#Marinasco_S_Stefano"
+              >Marnasco</orgName></placeName></persName>, <persName ref="#Saladinusarc"
+              ><roleName>magistro</roleName> Saladino <roleName>archipresbytero</roleName> de
+              <placeName ref="#Viano">Viano</placeName></persName>, <persName
+            ref="#ParensPasqualini">Parente <roleName>castaldione</roleName></persName> domini
+          episcopi suprascripti et <persName ref="#Nicholetuscastro">Nicholeto <roleName>castaldione
+              eodem modo ipsius domini episcopi</roleName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCLXXXXII_p_003" n="3"><ptr target="#CCLXXXXII_st_001"/> Ego <persName
+            ref="#Adiutusnot">Adiutus, <roleName>sacri palacii notarius</roleName></persName>, hiis
+          interfui et de mandato suprascripti domini episcopi hanc cartam abreviavi et in publicam
+          formam redegi, signum et nomen proprium apponendo.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
