@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLX_221">
+    <front xml:id="CCLX_front">
+
+      <titlePart type="numerazioneNuova">221</titlePart>
+      <titlePart type="numerazioneOrig">CCLX</titlePart>
+
+      <docDate xml:id="CCLX_docDate">
+        <date when="1268-12-15">1268 dicembre 15</date>, <placeName>Sarzanello (<term
+            xml:lang="latin">in castro Sarzane, in palacio domini episcopi</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLX_regesto">
+        <p>Rollando, figlio del fu Enrico Blanco di Erberia, dona a Guglielmo, vescovo di Luni, beni
+          e diritti a lui spettanti in Soleria, Moncigolo e Ceserano. La donazione è fatta per la
+          rimessione dei peccati e per i danni inferti al vescovo quando Rollando era insieme a
+          Bernabò Malaspina, nemico e persecutore della chiesa di Luni, e a Manfredi, principe di
+          Taranto.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 267v.- 268r., cc. CCXIIIIv.- CCLXr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 260,
+            pp. 239-240</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <term xml:lang="latin">Soleria</term>, <term
+              xml:lang="latin">Monciculo</term> e <term xml:lang="latin">Ciserano</term>.</note>
+        </div>
+
+        <div type="appr">
+          <p>Bibliografia: <ref target="#NOBILI_2006">NOBILI</ref>, pp. 423-426.</p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLX_div">
+        <p xml:id="CCLX_p_001" n="1">In nomine Domini, amen.<date when="1268-12-15"> Anno a
+            nativitate Eius millesimo CCLXVIII, indictione XI, XV die decembris</date>. Dominus
+            <persName ref="#RollandusHenriciHerberia">Rollandus quondam domini Henrici Blanci de
+              <placeName ref="#Erberia">Herberia</placeName></persName>, per se suosque heredes,
+          donavit inrevocabiliter inter vivos venerabili patri domino <persName ref="#GuilEpLuni"
+            >Guillelmo, Dei gratia <roleName>Lunensi episcopo</roleName></persName>, recipienti pro
+          se suisque successoribus et nomine episcopatus, atque dedit, tradidit, cessit et obtulit
+          eidem domino episcopo, pro anima sua et in remissionem peccatorum suorum et pro iniuriis
+          atque dampnis datis et illatis ipsi domino episcopo vel Lunensi episcopatui super eo quod
+          ipse dominus <persName ref="#RollandusHenriciHerberia">Rollandus</persName> adhesit olim
+          domino <persName ref="#BernabosMalaspina">Bernabo<note xml:id="CCLX_n_001" n="a"
+              place="foot"><term xml:lang="latin">Bernabo</term>: <emph>così nel
+              testo</emph>.</note>, marchioni Malaspine</persName>, inimico et persecutori tunc
+          Lunensis ecclesie contra ipsam ecclesiam et factori <persName ref="#ManfrediTarentini"
+            >Manfredi, olim principis <placeName ref="#Tarentum">Tarentini</placeName></persName>,
+          portionem suam sive partem sibi contingentem in <placeName ref="#Soliera"
+            >Soleria</placeName>, <placeName ref="#Moncigoli">Monciculo</placeName> et <placeName
+            ref="#Ceserano">Cisirano</placeName> atque districtibus et pertinenciis ipsorum locorum
+          atque totum et quicquid habet vel ei competit, aliquo modo vel iure, in predictis locis in
+          iurisdictione, dominio, hominibus, villanis seu vassallis, ambaxiariis seu ambaxiatoribus,
+          redditibus, fictis et pensionibus, terris et possessionibus, agris et cultis, silvis et
+          nemoribus, plenis et vacuis, divisis atque indivisis, aquis aquarumque discursibus,
+          piscationibus atque venationibus atque aliis omnibus atque <pb n="268r" xml:id="fol_268r"
+          /> quibuscumque rebus ad ipsum dominum <persName ref="#RollandusHenriciHerberia"
+            >Rollandum</persName> quoquomodo spectantibus in dictis terris sive locis et villis et
+          pertinenciis ipsorum locorum. Et dedit, tradidit, cessit atque mandavit idem dominus
+            <persName ref="#RollandusHenriciHerberia">Rollandus</persName> eidem domino episcopo,
+          recipienti ut dictum est, omne dominium, proprietatem, usum et utilitatem et omnia iura,
+          actiones et rationes, utiles et directas, reales, personales et mixtas et omnes alias sibi
+          competentes et competentia seu competitura in predictis omnibus et singulis vel eorum
+          occasione, faciendo eundem dominum episcopum de predictis procuratorem et dominum ut in
+          rem suam, ita ut ex hiis omnibus et singulis possit agere et experiri, tueri, causari et
+          deffendere, suo proprio nomine directo et utiliter, adversus quamcumque personam et locum
+          et exinde facere quicquid voluerit, sine contradictione dicti domini <persName
+            ref="#RollandusHenriciHerberia">Rollandi</persName> vel eius heredum seu alterius
+          persone. Et dedit idem dominus <persName ref="#RollandusHenriciHerberia"
+            >Rollandus</persName> eidem domino episcopo licenciam, tenutam et possessionem
+          corporalem vel quasi intrandi<note xml:id="CCLX_n_002" n="b" place="foot"><term
+              xml:lang="latin">intrandi</term>: <emph>foro nella pergamena preesistente alla
+              scrittura</emph>.</note> de predictis, sua auctoritate, quandocumque voluerit,
+          constituendo se pro eo et eius nomine possidere vel quasi donec tenutam et possessionem
+          corporalem vel quasi de predictis fuerit introgressus. Hanc autem donationem, dationem et
+          traditionem, datum seu cessionem et oblationem et omnia suprascripta et infrascripta
+          dictus dominus <persName ref="#RollandusHenriciHerberia">Rollandus</persName> per se
+          suosque heredes promisit et convenit eidem domino episcopo, recipienti pro se suisque
+          successoribus vel cui dederit vel commiserit et nomine sui episcopatus, ratam seu ratum
+          habere et tenere, attendere et observare et numquam in aliquo contra facere vel venire, de
+          iure vel de facto, sub pena <measure type="Ianuenses" quantity="200" unit="libra">CC
+            librarum Ianuensium</measure>; quam penam eidem domino episcopo vel suis successoribus
+          dare et solvere promisit idem dominus <persName ref="#RollandusHenriciHerberia"
+            >Rollandus</persName> tociens quociens fuerit contraventum et pro quolibet capitulo non
+          observato; et, pena soluta vel non, predicta omnia et singula in sua permaneant firmitate,
+          obligando ad hec attendenda idem dominus <persName ref="#RollandusHenriciHerberia"
+            >Rollandus</persName> se suosque heredes et omnia sua bona mobilia, habita et habenda,
+          retentis solomodo<note xml:id="CCLX_n_003" n="c" place="foot"><term xml:lang="latin"
+              >solomodo</term>: <emph>così nel testo</emph>.</note> fructibus et usufructibus omnium
+          predictorum sibi in vita sua tantum ipse dominus <persName ref="#RollandusHenriciHerberia"
+            >Rollandus</persName> et renunciando omni iuri et legibus, quibus contra predicta vel
+          aliquod predictorum posset facere vel venire, et specialiter legi que dicit donationem vel
+          cessionem posse rescindi vel retractari per ingratitudinem vel alio quocumque modo.</p>
+        <p xml:id="CCLX_p_002" n="2">Actum in <placeName ref="#Sarzanello">castro
+            Sarzane</placeName>, in palacio predicti domini episcopi, presentibus <persName
+            ref="#Peregrinuscan">Peregrino <roleName>canonico Lunensi</roleName></persName>,
+            <persName ref="#Iacopinusarc">Iacobino <roleName>archipresbytero de <placeName
+                ref="#Ameglia"><orgName ref="#Ameglia_S_Vincenzo"
+              >Amelia</orgName></placeName></roleName></persName> et <persName
+            ref="#MelanenseBrixiolini">Melanense Brixiolini, cive <placeName ref="#Lucca"
+              >Lucano</placeName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCLX_p_003" n="3"><ptr target="#CCLX_st_001"/> Ego <persName
+            ref="#PetrusGualterotinot">Petrus quondam Gualteroti de <placeName ref="#Soliera"
+              >Soleria</placeName>, <roleName>sacri palacii notarius</roleName></persName>, hiis
+          interfui et rogatus hanc cartam scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
