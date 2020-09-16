@@ -17,16 +17,8 @@
   },
   "homepage": "https://github.com/shae128/xml-pdf.js#readme",
   "dependencies": {
-    "htmlparser2": "^4.1.0",
-    "pdfkit": "^0.11.0",
-    "xml-js": "^1.6.11"
-  },
-  "devDependencies": {
-    "eslint": "^7.0.0",
-    "eslint-config-standard": "^14.1.1",
-    "eslint-plugin-import": "^2.20.2",
-    "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
-    "eslint-plugin-standard": "^4.0.1"
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "pdfkit": "^0.11.0"
   }
 }
