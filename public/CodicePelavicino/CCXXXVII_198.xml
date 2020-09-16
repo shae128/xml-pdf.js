@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXXXVII_198">
+    <front xml:id="CCXXXVII_front">
+
+      <titlePart type="numerazioneNuova">198</titlePart>
+      <titlePart type="numerazioneOrig">CCXXXVII</titlePart>
+
+      <docDate xml:id="CCXXXVII_docDate">
+        <date when="1229-06-13">1229 giugno 13</date>, <placeName>Fivizzano (<term xml:lang="latin"
+            >in foro Fiveçani</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXXXVII_regesto">
+        <p>Villaneto del fu Attolino di Soliera loca a Pelerino e a Bonfigliolo, figli di Uberto di
+          Soliera, una casa nel castello di Soliera. Il fitto ammonta a una mina di frumento
+          all’anno. Il prezzo della transazione è di 12 &lt;denari&gt; imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXXXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] cc. 257v.- 258r., cc. CCXLVIIIIv.- CCLr. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 237,
+            p. 219.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Lupo Gentile data il documento con esattezza (13 giugno), ma trascrive III anziché
+            XIII come indicato nel manoscritto. Viene così a cadere l’annotazione di <ref
+              target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 16. <p>Autentica databile con incertezza
+              al quarto decennio del Duecento.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXXXVII_div">
+        <p xml:id="CCXXXVII_p_001" n="1"><ptr target="#CCXXXVII_st_001"/> In nomine Domini nostri
+          Ihesu Christi, amen. <date when="1229-06-13"> Anno a nativitate Eiusdem M°CC°XXIX°,
+            indictione secunda, XIII die intrante mense iunii, die mercurii</date>, in <placeName
+            ref="#Fivizzano">foro Fiveçani</placeName>, coram <persName ref="#Villanusarc"
+              ><roleName>archypresbitero</roleName> Villano de sancto Paulo</persName>, <persName
+            ref="#GuidoSoleria">Guidone de <placeName ref="#Soliera">Soleria</placeName></persName>,
+            <persName ref="#AldeitrandinusSoleria">Aldeitrandino</persName> eiusdem loci, ad
+          infrascripta rogatis testibus. <persName ref="#VillanetusAttolini">Villanetus, filius
+            quondam Attolini de <placeName ref="#Soliera">Soleria</placeName></persName>, per se et
+          suos heredes dedit, cessit atque locavit in perpetuum <persName ref="#PelerinusUberti"
+            >Pelerino</persName> et <persName ref="#BonfiliolusUbertiSol">Bonofiliolo, filiis Uberti
+            de <placeName ref="#Soliera">Soleria</placeName></persName> dicta, recipientibus pro se
+          et eorum heredibus, I casamentum quod habet in castello suprascripte Solerie et habet
+          tales fines: superius est casamentum <persName ref="#BonizoFurno">Boniçi de <placeName
+              ref="#Furno">Furno</placeName></persName>, inferius via publica, ab uno latere habet
+          filius quondam <persName ref="#FornariusFurno">Fornarii de <placeName ref="#Furno"
+              >Furno</placeName></persName> et <persName ref="#BonfiliolusUbertiSol"
+            >Bonusfiliolus</persName> et ab alio latere habent filii quondam <persName
+            ref="#RamundetusIovello">Ramondeti de Iovello</persName>, cum accessibus et egressibus,
+          superioribus et inferioribus suis omnique iure conctaque utilitate suprascripto casamento
+          competentibus, ad habendum, tenendum, fruendum et possidendum et quicquid sibi et suis
+          heredibus sive eorum deinceps iure ficti placuerit faciendum, sine omni dicti locatoris
+          eiusque heredum contradictione vel molestatione, <measure type="imperiales" quantity="12"
+            unit="solidus">pro XII imperialium</measure>, quos fuit confessus dictus locator se ab
+          eis inde servicium recepisse, renunciando exceptioni non numerate pecunie atque non
+          recepte. Et promisit suprascriptus locator, per se et suos heredes, stipulationi
+          sollempni, prenominatis acquisitoribus, recipientibus pro se et eorum heredibus aut cui
+          iure ficti dederint, suprascriptum casamentum, ita locatum ut superius legitur, cum
+          omnibus pertinenciis suis in perpetuum iure deffendere et expedire ab omni homine et
+          contradicente persona et loco, in parte et toto, seu in duplum restaurare et salvum
+          cambium inde dare in loco consimili, si<note xml:id="CCXXXVII_n_001" n="a" place="foot"
+              ><term xml:lang="latin">si</term>: <emph>aggiunto in sopralinea</emph>.</note>
+          deffendere non poterit, sub iusta bonorum hominum extimatione, prout modo valet aut pro
+          tempore plus valeret, sine dampno et dispendio dictorum acquisitorum eorumque heredum;
+          quod si fecerint vel habuerint, eis in totum dictus locator resercire promisit, reddendo
+          inde omni in perpetuum anno suprascripti <persName ref="#BonfiliolusUbertiSol"
+            >Bonusfiliolus</persName>, <persName ref="#PelerinusUberti">Pelerinus</persName> vel
+          eorum heredes suprascripto <persName ref="#PetrusVillaneti">Villaneto</persName> vel suis
+          heredibus aut cui dederit vel commiserit in castello suprascripte <placeName
+            ref="#Soliera">Solerie</placeName>, per totum mensem augusti, certum fictum, scilicet I
+          minam frumenti mundi et sicci ad suam voluntatem, ad minam legitimam dicte <placeName
+            ref="#Soliera">Solerie</placeName>, petendo suprascriptum fictum dictus locator vel
+          nuncii eius eisdem acquisitoribus vel eorum heredibus; alia superimposita eis non fiant.
+          Et ipsos procuratores tanquam in rem eorum et se possessores pro eis et eorum nomine fecit
+          et constituit, dando eis inde tenutam intrandi, eorum auctoritate, cum voluerint. Que
+          omnia suprascripta et singula ambe partes inter se sibi vicissim stipulantes per se et
+          suos heredes attendere et observare in perpetuum promiserunt nec in ullo contra venire vel
+          facere aliqua occasione vel exceptione, dolo vel ingenio, sub pena <measure
+            type="imperiales" quantity="20" unit="solidus">XX soldorum imperialium</measure>
+          solvenda parti pactum fide servanti; et, ea soluta, rato manente pacto, renunciando omni
+          iuri et auxilio legum atque consuetudinis adiutorio, quibus se a suprascriptis vel ab
+          aliquo suprascriptorum tueri vel iuvari possint et specialiter a suprascripta pena.</p>
+        <p xml:id="CCXXXVII_p_002" n="2">Ego <persName ref="#Benvenutusnot2">Benevenutus,
+              <roleName>notarius sacri palacii</roleName></persName>, interfui hiis omnibus et
+          rogatus scripsi.</p>
+      </div>
+      <div xml:id="CCXXXVII_div2" type="autentica">
+        <p xml:id="CCXXXVII_p_003" n="3"><ptr target="#CCXXXVII_st_002"/> Ego <persName
+            ref="#Bonaventuranot">Bonaventura, <roleName>sacri palacii
+            notarius</roleName></persName>, auttenticum huius exempli vidi, legi et exemplavi, in
+          quo continebatur ut in isto legitur, <pb n="258r" xml:id="fol_258r"/> nil addens vel
+          minuens quod sententiam mutet, nisi forte litteram vel sillabam, et rogatus me subscripsi,
+          signum proprium apponendo.</p>
+        <p xml:id="CCXXXVII_p_004" n="4"><ptr target="#CCXXXVII_st_003"/> Ego <persName
+            ref="#PetrusSolerianot">Petrus, <roleName>sacri palacii notarius</roleName></persName>,
+          auttenticum huius exempli vidi, legi et diligenter ascultavi, in quo continebatur ut in
+          isto legitur, me subscripsi, signum proprium apponendo.</p>
+        <p xml:id="CCXXXVII_p_005" n="5"><ptr target="#CCXXXVII_st_004"/> Ego <persName
+            ref="#Guidonot">Guido, <roleName>sacri palacii notarius</roleName></persName>,
+          auttenticum huius exempli vidi et legi atque diligenter ascultavi, in quo continebatur ut
+          in isto legitur, me subscripsi, signum proprium apponendo<note>Autentica del documento n.
+            198-CCCXXXVII databile con incertezza al sesto decennio del Duecento dalla presenza del
+            notaio Pietro di Soliera <date notBefore="1260-01-17" notAfter="1269-12-31"
+              cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

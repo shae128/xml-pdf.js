@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="\schema\tei_cp.rng" type="application\xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="CCCCLXXXXIIII_455">
+    <front>
+      <titlePart type="numerazioneNuova">455</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXXIIII</titlePart>
+
+      <docDate xml:id="CCCCLXXXXIIII_docDate">
+        <date when="1257-08-12">1257 agosto 12</date>, <placeName ref="#Ponzanello"
+          >Ponzanello</placeName> (<emph>Ponzanelli, in ecclesia eiusdem loci</emph>)</docDate>
+
+      <div type="regesto" xml:id="CCCCLXXXXIIII_regesto">
+        <p> Il vescovo di Luni Guglielmo stipula accordi con i consorti di Trebiano – Guglielmo
+          Mascardo, Armannino del fu Palmerio, Gualterino del fu Sabbatino e Saladino del fu Opezino
+          Giustamonte - che rappresentano anche i castellani di quel luogo, relativamente ad alcune
+          controversie di confine. Nonostante la rilevazione già fatta al tempo di Oberto
+          Pallavicino si decide che sia fatta una nuova rilevazione sulle rispettive pertinenze,
+          alla quale le parti promettono di attenersi.</p>
+      </div>
+      <div type="footer" xml:id="CCCCLXXXXIIII_footer">
+        <div type="orig_doc">
+          <p>Copia [C] c. 372v., c. CCCLXIIIv., <emph>secondo la numerazione originale</emph>.</p>
+        </div>
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 494, pp. 518-520.</p>
+        </div>
+        <div type="crit_notes">
+          <note>
+            <p> Nel margine esterno, di mano moderna, la seguente annotazione:
+                <emph>Relevagie</emph>. Poco più sotto, di altra mano: <emph>Relevaglie tra il
+                comune di Trebiano e’l comune di Sarzana come dovevano farsi anticamente quando il
+                vescovo et p[..]e di [..] instrumento degno da vedersi e considerarsi</emph> Al
+              centro della carta è presente un foro nella pergamena, preesistente alla
+              scrittura.</p>
+          </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXXXIIII. Pactorum inter dominum episcopum et illos de Tribiano super rellevagiis
+              faciendis. </term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCCLXXXXIIII_div">
+        <p xml:id="CCCCLXXXXIIII_p_001" n="1"> In Dei nomine, amen. <date when="1257-08-12">Anno a
+            nativitate Eius MCCLVII, indictione XV, XII intrantis augusti.</date> Ex hoc publico
+          instrumento clareat omnibus ipsum legentibus evidenter quod concordia talis sive pactum
+          tale fuit inter venerabilem <persName ref="#GuilEpLuni">Guilielmum</persName>,
+            <roleName>Dei gratia Lunensem episcopum</roleName>, ex una parte, et <persName
+            ref="#GuilielmusAlberti">Guilielmum dictum Mascardum quondam Alberti</persName>
+          <roleName>vicedomini</roleName> et <persName ref="#ArmanninusPalmerii">Armanninum quondam
+            Palmerii</persName> et <persName ref="#GualterinusSabbatini">Gualterinum quondam
+            Sabbatini</persName> et <persName ref="#SaladinusOpeçini">Saladinum quondam domini
+            Opeçini Iustamontis de <placeName ref="#Trebiano">Trebiano</placeName></persName>,
+          procuratorio nomine pro se ipsis et omnibus consortibus de <placeName ref="#Trebiano"
+            >Trebiano</placeName> et castellanis et <orgName ref="#Trebiano_comune"
+              >communi</orgName>, ex altera, sicut de eorum procuratione
+          apparet per publicum instrumentum factum manu <persName ref="#Venutusnot"
+            >Venuti</persName>
+          <roleName>notarii</roleName> de <placeName ref="#Ylice">Ylice</placeName>, a me <persName
+            ref="#Adiutusnot">Adiuto <roleName>notario</roleName></persName> visum et lectum, super
+          relevandis terris in confinibus <placeName ref="#Trebiano">Trebiani</placeName> et
+          episcopatus, videlicet quod tota terra que est in <placeName ref="#Cesare"
+            >Cesare</placeName>, in <placeName ref="#Bolongno">Bolongno</placeName>, <placeName
+            ref="#Perezi">Pereçio</placeName>, <placeName ref="#Campo_Albo">Campo Albo</placeName>,
+          in <placeName ref="#Palodola">Palodola</placeName>, in <placeName ref="#Crusa"
+            >Crusa</placeName> et in confinibus citra flumen et ultra, releventur <note place="foot"
+            n="a" xml:id="CCCCLXXXXIIII_n_001">releventur: <emph>così nel testo</emph></note>
+          communiter per I iudicem vel per duos, electum vel electos communiter a dictis partibus,
+          seu alias honestas personas; et terra que non probabitur ad aliquem pertinere per medium
+          dividatur, bona fide et sine fraude, inter dominum episcopum et predictos. Relevatio autem
+          fiat, secundum consuetudinem Lunensis curie diutius obtentam, ut cuilibet assignetur terra
+          que ad se legitime probabitur pertinere, non obstante lege abluvionis, et si ex hoc <note
+            place="foot" n="b" xml:id="CCCCLXXXXIIII_n_002">ex hoc: <emph>nel testo hoc ex con segno
+              di richiamo per invertire l'ordine delle parole</emph></note> aliqua discordia vel
+          briga appareret alicui dictarum partium vel ipsis partibus, iuvabunt se ad invicem, sive
+          in causa sive extra, sive cum armis sive sine armis, sive alias contra omnem personam et
+          locum; et hec relevatio fiat, bona fide et sine fraude, quam cicius poterit et
+          comprehendat omnes terras que sunt in confinibus, non obstante aliqua relevatione facta a
+          VII annis citra vel occupatione quam quisque sua auctoritate fecerit, quocumque tempore
+          fecerit, et non obstante etiam relevatione quam <persName ref="#UbertusPelavicinus"
+            >Ubertus Pelavicinus</persName> suo tempore fecit, salvo iure saltarie utrique parti
+          secundum quod antiquitus ipsam saltariam inter se diviserunt vel habuerunt et salvo iure
+          utriusque partis, si relevatio in posterum fuerit facienda, quod utraque pars relevet in
+          sua saltaria absque contradictione alterius. Et hec omnia et singula sibi ad invicem
+          attendere et observare promiserunt, sub pena et ad penam <measure quantity="100"
+            unit="marca">C marcharum argenti</measure>, quam dare et solvere debeat et teneatur pars
+          que contra venerit vel fecerit parti predicta servanti; qua soluta vel non, suprascriptis
+          omnibus et singulis nichillominus manentibus semper firmis, obligando se idem dominus
+          episcopus et bona episcopatus et suprascripti procuratores se et eos omnes, quorum sunt
+          procuratores, et sua et eorum bona ad hec attendenda et observanda.</p>
+        <p xml:id="CCCCLXXXXIIII_p_002" n="2"> Actum <placeName ref="#Ponzanello"
+            >Ponzanelli</placeName>, in <orgName ref="#Ponzanello_S_Martino">ecclesia eiusdem
+            loci</orgName>, presentibus <persName ref="#Parenscas">Parente</persName>
+          <roleName>castaldione</roleName>, <persName ref="#RapusCastroSarzane">Rapo</persName> et
+            <persName ref="#ConfortusCastroSarzane">Conforto</persName> et <persName
+            ref="#BoccadecanisCodargogii">Boccadecane</persName> de <placeName ref="#Sarzanello"
+            >castro Sarzane</placeName>, <persName ref="#BonaiunctaPesticio">Bonaiuncta dicto
+            Pestiçio</persName> et <persName ref="#IacominusSol">Iacopino de
+              <placeName>Soleria</placeName></persName>, testibus ad hec vocatis.</p>
+
+        <p xml:id="CCCCLXXXXIIII_p_003" n="3">
+          <ptr target="#CCCCLXXXXIIII_st_001"/> Ego <persName ref="#Adiutusnot">Adiutus,
+              <roleName>sacri palacii notarius</roleName></persName>, hiis interfui et, de mandato
+          suprascripti domini episcopi et rogatu predictorum omnium, hec scripsi et in publicam
+          formam redegi.</p>
+
+      </div>
+    </body>
+  </text>
+
+</TEI>

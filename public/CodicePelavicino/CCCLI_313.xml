@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLI_313">
+    <front xml:id="CCCLI_front">
+
+      <titlePart type="numerazioneNuova">313</titlePart>
+      <titlePart type="numerazioneOrig">CCCLI</titlePart>
+
+      <docDate xml:id="CCCLI_docDate">
+        <date when="1230-05-19">1230 maggio 19, <placeName>Carrara (<emph>Carrarie, ad portam
+              ecclesie de Carraria</emph>)</placeName></date>
+        <date when="1230-10-13">1230 ottobre 13, <placeName>Carrara (<emph>in platea de
+              Carraria</emph>)</placeName></date>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLI_regesto">
+        <p>Guglielmino di Ugolino del fu Armannino loca a livello a Egidio del fu Durante di Valle e
+          a Guglielmino del fu Bello di Colonnata un pezzo di terra a Casella eccetto una pianta
+          d’olivo col terreno su cui era piantata. Il fitto è di un denaro di imperiali. La
+          transazione costa 25 soldi di imperiali. Qualche mese dopo il padre del locatore approva e
+          conferma la locazione.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 307v., c. CCLXXXXVIIIIv. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 351,
+            p. 337.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note> </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCLI.
+              Locationis unius terre Egidio de Columnata ad denarium I pensionis.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLI_div">
+        <pb n="307v" xml:id="fol_307v"/>
+        <p xml:id="CCCLI_p_001" n="1">In nomine Domini, amen. <date when="1230-05-19">Anno a
+            nativitate Eius millesimo CCXXX, indictione III, die dominico, XIIII kalendas
+            iunii</date>. Ego <persName ref="#GuilielminusUgolini">Guilielminus, filius Ugolini
+            quondam Armannini</persName>, do et loco per libellum vobis <persName
+            ref="#EgidiusDurantis">Egidio quondam Durantis de <placeName ref="#Valle"
+              >Valle</placeName></persName> et <persName ref="#GuilielminusBelli">Guilielmino
+            quondam Belli de <placeName ref="#Colonnata">Columnata</placeName></persName>, in vobis
+          et in vestris heredibus, nominatim, I petiam terre, sitam in loco dicto <placeName
+            ref="#Casella">Casella</placeName>, retento mihi uno pede olive, sito in dicta terra, et
+          terram quam coperit et ubi est donec ipsa oliva duraverit, cui coheret a pede presa
+          vestra, superius levata de <placeName ref="#Campolo">Campolo</placeName> et terra
+            <persName ref="#Lanfrancus">Lanfranci</persName>, ab uno latere flumen, ab alio latere
+          terra filiorum <persName ref="#Frolinus">Frolini</persName> et <persName ref="#Ugolinus"
+            >Ugolini</persName>
+          <roleName>notarii</roleName>, ita ut amodo perpetuo, nomine libelli, vos vestrique heredes
+          habeatis, teneatis, fruamini et possideatis totam dictam terram, excepto dicto pede olive,
+          sicut dictum est, cum accessibus et regressibus suis et omnibus suis pertinenciis, in
+          integrum, sine alicuius aliqua contradictione et cum mea meorumque heredum rationabili
+          deffensione ab omni persona vel restauratione facienda in meis bonis, que ad hoc obligo in
+          consimili loco, in arbitrio bonorum hominum, prout tunc valuerit, si ego et heredes meis
+          dictam terram vobis vestrisque heredibus rationabiliter deffendere non possemus. Et exinde
+          teneamini dare et reddere mihi meisque heredibus aut cui commiserimus, omni anno, infra
+          octavam nativitatis Domini, certam pensionem denarii I imperialium tantum; alia
+          superimposita <supplied reason="omitted">non fiat</supplied>. Pro hac vero locatione
+          confiteor me recepisse a vobis servicium <measure type="imperiales" unit="solidus"
+            quantity="25">soldos XXV imperialium</measure>, renunciando exceptioni non numerate
+          pecunie, unde do vobis licenciam intrandi inde in tenutam, vestra auctoritate. Et
+          constituo vobiscum ut quicumque nostrum vel nostrorum heredum unquam dictam terram tollere
+          vel laxare aut contra venire voluerit quod superius legitur, alteri parti, fidem servanti,
+            <measure type="imperiales" unit="solidus" quantity="20">penam XX soldorum</measure>
+          imperialium solvat, rato manente pacto, pena soluta. </p>
+        <p xml:id="CCCLI_p_002" n="2">Actum <placeName ref="#Carrara">Carrarie</placeName>, ad
+          portam <orgName ref="#Carrara_S_Andrea">ecclesie de <placeName ref="#Carrara">
+              Carraria</placeName></orgName>, presentibus <persName ref="#IacopinusVeçale">Iacopino
+              <roleName>iudice</roleName> de <placeName ref="#Veçale">Veçale</placeName></persName>,
+            <persName ref="#GrecusPetrognano">Greco de <placeName ref="#Petrognano"
+              >Petrognano</placeName></persName> et <persName ref="#UgolinusGualteronis">Ugolino
+            quondam Gualteroni</persName>, testibus ad hoc rogatis. <date when="1230-10-13">Eodem
+            anno et indictione currentibus, die dominico, XIII mensis octubris</date>, in platea de
+            <placeName ref="#Carrara">Carraria</placeName>, coram <persName ref="#UgolinusSambucus"
+            >Ugolino dicto Sambuco de <placeName ref="#Monte">Monte</placeName>
+          </persName> et <persName ref="#AttolinusBelloti">Attolino quondam Belloti de <placeName
+              ref="#Miselia">Miselia</placeName></persName>, testibus, <persName
+            ref="#UgolinusArmannini">Ugolinus quondam Armannini</persName>, pater dicti <persName
+            ref="#GuilielminusUgolini">Guilielmi</persName> locatoris, dicte locationi consensit et
+          eam in omnibus confirmavit.</p>
+        <p xml:id="CCCLI_p_003" n="3"><ptr target="#CCCLI_st_001"/> Ego <persName
+            ref="#Confaloneriusnot">Confalonerius, <roleName>sacri palacii
+            notarius</roleName></persName>, hunc libellum ab <persName ref="#Ugolinusnot">Ugolino
+              <roleName>notario</roleName></persName> abreviatum, eius sceda visa, de suo mandato
+          scripsi, complevi et proprio signo signavi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

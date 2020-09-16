@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DII_463">
+    <front xml:id="DII_front">
+
+      <titlePart type="numerazioneNuova">463</titlePart>
+      <titlePart type="numerazioneOrig">DII</titlePart>
+
+      <docDate xml:id="DII_docDate">
+        <date when="1228-05-17">1228 maggio 17, <placeName ref="#Gragnola">Gragnola (<emph>in foro
+              Gragnole</emph>)</placeName></date>
+      </docDate>
+
+      <div type="regesto" xml:id="DII_regesto">
+        <p>Pietro del fu Bernardino di Erberia dona al vescovo di Luni Guglielmo tutti diritti che
+          possiede sul poggio di Montegianni nel distretto di Fosdinovo. </p>
+      </div>
+
+      <div type="footer" xml:id="DII_footer">
+        <div type="orig_doc">
+          <p>Copia [C] cc. 375v.-376r., cc. CCCLXVIIv.-CCCLXVIIIr. secondo la numerazione
+            originale.</p>
+        </div>
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 502, pp.
+            531-532.</p>
+        </div>
+        <div type="crit_notes">
+          <note>
+            <p> Nel margine esterno, di mano moderna, un numero illeggibile a causa dell'inchiostro
+              sbiadito; poco più in basso, di altra mano posteriore: <term xml:lang="latin">
+                Montexagno</term></p>
+          </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DII.
+              Petri de Herberia in podio de Munteçiani.</term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="DII_div">
+        <p xml:id="DII_p_001" n="1">
+          <ptr target="#DII_st_001"/> In nomine Domini, amen. <date when="1228-05-17">Anno Domini
+            M°CCXXVIII, indictione prima, die mercurii, XVI kalendas iunii</date>. Ex hiis publicis
+          litteris pateat universis quod <roleName>dominus</roleName>
+          <persName ref="#PetrusBernardiniHerberia">Petrus, filius quondam Bernardini de <placeName
+              ref="#Erberia">Herberia</placeName></persName>, per se suosque heredes, suo libero
+          arbitrio et spontanea voluntate et per presentem cartulam donationis, dedit, concessit et
+          nomine simplicis donationis condonavit venerabili <roleName>domino</roleName>
+          <persName ref="#GuilEpLuni">Guilielmo</persName>, <roleName>sola divina permissione
+            Lunensi episcopo</roleName>, absente tanquam presente, omnia iura omnesque actiones et
+          rationes que et quas habet in poço posito in pertinenciis <placeName ref="#Fosdinovo"
+            >Fosdenove</placeName>, qui <placeName ref="#MonteIanni">Monteçagni</placeName>
+          noncupatur, ut faciat de cetero de eo et in eo <placeName ref="#MonteIanni"
+            >Monteçagni</placeName> quantum pro iuribus ac rationibus dicti
+            <roleName>domini</roleName>
+          <persName ref="#PetrusBernardiniHerberia">Petri</persName> quicquid voluerit, absque
+          alicuius persone contradictione. Preterea dedit et concessit eidem domino episcopo omnia
+          iura omnesque actiones et rationes que et quas habet in suis hominibus, quos habet ipse
+          dominus <persName ref="#PetrusBernardiniHerberia">Petrus</persName> in curte seu curia
+            <placeName ref="#Fosdinovo">Fosdenove</placeName>, ut eosdem homines faciat stare,
+          habitare, ire et ambulare, casare et descasare ad suam voluntatem et ut in omnibus
+          suprascriptis, suo nomine directo, possit facere, petere, causari et exigere, sicuti ipse
+          dominus <persName ref="#PetrusBernardiniHerberia">Petrus</persName> melius poterat, ab
+          omni quoque homine et contradicente persona disbrigare et cum ratione deffendere et omnia
+          suprascripta per omnia et <supplied reason="omitted">in</supplied> omnibus observare<note
+            place="foot" n="a" xml:id="DII_n_001"><term>observare</term>: bs <emph>corretto su
+              precedente scrittura.</emph></note> et rata semper habere et numquam contravenire
+          promisit. Et ut sua auctoritate intraret tenutam de ipsis hominibus et dicto poço,
+          licenciam et potestatem ei dedit et concessit et interim se eius nomine predicta
+          constituit possidere. Et si ita per omnia et in omnibus non observaverit et rata semper
+          non habuerit, nomine pene <measure type="imperiales" quantity="20" unit="libre">XX libras
+            bonorum imperialium</measure> ei dare et solvere promisit, pacto rato manente post penam
+          solutam. </p>
+        <p xml:id="DII_p_002" n="2"> Actum in foro <placeName ref="#Gragnola">Grangnole</placeName>,
+          coram <pb n="376r" xml:id="fol_376r"/>
+          <persName ref="#LombardusSymonis">Lombardo quondam Symonis de <placeName ref="#Dallo"
+              >Dallo</placeName></persName>, <persName ref="#GiliolusPetri">Giliolo quondam Petri
+            Veroni de <placeName ref="#Soliera">Soleria</placeName></persName> et <persName
+            ref="#Gislitione">Gislitione de <placeName ref="#Iovello"
+          >Iovello</placeName></persName>, testibus ad hec rogatis. </p>
+        <p xml:id="DII_p_003" n="3"> Ego <persName ref="#Attolinusnot">Attolinus</persName>,
+            <roleName>sacri palacii notarius</roleName>, hiis omnibus interfui et mandato dicti
+            <roleName>domini</roleName>
+          <persName ref="#PetrusBernardiniHerberia">Petri</persName> scripsi. </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,476 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CII_119">
+    <front xml:id="CII_front">
+
+      <titlePart type="numerazioneNuova">119</titlePart>
+      <titlePart type="numerazioneOrig">CII</titlePart>
+
+      <docDate xml:id="CII_docDate">
+        <date when="1234-11-20">1234 novembre 20</date> - <date when="1235-03-23">1235 marzo
+          23</date>, <placeName>Sarzanello <emph>(<term xml:lang="latin">in palatio castri
+              Sarzane</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CII_regesto">
+        <p>Convenzioni tra il vescovo di Luni Guglielmo, tre consoli e cinque rappresentanti del
+          consiglio del <term xml:lang="latin">castrum</term> di Sarzana. Si stabiliscono: le norme
+          per l’elezione dei consoli, del gastaldo e dei consiglieri; il contenuto del giuramento
+          dei consoli e dei consiglieri e le relative tempistiche; le pene e le multe (<term
+            xml:lang="latin">banna</term>) in caso di omicidio premeditato (<term xml:lang="latin"
+            >excogitatum</term>) e non premeditato (<term xml:lang="latin">non excogitatum</term>),
+          incendio, tradimento, furto, mancata denuncia di furto, inosservanza dei mandati e dei
+          doveri, insulti, violenze, danni alla proprietà o contrarie al decoro; l’ammontare delle
+          tasse per fuoco (<term xml:lang="latin">fumum</term>); le regole in caso di eredità con e
+          senza testamento, di debito insoluto, di richiesta di appello e di partecipazione alle
+          adunate pubbliche o alle compagnie. Nel corso del presente mandato i consoli devono porre
+          le fondamenta della porta <term xml:lang="latin">in monte Iudicis</term> e costruire le
+          mura da qui per la lunghezza di quattro braccia e l’altezza di un ponte, e poi procedere
+          al completamento dell’opera costruendo un ponte all’anno.</p>
+      </div>
+
+      <div type="footer" xml:id="CII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 216v.- 218r., cc. CCVIIIv-CCXr. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref> n. 102, pp.
+              135-138;<ref target="#CONTI_1979-1988"> CONTI 1979-1988</ref>, I, doc. XV, pp.
+            71-78.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note> Nel margine esterno, di mano moderna: <term xml:lang="latin">Eletione di consoli e
+              numero, da farsi per gli homini di Sarzanello ogni anno il giorno di Santo
+              Martino.</term> Alle convenzioni, stabilite nel novembre 1234, è stata fatta una breve
+            aggiunta nel marzo successivo: il notaio Gerardeto la data con la frase <term
+              xml:lang="latin">eodem anno et indictione</term>, ma più correttamente, usandosi lo
+            stile della natività, avrebbe dovuto scrivere <term xml:lang="latin">sequenti
+              anno</term>. Essendo marzo, l’indizione era comunque la medesima del novembre
+            precedente. Il testo delle delle <term xml:lang="latin">additiones</term> inizia verso
+            la fine di c. 218r. e prosegue, con segno di richiamo a forma di croce, nel margine
+            inferiore di c. 217v. Una parte del documento è stata letta con l’ausilio della lampada
+            di Wood.</note>
+
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CII_div">
+        <pb n="216v" xml:id="fol_216v"/>
+        <p xml:id="CII_p_001" n="1"> In Ihesu Christi eterni nomine, amen.<date when="1234"> Anno a
+            nativitate ipsius M°CC trigesimo quarto, indictione VII</date>. Infrascripte
+          constitutiones statute sunt de voluntate et consensu venerabilis patris domini <persName
+            ref="#GuilEpLuni">Guilielmi, Dei gratia <roleName>Lunensis
+            episcopi</roleName></persName>, atque voluntate <persName ref="#PlebanetusAldebertini"
+            >Plebaneti quondam Aldebertini</persName>, <persName ref="#CodadorgiusBiancheti"
+            >Codargogii quondam Biancheti</persName> et <persName ref="#CursusAlberti">Cursi quondam
+            Alberti, <roleName>consulum <placeName ref="#Sarzanello">castri
+              Sarzane</placeName></roleName></persName>, <persName ref="#AttolinusBandini">Attolini
+            quondam Bandini</persName>, <persName ref="#GuilielmusTestafortis">Guilielmi quondam
+            Testafortis</persName>, <persName ref="#BorgesetusHubertini">Borgeseti quondam
+            Hubertini</persName>, <persName ref="#BandinetusGuilielmi">Bandineti quondam
+            Guilielmi</persName> et <persName ref="#GerardetusMontoni">Gerardetti Muntoni
+              <roleName>notarii</roleName></persName>, <roleName>electorum a consilio <placeName
+              ref="#Sarzanello">ipsius castri</placeName></roleName>, perpetuo valiture, ita
+          videlicet quod nec mutari vel removeri nec addi vel adiungi seu minui non possi<supplied
+            reason="omitted">n</supplied>t, in toto vel parte, sine consensu et voluntate
+            episcopi et sine consensu et voluntate
+            consulum et consiliariorum, qui pro tempore
+          fuerint. Et si quid diminutum, mutatum fuerit vel additum secundum predictum modum, de
+          addito teneantur atque de diminuto absolvantur.</p>
+        <p xml:id="CII_p_002" n="2"><c>§</c> Tres consules annis singulis, per
+          VIII dies ante festum sancti Martini, eligantur per illos consules
+          qui tunc fuerint, cum consilio et consensu et voluntate dicti domini episcopi et
+          successorum eius, qui pro tempore fuerint, vel castaldionis eius, si
+          episcopus presens non fuerit. Et tales consules eligantur qui
+          iuramento fidelitatis domino episcopo sint astricti contra omnes homines, et hoc sine
+          fraude. Et electi consules, facto iuramento istius brevis secundum
+          quod inferius continetur, a festo sancti Martini usque ad unum annum dominentur, secundum
+          formam istius brevis. Et nullus eligatur in consulem, qui fuerit
+            consul infra tres annos preteritos.</p>
+        <p xml:id="CII_p_003" n="3"><c>§</c> Item nullus eligatur in consulem
+          qui sit pater vel filius, patruus vel avunculus vel nepos, frater, cognatus ex uxore vel
+          sorore, vel consobrinus in secundo gradu vel socer consulum, qui debent eligere cum
+          episcopo pro sequenti anno.</p>
+        <p xml:id="CII_p_004" n="4"><c>§</c>
+          Castaldio sit semper quartus consul et dominetur
+          ut unus aliorum consulum et nullum feudum habeat pro consulatu, excepta quarta parte datie
+          et de IIIIor denariis pro lamentatione ut unus aliorum consulum, ita
+          tamen quod, si non fuerit ipse castaldio castellanus <placeName
+            ref="#Sarzanello">suprascripti castri</placeName>, non sit consul, vacante sede
+          episcopali. Et quandocumque intraverit vel mutatus fuerit castaldio,
+          iuret pro toto tempore sui castaldionatus, sicut iuraverint consules
+            suprascripti, ad istud breve.</p>
+        <p xml:id="CII_p_005" n="5"><c>§</c> Veteres consules et
+            castaldio eligant quindecim consiliarios, qui
+          per totum annum debeant esse consiliarii <placeName ref="#Sarzanello">suprascripti
+            castri</placeName> cum novis consulibus electis, ut dictum est
+          supra. Et mutentur consiliarii anno quolibet, sicut melius videbitur veteribus
+            consulibus et castaldioni, in eorum
+          arbitrio.</p>
+        <p xml:id="CII_p_006" n="6"><c>§</c> Iuramentum autem consulum hoc
+          erit: iurabunt enim bona fide, sine fraude, ad honorem Dei et Domini Ihesu Christi et
+          gloriose matris eius Virginis Marie, sancti Martini et omnium sanctorum, et ad honorem
+          suprascripti venerabilis patris domini <persName ref="#GuilEpLuni">Guilielmi,
+              <roleName>Lunensis episcopi</roleName>,</persName> et successorum eius, <pb n="217r"
+            xml:id="fol_217r"/> tam nominice<note place="foot" n="a" xml:id="CII_n_001"><term
+              type="incerto">tam nominice</term>: <emph>così nel testo.</emph></note>, quod ab hac
+          festivitate sancti Martini usque ad aliam festivitatem eiusdem confessoris, revoluto anno,
+          regent <placeName ref="#Sarzanello" type="ente">consulatum castri Sarzane</placeName> ad
+          salvamentum hominum <placeName ref="#Sarzanello">eiusdem castri et curtis</placeName> qui
+          sub nostro consulatu consistunt, secundum quod melius cognoverint, dominante Deo, sine
+          fraude atque secundum has con<supplied reason="omitted">sti</supplied>tutiones. Et quod
+          eligent consiliarios meliores et utiliores quos cognoverint pro <persName
+            ref="#GuilEpLuni">ipso episcopo</persName> et <orgName ref="#Sarzanello_comune">commune</orgName> <placeName ref="#Sarzanello"
+            >suprascripti castri</placeName>, secundum predictum modum. Et facient de lamentatiis,
+          que ad eos devenerint, iusticiam, ita parvo sicut magno<note place="foot" n="b"
+            xml:id="CII_n_002"><term type="incerto">ita parvo sicut magn</term>: <emph>così nel
+              testo</emph>.</note>, absque personarum acceptione. Et quod non recipient aliquod
+          precium vel aliquid loco precii pro aliqua <supplied reason="omitted">causa</supplied> que
+          vertatur coram ipsis, excepta datia, videlicet <measure type="Imperiales" quantity="1"
+            unit="denari">uno denario de quolibet soldo</measure> ab eo qui perdet causam tantum et
+            <measure type="Imperiales" quantity="4" unit="denari">IIIIor denariis</measure> pro
+          reclamo: et ipsi <measure type="Imperiales" quantity="4" unit="denari">IIIIor
+            denarii</measure> et datia non accipiantur nisi post litem contestatem<note place="foot"
+            n="c" xml:id="CII_n_003"><term type="incerto">contestatem</term>: <emph>così nel testo
+              per <term xml:lang="latin">contestatam</term></emph></note> per negationem. Passim,
+          ante litem contestatam et post sententiam, liceat cuilibet appellare atque consules,
+          quocumque modo fuerit appellatio, non se intromittant; set, a lite contestata usque ad
+          sententiam latam, nulli liceat appellare. Et quod eligent consules
+          omni anno per VIII dies antequam exeant, secundum modum superius denotatum. Et quod
+          accipient banna inferius denotata et non restituent, et medietatem assignabunt curie et
+          aliam medietatem communi vel sibi retinebunt pro communi. Et teneantur facere banniri per
+          totum castrum quolibet mense quod, si quis voluerit dicere et probare quod consules
+          iniuste abstulerint sibi pignus, per mensem sequentem debeat id probare coram
+            episcopo, si presens fuerit, vel coram
+            castaldione, si fuerit absens episcopus; et si
+          infra mensem hoc non probaverit, non audiatur postea, set solvat<note place="foot" n="d"
+            xml:id="CII_n_004"><term xml:lang="latin">solvat</term>: <emph>segue depennato con
+              inchiostro rosso <term xml:lang="latin">pignus</term></emph></note> bannum pro quo
+          pignus fuerit ablatum.</p>
+        <p xml:id="CII_p_007" n="7"><c>§</c> Iurabunt consiliarii consulere
+            consulibus; de hiis, de quibus ab eis fuerint requisiti, dare
+          rectum consilium, sicut melius cognoverint, ad honorem et salvamentum <persName
+            ref="#GuilEpLuni">suprascripti domini episcopi</persName> et hominum <placeName
+            ref="#Sarzanello">dicti castri</placeName>.</p>
+        <p xml:id="CII_p_008" n="8"><c>§</c>
+          Consules veteres, per IIIIor dies ante festum sancti Martini,
+          teneantur facere parlamentum et publicent consules in communi qui
+          electi fuerint secundum predictum modum atque precipiant per sacramentum ut omnes iurent
+          sequimentum omnium consulum, de quibus dictum est supra in precedentibus capitulis.</p>
+        <p xml:id="CII_p_009" n="9"><c>§</c> Banna sunt hec:</p>
+        <p xml:id="CII_p_010" n="10"><c>§</c> Quicumque fecerit excogitatum homicidium de aliqua
+          persona suprascripti castri sit perpetuo banno subpositus, de quo non possit exire nisi
+          concordaverit cum heredibus vel proximis propinquis defuncti et cum
+            episcopo, qui pro tempore fuerit, atque preterea nisi solverit
+            <measure type="Imperiales" quantity="100" unit="soldi">soldos C imperialium</measure>,
+          quorum medietas erit domini episcopi et alia medietas consulum vel
+          communis. Item totum mobile confiscetur et per medium dividatur inter dominum episcopum et
+            consules vel commune. Et melior domus, quam habuerit in castro,
+          funditus eradicetur, excepto muro castellano, et lignamen et copertura extra castrum
+          comburantur. Et hec omnia fiant, non obstante aliquo debito dotis vel alterius cuiuslibet
+          obligationis. Item uxor eius et filii non habitent infra castrum predictum, nisi prius
+          fuerit pax et concordia homicidii suprascripti. Si alias de aliqua persona suprascripti
+          castri fieret homicidium non excogitatum, puniatur arbitrio domini episcopi et
+            consulum, qui pro tempore fuerint.</p>
+        <pb n="217v" xml:id="fol_217v"/>
+        <p xml:id="CII_p_011" n="11"><c>§</c> Item si aliquis fecerit vel facere fecerit excogitatum
+          incendium alicuius domus vel capanne alicuius castellani <placeName ref="#Sarzanello"
+            >suprascripti castri</placeName>, emendet dampnum ad deffensionem prestiti iuramenti
+          eius cui factum fuerit incendium, et perdat <measure type="Imperiales" quantity="40"
+            unit="soldi">soldos XL imperialium</measure> pro banno. Et si non habuerit unde dampnum
+          emendet et solvat penam, sit in banno, sicut homicida, quousque satisfecerit de dampno et
+          pena.</p>
+        <p xml:id="CII_p_012" n="12"><c>§</c> Traditores domini episcopi et loci puniantur secundum
+          leges.</p>
+        <p xml:id="CII_p_013" n="13"><c>§</c> Quicumque fecerit nocte furtum ad valorem sex
+          imperialium vel ultra, furtum emendet in quad<supplied reason="omitted"
+            >r</supplied>uplum<note place="foot" n="e" xml:id="CII_n_005"><term xml:lang="latin"
+                >quad<supplied reason="omitted">r</supplied>uplum</term>: <emph>qua aggiunto in
+              sopralinea.</emph></note>, et perdat <measure type="imperiales" quantity="10"
+            unit="soldi">soldos X imperialium</measure> pro banno. Si in die fecerit furtum, emendet
+          in duplum furtum, et perdat <measure type="Imperiales" quantity="5" unit="soldi">soldos V
+            imperialium</measure><note place="foot" n="f" xml:id="CII_n_006"><term xml:lang="latin"
+              >soldos V imperialium</term>: <emph>nel testo</emph>
+            <term xml:lang="latin">soldos imperialium V</term>
+            <emph>con segno di richiamo per invertire l’ordine delle parole.</emph></note> pro
+          banno. Si autem valuerit furtum infra sex imperialium, perdat <measure type="Imperiales"
+            quantity="2" unit="soldi">soldos II imperialium</measure> pro banno, et emendet furtum
+          de nocte in quadruplum et de die in duplum.</p>
+        <p xml:id="CII_p_014" n="14"><c>§</c> Quilibet iuratus teneatur iuramento manifestare furem,
+          si viderit vel invenerit; et si non manifestaverit et fuerit inde convictus, puniatur ut
+          latro.</p>
+        <p xml:id="CII_p_015" n="15"><c>§</c> Quicumque non obedierit mandato
+            consulum vel eorum nuncii, quando factum ei
+          fuerit sub debito iuramenti, perdat <measure type="Imperiales" quantity="5" unit="soldi"
+            >soldos V imperialium</measure> atque iterato reficiat iuramentum.</p>
+        <p xml:id="CII_p_016" n="16"><c>§</c> Item quicumque percusserit aliquem excogitate, ita
+          quod ex percussione illa perdat membra magna corpulentia, id est manum vel pedem vel
+            decore<note place="foot" n="g" xml:id="CII_n_007"><term type="incerto">decore</term>:
+              <emph>così nel testo, forse errore per</emph>
+            <term xml:lang="latin">aurem</term></note> vel oculum vel nasum, perdat <measure
+            type="Imperiales" quantity="40" unit="soldi">soldos XL imperialium</measure> pro banno;
+          si vero os ex percussione fregerit vel cassale vulnus fecerit, perdat <measure
+            type="Imperiales" quantity="20" unit="soldi">soldos XX imperialium</measure> pro banno.
+          Si alias excogitate vulneraverit aliquo genere armorum et ex illo vulnere percussus
+          perdiderit operas quas facere non possit, perdat <measure type="Imperiales" quantity="5"
+            unit="soldi">soldos V imperialium</measure> pro banno, atque si alias fecerit perdat
+            <measure type="Imperiales" quantity="3" unit="soldi">soldos III imperialium</measure>
+          pro banno. Si vero fecerit lividum, perdat <measure type="imperiales" quantity="2"
+            unit="soldi">soldos II imperialium</measure> pro banno; si aliter percusserit
+          excogitate, non faciendo lividum vel sanguinem, perdat <measure type="Imperiales"
+            quantity="2" unit="soldi">soldos II imperialium</measure> pro banno. Preter hec banna
+          suprascripta, quicumque fecerit excogitate suprascriptas percussiones emendet operas
+          percusso, solvat medicaturam et in<supplied reason="omitted">i</supplied>uriam emendet ad
+          estimationem domini episcopi et consulum, qui pro tempore erunt.</p>
+        <p xml:id="CII_p_017" n="17"><c>§</c> Quicumque fecerit assaltum ad domum alicuius cum
+          armis, capitaneus <measure type="Imperiales" quantity="10" unit="soldi">soldos
+          X</measure>, et sequentes cum armis et sine armis pro ipso malo faciendo <measure
+            type="Imperiales" quantity="3" unit="soldi">soldos III imperialium</measure> pro
+            banno<note place="foot" n="h" xml:id="CII_n_008"><term type="incerto">Quicumque ...
+              banno</term>: <emph>alla frase manca un predicato verbale come <term xml:lang="latin"
+                >perdat</term> o <term xml:lang="latin">solvat</term></emph>.</note>.</p>
+        <p xml:id="CII_p_018" n="18"><c>§</c> Quicumque arma excogitate acceperit contra iuratum vel
+          iuratos suos pro malo faciendo perdat <measure type="Imperiales" quantity="2" unit="soldi"
+            >soldos II imperialium</measure> pro banno.</p>
+        <p xml:id="CII_p_019" n="19"><c>§</c> Item quicumque excogitatum assaltum fecerit contra
+          iuratum vel iuratos suos perdat <measure type="Imperiales" quantity="2" unit="soldi">II
+            imperialium</measure> pro banno.</p>
+        <p xml:id="CII_p_020" n="20"><c>§</c> Quicumque improperaverit alicui suo iurato vel iuratis
+          homicidium, unde pax fuerit vel pacem homicidii, perdat <measure type="imperiales"
+            quantity="5" unit="soldi">soldos V imperialium</measure> pro banno; qui de alio malo
+          improperavit perdat <measure type="Imperiales" quantity="1" unit="soldi">soldum
+            I</measure> pro banno.</p>
+        <p xml:id="CII_p_021" n="21"><c>§</c> Quicumque percusserit excogitate alicuius uxorem,
+          absque sanguine vel livido, perdat <measure type="Imperiales" quantity="5" unit="soldi"
+            >soldos V imperialium</measure> pro banno; si fecerit sanguinem vel lividum, puniatur ut
+          supra de omnibus percussionibus dictum est, preter suprascriptos <measure
+            type="Imperiales" quantity="5" unit="soldi">soldos V</measure>.</p>
+        <p xml:id="CII_p_022" n="22"><c>§</c> Quicumque vel quecumque dixerit alicui: <quote
+            rend="pre(«) post(»)">cucurbita</quote> vel <quote rend="pre(«) post(»)"
+            >spernitus</quote>, perdat <measure type="Imperiales" quantity="12" unit="denari"
+            >imperialium XII</measure>.</p>
+        <p xml:id="CII_p_023" n="23"><c>§</c> Quicumque vel quecumque dixerit alicui mulieri
+            maritate<note place="foot" n="i" xml:id="CII_n_009"><emph>Potrebbe mancare l’indicazione
+              dell’ingiuria, ma si può anche intendere il termine <term xml:lang="latin"
+                >maritate</term> come imperativo.</emph></note> vel consimile verbum iniuriosum
+          perdat <measure type="Imperiales" quantity="12" unit="denari">denarios imperialium
+            XII</measure>.</p>
+        <p xml:id="CII_p_024" n="24"><c>§</c> Quicumque vel quecumque excogitatum vastum fecerit, de
+          die vel de nocte, a <measure type="Imperiales" quantity="6" unit="denari">sex
+            denariis</measure> infra vel ultra puniatur ut fur, et quicumque viderit vastantem et
+          non manifestaverit, et inde convictus fuerit, puniatur ut latro, sicut determinatum est
+          supra.</p>
+        <p xml:id="CII_p_025" n="25"><c>§</c> Quicumque traxerit aliquem de tenuta rei immobilis et
+          contempserit coram consulibus, dicens ad se pertinere, <measure type="imperiales"
+            quantity="5" unit="soldi">soldos V</measure> perdat pro banno, in clam vel precario.</p>
+        <p xml:id="CII_p_026" n="26"><c>§</c> Quicumque habet facere murum castellanum et non
+          fecerit unum pontem per annum, infra <date when="--09">mensem septembris</date>, perdat
+            <measure type="Imperiales" quantity="5" unit="soldi">soldos V imperialium</measure> pro
+          banno; et si fecerit duos pontes vel plures uno anno, non cadat in bannum sequentis vel
+          sequentium annorum secundum numerum factorum pontium muri faciendi et facti.</p>
+        <p xml:id="CII_p_027" n="27"><c>§</c>
+          Consules teneantur iuramento suo facere solvi per unumquemque fumum
+          suorum iuratorum capellano <orgName ref="#Sarzanello_S_Martino">sancti Martini</orgName> de <placeName
+            ref="#Sarzanello">suprascripto castro</placeName> unam minam boni, mundi et sicci
+          frumenti infra <date when="--09">mensem septembris</date>, annis singulis, eodem
+            capellano mittente ad domum singulorum pro ipso frumento, exceptis
+          omnibus consulibus et duobus nunciis Communis, qui non debeant illud solvere.</p>
+        <p xml:id="CII_p_028" n="28"><c>§</c> Si autem consules vel eorum
+          aliquis incurrerint excogitate maleficia suprascripta, puniantur ut supra.</p>
+        <p xml:id="CII_p_029" n="29"><c>§</c> Si autem minores XII annorum incurrerint excogitate
+          maleficia suprascripta, puniantur arbitrio episcopi et
+            consulum.</p>
+        <p xml:id="CII_p_030" n="30"><c>§</c> Si autem pauperes incurrerint ipsa maleficia
+          excogitate et non habuerint unde solvant dicta banna, puniantur extraordinarie arbitrio
+            episcopi et consulum, exceptis homicidii<note
+            place="foot" n="l" xml:id="CII_n_010"><term type="incerto">homicidiis</term>:<emph> così
+              nel testo</emph></note>, incendiariis et traditoribus, super quorum pena non habeatur
+          remedium, <ref target="#CII_richiamo"/><pb n="218r" xml:id="fol_218r"/> preter quod
+          superius est notatum.</p>
+        <p xml:id="CII_p_031" n="31"><c>§</c> Si quis incurrerit aliquod maleficium, quod in hoc
+          breve non sit scriptum, puniatur arbitrio domini episcopi et
+            consulum.</p>
+        <p xml:id="CII_p_032" n="32"><c>§</c> Quicumque perdiderit vel fraudem commiserit in
+          perdendo statutum istud, perdat <measure type="Imperiales" quantity="20" unit="soldi"
+            >soldos XX</measure> pro banno, et breve reficiat suis expensis.</p>
+        <p xml:id="CII_p_033" n="33"><c>§</c> Super omnibus iniuriis et dampnis suprascriptis, si
+          querimonia delata fuerit ad dominum episcopum vel eius
+            vicarium, ipse puniat secundum suprascripta statuta; et si delata
+          fuerit apud consules, puniant secundum suprascripta statuta, nisi per
+          appellationem ad episcopum devenerint, ita tamen quod si
+            episcopus punierit, consules non puniant, atque si
+            consules punierint, non puniat episcopus.</p>
+        <p xml:id="CII_p_034" n="34"><c>§</c> Medietas omnium suprascriptorum bannorum sit domini
+          episcopi et alia medietas sit consulum vel communis; preterea medietas omnium bonorum, que
+            consules habuerint preter hec et sine scriptis, sit
+            episcopi et alia medietas consulum vel communis.</p>
+        <p xml:id="CII_p_035" n="35"><c>§</c> Quicumque advena obierit in <placeName
+            ref="#Sarzanello">suprascripto castro</placeName> vel eius districtu sine legitimis
+          heredibus et ab intestato, eius mobilia dividantur per medium inter
+            episcopum et commune vel consules; si autem fecerit testamentum,
+          teneatur iudicare <measure type="Imperiales" quantity="12" unit="denari">denarios
+            XII</measure> episcopo et totidem consulibus vel communi et eius teneat testamentum.</p>
+        <p xml:id="CII_p_036" n="36"><c>§</c>
+          Consul teneatur precipere ei qui confessus fuerit in iure debitum ut
+          infra XV dies illud solvat et, si non solverit et querimonia relata fuerit consuli, faciat
+          pro banno dari de quolibet soldo <measure type="imperiales" quantity="1" unit="denari"
+            >denarius I</measure> atque, quamdiu steterit ad solvendum, in qualibet octava solvat
+          eodem modo de quolibet soldo <measure type="Imperiales" quantity="1" unit="denari"
+            >denarium I</measure>, ita tamen quod, si creditor prorogaverit terminum, inde non
+          cadant in bannum; consul tamen terminum prorogare tertium non possit.</p>
+        <p xml:id="CII_p_037" n="37"><c>§</c> Si dominus domus non venerit ad parlamentum quando
+          sonaverit, perdat <measure type="Imperiales" quantity="3" unit="denari">denarios
+            IIII</measure> pro banno, nisi steterit parabola consulum.</p>
+        <p xml:id="CII_p_038" n="38"><c>§</c> Si consiliarius non venerit ad consilium quando
+          sonaverit, perdat <measure type="Imperiales" quantity="6" unit="denari">denarios
+            sex</measure>, nisi steterit parabola consulum.</p>
+        <p xml:id="CII_p_039" n="39"><c>§</c> Quicumque non redierit ad castrum vel ad rumorem
+          traxerit quando sonaverit ad sturmum, perdat <measure type="Imperiales" quantity="2"
+            unit="soldi">soldos II</measure>, et si traxerit ad rumorem et erit discordia inter
+          iuratos, teneatur bona fide partiri discordes et non accipere partem quod, si partem
+          acceperit vel non diviserit, perdat <measure type="imperiales" quantity="2" unit="soldi"
+            >soldos II</measure>; si autem fuerit discordia inter iuratos et alios, teneatur
+          adiuvare iuratos, ita quod non possit habere iniuriam bona fide, et si non adiuverit<note
+            place="foot" n="m" xml:id="CII_n_011"><term xml:lang="latin">adiuverit</term>: <emph>nel
+              testo <term xml:lang="latin">adiuvaverit con</term> va depennato ed
+            espunto.</emph></note>, perdat <measure type="Imperiales" quantity="2" unit="soldi"
+            >soldos II</measure> pro banno.</p>
+        <p xml:id="CII_p_040" n="40"><c>§</c> Quicumque intra <placeName ref="#Sarzanello"
+            >castrum</placeName> fuerit et audierit tintinnabulum pro mortuis pulsare, teneatur ire
+          ad locum ubi fuerit corpus defuncti et ire cum ipso defuncto ad sepeliendum; atque, si non
+          iverit, perdat <measure type="Imperiales" quantity="4" unit="denari">denarios
+            IIII</measure>, nisi steterit parabola consulum.</p>
+        <p xml:id="CII_p_041" n="41"><c>§</c> Nullus faciat iuramentum compagnie, nisi fuerit de
+          mercadancia, nec iuram nec obligationem iure, preter iuramentum communis, atque quicumque
+          fecerit perdat <measure type="Imperiales" quantity="20" unit="soldi">soldos XX</measure>,
+          capitaneus et ceteri perdant <measure type="Imperiales" quantity="11" unit="soldi">soldos
+            XI</measure> et iura destruantur.</p>
+        <p xml:id="CII_p_042" n="42"><c>§</c> Nullus dominus vel domina intret in ortum alterius pro
+          dampno faciendo; atque, si intraverit, perdat <measure type="imperiales" quantity="1"
+            unit="soldi">soldum I</measure>, et alia familia perdat <measure type="Imperiales"
+            quantity="6" unit="denari">denarios sex</measure> et emendet dampnum, ut de furto
+          superius dictum est.</p>
+        <p xml:id="CII_p_043" n="43"><c>§</c> Nullus deportet ultra sex <term ref="#cervatina"
+            >cervatinas</term> et, si aportaverit, perdat <measure type="Imperiales" quantity="6"
+            unit="denari">denarios VI</measure>, exce<supplied reason="omitted">p</supplied>to
+          quando ligantur vinee, et tunc non portet nisi proprias.</p>
+        <p xml:id="CII_p_044" n="44"><c>§</c> Quicumque inciderit remondantos<note place="foot"
+            n="n" xml:id="CII_n_012"><term type="incerto">remondantos</term>: <emph>così nel
+              testo</emph>.</note> malo modo, nisi faceret retortas ad boves vel vernale, perdat
+            <measure type="Imperiales" quantity="6" unit="denari">denarios VI</measure> pro
+          banno.</p>
+        <p xml:id="CII_p_045" n="45"><c>§</c> Si ficus vel alia arbor pependerit super terrenum
+          alterius, ille cuius erit terra super qua pependerit colligatur de sua terra quod poterit
+          et sit suum quod collegerit; si vero per debatituram ceciderint fructus in alterius
+          terrenum, dividantur per medium inter eum cuius est arbor et terrenum in quo ceciderint;
+          et si per ventum vel per maturitatem ceciderint in terrenum alterius, sint eius in cuius
+          terra ceciderint.</p>
+        <p xml:id="CII_p_046" n="46"><c>§</c> Nemo de <placeName ref="#Sarzanello">suprascripto
+            castro</placeName>, qui accusatus fuerit de dictis offensionibus, possit appellare ad
+            episcopum, nisi prius dederit pignora vel cautiones fecerit coram
+          consulibus de dictis bannis, salvo iudicio eorumdem episcopum. In
+          aliis autem et super aliis mandatis que non sunt in hoc breve expressa, si
+            consules fecerint seu preceperint alicui et visum fuerit quod
+          gravetur, liceat cuilibet appellare et consules ab appellatione facta
+          non contra procedant, excepto quod si per sacramentum preceperint, teneantur<note
+            place="foot" n="o" xml:id="CII_n_013"><term type="incerto">teneantur</term>: <emph>così
+              nel testo per</emph>
+            <term xml:lang="latin">teneatur</term></note> dare pignus <measure type="imperiales"
+            quantity="5" unit="soldi">soldorum V</measure> ille qui appellaverit et iudicium
+          appellationis salvum sit domino episcopo suprascripto.</p>
+        <p xml:id="CII_p_047" n="47"><c>§</c> Nullus ponat linum ad macerandum in rivo Pucio, a via
+          de Fracta supra in aliquo loco rivi; et quicumque posuerit perdat <measure
+            type="Imperiales" quantity="12" unit="denari">denarios XII</measure> pro banno et non
+          teneat ultra et, si tenuerit, per quemlibet diem quo tenuerit perdat <measure
+            type="Imperiales" quantity="6" unit="denari">denarios sex</measure>.</p>
+        <p xml:id="CII_p_048" n="48"><c>§</c> Teneantur etiam consules
+          iuramento hoc anno fundamentum facere porte in monte Iudicis et murare hinc inde per
+          brachia IIIIor murum ad unum pontem super terram atque bonum murum ad calcinam factum, et
+          donec compleatur opus fiat unus pons boni muri annis singulis.</p>
+        <p xml:id="CII_p_049" n="49"><c>§</c> Nullum aliud statutum fiat preter communem voluntatem
+          domini episcopi, consulum et consilii dicti loci.</p>
+        <p xml:id="CII_p_050" n="50"><supplied reason="omitted"><c>§</c></supplied> Confirmatum est
+          et approbatum istud breve per omnes consiliarios
+          <placeName ref="#Sarzanello">dicti castri</placeName>
+          <date when="--11-20">XII kalendas decembris</date>, in palatio <placeName
+            ref="#Sarzanello">castri Sarzane</placeName>, presentibus <persName
+            ref="#SalamoncellusBaratella">Salamoncello Baratella</persName>, <persName
+            ref="#RollandusVagus">Rolando Vago de <placeName ref="#Lucca"
+            >Luca</placeName></persName>, <persName ref="#UgolinusPhilippi">Hugolino
+            Philippi</persName> et multis aliis.</p>
+        <p xml:id="CII_p_051" n="51"><c>§</c>
+          <date when="1234">Eodem anno et indictione</date>, <placeName ref="#Sarzanello">in camera
+              <persName ref="#GuilEpLuni">suprascripti episcopi</persName> apud suprascriptum
+            castrum</placeName>, <date when="--03-23">X kalendas aprilis</date>, coram <persName
+            ref="#BonafestaDurantis">Bonafesta quondam Durantis</persName> et <persName
+            ref="#IacopinusTalliavachanot">Iacopino Talliavacha
+            <roleName>notario</roleName></persName>, decretio eodem<note place="foot" n="p"
+            xml:id="CII_n_014"><term type="incerto">decretio eodem</term>: <emph>lettura
+              incerta.</emph></note> suprascriptorum quorumdam capitulorum et additum hoc factum de
+          voluntate et consensu suprascripti episcopi et consulum et consilii <placeName
+            ref="#Sarzanello">dicti loci</placeName>.</p>
+        <p xml:id="CII_p_052" n="52"><c>§</c> Quando pulsaverint tintinnabula pro mortuis, si fuerit
+          mortuus in <placeName ref="#Gropario">Gropario</placeName>, vadant tantum illi de
+            <placeName ref="#Gropario">Gropario</placeName> cum eo ad sepeliendum; si fuerit de
+            <placeName ref="#Miro">Miro</placeName>, vadant illi de <placeName ref="#Miro"
+            >Miro</placeName>; si in <placeName ref="#Monte">Monte</placeName>, vadant illi de
+            <placeName ref="#Monte">Monte</placeName>; et, si alii voluerint ire, vadant ad
+          voluntatem suam. Item consules, elapsis XV diebus, super debito
+          confesso in iure dominii<note place="foot" n="q" xml:id="CII_n_015"><term xml:lang="latin"
+              >dominii</term>: <emph>inchiostro sbiadito.</emph></note> eis precipiant per
+          iuramentum debenti ut ab inde ad octo dies id solvat. Item cuilibet de castro incidenti
+          ficum suam liceat, quandocumque inciderit, proprias deportare cervatinas. Item nullus
+          faciat fossatum in aliquo ponte <gap reason="illegibile"/><note place="foot" n="r"
+            xml:id="CII_n_016"><emph>Parola illeggibile a causa dell’inchiostro
+            sbiadito.</emph></note> tocius castri iuxta viam per quod via possit corrui; et, si
+          fecerit, perdat <measure type="Imperiales" quantity="3" unit="soldi">soldos III</measure>
+          et infra duos dies repleat ipsum fossatum et viam reficiat.</p>
+        <div type="richiamo" xml:id="CII_richiamo">
+          <p xml:id="CII_p_053" n="53">Item nullus faciat stallam vel aliud excogitatum impedimentum
+            in viis tocius <placeName ref="#Sarzanello">districtus suprascripti castri</placeName>
+            atque, si fecerit, perdat <measure type="imperiales" quantity="12" unit="denari"
+              >denarios XII</measure>; verumptamen tempore messis, quando in estate tondetur
+            triticum, ordeum atque similia, a <date when="--06-01">kalendis iulii</date> usque ad
+              <date when="--09-01">kalendas septembris</date> liceat hiis, qui habent aras et
+            capannas iuxta vias, propter necessitatem deicere paleas et ruscum in viam, ita tamen
+            quod infra dictos duos menses paleam, ruscum et letamen de via removeant et deportent;
+            et si non fecerint et si dimiserint, perda<supplied reason="omitted">n</supplied>t
+            denarios XII.</p>
+          <p xml:id="CII_p_054" n="54"><ptr target="#CII_st_001"/> Ego <persName
+              ref="#GerardetusMontoni">Gerardetus, qui nominor Montonus, <roleName>palatii sacri
+                notarius</roleName></persName>, hiis omnibus interfui et rogatus duo instrumenta uno
+            tenore scripsi, de voluntate et mandato domini episcopi, consulum et consilii
+              predictorum<note place="foot" n="s" xml:id="CII_n_017"><term xml:lang="latin">Item
+                nullus-consilii predictorum</term>: <emph>scritto nel margine inferiore di c.
+                CCVIIIIv. con segno di richiamo in inchiostro rosso.</emph></note>.</p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,229 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXXII_284">
+    <front xml:id="CCCXXII_front">
+
+      <titlePart type="numerazioneNuova">284</titlePart>
+      <titlePart type="numerazioneOrig">CCCXXII</titlePart>
+
+      <docDate xml:id="CCCXXII_docDate">
+        <date when="1268-09-07">1268 settembre 7</date>, <date when="1268-12-15">dicembre 15</date>
+        e <date when="1268-12-18">18</date>, <placeName>Sarzana (<emph>in domo filiorum quondam
+            Ponchii, ubi iura redduntur</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXXII_regesto">
+        <p>Lanfredo Bonacursi, vicario nella provincia di Lunigiana, dietro richiesta del notaio
+          Iacopino detto Tagliavacca, sindaco del vescovo di Luni Guglielmo, cita in giudizio
+          Iacopuccio del fu Alberto di Carrara riguardo al fitto non pagato da 12 anni per un mulino
+          presso Carrara e per la porzione di un altro mulino a Carrara. Rendendosi Iacopuccio
+          contumace, Lanfredo sentenzia che i due beni tornino in piena proprietà del vescovo se
+          entro un anno Iacopuccio non pagherà quanto dovuto per quel che concerne le tasse e le
+          spese processuali. Riguardo al fitto insoluto, invece, egli dovrà pagare entro 30 giorni,
+          trascorsi i quali il sindaco del vescovo potrà rivalersi sui beni mobili e immobili e sui
+          diritti dell’insolvente. Pochi mesi dopo Lanfredo ordina che i gestori dei mulini suddetti
+          consegnino il macinato al vescovo di Luni Guglielmo o al suo castaldo Buonalbergo.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXXII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 293v-294v., cc. CCLXXXVv -CCLXXXVIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 322,
+            pp. 310-312.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno di c. 293v., di mano moderna: <term xml:lang="latin"
+              >molendinum</term></note>
+          <note>Nel margine esterno di c. 294r., di mano moderna: <term xml:lang="latin"
+              >Carraria</term>.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCXXII.
+              Molemdinorum Iacoputii.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXXII_div">
+        <p xml:id="CCCXXII_p_001" n="1">In Dei nomine, amen. <date when="1268-09-07">Anno a
+            nativitate Eius millesimo CCLXVIII, indictione XI, die VII septembris</date>. Cum, ad
+          petitionem <persName ref="#IacopinusTalliavachanot">Iacopini dicti Talliavache</persName>
+          <roleName>notarii</roleName>, <roleName>syndici</roleName> et <roleName>actoris</roleName>
+          venerabilis patris domini <persName ref="#GuilEpLuni">Guilielmi, <roleName>Lunensis
+              episcopi </roleName>,</persName> citatus et requisitus fuerit ad domum <persName
+            ref="#IacopuciusAlberti"> Iacopucius quondam domini Alberti de <placeName ref="#Carrara"
+              >Carraria</placeName>
+          </persName> per <persName ref="#Cavallinuscorr">Cavallinum <roleName>correrium</roleName>
+          </persName> mandato nostri <persName ref="#LanfredusBonacursi">Lanfredi Bonacursi</persName>,
+            <roleName>vicarii</roleName> in <orgName ref="#Lunigiana_provincia">provincia
+              <placeName ref="#Lunigiana">Lunisiane</placeName></orgName>, sive domini <persName ref="#Rubeusiud2">Rubei</persName>,
+              <roleName>iudicis</roleName> et <roleName>assessoris </roleName> nostri in
+            <orgName ref="#Lunigiana_vicaria">vicaria</orgName> predicta, ut certo termino veniret coram nobis sive coram dicto
+          iudice, pro omnibus terminis et perhemptorie ordinato, rationem facturus et de iure
+          responsurus dicto syndico pro ipso domino episcopo et gridatum et proclamatum fuerit,
+          etiam publice, per eundem correrium, mandato nostri sive dicti iudicis in <placeName
+            ref="#Carrara">Carraria</placeName>, scilicet in platea plebis <placeName ref="#Carrara"
+            >Carrarie</placeName> et ante domum dicti <persName ref="#IacopuciusAlberti"
+            >Iacopucii</persName>, quod ipse <persName ref="#IacopuciusAlberti"
+            >Iacopucius</persName> vel alius quicumque eum vel eius bona deffendere vellet veniret
+          certo termino, pro omnibus terminis et perhemptorie ordinato, coram nobis vel coram dicto
+          iudice rationem facturus et de iure responsurus ipsi syndico de omni et toto eo quod ab eo
+          petebat et petere intendebat, alioquin, post dictum terminum, procederetur contra dictum
+            <persName ref="#IacopuciusAlberti">Iacopucium</persName> et eius bona secundum iura, ad
+          petitionem dicti syndici, suprascriptus <persName ref="#IacopuciusAlberti">Iacopucius
+          </persName> non venit nec alius pro eo nec etiam aliquis alius qui eum vel eius bona
+          deffendere vellet, immo contumax extitit, ipso syndico legitime comparente in termino et
+          post et petente sibi dari tenutam contra ipsum <persName ref="#IacopuciusAlberti"
+            >Iacopucium</persName> contumacem de omnibus infrascriptis, videlicet de uno molendino
+          posito in pertinenciis <placeName ref="#Carrara"> Carrarie</placeName>, in loco dicto ad
+          molendinum de <placeName ref="#Guercia">Guercia</placeName>, et de redditibus qui
+          percipiuntur et percipi possunt a dicto <persName ref="#IacopuciusAlberti"
+            >Iacopucio</persName> de molendino predicto, cui coheret ab una parte via publica, ab
+          alia molendinum <persName ref="#Durans">Durantis</persName>, ab alia flumen de <placeName
+            ref="#Carrara">Carraria</placeName>, et si aliter et melius per latera et capita
+          reperitur, quod molendinum dicebat idem syndicus esse dicti domini episcopi cum omnibus
+          iuribus et pertinenciis et apparatibus ipsius molendini et ipsum molendinum cum omnibus
+          pertinenciis et apparatibus suis ad dictum dominum episcopum, tanquam ad dominum, redire
+          et pertinere <pb n="294r" xml:id="fol_294r"/> occasione ficti retenti, quod fictum erat
+          staria sex frumenti annuatim, quod frumentum dictus <persName ref="#IacopuciusAlberti"
+            >Iacopucius</persName> annuatim reddebat et reddere debebat dicto domino episcopo ex
+          molendino predicto, ut idem syndicus dicebat, per annos XII; item petebat ab eodem
+            <persName ref="#IacopuciusAlberti">Iacoputio</persName> et petere intendebat LXXII
+          staria frumenti pro ficto retento vel pro extimatione ipsius <measure type="Ianuenses"
+            unit="libra" quantity="18"> libras XVIII Ianuensium</measure>, ad rationem <measure
+            type="Ianuenses" unit="solidus" quantity="5"> soldorum V Ianuensium</measure> pro
+          quolibet stario; item petebat ab eodem <persName ref="#IacopuciusAlberti">
+            Iacoputio</persName> et petere intendebat partem contingentem ipsi <persName
+            ref="#IacopuciusAlberti">Iacoputio</persName> in molendino et de molendino quodam posito
+          apud plebem <placeName ref="#Carrara">Carrarie</placeName>, subtus canonicam ipsius
+          plebis, cui coheret ab una parte canonica sive terrenum dicte ecclesie, ab alia flumen,
+          quod molendinum dicebat ad dictum dominum episcopum pertinere iure dominii et quia dictum
+          molendinum idem <persName ref="#IacopuciusAlberti">Iacopucius</persName> tenebat in feudum
+          a dicto domino episcopo et contra fidelitatem fecit et commisit, et ideo dicebat ipsum
+          molendinum ad ipsum dominum episcopum pertinere et redire debere, iure dominii et tanquam
+          ad dominum, et redditus, qui percipiuntur et percipi possunt a dicto <persName
+            ref="#IacopuciusAlberti">Iacoputio</persName> de molendino predicto et de parte ipsius
+          molendini eidem <persName ref="#IacopuciusAlberti">Iacoputio</persName> contingente, et
+          expensas infrascriptas, ea occasione factas et faciendas. Unde nos <persName
+            ref="LanfredusBonacursi">Lanfredus, <roleName>vicarius</roleName></persName>
+          suprascriptus, visa et intellecta citatione et proclamatione predicta et representatione
+          dicti syndici et visa et intellecta petitione ipsius syndici et contumacia ipsius
+            <persName ref="#IacopuciusAlberti">Iacopucii</persName>, qui non venit in termino nec
+          post, nec etiam aliquis alius eum deffendere volens, et pluribus diebus post terminum,
+          expectato et habito ipso <persName ref="#IacopuciusAlberti">Iacoputio</persName> pro
+          contumace, et recepto iuramento ab ipso syndico, qui predicta per calumpniam non petebat,
+          pronunciamus ipsum syndicum et actorem, syndicatus et actorio nomine pro dicto domino
+          episcopo, vel alium cui ipse dominus episcopus vel syndicus commiserit, esse mittendum et
+          eum mittimus et mitti iubemus per <persName ref="#Cavallinuscorr">Cavallinum</persName>
+          <roleName>correrium</roleName> in tenutam et possessionem corporalem predictorum
+          molendinorum et pertinenciarum et iurium ipsorum et tantorum bonorum ipsius <persName
+            ref="#IacopuciusAlberti">Iacopucii</persName>, que bene valeant dictum frumentum
+          retentum et extimationem ipsius, que est <measure type="Ianuenses" unit="libra"
+            quantity="18">librarum XVIII Ianuensium</measure>, ut dictum est, et expensas
+          infrascriptas, que sunt: pro correrio, qui fecit dictam citationem et gridam sive
+          proclamationem, <measure type="Ianuenses" unit="denarius" quantity="18">Ianuensium
+            VIII</measure>; pro hac carta <measure type="Ianuenses" unit="solidus" quantity="2"
+            >soldi II Ianuensium</measure>; pro datia curie <measure type="Ianuenses" unit="libra"
+            quantity="6">libre VI Ianuensium</measure>; pro correrio, qui inducet eum in tenutam, et
+          eius viatica, <measure type="Ianuenses" unit="denarius" quantity="12">Ianuensium XII
+          </measure>; pro notario, qui faciet cartam indutionis ipsius tenute, <measure
+            type="Ianuenses" unit="solidus" quantity="3">soldi III Ianuensium</measure>. Et
+          precipimus <persName ref="#Cavallinuscorr"> Cavallino </persName>
+          <roleName>correrio</roleName> ut dictum <persName ref="#IacopinusTalliavachanot">
+            Talliavacham, <roleName>syndicum</roleName> et <roleName>actorem </roleName></persName>
+          dicti domini episcopi, vel <persName ref="#Bonalberguscast">Bonalbergum,
+              <roleName>castaldionem </roleName></persName> ipsius domini episcopi, hic presentem,
+          pro ipso domino episcopo in tenutam et possessionem predictorum omnium inducat, salvo iure
+          aliarum omnium personarum, ita quod ut, si dictus <persName ref="#IacopuciusAlberti"
+            >Iacopucius</persName> infra annum venerit et expensas factas in dictis molendinis
+          petitis restituerit, que sunt pro datia dictorum molendinorum <measure type="Ianuenses"
+            unit="libra" quantity="5">libre V Ianuensium</measure> et <measure type="Ianuenses"
+            unit="solidus" quantity="2">soldi II Ianuensium </measure>, facta inde ratione coram
+          nobis de predictis <measure type="Ianuenses" unit="libra" quantity="6">VI libris
+            Ianuensium </measure> datie superius memorate, et medietatem aliarum factarum expensarum
+          predictis occasionibus factarum, rehabeat et recuperet dictam tenutam eo modo quo habebat
+          ante hanc sententiam; alioquin, post annum, fiat et sit dictus dominus episcopus vel eius
+          syndicus sive actor vel castaldio pro eo verus possessor dictorum molendinorum. Super alia
+          vero tenuta, data sive pronunciata de bonis sive in bonis ipsius <persName
+            ref="#IacopuciusAlberti">Iacopucii</persName> occasione dicti frumenti retenti vel eius
+          extimationis et expensarum factarum tam in datia, que est <measure type="Ianuenses"
+            unit="solidus" quantity="18"> soldorum XVIII Ianuensium</measure> ex predictis <measure
+            unit="libra" quantity="6">VI libris</measure>, quam pro alia medietate dictarum
+          expensarum, damus et assignamus terminum ex nostro officio et arbitrio dicto <persName
+            ref="#IacopuciusAlberti">Iacopucio</persName> recuperandi ipsam tenutam, restitutis
+          primo expensis usque ad XXX dies proximos; et pro dicta extimatione dicti frumenti retenti
+          et pro expensis ea occasione factis, precipimus dicto <persName ref="#Cavallinuscorr"
+            >Cavallino <roleName>correrio </roleName></persName> ut dicto <persName
+            ref="#IacopinusTalliavachanot"> Talliavache</persName> vel dicto <persName
+            ref="#Bonalberguscast">Bonalbergo</persName> pro dicto domino episcopo tradat de bonis
+          dicti <persName ref="#IacopuciusAlberti">Iacopucii</persName><note place="foot" n="a"
+            xml:id="CCCXXII_n_001"><term xml:lang="latin">dicti <persName ref="#IacopuciusAlberti"
+                >Iacopucii </persName></term>: <emph>nel testo</emph>
+            <term xml:lang="latin">
+              <persName ref="#IacopuciusAlberti">Iacopucii</persName> dicti</term>
+            <emph>con segno di richiamo per invertire l’ordine delle parole..</emph></note>,
+          ubicumque de eis invenerit, scilicet primo de mobilibus, secundo de immobilibus, tercio de
+          nominibus. Lata, lecta et recitata est predicta sententia <placeName ref="#Sarzana"
+            >Sarzane</placeName>, in domo filiorum quondam <persName ref="#Ponçius"
+            >Ponchii</persName>, ubi iura redduntur per vicarium suprascriptum, presentibus
+            <persName ref="#Parcis"> Parce</persName> et <persName ref="#Cavallinuscorr"
+            >Cavallino</persName>, <roleName>correriis</roleName>, <persName
+            ref="#HenricusFalcinello">Henrico de <placeName ref="#Falcinello"
+            >Falcinello</placeName></persName> habitatore <placeName ref="#Sarzana"
+            >Sarzane</placeName> et <persName ref="#GerardusLealis">Gerardo quondam domini
+            Lealis</persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCCXXII_p_002" n="2">Post hec <date when="1268-12-15">eodem anno, indictione et
+            die XV decembris</date> preceptum est <persName ref="#Cavallinuscorr">Cavallino
+              <roleName>correrio </roleName></persName> per dominum <persName
+            ref="#LanfredusBonacursi">Lanfredum, <roleName> vicarium
+            suprascriptum</roleName></persName>, quod ipse precipiat <persName
+            ref="#TedoraFranceschini"> Tedore de <placeName ref="#Ficola">Ficola</placeName>
+            <pb n="294v" xml:id="fol_294v"/> quondam Franceschini </persName>,
+            <roleName>molendinarie molendini de <placeName ref="#Guercia">Guercia </placeName>
+          </roleName>, et <persName ref="#BonacursusVitalis">Bonacurso quondam Vitalis</persName>,
+            <roleName> molendinario molendini de <placeName ref="#Plebe"
+            >Plebe</placeName></roleName>, positi subtus canonicam, ut ipsi de cetero reddant et
+          dent macinaturam seu molituram dictorum molendinorum, sicut reddebant dicto <persName
+            ref="#IacopuciusAlberti">Iacopucio</persName>, venerabili patri domino <persName
+            ref="#GuilEpLuni">Guilielmo, <roleName>Dei gratia Lunensi
+          episcopo</roleName></persName>, vel <persName ref="#Bonalberguscast"> Bonalbergo, eius
+              <roleName>castaldioni</roleName></persName>, pro eo, vel alii pro eodem, secundum
+          formam sentencie contumacie late contra eumdem <persName ref="#IacopuciusAlberti">
+            Iacopucium</persName>. Qui <persName ref="#Cavallinuscorr">Cavallinus
+              <roleName>correrius</roleName>
+          </persName> eodem anno et indictione retulit hodie, qui est <date when="1268-12-18">die
+            martis XVIII decembris</date>, se fecisse et precepisse, ut superius continetur, die
+          dominico proxime preterita; et si sentirent se ab ipso precepto gravatos, hodie venirent
+          coram predicto vicario.</p>
+        <p xml:id="CCCXXII_p_003" n="3"><ptr target="#CCCXXII_st_001"/>Ego <persName
+          ref="#Pasqualinusnot"> Pasqualinus, <roleName>notarius et scriba publicus</roleName> <orgName ref="#Lunigiana_vicaria">vicarie</orgName>
+              predicte</persName>, predictis omnibus interfui et ea scripsi, mandato
+          dicti vicarii.</p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

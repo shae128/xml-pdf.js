@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXXIIII_485">
+    <front xml:id="DXXIIII_front">
+
+      <titlePart type="numerazioneNuova">485</titlePart>
+      <titlePart type="numerazioneOrig">DXXIIII</titlePart>
+
+      <docDate xml:id="DXXIIII_docDate">
+        <date when="1281-05-08">1281 maggio 8</date>, Civitavecchia (<term xml:lang="latin">apud Urbem
+          Veterem, in cappella domini episcopi Sabinensis</term>) </docDate>
+
+      <div type="regesto" xml:id="DXXIIII_regesto">
+
+        <p> Esistendo da tempo una lunga controversia tra il vescovo di Luni Enrico e Moroello
+          Malaspina, l’arbitro eletto dalle parti, il vescovo di Sabina Gerardo, pronuncia la sua
+          sentenza. Moroello Malaspina entro otto giorni dalla richiesta deve restituire tutte le
+          fortificazioni e i beni del vescovo che ha invaso e occupato dall’inizio della discordia,
+          ossia i castelli di Sarzana (oggi Sarzanello), San Maurizio, Falcinello, Brina, Bolano,
+          Albiano, Soliera, Moncigoli, Collecchia, Ceserano, Stadano, Montebello e Buscarolo, i
+          borghi di Sarzana, Santo Stefano, Ceparana, il borgo o castello Serravalle, quanto gli
+          appartiene nei castelli di Burcione, Pulica, San Terenzo e Regnano. Moroello deve
+          restituire tutti gli uomini del vescovo che detiene incarcerati e lo stesso deve fare il
+          vescovo di Luni. Riguardo ai danni inferti nel corso della discordia, ogni cosa deve
+          tornare come era prima che questa iniziasse. Il vescovo, infine, deve togliere la
+          scomunica lanciata contro Moroello Malaspina e i suoi uomini. L’arbitro specifica che
+          Moroello deve restituire solo quanto non era suo all’inizio della discordia. Il vescovo di
+          Luni e il procuratore del Malaspina accettano la sentenza. </p>
+
+      </div>
+
+      <div type="footer" xml:id="DXXIIII_footer">
+
+        <div type="orig_doc">
+          <p> Copia [C] cc. 389r.-390r., cc. CCCLXXXIr.-CCCLXXXIIr. secondo la numerazione
+            originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 524,
+            pp. 577-580 </p>
+
+        </div>
+
+        <div type="crit_notes">
+          <note> Nel margine interno, di mano moderna: <term xml:lang="latin">De facto Montisbelli
+              et alii(s) castris</term>
+          </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXXIII.
+              Conpromissum domini episcopi et domini Morroelli in dominum episcopum
+              Sabinensem.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXXIIII_div">
+        <p xml:id="DXXIIII_p_001" n="1">In Dei nomine nostri Domini Ihesus Christi. Dudum inter
+            <persName ref="#HenricusEpLuni"><roleName>venerabilem patrem dominum</roleName>
+            Henricum, <roleName>Lunensem episcopum</roleName></persName>, pro se et episcopatu suo
+          et ecclesia Lunensi, ex parte una, et <persName ref="#Morruellusvic"><roleName>nobilem
+              virum dominum</roleName> Monroellum, <roleName>marchionem</roleName>
+            Malaspine</persName>, ex altera, super diversis iniuriis et gravaminibus illatis ipsi
+          episcopo, episcopatui et ecclesie Lunensi tam<note place="foot" n="a"
+            xml:id="DXXIIII_n_001">tam: <emph>corretto su precedente scrittura</emph>.</note> in
+          persona ipsius episcopi et familiarium suorum necnon hominibus et vassallis eiusdem
+          episcopi et episcopatus seu ecclesie, eidem episcopo existentibus<note place="foot" n="b"
+            xml:id="DXXIIII_n_002">existentibus: <emph>così nel testo per</emph> assistentibus,
+              <emph>cfr. doc. 484-DXXIII</emph></note> et faventibus contra nobilem predictum
+          occasione iniuriarum ipsarum, quam etiam super variis et diversis spoliationibus et
+          rapinis et depredationibus castrorum et villarum eiusdem episcopi et episcopatus,
+          obisidionibus, combustionibus seu incendiis, devastationibus et occupationibus castrorum,
+          villarum et domorum, vinearum, arborum et agrorum, captionibus hominum ipsius episcopatus
+          et ecclesie et incarcerationibus et secisitatibus receptis et omnibus aliis questionibus,
+          super quibus discordia hinc inde orta sit et oriri possit, et aliis variis et diversis
+          dampnis et iniuriis illatis et datis in terras, villas, castra et possessiones et homines
+          et vassallos dictorum<note place="foot" n="c" xml:id="DXXIIII_n_003">dictorum: dicto
+              <emph>corretto su precedente scrittura</emph>.</note> episcopi, episcopatus et
+          ecclesie Lunensis vel etiam dicti <persName ref="#Morruellusvic"
+              ><roleName>domini</roleName> Monroelli</persName>, materia questionis exorta, dictus
+            <persName ref="#HenricusEpLuni"><roleName>dominus</roleName> Henricus,
+              <roleName>Lunensis episcopus</roleName></persName>, pro se, episcopatu et ecclesia
+          predictis, et <persName ref="#GualterotusIovagallo"><roleName>dominus</roleName>
+            Gualterotus de <placeName ref="#Zovagallo">Çiovagallo</placeName></persName>, procurator
+          predicti <persName ref="#Morruellusvic"><roleName>domini</roleName> Monroelli</persName>,
+          procuratorio nomine pro eo, habens ad compromittendum, componendum, transigendum et
+          paciscendum et cetera plenum et speciale mandatum, prout (in) instrumento publico super
+          huiusmodi mandato, confecto manu <persName ref="#BonacursellusMontebellonot">Bonacurselli,
+              <roleName>notarii publici</roleName>, quondam Oradini de <placeName ref="#Montebello"
+              >Montebello</placeName></persName>, plenius continetur, volentes vitare litigiorum
+          anfractus et viam pacis et concordie amplectentes, in nos <persName
+            ref="#GerardusepSabinensis">Gerardum, <roleName>miseratione divina</roleName>
+            <orgName ref="#Sabina_diocesiSabina_diocesi">Sabinensem
+              </orgName><roleName>episcopum</roleName></persName>, compromiserunt super omnibus
+          iniuriis, spoliationibus et aliis et cetera suprascriptis et super omnibus litibus,
+          questionibus, causis, controversiis et querelis, excessibus et obligationibus, que sunt et
+          esse possent inter ipsos <persName ref="#HenricusEpLuni">dominum Henricum, Lunensem
+            episcopum</persName>, et prefatum <persName ref="#Morruellusvic">dominum
+            Monroellum</persName> occasione dictarum iniuriarum, spoliationum et omnium predictorum
+          et quacumque occasione alia vel causa que orta sit vel oriri possit inter eos, tanquam in
+          arbitrum, arbitratorem, cognitorem, diffinitorem, laudatorem et amicabilem compositorem,
+          prout in instrumento confecto manu <persName ref="#ArmannusMantuanusnot"
+              ><roleName>magistri</roleName>
+            <pb n="389v" xml:id="fol_389v"/> Mantoani, <roleName>publici notarii
+            nostri</roleName></persName>, plenius continetur, nos igitur, attendentes diligenter
+          animarum pericula, personarum et rerum dictorum episcopi et nobilis suprascripti necnon
+          hominum, vassallorum, familiarium et adherencium eisdem, gravia dispendia et dispendiosa
+          gravamina que ex dictis questionibus, litibus, causis et controversiis hactenus
+          pervenerunt et difficiliora et magis periculosa que ex predictis discordiis proveniri
+          possent nichillominus in futurum, et propter hoc volentes tantis periculis tantoque
+          discrimini celeriter obviare, ex virtute dicti compromissi in hiis scriptis, Dei nomine
+          invocato, presentibus <persName ref="#HenricusEpLuni"><roleName>domino</roleName> Henrico,
+              <roleName>Lunensi episcopo</roleName></persName>, et <persName
+            ref="#GualterotusIovagallo"><roleName>domino</roleName> Gualteroto</persName> predictis,
+          procuratorio nomine prefati <persName ref="Morruellusvic"><roleName>domini</roleName>
+            Monroelli</persName>, arbitramur, laudamus, dicimus, precipimus, amicabiliter componimus
+          inter eos et sententialiter diffinimus quod dictus <persName ref="#Morruellusvic"
+              ><roleName>dominus</roleName> Monroellus</persName> plene, libere et absolute, infra
+          VIII dies postquam fuerit requisitus, assignet et assignari faciat omnia nobis seu nuncio
+          nostro, nostras ad hoc specialiter litteras deferenti, restituenda per nos eidem episcopo,
+          quando nobis videbitur expedire, omnia castra omnesque fortilitias, palacia, domos,
+          turres, ecclesias, villas, burgos seu vicos, cum omnibus eorum territoriis, districtibus,
+          adiectenciis, iuribus et iurisdictionibus et pertinenciis et possessionibus, in
+          quibuscumque consistant, que et quas ab inicio mote discordie inter dictos <persName
+            ref="#HenricusEpLuni"><roleName>dominum</roleName> Henricum, <roleName>Lunensem
+              episcopum</roleName></persName>, et <persName ref="#Morruellusvic"
+              ><roleName>dominum</roleName> Monroellum</persName>, per se vel alium aut alios
+          quocumque modo occupavit vel invasit seu occupari mandavit, sive quarum invasionem seu
+          occupationem, nomine suo vel pro eo factam, ratam habuit, et que et quas dictus dominus
+          episcopus seu Lunensis ecclesia vel episcopatus, tempore mote discordie suprascripte, per
+          se vel alium aut alios eius nomine tenebat et habebat seu etiam possidebat. Castra vero
+          ablata episcopo suprascripto infrascripta esse dicuntur: burgus <placeName ref="#Sarzana"
+            >Sarzane</placeName>, <placeName ref="#Sarzanello">castrum Sarzane</placeName>, burgum
+          seu castrum <placeName ref="#Serravalle">Serravallis</placeName><note place="foot" n="d"
+            xml:id="DXXIIII_n_004">Serravallis: e <emph>corretto in sopralinea su</emph> a
+              <emph>espunta</emph>.</note>, castrum <persName ref="#Sancto_Mauricio">Sancti
+            Mauricii</persName>, castrum <placeName ref="#Falcinello">Falcinelli</placeName>,
+          castrum <placeName ref="#Brina">Brine</placeName>, burgum <placeName ref="#Santo_Stefano"
+            >Sancti Stephani</placeName>, burgum <placeName ref="#Ceparana">Cepparane</placeName>,
+          castrum <placeName ref="#Bolano">Bolani</placeName>, castrum <placeName ref="#Albiano"
+            >Albiani</placeName>, castrum <placeName ref="#Soliera">Solerie</placeName>, castrum
+            <placeName ref="#Moncigoli">Monciguli</placeName>, castrum <placeName ref="#Collecchia"
+            >Collechie</placeName> et castrum <placeName ref="#Ceserano">Cycerani</placeName>,
+          castrum <placeName ref="#Stadano">Stadani</placeName>, castrum <placeName
+            ref="#Montebello">Montebelli</placeName> et <placeName ref="#Bruscarolo"
+            >Buscarolum</placeName>, cum aliis villis Lunensis ecclesie ibidem existentibus, et
+          partem suam quam habet et habere debet in castro <placeName ref="#Burcione"
+            >Burcioni</placeName>, castrum <placeName ref="#Pulica">Pulice</placeName>, villam
+            <placeName ref="#SanTerenzo">Sancti Terencii</placeName> et castrum <placeName
+            ref="#Regnano">Regnanni</placeName><note place="foot" n="e" xml:id="DXXIIII_n_005"
+              ><emph>L’elenco di borghi e castelli, tranne la prima voce, è dato in accusativo
+              anziché al nominativo.</emph></note>. Arbitramur etiam, laudamus, dicimus, precipimus
+          et sententialiter diffinimus quod dictus <persName ref="#Morruellusvic"
+              ><roleName>dominus</roleName> Monroellus</persName> restituat et restitui faciat plene
+          et libere omnes homines seu vassallos dicti episcopi seu prefati episcopatus aut ecclesie
+          Lunensis, tam de <placeName ref="#Sarzana">Sarzana</placeName> quam aliunde dicti
+          episcopatus, ac etiam quascumque personas, quos vel quas idem <persName
+            ref="#Morruellusvic"><roleName>dominus</roleName> Monroellus </persName>cepit et tenet
+          seu teneri facit, per se vel alium aut alios, incarceratos, vinctos seu captivos seu qui,
+          pro eo aut eius nomine, in quocumque loco incarcerari<note place="foot" n="f"
+            xml:id="DXXIIII_n_006">incarcerari: <emph>così nel testo per</emph> incarcerati.</note>,
+          vincti aut captivi tenentur, quacumque de causa, occasione discordie, litis seu questionis
+          seu controversie suprascriptarum, et eos omnes et singulos, cum omnibus rebus suis,
+          restituat, que extant aut poterint inveniri, infra VIII dies plenarie liberati. Et vice
+          versa idem faciat et fieri faciat et procuret idem dictus dominus episcopus de hominibus
+          et vassallis <persName ref="#Morruellusvic"><roleName>domini</roleName>
+            Monroelli</persName> ac etiam de quibuscumque personis et rebus aliis que per dictum
+          dominum episcopum et eius nomine capte sunt seu incarcerate occasione discordie
+          suprascripte. Quodque neutra partium predictarum, ante factas dictas restitutiones aut
+          postea, in dampnum, preiudicium aut iacturam vel lesionem alterius aut hominum vel
+          vassallorum seu quarumcumque personarum alterutri parti adherencium in personis, rebus,
+          castris, fortiliciis, domibus, turribus, possessionibus, iuribus, iurisdictionibus et
+          quibuscumque ad eas pertinentibus, aliquid attentent<note place="foot" n="g"
+            xml:id="DXXIIII_n_007">attentent: <emph>così nel testo</emph>.</note> per se vel alium
+          aut alios, pro quocumque ficto<note place="foot" n="h" xml:id="DXXIIII_n_008">ficto:
+              <emph>così nel testo per</emph> facto.</note> vel modo aut ingenio, seu quacumque
+          arte, occasione vel causa aliquid attentet de cetero, innovet vel immutet, set omnia sint
+          et reducantur et remaneant in eo statu in quo erant et in eo modo in quo erant tempore
+          mote discordie seu antequam huiusmodi discordie oriretur. Hec autem omnia et singula
+          suprascripta dicimus, precipimus et laudamus et sententialiter arbitramur ac etiam
+          diffinimus hinc inde a partibus, prout expressum est supra, inviolabiliter in perpetuum
+          observari debere, sub pena in compromisso apposita, et contra ea vel aliquid predictorum
+          dictas partes aut aliqua eorundem nunquam ullo tempore facere vel venire. Et si, quod
+          absit, fieret aliquid contra preceptum nostrum, huiusmodi laudem et diffinitionem,
+          committatur pena tociens et eo modo, prout in ipso compromisso plenius continetur.
+          Addicientes, etiam arbitramur, laudamus et precipimus quod, perfectis omnibus
+          suprascriptis ex parte dicti <persName ref="#Morruellusvic"><roleName>domini</roleName>
+            Monroelli</persName> que precipimus supra fieri vel impleri, idem dominus episcopus
+          absque cuiuslibet difficultatis seu more dispendio, predictum <persName
+            ref="#Morruellusvic"><roleName>dominum</roleName> Monroellum</persName>, omnes homines
+          et vassallos aut factores ipsius, undecumque et cuiuscumque condictionis existant, quos
+          generaliter seu specialiter aut nominatim excomunicationis sententia innodavit occasione
+          discordie suprascripte, omnesque suspensiones <pb n="390r" xml:id="fol_390r"/>et
+          interdicti sententias, quas idem episcopus protulisset in quascumque personas seculares
+          vel ecclesiasticas seu loca, occasione discordie suprascripte, perfectis, ut dictum est,
+          omnibus suprascriptis, iuxta formam ecclesie, similiter denunciet relaxatas dictosque
+          excomunicatos absolvat vel absolvi faciat in forma ecclesie suprascripta, et dictas partes
+          et earum quamlibet in predictis omnibus, prout distincta et determinata sunt supra, per
+          nostrum arbitrium, laudum, preceptum et diffinitionem, sub pena predicta in hiis scriptis,
+          sententialiter condempnantes, reservata nobis plenarie potestate in omnibus aliis litibus,
+          questionibus, controversiis et querelis et super omnibus articulis<note place="foot" n="i"
+            xml:id="DXXIIII_n_009">articulis: lis <emph>corretto su precedente scrittura</emph>.
+          </note> eorumdem arbitrandi, laudandi, dicendi, precipiendi et diffiniendi et etiam inter
+          ipsas partes amicabiliter componendi necnon predicta omnia et singula declarandi,
+          interpretandi, corrigendi ac etiam mutandi, prout nobis videbitur expedire. </p>
+        <p xml:id="DXXIIII_p_002" n="2">Acta sunt hec apud <placeName ref="#UrbisVeteris">Urbem
+            Veterem</placeName>, in <orgName ref="#Sabina_diocesiSabina_diocesi">cappella predicti
+            domini episcopi Sabinensis</orgName>, presentibus <persName ref="#PontiusclerProvincia"
+              ><roleName>magistro</roleName> Pontio <roleName>clerico de</roleName>
+            <placeName ref="#Provincia">Provincia</placeName></persName>, <persName ref="#Azofra"
+              ><roleName>fratre</roleName> Azone <roleName>monacho</roleName>
+            <orgName ref="#S_Stefano_Magra">Sancti Stephani</orgName>
+            <placeName ref="#Ianua">Ianuensis</placeName></persName>, <persName ref="#AndreaGavio">
+            <roleName>domino</roleName> Andrea de <placeName ref="#Gavio">Gavio</placeName>
+            <roleName>canonico</roleName>
+            <placeName ref="#Soissons">Suessensi</placeName></persName>, <persName
+            ref="#GuidoPlacencia"><roleName>domino</roleName> Guidone de <placeName ref="#Piacenza"
+              >Placencia</placeName>
+            <roleName>mercatore</roleName></persName> et <persName ref="#IohannesPalaxono"
+              ><roleName>magistro</roleName> Iohanne de <placeName ref="#Palaxono"
+              >Palaxono</placeName></persName> et <persName ref="#SimonPontremulo">Symone de
+              <placeName ref="#Pontremoli">Pontremulo</placeName></persName>
+          <persName>et <roleName>presbytero</roleName> Iacobo, <roleName>rectore</roleName>
+            <orgName ref="#Sarzanello_S_Martino">ecclesie</orgName>
+            <placeName ref="#Sarzanello">castri Sarzane</placeName></persName>, et <persName
+            ref="#RofinusPlacencia">Roffino de <placeName ref="#Piacenza">Placencia</placeName>
+            <roleName>clerico</roleName></persName>, testibus ad hec vocatis et rogatis. <date
+            when="1281-05-08">Anno Domini M°CCLXXXI, indictione IX, die VIII mensis maii
+          </date>.</p>
+        <p xml:id="DXXIIII_p_003" n="3">Et predictus dominus episcopus Lunensis statim, post
+          prolationem predicte sententie, ipsam sententiam, dictum, arbitrium et laudum coram
+          testibus suprascriptis approbavit et emologavit quantum in ipso est. Eadem vero die
+          prefatus dominus episcopus Sabinensis declarando dixit et declarans asseruit quod non est
+          intentionis sue quod per suprascriptam nominationem castrorum prefatus <persName
+            ref="#Morruellusvic"><roleName>dominus</roleName> Monroellus</persName> teneatur
+          restituere aliquod castrum vel villam, nisi quod vel quam prefatus dominus episcopus
+          Lunensis tempore mote discordie possidebat, ac etiam quod prefatus <persName
+            ref="#Morruellusvic">dominus Monroellus</persName> non teneatur castrum vel villam,
+          aliquod vel aliquam, quod vel quam non possidet vel possedit, per se vel alium seu alios,
+          a tempore mote discordie, restituere domino Lunensi episcopo suprascripto, presentibus
+          venerabili patre <persName ref="#BonefaciusEpRavenna"><roleName>domino</roleName>
+            Bonifacio <roleName>archiepiscopo</roleName>
+            <placeName ref="#Ravenna">Ravenate</placeName></persName>, <persName ref="#Percivalcan"
+              ><roleName>dominis</roleName> Percivallo de <placeName ref="#Lavania"
+              >Lavania</placeName></persName>, subdyacono et capellano domini pape, et <persName
+            ref="#FedericusFlisco">Frederico de Flisco <placeName ref="#Lavania">Lavanie</placeName>
+            <roleName>comite</roleName></persName>. Alia die inmediate sequenti, prefatus <persName
+            ref="#GualterotusIovagallo"><roleName>dominus</roleName> Gualterotus</persName>,
+          procuratorio nomine prefati <persName ref="#Morruellusvic"><roleName>domini</roleName>
+            Monroelli</persName>, approbavit, acceptavit et emologavit arbitrium, dictum,
+          sententiam, laudum, preceptum suprascripta, presentibus <persName ref="#AndreaGavio"
+              ><roleName>dominis</roleName> Andrea de <placeName ref="#Gavio">Gavio</placeName>
+            <roleName>canonico </roleName><placeName ref="#Soissons"
+            >Suessiensi</placeName></persName>, <persName ref="#BonacursusDallo">Bonacurso de
+              <placeName ref="#Dallo">Dallo</placeName></persName> et <persName
+            ref="#SimonPontremulo">Symone de <placeName ref="#Pontremoli"
+            >Pontremulo</placeName></persName>. </p>
+        <p xml:id="DXXIIII_p_004" n="4">
+          <ptr target="#DXXIIII_st_001"/> Ego <persName ref="#ArmannusMantuanusnot">Armannus dictus
+            Mantuanus de <placeName ref="#Mantua">Mantua</placeName></persName>,
+            <roleName>auctoritate domini pape notarius</roleName>, omnibus hiis interfui et ea
+          scripsi et publicavi et consueto signo meo signavi, rogatus. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

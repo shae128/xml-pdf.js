@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DIII_464">
+    <front xml:id="DIII_front">
+
+      <titlePart type="numerazioneNuova">464</titlePart>
+      <titlePart type="numerazioneOrig">DIII</titlePart>
+
+      <docDate xml:id="DIII_docDate">
+        <date when="1134-03-19">1134 marzo 19, <placeName ref="#Luni">Luni (<emph>loco
+            Lune</emph>)</placeName></date>
+      </docDate>
+
+      <div type="regesto" xml:id="DIII_regesto">
+        <p>I fratelli Benedetto e Giovanni chiedono in feudo al vescovo di Luni Gotifredo il manso
+          di Riolo posto a Canabiano per il fitto annuale di 26 denari milanesi e uno staio di
+          grano. </p>
+      </div>
+
+      <div type="footer" xml:id="DIII_footer">
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] c. 376r., c. CCCLXVIIIr. secondo la numerazione originale.
+          </p>
+        </div>
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 503, pp.
+            532-533.</p>
+        </div>
+        <div type="crit_notes">
+          <note>
+            <p>L’indizione non corrisponde all’anno in quanto il 19 marzo 1134 correva la 12°
+              indizione bedana o romana, a meno che non si consideri l’uso dell’indizione genovese o
+              che si presuma un errore nell’indicazione giorno. Se infatti questo fosse posteriore
+              al 24 marzo, l’uso dello stile pisano farebbe concordare anno e indizione, tradotto in
+              stile comune al 1133 marzo &lt;25-31&gt;. </p>
+            <p>Il testo è alquanto scorretto; lo stesso notaio Enrico <term xml:lang="latin">de
+                castro Sarzane</term>, autore della copia autentica qui trascritta, presumibilmente
+              tra 1270 e 1272, dichiara di avere avuto difficoltà di lettura <term xml:lang="latin"
+                >propter corrusitatem</term> della carta orginale. </p>
+          </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DIII.
+              Denariorum XVIII pensionis in Riolo districtus (***) et VI denariorum pro amgaria et
+              starii I ordei et denariorum II melanensium.</term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="DIII_div">
+        <p xml:id="DIII_p_001" n="1">
+          <ptr target="#DIII_st_001"/>
+          <date when="1134-03-19">Anno ab incarnatione Domini nostri Ihesu Christi M°CXXXIIII, XIIII
+            kalendas aprilis, indictione XI</date>. Peto ego <persName ref="#Benedictus"
+            >Benedictus</persName> et <persName ref="#Iohannes">Iohannes, frater eius</persName>,
+          una cum nostris heredibus ad<note place="foot" n="a" xml:id="DIII_n_001">ad: <emph>così
+              nel testo.</emph></note> te domino episcopo Sancte Marie Lunensis ecclesie mansio<note
+            place="foot" n="b" xml:id="DIII_n_002"><term>mansio</term>: <emph>così nel
+            testo.</emph></note> de manço de <placeName ref="#Riolo">Riolo</placeName>, quod est a
+            <placeName ref="#Cannebiano">Canabiano</placeName>, iuris ipsius episcopii a
+          suprascripto mansio, cum omnia<note place="foot" n="c" xml:id="DIII_n_003">cum omnia sua
+            pertinencia: <emph>così nel testo.</emph></note> sua pertinencia super se habentes et
+          pertinentes, in integrum habere, tenere in suprascripto mansio, que supra legitur, atque
+          frui et meliorare et omnia quod convenimus de suprascripto mansio et mandato vestro venire
+          debeamus, nos vel nostros heredes, ad legem faciendam. Exinde persolvamus nos et
+            nostros<note place="foot" n="d" xml:id="DIII_n_004">nostros: <emph>così nel testo
+              per</emph> nostri.</note> heredes vobis <roleName>domino <persName
+              ref="#GotefredEpLuni2">Gotefredo</persName> episcopo</roleName> et vestris
+          successoribus ad<note place="foot" n="e" xml:id="DIII_n_005">ad: <emph>così nel
+              testo.</emph></note> vestro misso per omni<note place="foot" n="f" xml:id="DIII_n_006"
+            >omni: <emph>così nel testo.</emph></note> annos, infra octavam nativitatis Domini,
+          fictam pensionem <measure type="Melanensium" quantity="18" unit="denarius">denarios
+            bonorum Melanensium XVIII</measure> et <measure type="Melanensium" quantity="6"
+            unit="denarius">VI denarios similiter Melanensium</measure> pro angaria et uno
+            stario<note place="foot" n="g" xml:id="DIII_n_007">uno stario: <emph>così nel
+              testo.</emph></note> de ordeo et <measure type="Melanensium" quantity="2"
+            unit="denarius">denarios II Melanensium</measure> tantum; et alia super imposita eis non
+          fiant. Penam vero inter se posuerunt ut quis ex ipsis aut successores vel heredes non
+          compleverint, pars parti fidem servanti <measure quantity="20" unit="solidus">soldorum
+            XX</measure>. Suprascripto<note place="foot" n="h" xml:id="DIII_n_008">suprascripto:
+              <emph>così nel testo per</emph> suprascriptus</note> libellus a vobis factus maneat in
+          sua firmitate. </p>
+        <p xml:id="DIII_p_002" n="2"> Actum loco <placeName ref="#Luni">Lune</placeName>, feliciter.
+          Signa manuum <persName ref="#MartinusDamacea">Martinus Damacea, filius quondam Ursi
+            Damacea</persName>, et <persName ref="#MartinusCanabiano">Martinus de <placeName
+              ref="#Cannebiano">Canabiano</placeName>, filius quondam Iohannis</persName>, et
+            <persName ref="#ValdinotusCastalde">Valdinoto Castalde</persName> et <persName
+            ref="#BernardusPegrinstre">Bernardus, filius quondam Pegrinstre</persName><note
+            place="foot" n="i" xml:id="DIII_n_009">Pegrinstre: <emph>lettura incerta.</emph></note>
+          , rogati <supplied reason="omitted">estes</supplied>. </p>
+        <p xml:id="DIII_p_003" n="3">
+          <ptr target="#DIII_st_002"/> Ego <persName ref="#Guilielmusiudadv">Guilielmus</persName>,
+            <roleName>iudex sacri palacii et advocatus Sancte Marie Lunensis ecclesie</roleName>,
+          post traditam complevi et dedi. </p>
+        <div type="autentica">
+          <p xml:id="DIII_p_004" n="4">
+            <ptr target="#DIII_st_003"/> Ego <persName ref="#Henricusnot">Henricus <placeName
+                ref="#Sarzana">de castro Sarzane</placeName></persName>, <roleName>sacri palacii
+              notarius</roleName>, autenticum huius exempli vidi et legi et quicquid in eo repperi
+            fideliter exemplavi, nil addens vel minuens quod mutet sensum, set quasdam litteras
+            dimisi, quas propter corrusitatem carte legere non potui, et ideo meo signo et nomine
+              roboravi<note>Autentica del doc. 464-DIII databile con incertezza agli anni 1270-1272
+                <date notBefore="1270-01-01" notAfter="1272-12-31" cert="low"/></note>. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

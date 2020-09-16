@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXLI_303">
+    <front xml:id="CCCXLI_front">
+
+      <titlePart type="numerazioneNuova">303</titlePart>
+      <titlePart type="numerazioneOrig">CCCXLI</titlePart>
+
+      <docDate xml:id="CCCXLI_docDate">
+        <date when="1253-11-05">1253 novembre 5</date> e <date when="1253-11-07">7</date>,
+          <placeName>Sarzana (<emph>Sarzane, ante domum heredum quondam Bonaiuti de Cisirano, ubi
+            iura redduntur</emph>) </placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXLI_regesto">
+        <p>Alberto Malvicino, vicario della provincia di Lunigiana per il Comune di Pisa, e
+          Tempanello giudice della medesima provincia, avendo citato in giudizio Simone Asinello di
+          Carrara su richiesta del notaio Testaforte di Sarzana, sindaco del vescovo di Luni
+          Guglielmo, e rendendosi egli contumace, emanano sentenza riguardo ad alcuni beni posti ad
+          Avenza, <emph>Campacolle</emph> e <emph>Aitenetulo</emph>. Chiedendo il sindaco Testaforte
+          non solo che i beni in questione tornino nelle mani del vescovo, ma anche che venga
+          distrutto l’edificio che Simone Asinello aveva fatto costruire <emph>in fabrica de
+            Rosarolo</emph>, Albero Malvicino e Testaforte assegnano i beni al vescovo a patto che a
+          un anno dalla sentenza Simone non si presenti in giudizio e paghi le spese processuali;
+          inoltre ordinano la distruzione dell’edificio suddetto. Due giorni dopo il corriere
+          Ioveneto notifica a Simone la sentenza.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXLI_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia [C] CP cc. 303r.-303v., c. CCLXXXXVr.-CCLXXXXVv. secondo la numerazione
+            originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 341,
+            p. 328. </p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCXLI.
+              Sententie contra Symonem Asinellum.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXLI_div">
+        <pb n="303r" xml:id="fol_303r"/>
+        <p xml:id="CCCXLI_p_001" n="1">In nomine Domini, amen. Cum nos <persName
+            ref="#AlbertusMalvicinus">Albertus Malvicinus</persName>, <roleName>vicarius</roleName>
+          <orgName ref="#Lunigiana_vicaria">Lunisiane</orgName> pro <orgName ref="#Pisa_comune"
+            >communi</orgName>
+          <placeName ref="#Pisa">Pisano</placeName>, et <persName ref="#Tempanellusiud"
+            >Tempanellus</persName>, <roleName>iudex</roleName> eiusdem <orgName
+            ref="#Lunigiana_provincia">provincie <placeName ref="#Lunigiana"
+            >Lunisiane</placeName></orgName> pro dicto communi, citari fecerimus legitime per
+            <persName ref="#Iovenetuscorrerius">Iovenetum <roleName>correrium</roleName></persName>
+          et etiam per <persName ref="#Henrigetususcorrerius">Henrigetum
+              <roleName>correrium</roleName></persName> curie nostre <persName ref="#SimonAsinellus"
+            >Symonem Asinellum de <placeName ref="#Carrara">Carraria</placeName></persName> ut
+          veniret certo termino seu terminis rationem facturus <persName ref="#Testafortenot"
+            >Testaforti <roleName>notario</roleName> de <placeName ref="#Sarzana"
+              >Sarzana</placeName>, <roleName>syndico et procuratori</roleName></persName> domini
+            <persName ref="#GuilEpLuni">Guilielmi, <roleName>Lunensis
+          episcopi</roleName></persName>, pro ipso episcopo et nomine <supplied reason="omitted"
+            >et</supplied> vice eius, qui syndicus, dicto nomine, petebat et petere intendebat ab
+          ipso <persName ref="#SimonAsinellus">Symone</persName> I casamentum, cum hedificio super
+          eo posito, cum quodam orto, posito post ipsum casamentum, positum in <placeName
+            ref="#Avenza">Avencia</placeName>, cui casamento et orto coheret ab uno latere domus
+          filiorum quondam<persName ref="#GuiliemusEmma"> Guilielmi de donn <supplied
+              reason="omitted">a</supplied> Emma</persName>, ab alio <persName
+            ref="#UgolinusBonaora">Ugolini de Bonaora</persName>, ante <placeName ref="#Romea_st"
+            >strata Romea</placeName>, retro fovea. Item petebat ab eo duas petias terre, una quarum
+          est posita in <placeName ref="#Campacolle">Campacolle</placeName>, cui coheret ab una
+          parte via publica, superius terra <persName ref="#VeçaleGuidonisRossi">Veççalis Guidonis
+            Rossi</persName> et suorum consortum, ab alio terra quam tenet <persName
+            ref="#BlancusFlumine">Blancus de <placeName ref="#Flumine"
+            >Flumine</placeName></persName> pro uxore sua <persName ref="#Richelda"
+            >Richelda</persName>, inferius rivus; alia est in <placeName ref="#Aitenetulo"
+            >Aitenetulo</placeName>, cui coheret ab uno latere <persName ref="#CollisBrusco">Collis
+            de Brusco</persName>, superius suprascripti <placeName ref="#Veçale">Veçalis</placeName>
+          et suorum consortum, ab alio <persName ref="#IacopuciusAlberti">Iacopucii quondam domini
+            Alberti</persName>, inferius terra <persName ref="#DuransSimonis">Durantis, filii
+            Symonis</persName>, et <persName ref="#GuilielmusGualteroni">Guilielmi quondam
+            Gualteroni</persName> pro uxore sua <persName ref="#Berta">Berta</persName>; quod
+          casamentum cum orto et dictas terras dicebat ad ipsum episcopum et episcopatum iure
+          dominii vel quasi pertinere. Item petebat et petere intendebat ab eo ut destrueret et
+          demoliret seu demoliri faceret totum opus et hedificium quod idem <persName
+            ref="#SimonAsinellus">Symon</persName> vel eius filii vel alius pro eo vel pro eis
+          fecerunt vel fieri fecerunt in fabrica de <placeName ref="#Rosarolo">Rosarolo</placeName>,
+          subtus molendinum illorum de <placeName ref="#Colonnata">Colonata</placeName>, et a nobis,
+          vicario et iudice, petebat ut ipsum opus et hedificium factum per predictos destrui et
+          demoliri faceremus et reduci in pristinum statum, cum factum sit ipsum opus et hedificium
+          post denunciationem factam de novo opere ipsi <persName ref="#SimonAsinellus"
+            >Symoni</persName> a syndico dicti episcopi pro ipso episcopo et episcopatu, scilicet ne
+          ipsum opus vel hedificium faceret, ut apparet per publicum instrumentum factum manu
+            <persName ref="#Guilielmusnot">Guilielmi <roleName>notarii</roleName></persName>, et cum
+          preceptum factum fuisset per <persName ref="#Henrigetususcorrerius">Henrigetum
+              <roleName>correrium</roleName></persName> ex parte nostra dicto <persName
+            ref="#SimonAsinellus">Symoni</persName> ut in dicto loco seu fabrica laborare non
+          deberet nec aliquam novitatem facere nec fieri, ut apparet per aliud instrumentum factum
+          manu eiusdem <persName ref="#Guilielmusnot">Guilielmi
+            <roleName>notarii</roleName></persName>. Quod opus et hedificium idem <persName
+            ref="#SimonAsinellus">Symon</persName> fecit vel fieri fecit in dicta fabrica post
+          dictam denunciationem et preceptum atque prohibitionem et contra ipsam denunciationem
+          atque preceptum, ut idem syndicus asserebat, <supplied reason="omitted">et</supplied>
+          suprascriptus <persName ref="#SimonAsinellus">Symon</persName>, vel alius pro eo, non
+          venit, immo contumax extitit, ipso syndico semper legitime comparente, unde nos,
+          suprascripti vicarius et iudex, viso instrumento syndicatus dicti <persName
+            ref="#Testafortenot">Testafortis</persName> facto manu <persName ref="#Paganusnot"
+            >Pagani <roleName>notarii</roleName></persName> et aliis instrumentis factis manu
+            <persName ref="#Guilielmusnot">Guilielmi <roleName>notarii</roleName></persName> et visa
+          et audita petitione dicti syndici et contumacia dicti <persName ref="#SimonAsinellus"
+            >Symonis</persName> et habito eo pro vere contumace, pronunciamus ipsum episcopum et
+          dictum syndicum pro eo esse mittendum, et eum mittimus, in tenutam et possessionem dicti
+          casamenti et orti et predictarum terrarum petitarum et pronunciamus dictum opus et
+          hedificium esse destruendum et demoliendum et reducendum in pristinum statum. Et
+          pronunciamus eundem syndicum esse mittendum, et eum mittimus, in possessionem tantorum
+          bonorum predicti <persName ref="#SimonAsinellus">Symonis</persName> que bene valeant
+          expensas infrascriptas, videlicet: pro datia, <measure type="imperiales" unit="solidus"
+            quantity="20">soldi XX imperialium</measure>; pro in<note xml:id="CCCXLI_n_001" n="a"
+            place="foot"><term xml:lang="latin">pro in</term>: <emph>così nel testo.</emph></note>
+          scripturis relationum et representationum et citationum, <measure type="imperiales"
+            unit="denarius" quantity="20">denarii XX imperialium</measure>; pro hac carta, <measure
+            type="imperiales" unit="solidus" quantity="2">soldi II imperialium</measure>; pro carta
+          tenute, <measure type="parmensi" unit="solidus" quantity="10">soldi X
+          Parmensium</measure>; pro correrio, qui dabit tenutam, <measure type="imperiales"
+            unit="solidus" quantity="16">XVI imperialium</measure>; pro salario advocati, <measure
+            type="imperiales" unit="solidus" quantity="5">soldi V imperialium</measure>, ita quod ut
+          si infra annum et diem dictus <persName ref="#SimonAsinellus">Symon</persName> venerit et
+          expensas predictas <note xml:id="CCCXLI_n_002" n="b" place="foot"><term xml:lang="latin"
+              >predictas</term>: pre <emph>corretto su precedente scrittura.</emph></note>
+          restituerit, rehabeat tenutam et possessionem dicti casamenti et orti et terrarum
+          predictarum; alioquin, ab inde in antea, sit dictus episcopus, et fiat exinde, verus
+          possessor. Et precipimus quod Iovenetus correrius dictum syndicum, syndicatus nomine, ut
+          dictum est, inducat in tenutam et possessionem predicti casamenti et orti atque
+          predictarum terrarum et dicto <persName ref="#SimonAsinellus">Symoni</persName> precipiat
+          ut dictum opus et hedificium, factum in loco et fabrica suprascripta, destruat et demoliat
+          et reducat in pristinum statum. </p>
+        <p xml:id="CCCXLI_p_002" n="2">Data et pronunciata et lecta est <placeName ref="#Sarzana"
+            >Sarzane</placeName>, ante domum heredum quondam <persName ref="#BonaiutusCiçerano"
+            >Bonaiuti de <placeName ref="#Ceserano">Cisirano</placeName></persName>, ubi iura
+          redduntur pro suprascriptis vicario et iudice, presentibus domino <persName
+            ref="#Rubeusiud">Rubeo, <roleName>iudice</roleName></persName> in <placeName
+            ref="#Sarzana">Sarzana</placeName>, <persName ref="#Perosiusnot">Perosio
+              <roleName>notario</roleName> de <placeName ref="#Sarzanello">castro
+              Sarzane</placeName></persName> et <persName ref="#MercadanteGerardini">Mercadante,
+            filio Gerardini de <placeName ref="#Panicale">Panicali</placeName></persName>, et aliis
+          pluribus testibus, ad hec rogatis. <date when="1253-11-05">Anno a nativitate eius
+            millesimo CCLIII, indictione XI, die V intrantis mensis novembris</date>. </p>
+        <p xml:id="CCCXLI_p_003" n="3"><date when="1253-11-07">Eodem anno et indictione, die VII
+            mensis novembris</date>, retulit <persName ref="#Iovenetuscorrerius">Iovenetus
+              <roleName>correrius</roleName></persName> quod precepit predicto <persName
+            ref="#SimonAsinellus">Symoni</persName>
+          <pb n="303v" xml:id="fol_303v"/>
+          <persName ref="#SimonAsinellus">Asinello</persName>, ex parte suprascriptorum vicarii et
+          iudicis, per sacramentum et in banno <measure type="imperiales" unit="solidus"
+            quantity="25">librarum XXV imperialium</measure>, ut opus et hedificium quod fecit in
+          fabrica et loco ubi fit mentio in suprascripta sententia, scilicet illud opus quod factum
+          fuit ab eo tempore citra, quod denunciatio novi operis facta fuit, que facta fuit per
+            <persName ref="#Henrigetususcorrerius">Henrigetum
+            <roleName>correrium</roleName></persName> vel alios nostros correrios, ut continetur in
+          suprascripta sententia <note xml:id="CCCXLI_n_003" n="c" place="foot"><term
+              xml:lang="latin">Eodem anno- sententia</term>: <emph>così nel testo, il periodo sembra
+              sospeso.</emph></note>. </p>
+        <p xml:id="CCCXLI_p_004" n="4"><ptr target="#CCCXLI_st_001"/> Ego <persName
+            ref="#Parentinusnot">Parentinus, <roleName>domini Frederici Dei gratia Romanorum
+              imperatoris notarius</roleName></persName>, predicta omnia, ut in actis publicis
+          predictorum vicarii et iudicis scripta inveni, ita scripsi et firmavi et in publicam
+          formam redegi, signum proprium apponendo. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

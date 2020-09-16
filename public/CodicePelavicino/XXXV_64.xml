@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="XXXV_64">
+        <front xml:id="XXXV_front">
+            <titlePart type="numerazioneNuova">64</titlePart>
+            <titlePart type="numerazioneOrig">XXXV</titlePart>
+            <docDate xml:id="XXXV_docDate">
+                <date when="1231-03-30">1231 marzo 30</date>, <placeName>Sarzana (<term
+                        xml:lang="latin">Sarzane, in ecclesia Sancti Andree</term>).</placeName>
+            </docDate>
+            <div type="regesto" xml:id="XXXV_regesto">
+                <p> Gli uomini di Arcola, singolarmente nominati, venuti o che verranno ad abitare a
+                    Sarzana, vassalli dei figli del fu Pagano di Massa, giurano al vescovo di Luni,
+                    anche a nome dei loro discendenti, di non giurare fedeltà ad altri senza il
+                    consenso del vescovo e di detti signori. Si impegnano inoltre a non tenere
+                    alcuna abitazione ad Arcola, se non al tempo della raccolta dei frutti, di
+                    aiutarsi reciprocamente per il trasporto del legname a Sarzana per la
+                    costruzione delle abitazioni e di stare a quanto gli verrà ordinato dai loro
+                    capitani, scelti dai figli del fu Pagano. </p>
+            </div>
+            <div type="footer" xml:id="XXXV_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] cc. 119r.-119v., cc. CXIr.-CXIv. secondo la numerazione originale.
+                    </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>n. 35, pp. 49-51.</p>
+                </div>
+                <div type="crit_notes">
+                    <note> Parte del documento è stata letta con l’ausilio della luce di Wood. </note>
+                    <note> Nel margine interno di c. 119r., di mano moderna: <emph>Iuramentum
+                            fidelitatis factum episcopo a filiis quondam Pagani.</emph>
+                    </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">XXXV. Burgensium Arcule de Sarçana.</term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="XXXV_div">
+                <p xml:id="XXXV_p_001" n="1"> In nomine Domini, amen. Ad honorem Dei atque domini
+                    Lunensis episcopi et <orgName ref="#Sarzana_comune">communis</orgName> burgi <placeName ref="#Sarzana"
+                        >Sarzane</placeName> atque eorum dominorum, videlicet filiorum quondam
+                        <persName ref="#PaganusMassa">Pagani de <placeName ref="#Massa"
+                            >Massa</placeName></persName>, salvis atque observatis omnibus pactis
+                    atque promissionibus factis pro infrascriptis de <placeName ref="#Arcola"
+                        >Arcula</placeName> domino Lunensi episcopo atque suprascripto communi atque
+                    suprascriptis filiis quondam predicti <persName ref="#PaganusMassa"
+                        >Pagani</persName>. Homines de <placeName ref="#Arcola">Arcula</placeName>
+                    qui venerunt atque venient ad habitandum <placeName ref="#Sarzana"
+                        >Sarzane</placeName>, qui sunt de parte filiorum quondam <persName
+                        ref="#PaganusMassa">Pagani</persName>, scilicet de suprascriptis hominibus
+                    atque vassallis, qui sunt eorum atque ad eos pertinent in toto vel in parte,
+                    inter se ad invicem promiserunt atque iuraverunt ad sancta Dei evangelia atque
+                    specialiter promiserunt <persName ref="#Prefectusnot3">Prefecto</persName>
+                    <roleName>notario</roleName>, recipienti nomine suprascripti domini episcopi
+                    suorumque successorum, de cetero perpetuo, per se atque per eosdem descendentes,
+                    non facere ulli persone nec personis ullam fidelitatem nec pactionem in
+                    adiuvando aliquem nec feudum recipere ab aliquo nec dare alicui aliquem de suis
+                    descendentibus, sine consensu domini Lunensis episcopi pro tempore existentis
+                    atque dictorum eorum dominorum illorumque heredum. Eodem quoque sacramento
+                    tenentur non facere de cetero aliquo modo<note place="foot" n="a"
+                        xml:id="XXXV_n_001">modo: m <emph>corretto su precedente
+                        scrittura.</emph></note> nec tenere ullam habituriam in <placeName
+                        ref="#Arcola">Arcula</placeName> nec in districtu, nisi tempore recollecture
+                    fructuum, et, ipsis fructibus recollectis, sine mora, bona fide atque sine
+                    fraude, <placeName ref="#Sarzana">Sarzanam</placeName> reverti debeant atque
+                    teneantur atque stare ibi, quilibet cum suis fructibus, annuatim. Et hoc debeat
+                    facere perpetuo quilibet eorum descendentium, cum fuerit in tempore quindecim
+                    annorum, atque iurare coram potest<supplied reason="omitted">at</supplied>e vel
+                    consulibus Sarzane, pro tempore existentibus. Item, <supplied
+                        reason="illeggibile">e</supplied>x<note place="foot" n="b"
+                        xml:id="XXXV_n_002">[e]x: <emph>la pergamena è lacera.</emph></note>
+                    suprascripto sacramento teneantur inter se communiter adiuvare, bona fide atque
+                    sine fraude, atque coadiuvare atque adtractum facere de eorum legnamine atque
+                    adducere <placeName ref="#Sarzana">Sarzanam</placeName> in casamentis eis datis
+                    atque assignatis a domino Lunensi episcopo pro eorum casis faciendis, usque quo
+                    fuerint hedificate. Et hec promiserunt quilibet eorum adtendere, sub pena centum
+                    soldorum imperialium solvenda eorum dominis, filiis quondam <persName
+                        ref="#PaganusMassa">Pagani</persName>, qui contra hec venerit. Et etiam
+                    inter se <pb n="119v" xml:id="fol_119v"/> contra omnes personas, que sunt atque
+                    fuerint extra iuriditionem Lunensis episcopatus, in rebus atque personis, omni
+                    tempore adiuvare debeant. Hoc capitulum tantum firmaverunt per quantumcumque
+                    tempus voluerit dominus Lunensis episcopus. Et teneantur de cetero obedire per
+                    omnia, sine fraude, atque stare preceptis eorum capetaneorum, qui fuerint electi
+                    ab eorum dominis, filiis quondam suprascripti <persName ref="#PaganusMassa"
+                        >Pagani</persName>, sub pena atque bandis positis ab eorum capetaneis,
+                    videlicet de operibus eorum actractibus faciendis pro eorum casis, et etiam de
+                    omnibus aliis que suprascripti capitanei ordinaverint pro eorum communitate de
+                    consilio et voluntate suprascriptorum eorum dominorum, salvis atque retentis in
+                    hiis omnibus, in omnibus atque per omnia, quod de eo quod dominus Lunensis
+                    episcopus in hiis addere voluerit, teneantur de additis atque de minutis
+                    absolvantur. </p>
+                <p xml:id="XXXV_p_002" n="2"> Nomina illorum qui iuraverunt sunt hec: <persName
+                        ref="#Confortus">Confortus</persName>, <persName ref="#Ubertinus"
+                        >Ubertinus</persName>, <persName ref="#Tiniosus">Tiniosus</persName>,
+                        <persName ref="#Orsellus">Orsellus</persName>, <persName ref="#Apportus"
+                        >Apportus</persName>, <persName ref="#Arinbaldus">Arinbaldus</persName>,
+                        <persName ref="#Guilielmetus">Guilielmettus</persName>, <persName
+                        ref="#Annobonus">Annobonus</persName>, <persName ref="#Oratus"
+                        >Oratus</persName>, <persName ref="#Galbis">Galbis</persName>, <persName
+                        ref="#Perlinus">Perlinus</persName>, <persName ref="#Alcarinus"
+                        >Alcarinus</persName>, <persName ref="#Aldebertus">Aldebertus</persName>,
+                        <persName ref="#Cartenutus">Cartenutus</persName>, <persName
+                        ref="#Segnorinus">Segnorinus</persName>, <persName ref="#Manfredus"
+                        >Manfredus</persName>, <persName ref="#Adornetus">Addornetus</persName>,
+                        <persName ref="#Confalonus">Confalonus</persName>, <persName
+                        ref="#Bonamicus">Bonamicus</persName>, <persName ref="#Iordanus"
+                        >Iordanus</persName>, <persName ref="#Coçto">Coçto</persName>, <persName
+                        ref="#Iohannes">Iohannes</persName>, <persName ref="#Bonfiliolus"
+                        >Bonfiliolus</persName>, <persName ref="#Sicardus">Siccardus</persName>,
+                        <persName ref="#Gerardinus">Gerardinus</persName>, <persName
+                        ref="#Bonacursus">Bonacursus</persName>, <persName ref="#Guiçolinus"
+                        >Guiztolinus</persName>, <persName ref="#Bandellus">Bandellus</persName>,
+                        <persName ref="#Vivaldus">Vivaldus</persName>, <persName ref="#Rollandetus"
+                        >Rollandettus</persName>, <persName ref="#Vivaldus">Vivaldus</persName>,
+                        <persName ref="#Galacchinus">Galacchinus</persName>, <persName
+                        ref="#Arlentus">Arientus</persName>, <persName ref="#Ugolinus"
+                        >Ugolinus</persName>, <persName ref="#Bonfans">Bonfans</persName>, <persName
+                        ref="#Rogerinus">Rogerinus</persName>, <persName ref="#Guiçolinus"
+                        >Guizcolinus</persName>, <persName ref="#Galliardus">Galiardus</persName>,
+                        <persName ref="#CorvarinusCarbonaria">Corvarinus de <placeName
+                            ref="#Carbonara">Carbonaria</placeName></persName>, <persName
+                        ref="#Valentinus">Valentinus</persName>, <persName
+                        ref="#GuilielminusLanfranchino">Guilielminus de Lanfranchino</persName>,
+                        <persName ref="#Ficchendolce">Ficchendolce</persName>, <persName
+                        ref="#Corvannus">Corvannus</persName>, <persName ref="#BonafedeAlberti"
+                        >Bonafede quondam Alberti</persName>, <persName ref="#Guiczardus"
+                        >Guiczardus</persName>, <persName ref="#Gerardus">Gerardus</persName>,
+                        <persName ref="#Guilielminus">Guilielminus</persName>, <persName
+                        ref="#RubeusSticchino">Rubeus de <placeName ref="#Sticchino"
+                            >Sticchino</placeName></persName>, <persName ref="#DuransGerardi">Durans
+                        Gerardi</persName>, <persName ref="#Aliprandus">Aliprandus</persName>,
+                        <persName ref="#BonafestaCallianelli">Bonafesta Callianelli</persName> atque
+                        <persName ref="#BonfancellusBernardi">Bonfancellus Bernardi</persName>,
+                        <persName ref="#Falconetus">Falconettus</persName>, <persName
+                        ref="#BonsegnoreBaldanca">Bonsegnore de Baldanca</persName>, <persName
+                        ref="#Thedaldus">Thedaldus</persName>, <persName ref="#BonaiunctaCanalmora"
+                        >Bonaiuncta de<note place="foot" n="c" xml:id="XXXV_n_003">de: <emph>seguono
+                                alcune lettere abrase e depennate con un tratto orizzontale in
+                                inchiostro rosso.</emph></note>
+                        <placeName ref="#Canalmora">Canalmora</placeName></persName>, <persName
+                        ref="#Manoellus">Manoellus</persName>, <persName ref="#Agustinus"
+                        >Augustinus</persName>, <persName ref="#Pisanellus">Pisanellus</persName>
+                    atque <persName ref="#GerardusCarbonaria">Gerardus de <placeName
+                            ref="#Carbonara">Carbonaria</placeName></persName> atque <persName
+                        ref="#IohanninusBurga">Iohanninus de <placeName ref="#Burga"
+                            >Burga</placeName></persName>. <date from="1231-03-03">Anno a nativitate
+                        Dei millesimo ducentesimo XXXI, indictione IIII, tercio kalendas
+                        aprilis.</date>
+                </p>
+                <p xml:id="XXXV_p_003" n="3"> Actum <placeName ref="#Sarzana">Sarzane</placeName>,
+                    in <orgName ref="#Sarzana_S_Andrea">ecclesia Sancti Andree</orgName>,
+                    solempniter, cum stipulatione, presentibus <persName ref="#RaineriusAntonii"
+                        >Rainerio fratre <roleName>domini</roleName> Antonii</persName>
+                    <roleName>Lunensis canonici</roleName>, <persName ref="#Bosus_calzolarius"
+                        >Bosone</persName>
+                    <roleName>calczolario</roleName> et <persName ref="#Segafene"
+                        >Segafene</persName> et aliis testibus ad hec rogatis. </p>
+                <p xml:id="XXXV_p_004" n="4">
+                    <ptr target="#XXXV_st_001"/> Ego <persName ref="#Comesnot">Comes</persName>,
+                        <roleName>domini Frederici Romanorum imperatoris notarius</roleName>, hiis
+                    interfui atque, rogatus, scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

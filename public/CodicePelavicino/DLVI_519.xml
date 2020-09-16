@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="DLVI_519">
+        <front xml:id="DLVI_front">
+
+            <titlePart type="numerazioneNuova">519</titlePart>
+            <titlePart type="numerazioneOrig">DLVI</titlePart>
+
+            <docDate xml:id="DLVI_docDate">
+                <date when="1289-02-14">1289 febbraio 14</date>, <placeName ref="#CastelnuovoMagra"
+                    >Castelnuovo Magra</placeName> (<term xml:lang="latin">in Castronovo, in palacio
+                    episcopali dicti domini episcopi</term>) </docDate>
+
+            <div type="regesto" xml:id="DLVI_regesto">
+                <p>Fazio del fu Luigi di Carpena, abitante a Falcinello e consorte del luogo,
+                    volontariamente costituitosi di fronte al vescovo di Luni Enrico, dichiara di
+                    tenere in feudo dal vescovo la casa che un tempo era di Alberto detto Conte di
+                    Falcinello, figlio del fu Gerardino di Carpena, posta nel cassero del castello
+                    di Falcinello. </p>
+            </div>
+
+            <div type="footer" xml:id="DLVI_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 408r.-408v., cc. CCCCr.-CCCCv. secondo la numerazione
+                        originale.</p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 556,
+                        pp. 635-636.</p>
+                </div>
+                <div type="crit_notes">
+                    <note>Nel margine superiore, al centro: <term xml:lang="latin">Item de
+                            Falcinello</term></note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">DLVI. Instrumentum qualiter Facius condam Laysii de
+                            Carpena tenet domum de Falcinello et plura alia in feudum ab episcopatu.
+                        </term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="DLVI_div">
+                <p xml:id="DLVI_p_001" n="1"> In nomine Domini, amen. <date when="1289-02-14">Anno
+                        nativitatis Eiusdem millesimo CC° octuagesimo IX°, indictione secunda, die
+                        XIIII° intrantis mensis februarii</date>. <persName ref="#FaciusLoysii"
+                        >Facius, filius quondam Loysii de <placeName ref="#Carpena"
+                            >Carpina</placeName></persName>, <roleName>habitator et
+                        consors</roleName>
+                    <placeName ref="#Falcinello">Falcinelli</placeName>, suo libero, proprio et
+                    spontaneo motu et voluntate constitutus in presentia venerabilis patris
+                        <roleName>domini</roleName>
+                    <persName ref="#HenricusEpLuni"> Henrici</persName>, <roleName>Dei gratia
+                        episcopi Lunensis et comitis</roleName>, reducens sibi ipsi ad memoriam et
+                    puram et veram conscientiam ea que audivit, intellexit, sensit et vidit a
+                    predecessoribus, maioribus et consortibus suis de <placeName ref="#Falcinello"
+                        >Falcinello</placeName>, videlicet quod castrum et iurisdictio tota
+                        <placeName ref="#Falcinello">Falcinelli</placeName>, cum pertinenciis,
+                    tenebatur et teneri consuevit et debet in feudum ab episcopo, episcopatu et
+                    ecclesia Lunensi per predecessores, maiores et consortes suos in <placeName
+                        ref="#Falcinello">Falcinello</placeName> et pertinenciis et, consideratis
+                    predictis, volens tam saluti animarum predecessorum suorum quam sue providere et
+                    non defraudare Lunensem ecclesiam vel episcopatum seu eius iura subtrahere,
+                    celare vel indebite detinere, dixit, protestatus et confessus fuit quod ipse
+                        <persName ref="#FaciusLoysii">Facius</persName> tenet et deinceps tenere et
+                    recognoscere vult et recognoscet in perpetuum, per se et suos heredes, in
+                        feudum<note place="foot" n="a" xml:id="DLVI_n_001"><emph>Nel testo segue,
+                            ripetuto,</emph> in feudum.</note> a prefato domino Lunensi episcopo et
+                    comite eiusque successoribus et Lunensi ecclesia domum quam tenet et que quondam
+                    fuit <persName ref="#AlbertusComes">Alberti dicti Comitis de <placeName
+                            ref="#Falcinello">Falcinello</placeName>, filii quondam
+                        Gerardini</persName> de <placeName ref="#Carpena">Carpina</placeName>,
+                    positam in cassaro dicti castri de <placeName ref="#Falcinello"
+                        >Falcinello</placeName>, et suam partem tocius iurisdictionis et vassallorum
+                    de <placeName ref="#Falcinello">Falcinello</placeName> et pertinenciis et etiam
+                    terras et possessiones, si que sint vel reperiantur in <placeName
+                        ref="#Falcinello">Falcinello</placeName> vel pertinenciis esse vel fuisse
+                    feudum || <pb n="408v" xml:id="fol_408v"/> eiusdem domini episcopi vel Lunensis
+                    ecclesie seu teneri deberent in feudo ab ipso episcopo vel eius successoribus
+                    seu predecessoribus vel Lunensi ecclesia, quas ipse <persName
+                        ref="#FaciusLoysii">Facius</persName> tenet vel possidet seu teneat vel
+                    possideat in <placeName ref="#Falcinello">Falcinello</placeName> vel
+                    pertinenciis quibuscumque<note place="foot" n="b" xml:id="DLVI_n_002">
+                        quibuscumque <emph>: scritto su abrasione.</emph></note>: pro quibus omnibus
+                    et singulis suprascriptis dictus Facius pro se suisque heredibus fecit et
+                    iuravit, corporaliter manibus tacto libro, fidelitatem eidem domino episcopo,
+                    pro se suisque successoribus et Lunensi ecclesia recipienti, et posuit etiam
+                    dictus Facius manus suas iunctas ambas in manus <note place="foot" n="c"
+                        xml:id="DLVI_n_003">manus<emph>: così nel testo per </emph> manibus.</note>
+                    eiusdem domini episcopi, recipientis ipsum Facium tanquam fidelem in fidelem
+                    suum et dicte Lunensis ecclesie et episcopii cum dicto, protestatione<note
+                        place="foot" n="d" xml:id="DLVI_n_004"> protestatione<emph>: corretto su
+                            protestatore</emph></note>, confessione, iuramento et aliis
+                    suprascriptis. </p>
+                <p xml:id="DLVI_p_002" n="2">Actum in <placeName ref="#CastelnuovoMagra"
+                        >Castronovo</placeName>, in palacio episcopali dicti domini episcopi et
+                    ecclesie Lunensis, presentibus <roleName>domino</roleName>
+                    <persName ref="#HenricusFalcinello">Henrico</persName> de <placeName
+                        ref="#Falcinello">Falcinello</placeName>
+                    <roleName>legum professore</roleName>, <persName ref="#LevantinusLevantonot"
+                        >Levantino de <placeName ref="#Levanto">Levanto</placeName> filio Vernacii,
+                            <roleName>notario</roleName> et familiare dicti domini Lunensis
+                        episcopi</persName>, et <persName ref="#TanusSanctoMiniato">Tano de
+                            <placeName ref="#San_Miniato">Sancto Miniate <note place="foot" n="e"
+                                xml:id="DLVI_n_005">Miniate<emph>: così nel
+                            testo.</emph></note></placeName></persName>, familiare etiam dicti
+                    domini episcopi<note place="foot" n="f" xml:id="DLVI_n_006"> et
+                            Tano-episcopi<emph>: aggiunto in calce alla sottoscrizione con segno di
+                            richiamo.</emph></note>, et <roleName>presbytero</roleName>
+                    <persName ref="#GuilielmusRolandini_pres">Guilielmo de <placeName ref="#Regnano"
+                            >Regnano</placeName>, filio quondam domini <persName
+                            ref="#RollandusGragnana">Rolandini de <placeName ref="#Gragnana"
+                                >Gragnana</placeName></persName></persName>, testibus ad hec vocatis
+                    et rogatis. </p>
+
+                <p xml:id="DLVI_p_003" n="3">
+                    <ptr target="DLVI_st_001"/> Ego <persName ref="#IacopinusParma_notarius"
+                        >Iacobinus de <placeName ref="#Parma">Parma</placeName>, filius Bucloni de
+                            <placeName ref="#Foxio">Foxio</placeName></persName>,
+                        <roleName>imperiali auctoritate notarius iudexque ordinarius et nunc dicti
+                        domini episcopi Lunensis scriba</roleName>, predictis interfui et hanc inde
+                    cartam rogatus scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

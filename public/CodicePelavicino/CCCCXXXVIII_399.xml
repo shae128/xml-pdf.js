@@ -1,0 +1,343 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXXXVIII_399">
+    <front xml:id="CCCCXXXVIII_front">
+
+      <titlePart type="numerazioneNuova">399</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXXXVIII</titlePart>
+
+      <docDate xml:id="CCCCXXXVIII_docDate">
+        <date when="1203-07-24">1203 luglio 24</date>, <placeName>Santo Stefano Magra <emph>(<term
+              xml:lang="latin">in canonica plebis Sancti Stephani</term>)</emph></placeName>
+        <lb/><date when="1203-08-01">1203 agosto 1</date>, <placeName>Ceparana <emph>(<term
+              xml:lang="latin">in claustro monasterii de Cepparana</term>)</emph></placeName>
+        <lb/>
+        <date when="1203-08-15">1203 agosto 15</date>, <placeName>Sarzana <emph>(<term
+              xml:lang="latin">Sarzane, in camera Opizonis de Burçiono, Lunensis
+            canonici</term>)</emph></placeName>
+        <lb/>
+        <date when="1203-08-17">1203 agosto 17</date>, <placeName>Vezzano <emph>(<term
+              xml:lang="latin">in castro Vezani</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXXXVIII_regesto">
+        <p>I signori di Vezzano, ossia Guido de la Donna, Baldovino, Boso, Lamberto e suo figlio
+          Vivaldo, Ugolino di donna Matelda e suo fratello Paganello, Conte del fu Ardiccione, Guido
+          anche come tutore di Guiglielmino figlio del fu Grimaldo, donano al vescovo di Luni
+          Gualtiero tutto quanto possiedono nel castello e nel distretto di Vezzano, esclusa la
+          chiesa di S. Maria. In cambio ricevono dal vescovo 150 lire di imperiali per costruire
+          degli edifici, somma che deve essere versata ai signori di Vezzano, eccetto che a
+          Guglielmino Bianco. Il vescovo investe quindi feudalmente i donatori di quanto ha appena
+          ricevuto, promettendo di aiutarli contro tutti e in particolare di farli aiutare dai
+          visdomini vescovili e dai consoli di Bolano, Santo Stefano, del borgo di Sarzana e del
+          castello di Sarzana, che devono giurare tale impegno all’inizio del loro mandato o entro
+          30 giorni dalla richiesta ufficiale dei signori. Da questa tutela è eccettuata la fedeltà
+          al papa e all’imperatore e quanto previsto nei patti stipulati con Guglielmino Bianco. In
+          momenti successivi effettuano la medesima cessione, ricevendo poi l’investitura, anche
+          Tagliaferro e Scera, figli del fu Monegello, e Ranuccio nipote di Baldovino; seguono
+          Tagliaferro e Ranuccio nipote di Aldoino che, per conferma, fanno mettere il vessilo del
+          vescovo sulla torre di Lamberto. In questa occasione il vescovo prende materialmente
+          possesso del castello toccando le porte e gli angoli delle case. Seguono infine Guido
+          della Donna e Ugolino di Rainaldino come tutori dei figli del fu Grimaldo. Giurano in
+          momenti diversi Aldeprando come visdomino e console di Sarzana, Gerardo di Giusfredo e
+          Buoncontro di Sarzana, consoli di Sarzana, Atto e Rollandino figli del fu Giustamonte di
+          Trebiano come visdomini. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXXXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] cc. 341v.-343r., cc. CCCXXXIIIv.-CCCXXXVr. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#SFORZA_1902">SFORZA 1902</ref>, pp. 366-368.; Edizione
+            parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 438, pp.
+            436-440.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note><p>Una parte di c. 342v. è stata letta con l’ausilio della luce di Wood. Il testo
+              della donazione si trova inserito anche nel doc. 403 (CCCCXLII)</p>
+            <p>Nel margine superiore, in posizione centrale: <term xml:lang="latin">De Vezano</term>
+              racchiuso entro una cornice di forma rettangolare. Nel margine esterno, di mano
+              moderna: <term xml:lang="latin">De donatione Vezani</term></p>
+          </note>
+        </div>
+
+        <div type="appr">
+          <p> Bibliografia: <ref target="#PETTI_BALBI_1978">PETTI BALBI 1978</ref>, pp. 39-41 </p>
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCCXXXVIII. Domini de Veçano donaverunt Veçanum et receperunt in feudum a Lunensi
+              curia.</term></p>
+        </div>
+
+
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXXXVIII_div">
+
+        <p xml:id="CCCCXXXVIII_p_002" n="2"><ptr target="#CCCCXXXVIII_st_001"/> In nomine Domini Dei
+          eterni et Salvatoris nostri Ihesu Christi, amen. <date when="1203-07-24">Anno a nativitate
+            Eius M°CCIII, indictio ne VI, die iovis, IX kalendas augusti</date>. In presentia
+          testium, quorum nomina leguntur inferius, nos domini de <placeName ref="#Vezzano"
+            >Vezano</placeName>, videlicet <persName ref="#GuidoDonna">Guido de la Donna</persName>,
+            <persName ref="#BaldoinusVezano">Baldoinus</persName>, <persName ref="#BosoVezano"
+            >Bosus</persName>, <persName ref="#LambertusVezano">Lambertus</persName>, <persName
+            ref="#VivaldusLamberti">Vivaldus filius eiusdem Lamberti</persName>, <persName
+            ref="#UgolinusMatelda">Ugolinus de donna Matelda</persName>, <persName
+            ref="#PaganellusVezano">Paganellus frater ipsius Ugolini</persName>, <persName
+            ref="#ComesArdiccioni">Comes quondam Ardicionis</persName> et ego dictus <persName
+            ref="#GuidoDonna">Guido</persName>, tutorio nomine pro <persName
+            ref="#GuilielminusGrimaldi">Guilielmino filio quondam Grimaldi</persName>, cuius tutor
+          sum, donamus, cedimus et offerimus pro animarum nostrarum nostrorumque parentum remedio,
+          inrevocabiliter, vobis domino <persName ref="#GualEpLuni">Walterio</persName>,
+            <roleName>Dei gratia Lunensi episcopo</roleName>, episcopii vestri nomine recipienti,
+          totum id quod habemus in castro <placeName ref="#Vezzano">Vezani</placeName> et in eius
+          districtu, in integrum, tam in hominibus, quam in rebus, agris et cultis, plenis et
+          vacuis, divisis et non divisis, silvis, nemoribus, campis, aquis, piscationibus,
+          venationibus, pascuis, pratis, cum placito <pb n="342r" xml:id="fol_342r"/>et districtu et
+          cum omni honore et cum omni iure et actione, dominio, proprietate et usu et cum omnibus
+          pertinenciis nobis in ipso<note place="foot" n="b" xml:id="CCCCXXXVIII_n_002">
+            <term xml:lang="latin"> ipso</term>: <emph>corretto su precedente
+            scrittura.</emph></note> castro et districtu eius pertinentibus, et damus vobis
+          licenciam intrandi inde vestra auctoritate in corporalem possessionem. Verumptamen de hac
+          donatione et offersione excipimus <orgName type="ecclesia" ref="#Vezzano_S_Maria"
+            >ecclesiam Sancte Marie de</orgName>
+          <placeName ref="#Vezzano">Vexano</placeName>. Pro merito huius donationis et offersionis
+          confitemur recepisse a vobis, pro hedificiis faciendis, bonorum imperialium tot quot<note
+            place="foot" n="c" xml:id="CCCCXXXVIII_n_003"><term xml:lang="latin"> tot quot</term>:
+              <emph>corretto su precedente scrittura.</emph></note> nobis contingunt, pro rata, de
+            <measure type="Imperiales" quantity="150" unit="libra">libris CL imperialium</measure>,
+          qui deberent inde solvi omnibus dominis de <placeName ref="#Vezzano">Veçano</placeName>
+          communiter, excepto <persName ref="#GuilielmusBlanco">Guilielmino Blanco</persName>, et
+          renunciamus exceptioni <supplied reason="omitted">non</supplied> numerate pecunie et omni
+          iuris et consuetudinis adiutorio, quo possemus aliquando contra donationem vel offersionem
+          istam venire. Quam donationem et offersionem vobis facimus tali pacto quod vos vel vestri
+          successores non debeatis hoc quod vobis donamus et offerimus aliquo modo dare vel
+          adcumunare alicui, sine voluntate omnium nostrorum, qui hanc<note place="foot" n="d"
+            xml:id="CCCCXXXVIII_n_004"><term xml:lang="latin"> hanc</term>: h <emph>corretta su
+            </emph>l</note> donationem et offersionem facimus, et nostrorum heredum. Ad hec
+          promittimus vobis, si aliqua persona, que non sit de <placeName ref="#Vezzano"
+            >Vezano</placeName>, offenderet vos vel successores vestros aut vestram terram vel
+          homines de <placeName ref="#Vezzano">Vezano</placeName> vel in <placeName ref="#Vezzano"
+            >Vezano</placeName> seu de eius vel in eius districtu, quod adiuvabimus inde, nos et
+          nostri heredes, vos et vestros successores contra omnes homines ibi et dabimus vobis omnes
+          fortias et hedificia quas et que ibi habemus vel pro tempore haberemus, ad vestram
+          voluntatem; set, facta pace, illas fortias et hedificia nobis semper cum eisdem pactis
+          reddere teneamini. Si vero aliquis de <placeName ref="#Vezzano">Vezano</placeName> vel de
+            con<supplied reason="omitted">so</supplied>rtibus <note place="foot" n="e"
+            xml:id="CCCCXXXVIII_n_005"><emph> La pergamena è forata.</emph></note>
+          <placeName ref="#Vezzano">Vezani</placeName> malefaceret vel offenderet vos vel vestros
+          successores aut terras vestras vel homines et non emendaret infra XV dies postquam foret
+          inde per vos vel per vestrum nuncium requisitus, debeamus nos alii omnes et nostri heredes
+          esse inde ad vestram et vestrorum successorum voluntatem, et hoc vobis promittimus per nos
+          et nostros heredes; et sicut hec vobis promittimus, ita teneantur vobis et successoribus
+          vestris promittere et etiam iurare super sanctis evangeliis omnes heredes nostri, quos
+          habemus vel in antea habuerimus, quandocumque fuerint in etate iurandi, et illi nostri
+          filii, qui sunt modo in etate iurandi, debeant hec vobis statim promittere et iurare, et
+          omnes heredes nostrorum heredum similiter teneantur promittere et iurare. </p>
+        <p xml:id="CCCCXXXVIII_p_003" n="3"> Nos <persName ref="#GualEpLuni">Walterius</persName>,
+            <roleName>Dei gratia Lunensis Ecclesie humilis episcopus</roleName>, damus et cum
+          investitura concedimus, nomine recti<note place="foot" n="f" xml:id="CCCCXXXVIII_n_006"
+              ><term xml:lang="latin"> recti</term>:<emph> corretto su precedente scrittura
+              abrasa.</emph>
+          </note> et honorifici feudi, vobis suprascriptis dominis de <placeName ref="#Vezzano"
+            >Vezano</placeName> omnibus, qui prefatam donationem et offersione<supplied
+            reason="omitted">m</supplied> nobis, ut supra legitur, fecistis, recipientibus pro vobis
+          et vestris heredibus universis, totum id quod nobis donastis et obtulistis, in integrum,
+          ut superius dicitur, et quod usque modo habuistis et tenuistis in <placeName
+            ref="#Vezzano">Vezano</placeName> et in districtu et pertinenciis eius, in integrum, tam
+            <supplied reason="omitted">in</supplied> hominibus quam in rebus, agris et<note
+            place="foot" n="g" xml:id="CCCCXXXVIII_n_007"><term xml:lang="latin"> et</term>: <emph>
+              segno tachigrafico per </emph>et <emph>aggiunto in sopralinea con segno di
+              richiamo.</emph></note> cultis, plenis et vacuis, divisis et non divisis, silvis,
+          nemoribus, campis, aquis, piscationibus, venacionibus, pascuis, pratis, cum placito et
+          districtu, et cum omni honore et cum omni usu et utilitate et pertinenciis prenominati
+          castri eiusque districtus, ut vos et vestri heredes habeatis, teneatis et fruamini hoc
+          totum quod superius dictum est, nomine recti et honorifici feudi, de cetero in perpetuum;
+          et remittimus vobis fidelitatem ob hoc specialiter faciendam, set vestri heredes, qui sunt
+          vel erunt, de cetero debeant nobis et successoribus nostris fidelitatem specialiter facere
+          pro <placeName ref="#Vezzano">Vezano</placeName> contra omnes homines in <placeName
+            ref="#Vezzano">Vezano</placeName> et in eius districtu. Et si aliqua persona malefaceret
+          vel offenderet vobis propter hoc factum, quod nobiscum facitis, aliquo tempore, debeamus
+          et promittimus vos inde adiuvare per nos et per omnes homines terre nostre. Et vicedomini
+          nostri et consules burgi et <placeName ref="#Sarzanello">castri Sarzane</placeName> et
+            <placeName ref="#Bolano">Bolani</placeName> et <placeName ref="#Santo_Stefano">Sancti
+            Stephani</placeName> teneantur iurare adiuvare vos in tota terra vestra contra omnes
+          homines, preter contra dominos suos, et vos et vestri heredes teneamini similiter omnes
+          homines terre nostre adiuvare contra omnes homines, preter contra dominos vestros, et
+          omnes episcopi, nostri successores, teneantur iurare<note place="foot" n="h"
+            xml:id="CCCCXXXVIII_n_008"><term xml:lang="latin"> iurare</term>: <emph> nel testo segue
+            </emph>ad <emph>superfluo perché ripetuto nel rigo seguente.</emph></note> adiuvare vos
+          et vestros heredes, sicut nos promittimus, ab omni persona que vobis malefaceret vel
+          offenderet propter hec que nobiscum facitis; et hoc debeant iurare, postquam regressi
+          fuerint a <pb n="342v" xml:id="fol_342v"/> sacrando infra XXX dies postquam inde fuerint
+          per aliquem vestrum vel vestrorum heredum requisiti, que requisitio sollempniter fiat in
+          presentia vicedominorum et consulum burgi et <placeName ref="#Sarzanello">castri
+            Sarzane</placeName>. Set, si quis de successoribus nostris nollet hoc sacramentum
+          facere, ita requisitus, vos vel vestri heredes in nullo teneamini postea ei vel
+          successoribus eius de istis pactis. Et omnes consules burgi et <placeName
+            ref="#Sarzanello">castri Sarzane</placeName>, <placeName ref="#Bolano"
+            >Bolani</placeName> et <placeName ref="#Santo_Stefano">Sancti Stephani</placeName>
+          debeant iurare semper, quando intrant consulatum, quod facient sequentes consules, quos
+          elegerint, vel qui post eos fuerint, similiter iurare antequam exeant de illo consulatu;
+          et omnes consules dictarum terrarum, ex quo fecerint sacramentum consulatus, teneantur
+          precipere omnibus iuratis suis ut ita vos et heredes vestros teneantur adiuvare sicut et
+          ipsi consules tenebuntur. Et hoc debeant eis precipere sub debito sacramenti consulatus
+          quo eis tenebuntur, videlicet in tota terra vestra, contra omnes homines vos teneantur
+          adiuvare, preter contra dominos suos, si ob hoc facto, quod nobiscum facitis, malefaceret
+          vel offenderet vobis aliquis. Hec omnia fecit dominus episcopus, salva fidelitate domini
+          pape et imperii et excepto <persName ref="#GuilielmusBlanco">Guilielmino
+            Blanco</persName><note place="foot" n="i" xml:id="CCCCXXXVIII_n_009">
+            <term xml:lang="latin"> Guilielmino Blanco</term>:<emph> su precedente scrittura
+              abrasa.</emph></note>, si observaverit<note place="foot" n="l"
+            xml:id="CCCCXXXVIII_n_010"><term xml:lang="latin"> observaverit</term>: <emph> su
+              precedente scrittura abrasa.</emph></note> pacta que cum eo fecit. Et dominus
+          episcopus possit hoc idem pactum facere cum omnibus dominis de <placeName ref="#Vezzano"
+            >Vezano</placeName>, qui voluerint illud secum facere, et teneatur eis qui hoc facerent
+          communiter, ipse et sui successores, sicut et istis qui presentialiter cum eo hec faciunt.
+          Supradictam donationem et offersionem et omnia que in hac carta leguntur promiserunt per
+          se et suos <supplied reason="omitted">heredes</supplied><note place="foot" n="m"
+            xml:id="CCCCXXXVIII_n_011"><emph> La pergamena è lacera.</emph></note> et iuraverunt ad
+          sancta Dei evangelia omnes isti domini de <placeName ref="#Vezzano">Veçano</placeName>
+          rata habere et attendere et observare iamscripto domino episcopo et successoribus eius et
+          in nullo contravenire; alioquin cadant omnes, vel quicumque non attenderet aut
+          contraveniret, a iure huius feudi et tocius alius feudi quod habent ubicumque ab
+          episcopatu Lunensi; et alii omnes teneantur inde adiuvare dominum episcopum et suos
+          successores ad suam voluntatem, si aliquis contraveniret, set sciendum quod in omnibus
+          suprascriptis excipiuntur<note place="foot" n="n" xml:id="CCCCXXXVIII_n_012"><term
+              xml:lang="latin"> excipiuntur</term>:<emph> così nel testo per </emph>excipiunt,
+              <emph>cfr. doc.</emph> 403-CCCCXXXXII.</note> omnes prefati domini de <placeName
+            ref="#Vezzano">Vezano</placeName> personam domini imperatoris, si vellet <placeName
+            ref="#Vezzano">Vezanum</placeName> ad suum opus, set non ad dandum illud alicui persone.
+            <persName ref="#GuidoDonna">Guido de Donna</persName> promisit quod facit <persName
+            ref="#GuilielminusGrimaldi">Guilielminum quondam Grimaldi</persName>, cuius tutor erat,
+          promittere et iurare et facere hec omnia de sua et pro sua parte <placeName ref="#Vezzano"
+            >Vezani</placeName>, quandocumque fuerit in etate hoc faciendi. </p>
+        <p xml:id="CCCCXXXVIII_p_004" n="4"> Acta sunt hec <orgName type="plebs_ecclesia"
+            ref="#S_Stefano_Magra">in canonica plebis</orgName>
+          <placeName ref="#Santo_Stefano">Sancti Stephani</placeName>, sollempni cum stipulatione.
+          Ibi fuerunt rogati testes <persName ref="#AttoFaucenova">Atto de <placeName
+              ref="#Fosdinovo">Fosdenova</placeName></persName>, <persName ref="#GuidoVal">Guido de
+              <placeName ref="#Vallecchia2">Vallecla</placeName></persName>, <persName
+            ref="#Aldeprandusvic">Aldeprandus</persName> et <persName ref="#Gerardusvic"
+            >Gerardus</persName>
+          <roleName>vicedomini</roleName>, <persName ref="#Nicholausadv">Nicholaus</persName>
+          <roleName>advocatus domini episcopi</roleName>, <persName ref="#BullioneSarzana">Bullionus
+            de <placeName ref="#Sarzana">Sarzana</placeName></persName>, <persName
+            ref="#GerardusIusfredo">Gerardus de Iusfredo</persName>, <persName
+            ref="#RollandusClerico">Rollandus de Clerico</persName>, <persName ref="#Rogerinus"
+            >Rogerinus</persName>, <persName ref="#Bulgarinus">Bulgarinus</persName>, <persName
+            ref="#UgolinusRainaldino">Ugolinus de Rainaldino</persName>, <persName
+            ref="#AlamannusVezano">Alamannus de <placeName ref="#Vezzano"
+            >Vezano</placeName></persName> et multi alii. Ibi iuraverunt predictum sacramentum
+            <persName ref="#Aldeprandusvic">Aldeprandus</persName>, pro vicedominatu et pro
+          consulatu de <placeName ref="#Sarzana">Sarzana</placeName>, quia tunc erat
+            <roleName>consul</roleName> de <placeName ref="#Sarzana">Sarzana</placeName>, et
+            <persName ref="#GerardusIusfredo">Gerardus de Iusfredo</persName>, pro
+            <roleName>consulatu</roleName> eodem, qui tunc erat similiter consul, et <persName
+            ref="#GerardusIusfredo">Gerardus</persName> et <persName ref="#Aldeprandusvic"><supplied
+              reason="omitted">Aldeprandu</supplied>s</persName> pro vicedominatu. </p>
+        <p xml:id="CCCCXXXVIII_p_005" n="5">
+          <date when="1203-08-01"><note>Cessione dei domini di Vezzano</note>Eo dem anno, die
+            veneris, <supplied reason="omitted">kalendis</supplied>d augusti</date>, in <orgName
+            type="monasterium_ecclesia" ref="#Ceparana_S_Venanzio">claustro monasterii de</orgName>
+          <placeName ref="#Ceparana">Cepparana</placeName>, in presentia <persName ref="#GuidoDonna"
+            >Guidonis de la Donna</persName>, <persName ref="#BaldoinusVezano">Baldoini de
+              <placeName ref="#Vezzano">Vezano</placeName></persName>, <persName ref="#Bernazonus"
+            >Bernazonis</persName>, <persName ref="#BalzanusCarpena">Balzani de <placeName
+              ref="#Carpema">Carpena</placeName></persName>, <persName ref="#UgolinusMatelda"
+            >Ugolini de donna Mattelda</persName>, <persName ref="#Paganellus">Paganelli</persName>
+          fratris eius, <persName ref="#BosoVezano">Bozonis de <placeName ref="#Vezzano"
+              >Vezano</placeName></persName> et aliorum plurium rogatorum testium, <persName
+            ref="#TalliaferrusMonegelli">Talliaferrus</persName> et <persName ref="#SceraMonegelli"
+            >Scere</persName> fratres, <persName ref="#GuiçolinusMonegelli">filii quondam
+            Monegelli</persName>, et <persName ref="#RanucinusBaldoini">Ranucinus, nepos dicti
+            Baldoini</persName>, donaverunt, cesserunt et obtulerunt, pro animarum suarum suorumque
+          parentum remedio, inrevocabiliter, iamscripto domino episcopo, recipienti nomine episcopii
+          sui, totam suam partem, in integrum, de <placeName ref="#Vezzano">Vezano</placeName> et de
+          districtu eius, confitentes et renunciantes et promittentes et iurantes ei et paciscentes
+          cum eo per omnia et in omnibus sicut iamscripti alii domini de <placeName ref="#Vezzano"
+            >Vezano</placeName> fecerunt, ut dictum est; et ipse dominus episcopus dedit et cum
+          investitura concessit eis totum illud quod sibi donaverant et obtulerant, in integrum,
+          nomine recti et honorifici feudi, et promisit eis et pactus est cum eis per omnia et in
+          omnibus veluti cum aliis iamscriptis dominis de <placeName ref="#Vezzano"
+            >Vezano</placeName>. </p>
+        <p xml:id="CCCCXXXVIII_p_006" n="6">
+          <date when="1203-08-15"><note>Cessione dei domini di Vezzano</note>Eode m ann o, die
+            veneris, XVIII kalendas septembris</date>, <placeName ref="#Sarzana"
+          >Sarzane</placeName>, in camera <persName ref="#OpizusBurçiono">Opizonis de <placeName
+              ref="#Burcione">Burçiono</placeName></persName>, <roleName>Lunensis
+            canonici</roleName>, in presentia <persName ref="#GerardusIusfredo">Gerardi de
+            Iusfredo</persName>, <persName ref="#RollandusClerico">Rollandi de
+            Clerico</persName><note place="foot" n="o" xml:id="CCCCXXXVIII_n_013">
+            <term xml:lang="latin"> de Clerico</term>:<emph> lettura incerta a causa dell’inchiostro
+              sbiadito.</emph></note>, <persName ref="#AlamannusVezano">Alamanni de</persName>
+          <placeName ref="#Vezzano">Vezano</placeName> et aliorum plurium rogatorum testium,
+            <persName ref="#AttoIustamontis">Atto quondam Iustamontis</persName> de <placeName
+            ref="#Trebiano">Trebiano</placeName> et <persName ref="#RollandinusIustamontis"
+            >Rollandinus</persName>, frater eius, pro vicedominatu, iuraverunt hoc <pb n="343r"
+            xml:id="fol_343r"/>sacramentum et <persName ref="#BonencontrusSarzana">Bonencontrus de
+              <placeName ref="#Sarzana">Sarzana</placeName></persName>, tunc
+            <roleName>consul</roleName> de <placeName ref="#Sarzana">Sarzana</placeName>, iuravit
+          illud idem pro consulatu. </p>
+        <p xml:id="CCCCXXXVIII_p_007" n="7">
+          <date when="1203-08-17"><note>Cessione dei domini di Vezzano</note>Eo dem anno, die do
+            minico, XVI kalendas septembris</date>, in castro <placeName ref="#Vezzano"
+            >Vezani</placeName>, in presentia <persName ref="#VeltroGuilielmiCorvaria">Veltri
+            de</persName>
+          <placeName ref="#Corvaia">Corvaria</placeName>, <persName ref="#UbaldusParente">Hubaldi
+            quondam Parentis</persName>, <persName ref="#Aldeprandusvic">Aldeprandi</persName>
+          <roleName>vicedomini</roleName>, <persName ref="#BullioneSarzana">Bullionis de</persName>
+          <placeName ref="#Sarzana">Sarzana</placeName>, <persName ref="#Bulgarinus"
+            >Bulgarini</persName>, <persName ref="#Bonafides">Bonefidei</persName>, <persName
+            ref="#Nicholausadv">Nicholai</persName>
+          <roleName>advocati domini episcopi</roleName>, <persName ref="#AlbertusGuilielma">Alberti
+            de Guilielma</persName>, <persName ref="#BonrognosiBiliolo">Bonrognosi de <placeName
+              ref="#Bigliolo">Biliolo</placeName></persName> et aliorum multorum rogatorum testium,
+          omnes iamscripti domini de <placeName ref="#Vezzano">Vezano</placeName>, qui iamscriptam
+          donationem et oblationem fecerant, ut dictum est, domino episcopo sepedicto, preter
+            <persName ref="#TalliaferrusMonegelli">Talliaferrum</persName> et <persName
+            ref="#RanucinusBaldoini">Ranucinum, nepotem domini Aldoini</persName><note place="foot"
+            n="p" xml:id="CCCCXXXVIII_n_014"><term xml:lang="latin"> Aldoini</term>:<emph> così nel
+              testo probabilmente per </emph>Baldoini</note>, qui aberant, dederunt et tradiderunt,
+          pro se et pro predictis, qui aberant, eidem domino episcopo, recipienti nomine sui
+          episcopii, corporalem tenutam de castro et districtu <placeName ref="#Vezzano"
+            >Vezani</placeName>, mittendo in manus eius portas domorum et angulos turrium et domorum
+          pro toto hoc unde fecerant ei datum. Et ad confirmationem tenute miserunt seu fecerunt
+          mitti vexillum episcopatus in turri <persName ref="#LambertusVezano">Lamberti</persName>;
+          et <persName ref="#GuidoDonna">Guido de Donna</persName> specialiter et <persName
+            ref="#UgolinusRainaldino">Ugolinus de Rainaldino</persName>, tutores filiorum quondam
+            <persName ref="#GuilielminusGrimaldi">Grimaldi</persName>, ut dicebant, tutorio nomine
+          pro eis, dederunt domino episcopo tenutam de domo illorum pro toto alio quod habent in
+            <placeName ref="#Vezzano">Vezano</placeName> et in districtu eius; et dominus episcopus,
+          sua auctoritate et ex dato etiam omnium predictorum, apprehendit dictam possessionem
+          nomine episcopii sui. </p>
+        <p xml:id="CCCCXXXVIII_p_008" n="8"> Ego <persName ref="#Confortusnot">Confortus</persName>,
+            <roleName>sacri palacii et Lunensis curie notarius</roleName>, hiis omnibus interfui et
+          hec omnia vidi et scripsi in duabus cartis uno tenore factis. </p>
+      </div>
+
+    </body>
+  </text>
+</TEI>

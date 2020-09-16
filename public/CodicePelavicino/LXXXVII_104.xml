@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="LXXXVII_104">
+		<front xml:id="LXXXVII_front">
+
+			<titlePart type="numerazioneNuova">104</titlePart>
+			<titlePart type="numerazioneOrig">LXXXVII</titlePart>
+
+			<docDate xml:id="LXXXVII_docDate">
+				<date when="1193-11-05">1193 novembre 5</date><placeName ref="#Sarzana">Sarzana
+						(<emph>in canonica Sancti Basilii de Sarzana</emph>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="LXXXVII_regesto">
+				<p>Guerino di Sarzana e Ventura, arbitri eletti sulla lite vertente tra il vescovo
+					di Luni Gualtiero e i consoli di Sarzana riguardante l’assegnazione dei proventi
+					nell’amministrazione della giustizia, decidono che il vescovo assegni la metà
+					delle somme ricosse al borgo di Sarzana e che i consoli la accettino a titolo di
+					feudo. Il vescovo investe quindi i consoli Avvocato di Sarzana e Alberto di
+					donna Guglielma della metà dei proventi suddetti. </p>
+			</div>
+
+			<div type="footer" xml:id="LXXXVII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] c. 203r., c. CLXXXXVr. secondo la numerazione originale. </p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione in <ref type="biblio" target="#LUPO_GENTILE_1912">LUPO GENTILE
+							1912</ref>, n. 87, p. 120-121.</p>
+				</div>
+
+				<div type="crit_notes">
+					<p>Nel margine interno, di mano posteriore: <emph>Pronuntiatio</emph>Nel margine
+						esterno, di mano moderna diversa dalla precedente:<emph>Sentencia fatta da
+							Guerino e Ventura de Sarzana, arbitri eletti dal vescovo Gualtiero et
+							huomini di Sarzana per le condanne da farsi sopra a malfattori, la metà
+							delle quali va al vescovo come conte e l’altra metà la devono havere li
+							suddetti huomini riconoscendola però in feudo da vescovi pro tempore
+							l’anno 1193</emph></p>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">LXXXVII. Sententia de medietate bannorum concessa in
+							feudum burgensibus.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="LXXXVII_div">
+				<pb n="203r" xml:id="fol_203r"/>
+				<p xml:id="LXXXVII_p_001"> In eterni Dei nomine, amen. Nos quidem, scilicet
+						<persName ref="#GuerinusSarzane">Guerinus de <placeName ref="#Sarzana"
+							>Sarzana</placeName></persName> et <persName ref="#Ventura"
+						>Ventura</persName>, fideles Lunensis curie et episcopatus, super lite et
+					controversia que vertebatur inter <roleName>dominum <persName ref="#GualEpLuni"
+							>Gualterium</persName>, Dei gratia Lunensem episcopum</roleName>, pro
+					ipso episcopatu, ab una parte, atque consules burgi <placeName ref="#Sarzana"
+						>Sarzane</placeName>, pro <orgName ref="#Sarzana_comune">commune ipsius burgi</orgName>, ab alia, arbitri electi ab
+					utraque parte ad ipsam litem diffiniendam ex compromisso in nobis ab utraque
+					facto, videlicet super tricatoribus, falsariis et paltonariis et foretanis
+					latronibus, ipsam litem sic diffinimus, ut infra legitur. Lis enim talis erat,
+					videlicet ad quos vel ad quem pecunia huiusmodi malefactorum deberet pervenire.
+					Dicebant enim burgenses quod pecuniam huiusmodi malefactorum, quandocumque
+					maleficium fecerit etiam vel fecerint, ad se atque ad commune eorum pervenire
+					debere, si apud eos vel per eos alicubi deprehensi fuerint; personam autem a
+					curia domini episcopi debere iudicari confitebantur. Econtra dominus episcopus
+					huiusmodi pecuniam sibi et sue curie debere pervenire, ad se et ad suam curiam
+					ob suam iurisdictionem pertinere et personam per curiam iudicari et a curia
+					episcopi puniri debere asserebat. Nos itaque predicti arbitri, diligenter hinc
+					inde intuentes, ne de nostro arbitrio, verum etiam ex consensu et voluntate
+					partium diligenter inquisita, laudamus ut dominus episcopus concedat et
+					investiat commune predicti burgi, nomine feudi, medietatem suprascripte pecunie,
+					videlicet suprascriptorum malefactorum, de hiis qui huiusmodi maleficium
+					fecerint vel facere fuerint deprehensi apud ipsum burgum, si per eos vel per
+					eorum nuncium capti fuerint alicubi, an presente masnata domini episcopi an
+					absente. Et commune ipsius burgi ipsam medietatem huiusmodi suprascripte pecunie
+					habeat et recognoscat nomine feudi pro domino episcopo predicto eiusque
+					successoribus. Alia vero medietas detur atque in pace relinquatur domino
+					episcopo, sine omni briga et molestatione. Si quis vero de huiusmodi
+					malefactoribus captus fuerit non autem a burgense vel eorum misso <note
+						xml:id="LXXXVII_n_001" n="a" place="foot"><term xml:lang="latin">a burgense
+							vel eorum misso</term><emph>così nel testo</emph></note> aut si in
+					exequtione capiendi a burgensibus et eorum misso derelictus fuerit, uno die
+					atque nocte iam decurso, a quocumque captus fuerit, de illius pecunia burgenses
+					nichil habeant. Hoc laudo facto, prefatus <roleName>dominus <persName
+							ref="#Gualteronus_dominus">Gualterius</persName></roleName> investivit
+					nomine feudi de suprascripta medietate <persName ref="#AdvocatusSarzana"
+						>Advocatum de <placeName ref="#Sarzana">Sarzana</placeName></persName> et
+						<persName ref="#AlbertusGuilielma">Albertum a domina Guilielma</persName>,
+						<roleName>consules <placeName ref="#Sarzana">Sarzane</placeName></roleName>
+					pro ipso communi. </p>
+				<p xml:id="LXXXVII_p_002">Actum est hoc <date when="1193-11-05">anno M°C nonagesimo
+						III, indictione XII</date>, in <orgName ref="#S_Basilio_Sarzana"
+						type="ecclesia_plebs">canonica Sancti Basilii</orgName> de <placeName
+						ref="#Sarzana">Sarzana</placeName>, <date when="1193-11-05">V intrante mense
+						novembris</date>. # Signa manuum suprascripti domini episcopi et predictorum
+					arbitrorum atque consulum, qui hoc scriptum fieri rogaverunt <note
+						xml:id="LXXXVII_n_002" n="b" place="foot">fieri rogaverunt<emph> nel
+							manoscritto</emph> rogaverunt fieri<emph> con segno di richiamo per
+							invertire l’ordine delle parole</emph></note> . # # Signa manuum
+						<roleName>domini <persName ref="#Rodulfusarc"
+								><expan>Ro<ex>dulfi</ex></expan>
+							<note xml:id="LXXXVII_n_003" n="C" place="foot">Ro(dulfi): <emph>per lo
+									scioglimento dell’abbreviazione</emph> Ro. <emph>si veda il doc.
+									83-LVI datato 1201, dove</emph>Rodulfus archidiaconus <emph>
+									figura come uno dei canonici della cattedrale
+								lunense</emph>.</note>, Lunensis archidiaconi</persName></roleName>,
+						<persName ref="#AttoFaucenova">Attonis de <placeName ref="#Fosdinovo"
+							>Faucenova</placeName></persName>, <persName ref="#Bottonius_consul"
+						>Bottoni de <placeName ref="#Sarzana">Sarzana</placeName></persName>,
+						<persName ref="#Bullione">Bullioni</persName>, <persName
+						ref="#Ramucinus_fraterEp">Ramucini</persName> fratris episcopi, rogatorum
+					testium. </p>
+				<p xml:id="LXXXVII_p_003">
+					<ptr target="LXXXVII_st_001"/>Ego <persName ref="#Lombardusnot"
+						>Lumbardus</persName>, <roleName>domini imperatoris et Lunensis curie
+						notarius</roleName>, interfui et rogatus hanc cartulam scripsi. </p>
+			</div>
+		</body>
+	</text>
+</TEI>

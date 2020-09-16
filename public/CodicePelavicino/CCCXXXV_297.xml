@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXXXV_297">
+    <front xml:id="CCCXXXV_front">
+
+      <titlePart type="numerazioneNuova">297</titlePart>
+      <titlePart type="numerazioneOrig">CCCXXXV</titlePart>
+
+      <docDate xml:id="CCCXXXV_docDate">
+        <date when="1234-01-22">1234 gennaio 22</date>, <placeName>Carrara (<emph>Carrarie, in domo
+            Guilielmi quondam Guidonis Pisani</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXXXV_regesto">
+        <p>Domenico de Bedizzano loca a livello perpetuo a Guglielmo di donna Emma e a Fortino di
+          Torano, consoli di Carrara, che ricevono a nome del comune, un pezzo di terra sita in
+            <term xml:lang="latin">Ortomorano</term>, nel luogo detto <term xml:lang="latin"
+            >Flumeneço</term>, attraverso cui scorre l’acqua che va al mulino del comune di Carrara
+          posto presso il ponte di Cimatico. Il fitto annuale è di un denaro minuto di Parma. La
+          transazione costa 5 denari di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXXXV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 300v., c. CCLXXXXIIv. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 335,
+            p. 324. </p>
+        </div>
+
+        <div type="crit_notes">
+          <note> </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCXXXV.
+              De eadem.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXXXV_div">
+        <p xml:id="CCCXXXV_p_001" n="1">In nomine Domini, amen. <date when="1234-01-22">Anno a
+            nativitate Eius millesimo CCXXXIIII, indictione VII, die dominico, XI kalendas<note
+              xml:id="CCCXXXV_n_001" n="a" place="foot">
+              <emph><term xml:lang="latin">kalendas</term>: corretto su precedente
+              scrittura.</emph></note> februarii</date>. Ego <persName ref="#DominicusBiduçano"
+            >Dominicus de <placeName ref="#Biduzzano">Biduçano</placeName></persName> do et loco per
+          libellum vobis <persName ref="#GuililemusRamundini">Guilielmo<note xml:id="CCCXXXV_n_002"
+              n="b" place="foot">
+              <emph><term xml:lang="latin">Guilielmo</term>: ui corretto su precedente
+                scrittura.</emph></note> domine Emme</persName> et <persName ref="#FortinusTorano"
+            >Fortino de <placeName ref="#Torano">Torano</placeName></persName>,
+            <roleName>consulibus</roleName>
+          <orgName ref="#Carrara_comune">communis</orgName>
+          <placeName ref="#Carrara">Carrarie</placeName>, recipientibus vice et nomine pro communi
+          de <placeName ref="#Carrara">Carraria</placeName> et <supplied reason="omitted"
+            >cui</supplied> dare vel committere voluerit, in perpetuum, petiolam I terre sitam in
+            <placeName ref="#Ortomorano">Ortomorano</placeName>, in loco dicto <placeName
+            ref="#Flumeneço">Flumeneço</placeName>, per quam terram vadit seu currit aqua ad
+          molendinum dicti communis de <placeName ref="#Carrara">Carraria</placeName>, quod est
+          factum et hedificatum per dictum commune apud <placeName ref="#PonteCimatico">pontem de
+            Cimatico</placeName>, cui terre coheret desuper et desubter terra mea ab uno latere, et
+          si qui alii sunt confines, ita ut amodo perpetuo nomine libelli vos vestrique successores,
+          recipientes vice et nomine pro dicto communi, ut dictum est, habeatis, teneatis, fruamini
+          et possideatis totam dictam terram, cum accessibus et regressibus suis et omnibus suis
+          pertinenciis, in integrum, sine alicuius aliqua contradictione et cum mea meorumque
+          heredum rationabili deffensione ab omni persona et loco vel restauratione facienda supra
+          mea bona ad hoc obligata<note xml:id="CCCXXXV_n_003" n="c" place="foot">
+            <emph><term xml:lang="latin">obligata</term>: ob corretto su precedente
+              scrittura.</emph></note> in consimili loco, in arbitrio bonorum hominum, prout tunc
+          valuerit, si rationabiliter deffendere non possem. Et si advenerit quod dicta levata, per
+          quam currit aqua ad dictum molendinum per dictam terram, dirueret vel se destrueret aliquo
+          casu, licitum sit dicto communi de <placeName ref="#Carrara">Carraria</placeName> et cui
+          commissum fuerit dictum molendinum dictam levatam reaptare et hedificare, ascendendo et
+          descendendo per dictam terram, eorum arbitrio et voluntate, ad utilitatem predicti
+          molendini. Et <supplied reason="omitted">vos</supplied>
+          <note xml:id="CCCXXXV_n_004" n="d" place="foot"><emph><term xml:lang="latin">
+                <supplied reason="omitted">vos</supplied></term>: per l'integrazione cfr. i
+              documenti 293 (CCCXXXI), 294 (CCCXXXII), 295 (CCCXXXIII), 296
+            (CCCXXXIIII).</emph></note> predicti consules pro dicto communi de <placeName
+            ref="#Carrara">Carraria</placeName> promittitis mihi meisque heredibus dare vel dari
+          facere dicto communi de <placeName ref="#Carrara">Carraria</placeName> omni anno, infra
+            <note xml:id="CCCXXXV_n_005" n="e" place="foot"><emph><term xml:lang="latin">omni anno,
+                infra</term>: scritto su abrasione.</emph></note> octavam nativitatis Domini, fictam
+          pensionem <measure type="Parmensi" unit="solidus" quantity="1">denarii I Parmensium
+            minutorum</measure> tantum; alia superimposita non fiat. Et si pensio predicta teneretur
+          per triennium vel per plures annos, non propter hoc amittatur possessio, set pensio
+          predicta semper mihi reddatur meisque heredibus; unde do vobis pro dicto communi licenciam
+          inde intrandi in tenutam, vestra auctoritate. Et confiteor me recepisse servicium pro
+          libellatico a vobis predictis consulibus, dantibus pro dicto communi, <measure
+            type="imperiales" unit="solidus" quantity="5">soldos V imperialium</measure>,
+          renunciando exceptioni non habiti et recepti denarii. Et constituo vobiscum ut quicumque
+          nostrum vel nostrorum heredum vel successorum unquam dictam terram tollere vel laxare aut
+          contra id quod superius legitur venire voluerit<note xml:id="CCCXXXV_n_006" n="f"
+            place="foot">
+            <emph><term xml:lang="latin">voluerit</term>: nel testo noluerit</emph></note>, alteri
+          parti, fidem servanti, penam <measure type="imperiales" unit="solidus" quantity="20"> XX
+            soldorum imperialium</measure> solvat, rato manente pacto, pena soluta vel non.</p>
+        <p xml:id="CCCXXXV_p_002" n="2">Actum <placeName ref="#Carrara">Carrarie</placeName>, in
+          domo Guilielmi quondam <persName ref="#Guilielmusnot">Guidonis Pisani</persName>,
+          presentibus <persName ref="#OdoCasapoci">Odo</persName> de <placeName ref="#Casapoci"
+            >Casapoci</placeName> et <persName ref="#BenesiaSorgnano">Benesia de <placeName
+              ref="#Sorgnano">Sorgnano</placeName></persName> et <persName ref="#LeoTorano">Leone de
+              <placeName ref="#Torano">Torano</placeName></persName>, testibus ad hec rogatis. </p>
+        <p xml:id="CCCXXXV_p_003" n="3"><ptr target="#CCCXXXV_st_001"/> Ego <persName
+            ref="#Guilielmusnot">Guilielmus, <roleName>notarius sacri palacii</roleName> quondam
+            Guidonis Pisani</persName><note xml:id="CCCXXXV_n_007" n="g" place="foot"><emph>
+              <term xml:lang="latin">Pisani</term>: aggiunto in sopralinea, con segno di
+              richiamo.</emph></note>, hiis omnibus interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

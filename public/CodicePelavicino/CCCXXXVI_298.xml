@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXXXVI_298">
+    <front xml:id="CCCXXXVI_front">
+
+      <titlePart type="numerazioneNuova">298</titlePart>
+      <titlePart type="numerazioneOrig">CCCXXXVI</titlePart>
+
+      <docDate xml:id="CCCXXXVI_docDate">
+        <date when="1234-01-22">1234 gennaio 22</date>, <placeName>Carrara (<emph>Carrarie, in domo
+            Guilielmi quondam Guidonis Pisani</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXXXVI_regesto">
+        <p>Aldebrandino di Miseglia vende per 2 soldi di imperiali a Guglielmo e a Fortino, consoli
+          di Carrara, che ricevono a nome del comune, un pezzo di terra sita in <term
+            xml:lang="latin">Ortomorano</term>, attraverso cui scorre l’acqua che va al mulino del
+          comune di Carrara posto presso il ponte di Cimatico.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXXXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 300v.-301r., cc. CCLXXXXIIv.-CCLXXXXIIIr. secondo la numerazione
+            originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 336,
+            pp. 324-325. </p>
+        </div>
+
+        <div type="crit_notes">
+          <note> </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCXXXVI. De eadem facto.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXXXVI_div">
+        <p xml:id="CCCXXXVI_p_001" n="1">In nomine Domini, amen. <date when="1234-01-22">Anno a
+            nativitate Eius millesimo CCXXXIIII, indictione VII, die dominico, XI kalendas
+            februarii</date>. Pro precio <measure type="imperiales" unit="solidus" quantity="2">II
+            soldorum bonorum denariorum imperialium</measure>, quos <persName
+            ref="#AldebrandinusMiselia">Aldrevandrinus<note xml:id="CCCXXXVI_n_001" n="a"
+              place="foot">
+              <term xml:lang="latin">Aldrevrandinus</term>: <emph>così nel testo, con la prima r
+                aggiunta in sopralinea</emph>.</note> de <placeName ref="#Miselia"
+              >Miselia</placeName></persName> habuit et recepit coram me <persName
+            ref="Guilielmusnot">Guilielmo <roleName>notario</roleName></persName> et testibus
+          infrascriptis, renunciando exceptioni non habiti et recepti precii et omni alii iuri et
+          legum auxilio, a <persName ref="#GuililemusRamundini">Guilielmo</persName> et <persName
+            ref="#FortinusTorano">Fortino</persName>, <roleName>consulibus</roleName> de <placeName
+            ref="#Carrara">Carraria</placeName>, dantes et solventes<note xml:id="CCCXXXVI_n_002"
+            n="b" place="foot">
+            <term xml:lang="latin">dantes et solventes</term>: <emph>così nel testo</emph>.</note>
+          pro ipso <orgName ref="#Carrara_comune"
+            >communi</orgName> de <placeName ref="#Carrara">Carraria</placeName>, dedit, tradidit et in
+          perpetuum vendidit predictus <persName ref="#AldebrandinusMiselia"
+            >Aldrebandinus</persName> suprascriptis <persName ref="#GuililemusRamundini"
+            >Guilielmo</persName> et <persName ref="#FortinusTorano">Fortino</persName>,
+          recipientibus vice et nomine pro ipso communi de <placeName ref="#Carrara"
+            >Carraria</placeName>, petiolam I terre, per quam vadit seu currit aqua ad molendinum
+          communis de <placeName ref="#Carrara">Carraria</placeName>, <pb n="301r" xml:id="fol_301r"
+          /> quod est factum per dictum commune apud <placeName ref="#PonteCimatico">pontem de
+            Cimatico</placeName>, sitam in loco dicto <placeName ref="#Ortomorano"
+            >Ortomorano</placeName>, cui coheret desuper et desubter terra mea ab uno latere et si
+          qui alii sunt confines. Et dedit, tradidit, concessit et vendidit emptoribus predictis,
+          recipientibus vice et nomine pro dicto communi de <placeName ref="#Carrara"
+            >Carraria</placeName>, omnia iura et actiones et rationes, dominium et proprietatem,
+          usum et utilitatem, accessum et regressum, superiora et inferiora, utiles et directas,
+          reales, personales et mixtas, sibi in dicta terra competentes et competituras, ut exinde
+          predictum commune et cui dederit vel commiserit quocumque modo vel iure agant et
+          experiantur adversus quamcumque personam et locum et faciant inde quicquid eis placuerit,
+          remissa necessitate denunciandi; et dedit eis, pro dicto communi recipientibus, licenciam
+          inde intrandi in tenutam, eorum auctoritate, quandocumque voluerint, constituendo se pro
+          dicto communi possidere donec tenutam intraverint de predictis. Et confessus fuit
+          suprascriptus <persName ref="#AldebrandinusMiselia">Aldrebandinus</persName>
+          <note xml:id="CCCXXXVI_n_003" n="c" place="foot"><term xml:lang="latin"
+              >Aldrebandinus</term>: <emph>così nel testo, con r aggiunto in
+            sopralinea</emph>.</note> quod suprascripta terra ultra dimidium suprascripti precii
+          valebat, unde totum et quicquid plus valebat dedit inrevocabiliter et tradidit et donavit
+          communi predicto de <placeName ref="#Carrara">Carraria</placeName> titulo inter vivos.
+          Promisit insuper et convenit suprascriptus <persName ref="#AldebrandinusMiselia"
+            >Aldebrandinus</persName> emptoribus predictis, recipientibus vice et nomine pro dicto
+          communi, ut dictum est, stipulatione, in perpetuum predictam terram cum omnibus
+          suprascriptis rationabiliter<note xml:id="CCCXXXVI_n_004" n="d" place="foot">
+            <term xml:lang="latin">rationabiliter</term>: bi <emph>corretto su precedente
+              scrittura.</emph></note> deffendere et exbrigare ab omni persona et loco suis propriis
+          expensis; quod, si non faceret vel non posset facere, dabit inde salvum cambium in bonis
+          suis loco consimili, sub extimatione bonorum hominum, quale pro tempore fuerit, et
+          reficere dampna omnia et expensas et interesse et <supplied reason="omitted"
+            >iam</supplied> singulare inde habita seu factas, sub pena dupli precii suprascripti,
+          quam dare et solvere promisit emptoribus predictis, recipientibus pro dicto communi, ut
+          dictum est, tociens quociens fuerit contraventum et pro quolibet capitulo non observato;
+          qua pena soluta, nichillominus rigorem obtineant perpetue firmitatis. Et ad hec omnia et
+          singula attendendenda<note xml:id="CCCXXXVI_n_005" n="e" place="foot">
+            <term xml:lang="latin">attendendenda</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">attendenda</term>.</note> et observanda obligavit se suosque
+          heredes et omnia sua bona in perpetuum emptoribus predictis, recipientibus ut dictum est,
+          et cui commiserint, renunciando omni suo iuri et legibus quibus posset contra predicta
+          facere vel venire vel quibus ipse venditor vel sui heredes possent se tueri a predictis
+          vel aliquo predictorum.</p>
+        <p xml:id="CCCXXXVI_p_002" n="2">Actum <placeName ref="#Carrara">Carrarie</placeName>, in
+            <persName ref="#Guilielmusnot">domo Guilielmi quondam Guidonis Pisani</persName>,
+          presentibus <persName ref="#OdoCasapoci">Odo de <placeName ref="#Casapoci"
+              >Casapoci</placeName></persName> et <persName ref="#BenesiaSorgnano">Benesia de
+              <placeName ref="#Sorgnano">Sorgnano</placeName></persName> et <persName
+            ref="#LeoTorano">Leone de <placeName ref="#Torano">Torano</placeName></persName>,
+          testibus ad hec rogatis.</p>
+        <p xml:id="CCCXXXVI_p_003" n="3"><ptr target="#CCCXXXVI_st_001"/> Ego <persName
+            ref="#Guilielmusnot">Guilielmus, <roleName>notarius sacri palatii</roleName> quondam
+            Guidonis Pisani</persName>, hiis omnibus interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

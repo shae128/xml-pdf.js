@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="CCCCII_363">
+		<front xml:id="CCCCII_front">
+
+			<titlePart type="numerazioneNuova">363</titlePart>
+			<titlePart type="numerazioneOrig">CCCCII</titlePart>
+
+			<docDate xml:id="CCCCII_docDate">
+				<date when="1283-07-20">1283 luglio 20</date>, <placeName ref="Ameglia">Ameglia
+						(<emph>in plebe Sancti Vincentii de Amelia</emph>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="CCCCII_regesto">
+				<p>Guglielmo Mascardo del fu Alberto di Trebiano dona al vescovo Enrico metà
+						<emph>pro indiviso</emph> di una casa con terreno e due casamenti posti nel
+					castello di Ameglia, che Guglielmo possiede insieme a Bertolotto del fu
+					Oliviero.</p>
+			</div>
+
+			<div type="footer" xml:id="CCCCII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] CP cc. 323v.-324r., cc. CCCXVv.-CCCXVIr. secondo la numerazione
+						originale </p>
+				</div>
+
+				<div type="biblio">
+					<p> Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+							1912</ref>, n. 402 pp. 381-382</p>
+				</div>
+				<div type="crit_notes">
+					<note>Per avere la XI indizione l’anno di stipulazione del contratto deve essere
+						corretto da 1280 a 1283, come l’atto che segue (n. 364-CCCCIII) rogato nel
+						medesimo giorno, già in MAZZINI 1914, p. 27.</note>
+					<note>Nel margine esterno, di mano moderna: <emph>Pro Mascardis</emph></note>
+				</div>
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <emph>CCCCII.
+							Donationis facte per Guilielmum Maschardum de casamemtis.</emph></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="CCCCII_div">
+				<p xml:id="CCCCII_p_001">In Dei eterni nomine,amen.<date when="1283-07-20">Anno a
+						nativitate Eius M°CC octuagesimo, indictione XI, die XX mensis iulii.</date>
+					Cum multa mala et pericula domus Lunensis occasione <persName
+						ref="#GuilielmusMascardus">Guilielmi Mascardi, filii quondam
+							<roleName>domini</roleName>
+						<persName ref="#AlbertusMascardi">Alberti de </persName>
+						<placeName ref="#Trebiano">Trebiano</placeName></persName>, si<supplied
+						reason="omitted">n</supplied>t subsecuta, ipse namque <persName
+						ref="#GuilielmusMascardus">Guiliemus</persName> prefatus, pro remedio anime
+					sue et parentum suorum, per se suosque heredes in perpetuum dedit, tradidit,
+					cessit atque donavit, titulo pure ac simplicis donationis, inrevocabiliter,
+					inter vivos, venerabili patri <roleName>domino</roleName>
+					<persName ref="#HenricusEpLuni">Henrico<roleName>, Dei gratia Lunensi
+							episcopo</roleName></persName>, suo nomine recipienti, suorum
+					successorum et Lunensis episcopatus, medietatem pro indivisa<note
+						xml:id="CCCCII_n_001" n="a" place="foot">
+						<term xml:lang="latin">indivisa</term>:<emph> così nel testo.</emph></note>
+					unius domus, quam habet cum <persName ref="#BertolotusOliverii">Bertholoto
+						quondam Oliverii</persName>, cum omni suo hedificio atque terreno et cum
+					duobus casamentis positis in <placeName ref="#Ameglia">castro
+					Amelie</placeName>, cui medietati domus predicte coheret ante platea dicti
+					castri, superius casamentum heredum quondam <persName ref="#Vivianus"
+						>Viviani</persName>, ab alio latere unum ex dictis casamentis et retro murus
+					castellanus. Item coheret uni ex dictis duobus casamentis<note
+						xml:id="CCCCII_n_002" n="b" place="foot">
+						<term xml:lang="latin">duobus casamentis</term>:<emph> nel manoscritto
+							casamentis duobus con segno di richiamo per invertire l’ordine delle
+							parole.</emph></note> ante dicta platea, ab uno latere dicta domus, ab
+					alio latere casamentum <persName ref="#GuilielmusParentini">Guilielmi
+						Parentini</persName> et retro dictus murus castellanus. Item coheret alii
+					casamento ante dicta platea, retro suprascriptus murus, ab<note
+						xml:id="CCCCII_n_003" n="c" place="foot">
+						<term xml:lang="latin">ab</term>:<emph> corretto su precedente
+							scrittura.</emph></note> uno latere <persName ref="#GuilielmusParentini"
+						>Guilielmi Parentini</persName> suprascripti et ab alio <persName
+						ref="#MartinusAlegre">Martini quondam Alegre</persName>, vel si qui alii
+					sint confines aut esse apparuerint in futurum. Et cessit et mandavit eidem omnia
+					iura, dominium, proprietatem, usum, utilitatem, accessus, regressus, superiora
+					et inferiora, actiones et rationes utiles et directas, reales et personales seu
+					mixtas, et omnes alias sibi competentes et competencia seu competitura in
+					predictis medietate domus et casamentis vel eorum occasione, ita ut amodo
+					suprascriptus dominus episcopus suique successores, nomine Lunensis episcopatus,
+					suprascriptam medietatem domus et casamenta habeant, teneant, possideant et
+					fruantur et exinde faciant quicquid voluerint, sine contradictione suprascripti
+						<persName ref="#GuilielmusMascardus">Guilielmi Mascardi</persName> et eius
+					heredum; et exinde possint agere, experiri, tueri, causari et deffendere
+					adversus et contra quamcumque personam et locum. Et dedit ei licenciam et
+					bailliam intrandi tenutam et possessionem corporalem quandocumque voluerit vel
+					quasi, constituendo se interim pro eo et successoribus suis et eorum nominibus
+					precariis possidere donec tenutam et corporalem possessionem exinde fuerit
+					introgressus vel quasi. Promisit insuper et convenit suprascriptus <persName
+						ref="#GuilielmusMascardus">Guilielmus Mascardus</persName> per se suosque
+					heredes suprascripto domino episcopo Lunensi, recipienti ut dictum est,
+					suprascripta omnia et singula numquam petere, impedire vel molestare, de iure
+					vel de facto; immo ea, cum omnibus suis pertinenciis, <pb n="324r"
+						xml:id="fol_324r"/> perpetuo iure deffendere et exbrigare ab omni molestante
+					seu impediente persona et loco, suis propriis expensis et advocato eiusque
+					heredum, alioquin restaurare et salvum cambium<note xml:id="CCCCII_n_004" n="d"
+						place="foot">
+						<term xml:lang="latin">cambium</term>: b <emph>corretto su precedente
+							scrittura.</emph></note> inde dare de bonis suis loco consimili, sub
+					extimatione bonorum hominum, talis qualis pro tempore fuerit res evicta, et
+					reficere eidem domino episcopo suisque successoribus omnes expensas, dampna et
+					interesse ac etiam singulare inde quoquo modo habitas seu factas. Hanc autem
+					donationem et omnia et singula suprascripta promisit suprascriptus <persName
+						ref="#GuilielmusMascardus">Guilielmus Mascardus</persName> per se suosque
+					heredes atque convenit suprascripto domino episcopo, recipienti ut dictum est,
+					ratam et rata habere et firma tenere, attendere, facere, complere et contra
+					numquam in aliquo facere vel venire, sub pena <measure type="imperiales"
+						unit="lira" quantity="25">XXV librarum imperialium</measure>; quam penam
+					dare et solvere promisit et convenit suprascriptus <persName
+						ref="#GuilielmusMascardus">Guilielmus Mascardus</persName> predicto domino
+					episcopo Lunensi, recipienti ut dictum est, tociens quociens fuerit contraventum
+					et pro quolibet capitulo non observato; et, pena soluta vel non, suprascripta
+					omnia et singula perpetuo nichillominus rata sistant, cum eadem pene
+					commissione, obligando se ad hec suosque heredes et omnia sua bona, mobilia et
+					immobilia, presentia et futura, renunciando omni iuri et legi contra hoc
+					introductis et specialiter legi que dicit quod donatio inter vivos per
+					ingratitudinem revocari potest, vel alio modo.</p>
+				<p xml:id="CCCCII_p_002">Actum in <orgName ref="Ameglia_S_Vincenzo">plebe Sancti
+						Vincentii de <placeName ref="Ameglia">Amelia</placeName></orgName>,
+					presentibus <persName ref="#IacobusPrato"><roleName>fratre</roleName> Iacobo de
+							<placeName ref="Prato">Prato</placeName>
+						<roleName>de ordine Fratrum Minorum</roleName></persName>, <persName
+						ref="GerardusCornilio"><roleName>presbytero</roleName> Gerardo de <placeName
+							ref="Cornilio">Cornilio</placeName></persName>
+					<orgName ref="Parma_diocesi">Parmensis dyocesis</orgName> et <persName
+						ref="AmicusMartignoni">Amico quondam Martignoni de <placeName
+							ref="Barbazzano">Barbaçano</placeName></persName>, testibus ad hec
+					rogatis.</p>
+				<p xml:id="CCCCII_p_003"><ptr target="#CCCCII_st_001"/> Ego <persName
+						ref="BonacursusPetrinot">Bonacursus, filius Petri
+							<roleName>notarii</roleName> de <placeName ref="Sarzana">castro
+							Sarzane</placeName>, <roleName>notarius sacri
+						palacii</roleName></persName>, hiis omnibus interfui et rogatus scripsi.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

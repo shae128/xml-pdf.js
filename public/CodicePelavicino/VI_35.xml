@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="VI_35">
+		<front xml:id="VI_front">
+
+			<titlePart type="numerazioneNuova">35</titlePart>
+			<titlePart type="numerazioneOrig">VI</titlePart>
+
+			<docDate xml:id="VI_docDate">
+				<date when="1185-06-13"><supplied reason="illeggibile">1185</supplied>giugno
+					13</date>, <placeName ref="#Verona"> Verona(<term xml:lang="latin"
+					>Verone</term>) </placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="VI_regesto">
+				<p>Il pontefice Lucio III, rifacendosi a quanto già discusso al tempo del
+					predecessore Lucio II, annulla il privilegio concesso da Innocenzo II al
+					monastero di Aulla e stabilisce che questo sia sottomesso alla chiesa di
+					Luni.</p>
+			</div>
+
+			<div type="footer" xml:id="VI_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] c. 61r., c. LIIIr. secondo la numerazione originale. </p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizioni: <ref target="#DESIMONI_1888">DESIMONI 1888</ref> doc. XVI, p. 111,
+						con data 1185;<ref target="#LUPO_GENTILE_1912"> LUPO GENTILE 1912</ref>, n.
+						6, pp. 10-11, con data 1181-1185. </p>
+					<p>Mazzini (<ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 6.) accetta la
+						data ampia proposta da Lupo Gentile con la sola correzione del 1185 in 1184,
+						motivata dalla morte di Lucio III nel 1185; in realtà il pontefice morì il
+						25 novembre del 1185, a Verona, dove risiedette dal luglio 1184 alla morte
+						(si veda <ref target="#JAFFÉ_1885">JAFFÉ 1885</ref>,II, p. 466, <ref
+							target="#MERLO_2000">MERLO 2000</ref>). </p>
+				</div>
+
+
+				<div type="crit_notes">
+					<note>Una mano moderna ha ripassato parti di testo, all’epoca già poco leggibili
+						per l’evanescenza dell’inchiostro. </note>
+					<note>Nel margine esterno:<emph><term xml:lang="latin">monasterium de Avula
+								episcopo Lunensi impendere debet obedientiam et reverentiam ac
+								coreptiones et statuta suscipere.</term></emph>Poco più sotto, di
+						altra mano: <emph>a Lucio papa</emph></note>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">VI. Privilegium pape Lucii super facto monasterii de
+							Avula.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="VI_div">
+				<p xml:id="VI_p_001">
+					<persName ref="#Lucius_pontifex_III">Lucius <roleName>episcopus, servus servorum
+							Dei</roleName></persName>, dilectis filiis .. abbati et monachis
+						<orgName ref="#Aulla_S_Caprasio" type="monasterium"> monasterii<placeName
+							ref="#Aulla"> Avulensis</placeName></orgName>, salutem et apostolicam
+					benedictionem. Cum universarum ecclesiarum regimen nostre sollicitudini,
+					disponente Domino, sit commissum, tunc<note xml:id="VI_n_01" place="foot" n="a"
+						>tunc: <emph>lettura incerta a causa dell’inchiostro sbiadito</emph>.</note>
+					recte officium nostrum exequimur cum unicuique ecclesie sua iura integre
+					conservamus. Nam a nobis esset merito in extremo examine requirendum si ex
+					dissimulatione nostra ulla ecclesia suis iusticiis frauderetur. Recollentes
+					igitur quomodo inter vos et Lunensem ecclesiam, tempore felicis recordationis
+						<persName ref="#LuciusII_papa">Lucii <roleName>pape</roleName></persName>,
+					predecessoris nostri, de subiectione vestra questio mota fuerit et per eiusdem
+					sententiam terminata, qualiter etiam privilegium pie recordationis <persName
+						ref="#InnocentiuspontifexII">Innocentii<roleName> pape</roleName></persName>
+					quod ecclesie vestre per <supplied reason="illeggibile">nostra</supplied>m
+					fuerat sollicitudinem impetratum, cassatum fuerit penitus et conscissum, non
+					ambigimus quin monasterium vestrum Lunensi ecclesie sit subiectum et Lunensi
+					episcopo, sicut proprio pastori, debeat subiacere et ipsius providentia
+					gubernari. Quia vero vestre professioni non convenit ut pastorali provisioni
+					illicite vos subtrahatis, universitati vestre per apostolica scripta<note
+						xml:id="VI_n_02" place="foot" n="b">per apostolica scripta: <emph>ripassato
+							da mano moderna</emph>.</note> mandamus atque precipimus quatinus
+					prefacto episcopo, sicut pontifici <note xml:id="VI_n_03" place="foot" n="c">per
+						apostolica scripta: <emph>ripassato da mano moderna</emph>.</note> et
+					pastori, obedientiam et reverentiam debitam impendatis et corectiones eius ac
+					statuta regularia suscipiatis humiliter et servetis<note xml:id="VI_n_04"
+						place="foot" n="d">et servetis: <emph>ripassato da mano
+						moderna</emph>.</note>. </p>
+				<p xml:id="VI_p_002">Datum <placeName ref="#Verona">Verone</placeName>, <date
+						when="1185-06-13">idus iunii.</date>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLII_314">
+    <front xml:id="CCCLII_front">
+
+      <titlePart type="numerazioneNuova">314</titlePart>
+      <titlePart type="numerazioneOrig">CCCLII</titlePart>
+
+      <docDate xml:id="CCCLII_docDate">
+        <date when="1240-08-07">1240 agosto 7</date>, <placeName>Bedizzano (<emph>in villa de
+            Beduçano</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLII_regesto">
+        <p>Il vescovo Guglielmo concede a Martino del fu Sobolo di Montecchio l’esenzione da alcuni
+          redditi e servizi villanatici, mantenendo solo quelli di <emph>homagio, resedio,
+            albergaria, amasiamento</emph> e <emph>dismasiamento</emph> al fitto annuale di due
+          sestari di frumento e due di orzo. La transazione costa 3 lire di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 307v.-308r., cc. CCLXXXXVIIIIv.-CCCr. secondo la numerazione originale
+          </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile
+              1912</ref>, n. 352, pp. 337-338.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note> </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCLII.
+              Ficti quod reddit Martinus de Montechio per homagium, resedium et
+            albergariam.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLII_div">
+        <p xml:id="CCCLII_p_001" n="1">In Dei nomine, amen. <date when="1240-08-07">Anno a
+            nativitate Eius millesimo CCXL, indictione XIII, VII intrantis augusti</date>.
+          Venerabilis pater dominus <persName ref="#GuilEpLuni">Guilielmus, <roleName>Dei gratia
+              Lunensis episcopus</roleName></persName>, previsa non solum magna, set maxima
+          utilitate sue curie permutando <note xml:id="CCCLII_n_001" n="a" place="foot"><term
+              xml:lang="latin">permutando</term>: do <emph>corretto su precedente
+            scrittura.</emph></note> incertos et inhonestos redditus ad certos, remisit <persName
+            ref="#MartinusSoboli">Martino quondam Soboli de <placeName ref="#Montecchio"
+              >Montechio</placeName></persName> coltam, maltoltam, prestanciam, pensionem, amiscilia
+          et redditus omnes, servicia et factiones et exactiones villanaticas, que et quas dabat et
+          faciebat et dare et reddere solitus erat ipse <persName ref="#MartinusSoboli"
+            >Martinus</persName> vel sui antecessores ex quacumque causa vel ratione, retento
+          solummodo in eo homagio, resedio, albergaria, amasiamento et dismasiamento, et dando et
+          reddendo suprascriptus <persName ref="#MartinusSoboli">Martinus</persName> suique heredes
+          annuatim, amodo perpetuo, per totum mensem augusti suprascripto domino episcopo suisque
+          successoribus staria duo frumenti et duo ordei boni, mundi, sicci et gritolati et
+          mensurati ad commune starium de <placeName ref="#Carrara">Carraria</placeName> ad
+          grenarium domini episcopi in <placeName ref="#Carrara">Carraria</placeName>, ubicumque
+          curia fuerit; alia superimposita non fiat, salvo etiam quod eidem domino episcopo servire
+          et facere teneatur ut homines  <orgName ref="#Carrara_comune">communis <placeName ref="#Carrara">Carrarie</placeName></orgName>w, et
+          ad alia servicia vel exactiones villanaticas non teneatur dictus <persName
+            ref="#MartinusSoboli">Martinus</persName>, promittendo idem dominus episcopus predicta
+          omnia et singula rata habere et non contra venire, obligando se suosque successores et
+          bona et redditus episcopatus, et idem <persName ref="#MartinusSoboli">Martinus</persName>
+          se et suos heredes et bona, pro predictis omnibus et singulis observandis. Servicium vero
+          fuit confessus se recepisse dictus dominus episcopus a dicto <persName
+            ref="#MartinusSoboli">Martino</persName> libras tres imperialium, renunciando exceptioni
+          non numerate pecunie. <pb n="308r" xml:id="fol_308r"/> Penam vero inter se statuerunt ut
+          quicumque ipsorum vel successorum suprascripti domini episcopi aut heredum suprascripti
+            <persName ref="#MartinusSoboli">Martini</persName> contra predicta venerit vel predicta
+          non servaverit solvat parti predicta servanti, nomine pene, <measure type="imperiales"
+            unit="solidus" quantity="100">soldos C imperialium</measure>; et, ea soluta vel non,
+          predicta omnia nichillominus firma semper et illibata serventur. </p>
+        <p xml:id="CCCLII_p_002" n="2">Actum in villa de <placeName ref="#Beduzano"
+            >Beduçano</placeName>, in domo <persName ref="#Gervasinus">Gervasini</persName>,
+          testibus <persName ref="#UgolinusGualteronis">Ugolino quondam Gualteroni</persName>, tunc
+            <roleName>castaldione</roleName> ipsius domini episcopi, <persName ref="#Gervasinus"
+            >Gervasino</persName> predicto et <persName ref="#VenutusTorano_scarius">Venuto
+              <roleName>scario</roleName> de <placeName ref="#Torano">Torano</placeName></persName>,
+          presentibus et rogatis.</p>
+        <p xml:id="CCCLII_p_003" n="3"><ptr target="#CCCLII_st_001"/> Ego <persName
+            ref="#Henricusnot">Henricus de <placeName ref="#Sarzanello">castro Sarzane</placeName>,
+              <roleName>Sacri Palacii notarius</roleName></persName>, hanc cartam, a <persName
+            ref="#Bonalbergusnot">Bonalbergo <roleName>notario</roleName></persName> abreviatam,
+          visa sceda eius, ipso presente, precibus eius scripsi et in publicam formam redegi et meo
+          signo et nomine roboravi.</p>
+        <p xml:id="CCCLII_p_004" n="4"><ptr target="#CCCLII_st_002"/> Ego <persName
+            ref="#Bonalbergusnot">Bonalbergus, <roleName>domini Frederici invictissimi Romanorum
+              imperatoris notarius</roleName></persName>, hanc cartam rogavi seu abreviavi et eam
+          reduci feci per <persName ref="#Henricusnot">Henricum
+            <roleName>notarium</roleName></persName> in publicam formam, set ad maiorem firmitatem
+          subscripsi et apposui proprium signum et nomen.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

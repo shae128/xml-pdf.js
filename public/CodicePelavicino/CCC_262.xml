@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCC_262">
+    <front xml:id="CCC_front">
+
+      <titlePart type="numerazioneNuova">262</titlePart>
+      <titlePart type="numerazioneOrig">CCC</titlePart>
+
+      <docDate xml:id="CCC_docDate">
+        <date when="1226-12-13">1226 dicembre 13</date>, <placeName>chiesa di San Martino di
+          Ortonovo (<term xml:lang="latin">ecclesia Sancti Martini de Yliolo</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCC_regesto">
+        <p>Col consenso di Iacopino della fu Faina, castaldo de <term xml:lang="latin"
+            >Supraluna</term>, i consoli e i consiglieri di <term xml:lang="latin">Micoarra</term>,
+          da una parte, e i consoli e consiglieri di Ortonovo dall’altra stabiliscono i patti tra i
+          due comuni, riguardanti in particolare la soccida del bestiame del vescovo e i
+          pascoli.</p>
+      </div>
+
+      <div type="footer" xml:id="CCC_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 283r.-283v., cc. CCLXXVr.-CCLXXVv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 300, pp.
+            279-280.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel 1226 correva la XIV e non la XIII indizione (cfr.<ref target="#MAZZINI_1914"
+              >Mazzini 1914</ref>, p. 21), ma il giorno della settimana corrisponde; si può quindi
+            proporre <term xml:lang="latin">indictione XIIII</term>.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <emph>CCC.
+            Ordinamenta.</emph></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCC_div">
+        <p xml:id="CCC_p_001" n="1">In Christi nomine, amen.<date when="1226-12-13"> Anno a
+            nativitate Ipsius millesimo CCXXVI, indictione XIII, die dominico, XIII intrantis
+            decembris</date>. Ad honorem Christi et eius genitricis gloriose Virginis Marie et
+          beneplacitum domini Lunensis episcopi, <persName ref="#IacopinusFaina">Iacopinus quondam
+            Faine, <roleName>castaldio</roleName> de <placeName ref="#SupraLuna"
+              >Supraluna</placeName></persName>, huic facto consentiens, et <persName
+            ref="#BorgensisCapagnano">Borgensis de <placeName ref="#Capagnano"
+            >Capagnano</placeName></persName>, <persName ref="#BenencasaBoneti">Benencasa quondam
+            Boneti de <placeName ref="#Ara">Ara</placeName></persName>,
+            <roleName>consules</roleName>, <persName ref="#Segnoretus">Segnoretus</persName>,
+            <persName ref="#UgolinusBonusii">Ugolinus quondam Bonusii</persName>, <persName
+            ref="#Guiçolinushesc">Guiçolinus <roleName><term ref="#scarius"
+              >hescarius</term></roleName></persName> et <persName ref="#GerardinusRoza">Gerardinus
+            de <placeName ref="#Roza">Roza</placeName></persName>, <roleName>consiliarii</roleName>
+          de <placeName ref="#Micoria">Micoarra</placeName>, ex una parte, <persName
+            ref="#VenutusMusini">Venutus quondam Musini</persName>, <persName ref="#NigronusBonomi"
+            >Nigronus quondam Bonomi</persName>, <roleName>consules</roleName>, <persName
+            ref="#MartinusPeroza">Martinus de <placeName ref="#Peroza"
+          >Peroza</placeName></persName>, <persName ref="#Lamberzonus">Lamberzonus</persName>,
+            <persName ref="#Benesiacons">Benesia</persName> et <persName ref="#GerardinusPilloto"
+            >Gerardinus de <placeName ref="#Pilloto">Pilloto</placeName></persName>,
+            <roleName>consiliarii</roleName> de <placeName ref="#Ortonovo">Ortonovo</placeName>, ex
+          altera, quelibet pars pro suo communi concorditer constituerunt quod aliquis de <placeName
+            ref="#Micoria">Micoarra</placeName> vel de <placeName ref="#Ortonovo"
+            >Ortonovo</placeName> non debeat dare servicium alicui pecorario ad habendum bestias in
+          sua soceratura: quod, si quis fecerit, teneantur castaldio et consules utriusque loci
+          iuramento auferre ei <measure type="Imperiales" quantity="10" unit="solidus">soldos X
+            bonorum imperialium</measure> et non reddere.</p>
+        <p xml:id="CCC_p_002" n="2">Item, facta soceratura domini Lunensis episcopi, quam fecerit
+            <roleName>castaldio</roleName> vel alius pro curia, <roleName>castaldio</roleName> et
+            <roleName>consules</roleName> predictorum locorum, qui pro tempore fuerint, teneantur
+          dividere bestias que erunt in plano <placeName ref="#Luni">Lune</placeName>, dando duas
+          partes hominibus de <placeName ref="#Micoria">Micoarra</placeName> et de <placeName
+            ref="#Luni">Luna</placeName>, qui fuerint sui castellani, et <persName ref="#Melior"
+            >Melioris</persName><note xml:id="CCC_n_001" n="a" place="foot"><term type="incerto"
+              >Melioris</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">Meliori</term>.</note> et <persName ref="#Adiutus"
+            >Adiuto</persName>, fratri eius, et <persName ref="#Garminella">Garminelle</persName>,
+          terciam vero partem hominibus de <placeName ref="#Ortonovo">Ortonovo</placeName>; set in
+          arbitrio <roleName>castaldionis</roleName> et <roleName>consulum</roleName> predictorum
+          remanent quod dare debeant ultra duas partes tantum de pecudibus qui equipparentur pro X
+          hominibus, quibus exsuperant illos de <placeName ref="#Ortonovo">Ortonovo</placeName>.</p>
+        <p xml:id="CCC_p_003" n="3"><c>§</c> Item nullus predictorum locorum habeat tu<supplied
+            reason="omitted">r</supplied>mam porcorum.</p>
+        <p xml:id="CCC_p_004" n="4"><c>§</c> Item non teneant aliquem equum forensem ad
+          herbandum.</p>
+        <p xml:id="CCC_p_005" n="5"><c>§</c> Item non teneant ultra unam comuttam bovum, que sit de
+          XXIIII bobus et non pluribus.</p>
+        <p xml:id="CCC_p_006" n="6"><c>§</c> Item mannarini hominum de <placeName ref="#Luni"
+            >Luna</placeName> debeant vel possint ire ad pascua hominum suprascriptorum locorum,
+          quia homines de suprascripta <placeName ref="#Luni">Luna</placeName>, videlicet <persName
+            ref="#Melior">Melior</persName> et <persName ref="#Adiutus">Adiutus</persName>
+          suprascripti, hiis pactis consentierunt et interfuerunt.</p>
+        <p xml:id="CCC_p_007" n="7"><c>§</c> Item si quis potens vel impotens voluerit auferre
+          violenciam hominibus de <placeName ref="#Luni">Luna</placeName> vel aliqui<supplied
+            reason="omitted">bu</supplied>s predictorum locorum ut hec iamscripta confrigantur,
+          ceteri debeant et teneantur adiuvare se vicissim. Et hec omnia suprascripta inviolabiliter
+          observentur a qualibet parcium suprascriptarum hinc ad X annos ad voluntatem domini
+          Lunensis episcopi, sub pena <measure type="imperiales" quantity="40" unit="solidus"
+            >soldorum XL bonorum imperialium</measure>, quam promiserunt episcopo Lunensi; qua
+          soluta, firma permaneant singula usque ad terminum prefinitum.</p>
+        <p xml:id="CCC_p_008" n="8">Actum post trefunam<note xml:id="CCC_n_002" n="b" place="foot"
+              ><term type="incerto">trefunam</term>: <emph>così nel testo, forse per</emph>
+            <term xml:lang="latin">tribunam</term>.</note>
+          <orgName ref="#Iliolo_S_Martino">ecclesie Sancti Martini</orgName> de <placeName
+            ref="#Yliolo">Yliolo</placeName>, presentibus <persName ref="#GandulfinusGerardeti"
+            >Gandulfino quondam Gerardeti de <placeName ref="#Fontana"
+            >Fontana</placeName></persName>, <persName ref="#IustamonteRuffinelli"
+            >Iustamonte</persName> et <persName ref="#UrsusRuffinelli">Urso, fratribus, quondam
+            Ruffinelli de <placeName ref="#Marzano">Marçano</placeName></persName>, testibus ad hec
+          vocatis. <pb n="283v" xml:id="fol_283v"/></p>
+        <p xml:id="CCC_p_009" n="9"><ptr target="#CCC_st_001"/> Ego <persName
+            ref="#GerardetusMontoni">Gerardetus, qui nominor Montonus, <roleName>palacii sacri
+              notarius</roleName></persName>, hiis interfui et rogatus a predictis hominibus in
+          publicam formam redegi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

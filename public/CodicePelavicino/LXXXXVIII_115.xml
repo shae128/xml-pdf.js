@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="LXXXXVIII_115">
+        <front xml:id="LXXXXVIII_front">
+
+            <titlePart type="numerazioneNuova">115</titlePart>
+            <titlePart type="numerazioneOrig">LXXXXVIII</titlePart>
+
+            <docDate xml:id="LXXXXVIII_docDate">
+                <date when="1279-04-19">1279 aprile 19</date>, <placeName ref="#Arcola"
+                    >Arcola</placeName>
+                <emph>(<term xml:lang="latin">in castro Arcule</term>)</emph>
+            </docDate>
+
+            <div type="regesto" xml:id="LXXXXVIII_regesto">
+                <p> Gigliolo del fu Guizolo di Arcola vende a Giacomino del fu Iannino di Sarzana 4
+                    pezzi di terra, posti nel luogo detto <emph><term xml:lang="latin"
+                            >Meçuleto</term></emph> per il prezzo di 252 lire di denari pisani. </p>
+            </div>
+
+            <div type="footer" xml:id="LXXXXVIII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C], cc. 210v.-212r., cc. CCIIv.-CCIIIIr. secondo la numerazione
+                        originale.</p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 98, p. 129.</p>
+                </div>
+
+                <div type="crit_notes">
+                    <p> Nel margine esterno di c. 210v., di mano moderna: <emph><term
+                                xml:lang="latin">Vendita di terra a maestro Giacomo fisico loco
+                                dicto al Musueletto</term></emph>. Nel margine esterno della
+                        medesima carta il numero LXXXXVIII ha perso la L iniziale a causa della
+                        rifilatura della pergamena. </p>
+                    <p> Il passaggio in <emph><term xml:lang="latin">mundum</term></emph> della
+                        minuta è del 1280 ad opera del notaio Guelfo figlio del notaio Buonaparte di
+                        Sarzana. </p>
+                </div>
+
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXXXVIII. Precepti sententie super locis
+                            canonicatus.</term></p>
+                </div>
+
+
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="LXXXXVIII_div">
+                <p> In nomine Domini, amen. <date when="1279-04-19">Anno a nativitate Eius
+                        M°CCLXXVIIII, indictione VIIa, die XVIIII mensis aprilis</date>. <persName
+                        ref="#GiliolusGuiçoli">Giliolus quondam domini Guiçoli de <placeName
+                            ref="#Arcola">Arcula</placeName></persName> vendidit, tradidit atque
+                    dedit magistro <persName ref="#IacopinusIannini">Iacopino
+                            <roleName>fisico</roleName> quondam Iannini de <placeName ref="#Sarzana"
+                            >Sarzana</placeName></persName>, recipienti pro se suisque heredibus
+                    sive cui dederit vel commiserit, petias quatuor terre positas in loco dicto
+                        <placeName ref="#Meçuleto">Meçuleto</placeName>. Prima <note place="foot"
+                        n="a" xml:id="LXXXXVIII_n_001">
+                        <emph>Nel margine esterno, di mano posteriore:</emph><term xml:lang="latin"
+                            >I</term></note> quarum est a capite versus <placeName ref="#Trebiano"
+                        >Trebianum</placeName>, iuxta viam, brachia CLXIIII per amplum, a pede
+                    versus <placeName ref="#Luni">Lunam</placeName> brachia CLV et est per longum
+                    versus <placeName ref="#Fosdinovo">Fosdenovam</placeName> brachia DLX et ab alio
+                    latere versus <placeName ref="#Ameglia">Ameliam</placeName> est brachia DXXXIII;
+                    et coheret ei versus <placeName ref="#Fosdinovo">Fosdenovam</placeName> ab uno
+                    latere terra <persName ref="#BonensegnaYlice">Bonensegne</persName> de
+                        <placeName ref="#Ylice">Ylice</placeName> in parte et in parte <persName
+                        ref="#ParentinusGualteroti">Parentutii quondam Gualteroti de <placeName
+                            ref="#Ameglia">Amelia</placeName></persName> et in parte heredum
+                        <persName ref="#HenrigarellusYlice">Henrigarelli <pb n="211r"
+                            xml:id="fol_211r"/> de <placeName ref="#Ylice"
+                        >Ylice</placeName></persName> atque in parte terra monasterii de <placeName
+                        ref="#Corvo">Corvo</placeName>, ab alio latere versus <placeName
+                        ref="#Ameglia">Ameliam</placeName> coheret ei terra <persName
+                        ref="#PanicusLacanale">Panici de <placeName ref="#Lacanale">La
+                            Canale</placeName></persName> in parte et in parte terra heredum quondam
+                        <persName ref="#BonaiunctaCer">Bonaiuncte Cervaroli de <placeName
+                            ref="#Sarzana">Sarzana</placeName></persName>, a capite versus
+                        <placeName ref="#Trebiano">Trebianum</placeName> coheret ei via publica, a
+                    pede versus <placeName ref="#Luni">Lunam</placeName> coheret ei terra eiusdem
+                        <persName ref="#GiliolusGuiçoli">Gilioli</persName>, vendita
+                        <roleName>magistro</roleName>
+                    <persName ref="#IacopinusIannini">Iacopino</persName>, in parte et in parte
+                    terra <persName ref="#GerardinaYlice">Gerardine de <placeName ref="#Ylice"
+                            >Ylice</placeName></persName> et in parte terra <persName
+                        ref="#BaruncellusFosdenova">Baruncelli de <placeName ref="#Fosdinovo"
+                            >Fosdenova</placeName></persName>, intra quam terra<supplied
+                        reason="omitted">m</supplied> est media <term ref="#iuva">iuva</term> terre
+                    heredum quondam <persName ref="#RavaronusYlice">Ravatani de <placeName
+                            ref="#Ylice">Ylice</placeName></persName>, que terra est sulce XXV de
+                    duabus voltis, quam eidem non vendidit. Secunda<note place="foot" n="b"
+                        xml:id="LXXXXVIII_n_002">
+                        <emph>Nel margine esterno, di mano posteriore:</emph><term xml:lang="latin"
+                            >II</term></note> petia est per longum versus <placeName ref="#Ameglia"
+                        >Ameliam</placeName> ab uno latere brachia CCLXXXVIII et ab alio latere est
+                    versus <placeName ref="#Fosdinovo">Fosdenovam</placeName> brachia CCLXXXV et per
+                    amplum a capite versus <placeName ref="#Trebiano">Trebianum</placeName> est
+                    brachia LXIII; et coheret ei ab uno latere terra suprascripte <persName
+                        ref="#GerardinaYlice">Gerardine</persName>, ab alio latere terra eiusdem
+                        <persName ref="#GiliolusGuiçoli">Gilioli</persName>, eidem
+                        <roleName>magistro</roleName>
+                    <persName ref="#IacopinusIannini">Iacopino</persName> vendita, in parte et in
+                    parte terra suprascripti monasterii Sancte Crucis, a capite versus <placeName
+                        ref="#Trebiano">Trebianum</placeName> terra suprascripta vendita, a pede
+                    versus <placeName ref="#Luni">Lunam</placeName> heredum <persName
+                        ref="#GalteriusCapirolo">Gualterii de <placeName ref="#Capriola"
+                            >Capriolo</placeName></persName> in parte et in parte<note place="foot"
+                        n="c" xml:id="LXXXXVIII_n_003"><emph>Manca l’indicazione.</emph></note>.
+                        Tercia<note place="foot" n="d" xml:id="LXXXXVIII_n_004">
+                        <emph>Nel margine esterno, di mano posteriore:</emph><term xml:lang="latin"
+                            >III</term></note> petia est per longum versus <placeName
+                        ref="#Fosdinovo">Fosdenovam</placeName> brachia CV et medium, ab alio latere
+                    versus <placeName ref="#Ameglia">Ameliam</placeName> per longum brachia LV, a
+                    capite versus <placeName ref="#Trebiano">Trebianum</placeName>, iuxta viam, est
+                    brachia CXXV, a pede versus <placeName ref="#Luni">Lunam</placeName> est brachia
+                    CXV; et coheret ei versus <placeName ref="#Ameglia">Ameliam</placeName> ab uno
+                    latere suprascripta prima petia terre vendite, ab alio latere versus <placeName
+                        ref="#Fosdinovo">Fosdenovam</placeName> terra suprascripti <persName
+                        ref="#GiliolusGuiçoli">Gilioli</persName>, eidem magistro <persName
+                        ref="#IacopinusIannini">Iacopino<note place="foot" n="e"
+                            xml:id="LXXXXVIII_n_005">
+                            <term xml:lang="latin">magistro Iacopino</term><emph>: nel testo</emph>
+                            <term xml:lang="latin">Iacopino magistro</term>
+                            <emph>con segno di richiamo per invertire l’ordine delle
+                            parole</emph></note>
+                    </persName> vendita, a capite versus <placeName ref="#Trebiano"
+                        >Trebianum</placeName> via publica, a pede versus <placeName
+                        ref="#Fosdinovo">Fosdenovam</placeName> terra <persName
+                        ref="#BastardusPontoniarii">Bastardi quondam Pontonarii</persName> in parte
+                    et in parte terra <persName ref="#UbaldetusGuilielmi">Ubaldeti quondam Guilielmi
+                        de <placeName ref="#Sarzana">Sarzana</placeName></persName>. Quarta<note
+                        place="foot" n="f" xml:id="LXXXXVIII_n_006">
+                        <emph>Nel margine esterno, di mano posteriore:</emph><term xml:lang="latin"
+                            >IIII°</term></note> petia est ab uno latere versus <placeName
+                        ref="#Ameglia">Ameliam</placeName> per longum brachia CLIIII, ab alio latere
+                    versus <placeName ref="#Fosdinovo">Fosdenovam</placeName> est brachia CLXXX, a
+                    capite versus <placeName ref="#Trebiano">Trebianum</placeName> est brachia
+                    LXIIII per amplum, a pede versus <placeName ref="#Luni">Lunam</placeName> est
+                    brachia CXL; atque coheret ei a capite versus <placeName ref="#Ameglia"
+                        >Ameliam</placeName> terra predicta vendita, ab alio latere versus
+                        <placeName ref="#Fosdinovo">Fosdenovam</placeName> via in parte et in parte
+                    terra <persName ref="#PetrusPelacani">Petri Pelacani</persName>, a capite versus
+                        <placeName ref="#Trebiano">Trebianum</placeName> via publica, a pede versus
+                        <placeName ref="#Luni">Lunam</placeName> terra <persName ref="#Percevalle"
+                        >Persavallis</persName>, intra quam terram est quedam petiola terre cuiusdam
+                    hominis de <placeName ref="#Sarzanello">castro Sarzane</placeName>, que est
+                    brachia XII per amplum vel si qui alii sint confines suprascriptis petiis
+                    terrarum. Et dedit, cessit et mandavit eidem, recipienti ut dictum est, omne
+                    dominium atque proprietatem, usum et utilitatem, accessum atque regressum,
+                    superiora et inferiora, iura omnia, actiones et rationes utiles et directas,
+                    reales et personales et mixtas, sibi competentes et competencia seu competitura
+                    in dictis petiis terre. Et fecit eumdem procuratorem et dominum ut in rem suam,
+                    dans ei licenciam et bailliam intrandi corporalem tenutam et possessionem de
+                    dictis petiis terrarum quandocumque voluerit, constituendo pro eo et eius nomine
+                    precario interim possidere vel quasi donec tenutam et possessionem corporalem de
+                    eis fuerit ingressus, ita ut ex hiis omnibus et singulis dictus magister
+                        <persName ref="#IacopinusIannini">Iacopinus</persName> suo proprio nomine
+                    directo et utiliter possit agere et experiri, tueri, causari et deffendere
+                    adversus quamcumque personam et locum et exinde facere quicquid sibi placuerit,
+                    sine contradictione dicti <persName ref="#GiliolusGuiçoli">Gilioli</persName>
+                    eiusque heredum vel alterius persone. Pro quarum precio suprascriptus <persName
+                        ref="#GiliolusGuiçoli">Giliolus</persName> fuit confessus se habuisse et
+                    recepisse a dicto magistro <persName ref="#IacopinusIannini">Iacopino</persName>
+                    libras <measure type="Imperiales" quantity="252" unit="solidus">CCLII Pisanorum
+                        bonorum denariorum</measure>, renuntiando exceptioni pecunie non numerate et
+                    dicti precii non integre habiti et soluti. Et confessus fuit dictus <pb n="211v"
+                        xml:id="fol_211v"/>
+                    <persName ref="#GiliolusGuiçoli">Giliolus</persName> quod dicte petie terre
+                    valebant plus precio suprascripto, unde totum et quicquid plus valebant dedit et
+                    donavit eidem titulo pure ac simplicis donationis inrevocabiliter inter vivos,
+                    renuntiando iuri et legi que iuvat deceptos in venditionibus ultra dimidiam
+                    iusti precii, eo quod possit rescindi. Insuper dictus <persName
+                        ref="#GiliolusGuiçoli">Giliolus</persName> per se suosque heredes promisit
+                    et convenit suprascripto magistro <persName ref="#IacopinusIannini"
+                        >Iacopino</persName>, recipienti ut dictum est, predictas petias terre non
+                    imbrigare vel molestare deinceps, immo ipsas omnes et quamlibet earum in toto et
+                    parte iuravit deffendere et exbrigare ab omni impediente persona et loco suis et
+                    eius heredum propriis expensis advocato sive &#60;si&#62; de dominio vel de
+                    possessione eidem magistro <persName ref="#IacopinusIannini">Iacopino</persName>
+                    vel suis heredibus sive cui commiserit questio vel controversia mota fuerit per
+                    aliquam personam vel locum. Et si non deffenderet vel non posset deffendere,
+                    teneatur dictus <persName ref="#GiliolusGuiçoli">Giliolus</persName> salvum
+                    cambium inde dare de bonis suis, loco consimili, secundum quod dicte petie
+                    terrarum tunc valuerint sive meliorate fuerint, sub iusta bonorum hominum
+                    extimatione. Et omne dampnum &#60;et&#62; expensas, quod et quas dictus magister
+                        <persName ref="#IacopinusIannini">Iacopinus </persName> vel eius heredes
+                    sive cui commiserit faceret vel sustineret, teneatur dictus <persName
+                        ref="#GiliolusGuiçoli">Giliolus</persName> eidem magistro <persName
+                        ref="#IacopinusIannini">Iacopino</persName> vel suis heredibus sive cui
+                    commiserit integre restaurare, credendo et stando de dampnis et expensis suo
+                    solo nudo et simplici verbo<note place="foot" n="e" xml:id="LXXXXVIII_n_007">
+                        <term xml:lang="latin">et simplici verbo</term><emph>: nel testo</emph>
+                        <term xml:lang="latin">verbo et simplici</term>
+                        <emph>con segno di richiamo per invertire l’ordine delle
+                        parole</emph></note> , absque iuramento testium vel instrumenti seu alterius
+                    honere probationis; et remisit eidem necessitatem denunciandi et appellandi.
+                    Tali pacto de communi concordia apposito inter eos quod, si questio vel
+                    controversia mota fuerit dicto magistro <persName ref="#IacopinusIannini"
+                        >Iacopino</persName> vel eius heredibus sive cui commiserit de dictis petiis
+                    terre in toto vel in parte aliqua, quod non teneatur denunciare eidem <persName
+                        ref="#GiliolusGuiçoli">Giliolo</persName> vel suis heredibus. Et si
+                    sententia vel sententie lata vel late fuerint contra eum vel eos, quod non
+                    tenea&#60;n&#62;tur appellare et, si appellaverint, quod non teneantur prosequi
+                    causam appellationis et nichillominus habeant regressum contra dictum <persName
+                        ref="#GiliolusGuiçoli">Giliolum</persName> et eius heredes et bona de
+                    evictione et deffensione et omnibus atque singulis suprascriptis. Hanc autem
+                    venditionem et omnia et singula suprascripta promisit dictus <persName
+                        ref="#GiliolusGuiçoli">Giliolus</persName> perpetuo ratam et rata habere et
+                    firmam et firma tenere et numquam contra facere vel venire, de iure vel de
+                    facto, sub pena et in pena <measure type="Imperiales" quantity="200"
+                        unit="solidus">librarum CC Pisanorum</measure>, quam dare et solvere
+                    promisit tociens quotiens fuerit contraventum et pro quolibet capitulo non
+                    observato; et, pena soluta vel non, suprascriptis omnibus et singulis
+                    nichillominus semper firmis et ratis manentibus, cum eadem pene commissione. Et
+                    ad hec attendenda et observanda obligavit se dictus <persName
+                        ref="#GiliolusGuiçoli">Giliolus</persName> suosque heredes et omnia sua
+                    bona, habita et habenda; et renuntiavit omni iuri et legibus, quibus contra
+                    predicta vel aliquid predictorum posset ullo tempore facere vel venire. Acta
+                    fuerunt hec in castro <placeName ref="#Arcola">Arcule</placeName>, sollempniter
+                    cum stipulatione, presentibus <persName ref="#CalandrinusBoniohannis">Calandrino
+                        quondam Boniohannis de <placeName ref="#Sarzana"
+                        >Sarzana</placeName></persName>, <persName ref="#ThomasiusAldebrandini"
+                        >Thomasio quondam Aldebrandini de <placeName ref="#Usigna"
+                            >Usigna</placeName></persName> et <persName ref="#SaladinusBillinoti"
+                        >Saladino quondam Billinoti de <placeName ref="#Arcola"
+                        >Arcula</placeName></persName>, testibus ad hec rogatis. </p>
+            </div>
+            <div xml:id="LXXXXVIII2_div" type="mundum">
+                <p>
+                    <ptr target="#LXXXXVIII_st_001"/> Ego <persName
+                        ref="#GuelfusBonapartis_notarius">Guelfus</persName>, <roleName>sacri
+                        palatii notarius</roleName>, hanc cartam olim <pb n="212r" xml:id="fol_212r"
+                    /> a <persName ref="#Bonapartenot">Bonaparte
+                        <roleName>notario</roleName></persName> de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> quondam patre meo, abreviatam ut in eius contractibus
+                    sive breviaturis inveni, ita hic fideliter scripsi et in publicam formam redegi,
+                    nichil addens vel minuens quod mutet sensum vel variet intellectum, preter
+                    litteram vel sillabam; et hec sic feci et complevi de auctoritate mihi prestita
+                    atque concessa a <roleName>domino</roleName>
+                    <persName ref="#GidinusSymoneti">Gidino Symoneti de <placeName ref="#Lucca"
+                            >Luca</placeName></persName>, tunc <roleName>potestate</roleName>
+                    <placeName ref="#Sarzana">Sarzane</placeName>, et eiusdem consilio, sub anno
+                    nativitatis Domini M°CC°LXXX°, indictione VIIIa <date from="1280-01-01"
+                        to="1280-12-31" cert="high"> sub anno nativitatis Domini M°CC°LXXX°,
+                        indictione VIIIa <note>Passaggio in mundum del documento 115
+                            (LXXXXVIII)</note></date>, presentibus <roleName>domino</roleName>
+                    <persName ref="#Opizus_iudex">Opezone <roleName>iudice</roleName></persName> et
+                        <persName ref="#IohannesMercadantis">Iohanne Mercadantis</persName>, omnibus
+                    de <placeName ref="#Sarzana">Sarzana</placeName>, testibus ad hec rogatis. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

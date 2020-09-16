@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXVIII_379">
+    <front xml:id="CCCCXVIII_front">
+
+      <titlePart type="numerazioneNuova">379</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXVIII</titlePart>
+
+      <docDate xml:id="CCCCXVIII_docDate">
+        <date when="1255-09-21">1255 settembre 21</date>,<placeName>Ponzanello (<term
+            xml:lang="latin">in ecclesia de Ponzanello</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXVIII_regesto">
+        <p>Gualduccio di Bonafesta di Bolano cede al vescovo di Luni Guglielmo, al prezzo di 3 lire
+          di imperiali, cinque pezzi di terra posti nel piano di Bolano. Gualduccio, che prima
+          teneva tali beni in feudo dallo stesso vescovo e dalla curia lunense, li ottiene ora in
+          affitto al censo di uno staio e mezzo di frumento.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 333r., c. CCCXXVr. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>n. 418,
+            pp. 410-411 con data 1256, già corretta da Mazzini 1914, p. 28.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note> Una parte del documento è stata letta con l’ausilio della luce di Wood.</note>
+        </div>
+
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCCXVIII. Unius starii et medii frumenti, quod reddit Gualdacius.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXVIII_div">
+        <pb n="333r" xml:id="fol_333r"/>
+        <p xml:id="CCCCXVIII_p_001" n="1">In Dei nomine, amen. <date when="1255-09-21">Anno a
+            nativitate Eius M°CCLV, indictione XIII, XXI septembris</date>. <persName
+            ref="#GualducciusBonafeste">Gualducius quondam Bonafeste de <placeName ref="#Bolano"
+              >Bolano</placeName></persName> pro se suisque heredibus fecit finem et refutationem,
+          remissionem et pactum de non petendo et datum venerabili patri domino <persName
+            ref="#GuilEpLuni">Guilielmo</persName>, <roleName>Dei gratia Lunensi
+          episcopo</roleName>, recipienti pro se suisque successoribus, nomine episcopatus, de V
+          petiis terris positis in plano de <placeName ref="#Bolano">Bolano</placeName>, quas ab
+          ipso domino episcopo et a curia Lunensi, ut dicebat, in feudum detinebat, quarum prime
+          coheret ab uno latere <persName ref="#ManzetinusBolano">Manzetini de <placeName
+              ref="#Bolano">Bolano</placeName></persName>, ab alio <persName ref="#Ameçetus"
+            >Amicheti</persName>, superius illorum de <placeName ref="#Plaça">Plaça</placeName>,
+          inferius via publica; secunde petie coheret ab uno latere heredis<note n="a" place="foot"
+            xml:id="CCCCXVIII_n_001"><term xml:lang="latin">heredis</term>: <emph>nel testo corretto
+              su heredes, con es finale espunto.</emph>.</note>
+          <persName ref="#Bellonus">Belloni</persName>, ab alio suprascripti <persName
+            ref="#ManzetinusBolano">Manzetini</persName> et <persName ref="#GualducciusBonafeste"
+            >Gualducii</persName>, superius via publica; tercie petie, que est in loco dicto
+            <placeName ref="#Fornolo">Fornolo</placeName>, coheret ab uno latere <persName
+            ref="#ManzetinusBolano">Manzetini</persName> suprascripti, ab alio <orgName
+            ref="#Ceparana_S_Venanzio">abbatis de <placeName ref="#Ceparana"
+            >Cepparana</placeName></orgName>, superius strata, inferius heredis <persName
+            ref="#Corvarinus"> Corvarini</persName><note n="b" place="foot" xml:id="CCCCXVIII_n_002"
+              ><term xml:lang="latin">Corvarini</term>: <emph> la prima r corretta su
+            t</emph>.</note>; quarte petie, que est in loco dicto <placeName ref="#Solcalonga"
+            >Solcalonga</placeName>, coheret ab uno latere <persName ref="#ManzetinusBolano"
+            >Manzetini</persName> suprascripti, ab alio <orgName ref="#Ceparana_S_Venanzio">abbatis
+            de <placeName ref="#Ceparana">Cepparana</placeName></orgName>, superius <persName
+            ref="#AvenansCastro">Avenantis de <placeName ref="#Sarzanello">castro
+              Sarzane</placeName></persName>, inferius illorum de <placeName ref="#Prato"
+            >Prato</placeName>; quinte petie, que est in eodem loco, coheret ab uno latere <persName
+            ref="#PetrusCepparana">Petri de <placeName ref="#Ceparana"
+            >Cepparana</placeName></persName>, ab alio suprascripti <persName
+            ref="#ManzetinusBolano">Manzetini</persName>, superius <persName ref="#AvenansCastro"
+            >Avenantis de <placeName ref="#Sarzanello">castro Sarzane</placeName></persName>,
+          cedendo et dando eidem domino episcopo, recipienti ut dictum est, omnia iura et actiones
+          et rationes utiles et directas, reales et personales seu mixtas, que et quas habebat in
+          suprascriptis V petiis terre vel sibi competere possent aliquo modo vel iure, confitendo
+          se recepisse idem <persName ref="#GualducciusBonafeste">Gualducius</persName> a
+          suprascripto domino episcopo, pro predictis fine et refutatione, remissione et pacto et
+          dato, libras tres imperialium, renunciando exceptioni non numerate pecunie et precii
+          integre non habiti et soluti et omni alii iuri et legum auxilio, promittendo dictam finem
+          et refutationem et predicta omnia suprascriptus <persName ref="#GualducciusBonafeste"
+            >Gualducius</persName> rata habere et firma tenere et non contravenire aliquo modo vel
+          iure, obligando se suosque heredes et bona, ad penam dupli suprascripte pecunie et eius
+          tocius quod in questione veniret; qua soluta, predicta omnia et singula in suo robore
+          perseverent, renunciando omni iuri et legibus contra hec introductis. Ibidem et
+          incontinenti suprascriptus dominus episcopus per se suosque successores, nomine
+          episcopatus, locavit et dedit nomine ficti suprascripto <persName
+            ref="#GualducciusBonafeste">Gualducio</persName>, recipienti pro se suisque heredibus,
+          suprascriptas V petias terre, ita quod ut amodo perpetuo, nomine ficti, suprascriptus
+            <persName ref="#GualducciusBonafeste">Gualducius</persName> suique hreredes habeant,
+          teneant et possideant et fruantur suprascriptas V petias terre, cum accessibus et
+          regressibus suis et omnibus pertinenciis suis in integrum, sine alicuius aliqua
+          contradictione, dando et reddendo exinde suprascriptus <persName
+            ref="#GualducciusBonafeste">Gualducius</persName> suique heredes suprascripto domino
+          episcopo suisque successoribus et curie Lunensi, nomine ficti, omni anno, per totum mensem
+          augusti, starium I et dimidium frumenti, ad starium commune de <placeName ref="#Sarzana">Sarzana</placeName>, mundi et sicci et
+          gritolati, tracti et parati ad archam monasterii de <placeName ref="#Ceparana"
+            >Cepparana</placeName>, quam habet ibidem curia Lunensis; alia eis superimposita non
+          fiat. Et hec omnia et singula attendere et observare sibi ad invicem promiserunt, sub pena
+            <measure type="imperialium" quantity="20" unit="solidus">XX soldorum
+            imperialium</measure>, quam dare et solvere teneatur pars que contra iverit parti
+          predicta servanti; qua soluta, suprascriptis omnibus et singulis nichillominus semper in
+          suo robore duraturis, obligando se idem dominus episcopus suosque successores et bona
+          episcopatus ad hec attendenda et observanda et suprascriptus <persName
+            ref="#GualducciusBonafeste">Gualducius</persName> se suos heredes et bona sua omnia,
+          renunciando omni iuri et legibus contra hec introductis. </p>
+        <p xml:id="CCCCXVIII_p_002" n="2">Actum in <orgName ref="#Ponzanello_S_Martino">ecclesia de
+              <placeName ref="#Ponzanello">Ponzanello</placeName></orgName>, presentibus
+            <roleName>magistro</roleName>
+          <persName ref="#Saladinusarc">Saladino <roleName>archipresbytero</roleName> de <placeName
+              ref="#Viano">Viano</placeName></persName>, <persName ref="#Iacopinusarc">Iacopino
+              <roleName>archipresbytero</roleName> de <placeName ref="#Ameglia"
+            >Amelia</placeName></persName>, <roleName>presbytero</roleName>
+          <persName ref="#Bonavitapre">Bonavita</persName> et <persName ref="#UgolinusLanfranchini"
+            >Ugolino quondam Lanfranchini de <placeName ref="#Ponzanello"
+            >Ponzanello</placeName></persName>, testibus ad hec rogatis.</p>
+
+        <p xml:id="CCCCXVIII_p_003" n="3">
+          <ptr target="#CCCCXVIII_st_001"/>Ego <persName ref="#Adiutusnot">Adiutus, <roleName>sacri
+              palacii notarius</roleName></persName>, hiis interfui et de mandato suprascripti
+          domini episcopi scripsi hec et complevi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

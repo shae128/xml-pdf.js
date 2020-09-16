@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+
+	<text xml:id="CCCCVI_367">
+		<front xml:id="CCCCVI_front">
+
+			<titlePart type="numerazioneNuova">367</titlePart>
+			<titlePart type="numerazioneOrig">CCCCVI</titlePart>
+
+			<docDate xml:id="CCCCVI_docDate">
+				<date when="1198-08-24">1198 agosto 24</date>, <placeName>Ceparana (<emph>in
+						claustro abbatie de Cepparano</emph>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="CCCCVI_regesto">
+				<p>Rodolfo di Santo Stefano, castaldo del vescovo Gualtiero, libera Busseto del fu
+					Martino di Tiglia da ogni condizione villanatica. Busseto si impegna a non
+					rivendicare diritti sul podere che teneva per conto del vescovo.</p>
+			</div>
+
+			<div type="footer" xml:id="CCCCVI_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] CP c. 327r., c. CCCXVIIIIr. secondo la numerazione originale</p>
+				</div>
+
+				<div type="biblio">
+					<p> Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+							1912</ref> 1912, n. 406, pp. 389-390.</p>
+				</div>
+
+				<div type="crit_notes">
+					<note>Perchè il <emph>die lune</emph> del documento corrisponda al giorno
+						bisogna spostare la data al <emph>VIIII kalendas septembris</emph>, cioé al
+						24 agosto come già MAZZINI 1914, p. 27.</note>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">CCCCVI. Carta de Sancto Stephano que tractat de podere
+							Bussceti. </term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="CCCCVI_div">
+				<pb n="327r" xml:id="fol_327r"/>
+				<p xml:id="CCCCVI_p_001"><ptr target="#CCCCVI_st_001"/> In nomine Domini nostri
+					Ihesu Christi, amen. <date when="1198-08-24">Anno a nativitate Eius M°C
+						nonagesimo VIII, indictione I, die lune, VIII kalendas septembris.</date> In
+					presentia testium, quorum nomina inferius scripta sunt, <persName
+						ref="#RodulfusSanctoStefano">Rudulfus de <placeName ref="#Santo_Stefano"
+							>Sancto Stephano</placeName></persName>, tunc
+						<roleName>castaldus</roleName>
+					<roleName>domini</roleName>
+					<persName ref="#GualEpLuni">Gualterii<roleName>, Lunensis
+						episcopi</roleName></persName>, precepto et voluntate ipsius domini episcopi
+					et pro ipso domino episcopo, liberavit et absolvit <persName
+						ref="#BussetusMartini">Bussetum quondam Martini de <placeName ref="#Tillia"
+							>Tilia</placeName></persName>, ab omni nexu et vinculo sive obligatione
+					quo vel q+ua domino episcopo vel eidem Rudulfo pro ipso domino episcopo
+					tenebatur iure manencie vel alicuius colonarie condictionis et ab omnibus
+					serviciis, redditibus et prestationibus, que vel quas domino episcopo, vel ei
+					pro eo, nomine villanatici sive homagii vel quocumque modo facere tenebatur;
+					dictum <persName ref="#BussetusMartini">Bussetum</persName> et heredes ab eo
+					descendentes pro domino episcopo liberavit et absolvit et eos liberos et
+					absolutos esse dixit et voluit, et de omnibus iamscriptis, qualiter superius
+					dictum est, dictus <persName ref="#RodulfusSanctoStefano">Rudulfus</persName>
+					pro dicto domino episcopo iamscripto <persName ref="#BussetusMartini"
+						>Busseto</persName>, recipienti pro se et suis heredibus, fecit finem et
+					refutationem et pactum de non petendo et liberationem et<note
+						xml:id="CCCCVI_n_001" n="a" place="foot">
+						<term xml:lang="latin">et</term>:<emph>aggiunto in sopralinea, con segno di
+							richiamo.</emph></note> tocius sui iuris dationem, et plenam potestatem
+					et bailiam eidem <persName ref="#BussetusMartini">Busseto</persName> dedit,
+					recipienti pro se et suis heredibus, ut libere et quiete cum omnibus eorum
+					rebus, sine contradictione alicuius persone, possint ire ad habitandum et
+					standum et omnia faciendum ubicumque voluerint tanquam libere persone et
+					absolute ab omni colonaria condictione. Et sollempni stipulatione dictus
+						<persName ref="#RodulfusSanctoStefano">Rud<supplied reason="omitted"
+							>u</supplied>lfus</persName> pro domino episcopo promisit et se et suos
+					successores et dominum episcopum obligavit dicto <persName
+						ref="#BussetusMartini">Busseto</persName>, sub pena <measure unit="solidus"
+						quantity="20">XX soldorum</measure>, quod nullo modo dictus dominus
+					episcopus nec ipse <persName ref="#RodulfusSanctoStefano">Rudulfus</persName>,
+					nomine castaldatus, nec sui successores, per se nec per alium, imbrigabunt nec
+					molestabunt ipsum <persName ref="#BussetusMartini">Bussetum</persName> nec suos
+					heredes de iamscriptis vel pro iamscriptis nec alicuius predictorum occasione,
+					set ab omni imbrigante persona eos deffendent et disbrigabunt. Suprascriptus
+					vero <persName ref="#BussetusMartini">Bussetus</persName> dicto <persName
+						ref="#RodulfusSanctoStefano">Rudulfo</persName>, recipienti pro domino
+					episcopo, fecit finem et refutationem et pacto<note xml:id="CCCCVI_n_002" n="b"
+						place="foot">
+						<term xml:lang="latin">pacto</term>:<emph>così nel testo.</emph></note> de
+					non petendo de toto suo podere et omnia iura omnesque actiones que sibi de eo
+					podere competebant vel competere possent aliquo modo vel iure eidem <persName
+						ref="#RodulfusSanctoStefano">Rudulfo</persName>, recipienti pro domino
+					episcopo, dedit, cessit atque mandavit; insuper se et suos heredes obligavit,
+					sub pena <measure unit="solidus" quantity="20">XX soldorum</measure>, quod nullo
+					modo vel ingenio imbrigabit per se vel per alium dictum dominum episcopum nec
+					eius castaldiones nec eorum successores de predicto vel pro predicto podere vel
+					eius occasione. Facta sunt hec omnia tali pacto quod quicumque predictorum
+					qualiter superius dicta sunt non observaverit, persolvat alteri parti predictam
+					penam; et, pena soluta, nichillomins omnia predicta sint firma et rata.</p>
+				<p>Actum est hoc in claustro <orgName ref="#Ceparana_S_Venanzio">abbatie de
+							<placeName ref="#Ceparana">Cepparano</placeName></orgName>, feliciter,
+					cum stipulatione. Ibi fuerunt vocati testes <persName ref="#Guidoabb">Guido
+							<roleName>abbas dicte abbatie</roleName></persName>, <persName
+						ref="#GerarduspresSV"><roleName>presbyter</roleName> Gerardus de <orgName
+							ref="#Antoniano_S_Venerio">Sancto Venerio</orgName></persName> et
+						<persName ref="#VitalisPorta">Vitalis de <placeName ref="#Porta"
+							>Porta</placeName></persName> et quidam alii.</p>
+				<p>Ego <persName ref="#Guilielmusnot5">Guilielmus, <roleName>sacri palacii et
+							Lunensis curie notarius</roleName></persName>, hiis interfui et rogatus
+					scripsi.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

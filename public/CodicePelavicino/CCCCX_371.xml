@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="CCCCX_371">
+		<front xml:id="CCCCX_front">
+
+			<titlePart type="numerazioneNuova">371</titlePart>
+			<titlePart type="numerazioneOrig">CCCCX</titlePart>
+
+			<docDate xml:id="CCCCX_docDate">
+				<date when="1197-01-23">1197 gennaio 23</date>, <placeName>Santo Stefano di Magra
+						(<emph>in ecclesia de Sancto Stephano</emph>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="CCCCX_regesto">
+				<p>Guidone di Donna di Vezzano del fu Franceschino e Oglerio di Pontremoli del fu
+					Aldeberto, arbitri eletti, compongono la lite per il pascatico di Bolano
+					esistente fra i signori di Vezzano, rappresentati dal loro podestà Grimaldo di
+					Vezzano, e il vescovo di Luni Gualtiero. Stabiliscono che i signori di Vezzano
+					ricevano un denaro di imperiali per capo quando le bestie del vescovo vengono
+					dalla Garfagnana a Bolano e quando i pastori vogliono usare il pascolo dei
+					signori di Vezzano nel distretto di Vezzano, Follo, Valeriano e Ponzano.
+					Capretti e agnelli possono invece pascolare liberamente.</p>
+			</div>
+
+			<div type="footer" xml:id="CCCCX_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] cc. 329r.-329v., cc. CCCXXIr.-CCCXXIv. secondo la numerazione
+						originale</p>
+				</div>
+
+				<div type="biblio">
+					<p> Edizione : <ref target="#SFORZA_1902">SFORZA 1902</ref>, P.365; <ref
+							target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 410, pp.
+						397-398. </p>
+					<p>Bibliografia: <ref target="#PETTI_BALABI_1978">PETTI BALBI 1978</ref>.</p>
+				</div>
+
+				<div type="crit_notes">
+					<p/>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">CCCCX. De pascatico inter dominum episcopum et dominos
+							de Veçano. </term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="CCCCX_div">
+				<p xml:id="CCCCX_p_001"><ptr target="#CCCCX_st_001"/>In Christi nomine, amen. <date
+						when="1197-01-23">Anno a nativitate Eius M° centesimo nonagesimo VII,
+						indictione XV, die iovis, X kalendas februarii.</date> Nos duo, qui sumus
+					electi <roleName>arbitri</roleName> ab utraque parte, scilicet <persName
+						ref="#GuidoDonna">Guido de Donna de <placeName ref="#Vezzano"
+							>Vezano</placeName> quondam Franciescini</persName> et <persName
+						ref="#Olgerius">Oglerius de <placeName ref="#Pontremoli"
+							>Pontremulo</placeName> quondam Aldeberti</persName>, de lite et
+					controversia que vertebatur inter dominum <persName ref="#GualEpLuni"
+						>Gualterium, <roleName>Dei gratia Lunensem episcopum</roleName></persName>,
+					ex una parte, et dominos de <placeName ref="#Vezzano">Vezano</placeName>, ex
+					alia, de pascatico ipsius domini episcopi de <placeName ref="#Bolano"
+						>Bolano</placeName>, de voluntate utriusque partis, scilicet domini episcopi
+					et <persName ref="#GrimaldusVezano">Grimaldi de <placeName ref="#Vezzano"
+							>Vezano</placeName></persName>, qui tunc erat <roleName>potestas
+						dominorum</roleName> de <placeName ref="#Vezzano">Vezano</placeName>, per se
+					et per alios dominos de <placeName ref="#Vezzano">Vezano</placeName> facientis,
+					damus et reddimus tale laudamentum: quod domini de <placeName ref="#Vezzano"
+						>Vezano</placeName> habeant deinceps, in perpetuum, de bestiis que veniunt
+						<pb n="329v" xml:id="fol_329v"/> de <placeName ref="#Garfagnana"
+						>Garfagnana</placeName> in pascatico de <placeName ref="#Bolano"
+						>Bolano</placeName> pro domino Lunensi episcopo, si quando pastores
+					voluerint uti pascatico illorum dominorum de <placeName ref="#Vezzano"
+						>Veçano</placeName> in districtu <placeName ref="#Vezzano"
+						>Vezani</placeName>, <placeName ref="#Folo">Foli</placeName>, <placeName
+						ref="#Valerano">Vallerani</placeName> seu <placeName ref="#Ponzano"
+						>Ponzani</placeName>, <measure type="imperiales" unit="denarius"
+						quantity="1">I denarium imperialium</measure> de omni bestia, sine
+					contradictione domini Lunensis episcopi, excepto de capretis et de agnellis, et
+					pascant libere in districtu<note xml:id="CCCCX_n_001" n="a" place="foot">
+						<term xml:lang="latin">districtu</term>:<emph>corretto su precedente
+							scrittura.</emph></note>
+					<placeName ref="#Vezzano">Vezani</placeName>, <placeName ref="#Folo"
+						>Foli</placeName>, <placeName ref="#Valerano">Vallerani</placeName> et
+						<placeName ref="#Ponzano">Ponzani</placeName>. Et homines de <placeName
+						ref="#Vezzano">Vezano</placeName> teneantur deffendere et deffendent illas
+					bestias omnes cum tota<note xml:id="CCCCX_n_002" n="b" place="foot">
+						<term xml:lang="latin">tota</term>: o <emph>corretta su precedente
+							lettera.</emph></note> eorum fortia per se et per suos homines ad eorum
+					posse et pastores bestiarum, cum omnibus rebus eorum, in omnibus locis,
+					ubicumque poterint. De illis vero bestiis, que in predictis districtibus non
+					pascebunt, nichil debeant habere illi domini de <placeName ref="#Vezzano"
+						>Vezano</placeName>, set de illis que ibi pascebunt debeant habere<measure
+						type="imperiales" unit="denarius" quantity="1">I <supplied reason="omitted"
+							>denarium</supplied> imperialium</measure> de qualibet, sicut dictum
+					est, nemine contradicente, excepto de capretis et de agnellis, ut supra legitur.
+					Quecumque vero partium contra hoc venerit ullo tempore, tunc persolvat <measure
+						type="imperiales" unit="solidus" quantity="1000">M soldos
+						imperialium</measure> nomine pene: medietas sit domini imperatoris curie et
+					alia medietas sit partis fidem servantis; qua soluta, nichillominus que scripta
+					sunt in hac carta firmiter attendantur et observentur.</p>
+				<p xml:id="CCCCX_p_002">Actum est hoc in <orgName ref="#S_Stefano_Magra">ecclesia de
+							<placeName ref="#Santo_Stefano"/>Sancto Stephano</orgName>, feliciter.
+					Ibi fuerunt rogati testes <persName ref="#Rodulfusarc">Rodulfus,
+							<roleName>Lunensis archidyaconus</roleName></persName>, <persName
+						ref="#Rollandusabb">Rollandus, <roleName>abbas</roleName> de <orgName
+							ref="#Ceparana_S_Venanzio">Cepparana</orgName></persName>, <persName
+						ref="#GuidoarchSS">Guido <roleName>archipresbyter</roleName> de <placeName
+							ref="#Santo_Stefano"><orgName ref="#S_Stefano_Magra">Sancto
+								Stephano</orgName></placeName></persName>, <persName
+						ref="#UgoarcCol">Ugo <roleName>archipresbyter</roleName> de <placeName
+							ref="#Colognola2"><orgName ref="#Colognola_S_Prospero"
+								>Colognola</orgName>
+						</placeName></persName>, <persName ref="#BullioneSarzana">Bullionus de
+							<placeName ref="#Sarzana">Sarzana</placeName></persName>, <persName
+						ref="#UgolinusBicus">Ugolinus Bicus de <placeName ref="#Vezzano"
+							>Vezano</placeName></persName>, <persName ref="#MorandusArcola">Morandus
+						de <placeName ref="#Arcola">Arcula</placeName></persName> et quidam
+					alii.</p>
+				<p xml:id="CCCCX_p_003">Ego <persName ref="#Confortusnot">Confortus, <roleName>sacri
+							palacii et Lunensis curie notarius</roleName></persName>, hiis interfui
+					et rogatus hanc cartam rogavi et scripsi.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

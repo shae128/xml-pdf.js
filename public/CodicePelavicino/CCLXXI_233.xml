@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXI_233">
+    <front xml:id="CCLXXI_front">
+
+      <titlePart type="numerazioneNuova">233</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXI</titlePart>
+
+      <docDate xml:id="CCLXXI_docDate">
+        <date when="1243-03-15">1243 marzo 15</date>, <placeName>Sarzana (<term xml:lang="latin"
+            >Sarzane, in domo domini Tancredini de Vallechia)</term></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXI_regesto">
+        <p>Alberto del fu Ubaldo di Vallecchia, a nome proprio e in qualità di curatore di Paganello
+          e Aldoino, maggiorenni, nonché di tutore dei minori Alberto e Ugolino, figli di suo
+          fratello Guido, concede <term xml:lang="latin">per homagium et affictum reddendum</term> a
+          Guizolino del fu Giunta <term xml:lang="latin">de Lacapanna</term>, che riceve per sé, i
+          suoi eredi e a nome della moglie Paganella del fu Amato – che è stata <term
+            xml:lang="latin">refutata</term> -, la metà di un podere, un tempo di proprietà di Amato
+          suo suocero, a patto che Paganella muoia senza eredi legittimi. Il fitto è di tre staia di
+          frumento e non prevede <term xml:lang="latin">coltas</term>, <term xml:lang="latin"
+            >malcollectas</term> né <term xml:lang="latin">albergarias</term> o altri <term
+            xml:lang="latin">mala usancia et servicia</term>. Se anche l’altra figlia del fu Amato,
+          Bonafemmina, morirà senza eredi, Guizolino potrà avere l’altra metà del podere, per un
+          uguale fitto. Il costo della transazione è di 20 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 271r.-271v., c. CCLXIIIr.-CCLXIIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 271,
+            p. 250.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXI_div">
+        <p xml:id="CCLXXI_p_001" n="1"><ptr target="#CCLXXI_st_001"/> In nomine Domini, amen. <date
+            when="1243-03-15">Anno a nativitate Eius millesimo CCXLIII, indictione prima, die XV
+            mensis marcii</date>. <persName ref="#AlbertusUbaldiValechia">Albertus quondam Ubaldi de
+              <placeName ref="#Vallecchia1">Valechia</placeName></persName>, per se et curatorio
+          nomine per <persName ref="#Paganellus">Paganellum</persName> et <persName ref="#Aldoinus"
+            >Aldoinum</persName> et tutorio nomine per <persName ref="#AlbertusGuidonis"
+            >Albertum</persName> et <persName ref="#UgolinusGuidonis">Ugolinum quondam domini
+            Guidonis</persName>, fratris ipsius <persName ref="#AlbertusGuidonis"
+          >Alberti</persName>, ut dicebat, <pb n="271v" xml:id="fol_271v"/> et ipsi <persName
+            ref="#Paganellus">Paganellus</persName> et <persName ref="#Aldoinus">Aldoinus</persName>
+          presentes confitendo se essent<note xml:id="CCLXXI_n_001" n="a" place="foot"><term
+              type="incerto">essent</term>: <emph>così nel testo</emph>.</note> maiores XXV annis,
+          omnes insimul et quilibet eorum in solidum, per se et suos heredes, dederunt, tradiderunt
+          et locaverunt per homagium et ad affictum reddendum <persName ref="#GuiçolinsIuncte"
+            >Guiçolino quondam Iuncte de <placeName ref="#Lacapanna"
+            >Lacapanna</placeName></persName>, recipienti pro se et uxore sua <supplied
+            reason="omitted">re</supplied>futata<note xml:id="CCLXXI_n_002" n="1" place="foot">La
+            correzione in <emph><supplied reason="omitted">re</supplied>futata</emph> appare la più
+            logica, ma pone problemi di lettura. Se diamo all’aggettivo il significato di
+            “ripudiata”, infatti, non si comprende perché il marito agisca anche a nome della moglie
+            e come una moglie ripudiata possa avere altri eredi legittimi; inoltre l’anno successivo
+            i due villani appaiono ancora coniugati (n. 245-CCLXXIIII). Si propone l’ipotesi, che la
+            refuta sia avvenuta tra padre e figlia in ambito successorio (MONTORZI 1991, pp. 64 e
+            221).</note>, nomine <persName ref="#PaganellaAmati">Paganella, filia quondam
+            Amati</persName>, et pro suis et eius heredibus, tali pacto quod, <supplied
+            reason="omitted">si</supplied> dicta <persName ref="#PaganellaAmati"
+            >Paganella</persName> decesserit sine heredibus ea ea<note xml:id="CCLXXI_n_003" n="b"
+            place="foot"><term type="incerto">ea ea</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">ex ea</term>.</note> legitime descendentibus, suprascriptus
+            <persName ref="#GuiçolinsIuncte">Guiçolus</persName> in perpetuum cum suis heredibus ei
+          succedat et habeat infra dictam locationem, nominatim, medietatem pro indiviso tocius
+          poderis et tenute et mobile, quod et quam<note xml:id="CCLXXI_n_004" n="c" place="foot"
+              ><term type="incerto">quod et quam</term>: <emph>così nel testo</emph>.</note> fuit
+          quondam suprascripti <persName ref="#Amatus">Amati</persName>, ubicumque sit, iaceat,
+          reperiatur et decurrat, tam in plano quam in monte, agrum et cultum, plenum et vacuum,
+          divisim et indivisim, ita quod ut amodo perpetuo per homagium et ad fictum reddendum
+          suprascriptus aquisitor suique heredes, ut dictum est, habeant, teneant, fruantur et
+          possideant totam suprascriptam locationem <supplied reason="omitted">cum</supplied> omni
+          medietate tocius mobilis et cum omnibus rationibus et pertinentiis suis in integrum, sine
+          alicuius aliqua contradictione suprascriptorum locatorum suorumque heredum et cuiusque
+          persone, dando et solvendo exinde suprascriptis locatoribus eorumque heredibus, aut cui
+          dederint vel commiserint, annuatim, per mensem augusti, staria tria frumenti mundi et
+          sicci et bene mensurati ad commune starium <placeName ref="#Sarzana">Sarzane</placeName>
+          tantum, remitendo<note xml:id="CCLXXI_n_005" n="d" place="foot"><term xml:lang="latin"
+              >remitendo</term>: <emph>corretto su precedente scrittura</emph>.</note> et donando et
+            perdo<supplied reason="omitted">n</supplied>ando coltas et malcolletas et albergarias in
+          perpetuum et omnia alia mala usantia et servicia, que spectent ad aliquam malam
+          consuetudinem. Item, si <persName ref="#BonafeminaAmati">Bonafemina, filia quondam
+            suprascripti Amati</persName>, decesserit sine liberis, suprascriptus <persName
+            ref="#GuiçolinsIuncte">Guiçolus</persName> eodem modo, cum suis heredibus, habeat et
+          debeat habere aliam medietatem suprascripti poderis et tenute, ut superius legitur, ad
+          tria staria frumenti annuatim, in mense augusti, similiter solvenda suprascriptis dominis,
+          ut dictum est. Et fuerunt confessi suprascripti domini se recepisse ab eo servicium huius
+          locationis, in veritate et non spe future numerationis, <measure type="imperiales"
+            quantity="20" unit="solidus">bonorum imperialium soldorum XX</measure>, renuntiando
+          exceptioni non numerate pecunie; et promiserunt suprascripti locatores, omnes insimul et
+          quilibet eorum in solidum, et specialiter dominus <persName ref="#AlbertusGuidonis"
+            >Albertus</persName>, per se et curatorio et tutorio nomine pro suprascriptis et per
+          suos et eorum heredes, stipulatione sollempni, totam suprascriptam locationem, cum omnibus
+          rationibus et pertinentiis suis in integrum, modis omnibus iure deffendere et exbrigare ab
+          omni contradicente et impediente persona et loco, in parte et <supplied reason="omitted"
+            >in</supplied> toto, cum advocato et expensis suis, per omnia et in omnibus, in curia et
+          extra curiam, tam in causa quam extra causam, seu restaurare et salvum cambium inde dare
+          in consimili loco, prout tunc valuerit sive meliorata fuerit, sub iusta bonorum hominum
+          extimatione, et restaurare, sub pena dupli suprascripte locationis, totum dampnum et
+          interesse singulare et expensarum omnium inde factarum et eius tocius quod in questionem
+          deduceretur, solvendam<note xml:id="CCLXXI_n_006" n="e" place="foot"><term type="incerto"
+              >solvendam</term>: <emph>così nel testo</emph>.</note> simul cum sorte, quociens
+          incidetur in eam, pro quolibet capitulo non observato, et, pena soluta, rato manente
+          pacto, et conservare eum et suos heredes de hiis omnibus et singulis penitus indempnes,
+          obligando se et suos heredes et omnia eorum bona presentia et futura, sub pena dupli
+          suprascripte locationis, ut dictum est, ita quod sors et pena simul et separatim cum
+          effectu debeantur et peti possi<supplied reason="omitted">n</supplied>t et quod possit eos
+          et eorum heredes ubique terrarum et sub quocumque iudice voluerit convenire, et non
+          possint aliquem iudicem recusare nec ab aliquo iudice seu ab aliqua sententia appellare et
+          semper de dampno et expensis debeant credere et stare nudo et simplici verbo ipsius
+          acquisitoris et suorum heredum, sine iuramento et aliquo honere probationis et renunciando
+          iuri quo dicitur quod sors et pena simul peti non possunt et exceptioni fori<note
+            xml:id="CCLXXI_n_007" n="f" place="foot"><term type="incerto">fori</term>:
+              <emph>corretto su precedente scrittura</emph>.</note>, domicilii et contractus et omni
+          alii iuri, legibus et constituto, scriptis et non scriptis, pro se introductis. Et
+          dederunt ei licenciam intrandi tenutam de suprascripta locatione sua auctoritate vel
+          quasi, constituendo se pro eis et eorum nomine possidere; et constituerunt inter se ut
+          quicumque eorum vel eorum heredum umquam suprascriptam locationem tollere vel laxare
+          voluerit aut omnia et singula, que in hac carta leguntur, attendere et observare noluerit
+          seu contra in aliquo venire presumpserit, alii parti, fidem servanti, nomine pene solvat
+            <measure type="Imperiales" quantity="10" unit="libra">bonorum imperialium libras
+            X</measure>, rato manente pacto post penam solutam.</p>
+        <p xml:id="CCLXXI_p_002" n="2">Actum <placeName ref="#Sarzana">Sarzane</placeName>, in domo
+          domini <persName ref="#TancredinusVal">Tancredini de <placeName ref="#Vallecchia2"
+              >Vallechia</placeName></persName>, sollempniter, presentibus <persName
+            ref="#GuiçolinoSurni">Guiçolino quondam Surni</persName>, <persName ref="#PetrusBlanci"
+            >Petro quondam Blanci de <placeName ref="#Marzano">Marzano</placeName></persName>,
+            <persName ref="#NicholetusMartini">Nicholeto quondam Martini Grassi</persName>,
+            <persName ref="#ParensPatrisii">Parente quondam Patrisii de <placeName ref="#Bibola"
+              >Bibola</placeName></persName>, <persName ref="#IacominusCaçano">Iacomino de
+              <placeName ref="#Caçano">Caçano</placeName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCLXXI_p_003" n="3">Ego <persName ref="#Bonacursusnot">Bonacursus,
+              <roleName>sacri palacii notarius</roleName></persName>, hiis interfui et rogatus
+          scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

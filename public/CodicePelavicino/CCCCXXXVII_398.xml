@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXXXVII_398">
+    <front xml:id="CCCCXXXVII_front">
+
+      <titlePart type="numerazioneNuova">398</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXXXVII</titlePart>
+
+      <docDate xml:id="CCCCXXXVII_docDate">
+        <date when="1230-06-20">1230 giugno 20</date>, <placeName>Ceparana <emph>(<term
+              xml:lang="latin">in ecclesia e in claustro monasterii Cepparane</term>)</emph>
+        </placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXXXVII_regesto">
+        <p>Giacomino di Giunta di Valeriano e Bolaneto di Bolano, eletti dai loro consorti
+          singolarmente nominati, cedono al notaio Conforto di Sant’Andrea e a Guiscardo del fu
+          Gerardino di Cafaggio, che ricevono a nome del vescovo di Luni Guglielmo, tutto quanto
+          possiedono nel poggio di Stadano. Contestualmente il vescovo Guglielmo concede il poggio
+          di Stadano a Gibertino del fu Codeiudeo, podestà di Stadano, a seguito di quanto era già
+          stato dato per investitura nel 1210 dal vescovo Gualtiero al comune di Stadano. Gibertino
+          e gli uomini di Stadano giurano quindi fedeltà al vescovo, il quale li investe della sua
+          porzione di feudo. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXXXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 341r.-341v., cc. CCCXXXIIIr.-CCCXXXIIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 437,
+            pp. 433-436.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>All’interno dell’atto è riportato il testo dell’investitura fatta il 17 luglio 1210
+            dal vescovo Gualtiero a Guizolino del fu Monegallo console di Stadano. Il documento è
+            datato <emph>anno a nativitate Eius MCCXI, indictione III, Xe die sabbati, XVI kalendas
+              augusti</emph> dove l’indizione non corrisponde all’anno dato, perché nel 1211 correva
+            la XIV indizione e il 17 luglio cadeva di domenica. Si ritiene probabile un errore del
+            copista, che avrebbe omesso la X di XIII. Nonostante il dichiarato stile <emph>a
+              nativitate</emph> parrebbe quindi usato lo stile pisano dell’incarnazione, che
+            corrispondeva al 1210 luglio 17 in stile comune. </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCCXXXVII. De feudo constitutitionis seu pactis Stadani.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXXXVII_div">
+        <p xml:id="CCCCXXXVII_p_001" n="1">
+          <pb n="341r" xml:id="fol_341r"/> In Christi nomine, amen. <date when="1230-06-20">Anno a
+            nativitate Eius MCCXXX, indictione III, XII kalendas iulii</date>. <persName
+            ref="#IacopinusIuncte">Iacobinus Iuncte de <placeName ref="#Valerano"
+              >Vallerano</placeName></persName> et <persName ref="#BolanetusBolano">Bolanetus de
+              <placeName ref="#Bolano">Bolano</placeName></persName>, electi ab aliis suis
+          consortibus, ut ipsi dicebant, et etiam plures ex ipsis consortibus, sicut infrascripti
+          confitebantur, et ipsi infrascripti cum eis electis, prestito iuramento de rato habendo
+          omnia que ipsi electi fecerint de infrascriptis pactis, sicut ipsi electi et qui erant
+          presentes, pro se et de absentibus, fatebantur suprascripti duo, auctoritate sibi data ut
+          dictum est, pro se et ex omnibus suis consortibus et partecipibus fecerunt finem et
+          refutationem, datum et concessionem <persName ref="#ConfortusSandreanot">Conforto
+              <roleName>notario</roleName> de <placeName ref="#Sant_Andrea">Sancto
+              Andrea</placeName></persName> et <persName ref="#GuiscardusGerardini">Guiscardo
+            quondam Gerardini de <placeName ref="#Cafadio">Cafadio</placeName></persName>,
+          petentibus et recipientibus vice et nomine venerabilis patris domini <persName
+            ref="#GuilEpLuni">G<supplied reason="omitted">uilielmi</supplied></persName>,
+            <roleName>Dei gratia Lunensis episcopi</roleName>, et episcopatus, de toto podio<note
+            xml:id="CCCCXXXVII_n_001" n="a" place="foot"><term xml:lang="latin"> podio</term>: i
+              <emph>aggiunta in sopralinea.</emph></note> de <placeName ref="#Stadano"
+            >Stadano</placeName> et de omni eo quod<note xml:id="CCCCXXXVII_n_002" n="b"
+            place="foot"><term xml:lang="latin"> quod</term>: <emph> segue ripetuto</emph>
+            quod</note> eis pertinebat in dicto podio, sicut per coherencias inferius describetur,
+          promittentes pro se et suis omnibus consortibus et participibus, sub obligatione suorum
+          heredum, eorum et omnium bonorum suorum, dictam finem, refutationem, datum et concessionem
+          perpetuo ratas habere, firmas tenere et nullo tempore contravenire, et ex eis et pro eis
+          fine, refutatione, dato et concessione accipere et recipere omne cambium ubicumque,
+          quandocumque et quicquid inde suprascripti <persName ref="#ConfortusSandreanot"
+            >Confortus</persName> et <persName ref="#GuiscardusGerardini">Guiscardus</persName>, pro
+          suprascripto domino episcopo et episcopatu, duxerunt concedendum et ex hoc suprascriptis
+            <persName ref="#ConfortusSandreanot">Conforto</persName> et <persName
+            ref="#GuiscardusGerardini">Guiscardo</persName>, recipientibus pro suprascripto domino
+          episcopo, penam <measure type="Imperiales" quantity="10" unit="libra">X librarum
+            imperialium</measure> sollempni stipulatione eorum autem de suprascriptis consortibus,
+          qui presentes erant. Hec sunt nomina: <persName ref="#Paganetusfor">Paganetus</persName>
+          <roleName>forrarius</roleName>, qui eodem modo fecit et promisit ut suprascripti <persName
+            ref="#IacopinusIuncte">Iacobinus</persName> et <persName ref="#BolanetusBolano"
+            >Bolanetus</persName> pro se et suis fratribus <persName ref="#BonafestaIuncte"
+            >Bonafesta</persName> et <persName ref="#VernaciusIuncte">Vernacio</persName>,
+          absentibus, quos fratres<note xml:id="CCCCXXXVII_n_003" n="c" place="foot">
+            <term xml:lang="latin"> quos fratres</term>: <emph>così nel testo.</emph></note> cum
+          suprascripto <persName ref="#IacopinusIuncte">Iacobino</persName>, ut dicebant, medietas
+          contingebat de suprascripta fine et dato; <persName ref="#BolanetusBolano"
+            >Bolanetus</persName>
+          <placeName ref="Bolano">de Bolano</placeName> fecit pro se et fratribus suis <persName
+            ref="#BonalbergusBolano">Bonalbergo</persName>, <persName ref="#AlbertusBolano"
+            >Alberto</persName>, <persName ref="#ConsiliusBolano">Consilio</persName> et <persName
+            ref="#BenesiaBolano">Benesia</persName>, absentibus, et fecit etiam ipse <persName
+            ref="#BolanetusBolano">Bolanetus</persName> pro <persName ref="#RecelinusBolano"
+            >Recelino</persName> absente; <persName ref="#BernardinusCorneti">Bernardinus quondam
+            Corneti</persName>, qui fecit pro se et filiis <persName ref="#Bonfiliolus"
+            >Bonfilioli</persName>, absentibus; <persName ref="#PaganinusCorniliano">Paganinus de
+              <placeName ref="#Corniliano">Corniliano</placeName></persName>, qui pro se fecit et
+          fratre suo <persName ref="#VenturaVernacii">Ventura quondam Vernacii</persName>, absente;
+            <persName ref="#GodescusPetri">Godescus quondam Petri</persName>, qui pro se fecit;
+            <persName ref="#AldebrandusTurolo">Aldebrandus de <placeName ref="#Turolo"
+              >Turolo</placeName></persName>, qui pro se et pro <persName ref="#Morenus"
+            >Moreno</persName> et <persName ref="#Marchesellus">Marchesello</persName>, absentibus,
+            <supplied reason="omitted">fecit</supplied>. </p>
+        <p xml:id="CCCCXXXVII_p_002" n="2"> Actum <orgName type="monasterium_ecclesia"
+            ref="#Ceparana_S_Venanzio">in ecclesia monasterii Cepparane</orgName>, feliciter,
+          presentibus <persName ref="#Vivaldus">Vivaldo</persName>, <persName ref="#GuilielmusFolo"
+            >Guilielmo de <placeName ref="#Folo">Folo</placeName></persName>, <persName
+            ref="#GuidoAlbertis">Guidone <supplied reason="omitted">de</supplied>
+            Albertis</persName>, <persName ref="#GuidoFolo">Guidone</persName> de suprascripto
+            <placeName ref="#Folo">Folo</placeName> et multis aliis testibus ad hec vocatis. </p>
+        <p xml:id="CCCCXXXVII_p_003" n="3"> Eodem anno, die, indictione, in claustro suprascripti
+          monasterii, ante portam ecclesie. Venerabilis pater <roleName>dominus</roleName>
+          <persName ref="#GuilEpLuni">Guilielmus</persName> suprascriptus, <roleName>Dei gratia
+            Lunensis episcopus</roleName>, nomine sui episcopatus dedit in perpetuum et concessit
+          totum podium suprascripti <placeName ref="#Stadano">Stadani</placeName><note
+            xml:id="CCCCXXXVII_n_004" n="d" place="foot"><term xml:lang="latin"> Stadani</term>:
+              <emph>nel testo</emph> Stadiani<emph> con</emph> i <emph>espunta.</emph></note>, ut
+          per coherentias inferius ostendetur, <persName ref="#GibertinusCodeFal">Gibertino quondam
+            Codeiudei</persName>, potestati suprascripti <placeName ref="#Stadano"
+              >Stadani</placeName>, nomine suprascripte potestarie et pro <orgName ref="#Stadano_comune">communi et universitate
+          hominum de <placeName ref="#Stadano">Stadano</placeName></orgName> recipienti, sicut quondam datum
+          et concessum fuit eidem communi de <placeName ref="#Stadano">Stadano</placeName> per olim
+          bone memorie <persName ref="#GualEpLuni">Gualterium</persName>, <roleName>Lunensem
+            episcopum</roleName>, predecessorem suum, ut apparet in publico instrumento exinde
+          confecto manu <persName ref="#Ugolinusnot">Ugolini</persName>
+          <roleName>notarii</roleName>, cuius tenor sic est: </p>
+      
+         <div xml:id="CCCCXXXVII_div2" type="quotation">
+         <p xml:id="CCCCXXXVII_p_004" n="4">
+          <quote  rend="pre(«) post(»)">In nomine Domini amen. <date when="1210-07-17"><note>Il vescovo
+                Gualtiero investe Guizolino del fu Monegello di Stadano, console di Stadano, del
+                poggio di Selveçola.</note>Anno a nati vitate Eius MCCXI, indictione III, X<note
+                xml:id="CCCCXXXVII_n_005" n="e" place="foot"><term xml:lang="latin"> III, X</term>:
+                  <emph>così nel testo</emph></note> die sabbati, XVI kalendas augusti</date>. Ex
+            hoc publico instrumento sit liquidum universis quod nos <persName ref="#GualEpLuni"
+              >Gualterius</persName>, <roleName>Dei gratia Lunensis Ecclesie episcopus</roleName>,
+            investimus nunc<note xml:id="CCCCXXXVII_n_006" n="f" place="foot">
+              <term xml:lang="latin"> nunc</term>: <emph>così nel testo per</emph> nomine</note>
+            recti et honorifici feudi te <persName ref="#GuiçolinusMonegelli">Guiçolinum quondam
+              Monegelli de <placeName ref="#Stadano">Stadano</placeName></persName>,
+              <roleName>consulem hominum</roleName> de <placeName ref="#Stadano"
+            >Stadano</placeName>, recipientem pro te et pro omnibus hominibus de <placeName
+              ref="#Stadano">Stadano</placeName> et pro tuis et eorum heredibus, nominatim de podio
+            dicto <placeName ref="#Selveçola">Selveçola</placeName>, cum introitu et exitu suo, ad
+            habitandum ibi, salvis rationibus dominorum ipsorum hominum, scilicet <persName
+              ref="#UrsolusBur">Urceoli</persName>, <persName ref="#Codeiudeus">Codeiudei</persName>
+            et filiorum quondam <persName ref="#BonacursusBurzono">Bonacursi de <placeName
+                ref="#Burcione">Burzono</placeName></persName> et filiorum quondam <persName
+              ref="#Levacastellus">Levacastelli</persName> et <persName ref="#HenricusHuberti"
+              >Henrici quondam Huberti</persName>, et salvis factionibus quas soliti sunt facere
+            castro de <placeName ref="#Bolano">Bolano</placeName>, retentis nobis tribus casamentis
+            in ipso podio, uno videlicet pro nobis et pro Lunensi episcopato<note
+              xml:id="CCCCXXXVII_n_007" n="g" place="foot">
+              <term xml:lang="latin"> episcopato</term>: <emph>così nel testo per
+              </emph>episcopatou</note>, alio pro <persName ref="#Codeiudeus">Codeiudeo</persName>,
+            tercio pro <persName ref="#PinellusBolano">Pinello de <placeName ref="#Bolano"
+                >Bolano</placeName></persName>, ita<note xml:id="CCCCXXXVII_n_008" n="h"
+              place="foot">
+              <term xml:lang="latin"> ita</term>: ta<emph> corretto su precedente
+              scrittura.</emph></note> ut amodo tu et homines de <placeName ref="#Stadano"
+              >Stadano</placeName> omnes tuique et eorum heredum nomine recti et honorifici feudi in
+            perpetuum causa habitandi in dicto podio habeatis, teneatis, fruamini et possideatis
+            totum dictum podium, cum accessu et regressu suo et omnibus suis pertinenciis, in
+            integrum, exceptis dictis tribus casamentis et salvis omnibus suprascriptis, sine
+            alicuius contradictione et cum nostra nostrorumque successorum rationabili deffensione
+            ab omni persona vel restitui ratione<note xml:id="CCCCXXXVII_n_009" n="i" place="foot"
+                ><term xml:lang="latin"> restitui ratione</term>: <emph> così nel testo,
+                probabilmente per </emph> restitutionem</note> faciemus in arbitrio bonorum hominum
+            in consimili loco prout tunc valuerit vel fuerit melioratum in bonis episcopatus, si
+            deffendere non possemus illum rationabiliter, et salvo quod nos nostrique successores
+            debeamus dictum podium <pb n="341v" xml:id="fol_341v"/> ad faciendum inde guerram et
+            pacem cuicumque voluerimus et quandocumque et vos omnes vestrique heredes debeatis esse
+            fideles et vassalli Lunensis curie contra omnes homines et personas in dicto castro et
+            etiam in omnibus aliis locis, excepto contra dictos vestros dominos extra podium ipsum.
+            Et damus vobis licenciam intrandi inde in tenutam vestra auctoritate. Cui podio tales
+            sunt fines, videlicet ab uno latere canale de <placeName ref="#Faico">Faico</placeName>,
+            ab alio canale de <placeName ref="#LaFracta">La Fracta</placeName>, superius terra
+            illorum de <placeName ref="#Cornilione">Cornilione</placeName>, et est per terminos
+            superius terminatum, inferius vadit usque ad <placeName ref="#Magra">Macram</placeName>
+            et vadit usque ad <placeName ref="#FontanaCerro">Fontanam de Cerro</placeName> et ab
+            inde usque <placeName ref="#Magra">Macram</placeName>. Actum in palacio domini episcopi
+            Lunensis sito in <placeName ref="#Sarzanello">castro Sarzane</placeName>, sollempniter,
+            presentibus <persName ref="#Bolanelluscons">Bolanello</persName><note
+              xml:id="CCCCXXXVII_n_010" n="l" place="foot">
+              <term xml:lang="latin"> Bolanello</term>: <emph> nel testo </emph>Bollanello <emph>con
+                la prima </emph>l <emph>espunta.</emph></note> et <persName ref="#Spinelluscons"
+              >Spinello</persName>, <roleName>consulibus</roleName> de <placeName ref="#Bolano"
+              >Bolano</placeName>, et <persName ref="#Aldeprandetuscler">Aldebrandetto</persName>
+            <roleName>clerico</roleName>, testibus ad hec rogatis. Ibidem paulo post, coram dictis
+            consulibus de <placeName ref="#Bolano">Bolano</placeName>, testibus, dictus dominus
+            episcopus dedit licenciam et auctoritatem dicto <persName ref="#Guiçolus"
+              >Guiçolo</persName>, recipienti pro se et omnibus hominibus de <placeName
+              ref="#Stadano">Stadano</placeName> et pro suis et eorum heredibus, ducendi aquam ad
+            ipsum podium a quacumque parte voluerint et<note xml:id="CCCCXXXVII_n_011" n="m"
+              place="foot"><term xml:lang="latin"> et</term>: <emph> segno tachigrafico per
+              </emph>et <emph>aggiunto in sopralinea.</emph></note> undecumque, sine alicuius aliqua
+            contradictione, et fuit confessus se recepisse ab eisdem hominibus pro omnibus
+            suprascriptis <measure type="Imperiales" quantity="40" unit="solidus">soldos XL
+              imperialium</measure>, et liceat ipsis hominibus accipere aquam pro ducendo eam ad
+            ipsum podium, ubicumque voluerint. Ego <persName ref="#Ugolinusnot">Ugolinus</persName>,
+              <roleName>sacri palacii et Lunensis curie notarius</roleName>, hiis interfui et
+            rogatus scripsi.</quote> Finit tenor. 
+         </p>
+       </div>
+        <div xml:id="CCCCXXXVII_div3">
+        <p xml:id="CCCCXXXVII_p_005" n="5"> Ipse vero <persName ref="#GibertinusCodeFal"
+            >Gibertinus</persName>, hac concessione facta potestarie nomine, fidelitatem iuravit
+          eidem domino episcopo contra omnes homines et personas secundum capitula suprascripta et
+          que in iuramento fidelium computantur. <persName ref="#Romanellus">Romanellus</persName>,
+            <persName ref="#Possadorus">Possadorus</persName>, <persName ref="#Bonalbergus"
+            >Bonalbergus</persName>, <persName ref="#Iohanninus">Iohanninus</persName>, <persName
+            ref="#Bagnonus">Bagnonus</persName>, <persName ref="#Bonapars">Bonapars</persName>,
+            <persName ref="#Melioretus">Melioretus</persName> et <persName ref="#AlibeneStadano"
+            >Alibene</persName> de <placeName ref="#Stadano">Stadano</placeName> eodem etiam modo,
+          ut dictum est, pro sua parte suprascripti feudi iuraverunt fidelitatem episcopo memorato.
+          Et ipse dominus episcopus investivit eos de sua recta portione feudi sepedicti,
+          presentibus <roleName>dominis</roleName>
+          <persName ref="#UgolinusBuctilione">Ugolino Buctilione</persName>, <persName
+            ref="#IohannesTurcha">Iohanne de Turcha de <placeName ref="#Vezzano"
+            >Vezano</placeName></persName>, <persName ref="#AlbertusIordani">Alberto Iordani de
+            Aldebertis</persName> et <persName ref="#FedericusInsula">Frederico de <placeName
+              ref="#Isola">Insula</placeName></persName>, testibus ad hec rogatis. </p>
+      </div>
+      <div xml:id="CCCCXXXVII_div4">
+        <p xml:id="CCCCXXXVII_p_006" n="6"><ptr target="#CCCCXXXVII_st_001"/>Ego <persName
+            ref="#GerardetusMontoni">Gerardetus, qui nominor Montonus</persName>, <roleName>palacii
+            sacri notarius</roleName>, hiis interfui et instrumentum vidi huiusmodi, de mandato
+          suprascripti domini episcopi scripsi, ordinavi et taliter meo signo confirmavi. </p>
+      </div>
+      </div>
+    </body>
+  </text>
+</TEI>

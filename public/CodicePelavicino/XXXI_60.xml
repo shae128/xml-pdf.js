@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="XXXI_60">
+        <front xml:id="XXXI_front">
+            <titlePart type="numerazioneNuova">60</titlePart>
+            <titlePart type="numerazioneOrig">XXXI</titlePart>
+            <docDate xml:id="XXXI_docDate"> Senza data, <supplied reason="omitted"><date
+                        when="1052-05-06">1052 maggio 6</date>-<date when="1055-06-14">1055 giugno
+                        14</date></supplied>
+            </docDate>
+            <div type="regesto" xml:id="XXXI_regesto">
+                <p> Rodolfo di Casola si impegna ad aiutare il vescovo Guido ad incastellare il
+                    monte dove si trova la pieve di Soliera e a garantirgli il possesso di metà del
+                    castello e di metà dei redditi della pieve, avendone l’altra metà a titolo di
+                    feudo. Rodolfo si impegna inoltre ad aiutare il vescovo in caso placito,
+                    necessità e guerra contro tutti, eccetto che contro Beatrice <supplied
+                        reason="omitted">di Toscana</supplied> e suo figlio e a far abitare uno dei
+                    tre figli nell’episcopato di Luni e di Garfagnana per tutta la durata della
+                    guerra di Vezzano. Tali impegni sarebbero stati giurati anche dai vassalli di
+                    Rodolfo. A garanzia dell’accordo Rodolfo dà in pegno i propri possessi nella
+                    corte del monte di Monzone ad eccezione del castello. </p>
+            </div>
+            <div type="footer" xml:id="XXXI_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] cc. 117v.-118r., cc. CVIIIIv.-CXr. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 31,
+                        pp. 46-47.</p>
+                    <p>Bibliografia: <ref target="#FORMENTINI_1926a">FORMENTINI 1926a</ref>; <ref
+                            target="#SASSI_1936">SASSI 1936</ref>; <ref target="#NOBILI_1982">NOBILI
+                            1982</ref>; <ref target="#NOBILI_1987">NOBILI 1987</ref>; <ref
+                            target="#PAVONI_1987">PAVONI 1987</ref>.</p>
+                </div>
+                <div type="crit_notes">
+                    <note> Il documento è privo di data topica e cronica, oltre che della
+                        sottoscrizione del rogatario e dell’autore. Ubaldo Formentini ha ipotizzato
+                        la data del 1055 (FORMENTINI 1926a) sulla base delle seguenti motivazioni:
+                        «poiché nell’atto in questione Rodolfo di Casola eccettua dal giuramento di
+                        fedeltà al vescovo “Beatricem et eius filium” da identificare con Beatrice
+                        di Toscana e suo figlio Federico, l’atto si riferisce al tempo del governo
+                        della Contessa quale tutrice del figlio; potrebbe perciò risalire al 1037,
+                        data della morte del marchese Bonifacio; ma il primo documento di Guido [II]
+                        vescovo di Luni è del 1055, lo stesso anno della morte di Federico. Non è
+                        escluso che Guido possa esser stato eletto qualche anno prima, essendo
+                        incerta la fine del precedente episcopato; comunque la data del 1055 la sola
+                        data certificabile». Rispetto a quanto sostenuto da Formentini, si deve
+                        precisare che il marchese Bonifacio morì il 6 maggio 1052 a San Martino
+                        dell'Argine (Mantova) e Beatrice rimase vedova con tre figli Federico,
+                        Beatrice e Matilde: i primi due morti presumibilmente durante il soggiorno
+                        della marchesa a Firenze dal 4 al 14 giugno 1055 (BERTOLINI 1970). Dato che
+                        Guido vescovo è attestato per la prima volta il 5 maggio 1055, mentre il
+                        predecessore Eriberto è menzionato una sola volta nel 1039, si propone il
+                        periodo <supplied reason="omitted">1052 maggio 6 -1055 giugno 14</supplied>. </note>
+                    <note> Nel margine esterno di c. 117v., di mano moderna: <emph>Soleria</emph>.
+                        Di altra mano: <emph>Dimidia pars episcopi</emph>. </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">XXXI. Solerie.</term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="XXXI_div">
+                <p xml:id="XXXI_p_001" n="1"> Ego <persName ref="#RodulfusCasola">Rodulfo de
+                            <placeName ref="#Cassola">Casola</placeName></persName> adiuvabo te,
+                        <persName ref="#GuidoEpLuni2">Guidonem</persName>
+                    <roleName>episcopum</roleName>, incastellare montem, ubi est <orgName
+                        ref="#Soliera_S_Maria">plebs</orgName> de <placeName ref="#Soliera"
+                        >Solaria</placeName> quando tu me monueris per te aut per tuum certum
+                    missum, et ab illa hora in antea in consilio non ero aut in facto ut tu perdas
+                    medietatem ipsius castelli de <placeName ref="#Soliera">Solaria</placeName>, si
+                    inceptum fuerit, neque ecclesia perdat, neque medietatem ipsius plebis de
+                        <placeName ref="#Soliera">Solaria</placeName> quantum pertinet Sancte Marie,
+                    ne quartese atque altare atque mortuorum munera; et adiutor ero ad retinendum
+                    ipsum castellum atque ad recuperandum, si perdideris, et ipsam medietatem plebis
+                    tibi atque tuis successoribus contra omnes homines cum decima atque
+                        massariciis<note place="foot" n="a" xml:id="XXXI_n_001">massariciis: ciis
+                            <emph>corretto su precedente scrittura.</emph></note> atque terris. De
+                    placito, de besomnio atque de omnia<note place="foot" n="b" xml:id="XXXI_n_002"
+                        >omnia: <emph>così nel testo per</emph> omni</note> alia guerra, que tibi
+                    apparuerit, adiuvabo te contra omnes homines, excepto contra <persName
+                        ref="#BeatrixToscana">Beatricem</persName> atque eius filium; atque non
+                    affrangam tibi atque non dimittam propter ullam malam occasionem; atque de
+                    guerra de <placeName ref="#Vezzano">Vezano</placeName> contra omnes homines
+                    adiuvabo te. Et faciam tibi cartam pignoris de omni quod pertinet ad curtem de
+                    monte de <placeName ref="#Monzone">Monzoni</placeName>, excepto castello; talem
+                    cartam qualem tuus iudex laudaverit. Quod ego hec omnia observabo atque mei
+                    filii, et unus meus filius, <persName ref="#GislecioRodulfi"
+                        >Gislecione</persName> aut <persName ref="#RodulfusRodulfi"
+                        >Rodulfo</persName> aut <persName ref="#GandulfusRodulfi"
+                        >Gandulfo</persName>, habitabit infra episcopatum Lunensem <supplied
+                        reason="omitted">et</supplied>
+                    <placeName ref="#Garfagnana">Garfaniam</placeName>, nisi propter tuam licenciam
+                        <pb n="118r" xml:id="fol_118r"/> remanserit, quamdiu guerra de <placeName
+                        ref="#Vezzano">Vezano</placeName> erit tibi. Et hanc omnem securitatem
+                    iurabunt tibi <persName ref="#Debirius">Debirio</persName> atque <persName
+                        ref="#GuidoMezana">Guido de <placeName ref="#Mezana"
+                        >Mezana</placeName></persName> atque <persName ref="#AlbertusBaloni">Alberto
+                        de <placeName ref="#Baloni">Baloni</placeName></persName> et <persName
+                        ref="#GotolusMonte">Gotolo de <placeName ref="#Monte"
+                        >Monte</placeName></persName> atque <persName ref="#GotolusSanctoCypriano"
+                        >Gotolo de <orgName ref="#Codiponte_SS_Cornelio_Cipriano">Sancto
+                            Cypriano</orgName></persName> aut alii qui receptibiles sunt. Et meus
+                    filius, cui tu dabis feo<note place="foot" n="c" xml:id="XXXI_n_003">dabis feo:
+                            <emph>così nel testo probabilmente per</emph> feodabis <emph>con il
+                            significato di “darai in feudo” (cfr. Ducange, col. 357, alla
+                            voce</emph> feudum).</note>, iurabit tibi aut tuo successori fidelitatem
+                    atque securitatem de plebe atque castello, quam ego facio, quam cum<note
+                        place="foot" n="d" xml:id="XXXI_n_004">quam cum: <emph>così nel
+                            testo.</emph></note> ad etatem venerit. In consilio non ero neque in
+                    facto ut tu perdas medietatem ipsius castelli et montis, ubi est plebs de
+                        <placeName ref="#Soliera">Solaria</placeName>, neque tui successores nec
+                    ecclesia, scilicet ut tu teneas tantum de terra Sancte Marie, ut tu habeas
+                    medietatem montis atque castelli supra totum, si inceptum erit. </p>
+                <p xml:id="XXXI_p_002" n="2"> Hec omnia observabo per rectam fidem sive omni
+                    occasione atque sine omni malo ingenio atque sine deceptione, hec observabo nisi
+                    remanserit propter communem licentiam, atque si remanserit illo termino quem
+                    simul ponemus adimplebo tibi per rectam fidem sine malo ingenio. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

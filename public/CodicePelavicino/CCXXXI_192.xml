@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXXXI_192">
+    <front xml:id="CCXXXI_front">
+
+      <titlePart type="numerazioneNuova">192</titlePart>
+      <titlePart type="numerazioneOrig">CCXXXI</titlePart>
+
+      <docDate xml:id="CCXXXI_docDate">
+        <date when="1269-02-13">1269 febbraio 13</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in castro Sarzane, in palacio domini
+          episcopi</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXXXI_regesto">
+        <p>I marchesi Isnardo e Alberto Malaspina, figli del fu Opizo, su richiesta del vescovo di
+          Luni Guglielmo, dichiarano per sé e anche per il loro nipote Francesco, figlio del fu
+          Bernabò, loro fratello, di avere in feudo dal vescovo stesso le terre acquistate dai figli
+          ed eredi del fu Bonifacio di Erberia e dai signori delle Terre dei Bianchi, poste nelle
+          stesse Terre dei Bianchi. Non fanno parte del feudo i beni che Isnardo, Alberto e gli
+          eredi di Bernabò detenevano a Soleria, Moncigoli, Collecchia e Ceserano, avendone fatto
+          vendita al suddetto vescovo. I marchesi suddetti giurano quindi fedeltà al vescovo tramite
+          il bacio che si scambiano Isnardo e il prelato.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXXXI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 255r. e v., cc. CCXLVIIr. e v. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. 231, pp. 211-212.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXXXI_div">
+        <p xml:id="CCXXXI_p_001" n="1">In nomine Domini, amen. Anno a nativitate Eius <date
+            when="1269-02-13">M°CC°LXIX°, indictione XIIa, XIII° die februarii</date>. Domini
+            <persName ref="#YsnardusMalaspina">Ysnardus et Albertus, <roleName>marchiones</roleName>
+            Malaspine, fili<supplied reason="omitted">i</supplied> quondam domini
+            Opiçonis</persName>, ad postulationem venerabilis patris <persName ref="#GuilEpLuni"
+            >domini Guilielmi, Dei gratia <roleName>Lunensis episcopi</roleName></persName>, pro se
+          et <persName ref="#FranciscusMalaspina">Francisco, nepote eorum, filio quondam domini
+            Bernabovis fratris eorum</persName>, pro quo promiserunt de rato habendo, fuerunt
+          confessi quod ipsi marchiones et dictus nepos eorum tenent et tenere debent et volunt in
+          feudum et nomine feudi a dicto domino episcopo et episcopatu totum et quicquid habent ipsi
+          domini <persName ref="#YsnardusMalaspina">Ysnardus</persName> et <persName
+            ref="#AlbertusMalaspina">Albertus</persName> et dictus nepos eorum vel aliquis eorum vel
+          aliqua persona pro eis et quod olim habebat atque habuit dominus <persName
+            ref="#BernabosMalaspina">Bernabos</persName> predictus vel alia persona pro eo ex
+          acquisitione et emptione, quam ipsi dominus <persName ref="#BernabosMalaspina"
+            >Bernabos</persName> et fratres vel aliqui sive aliquis ipsorum fecerunt a filiis et
+          heredibus quondam domini <persName ref="#BonifaciusHerberia">Bonifacii de
+            Herberia</persName> vel eorum tutore vel curatore vel alia persona pro eis vel a dominis
+          terrarum Blancorum vel alia quacumque occasione vel modo in <placeName ref="#TerreBianchi"
+            >terris Blancorum</placeName> et districtu et pertinenciis <placeName
+            ref="#TerreBianchi">terrarum Blancorum</placeName>. Et promiserunt ipsi marchiones, pro
+          se et dicto nepote eorum, predicta tenere et tenere velle in feudum et nomine feudi a
+          dicto domino et episcopatu. Hoc acto et ordinato inter eos quod, si contigerit aliquo
+          tempore dictos marchiones dividere inter se dictum feudum vel que pro dicto feudo tenentur
+          et teneri debent, ille vel illi ad quem vel quos devenerit ipsum feudum debeat vel debeant
+          esse fidelis vel fideles predicti domini episcopi et episcopatus et ipsum feudum ab eo
+          recognoscere et iurare et facere inde fidelitatem ipsi domino episcopo ad eius voluntatem
+          et requisitionem vel alterius pro eo, ante tamen quam fiat divisio<note place="foot" n="a"
+            xml:id="CCXXXI_n_001">
+            <term xml:lang="latin">fiat divisio</term><emph>: nel testo</emph>
+            <term xml:lang="latin">divisio fiat</term>
+            <emph>con segno di richiamo per invertire l’ordine delle parole.</emph></note>, inde
+          sint et esse debeant omnes predicti, scilicet fratres et nepos, vassalli ipsius domini
+          episcopi et episcopatus de feudo suprascripto, salvo et reservato quod id quod dicti
+          domini <persName ref="#BernabosMalaspina">Bernabos</persName>, <persName
+            ref="#YsnardusMalaspina">Ysnardus</persName> et <persName ref="#AlbertusMalaspina"
+            >Albertus</persName> vel aliquis eorum vel filii et heredes quondam dicti domini
+            <persName ref="#BernabosMalaspina">Bernabovis</persName> habebant et habere solebant in
+            <placeName ref="#Soliera">Soleria</placeName>, <placeName ref="#Moncigoli"
+            >Monciculo</placeName>, <placeName ref="#Collecchia">Collechio</placeName> atque
+            <placeName ref="#Ceserano">Cisirano</placeName> et eorum pertinenciis non comprehendatur
+          nec intelligatur in dicto feudo, cum exinde vendictionem fecerint domino episcopo
+          supradicto. Quibus omnibus sic peractis iuraverunt fidelitatem dicti marchiones, pro se et
+          dicto nepote suo, dicto domino episcopo, oris osculo interveniente inter dictum dominum
+            <persName ref="#YsnardusMalaspina">Ysnardum</persName> et dominum episcopum
+          suprascriptum.</p>
+        <p xml:id="CCXXXI_p_002" n="2">Actum in <placeName ref="#Sarzanello">castro
+            Sarzane</placeName>, in palacio dicti domini episcopi, presentibus donno <persName
+            ref="#Benedictusabb">Benedicto <roleName>abbate de <placeName ref="#Aulla"
+                >Avula</placeName></roleName></persName>, domino <persName ref="#PetrusPontremulo"
+            >Petro de <placeName ref="#Pontremoli">Pontremulo</placeName></persName>,<pb n="255v"
+            xml:id="fol_255v"/>dominis <persName ref="#NormanninusBernanduccisiud">Normannino de
+            Bernarduciis de <placeName ref="#Lucca">Luca</placeName></persName>, <persName
+            ref="#Rubeusiud">Rubeo</persName> atque <persName ref="#Opecnusiud">Opeçino</persName>,
+            <roleName>iudicibus</roleName>, de <placeName ref="#Sarzana">Sarzana</placeName> et
+          domino <persName ref="#HenricusFalcinello">Henrico de <placeName ref="#Falcinello"
+              >Falcinello</placeName></persName>, <roleName>doctore legum</roleName>, et aliis
+          pluribus testibus ad hec rogatis.</p>
+        <p xml:id="CCXXXI_p_003" n="3"><ptr target="#CCXXXI_st_001"/> Ego <persName
+            ref="#PetrusGualterotinot">Petrus quondam Gualteroti de <placeName ref="#Soliera"
+              >Soleria</placeName>, <roleName>sacri palacii notarius</roleName></persName>, hiis
+          interfui et rogatus hanc cartam scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

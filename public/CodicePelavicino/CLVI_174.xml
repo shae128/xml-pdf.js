@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CLVI_174">
+    <front xml:id="CLVI_front">
+
+      <titlePart type="numerazioneNuova">174</titlePart>
+      <titlePart type="numerazioneOrig">CLVI</titlePart>
+
+      <docDate xml:id="CLVI_docDate">
+        <date when="1262-06-04">1262 giugno 4</date>, <placeName>Sarzana (<term xml:lang="latin"
+            >Sarzane</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CLVI_regesto">
+        <p>Benvenuto, figlio del fu Bellotto di Giuncano, e la moglie Vivalda, figlia del fu Anselmo
+            <term xml:lang="latin">de Antoxuolo</term>, vendono a Peregrino, figlio di Capreto di
+          Popigliano, due pezzi di terra con castagni nei luoghi detti <term xml:lang="latin"
+            >Bonaco</term> e <term xml:lang="latin">Canale</term>. Il prezzo ammonta a 7 lire di
+          denari genovesi.</p>
+      </div>
+
+      <div type="footer" xml:id="CLVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [CP] cc. 246v.-247r., cc. CCXXXVIIIv. - CCXXXVIIIIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 156,
+            p. 192.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Parte del documento è stata letta con l’ausilio della lampada di Wood.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CLVI_div">
+        <p xml:id="CLVI_p_001" n="1">In nomine Domini, amen. <date when="1262-06-04">Anno a
+            nativitate Eius M°CC°LXII, indictione Va, die quarta mensis iunii</date>.<persName
+            ref="#BenvenutusBeloti"> Benvenutus quondam Beloti de <placeName ref="#Giuccano"
+              >Iuccano</placeName></persName> et <persName ref="#VivaldaAnselmi">Vivalda, eius uxor,
+            filia quondam Anselmi de <placeName ref="#Antoxuolo">Antoxuolo</placeName></persName>,
+          ambo simul et quisque eorum in solidum inter se legitime consentientes, per se suosque
+          heredes, vendiderunt, dederunt et tradiderunt <persName ref="#PeregrinusCapreti"
+            >Peregrino, filio Capreti de <placeName ref="#Popellano"
+            >Popellano</placeName></persName>, recipienti pro se suisque heredibus et cui dederit
+          vel commiserit seu habere decreverit, duas petias terre, cum castaneis in una earum
+          positis, uni quarum, cum castaneis, coheret ab uno latere heredum quondam <persName
+            ref="#BonfiletusPonzanello">Bonfileti de <placeName ref="#Ponzanello"
+              >Ponzanello</placeName></persName>, ab alio latere <persName ref="#VitalisPlaça"
+            >Vitalis</persName> et <persName ref="#VenturaPlaça">Venture de <placeName ref="#Plaça"
+              >Plaça</placeName></persName>, a pede suprascripti <persName ref="#PeregrinusCapreti"
+            >Peregrini</persName>, a capite <placeName ref="#Bonaco">mons de Bonaco</placeName>,
+          atque est posita in loco dicto <placeName ref="#Bonaco">Bonaco</placeName>. Alia petia
+          posita est in loco dicto <placeName ref="#Canale">Canale</placeName> et coheret ei ab uno
+          latere heredum quondam dicti <persName ref="#BonfiletusPonzanello">Bonfileti</persName>,
+          ab alio <persName ref="#BonommusAntognolo">Bonnomi de <placeName ref="#Antognolo"
+              >Antognolo</placeName></persName>, a pede <persName ref="#BenvenutusBeloti"
+            >Benvenuti</persName> suprascripti, a capite via et si qui alii sint confines. Et
+          dederunt, tradiderunt, cesserunt atque mandaverunt eidem <persName
+            ref="#PeregrinusCapreti">Peregrino</persName>, recipienti ut dictum est, omne dominium
+          et proprietatem, usum et utilitatem, accessum atque regressum, superiora et inferiora, et
+          omnia iura et actiones et rationes, utiles et directas, reales, personales seu mixtas, eis
+          competentes et competentia seu competitura in dictis terris et earum occasione, faciendo
+          eumdem <persName ref="#PeregrinusCapreti">Peregrinum</persName> de hiis procuratorem et
+          dominum in rem suam, ita ut ex hiis omnibus et singulis ipse <persName
+            ref="#PeregrinusCapreti">Peregrinus</persName> suique heredes atque cui dederit vel
+          commiserit possit agere et experiri, tueri, causari et deffendere, suo proprio nomine
+          directo et utilitate, adversus quamcumque personam et locum, et exinde facere quicquid
+          voluerit sine contradictione dictorum venditorum vel alterius persone, dando eidem
+            <persName ref="#PeregrinusCapreti">Peregrino</persName> licenciam et bailliam ut, sua
+          auctoritate, ingrediatur atque accipiat corporalem tenutam et possessionem, quandocumque
+          voluerit, de dictis terris, et constituendo se pro eo et eius nomine possidere donec
+          corporalem tenutam de eis fuerit ingressus. Pro precio quarum duarum petiarum terre
+          habuerunt et receperunt dicti <persName ref="#BenvenutusBeloti">Benvenutus</persName> et
+            <persName ref="#VivaldaAnselmi">Vivalda</persName>, ambo simul et quisque eorum in
+          solidum, a dicto <persName ref="#PeregrinusCapreti">Peregrino</persName>
+          <measure type="Ianuenses" quantity="7" unit="libra">libras VII bonorum denariorum
+            Ianuensium</measure>, renunciando exceptioni non numerate pecunie, habite et recepte
+          atque omni alii iuri <supplied reason="omitted">et</supplied> legum auxilio. Et confessi
+          fuerunt quod dicte terre cum castaneis valeant plus precio suprascripto, unde totum et
+          quicquid plus valebant eidem <persName ref="#PeregrinusCapreti">Peregrino</persName>
+          donaverunt titulo pure ac <pb n="247r" xml:id="fol_247r"/> simplicis donationis inter
+          vivos et renunciando specialiter illi legi que iuvat deceptos in venditionibus ultra
+          dimidiam iusti precii. Insuper predicti venditores, per se suosque heredes, promiserunt et
+          convenerunt eidem <persName ref="#PeregrinusCapreti">Peregrino</persName>, recipienti ut
+          dictum est, dictas terras non imbrigare vel molestare deinceps, immo eas, cum omnibus
+          earum pertinenciis, quisque eorum in solidum, deffendere et exbrigare ab omni molestante
+          persona et loco eorumdem venditorum eorumque heredum propriis expensis et advocato, sive
+          de dominio, sive de possessione vel detentatione ipsarum terrarum vel alio modo vel iure,
+          in toto vel in parte, aliqua eidem questio vel controversia fuerit mota per aliquam
+          personam vel locum. Et si non deffenderent vel non possent deffendere, teneantur eidem
+            <persName ref="#PeregrinusCapreti">Peregrino</persName> dare et restaurare salvum
+          cambium de bonis eorum in consimili loco, secundum quod terre predicte tunc valuerint vel
+          meliorate fuerint, sub extimatione et arbitrio bonorum hominum. Et omne dampnum et
+          expensas et interesse etiam singulare, quod vel quas idem <persName
+            ref="#PeregrinusCapreti">Peregrinus</persName> suique heredes ea occasione habuerint vel
+          substinuerint, teneatur quisque eorum in solidum eidem integre restaurare, credendo de
+          dampno et expensis soli, nudo et simplici verbo ipsius <persName ref="#PeregrinusCapreti"
+            >Peregrini</persName> eiusque heredum et cui dederit, sine iuramento et testium vel
+          instrumenti vel alterius honere probationis, tali pacto apposito de communi concordia
+          inter eos quod, si questio vel controversia mota fuerit dicto <persName
+            ref="#PeregrinusCapreti">Peregrino</persName> vel eius heredibus vel cui dederit de
+          dictis terris, in toto vel in parte vel earum occasione, ab aliqua persona vel loco,
+          quacumque occasione vel modo, non teneantur ipse <persName ref="#PeregrinusCapreti"
+            >Peregrinus</persName> vel eius heredes vel cui dederit denunciare dictis venditoribus
+          vel eorum heredibus. Et si sententia vel sententie late fuerint contra eum vel eos, non
+          teneantur ab ea vel eis appellare et, si appellaverint, non teneantur prosequi causam
+          appellationis, et nichillominus habeant regressum contra dictos venditores et quemlibet
+          eorum in solidum et eorum heredes et bona de evictione atque deffensione et omnibus et
+          singulis suprascriptis. Hanc autem venditionem et omnia et singula, que in hac carta
+          leguntur, suprascripti <persName ref="#BenvenutusBeloti">Benvenutus</persName> et
+            <persName ref="#VivaldaAnselmi">Vivalda</persName>, per se suosque heredes, promiserunt
+          et convenerunt suprascripto <persName ref="#PeregrinusCapreti">Peregrino</persName>,
+          recipienti ut dictum est, attendere, facere et observare et in nullo umquam contravenire
+          de iure vel de facto, sub pena <measure type="Ianuenses" quantity="7" unit="libra"
+            >librarum septem Ianuensium</measure>, quam dare et solvere promiserunt eidem <persName
+            ref="#PeregrinusCapreti">Peregrino</persName> et cui dederit tociens quociens fuerit
+          contraventum et pro quolibet capitulo non observato; et, pena soluta vel non,
+          suprascriptis omnibus et singulis nichillominus semper firmis manentibus, obligando ad hec
+          attendenda, quisque eorum in solidum, se suosque heredes et omnia sua bona, habita et
+          habenda, et renunciando omni iuri et legibus contra hec introductis et specialiter nove
+          constitutioni de duobus reis et epistule divi <persName ref="#Adrianus"
+          >Adriani</persName>, et dicta mulier beneficio senatus consultus Velleiani, qui loquitur
+          de promissionibus et intercessionibus mulierum.</p>
+        <p xml:id="CLVI_p_002" n="2">Actum <placeName ref="#Sarzana">Sarzane</placeName>, in domo
+          mei <persName ref="#BonaiunctaBonaiutinot">Bonaiuncte
+            <roleName>notarii</roleName></persName>, presentibus <persName ref="#Opecinusbal"
+            >Opecino <roleName>balistario</roleName></persName>, <persName ref="#CalandrinusPagani"
+            >Calandrino quondam Pagani de <placeName ref="#Brina">Brina</placeName></persName> et
+            <persName ref="#RanaldusFranciscus">Ranaldo Francisco</persName>, habitatoribus
+            <placeName ref="#Sarzana">Sarzane</placeName>, testibus ad hec rogatis.</p>
+        <p xml:id="CLVI_p_003" n="3"><ptr target="#CLVI_st_001"/> Ego <persName
+            ref="#BonaiunctaBonaiutinot">Bonaiuncta, filius quondam Bonaiuti de <placeName
+              ref="#Sarzana">Sarzana</placeName>, <roleName>auctoritate imperiali
+              notarius</roleName></persName>, hiis interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

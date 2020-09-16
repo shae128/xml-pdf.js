@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXVII_178">
+    <front xml:id="CCXVII_front">
+
+      <titlePart type="numerazioneNuova">178</titlePart>
+      <titlePart type="numerazioneOrig">CCXVII</titlePart>
+
+      <docDate xml:id="CCXVII_docDate">
+        <date when="1236-08-19">1236 agosto 19</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in curia castri Sarzane</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXVII_regesto">
+        <p>Tommaso di Ponzano e il nipote Gerardino del fu Ugolino di Ponzano vendono al vescovo di
+          Luni, per la somma di 12 lire d’imperiali, alcuni loro villani con tutti i diritti
+          relativi alla terra dove i villani risiedevano e avevano l’obbligo di risiedere.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 249r., c. CCXLIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 217,
+            pp. 195-196.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Lupo Gentile data per errore il documento al 1237 (MAZZINI 1914, p. 14); tuttavia il
+            19 agosto 1236 era un martedì e non un giovedì. Anche se il luogo di redazione non è
+            espresso con chiarezza, lo si ricava per analogia da numerosi altri documenti del
+            codice.</note>
+          <note>Rogito in stesura sommaria, con formule ceterate nel corpo del testo. <p>Stesura
+                <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla presenza di Bonagiunta
+              de Podio di Lucca.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXVII_div">
+        <p xml:id="CCXVII_p_001" n="1">In Dei nomine, amen.<date when="1236-08-19">M°CC°XXXVI<note
+              place="foot" n="a" xml:id="CCXVII_n_001">M°CC°XXXVI <emph>su</emph> M°CC°XXXVII
+                <emph>con ultima unità abrasa volutamente.</emph></note>, indictione IX, die iovis,
+            XIIII kalendas septembris</date>, in curia castri, coram <persName
+            ref="#MercadanteSantoStefano">Mercadante de <placeName ref="#Santo_Stefano">sancto
+              Stephano</placeName></persName>, <persName ref="#RollandusVagus">Rollando
+            Vago</persName>, <persName ref="#ParensPasqualini">Parente quondam
+          Pasqualini</persName>, <persName ref="#Codargollius">Codorgollo</persName>, <persName
+            ref="#GerardusVernaccii">Gerardo de <placeName ref="#Vernaccio">Vernaccio</placeName> de
+              <placeName ref="#Sarzanello">castro Sarzane</placeName></persName> et <persName
+            ref="#PaganinusPonzano">Paganino de <placeName ref="#Ponzano"
+            >Ponçano</placeName></persName>, testibus rogatis. Pro precio <measure type="Imperiales"
+            quantity="12" unit="libra">XII librarum imperialium</measure>, quas <persName
+            ref="#ThomasPonçano">Thomas de <placeName ref="#Ponzano">Ponçano</placeName></persName>
+          et eius nepos <persName ref="#GerardinusUgolini">Gerardinus, filius quondam Ugolini de
+            eodem loco</persName>, fuerunt confessi se recepisse a venerabili domino<note
+            place="foot" n="1" xml:id="CCXVII_n_002"><term xml:lang="latin">Domino</term><emph>:
+              Guglielmo vescovo di Luni, attestato dal <ref target="DII_475">17 maggio 1228</ref> al
+                <ref target="12">3 aprile 1272</ref>.</emph></note> Dei gratia Lunensi episcopo,
+          renunciando exceptioni et cetera, per se et heredes suos, confitendo se idem <persName
+            ref="#GerardinusUgolini">Gerardinus</persName> maiorem annis XXV, dederunt, tradiderunt
+          et vendiderunt eidem domino episcopo, recipienti pro se et episcopatu et suis
+          successoribus, in perpetuum, et cui dederit, <persName ref="#ParensPasqualini"
+            >Parentem</persName> et <persName ref="#NigrusCapriliola">Nigrum</persName>, germanos,
+          filios quondam ***<note place="foot" n="b" xml:id="CCXVII_n_003"><emph>Manca
+              l’indicazione: spazio bianco per mm. 14.</emph></note> de <placeName
+            ref="#Caprigliola">Capriliola</placeName>, et <persName ref="#UgolinusFalconi"
+            >Ugolinum</persName> et <persName ref="#VassallusFalconi">Vassallum de <placeName
+              ref="#Ficaro">Ficaro</placeName>, germanos, quondam Falconi</persName>, quos dicebant
+          suos homines et villanos esse ex natione, cum omni iure soli et glebe super qua residebant
+          aut residere debebant et cum omnibus redditibus, factionibus, prestationibus,
+          conditionibus atque operibus villanaticis et ascripticiis, quas et quos facere et prestare
+          debent et consueverunt, et cum toto podere et tenuta quam habent et tenent tanquam villani
+          et ascripticii eorumdem. Et constituerunt ipsum dominum episcopum, suo et episcopatus
+          nomine, procuratorem et dominum ut in rem suam, dando et cedendo ei omnia iura et actiones
+          et cetera, que et quas habebant in predictis vel sibi competebant aut competere possent in
+          predictis, ut suo nomine directo possit agere et experiri et facere ut de re sua propria
+          et episcopatus adversus quamcumque personam atque locum; et de superfluo quod valerent
+          predicti homines venditi et res predicte fecerunt eidem domino episcopo dationem, nomine
+          donationis inter vivos, quod nullo possit iuris auxilio revocari. Et promiserunt
+          suprascripti venditores, stipulatione sollempni, ipsi domino episcopo, recipienti<note
+            place="foot" n="c" xml:id="CCXVII_n_004"><term xml:lang="latin">recipienti</term><emph>:
+              ripetuto nel testo.</emph></note> pro se et suis successoribus et Lunensi episcopatu,
+          ipsos homines tamquam villanos et homines suos et ascripticios, cum omni iure soli et
+          glebe atque toto podere et condictionibus, factionibus, operibus et redditibus et ceteris
+          aliis, semper iure deffendere et expedire ab omni homine et contradicente persona cum
+          advocato suo et expensis propriis, vel in loco consimili restituere, sicut magis pro
+          tempore valuerint, sub extimatione legitima, et reficere ei omne dampnum et cetera, nec
+          contra venire vel facere, per se vel alium, aliqua occasione vel exceptione, in aliquo vel
+          aliquibus que in hac carta continentur, sub pena dupli predicte rei et eius tocius quod in
+          questione deduceretur, solvenda simul cum sorte, quociens incidetur in eam, sibi et cui
+          commiserit, obligando se ad hec et suos heredes et bona mobilia et immobilia et cetera, et
+          potestatem inde tenutam intrandi ei dederunt et cetera.</p>
+      </div>
+      <div xml:id="CCXVII_div2" type="mundum">
+        <p xml:id="CCXVII_p_002" n="2"><ptr target="#CCXVII_st_001"/>Ego <persName
+            ref="#HengeramusParentisnot">Hengheramus quondam Parentis de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName>, <roleName>palacii sacri
+              notarius</roleName></persName>, hanc cartam olim a <persName ref="#Bonencontrusnot"
+            >Bonencontro <roleName>notario</roleName> de <placeName ref="#Soliera"
+              >Soleria</placeName></persName> abreviatam sive rogatam, prout in eius sceda et in
+          eius contractibus et imbreviaturis inveni, ita sic bona fide scripsi et auttenticavi et in
+          publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+            <persName ref="#Bonaiunctaiud"><roleName>domino</roleName> Bonaiuncta de <placeName
+              ref="#PodioLucca">Podio de Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+                ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre
+          domino Lunensi episcopo et <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName>, de qua
+          auctoritate constat per instrumentum publicum factum manu <persName ref="#Alcheriusnot"
+            >Alcherii <roleName>notarii</roleName> de <placeName ref="#Lucca"
+            >Luca</placeName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 178-CCXVII databile tra il 1270 e il
+            1272 dalla presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

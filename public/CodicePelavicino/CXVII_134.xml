@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXVII_134">
+    <front xml:id="CXVII_front">
+
+      <titlePart type="numerazioneNuova">134</titlePart>
+      <titlePart type="numerazioneOrig">CXVII</titlePart>
+
+      <docDate xml:id="CXVII_docDate">
+        <date when="1232-08-22">1232 agosto 22</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in curia Lunensis episcopi de castro
+          Sarzane</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXVII_regesto">
+        <p>Guglielmo, vescovo di Luni, loca a Bonaiuto di Castiglione di Varese del fu Porcario, che
+          riceve a nome della moglie Benvenuta, un podere un tempo tenuto da Benevene del fu
+          Castellano, cognato di Bonaiuto, in Sarzana. La locazione costa 20 soldi.</p>
+      </div>
+
+      <div type="footer" xml:id="CXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 226r., c. CCXVIIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 117,
+            pp. 151-152.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note><p>Stesura <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla presenza di
+              Bonagiunta de Podio di Lucca.</p>
+          </note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXVII_div">
+        <p xml:id="CXVII_p_001" n="1"><pb n="226r" xml:id="fol_226r"/>In nomine Domini, amen. <date
+            when="1232-08-22">Millesimo CCXXXII, indictione V, die dominico, XI kalendas
+            septembris</date>. In <placeName ref="#Luni">curia Lunensis episcopi de castro
+            Sarzane</placeName>, coram <persName ref="#BondecciaSar">Bondeccie de <placeName
+              ref="#Sarzana">burgo Sarzane</placeName></persName> et <persName
+            ref="#AldeprandetusSar">Aldeprandetto, burgense <placeName ref="#Sarzana">soprascripti
+              burgi</placeName></persName>, <persName ref="#IacopinusFaina">Iacopino de donna
+            Faina</persName>, <persName ref="#ParensPasqualini">Parente
+              <roleName>castaldione</roleName> de <placeName ref="#Sarzanello">castro
+              Sarzane</placeName></persName> et <persName ref="#RiccusSar">Ricco de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName></persName> atque pluribus aliis testibus
+          ad hec rogatis. Venerabilis <persName ref="#GuilEpLuni">Guilielmus, <roleName>episcopus
+              Lunensis</roleName></persName> Dei gratia, per se et suos successores dedit, tradidit,
+          cessit atque locavit <persName ref="#BonaiutusPorcari">Bonaiuto de <placeName
+              ref="#CastiglionediVarese">Castillione de Varese</placeName> quondam
+            Porcarii</persName>, recipienti nomine et vice uxoris sue <persName ref="#Benvenuta"
+            >Benvenute, quondam sororis infrascripti <persName ref="#BenevenusCastellani"
+              >Beneveni</persName></persName>, et pro se et ipsa sua uxore atque heredibus, quos
+          simul habuerint, in perpetuum, nominatim, totum podere, tenutam atque possessionem, quod
+          et quam olim ab ipso domino episcopo seu a <placeName ref="#Luni">curia
+            Lunensi</placeName> habuit, tenuit vel possedit <persName ref="#BenevenusCastellani"
+            >Benevenus, habitator <placeName ref="#Sarzana">burgi Sarzane</placeName>, filius
+            quondam <persName ref="#Castellanus">Castellani</persName>, cognatus ipsius <persName
+              ref="#BonaiutusPorcari">Bonaiuti</persName> et frater dicte <persName ref="#Benvenuta"
+              >sue uxoris</persName></persName>, positum in burgo et extra et alibi, quicquid sit et
+          quantumcumque et ubicumque et quocumque decurrit vel exinde poterit inveniri, agrum,
+          cultum et cetera, cum casa seu domo et casamento et capanna, ortis, terris, pratis et
+          cetera, cum accessibus atque cetera, promittens legitimam deffensionem et sumptus omnes
+          reficere nec contravenire, pro <measure type="Imperiales" quantity="20" unit="solidus"
+            >soldis XX</measure>, quos confessus fuit se inde ab eo servicium accepisse atque
+          cetera, residendo et habitando idem acquisitor et sua uxor super ipsa tenuta et podere
+          tamquam suus homo et reddendo ipsi <placeName ref="#Luni">curie Lunensi</placeName> omnes
+          illos redditus, factiones, condictiones, quos et quas inde solvi, reddi debuerunt vel
+          consueverunt vel debet. Que omnia suprascripta ipse dominus episcopus per se et suos
+          successores et idem <persName ref="#BonaiutusPorcari">Bonaiutus</persName> pro se et suis
+          heredibus et uxore sua attendere et observare et non contravenire sibi ad invicem
+          promiserunt, sub pena <measure type="imperiales" quantity="20" unit="solidus">XX soldorum
+            imperialium</measure> et, ea soluta, rato manente pacto.</p>
+      </div>
+      <div xml:id="CXVII_div2" type="mundum">
+        <p xml:id="CXVII_p_002" n="2"><ptr target="#CXVII_st_001"/> Ego <persName
+            ref="#HengeramusParentisnot">Hengherramus quondam Parentis de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName>, <roleName>palacii sacri
+              notarius</roleName></persName>, hanc cartam olim a <persName ref="#Bonencontrusnot"
+            >Bonencontro de <placeName ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et auttenticavi
+          atque in publicam formam redegi, auctoritate et decreto super hiis michi prestita et
+          concesso a <persName ref="#Bonaiunctaiud"><roleName>domino</roleName> Bonaiuncta de
+              <placeName ref="#PodioLucca">Podio de Luca</placeName></persName>, <roleName>iudice</roleName> in
+            <orgName ref="#Lunigiana_provincia">provincia <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili
+          patre domino <persName ref="#GuilEpLuni">Guilielmo, <roleName>Lunensi
+            episcopo</roleName></persName>, et <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName>,
+          de qua auctoritate constat per instrumentum publicum factum manu <persName
+            ref="#Alcheriusnot">Alcherii <roleName>notarii</roleName> de <placeName ref="#Lucca"
+              >Luca</placeName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 134-CXVII databile tra il 1270 e il
+            1272 dalla presenza di Bonagiunta de Podio di Lucca<date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

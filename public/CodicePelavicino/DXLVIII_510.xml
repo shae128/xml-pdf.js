@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="DXLVIII_510">
+    <front xml:id="DXLVIII_front">
+      <titlePart type="numerazioneNuova">510</titlePart>
+      <titlePart type="numerazioneOrig">DXLVIII</titlePart>
+
+      <docDate xml:id="DXLVIII_docDate">
+        <date when="1239-05-04">1240 maggio 4</date>, <placeName>San Gimignano (<term
+            xml:lang="latin">in claustro plebis Sancti Geminiani</term>)</placeName>
+      </docDate>
+      <div type="regesto" xml:id="DXLVIII_regesto">
+        <p>Gerardo, procuratore del vescovo di Luni Guglielmo, avendo formulato eccezione di
+          legittimità nei confronti di Beringerio preposito di San Gimignano, procede nel fare
+          appello al pontefice. </p>
+      </div>
+      <div type="footer" xml:id="DXLVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 403r.-403v., cc. CCCLXXXXVr.- CCCLXXXXVv. secondo la numerazione
+            originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 548, pp.
+            623-624.</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXLVIII.
+              Appellatio episcopi Lunensis ad papam a gravamine sibi illato per delegatum sive
+              subdelegatum pape inter se et monasterium de Orticaria.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXLVIII_div">
+        <p xml:id="DXLVIII_p_001" n="1">In Dei nomine, amen. <date when="1239-05-04">Anno Domini
+            M°CCXL, indictione XIII, IIII nonas madii.</date> Appareat quod, cum
+            <roleName>magister</roleName>
+          <persName ref="#Gerardusmag">Gerardus</persName>, <roleName>procurator domini episcopi
+            Lunens</roleName>is, procuratorio nomine pro eo, proposuerit exceptionem de suspecto ex
+          legimitis, certis et rationalibus causis contra vos, domine preposite <orgName
+            ref="SanGimignano_S_Maria_Assunta">Sancti Geminiani</orgName>, <supplied
+            reason="omitted">et</supplied> dixerit etiam nullam vos iurisdictionem habere in ipsum
+          episcopum vel in res eius, procuratorio nomine pro ipso domino episcopo, vobis, domine
+          preposite, <emph>contradicit </emph> ne<note place="foot" n="a" xml:id="DXLVIII_n_001"
+              >ne:<emph>nel testo </emph>ne <emph>con segno generico di abbreviazione
+              superfluo.</emph></note> super petitione vel super petitionibus dicte partis adverse
+            <pb n="403v" xml:id="fol_403v"/> coram vobis respondere quia vos habetis certa ratione
+          suspectum, ut dictum est, et periculosum est ei et ipsi episcopo coram suspecto iudice
+          litigare, nisi prius decidatur per arbitros questio de suspecto; quam questionem paratus
+          est prosequi coram arbitris eligendis vel eligere arbitrum pro sua parte et electum
+          confirmare quia iam elegit et iterum eligit primo certum Lucanum<note place="foot" n="b"
+            xml:id="DXLVIII_n_002">primo certum Lucanum:<emph>così nel testo per </emph>Paulum
+            canonicum Lucanum, <emph>per il quale si veda doc. 509-DXLVII.</emph></note>, et, ne
+          contra predicta vel aliquod predictorum contra ipsum <persName ref="#Gerardusmag"
+            >Gerardum</persName> vel dominum episcopum, cuius est procurator, aliquatinus procedatis
+          vel predictum episcopum contra predicta gravetis in aliquo, idem <persName
+            ref="#Gerardusmag">Gerardus</persName> pro se et ipso episcopo ad dominum papam appellat
+          et se pro ipso domino episcopo et ipsum episcopum et sua iura sedis apostolice protectioni
+            subponit<note place="foot" n="c" xml:id="DXLVIII_n_003">subponit: b <emph>corretta su
+              precedente </emph>p</note>. Quam appellationem fecit predictus
+            <roleName>magister</roleName>
+          <persName ref="#Gerardusmag">Gerardus</persName>, salvis aliis exceptionibus et
+          appellationibus dicti domini episcopi, si que sint. </p>
+        <p xml:id="DXLVIII_p_002" n="2">Actum est in claustro <orgName
+            ref="SanGimignano_S_Maria_Assunta">plebis <placeName ref="#San_Gimignano">Sancti
+              Geminiani</placeName></orgName>, coram <roleName>domino</roleName>
+          <persName ref="#GentilisRustichi">Gentile <roleName>iurisperito</roleName> quondam
+            Rustichi</persName> et <persName ref="#CambiusMichelis_not">Cambio <roleName>notario
+            </roleName> quondam Michaelis</persName> et <persName ref="#GuiciardusGuiciardi_not"
+            >Guiciardo <roleName>notario</roleName> quondam Guiciardi</persName>, testibus ad hec
+          vocatis. </p>
+        <p xml:id="DXLVIII_p_003" n="3">
+          <ptr target="DXLVIII_st_001"/>Ego <persName ref="PalmeriusPellarii_notarius">Palmerius,
+            quondam Pellarii filius</persName>, <roleName>auctoritate imperiali notarius</roleName>,
+          predicte appellationi interfui et, rogatus a predicto <roleName>magistro</roleName>
+          <persName ref="#Gerardusmag">Gerardo</persName>, in publicum redegi. </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

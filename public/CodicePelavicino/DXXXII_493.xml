@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="DXXXII_493">
+    <front xml:id="DXXXII_front">
+      <titlePart type="numerazioneNuova">493</titlePart>
+      <titlePart type="numerazioneOrig">DXXXII</titlePart>
+      <docDate xml:id="DXXXII_docDate">
+        <date when="1181-08-28">1181 agosto 28</date>, nella chiesa di <placeName>Corvo</placeName>
+      </docDate>
+
+
+      <div type="regesto" xml:id="DXXXII_regesto">
+        <p> Il preposito di Luni Raimondo, il prete e monaco di Aulla Pietro e l’arciprete di
+          Soliera Bonfiglio, designati arbritri per la controversia che coinvolgeva il vescovo di
+          Luni Pietro e l’abate di Aulla Iacopo, pronunciano sentenza. L’abate di Aulla deve
+          obbedienza al vescovo di Luni, a patto questa non implichi danno per il monastero; inoltre
+          gli deve ospitalità solo una volta all’anno per 20 cavalcature. Se avrà necessità
+          ulteriori di essere ospitato, il vescovo dovrà provvedere autonomamente, pur sempre
+          all’interno del recinto monastico. I preti del monastero devono ricevere dal vescovo la
+          cura delle anime e l’abate e i monaci devono fare una preghiera alla messa a favore del
+          vescovo. </p>
+      </div>
+
+      <div type="footer" xml:id="DXXXII_footer">
+        <div type="orig_doc">
+          <p>Copia [C] c. 396v., c. CCCLXXXVIIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 532, pp.
+            594-596, con la data 27 agosto</p>
+        </div>
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <emph><term xml:lang="latin"> laudum contra
+                monacos et abbatem de Avulla</term></emph>
+          </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXXXII.
+              Sententia lata inter episcopum Lunensem et abbatem de Avula super facto ipsis
+              mamasterii Avulensis.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXXXII_div">
+        <pb n="396v" xml:id="fol_396v"/>
+        <p xml:id="DXXXII_p_001">
+          <ptr target="#DXXXII_st_001"/> In nomine Domini, amen. Ut controversie que iudicio vel
+          concordia terminantur in posterum recidivum non possint incurrere, dignum est quod
+          decisionis modus, qualiter videlicet sint decise, litteris denotentur, ut habeant posteri
+          decisionis modum recognoscendi liberam facultatem. Quapropter presentes noverint et futuri
+          quod, cum inter viros venerabilem <persName ref="#PetrusEpLuni">Petrum, <roleName>Dei
+              gratia Lunensem episcopum</roleName></persName>, et <persName ref="#Iacopus_abbas"
+            >Iacobum, <roleName>abbatem <placeName ref="#Aulla"
+            >Avulensem</placeName></roleName></persName>, et fratres controversia verteretur,
+          quoniam idem episcopus, preter illa que ipsi recognoscebant debere a Lunensi episcopo
+          recipere, videlicet crisma, oleum sanctum, consecrationes altarium seu basilicarum<note
+            place="foot" n="a" xml:id="DXXXII_n_001">basilicarum: <emph>corretto su precedente
+              scrittura abrasa</emph>.</note>, ordinationes monachorum et clericorum et
+          benedictionem abbatis et interesse synodis, quedam alia se debere habere idem episcopus
+          firmiter asserebat, scilicet abbatis obedientiam et in processione tanquam proprius
+          episcopus, et infra septam <orgName ref="#S_Caprasio_Aulla">monasterii</orgName> in
+          hospitio et procuratione recipi, que utique monachi nullatenus recognoscebant. Propter hoc
+          querelam adversus eos, in presentia summi pontificis, episcopus prefatus deposuit, propter
+          quod dominus papa viris prudentibus abbati <placeName ref="#Sesto">Sextensi</placeName> et
+            <persName ref="#RollandusBacciano">Rollando</persName>, <roleName><placeName
+              ref="#Lucca">Lucane</placeName> ecclesie canonico</roleName>, apostolicis litteris
+          controversiam ipsam et causam commisit; qui, iuxta tenorem litterarum domini pape,
+          utramque partem congruo loco et tempore convocantes, ydoneos<note place="foot" n="b"
+            xml:id="DXXXII_n_002">ydoneos: y <emph>corretto su</emph> i
+            <emph>maiuscola</emph>.</note> testes ex parte episcopi super eadem controversia
+          receperunt. Tandem predictus abbas et monachi et memoratus episcopus, consilio habito, se
+          in nostro laudamento et arbitrio, scilicet mei <persName ref="#Raimundus_pres">Raimundi
+              <roleName>humilis Lunensis prepositi</roleName></persName> et domni <persName
+            ref="#Petrus_presbyter_monachus">Petri <roleName>presbyteri et
+            monachi</roleName></persName>
+          <placeName ref="#Aulla">Avulensis</placeName> et <persName ref="#BonfiliusarcSol">Bonfilii
+              <roleName>humilis archipresbyteri</roleName></persName> de Soleria, sub pena <measure
+            type="imperiales" quantity="20" unit="libra">XX librarum bonorum denariorum
+            imperialium</measure>, voluntate spontanea, submiserunt. Et quoniam idem abbas
+          recognovit se et successores suos Lunensi episcopo debere obedientiam exhibere, nos,
+          volentes in posterum providere eidem abbatie, quia etiam utrique parti, et presertim
+          monasterio, pax et concordia fructuosa et utilis videbatur, arbitrium et laudamentum
+          nostrum protulimus: scilicet quod abbas <placeName ref="#Aulla">Avulensis</placeName>
+          obedientiam episcopo Lunensi exhibeat, ita tamen quod in dampnum rerum, possessionum vel
+          personarum seu destructionem abbatie non possit vel debeat provenire, et in processione et
+          procuratione integra et honesta semel in anno, cum XX tantum equitaturis, infra monasterii
+          septam prelibatum dominum episcopum prefatus abbas et monachi recipiant. Presbyteri etiam,
+          qui ad ipsum monasterium pertinent, ab episcopo curam animarum recipiant, et tam dominus
+          abbas quam fratres orationem in missa pro domino episcopo et congregatione sibi commissa
+          specialiter et publice faciant. Porro si, negociis emergentibus, ad partes illas plus quam
+          semel accedere episcopum contigerit et infra septam monasterii voluerit hospitari, in
+          hospicio quidem recipietur, set sibi et suis de proprio providebit; verum, quia domus
+          infra septam monasterii ad hospitandum domino episcopo apta non erat, statutum est quod
+          abbas et monachi domum aptam domino episcopo ad hospitandum honeste debent infra septam
+          monasterii preparare. Hospitabitur tamen semper infra septam, ut superius legitur, donec
+          domus illa honesta fuerit preparata. Ut autem hoc nostrum laudamentum et arbitrium in
+          perpetuum ab utraque parte firmum servetur et nullatenus immutetur de voluntate partium,
+          sub pena <measure type="imperiales" quantity="100" unit="libra"/>C librarum bonorum
+          imperialium, precepimus ipsum laudamentum inviolabiliter observari, quarum medietas summo
+          pontifici et medietas parti, que hoc nostrum laudamentum observabit<note place="foot"
+            n="c" xml:id="DXXXII_n_003">observabit: <emph>la seconda</emph> b <emph>corretta su
+              precedente lettera</emph>.</note>, debeat provenire; et <persName ref="#Lombardusnot"
+            >Lombardum <roleName>notarium</roleName></persName> hec omnia suprascripta publica manu
+          scribere rogavimus. </p>
+        <p xml:id="DXXXII_p_002">Actum est hoc in <orgName ref="#S_Croce_Corvo">ecclesia</orgName>
+          sita loco dicto <placeName ref="#Corvo">Corvum</placeName>, presentibus prelibato domino
+          episcopo et iamdicto abbate et <roleName>fratre</roleName>
+          <persName ref="#Guido_presbyter_monachus">Guidone, <roleName>presbytero et
+              monacho</roleName></persName>
+          <placeName ref="#Aulla">Avulensi</placeName>, <date when="1181-08-28">anno M°C octogesimo
+            primo, indictione XIIII, die veneris</date>, qui fuit V kalendas septembris, feliciter. </p>
+        <p xml:id="DXXXII_p_003"># Signa manuum suprascriptorum arbitrorum et laudatorum et
+          suprascriptarum partium, qui hanc cartam fieri rogaverunt. </p>
+        <p xml:id="DXXXII_p_004"> # # Signa manuum <roleName>domni</roleName><persName
+            ref="#Ieronimus_presbyter_monachus"> Ieronimi <roleName>presbyteri et
+            monachi</roleName></persName>, <roleName>presbyteri</roleName><persName ref="#Guido_cus"
+            > Guidonis</persName>
+          <roleName>Lunensis custodis</roleName>, <persName ref="#Bonifaciuscan">Bonifatii
+              <roleName>Lunensis canonici</roleName></persName>, <persName ref="#RaimundusVallecla"
+            >Raimundi de <placeName ref="#Vallecchia1">Vallecla</placeName>
+            <roleName>Lunensis canonici</roleName></persName>, <persName ref="#Sismundus_clericus"
+            >Sismundi <roleName>clerici</roleName></persName>, <persName
+            ref="#Guido_presbyter_monachus">Guidonis <roleName>presbyteri et
+            monachi</roleName></persName>
+          <placeName ref="#Aulla">Avulensis</placeName>, <persName ref="#ParensVallecla">Parentis de
+              <placeName ref="#Vallecchia1">Valecla</placeName></persName>, <persName
+            ref="#GerardusVallecla">Gerardi de <placeName ref="#Vallecchia1"
+            >Valecla</placeName></persName>, <persName ref="#AvogadrusSarzana">Advocadri de
+              <placeName ref="#Sarzana">Sarzana</placeName></persName>, rogatorum testium.</p>
+        <p xml:id="DXXXII_p_005">
+          <ptr target="#DXXXII_st_002"/> Ego <persName ref="#Lombardusnot">Lombardus,
+              <roleName>domini imperatoris notarius et Lunensis curie</roleName></persName>, de
+          mandato suprascriptorum arbitrorum et laudatorum et rogatu utriusque partis, interfui et
+          hanc cartulam scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

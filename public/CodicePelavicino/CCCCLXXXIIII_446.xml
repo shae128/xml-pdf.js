@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXXXIIII_446">
+    <front xml:id="CCCCLXXXIIII_front">
+
+      <titlePart type="numerazioneNuova">446</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXIIII</titlePart>
+
+      <docDate xml:id="CCCCLXXXIIII_docDate">
+        <date notBefore="1278-11-01" notAfter="1278-11-30" cert="medium">1278 novembre </date>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXXXIIII_regesto">
+        <p>Il vescovo di Luni Enrico dichiara di avere la piena giurisdizione su alcuni castelli e
+          terre ingiustamente occupate dal comune di Genova e sui quali è sorta una lite. I beni e
+          diritti che il vescovo rivendica relativi a <term xml:lang="latin">Panticella</term>, al
+          monte di Lerici e a Trebiano, gli derivano da privilegi imperiali e documenti pubblici; il
+          castello di Arcola dai patti intercorsi tra il vescovo Guglielmo e Bartolomeo di Massa; la
+          quinta parte del castello Vezzano dalla concessione fatta sempre al vescovo Guglielmo da
+          Lamberto di Vezano; Isola è feudo vescovile, monte <term xml:lang="latin">Cocimiule</term>
+          deriva dalla cessione dei suoi signori; i diritti a Vezzano, Follo, Valeriano, Vesigna,
+          Carpena, Polverara e Beverino provengono dalla concessione fatta al vescovo Marzucco da
+          Guglielmo Malaspina e dai marchesi d'Este; riguardo infine a a Tivegna, Bracelli,
+          Castiglione Vara e Padivarma per diritti già acquisiti al tempo del vesoco Norandino e per
+          concessione fatta da Nicolò Fieschi al vescovo Guglielmo. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXXXIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 366v.-367r., cc. CCCLVIIv.-CCCLVIIIr., secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Regesto: <ref type="biblio" target="#FERRETTO_1901">FERRETTO 1901</ref>, II, DL, pp.
+            260-261.</p>
+          <p>Edizione in <ref target="#MURATORI_1717">MURATORI 1717</ref>, I, cap. XIX, pp. 182-183;
+              <ref target="#PODESTÀ_1894">PODESTA 1894</ref>., pp. 99-101; <ref
+              target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 484, pp. 499-500, con la data
+            6 novembre, che in realtà non compare nel manoscritto.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>
+            <p>Il documento è privo di escatocollo.</p>
+            <p><emph>Nel margine esterno, di mano moderna</emph>: protestatio</p>
+          </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXXIIII. Protestationis domini episcopi pro terris episcopatus, quas tenet comune
+              Ianue. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+
+      <div xml:id="CCCCLXXXIIII_div">
+
+        <p xml:id="CCCCLXXXIIII_p_001" n="1"> In Dei nomine, amen. <date notBefore="1278-11-01"
+            notAfter="1278-11-30" cert="medium">Anno Domini M°CCLXXVIII, indictione VI, mense
+            novembri</date>. Nos <persName ref="#HenricusEpLuni">Henricus, <roleName>miseratione
+              divina Lunensis episcopus</roleName></persName>, volentes iura Lunensis episcopatus
+          servare illesa et providere ipsi episcopatui <supplied reason="omitted">ne</supplied> ex
+          negligencia nostra vel alicuius aliquod dampnum vel detrimentum patiatur, dicimus,
+          protestamur et asserimus ius habere et omnem iurisdictionem temporalem exercere in castris
+          et terris inferius nominatis, que quidem castra et terras iniuste et indebite per vim et
+          potenciam <orgName ref="#Genova_comune">commune <placeName ref="#Ianua">Ianue</placeName></orgName> || <pb xml:id="fol_367r"
+            n="367r"/> detinent<note place="foot" n="a" xml:id="CCCCLXXXIIII_n_001">detinent:
+              <emph>così nel testo per</emph> detinet.</note> occupata, ipsum episcopatum Lunensem
+          predictis castris et terris ausu temerario spoliando et super quibus orta est discordia
+          inter nos et dictum commune. In primis dicimus quod locus qui dicitur <placeName
+            ref="#Panticella">Panticella</placeName> et <placeName ref="#MonteYlicis">mons
+            Ylicis</placeName>, cum portu et piscatione sua et curatura, et castrum de <placeName
+            ref="#Trebiano">Trebiano</placeName>, cum frodo<note place="foot" n="b"
+            xml:id="CCCCLXXXIIII_n_002">frodo: <emph>così nel testo per</emph> fodro.</note> et
+          pertinenciis suis, pertinent ad Lunensem episcopum et episcopatum: et hoc possumus probare
+          per privilegia divorum imperatorum et etiam per alia instrumenta publica et etiam in
+          relevatione terrarum, ut continetur in publico instrumento. Item dicimus habere ius in
+          castro <placeName ref="#Arcola">Arcule</placeName> ex pactis et conventionibus habitis cum
+            <persName ref="#GuilEpLuni"><roleName>domino</roleName> Guilielmo, <roleName>bone
+              memorie predecessore nostro</roleName></persName>, et <persName
+            ref="#BartholomeusPagani">Bartholomeo de <placeName ref="#Massa"
+            >Massa</placeName></persName> et etiam per alia instrumenta. Item dicimus nos habere ius
+          in castro <placeName ref="#Vezzano">Vezani</placeName> et maxime in quinta parte, ex
+          concessione facta predecessori nostro a <persName ref="#VivaldusLamberti">Lambertis de
+              <placeName ref="#Vezzano">Vezano</placeName></persName> et alii<supplied
+            reason="omitted">s</supplied> domini<supplied reason="omitted">s</supplied> de
+            <placeName ref="#Vezzano">Vezano</placeName>, qui in feudum tenent a Lunensi ecclesia,
+          secundum quod patet per publica instrumenta. Et etiam maior pars castellanorum sunt
+          vassalli Lunensis ecclesie et etiam <placeName ref="#MonteCocimule">mons
+            Cocimiule</placeName> et dominium eius pertinet ad nos et etiam tenetur in feudum a
+          nobis, sicut per instrumentum et per testes apparet. Item dicimus castrum de <placeName
+            ref="#Isola2">Ysola</placeName> ad episcopatum pertinere ex concessione dominorum dicti
+          castri facta ecclesie Lunensi et in feudum tenetur ab ipsa ecclesia, prout ex instrumento
+          publico continetur. Item dicimus nos ius habere in castris <placeName ref="#Vezzano"
+            >Vezani</placeName> et curia et <placeName ref="#Folo">Foli</placeName> et <placeName
+            ref="#Valeriano">Valerani</placeName> et <placeName ref="#Vesigna">Visigne</placeName>
+          et <placeName ref="#Carpena">Carpene</placeName> et <placeName ref="#Polverara"
+            >Polverarie</placeName> et <placeName ref="#Bivilione">Bevelon<supplied reason="omitted"
+              >i</supplied></placeName>, ex dato et concessione olim facta venerabili patri
+            <persName ref="#MarzuccusEpLuni"><roleName>domino</roleName> Marzucco, <roleName>Lunensi
+              episcopo</roleName></persName>, predecessori nostro, a <persName
+            ref="#GuililemusMalaspina"><roleName>domino</roleName> Guilielmo, <roleName>ma<supplied
+                reason="omitted">r</supplied>chione</roleName> Malaspina</persName>, sicut
+          continetur in publico instrumento, et a <name type="familia" ref="#EstensiFamilia"
+              ><roleName>marchionibus</roleName> de <placeName ref="#Este">Esti</placeName></name> ,
+          sicut continetur in instrumento publico. Item dicimus in castris <placeName ref="#Tivegna"
+            >Tivegne</placeName>, <placeName ref="#Bracellis">Bracelli</placeName>, <placeName
+            ref="#CastiglionediVarese">Castilioni</placeName> et burgo de <placeName
+            ref="#Padulvarmo">Paulvarmo</placeName> nos habere ius et dominium tam tempore <persName
+            ref="#NorandEpLuni"><roleName>domini</roleName> Noradini, <roleName>Lunensis
+              episcopi</roleName></persName>, quam aliorum predecessorum et successorum suorum,
+          sicut continetur in publicis instrumentis et etiam per concessionem factam domino
+            <persName ref="#NicholausFlisco">Nicholao de Flisco</persName> a <persName
+            ref="#GuilEpLuni"><roleName>domino</roleName> Guilielmo, <roleName>Lunensi
+              episcopo</roleName></persName>, predecessore nostro, in feudum. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

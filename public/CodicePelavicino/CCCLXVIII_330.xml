@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXVIII_330">
+    <front xml:id="CCCLXVIII_front">
+
+      <titlePart type="numerazioneNuova">330</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXVIII</titlePart>
+
+      <docDate xml:id="CCCLXVIII_docDate">
+        <date when="1203-11-15">1203 novembre 15</date>, <placeName>Sarzana (<emph>Sarzane, in
+            foro</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXVIII_regesto">
+        <p>Bernarduccio di Sarzana dona per la salvezza della sua anima a Rustico, maestro di Santa
+          Croce a Ripa d’Arno, e a Bertamo di San Maurizio, che ricevono a nome della chiesa di San
+          Maurizio presso il fiume Magra, una albergaria, la quarta parte di un <term
+            xml:lang="latin">traunitorio</term> e un denario dei tre che Bernarduccio era solito
+          ricevere per il podere di Cossiano. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 312r., c. CCCIIIIr. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 368,
+            p. 349.</p>
+          <p> Bibliografia: <ref target="#AMBROSI_1992">AMBROSI 1992</ref></p>
+
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <term xml:lang="latin">Sancte Crucis de
+              Corvo</term></note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXVIII. Sancti Mauritii de Amelia.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXVIII_div">
+        <p xml:id="CCCLXVIII_p_001" n="1"><ptr target="#CCCLXVIII_st_001"/> In Dei nomine, amen.
+            <date when="1203-11-15">Anno a nativitate Eius millesimo ducentesimo tercio, indictione
+            VI, die sabbati, XV intrante novembre</date>. Cum <persName ref="#BernarducciusSarzana"
+            >Bernarducius de <placeName ref="#Sarzana">Sarzana</placeName></persName> debet et
+          consueverit recipere pro podere del <note xml:id="CCCLXVIII_n_001" n="a" place="foot"
+              ><term xml:lang="latin">del</term>: <emph>così nel testo.</emph></note>
+          <placeName ref="#Cossiano">Cossiano</placeName> in <orgName ref="#Luni_S_Maurizio"
+            >ecclesia Sancti Mauricii</orgName> sita iuxta <placeName ref="#Magra">faucem
+            Macre</placeName>
+          <measure unit="denarius" quantity="3">denarios tres</measure> pensionis et quartam partem
+          unius traunitoris et unam albergariam, obtulit et concessit, pro anime sue suorumque
+          parentum remedio <note xml:id="CCCLXVIII_n_002" n="b" place="foot"><term xml:lang="latin"
+              >suorumque parentum remedio</term>: <emph>scritto su abrasione.</emph></note>,
+          inrevocabiliter, <persName ref="#Rusticusmag">Rustico, <roleName>magistro</roleName>
+            <orgName ref="#Pisa_S_Croce_FoceArno">Sancte Crucis</orgName> de <placeName ref="#Arno"
+              >ripa Sarni</placeName></persName>, et <persName ref="#Bertramus"
+              ><roleName>presbitero</roleName> Bertramo de <orgName ref="#Luni_S_Maurizio">Sancto
+              Mauricio</orgName></persName>, recipientibus pro prefata <orgName
+            ref="#Luni_S_Maurizio">ecclesia Sancti Mauricii</orgName>, predictam albergariam et
+            traunitorii<note xml:id="CCCLXVIII_n_003" n="1" place="foot"><term xml:lang="latin"
+              >traunitorii</term>: <emph>riteniamo si tratti di un diritto di attracco legato al
+              trasporto portuale. Si veda in proposito la voce <ref
+                target="http://ducange.enc.sorbonne.fr/TRANA2"> Trana</ref> del Du Cange. Il termine
+              è formato dal prefisso 'trans', dal verbo latino 'iungere' (giungere) nell'accezione
+              di arrivare, approdare, ma anche congiungere. Nella Venezia medievale la casa era
+              dotata di junctorium, 'ad naves jungendas'. Si veda <ref
+                target="http://www.treccani.it/enciclopedia/l-eta-del-comune-la-cultura-i-messaggi-la-religione-le-espressioni-d-arte-gli-edifici_%28Storia-di-Venezia%29/"
+                > W. Dorigo, <emph>L'eta del comune-La cultura, i messaggi, la religione. Le
+                  espressioni d'arte: gli edifici</emph></ref>, in <emph>Storia di Venezia</emph>,
+              Milano, Treccani, 1995, cap. IV. Si ringrazia Sergio Mussi per l'aiuto. </emph></note>
+          quartam partem et de iamscriptis tribus denariis unum, ut ipsa ecclesia non debeat ei vel
+          eius heredibus solvere amodo nisi tantummodo duos denarios annuatim, quoniam de omnibus
+          aliis fecit iamscriptis, recipientibus pro dicta <orgName ref="#Luni_S_Maurizio">ecclesia
+            Sancti Mauricii</orgName>, datum et finem et refutationem et pactum de non petendo pro
+          anime sue suorumque parentum mercede. </p>
+        <p xml:id="CCCLXVIII_p_002" n="2">Actum <placeName ref="#Sarzana">Sarzane</placeName>, in
+          foro, sollempniter, cum stipulatione. Ibi fuerunt rogati testes <persName
+            ref="#IacominusFosedenova">Iacopinus de <placeName ref="#Fosdinovo"
+              >Fosdenova</placeName></persName>, <persName ref="#MartinellusRio">Martinellus de
+              <placeName ref="#Rio">Rio</placeName></persName> et <persName ref="#Agnelluscalz"
+            >Agnellus <roleName>calçolarius</roleName> de <placeName ref="#Sarzana"
+              >Sarzana</placeName></persName>. </p>
+        <p xml:id="CCCLXVIII_p_003" n="3">Ego <persName ref="#Confortusnot">Confortus,
+              <roleName>sacri palacii et Lunensis curie notarius</roleName></persName>, interfui et
+          rogatus scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

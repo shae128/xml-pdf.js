@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXVI_177">
+    <front xml:id="CCXVI_front">
+
+      <titlePart type="numerazioneNuova">177</titlePart>
+      <titlePart type="numerazioneOrig">CCXVI</titlePart>
+
+      <docDate xml:id="CCXVI_docDate">
+        <date when="1277-02-12">1277 febbraio 12</date>, <placeName>Caprigliola <emph>(<term
+              xml:lang="latin">in Capriliola iuxta portam castri</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXVI_regesto">
+        <p/>
+      </div>
+
+      <div type="footer" xml:id="CCXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 249r., c. CCXLIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p/>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il documento è acefalo perché nel manoscritto mancano quattro quinterni.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXVI_div">
+        <p xml:id="CCXVI_p_001" n="1"><pb n="249r" xml:id="fol_249r"/><gap reason="illegibile"/> non
+          inquietare vel molestare in toto nec in parte, et eum, stipulantem ut supra, in tenutam
+          possint ut in rem suam atque dominum et procuratorem eum fecit, concedendo quod possit
+          agere, causari, deffendere dictum podere, bona et iura absque ulla contradictione vel
+          denunciatione ei facta vel suis heredibus, et pro hiis vero attendendis et observandis
+          obligando se suosque heredes atque omnia sua bona nomine pignoris et ypothece et ad penam
+            <measure type="Ianuenses" quantity="10" unit="libra">librarum X Ianuensium</measure>,
+          solvendam quociens incideret in eam; et, pena soluta, rato manente pacto. Omnia vero et
+          expensas ex eo ab inde factas et facta integre restituere promisit, renunciando omni iuri
+          contra hec introductis et introducendis<note place="foot" n="a" xml:id="CCXVI_n_001">
+            <term type="incerto">iuri-introducendis</term><emph>: così nel testo.</emph></note>.</p>
+        <p xml:id="CCXVI_p_002" n="2">Actum in <placeName ref="#Caprigliola">Capriliola</placeName>,
+          iuxta portam castri, presentibus <persName ref="#TudiscusBonapartis">Tudisco quondam
+            Bonapartis</persName>, <persName ref="#IacopelloSanteno">Iacopello Santen(o)</persName>
+          et <persName ref="#BonvicinusBonvicini">Bonvicino filio Bonvicini</persName>, testibus ad
+          hec rogatis, <date when="1277-02-12">anno nativitatis Domini M°CCLXXVII, indictione V, die
+            XII februarii</date>.</p>
+        <p xml:id="CCXVI_p_003" n="3"><ptr target="#CCXVI_st_001"/> Ego <persName
+            ref="#NicholausVinciguerreiud">Nicholaus, Vinciguerre filius, de <placeName
+              ref="#Santo_Stefano">sancto Stephano</placeName>, <roleName>iudex ordinarius atque
+              notarius sacri palacii</roleName></persName>, hiis omnibus interfui, rogatus
+          scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

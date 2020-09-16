@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXXVIII_250">
+    <front xml:id="CCLXXXVIII_front">
+
+      <titlePart type="numerazioneNuova">250</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXXVIII</titlePart>
+
+      <docDate xml:id="CCLXXXVIII_docDate">
+        <date when="1236-01-19">1236 gennaio 19</date>, <placeName>Sarzanello (<term
+            xml:lang="latin">in curia castri Sarzane</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXXVIII_regesto">
+        <p>Guglielmo, vescovo di Luni, loca a Ventura del fu Guglielmo di <term xml:lang="latin"
+            >Codesorbo</term> un pezzo di terra posta presso Castelnuovo. Il fitto è di 2 denari
+          imperiali l’anno. La concessione costa 20 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 277r., c. CCLXVIIIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 288,
+            p. 262, con la data 1239.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Per errore materiale Lupo Gentile data il documento al 1239. In realtà nel testo è
+            scritto <term xml:lang="latin">millesimo CCXXXVI</term>; viene pertanto a cadere
+            l’osservazione di <ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 20. <p>Stesura
+                <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla presenza di Bonagiunta
+              de Podio di Lucca.</p> Il documento contiene formule ceterate.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCLXXXVIII. Denariorum II pensionis, quos reddere debet Vintura de.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXXVIII_div">
+        <p xml:id="CCLXXXVIII_p_001" n="1"><pb n="277r" xml:id="fol_277r"/>In Ihesu Christi Dei
+          eterni, amen.<date when="1236-01-19">Millesimo CCXXXVI, indictione IX, die sabbati, XIIII
+            kalendas februarii</date>, in curia <placeName ref="#Sarzanello">castri
+            Sarzane</placeName>, coram nobili <persName ref="#Aldeprandusvic2">Aldeprando
+              <roleName>vicedomino</roleName></persName> et eius filio <persName
+            ref="#AldeprandetusAldeprandi">Aldeprandeto</persName> et <persName
+            ref="#ParensPasqualini">Parente quondam Pasqualini de <placeName ref="#Sarzanello"
+              >castro Sarzane</placeName></persName> et pluribus aliis testibus rogatis.<persName
+            ref="#VenturaGuilielmi">Venture quondam Guilielmi de <placeName ref="#Codesorbo"
+              >Codesorbo</placeName></persName>, recipienti pro se et heredibus suis ab eo legitime
+          descendentibus, dedit, cessit et locavit venerabilis <persName ref="#GuilEpLuni"
+            >Guilielmus, Dei gratia <roleName>Lunensis episcopus</roleName></persName>, suo nomine
+          et episcopatus per se et suos successores, in perpetuum, petiam I terre site in <placeName
+            ref="#PoçioCastronovo">Poçio de Castronovo</placeName>, partim vineate et partim
+          campate, cui sunt superius fovea sive carbonaria dicti castri, a pede <persName
+            ref="#SamuelBlanci">Samuel quondam Blanci de <placeName ref="#Marzano"
+              >Marçano</placeName></persName>, ab una parte idem <persName ref="#VenturaGuilielmi"
+            >Ventura</persName> et ab alia <persName ref="#ParentinusBalzano">Parentinus</persName>
+          de <placeName ref="#Balzano">Balzano</placeName> pro parte et pro parte filii quondam
+            <persName ref="#Bellonus">Belloni</persName> et filii quondam <persName ref="#Martinus"
+            >Martini</persName>, cum accessibus et egressibus suis omnique iure conctaque utilitate
+          suprascripte petie terre competentibus et competituris, ad habendum, tenendum, fruendum,
+          meliorandum et non deteriorandum, nomine libellario, sine omni dicti domini episcopi et
+          suorum successorum et cuiusque persone contradictione et cum sua suorumque successorum
+          rationabili deffensione ab omni homine et contradicente persona et cetera, cum advocato
+          suo et expensis propriis, et potestatem inde tenutam intrandi et cetera, et exinde
+            tenea<supplied reason="omitted">n</supplied>tur et debeant idem <persName
+            ref="#VenturaGuilielmi">Ventura</persName> et eius heredes omni anno, infra octavam
+          nativitatis Domini, solvere fictam pensionem Lunensi curie <measure type="imperiales"
+            quantity="2" unit="denarius">II denariorum imperialium</measure> tantum; alia
+          superimposita et cetera. Et fuit confessus idem dominus episcopus se ab eo servicium
+          recepisse inde <measure type="imperiales" quantity="20" unit="solidus">soldorum
+            imperialium XX</measure>, renunciando exceptioni non numerate pecunie. Que omnia et
+          singula suprascripta ambe partes, inter se sibi vicissim stipulantes, attendere et
+          observare per se et suos heredes et successores promiserunt in perpetuum nec contravenire,
+          sub pena <measure type="Imperiales" quantity="20" unit="solidus">XX soldorum
+            imperialium</measure> solvenda parti fidem servanti quociens incidetur in eam et, ea
+          soluta, rato manente pacto, se et eius bona idem <persName ref="#VenturaGuilielmi"
+            >Ventura</persName> et dominus episcopus fructus Lunensis curie obligando et tali ordine
+          me <persName ref="#Bonencontrusnot">Bonencontrum <roleName>notarium</roleName></persName>
+          scribere rogaverunt.</p>
+      </div>
+      <div xml:id="CCLXXXVIII_div2" type="mundum">
+        <p xml:id="CCLXXXVIII_p_002" n="2"><ptr target="#CCLXXXVIII_st_001"/> Ego <persName
+            ref="#HengeramusParentisnot">Hengheramus quondam Parentis de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName>, <roleName>palacii sacri
+              notarius</roleName></persName>, hanc cartam a <persName ref="#Bonencontrusnot"
+            >Bonencontro <roleName>notario</roleName> de <placeName ref="#Soliera"
+              >Soleria</placeName></persName> olim abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et autenticavi et
+          in publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+          domino <persName ref="#Bonaiunctaiud">Bonaiuncta de <placeName ref="#PodioLucca">Podio de
+            Luca</placeName>, <roleName>iudice</roleName></persName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+              ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre domino <persName
+            ref="#GuilEpLuni">Guilielmo, <roleName>Lunensi episcopo</roleName></persName>, et
+          <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName>, ut constat per instrumentum publicum
+          factum manu <persName ref="#Alcheriusnot">Alcherii <roleName>notarii</roleName> de
+              <placeName ref="#Lucca">Luca</placeName></persName><note>Stesura <emph>in
+              mundum</emph> del documento n. 250-CCLXXXVIII databile tra il 1270 e il 1272 dalla
+            presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

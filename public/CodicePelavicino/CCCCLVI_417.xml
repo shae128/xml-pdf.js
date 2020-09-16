@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLVI_417">
+    <front xml:id="CCCCLVI_front">
+
+      <titlePart type="numerazioneNuova">417</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLVI</titlePart>
+
+      <docDate xml:id="CCCCLVI_docDate">
+        <date when="1202-05-31">1202 maggio 31</date>, <placeName>Aulla (<term xml:lang="latin">in
+            monasterio Sancti Caprasii de Avula</term>)</placeName>
+        <date when="1202-06-04">1202, giugno 4</date>, <placeName>Pisa (<term xml:lang="latin">in
+            civitate Pisana, in domo hospitalis Sancti Pauli de ripa Sarni</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLVI_regesto">
+        <p>I marchesi Alberto, Guglielmo e Corrado Malaspina promettono di tenere fede a quanto
+          ciascun di loro farà col vescovo Gualtiero, a seguito del lodo di Truffa e Ubaldo,
+          riguardo alla metà di tutto quello che avevano acquisito dai marchesi d’Este nelle curie e
+          nei distretti di Vezzano, Carpena, Vesigna, Follo, Valeriano, Beverino, Polverara,
+          Ripalta, Madrignano e Ponzano. Pochi giorni dopo, il solo marchese Alberto, a nome dei
+          nipoti Guglielmo e Corrado, cede al vescovo Gualtiero in enfiteusi metà <term
+            xml:lang="latin"> pro indiviso</term>di tutto quello che i marchesi avevano acquisito
+          dai marchesi d’Este e in particolare metà del castello di Carpena, un ottavo del castello
+          di Vesigna, di Follo, Valeriano, Beverino, Polverara, Ripalta, Madrignano e Ponzano. Il
+          fitto è di un bisanzio l’anno del valore di tre soldi di imperiali. Inoltre gli cede anche
+          la metà del quarto che Alberto, Guglielmo e Corrado possiedono in tutti i luoghi prima
+          elencati, in particolare a Vesigna e a Ponzano, a garanzia di eventuali controversie
+          legali. Riceve dal vescovo 155 lire di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 354r.-354v., c. CCCXLVr.-CCCXLVv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in<ref target="#MURATORI_1773">MURATORI 1773</ref>, I, cap. XIX, pp.
+            175-177;</p>
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE, 1912</ref>, n. 456,
+            p. 465.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna, la seguente annotazione:<emph> Multa
+              castra</emph></note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <emph>IIIIcLVI. Concessionis et
+              donationis castrorum Ponçani, Vesigne et aliorum a marchionibus facte.</emph></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCCLVI_div">
+        <p xml:id="CCCCLVI_p_001" n="1">
+          <ptr target="#CCCCLVI_st_001"/>In nomine Domini Dei et Salvatoris nostri Ihesu Christi,
+          amen. <date when="1202-06-30">Anno a nativitate Eius M°CCII, indictione V, die veneris,
+            pridie kalendas iunii</date>, presentibus testibus infrascriptis. <persName
+            ref="#AlbertusMalaspina1"> Albertus</persName>, <persName ref="#GuililemusMalaspina"
+            >Guilielmus </persName>et <persName ref="#ConradusMalaspina"> Curradus,
+              <roleName>marchiones </roleName> Malespine</persName>, constituerunt, firmaverunt et
+          promiserunt inter se firmum et ratum habere et tenere perpetuo quicquid aliquis eorum
+          faceret cum domino <persName ref="#GualEpLuni"> Walterio</persName>, <roleName>Dei gratia
+            Lunensi episcopo</roleName>, de venditione seu locatione quam ipsi, ex laudamento et
+          arbitrio <persName ref="#TruffaCastello">Truffe </persName>et <persName
+            ref="#UbaldusParente">Hubaldi</persName>, debebant ei pro episcopatu suo facere de
+          medietate omnium eorum que acquisiverant a marchionibus de <placeName ref="#Este"
+            >Esti</placeName>in curia et districtu <placeName ref="#Vezzano">Vezani</placeName>,
+            <placeName ref="#Carpena">Carpene</placeName>, <placeName ref="#Vesigna"
+            >Vesigne</placeName>, <placeName ref="#Folo">Foli</placeName>, <placeName
+            ref="#Valerano">Vallerani</placeName>, <placeName ref="#Bevelino">Bevelini</placeName>,
+            <placeName ref="#Polverara">Pulverare</placeName>, <placeName ref="#Rivalta"
+            >Rivalte</placeName>, <placeName ref="#Madrognano">Madrognani</placeName> et <placeName
+            ref="#Ponzano">Ponzani</placeName>, sub <note place="foot" n="a" xml:id="CCCCLVI_n_001"
+            >sub: b<emph>corretto su precedente o. </emph></note> pena <measure quantity="100"
+            unit="marca">C marcharum argenti </measure>eidem domino episcopo, stipulanti episcopatus
+          sui nomine, promittentes quicquid in instrumento, quod aliquis eorum, in laude sui
+          sapientis, ei fecerit ex hoc fieri, continebitur, perpetuo in omnibus et per omnia ratum
+          habere et in nullo contravenire. </p>
+        <p xml:id="CCCCLVI_p_002" n="2"> Actum in <orgName type="Aulla_S_Caprasio">monasterio Sancti
+            Caprasii </orgName>de <placeName ref="#Aulla"> Avula</placeName>, sollempni cum
+          stipulatione. Ibi fuerunt rogati testes <persName ref="#GuidoVal">Guido de <placeName
+              ref="#Vallechia">Vallecla</placeName></persName>, <persName ref="#PhilippusPontremulo"
+              >Philippus<note place="foot" n="b" xml:id="CCCCLVI_n_002">Philippus:<emph>nel
+                testo</emph> Phs<emph>, con segno di abbreviazione e con h </emph></note> de
+              <placeName ref="#Pontremoli">Pontremulo</placeName></persName>, <persName
+            ref="#AttoFaucenova">Atto de <placeName ref="#Fosdinovo"
+            >Fosdenova</placeName></persName>, <persName ref="#IacopinusTurricella">Iacopinus de
+              <placeName ref="#Turricella">Turricella</placeName></persName>, <persName
+            ref="#RollandusBurcione">Rollandus de <placeName ref="#Burcione"
+            >Burcione</placeName></persName>, <persName ref="#Nicholausadv">Nicholaus <roleName>
+              advocatus domini episcopi </roleName></persName>et <persName ref="#OpizzusGarrixo"
+            >Oppizo de <placeName ref="#Garrixo">Garrixo</placeName></persName>. </p>
+        <p xml:id="CCCCLVI_p_003" n="3">
+          <date when="1202-06-04">Postea vero, eodem anno, die martis IIII eiusdem mensis
+            iunii</date>, in <placeName ref="#Pisa">civitate Pisana</placeName>, in domo <orgName
+            type="Pisa_S_Paolo_RipaArno">hospitalis Sancti Pauli de </orgName>
+          <placeName ref="#RipaArni">ripa Sarni</placeName>, presentibus testibus <persName
+            ref="#GaetanusBurgondii">Gaitano quondam Burgondii</persName>, <persName
+            ref="#BandinusGaitani">Bandino </persName>eius filio, <persName ref="#Lambertusiur"
+            >Lamberto </persName>et <persName ref="#Nicholausiur">Nicholaus
+              <roleName>iurisperitis</roleName></persName>, <persName ref="#TruffaCastello">Truffa
+            de <placeName ref="#Castello">Castello</placeName></persName>, <persName
+            ref="#IacopinusTurricella">Iacopino de <placeName ref="#Turricella"
+              >Turricella</placeName></persName>, <persName ref="#BullioneSarzana">Bulliono de
+              <placeName ref="#Sarzana">Sarzana</placeName></persName>, <persName
+            ref="#GerardusBullionis">Gerardo</persName> nepote eius, <persName
+            ref="#GerardusVillani">Gerardo quondam Villani</persName>, <persName
+            ref="#AlbertusGumbo">Alberto Gumbo</persName>, <persName ref="#Mançetuscast">Manzeto
+              <roleName>castaldo de </roleName><placeName ref="#Ameglia">Amelia
+            </placeName></persName>et <persName ref="#FranciescoCarrara">Franciesco de <placeName
+              ref="#Carrara">Carraria</placeName></persName>, rogatis ad hec. Vobis domino <persName
+            ref="#GualEpLuni">Walterio <roleName>Dei gratia venerabili Lunensi
+            episcopo</roleName></persName> , recipienti nomine episcopatus vestri, do, loco, cedo et
+          trado ego <persName ref="#AlbertusMalaspina1">Albertus <roleName>marchio </roleName>
+            Malaspina</persName>, pro me et <persName ref="#GuililemusMalaspina">Guilielmo
+          </persName>et <persName ref="#ConradusMalaspina">Currado</persName>, nepotibus meis, et
+          eorum nomine, in emphyteosim, perpetuo, medietatem pro indiviso de toto hoc quod aliquo
+          modo acquisivimus vel acquisivisse dicimur a marchionibus de <placeName ref="#Este"
+            >Esti</placeName>in toto podere quod tenent domini de <placeName ref="#Vezzano"
+            >Vezano</placeName>, vel alia persona pro eis aut occasione eorum, et de toto hoc quod
+          dicti marchiones de <placeName ref="#Este">Esti</placeName> vel alie persone pro eis
+          quondam habebant vel habere debebant in istis terris, que inferius nominantur, et in
+          omnibus eorum curiis et districtibus. Est enim hoc quod vobis loco, trado et cedo:
+          medietas pro indiviso tocius castri de <placeName ref="#Carpena">Carpena</placeName> et
+          curie et districtus eius et medietas pro indiviso unius quarterii castri de <placeName
+            ref="#Vesigna">Vesigna</placeName>, de <placeName ref="#Folo">Folo</placeName>, de
+            <placeName ref="#Valerano">Vallerano</placeName>, de <placeName ref="#Bevelino"
+            >Bevelino</placeName>, de <placeName ref="#Polverara">Pulverara</placeName>, de
+            <placeName ref="#Rivalta">Rivalta</placeName>, de <placeName ref="#Madrognano"
+            >Madrognano</placeName> et de <placeName ref="#Ponzano">Ponzano </placeName>et de curiis
+          et districtibus universis omni<supplied reason="omitted">u</supplied>m predictorum
+          castrorum. Insuper quoque do vobis licenciam intrandi, vestra auctoritate, in tenutam de
+          predictis que <note place="foot" n="d" xml:id="CCCCLVI_n_004">que: q<emph>corretto su
+              precedente </emph>es.</note> vobis pro vestro episcopio loco, constituendo me et
+          dictos nepotes meos, eiusdem episcopatus nomine, possidere; dictum <note place="foot"
+            n="e" xml:id="CCCCLVI_n_005">dictum:<emph>così nel testo, probabilmente per
+            </emph>deinde.</note> cedo et mando vobis omnia iura et actiones utiles vel directas,
+          reales, personales et mixtas, mihi et meis dictis nepotibus in hiis et pro hiis omnibus
+          que vobis, episcopatus vestri nomine, do atque loco, pertinentes; et facio vos
+          procuratores super hiis tanquam super propria re episcopatus iamscripti, eo modo ut
+          prefatus episcopatus et vos et successores vestri eius nomine et omnis persona cuicumque
+          dederitis vel habere decreveritis inde aliquid amodo perpetuo habeatis, teneatis et
+          fruamini, realiter et personaliter, hoc totum quod vobis do, trado et loco, in integrum,
+          cum omni iure, actione, usu, honore, commodo et pertinenciis mihi et dictis meis nepotibus
+          aut etiam marchionibus de <placeName ref="#Este">Esti</placeName> quondam exinde vel
+          proinde pertinentibus, et faciatis inde quicquid volueritis tanquam de re vestri
+          episcopii, sine nostra nostrorumque heredum et cuiusque persone pro nobis contradictione
+          et cum nostra nostrorumque <pb n="354v" xml:id="fol_354v"/> heredum deffensione ab omni
+          persona cum ratione, solvendo ob hoc nobis nostrisque heredibus aut cui commiserimus, omni
+          anno, infra octavam nativitatis Domini, fictam pensionem <measure quantity="1"
+            unit="solidus"> bizantium unum </measure>valentem non ultra <measure type="Imperiales"
+            quantity="3" unit="solidus"> tres soldos imperialium </measure> tantum; alia super
+          imposita non fiat. Deffendere teneatur quisque nostrum in solidum, non obstante iure quo
+          dicitur quod nequis ex reis conveniatur in solidum donec alter presens sit ad solvendum,
+          quoniam renuncio illi iuri pro me et dictis meis nepotibus. Preterea namque assigno vobis
+          et trado medietatem pro indiviso illius quarterii quod habemus pro patrimonio nostro in
+          omnibus predictis in <placeName ref="#Vesigna">Vesigna </placeName>et in <placeName
+            ref="#Ponzano">Ponzano</placeName> et in eorum curiis et districtibus, tali pacto quod,
+          si deffendere non possemus rationabiliter nos et heredes nostri, illud totum quod vobis
+          loco et trado habeatis vos et successores vestri pro episcopio dicto et ea persona
+          cuicumque dederitis inde aliquid et teneatis et fruamini hec omnia que vobis do atque
+          loco; et si quando vos vel successores vestri habueritis aliquam litem, molestiam seu
+          brigam a marchionibus de <placeName ref="#Este">Esti</placeName> de hiis que vobis loco et
+          de quibus facio vobis hanc cartam fieri, et volueritis ea nobis vel heredibus nostris
+          dimittere et laxare, tunc teneamur vobis dare et locare tantumdem de nostro patrimonio in
+          quolibet predictorum castrorum et in omnibus eorum curiis et districtibus et nominatim in
+            <placeName ref="#Vesigna">Vesigna</placeName> et <placeName ref="#Ponzano"
+            >Ponzano</placeName> et in eorum curiis et districtibus illa quarteria que ibi pro
+          patrimonio nostro habemus, et facere inde vobis fieri cartam cum omnibus pactis cum quibus
+          iamscripta vobis facio presentialiter fieri de hiis que vobis trado et loco. Ad hec
+          promitto per me et dictos nepotes meos et per nostros heredes attendere semper et
+          observare quicquid <persName ref="#TruffaCastello">Truffa</persName>et <persName
+            ref="#Ubalduscan">Hubaldus</persName> preceperunt nobis et arbitrati sunt vel precipient
+          et arbitrabuntur, sicut in laudamento eorum manu <persName ref="#Confortusnot">Confortus
+              <roleName>notarii </roleName></persName> scripto continetur, et in nullo contravenire,
+          renunciando specialiter illi consuetudini qua forte possemus contravenire, dicendo quod
+          comites vel marchiones non debeant ita res suas alienando distrahere. Item, confitendo
+          quod tam ego quam dicti nepotes mei sum maior etate <note place="foot" n="f"
+            xml:id="CCCCLVI_n_006">tam ego-maior etate:<emph>così nel testo. </emph></note>,
+          confiteor me recepisse, simul cum eis, a vobis, pro iamscripta locatione, <measure
+            type="Imperiales" quantity="155" unit="solidus"> bonorum imperialium libras
+            CLV</measure><note place="foot" n="g" xml:id="CCCCLVI_n_007">CLV: CL<emph>corretto su
+              precedente scrittura. </emph></note>, renunciando exceptioni non numerate vel non
+          solute pecunie et quod non possimus aliquando dicere quod decepti fuerimus ultra dimidiam
+          iusti precii. Pensionem siquidem iamscriptam vobis, episcopatus vestri nomine
+          recipientibus, inrevocabiliter et perpetuo habendam, pro me et dictis meis nepotibus et
+          pro animarum nostrarum nostrorumque parentum remedio, dono, concedo et offero et ab eius
+          solutione vos et successores vestros libero, ut non debeatis eam ullo tempore solvere nec
+          nos petere neque heredes nostri. Hec omnia facio et promitto per me et dictos nepotes meos
+          et per nostros heredes vobis iam dicto domino episcopo, stipulanti episcopatus vestri
+          nomine, perpetuo rata habere et tenere, attendere et observare et in nullo contravenire;
+          alioquin <measure quantity="100" unit="solidus"> C marchas argenti</measure> , nomine
+          pene, solvere teneamur vobis vel successoribus vestris aut cui eam commiseritis
+          exhigendam, rato manente pacto post pene etiam solutionem. Et sciendo quod apud <placeName
+            ref="#Aulla">Avulam</placeName>, quando constituimus ut alii ratum haberent quicquid
+          aliquis nostrum faceret de hac locatione vobiscum, sicut superius legitur, obligavimus,
+          pro pena <measure quantity="100" unit="solidus"> C marcharum argenti </measure>, omnia
+          nostra bona mobilia et immobilia, habita et habenda, confitendo etiam tunc quod quilibet
+          nostrorum erat maior XXV annis; et modo similiter, pro eadem pena, eadem nostra bona
+          obligo universa, ita ut, pena commissa, liceat vobis vel successoribus vestris ingredi
+          vestra auctoritate et sine decreto alicuius presidis et potestatis bona nostra vel heredum
+          nostrorum que mallueritis et facere vobis extimari de eis valens <measure
+            type="imperiales" quantity="100" unit="solidus"> C libre imperialium </measure> et
+          extimatum iure proprio habere et tenere, iamscriptis pactis in omnibus et per omnia
+          conservatis; et renuncio omni iuris et consuetudinis adiutorio generali et speciali quo
+          possemus aliquando contra predicta venire in aliquo; et quicquid predicta valent plus
+          dicto precio vobis pro episcopatu vestro et eius nomine pura et simplici donatione
+          concedo. </p>
+        <p xml:id="CCCCLVI_p_004" n="4">
+          <persName ref="#Confortusnot">Confortus<roleName>, sacri palacii et Lunensis curie
+              notarius</roleName></persName>, hiis omnibus interfui rogatus et scripsi </p>
+      </div>
+    </body>
+  </text>
+</TEI>

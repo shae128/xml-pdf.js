@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="LXIII_90">
+        <front xml:id="LXIII_front">
+
+            <titlePart type="numerazioneNuova">90</titlePart>
+            <titlePart type="numerazioneOrig">LXIII</titlePart>
+
+            <docDate xml:id="LXIII_docDate">
+                <date notBefore="1140-07" notAfter="1143-07">[1140-1143] luglio</date>,
+                    <placeName>Sarzana (<term xml:lang="latin">in burgo de
+                    Sarzana</term>),</placeName>
+            </docDate>
+            <div type="regesto" xml:id="LXIII_regesto">
+                <p>Memoria del giuramento, prestato alla presenza dei consoli di Lucca Marone e
+                    Frugheno, dagli abitanti di Sarzana al vescovo di Luni Gotifredo. Si impegnano a
+                    non contestare al vescovo gli usi e i diritti dichiarati per giuramento da
+                    Ranieri di Cervara, Rainaldo di Carrara, Gualterone di Vallecchia, Forselleno,
+                    Baldinello, Giolitta vedova di Ardizzone e Berta di Ballialo nonché gli usi e di
+                    diritti a suo tempo oggetto di accordo tra loro stessi e il vescovo, il quale
+                    detiene comunque il potere di catturare entro il borgo truffatori, omicidi,
+                    incendiari e traditori. Non costruiranno edifici o fossati con funzione militare
+                    senza il consenso del vescovo e distruggeranno tutte le costruzioni fatte
+                    all’inizio del borgo dalla parte orientale, secondo le indicazioni dei suddetti
+                    consoli di Lucca. Eleggerano infine i consoli del borgo seguendo il consiglio
+                    del vescovo; questi ultimi dovranno comunque giurare fedeltà al prelato prima
+                    della nomina e rispettare i diritti e usi oggetto del giuramento.</p>
+            </div>
+
+            <div type="footer" xml:id="LXIII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] c. 192r., c. CLXXXIIIIr. secondo la numerazione originale.</p>
+                </div>
+                <div type="biblio">
+                    <p>Edizioni: <ref target="#HPM_CHARTARUM">HPM CHARTARUM</ref>, II, n. CLXXXVI,
+                        coll. 233-234; <ref type="biblio" target="#CONTI_1979-1988">CONTI
+                            1979-1988</ref>, I, n. I, pp. 11-12.</p>
+                    <p>Regesto: <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 63, p.
+                        100.</p>
+                </div>
+                <div type="crit_notes">
+                    <note>Nel 1140 l’indizione era la III e non la VI; si può presumere sia l’errore
+                        del copista nell’indizione e quindi accettare il 1140, sia la dimenticanza
+                        dell’unità dell’anno e quindi correggere la data al 1143. I consoli lucchesi
+                        Marone e Frugheno, sono probabilmente da identificare con Moretto del fu
+                        Antonio e Frugerio del fu Bruno, attestati in un documento del 1146 (<ref
+                            type="biblio" target="#ASLu_SF">ASLu S. Giovanni</ref>, 22 novembre
+                        1146). Nel margine esterno, di mano poco posteriore: <term xml:lang="latin"
+                            >Iuramentum illorum de Sarzana</term>. Poco più sotto, di altra mano più
+                        tarda: <term xml:lang="latin">Iuramentum Sarzanensium factum episcopo
+                            Gotifredo</term> (segue depennato: ab). </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXIII. Sacramenti facti a burgensibus Sarçane domino
+                            episcopo.</term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="LXIII_div">
+                <p xml:id="LXIII_p_001">
+                    <pb n="192r" xml:id="fol_192r"/>
+                    <ptr target="#LXIII_st_001"/> In Dei Patris omnipotentis nomine. Breve memorie
+                    de sacramento quod burgenses de <placeName ref="#Sarzana">Sarzana</placeName>
+                    iuraverunt <persName ref="#GotefredEpLuni2">Gotiffredo</persName>, <roleName>Dei
+                        gratia Lunensi episcopo</roleName>: «Ego ab hac hora in antea studiose non
+                    tollam nec tollere faciam nec contendam Gotiffredo, Lunensi episcopo, usus atque
+                    rationes episcopatus <orgName ref="#Luni_S_Maria">Sancte Marie
+                        Lunensis</orgName>, manifestam et manifestatam<note place="foot" n="a"
+                        xml:id="LXIII_n_001">manifestatam:<emph>così nel testo.</emph></note> per
+                    sacramentum a <persName ref="#RaineriusCorvara">Raynerio de</persName>
+                    <placeName ref="#Corvara">Cervara<note place="foot" n="b" xml:id="LXIII_n_002"
+                                >Cervara:<emph>così nel testo probabilmente
+                        per</emph>Corvara</note></placeName> et <persName ref="#RainaldusCarrara"
+                        >Rainaldo de</persName>
+                    <placeName ref="#Carrara">Carrara</placeName> et <persName
+                        ref="#GualteroneVallechia">Gualterone de <placeName ref="#Vallechia"
+                            >Vallechia</placeName></persName> et <persName ref="#Forsellenus"
+                        >Forselleno</persName> atque <persName ref="#Baldinellus"
+                        >Baldinello</persName> et <persName ref="#Iulita_relArditionis">Ioletta,
+                        relicta quondam Arditionis</persName>, et <persName ref="#BertaBallialo"
+                        >Berta</persName> de <placeName ref="#Ballialo">Ballialo</placeName> et
+                    alios usus de quibus concordia fuit inter predictum <persName
+                        ref="#GotefredEpLuni2">Gotiffredum</persName>, <roleName>Lunensem
+                        episcopum</roleName>, atque burgenses de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>. Et si quis tollere vel contendere voluerit predicto
+                    episcopo suprascriptos usus et rationes, adiuvabunt<note place="foot" n="c"
+                        xml:id="LXIII_n_003">adiuvabunt:<emph>così nel testo per</emph>
+                        adiuvabo</note> eum inde extra suprascripti burgi iuratum. Et si aliquis
+                    predictorum burgensium offenderit prefatum episcopum et emendare noluerit,
+                    constringam eum ut emendet vel cum ipso episcopo ero extra iamdicti burgi
+                    iuratum ad vindictam faciendam; atque si aliquis inimicus suprascripti episcopi,
+                    preter suprascriptos burgenses, venerit in predictum burgum postquam mihi a
+                    suprascripto episcopo interdictum fuerit, nec eum recipiam nec auxilium vel
+                    consilium ei dabo contra predictum episcopum, set ero cum ipso episcopo contra
+                    eum extra burgi iuratum. Infra ipsum quoque burgi iuratum prefatus episcopus
+                    potestatem habeat capiendi tricatores, homicidas, incendarios atque traditores;
+                    et nullum hedificium vel fossatum pro munimine suprascripti burgi faciam vel
+                    facere faciam vel aptabo vel aptare faciam sine predicti episcopi libera
+                    parabola data. Et omnia hedificia vel munimina, que facta sunt in capite
+                    suprascripti burgi, a parte orientis, destruam vel destrui permittam quantum
+                        <persName ref="#Marone_consul">Marone</persName> et <persName
+                        ref="#Frughenus_consul">Frughenum <note place="foot" n="d"
+                            xml:id="LXIII_n_004"> Frughenum :<emph> così nel
+                        testo.</emph></note></persName>, <placeName ref="#Lucca">Lucani</placeName>
+                    <roleName>consules</roleName>, designaverint. Consules prefati burgi non eligam,
+                    nisi consilio a prefato episcopo quesito et accepto ab eo sine fraude, si dare
+                    voluerit, et illos eligam qui fidelitatem fecerunt suprascripto episcopo vel
+                    fecerint antequam consules prefati fiant. Et quando consules suprascripti burgi
+                    iuraverint consulatum eiusdem burgi, constringam eos iurare usus et rationes
+                    predictas suprascripti episcopi salvare et non minuere, si hoc iurare noluerint.
+                    Hec omnia predicta observabo sine fraude et malo ingenio donec predictus
+                    episcopus vixerit, excepto quantum remanserit per liberam parabolam a
+                    suprascripto episcopo datam». Hoc autem factum est sacramentum a burgensibus de
+                        <placeName ref="#Sarzana">Sarzana</placeName> in ipso burgo de <placeName
+                        ref="#Sarzana">Sarzana</placeName>, coram <persName ref="#Marone_consul"
+                        >Marone</persName> et <persName ref="#Frughenus_consul">Frugheno</persName>,
+                        <placeName ref="#Lucca">Lucanis</placeName>
+                    <roleName>consulibus</roleName> , <persName ref="#UgoDinfaciatus">Ugo
+                        prenominato Dinfaciato Ughi</persName> et <persName ref="#GallusGhermondi"
+                        >Gallo quondam Ghermondi</persName> et <persName ref="#SasellusGuillie"
+                        >Sasello Guillie</persName> atque <persName ref="#Manfredus_iudex"
+                        >Manfredo</persName>, <roleName>iudice donni imperatoris</roleName>, et
+                    aliis pluribus, <date when="1140-07">anno dominice incarnationis millesimo
+                        centesimo quadragesimo, mense iulio, indictione VI<note place="foot" n="a"
+                            xml:id="LXIII_n_005">manifestam et manifestatam: <emph>così nel
+                                testo</emph></note>.</date>
+                </p>
+                <p xml:id="LXIII_p002">
+                    <ptr target="#LXIII_st_002"/>
+                    <persName ref="#Ugo_notarius">Ugo</persName>, <roleName>notarius donni
+                        imperatoris</roleName>, predicto sacramento interfui et hoc breve, memorie
+                    causa, descripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

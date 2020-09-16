@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title/>
+   </titleStmt>
+   <publicationStmt>
+    <publisher/>
+   </publicationStmt>
+   <sourceDesc>
+    <msDesc>
+     <msIdentifier/>
+    </msDesc>
+   </sourceDesc>
+  </fileDesc>
+ </teiHeader>
+ <text xml:id="CCCCXXVIIII_390">
+  <front xml:id="CCCCXXVIIII_front">
+
+   <titlePart type="numerazioneNuova">390</titlePart>
+   <titlePart type="numerazioneOrig">CCCCXXVIIII</titlePart>
+
+
+   <docDate xml:id="CCCCXXVIIII_docDate">
+    <date when="1266-06-13">1266 giugno 13</date>, <placeName>Santo Stefano Magra <emph>(<term
+       xml:lang="latin">apud Sanctum Stephanum, in podio</term>)</emph>
+    </placeName>
+   </docDate>
+
+   <div type="regesto" xml:id="CCCCXXVIIII_regesto">
+    <p>Mazolo, capitano in Albiano, e i consiglieri Adorneto, Pietro e Parente a nome della comunità
+     di Albiano, costituiscono Ferro di Cordula loro sindaco e procuratore per trovare un accordo
+     con il vescovo di Luni Guglielmo al fine di riformare i patti e gli ordinamenti precedenti
+     stabiliti tra la comunità e il vescovo e a redigerne di nuovi. </p>
+   </div>
+   <div type="footer" xml:id="CCCCXXVIIII_footer">
+
+    <div type="orig_doc">
+     <p>Copia di copia autentica [C] c. 337v., c. CCCXXVIIIIv. secondo la numerazione originale.
+     </p>
+    </div>
+
+    <div type="biblio">
+     <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 429, pp.
+      422-423. </p>
+    </div>
+    <div type="appr">
+     <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCCXXVIIII.
+       Sindicatus comunis Albiani ad paciscendum de predictis.</term></p>
+    </div>
+   </div>
+  </front>
+  <body>
+   <div xml:id="CCCCXXVIIII_div">
+    <p xml:id="CCCCXXVIIII_p_001" n="1"> In Christi nomine. <persName ref="#Maçoluscon">Maçolus,
+       <roleName>capitaneus</roleName></persName> in <placeName ref="#Albiano">Albiano</placeName>,
+     et <persName ref="#Adornetuscon">Adornetus</persName> et <persName ref="#Petruscon"
+      >Petrus</persName> et <persName ref="#Parenscon">Parens</persName>,
+      <roleName>consiliarii</roleName>, ut dixerunt, necnon et populus dicte ville presens,
+     videlicet <persName ref="#Albianinus">Albianinus</persName>, <persName ref="#Pasquetus"
+      >Pasquetus</persName>, <persName ref="#Mortignonus">Mortignonus</persName>, <persName
+      ref="#Morenus">Morenus</persName>, <persName ref="#PaganinusCordula">Paganinus de <placeName
+       ref="#Cordula">Cordula</placeName></persName>, <persName ref="#Ranocinus"
+      >Ranochinus</persName>, <persName ref="#Bonacursus">Bonacursus</persName>, <persName
+      ref="#Bonacaptusnot">Bonacactus</persName>, <persName ref="#Fuscholellus"
+      >Fuscholellus</persName>, <persName ref="#BenvenutusArali">Benvenutus de <placeName
+       ref="#Arali">Arali</placeName></persName>, <persName ref="#VenucellusMartignoni">Venucellus
+      Martignoni</persName>, <persName ref="#Carindonus">Carindonus</persName>, <persName
+      ref="#Andreolus">Andreolus</persName>, <persName ref="#Bonavita">Bonavita</persName>,
+      <persName ref="#HenricusConsilii">Henricus Consilii</persName>, <persName
+      ref="#BonavereMercadantis">Bonavere Mercadantis</persName>, <persName
+      ref="#AdornellusMartignoni">Adornellus Martignoni</persName> et <persName
+      ref="#VenutusGuiçomanni">Venutus quondam Guiçomanni</persName>, fecerunt et constituerunt
+      <persName ref="#FerrusCordula">Ferrum de <placeName ref="#Cordula"
+      >Cordula</placeName></persName>, presentem et mandatum suscipientem, eorum et dicte
+     universitatis <roleName>syndicum et procuratorem</roleName>, ad transigendum et
+      paciscendum<note n="a" place="foot" xml:id="CCCCXXVIIII_n_001">paciscendum:<emph> nel testo
+       </emph>pasciscendum<emph>con la prima s espunta.</emph></note> cum venerabili patre domino
+      <persName ref="#Guilielmus">Guilielmo</persName>, <roleName>Lunensi episcopo</roleName>,
+     agente et pro Lunensi Ecclesia et episcopatu Lunensi, ad pacta et conventiones veteres
+     reformandas et ad novas inveniendas inter ipsum dominum episcopum, pro episcopatu, et
+     suprascriptam universitatem et ad firmandum pacta et conventiones illas et roborandas et
+     vallandas cum pena et pene promissione et obligatione bonorum dicte universitatis, et ad
+     stipulandum et recipiendum ab ipso domino episcopo obligationem et promissionem pro dicto
+     domino episcopo et episcopatu suo et ad omnem cautelam faciendam et recipiendam, prout negocii
+     vel negociorum qualitas postulat et requirit, promittentes se ratum et firmum habituros totum
+     et quicquid per ipsum Ferrum actum fuerit seu gestum, sub ypotheca rerum suarum et dicte
+     universitatis.</p>
+    <p xml:id="CCCCXXVIIII_p_002" n="2"> Actum apud <placeName ref="#Santo_Stefano">Sanctum
+      Stephanum</placeName>, in podio, <date when="1266-06-13">dominice quidem nativitatis anno
+      M°CCLXVI, indictione IX, die dominico, XIII iunii.</date> Testes interfuerunt<persName
+      ref="#OctonellusValentini"> Ottonellus quondam Valentini Grassi de <note n="b" place="foot"
+       xml:id="CCCCXXVIIII_n_002">Ottonellus: <emph> e aggiunto in sopralinea</emph></note>
+      <placeName ref="#Fontanella">Fontanella</placeName></persName>, <persName
+      ref="#ConfortusPodenzana">Confortus de <placeName ref="#Podentiana">Padonzano<note n="c"
+        place="foot" xml:id="CCCCXXVIIII_n_003">Padonzano: <emph>così nel testo per</emph>Podenzana
+        cfr. doc. 389-CCCCXXVIII</note>
+      </placeName>
+     </persName>et alii.</p>
+    <p xml:id="CCCCXXVIIII_p_003" n="3">
+     <ptr target="#CCCCXXVIIII_st_001"/> Ego <persName ref="#Iacobinusnot">Iacobinus</persName>,
+      <roleName>domini Frederici imperatoris notarius</roleName>, hec rogatus scripsi et
+     firmavi.</p>
+
+   </div>
+
+  </body>
+ </text>
+</TEI>

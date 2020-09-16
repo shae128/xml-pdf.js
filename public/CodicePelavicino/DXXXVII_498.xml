@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXXXVII_498">
+    <front xml:id="DXXXVII_front">
+
+      <titlePart type="numerazioneNuova">498</titlePart>
+      <titlePart type="numerazioneOrig">DXXXVII</titlePart>
+
+      <docDate xml:id="DXXXVII_docDate">
+        <date when="1204-03-26">1204 marzo 26</date>, <placeName ref="#Laterano">, Laterano
+              <emph>(<term xml:lang="latin">Laterani</term>)</emph>.</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="DXXXVII_regesto">
+        <p>Il pontefice Innocenzo III affida al vescovo di Lucca la composizione di una lite fra il
+          monastero di Aulla da una parte e il vescovo di Luni, l’arciprete di S. Cassiano di
+          Pontremoli, il cappellano di S. Alessandro e i parrocchiani della diocesi di Luni
+          dall’altra sulla commutazione di alcune chiese. </p>
+      </div>
+
+      <div type="footer" xml:id="DXXXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] c. 398r., c. CCCLXXXXr. secondo la numerazione originale.
+          </p>
+        </div>
+
+
+        <div type="biblio">
+          <p>Edizione in: <ref target="#LUPO_GENTILE_1912">LUPO GENTILE, 1912</ref>, n. 537, pp.
+            601-602 con la data 1205.</p>
+
+        </div>
+
+        <div type="crit_notes">
+          <note><p>Innocenzo III fu consacrato papa il 22 febbraio del 1198, perciò l’anno settimo
+              del suo pontificato terminava il 21 febbraio 1205. La lettera, essendo datata 26
+              marzo, sarà del 1204: cfr. <ref target="#MAZZINI_1914">Mazzini 1914</ref>, p. 37.</p>
+            <p>Autentica priva di data, presumibilmente posteriore alla sentenza del 1211 dicembre
+              19, doc. 487-DXXXVI.</p></note>
+        </div>
+
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXXXVII.
+              Lictere papales super comutatione quarumdam ecclesiarum monasterii de
+            Avula.</term></p>
+        </div>
+
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXXXVII_div">
+        <p>Exemplum litterarum domini pape. «Innocentius <roleName>episcopus, servus servorum
+            Dei</roleName>, venerabili fratri <persName ref="#RobertusepiLuc">episcopo</persName>
+          <placeName ref="#Lucca">Lucano</placeName>, salutem et apostolicam benedictionem. Causam
+          quam dilectus filius abbas <placeName ref="#Aulla">Avul</placeName><orgName
+            ref="#Aulla_S_Caprasio">ensis</orgName> adversus venerabilem fratrem vestrum Lunensem
+          episcopum, archipresbyterum <orgName ref="#Urceola_S_Cassiano">Sancti Cassiani</orgName>
+          de <placeName ref="#Pontremoli">Pontremulo</placeName>, cappellanum <orgName
+            ref="#Pontremoli_S_Alessandro">Sancti Alexandri</orgName> et parrochianos ipsius
+          Lunensis dyocesis super commutatione quarumdam ecclesiarum, in qua idem in duplum, sicut
+          asserit, est deceptus, se habere proponit, tuo committimus examini terminandam,
+          fraternitati tue per apostolica scripta mandantes quatinus, partibus convocatis et auditis
+          hinc inde propositis, quod iustum fuerit, appellatione remota, decernas, faciens quod
+          decreveris per censuram ecclesiasticam firmiter observari. Testes autem, qui fuerint
+          nominati, si se gratia, odio vel timore subtraxerint, simili distinctione, appellatione
+          remota, compellas veritati testimonium perhibere, nullis litteris veritati et iusticie
+          preiudicantibus a Sede Apostolica impetratis. Datum <placeName ref="#Laterano"
+            >Laterani</placeName>, <date when="1204-03-26"> VII kalendas aprilis, pontificatus
+            nostri anno septimo</date>». </p>
+        <div xml:id="DXXXVII_div2" type="autentica">
+          <p xml:id="DXXXVII_p_001" n="1"><ptr target="DXXXVII_st_001"/> Ego <persName
+              ref="#Vuilielmusnot6">Vilielmus</persName>, <roleName>iudex et notarius domini
+              imperatoris</roleName>, autenticum illud, unde hoc exemplum est conceptum, diligenter
+            exemplavi.</p>
+          <p xml:id="DXXXVII_p_002" n="2"><ptr target="DXXXVII_st_002"/> Ego <persName
+              ref="#Castellanus_notarius">Castellanus</persName>
+            <roleName>notarius</roleName> autenticum huius exempli vidi, legi et fideliter exemplavi
+              <note xml:id="DXXXVII_n_001"> Autentica del documento 498-DXXXVII priva di data,
+              presumibilmente posteriore alla sentenza del 1211<date notBefore="1204-03-26"
+                notAfter="1211-12-19" cert="medium"/></note>.</p>
+        </div>
+      </div>
+
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="\schema\tei_cp.rng" type="application\xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+
+    <text xml:id="LVI_83">
+        <front xml:id="LVI_front">
+
+            <titlePart type="numerazioneNuova">83</titlePart>
+            <titlePart type="numerazioneOrig">LVI</titlePart>
+
+            <docDate xml:id="LVI_docDate">
+                <date when="1201-06-04">1201 giugno 4</date>
+            </docDate>
+
+            <div type="regesto" xml:id="LVI_regesto">
+                <p>In esecuzione dell’accordo concluso, con il beneplacito di papa Innocenzo III,
+                    tra il vescovo Gualtiero e i canonici di Luni circa il trasferimento della
+                    chiesa da Luni a Sarzana, il vescovo concede ai canonici le pievi di S. Basilio
+                    e di S. Andrea poste nel borgo di Sarzana con tutti i loro beni e diritti,
+                    eccetto le case e l’orto di S. Andrea e la vigna <term xml:lang="latin">de
+                        Cursu</term>; i canonici danno al vescovo la chiesa di S. Pietro ad Avenza e
+                    l’intero borgo di Avenza con pertinenze e diritti e gli otto delle nove
+                    procurazioni che lui gli doveva annualmente, cosìcché tutte le cappelle delle
+                    suddette pievi rispondano a lui per le procurazioni del papa, dei cardinali e
+                    dei loro nunzi, oltre che per le collette; uguamente facciano le chiese plebane
+                    di Luni, eccetto quella di <term xml:lang="latin">Iliolo</term>. Si stabilisce
+                    inoltre che i canonici non possano essere più di 12, che tutte le prelature
+                    cessino eccetto l’archipresbiterato; quando si renderanno vacanti tre o più
+                    prebende, una sia del vescovo. </p>
+            </div>
+
+            <div type="footer" xml:id="LVI_footer">
+
+                <div type="orig_doc">
+                    <p>Copia autentica [C] cc. 159r.-159v., cc. CLIr.-CLIv. secondo la numerazione
+                        originale</p>
+                </div>
+
+                <div type="biblio">
+                    <p>Altra copia autentica [D] del 7 novembre 1328 nell’Archivio Capitolare di
+                        Sarzana; bibliografia <ref target="#FREGGIA_1989">FREGGIA 1989</ref>, p.
+                        101, G/3 (da verificare) </p>
+                    <p> Edizione di C in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>,
+                        n. 56, pp. 92-93. </p>
+                    <p> Bibliografia: <ref target="#POLONIO_2007">POLONIO 2007</ref>, p. 231 </p>
+                </div>
+
+                <div type="crit_notes">
+                    <note>
+                        <p> Parte del testo è stata letta con l’ausilio della luce di Wood. </p>
+                        <p> Autentica databile alla seconda metà del XIII secolo dalla presenza del
+                            notaio Buonalbergo, attivo dal 1253 al 1268. </p>
+                        <p> Nel margine esterno di c. 159r., di mano moderna: <term xml:lang="latin"
+                                > Concessio Sancti Andree et Sancti Basilii capitulo</term>. Poco
+                            più in basso, un’altra mano ancora più tarda ha aggiunto: <term
+                                xml:lang="latin">cum renunciatione domorum et horto Sancti Andree et
+                                vinearum de Cursu.</term>
+                        </p>
+                    </note>
+                </div>
+
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LVI. Pacta inter dominum episcopum et Lunense capitulum
+                            super translatione ecclesie Lunensis. </term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="LVI_div">
+                <p xml:id="LVI_p_001" n="1"> In Dei nomine, amen. <date when="1201-06-04">Anno a
+                        nativitate Eius millesimo CC primo, indictione quarta, die lune, quarto
+                        intrante mense iunii</date> Cum sit communis concordia inter nos et
+                    canonicos Lunensis ecclesie transferre Lunensem ecclesiam ad burgum de
+                        <placeName ref="#Sarzana">Sarzana</placeName>, cum auctoritate <persName
+                        ref="#InnocentiuspontifexIII"><roleName>domini</roleName> Innocentii pape
+                        tercii</persName>, pro communi utilitate tocius cleri et populi episcopatus
+                    nos <persName ref="#GualEpLuni">Gualterius, <roleName>Lunensis ecclesie
+                            episcopus</roleName></persName>, damus et concedimus vobis venerabilibus
+                    fratribus nostris Lunensibus canonicis, videlicet tibi <persName
+                        ref="#Rodulfusarc">Rodulfo <roleName>archidiacono</roleName></persName>,
+                    recipienti pro universitate Lunensis capituli atque pro ipso capitulo, ad
+                    construendam cathedralem ecclesiam, <orgName ref="#Sarzana_S_Basilio">plebem
+                        Sancti Basilii</orgName> et <orgName ref="#Sarzana_S_Andrea">plebem Sancti
+                        Andree</orgName>, sitas in burgo <placeName ref="#Sarzana"
+                        >Sarzane</placeName>, cum omni eorum iure parrochiali et capellis et omnibus
+                        eorum<note place="foot" n="a" xml:id="LVI_n_001">omnibus eorum: <emph>nel
+                            testo eorum omnibus con segno di richiamo per invertire l’ordine delle
+                            parole</emph>.</note> possessionibus mobilibus et immobilibus, exceptis
+                    domibus atque orto <orgName ref="#Sarzana_S_Andrea">Sancti Andree</orgName> et
+                    vineis de <placeName ref="#Curso">Cursu</placeName>, que pertinent ipsi
+                    ecclesie, cum olivis in ipsis vineis et orto contentis, que ad proprium nostre
+                    camere usum retinemus de communi voluntate vestra, pro commutatione iamscripta
+                    et recompensatione predictorum. Nos <persName ref="#GualEpLuni">Gualterius,
+                            <roleName>Lunensis episcopus</roleName></persName>, <persName
+                        ref="#Rodulfusarc">Rodulfus <roleName>archidiaconus</roleName></persName>,
+                        <persName ref="#Guidoarch">Guido
+                        <roleName>archipresbyter</roleName></persName>, <persName
+                        ref="#Arditio_prepositus">Arditio
+                    <roleName>prepositus</roleName></persName>, <persName ref="#Baldanzacan"
+                        >Baldantia <roleName>cantor</roleName></persName>, <persName
+                        ref="#Vitalis_plebanus">Vitalis <roleName>plebanus</roleName> de <orgName
+                            ref="#Massa_S_Vitale"><placeName ref="#Massa"
+                            >Massa</placeName></orgName></persName>, <persName
+                        ref="#Albertus_dyaconus">Albertus <roleName>dyaconus</roleName></persName>,
+                        <persName ref="#Philippus_canonicus_Lun">Philippus</persName> et<persName
+                        ref="#OpizusBurçiono"> Opizo de <placeName ref="#Burcione">
+                            Burzone</placeName>, <roleName>Lunenses canonici</roleName></persName>,
+                    damus vobis suprascripto domino episcopo, pro Lunensi episcopatu recipienti,
+                    ecclesiam <orgName ref="#Avenza_S_Pietro">Beati Petri de <placeName
+                            ref="#Avenza">Avenzia</placeName></orgName> et ipsum burgum de
+                        <placeName ref="#Avenza">Aventia</placeName> totum cum omni iure atque
+                    pertinenciis ecclesie ipsius<note place="foot" n="b" xml:id="LVI_n_002">ecclesie
+                        ipsius: <emph>nel testo</emph> ipsius ecclesie<emph> con segno di richiamo
+                            per invertire l’ordine delle parole</emph>.</note> et burgi, que vobis
+                    deffendere et successoribus vestris <pb n="159v" xml:id="fol_159v"/> per nos et
+                    successores nostros rationabiliter promittimus vel restaurare, si deffendere non
+                    possemus. Et remittimus vobis de novem procurationibus, quas debebatis nobis
+                    annuatim, octo atque concedimus vobis ut omnes capelle dictarum plebium
+                    respondeant vobis in procurationibus domini pape, cardinalium et eorum nunciorum
+                    atque in collectis, sicut alie nostre ecclesie, et in ecclesiis pleb(ani)is de
+                        <placeName ref="#Luni">Luna</placeName> concedimus vobis idem, preterquam in
+                    illa de <placeName ref="#Iliaulo">Iliolo</placeName>
+                </p>
+                <p xml:id="LVI_p_002" n="2">
+                    <c>§</c> Nos <persName ref="#GualEpLuni">Gualterius, <roleName>Lunensis
+                            episcopus</roleName></persName> et <persName ref="#Rodulfusarc">Rodulfus
+                            <roleName>archidiaconus</roleName></persName> et <persName
+                        ref="#Guidoarch">Guido <roleName>archipresbyter</roleName></persName> atque
+                        <persName ref="#Arditio_prepositus">Arditio
+                        <roleName>prepositus</roleName></persName> et <persName ref="#Baldanzacan"
+                        >Baldantia <roleName>cantor</roleName></persName> atque <persName
+                        ref="#Vitalis_plebanus">Vitalis <roleName>plebanus</roleName> de <placeName
+                            ref="#Massa">Massa</placeName></persName> et <persName
+                        ref="#Albertus_dyaconus"> Albertus <roleName>dyaconus</roleName></persName>
+                    atque <persName ref="#Philippus_canonicus_Lun"> Philippus</persName> et<persName
+                        ref="#OpizusBurçiono"> Opizo de <placeName ref="#Burcione">
+                            Burdione</placeName>
+                        <roleName>Lunenses canonici</roleName></persName>, pro nobis et omni nostro
+                    capitulo, statuimus, ordinamus et firmamus, per nos et successores nostros, ut
+                    de cetero non sint in maiori ecclesia nisi duodecim tantum et omnes
+                        prelature<note place="foot" n="c" xml:id="LVI_n_003">prelature: <emph>la
+                            prima</emph> r <emph>corretta su</emph> l.</note> cessent, preter
+                    archipresbyteratum, post decessum eorum qui modo sunt prelati atque,
+                    quandocumque vacabunt prebende tres vel plures, quod debeant tres vel plures
+                    canonici eligi <supplied reason="omitted">et</supplied> quod electio unius
+                    debeat esse domini Lunensis episcopi ad suam, scilicet domini episcopi,
+                    voluntatem et successorum suorum, conservato in aliis ordine pristino atque
+                    antiquo. Hec omnia fecerunt dominus episcopus et dicti canonici, per se atque
+                    suos successores, atque promiserunt inter se sibi vicissim, per se et suos
+                    successores, hec omnia perpetuo rata habere, attendere et observare atque in
+                    nullo contravenire atque per sollempnem stipulationem hec omnia firmaverunt.
+                </p>
+            </div>
+            <div xml:id="LVI_div2" type="autentica">
+                <p xml:id="LVI_p_003" n="3">
+                    <ptr target="LVI_st_001"/> Ego <persName ref="#Bonalbergusnot">Bonalbergus,
+                            <roleName>domini Frederici invictissimi Romanorum imperatoris
+                            notarius</roleName></persName>, auctenticum huius exempli vidi et legi
+                    et quicquid in eo repperi hic fideliter exemplavi, nichil addito vel minuto quod
+                    mutet sensum, preter signum notarii, quod describere nescivi, et sic meo signo
+                    et nomine roboravi<note>Autentica del doc. 83-LVI databile agli anni 1250-1270
+                            <date notBefore="1250-01-01" notAfter="1270-12-31" cert="medium"/> dalla
+                        presenza del notaio Buonalbergo.</note>. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CVII_124">
+    <front xml:id="CVII_front">
+      <titlePart type="numerazioneNuova">124</titlePart>
+      <titlePart type="numerazioneOrig">CVII</titlePart>
+
+      <docDate xml:id="CVII_docDate">
+        <date when="1235-05-29">1235 maggio 29</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in cassaro castri Sarzane</term>)</emph></placeName>
+      </docDate>
+      <div type="regesto" xml:id="CVII_regesto">
+        <p>Guglielmo, vescovo di Luni, loca <term xml:lang="latin">ad homagium</term> in perpetuo a
+          Passavento del fu Boninsegna <term xml:lang="latin">de castro Sarzane</term> un podere,
+          già tenuto da Buiardo del fu Gerardino <term xml:lang="latin">de castro Sarzane</term>,
+          sito nel <term xml:lang="latin">castrum</term> di Sarzana. Per la locazione il vescovo
+          riceve un <term xml:lang="latin">servicium</term> di 7 lire di imperiali.</p>
+      </div>
+      <div type="footer" xml:id="CVII_footer">
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 221v., c. CCXIIIv. secondo la numerazione originale.</p>
+        </div>
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 107,
+            pp. 144-145.</p>
+        </div>
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <emph>Livello perpetuo fatto dal vescovo
+              Guglielmo di alcune terre ad uno di Sarzanello.</emph> Il documento contiene formule
+            ceterate. <p>Stesura <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla
+              presenza di Bonagiunta de Podio di Lucca.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CVII_div">
+        <pb n="221v" xml:id="fol_221v"/>
+        <p xml:id="CVII_p_001" n="1">In Ihesu Christi Dei eterni nomine, amen.<date
+            when="1235-05-29">M°CC°XXXV, indictione VIII, die martis, quarto kalendas iunii</date>.
+          In cassaro <placeName ref="#Sarzanello">castri Sarzane</placeName>, coram domno <persName
+            ref="#Peregrinusarc">Peregrino <roleName>archipresbytero</roleName> de <placeName
+              ref="#Soliera">Soleria</placeName></persName>, <persName ref="#Codargollius"
+            >Codargollio</persName>, <persName ref="#GuilielmusTestafortis">Guilielmo
+            Testaforte</persName>, <persName ref="#ParensPasqualini">Parente quondam Pasqualini
+              <roleName>castaldione</roleName></persName>, <persName ref="#BonavereSar">Bonavere de
+              <placeName ref="#Sarzanello">castro Sarzane</placeName></persName> atque aliis
+          pluribus testibus ad hec rogatis. Venerabilis <persName ref="#GuilEpLuni">Guilielmus, Dei
+            gratia Lunensis episcopus</persName>, suo nomine et episcopatus, per se et successores
+          suos dedit, cessit atque locavit ad homagium <persName ref="#PassaventusBonsegni"
+            >Passavento quondam Bonsengni de <placeName ref="#Sarzanello">castro
+            Sarzane</placeName></persName>, recipienti pro se et suis heredibus ab eo descendentibus
+          legitime, in perpetuum, nominatim, totum podere, tenutam et possessionem, quod et quam
+          olim fuit <persName ref="#BuiardusGerardini">Buiardi quondam Gerardini de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName></persName> sive idem Buiardus habuit,
+          tenuit actenus et possedit in <placeName ref="#Sarzanello">castro Sarzane</placeName> et
+          in illis pertinenciis et etiam alibi, quicquid sit et quantumcumque et ubicumque et
+          quocumque decurrit vel exinde aliquid poterit reperiri, tam in plano quam in monte, in
+          casis, capannis et casamentis, terris cultis atque incultis et rebus et locis aliis, ad
+          habendum, tenendum et cetera. Insuper promisit ei totam tenutam et podere semper
+          deffendere et expedire iure ab omni homine et contradicente persona, suis expensis et
+            <roleName>advocato</roleName> suo; et si deffendere et cetera; et si reperiretur aliquid
+          ex dicta tenuta venditum vel alienatum, quod ad homagium teneretur vel detentum fuerit
+          olim per ipsum <persName ref="#BuiardusGerardini">Buiardum</persName>, quod ipse<note
+            n="a" place="foot" xml:id="CVII_n_001"><term type="incerto">ipse</term>: <emph>così nel
+              testo per</emph>
+            <term xml:lang="latin">ipsi</term></note> liceat, ex auctoritate atque mandato domini
+          episcopi prefati, agere et experiri adversus quamcumque personam et locum, dando ei ius et
+          cedendo super hoc et potestatem inde tenutam intrandi, et se interim eius nomine
+          constituit possidere et cetera, reddendo inde et prestando idem <persName
+            ref="#PassaventusBonsegni">Passavantus</persName>
+          <placeName ref="#Luni">Lunensi curie</placeName> omnes illos redditus, factiones,
+          condictiones et usantias, que et quas exinde prestari et reddi consueverunt vel olim dare
+          et reddere et prestare consueverunt idem <persName ref="#BuiardusGerardini"
+            >Buiardus</persName> vel sui maiores. Pro qua locatione fuit confessus se inde ab eo
+          servicium recepisse <measure type="imperiales" unit="libra" quantity="7">librarum VII
+            imperialium</measure>, renuntiando et cetera.</p>
+      </div>
+      <div xml:id="CVII_div2" type="mundum">
+        <p xml:id="CVII_p_002" n="2">
+          <ptr target="#CVII_st_001"/> Ego <persName ref="#Henricusnot">Henricus de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName>, <roleName>sacri palacii
+              notarius</roleName></persName>, hanc cartam olim a <persName ref="#Bonencontrusnot"
+            >Bonencontro de <placeName ref="#Soliera">Soleria</placeName> notario</persName>
+          abreviatam sive rogatam, prout in eius sceda et in eius contractibus et in breviaturis
+          inveni, ita hic bona fide scripsi et auttenticavi et in publicam formam redegi,
+          auctoritate et decreto super hiis mihi prestita et concesso a <persName
+            ref="#Bonaiunctaiud"><roleName>domino</roleName> Bonaiuncta de <placeName
+              ref="#PodioLucca">Podio de Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+                ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre
+          domino Lunensi episcopo et <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName>, de qua
+          auctoritate atque decreto constat per instrumentum publicum factum manu <persName
+            ref="#Alcheriusnot">Alcherii notarii de <placeName ref="#Lucca"
+            >Luca</placeName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 124-CVII databile tra il 1270 e il
+            1272 dalla presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="LXXXXIII_110">
+        <front xml:id="LXXXXIII_front">
+
+            <titlePart type="numerazioneNuova">110</titlePart>
+            <titlePart type="numerazioneOrig">LXXXXIII</titlePart>
+
+            <docDate xml:id="LXXXXIII_docDate">
+                <date when="1270-11-21">1270 novembre 21</date>, <placeName>Sarazanello (<term
+                        xml:lang="latin">in castro Sarzane, scilicet in palacio domini
+                        episcopi</term>)</placeName>
+            </docDate>
+            <div type="regesto" xml:id="LXXXXIII_regesto">
+                <p> Il notaio Iacopino detto Tagliavacca, a nome del vescovo di Luni Guglielmo, ed
+                    il notaio Bonaparte del fu Cianfardo di Sarzana si accordano sul fatto che
+                    l’edificio fatto da Bonaparte e ora abitato dal vicario di Lunigiana Riccomo di
+                    Bulgarino valga 40 lire in denari genovesi e sia restituito per quella cifra al
+                    vescovo, il quale è esentato, assieme ai vicari presenti e passati, da ogni
+                    onere riguardante la pensione di lire 10 relativa all’edificio. Bonaparte è
+                    assolto da altri oneri riguardanti un’altra casa e una terra. </p>
+            </div>
+
+            <div type="footer" xml:id="LXXXXIII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 207v.-208v., cc. CLXXXXVIIIIv.-CCv. secondo la numerazione
+                        originale. </p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione parziale in Lupo Gentile 1912, n. 93, pp. 125-126.</p>
+                    <p>Il documento è da collegarsi al precedente 109 (LXXXXII), di cui costituisce
+                        l'antefatto.</p>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXXXXIII. De domo predicta.</term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="LXXXXIII_div">
+                <p xml:id="LXXXXIII_p_001"> In nomine Domini, amen. <date when="1270-11-21">Anno
+                        nativitatis Domini M°CC septuagesimo, indictione XIIIIa, XXI°
+                        novembris.</date> In concordia fuerunt partes, scilicet <persName
+                        ref="#IacopinusTalliavachanot"> Iacopinus dictus Talliavacha</persName>
+                    <roleName>notarius</roleName> de <placeName ref="#Sarzanello">castro
+                        Sarzane</placeName>, <roleName>syndicus et actor domini</roleName>
+                    <persName ref="#GuilEpLuni">Guilielmi</persName>, <roleName>Dei gratia Lunensis
+                        episcopi</roleName>, per cartam publicam scriptam manu <persName
+                        ref="#PetrusSolerianot">Petri de <placeName ref="#Soliera"
+                            >Soleria</placeName></persName>
+                    <roleName>notarii</roleName>, cuius <date when="1268-08-16">anni Domini sunt
+                        M°CCLXVIII°, indictione XIa, XVI° die mensis augusti<note>Procura del
+                            vescovo di Luni.</note></date>, et ipse dominus episcopus, ex una parte,
+                        <persName ref="#Bonapartenot"><note place="foot" n="a"
+                            xml:id="LXXXXIII_n_001">Bonapars:<emph>nel testo segue
+                            ripetuto</emph>pars.</note>
+                        <roleName>notarius</roleName> quondam Cianfardi</persName>
+                    <pb n="208r" xml:id="fol_208r"/> de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>, ex altera, quod hedificium factum per <persName
+                        ref="#Bonapartenot">Bonapartem</persName> predictum in domo litis, in qua
+                    habitat <roleName>vicarius</roleName>
+                    <placeName ref="#Lunigiana">Lunesiane</placeName>, scilicet
+                        <roleName>dominus</roleName>
+                    <persName ref="#RiccomusBolgarini">Riccomus Bolgarini</persName>, valet
+                    <measure type="Ianuenses" unit="libra" quantity="40"
+                        >libre XL Ianuensium</measure>, et quod tantum constitit et constare
+                    potuit dicto <persName ref="#Bonapartenot"> Bonaparti</persName> et tantum in ea
+                    impendit postquam ipsam habuit atque melioravit in tantum et quod ipsa domus
+                    restituatur et dimittatur ab ipso <persName ref="#Bonapartenot">
+                        Bonaparte</persName> et per sententiam vicarii predicti aiudicetur dicto
+                    syndico pro dicto episcopo et episcopatu et ipsi episcopo atque episcopatui, et
+                    in ipsius restitutione condempnetur <persName ref="#Bonapartenot"
+                        >Bonapars,</persName> restitutis primo dicto <persName ref="#Bonapartenot"
+                        >Bonaparti</persName> a dicto domino episcopo vel alio pro eo et solutis et
+                    datis <measure type="Ianuenses" unit="libra" quantity="40"
+                        >libris XL Ianuensium</measure> pro impensis predictis atque pro
+                    melioramento dicte domus, cui domui coheret ab uno latere domus <persName
+                        ref="#BonavitaArcola">Bonavite de <placeName ref="#Arcola"
+                            >Arcula</placeName></persName>, ab alio <persName
+                        ref="#ParentinellusGualterotti">Parentinelli quondam Gualterotti</persName>,
+                    qui sunt habitatores <placeName ref="#Sarzana">Sarzane</placeName>, antea
+                        <placeName ref="#Carcandola">platea Carcandule</placeName>, retro fovea, et
+                    que domus est in <placeName ref="#Sarzana">Sarzana</placeName>. </p>
+
+                <p xml:id="LXXXXIII_p_002"> A petitione autem alterius domus et terre, in libello
+                    petitarum a dicto syndico et actore, syndicatus et actorio nomine pro ipso
+                    domino episcopo et episcopatu a dicto <persName ref="#Bonapartenot"
+                        >Bonaparte</persName>, ut in actis curie <placeName ref="#Luni">Lu<supplied
+                            reason="omitted">ne</supplied>siane</placeName> factis hoc presenti
+                    tempore continetur, absolvatur <note place="foot" n="b" xml:id="LXXXXIII_n_002"
+                            >dictus<emph>: corretto su </emph>dicto.</note>
+                    <persName ref="#Bonapartenot">Bonapars</persName>, et etiam a petitione fructuum
+                    et expensarum, quos et quas petebat dictus dominus episcopus vel dictus syndicus
+                    pro eo, et ab omni et toto eo quod dictus dominus episcopus petebat vel petere
+                    poterat vel dictus syndicus pro eo a dicto <persName ref="#Bonapartenot"
+                        >Bonaparte</persName> occasione dicte domus alterius et terre; cui alteri
+                    domui coheret ab uno latere domus <persName ref="#Bonaventuravic"
+                        >Bonaventure</persName>
+                    <roleName>spadarii</roleName> in parte et in parte heredum quondam <persName
+                        ref="#MercadanteUgitionis">Mercandantis Ugitionis</persName>, ab alio latere
+                    domus <persName ref="#BeatrixBernardi">Beatricis, filie quondam
+                        Bernardi</persName>
+                    <roleName>ferrarii</roleName>, antea dicta platea, retro via publica, et que
+                    domus est in <placeName ref="#Sarzana">Sarzana</placeName>; cui terre coheret a
+                    tribus partibus via publica, ab alia <note place="foot" n="c"
+                        xml:id="LXXXXIII_n_003">parte<emph>:manca l'indicazione.</emph></note>, et
+                    que terra est posita in pertinentiis <placeName ref="#Sarzana"
+                        >Sarzane</placeName>, prope <placeName ref="#Carcandola_rivus">glaream
+                        Carcandule</placeName>, in loco dicto <placeName ref="#Curso"
+                        >Curso</placeName>.</p>
+                <p xml:id="LXXXXIII_p_003"> Item fuerunt in concordia dicte partes quod dominus
+                    episcopus et eius vicarius predictus et eius curia et <orgName ref="#Lunigiana_vicaria">vicaria</orgName> <placeName
+                        ref="#Lunigiana">Lunesiane</placeName> et <roleName>dominus</roleName>
+                    <persName ref="#Morruellusvic">Monroellus, <roleName>marchio</roleName>
+                        Malaspina</persName>, qui olim fuit vicarius pro ipso domino episcopo in
+                        <placeName ref="#Lunigiana">Lunesiana</placeName>, et camerarius et camerarii
+                    <orgName ref="#Lunigiana_vicaria">vicarie</orgName> sint liberi atque absoluti pro pensione et pensionibus domus predicte,
+                    in qua steterunt vel habitaverunt pro vicaria vel occasione <orgName ref="#Lunigiana_vicaria">vicarie</orgName>, et non
+                    teneantur ad aliquod aliud, ultra id quod <persName ref="#Bonapartenot"
+                        >Bonapars</persName> habuit de dicta domo, aliquid ei dare vel solvere. Et
+                    ipse <persName ref="#Bonapartenot">Bonapars</persName> exinde liberavit et
+                    absolvit dictum episcopum suprascriptum et episcopatum, recipientem pro se et
+                    dicto <roleName>domino</roleName>
+                    <persName ref="#Morruellusvic">Monroello</persName>, et <orgName ref="#Lunigiana_vicaria">vicariam</orgName> et vicarium
+                    predictum et eius curiam et ipsum <roleName>dominum </roleName>
+                    <persName ref="#Morruellusvic">Monroellum</persName> atque omnem aliam personam,
+                    que pro predictis vel aliquo predictorum aliquid dare vel solvere promisisset
+                    dicto <persName ref="#Bonapartenot">Bonaparti</persName>, de dicta domo vel
+                    occasione dicte domus et ab omni et toto eo quod occasione pensionis vel
+                    mercedis vel habitationis dicte domus petere poterat et voluit, atque dixit quod
+                    instrumentum promissionis facte de pensione dicte domus, scilicet <measure
+                        quantity="10" unit="libris">libris X</measure>, sive plus sive minus sit vel
+                    fuerit facta a dicto <roleName>domino</roleName>
+                    <persName ref="#Morruellusvic">Monroello</persName> vel alio pro eo <pb n="208v"
+                        xml:id="fol_208v"/> ipsi Bonaparti, sit cassum et irritum et nullius momenti
+                    deinceps. Item fuerunt in concordia dicte partes quod sententia diffinitiva
+                    feratur super predictis hodie in <placeName ref="#Sarzanello">castro
+                        Sarzane</placeName>, scilicet in palacio dicti domini episcopi suprascripti,
+                    in quo nunc est dictus <roleName>dominus</roleName>
+                    <persName ref="#RiccomusBolgarini">Riccomus</persName>,
+                        <roleName>vicarius</roleName>. </p>
+                <p xml:id="LXXXXIII_p_004"> Acta fuerunt suprascripta omnia in <placeName
+                        ref="#Sarzanello">castro Sarzane</placeName>, scilicet in palacio dicti
+                    domini episcopi, presentibus <persName ref="#MercadantusPeçameçane">Mercadante
+                        Pessamezano</persName>, <persName>Vergilio Cerri</persName>, <persName
+                        ref="#UbertusBald">Uberto Baldinoti</persName>, <persName>Sengnutio
+                        Bonensegne</persName>, habitatoribus <placeName ref="#Sarzana"
+                        >Sarzane</placeName>, <roleName>domino</roleName>
+                    <persName ref="#HenricusFalcinello">Henrico</persName>
+                    <roleName>iudice</roleName> de <placeName ref="Falcinello"
+                        >Falcinello</placeName>, <persName ref="#RanutiusLiene">Ranutio
+                        Liene</persName>
+                    <roleName>potestate</roleName>
+                    <placeName ref="#Sarzana">Sarzane</placeName> et <persName ref="#OddoneCagnola"
+                        >Oddone Cagnoli</persName> potestate <placeName ref="#Serravalle"
+                        >Sarzavallis</placeName> et <placeName ref="#CastelnuovoMagra"
+                        >Castrinovi</placeName>, <placeName ref="#Lucca">Lucanis</placeName>
+                    civibus, ad hec testibus. </p>
+                <p xml:id="LXXXXIII_p_005">
+                    <ptr target="LXXXXIII_st_001"/>
+                    <supplied reason="omitted">Ego</supplied>
+                    <persName ref="#NicholausGerardiniiud">Nicholaus, filius Gerardini
+                        Mercati</persName>, <roleName>imperialis aule iudex et notarius, nunc in
+                            provincia Lunesiane pro suprascripto venerabili patre et pro <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName>
+                        scriba publicus</roleName>, suprascriptis omnibus interfui et causa memorie
+                    hec publice scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

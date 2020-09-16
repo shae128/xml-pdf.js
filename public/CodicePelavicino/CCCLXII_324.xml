@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXII_324">
+    <front xml:id="CCCLXII_front">
+
+      <titlePart type="numerazioneNuova">324</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXII</titlePart>
+
+      <docDate xml:id="CCCLXII_docDate">
+        <date when="1190-02-11">1190 febbraio 11</date>, <placeName>Ameglia<term xml:lang="latin"
+              ><emph> (apud Ameliam, in camera domini episcopi)</emph></term></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXII_regesto">
+        <p>Il vescovo di Luni Pietro dona quattro giove di terra, adiacenti, site nella palude di
+          Luni, alla chiesa di San Maurizio di Bocca di Magra con diritto eminente dell’ospedale di
+          Santa Croce alla foce dell’Arno, in modo che se l’ospedale di San Maurizio avesse perso la
+          chiesa, le terre sarebbero rimaste di proprietà dell’ospedale di Santa Croce.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 311r., c. CCCIIIr. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 362, pp. 345-346.</p>
+          <p>Bibliografia: <ref target="#AMBROSI_1992">AMBROSI 1992</ref></p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <term xml:lang="latin">Sancte Crucis de
+              Corvo</term></note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCLXII.
+              Concessionis date Sancto Mauritio de petia terre.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXII_div">
+        <pb n="311r" xml:id="fol_311r"/>
+        <p xml:id="CCCLXII_p_001" n="1"><ptr target="#CCCLXII_st_001"/>In nomine Domini, amen. <date
+            when="1190-02-11">Anno a nativitate Eius M°C nonagesimo, indictione VIII, die dominico,
+            qui fuit XI intrante mense februario</date>. Dominus <persName ref="#PetrusEpLuni"
+            >Petrus, <roleName>Dei gratia Lunensis Ecclesie episcopus</roleName></persName>, dedit
+          in offersionem <orgName ref="#Luni_S_Maurizio">ecclesie Sancti Mauricii</orgName> de fauce
+            <placeName ref="#Magra">Macra<note place="foot" n="a" xml:id="CCCLXII_n_001"><term
+                xml:lang="latin"> Macra</term>: <emph>così nel testo</emph>.</note></placeName>
+          IIIIor <term ref="#iuva">iuvas</term> terre continuas in padule de Lune<note place="foot"
+            n="b" xml:id="CCCLXII_n_002"><term xml:lang="latin">Lune </term>: <emph>così nel testo,
+              con</emph>
+            <term xml:lang="latin">L</term>
+            <emph>corretta su precedente scrittura</emph>.</note>, que sunt iuris episcopii, ad
+          honorem <orgName ref="#Pisa_S_Croce_FoceArno">hospitalis Sancte Crucis de <placeName
+              ref="#Arno">fauce Arni</placeName>
+          </orgName>, eo etiam tenore quod, si contingerit ipsum <orgName ref="#Luni_S_Maurizio"
+            >hospitale Sancti Mauricii</orgName>, quovis ingenio, amittere aut relinquere ipsam
+            <orgName ref="#Luni_S_Maurizio"> ecclesiam de Sancto Mauricio</orgName>, ipse terre
+          remaneant in usu et iure et proprietate predicti <orgName ref="#Pisa_S_Croce_FoceArno"
+            >hospitalis Sancte Crucis de <placeName ref="#Arno">fauce Arni </placeName></orgName>,
+          ita ut de cetero, perpetue, iamscripta <orgName ref="#Luni_S_Maurizio">ecclesia Sancti
+            Mauricii</orgName> iamscriptas IIIIor iuvas terre in integrum, cum omni iure et actione
+          et pertinencia sua, habeat, teneat et fruatur ministerialis ipsius ecclesie, qui pro
+          tempore fuerit, nomine ipsius ecclesie, reservato iamscripto ordine.</p>
+        <p xml:id="CCCLXII_p_002" n="2">Actum est hoc apud <placeName ref="#Ameglia">Ameliam
+          </placeName>, in camera iamscripti domini episcopi, sollempniter. Ibi interfuerunt rogati
+          testes <persName ref="#Gerarduscler">Gerardus <roleName>clericus</roleName> de <placeName
+              ref="#Viano">Viano</placeName></persName>, <persName ref="#MançetusTivenia">Mangetus
+            de <placeName ref="#Tivegna">Tivennia</placeName></persName>, <persName
+            ref="#AttolinusArmannini">Attolinus quondam Armannini de <placeName ref="#Carrara"
+              >Carraria</placeName></persName>, <persName ref="#TursusTivennia">Tursus<note
+              place="foot" n="c" xml:id="CCCLXII_n_003"><term xml:lang="latin">Tursus: T</term>
+              <emph>corretta su</emph>
+              <term xml:lang="latin">C</term></note> de <placeName ref="#Tivegna">Tivenn<supplied
+                reason="omitted">i</supplied>a </placeName></persName>, <persName
+            ref="#BonalbergusSStephano">Bonalbergus de <placeName ref="#Santo_Stefano">Sancto
+              Stephano</placeName></persName>.</p>
+        <p xml:id="CCCLXII_p_003" n="3">Ego <persName ref="#Prefectusnot">Prefectus,
+              <roleName>domini imperatoris et Lunensis curie notarius</roleName></persName>, hanc
+          cartam quondam de <persName ref="#Lombardusnot">Lombardo
+            <roleName>notario</roleName></persName> abreviatam, visa sceda, bona fide, de parabola
+            <persName ref="#GualEpLuni">Gualterii, <roleName>Dei gratia Lunensis episcopi
+            </roleName></persName>, scripsi et meo signo signavi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

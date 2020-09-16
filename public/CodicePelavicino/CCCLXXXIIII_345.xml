@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXXXIIII_345">
+    <front xml:id="CCCLXXXIIII_front">
+
+      <titlePart type="numerazioneNuova">345</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXXXIIII</titlePart>
+
+      <docDate xml:id="CCCLXXXIIII_docDate">
+        <date when="1235-02-24">1235 febbraio 24</date>
+        <placeName>Ameglia (<emph>in Amelia, ante plebem</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXXXIIII_regesto">
+        <p>Guglielmo, vescovo di Luni, loca a Caravita del fu Bonagiunta Parteconi, a Bonvillano del
+          fu Accorso detto Papa, a Pasquale del fu Accorso di Barbazzano, tutti suoi uomini, un
+          pezzo di terra in Portesone, nel luogo detto Picceta. Il fitto annuale per Pasquale e
+          Bonvillano ammonta a quattro congi di mosto, per Caravita a quattro congi di mosto e mezza
+          libbra d’olio. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXXXIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 318r., c. CCCXr. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 384,
+            pp. 363-364, con la data 1235 marzo 1. Il VII kalendas martii è il 23 febbraio e non il
+            1° marzo; ma il 23 febbraio del 1235 cadeva di venerdì e, pertanto, non può
+            corrispondere al die sabbati del documento. La data deve perciò essere corretta in VI
+            kalendas martii, 24 febbraio: cfr. <ref target="#MAZZINI_1914">Mazzini 1914</ref>, p.
+            25. </p>
+        </div>
+
+        <div type="crit_notes">
+          <p>Stesura <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla presenza di
+            Bonagiunta de Podio di Lucca.</p>
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXXXIIII. Cong(iorum) VIII vini et me(die) lib(re) olei in Barbaçano.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXXXIIII_div">
+        <p xml:id="CCCLXXXIIII_p_001" n="1">In Dei nomine, amen. <date when="1235-02-24">M°CCXXXV,
+            indictione VIII, die sabbati, VII kalendas martii</date>, in <placeName ref="#Ameglia"
+            >Amelia</placeName>, ante plebem, coram me <persName ref="#Çolombardoarch">Çolombardo
+              <roleName>archipresbytero</roleName> de <placeName ref="#Ameglia"
+            >Amelia</placeName></persName>, <persName ref="#BorgesetusManceti">Borgeseti <note
+              xml:id="CCCLXXXIIII_n_001" n="a" place="foot"><term xml:lang="latin">Borgeseti</term>:
+                <emph>così nel testo.</emph></note> quondam Manceti</persName>, <persName
+            ref="#GuilielmusBastardi">Guilielmino quondam Bastardi de <placeName ref="#Ameglia"
+              >Amelia</placeName></persName>, <persName ref="#DemeldedeBalognano">Demeldede de
+              <placeName ref="#Balognano">Balognano</placeName></persName> et pluribus aliis
+          testibus rogatis. Venerabilis <persName ref="#GuilEpLuni">Guilielmus, <roleName>Dei gratia
+              Lunensis episcopus</roleName></persName>, per se et suos successores dedit, cessit
+          atque locavit ad affictum reddendum <persName ref="#CaravitaBonaçuncte">Caravite quondam
+            Bonaçunte Parteconi</persName>, pro medietate, divisim, <persName
+            ref="#BonvillanusAccursi">Bonvillano quondam Acursi, dicti Pape</persName>, pro quarta
+          parte, divise, et <persName ref="#PasqualeAccursi">Pasquali quondam Acursi de <placeName
+              ref="#Barbazzano">Barbaçano</placeName></persName>, hominibus domini episcopi, pro
+          alia quarta parte, divise, nominatim petiam I terre domini episcopi in pertinenciis de
+            <placeName ref="#Portesone">Portexono</placeName>, in loco dicto <placeName
+            ref="#Picceta">Picceta</placeName>, divise, partim vineate et partim campate, cum ficis
+          et olivis, site, quam ipsi ab ipso domino episcopo et curia Lunensi ad quartum reddendum
+          habebant et tenebant, cui toti sunt fines superius fontana de <placeName ref="#Camporaqua"
+            >Camporaqua</placeName>, a pede homines de <placeName ref="#Sarzana"
+          >Sarzana</placeName>, ab una parte via publica et ab alia canale de <placeName
+            ref="#Camporaqua">Camporaqua</placeName>, cum accessibus et egressibus suis, ad
+          habendum, tenendum et fruendum et meliorandum et non deteriorandum, sine omni dicti domini
+          episcopi eiusque successorum contradictione. Ab omni homine et contradicente persona cum
+          ratione deffendere promisit suo advo<supplied reason="omitted">cato</supplied> vel in loco
+          consimili restituere, sicut pro tempore magis valuerit, sub extimatione legitima, reddendo
+          exinde omni anno dicti <persName ref="#PasqualeAccursi">Pasqualis</persName> et <persName
+            ref="#BonvillanusAccursi">Bonvillanus</persName> et eorum heredes omni anno, tempore
+          vindemie, IIII cungeas et idem <persName ref="#CaravitaBonaçuncte">Caravita</persName>
+          IIII cungias et mediam libram olei boni, ad libram currentem Lunensem legitimam, boni puri
+          musti et non mixti aliqua aqua tantum, ad congium legitimum <placeName ref="#Barbazzano"
+            >Barbaçani</placeName> nunc et pro tempore existencium<note xml:id="CCCLXXXIIII_n_002"
+            n="b" place="foot">
+            <term xml:lang="latin">existencium</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">existentem</term>.</note>, dati et parati in curia domini
+          episcopi de <placeName ref="#Barbazzano">Barbaçano</placeName>, ad ipsius canevam; alia
+          eis superimposita non fiat, salvo iure homagii et aliorum condictionum et factionum que
+          consueverunt facere extra terram predictam et sine ipsa terra. Ambe partes, sub pena
+            <measure type="imperiales" unit="solidus" quantity="40">XL soldorum
+            imperialium</measure>, sibi ad invicem perpetuo attendere et observare promiserunt; et,
+          ea soluta, rato manente pacto. </p>
+      </div>
+      <div xml:id="CCCLXXXIIII_div2" type="mundum">
+
+        <p xml:id="CCCLXXXIIII_p_002" n="2"><ptr target="#CCCLXXXIIII_st_001"/> Ego <persName
+            ref="#HengeramusParentisnot">Hengeramus quondam Parentis de <placeName ref="#Sarzanello"
+              >castro Sarzane</placeName>, <roleName>palacii sacri notarius</roleName></persName>,
+          hanc cartam olim a <persName ref="#Bonencontrusnot">Bonencontro de <placeName
+              ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et autenticavi et
+          in publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+            <persName ref="#Bonaiunctaiud"><roleName>domino</roleName> Bonaiuncta de <placeName
+              ref="#PodioLucca">Podio de Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+                ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre
+          domino <persName ref="#GuilEpLuni">Guilielmo, <roleName>Lunensi
+            episcopo</roleName></persName>, et <orgName ref="#Lucca_comune"><placeName ref="#Lucca">Lucano</placeName> communi</orgName>, de qua auctoritate constat per
+          instrumentum publicum factum manu <persName ref="#Alcheriusnot">Alcherii
+              <roleName>notarii</roleName> de <placeName ref="#Lucca"
+            >Luca</placeName></persName><note>Stesura <emph>in mundum</emph> del documento n.
+            345-CCCLXXXIIII databile tra il 1270 e il 1272 dalla presenza di Bonagiunta de Podio di
+            Lucca <date notBefore="1270-01-01" notAfter="1272-12-31" cert="medium"/></note>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

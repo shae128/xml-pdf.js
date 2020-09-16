@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLV_216">
+    <front xml:id="CCLV_front">
+
+      <titlePart type="numerazioneNuova">216</titlePart>
+      <titlePart type="numerazioneOrig">CCLV</titlePart>
+
+      <docDate xml:id="CCLV_docDate">
+        <date from="1180" to="1220">&lt;fine XII – inizio XIII secolo&gt;</date>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLV_regesto">
+        <p>Raccolta delle pensioni annuali di Soliera.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 265r., c. CCLVIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p><ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 255, p. 235, pubblica
+            soltanto le prime tre righe del documento.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine interno, di mano moderna: <emph>Soleria</emph>. L’elenco dei nomi si
+            dispone su due colonne. La datazione proposta si fonda sull’occorrenza di due personaggi
+            in altri documenti del Codice, in particolare <emph>Thebaldinus de Soleria</emph> (cfr.
+            nn. 209-CCXXXIX, 210-CCXL, 215-CCXLV, 219-CCXLIX, 221-CCLI), <emph>Iohanninus de
+              Gropo</emph> (209-CCXXXIX, 227-CCLVII) e <emph>Gerardinus de Via</emph> (210-CCXL). Le
+            abbreviazioni indicanti le somme sono state tutte sciolte all’accusativo in quanto si
+            sottintende <emph>debet</emph> o <emph>reddit</emph>.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLV_div">
+        <p xml:id="CCLV_p_001" n="1">
+          <table rows="38" cols="2">
+            <head><c>§</c> Collecta <placeName ref="#Soliera">Solerie</placeName> annuatim</head>
+            <row role="data">
+              <cell>
+                <persName ref="#PetrusSummoVico">Petrus de <placeName ref="#SummoVico">Summo
+                    Vico</placeName></persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="2" unit="solidus">soldos II</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Bisanus">Bisanus</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="2" unit="solidus">soldos II</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Bellus">Bellus</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="2" unit="solidus">soldos II</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Menabos">Menabos</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="2" unit="solidus">soldos II</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Piçolus">Piçolus</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="18" unit="denarius">denarios XVIII</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Martellus">Martellus</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="18" unit="denarius">denarios XVIII</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Dominicus">Dominicus</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="12" unit="denarius">denarios XII</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>Filia <persName ref="#UgolinusGenestulo">Ugolini de <placeName ref="#Genestulo"
+                    >Genestulo</placeName></persName></cell>
+              <cell>
+                <measure type="Imperiales" quantity="12" unit="denarius">denarios XII</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>Uxor <persName ref="#Martinus1">Martini</persName></cell>
+              <cell>
+                <measure type="Imperiales" quantity="2" unit="solidus">soldos II</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#MartinellusCavallus">Martinellus Cavallus</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="2" unit="solidus">soldos II</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Bonacursus">Bonacursus</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="3" unit="solidus">soldos III</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Bosulinus">Bosulinus</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="3" unit="solidus">soldos III</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Gislana">Gislana</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="3" unit="solidus">soldos III</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Iohannetus">Iohannetus</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="2" unit="solidus">soldos II</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Rodulfinus">Rodulfinus</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="2" unit="solidus">soldos II</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#IohannellusValcava">Iohannellus de <placeName ref="#Valcava"
+                    >Valcava</placeName></persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="3" unit="solidus">soldos III</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#GerardinusVia">Gerardinus de <placeName ref="#Via"
+                  >Via</placeName></persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="2" unit="solidus">soldos II</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Martinus2">Martinus</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="18" unit="denarius">denarios XVIII</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Maria">Maria</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="12" unit="denarius">denarios XII</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#MartinellusPlano">Martinellus de <placeName ref="#Plano"
+                    >Plano</placeName></persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="18" unit="denarius">denarios XVIII</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>Filia <persName ref="#Tinnisius">Tinnisi</persName></cell>
+              <cell>
+                <measure type="Imperiales" quantity="12" unit="denarius">denarios XII</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Albertinus">Albertinus</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="6" unit="denarius">denarios VI</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Thebaldinus">Thebaldinus, cum fratre</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="2" unit="solidus">soldos II</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#FormentinusCalmesana">Formentinus de <placeName ref="#Calmesana"
+                    >Calmesana</placeName></persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="18" unit="denarius">denarios XVIII</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Sifredus">Sifredus</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="18" unit="denarius">denarios XVIII</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Saricinus">Saricinus</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="18" unit="denarius">denarios XVIII</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Ameçetus">Ameçetus</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="18" unit="denarius">denarios XVIII</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#LosusRivo">Losus de <placeName ref="#Rivo"
+                  >Rivo</placeName></persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="18" unit="denarius">denarios XVIII</measure>
+                <note place="foot" n="a" xml:id="CCLV_n_001"><term xml:lang="latin">XVIII</term>: V
+                    <emph>corretto su precedente scrittura.</emph></note>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>Homines de <placeName ref="#Fonte">Fonte</placeName></cell>
+              <cell>
+                <measure type="Imperiales" quantity="18" unit="denarius">denarios XVIII</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>Filii <persName ref="#BrunetusMonte">Bruneti de <placeName ref="#Monte"
+                    >Monte</placeName></persName></cell>
+              <cell>
+                <measure type="Imperiales" quantity="6" unit="denarius">denarios VI</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#IohanninusGropo">Iohanninus de <placeName ref="#Gropo"
+                    >Gropo</placeName></persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="2" unit="solidus">soldos II</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>Filius <persName ref="#Raimundinus">Raimundini</persName></cell>
+              <cell>
+                <measure type="Imperiales" quantity="6" unit="denarius">denarios VI</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#PetrusDalportone">Petrus Dalportone</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="24" unit="denarius">denarios XXIIII</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#BonfiliusAcola">Bonfilius de <placeName ref="#Arcola"
+                    >Acola</placeName></persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="2" unit="solidus">soldos II</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Gerardinus">Gerardinus, frater eius</persName>
+              </cell>
+              <cell>
+                <measure type="Imperiales" quantity="18" unit="denarius">denarios XVIII</measure>
+              </cell>
+            </row>
+            <row role="data">
+              <cell>Summa:</cell>
+              <cell>
+                <measure type="Imperiales" quantity="3" unit="libra">libras III
+                  imperialium</measure>
+              </cell>
+            </row>
+          </table>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

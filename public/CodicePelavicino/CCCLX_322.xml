@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLX_322">
+    <front xml:id="CCCLX_front">
+
+      <titlePart type="numerazioneNuova">322</titlePart>
+      <titlePart type="numerazioneOrig">CCCLX</titlePart>
+
+      <docDate xml:id="CCCLX_docDate">
+        <date when="1261-02-28">1261 febbraio 28</date>
+        <placeName>Lucca <term xml:lang="latin"><emph> (Luce, in claustro Sancti Fridiani
+              Lucani)</emph></term></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLX_regesto">
+        <p>Gualterotto canonico di Lucca, Bonaventura vicario del vescovo di Lucca e plebano di
+          Groppoli in diocesi di Pistoia, e infine Bonifacio Gottoni giudice, riuniti in consiglio
+          per valutare il fatto che Bono, priore di San Frediano, aveva ammonito Iacobuccio podestà
+          di Carrara e il consiglio di quella terra di tornare entro 8 giorni sotto l’obbedienza al
+          vescovo di Luni, soprattutto in base a quanto stabilito un tempo e al giuramento fatto a
+          Enrico priore di Carrara, valutano che si debba procedere secondo quanto recita il diritto
+          per quanto contenuto nel documento redatto da Bonalbergo notaio il 20 febbraio 1261. Di
+          conseguenza giudicano che il podestà, il consiglio e gli ufficiali di Carrara possano e
+          debbano essere sottoposti a scomunica e a interdetto. Il priore Bono esegue la
+          sentenza.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 310r.-310v, cc. CCCIIr.-CCCIIv. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 360, pp. 343-344.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <term xml:lang="latin">Carraria</term></note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCLX.
+              Sententie late contra potestatem et homines de Carraria per priorem Sancti
+              Frediani.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLX_div">
+        <p xml:id="CCCLX_p_001" n="1"><ptr target="#CCCLX_st_001"/>In nomine Domini, amen. Consilium
+          dominorum <persName ref="#Gualterotuscan"> Gualteroti <roleName>canonici <placeName
+                ref="#Lucca">Lucani</placeName></roleName></persName>, <persName
+            ref="#Bonaventuravic">Bonaventure</persName> <roleName>vicarii <placeName ref="#Lucca"
+                >Lucani</placeName> episcopi et plebani de <persName ref="#Cropale"
+                >Cropale</persName></roleName>, <placeName ref="#Pistoia"
+              >Pistorientis<note place="foot" n="a" xml:id="CCCLX_n_001"><term xml:lang="latin"
+                >Pistorientis</term>: <emph>così nel testo, probabilmente per</emph>
+              <term xml:lang="latin">Pistoriensis</term>
+            </note></placeName> dyocesis, et <persName ref="#BonifaciusGottoni"> Bonifacii Gottoni
+              <roleName>iudicis</roleName></persName>, super eo<note place="foot" n="b"
+            xml:id="CCCLX_n_002"><term xml:lang="latin">et Bonifacii Gotroni iudicis super
+            eo</term>: <emph>scritto su precedente rasura</emph>. </note> videlicet: cum dominus
+            <persName ref="#Bonusprior">Bonus, <roleName> prior <orgName ref="#Lucca_S_Frediano"
+                >Sancti Fridiani</orgName></roleName></persName>, monuerit <persName
+            ref="#Iacopuciuspod">Iacobucium, <roleName> potestatem <placeName ref="#Carrara"
+                >Carrarie</placeName></roleName></persName>, Lunensis dyocesis, et consilium ipsius
+          terre ut esset ad obedientiam Lunensis episcopi, a qua se subtraxerunt, maxime in eo quod
+          statutum olim inter eos conditum non observant et etiam iuramentum et iuramenta prestitum
+          et prestita in manibus <persName ref="#Herrigusprior"><roleName>donni</roleName> Herrigi,
+              <roleName>prioris de <placeName ref="#Carrara"
+            >Carraria</placeName></roleName></persName>, de fidelitate dicti domini episcopi, ut
+          infra VIII dies ad obedientiam et fidelitatem domini episcopi suprascripti, ad quam
+          prestandam iuramento proprio tenentur, <supplied reason="omitted">redirent</supplied>;
+          alioquin contra eos procederet secundum quod postulat ordo iuris, prout de hiis omnibus
+          per omnia continetur in publica scriptura manu <persName ref="#Bonalbergusnot">Bonalbergi
+              <roleName>notarii</roleName> de <placeName ref="#Carrara"
+            >Carraria</placeName></persName>, anni cuius sunt <date when="1261-02-20">M°CCLXI,
+            indictione IIII, XIII kalendas marcii</date>, tale est iudicium: quod predicta potestas
+          et consilium et officiales Carrarienses possint et debeant excommunicari et quod dicta
+          terra de <placeName ref="#Carrara">Carraria</placeName> supponatur ecclesiastico
+          interdicto. Qui dominus <persName ref="#Bonusprior">Bonus, <roleName>prior <orgName
+                type="monastero">Sancti Fridiani</orgName></roleName></persName> predicti, visa
+            amonitio<supplied reason="omitted">ne</supplied> predicta et contemptu suprascriptotum
+          potestatis, consilii et officialium predicte terre, habito etiam super hiis consilio
+          predictorum dominorum <persName ref="#Gualterotuscan">Gualteroti <roleName>canonici
+                <placeName ref="#Lucca">Lucani</placeName></roleName>
+          </persName> et <persName ref="#Bonaventuravic">Bonaventure</persName> <roleName>vicarii <placeName
+                ref="#Lucca">Lucani</placeName> episcopi</roleName> et <persName
+            ref="#BonifaciusGottoni">Bonifacii Qottoni<note place="foot" n="c" xml:id="CCCLX_n_003"
+                ><term xml:lang="latin">Qottoni</term>: <emph>così nel testo per</emph>
+              <term xml:lang="latin">Gottoni</term></note><roleName>iudicis</roleName></persName>,
+          ipsum <persName ref="#Iacopuciuspod">Iacobucium, <roleName>potestatem <placeName
+                ref="#Carrara">Carrarie</placeName></roleName></persName>, et capitaneos et alios
+          officiales ipsius terre, eorum contumacia exigente, excommunicat et ipsam terram de
+            <placeName ref="#Carrara"> Carraria</placeName> supponit ecclesiastico interdicto.</p>
+        <p xml:id="CCCLX_p_002" n="2">Actum <placeName ref="#Lucca">Luce</placeName>, in claustro
+            <orgName ref="#Lucca_S_Frediano">Sancti Fridiani</orgName>
+          <placeName ref="#Lucca">Lucani</placeName>, coram <persName ref="#BinamonteAttolini">
+            Binamonte quondam Atolini de <placeName ref="#Sischia">Sischia</placeName>
+          </persName> et <persName ref="#RanuciusIacobi">Ranucio quondam Iacobi Quiviq<supplied
+              reason="omitted">u</supplied>ii</persName>, testibus ad hec vocatis. <date when="1261"
+            >Anno nativitatis Domini M°CCLXI, indictione IIII, pridie kalendas marcii</date>.<pb
+            n="310v" xml:id="fol_310v"/></p>
+        <p xml:id="CCCLX_p_003" n="3"><ptr target="#CCCLX_st_002"/><persName
+            ref="#NicholausPlontodoris">Nicholaus Plontodoris<note place="foot" n="d"
+              xml:id="CCCLX_n_004"><term xml:lang="latin">Plontodoris</term>: <emph>lettura
+                incerta</emph></note>, <roleName>iudex ordinarius et notarius</roleName></persName>,
+          suprascriptis omnibus interfui et hec omnia, causa memor<add place="inline">i</add>e et
+          rogatus ab ipso priore <orgName ref="#Lucca_S_Frediano">Sancti Fridiani</orgName>, in
+          publicam scripturam redegi et meo signo et nomine confirmavi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

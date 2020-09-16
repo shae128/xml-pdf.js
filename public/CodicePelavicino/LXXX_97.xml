@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="LXXX_97">
+        <front xml:id="LXXX_front">
+
+            <titlePart type="numerazioneNuova">97</titlePart>
+            <titlePart type="numerazioneOrig">LXXX</titlePart>
+
+            <docDate xml:id="LXXX_docDate">
+                <date when="1218-05-29">1218 maggio 29</date>, <placeName>Pisa </placeName>
+                <emph>(<term xml:lang="latin">Pisis, in domo Gualfredi Grassi</term>)</emph>
+            </docDate>
+
+            <div type="regesto" xml:id="LXXX_regesto">
+                <p> Il vescovo di Luni Marzucco e i consoli di Sarzana Montonario del fu Parisio e
+                    Bonencontro di Melia nominano il giurisperito Bandino Gaetani arbitro e giudice
+                    su tutte le liti vertenti fra loro. </p>
+            </div>
+
+            <div type="footer" xml:id="LXXX_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] cc. 199r.-199v., cc. CLXXXXIr.-CLXXXXIv. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>,, n. 80, p. 112.</p>
+                </div>
+
+                <div type="crit_notes">
+                    <note> Nel margine esterno, di mano moderna: <emph>: Compromesso fatto dal
+                            vescovo Marzucco e consoli di Sarzana in Bandino Gaetano dottore</emph>
+                        La redazione in <emph><term xml:lang="latin">mundum</term></emph> della
+                        minuta del notaio Silvestro del fu Bono, fatta dal giudice e notaio
+                        Rodolfino figlio di Albertino è databile al 1251 dalla presenza del podestà
+                        di Pisa Alessandro da Calvello. </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXXX. Conpromissi in Badinum Gartonum. </term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="LXXX_div">
+                <p> In eterni Dei nomine, amen. Ex huius publici instrumenti clareat lectione quod
+                    dominus <persName ref="#MarzuccusEpLuni">Marzucus, <roleName>Dei gratia Lunensis
+                            episcopus</roleName></persName>, pro Lunensi episcopatu, ex una parte,
+                    atque <persName ref="#MontonariusParisii">Montonarius quondam Parisii</persName>
+                    et <persName ref="#BononcontrusMelia">Bononcontrus de <placeName ref="#Melia"
+                            >Melia</placeName>, <roleName>consules burgi</roleName>
+                        <placeName ref="#Sarzana">Sarzani</placeName></persName>, pro <orgName ref="#Sarzana_comune">communi</orgName> ipsius
+                    burgi, ex alia, posuerunt in <persName ref="#BandinusGaitani">Bandinum Gaytani,
+                            <roleName>iurisperitum, arbitrum et iudicem</roleName></persName>, sicut
+                    parem curie episcopatus Lunensis inter se concorditer electum, omnes lites et
+                    discordias quas inter se habebant vel habere poterant per rationem legum atque
+                    per rationem usus curie in questionibus feodi et aliis, que coram eo movebuntur,
+                    ad usum curie pertinentibus, ad penam <measure type="Imperiales" quantity="100"
+                        unit="solidus">librarum C imperialium</measure> inter se stipulatione
+                    promissam de hinc <date when="1218-07-01">kalendas iulii proximi <note>Data
+                            entro la quale Bandino Gaetani deve emettere sentenza sulle liti tra il
+                            vescovo di Luni e il comune di Sarzana</note></date> vel ad alium
+                    terminum vel terminos, quem vel quos ipse prorogaverit, diffiniendas. Et per
+                    stipulationem sollempnem convenerunt et promiserunt inter se vicissim, videlicet
+                    dictus dominus episcopus <pb n="199v" xml:id="fol_199v"/> pro suprascripto
+                    episcopatu, obligando se suosque successores pro episcopatu et episcopatum
+                    suprascriptis consulibus, pro communi burgi suprascripti recipientibus, et
+                    predicti consules pro suprascripto communi, se suosque successores pro
+                    suprascripto communi et ipsum commune suprascripto domino episcopo, pro
+                    suprascripto episcopatu recipienti, ad suprascriptam penam stipulatione
+                    promissam tenere et habere firmum et ratum totum et quicquid de predictis
+                    litibus et discordiis dictus <persName ref="#BandinusGaitani"
+                        >Bandinus</persName> suprascripto modo dixerit vel ordinaverit aut
+                    diffinierit et contra non venire nec facere per se vel per alium aliquo modo vel
+                    iure; et dederunt eidem <persName ref="#BandinusGaitani">Bandino</persName>
+                    liberam potestatem et mandatum citandi eos perhemptorio atque heremodicio et
+                    dandi sententiam contrarie et diffinitivam, una parte presente et alia absente
+                    sive presente et contradicente, tanquam si esset iudex ordinarius inter eos.
+                    Item statuerunt inter se quod confessiones, quas inter se fecerint, et testes,
+                    quos ipse receperit<note place="foot" n="a" xml:id="LXXX_n_001">receperit:
+                            <emph>nel testo</emph>recepierit <emph>con la prima</emph> i
+                            <emph>espunta</emph>.</note> vel recipi fecerit, maleant<note
+                        place="foot" n="b" xml:id="LXXX_n_002">maleant: <emph>così nel testo
+                            per</emph> valeant.</note> tanquam si essent<note place="foot" n="c"
+                        xml:id="LXXX_n_003">essent: <emph>la prima</emph> e <emph>aggiunta in
+                            sopralinea con segno di richiamo</emph>.</note> essentc facte et recepti
+                    coram iudice, qui ordinarius esset, eorum. Que omnia, si non facerent et si
+                    facta et observata non fuerint aut si contra factum fuerit, pars que contra
+                    fecerit dictam penam parti fidem servanti per stipulationem dare promisit,
+                    renuntiando omni iuri et cetera, pro quibus et cetera, et in hiis omnibus pena
+                    commissa compromissum et arbitrium in sua maneant firmitate. Insuper dederunt ei
+                    potestatem prorogandi terminum atque terminos partibus etiam absentibus sive
+                    presentibus et altera contradicente. Insuper promiserunt et convenerunt inter se
+                    ad invicem ad suprascriptam penam stipulatione promissam dare eis securitates et
+                    facere pro hoc compromisso atque arbitrio firmo tenendo quas dictus <persName
+                        ref="#BandinusGaitani">Bandinus</persName> dixerit. <persName
+                        ref="#Silvesternot">Silvestrum <roleName>notarium</roleName> quondam
+                        Boni</persName> hec omnia scribere rogaverunt. Actum <placeName ref="#Pisa"
+                        >Pisis</placeName>, in domo <persName ref="#GualfredusGrasso">Gualfredi
+                        Grassi</persName>, presentibus <persName ref="#Ubertus_arch"
+                            ><roleName>magistro</roleName> Uberto <roleName>archidiacono
+                            Lunensi</roleName></persName> atque <persName
+                        ref="#LambertusGuidonisGalli">Lamberto Guidonis Galli
+                            <roleName>iurisperito</roleName></persName> et <persName
+                        ref="#GaytanusAlbertiniBulso">Guaytano Albertini de Bulso</persName> et
+                        <persName ref="#GerardusVillani">Gerardo Villani de <placeName
+                            ref="#Sarzana">Sarzana</placeName></persName> et <persName
+                        ref="#OrlandusGerardini">Orlando <roleName>clerico</roleName> quondam
+                        Gerardini</persName> testibus, <date when="1218-05-29">dominice
+                        incarnationis anno M°CC nonodecimo, indictione VIa, quarto kalendas
+                        iunii</date>
+                </p>
+            </div>
+            <div xml:id="LXXX_div2" type="mundum">
+                <p>
+                    <ptr target="LXXX_st_001"/> Ego <persName ref="#RodulfinusAlbertini_notarius"
+                        >Rodulfinus, filius Albertini, <roleName>domini Frederici, Dei gratia
+                            Romanorum imperatoris, iudex et notarius</roleName></persName>, hec
+                    omnia suprascripta a dicto <persName ref="#Silvesternot">Silvestro
+                            <roleName>notario</roleName></persName> notario rogata et scripta, ex
+                    commissione mihi facta de scedis et actis dicti <persName ref="#Silvesternot"
+                        >Silvestri</persName> , post mortem eius, a <persName
+                        ref="#AlexanderCalvellis"><roleName>domino</roleName>Alexandro de Calvellis,
+                            <placeName ref="#Pisa">Pisanorum</placeName>
+                        <roleName>potestate</roleName></persName> , secundum formam senatus consilii
+                        <placeName ref="#Pisa">Pisane civitatis</placeName> inde sibi dati, hanc
+                    inde cartam, prout in actis dictiinde sibi dati, hanc inde cartam, prout in
+                    actis dicti <persName ref="#Silvesternot">Silvestri</persName> inveni, ita
+                    scripsi et firmavi et etiam de mandato et auctoritate <persName
+                        ref="#Grassus_canonicus_Pisa"><roleName>domini</roleName> Grassi <placeName
+                            ref="#Pisa">Pisani</placeName>
+                        <roleName>canonici, domini pape iudicis delegati</roleName></persName> ex
+                    parte ipsius domini pape mihi mandantis ut hoc instrumentum in publicam formam
+                    redigerem <note> Stesura <emph>in mundum</emph> del documento n. 97-LXXX
+                        databile al <date from="1251-01-01" to="1251-12-31" cert="high">1251</date>
+                        dalla presenza del podestà di Pisa Alessandro da Calvello. Si veda <ref
+                            type="biblio" target="#CECCARELLI_LEMUT_2017">CECCARELLI LEMUT
+                            2017</ref>, p. 28.</note>. </p>
+            </div>
+
+
+        </body>
+    </text>
+</TEI>

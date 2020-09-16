@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CLII_170">
+    <front xml:id="CLII_front">
+
+      <titlePart type="numerazioneNuova">170</titlePart>
+      <titlePart type="numerazioneOrig">CLII</titlePart>
+
+      <docDate xml:id="CLII_docDate">
+        <date when="1255-10-25">1255 ottobre 25</date>, <placeName>Ponzanello (<term
+            xml:lang="latin">ante ecclesiam de Ponzanello</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CLII_regesto">
+        <p>Guglielmo, vescovo di Luni, conferma a Diamante, vedova di Fornario del fu Gianello di
+          Ponzanello, e ai suoi eredi la locazione di tre pezzi di terra in Ponzanello, un tempo
+          locati da Riccadonna del fu Enrico <term xml:lang="latin">de castro Sarzane</term> al
+          medesimo Fornario e che il vescovo aveva acquistato dagli eredi di Riccadonna. Il fitto
+          ammonta a quello consueto di 2 staia di frumento e mezzo all’anno.</p>
+      </div>
+
+      <div type="footer" xml:id="CLII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 244r., c. CCXXXVIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 152,
+            p. 188.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine interno, di mano moderna: <term xml:lang="latin">Im
+            Ponzanelo</term>.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CLII_div">
+        <p xml:id="CLII_p_001" n="1">
+          <pb n="244r" xml:id="fol_244r"/>In Dei nomine, amen.<date when="1255-10-25"> Anno a
+            nativitate Eius M°CC°LV°, indictione XIII, VIII kalendas novembris</date>. Ex hoc
+          publico instrumento sit omnibus manifestum quod venerabilis pater dominus <persName
+            ref="#GuilEpLuni">Guilielmus, Dei gratia <roleName>Lunensis
+            episcopus</roleName></persName>, per se suosque successores et nomine episcopatus
+          locationem, quam fecerat olim <persName ref="#RiccadonnaHenrici">Riccadonna quondam
+            Henrici de <placeName ref="#Sarzanello">castro Sarzane</placeName></persName>, per se
+          suosque heredes, <persName ref="#FornariusIannelli">Fornario quondam Ianelli de <placeName
+              ref="#Ponzanello">Ponzanello</placeName></persName> suisque heredibus de tribus petiis
+          terre positis in confinibus et districtu <placeName ref="#Ponzanello"
+            >Ponzanelli</placeName>, sicut de ipsa locatione constitit ipsi domino episcopo per
+          instrumentum factum exinde manu <persName ref="#IacopinusTalliavachanot">Iacopini dicti
+            Talliavacca <roleName>notarii</roleName> de <placeName ref="#Sarzanello">castro
+              Sarzane</placeName></persName>, a me <persName ref="#Adiutusnot">Adiuto
+              <roleName>notario</roleName></persName> visum et lectum, <persName
+            ref="#FornariusIannelli">Fornarii</persName> atque suis heredibus quos ex dicto
+            <persName ref="#FornariusIannelli">Fornario</persName> suscepit, confirmavit. Cum idem
+          dominus episcopus suprascriptas <note place="foot" n="a" xml:id="CLII_n_001">
+            <term xml:lang="latin">suprascriptas</term>: <term xml:lang="latin">scriptas</term>
+            <emph>corretto su precedente scrittura</emph>.</note> tres petias terre emerit ab
+          heredibus suprascripte <persName ref="#RiccadonnaHenrici">Riccadonne</persName>, tali
+          quidem pacto quod suprascripta <persName ref="#Diamante">Diamante</persName> eiusque
+          heredes deinceps suprascriptas tres petias terre habere debeant et tenere ab ipso domino
+          episcopo et a curia Lunensi, dando et reddendo ipsi domino episcopo suisque successoribus
+          et curie Lunensi exinde duo staria frumenti et dimidium omni anno nomine ficti, sicut
+          soliti erant dare et dabant atque solvebant suprascripte <persName
+            ref="#RiccadonnaHenrici">Riccadonne</persName> eiusque heredibus, per totum mensem
+          augusti, mundi et sicci et bene mensurati ad starium commune de <placeName
+            ref="#Ponzanello">Ponzanello</placeName> in <placeName ref="#Ponzanello"
+            >Ponzanello</placeName>, quam locationem suprascriptus dominus episcopus, per se suosque
+          successores, promisit ratam habere et firmam tenere et in nullo contravenire de iure vel
+          de facto, sub pena <measure type="imperiales" quantity="40" unit="solidus">XL soldorum
+            imperialium</measure>, promittendo suprascriptas terras eidem <persName
+            ref="#DiamanteFornarii">Diamanti</persName>, recipienti pro se suisque heredibus, sicut
+          dictum est, deffendere et exbrigare ab omni contradicente persona et loco; quod si non
+          faceret vel non posset, salvum cambium eis inde dare promisit in arbitrio bonorum hominum.
+          Et hec omnia et singula suprascripta promiserunt sibi ad invicem attendere et observare et
+          in nullo contravenire, sub pena predicta, qua<supplied reason="omitted">m</supplied> dare
+          et solvere teneatur pars que contra venerit parti predicta servanti; qua soluta,
+          suprascriptis omnibus nichillominus manentibus firmis, obligando se dicte<note
+            place="foot" n="b" xml:id="CLII_n_002"><term xml:lang="latin">dicte</term>:<emph>così
+              nel testo per</emph> dictus.</note> dominus episcopus suosque successores atque bona
+          episcopatus et suprascripta <persName ref="#DiamanteFornarii">Diamante</persName> se
+          suosque heredes et bona, renunciando omni iuri et legibus contra hec introductis.</p>
+        <p xml:id="CLII_p_002" n="2">Actum ante <orgName ref="#Ponzanello_S_Martino">ecclesiam de
+              <placeName ref="#Ponzanello">Ponzanello</placeName></orgName>, presentibus <persName
+            ref="#Saladinusarc">magistro Saladino <roleName>archipresbytero</roleName> de <placeName
+              ref="#Viano">Viano</placeName></persName>, <persName ref="#Vivasinuscan">Vivasino
+              <roleName>Lunensi canonico</roleName></persName> et <persName ref="#AidansAimeline"
+            >Aidante quondam Aimeline de <placeName ref="#Ponzanello"
+            >Ponzanello</placeName></persName> et pluribus aliis testibus ad hec vocatis.</p>
+        <p xml:id="CLII_p_003" n="3"><ptr target="#CLII_st_001"/> Ego <persName ref="#Adiutusnot"
+            >Adiutus, <roleName>sacri palatii notarius</roleName></persName>, hiis interfui et de
+          mandato suprascripti domini episcopi hec scripsi et in publicam formam redegi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

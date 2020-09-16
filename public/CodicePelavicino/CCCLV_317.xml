@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLV_317">
+    <front xml:id="CCCLV_front">
+
+      <titlePart type="numerazioneNuova">317</titlePart>
+      <titlePart type="numerazioneOrig">CCCLV</titlePart>
+
+      <docDate xml:id="CCCLV_docDate">
+        <date when="1269-04-23">1269 aprile 23</date>, <placeName>Sarzanello (<emph>in castro
+            Sarzane, in palacio ipsius domini episcopi</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLV_regesto">
+        <p>Marchese figlio di Alberto del fu Engolino di Miseglia versa al vescovo di Luni Guglielmo
+          20 soldi di genovesi per la tassa imposta a suo padre dal gastaldo Bonalbergo.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 308v.-309r., cc. CCCv.-CCCIr. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 355,
+            p. 340.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Parte di c. CCCv. è stata letta con l’ausilio della luce di Wood. In calce a c.
+            308v., di mano moderna, le prime tre parole (<term xml:lang="latin">Albizello de
+              Vezale</term>) di c. 309r., appartenente al fascicolo successivo. </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCLV.
+              Confessionis, pactionis et promissionis collecte Marcheselli Alberti de
+              Misellia.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLV_div">
+        <p xml:id="CCCLV_p_001" n="1">In Christi nomine, amen. <persName ref="#MarcheseAlberti"
+            >Marchese, filius Alberti quondam Hengolini de <placeName ref="#Miselia"
+              >Miselia</placeName></persName>, coram <persName ref="#NormanninusBernanduccisiud"
+              ><roleName>domino</roleName> Normannino et <roleName>vice
+            vicario</roleName></persName>, pro se et patre et fratribus dedit et solvit venerabili
+          patri domino <persName ref="#GuilEpLuni">Guilielmo, Dei gratia Lunensi
+          episcopo</persName>, recipienti pro se et Lunensi episcopatu, <measure type="Ianuenses"
+            unit="solidus" quantity="20">XX soldos Ianuensium</measure> pro collecta villa<supplied
+            reason="omitted">na</supplied>tica patri suo imposita a <persName ref="#Bonalberguscast"
+            >Bonalbergo, <roleName>castaldione</roleName></persName> ipsius domini episcopi in valle
+            <placeName ref="#Carrara">Carrarie</placeName>; et confessus est quod dictus pater suus
+          solvere tenebatur collectam sibi impositam ab ipso domino episcopo vel eius <supplied
+            reason="omitted">predecessoribus</supplied> iure episcopali de duobus annis semel, sicut
+          eis imposita fuerit per ipsum dominum episcopum vel eius castaldionem sine strepitu
+            <supplied reason="illeggibile">[iudicii vel]</supplied> aliqua alia reclamatione. Hee
+          solutio, confessio et promissio facta sunt in iudicio coram dicto <persName
+            ref="#NormanninusBernanduccisiud"><roleName>domino</roleName> Normannino,
+            <roleName>iudice <orgName ref="#Lunigiana_vicaria">vicarie</orgName></roleName></persName>, et coram predicto domino episcopo et
+            <persName ref="#Bonalberguscast">Bonalbergo</persName>, eius
+            <roleName>castaldione</roleName>, presentibus infrascriptis testibus, videlicet
+            <persName ref="#Petruscan"><roleName>domino</roleName> Petro
+              <roleName>canonico</roleName>
+            <orgName ref="#Lucca_S_Frediano">Sancti Fridiani</orgName></persName>, <persName
+            ref="#Iacopusvic"><roleName>domino</roleName> Iacopo <roleName>vicedomino</roleName> de
+              <placeName ref="#Trebiano">Trebiano</placeName></persName>, <pb n="309r"
+            xml:id="fol_309r"/>
+          <persName ref="#AlbizellusVeçale">Albizello de Veçale</persName>, <persName
+            ref="#Pasqualinusnot">Pasqualino de <placeName ref="#Sarzanello">castro
+              Sarzane</placeName>
+            <roleName>notario</roleName></persName> et <persName ref="#GallusMiselia">Gallo de
+              <placeName ref="#Miselia">Miselia</placeName></persName> et aliis multis testibus ad
+          hec rogatis. </p>
+        <p xml:id="CCCLV_p_002" n="2">Hec acta sunt in <placeName ref="#Sarzanello">castro
+            Sarzane</placeName>, in palacio ipsius domini episcopi, <date when="1269-04-23">anno a
+            nativitate Domini millesimo CCLXIX, indictione XII, XXXIII aprilis</date>. </p>
+        <p xml:id="CCCLV_p_003" n="3"><ptr target="#CCCLV_st_001"/>
+          <persName ref="#Aliottusnot">Aliotus quondam Marroncini de <placeName ref="#Lucca"
+              >Luca</placeName>, <roleName>notarius et dicte curie scriba</roleName></persName> pro
+          suprascripto domino episcopo, suprascriptis omnibus interfui et hec rogatus scripsi et
+          publicavi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

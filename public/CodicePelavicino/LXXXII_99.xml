@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="LXXXII_99">
+        <front xml:id="LXXXII_front">
+            <titlePart type="numerazioneNuova">99</titlePart>
+            <titlePart type="numerazioneOrig">LXXXII</titlePart>
+
+            <docDate xml:id="LXXXII_docDate">
+                <date when="1277-04-12">1277 aprile 12</date>, <placeName>Viterbo</placeName>
+            </docDate>
+
+            <div type="regesto" xml:id="LXXXII_regesto">
+                <p>Contraddittorio fra Bondie di Sarzana, procuratore del comune di Sarzana, e
+                    Basiano di Lodi, procuratore del vescovo di Luni Enrico. </p>
+            </div>
+            <div type="footer" xml:id="LXXXII_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] cc. 200v.-201v., cc. CLXXXXIIv.-CLXXXXIIIv. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#PODESTÀ_1895">PODESTÀ 1895</ref>, p. 95 e
+                            <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 82, pp.
+                        114-116.</p>
+                    <p>Una copia semplice cartacea di mano moderna, ricavata dal codice Pelavicino,
+                        è conservata nell’Archivio Capitolare di Sarzana, cfr. <ref
+                            target="#FREGGIA_1989">FREGGIA 1989</ref>, p. 2, A/7.</p>
+                </div>
+                <div type="crit_notes">
+                    <note> Documento privo di sottoscrizione notarile. Presenta allegazioni tratte
+                        dal Codex giustinianeo (C.), dal <term xml:lang="latin">Liber Extra</term>
+                        (X) e dal <term xml:lang="latin">Liber Sextus</term> (VI); si ringrazia
+                        Mario Montorzi per la preziosa consulenza. </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXXXII. Lictere pro causa Sarçanensium.</term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="LXXXII_div">
+                <p xml:id="LXXXII_p_001" n="1">
+                    <pb n="200v" xml:id="fol_200v"/> Omnibus presentes litteras inspecturis,
+                        <persName ref="#GerardusParmensis">Gerardus</persName>
+                    <roleName>magister scolarum</roleName>
+                    <placeName ref="#Parma">Parmensis</placeName>, <roleName>domini pape
+                        capellanus</roleName>, et ipsius litterarum contradictarum auditor, salutem
+                    in Domino. Noveritis quod, cum <persName ref="#BondiesSarzana_syndicus"
+                        >Bondie</persName>, <roleName>syndicus et procurator <orgName ref="#Sarzana_comune">communis</orgName></roleName>
+                    <placeName ref="#Sarzana">Sarzane</placeName>, produceret infrascriptas rationes
+                    in iudicio coram nobis, <persName ref="#BasianusLaude">Basianus de <placeName
+                            ref="#Lauda">Laude</placeName></persName>, <roleName>procurator
+                        venerabilis patris episcopi Lunensis</roleName>, pro ipso copiam petiit sibi
+                    fieri de eisdem, quarum tenor talis est: “In nomine Domini, amen”. Replicationes
+                        <persName ref="#BondiesSarzana_syndicus">Bondie de <placeName ref="#Sarzana"
+                            >Sarzana</placeName></persName>, <roleName>syndici</roleName> seu
+                    procuratoris universitatis et hominum de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>, contra <persName ref="#BasianusLaude">Basianum de
+                            <placeName ref="#Lauda">Laude</placeName></persName>
+                    <roleName>clericum</roleName>, qui se dicit procuratorem reverendi patris
+                        <roleName>domini</roleName>
+                    <persName ref="#HenricusEpLuni">Henrici</persName>, <roleName>episcopi
+                        Lunensis</roleName>, sunt iste et continentur in hunc modum et etiam contra
+                    litteras inductas per <persName ref="#BasianusLaude">Basianum</persName>
+                    prefatum. </p>
+                <p xml:id="LXXXII_p_002" n="2"> In primis, ad primam litteram seu rationem dicti
+                        <persName ref="#BasianusLaude">Basiani</persName>, que incipit: “<persName
+                        ref="#HenricusEpLuni">Henricus</persName>, <roleName>miseratione divina
+                        Lunensis episcopus</roleName>, testibus<note place="foot" n="a"
+                        xml:id="LXXXII_n_001">testibus: <emph>così nel testo per</emph> et
+                        cetera.</note>” et finitur: “et lecta fuit et publicata et cetera”. </p>
+                <p xml:id="LXXX_p_003" n="3"> Item ad predictam rationem dicti <persName
+                        ref="#BasianusLaude">Basiani</persName>, que incipit: “Item <persName
+                        ref="#PhilippusEpBrug">Philippus</persName>, <roleName>miseratione
+                        divina</roleName>
+                    <placeName ref="#Brugnato">Bruniatensis<note place="foot" n="b"
+                            xml:id="LXXXII_n_002">Bruniantensis: u <emph>corretto su
+                                precedente</emph> a.</note></placeName>
+                    <roleName>episcopus</roleName>, et cetera” et finitur: <date from="1277-01-01"
+                        to="1277-12-31"> M°CC°LXX° septimo, indictione Va</date> et cetera”, dicendo
+                    et replicando, respondet dictus <persName ref="#BondiesSarzana_syndicus"
+                        >Bondie</persName>, procurator prefatus, procuratorio nomine dicte
+                    universitatis et hominum de <placeName ref="#Sarzana">Sarzana</placeName>, quod
+                    tam prima ratio quam secunda dicti <persName ref="#BasianusLaude"
+                        >Basiani</persName> non procedit nec valet de iure, iuribus et rationibus
+                    infrascriptis. </p>
+                <p xml:id="LXXXII_p_004" n="4"> In primis ad dictam primam rationem respondet idem
+                        <persName ref="#BondiesSarzana_syndicus">Bondies</persName>,
+                        <roleName>syndicus</roleName> memoratus, quod vos, domine auditor,
+                    advertatis diligenter quod prima ratio dicti <persName ref="#BasianusLaude"
+                        >Basiani</persName> seu littera dicti Lunensis episcopi non valet nec tenet
+                    de iure nec excomunicationis vel interdicti sententia, que contineri dicitur in
+                    eadem, cum, prout vobis plene constare potest domine auditor, dicte sententie,
+                    si sententie dici possunt, atque littera memorata date, facte et prolate fuerint
+                    per dictum Lunensem episcopum contra universitatem et homines et terram de
+                        <placeName ref="#Sarzana">Sarzana</placeName> post appellationes et contra
+                    easdem primo legante<note place="foot" n="c" xml:id="LXXXII_n_003">primo
+                        legante: <emph>così nel testo.</emph></note> ex parte dictorum universitatis
+                    et hominum de <placeName ref="#Sarzana">Sarzana</placeName> ad sedem apostolicam
+                    interiectas, ut ex tenore et ex data dictarum litterarum et appellationum videre
+                    et colligere vos, domine auditor, potestis integre ac etiam manifeste, et ex
+                    eisdem causis et rationibus, que in dictis sententiis continentur, videlicet
+                    quod doana salis et aliis causis seu rationibus in dictis appellationibus
+                    comprehensis. </p>
+                <p xml:id="LXXXII_p_005" n="5"> Item ad secundam rationem dicti <persName
+                        ref="#BasianusLaude">Basiani</persName> dicit et respondet dictus <persName
+                        ref="#BondiesSarzana_syndicus">Bondie</persName> quod dicta sententia, si
+                    sententia dici potest, que dicitur esse lata in universitatem, homines et
+                    commune et terram <placeName ref="#Sarzana">Sarzane</placeName> predicte, non
+                    valet nec tenet de iure rationibus infrascriptis: primo quia lata fuit, si lata
+                    reperiatur dicta sententia, post appellationem ex parte dictorum universitatis,
+                    communis et hominum de <placeName ref="#Sarzana">Sarzana</placeName> ad
+                    apostolicam sedem legitime interiectam. </p>
+                <p xml:id="LXXXII_p_006" n="6"> Secundo quod idem episcopus <placeName
+                        ref="#Brugnato">Braniatensis<note place="foot" n="d" xml:id="LXXXII_n_004"
+                            >Bruniatensis: <emph>così nel testo per</emph>
+                        Bruniatensis.</note></placeName>, qui se dicit domini pape delegatum super
+                    predictas, vices suas dicitur commisisse ...<note place="foot" n="e"
+                        xml:id="LXXXII_n_005">…: <emph>tre punti successivi nel testo.</emph></note>
+                    archipresbytero <orgName ref="#Codiponte_SS_Cornelio_Cipriano">plebis
+                        de</orgName>
+                    <placeName ref="#Caput_Pontis">Qua de Ponte</placeName>, Lunensis dyocesis,
+                    eidem, in virtute obedientie et sub pena excomunicationis, districte precipiens
+                    atque mandans que, ad burgum personaliter accedens infra certum terminum post
+                    visionem litterarum ipsarum, consilium et commune <placeName ref="#Sarzana"
+                        >Sarzane</placeName> ex parte sua <pb n="201r" xml:id="fol_201r"/> moneret
+                    ut capitaneum, consiliarios et notarios, per eos tantum creatos, inrequisito
+                    Lunensi episcopo prefato vel eius vicario ex toto, infra octavam diem post
+                    monitionem suam removerent ac etiam revocarent et omnes alias novitates, factas
+                    per eosdem, in statum in quo erant reducerent eo tempore quo predictus episcopus
+                    Lunensis iter arripuit ad sedem apostolicam veniendi. Quod, si predicti
+                    universitas et commune et homines de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> predicta non fecerint, et ipsos<note place="foot" n="f"
+                        xml:id="LXXXII_n_006">ipsos: i <emph>corretto su precedente</emph> p.</note>
+                    capitaneum, consiliarios et notarios et omnes obedientes eisdem capitaneo vel
+                    aliis de novo creandis in scriptis extunc excomunicationis vinculo auctoritate
+                    apostolica mandavit et burgum <placeName ref="#Sarzana">Sarzane</placeName> et
+                    confines ecclesiastico subposuit interdicto. Cum igitur predicta commissio seu
+                    subdelegatio sub certa forma et modo committatur et dicta sententia
+                    excomunicationis seu interdicti feratur seu lata dicatur et de alio facto seu
+                    negocio faceret mentionem et illud factum seu condictiones non sint nec
+                    appareant adimplete, constat et manifeste apparet de iure ipsas excomunicationis
+                    vel interdicti sententias non tenere. Nam, ut iure cavetur canonico atque
+                    civili, si quis in aliquo documento alterius faciat mentionem et illud non valet
+                    nec aliud reper<supplied reason="omitted">i</supplied>atur ut expresse lex
+                    legitur, et habetur C.  <quote  rend="pre(') post(')"> De transationibus</quote><note place="foot" n="g"
+                        xml:id="LXXXII_n_007">C. 2.4.</note>, autem si quis in aliquo documento et
+                    extra de fidei infra C. <quote  rend="pre(') post(')">Si scripturam auctenticam</quote><note place="foot" n="h"
+                        xml:id="LXXXII_n_008">X.2.22.1</note> cum suis similibus et infranotatis.
+                    Preterea que sub condictione promittuntur non debentur nisi condictione impleta
+                    extra de condictionibus <expan><ex>appositis</ex></expan>
+                    <supplied reason="omitted">in desponsatione vel in aliis contractibus</supplied>
+                    C. <quote  rend="pre(') post(')">super eo</quote><note place="foot" n="i" xml:id="LXXXII_n_009">X 4.5.5</note> et
+                    quasi per totum et extra de ap<supplied reason="omitted"
+                        >pellationibus</supplied> C. preterea<note place="foot" n="j"
+                        xml:id="LXXXII_n_010">X.2.28.22</note> et extra de prebendis <supplied
+                            reason="omitted">C.</supplied> <quote  rend="pre(') post(')"><expan>sig<ex>nifica</ex></expan>tum</quote><note
+                        place="foot" n="k" xml:id="LXXXII_n_011">X.3.5.11</note> cum suis similibus
+                    et ibi no<supplied reason="omitted">tatis</supplied>. </p>
+                <p xml:id="LXXXII_p_007" n="7"> Quod autem non credatis vos, domine auditor, quod
+                    idem <persName ref="#BondiesSarzana_syndicus">Bondies</persName>,
+                        <roleName>syndicus</roleName> prefatus, predicta malitiose opponat
+                    incontinenti vobis plenam facere fidem de appellationibus supradictis per quas
+                    vobis constabit et constat de iure dictas excomunicationis et interdicti
+                    sententias non tenere atque ex captionibus sive rationibus dicti <persName
+                        ref="#BasianusLaude">Basiani</persName> tanquam frivolis atque nullis
+                    nequaquam obstantibus dictum <persName ref="#BondiesSarzana_syndicus"
+                        >Bondiem</persName> per vos, domine auditor, admitti debere et admittendum
+                    esse ad dictas suas litteras impetrandum, nomine procuratorio et vice dictorum
+                    universitatis et hominum de <placeName ref="#Sarzana">Sarzana</placeName>. </p>
+                <p xml:id="LXXXII_p_008" n="8"> Appellatio autem interposita ex parte dictorum
+                    universitatis et hominum de <placeName ref="#Sarzana">Sarzana</placeName> a
+                    dicto Lunensi episcopo dignoscitur esse talis et sic incipit “In nomine Domini,
+                    amen”, et finitur: “hiis interfui et rogatus scripsi”. </p>
+                <p xml:id="LXXXII_p_009" n="9"> Item alia appellatio interposita a dicto Lunensi
+                    episcopo ex parte dictorum universitatis et hominum de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> super amonitione facta de doana salis atque aliis
+                        contenciis<note place="foot" n="l" xml:id="LXXXII_n_012">contenciis:
+                            <emph>così nel testo.</emph></note> in ea, que incipit: “In nomine
+                    Domini, amen” et finitur “et iudex ordinarius atque notarius hiis interfui
+                    rogatus et scripsi”, que appellatio precedit sententiam dicti episcopi Lunensis
+                    per tres dies, quare de iure ipsa sententia ipso iure non tenet et est et debet
+                    nulla merito reputari, ut expresse legitur et habetur extra <quote  rend="pre(') post(')">de sententia
+                        exco<supplied reason="omitted">mmunicationis</supplied></quote><note place="foot"
+                            n="m" xml:id="LXXXII_n_013">X.3.27.40</note> per tuas et extra <quote  rend="pre(') post(')">de
+                                ap<supplied reason="omitted">pellationibus</supplied></quote> C. <quote  rend="pre(') post(')">dilectis</quote><note
+                        place="foot" n="n" xml:id="LXXXII_n_014">X.2.28.55</note> et extra de
+                    officio <supplied reason="illeggibile">de officio et potestate iudicis
+                        delegati</supplied><note place="foot" n="o" xml:id="LXXXII_n_015"
+                        >X.1.29.38</note> vel cum contingat <pb n="201v" xml:id="fol_201v"/> et
+                    extra <quote  rend="pre(') post(')">de sententia exco<supplied reason="omitted">mmunicationis</supplied></quote> C.
+                    <quote  rend="pre(') post(')">solet a nonnullis</quote><note place="foot" n="p" xml:id="LXXXII_n_016"
+                        >VI.5.11.2</note>, que est innotatum quarti cum suis similibus et ibi
+                    notatis. Preterea idem Bondies est procurator reorum, unde<note place="foot"
+                        n="q" xml:id="LXXXII_n_017">unde: n <emph>corretto su precedente
+                            scrittura.</emph></note> de iure non obstat eidem excomunicatio, etiam
+                    si probetur nec suis dominis reis ut extra <quote  rend="pre(') post(')">de except<supplied reason="omitted"
+                        >ionibus</supplied></quote> C. <quote  rend="pre(') post(')">cum inter<supplied reason="omitted"
+                            >priorem</supplied></quote> et C. <quote  rend="pre(') post(')">dilecti</quote> et C. “exceptionem”<note place="foot"
+                        n="r" xml:id="LXXXII_n_018">X.2.25, cc. 5,8,12</note> cum suis similibus et
+                    ibi no<supplied reason="omitted">tatis</supplied>. </p>
+                <p xml:id="LXXXII_p_010" n="10"> Item appellationes interposite ex parte dictorum
+                    universitatis et hominum de <placeName ref="#Sarzana">Sarzana</placeName> ab
+                    episcopo <placeName ref="#Brugnato">Braniatensi<note place="foot" n="s"
+                            xml:id="LXXXII_n_019">Braniatensi: <emph>così nel testo per</emph>
+                            Bruniatensi.</note></placeName>, qui se dicebat domini pape delegatum,
+                    continetur in hunc modum, et prima sic incipit: <quote  rend="pre(') post(')">In nomine Domini, amen</quote> et
+                    finitur: <quote  rend="pre(') post(')">comite de <placeName ref="#Lomello">Lomello</placeName> predictis
+                        interfui et rogatus scripsi</quote>. Secunda vero incipit: <quote  rend="pre(') post(')">In nomine Domini, amen</quote>, et
+                    finitur: <quote  rend="pre(') post(')">Campus, notarius a domino <persName ref="#HenricusEpLuni"
+                        >Henrico</persName>, comite de <placeName ref="#Lomello"
+                    >Lomello</placeName>, predictis interfui et rogatus scripsi</quote>. Propter que
+                    contenta et posita in dictis appellationibus et maxime in littera seu sententia
+                    dicti episcopi <placeName ref="#Brugnato">Bruniatensis</placeName>, constabit
+                    vobis, domine auditor, et constare potest non immerito dictam sententiam
+                    episcopi <placeName ref="#Brugnato">Bruniatensis</placeName> non habere aliquam
+                    firmitatem nec valere de iure. </p>
+                <p xml:id="LXXXII_p_011" n="11"> Preterea advertatis vos, domine auditor, quod etiam
+                    si constaret plene de excomunicationibus suprascriptis hec tamen non obest nec
+                    nocet dictis hominibus et <persName ref="#BondiesSarzana_syndicus"
+                        >Bondie</persName>, procurator ipsorum, cum ipse littere, prout ex forma
+                    ipsarum videre potestis, impetrentur super appellationibus et causis seu rebus,
+                    ratione quarum dicti homines excomunicati dicuntur et pro quibus appellaverunt,
+                    unde potest idem <persName ref="#BondiesSarzana_syndicus">Bondie</persName> et
+                    debet per vos admitti ad eas impetrandas, ut extra de except<supplied
+                        reason="omitted">ionibus</supplied> cum similibus et infra notatis, in cuius
+                    copie petite et exhibete testimonium presentium litteras fieri fecimus et audite
+                    contradictarum sigillo muniri. </p>
+                <p xml:id="LXXXII_p_012" n="12"> Datum <placeName ref="#Viterbo"
+                        >Viterbii</placeName>, <date when="1277-04-12">II idus aprilis, pontificatus
+                        domini Iohannis pape XXI anno primo</date>. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

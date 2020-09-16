@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXLI_202">
+    <front xml:id="CCXLI_front">
+
+      <titlePart type="numerazioneNuova">202</titlePart>
+      <titlePart type="numerazioneOrig">CCXLI</titlePart>
+
+      <docDate xml:id="CCXLI_docDate">
+        <date when="1188-03-28">1188 marzo 28</date>, <placeName>Sarzana <emph>(<term
+              xml:lang="latin">in burgo Sarzana</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXLI_regesto">
+        <p>Patti fra il vescovo di Luni Pietro e i signori di Erberia riguardo all’erbatico che il
+          vescovo chiedeva agli uomini dei detti signori. Questi ultimi obiettano che i loro uomini
+          residenti nelle corti di Viano e di Monti da Arcola verso Luni o il mare non hanno tale
+          obbligo, dato che gli uomini del vescovo che risiedono invece nel loro dominio non
+          prestano alcun erbatico. Si stabilisce quindi per concordia che da questo momento in poi
+          gli uomini dei signori di Erberia residenti nelle corti di Viano e di Monti da Arcola
+          verso Luni o il mare non debbano prestare il detto servizio.<term xml:lang="latin"/></p>
+      </div>
+
+      <div type="footer" xml:id="CCXLI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 259r.- 259v., cc. CCLIr.- CCLIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. 241, pp. 223-224.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>L’edizione di Lupo Gentile riporta <emph>VI kalendas aprilis</emph>, mentre nel
+            testo è scritto <emph>V kalendas aprilis</emph>. Viene così a cadere l’osservazione di
+              <ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 16.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <p xml:id="CCXLI_p_001" n="1">Cum lis atque controversia verteretur inter dominum <persName
+          ref="#PetrusEpLuni">Petrum, <roleName>Dei gratia Lunensem episcopum</roleName></persName>,
+        ab una parte, et dominos de <placeName ref="#Erberia">Herberia</placeName>, ab alia, super
+        herbatico quod idem dominus episcopus requirebat ab hominibus predictorum dominorum et
+        econtra illi inficiebant, dicentes quod eorum homines habitantes in <placeName ref="#Viano"
+          >curte Viani</placeName> et in <placeName ref="#Monti">curte de Munti</placeName>, ab
+          <placeName ref="#Arcola">Arcula</placeName> versus <placeName ref="#Luni"
+          >Lunam</placeName> sive mare, herbaticum dare non debent, dicentes quoque quod homines
+        domini episcopi herbaticum in montibus eorumdem dominorum<note place="foot" n="a"
+          xml:id="CCXLI_n_001"><term xml:lang="latin">dominorum</term>
+          <emph>: segue ripetuto</emph>
+          <term xml:lang="latin">herbaticum</term></note> dare non debent, atque, cum hec dissensio
+        inter eos agitaretur, dominus <placeName ref="#GuidoHerb">Guido de <placeName ref="#Erberia"
+            >Herberia</placeName></placeName>, vir nobilis, potestas tunc suorum consortum
+        predictorum dominorum, arbitrio et voluntate prelibati domini episcopi huius litis
+        decisionis modum et finem imponendi commisit et eiusdem domini episcopi dispositioni
+        deliberandi proposuit. Intuens igitur prefatus dominus episcopus dilectionem tam nobilium et
+        fidelium virorum discretione<note place="foot" n="b" xml:id="CCXLI_n_002">
+          <term xml:lang="latin">discretione</term>: <emph>corretto su</emph>
+          <term type="incerto">discretos</term><emph>con segno generico di abbreviazione e
+            con</emph> s <emph>finale corretta in</emph> e</note> conservandam, potius honestissima
+        benignitate <pb n="259v" xml:id="fol_259v"/>eorum petitionibus annuens, assentire maluit et
+        laudum et sententiam de voluntate et concordia eiusdem domini <persName ref="#GuidoHerb"
+          >Guidonis</persName> edere promeruit, videlicet quod amodo in antea homines eorumdem
+        dominorum, habitantium<note place="foot" n="c" xml:id="CCXLI_n_003">
+          <term type="incerto">habitantium</term>: <emph>così nel testo per</emph>
+          <term xml:lang="latin">habitantes</term></note> scilicet in curte <placeName ref="#Viano"
+          >Viani</placeName> et in <placeName ref="#Monti">curte de Munti</placeName>, ab <placeName
+          ref="#Arcola">Arcula</placeName> versus mare, herbaticum de suis bestiis non reddant et
+        utantur in partibus domini episcopi sine ullo herbatico reddendo sive <supplied
+          reason="omitted">sine</supplied><note place="foot" n="d" xml:id="CCXLI_n_004"><term
+            xml:lang="latin">Sine</term><emph>: per l’integrazione cfr. il documento poco più
+            avanti.</emph></note> ulla exactione reddenda seu facienda, ita tamen quod non impediant
+        domino episcopo sive quod propter illam occasionem dominus episcopus non perdat herbaticum
+        quod habere consuevit atque homines domini episcopi non reddant herbaticum de suis bestiis
+        et pascant in montibus eorumdem dominorum sine ullo herbatico dando sive sine ulla exactione
+        reddenda seu facienda. Hoc pactum et conventum fecerunt atque contraxerunt <persName
+          ref="#Henricusvic">Henricus <roleName>vicedominus</roleName></persName> et <persName
+          ref="#VenturaSarzana">Ventura de <placeName ref="#Sarzana">Sarzana</placeName></persName>,
+        in vicem domini episcopi, et dominus <persName ref="#GuidoHerb">Guido</persName>
+        predictus.</p>
+      <p xml:id="CCXLI_p_002" n="2">Actum est hoc <date when="1188-03-28">anno M°C octogesimo VIII,
+          indictione VI</date>, in <placeName ref="#Sarzana">burgo Sarzana</placeName>, in <orgName
+          ref="#Sarzana_S_Basilio">ecclesia Sancti Basilii</orgName>, die lune qui fuit V kalendas
+        aprilis.</p>
+      <p xml:id="CCXLI_p_003" n="3"># # Signa manuum <persName ref="#GuilielmusViano">Guilielmi de
+            <placeName ref="#Viano">Viano</placeName></persName>, <persName ref="#BosoViano">Bosonis
+          de <placeName ref="#Viano">Viano</placeName></persName>, <persName
+          ref="#AldeprandinusOletto">Aldeprandini de <placeName ref="#Oletto"
+          >Oleto</placeName></persName>, <persName ref="#Mantectuscas">Manzeti
+            <roleName>castaldionis</roleName> de <placeName ref="#Ameglia"
+          >Amelia</placeName></persName>, <persName ref="#DundetusPonzanello">Dundeti de <placeName
+            ref="#Ponzanello">Ponçanello</placeName></persName>, rogatorum testium. Atque, cum ego
+          <persName ref="#Lombardusnot">Lumbardus <roleName>notarius</roleName></persName> hec
+        retulissem et narrassem domino episcopo, in camera <placeName ref="#Ameglia">castri
+          Amelie</placeName>, et totum contractum sibi ostendissem et exposuissem, totum quod
+        superius legitur idem dominus episcopus laudavit, assensit et confirmavit et suprascriptum
+        laudum et suprascriptam sententiam se dedisse et fecisse confessus est, et in scripto redegi
+        et cartulam rogavit fieri atque precepit.</p>
+      <p xml:id="CCXLI_p_004" n="4"># Signa manuum domini episcopi et <persName ref="#GuidoHerb"
+          >domini Guidonis</persName>, qui hanc cartulam fieri rogaverunt.</p>
+      <p xml:id="CCXLI_p_005" n="5"><ptr target="#CCXLI_st_001"/> Ego <persName ref="#Lombardusnot"
+          >Lumbardus, <roleName>domini imperatoris et <placeName ref="#Luni">Lunensis
+              curie</placeName> notarius</roleName></persName>, hiis omnibus interfui et, rogatu
+        suprascriptorum contrahentium, hanc cartulam scripsi.</p>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXXXVI_197">
+    <front xml:id="CCXXXVI_front">
+
+      <titlePart type="numerazioneNuova">197</titlePart>
+      <titlePart type="numerazioneOrig">CCXXXVI</titlePart>
+
+      <docDate xml:id="CCXXXVI_docDate">
+        <date when="1161-08-06">1161 agosto 6</date>, <placeName>Soliera (<term xml:lang="latin">in
+            castro Solera</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXXXVI_regesto">
+        <p>Pildiricio e Gualangino, fratelli, figli di Opizo di Soliera, chiedono a Ubaldo e Piluco,
+          fratelli, figli di Guido della <term xml:lang="latin">Feletta</term>, e a Borrelo, figlio
+          di Ugo, di tenere due pezzi di terra nel luogo detto <term xml:lang="latin"
+            >Bantiola</term> al fitto annuale di 4 denari milanesi.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXXXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 257r. e v., cc. CCXLVIIIIr. e v. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 236,
+            p. 218, con la data 1166.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nella datazione il numero <emph>IX</emph> va riferito all’indizione e non al giorno,
+            sebbene lo scriba abbia dimenticato di depennare il numero <emph>III</emph> che segue
+            immediatamente la parola <emph>indictione</emph>. L’anno indicato tuttavia non
+            corrisponde all’indizione e al giorno (domenica): infatti nel 1160 l’indizione era la
+            VIII e il 6 agosto cadeva di sabato; da rifiutarsi la datazione proposta dal Lupo
+            Gentile perché nel 1166 correva l’indizione XIV; le considerazioni di <ref
+              target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 16, che assegnano il documento al 1170
+            agosto 9, con indizione III, sono parimenti errate perché il giorno indicato dal
+            documento è in realtà il 6 di agosto. Il 6 agosto cadeva di domenica soltanto nell’anno
+            1161, che aveva appunto indizione IX secondo lo stile fiorentino. Il documento è
+            alquanto scorretto.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXXXVI_div">
+        <p xml:id="CCXXXVI_p_001" n="1"> In nomine sancte et individue Trinitatis. <date
+            when="1161-08-06"> Anno ab incarnatione Domini nostri Ihesu Christi M°CLX, VI mensis
+            augusti, indictione IX</date><note xml:id="CCXXXVI_n_001" n="a" place="foot"><emph>Nel
+              testo</emph>
+            <term xml:lang="latin">indictione</term> III, IX <emph>con</emph> III <emph>non
+              depennato</emph>.</note>. Petimus nos <persName ref="#PildiritiusOpiçonis"
+            >Pildiritius</persName> et <persName ref="#GualanginusOpiçonis">Gualanginus, germani,
+            filii Opiçonis de <placeName ref="#Soliera">Soleria</placeName></persName>, una cum
+            meis<note xml:id="CCXXXVI_n_002" n="b" place="foot"><term xml:lang="latin">meis</term>:
+              <emph>così nel testo per nostris</emph>.</note> heredibus a vobis <persName
+            ref="#UbaldusGuidonis">Ubaldi</persName> et <persName ref="#PiluchusGuidonis">Piluchi,
+            germani, filii<note xml:id="CCXXXVI_n_003" n="c" place="foot"><term type="incerto"
+                >Ubaldi et Piluchi, germani, filii</term>: <emph>così nel testo per</emph>
+              <term xml:lang="latin">Ubaldo et Pilucho, germanis, filiis</term>.</note> Guidonis de
+            la <placeName ref="#Felicta">Felecta</placeName></persName>, et <persName
+            ref="#Borrelus">Borrelus, filius<note xml:id="CCXXXVI_n_004" n="d" place="foot"><term
+                xml:lang="latin">Borrelus, filius</term>: <emph>così nel testo</emph>.</note>
+            Ugonis</persName>, et a vestris heredibus, id <supplied reason="omitted">est</supplied>
+          duas petias terre in loco ubi dicitur <placeName ref="#Bantiola">Bantiola</placeName>,
+          ipsam autem suprascriptam petiam terre habere, tenere, laborare, frui, meliorare et a
+          mandato vestro veniamus ad legem faciendam et exinde vobis persolvamus per singulos annos
+          fictam pensionem <measure type="Mediolanenses" quantity="4" unit="denarius">denariorum
+            IIII Mediolanensium</measure> tantum; alia superimposita nobis non fiat. Penam vero ambe
+          partes inter se posuerunt et sic se obligaverunt <pb n="257v" xml:id="fol_257v"/> quod, si
+          quis ex ipsis tollere aut laxare voluerit<note xml:id="CCXXXVI_n_005" n="e" place="foot"
+              ><term xml:lang="latin">voluerit</term>: <emph>nel testo</emph>
+            <term xml:lang="latin">voluerint</term>
+            <emph>con segno di abbreviazione depennato</emph>.</note>, tunc componat pars parti
+          fidem servanti penam <measure quantity="20" unit="solidus">argenti soldorum XX</measure>
+          et, post penam solutam, libellus in sua permaneat firmitate.</p>
+        <p xml:id="CCXXXVI_p_002" n="2">Actum <placeName ref="#Soliera">castro
+            Solera</placeName><note xml:id="CCXXXVI_n_006" n="f" place="foot"><term xml:lang="latin"
+              >Solera</term>: <emph>così nel testo</emph>.</note>, die dominica, feliciter.</p>
+        <p xml:id="CCXXXVI_p_003" n="3"># Signum suprascriptorum petitorum, locatorum, qui hunc
+          libellum fieri rogaverunt.</p>
+        <p xml:id="CCXXXVI_p_004" n="4"># Signum <persName ref="#Guilielmus">Guilielmi</persName>
+          atque <persName ref="#Guibertus">Guiberti</persName> seu <persName ref="#Albertus"
+            >Alberti</persName>, qui fuerunt testes.</p>
+        <p xml:id="CCXXXVI_p_005" n="5"><ptr target="#CCXXXVI_st_001"/> Ego <persName
+            ref="#Guirisiusnot">Guirisius, <roleName>notarius sacri palacii</roleName></persName>,
+          post traditam complevi et dedi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXXVII_249">
+    <front xml:id="CCLXXXVII_front">
+
+      <titlePart type="numerazioneNuova">249</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXXVII</titlePart>
+
+      <docDate xml:id="CCLXXXVII_docDate">
+        <date when="1237-01-26">1237 gennaio 26</date>, <placeName>Ameglia (<term xml:lang="latin"
+            >in curia Amelie</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXXVII_regesto">
+        <p>Guglielmo, vescovo di Luni, loca a Bonafede detto Pappaciccia di Castelnuovo tutto il
+          podere un tempo tenuto da Ugolino detto Bellapensa di Castelnuovo. Bonafede e i suoi eredi
+          sono tenuti a essere uomini e castellani della curia vescovile, come era anche il suddetto
+          Ugolino, e a fornire al vescovo ogni anno tre sestari di frumento e tre libbre d’olio.
+          Tale concessione costa 10 lire di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 276v., c. CCLXVIIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 287,
+            p. 261, con la data 1234.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Lupo Gentile data al 1234, ma nel manoscritto si legge <term xml:lang="latin"
+              >M°CCXXXVII</term>. Vengono così a cadere le osservazioni di <ref
+              target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 20. <p>Stesura <emph>in mundum</emph>
+              databile tra il 1270 e il 1272 dalla presenza di Bonagiunta de Podio di Lucca.</p>Il
+            documento contiene formule ceterate. Parte del testo è stata letta con l’ausilio della
+            lampada di Wood. Il documento deve essere messo in relazione al precedente, n. 257
+            (CCLXXXVI).</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCLXXXVII. Locationis Bonafidei Papacia ad tria staria frumenti ficti et III libras
+              olei.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXXVII_div">
+        <p xml:id="CCLXXXVII_p_001" n="1">In nomine Domini, amen.<date when="1237-01-26">
+            M°CCXXXVII, indictione X, die lune, VII kalendas februarii</date>. In curia <placeName
+            ref="#Ameglia">Amelie</placeName>, coram nobili <persName ref="#SalomonLucanus">Salomone
+            Lucano</persName>, <persName ref="#ParentinusManzeti">Parentino quondam Mançeti,
+              <roleName>castaldione</roleName> curie <placeName ref="#Ameglia"
+            >Amelie</placeName></persName>, <persName ref="#CodorgolliusSar">Codorgollio de
+              <placeName ref="#Sarzanello">castro Sarzane</placeName>, <roleName>castaldione de
+                <placeName ref="#SupraLuna">Supra Luna</placeName></roleName></persName>, <persName
+            ref="#RayneriusCast">Raynerio de <placeName ref="#Castelnuovo"
+            >Castronovo</placeName></persName>, <persName ref="#ConfortusCepnot">Conforto
+              <roleName>notario de <placeName ref="#Ceparana"
+            >Cepparana</placeName></roleName></persName> et pluribus aliis testibus ad hec rogatis.
+          Venerabilis dominus <persName ref="#GuilEpLuni">Guilielmus, Dei gratia <roleName>Lunensis
+              episcopus</roleName></persName>, per se et suos successores in perpetuum dedit, cessit
+          atque locavit ad affictum reddendum <persName ref="#BonafidesPappaciçia">Bonafidei dicto
+            Pappaciçia de <placeName ref="#Castelnuovo">Castronovo</placeName></persName> et eius
+          heredibus ab eo descendentibus totum poder<supplied reason="omitted">e</supplied> et
+          tenutam et possessionem, quod et que fuit olim <persName ref="#UgolinusBellapença">Ugolini
+            dicti Bellapença</persName> de eodem loco et quod et quam ipse idem <persName
+            ref="#UgolinusBellapença">Ugolinus</persName> habuit et tenuit, quicquid sit et
+          quantumcumque et ubicumque decurrit, in plano et in monte, in castro et extra castrum, in
+          casis, casamentis et campis, agrum et cultum, plenum et vacuum, divisim et indivisim, cum
+          accessibus et regressibus suis omnique iure et cetera, et potestatem inde tenutam intrandi
+          et cetera, et se et eius nomine confitetur possidere. Et promisit ipsum podere in parte et
+          toto semper iure deffendere et disbrigare vel in locis consimilibus restituere et exinde
+          teneantur et debeant idem <persName ref="#BonafidesPappaciçia">Bonafides</persName> et
+          eius heredes esse homines et castellani Lunensis curie et episcopi, sicut exinde consuevit
+          esse et fuit dictus <persName ref="#UgolinusBellapença">Ugolinus Bellapença</persName>, et
+          reddere omni anno Lunensi curie et episcopo in <placeName ref="#Castelnuovo"
+            >Castronovo</placeName>, ad canevam domini episcopi, per mensem augusti tria sextaria
+          sicci et mundi frumenti et pulcri ad starium <placeName ref="#Castelnuovo"
+            >Castrinovi</placeName> legitimum et, infra octavam nativitatis Domini, tres libras olei
+          boni et puri ad libram legitimam domini episcopi Lunensis tantum; alia ei superimposita
+          non fiat. Et fuit confessus se inde servicium recepisse <measure type="Imperiales"
+            quantity="10" unit="libra">X librarum imperialium</measure>, renunciando et cetera. Que
+          omnia et singula suprascripta dominus episcopus per se et suos successores et idem
+            <persName ref="#BonafidesPappaciçia">Bonafides</persName> per se et heredes suos
+          attendere et observare promiserunt in perpetuum nec contravenire, sub pena <measure
+            type="Imperiales" quantity="40" unit="solidus">XL soldorum imperialium</measure> et
+          cetera; et, ea soluta, rato manente pacto; et dedit licenciam dominus episcopus secundum
+          confines et tranfines<note xml:id="CCLXXXVII_n_001" n="a" place="foot"><term
+              xml:lang="latin">tranfines</term>: <emph>così nel testo</emph>.</note>, quos <persName
+            ref="#CodorgolliusSar">Codorgollus <roleName>castaldio</roleName></persName> et
+            <persName ref="#Raineriussca">Rainerius <roleName>scarius</roleName></persName> dicent
+          de eo podere quod scribere debeam et ponere in eodem instrumento.</p>
+
+      </div>
+      <div xml:id="CCLXXXVII_div2" type="mundum">
+        <p xml:id="CCLXXXVII_p_002" n="2"><ptr target="#CCLXXXVII_st_001"/> Ego <persName
+            ref="#HengeramusParentisnot">Hengheramus quondam Parentis de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName>, <roleName>palacii sacri
+              notarius</roleName></persName>, hanc cartam olim a <persName ref="#Bonencontrusnot"
+            >Bonencontro <roleName>notario</roleName> de <placeName ref="#Soliera"
+              >Soleria</placeName></persName> abreviatam sive rogatam, prout in eius sceda et in
+          eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et autenticavi et in
+          publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+          domino <persName ref="#Bonaiunctaiud">Bonaiuncta de <placeName ref="#PodioLucca">Podio de
+            Luca</placeName>, <roleName>iudice</roleName></persName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+              ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre domino <persName
+            ref="#GuilEpLuni">Guilielmo, <roleName>Lunensi episcopo</roleName></persName>, et
+          <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName>, de qua auctoritate constat per
+          instrumentum publicum factum manu <persName ref="#Alcheriusnot">Alcherii
+              <roleName>notarii</roleName> de <placeName ref="#Lucca">Luca</placeName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 249-CCLXXXVII databile tra il 1270 e
+            il 1272 dalla presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

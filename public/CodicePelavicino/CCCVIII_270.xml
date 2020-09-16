@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCVIII_270">
+    <front xml:id="CCCVIII_front">
+
+      <titlePart type="numerazioneNuova">270</titlePart>
+      <titlePart type="numerazioneOrig">CCCVIII</titlePart>
+
+      <docDate xml:id="CCCVIII_docDate">
+        <date when="1197-12-10">1197 dicembre 10</date>, <placeName>Ponzanello (<emph>in castro
+            Ponzanelli, in domo Gondeti</emph>)</placeName></docDate>
+
+      <div type="regesto" xml:id="CCCVIII_regesto">
+        <p>Gualtiero, vescovo di Luni, affitta a Marcello di Ceserano, Pietro e Bello, che ricevono
+          a nome proprio e dei consorti, quanto concerne il <term xml:lang="latin">masio</term> di
+          Summo Vico e a Guideto, Odolino e Albertino, che ricevono a nome proprio e dei consorti,
+          quanto attiene il <term xml:lang="latin">masio</term> di Pallaroso. Il fitto annuale
+          ammonta a 14 sestari di frumento, 4 congi di mosto, 8 galline e 80 uova; quando il vescovo
+          o un suo nunzio si reca annualmente a Soliera, anche 8 fasci di fieno per i cavalli e
+          prodotti dell’orto. Si chiede inoltre che i nunzi del vescovo siano ospitati, la
+          partecipazione all’esercito e alle cavalcate analoga a quella degli uomini della curia di
+          Sarzana, il trasporto di tributi (<term xml:lang="latin">apporta</term>) al vescovo su
+          richiesta del gastaldo di Soliera ad eccezione delle decime e l’aiuto al vescovo per le
+          questioni relative al papa e all’imperatore e all’acquisto di beni, l’impegno a non
+          diventare uomini di altri senza il permesso del vescovo o del gastaldo. Il vescovo tiene
+          per sé i diritti di placito, banno e <term xml:lang="latin">amasiamenta</term>, mentre
+          condona loro tutti gli altri obblighi. Il prezzo della transazione ammonta a 110 soldi di
+          imperiali. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 286r., c. CCLXXVIIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 308,
+            pp. 287 - 288.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <term xml:lang="latin">Reditus in
+              Ciserano</term>. Il contenuto replica parzialmente quello del documento n. 218
+            (CCLVII).</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCVIII.
+              Locationis de mansiis de Summo Vico et Palleroso.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCVIII_div">
+        <pb n="286r" xml:id="fol_286r"/>
+        <p xml:id="CCCVIII_p_001" n="1">In Christi nomine, amen. <date when="1197-12-10">Anno a
+            nativitate Eius millesimo C nonagesimo VII, indictione XV, die mercurii, IIII idus
+            decembris</date>. Dominus <persName ref="#GualEpLuni">Gualterius, <roleName>Dei gratia
+              venerabilis Lunensis episcopus</roleName></persName>, ex magna et previsa utilitate
+          sui episcopatus, affictavit <persName ref="#MarcellusCisirano">Marcellum de <placeName
+              ref="#Ceserano">Cisirano</placeName></persName> et <persName ref="#Petrus"
+            >Petrum</persName> et <persName ref="#Bellus">Bellum</persName>, recipientes pro se et
+          omnibus suis consortibus, qui sunt eius homines, de masio et pro masio de <placeName
+            ref="#SummoVico">Summovico</placeName> et <persName ref="#Guidetus">Guidetum</persName>
+          et <persName ref="#Odolinus">Odolinum</persName> et <persName ref="#Albertinus"
+            >Albertinum</persName>, recipientes pro se et omnibus suis consortibus, qui sunt eius
+          homines, de masio et pro masio de <placeName ref="#Pallaroso">Pallaroso</placeName>, ita
+          ut illi omnes simul qui tenent de predictis masiis debeant et teneantur una et eorum
+          heredes persolvere curie domini Lunensis episcopi annuatim, in kalendis augusti, staria
+          XIIII frumenti mundi et sicci, ad commune starium de <placeName ref="#Soliera"
+            >Soleria</placeName> mensurati, et apud <placeName ref="#Soliera">Soleriam</placeName>,
+          in granarium domini episcopi, debeant illud deferre; et teneantur similiter annuatim eidem
+          curie persolvere et dare IIIIor conzia musti et in natale sancti Stephani omni anno VIII
+          gallinas et octuaginta ova; et quando dominus episcopus vel eius nuncius venerit
+            <placeName ref="#Soliera">Soleriam</placeName>, semel in anno, debeant ei dare VIII
+          faxios straminis pro equis. Item quando dominus episcopus venerit <placeName
+            ref="#Soliera">Soleriam</placeName> debeant ei dare, quandoque, ad opus curie,
+          ortulatum, sicut alii eius villani de curia <placeName ref="#Soliera">Solerie</placeName>.
+          Nuncios domini episcopi, euntes per partes eorum, recipere in<note xml:id="CCCVIII_n_001"
+            n="a" place="foot"><term>i</term>: <emph>corretto su precedente lettera</emph>.</note>
+          hospicio debeant et procurare; in exercitu et cavalcata debeant ei facere sicut homines de
+          curia <placeName ref="#Sarzana">Sarzane</placeName>; pro factis domini pape et imperatoris
+          ei auxilium dabunt. Quando <roleName>castaldus</roleName> de <placeName ref="#Soliera"
+            >Soleria</placeName> voluerit eos transmittere ad dominum episcopum cum apportis suis,
+          teneantur illuc ire et portare apporta, exceptis decimationibus, que castaldus
+          transmiserit ei. Si terram aliquando emerit Lunensis episcopus, debeant ei dare adiutorium
+          sicut alii eius affictati. Homines alicuius non debeant se facere sine parabola domini
+          episcopi vel castaldi eius. Placita, banda et amasiamenta retinuit in se dominus episcopus
+          de predictis et in predictis hominibus. Alias omnes condictiones, usantias et servicia que
+          ipsi domino episcopo vel eius nuncio et maxime castaldo eius vel sue curie faciebant,
+          dabant vel reddebant seu facere, dare sive reddere solebant aut debebant eis omnibus
+          remisit, condonavit et perdonavit. Item promisit eis dominus episcopus et eorum heredibus,
+          per se et suos successores, quicquid in hac carta legitur, sub pena <measure
+            type="Imperiales" quantity="20" unit="lire">XX librarum imperialium</measure>, perpetuo
+            firmum<note xml:id="CCCVIII_n_002" n="b" place="foot"><term type="incerto"
+            >firmun</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">firma</term>.</note>, inconcussa et illibata servare et numquam
+          contra ea in aliquo facere; et ipsi promiserunt ei et eius successoribus per se et suos
+          heredes, sub eadem pena, quicquid superius legitur in perpetuum firmum et ratum habere et
+          tenere et predicta pacta omnia per singula observare et in nullo contravenire, que pena
+          parti fidem servanti persolvatur; qua soluta, non minus hec<note xml:id="CCCVIII_n_003"
+            n="c" place="foot"><term xml:lang="latin">hec</term>: <emph>segue non depennato</emph>
+            <term xml:lang="latin">in</term>.</note> carta in sua firmitate permaneat. Que omnia
+          stipulati sunt predicti, pro se et omnibus suis consortibus, pro quibus omnibus
+          confirmandis recepit ab eis servicium dominus episcopus <measure type="Imperiales"
+            quantity="110" unit="soldi">bonorum imperialium soldorum CX</measure> et renunciavit
+          exceptioni non numerate pecunie.</p>
+        <p xml:id="CCCVIII_p_002" n="2">Acta sunt hec in <placeName ref="#Ponzanello">castro
+            Ponzanelli</placeName>, in domo <persName ref="#Gondetus">Gondeti</persName>, feliciter,
+          cum stipulatione. Ibi fuerunt rogati testes <persName ref="#Ugitiuscam">Ugitio
+              <roleName>camerarius</roleName></persName>, <persName ref="#Petruspres"
+              ><roleName>presbyter</roleName> Petrus de <placeName ref="#Soliera"
+              >Soleria</placeName></persName>, <persName ref="#RollandusPanigale">Rollandus de
+              <placeName ref="#Panicale">Panigale</placeName>
+            <roleName>clericus</roleName></persName>, <persName ref="#Ugopres"
+              ><roleName>presbyter</roleName> Ugo de <placeName ref="#Ponzanello"
+              >Ponzanello</placeName></persName>, <persName ref="#Bonencontrusses">Bonencontrus
+              <roleName>sescalcus</roleName></persName>, <persName ref="#ThebaldinusSoleria"
+              >Thebaldinus<note xml:id="CCCVIII_n_004" n="d" place="foot"><term xml:lang="latin"
+                >Thebaldinus</term>: <term>h</term>
+              <emph>aggiunto in sopralinea</emph>.</note>
+            <roleName>castaldus</roleName> de <placeName ref="#Soliera"
+            >Soleria</placeName></persName>, predictus <persName ref="#Gondetus">Gondetus</persName>
+          et multi alii.</p>
+        <p xml:id="CCCVIII_p_003" n="3"><ptr target="#CCCVIII_st_001"/> Ego <persName
+            ref="#Confortusnot">Confortus, <roleName>sacri palacii et Lunensis curie
+              notarius</roleName></persName>, hiis interfui et rogatu et precepto contrahentium hanc
+          cartam scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

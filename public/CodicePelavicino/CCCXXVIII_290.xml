@@ -1,0 +1,169 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXXVIII_290">
+    <front xml:id="CCCXXVIII_front">
+
+      <titlePart type="numerazioneNuova">290</titlePart>
+      <titlePart type="numerazioneOrig">CCCXXVIII</titlePart>
+
+      <docDate xml:id="CCCXXVIII_docDate">
+        <date when="1217-05-30">1217 maggio 30</date>, <placeName>Carrara (<term xml:lang="latin"
+            >Carrarie, in canonica de Carraria</term>)</placeName>
+        <date when="1217-10-20">1217 ottobre 20</date>, <placeName>Sarzanello (<term
+            xml:lang="latin"> in castro Sarzane</term>)</placeName>
+        <date when="1217-10-27">1217 ottobre 27</date>, <placeName>Carrara (<term xml:lang="latin"
+            >Carrarie, ante portam ecclesie de Carraria</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXXVIII_regesto">
+        <p>Il vescovo di Luni Marzucco riduce a mezzo sestario di frumento tutte le condizioni e
+          redditi che Vivaldo del fu Arduino Mignochi di Vezzala era solito dare alla curia lunense.
+          Pochi mesi dopo il vescovo autorizza il suo gastaldo Pellegrino a siglare un patto con
+          Vivaldo, effettivamente concluso di lì a poco, secondo cui Vivaldo compra il mezzo
+          sestario da versare annualmente dai figli del fu Gandolfino, il quali a sua volta lo
+          ricevevano come fitto per terre poste in Nazzano. Alla concessione del fitto è legato il
+          diritto del vescovo al <term xml:lang="latin">locamento et dislocamento</term> delle terre
+          suddette.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 297v.-298r, c. CCLXXXVIIIIv.-CCLXXXXr. secondo la numerazione
+            originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 328,
+            p. 318.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna e in inchiostro più chiaro: <term
+              xml:lang="latin">Carraria</term>.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCXXVIII. Medii starii frumenti, quod reddunt Bonaiutus et Gerardinus de Misegia pro
+              Vivaldo. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXXVIII_div">
+        <pb n="297v" xml:id="fol_297v"/>
+        <p xml:id="CCCXXVIII_p_001" n="1"><ptr target="#CCCXXVIII_st_001"/>In nomine Domini, amen.
+            <date when="1217-05-30">Anno a nativitate Eius millesimo CCXVII, indictione V, die
+            martis, III kalendas iunii</date>. Ex hoc publico instrumento sit liquidum universis
+          quod dominus <persName ref="#MarçucusPisanus">Marçucus, <roleName>Dei gratia Lunensis
+              Ecclesie episcopus</roleName></persName>, pro melioratione et commodo et utilitate sui
+          episcopatus et curie sue, omnes condictiones et redditus, quas et quos dabat et reddebat
+          omni anno et faciebat <persName ref="#VivaldusArduini">Vivaldus quondam Ardoini Mignochi
+            </persName><note place="foot" n="a" xml:id="CCCXXVIII_n_001"><term xml:lang="latin"
+              >Mignochi:</term>
+            <emph>aggiunto in sopralinea con segno di richiamo appena sotto il rigo</emph>.</note>
+          de <placeName ref="#Veçale"> Veçale</placeName> curie dicti domini episcopi vel
+          ministralibus curie pro ipsa curia seu eidem domino episcopo, in medium starium frumenti
+          boni, mundi et sicci, ad currens starium de <placeName ref="#Carrara"
+          >Carraria</placeName>, annis singulis solvendum in mense augusti, dicte curie, permutavit
+          et redegit, remissis et condonatis et perdonatis eidem <persName ref="#VivaldusArduini"
+            >Vivaldo </persName>, recipienti pro se et suis heredibus, dictis condictionibus et
+          redditibus universis nomine permutationis et cambii pro predicto frumento, tali pacto ut
+          amodo perpetuo dictus <persName ref="#VivaldusArduini">Vivaldus</persName> eiusque
+          heredes, nomine permutationis et cambii, pro predictis condictionibus et redditibus
+          debeant dare vel dari facere dicte curie annis singulis, in mense augusti, predictum
+          medium starium frumenti boni, mundi et sicci, ad currens starium de <placeName
+            ref="#Carrara">Carraria</placeName> mensuratum, tantum. Quod frumentum dictus <persName
+            ref="#VivaldusArduini">Vivaldus</persName>, obligando se suosque heredes, promisit et
+          convenit, stipulatione sollempni interposita a dicto domino episcopo, dare et solvere vel
+          dari et solvi facere omni anno, in mense augusti, suprascripte curie pro predictis
+          condictionibus et redditibus, a quibus omnibus dictus dominus episcopus dictum <persName
+            ref="#VivaldusArduini">Vivaldum</persName>, recipientem pro se et suis heredibus,
+          absolvit et liberavit. Que condictiones et redditus tales erant, videlicet quando dominus
+          episcopus veniebat <placeName ref="#VivaldusArduini">Carrariam</placeName>, mittebat I
+          culcitram ad curiam inter duas vices per nuncium curie mutuo et reddebat omni anno
+            <measure type="Imperiales" unit="denarius" quantity="1">denarium I imperialium</measure>
+          et terciam partem unius starii ordei, ad antiqum starium.</p>
+        <p xml:id="CCCXXVIII_p_002" n="2">Actum <placeName ref="#Carrara">Carrarie</placeName>, in
+          canonica de <placeName ref="#Carrara">Carraria</placeName>, presentibus <persName
+            ref="#IacopinusDiamantis">Iacopino de donna Diamante</persName>, <persName
+            ref="#UgolinusArmannini">Ugolino quondam Armannini</persName>, <persName
+            ref="#Peregrinuscas">Peregrino <roleName>castaldo</roleName>
+          </persName>, <persName ref="#SalvetusPetrognano">Salveto de <placeName ref="#Petrognano"
+              >Petrognano</placeName></persName> et <persName ref="#Bonacursussca">Bonacurso
+              <roleName>scarione</roleName></persName>, testibus ad hec rogatis. </p>
+        <p xml:id="CCCXXVIII_p_003" n="3">Postea vero, <date when="1217-10">eodem anno, die veneris,
+            VI kalendas novembris</date>, <placeName ref="#Carrara">Carrarie </placeName>, ante
+          portam ecclesie de <placeName ref="#Carrara">Carraria </placeName>, coram <persName
+            ref="#BonaiunctaVecii">Bonaiuncta quondam Veçii de <placeName ref="#Veçale"
+              >Veçale</placeName></persName>, <persName ref="#BonacursusFosse">Bonacurso Folle<note
+              place="foot" n="b" xml:id="CCCXXVIII_n_002"><emph>Nel documento precedente</emph>:
+                <term xml:lang="latin">Fosse</term></note></persName> et aliis pluribus testis
+          rogatis, <persName ref="#Peregrinuscas">Peregrinus, <roleName>castaldio</roleName>
+          </persName> domini <persName ref="#MarçucusPisanus">Marçuci, <roleName>Dei gratia Lunensis
+              episcopi</roleName></persName>, in curia de <placeName ref="#Carrara"
+            >Carraria</placeName>, habita ab eodem domino episcopo licencia et auctoritate et
+          inrevocabile mandato faciendi ea que leguntur inferius, cum dicto <persName
+            ref="#VivaldusArduini">Vivaldo</persName> tale pactum fecit pro curia et pro domino
+          episcopo de predicto medio stario frumenti, videlicet quod dictus <persName
+            ref="#VivaldusArduini">Vivaldus</persName>, nomine permutationis, pro predicto frumento
+          dedit, tradidit et assignavit dicto castaldioni, recipienti pro domino episcopo et pro
+          curia sua et episcopatu, medium starium frumenti, annuatim solvendum, quod emerat a filiis
+          quondam <persName ref="#Gandolfinus">Gandolfini</persName>, quod dabant sibi omni anno
+          affictualiter, in mense augusti, <persName ref="#BonaiutusMiselia">Bonaiutus</persName> et
+            <persName ref="#GerardinusMiselia"> Gerardinus de <placeName ref="#Miselia"
+              >Miselia</placeName></persName> cum uxoribus suis de quarta parte trium petiarum
+          terrarum sitarum in <placeName ref="#Naçano">Naçano</placeName>, cum omni iure et actione
+          sibi inde competenti et cum locamento et dislocamento quarte partis ipsarum terrarum et
+          etiam cum ipsa quarta parte, unde datur. Insuper dedit, cessit atque mandavit ei,
+          recipienti pro curia, omnia iura et actiones sibi inde competencia et competentes et fecit
+          ipsum procuratorem et dominum in rem curie; quod suprascriptum frumentum et terras, unde
+          datur, dictus <persName ref="#VivaldusArduini">Vivaldus</persName>, obligando se suosque
+          heredes, promisit, stipulatione sollempni interposita a dicto <persName
+            ref="#Peregrinuscas">Peregrino</persName>, deffendere et exbrigare cum ratione ab omni
+          persona dicto domino episcopo eiusque successoribus et dicte curie, vel salvum cambium
+          dare in suis bonis ad hoc obligatis in consimili loco, in arbitrio bonorum hominum, si
+          deffendere cum ratione non posset, et dedit ei licenciam intrandi inde in tenutam, sua
+          auctoritate. Et est sciendum quod <date when="1217-10">eodem anno et indictione, die
+            veneris, XIII kalendas novembris</date>, in <placeName ref="#Sarzanello">castro
+            Sarzane</placeName>, in camera videlicet domini episcopi, in testimonio <persName
+            ref="#MarçucusPisanus">Marçuci Pisani</persName>, <persName ref="#UgolinusCarraria"
+            >Ugolini</persName> et <persName ref="#GrecusCarraria">Greci de <placeName
+              ref="#Carrara">Carraria</placeName></persName>, dictus dominus episcopus dederat
+          licenciam et auctoritatem et inrevocabile mandatum dicto <persName ref="#Peregrinuscas"
+            >Peregrino, <roleName>castaldioni</roleName></persName> suo, faciendi predicta, et
+          quicquid inde faceret se ratum habiturum promiserat. Una de predictis petiis terre est in
+          loco dicto <persName ref="#Guecçola">Guerçola</persName>, cui coheret inferius via
+          publica, ab una parte terra <persName ref="#MercadanteCarraria"> Mercadantis de <placeName
+              ref="#Carrara">plano Carrarie</placeName></persName>, ab alia <persName
+            ref="#VivianusFicula">Viviani de <placeName ref="#Ficola">Ficula</placeName></persName>;
+          alie due sunt in <persName ref="#FossaLupara">Fossa Lupara</persName>, uni quarum coheret
+          superius et inferius via publica, ab una parte dicti <persName ref="#MercadanteCarraria"
+            >Mercadantis</persName>; alii coheret superius via publica, inferius <pb n="298r"
+            xml:id="fol_298r"/>
+          <persName ref="#GuilielminusTilloia">Guilielmini de <placeName ref="#Tilloia"
+              >Tilloia</placeName></persName>.</p>
+        <p xml:id="CCCXXVIII_p_004" n="4">Ego <persName ref="#Ugolinusnot">Ugolinus, <roleName>sacri
+              palacii et Lunensis curie notarius</roleName></persName>, hiis interfui et rogatus
+          scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

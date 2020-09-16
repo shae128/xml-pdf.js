@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXXX_442">
+    <front xml:id="CCCCLXXX_front">
+
+      <titlePart type="numerazioneNuova">442</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXX</titlePart>
+
+      <docDate xml:id="CCCCLXXX_docDate">
+        <date when="1254-07-29">1254 luglio 29</date>, <placeName>Pisa <emph> (<term
+              xml:lang="latin">Pisis, in domo hospitalis Sancti Pauli de ripa
+          Arni</term>)</emph></placeName>
+      </docDate>
+
+
+      <div type="regesto" xml:id="CCCCLXXX_regesto">
+        <p>Il vescovo di Luni Guglielmo nomina suo procuratore l’arciprete di Marinasco Gerardo in
+          modo che conceda in feudo perpetuo a Nicolò Fieschi, conte di Lavagna e nipote del
+          pontefice, i castelli di Tivegna, Castiglione Vara, Bracelli e il borgo di Padivarma, che
+          un tempo erano tenuti in feudo dagli Adelberti e da altri. Gerardo deve inoltre investire
+          Nicolò Fieschi di tutto il podere un tempo tenuto in feudo dalla nobile Matilde a Carpena
+          e a Vezzano, ricevere da lui il giuramento di fedeltà e una compensazione per i beni
+          propri che la curia di Luni aveva a Tivegna, Castiglione Vara, Bracelli e Padivarma. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXXX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 365r.-365v., cc. CCCLVIr.-CCCLVIv., secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 480,
+            p. 493.</p>
+          <p>Bibliografia : <ref target="#NUTI_1997">NUTI 1997</ref></p>
+        </div>
+
+        <div type="crit_notes">
+          <note><emph>La pergamena reca un foro di forma più o meno circolare del diametro di mm.
+              45, preesistente alla scrittura.</emph>
+            <p><emph>Il documento è simile al n. 447</emph>-CCCCLXXXV-CCCCLXXXVI.</p>
+          </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXX. Procurationis ad concedendum Tivegnam in feudum domino Nicolao de
+            Frisco.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+
+      <div xml:id="CCCCLXXX_div">
+
+        <p xml:id="CCCCLXXX_p_001" n="1"> In Dei nomine, amen. <date when="1254-07-29">Anno a
+            nativitate M°CCLIIII, indictione XII, IIII kalendas augusti.</date> Venerabilis pater
+            <persName ref="#GuilEpLuni"><roleName>dominus</roleName> Guilielmus, <roleName>Dei
+              gratia Lunensis episcopus</roleName></persName>, fecit et constituit suum et
+          episcopatus actorem, procuratorem et certum nuncium <persName ref="#Gerardusarc"
+              ><roleName>magistrum</roleName> Gerardum
+            <roleName>archipresbyterum</roleName></persName> de <placeName ref="#Marnasco"><orgName
+              type="Marinasco_S_Stefano">Marnasco</orgName></placeName> ad concedendum pleno ac
+          perpetuo feudi iure domino <persName ref="#NicholausFlisco">Nicholosio de Flisco,
+              <roleName>comiti</roleName>
+            <placeName ref="#Lavania">Lavanie</placeName>, <roleName>domini pape
+            nepoti</roleName></persName>, ac suis heredibus <placeName ref="#Tivegna"
+            >Tivegne</placeName>, <placeName ref="#CastiglionediVarese">Castilioni</placeName> et
+            <placeName ref="#Bracellis">Bracelli</placeName> castra et burgum de <placeName
+            ref="#Padulvarmo">Padulvarmo</placeName>, cum eorum curiis et pertinenciis que olim ||
+            <pb xml:id="fol_365v" n="365v"/> pro parte nobiles <persName ref="#Aldeberti"
+            >Aldeberti</persName> et pro parte altera quidam alii ab ecclesia Lunensi tenebant in
+          feudum, et redditus, vassallos, villanos, iurisdictionem et iura et cetera omnia que in
+            demanium<note place="foot" n="a" xml:id="CCCCLXXX_n_001"> demanium: nium <emph>corretto
+              su precedente scrittura</emph>.</note> seu proprium curia Lunensis detenebat ibidem,
+          salvo quod ipse nobilis et eius heredes teneantur recipere ipsum dominum episcopum et eius
+          successores cum suis sequacibus, qui non sint inimici ipsius nobilis et heredum eius, ad
+          faciendum guerram cum hominibus dictorum locorum inimicis Lunensis curie. Et quod ipse
+          nobilis et sui heredes, cum hominibus dictorum locorum, iuvare teneantur ipsum dominum
+          episcopum et eius successores recuperare iura et bona Lunensis episcopatus et ea, que
+          possidet vel recuperabit, deffendere et manutenere et facere guerram et devetum per totum
+          episcopatum Lunensem in ipsorum hominum propriis expensis, et quod iuvabunt ipsum dominum
+          episcopum et successores suos cum exercitum fecerit pro Romana ecclesia vel pro imperatore
+          vel suos milites aut pedites miserit pro dictis exercitibus faciendis; et ad investiendum
+          ipsum nobilem de predictis, sicut domini fideles seu vassallos investire consueverant, et
+          ad investiendum eundem nobilem de toto eo podere quod olim <persName ref="#Mateldadom"
+              ><roleName>nobilis domina</roleName> Matelda</persName> a Lunensi curia tenebat in
+          feudum sive in <placeName ref="#Carpena">Carpena</placeName> sive in <placeName
+            ref="#Vezzano">Vezano</placeName> vel in quocumque loco episcopatus Lunensis de ipso
+          feudo poterit inveniri, et ad recipiendum ab ipso nobili de predictis fidelitatis et
+          homagii solitum iuramentum; et ad recipiendum recompensationem pro hiis que habebat in
+          demanium seu proprium Lunensis curia in <placeName ref="#Tivegna">Tivegna</placeName>,
+            <placeName ref="#CastiglionediVarese">Castiliono</placeName>, <placeName
+            ref="#Bracellis">Bracelli</placeName> et <placeName ref="#Padulvarmo"
+            >Padulvarmo</placeName>, et ad stipulandum sollempniter et faciendum et recipiendum
+          omnia et singula que pro premissis et singulis premissorum viderit expedire, etiam ad
+          certam penam, promittens idem dominus episcopus, suo et episcopatus nomine, omnia et
+          singula habere firma et rata que dictus <persName ref="#Gerardusarc"
+              ><roleName>magister</roleName> Gerardus</persName> de premissis et pro premissis
+          fecerit vel legitimus procurator vel actor seu nuncius facere potest vel debet, sub
+          ypotheca et obligatione bonorum episcopatus. </p>
+
+        <p xml:id="CCCCLXXX_p_002" n="2"> Actum <placeName ref="#Pisa">Pisis</placeName>, in domo
+            <orgName type=" Pisa_S_Paolo_RipaArno">hospitalis Sancti Pauli de <placeName
+              ref="#ripaArni">ripa Arni</placeName></orgName>, testibus <persName ref="#Aiutuspres2"
+              ><roleName>presbytero</roleName> Adiuto, dicti <roleName>domini episcopi
+              cappellano</roleName></persName>, <persName ref="#FredericusPelegriniPal">Frederico de
+            la <placeName ref="#Padule">Padule</placeName>, <roleName>domini episcopi
+              castaldo</roleName></persName>, et <persName ref="#Pasqualinusnot">Pasqualino
+              <roleName>notario</roleName></persName>, presentibus et rogatis. </p>
+
+        <p xml:id="CCCCLXXX_p_03" n="3">
+          <ptr target="#CCCCLXXX_st_001"/>Ego <persName ref="#Bonalbergusnot">Bonalbergus,
+              <roleName>Frederici invictissimi Romanorum imperatoris notarius</roleName></persName>,
+          hiis interfui et mandata predicti domini episcopi scripsi et publicavi. </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="\schema\tei_cp.rng" type="application\xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="CLXVI_524">
+        <front xml:id="CLXVI_front">
+
+            <titlePart type="numerazioneNuova">524</titlePart>
+            <titlePart type="numerazioneOrig">CLXVI</titlePart>
+
+            <docDate xml:id="CLXVI_docDate">
+                <date when="1271-05-05">1271 maggio 5</date>, <placeName><placeName
+                        ref="#Sarzanello">Sarzanello </placeName> (<term xml:lang="latin">in castro
+                        Sarzane, in palacio domini episcopi</term>)</placeName>
+            </docDate>
+
+            <div type="regesto" xml:id="CLXVI_regesto">
+                <p> Opizzino del fu Guglielmo di Castiglione, procuratore della moglie Flordolina
+                    del fu Domalfollo di Terrarossa, cede al vescovo di Luni Guglielmo il fitto
+                    annuale di sette staia e mezzo di frumento e la pensione di 12 denari di
+                    imperiali che Flordolina è solita ricevere a Ponzanello da diverse persone
+                    relativamente al castagneto e alla tenuta posta nel luogo detto Factorose e alla
+                    tenuta di Folgeto. Fitto e pensioni li aveva acquistati il padre Domalfollo
+                    dagli zii Zapirono di Parente, Actocanino e Gigliolo ed erano arrivati per
+                    eredità a Flordolina e a suo fratello Ottofiore, ora defunto. Il prezzo della
+                    vendità ammonta a 12 lire di denari genovesi. </p>
+            </div>
+
+            <div type="footer" xml:id="CLXVI_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] cc. 411r.-412v., cc. CCCCIIIr.-CCCCIIIIv. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p> Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                            1912</ref>, Addenda, n. 21, pp. 673-674. </p>
+                </div>
+
+                <div type="crit_notes"> </div>
+
+
+                <div type="appr">
+                    <p/>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="CLXVI_div">
+                <p xml:id="CLXVI_p_001" n="1"> In nomine Domini, amen. <date when="1271-05-05">Anno
+                        a nativitate Eius M°CC° septuagesimo primo, indictione XIIII, V°
+                    maii</date>. <persName ref="#UppecinusGuilielmi">Opecinus quondam <persName
+                            ref="#GuilielmusCastilliono">Guilielmi de <placeName ref="#Castilliono"
+                                >Castilliono</placeName></persName></persName>, procurator domine
+                        <persName ref="#FrordolinaDomalfolli">Flordoline, filie quondam <persName
+                            ref="#DomafolleTerrarossola">Domalfolli de <placeName
+                                ref="#Terrarossola">Terra Russola</placeName></persName> et uxoris
+                        ipsius <persName ref="#UppecinusGuilielmi">Opecini</persName></persName>, de
+                    cuius procuratione atque mandato ad infrascripta facienda ei dato et concesso ab
+                    ea continebatur et apparebat per publicum instrumentum factum a <persName
+                        ref="#Lombardusnot2">Lumbardo <roleName>notario</roleName></persName>
+                    <date when="1271-04-30">sub<note>Riferimento al documento 522 (CLXIIII).</note>
+                        annis Domini millesimo CC°LXXI, indictione XIIII, die iovis, secundo
+                        kalendas madii</date>, procuratorio nomine pro ipsa <persName
+                        ref="#FrordolinaDomalfolli">Flordolina</persName>, vendidit, dedit et
+                    tradidit atque refutavit venerabili patri <roleName>domino</roleName>
+                    <persName ref="#GuilEpLuni">Guilielmo</persName>, <roleName>Dei gratia Lunensi
+                        episcopo</roleName>, agenti et recipienti pro se suisque successoribus et
+                    pro suo episcopatu, totum illud fictum quod ipsa <persName
+                        ref="#FrordolinaDomalfolli">Flordolina</persName> recipit et recipere debet
+                    et debebat annuatim in <placeName ref="#Ponzanello">Ponzanello</placeName> a
+                    quibuscumque personis ipsius loci et specialiter septem sextaria atque dimidium
+                    frumenti ficti, quod fictum frumenti ipsa <persName ref="#FrordolinaDomalfolli"
+                        >Flordolina</persName> recipit vel recipiebat vel recipere debebat annuatim,
+                    ad rectum starium de <placeName ref="#Bibola">Bibola</placeName> vel ad aliud
+                    starium quodcumque vel mensuram, sive plus sive minus sit vel esse debeat dictum
+                    fictum sive frumentum, a quibusdam personis dicti loci de <placeName
+                        ref="#Ponzanello">Ponzanello</placeName> et specialiter ab infrascriptis
+                    personis, scilicet a <persName ref="#GerardusCicoli">Gerardo quondam Cicoli de
+                            <placeName ref="#Ponzanello">Ponzanello</placeName></persName> et a
+                    consortibus suis de <placeName ref="#Factorose">Factorese</placeName>, scilicet
+                    Todesca et Benencasa nepotibus suis, <persName ref="#BonusValentini"
+                        >Bono</persName> et <persName ref="#PontonariusValentini">Portonario filiis
+                        Valentini</persName>, <persName ref="#VenturaManfredini">Ventura quondam
+                        Manfredini</persName> atque filiis <persName ref="#Magrina"
+                        >Magrine</persName> et <persName ref="#Bonlietus">Bonfileto</persName> viro
+                        <persName ref="#SopergiaGerardi">Soperchie, filie quondam Gerardi de
+                            <placeName ref="#GroppoFusco">Groppo Fusco</placeName></persName>, et
+                        <persName ref="#Bonaiutus">Bonaiuto</persName>, <persName ref="#Bonsenior"
+                        >Bonsegnore</persName> et <persName ref="#Bonaventura"
+                        >Bonaventura</persName>, <persName ref="#TodescaBonacursi">Todesca
+                        Bonacursi</persName>, <persName ref="#GuidoSpinello">Guidone de
+                        Spinello</persName>, <persName ref="#AlbertusMartini">Alberto quondam
+                        Martini</persName> et <persName ref="#Prodomus">Prodomo</persName> et ab
+                    heredibus <persName ref="#Gaforetus">Gaforeti</persName> et a <pb n="411v"
+                        xml:id="fol_411v"/>
+                    <persName ref="#TiniosusGerardiniCampo">Tignoso quondam Gerardini de <placeName
+                            ref="#Campo">Campo</placeName></persName> et ab heredibus et
+                    descendentibus predictorum et cui<supplied reason="omitted">us</supplied>libet
+                    ipsorum atque ipsarum et a quibuscumque aliis personis, de quodam castagneto et
+                    tenuta, agro et culto et in parte boschia, et sicut aliter est, in loco ubi
+                    dicitur <placeName ref="#Factorose">Factorese</placeName>, et coheret eidem
+                    tenute et castagneto superius castellaria castelli de <placeName
+                        ref="#Ponzanello">Ponzanello</placeName>, inferius et ab uno latere habent
+                    sive habere solebant domini de <placeName ref="#GroppoSP">Gropo Sancti
+                        Petri</placeName>, ab alio latere est canale de <placeName ref="#Plagna"
+                        >Plagna</placeName>, et si qui alii sint confines vel coherencie in
+                    predictis, sive de tenuta de <placeName ref="#Folgeto">Falgeto</placeName> sive
+                    de quibuscumque aliis tenutis vel possessionibus positis in pertinenciis
+                        <placeName ref="#Ponzanello">Ponzanelli</placeName>; ex quibus vel pro
+                    quibus dictum fictum sive frumentum vel aliqua pars ipsius solvatur vel solvi
+                    vel reddi debeat a predictis personis vel aliqua vel aliquabus earum vel ab
+                    aliis personis aliquibus <note place="foot" n="a" xml:id="CLXVI_n_001"
+                        >aliquibus: ali <emph>corretto su rasura.</emph></note> de <placeName
+                        ref="#Ponzanello">Ponzanello</placeName> vel pertinenciis ex publico
+                    instrumento olim rogato sive imbreviato per quondam <persName
+                        ref="#GerardetusMontoni">Gerardetum <roleName>notarium</roleName>, qui
+                        nominatur sive nominabatur Montonus</persName>, facto vel completo per alium
+                    notarium vel notarios, vel ex alio instrumento facto manu <persName
+                        ref="#Prefectusnot3">Prefecti</persName> notarii vel ex alio instrumento
+                    facto per <persName ref="#PetrusSanPaolo">Petrum de <placeName
+                            ref="#Sancto_Paulo">Sancto Paulo</placeName></persName> notarium vel ex
+                    alio quocumque instrumento publico vel privato vel sine instrumento, ex pacto
+                    vel ex usu vel ex consuetudine vel ex tempore vel alio quocumque modo vel iure
+                    vel causa. Et que VII staria et dimidium frumenti ficti dicebat dictus
+                    procurator pro dicta <persName ref="#FrordolinaDomalfolli">Flordolina</persName>
+                    et ipsi <persName ref="#FrordolinaDomalfolli">Flordoline</persName> et quondam
+                    fratri suo <persName ref="#OctoflosDomalfolli">Ottoflori</persName>, cuius
+                    heredem se esse dicebat, devenisse in partem ex divisione sive emptione vel
+                    acquisitione facta per eam exinde vel dictum <persName ref="#OctoflosDomalfolli"
+                        >Ottoflorem</persName> vel per <persName ref="#DomafolleTerrarossola"
+                        >Domalfollem</persName>, patrem eius, a patruis eius <persName
+                        ref="#ÇapironusParentis">Çapirono</persName>, <persName
+                        ref="#AttocaninusParentis">Attocanino</persName> et <persName
+                        ref="#GiliolusParentis">Giliolo</persName>, et dicebat<note place="foot"
+                        n="b" xml:id="CLXVI_n_002"> dicebat<emph>:</emph>nel testo segue</note>
+                        quod<emph>, superfluo, ma non depennato.</emph> ipse procurator pro dicta
+                        <persName ref="#FrordolinaDomalfolli">Flordolina</persName> quod ipse
+                        <persName ref="#ÇapironusParentis">Çapironus</persName> vel filii sui vel
+                    dicti <persName ref="#AttocaninusParentis">Attocaninus</persName> et <persName
+                        ref="#GiliolusParentis">Giliolus</persName> non habebant aliquam partem in
+                    dicto ficto. Item vendidit et dedit dictus procurator, procuratorio nomine pro
+                    dicta <persName ref="#FrordolinaDomalfolli">Flordolina</persName> et eius
+                    nomine, eidem domino episcopo, recipienti ut dictum est, <measure
+                        type="Imperiales" quantity="12" unit="solidus">XII imperialium</measure>
+                    pensionis, quos ipsa annuatim recipere debebat a predictis personis vel aliqua
+                    earum vel aliqua alia de <placeName ref="#Ponzanello">Ponzanello</placeName>, de
+                    quibus <measure type="Imperiales" quantity="12" unit="solidus">XII
+                        imperialium</measure> fit mentio in dicto instrumento rogato per dictum
+                        <persName ref="#GerardetusMontoni">Gerardetum</persName>
+                    <roleName>notarium</roleName>. Et dedit, cessit atque mandavit dictus
+                    procurator, dicto nomine, suprascripto domino episcopo, recipienti ut dictum
+                    est, omne dominium, proprietatem, usum et utilitatem, amasiamentum atque
+                    dismasiamentum et omnia iura, actiones et rationes utiles et directas, reales et
+                    personales et mixtas, et omnes alias que et quas ipsa <persName
+                        ref="#FrordolinaDomalfolli">Flordolina</persName> habet vel habebat vel
+                    habere poterat quacumque occasione vel modo, ipsa vel quondam <persName
+                        ref="#OctoflosDomalfolli">Octoflors</persName>, frater eius, cui se
+                    successisse dicebat, in predicto ficto et frumento pro preterito tempore et pro
+                    presenti et pro futuro in perpetuum et pro retento et pro debito et debendo et
+                    in solo atque tenuta et tenutis et bonis et possessionibus, ex quo vel ex qua
+                    vel ex quibus ipsum fictum et frumentum re<supplied reason="omitted"
+                        >d</supplied>ditur et reddebatur et reddi et solvi debet et debebat, et in
+                    personis et contra personas ipsum fictum atque frumentum vel aliquod ex eo
+                    solventes et solvere debentes, et etiam in predicta pensione et in personis eam
+                    solvere debentibus et in solo et tenuta de qua solvi debet vel debebat, sive
+                    predictum fictum atque pensio et iura ipsius ficti et pensionis et solum et
+                    tenuta et tenute, ex quibus predicta solvuntur et redduntur<note place="foot"
+                        n="c" xml:id="CLXVI_n_003"> solvuntur et redduntur<emph>: nel testo</emph>
+                        redduntur et solvuntur <emph>con segno di richiamo per invertire l’ordine
+                            delle parole.</emph></note>, tenentur vel teneantur vel tenerentur per
+                    dictam <persName ref="#FrordolinaDomalfolli">Flordolinam</persName> vel dictum
+                        <persName ref="#OctoflosDomalfolli">Ottoflorem</persName> vel per dictum
+                        <persName ref="#DomafolleTerrarossola">Domalfollem</persName> vel
+                        <roleName>dominum</roleName>
+                    <persName ref="#ParensTerrarossa">Parentem, quondam patrem ipsius <persName
+                            ref="#DomafolleTerrarossola">Domalfollis</persName></persName>, vel per
+                    eius filios vel aliquem eorum, in feudum et nomine vel iure<note place="foot"
+                        n="d" xml:id="CLXVI_n_004"> vel iure<emph>: corretto su precedente
+                            scrittura.</emph></note> feudi a dicto domino episcopo sive <pb n="412r"
+                        xml:id="fol_412r"/> non tenerentur in feudum, ita ut ex predictis omnibus et
+                    singulis et eorum occasione dictus dominus episcopus vel alius pro eo possit
+                    agere et experiri, tueri, causari et deffendere adversus predictas personas
+                    superius nominatas predictum fictum et pensionem solvere debentes et adversus
+                    eorum et cuiuslibet eorum heredes et bona et adversus quamlibet aliam personam
+                    et locum et exinde facere quicquid voluerit, absque contradictione dicte
+                        <persName ref="#FrordolinaDomalfolli">Flord<supplied reason="omitted"
+                            >ol</supplied>ne</persName> vel dicti <persName
+                        ref="#UppecinusGuilielmi">Opecini</persName> vel alterius cuius<supplied
+                        reason="omitted">cum</supplied>que persone. Et dedit et concessit<note
+                        place="foot" n="e" xml:id="CLXVI_n_005"> concessit<emph>: segno tachigrafico
+                            per con aggiunto in sopralinea.</emph></note> dictus procurator,
+                    procuratorio nomine pro suprascripta <persName ref="#FrordolinaDomalfolli"
+                        >Flordolina</persName>, suprascripto domino episcopo, recipienti ut dictum
+                    est, licenciam et bailliam intrandi et accipiendi corporalem tenutam atque
+                    possessionem vel quasi omnium predictorum quandocumque voluerit per se vel per
+                    alium, constituens se, procuratorio nomine pro dicta <persName
+                        ref="#FrordolinaDomalfolli">Flordolina</persName>, pro dicto domino episcopo
+                    et episcopatu, possidere predicta vel quasi donec tenutam et possessionem vel
+                    quasi acceperit et habuerit de predictis. Et pro precio dicti ficti et pensionis
+                    et omnium predictorum habuit atque recepit suprascriptus <persName
+                        ref="#UppecinusGuilielmi">Opecinus</persName>, procuratorio nomine pro dicta
+                        <persName ref="#FrordolinaDomalfolli">Flordolina</persName>, a dicto domino
+                    episcopo libras quindecim Ianuensium coram me Petro notario infrascripto et
+                    coram testibus infrascriptis, renunciando exceptioni non numerate pecunie et
+                    precii non soluti et omni alii exceptioni et legum auxilio, atque si quid plus
+                    valebant vel valent predicta vendita et cessa precio suprascripto ipse
+                    procurator, procuratorio nomine pro dicta <persName ref="#FrordolinaDomalfolli"
+                        >Flordolina</persName>, concessit et refutavit eidem domino episcopo, dicto
+                    nomine agenti et recipienti, sive predicta tenerentur vel teneri deberent in
+                    feudum a dicto domino et episcopatu sive non, et renunciavit ipse procurator
+                    specialiter illi legi que iuvat deceptos in vendictionibus ultra dimidiam iusti
+                    precii. Insuper dictus <persName ref="#UppecinusGuilielmi">Opecinus</persName>,
+                    procuratorio nomine pro dicta <persName ref="#FrordolinaDomalfolli"
+                        >Flordolina</persName> et etiam pro se et suo nomine proprio in solidum et
+                    pro suis heredibus, promisit eidem domino episcopo predicta vendita et cessa
+                    deffendere et exbrigare de iure ab infrascriptis personis secundum modum
+                    infrascriptum, scilicet ab ipsa <persName ref="#FrordolinaDomalfolli"
+                        >Flordolina</persName> et suis heredibus atque a se ipso <persName
+                        ref="#UppecinusGuilielmi">Opecino</persName> et suis heredibus et a dicto
+                        <persName ref="#OctoflosDomalfolli">Ottoflore</persName> si viveret vel
+                    rediret ab eius heredibus et a qualibet persona pro eo et eius heredibus et a
+                    domina <persName ref="#Sarda_materFrordoline">Sarda, matre dicte <persName
+                            ref="#FrordolinaDomalfolli">Flordoline</persName> et uxore dicti
+                            <persName ref="#DomafolleTerrarossola"
+                    >Domalfollis</persName></persName>, et eius filiis et heredibus et ab omnibus
+                    suprascriptis filiis et descendentibus et heredibus quondam <persName
+                        ref="#ParensTerrarossa">Parentis de <placeName ref="#Terrarossola">Terra
+                            Rossula</placeName></persName> et etiam ab omni alia persona cui
+                    predicta <persName ref="#FrordolinaDomalfolli">Flordolina</persName> vel dictus
+                        <persName ref="#UppecinusGuilielmi">Opecinus</persName> vel filii vel
+                    heredes vel descendentes dicti Parentis vel aliquis eorum vel dicta domina
+                        <persName ref="#Sarda_materFrordoline">Sarda</persName> vel dictus <persName
+                        ref="#OctoflosDomalfolli">Ottofloris</persName> datum vel concessionem vel
+                    alienationem vel obligationem fecisset vel fecissent de predictis vel aliquo
+                    predictorum; et, si non deffenderet vel deffendere non posset ipsa <persName
+                        ref="#FrordolinaDomalfolli">Flordolina</persName> vel dictus <persName
+                        ref="#UppecinusGuilielmi">Opecinus</persName> a predictis personis secundum
+                    modum predictum, teneatur et promisit ipse <persName ref="#UppecinusGuilielmi"
+                        >Opecinus</persName>, procuratorio nomine pro dicta <persName
+                        ref="#FrordolinaDomalfolli">Flordolina</persName>, in solidum et pro se et
+                    suo nomine in solidum dare et restaurare ipsi domino episcopo, recipienti ut
+                    dictum est, salvum cambium in bonis dicte <persName ref="#FrordolinaDomalfolli"
+                        >Flordoline</persName> et ipsius <persName ref="#UppecinusGuilielmi"
+                        >Opecini</persName> secundum quod res molestata sive litigata et evicta tunc
+                    valuerit vel meliorata fuerit, sub iusta exstimatione et arbitrio bonorum
+                    hominum, et restaurare ei dampna omnia et expensas quas ea occasione haberet vel
+                    substineret, remissa ipsi domino episcopo necessitate denunciandi et appellandi
+                    et appellationem prosequendi s i a predictis personis vel aliqua earum questio
+                    vel controversia moveretur eidem domino episcopo vel suis successoribus de
+                    predictis vel aliquo predictorum vel eorum occasione; alias autem, vel ab aliis
+                    personis, nisi ut supra dictum est, <pb n="412v" xml:id="fol_412v"/>
+                    suprascripta <persName ref="#FrordolinaDomalfolli">Flordolina</persName> vel
+                    dictus procurator eius pro ea vel pro se non teneatur de deffensione vel
+                    evictione vel exbrigatione vel ad salvum cambium restaurandum vel ad interesse
+                    vel ad dictum precium restituendum vel ad expensas, nec etiam teneatur ipsa
+                        <persName ref="#FrordolinaDomalfolli">Flordolina</persName> vel dictus
+                        <persName ref="#UppecinusGuilielmi">Opecinus</persName> pro ea vel pro se
+                    facere tradi vel dari dictum fictum vel pensionem dicto domino episcopo vel eius
+                    successoribus a predictis personis vel aliquibus aliis, sed ipse dominus
+                    episcopus et eius successores possint predicta petere et ius suum prosequi ut
+                    voluerint sine contradictione predictorum <persName ref="#UppecinusGuilielmi"
+                        >Opecini</persName> et <persName ref="#FrordolinaDomalfolli"
+                        >Flordoline</persName>, quia sic placuit et convenit concorditer inter
+                    partes. Hanc autem venditionem et omnia atque singula suprascripta convenit et
+                    promisit ipse <persName ref="#UppecinusGuilielmi">Opecinus</persName>,
+                    procuratorio nomine pro dicta <persName ref="#FrordolinaDomalfolli"
+                        >Flordolina</persName> et etiam pro se et suo nomine, habere rata et firma
+                    et attendere et observare et numquam in aliquo contra facere vel venire de iure
+                    vel de facto nec facere vel movere adversus dictum dominum episcopum vel eius
+                    successores vel adversus predictas personas, que dictum fictum vel pensionem
+                    dare debebant, aliquam questionem vel controversiam de predictis vel occasione
+                    predictorum, sub pena <measure quantity="15" unit="solidus">XV librarum
+                        Ianuensium</measure>, quam penam ipse <persName ref="#UppecinusGuilielmi"
+                        >Opecinus</persName>, procuratorio nomine pro dicta <persName
+                        ref="#FrordolinaDomalfolli">Flordolina</persName>, in solidum et etiam<note
+                        place="foot" n="f" xml:id="CLXVI_n_006">etiam <emph>: corretto su precedente
+                            scrittura.</emph></note> pro se atque suo nomine in solidum dare et
+                    solvere promisit ipsi domino episcopo, recipienti pro se suisque successoribus
+                    et pro suo episcopatu, tociens quociens fuerit in aliquo contraventum et pro
+                    quolibet capitulo non observato, atque, pena soluta vel non, suprascriptis
+                    omnibus et singulis nichillominus firmis et ratis manentibus cum eadem pene
+                    commissione, obligans ipse <persName ref="#UppecinusGuilielmi"
+                        >Opecinus</persName> pro hiis omnibus se, procuratorio nomine pro ipsa
+                        <persName ref="#FrordolinaDomalfolli">Flordolina</persName>, et ipsam
+                        <persName ref="#FrordolinaDomalfolli">Flordolinam</persName> in solidum et
+                    eius heredes et bona omnia habita et habenda et se ipsum <persName
+                        ref="#UppecinusGuilielmi">Opecinum</persName> in solidum et eius heredes et
+                    bona sua habita et habenda atque renuncians iuri et legibus contra hec
+                    introductis et introducendis et specialiter nove constitutioni de duobus reis
+                    debendis et epistule divi Adriani. </p>
+                <p xml:id="CLXVI_p_002" n="2">Actum in castro <placeName ref="#Sarzana"
+                        >Sarzane</placeName>, in palacio predicti domini episcopi, presentibus
+                        <roleName>dominis</roleName>
+                    <persName ref="#HenricusSarzana_iudex">Henrico</persName> et <persName
+                        ref="#Rubeusiud">Rubeo</persName> de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>, <roleName>iudicibus</roleName>, <persName
+                        ref="#Peregrinuscan">Peregrino</persName>
+                    <roleName>canonico Lunensi</roleName> et <persName ref="#CaçagueraLuca"
+                        >Caçaguera</persName> de <placeName ref="#Lucca">Luca</placeName>, testibus
+                    ad hec rogatis. </p>
+                <p xml:id="CLXVI_p_003" n="3"><ptr target="#CLXVI_st_001"/> Ego <persName
+                        ref="#PetrusGualterotinot">Petrus quondam <persName
+                            ref="#GualterotusSoleria">Gualteroti de <placeName ref="#Soliera"
+                                >Soleria</placeName></persName></persName>, <roleName>sacri palacii
+                        notarius</roleName>, hiis interfui et rogatus hanc cartam scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXX_332">
+    <front xml:id="CCCLXX_front">
+
+      <titlePart type="numerazioneNuova">332</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXX</titlePart>
+
+      <docDate xml:id="CCCLXX_docDate">
+        <date when="1144-03">1144 marzo <supplied reason="omitted"><date when="1144-03-02">2</date>
+            o <date when="1144-03-09">9 </date> o <date when="1144-03-16">16</date> o <date
+              when="1144-03-23">23</date></supplied>, <placeName>Sarzanello (<emph>in castro
+              Sarzane</emph>) </placeName></date>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXX_regesto">
+        <p>Busso del fu Tipo chiede in livello al vescovo Gotifredo il manso in Balognano tenuto da
+          Guidolino, da suo figlio e dal fratello Boninfante al fitto di 6 denari milanesi per un
+          anno e per l’altro in prestazioni d’opera. Chiede inoltre due iugeri di terre in <term
+            xml:lang="latin">Saniconcula</term> al fitto annuo di 4 denari milanesi.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 312v., c. CCCIIIIv. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 370,
+            p. 351, con la data 1143</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>La datazione con tutta probabilità segue lo stile fiorentino dell’incarnazione con
+            indizione bedana: di conseguenza si tratta di un giovedì del marzo 1144 anteriore del 25
+            del mese, come già suggerito da <ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 24. </note>
+          <p>Il documento è stato letto con l’ausilio della luce di Wood.</p>
+        </div>
+
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCLXX.
+              Pensionis et operum, que debentur in Balognano.</term></p>
+        </div>
+
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXX_div">
+        <p xml:id="CCCLXX_p_001" n="1"><ptr target="#CCCLXX_st_001"/>
+          <date when="1144-03-02">Anno ab incarnatione Domini nostri Ihesu Christi millesimo CXLIII,
+            mense marcii, die iovis, indictione VII.</date> Peto ego <persName ref="#BuxusTipi"
+            >Buxus, filius quondam Tipi</persName>, frater <persName ref="#CicolinusTipi"
+            >Cicolini</persName>, una cum meis heredibus, a vobis domino <persName
+            ref="#GotefredEpLuni">Gotefredo, <roleName>Lunensi episcopo</roleName></persName>,
+          vestrisque successoribus, libellario nomine habere, tenere, frui, meliorare, laborare et
+          non peiorare, id est totum mansium quod tenuit<note xml:id="CCCLXX_n_001" n="a"
+            place="foot">
+            <term xml:lang="latin">tenuit</term>: <emph>così nel testo per</emph>
+            tenuerunt</note><persName ref="#Guidolinus">Guidolinus</persName> et frater eius
+            <persName ref="#Bonusinfans">Bonusinfans</persName> et filius <persName
+            ref="#Guidolinus">Guidolini</persName> mecum habere et in <placeName ref="#Balognano"
+            >Balognano</placeName> videtur esse, in monte et in plano, et coheret ei ex uno latere
+          silva <persName ref="#AlbertusFormicoso">Alberti de <placeName ref="#Formicoso"
+              >Formicoso</placeName></persName> et ex alio terra <persName ref="#Colin"
+            >Colin</persName><supplied reason="illeggibile">[..]</supplied>
+          <note xml:id="CCCLXX_n_002" n="b" place="foot"><term xml:lang="latin">Colin[…]</term>:
+              <emph>parola in parte illeggibile</emph></note>, et exinde omni anno, infra octavam
+          nativitatis Domini, vobis vestrisque successoribus solvamus certam pensionem: uno anno
+            <measure type="Mediolanenses" unit="denari" quantity="6">sex denarios
+            Mediolanensium</measure> et in alio III et IIIIor opera. Et peto ego prefatus a vobis,
+          qualiter supra legitur, duo iugera terre que esse videntur in <placeName
+            ref="#Saniconcula">Saniconcula</placeName> et coheret eis terra <persName
+            ref="#RodulfinusCarersto">Rodulfini de <placeName ref="#Carersto"
+            >Carersto</placeName></persName>
+          <note xml:id="CCCLXX_n_003" n="c" place="foot"><term xml:lang="latin">Carersto</term>: r
+              <emph>aggiunta in sopralinea.</emph></note> et ex alio terra eiusdem episcopi, et
+          exinde vobis vestrisque successoribus solvamus <measure type="Mediolanenses" unit="denari"
+            quantity="4">IIII denarios Mediolanensium</measure> omni anno; alia superimposita nobis
+          non fiat. Penam inter se constituerunt <measure type="Mediolanenses" unit="soldi"
+            quantity="20">XX soldorum</measure>, si quis eorum tollere aut laxare voluerit, et
+          postea libellus in sua permaneat firmitate. </p>
+        <p xml:id="CCCLXX_p_002" n="2">Actum est hoc in <placeName ref="#Sarzanello">castro
+            Sarzane</placeName>, <date when="1144-03-09">die iovis</date>. Ego <persName
+            ref="#GotefredEpLuni">Gotefredus <roleName>episcopus</roleName></persName> subscripsi.
+            <persName ref="#Guililemusvic"><roleName>vicedominus</roleName> Guilielmus</persName>,
+            <persName ref="#BurgundiusMalabura">Burgundio Malabura</persName>, rogati testes,
+          interfuerunt. </p>
+        <p xml:id="CCCLXX_p_003" n="3"><ptr target="#CCCLXX_st_002"/> Ego <persName
+            ref="#Petrusiud2">Petrus, <roleName>iudex sacri palacii</roleName></persName>, hunc
+          libellum scripsi et complevi. </p>
+        <p xml:id="CCCLXX_p_004" n="4"><ptr target="#CCCLXX_st_003"/> Ego <persName
+            ref="#Bonabrocanot">Bonabrocha <note xml:id="CCCLXX_n_004" n="d" place="foot"><term
+                xml:lang="latin">Bonabrocha</term>: h <emph>aggiunto in sopralinea.</emph></note>,
+              <roleName>notarius sacri palacii</roleName></persName>, hunc libellum scripsi iuxta
+          exemplar <persName ref="#Petrusiud2">Petri <roleName>iudicis</roleName></persName> et
+          dedi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

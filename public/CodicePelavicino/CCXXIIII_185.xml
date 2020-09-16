@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXXIIII_185">
+    <front xml:id="CCXXIIII_front">
+
+      <titlePart type="numerazioneNuova">185</titlePart>
+      <titlePart type="numerazioneOrig">CCXXIIII</titlePart>
+
+      <docDate xml:id="CCXXIIII_docDate">
+        <date when="0998-07-26">998 luglio 26</date>, <placeName>Carrara<emph> (<term
+              xml:lang="latin">in broilo de Cararia</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXXIIII_regesto">
+        <p>Il marchese Oberto, figlio del defunto marchese Oberto, promette a Gotifredo, vescovo di
+          Luni, di non rivendicare nessun diritto sulle pievi di San Cassiano di Urceola, Vico,
+          Soliera e Venelia.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXXIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP, cc. 251v.- 252r., cc. CCXLIIIv.-CCXLIIIIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#UGHELLI_1644">UGHELLI 1644</ref>, I, 838; <ref
+              target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 224, pp. 202-203.</p>
+          <p>Bibliografia: <ref type="biblio" target="#CONTI_1986">CONTI 1986</ref>, pp. 19-20; <ref
+              target="#PAVONI_1987">PAVONI 1987</ref>, p. 35; <ref target="#RICCI_1999">RICCI
+              1999</ref></p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Come già per il documento n. 189 (CCXVIIII), Lupo Gentile data erroneamente al 986;
+            in realtà il terzo anno di regno di Ottone III corrisponde al 998, come già osservato da
+              <ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 15. Il testo è alquanto scorretto.
+            <emph/></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXXIIII_div">
+        <p xml:id="CCXXIIII_p_001" n="1"><ptr target="#CCXXIIII_st_001"/>In nomine Domini Dei et
+          Salvatoris nostri Ihesu Christi. <date when="0998-07-26"><persName ref="#Otto_imperator3"
+              >Tercius Otto, <roleName>gratia Dei imperator augustus</roleName></persName>, anno
+            imperii eius, Deo propitio, tercio, septimo kalendas augusti, indictione XI</date>. Tibi
+            <persName ref="#GotefredEpLuni">Gotifredi, <roleName>episcopi sancte Lunensis
+              ecclesie</roleName></persName>, <pb n="252r" xml:id="fol_252r"/> ego <persName
+            ref="#OtbertusOtbertimarchio">Otbertus <roleName>marchio</roleName>, filius quondam item
+            Otberti, itemque <roleName>marchio</roleName></persName>, qui professo sum, ex natione
+          mea, legem vivere Longobardorum, presens presentibus dixi: <q rend="pre(«) post(»)"
+            >Promitto et spondeo me ego qui supra <persName ref="#OtbertusOtbertimarchio">Otbertus
+                <roleName>marchio</roleName></persName>, una cum meos heredes, tibi cui supra
+              <persName ref="#GotefredEpLuni">Gotefredi episcopi</persName> vestrisque successoribus
+            ut amodo nullumquam in tempore non habeamus licenciam nec potestatem, per nullum ius,
+            ingenium nullaque occasione quod fieri potest, agere nec causare nominative de plebibus
+            quatuor, una qui dicitur <orgName ref="#Urceola_S_Cassiano">sancti Casiani
+              de</orgName><placeName ref="#Urciola">Urciola</placeName>, <orgName
+              ref="#Vico_S_Martino"> alia</orgName> de <placeName ref="#Vico">Vico</placeName>,
+              <orgName ref="#Soliera_S_Maria">tercia</orgName> de <placeName ref="#Soliera"
+              >Soleria</placeName>, <orgName ref="#Venelia_S_Maria">quarta</orgName> de <placeName
+              ref="#Venelia">Venelia</placeName>, cum omnibus suorum pertinenciis, quod sunt ipsis
+            plebibus de sub regimine iamdicti episcopii vestri, dicendo quod mihi exinde per
+            libellos pertinere debuissem, sed omni tempore ego et meos heredes taciti et contenti
+            permaneamus. Quid si amodo aliquando<note place="foot" n="a" xml:id="CCXXIIII_n_001"
+                >aliquando: quando<emph>corretto su precedente scrittura.</emph></note> tempore ego qui
+            supra <persName ref="#OtbertusOtbertimarchio">Otbertus
+              <roleName>marchio</roleName></persName> et meos heredes adversus te quem supra
+              <persName ref="#GotefredEpLuni">Gotefredus <roleName>episcopus</roleName></persName>
+            vestrisque successoribus de iamscriptis plebibus cum eorum pertinenciis agere aut
+            causare vel removere presumpserimus, per nos aut nostras submittentes personas, et
+            taciti exinde omni tempore non permanserimus vel si apparuerit ullum datum aut factum
+            vel quodlibet scriptum, quod ad dampnum episcopio vestro aut vobis vestrisque
+            successoribus apparuerit, quod ego qui supra <persName ref="#OtbertusOtbertimarchio"
+              >Otbertus <roleName>marchio</roleName></persName> aut meos heredes de iamscriptis
+            plebibus cum eorum pertinenciis in aliam partem fecissem et claruerit, tunc<note
+              place="foot" n="b" xml:id="CCXXIIII_n_002">tunc<emph>:
+                corretto su precedente scrittura.</emph></note> componat ipse <persName
+              ref="#OtbertusOtbertimarchio">Otbertus <roleName>marchio</roleName></persName> et meos
+            heredes vobis <persName ref="#GotefredEpLuni">Gotefredi episcopi</persName> vestrisque
+            successoribus ad pars ipsius episcopio vestro pena <measure quantity="100" unit="libra"
+              >auri optimi librarum C</measure>, et in eo tinore, ut supra legitur, et ad hanc
+            confirmandam promissionis cartula accepi ego qui supra <persName
+              ref="#OtbertusOtbertimarchio">Otbertus <roleName>marchio</roleName></persName> ad te
+            quem supra <persName ref="#GotefredEpLuni">Gotefredus episcopus</persName> exinde
+            launechil camisio uno de dorsum, manente hanc cartula promissionis omni tempore in sua
+            firmitatem</q>.</p>
+        <p xml:id="CCXXIIII_p_002" n="2">Actum in broilo de <placeName ref="#Carrara"
+            >Cararia</placeName>, feliciter</p>
+        <p xml:id="CCXXIIII_p_003" n="3"><c>†</c>
+          <persName ref="#OtbertusOtbertimarchio">Otbertus <roleName>marchio</roleName></persName>
+          subscripsi.</p>
+        <p xml:id="CCXXIIII_p_004" n="4">Ego <persName ref="#Burgoiud">Burgo
+              <roleName>iudex</roleName></persName> interfui, dedi.</p>
+        <p xml:id="CCXXIIII_p_005" n="5"><c>†</c> Ego <persName ref="#Gerardus">Gerardo</persName>
+          rogatus in integrum subscripsi.</p>
+        <p xml:id="CCXXIIII_p_006" n="6">Signum # # # manibus <persName ref="#Rollandusvic">Rollandi
+              <roleName>vicecomitis</roleName></persName> et <persName ref="#IohannesAmezo">Iohanni,
+            qui est Amezoni, seu Gotezoni, germanis</persName>, omnes lege viventes Langobardorum,
+          testes.</p>
+        <p xml:id="CCXXIIII_p_007" n="7"><ptr target="#CCXXIIII_st_002"/> Ego <persName
+            ref="#Berardusnot">Berardus, <roleName>notarius</roleName> et <roleName>iudex sacri
+              palacii</roleName></persName>, scriporulus<note place="foot" n="c"
+            xml:id="CCXXIIII_n_003">scriporulus<emph>: così nel testo
+              probabilmente per</emph> scriptor huius.</note> cartula promissionis, post tradita
+          complevi et dedi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

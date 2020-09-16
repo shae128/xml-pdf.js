@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="\schema\tei_cp.rng" type="application\xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="CLXVIIII_527">
+        <front xml:id="CLXVIIII_front">
+
+            <titlePart type="numerazioneNuova">527</titlePart>
+            <titlePart type="numerazioneOrig">CLXVIIII</titlePart>
+
+            <docDate xml:id="CLXVIIII_docDate">
+                <date when="1254-05-06">1254 maggio 6</date>, <placeName ref="#Fosdinovo">Fosdinovo
+                </placeName> (<term xml:lang="latin">Fosdenove, in domo domini Saladini de
+                    Fosdenova</term>) e <placeName ref="#Ponzanello">Ponzanello </placeName> (<term
+                    xml:lang="latin">Ponzanelli, ante ecclesiam Sancti Martini</term>) </docDate>
+
+            <div type="regesto" xml:id="CLXVIIII_regesto">
+                <p> Saladino di Fosdinovo vende a Martino di Piazza di Moneta il fitto di tre staia
+                    meno un quarto di frumento che Zapirone del fu Parente di Terrarossa aveva
+                    venduto a suo figlio Gerardo e che era relativo alla tenuta detta <term
+                        xml:lang="latin">Factorese</term>, posta nel distretto di Ponzanello. Il
+                    prezzo della vendita ammonta a 7 lire imperiali. Acconsente Concessa, moglie di
+                    Saladino, rinunciando al suo diritto di ipoteca. Il vescovo di Luni Guglielmo
+                    condona a Martino tre staia di frumento, delle nove e più che Martino era tenuto
+                    a versare annualmente alla curia lunense, in cambio del fitto di tre staia meno
+                    un quarto che Martino compra da Saladino di Fosdinovo. </p>
+            </div>
+
+            <div type="footer" xml:id="CLXVIIII_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] cc. 414r.-414v., cc. CCCCVIr.-CCCCVIv. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p> Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                            1912</ref>, Addenda, n. 24, pp. 676-677. </p>
+                </div>
+
+                <div type="crit_notes">
+                    <p>Il documento è privo di sottoscrizione notarile.</p>
+                </div>
+
+
+                <div type="appr">
+                    <p/>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="CLXVIIII_div">
+                <p xml:id="CLXVIIII_p_001" n="1"> In Dei nomine, amen. <date when="1254-05-06">Anno
+                        a nativitate Eius M°CC°LIIII°, indictione XIIª, VI° intrantis maii</date>.
+                        <roleName>Dominus</roleName>
+                    <persName ref="#SaladinusFosdenova">Saladinus de <placeName ref="#Fosdinovo"
+                            >Fosdenova</placeName></persName> pro precio <measure type="Imperiales"
+                        quantity="7" unit="solidus">librarum VII imperialium</measure>, quos sibi a
+                        <persName ref="#MartinusPlaçaMoneta">Martino de <placeName
+                            ref="#PlaççaMoneta">Plaçça de Moneta</placeName></persName> solutos esse
+                    fuit confessus, renunciando exceptioni non numerate pecunie, vendidit, dedit et
+                        tradididit<note place="foot" n="a" xml:id="CLXVIIII_n_001">
+                        <term xml:lang="latin">tradididit</term>
+                        <emph>: così nel testo per</emph>
+                        <term xml:lang="latin">tradidit</term></note> ei quoddam fictum cum iure
+                    soli pro quo redditur, quod est annuatim staria tria frumenti minus uno quarto,
+                    quod <persName ref="#ÇapironusParentis">Çapironus quondam <persName
+                            ref="#ParensTerrarossa">Parentis de <placeName ref="#Terrarossola">Terra
+                                Rubea</placeName></persName></persName> vendidit <persName
+                        ref="#GerardusSaladini">Gerardo, filio ipsius domini <persName
+                            ref="#SaladinusFosdenova">Saladini</persName></persName>, quod fictum
+                    ipsi <persName ref="#ÇapironusParentis">Çapirono</persName> reddebatur nomine
+                    ficti in castro de <placeName ref="#Ponzanello">Ponzanello</placeName> infra
+                    mensem augusti, mensuratum cum quodam sextario ferrato, de quadam tenuta que
+                    dicitur <placeName ref="#Factorose">Factorese</placeName>, que posita est in
+                    pertinenciis Ponzanelli. Et cessit ei omnia iura et actiones utiles et directas,
+                    reales et personales et mixtas, sibi in dicto ficto et solo pro quo redditur et
+                    personis reddentium competencia et competentes, et constituit se pro eo et eius
+                    nomine predicta possidere et quasi et fecit eum procuratorem et dominum in rem
+                    suam, promittendo ei sollempni stipulatione predictum fictum, cum solo pro quo
+                    redditur, deffendere et exbrigare ab omni contradicente et impediente persona et
+                    loco et, si deffendere atque exbrigare non posset et non deffenderet et
+                    exbrigaret, restaurare et salvum cambium inde dare et dampna reficere et
+                    expensas et conservare eum inde indempnem. Et hanc venditionem et omnia et
+                    singula, que in hac carta leguntur,<pb n="414v" xml:id="fol_414v"/>promisit rata
+                    habere et non contravenire, obligando se suosque heredes pro predictis omnibus
+                    attendendis atque observandis, ut dictum est, et sua bona, ad penam dupli
+                    suprascripte pecunie, renunciando omni iuri et consuetudini et legum auxilio quo
+                    posset contra predicta vel contra aliquod predictorum venire vel tueri se a
+                    predictis seu ab aliquo predictorum et nominatim a predicta pena quam tociens
+                    ipsi <persName ref="#MartinusPlaçaMoneta">Martino</persName> solvere promisit
+                    quociens in eam inciderit, et, ea soluta, predicta semper nichillominus robur
+                    obtineant firmitatis. Ibidem presens <roleName>domina</roleName>
+                    <persName ref="#Concessa_uxorSaladini">Concessa, uxor predicti
+                            <roleName>domini</roleName>
+                        <persName ref="#SaladinusFosdenova">Saladini</persName></persName>,
+                    cerciorata de iure suo, ut ipsa dicebat, predicte vendictioni et omnibus
+                    suprascriptis consensit, renunciando iuri ypotecharum atque omni alii iuri quo
+                    posset contra predicta venire, obligando se suosque heredes et sua bona ad penam
+                    dupli suprascripte pecunie, quam solvere ipsi <persName
+                        ref="#MartinusPlaçaMoneta">Martino</persName> promisit si contra predicta
+                    venerit, et, ea soluta, predicta semper nichillominus in sua permaneant
+                    firmitate.</p>
+                <p xml:id="CLXVIIII_p_002" n="2">Actum <placeName ref="#Fosdinovo"
+                        >Fosdenove</placeName>, in domo predicti domini <persName
+                        ref="#SaladinusFosdenova">Saladini</persName>, presentibus <persName
+                        ref="#SaladinusSaladini">Saladino, filio <persName ref="#SaladinusFosdenova"
+                            >suo</persName></persName>, et <persName ref="#FranciscusSaladini"
+                        >Francesco, similiter filio <persName ref="#SaladinusFosdenova"
+                            >suo</persName></persName>, <persName ref="#Bernottus_fraterSaladini"
+                        >Bernotto, fratre ipsius domini <persName ref="#SaladinusFosdenova"
+                            >Saladini</persName></persName>, <persName ref="#PetrusGuiçoli">Petro
+                        quondam Guiçoli<note place="foot" n="b" xml:id="CLXVIIII_n_002">
+                            <term xml:lang="latin">Guiçoli: Guiç</term>
+                            <emph>corretto su precedente scrittura.</emph></note> de <placeName
+                            ref="#Comporto">Comporto</placeName></persName>, <persName
+                        ref="#CavalerusGuidonis">Cavalero quondam Guidonis de <placeName
+                            ref="#Vezzano">Vezano</placeName></persName> et aliis testibus ad hec
+                    rogatis.</p>
+                <p xml:id="CLXVIIII_p_003" n="3">Eodem die venerabilis pater
+                        <roleName>dominus</roleName>
+                    <persName ref="#GuilEpLuni">Guilielmus, <roleName>Dei gratia Lunensis
+                            episcopus</roleName></persName>, nomine sui episcopatus, remisit et
+                    condonavit <persName ref="#MartinusPlaçaMoneta">Martino de <placeName
+                            ref="#PlaççaMoneta">Plaçça de Moneta</placeName></persName> staria tria
+                    frumenti ex illis IX stariis vel pluribus que dictus <persName
+                        ref="#MartinusPlaçaMoneta">Martinus</persName> curie Lunensi annuatim
+                    reddere tenetur et idem <persName ref="#MartinusPlaçaMoneta">Martinus</persName>
+                    dedit et concessit, pro recompensatione vel salvo cambio dictorum trium
+                    stariorum frumenti, dicto domino episcopo, recipienti nomine sui episcopatus,
+                    quoddam fictum, quod est staria tria frumenti minus uno quarto, que ipse
+                        <persName ref="#MartinusPlaçaMoneta">Martinus</persName> emit a
+                        <roleName>domino</roleName>
+                    <persName ref="#SaladinusFosdenova">Saladino de <placeName ref="#Fosdinovo"
+                            >Fosdenova</placeName></persName>, que redduntur annuatim in <placeName
+                        ref="#Ponzanello">Ponzanello</placeName> de tenuta que dicitur <placeName
+                        ref="#Factorose">Factorese</placeName>, ad sextarium ferratum de <placeName
+                        ref="#Ponzanello">Ponzanello</placeName> quod est simile stario currenti de
+                        <placeName ref="#Bibola">Bibola</placeName>, quod fictum est tantum quantum
+                    est illud quod dictus dominus episcopus ipsi <persName
+                        ref="#MartinusPlaçaMoneta">Martino</persName> remisit vel amplius. Et cessit
+                    eidem domino episcopo, recipienti nomine sui episcopatus, omnia iura et actiones
+                    utiles et directas, reales, personales et mixtas, que et quas habet in dicto
+                    ficto et solo pro quo redditur et personis reddentium. Et constituit se pro eo
+                    et eius nomine predicta possidere atque quasi et fecit eum procuratorem et
+                    dominum in rem suam, promittendo eidem domino episcopo, recipienti nomine sui
+                    episcopatus, dictum fictum deffendere et exbrigare ab omni contradicente et
+                    impediente persona et loco et, si deffendere et exbrigare non posset et non
+                    deffenderet et exbrigaret, restaurare et salvum cambium inde ei dare et dampna
+                    reficere atque expensas; et hanc dationem et concessionem promisit ratam habere
+                    et non contra venire. Et pro predictis omnibus sic attendendis et observandis
+                    obligaverunt se et idem dominus episcopus suos successores et bona episcopatus
+                    et dictus <persName ref="#MartinusPlaçaMoneta">Martinus</persName> suos heredes
+                    et bona ad <measure type="Imperiales" quantity="100" unit="solidus">penam C
+                        soldorum imperialium</measure>, quam pars que contra predicta venerit parti
+                    predicta servanti solvere teneatur, et, ea soluta, predicta omnia semper
+                    nichillominus firma et illibata serventur. </p>
+                <p xml:id="CLXVIIII_p_004" n="4">Actum <placeName ref="#Ponzanello"
+                        >Ponzanelli</placeName>, ante <orgName ref="#Ponzanello_S_Martino">ecclesiam
+                        Sancti Martini</orgName>. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

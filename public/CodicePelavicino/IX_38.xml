@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="IX_38">
+		<front xml:id="IX_front">
+
+			<titlePart type="numerazioneNuova">38</titlePart>
+			<titlePart type="numerazioneOrig">IX</titlePart>
+
+			<docDate xml:id="IX_docDate">
+				<date when="1228-12-11">
+					<supplied reason="illeggibile">1228</supplied> dicembre 11 </date>, <placeName
+					ref="#Ianua"> Genova (<term xml:lang="latin">Ianue</term>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="IX_regesto">
+				<p>Guifredo, prete cardinale del titolo di San Marco, legato della Sede Apostolica,
+					accoglie la richiesta del vescovo di Luni di concedere ai lebbrosi di Silvaricia
+					alcuni boschi poco utili.</p>
+			</div>
+
+			<div type="footer" xml:id="IX_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] c. 61v., c. LIIIv. secondo la numerazione originale. </p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione in: <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 9,
+						p. 13, senza data. </p>
+				</div>
+
+				<div type="crit_notes">
+					<note>Guifredo o Goffredo da Castiglione, poi papa Celestino IV, fu creato
+						cardinale prete del titolo di S. Marco il 3 settembre 1227 e agì poco dopo
+						come legato pontificio in Toscana e in Lombardia. Partì da Roma dopo il 3
+						febbraio 1228 e vi è attestato nuovamente il 4 novembre 1229 <ref
+							target="#PARAVICINI_BAGLIANI_1979">(PARAVICINI BAGLIANI 1979)</ref>. Da
+						questi elementi la datazione proposta, che concorda con le osservazioni già
+						di <ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 7</note>
+					<note>Nel margine esterno di c. 61v, di mano moderna: <emph>Licentia donandi
+							quedam nemora pauperibus de Silvaritia</emph></note>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">VIIII. Lictere Gotefredi, cardinalis legati, pro
+							leprosis de Silvaricia.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="IX_div">
+				<p xml:id="IX_p_001"> Venerabili in Christo patri .., Dei gratia episcopo Lunensi,
+						<persName ref="#Guifredus_cardinalis"
+							><expan>Guif<ex>redus</ex></expan><roleName>, miseratione divina tituli
+							Sancti Marci presbyter cardinalis, apostolice sedis
+						legatus</roleName></persName> , salutem in Domino. Solliciti diem missionis
+					extreme nunc operibus prevenire, nobis supplicare curastis ut concedendi
+						<orgName ref="#Sarzana_S_Lazzaro_Silvaricia">pauperibus leprosis</orgName>
+					de <placeName ref="#Selvaricia">Silvaricia</placeName>, Lunensis diocesis,
+					quedam nemora parum utilia, ad vestrum episcopatum spectantia, vobis licentiam
+					concedere curaremur, eadem in eorum usus proprios ad culturam perpetuo
+					redigenda. Nos igitur, attendentes pium et religiosum esse ipsorum leprosorum
+					cruciatibus et miserie misereri simulque vestris piis precibus annuentes,
+					caritati vestre huiusmodi licentiam indulgemus, tantum capituli accedente
+					consensu. </p>
+				<p xml:id="IX_p_002"> Datum <placeName ref="#Ianua">Ianue</placeName>, <date
+						when="1228-12-03">III idus decembris</date>. </p>
+			</div>
+		</body>
+	</text>
+</TEI>

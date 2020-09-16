@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXVIIII_231">
+    <front xml:id="CCLXVIIII_front">
+
+      <titlePart type="numerazioneNuova">231</titlePart>
+      <titlePart type="numerazioneOrig">CCLXVIIII</titlePart>
+
+      <docDate xml:id="CCLXVIIII_docDate">
+        <date when="1184-04-03">1184 aprile 3</date>, <placeName>Sarzana (<term xml:lang="latin"
+            >Sarzane, in claustro sancti Basilii</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXVIIII_regesto">
+        <p>Pietro, vescovo di Luni, concede agli uomini delle cappelle di Caprognano e Vallechia,
+          come a quelli delle <term xml:lang="latin">ville</term> di Marciano e Capagnana l’uso del
+          bosco di Valmaggiore, in passato conteso tra il vescovo stesso e gli uomini di Fosdinovo e
+          i cui confini, stabiliti al termine di quella contesa, sono elencati. Gli uomini che
+          ricevono la concessione pagano 12 lire di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP cc. 270v.-271r., cc. CCLXIIv.-CCLXIIIr. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 269,
+            pp. 248-249.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>La parte iniziale del documento è stata letta con l’ausilio della lampada di
+              Wood.<p> </p> A parte le sottoscrizioni notarili, il documento è identico al n.
+            470-DVIIII. <p/> In questo esemplare il notaio Prefetto dichiara di ricavare il testo da
+            un originale non in buono stato per ordine del vescovo Marzucco (1213-1220) ormai
+            defunto: di conseguenza la sua autentica deve essere datata dopo il 1220 e
+            presumibilmente prima del 1227, insieme alla sottoscrizione del notaio Federico.<p/>
+            <p>Nel margine esterno, di mano moderna: <term xml:lang="latin">Per li confini tra
+                Castelnovo e quelli di Fosdinovo</term></p>
+          </note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXVIIII_div">
+        <p xml:id="CCLXVIIII_p_001" n="1"><ptr target="#CCLXVIIII_st_001"/>In eterni Dei nomine. Sit
+          notum tam presentibus quam futuris quod dominus <persName ref="#PetrusEpLuni">Petrus, Dei
+            gratia <roleName>Lunensis episcopus</roleName></persName>, pro se suisque successoribus
+          dedit et cessit hominibus de <orgName ref="#Caprognano_cappella">capella <placeName
+              ref="#Caprognano">Caprognano</placeName></orgName> et de <orgName
+            type="Vallecchia_cappella">capella <placeName ref="#Vallecchia2"
+            >Valleccla</placeName></orgName> et tam hominibus de villa <placeName ref="#Marzano"
+            >Marzano</placeName> quam de villa <placeName ref="#Capagnano">Capagnano</placeName> uti
+          et frui, ipsi et eorum heredes, animalia pascenda et lignis<note xml:id="CCLXVIIII_n_001"
+            n="a" place="foot"><term xml:lang="latin">lignis</term>: <emph>così nel
+            testo</emph>.</note> et lignamina habendo et non pro <supplied reason="omitted"
+            >nemini</supplied><note xml:id="CCLXVIIII_n_002" n="b" place="foot"><term
+              xml:lang="latin">nemini</term>: <emph>per integrazione cfr. doc.
+            480-DVIIII</emph>.</note> dando, set ipsa <pb n="271r" xml:id="fol_271r"/> in domibus
+          suis usufructuando, id est nemus de quo fuit contentio inter eumdem dominum episcopum<note
+            xml:id="CCLXVIIII_n_003" n="c" place="foot"><term xml:lang="latin">dominum
+              episcopum</term>: <emph>nel testo</emph>
+            <term xml:lang="latin">episcopum dominum</term>
+            <emph>con segno di richiamo per invertire l’ordine delle parole</emph>.</note>, ab una
+          parte, et homines de <placeName ref="#Fosdinovo">Fauce Nova</placeName>, ab alia parte,
+          sine omni eiusdem domini episcopi suorumque successorum contradictione. Que contencio
+          difinita fuit amicabiliter per bonos viros uti siquidem debent, sicut decernitur per
+          terminos, sicut infra cartulam continetur, sicut est designatum, videlicet a termino de
+            <placeName ref="#StancaCaballo">Stanca Caballo</placeName>, ubi est difinitio inter
+          homines de <placeName ref="#Pulica">Pulica</placeName> et homines de <placeName
+            ref="#Vallecchia2">Vallecla</placeName>, et exinde veniendo a termino <placeName
+            ref="#AqueNigre">Aque Nigre</placeName>, ubi <supplied reason="omitted">est</supplied>
+          difinitio inter homines de <placeName ref="#Casapoci">Casapoci</placeName> et homines de
+            <placeName ref="#Vallecchia2">Vallecla</placeName>, sicut est versus <placeName
+            ref="#Valmaiore">Valmaiorem</placeName>, et veniendo per viam publicam seu per stratam
+          versus <placeName ref="#FauxMontorbolo">Faucem de Montorbolo</placeName> et eundo usque ad
+          terminum de <placeName ref="#Collentento">Collentento</placeName>, sicut continetur infra
+          hos confines, id est versus <placeName ref="#Valmaiore">Valmaiorem</placeName>, ad quem
+          terminum de <placeName ref="#Collentento">Collentento</placeName> est difinitio inter
+          homines de <placeName ref="#Fosdinovo">Fa<supplied reason="omitted"
+            >u</supplied>cenova</placeName> et illos de <placeName ref="#Vallecchia2"
+            >Vallecla</placeName>, et revertendo de <placeName ref="#Collentento"
+            >Collentento</placeName> versus <placeName ref="#MonteLeone">Monleonem</placeName> usque
+          ad terminum in locum dictum <placeName ref="#Cernitere">Cernitere</placeName> seu ad
+          terminum in locum dictum <placeName ref="#Valli">Valli</placeName>, subtus <placeName
+            ref="#MonteLeone">Monleonem</placeName>, ubi est difinitio inter homines de <placeName
+            ref="#Vallecchia2">Vallecla</placeName> et illos de <placeName ref="#Marzano"
+            >Marzano</placeName>. Hoc totum quod infra hos confines continetur concessum est a
+          predicto domino episcopo predictis hominibus de predictis IIII villis eorumque heredibus
+          uti ad primum<note xml:id="CCLXVIIII_n_004" n="d" place="foot"><term type="incerto"
+              >primum</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">proprium</term>, <emph>cfr. doc. 480 (DVIIII)</emph>.</note> usum
+          et non ad vendendum, sine omni predicti domini episcopi suorumque successorum
+          contradictione; et exinde homines de predictis villis dederunt predicto domino episcopo
+          bonorum <measure type="Imperiales" quantity="12" unit="lire">imperialium libras
+            XII</measure><note xml:id="CCLXVIIII_n_005" n="e" place="foot">XII: <emph>il doc 480
+              (DVIIII) riporta</emph> XV.</note>.</p>
+        <p xml:id="CCLXVIIII_p_002" n="2">Actum <placeName ref="#Sarzana">Sarzane</placeName>, in
+          claustro <orgName ref="#Sarzana_S_Basilio">sancti Basilii de <placeName ref="#Sarzana"
+              >Sarzana</placeName></orgName>, <date when="1184-04-03">die martis, qui fuit tercius
+            intrantis aprilis, feliciter. Anno ab incarnatione Domini nostri Ihesu Christi millesimo
+            C octuagesimo IIII, indictione IIa</date>. In manu <persName ref="#GerardusTraversara"
+            >Gerardi de Traversara, <roleName>castaldionis Lunensis</roleName></persName>,
+          recipientis pro ipsis villis de manu predicti domini episcopi.</p>
+        <p xml:id="CCLXVIIII_p_003" n="3"># <supplied reason="omitted">Signa</supplied> manuum
+          iamscripti domini episcopi, qui hanc cartulam fieri rogavit, # <persName
+            ref="#Rodulfusarc">Rodulfi Lunensis <roleName>archidiaconi</roleName></persName>,
+            <persName ref="#Gerarduscan">Gerardi <roleName>Lunensis canonici</roleName></persName>,
+            <persName ref="#BoiccacciusFalcinello">Boiccacii<note xml:id="CCLXVIIII_n_006" n="f"
+              place="foot"><term type="incerto">Boiccacii</term>: <emph>il doc. 480 (DVIIII)
+                riporta</emph>
+              <term xml:lang="latin">Bottacii</term>.</note> de <placeName ref="#Falcinello"
+              >Falcinello</placeName></persName>, <persName ref="#FoceriusCervara">Folcerii de
+              <placeName ref="#Cervaria">Cervara</placeName></persName>, <persName
+            ref="#MascariusPanicale">Mascari de <placeName ref="#Panicale"
+            >Panicale</placeName></persName>, rogatorum testium.</p>
+        <p xml:id="CCLXVIIII_p_004" n="4">Ego <persName ref="#Lombardusnot">Lombardus,
+              <roleName>domini imperatoris et Lunensis curie notarius</roleName></persName>,
+          rogatus, hanc cartulam scripsi.</p>
+      </div>
+      <div xml:id="CCLXVIIII_div2" type="autentica">
+        <p xml:id="CCLXVIIII_p_005" n="5"><ptr target="#CCLXVIIII_st_002"/> Ego <persName
+            ref="#Prefectusnot">Prefectus, <roleName>domini imperatoris et Lunensis curie
+              notarius</roleName></persName>, huius exempli autenticum vidi et legi, in quo aliquot
+          sillabe deficiebant; set, cum invenissem contractum autentici, in quo totus tenor
+          autentici continetur, et habuissem et recepissem plenam auctoritatem a quondam <persName
+            ref="#MarzuccusEpLuni">Marzuco<note xml:id="CCLXVIIII_n_007" n="g" place="foot"><term
+                xml:lang="latin">Marzuco</term>: M <emph>corretta su precedente
+              lettera</emph>.</note>, bone memorie<note xml:id="CCLXVIIII_n_008" n="h" place="foot"
+                ><term xml:lang="latin">Marzuco bone memorie</term>: <emph>nel testo</emph>
+              <term xml:lang="latin">bone memorie Marzuco</term>
+              <emph>con segno di richiamo per invertire l’ordine delle parole</emph>.</note> domino
+              <roleName>Lunensi episcopo</roleName></persName> et comite, eius cartulas et
+          contractus, a quondam iamscripto <persName ref="#Lombardusnot"
+              ><roleName>notario</roleName> Lombardo</persName><note xml:id="CCLXVIIII_n_009" n="i"
+            place="foot"><term xml:lang="latin">Lombardo</term>: <emph>nel testo scritto per errore
+              dopo</emph>
+            <term xml:lang="latin">instrumentorum</term>.</note> scriptas, complendi iuxta formam
+          suorum contractuum et instrumentorum factorum manu sua, complevi et scripsi.</p>
+        <p xml:id="CCLXVIIII_p_006" n="6"><ptr target="#CCLXVIIII_st_003"/> Ego <persName
+            ref="#Fredericusnot">Fredericus, <roleName>sacri palacii notarius</roleName> et
+              <roleName>iudex ordinarius</roleName></persName>, huius exempli autenticum vidi et
+          legi et in eo subscripsi <note>Autentica del documento n. 231-CCLXVIIII databile tra il
+            1220 e il 1227 <date notBefore="1220-01-01" notAfter="1227-12-31" cert="medium"
+          /></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

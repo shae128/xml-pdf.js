@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXXXIII_344">
+    <front xml:id="CCCLXXXIII_front">
+
+      <titlePart type="numerazioneNuova">344</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXXXIII</titlePart>
+
+      <docDate xml:id="CCCLXXXIII_docDate">
+        <date when="1255-10-22">1255 ottobre 22</date>, <placeName>Ponzanello (<emph>in ecclesia de
+            Ponçanello</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXXXIII_regesto">
+        <p>Guglielmo, vescovo di Luni, loca a Rapallo del fu Barzo di <term xml:lang="latin"
+            >Guaraçano</term> un pezzo di terra vignata in <term xml:lang="latin">Barbazzano</term>.
+          Il fitto ammonta a due congi di mosto e mezza libbra d’olio.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXXXIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 317v.-318r., cc. CCCVIIIIv.-CCCXr. secondo la numerazione originale
+          </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 383,
+            p. 363, con la data 1254. Lupo Gentile data per errore al 1254 anziché 1255, come
+            indicato nel documento. Nel 1255 correva in effetti l’indizione XIII e, di conseguenza,
+            viene a cadere l’osservazione di <ref target="#MAZZINI_1914">Mazzini 1914</ref>, p. 25.
+          </p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXXXIII. De ficto Rapalli Guaraçani.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXXXIII_div">
+        <p xml:id="CCCLXXXIII_p_001" n="1">In Dei nomine, amen. <date when="1255-10-22">Anno a
+            nativitate Eius M°CCLV, indictione XIII, XI kalendas novembris</date>. Venerabilis pater
+          dominus <persName ref="#GuilEpLuni">Guilielmus, <roleName>Dei gratia Lunensis
+              episcopus</roleName></persName>, per se suosque successores, nomine episcopatus, dedit
+          et locavit <persName ref="#RapallusBarçi">Rapallo quondam Barçi de <placeName
+              ref="#Guaraçano">Guaraçano</placeName></persName>, recipienti pro se suisque
+          heredibus, masculis et feminis, ex se legitime descendentibus, nomine ficti, I petium
+          terre vineate, cum omnibus arboribus super se habentibus<note xml:id="CCCLXXXIII_n_001"
+            n="a" place="foot">
+            <term xml:lang="latin">habentibus</term>: <emph>così nel testo.</emph></note>, que est I
+          iugerum vel circa, posite in confinibus et districtu <placeName ref="#Barbazzano"
+              >Barbaçini<note xml:id="CCCLXXXIII_n_002" n="b" place="foot">
+              <term xml:lang="latin">Barbaçini</term>: <emph>così nel testo per</emph>
+              <term xml:lang="latin">Barbaçani</term></note></placeName>, cui coheret, ab uno
+          latere, <persName ref="#AbraçabeneUgolini">Abraçabene quondam Ugolini</persName> de
+          Fracta, ab alio heredes quondam <persName ref="#BonaSerra">Bone de <placeName ref="#Serra"
+              >Serra</placeName></persName>, inferius via publica, superius est boscus domini
+          episcopi, ita quod ut amodo perpetuo, nomine ficti, suprascriptus <persName
+            ref="#RapallusBarçi">Rapallus</persName> suique heredes suprascriptum petium terre, cum
+          vineis et omnibus aliis arboribus super se habentibusa, sicut dictum est, habeant,
+          teneant, possideant et fruantur, cum accessibus et regressibus suis et omnibus suis
+          pertineciis, in integrum, sine alicuius aliqua contradictione, et cum ipsius domini
+          episcopi suorumque successorum rationabili deffensione ab omni contradicente persona et
+          loco, dando et reddendo exinde suprascriptus <persName ref="#RapallusBarçi">Rapellus<note
+              xml:id="CCCLXXXIII_n_003" n="c" place="foot">
+              <term xml:lang="latin">Rapellus</term>: <emph>così nel testo per</emph>
+              <term xml:lang="latin">Rapallus</term></note></persName> suique heredes ipsi domino
+          episcopo suisque successoribus et episcopatui, omni anno, duo congia musti, ad congium
+          <orgName ref="#Barbazzano_comune">commune de <placeName ref="#Barbazzano">Barbaçano</placeName></orgName>, tracti et parati ad curiam
+          de <placeName ref="#Barbazzano">Barbaçano</placeName> tempore vindemiarum et mediam libram
+          olei boni et optimi, ad libram currentem curie Lunensis, per totum mensem ianuarii ibidem;
+          alia superimposita eis non fiat. Promittendo idem dominus episcopus per se suosque
+          successores, nomine episcopatus, eidem <persName ref="#RapallusBarçi">Rapallo</persName>,
+          recipienti pro se suisque heredibus, suprascriptum petium terre, cum vineis et omnibus
+          super se habentibusa, sicut dictum est, iure deffendere et exbrigare ab omni contradicente
+          persona et loco; quod, si non faceret vel non posset, salvum cambium eis inde dare
+          promisit in consimili loco, in arbitrio bonorum hominum, prout tunc valuerit, dando eidem
+            <persName ref="#RapallusBarçi">Rapallo</persName> licenciam de dicta terra intrandi in
+          tenutam et possessionem quandocumque voluerit, sua auctoritate. Et hec omnia et singula
+          suprascripta promiserunt sibi ad invicem attendere et observare et in nullo contravenire
+          de iure vel de facto, sub pena <measure type="imperiales" unit="solidus" quantity="40">XL
+            soldorum imperialium</measure>, quam dare et solvere teneatur pars que contra iverit
+          parti predicta servanti; qua soluta, suprascriptis omnibus et singulis nichillominus
+          manentibus semper firmis, obligando se idem dominus episcopus et suos successores et bona
+          episcopatus et suprascriptus <persName ref="#RapallusBarçi">Rapallus</persName> se suosque
+          heredes et bona, renunciando omni iuri et legibus contra hec introductis. <pb n="318r"
+            xml:id="fol_318r"/>
+        </p>
+        <p xml:id="CCCLXXXIII_p_002" n="2">Actum in <orgName ref="Ponzanello_S_Martino">ecclesia de
+              <placeName ref="#Ponzanello">Ponçanello</placeName></orgName>, presentibus <persName
+            ref="#GabardusSarzana">Gabardo de <placeName ref="#Sarzana"
+            >Sarzana</placeName></persName>, <persName ref="#BonavitaGuilielmiTancredi">Bonavita
+            quondam Guilielmini de Tancredo</persName> et <persName ref="#GualteroneBarbaçano"
+            >Gualterone de <placeName ref="#Barbazzano">Barbaçano</placeName></persName>, testibus
+          ad hec rogatis. </p>
+        <p xml:id="CCCLXXXIII_p_003" n="3"><ptr target="#CCCLXXXIII_st_001"/> Ego <persName
+            ref="#Adiutusnot">Adiutus, <roleName>sacri palacii notarius</roleName></persName>, hiis
+          interfui et de mandato suprascripti domini episcopi hec scripsi et in publicam formam
+          redegi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

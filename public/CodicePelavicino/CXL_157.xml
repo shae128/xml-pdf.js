@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXL_157">
+    <front xml:id="CXL_front">
+
+      <titlePart type="numerazioneNuova">157</titlePart>
+      <titlePart type="numerazioneOrig">CXL</titlePart>
+
+      <docDate xml:id="CXL_docDate">
+        <date from="1178" to="1212"> &lt;1178 - 1212&gt;</date>
+      </docDate>
+
+      <div type="regesto" xml:id="CXL_regesto">
+        <p>Deposizioni rese intorno ad una lite vertente fra gli abitanti del borgo di Sarzana e la
+          curia lunense riguardo alla tassa per l’uso dei boschi.</p>
+      </div>
+
+      <div type="footer" xml:id="CXL_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 237r., c. CCXXVIIIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 140,
+            pp. 173-174, con la data 1141.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il documento, interrotto, è privo di data e di luogo di redazione. La data del 1141,
+            indicata da Lupo Gentile, è contraddetta dai riferimenti ai vescovati di Gotifredo II,
+            Alberto e Pipino: è quindi posteriore al 1178, anno in cui fu eletto vescovo Pietro,
+            successore di Pipino (cfr.<ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 13). Come
+            data <term xml:lang="latin">ante quem</term> si propone il 1212, quando uno dei giurati,
+              <term xml:lang="latin">Ugo de Pilato</term>, risulta defunto; cfr. documento n. 127
+            (CI).</note>
+        </div>
+
+        <div type="appr">
+          <p>Bibliografia: MAZZINI 1914, p. 13</p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CXL_div">
+        <p xml:id="CXL_p_001" n="1"><pb n="237r" xml:id="fol_237r"/>De lite que vertebatur inter
+          burgenses de <placeName ref="#Sarzana">Sarzana</placeName> et curiam de buscaria.<persName
+            ref="#UgoPilato">Ugo de Pilato</persName>, iuratus, dicit quod ipse et domus eius bene
+          per X annos, tempore <persName ref="#GotefredEpLuni2"><roleName>episcopi</roleName>
+            Gotefredi</persName>, collegit per domos <roleName>peditum</roleName> burgi <placeName
+            ref="#Sarzana">Sarzane</placeName>, annuatim, <measure type="Imperiales" quantity="1"
+            unit="denarius">denarium unum</measure> per domum per silvaniam pro lignis habendis,
+          facibus et lisca et pro <term ref="#cervatina">cervatinis</term>, excepta domo <persName
+            ref="#Mazencollus">Mazencolli</persName>; per domos vero <roleName>militum</roleName>,
+            nichil. <q rend="pre(«) post(»)">Si quis vero suprascriptorum
+              <roleName>peditum</roleName> hoc non persolvebat, ipsum depredabamus et predam
+            tenebamus, donec selvania persolvebatur, ad nostram voluntatem. Si vero veniebat
+            reclamatio coram domino episcopo, cuicumque dominus episcopus volebat preda
+            restituebatur; cui vero nolebat, non reddebam, set habebam sicut predam ceperam. Tempore
+            faciendi faces, in bando ponebat quod nemini liceret facere faces donec curia fecisset
+            et ad suum commodum; quo facto, concedebat <roleName>militibus</roleName> facere faces
+            per octo dies vel quantum volebat; deinde concedebat universo populo per ebdomadam vel
+            per duas vel quantum volebat, deinde interdicebat silvam ad suam voluntatem. Si quis
+            vero alia ligamina ibidem facere volebat, que etiam alicuius arteficii, curiam
+            conveniebat</q>.</p>
+        <p xml:id="CXL_p_002" n="2"><c>§</c>
+          <persName ref="#Buscallanus">Buscallanus</persName>, iuratus, dicit idem quod <persName
+            ref="#UgoPilato">Ugo de Pilato</persName>, excepto quod addit quod ipsi burgenses
+          buscaliabant toto anno in cunctis ligaminibus et dicit quod, factis facibus ad commodum
+          curie, universaliter concedebatur universo populo; et hoc vidit et collegit tempore
+            <persName ref="#AlbertusEpLuni"><roleName>episcopi</roleName> Alberti</persName> et
+            <persName ref="#PipEpLuni"><roleName>episcopi</roleName> Pipini</persName> et bene
+          potest esse spacium XX annorum. Dicit etiam audivisse quod sindule ibi solebant fieri et
+          tunc deferebant comestionem selvanis et mariscalcus non dabat donec officium mascalkie
+          tenuit. Domus vero <persName ref="#Marcollinus">Marcollini<note place="foot" n="a"
+              xml:id="CXL_n_001">Marcollini: <emph>la
+                prima</emph>l
+              <emph>espunta</emph>.</note></persName> et <persName ref="#Guerrisietus"
+            >Guerrisieti</persName> non dabat.</p>
+        <p xml:id="CXL_p_003" n="3"><c>§</c>
+          <persName ref="#Versavinus">Versavinus</persName>, iuratus, dicit, cum ipse semper super
+          hoc officium cum <persName ref="#Buscallanus">Buscalliano</persName>: <q
+            rend="pre(«) post(»)">Mandato eius et iudicamento, auferebam quibusdam falcinum et
+            colligebamus silvaniam a quibusdam; a quibusdam vero non vidi haberi de <supplied
+              reason="omitted">silvania</supplied>, videlicet nescio si dare debent vel non</q>.
+          Dominus vero <persName ref="#PipEpLuni"><roleName>episcopus</roleName> Pipinus</persName>
+          fecit semel reddi <persName ref="#GerardinusBucc">Gerardino de Bucciliano</persName>.</p>
+        <p xml:id="CXL_p_004" n="4"><c>§</c>
+          <persName ref="#Carbuncellus">Carbuncellus</persName>, iuratus, dicit idem<note
+            place="foot" n="b" xml:id="CXL_n_002">idem: <emph>nel
+              testo segue espunto </emph>de.</note>, quod pedones
+          dabant silvaniam et tempore <persName ref="#GotefredEpLuni2"><roleName>episcopi</roleName>
+            Gotefredi</persName> atque <persName ref="#AlbertusEpLuni">Alberti</persName> et etiam
+            <persName ref="#PipEpLuni">Pipini</persName> et ipsemet collegit, et exceptis hiis
+          quibus, ut audivit, episcopus remisit, id est <persName ref="#Mulinarius"
+            >Mulinario</persName>
+          <supplied reason="omitted">et</supplied>
+          <persName ref="#Marzericolus">Marzericolo</persName>, ab hiis vero non vidi haberi; et
+          dicit quod ambaxiatores non solent dare nec mariscalcus propter medicamentum eorum, cum
+          non refutavit illud officium. Postea vero dedit quandocumque abstulimus et excepto
+          similiter <persName ref="#Guerrisietus">Guerrisietuo</persName>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

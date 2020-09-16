@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="\schema\tei_cp.rng" type="application\xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="CCCCLXXXXII_453">
+    <front>
+      <titlePart type="numerazioneNuova">453</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXXII</titlePart>
+
+      <docDate xml:id="CCCCLXXXXII_docDate">
+        <date when="1217-07-26">1217 luglio 26</date>, <placeName ref="#Calci">Calci</placeName>
+        <emph>(apud Calcem, in palacio plebis Calcensis)</emph>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXXXXII_regesto">
+        <p> Il legato apostolico Ugo, vescovo di Ostia e Velletri, definisce le controversie tra i
+          signori di Trebiano, in particolare tra Ildebrando vicedomino e i nipoti Enrico,
+          Albertetto e fratelli da una parte e Ubaldo e Parentino di Vallecchia, Guito Atto, Opezino
+          e fratelli dall’altra. Ubaldo può tenere la torre comune del castello di Trebiano,
+          danneggiata dal vescovo, che Ildebrando deve sistemare, fino a che la sua non è costruita.
+          Ildebrando et Ubaldo facciano pure entro due mesi la colletta per la costruzione e
+          Ildebrando paghi in anticipo le 25 lire di imperiali che il marchese Guglielmo Malaspina
+          aveva promesso a Ubaldo per la fideiussione, che poi Ubaldo trarsferirà a Ildebrando.
+          Ildebrando può assegnare 50 lire di imperiali in pegno a due amici comuni: se costoro
+          opereranno bene nel restauro della torre, la cifra gli verrà restituita; null’altro spetta
+          a Ildebrando relativamente al denaro che ha anticipato ai suoi uomini, né spetta a Ubaldo.
+          Le pietre della torre distrutta che si mostrano nell’edifico comune o nelle case dei
+          castellani, siano rese o rimborsate a Ubaldo. Tutte le cose costruite ex novo da
+          Ildebrando a pregiudizio di Ubaldo si riconducano allo stato originario. A Ildebrando e
+          consorti spettano due parti dei diritti sul castello, la terza a Ubaldo e consorti.</p>
+      </div>
+      <div type="footer" xml:id="CCCCLXXXXII_footer">
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] c. 371r., c. CCCLXIIr., <emph>secondo la numerazione
+              originale</emph>.</p>
+        </div>
+        <div type="biblio">
+          <p>Edizione in: <ref target="#FERRETTO_1896">FERRETTO</ref> 1896, pp. 229-231, che dice di
+            aver ricavato da un codice in pergamena esistente ad Arcola; <ref
+              target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 492, pp. 513-516.</p>
+        </div>
+        <div type="crit_notes">
+          <note>
+            <p> L’atto reca la data VII kalendas augusti (cfr. anche doc. 451-CCCCLXXXX, dove viene
+              citato), corrispondente al 26 luglio; la lezione data da <ref target="#FERRETTO_1896"
+                >FERRETTO</ref> ha invece VIII kalendas augusti, corrispondente al 25 luglio. L’anno
+              dovrebbe essere il 1217, essendo l’indizione V calcolata secondo lo stile pisano (cfr.
+                <ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 34). Le correzioni segnalate in
+              nota sono attribuibili ad un’unica mano posteriore alla copia, che ha tentato di
+              emendare il testo latino. Nel margine esterno di c. 371r., di mano moderna, una nota
+              illeggibile a causa dell’inchiostro sbiadito.</p>
+            <p>L'autentica è redatta dal notaio Bonvicino che è attestato dal 1196 ed è discepolo
+              del notaio Conforto, sua volta attestato dal 1195 al 1235; di conseguenza possiamo
+              datarla dal 1217 alla metà del secolo XIII. </p>
+          </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXXXII. Sententie late inter dominos de Tribiano.</term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCCLXXXXII_div">
+        <p xml:id="CCCCLXXXXII_p_001" n="1">
+          <pb n="371r" xml:id="fol_371r"/>In nomine Patris et Filii et Spiritus Sancti, amen.
+            <persName ref="#UgolinusOstiensiscard">Hugo</persName>, <roleName>miseratione divina
+              <placeName ref="#Ostia">Ostiensis</placeName> et <placeName ref="#Velletri"
+              >Velletrensis</placeName> episcopus, Apostolice Sedis legatus</roleName>, dilectis
+          filiis universis presentem paginam inspecturis, salutem in Domino. Cum <persName
+            ref="#AldebrandusTrebiano">Ildebrandus</persName>
+          <roleName>vicedominus de <placeName ref="#Trebiano">Trebiano</placeName></roleName> et
+          nepotes eius <persName ref="#HenricusAldeprandi2">Henricus</persName>, <persName
+            ref="#AlbertectusAldeprandi">Albertectus</persName> et fratres ipsius <persName
+            ref="#AlbertectusAldeprandi">Albertecti</persName>, auctoritate eiusdem <persName
+            ref="#AldebrandusTrebiano">Ildebrandi</persName>
+          <roleName>tutoris et curatoris</roleName> eorum, ex una parte, et <persName
+            ref="#UbaldusVallecla">Ubaldus</persName> et <persName ref="#ParentinusVallecla"
+            >Parentinus</persName> de <placeName ref="#Vallecchia1">Vallechia</placeName>, <persName
+            ref="#Guido">Guido</persName>, <persName ref="#Azo">Atto</persName>, <persName
+            ref="#Opizinus">Opezinus</persName> et fratres <persName ref="#Opizinus"
+            >Opezini</persName>, auctoritate <persName ref="#Azoiud">Attonis</persName>
+          <roleName>tutoris</roleName> eorum, ex altera, super omnibus controversiis et discordiis
+          que vertebantur super castro de <placeName ref="#Trebiano">Trebiano</placeName> et
+          vicedominatu et honore eius et super dampnis datis hinc inde et super omnibus que in
+          sententia venerabilis Lunensis episcopi continentur, prout apparet in carta scripta per
+          manum <persName ref="#Benvenutusnot1">Benvenuti</persName>
+          <roleName>notarii</roleName>, sub pena <measure quantity="300" unit="marca">CCC marcharum
+            argenti</measure>, sicut in publico instrumento confecto per manum <persName
+            ref="#Monachusnot">Monachi</persName>
+          <roleName>notarii</roleName> manifestius declaratur, in nos tanquam in arbitrum
+          compromisissent et, tactis sacrosanctis evangeliis, <persName ref="#AldebrandusTrebiano"
+            >Ildebrandus</persName>, <persName ref="#AlbertectusAldeprandi">Albertectus</persName>,
+            <persName ref="#UbaldusVallecla">Hubaldus</persName>, <persName
+            ref="#ParentinusVallecla">Parentinus</persName>, <persName ref="#Azo">Atto</persName> et
+            <persName ref="#Opizinus">Opechinus</persName> nostris iurassent stare mandatis que
+          super predictis discordiis per nos vel per nostrum <note place="foot" n="a"
+            xml:id="CCCCLXXXXII_n_001">nos vel per nostrum: <emph>aggiunto in sopralinea con segno
+              di richiamo, in carattere più minuto, da altra mano posteriore</emph>.</note> nuncium
+          aut per nostras litteras faceremus, nos, habito consilio amicorum utriusque partis,
+          iusticia et equitate pensatis ad sopiendas discordias suprascriptas, ita diximus <note
+            place="foot" n="b" xml:id="CCCCLXXXXII_n_002">b diximus: <emph>corretto in duximus dalla
+              stessa mano di epoca moderna</emph>.</note> statuendum, videlicet ut <persName
+            ref="#UbaldusVallecla">Ubaldus</persName> teneat turrim communem castri <placeName
+            ref="#Trebiano">Trebiani</placeName> et tantum de eadem turri prius per Lunensem
+          episcopum diruatur, qui <note place="foot" n="c" xml:id="CCCCLXXXXII_n_003">qui:
+              <emph>così nel testo per qua</emph>.</note> turri <persName ref="#AldebrandusTrebiano"
+            >Ildebrandi</persName> et nepotum omnimodis adequetur. Et tanto tempore eam <persName
+            ref="#UbaldusVallecla">Ubaldus</persName> teneat quousque <note place="foot" n="d"
+            xml:id="CCCCLXXXXII_n_004">quousque: <emph>quo corretto su precedente scrittura dalla
+              stessa mano moderna</emph>.</note> turris eius constructa fuerit <note place="foot"
+            n="e" xml:id="CCCCLXXXXII_n_005">fuerit: i <emph>in sopralinea su a espunta ad opera
+              dello scriba</emph>.</note> sicut tempore demolitionis extiterat. Collectam sane ab
+          episcopo Lunensi promissam infra duos menses <persName ref="#AldebrandusTrebiano"
+            >Ildebrandus</persName> et <persName ref="#UbaldusVallecla">Ubaldus</persName> sine
+          fraude fideliter auctoritate episcopi colligant, que pro turris constructione viris
+          fidelibus assignentur <note place="foot" n="f" xml:id="CCCCLXXXXII_n_006">assignentur:
+              <emph>così nel testo per assignetur</emph></note> , ac <measure type="Imperiales"
+            quantity="25" unit="libra">XXV libras imperialium</measure>, quas <persName
+            ref="#GuililemusMalaspina">Guilielmus</persName> marchio Malespine promisit <persName
+            ref="#UbaldusVallecla">Ubaldo</persName>, <persName ref="#AldebrandusTrebiano"
+            >Ildebrandus</persName> exsolvat prius, cautione fideiussoria, quam <persName
+            ref="#UbaldusVallecla">Ubaldus</persName> habeat a marchione Malespine, in <persName
+            ref="#AldebrandusTrebiano">Aldebrandum</persName> ab <persName ref="#UbaldusVallecla"
+            >Ubaldo</persName> translata, et <persName ref="#AldebrandusTrebiano"
+            >Ildebrandus</persName> eandem recipiat cautionem ut habeat facultatem liberam dictam
+          pecuniam exigendi. Mandamus insuper <persName ref="#AldebrandusTrebiano"
+            >Ildebrando</persName> ut <measure type="Imperiales" quantity="50" unit="libra">L libras
+            imperialium</measure> vel competens pignus <measure quantity="50" unit="libra">L
+            librarum</measure> adsignet duobus amicis communibus, quos ad hoc episcopus deputabit,
+          ita quod si omnes <persName ref="#AldebrandusTrebiano">Ildebrandi</persName> ad
+          refectionem turris solverint operas et expensas secundum quod statutum est per sententiam
+          eiusdem episcopi, predicta pecunia seu pignus <persName ref="#AldebrandusTrebiano"
+            >Ildebrando</persName> revertatur <note place="foot" n="g" xml:id="CCCCLXXXXII_n_007"
+            >revertatur: <emph>corretto in reddantur dalla solita mano moderna</emph>.</note> ;
+          alioquin de pecunia <persName ref="#AldebrandusTrebiano">Ildebrandi</persName> opere
+          suorum hominum suppleantur, salva sententia eiusdem episcopi super exhibitione subsidii ab
+          hominibus facienda quod neque ad <persName ref="#AldebrandusTrebiano"
+            >Ildebrandum</persName> neque ad <persName ref="#UbaldusVallecla">Ubaldum</persName>
+          spectare noscuntur. Volumus et mandamus ut lapides turris dirute, qui in communi hedificio
+          vel domibus castellanorum <persName ref="#AldebrandusTrebiano">Ildebrandi</persName>
+          apparent, <persName ref="#UbaldusVallecla">Ubaldo</persName> reddantur, nisi <persName
+            ref="#UbaldusVallecla">Ubaldo</persName> iusta extimatio lapidum persolvatur. Omnia vero
+          que de novo hedificata fuerint ab <persName ref="#AldebrandusTrebiano"
+            >Ildebrando</persName> et nepotibus et hominibus suis in preiudicium <persName
+            ref="#UbaldusVallecla">Ubaldi</persName> et consortum ipsius ad statum pristinum
+          reducantur. Super honore autem vicedominatus taliter ordinatus <note place="foot" n="h"
+            xml:id="CCCCLXXXXII_n_008">ordinatus: <emph>così nel testo per ordinatur o
+              ordinamus</emph></note> , ut <persName ref="#AldebrandusTrebiano"
+            >Ildebrandus</persName>
+          <roleName>vicedominus</roleName> et consortes ipsius duas partes proventium <note
+            place="foot" n="i" xml:id="CCCCLXXXXII_n_009">proventium: <emph>così nel testo per
+              proventuum</emph></note> et reddituum omnium iuris, honoris vicedominatus
+          competentium, tercia<supplied>m</supplied> vero parte<supplied>m</supplied>
+          <persName ref="#UbaldusVallecla">Ubaldus</persName> cum consortibus suis pacifice habeant
+          et quiete, omni iure et possessione castri <placeName ref="#Trebiano">Trebiani</placeName>
+          in suo statu manentibus, ut <persName ref="#AldebrandusTrebiano">Ildebrandus</persName> et
+          nepotes eius et <persName ref="#UbaldusVallecla">Ubaldus</persName> et sui consortes ipsum
+          castrum et districtum ipsius, cum omni iure et pertinenciis suis, per Ecclesiam Lunensem
+          libere possideant et quiete, sicut hactenus habuisse, tenuisse et possedisse noscuntur.
+          Super omnibus vero aliis petitionibus, mutuis, actionibus et controversiis hinc inde
+          propositis vel proponendis, tam super iure vicedominatus quam super castro <placeName
+            ref="#Trebiano">Trebiani</placeName> et possessione et pertinenciis suis, utrique parti
+          perpetuo silentium duximus imponendum, precipientes utrique parti, sub predicta pena
+            <measure quantity="300" unit="marca">CCC marcharum argenti</measure> et ex debito
+          prestiti iuramenti, ut ea que premissa sunt fideliter <supplied>ob</supplied>servent et
+          faciant observari; si quis autem contravenire presumpserit, sententiam excomunicationis
+          incurrat et penam dictam fidem servanti pars infidelis exsolvat et, pena soluta, arbitrium
+          et laudamentum et preceptum nostrum perpetuis temporibus inviolabiliter observentur.</p>
+        <p xml:id="CCCCLXXXXII_p_002" n="2"> Data et recitata apud <placeName ref="#Calci"
+            >Calcem</placeName>, in palacio <orgName ref="#Calci_SS_Giovanni_Ermolao">plebis
+            Calcensis</orgName>, presentibus <persName ref="#AldebrandusTrebiano"
+            >Ildebrando</persName> et <persName ref="#UbaldusVallecla">Ubaldo</persName>
+          suprascriptis, <roleName>domino</roleName>
+          <note place="foot" n="l" xml:id="CCCCLXXXXII_n_010">domino: <emph>corretto su precedente
+              scrittura</emph>.</note>
+          <persName ref="#MarzuccusEpLuni">Marzucho</persName>, <roleName>Lunensi
+            episcopo</roleName>, et <roleName>domino</roleName>
+          <persName ref="#Andreacan">Andrea</persName>, <roleName>canonico</roleName>
+          <orgName ref="#Roma_S_Giovanni_Laterano">Sancti Iohannis <note place="foot" n="m"
+              xml:id="CCCCLXXXXII_n_011">Iohannis: <emph>da qui in avanti il testo prosegue nel
+                margine inferiore della carta precedente (c. 370v.) con segno di richiamo costituito
+                da una lettera a seguita da una croce</emph>.</note> Lateranensis</orgName>, et
+            <roleName>presbytero</roleName>
+          <persName ref="#Romeuspres">Romeo</persName>, <roleName>plebano de <placeName ref="#Vico"
+              >Vico</placeName></roleName>, et <persName ref="#OrlandinusPorcaria"
+            >Orlandino</persName> et <persName ref="#HermanusPorcaria">Hermano</persName>, eius
+          filio, de <placeName ref="#Porcaria">Porcaria</placeName> et <persName
+            ref="#GerardusVillani">Gerardo Villano</persName> de <placeName ref="#Sarzana"
+            >Sarzana</placeName> et <persName ref="#BonaiunctaCascina">Bonaiuncta</persName>
+          <roleName>iurisperito</roleName> de <placeName ref="#Cassina">Cascina</placeName> et
+            <persName ref="#BennatusCalce">Bennato</persName> de <placeName ref="#Calci"
+            >Calce</placeName> et aliis pluribus. <date when="1218-07-26">Dominice incarnationis
+            anno M°CCXVIII, indictione V, VII kalendas augusti</date>.</p>
+
+
+        <p xml:id="CCCCLXXXXII_p_003" n="3">
+          <ptr target="#CCCCLXXXXII_st_001"/> Ego <persName ref="#MarcusUgonisnot"
+          >Marcus</persName>, filius Ugonis de <placeName ref="#Cassina">Cascina</placeName>,
+            <roleName>imperialis aule notarius</roleName>, predicta omnia, a <persName
+            ref="#Silvesternot">Silvestro</persName>
+          <roleName>notario</roleName> rogatus, per eius scedam a me visam et lectam, suo mandato et
+          parabola scripsi et firmavi <note place="foot" n="n" xml:id="CCCCLXXXXII_n_012"><emph>Il
+              testo riprende a c. 370r.</emph></note>.</p>
+      </div>
+      <div xml:id="CCCCLXXXXII_div2" type="autentica">
+        <p xml:id="CCCCLXXXXII_p_004" n="4">
+          <ptr target="#CCCCLXXXXII_st_002"/> (S.T.) Ego <persName ref="#Bonvisinusnot"
+            >Bonvicinus</persName>, <roleName>sacri palacii notarius</roleName>, autenticum huius
+          exempli vidi et legi et, sicut in autentico continebatur, ita in isto legi exemplo, preter
+          quasdam partes quas transposui ignoranter, nichil addens vel minuens quod sensum mutet, et
+          ideo exemplavi et proprio signo signavi <note>Autentica del documento 453-CCCCLXXXXII
+            databile <date from="1217-07-27" to="1250-12-31" cert="medium">dal 1217 al 1250
+              circa</date></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

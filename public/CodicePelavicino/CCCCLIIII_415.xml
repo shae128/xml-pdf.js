@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLIIII_415">
+    <front xml:id="CCCCLIIII_front">
+
+      <titlePart type="numerazioneNuova">415</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLIIII</titlePart>
+
+      <docDate xml:id="CCCCLIIII_docDate">
+        <date when="1236-02-05">1236 febbraio 5</date>-<date when="1212-04-03">3</date>,
+          <placeName>Vezzano <emph>(<term xml:lang="latin">in castro de
+          Vezano</term>)</emph></placeName>
+      </docDate>
+      <div type="regesto" xml:id="CCCCLIIII_regesto">
+        <p>Il vicedomino Aldeprando prende possesso a Vezzano, in nome del vescovo di Luni
+          Guglielmo, della casa e delle torri che un tempo appartenevano ai nobili Corrado e
+          Vivaldo, figli del fu Lamberto di Vezzano. Aldeprando entra in una torre, fa uscire coloro
+          che vi risiedevano, chiude la porta con una chiave di ferro e così fa per la casa,
+          consegnando poi la chiave della torre al nobile Bartolomeo del fu Pagano di Massa.</p>
+      </div>
+      <div type="footer" xml:id="CCCCLIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 353v, c. CCCXLIIIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in: <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. 454, pp. 463.</p>
+        </div>
+        <div type="crit_notes">
+          <p>Stesura <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla presenza di
+            Bonagiunta de Podio di Lucca.</p>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LIIII. Possessionis currium et domus Conradi olim Lamberti de Veçano. </term></p>
+        </div>
+
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCCLIIII_div">
+        <p xml:id="CCCCLIIII_p_001" n="1">
+          <pb n="353v" xml:id="fol_353v"/> In nomine omnipotentis Dei, amen. <date when="1236-02-05"
+            >Anno a nativitate Eius M°CCXXXVI, indictione IX, die martis, V mensis intrantis
+            februarii </date>. In castro de <placeName ref="#Vezzano">Vezano</placeName>, coram
+            <roleName>nobili </roleName><persName ref="#RollandusAldebrandini">Rollando quondam
+            Aldebrandini de Rainerio <placeName ref="#Lucca">Lucano</placeName></persName>,
+            <persName ref="#GerardinusBonexello">Gerardino dicto Bonexello</persName>, <persName
+            ref="#AldoinusVezano">Aldoino de <placeName ref="#Vezzano"
+          >Vezano</placeName></persName>, <persName ref="#Richardusnot">Richardo
+              <roleName>notario</roleName></persName>, <persName ref="#ConfortusCurradini">Conforto
+            de <placeName ref="#Arcola">Arcula </placeName>quondam Curradini</persName>, et pluribus
+          aliis testibus ad hec rogatis. Ex huius publici instrumenti clareat lectione quod nobilis
+            <persName ref="#Aldeprandusvic2">Aldeprandus
+          <roleName>vicedominus</roleName></persName>, nomine et vice venerabilis <persName
+            ref="#GuilEpLuni">Guilielmi</persName>, <roleName>Dei gratia Lunensis
+            episcopi</roleName>, et episcopatus, ingressus fuit domum et turres que olim fuerunt
+            <persName ref="#CunradusLamberti">Corradi </persName>et <persName
+            ref="#VivaldusLamberti">Vivaldi, filiorum quondam Lamberti de <placeName ref="#Vezzano"
+              >Vezano</placeName></persName>, et que est<note n="a" place="foot"
+            xml:id="CCCCLIIII_n_001"> est: <emph>così nel testo per</emph>sunt. </note> in
+            <placeName ref="#Vezzano">Vezano</placeName>, pro omni iurisdictione et omnibus aliis
+          iuribus dicti domini episcopi et episcopatus, sicut in re propria domini episcopi et
+          episcopatus, sine preiudicio cuiuscumque persone et specialiter <roleName>nobilium </roleName>
+          <persName ref="#UgolinusBuctilione">Ugolini </persName>et <persName
+            ref="#RollandinusGuilielmiBlanci">Rollandi </persName>et <persName
+            ref="#RaimundinusVezano">Ramondini</persName>; et incontinenti, expulsis omnibus qui vel
+          que in domo <supplied reason="omitted">et </supplied> turri<note n="b" place="foot"
+            xml:id="CCCCLIIII_n_002"> turri: <emph>così nel testo, al singolare.</emph>
+          </note> predictis erant, clausit hostium turris<note n="c" place="foot"
+            xml:id="CCCCLIIII_n_003"> turris: <emph> così nel testo, al singolare.</emph>
+          </note> clavi ferrea et hostium domus predictarum idem <persName ref="#Aldeprandusvic2"
+            >Aldeprandus</persName>, vice et nomine domini episcopi et episcopatus. Quibus omnibus
+          sic diligenter peractis, in eodem loco et coram suprascriptis testibus, idem nobilis
+            <persName ref="#Aldeprandusvic2">Aldeprandus
+          <roleName>vicedominus</roleName></persName>, prefati domini episcopi et episcopatus
+          nomine, ipsam domum, turres et alia iura Lunensis episcopi et episcopatus recommendavit
+          pro domino episcopo et episcopatu <roleName>nobili </roleName>
+          <persName ref="#BartholomeusPagani">Bartholomeo quondam Pagani de <placeName ref="#Massa"
+              >Massa </placeName></persName> usque ad XV dies et hoc sine preiudicio dictorum
+            <roleName>nobilium </roleName>
+          <persName ref="#UgolinusBuctilione">Ugolini</persName>, <persName
+            ref="#RollandinusGuilielmiBlanci">Rollandi </persName>et <persName
+            ref="#RaimundinusVezano">Ramondini</persName>, imponendo clavim turris<note n="d"
+            place="foot" xml:id="CCCCLIIII_n_004"> turris: <emph> così nel testo, al
+              singolare.</emph>
+          </note> predicte in manu dicti <persName ref="#BartholomeusPagani">Bartholomei</persName>,
+          qui <persName ref="#BartholomeusPagani">Bartholomeus </persName> presens predicta taliter
+          suscepit ac recepit. </p>
+      </div>
+      <div xml:id="CCCCLIIII_div2" type="mundum">
+        <p xml:id="CCCCLIIII_p_002" n="2">
+          <ptr target="#CCCCLIIII_st_001"/> Ego <persName ref="#HengeramusParentisnot">Hengheramus
+            quondam Parentis de <placeName ref="#Sarzana">castro Sarzane</placeName></persName>,
+            <roleName>palacii sacri notarius</roleName>, hanc cartam olim a <persName
+            ref="#Bonencontrusnot">Bonencontro de <placeName ref="#Soliera">Soleria </placeName>
+            <roleName>notario </roleName>
+          </persName>abreviatam sive rogatam, prout in eius sceda et in eius contractibus et
+          inbreviaturis inveni, hic bona fide scripsi et autenticavi et in publicam formam redegi,
+          auctoritate et decreto super hiis mihi prestita et concesso a <roleName>domino </roleName>
+          <persName ref="#Bonaiunctaiud">Bonaiuncta de <placeName ref="#PodioLucca">Podio de
+            Luca</placeName>, <roleName> iudice </roleName></persName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+            ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre <roleName>domino </roleName>
+          <persName ref="GuilEpLuni">Guilielmo, <roleName>Lunensi episcopo</roleName></persName>, et
+          <orgName ref="#Lucca_comune"><placeName ref="Lucca">Lucano </placeName> communi</orgName>, de qua auctoritate constat per
+          publicum instrumentum factum manu <persName ref="Alcheriusnot">Alcherii <roleName>notarii
+            </roleName>de <placeName ref="#Lucca">Luca</placeName></persName>.<note>Stesura <emph>in
+              mundum</emph> del documento n. 415-CCCCLIIII databile tra il 1270 e il 1272 dalla
+            presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

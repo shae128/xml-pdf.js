@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXVIIII_480">
+    <front xml:id="DXVIIII_front">
+
+      <titlePart type="numerazioneNuova">480</titlePart>
+      <titlePart type="numerazioneOrig">DXVIIII</titlePart>
+
+      <docDate xml:id="DXVIIII_docDate">
+        <date when="1279-02-18">1279 febbraio 18</date>, la Brina e greto del torrente Amola (in
+          <term xml:lang="latin">locis Brina et glarea Amole </term>) </docDate>
+
+      <div type="regesto" xml:id="DXVIIII_regesto">
+
+        <p> Proino di Santo Stefano, procuratore del vescovo di Luni Enrico, prende possesso a nome
+          dell’episcopato del corso d’acqua Amola che si trova nel distretto del castello della
+          Brina, del castello stesso della Brina e del suo poggio, detto Castiglione o Montale. </p>
+
+      </div>
+
+      <div type="footer" xml:id="DXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 385v., c. CCCLXXVIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressochè integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 519 pp. 563-564</p>
+          <p>Bibliografia: <ref target="#NERI_1915">NERI 1915 </ref>; <ref target="#FORMENTINI_1950"
+              >FORMENTINI 1950 </ref>; <ref target="#NOBILI_1982">NOBILI 1982.</ref>.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note> Parte del documento è stata letta con l’ausilio della luce di Wood. Nel margine
+            esterno, di mano moderna, un’annotazione illeggibile a causa dell’inchiostro sbiadito.
+          </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXVIIII.
+              Aceptionis et corporalis possesionis castri de Brina et pertinentiarum
+            eius.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXVIIII_div">
+        <p xml:id="DXVIIII_p_001" n="1"> In nomine Domini, amen. <date when="1279-02-18"> Anno a
+            nativitate Eius M°CCLXXIX, indictione VII, XVIII die mensis februarii</date>. <persName
+            ref="#ProhinusSanctiStephani"><roleName>Magister</roleName> Prohynus de <placeName
+              ref="#Santo_Stefano">Sancto Stephano</placeName></persName>, <roleName>syndicus, actor
+            et procurator venerabilis patris domini </roleName>
+          <persName ref="#HenricusEpLuni">Henrici, <roleName>Dei gratia Lunensis episcopi
+            </roleName></persName> et episcopatus, de cuius syndicatu et mandato continebatur in
+          instrumento inde facto manu mei notarii infrascripti, syndicatorio, actorio et
+          procuratorio nomine pro ipso domino episcopo et episcopatu, intravit et accepit tenutam et
+          possessionem vel quasi corporalem de quadam aqua que est in districtu <placeName
+            ref="#Brina">Brine</placeName>, que vocatur <placeName ref="#Amola">Amola</placeName>,
+          accipiendo de ipsa aqua cum manibus et abluendo se in ea. Item intravit et accepit tenutam
+          et possessionem vel quasi corporalem, pro ipso domino episcopo et episcopatu, castri
+            <placeName ref="#Brina">Brine</placeName> et podii ipsius castri et iurisdictionis vel
+          quasi et districtus ipsius castri pro ea parte et ratione et iure quod et quam ipse
+          dominus episcopus et episcopatus habet et habere debet in ipso castro et pertinenciis et
+          districtu et hominibus ipsius loci, quacumque occasione, ratione vel modo, accipiendo
+          portam sive ianuam ipsius castri et claudendo et aperiendo et capiendo de terra et
+          lapidibus et muris ipsius castri et podii, et eundo per ipsum castrum et locum
+          corporaliter, animo accipiende, utende et retinende possessionis vel quasi ipsius castri
+          et loci et omnium predictorum pro ipso domino episcopo et episcopatu et omni iure et modo
+          et forma quo et qua melius potest et potuit.</p>
+        <p xml:id="DXVIIII_p_002" n="2">Actum in dictis locis <placeName ref="#Brina">Brina
+          </placeName>et glarea <placeName ref="#Amola">Amole</placeName>, presentibus <persName
+            ref="#Groppinuscastro">Groppino de <placeName ref="#Sarzanello">castro
+              Sarzane</placeName></persName>, <persName ref="#DinoRubei">Dino filio quondam
+            Rubei</persName>, <persName ref="#GuilielmuciusParentini"> Guilielmucio quondam
+            Parentini <placeName ref="#Sarzanello">eiusque loci</placeName>
+          </persName> et <persName ref="#SalvuciusVeruncola">Salvucio de <placeName
+              ref="#VerrucolaGerardenghi">Veruncola Gerardengorum </placeName></persName>, testibus
+          ad hec rogatis. <date when="1279-02-18">Eodem die</date>, coram predictis testibus, dictus
+          syndicus, actor et procurator simili modo et forma intravit et accepit et usus fuit in
+          dictam possessionem et tenutam montis qui dicitur <placeName ref="#Castiglione">Castilione
+          </placeName> sive <placeName ref="#Montale2">Montale </placeName> seu quocumque alio
+          nomine nuncupatur, qui est in pertinenciis ipsius castri, scilicet inferius versus
+          stratam. </p>
+        <p xml:id="DXVIIII_p_003" n="3">
+          <ptr target="#DXVIIII_st_001"/>Ego <persName ref="#PetrusGualterotinot">Petrus quondam
+            Gualteroti de <placeName ref="#Soliera">Soleria</placeName></persName>, <roleName>sacri
+            palacii notarius </roleName>, hiis interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

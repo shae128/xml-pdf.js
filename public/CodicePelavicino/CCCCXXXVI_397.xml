@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="CCCCXXXVI_397">
+    <front xml:id="CCCCXXXVI_front">
+      <titlePart type="numerazioneNuova">397</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXXXVI</titlePart>
+      <docDate xml:id="CCCCXXXVI_docDate">
+        <date when="1257-01-23">1257 gennaio 23</date>, <placeName> Lucca <emph>(<term
+              xml:lang="latin"> in civitate Lucana, in claustro ecclesie Sancti Michaelis in
+              foro</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXXXVI_regesto">
+        <p> Formentino del fu Carpinello di Stadano, a nome proprio e in qualità di procuratore dei
+          fratelli Bernardino e Simone, figli del fu Alberto di Panicale, e di Bonvicino, Pegolotto,
+          Alibene, Paganino, Andriolo e Bonafide di Stadano, dichiara ad Amatore, canonico di S.
+          Michele in foro a Lucca, delegato dal priore Ranuccio e dal pontefice, e a Uberto
+          Dominici, procuratore e sindaco del vescovo di Luni Guglielmo, di dovere ogni anno al
+          vescovo ottantaquattro uova, due staia di orzo e quattordici galline. Amatore sentenzia
+          quindi che il pagamento annuale sia assolto. </p>
+      </div>
+      <div type="footer" xml:id="CCCCXXXVI_footer">
+        <div type="orig_doc">
+          <p>Copia [C] c. 340v., cc. CCCXXXIIv. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 436,
+            p. 433.</p>
+        </div>
+        <div type="appr">
+
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCCXXXVI. Precepti facti procuratori domini Bernardini de quibusdam
+              redditibus.</term></p>
+
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCCXXXVI_div">
+        <p xml:id="CCCCXXXVI_p_001" n="1"> In Christi nomine, amen. Ex huius publici instrumenti
+          clareat lectione quod <persName ref="#FormentinusCarpinelli">Formentinus quondam
+            Carpinelli de <placeName ref="#Stadano">Stadano</placeName></persName>,
+            <roleName>procurator</roleName>
+          <persName ref="#BernardinusPanicali"><roleName>domini</roleName> Bernardini</persName> et
+            <persName ref="#SimonAlberti">Simonis</persName>, germanorum, filiorum quondam domini
+          Alberti de <placeName ref="#Panicale">Panicali</placeName>, et <persName ref="#Bonvisinus"
+            >Bonivicini</persName>, <persName ref="#Pegolotus">Pegolotti</persName>, <persName
+            ref="#Alibene"> Alibene</persName>, <persName ref="#Paganinus">Paganini</persName>,
+            <persName ref="#Andreolus">Andrioli</persName> et <persName ref="#Bonafides"
+            >Bonafedis</persName> eiusdem loci, constitutus pro se et predictis, quorum est
+          procurator, sicut constat per cartam confectam per <persName ref="#Rusticellusnot"
+            >Rusticellum <roleName>notarium</roleName></persName>, quam ego <persName
+            ref="#IacopusIacopininot">Iacobus <roleName>notarius</roleName></persName> vidi et legi,
+          cuius anni sunt <date when="1257-01-23">MCCLVII, indictione XV, XVI mensis
+          ianuarii</date>, coram presentia <persName ref="#Amadorcan">Amadoris</persName>, <persName
+            ref="#Amadorcan"><roleName>canonici</roleName></persName>
+          <orgName type="Lucca_S_Michele_Foro">Sancti Michaelis</orgName>
+          <placeName ref="#Lucca">Luce</placeName>, subdelegati <persName ref="#Ranuciusprior"
+              ><roleName>domini</roleName> Ranucii, <roleName>prioris</roleName> dicte
+            ecclesie</persName>, subdelegati domini pape, quas subdelegationes ego dictus notarius
+          vidi et legi, dixit <supplied reason="omitted">et</supplied> confessus fuit coram
+            <persName ref="#Amadorcan"><roleName>presbytero</roleName> Amadore</persName> predicto
+          et <persName ref="#HubertusDominici">Huberto Dominici</persName>, <persName
+            ref="#HubertusDominici"><roleName>procuratore, syndico seu actore</roleName></persName>
+          venerabilis patris <persName ref="#GuilEpLuni">domini Guilielmi</persName>, <persName
+            ref="#GuilEpLuni"><roleName>Lunensis episcopi</roleName></persName>, et me notario et
+          testibus infrascriptis, pro se et procuratorio nomine pro predictis, quod ipse cum
+          predictis, id est quilibet pro equali parte, tenetur annuatim reddere dicto domino
+          episcopo et episcopatui octuaginta ova et IIII or et duo staria ordei, ad Lunense starium,
+          et XIIII gallinas. </p>
+        <p xml:id="CCCCXXXVI_p_002" n="2"> Qui <persName ref="#Amadorcan"
+              ><roleName>presbyter</roleName> Amador</persName>, audita et intellecta confessione
+          ipsius <persName ref="#FormentinusCarpinelli">Formentini</persName>, pro se et
+          procuratorio nomine pro predictis, sibi facta, ex auctoritate sue subdelegationis precepit
+          eidem <persName ref="#FormentinusCarpinelli">Formentino</persName>, pro se et procuratorio
+          nomine pro predictis <persName ref="#BernardinusPanicali"><roleName>domino</roleName>
+            Bernardino</persName> et <persName ref="#SimonAlberti">Simone</persName>, germanis, et
+            <persName ref="#Bonvisinus">Bonovicino</persName>, <persName ref="#Pegolotus"
+            >Pegoloto</persName>, <persName ref="#Alibene"> Alibene</persName>, <persName
+            ref="#Paganinus">Paganino</persName>, <persName ref="#Andreolus">Andriolo</persName> et
+            <persName ref="#Bonafides">Bonafede</persName>, ut predictam redditam ovorum, ordei et
+          gallinarum annuatim eidem domino episcopo vel episcopatui reddat et reddere <note
+            place="foot" n="a" xml:id="CCCCXXXVI_n_001">
+            <term xml:lang="latin">faciant</term>
+            <emph>: così nel testo per faciat</emph>
+          </note> ; et sicut dictum <persName ref="#FormentinusCarpinelli">Formentinum</persName>,
+          pro se et procuratorio nomine pro predictis, et predictos omnes in suprascriptam redditam
+          sibi confessatam per predictum <persName ref="#FormentinusCarpinelli"
+            >Formentinum</persName>, pro se et procuratorio nomine pro predictis, ut eam annuatim
+          eidem domino episcopo et episcopatui faciant, condempnavit per sententiam. </p>
+        <p xml:id="CCCCXXXVI_p_003" n="3"> Hec acta sunt in <placeName ref="#Lucca">civitate
+            Lucana</placeName> et <supplied reason="omitted">in</supplied>
+          <orgName type="Lucca_S_Michele_Foro">claustro dicte ecclesie</orgName>. <date
+            when="1257-01-23">Anno nativitatis Domini MCCLVII, indictione XV, X kalendas
+            februarii</date>, coram <persName ref="#OrmannucciusStephani">Ormannucio quondam
+            Stephani</persName> de <placeName ref="#Florencia">Florencia</placeName> et <persName
+            ref="#IacobusLamberti">Iacobo quondam Lamberti Rubei</persName> de <placeName
+            ref="#Lucca">civitate Lucana</placeName> et <persName ref="#OrlandinusMichelis"
+            >Orlandino quondam Michelis</persName> de <placeName ref="#Pontensano">Pontesano<note
+              place="foot" n="b" xml:id="CCCCXXXVI_n_002">
+              <term xml:lang="latin"> Potensano </term>
+              <emph>: così nel testo per Potensano, cfr. documento precedente.</emph>
+            </note>
+          </placeName> de <placeName ref="#Lunigiana">Lunisiana</placeName>, testibus ad hec
+          presentibus.</p>
+        <p xml:id="CCCCXXXVI_p_004" n="4">
+          <ptr target="#CCCCXXXVI_st_001"/> Ego <persName ref="#IacopusIacopininot"> Iacobus
+            Iacopini, <roleName>imperialis aule iudex ordinarius atque
+            notarius</roleName></persName>, predictis omnibus interfui et in publicam scripturam
+          redegi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXXVII_188">
+    <front xml:id="CCXXVII_front">
+
+      <titlePart type="numerazioneNuova">188</titlePart>
+      <titlePart type="numerazioneOrig">CCXXVII</titlePart>
+
+      <docDate xml:id="CCXXVII_docDate">
+        <date when="1189-05-01">1189 maggio 1</date>, <placeName>Collecchia (<term xml:lang="latin"
+            >in castro Collicclum</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXXVII_regesto">
+        <p>I consorti Blasio del fu Viviano di Soliera, Gerardo Verono del fu Gerardino Verono di
+          Soliera e Albertino, figlio dello stesso Gerardino, vendono a Pietro, vescovo di Luni, e
+          ad Arduino di Erberia, figlio del fu Giberto, e a suo figlio Gibertino tutte le terre da
+          loro possedute <term xml:lang="latin">in Castrum Novum de Barzi</term>, nel luogo detto
+            <term xml:lang="latin">Colicclum</term>. Il prezzo della vendita è di 8 lire di
+          imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP, cc. 253r.- 253v., cc. CCXLVr.-CCXLVv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. CCXXVII, pp. 206-207.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p>Bibliografia: <ref target="#FORMENTINI_1970">FORMENTINI 1970</ref>; <ref
+              target="#NOBILI_2006">NOBILI 2006</ref>, pp. 423-426</p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXXVII_div">
+        <p xml:id="CCXXVII_p_001" n="1">In eterni Dei nomine, amen.<date when="1189"> Anno ab Eius
+            incarnatione M° centesimo octogesimo VIIII, indictione VII</date>. Manifestum est quod
+          isti consortes, videlicet <persName ref="#BlasiusViviani">Blasius quondam Viviani de
+              <placeName ref="#Soliera">Soleria</placeName></persName> et <persName
+            ref="#GerardinusVeronus">Gerardinus Veronus itidem quondam Gerardini Veroni de
+              <placeName ref="#Soliera">Soleria</placeName></persName> et <persName
+            ref="#AlbertinusGerardini">Albertinus, filius eiusdem Gerardini</persName>, quisque pro
+          sua parte, cesserunt, tradiderunt, dederunt, vendiderunt, finito precio <measure
+            type="Imperiales" quantity="8" unit="libra">denariorum bonorum imperialium librarum
+            VIII</measure>, <persName ref="#Henricusvic">Henrico, <roleName>vicedomino episcopii
+              Lunensis</roleName></persName>, recipienti pro domino <persName ref="#PetrusEpLuni"
+            >Petro Dei gratia <roleName>Lunensi episcopo</roleName></persName>, in una medietate, et
+          domino <persName ref="#HarduinusGiberti">Harduino de <placeName ref="#Erberia"
+              >Herberia</placeName>, filio quondam Giberti de <placeName ref="#Erberia"
+              >Herberia</placeName></persName><note xml:id="CCXXVII_n_001" n="a" place="foot"><term
+              xml:lang="latin">Herberia</term>: Herb <emph>corretto su precedente
+            scrittura</emph>.</note>, et <persName ref="#GibertinusHarduini">Gibertino eiusdem
+            Harduini filio</persName>, recipientibus tam pro se quam pro aliis dominis de <placeName
+            ref="#Erberia">Herberia</placeName>, suis consortibus, habentibus podere in <orgName
+            ref="#Luni_comitatus">Lunensi comitatu</orgName>, in alia medietate, id est totam terram
+          quam ipsi visi sunt habere in <placeName ref="#CastelnuovodiBarci">Castrum Novum<note
+              xml:id="CCXXVII_n_002" n="b" place="foot"><term xml:lang="latin">in Castrum
+                Novum</term>: <emph>così nel testo</emph>.</note> de Barzi</placeName>, in loco
+          videlicet quod dici solet <placeName ref="#Collecchia">Colicclum</placeName>. Que autem
+          iamscripta terra comprehenditur hiis coherenciis, videlicet sicut fossatum ipsius castelli
+          vel loci extenditur et decurrit usque in rivum, qui est inter ipsum locum dictum
+            <placeName ref="#Collecchia">Collicclum</placeName> et <placeName ref="#Pallaroso"
+            >Pallerosum</placeName>, usque ad canale de casa <placeName ref="#Brissiana"
+            >Brissiana</placeName> et sicut ab alio capite ipsius castelli fossa decurrit insum<note
+            xml:id="CCXXVII_n_003" n="c" place="foot"><term xml:lang="latin">insum</term>:
+              <emph>così nel testo</emph>.</note> per <placeName ref="#Campotendoli"
+            >Campotendoli</placeName> usque ad canale de <placeName ref="#Pallaroso"
+            >Palleroso</placeName>. Totum vero quod continetur in istis coherenciis in integrum, cum
+          accessibus et regressibus suis, cum superioribus et inferioribus suis, et quicquid ad eas
+          pertinet et in ipso loco sive infra ipsis coherenciis, quovis ingenio, dederunt
+          suprascriptus <persName ref="#BlasiusViviani">Blasius</persName>, <persName
+            ref="#GerardusVeronus">Gerardinus</persName> et <persName ref="#AlbertinusGerardini"
+            >Albertinus</persName>, eius filius, atque vendiderunt iamscripto <persName
+            ref="#Henricusvic">Henrico, <roleName>vicedomino</roleName></persName> pro domino
+          episcopo, in una medietate, et iamscripto <persName ref="#HarduinusGiberti"
+            >Harduino</persName> et <persName ref="#GibertinusHarduini">Gibertino</persName> pro
+          sese suisque consortibus, in alia medietate, finito precio <measure type="Imperiales"
+            quantity="8" unit="libra">denariorum bonorum imperialium librarum VIII</measure>, ut
+          dictum est superius, ut a presenti die in antea in perpetuum predictus dominus episcopus
+          de sua parte, id est de alia medietate, sive cui dederit, atque predicti domini de
+            <placeName ref="#Erberia">Herberia</placeName> de sua parte, id est de alia medietate,
+          sive cui dederint, exinde faciant <pb n="253v" xml:id="fol_253v"/> iure proprietario,
+          colendo, tenendo, fruendo, meliorando, alienando, obligando, hedificando et omni modo
+          faciendo quicquid facere voluerint; ipsi eorumque successores seu heredes, actionibus
+          omnibus, quas ibi habebant, predicto domino episcopo et predictis <supplied
+            reason="omitted">dominis</supplied> de <placeName ref="#Erberia">Herberia</placeName>,
+          sine omni eiusdem <persName ref="#BlasiusViviani">Blasii</persName>, <persName
+            ref="#GerardusVeronus">Gerardini</persName> et <persName ref="#AlbertinusGerardini">sui
+            filii Albertini</persName> suorumque heredum contradictione, totum ius totamque
+          actionem, quam ibi habebant in illam vendictionem, dederunt et totum quod ipsa vendictio
+          aliquando poterit extimari plus iamscripto precio valere predicto domino episcopo et
+          iamscriptis dominis de <placeName ref="#Erberia">Herberia</placeName> in donationem
+          donaverunt et confirmaverunt, actionibus illis traditis omnibus atque mandatis. Ipsam
+          autem vendictionem iamscriptus <persName ref="#BlasiusViviani">Blasius</persName> et
+          iamscriptus <persName ref="#GerardusVeronus">Gerardinus</persName> et <persName
+            ref="#AlbertinusGerardini">Albertinus</persName> per se suosque heredes, sub pena dupli
+          precii, predicto <persName ref="#Henricusvic">Henrico</persName> pro domino episcopo
+          Lunensi suisque successoribus et predicto <persName ref="#HarduinusGiberti"
+            >Harduino</persName> et <persName ref="#GibertinusHarduini">Gibertino</persName>
+          eorumque heredibus legitime et rationabiliter ab omni contradicente <supplied
+            reason="omitted">persona</supplied> deffensare et auctorizare promiserunt per
+          stipulationem subnixam, et prenominati <persName ref="#BlasiusViviani">Blasius</persName>,
+            <persName ref="#GerardusVeronus">Gerardinus</persName> et <persName
+            ref="#AlbertinusGerardini">Albertinus</persName> confessi sunt tenutam dedisse prelibato
+          domino episcopo et sepedictis dominis de <placeName ref="#Erberia">Herberia</placeName>
+          ipsamque tenutam illis reconfirmaverunt. Predictus etiam <persName
+            ref="#AlbertinusGerardini">Albertinus</persName> iuravit iamscriptam vendictionem
+          inviolabiliter omni tempore observare.</p>
+        <p xml:id="CCXXVII_p_002" n="2">Actum est hoc in ipso <placeName ref="#Collecchia">castro
+            Collicclum</placeName>, <date when="--05-01">die lune qui fuit primus intrante mense
+            madio</date>.</p>
+        <p xml:id="CCXXVII_p_003" n="3"># Signa manuum iamscripti <persName ref="#BlasiusViviani"
+            >Blasii</persName>, <persName ref="#GerardusVeronus">Gerardini</persName> et <persName
+            ref="#AlbertinusGerardini">Albertini</persName>, qui hanc cartulam vendictionis et
+          proprietatis fieri rogaverunt. # # Signa manuum <persName ref="#VenturaSarzana">Venture de
+              <placeName ref="#Sarzana">Sarzana</placeName></persName>, <persName
+            ref="#AdvocatusSarzana">Advocati de <placeName ref="#Sarzana"
+            >Sarzana</placeName></persName>, <persName ref="#GlunusVerrucola">Gluni de <placeName
+              ref="#VerrucolaBosi">Verucola</placeName></persName>, <persName
+            ref="#PhilippusSoleria">Philippi de <placeName ref="#Soliera"
+            >Soleria</placeName></persName>, <persName ref="#ArmanninusGibertini">Armannini quondam
+            Gibertini de <placeName ref="#Soliera">Soleria</placeName></persName>, <persName
+            ref="#ThebaldinusRobertini">Thebaldini quondam Robertini</persName>, <persName
+            ref="#HenricusYsembardo">Henrici</persName> et <persName ref="#GuiscardellusYsembardo"
+            >Guiscardelli de Ysembardo Befulki de <placeName ref="#Soliera"
+            >Soleria</placeName></persName>, rogatorum testium.</p>
+        <p xml:id="CCXXVII_p_004" n="4"><ptr target="#CCXXVII_st_001"/> Ego <persName
+            ref="#Lombardusnot">Lombardus, <roleName>domini imperatoris et Lunensis curie
+              notarius</roleName></persName>, interfui et rogatus hanc cartulam vendictionis et
+          proprietatis scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="\schema\tei_cp.rng" type="application\xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXXIII_435">
+    <front>
+
+      <titlePart type="numerazioneNuova">435</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXIII</titlePart>
+
+      <docDate xml:id="CCCCLXXIII_docDate">
+        <date when="1222-01-25">1222 gennaio 25</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in castro Sarzane, ante portam domignoni</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXXIII_regesto">
+        <p> Il giudice della curia di Luni Iacopino chiede al notaio Prefetto di pubblicare le
+          testimonianze fatte al vescovo di Luni Norandino su Tivegna, nella lite che il vescovo
+          aveva con il vicedomino Aldeprando. Il vescovo intende provare che Aldeprando gli promise
+          di non recargli alcun danno riguardo alla torre o castello di Tivegna, che egli aveva in
+          custodia, e di riconsegnargliela quando richiesta. Seguono le testimonianze.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXXIII_footer">
+        <div type="orig_doc">
+          <p>Copia [C] c. 361v.-362v., cc. CCCLIIv.-CCCLIIIv., secondo la numerazione originale.</p>
+        </div>
+        <div type="biblio">
+          <p>Edizione pressochè integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 473, pp. 481-484.</p>
+        </div>
+        <div type="crit_notes">
+          <note> Parte del documento è stata letta con l'ausilio della luce di Wood. </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXIII. Testes contra Aldebrandum vicedominum pro Tivegna.</term></p>
+        </div>
+      </div>
+
+    </front>
+    <body>
+      <div xml:id="CCCCLXXIII_div">
+        <p xml:id="CCCCLXXIII_p_001" n="1"> In nomine Domini, amen. Presentia bonorum hominum,
+          testium rogatorum, quorum nomina in fine huius cartule leguntur,
+            <roleName>dominus</roleName>
+          <persName ref="#Iacopinusiud">Iacopinus</persName>, <roleName>Lunensis curie
+            iudex</roleName>, mihi <persName ref="#Prefectusnot">Prefecto</persName>
+          <roleName>notario</roleName> precepit ut publicarem testes infrascriptos datos a
+            <roleName>domino</roleName>
+          <persName ref="#IacopinusNorandiniiud">Noradino</persName>, <roleName>Dei gratia Lunensi
+            episcopo</roleName>, contra <persName ref="#Aldeprandusvic2">Aldeprandum</persName>
+          <roleName>vicedominum</roleName> ad litem futuram super eo quod dictus dominus episcopus
+          studuit se probare quod dedit <placeName ref="#Tivegna">Tivegniam</placeName> et turrim
+          ipsius castri eidem <persName ref="#Aldeprandusvic2">Aldeprando</persName> in guardiam, et
+          super eo quod dicit idem dominus episcopus et studuit se probare quod dictus <persName
+            ref="#Aldeprandusvic2">Aldeprandus</persName> promisit eidem domino episcopo quod
+          iamdictus dominus episcopus et episcopatus nullam offensam, nullum gravamen nec
+          impedimentum haberet de ipsa turre vel castro dum dictus <persName ref="#Aldeprandusvic2"
+            >Aldeprandus</persName> ipsam custodiam et guardiam teneret, et quod idem Aldeprandus
+          predictum castrum et turrem predictam eidem domino episcopo sine aliqua contradictione
+          redderet quandocumque idem dominus episcopus ipsam turrem de <placeName ref="#Tivegna"
+            >Tivegnia</placeName> et castrum vellet et ab eodem <persName ref="#Aldeprandusvic2"
+            >Aldeprando</persName> peteret. Quorum testium dicta sunt hec.</p>
+        <p xml:id="CCCCLXXIII_p_002" n="2">
+          <persName ref="#Lealiscons">Lealis</persName>, <roleName>consul de <placeName
+              ref="#Sarzana">Sarzana</placeName></roleName>, iuratus, testatur et dixit.
+          Interrogatus si fuit presens ubi <persName ref="#Aldeprandusvic2">Aldeprandus</persName>
+          <roleName>vicedominus</roleName> rogavit <roleName>dominum</roleName>
+          <persName ref="#IacopinusNorandiniiud">Noradinum</persName>, <pb n="362r"
+            xml:id="fol_362r"/>
+          <roleName>Dei gratia Lunensem episcopum</roleName>, ut idem dominus episcopus commendaret
+          dicto <persName ref="#Aldeprandusvic2">Aldeprando</persName> ad custodiendum castrum de
+            <placeName ref="#Tivegna">Tivegnia</placeName> et turrem ipsius castri, respondit quod
+          sic. Interrogatus quo loco fuit hoc, respondit quod hoc fuit citra <placeName
+            ref="#Liccia">Licias</placeName>, prope <orgName ref="#Zulliano_S_Giacomo">hospitale de
+              <placeName ref="#Zulliano">Zulliano</placeName></orgName>, scilicet in via subtana,
+          iuxta glaream fluminis <placeName ref="Vara">Vare</placeName>. Interrogatus si ipse
+            <persName ref="#Aldeprandusvic2">Aldeprandus</persName> promisit ipsam turrem et castrum
+          predictum de <placeName ref="#Tivegna">Tivegnia</placeName> reddere predicto domino
+          episcopo quandocumque vellet idem dominus episcopus et ab eo peteret, respondit quod sic;
+          et hoc idem testis audivit et vidit ipsum <persName ref="#Aldeprandusvic2"
+            >Aldeprandum</persName> promittentem et confitentem; et insuper promisit iamdictus
+            <persName ref="#Aldeprandusvic2">Aldeprandus</persName> eidem domino episcopo quod de
+          predicto castro et turre de <placeName ref="#Tivegna">Tivegnia</placeName> non haberet
+          ullum gravamen nullamque offensam neque impedimentum; et hec omnia promisit iamdictus
+            <persName ref="#Aldeprandusvic2">Aldeprandus</persName> predicto domino episcopo
+          attendere et observare, sub pena <measure type="marcus" quantity="1000" unit="argentus">M
+            marcharum argenti</measure>, obligando pro ipsa pena eidem domino episcopo omnia bona
+          sua que habebat in Lunensi episcopatu. Et post hec, incontinenti, predictus dominus
+          episcopus secessit seorsum ab aliis cum eodem teste et <persName ref="#AttolinusCacti"
+            >Attolino quondam Caccii</persName> et <persName ref="#HenricusGuerini">Henrico quondam
+            Guerini</persName> et duobus de consulibus <placeName ref="#Tivegna"
+            >Tivegnie</placeName> et <persName ref="#Aldeprandusvic2">Aldeprando</persName> predicto
+          et cum IIII or vel tribus de castellanis <placeName ref="#Tivegna">Tivegnie</placeName>,
+          et tunc dictus dominus episcopus dixit iamscripto <persName ref="#Aldeprandusvic2"
+            >Aldeprando</persName>: «<persName ref="#Aldeprandusvic2">Aldeprande</persName>, ego
+          multum te diligo, hanc custodiam tu vis. Ego nollem ut acciperes, cave tibi quomodo
+          accipias». Et tunc respondit <persName ref="#Aldeprandusvic2">Aldeprandus</persName>:
+          «Melius decet me habere custodiam huius castri quam alium hominem, quoniam custodiam dicti
+          castri teneor facere cum uxore quondam cosini mei <persName ref="HenricusAldeprandi"
+            >Henrici</persName> usque ad carnislevamen proxime, quod est terminus X annorum ipsius
+          custodie secundum pactionem <name type="familia" ref="#AdelbertiFamilia">Aldebertorum</name>». Et tunc
+            <persName ref="#Aldeprandusvic2">Aldeprandus</persName> dixit predicto domino episcopo:
+          «Domine, promitto vobis, sub dicta pena, quod vos usque tunc non habebitis de ipso castro
+          nec de ipsa turre ullum gravamen nec impedimentum nec offensam aliquam, et postea, ab inde
+          in antea, de ipso castro et turre ero ad vestram voluntatem». Quibus peractis, predictus
+          dominus episcopus de omnibus predictis habuit consilium cum illis predictis qui secum ibi
+          erant presentes et, habito eorumdem consilio, iamdictus dominus episcopus de propria
+          voluntate et consilio eorumdem tradidit et concessit iamdicto <persName
+            ref="#Aldeprandusvic2">Aldeprando</persName> suprascriptum castrum et turrem de
+            <placeName ref="#Tivegna">Tivegnia</placeName> et commendavit sub dicta pena, et ipse
+            <persName ref="#Aldeprandusvic2">Aldeprandus</persName> sub dicta pena iamscripto domino
+          episcopo suprascriptum castrum et turrem reddere promisit quandocumque vellet idem dominus
+          episcopus. Item dixit quod, rogatu dicti <persName ref="#Aldeprandusvic2"
+            >Aldeprandi</persName>, iamscriptus dominus episcopus precepit dictis consulibus et
+          hominibus de <placeName ref="#Tivegna">Tivegnia</placeName>, qui ibi presentes erant, ut
+          eidem <persName ref="#Aldeprandusvic2">Aldeprando</persName> de precepto ipsius domini
+          episcopi obedirent et ut dicti consules preciperent aliis hominibus de <placeName
+            ref="#Tivegna">Tivegnia</placeName> ut eadem facerent. Interrogatus si tunc <persName
+            ref="#Aldeprandusvic2">Aldeprandus</persName> statim secessit a predicto domino episcopo
+          et a predictis pro dicta custodia iamdicti castri et turris accipienda, respondit quod
+          sic; tamen non vidit quando intravit dictum castrum, quoniam ipse testis remansit cum
+          predicto domino episcopo. Item dixit quod publica fama est <placeName ref="#Tivegna"
+            >Tivegnie</placeName> et <placeName ref="#Sarzana">Sarzane</placeName> quod dictus
+            <persName ref="#Aldeprandusvic2">Aldeprandus</persName> habuit et recepit predictum
+          castrum et turrem de <placeName ref="#Tivegna">Tivegnia</placeName> in custodiam a
+          iamscripto domino episcopo; et ita fertur ab hominibus predictorum locorum.</p>
+        <p xml:id="CCCCLXXIII_p_003" n="3">
+          <persName ref="#HenricusGuerini">Henricus quondam Guerini</persName>, iuratus, testatur.
+          Interrogatus diligenter de omnibus suprascriptis, respondit et dixit per omnia ut supra
+          dixit <persName ref="#Lealiscons">Lealis</persName>, tantum minus quod non recordatur de
+          quantitate iamscripte pene, set dixit quod bene vidit dictum <persName
+            ref="#Aldeprandusvic2">Aldeprandum</persName> obligare eidem domino episcopo omnia bona
+          sua pro predictis omnibus observandis que iamscriptus <persName ref="#Lealiscons"
+            >Lealis</persName> dixerat superius, et tantum plus dixit quod predictus dominus
+          episcopus precepit, de rogatu ipsius <persName ref="#Aldeprandusvic2"
+            >Aldeprandi</persName>, consulibus de <placeName ref="#Tivegna">Tivegnia</placeName>
+          <note place="foot" n="a" xml:id="CCCCLXXIII_n_001"><term>Tivegnia</term>: <emph>segue ut,
+              ripetuto poco dopo</emph>.</note> ut, nomina quorum consulum ignorat, et aliis
+          hominibus de <placeName ref="#Tivegna">Tivegnia</placeName>, qui ibi erant, ut ipsi
+            <persName ref="#Aldeprandusvic2">Aldeprando</persName> pro iamscripto domino episcopo et
+          vice eius obedirent et ut aliis hominibus de <placeName ref="#Tivegna"
+            >Tivegnia</placeName> preciperent ut eidem <persName ref="#Aldeprandusvic2"
+            >Aldeprando</persName> pro iamscripto domino episcopo et vice eiusdem domini episcopi
+          obedirent, et insuper dixit quod dictus <persName ref="#Aldeprandusvic2"
+            >Aldeprandus</persName> ibidem predictam custodiam iamdicti castri et turris pro
+          iamscripto domino episcopo et vice ipsius domini recepit <note place="foot" n="b"
+            xml:id="CCCCLXXIII_n_002"><term>recepit</term>: rec <emph>corretto su precedente
+              scrittura</emph>.</note> ad custodiendum. Verumptamen de termino carnislevaminis
+          nichil scit, ut supra dixit <persName ref="#Lealiscons">Lealis</persName>; de aliis
+          interrogatus, respondit quod nichil aliud inde scit.</p>
+        <p xml:id="CCCCLXXIII_p_004" n="4">
+          <persName ref="#AttolinusCacti">Attolinus quondam Caccii</persName>, <roleName>consul de
+              <placeName ref="#Sarzana">Sarzana</placeName></roleName>, iuratus, testatur.
+          Interrogatus diligenter de omnibus suprascriptis capitulis, dixit per omnia et in omnibus
+          ut supra dixit predictus <persName ref="HenricusAldeprandi">Henricus</persName>.</p>
+        <p xml:id="CCCCLXXIII_p_005" n="5">
+          <persName ref="#Tedaldinus">Tedaldinus</persName>, iuratus, testatur. Interrogatus de
+          omnibus suprascriptis capitulis, respondit et dixit quod dictus dominus episcopus cum
+          quibusdam suis <pb n="362v" xml:id="fol_362v"/> militibus, scilicet <persName
+            ref="#Aldeprandusvic2">Aldeprando</persName>
+          <roleName>vicedomino</roleName> et <persName ref="#Lealiscons">Leale</persName>, <persName
+            ref="#HenricusGuerini">Henrico quondam Guerini</persName> et <persName
+            ref="#AttolinusCacti">Attolino</persName> suprascriptis et quibusdam aliis expectabant
+          ad suprascriptas <placeName ref="#Liccia">Licias</placeName> consules de <placeName
+            ref="#Tivegna">Tivegnia</placeName> et quosdam alios castellanos de <placeName
+            ref="#Tivegna">Tivegnia</placeName>, et cum venerint ibi tunc ad predictum dominum, tunc
+          iamscriptus dominus episcopus petiit ab eis turrim et castrum de <placeName ref="#Tivegna"
+            >Tivegnia</placeName>, et quia tunc tam cito non reddiderunt ei ipsum castrum et turrim,
+          ut voluit, dictus dominus episcopus iratus fuit. Postea quasi incontinenti ibi prope
+          dictus dominus episcopus, ut audivit dici, dedit dictum castrum et turrim in custodia
+          predicto <persName ref="#Aldeprandusvic2">Aldeprando</persName> vicedomino et precepit
+          iamscriptus dominus episcopus consulibus de <placeName ref="#Tivegna"
+          >Tivegnia</placeName>, ut audivit dici, quod deberent obedire iamscripto <persName
+            ref="#Aldeprandusvic2">Aldeprando</persName> pro predicto domino episcopo et ut
+          preciperent ipsi consules hominibus de <placeName ref="#Tivegna">Tivegnia</placeName>, ex
+          parte dicti domini episcopi, ut eidem <persName ref="#Aldeprandusvic2"
+            >Aldeprando</persName> obedirent. Et sic tunc eadem die statim dictus <persName
+            ref="#Aldeprandusvic2">Aldeprandus</persName> cum dictis consulibus et hominibus de
+          Tivegnia, qui ibi erant, ut vidit, adiverunt ad predictum castrum et, cum ibi fuerunt,
+          predicti consules congregaverunt homines de <placeName ref="#Tivegna"
+          >Tivegnia</placeName>, prout idem testis vidit, et preceperunt hominibus de <placeName
+            ref="#Tivegna">Tivegnia</placeName> ut eidem <persName ref="#Aldeprandusvic2"
+            >Aldeprando</persName> obedirent vice domini episcopi et tanquam domino episcopo
+          iamscripto facere deberent; et sic statim dictus <persName ref="#Aldeprandusvic2"
+            >Aldeprandus</persName> in tali modo recepit dictam custodiam iamscripti castri et
+          turris, ut credit, et fecit idem <persName ref="#Aldeprandusvic2">Aldeprandus</persName>
+          descendere turrixanum de turre iamscripta et misit ibi alium, qui ibi stetit, et renovavit
+          banda in eodem castro cum predictis consulibus. Et dicit quod publica fama est in
+            <placeName ref="#Tivegna">Tivegnia</placeName> et in <placeName ref="#Sarzana"
+            >Sarzana</placeName> quod dictus <persName ref="#Aldeprandusvic2">Aldeprandus</persName>
+          tenebat et habebat iamscripti castri et turris guardiam pro predicto domino episcopo.</p>
+        <p xml:id="CCCCLXXIII_p_006" n="6">
+          <persName ref="#GuilieccionusTivegnia">Guilieccionus <note place="foot" n="c"
+              xml:id="CCCCLXXIII_n_003"><term>Guilieccionus</term>: <emph>la prima c scritta in
+                sopralinea</emph>.</note> de <placeName ref="#Tivegna"
+            >Tivegnia</placeName></persName>, iuratus, testatur. De omnibus predictis respondit et
+          dixit quod audivit et vidit quod consules de <placeName ref="#Tivegna"
+            >Tivegnia</placeName> qui <note place="foot" n="d" xml:id="CCCCLXXIII_n_004"><term>quod
+              consules-qui</term>: <emph>così nel testo</emph>.</note> preceperunt hominibus de
+            <placeName ref="#Tivegna">Tivegnia</placeName> ex parte iamscripti domini episcopi ut
+          obedirent <persName ref="#Aldeprandusvic2">Aldeprando</persName>
+          <roleName>vicedomino</roleName> pro iamscripto domino Lunensi episcopo et vice et nomine
+          ipsius episcopi, et dicit quod publica fama est in <placeName ref="#Tivegna"
+            >Tivegnia</placeName> quod <persName ref="#Aldeprandusvic2">Aldeprandus</persName>
+          <roleName>vicedominus</roleName> iamscriptus quod <note place="foot" n="e"
+            xml:id="CCCCLXXIII_n_005"><term>quod Aldeprandus-quod</term>: <emph>così nel
+              testo</emph>.</note> dictum castrum et turrem habet in custodia et custodit pro
+          iamscripto domino episcopo.</p>
+        <p xml:id="CCCCLXXIII_p_007" n="7">
+          <persName ref="#IacobusSala">Iacobus de <placeName ref="#Sala"
+          >Sala</placeName></persName>, iuratus, testatur. Interrogatus diligenter de omnibus
+          iamscriptis capitulis, respondit et dixit per omnia et in omnibus ut supra dixit
+          iamscriptus <persName ref="#HenricusAldeprandi">Henricus</persName>.</p>
+        <p xml:id="CCCCLXXIII_p_008" n="8"> Recitata et publicata sunt hec dicta iamscriptorum
+          datorum testium in <placeName ref="#Sarzanello">castro Sarzane</placeName>, ante portam
+          domignoni ipsius castri, sollempniter. <date when="1222-02-08">Anno a nativitate Dei
+            M°CCXXII, indictione X, die martis, VIII kalendas februarii</date>. Presentes fuerunt ad
+          hanc dictam publicationem iamscriptorum testium, rogati et vocati,
+            <roleName>presbyter</roleName>
+          <persName ref="#Bonaiunctaarc">Bonaiuncta</persName>
+          <roleName>Lunensis archipresbyter</roleName>, <persName ref="#RogerinusSarzana">Rogerinus
+            de <placeName ref="#Sarzana">Sarzana</placeName></persName>, <persName
+            ref="#Confortusnot">Confortus</persName>
+          <roleName>notarius</roleName>, <persName ref="#ParentinusBalzano">Parentinus de <placeName
+              ref="#Balzano">Balzano</placeName></persName>, <persName ref="#AlbertusPassarini"
+            >Albertus quondam Passarini</persName>, <persName ref="#CaputorgolliusBiancheti"
+            >Caputorgollius quondam Biancheti</persName> et alii multi rogati testes.</p>
+      </div>
+      <div>
+        <p xml:id="CCCCLXXIII_p_009" n="9">
+          <ptr target="#CCCCLXXIII_st_001"/> Ego <persName ref="#Prefectusnot">Prefectus</persName>,
+            <roleName>domini imperatoris et Lunensis curie notarius</roleName>, omnes iamscriptos
+          testes de precepto iamscripti <persName ref="#Iacopinusiud">Iacopini</persName>,
+            <roleName>iamdicte Lunensis curie iudicis</roleName>, recepi et publicavi et in publico
+          instrumento redegi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXXXVII_259">
+    <front xml:id="CCLXXXXVII_front">
+
+      <titlePart type="numerazioneNuova">259</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXXXVII</titlePart>
+
+      <docDate xml:id="CCLXXXXVII_docDate">
+        <date when="0998-03-30">998 marzo 30</date>, <placeName>Carrara (<term xml:lang="latin">in
+            curte Cararia</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXXXVII_regesto">
+        <p>Permuta di beni tra Gotifredo, vescovo di Luni, e il prete Bonizo, figlio del fu Martino,
+          di legge longobarda. Il vescovo cede una terra posta <term xml:lang="latin">in loco et
+            fundo</term> detto monte Volpiglione della misura di 6 iugeri e riceve tre mansi e due
+          pezzi di terra arabile: il primo manso, della misura di 2 iugeri e tre 3 pertiche, si
+          trova a <term xml:lang="latin">Vulporio</term>; il secondo manso, di 20 pertiche, è sempre
+          a <term xml:lang="latin">Vulporio</term> e in <term xml:lang="latin">Sclogneto
+            Veclo</term>; il terzo manso, di 2 iugeri e 9 pertiche, è posto a <term xml:lang="latin"
+            >Canapariolo</term>, <term xml:lang="latin">Rosiano</term>, <term xml:lang="latin">Campo
+            Honeste</term>, <term xml:lang="latin">Alione</term> e <term xml:lang="latin"
+            >Quarrapane</term>; le terre arabili sono appena fuori le mura della città di Luni e
+          misurano complessivamente 11 pertiche.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXXXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia sottoscritta [C] CP cc. 280v.-281v., cc. CCLXXIIv.-CCLXXIIIv. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 297,
+            pp. 271-272, con la data 997.</p>
+          <p>Bibliografia: <ref target="#POLONIO_2002">POLONIO 2002</ref>, pp. 183-184</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il secondo anno dell’impero di Ottone III corrisponde al 998, come già segnalato da
+              <ref type="biblio" target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 20. Nell’escatocollo
+            il notaio Bonabrocca, attivo dal novembre 1120 (Archivio di Stato di Lucca,
+              <emph>Diplomatico S. Frediano</emph>) al gennaio 1160 (n. 479-DXVI), ha sottoscritto
+            il testo originale secondo una procedura di validazione in uso sino al XII secolo. Il
+            documento è alquanto scorretto, si è ritenuto quindi di non segnalare in nota i ripetuti
+            errori.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCLXXXXVII. De Vulpilio.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXXXVII_div">
+        <p xml:id="CCLXXXXVII_p_001" n="1"><ptr target="#CCLXXXXVII_st_001"/> In nomine Dominia<note
+            xml:id="CCLXXXXVII_n_001" n="a" place="foot"><term xml:lang="latin">Domini</term>:
+              <emph>corretto su precedente scrittura</emph>.</note> Dei et Salvatoris nostri Ihesu
+          Christi. <date when="0998-03-30"><persName ref="#Otto_imperator">Tercius Otto,
+                <roleName>gratia Dei imperator augustus</roleName>
+            </persName> anno imperii eius Deo propitio<note xml:id="CCLXXXXVII_n_002" n="b"
+              place="foot"><term type="incerto">Deo propitio</term>: <emph>lettura dubbia, ma
+                confermata dai doc. nn. 189-CCXVIIII e 194-CCXXIIII</emph>.</note> secundo, tertio
+            kalendas aprilis, indictione XIa</date>. Commutacio bone fidei noscitur esse contractum,
+          ut vicem emptionis obtineat firmitatem eodemque nexum obligant contrahentes. Placuit
+          itaque bona convenit voluntatem inter dominus <persName ref="#GotefredEpLuni">Gotefredus,
+              <roleName>episcopus</roleName> sancte Lunensis ecclesie</persName>, necnon et
+            <persName ref="#BonizoMartini">Bonizo, <roleName>presbyter</roleName> de ordine ipsius
+            ecclesie et filius quondam Martini</persName>, qui professus est ex natione sua legem
+          vivere Langobardorum, ut in Dei nomine debeant dare, sicut et a presenti dederunt ac
+          tradiderunt, vicissim sibi unus alteri commutationis nomine. In primis dedit ipse domnus
+            <persName ref="#GotefredEpLuni">Gotefredus</persName>, <pb n="281r" xml:id="fol_281r"/>
+          episcopus ipsius episcopii, eidem <persName ref="#BonizoMartini">Bonizoni
+              <roleName>presbytero</roleName></persName> in commutationis nomine, id est una petia
+          de terra, cum in parte monte et frascario iuris ipsius episcopii, quibus esse videtur in
+          loco et fundo ubi monte <placeName ref="#Volpilione">Volpilione</placeName> dicitur, et
+          est per mensura iusta iuges legitimas sex, coherent ei de dues partes <placeName
+            ref="#Corfeciano">terra Corficianese</placeName>, da tercia parte de <placeName
+            ref="#Casapoci">casa Poici</placeName>, da quarta parte fine terra <placeName
+            ref="#Avenza">Avenzese</placeName> sibeque alii sunt coherentes, infra iste coherencie
+          predicta mensura in integrum. Quidem et ad vicem recepit ipse domnus <persName
+            ref="#GotefredEpLuni">Gotefredus <roleName>episcopus</roleName></persName>, a parte
+          predicti episcopii, ab eodem <persName ref="#BonizoMartini">Bonizo
+              <roleName>presbytero</roleName></persName>, commutationis nomine, meliorata et
+          ampliata, res, sicut lex habet, id sunt mansos tres et peties dues de terra arabile iuris
+          ipsius <persName ref="#BonizoMartini">Bonizoni <roleName>presbyteri</roleName></persName>,
+          quibus sunt positis duos mansos in loco ubi dicitur <placeName ref="#Vulporio"
+            >Vulporio</placeName>, tercio in loco ubi dicitur <placeName ref="#Canapariolo"
+            >Canapariolo</placeName>, et ipse ambes peties de terra una infra civitatem <placeName
+            ref="#Luni">Lune</placeName>, alia foris prope muro civitatis in subto <placeName
+            ref="#Sancto_Petro">Sancto Petro</placeName>. Iamdictis ambos mansos in predicto loco
+            <placeName ref="#Vulporio">W<supplied reason="omitted">u</supplied>lporio</placeName>
+          regitur per <persName ref="#Stanciusmas">Stancio <roleName>masario</roleName></persName>
+          et est per mensura iusta, insuper totis iuges due et perticas legitimas iugealis tres;
+          secundo manso ibi prope quod regitur per <persName ref="#Maorusmas">Maoro
+              <roleName>masario</roleName></persName> in ipso loco <placeName ref="#Vulporio"
+              >W<supplied reason="omitted">u</supplied>lporio</placeName> et in <placeName
+            ref="#Sclogneto_Veclo">Sclogneto Veclo</placeName> est per mensura iusta, insuper totis
+          perticas legitimas iugealis viginti. Tercio manso est in iamscripto loco <placeName
+            ref="#Canapariolo">Canapariolo</placeName> et in <placeName ref="#Rosiano"
+            >Rosiano</placeName>, in <placeName ref="#Campo_Honeste">Campo Honeste</placeName>, in
+            <placeName ref="#Alione">Alione</placeName> et in <placeName ref="#Quarrapane"
+            >Quarrapane</placeName>, sicut est recta per <persName ref="#AndreaCalvo">Andrea
+            Calvo</persName>, et est per mensura iuges due et perticas legitimas iugealis novem.
+          Prelibate petia de terra arabile in iam denominata civitate et foris est ambas insimul per
+          mensura iusta perticas legitimas iugealis XI, et si amplius de iure rebus ipsius <persName
+            ref="#BonizoMartini">Bonizoni <roleName>presbyteri</roleName></persName> in
+          predenominatas locas ad ipsos mansos pertinentes inventis fuerint, quam ut supra mensuras
+          legitur, per hanc cartam commutationis in iure ipsius episcopii sint potestatem
+          proprietario iuri hiis de atque rebus superius nominatis vel commutatis, una cum
+          accessionibus et ingressoras seu superioribus et inferioribus earum rerum, qualiter
+          superius legitur. Et inter se commutaverunt pars parti per has paginas, commutationis
+          nomine, reddiderunt, facientes exinde unus quisdem eos receperunt tam ipsi quamque et
+          successores vel heredes eorum legaliter a presenti die proprietario nomine, quod voluerit
+          aut previderint, sine omni nostra et alterius contradictione. Et sponderunt ipsi
+          commutatores, tam se ipsi quamque et successores vel heredes eorum, iamscriptis rebus,
+          quas ab invicem commutationis nomine dederunt, pars parti omni tempore ab omni homine
+          deffensare. Quidem et ut ordo legis deposcit et ad hanc previdendum commutatione
+          accesserunt super ipsis rebus ad previdendum, id sunt <persName ref="#Rainarduspres"
+            >Rainardus <roleName>presbyter</roleName></persName> et <persName ref="#Iohannesprep"
+            >Iohannes <roleName>prepositus</roleName></persName> seu <persName ref="#Iohannescus"
+            >Iohannes, <roleName>custos</roleName></persName> ips<supplied reason="omitted"
+            >i</supplied>us episcopii, missos eidem domni <persName ref="#GotefredEpLuni">Gotefredi
+              <roleName>episcopi</roleName></persName> ab eo directis una simul cum bonos homines
+            <roleName>extimatores</roleName> qui ipsas res extimarent, id sunt <persName
+            ref="#IngoOtberti">Ingo, filius Otberti</persName>, et <persName
+            ref="#CunimundusBenzoni">Cunimundo, filius quondam Benzoni</persName>, seu <persName
+            ref="#SelveradusEnzoni">Selveradi, filius quondam Enzoni</persName>, quibus omnibus
+          estimantibus comparuit eorum, et estimaverunt quod meliorata res susciperet ipse domnus
+            <persName ref="#GotefredEpLuni">Gotefredus <roleName>episcopus</roleName></persName> a
+          parte iamdicti episcopii ab eodem <persName ref="#BonizoMartini">Bonizo
+              <roleName>presbytero</roleName></persName>, quam daret et legibus commutacio hec fieri
+          posset, de quibus et pena inter se posuerunt ut quis ex ipsis aut successores vel heredes
+          eorum se de hac commutatione removere quesierint et non permanserint in ea, qualiter
+          superius legitur, vel si ab unum quemquem hominem, quis eos supra commutacionis nomine
+          dederunt in integrum, ab invicem non deffensaverint, componant pars parti fidem servandi
+          pena duplas ipsis casis et rebus, sicut pro tempore fuerint melioratis aut valuerint, sub
+          extimatione in consimilibus locis et pro honore ipsius <persName ref="#BonizoMartini"
+            >Bonizoni <roleName>presbyteri</roleName></persName>, et nec eis liceat ullo tempore
+          nolle quod voluit, set quod ab eis semel factum vel conscriptum est, sub iusiurando
+          inviolabiliter conservare promisit, cum stipulatione subnixa, unde due cartule
+          commutationis uno tenore scripte sunt.</p>
+        <p xml:id="CCLXXXXVII_p_002" n="2">Actum in curte <placeName ref="#Carrara"
+            >Cararia</placeName>, feliciter.</p>
+        <p xml:id="CCLXXXXVII_p_003" n="3"># # # <persName ref="#GotefredEpLuni">Gotefredus
+              <roleName>episcopus</roleName></persName> in hac commutationis pagina a me facta
+            subscripsi.<pb n="281v" xml:id="fol_281v"/></p>
+        <p xml:id="CCLXXXXVII_p_004" n="4"><persName ref="#Rainarduspres">Rainardus, sancte Lunensis
+            ecclesie <roleName>presbyter</roleName></persName>, missus fui ut supra. Ego <persName
+            ref="#Iohannesprep">Iohannes</persName> et <roleName>p(re)p(ositus)</roleName>
+          <roleName>missus</roleName> fui ut<note xml:id="CCLXXXXVII_n_003" n="c" place="foot"><term
+              xml:lang="latin">ut</term>: <emph>corretto su precedente scrittura</emph>.</note>
+            supra.<c>†</c> Ego <persName ref="#IngoOtberti">Ingo</persName> super ipsis rebus
+          accessi et estimavi.<c>†</c> Ego <persName ref="#CunimundusBenzoni">Conimundo</persName>
+          super ipsis rebus accessi et estimavi ut supra. Signum manibus <persName ref="#Sigezo"
+            >Sigezoni</persName> et <persName ref="#Giso">Gisoni</persName>, lege viventes
+          Langobardorum, testes. Signa # # # manibus <persName ref="#BonizoEldeberti">Bonizoni,
+            filius quondam Eldeberti</persName>, et <persName ref="#VenenusMartini">Veneni, filius
+            quondam Martini</persName>, seu <persName ref="#PetrusPetri">Petri, filius quondam item
+            Petri</persName>, omnes lege viventes Romana, testes.</p>
+        <p xml:id="CCLXXXXVII_p_005" n="5"><ptr target="#CCLXXXXVII_st_002"/> Ego <persName
+            ref="#Berardusnot">Berardus, <roleName>notarius</roleName> et <roleName>iudex sacri
+              palacii</roleName></persName>, scriptor ullus cartule commutacionis, post tradite
+          complevi et dedi.</p>
+        <p xml:id="CCLXXXXVII_p_006" n="6"><ptr target="#CCLXXXXVII_st_003"/> Ego <persName
+            ref="#Bonabrocanot">Bonabrocha, <roleName>notarius sacri palacii</roleName></persName>,
+          hoc exemplar subscripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

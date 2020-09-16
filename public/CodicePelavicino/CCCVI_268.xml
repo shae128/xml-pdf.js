@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCVI_268">
+    <front xml:id="CCCVI_front">
+
+      <titlePart type="numerazioneNuova">268</titlePart>
+      <titlePart type="numerazioneOrig">CCCVI</titlePart>
+
+      <docDate xml:id="CCCVI_docDate">
+        <date when="1235-12-21">1235 dicembre 21</date>, <placeName>Ameglia (<term xml:lang="latin"
+            >in curia Amelie</term>)</placeName>. </docDate>
+
+      <div type="regesto" xml:id="CCCVI_regesto">
+        <p>Guglielmo, vescovo, di Luni, loca <term xml:lang="latin">ad homagium</term> a Ubaldino di
+          Nicola, che riceve per suo figlio Citello, un podere un tempo di Bono <term
+            xml:lang="latin">de Montexello</term> e ora tenuto da Bonissima di Capagnana. Citello lo
+          riceve in dote in quanto futuro sposo di Vesina, appartenente alla curia di Luni, figlia
+          della suddetta Bonissima. La concessione costa 20 soldi imperiali. Il visdomino Aldeprando
+          approva.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 285v., c. CCLXXVIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 306,
+            p. 286.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note><p>Stesura <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla presenza di
+              Bonagiunta de Podio di Lucca.</p></note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCVI.
+              Locationis poderis Ubaldini de Nichola per homagium.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCVI_div">
+        <pb n="285v" xml:id="fol_285v"/>
+        <p xml:id="CCCVI_p_001" n="1">In Dei nomine, amen. <date when="1235-12-21">Anno a nativitate
+            Eius millesimo CCXXXV, indictione VIII, die veneris, XII kalendas ianuarii</date>. In
+          curia <placeName ref="#Ameglia">Amelie</placeName>, coram <persName ref="#VillanusAlioti"
+            >Villano quondam Alioti<note place="foot" n="a" xml:id="CCCVI_n_001"><term
+                xml:lang="latin">quondam Alioti</term>: <emph>nel testo</emph>
+              <term xml:lang="latin">Alioti quondam</term>
+              <emph>con segno di richiamo per invertire l’ordine delle parole</emph>.</note>
+            Lucano</persName>, <persName ref="#ArmanninusTrebiano">Armannino de <placeName
+              ref="#Trebiano">Trebiano</placeName></persName>, <persName ref="#BurgensisNicola"
+            >Burgense de Nichola</persName> et pluribus aliis testibus rogatis. Venerabilis
+          Guilielmus, Dei gratia Lunensis episcopus, suo nomine et episcopatus, per se et suos
+          successores dedit, cessit et locavit ad homagium <persName ref="#UbaldinusNicola">Ubaldino
+            de <placeName ref="#Nicola">Nichola</placeName></persName>, recipienti pro filio suo
+            <persName ref="#CitellusUbaldini">Citello</persName>, qui est futurus sponsus et vir
+          debet esse <persName ref="#VesinaBonissime">Vesine</persName>, femine Lunensis curie,
+          filie <persName ref="#BonissimaCapagnana">Bonissime de <placeName ref="#Capagnana"
+              >Capagnana</placeName></persName>, et heredibus ab eis simul et pariter
+          descendentibus, in perpetuum, nomine dotis, totum podere, tenutam et possessionem quod et
+          que olim fuit <persName ref="#BonusMontexello">Boni de <placeName ref="#Montexello"
+              >Montexello</placeName></persName> seu ipse <persName ref="#BonusMontexello"
+            >Bonus</persName> habuit et tenuit et visus habere fuit et tenere olim tenitor seu
+          detentor ipsius poderis et nunc etiam habet et tenet ipsa <persName
+            ref="#BonissimaCapagnana">Bonissima</persName> aut alia pro ea persona, quicquid sit et
+          quantumcumque et ubicumque et quocumque decurrit, agrum et cultum, plenum et vacuum,
+          ubicumque reperiri possit, cum accessibus et regressibus omnique iure conctaque utilitate
+          eis competentibus et competituris, promittens legitimam deffensionem et sumptus omnes
+          reficere, si deffendere non posset, et potestatem inde tenutam intrandi ei dedit,
+          constituendo se pro eo interim possidere, reddendo, prestando et faciendo Lunensi curie
+          omnes illos redditus, condictiones, factiones et usantias que et quas facere fieri,
+          prestari et reddi exinde consuevit; et sic eum de predictis investivit et fuit confessus
+          se <measure unit="solidus" quantity="20" type="Imperiales">XX soldorum
+            imperialium</measure> servicium recepisse, renunciando exceptioni non numerate pecunie.
+          Insuper <roleName>nobilis</roleName>
+          <persName ref="#Aldeprandusvic2">Aldeprandus <roleName>vicedominus</roleName></persName>
+          suum super hiis prebuit assensum.</p>
+      </div>
+      <div xml:id="CCCVI_div2" type="mundum">
+        <p xml:id="CCCVI_p_002" n="2"><ptr target="#CCCVI_st_001"/> Ego <persName ref="#Henricusnot"
+            >Henricus de <placeName ref="#Sarzanello">castro Sarzane</placeName>, <roleName>sacri
+              palacii notarius</roleName></persName>, hanc cartam olim a <persName
+            ref="#Bonencontrusnot">Bonencontro de <placeName ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et autenticavi et
+          in publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+          domino <persName ref="#Bonaiunctaiud">Bonaiuncta de <placeName ref="#PodioLucca">Podio de
+            Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+              ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre domino Lunensi
+          episcopo et   <orgName ref="#Lucca_comune"><placeName ref="#Lucca">Lucano</placeName> communi</orgName>, de qua auctoritate et
+          decreto constat per instrumentum publicum factum manu <persName ref="#Alcheriusnot"
+            >Alcherii <roleName>notarii</roleName> de <placeName ref="#Lucca"
+            >Luca</placeName></persName><note>Stesura <emph>in mundum</emph> del documento n.
+            268-CCCVI databile tra il 1270 e il 1272 dalla presenza di Bonagiunta de Podio di Lucca
+              <date notBefore="1270-01-01" notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

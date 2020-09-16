@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXXVI_338">
+    <front xml:id="CCCLXXVI_front">
+
+      <titlePart type="numerazioneNuova">338</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXXVI</titlePart>
+
+      <docDate xml:id="CCCLXXVI_docDate">
+        <date when="1189-11-11">1189 novembre 11</date>, presso <placeName>Sarzana (<emph>in
+            Carcandula, apud burgum Sarzana</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXXVI_regesto">
+        <p>Manzetto, gastaldo del vescovo Pietro nella corte di Ameglia, loca a Erbello del fu
+          Trebianello de la Cala una giova di bosco presso <term xml:lang="latin">Portesone</term>,
+          al colle di Barbazzano. Il fitto annuo è di un denaro.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 315v., c. CCCVIIv. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 376,
+            pp. 357-358. <ref target="#MAZZINI_1914">Mazzini 1914</ref>, p. 25 rileva che
+            l’indizione dell’anno 1189 non sarebbe stata la ottava ma la settima; in realtà la
+            datazione appare corretta secondo lo stile fiorentino dell’incarnazione. </p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXXVI. De quarto usufructi et imperialium I de una petia terre locata Herbello de
+              Lacala.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXXVI_div">
+        <p xml:id="CCCLXXVI_p_001" n="1">In eterni Dei nomine, amen. Notum sit tam presentibus quam
+          futuris quod <persName ref="#Mançetuscast">Mangettus<note xml:id="CCCLXXVI_n_001" n="a"
+              place="foot"><term xml:lang="latin">Mangettus</term>: <term xml:lang="latin"
+                >ettus</term>
+              <emph>corretto su precedente scrittura.</emph></note>,
+            <roleName>castaldio</roleName></persName> in curte <placeName ref="#Ameglia"
+            >Amelia</placeName> per dominum <persName ref="#PetrusEpLuni">Petrum, <roleName>Dei
+              gratia Lunensem episcopum</roleName></persName>, de ipsius domini mandato dedit et
+          locavit cuidam <persName ref="#HerbellusTrebianelli">Herbello, filio quondam
+            Trebianelli</persName> de <placeName ref="#Cala">la Cala</placeName>, id est unam <term
+            ref="#iuva">iuvam</term> buschi in partibus <placeName ref="#Portesone"
+            >Portesoni</placeName>, ad collem de <placeName ref="#Barbazzano">Barbazano</placeName>,
+          ut a presenti die in antea, in perpetuum, ipse <persName ref="#HerbellusTrebianelli"
+            >Herbellus</persName> suique heredes exinde reddant curie episcopii annuatim, infra
+          octavam nativitatis Domini, quartum de usufructu, sine fraude, et <measure unit="denarius"
+            quantity="1">I denarium</measure> pensionis annuatim. Huic autem terre coheret undique
+          terra episcopii et, sicut superius legitur, sic observandum ab utraque parte sub pena
+            <measure type="imperiales" unit="solidus" quantity="20">XX soldorum
+            imperialium</measure>, ut quecumque pars irrumperit quod superius legitur alteri parti
+          persolvat <measure unit="solidus" quantity="20">XX soldos</measure> et iterum firmiter
+          observetur quod superius legitur. Et ipse <persName ref="#HerbellusTrebianelli"
+            >Herbellus</persName> suique heredes ipsam terram debent colere, bonificare et laborare
+          et quartum reddere predicte curie et <measure unit="denarius" quantity="1">I
+            denarium</measure> annuatim, ut superius dictum est. </p>
+        <p xml:id="CCCLXXVI_p_002" n="2">Actum est <date when="1189-11-11">anno millesimo C
+            octogesimo nono, indictione VIII</date>, in <placeName ref="#Carcandola"
+            >Carcandula</placeName>, apud burgum <placeName ref="#Sarzana">Sarzana<note
+              xml:id="CCCLXXVI_n_002" n="b" place="foot"><term xml:lang="latin">Sarzana</term>:
+                <emph>così nel testo.</emph></note></placeName>, <date when="1189-11-11">die
+            sabbati, qui fuit XI intrante mense novembre</date>. # Signa manuum iamscripti <persName
+            ref="#Mançetuscast">Mangneti <roleName>castaldionis</roleName></persName>, locatoris, et
+          iamscripti <persName ref="#HerbellusTrebianelli">Herbelli</persName>, petitoris, qui hoc
+          scriptum fieri rogaverunt. # # Signa <persName ref="#RollandinusPortesone">Rollandini de
+              <placeName ref="#Portesone">Portesone</placeName></persName>, <persName
+            ref="#GuilielmusLamura">Guilielmi de <placeName ref="#Lamura"
+            >Lamura</placeName></persName>, <persName ref="#BernardusCala">Bernardi de <placeName
+              ref="#Cala">la Cala</placeName></persName>, <persName ref="#CuntolinusVerazano"
+            >Cuntolini de <placeName ref="#Verazano">Verazano</placeName></persName>, rogatorum
+          testium. </p>
+        <p xml:id="CCCLXXVI_p_003" n="3"><ptr target="#CCCLXXVI_st_001"/> Ego <persName
+            ref="#Lombardusnot">Lombardus, <roleName>domini imperatoris et Lunensis curie
+              notarius</roleName></persName>, interfui et rogatus hoc scriptum feci. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

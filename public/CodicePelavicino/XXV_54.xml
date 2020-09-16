@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="XXV_54">
+        <front xml:id="XXV_front">
+            <titlePart type="numerazioneNuova">54</titlePart>
+            <titlePart type="numerazioneOrig">XXV</titlePart>
+            <docDate xml:id="XXV_docDate">
+                <date when="1199-06-29">1199 giugno 29</date>, <placeName ref="#Orto_Pasculo">in
+                    Orto Pasculo(<term xml:lang="latin">in Orto Pasculo, in area
+                    archidiaconi</term>).</placeName>
+            </docDate>
+            <div type="regesto" xml:id="XXV_regesto">
+                <p> Corto di Carnea, Campo, Barletta, Bonaccorso, Ortolano, Vitale del fu Alegretto,
+                    Martinello, Bresiano giurano in presenza del vescovo di Luni Gualtiero di
+                    descrivere la saltaria della curia vescovile nel distretto di Sarzana
+                    indicandone i confini. </p>
+            </div>
+            <div type="footer" xml:id="XXV_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] cc. 74v.-75v., cc. LXVIv.-LXVIIv. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 25, pp. 38-39. </p>
+                </div>
+                <div type="crit_notes">
+                    <note> Una mano cinquecentesca ha ripassato parti del documento, forse all’epoca
+                        già sbiadite. Nel margine esterno di c. 74v., di mano moderna: <emph>Nota
+                            bene. Inventarium iurium <supplied reason="omitted">et</supplied>
+                            bonorum episcopatus</emph>emph>. Poco più in basso, di altra mano
+                        moderna, sono riportati i seguenti termini: <term xml:lang="latin">Cafazo,
+                            Cursum, flumen, Bradia, Falcinelum, Riolo, Cursi de codevia</term>
+                        <p>Nel margine esterno di c. 75r., sempre di mano moderna: <term
+                                xml:lang="latin">Cesaro</term></p>
+                        <p>Nel margine esterno di c. 75v., della medesima mano moderna: <term
+                                xml:lang="latin">Pontem Tabularum, foveam de Ciliano,
+                            Flumen</term></p>
+                    </note>
+                    <note> La redazione del <term xml:lang="latin">mundum</term> è ad opera del
+                        notaio Prefetto è databile dal 1199 al 1212. </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">XXV. Carta saltarie.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="XXV_div">
+                <pb n="74v" xml:id="fol_074v"/>
+                <p xml:id="XXV_p_001" n="1"> In Christi nomine, amen. <date when="1199-06-29">Anno a
+                        nativitate Eius millesimo centesimo nonagesimo VIIII, indictione secunda,
+                        die martis, III kalendas iulii</date>. <persName ref="#CurtisCarnea">Curtus
+                        de <placeName ref="#Carnea">Carnea</placeName></persName>, <persName
+                        ref="#Campus">Campus</persName>, <persName ref="#Barletta"
+                        >Barletta</persName>, <persName ref="#Bonacursus">Bonaccursus</persName>,
+                        <persName ref="#Ortulanus">Ortulanus</persName>, <persName
+                        ref="#VitalisAlegretti">Vitalis quondam Alegretti</persName>, <persName
+                        ref="#Martinellus">Martinellus</persName>, <persName ref="#Bressanus"
+                        >Bresianus</persName>, iuraverunt ad sancta Dei evangelia, in presentia
+                        <roleName>domini</roleName>
+                    <persName ref="#GalcheriusEpLuni">Gualterii</persName>, <roleName>Dei gratia
+                        Lunensis episcopi</roleName>, et aliorum virorum, quorum nomina inferius
+                    leguntur, ostendere saltariam curie domini episcopi, que recolligi debet in tota
+                    curia et districtu <placeName ref="#Sarzana">Sarzani<note place="foot" n="a"
+                            xml:id="XXV_n_001">Sarzani: <emph>così nel
+                        testo.</emph></note></placeName>, et confines predicte saltarie, prout in
+                    hac carta denotatur. Hec sunt confines saltarie domini episcopi, videlicet: a
+                    terra <persName ref="#Bandus">Bandi</persName>, que est a pede cafazi domini
+                    episcopi, versus viniale <orgName ref="#Sarzana_S_Andrea">sancti
+                        Andree</orgName> usque ad cursum de <placeName ref="#Castagneto"
+                        >Castagneto</placeName>; a capite cursi per viam iuxta caput
+                            <expan>cafaziu<ex>m</ex></expan>
+                    <orgName ref="#Sarzana_S_Andrea">sancti Andree</orgName> usque ad terram
+                        <persName ref="#ZunctaBaldinelli">Zuncte quondam Baldinelli</persName>, et
+                    ipsa terra <persName ref="#ZunctaBaldinelli">Zuncte</persName> est in saltaria;
+                    item a pede bradia episcopi in visum versus flumen usque ad pedem terre filiorum
+                        <persName ref="#Amatus">Amati</persName>, comprehendendo ipsam terram in
+                    saltaria; a pede vero terra filiorum <persName ref="#Amatus">Amati</persName>
+                    recte, recolligendo insursum, usque ad capud vinialis quondam <persName
+                        ref="#BaldinellusAsceto">Baldinelli de <placeName ref="#Ascletulo"
+                            >Asceto</placeName></persName>; a capite vero ipsius vinialis versus
+                        <placeName ref="#Falcinello">Falcinelum</placeName> usque ad puteum de
+                        <placeName ref="#Riolo">Riolo</placeName>; ab ipso vero puteo iuxta arzena
+                        <persName ref="#AcsolinusVisirolo">Acsolini de <placeName ref="#Visirolo"
+                            >Visirolo</placeName></persName> usque ad caput cursi de <placeName
+                        ref="#Codevia">Codevia</placeName>; a capite cursi, recto tramite, usque ad
+                    scognam de <persName ref="#Guerisellus">Guerisello</persName>, ab ipsa scogna
+                    recte eundo, comprehendendo vineas <persName ref="#Capagrolus"
+                        >Capagroli</persName> usque ad viam publicam, que est in capite ipsius
+                    vinealis, eundo per ipsam viam usque ad bradiam domini episcopi, revertendo a
+                    latere ipsius bradie usque ad infrascriptum pedem bradie; et omnes terre, que
+                    infra dictas confines sunt de saltaria Lunensis episcopi, sunt prata. Omnes
+                    terre, que sunt infra subscriptas confines et terminos, sunt de eadem saltaria.
+                    Hec vero sunt confines, scilicet: a rio de <placeName ref="#Pisciola"
+                        >Pisciola</placeName> veniendo usque ad foveam antiquam de <placeName
+                        ref="#Bovetulo">Bovetolo</placeName> et per ipsam antiquam fossam veniendo
+                    usque ad antiquam fossam de <placeName ref="#Radetta">Radetta</placeName>,
+                    semper; item ab ipsa fossa, tenendo semper per ipsam fossam antiquam, usque ad
+                        silicem<note place="foot" n="b" xml:id="XXV_n_002">silicem: <emph>così nel
+                            testo</emph> per salicem.</note> de <placeName ref="#Radeto"
+                        >Radeto</placeName>; ab ipso vero salice de <placeName ref="#Radeto"
+                        >Radeto</placeName>, veniendo semper per eandem fossam, usque ad terram
+                    filiorum quondam <persName ref="#PreteArcula">Preti de <placeName ref="#Arcola"
+                            >Arcula</placeName></persName>, que terra melia<note place="foot" n="c"
+                        xml:id="XXV_n_003">melia: <emph>così nel testo forse per</emph> media – col
+                        significato si stare in mezzo - <emph>oppure da intedersi</emph> melia
+                            <emph>nell’ipotetico significato di terra intrisa di acqua
+                            salmastra</emph> (<ref type="biblio" target="#VOCABOLARIO_1834">
+                            VOCABOLARIO 1834</ref>, p. 312).</note> est de hac saltaria; ab ipsa
+                    vero terra, per eandem fossam antiquam de <placeName ref="#Radeto"
+                        >Radeto</placeName> veniendo, usque ad terram <persName
+                        ref="#TancredusArcula">Tancredi de <placeName ref="#Arcola"
+                            >Arcula</placeName></persName> per medium ipsam terram veniendo sicut
+                    eadem fossa solita erat venire, comprehendendo terram <persName
+                        ref="#FormentinusCortiola">Formentini de <placeName ref="#Cortiola"
+                            >Cortiola</placeName></persName> usque ad flumen; a flumine sicut
+                    decurrit versus <placeName ref="#Ameglia">Amelliam</placeName> usque ad terram
+                    inferiorem <roleName>Sancti Basilii in <placeName ref="#Fontanetuo"
+                            >Fontanetulo</placeName></roleName>; ab ipsa terra comprehendendo usque
+                    ad terram <persName ref="#Aliottus">Aliotti</persName>; ab ipsa terra <persName
+                        ref="#Aliottus">Aliotti</persName> insursum recto tramite <pb n="75r"
+                        xml:id="fol_075r"/> usque ad terram <persName ref="#Capusius"
+                        >Capusii</persName> ubi dicitur <placeName ref="#Pergola"
+                        >Pergola</placeName>, ab ipsa vero confine veniendo iuxta vineas de
+                        <placeName ref="#Fontanetulo">Fontanetulo</placeName> usque ad rivum de
+                        <placeName ref="#Centorlo">Centorlo</placeName>, inde ascendendo recte usque
+                    ad viam <placeName ref="#Arculense_via">Arculensem</placeName> antiquam,
+                    comprehendendo inde usque ad vineam <persName ref="#Deotisalvi"
+                        >Detesalve</persName>, que sunt <note place="foot" n="d" xml:id="XXV_n_004"
+                        >sunt: <emph>così nel testo.</emph></note> in <placeName ref="#Galliceto"
+                        >Galisceto</placeName>, eundo ascendendo semper recte iuxta pedem vinee
+                    quondam <persName ref="#Clericus">Clerici</persName>, comprehendendo usque ad
+                    vineas quondam <persName ref="#BonaventuraPorcello">Bonaventure de
+                        Porcello</persName> et eundo sicuti confines ortorum et clausorum illorum de
+                        <orgName ref="#Sarzana_S_Andrea">Sancto Andrea Vetere</orgName> usque ad
+                    stratam in capite <placeName ref="#Bovetulo">Bovetuli</placeName>, a strata
+                    redeundo usque ad caput clausi iamscripti <persName ref="#BaldinellusAsceto"
+                        >Baldinelli de <placeName ref="#Ascletulo">Ascetulo</placeName></persName>.
+                    Item omnes terre que infra has confines sunt de saltaria domini episcopi,
+                    scilicet in rippa fluminis in <placeName ref="#Cesari">Cesaro</placeName>, in
+                    capite terre <persName ref="#MorettusTyvennia">Moretti de <placeName
+                            ref="#Tivegna">Tyvennia</placeName></persName> insursum comprehendendo
+                    terram <persName ref="#Deotisalvi">Detesalve</persName> recte usque ad caput
+                    terre <persName ref="#GalteriusArcula">Gualterii de <placeName ref="#Arcola"
+                            >Arcula</placeName></persName>. A capite ipsius terre dimittendo
+                        terra<supplied reason="omitted">m</supplied>
+                    <persName ref="#BonandusArcola">Bonandonis de <placeName ref="#Arcola"
+                            >Arcula</placeName></persName> usque ad terram iamscripti <persName
+                        ref="#MorettusTyvennia">Moretti</persName> comprehendendo ipsam terram usque
+                    ad terram <persName ref="#Beliarda">Beliarde</persName>, dimittendo ipsam terram
+                        <persName ref="#Beliarda">Beliarde</persName> et comprehendendo terram
+                        <persName ref="#GerardusAlferoli">Gerardi quondam Alferoli</persName> usque
+                    in capite ipsius terre; a capite vero ipsius terre veniendo usque ad viam que
+                    per <placeName ref="#Toleola">Toleolam</placeName> vadit, ab ipsa via,
+                    accipiendo terram quondam <persName ref="#Moroellus">Moroelli</persName> et
+                    terram <persName ref="#Dalfinellus_cocus">Dalfinelli</persName>
+                    <roleName>coci episcopi</roleName>, usque in capite <note place="foot" n="e"
+                        xml:id="XXV_n_005">capite: <emph>così nel testo.</emph></note> in <placeName
+                        ref="#Galliceto">Galisceto</placeName> ipsius terre; a capite vero ipsius
+                    terre recte eundo versus burgum usque ad terram quondam <persName
+                        ref="#Zaffaranus">Zaffarani</persName>, a capite ipsius terre recto tramite
+                    revertendo usque ad viam de <placeName ref="#Toleola">Teola</placeName>, ab ipsa
+                    via recte eundo iuxta pedem vinee <persName ref="#Bottonius_advocatus"
+                        >Bottonii</persName>
+                    <roleName>advocati</roleName> et iuxta pedem vinee <persName
+                        ref="#GerardinusTraversara">Gerardini de <placeName ref="#Traversara"
+                            >Traversaria</placeName></persName>, qui tenet<note place="foot" n="f"
+                        xml:id="XXV_n_006">tenet: <emph>così nel testo per</emph> teneatur.</note>
+                    in <placeName ref="#Galliceto">Galisceto</placeName> a filio quondam <persName
+                        ref="#Passarinus">Passarini</persName>, et iuxta pedem vinee <persName
+                        ref="#SigenaldusClausura">Sigenaldi de <placeName ref="#Clausura"
+                            >Clausura</placeName></persName>, iuxta quam vineam est unum petium
+                    terre ipsius <persName ref="#Sigenaldus">Sigenaldi</persName> que est in
+                    saltaria, comprehendendo terram <persName ref="#Roberbettus"
+                        >Roberbetti</persName> veniendo recte usque ad viam publicam; ab ipsa vero
+                    via veniendo per ipsam viam et comprehendendo terram, quam <persName
+                        ref="#Villanus">Villanus</persName> habet per cambium a <persName
+                        ref="#GerardinusVignola">Gerardino de <placeName ref="#Vignola"
+                            >Vignola</placeName></persName>, usque ad <placeName ref="#Bollesene"
+                        >Bollexenum</placeName> inde vero veniendo recte per <placeName
+                        ref="#Bollesene">Bollexenum</placeName>, comprehendendo terram quam habet
+                        hosp<supplied reason="illeggibile">italis de</supplied><note place="foot"
+                        n="g" xml:id="XXV_n_007"><emph>Segue una parola illeggibile.</emph></note>
+                    et comprehendendo terram quam <persName ref="#Bullione">Bullionus</persName>
+                    habet ab <persName ref="#AlbertusPassarini">Alberto de Passarino</persName>
+                    iuxta has confines usque ad viam in capite prati domini episcopi, a capite prati
+                    recte veniendo et colligendo terram <persName ref="#PreipinusVexano">Preipini de
+                            <placeName ref="#Vezzano">Vexano</placeName></persName> et
+                    comprehendendo terram <persName ref="#Cazius">Cazii</persName>, que est a pede
+                    terre iamscripti <persName ref="#PreipinusVexano">Preipini</persName>, et
+                    transeundo viam a<supplied reason="illeggibile">scenden</supplied>do terram de
+                        <placeName ref="#Panicale">Panicale</placeName>; ab ipsa terra ascendendo
+                    per unum pratum iuxta terram <persName ref="#Hengelensis">Hengelesii</persName>,
+                    videlicet a pede et iuxta pedem terre vicedominorum et <persName
+                        ref="#RiccomannusMazoli">Riccomanni filii Mazoli</persName>, que terra est
+                    in <placeName ref="#Debia">Debia</placeName>, et iuxta pedem <supplied
+                        reason="illeggibile">quondam <persName ref="#Guiçolinus"
+                            >Guicholini</persName></supplied> usque ad stratam; a strata insursum
+                    sicut stat terra illorum qui ferunt ligna ad furnum, insursum sictu stat terra
+                        <persName ref="#Flochus">Flochi</persName> et sicut dividitur <pb n="75v"
+                        xml:id="fol_075v"/>terra <persName ref="#Galimarius">Galimarii</persName>,
+                    comprehendendo terram <persName ref="#PizolinusMonte">Pizolini de <placeName
+                            ref="#Monte">Monte</placeName></persName>, a pede terra filiorum quondam
+                        <persName ref="#Bottaccius">Bottacii</persName>, comprehendendo terram quam
+                        <persName ref="#BernardinusBonello">Bernardinus de Bonello</persName> a
+                        <persName ref="#Cazius">Cazio</persName> tenet, per viam publicam revertendo
+                    usque ad stratam et per stratam veniendo usque ad pontem <placeName
+                        ref="#Tabule">Tabularum</placeName>, ab ipso ponte intrando in foveam
+                    antiquam que vadit per <placeName ref="#Campo_Honeste">Campum
+                        Honnestum</placeName> comprehendendo terram mariscalcorum<note place="foot"
+                        n="h" xml:id="XXV_n_008">mariscalcorum: <emph>non è chiaro se si tratti di
+                            un nome proprio o di un nome comune; nell'incertezza è stato optato per
+                            il nome comune.</emph></note> usque ad foveam de <placeName
+                        ref="#Ciliano">Ciliano</placeName> per ipsam foveam decurrendo usque ad
+                    flumen. Postea vero confessi fuerunt supradicti omnes terras, que infra
+                    predictas confines sunt, esse sub saltaria domini episcopi, preter terram
+                    illorum de <placeName ref="#SerraPon">Serra</placeName> et terram militum, quam
+                    in suo donico laborant, et terram ecclesiarum quam dominus episcopus eis
+                    remisit, et hoc sciunt visu et auditu suorum antiquorum. Actum est hoc in
+                        <placeName ref="#Orto_Pasculo">Orto Pasculo</placeName> in area
+                    archidiaconi, feliciter. In presentia et testimonio <roleName>archidiaconi
+                        magistri</roleName>
+                    <persName ref="#Ubertus_arch">Oberti</persName>, <persName
+                        ref="#Bollione_consul">Bullioni</persName>, <persName
+                        ref="#Bettonius_consul">Bettonii</persName> et <persName
+                        ref="#Bastardus_consul">Bastardi</persName>
+                    <roleName>consulum</roleName>, <persName ref="#Guerinus">Guerini</persName>,
+                        <persName ref="#IunctaLamberti">Iuncte quondam Lamberti</persName>,
+                        <persName ref="#Recordatus">Recordati</persName>, <persName
+                        ref="#Bonencontrus">Bonencontri</persName>, <persName ref="#Burgensis"
+                        >Burgensis</persName>, <persName ref="#Guichardinus">Guizardini</persName>,
+                        <persName ref="#TedescusLucca">Todesci de <placeName ref="#Lucca"
+                            >Lucca</placeName></persName>, <persName ref="#Burgarinus_advocatus"
+                        >Burgarini</persName>
+                    <roleName>advocati</roleName>, <persName ref="#BalzanusCastro">Balzani de
+                            <placeName ref="#Castro">Castro</placeName></persName>, <persName
+                        ref="#Caputorgollius">Caput Orgolii</persName> et <persName
+                        ref="#PongrognosiusHengelense">Pongrognosii de Hengelense<note place="foot"
+                            n="i" xml:id="XXV_n_009">Hengelense: <emph>nel testo</emph> Engelense
+                                <emph>con</emph> h <emph>iniziale aggiunta in
+                            sopralinea.</emph></note></persName>, <persName ref="#GuilielmusIuletta"
+                        >Guilielmi de Iuletta</persName>, <persName ref="#Ubaldus_vicedominus"
+                        >Ubaldi</persName>
+                    <roleName>vicedomini</roleName>, <persName ref="#Corsus">Corsi</persName>,
+                        <persName ref="#Armanninus">Armannini</persName>, <persName ref="#Pegolotus"
+                        >Pegolotti</persName>, <persName ref="#GerardetusRossus">Gerardetti
+                        Rubei</persName>, <persName ref="#GuiliecionusBona">Guiliecioni de
+                        Bona</persName>, <persName ref="#SabbatinusCasalina">Sabbatini de <placeName
+                            ref="#Casalina">Casalina</placeName></persName>, <persName
+                        ref="#MartinellusRafanino">Martinelli de Rafanino</persName>, <persName
+                        ref="#Pascalinus">Pascalini</persName>, <persName ref="#Bonacursuscas"
+                        >Bonaceursi <roleName>castaldionis</roleName></persName>, rogatorum testium.
+                </p>
+            </div>
+            <div xml:id="XXV_div2" type="mundum">
+                <p xml:id="XXV_p_002" n="2">
+                    <ptr target="#XXV_st_001"/>Ego <persName ref="#Prefectusnot"
+                        >Prefectus</persName>, <roleName>domini imperatoris et Lunensis curie
+                        notarius</roleName>, hanc cartulam quondam a <persName ref="#Guilielmusnot5"
+                        >Guilielmino</persName>
+                    <roleName>notario</roleName> rogatam et abreviatam, de suo precepto et
+                        <roleName>domini</roleName>
+                    <persName ref="#GalcheriusEpLuni">Gualterii</persName>, <roleName>Dei gratia
+                        Lunensis ecclesie episcopi</roleName>, visa sceda, bona fide complevi et
+                    scripsi et proprio signo notavi. <note> La redazione del mundum è ad opera del
+                        notaio Prefetto è databile dal <date from="1199-06-29" to="1212-12-31">1199
+                            al 1212</date></note>
+                </p>
+
+
+            </div>
+        </body>
+    </text>
+</TEI>

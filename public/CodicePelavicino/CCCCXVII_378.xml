@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXVII_378">
+    <front xml:id="CCCCXVII_front">
+
+      <titlePart type="numerazioneNuova">378</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXVII</titlePart>
+
+      <docDate xml:id="CCCCXVII_docDate">
+        <date when="1256-06-04">1256 giugno 4</date>, <placeName>Ceparana (<term xml:lang="latin"
+            >Cepparane, ante portam putei</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXVII_regesto">
+        <p>Amerigo del fu Vivasino di Castagnetolo, del distretto di Bolano, cede a Paganino notaio
+          di Santo Stefano, castaldo del vescovo di Luni Guglielmo, una terra nel distretto di
+          Bolano, in Pescara, per la somma di 20 soldi di imperiali. Amerigo, che prima teneva tale
+          terra in feudo dalla curia lunense, la ottiene ora in affitto al censo di una libbra
+          d’olio all’anno.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 332v., c. CCCXXIIIIv. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>n. 417, p.
+            410.</p>
+        </div>
+
+        <div type="crit_notes">
+          <p>
+            <note>L’indizione dovrebbe essere la XIIII e non la XV come già notato da Mazzini 1914,
+              p. 28.</note></p>
+          <p>
+            <note> Parte del documento è stata letta con l’ausilio della luce di Wood.</note></p>
+          <p><note> In calce alla carta, di mano moderna, la seguente annotazione per indicare la
+              fine del fascicolo: <emph>In Dei nomine. Lo optavo</emph></note></p>
+        </div>
+
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCCXVII. Unius libre olei, quod reddit Anmericus Vivasino de
+            Castagnetulo.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXVII_div">
+        <p xml:id="CCCCXVII_p_001" n="1">In nomine Domini, amen. <date when="1256-06-04">Anno a
+            nativitate Eius M°CCLVI, indictione XV, IIII iunii</date>.<persName
+            ref="#AimericusVivasini">Aimericus quondam Vivasini de <placeName ref="#Castagnetulo"
+              >Castagnetulo</placeName></persName>, districtus <placeName ref="#Bolano"
+            >Bolani</placeName>, per se suosque heredes fecit finem et refutationem et pactum de non
+          petendo et datum <persName ref="#Paganinusnot">Paganino <roleName>notario</roleName> de
+              <placeName ref="#Santo_Stefano">Sancto Stephano</placeName></persName>,
+            <roleName>castaldioni venerabilis patris domini</roleName>
+          <persName ref="#GuilEpLuni">Guilielmi</persName>, <roleName>Dei gratia Lunensis
+            episcopi</roleName>, recipienti nomine et vice ipsius domini episcopi et episcopatus, de
+          petia I terre, cum omnibus super se positis et pertinenciis suis, posite in pertinenciis
+            <placeName ref="#Bolano">Bolani</placeName>, in loco dicto <placeName ref="#Pescara"
+            >Pescara</placeName>, cui coheret superius via publica, inferius canale, ab uno latere
+          heredes <persName ref="#ValentinusCastegnetulo">Valentini de <placeName
+              ref="#Castagnetulo">Castagnetulo</placeName></persName>, ab alio <persName
+            ref="#ProdomusCapparana">Prodomus de <placeName ref="#Ceparana"
+            >Cepparana</placeName></persName>, quam terram a Lunensi curia in feudum tenebat. Quam
+          finem et refutationem promisit dictus <persName ref="#AimericusVivasini"
+            >Aimericus</persName> perpetuo firmam habere et tenere et numquam in alio contra facere
+          vel venire de iure vel de facto, et ipsam terram deffendere et expedire ab omni
+          contradicente persona et specialiter de suo dato et facto, sub pena <measure
+            type="imperialium" quantity="20" unit="solidus">XX soldorum imperialium</measure>, quam
+          dare et solvere promisit dicto <persName ref="#Paganinusnot">Paganino</persName>, si
+          contra predicta venerit et quociens fuerit contraventum, confitendo se recepisse ab ipso
+            <persName ref="#Paganinusnot">Paganino</persName>, dante et solvente nomine predicti
+          domini episcopi et episcopatus, <measure type="imperialium" quantity="20" unit="solidus"
+            >soldos XX imperialium</measure>, renunciando exceptioni non numerate pecunie. Ibidem
+          incontinenti predictus <persName ref="#Paganinusnot">Paganinus</persName>, nomine et vice
+          predicti domini episcopi et episcopatus, dedit et locavit ei predictam terram, cum omnibus
+          super se positis et pertinenciis suis, ita ut ipse <persName ref="#AimericusVivasini"
+            >Aimericus</persName> suique heredes predictam terram habeant, teneant et fruantur cum
+          omnibus super se positis et pertinenciis suis, dando et reddendo exinde annuatim curie
+          Lunensi, ubi alii redditus episcopales dantur et consignantur in curia de <placeName
+            ref="#Bolano">Bolano</placeName>, libram I olei boni et puri, ad currentem libram
+          Lunensis curie de <placeName ref="#Sarzana">Sarzana</placeName>, promittendo dictus
+            <persName ref="#Paganinusnot">Paganinus</persName> pro ipso domino episcopo et
+          episcopatu dictam locationem perpetuo firmam habere et tenere et non contravenire de iure
+          vel de facto. Et pro predictis omnibus sic attendendis et observandis obligaverunt se et
+          dictus <persName ref="#Paganinusnot">Paganinus</persName> bona episcopatus et dictus
+            <persName ref="#AimericusVivasini">Aimericus</persName> se suosque heredes et omnia sua
+          bona, ad penam soldorum XX imperialium, quam pars non observans parti fidem servanti
+          solvere teneatur; et, ea soluta, predicta omnia et singula in suo robore perseverent. Et
+          nichillominus de predictis terris teneatur dictus <persName ref="#AimericusVivasini"
+            >Aimericus</persName> Lunensi curie in omnibus respondere, sicut ante presentem
+          contractum facere et respondere tenebatur. </p>
+        <p xml:id="CCCCXVII_p_002" n="2">Actum <placeName ref="#Ceparana">Cepparane</placeName>,
+          apud portam putei, presentibus <roleName>domino</roleName>
+          <persName ref="#Iohannesabbas">Iohanne</persName>, <roleName>abbate</roleName> de
+            <placeName ref="#Ceparana">Cepparana</placeName>, <persName ref="#Ugocane"
+            >Ugo</persName>
+          <roleName>canevario ipsius domini abbatis</roleName>, et <persName ref="#Gibertinusscol"
+            >Gibertino</persName>
+          <roleName>scolare</roleName>, testibus ad hec rogatis.</p>
+
+        <p xml:id="CCCCXVII_p_003" n="3"><ptr target="#CCCCXVII_st_001"/>Ego <persName
+            ref="#Benedictusnot">Benedictus</persName>, <roleName>imperialis aule
+            notarius</roleName>, hiis interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="VIII_37">
+		<front xml:id="VIII_front">
+
+			<titlePart type="numerazioneNuova">37</titlePart>
+			<titlePart type="numerazioneOrig">VIII</titlePart>
+
+			<docDate xml:id="VIII_docDate">
+				<date when="1255-04-20">
+					<supplied reason="illeggibile">1255</supplied> aprile 20 </date>, <placeName
+					ref="#Napoli"> Napoli (<term xml:lang="latin">Neapoli</term>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="VIII_regesto">
+				<p>Alessandro IV ordina al priore di San Michele in foro di Lucca di definire la
+					questione della mancata obbedienza al vescovo di Luni di alcuni priori e rettori
+					di chiese della sua diocesi. </p>
+			</div>
+
+			<div type="footer" xml:id="VIII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] c. 61v., c. LIIIv. secondo la numerazione originale. </p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione in: <ref type="biblio" target="#LUPO_GENTILE_1912">LUPO GENTILE
+							1912</ref>, n. 8, p. 12, senza data. </p>
+				</div>
+
+				<div type="crit_notes">
+					<note><p>Per la datazione del documento si accettano le considerazioni di <ref
+								type="biblio" target="#MAZZINI_1914">MAZZINI 1914</ref>, pp. 6-7:
+							che vendono nel solo Alessandro IV il pontefice presente a Napoli
+							nell’aprile del suo primo pontificato.</p>
+						<p>Nel margine interno di c. 61v.:<term xml:lang="latin"> priores</term>.
+							Nel margine esterno della medesima carta: <term xml:lang="latin">Circa
+								factum Carrarie</term>. Poco più sotto, di altra mano moderna: <term
+								xml:lang="latin">Carraria</term>.</p>
+					</note>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">VIII. Litere pape Alexandri super obedientia et
+							reverentia clericorum.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="VIII_div">
+				<p xml:id="VIII_p_001">
+					<persName ref="#AlexanderpontifexIV">Alexander <roleName>episcopus, servus
+							servorum Dei</roleName></persName>, dilecto filio .., priori <orgName
+						ref="#Lucca_S_Michele_Foro" type="ecclesia_canonica">Sancti Michaelis in
+						foro <placeName ref="#Lucca">Lucano</placeName></orgName>, salutem et
+					apostolicam benedictionem. Querelam venerabilis fratris nostri episcopi Lunensis
+					recipimus, continentem quod .. de <placeName ref="#Vezzano">Vecano</placeName>
+					et quidam alii priores et rectores ecclesiarum sue diocesis obedientiam et
+					reverentiam sibi debitam et contra iustitiam denegant exibere. Ideoque
+					discretioni tue per apostolica scripta mandamus quatinus, partibus convocatis,
+					audias causam et, appellatione remota, debito fine decidas, faciens quod
+					decreveris per censuram ecclesiasticam firmiter observari. Testes autem, qui
+					fuerint nominati, si se gratia, odio vel timore subtraxerint, per censuram
+					eamdem, appellatione cessante, compellas veritati testimonium perhibere. </p>
+				<p xml:id="VIII_p_002"> Datum <placeName ref="#Napoli">Neapoli</placeName>, <date
+						when="1255-04-20">XII kalendas maii <note xml:id="VIII_n_01" place="foot"
+							n="a"> maii: <emph>nel testo</emph> magii<emph> con g
+							espunto</emph>.</note>, pontificatus nostri anno primo</date>. </p>
+			</div>
+		</body>
+	</text>
+</TEI>

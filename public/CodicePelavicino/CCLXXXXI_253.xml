@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXXXI_253">
+    <front xml:id="CCLXXXXI_front">
+
+      <titlePart type="numerazioneNuova">253</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXXXI</titlePart>
+
+      <docDate xml:id="CCLXXXXI_docDate">
+        <date from="1180" to="1233-04">&lt; fine XII secolo - ante aprile
+        1233&gt;</date><placeName/>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXXXI_regesto">
+        <p>Redditi in orzo pagati dagli uomini <term xml:lang="latin">di Lotignano.</term></p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXXXI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 278v., c. CCLXXv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 291,
+            p. 265, che trascrive soltanto le prime tre voci dell’elenco.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Manca qualsiasi indicazione cronologica. Il Lupo Gentile data il documento al 1188,
+            ma senza spiegarne la ragione. Tra i personaggi elencati si deve rilevare che un Martino
+              <emph>de Losio de loco dicto Lutignana</emph> risulta defunto nell’aprile 1233 (n.
+            302-CCCXXI), da qui la datazione proposta. Il testo si dispone su due colonne.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCLXXXXI. Scriptum de ficto ordei in Langrinnano.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXXXI_div">
+        <p xml:id="CCLXXXXI_p_001" n="1">
+          <table rows="38" cols="2">
+            <head><c>¶</c> Hoc est fictum ordei quod dominus episcopus Lunensis habet in <placeName
+                ref="#Lotignano">Lotignano</placeName>, videlicet:</head>
+            <row role="data">
+              <cell><persName ref="#MartinusPlaça">Martinus</persName> de la <placeName ref="#Plaça"
+                  >Plaça</placeName></cell>
+              <cell>staria III</cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Bernazonus">Bernaçonus</persName> et eius fratres</cell>
+              <cell>staria III</cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Bellucius">Bellucius</persName> pro suo podere et pro podere
+                quondam uxoris sue</cell>
+              <cell>staria III</cell>
+            </row>
+            <row role="data">
+              <cell>filii <persName ref="#Vidalnus">Vidalni</persName></cell>
+              <cell>staria II</cell>
+            </row>
+            <row role="data">
+              <cell>filii <persName ref="#MartinusLosio">Martini</persName> de <placeName
+                  ref="#Losio">Losio</placeName> pro podere eorum et pro podere <placeName
+                  ref="#Palmerie">Palmerie</placeName>, uxoris unius eorum<note place="foot" n="a"
+                  xml:id="CCLXXXXI_n_001">
+                  <term xml:lang="latin">pro podere eorum-unius eorum</term>
+                  <emph>: nel testo scritto dopo </emph><term xml:lang="latin">staria II et
+                    medium</term>
+                </note></cell>
+              <cell>staria II et medium</cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#SalveAlberti">Salve quondam Alberti</persName>
+              </cell>
+              <cell>starium I et quartum</cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Bernardus">Bernardus</persName>
+              </cell>
+              <cell>starium I</cell>
+            </row>
+            <row role="data">
+              <cell>filii quondam <persName ref="#Bandinus">Bandini</persName></cell>
+              <cell>starium I et quartum</cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#BonacursusFactore">Bonacursus de Factore</persName>
+              </cell>
+              <cell>starium I et medium</cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#UgolinusSabbatini">Ugolinus quondam Sabbatini</persName> et
+                fratres</cell>
+              <cell>staria IIII et medium</cell>
+            </row>
+            <row role="data">
+              <cell>filii quondam <persName ref="#Uguito">Uguitonis</persName> pro suo podere<note
+                  place="foot" n="b" xml:id="CCLXXXXI_n_002">
+                  <term xml:lang="latin">pro suo podere</term>
+                  <emph>: nel testo scritto dopo </emph><term xml:lang="latin">staria II et
+                    quartum</term>
+                </note></cell>
+              <cell>staria II et quartum</cell>
+            </row>
+            <row role="data">
+              <cell>pro podere <persName ref="#Borthesella">Bortheselle</persName>, uxoris alterius
+                eorum</cell>
+              <cell>quartos III</cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#BellomusPastenelli">Bellomo quondam Pastenelli</persName>
+              </cell>
+              <cell>staria II et medium</cell>
+            </row>
+            <row role="data">
+              <cell>filii<note place="foot" n="c" xml:id="CCLXXXXI_n_003">
+                  <term xml:lang="latin">Filii</term>: i <emph>finale aggiunta in
+                  sopralinea.</emph></note> quondam <persName ref="#BenedictusToreclo"
+                  >Benedicti</persName> de <placeName ref="#Toreclo">Toreclo</placeName></cell>
+              <cell>starium I et medium</cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Alegretus">Alegretus</persName>
+              </cell>
+              <cell>starium I minus uno quarto</cell>
+            </row>
+            <row role="data">
+              <cell>
+                <persName ref="#Andrucius">Andrucius</persName>
+              </cell>
+              <cell>staria II et quartum</cell>
+            </row>
+            <row role="data">
+              <cell>filii <persName ref="#Gordianus">Gordiani</persName></cell>
+              <cell>starium I et medium</cell>
+            </row>
+            <row role="data">
+              <cell>filii quondam <persName ref="#Vitalis">Vitalis</persName></cell>
+              <cell>starium I et medium</cell>
+            </row>
+            <row role="data">
+              <cell>item <persName ref="#Bernazonus">Bernaçonus</persName> et <persName
+                  ref="#Martinus">Martinus</persName> pro podere <placeName ref="#Mitifoci"
+                  >Mitifoci</placeName><note place="foot" n="d" xml:id="CCLXXXXI_n_004">
+                  <term xml:lang="latin">pro podere Mitifoci</term><emph>: nel testo scritto dopo
+                    </emph><term xml:lang="latin">staria III</term></note></cell>
+              <cell>staria III</cell>
+            </row>
+          </table>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

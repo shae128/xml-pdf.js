@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="LXXXX_107">
+        <front xml:id="LXXXX_front">
+
+            <titlePart type="numerazioneNuova">107</titlePart>
+            <titlePart type="numerazioneOrig">LXXXX</titlePart>
+
+            <docDate xml:id="LXXXX_docDate">
+                <date when="1200-03-15">1200 marzo 15</date>, <placeName>Carrara (<term
+                        xml:lang="latin">apud Carrariam, in curia de Vicirale</term>)</placeName>
+            </docDate>
+            <div type="regesto" xml:id="LXXXX_regesto">
+                <p>Ordinamenti del vescovo di Luni Gualtiero per gli uomini soggetti alla sua
+                    giurisdizione. </p>
+            </div>
+
+            <div type="footer" xml:id="LXXXX_footer">
+
+                <div type="orig_doc">
+                    <p>Copia di copia autentica [C] cc. 204v.-205v., cc. CLXXXXVIv.-CLXXXXVIIv.
+                        secondo la numerazione originale. </p>
+                </div>
+                <div type="biblio">
+                    <p>Regesto: <ref type="biblio" target="#LUPO_GENTILE_1912">LUPO GENTILE
+                            1912</ref>, n. 90, p. 123.</p>
+
+                    <p>Edizione parziale: <ref type="biblio" target="#HPM_CHARTARUM">HPM
+                            CHARTARUM</ref>, II, 1202-1203.</p>
+
+                </div>
+                <div type="crit_notes">
+                    <note>Nel margine esterno, di mano moderna: Constitutione del vescovo Gualtiero
+                        per il buon governo di Sarzana. Il numero LXXXX è scritto da mano moderna su
+                        precedente <supplied reason="illegible">L</supplied>XXXX perché la pergamena
+                        è rifilata. </note>
+                    <note> L’autentica redatta per ordine del vescovo di Lucca Enrico (22 novembre
+                        1256 - 21 ottobre 1269) e di Guiscardo di Pietrasanta, podestà di Lucca per
+                        la terza volta, risale al 1257 (si veda <ref type="biblio"
+                            target="#OCCHIPINTI_2015">OCCHIPINTI 2015</ref>; <ref type="biblio"
+                            target="#BONGI_1999">BONGI 1999</ref>, p. 307). </note>
+                    <note>Parte del documento è stata letta con l’ausilio della luce di Wood.</note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXXXX. Constitutum factum per episcopum
+                            Gualterium.</term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="LXXXX_div">
+                <p xml:id="LXXXX_p_001">
+                    <pb n="204v" xml:id="fol_204v"/> Ad honorem et gloriam omnipotentis Dei et
+                    beatissime semper Virginis Marie atque omnium sanctorum, nos <persName
+                        ref="#GualEpLuni">Gualterius</persName>, <roleName>Dei gratia Lunensis
+                        ecclesie episcopus et comes</roleName>, volentes providere omnibus hominibus
+                    nostre iurisdictioni subiectis atque certas consuetudines eis imponentes,
+                    consentientibus nobis nobilibus viris et fidelibus nostris nostra curia
+                    constitutis et eorum diligenter consilio habito, quorum nomina inferius
+                    leguntur, santimus et in publica nostra curia apud <placeName ref="#Carrara"
+                        >Carrariam</placeName> constituta decernimus, videlicet si plures fuerint
+                    consortes in uno castro vel in pluribus atque de ipso castro vel castris nostri
+                    fideles et vassalli fuerint, si contingerit quod unus ex hiis consortibus vel
+                    plures de uno ex consortibus vel pluribus de castro vel castris tradimentum
+                    fecerit vel fecerint, ille vel illi qui ipsum tradimentum fecerint honore et
+                    beneficio de ipso castro vel castris omni modo privetur et domino, si heredem
+                    habuerit vel habuerint, aperiatur; si autem heredem non habuerint, consors vel
+                    consortes ei vel eis in dicto honore et beneficio succedant. </p>
+                <p xml:id="LXXXX_p_002"> Item si aliqua persona, nomine ficti seu pensionis vel
+                    libelli, domum vel agrum seu vineam ab aliqua ecclesia tenuerit, si biennium
+                    steterit quod fictum seu pensionem vel libellum non solverit in anno, quocumque
+                    anno de ficto et pensione et libello penam dupli persolvat ecclesie et componat
+                    et nichillominus re, de qua fictum et pensionem et libellum dat, privetur; si
+                    autem a laico domum vel agrum seu vineam, nomine ficti seu pensionis vel
+                    libelli, tenuerit et per triennium steterit quod non persolverit, in unoquoque
+                    anno penam dupli persolvat et componat domino a quo, et nichillominus re, de qua
+                    fictum et pensionem seu libellum dat, privetur. </p>
+                <p xml:id="LXXXX_p_03"> Item statuimus quod ne quis de cetero domum vel agrum seu
+                    vineam sine instrumento acquirat; si autem contrafacerit, re, de qua fictum vel
+                    pensio seu libellum datur, carere debeat; rursum, si aliqua persona de aliquo
+                    vel de aliquibus querimoniam deposuerit, volumus eam personam <measure
+                        type="currency" quantity="4" unit="imperialium">IIIIor imperialium</measure>
+                    dare iudici vel consulibus antequam adversarius ut<note place="foot" n="a"
+                        xml:id="LXXXX_n_001"> ut:<emph>così nel testo per</emph>vel.</note>
+                    adversarii citentur et iudex vel consul, qui causam audierint, nolumus quod
+                    accipiat pro iudicatura nisi <measure type="currency" quantity="16"
+                        unit="denarios">XVI denarios</measure> pro unaquaque libra, quos volumus
+                    illum vel illos, qui causam amiserit vel amiserint, persolvere, computatis in
+                    hiis suprascriptis <measure type="currency" quantity="4" unit="denarios">IIIIor
+                        denariis</measure>. </p>
+                <p xml:id="LXXXX_p_04"> Item nolumus aliquem notarium de instrumento libelli
+                    accipere plus <measure type="currency" quantity="6" unit="denarios">VI
+                        denariis</measure>. Si autem cartula alterius contractus fuerit et quantitas
+                    minus <measure type="weight">XL libris</measure> fuerit, nolumus similiter eum
+                    accipere plus <measure type="currency" quantity="6" unit="denarios">VI
+                        denariis</measure> atque a <measure type="weight">XL autem libris</measure>
+                    citra usque ad <measure type="currency" unit="denarios">centum XII
+                        denarios</measure> et de testimonio tantum unum imperialium; de
+                    confessionibus et aliis scriptis in iure factis et arbitrio iudicis et consulum
+                    reservamus. </p>
+                <p xml:id="LXXXX_p_05">Item nolumus, si aliquis uxorem acceperit, quod debeat <pb
+                        n="205r" xml:id="fol_205r"/> ei tradere nomine antifacti nisi terciam partem
+                    de dote, quam ab ea acceperit. </p>
+                <p xml:id="LXXXX_p_06"> Iterum nolumus quod aliqua vidua infra tempus luctus
+                    secundis nuptiis se tradere debeat, scilicet alioquin, si contrafecerit, volumus
+                    antifacto privari; atque, si de domo quondam mariti sui vi expulsa fuerit,
+                    volumus eam de bonis ipsius quondam sui mariti aliet quousque de dote et
+                    antifacto ei satisfactum fuerit. </p>
+                <p xml:id="LXXXX_p_07"> Item, si quis ingnotaverit terram seu domum vel agrum, de
+                    qua fictum seu pensio vel libellum datur ei, volumus illum, qui pensionem vel
+                    libellum seu fictum <supplied reason="illegible">habet</supplied>, atque ad
+                    cognoscendam illam terram inde domum vel agrum, de qua fictum seu pensio vel
+                    libellum ei datur, si voluerit, sacramento ad perhibendum testimonium veritati
+                    et alios omnes, quos dinumeraverint, constringi. </p>
+                <p xml:id="LXXXX_p_08"> Consiliatores et tractores omnium factorum et nostri
+                    fideles, ut superius diximus, fuerunt isti, videlicet: <persName
+                        ref="#AlbertusParentis">Albertus vicedominus<roleName><note place="foot"
+                                n="b" xml:id="LXXXX_n_002"> vicedominus: ce<emph> aggiunto in
+                                    sopralinea con segno di richiamo.</emph></note></roleName>
+                        quondam Parentis</persName> et <persName ref="#AlbertusMalnepote">Albertus
+                        de Malnepote</persName> potestas de <placeName ref="#Pontremoli"
+                        >Pontremulo</placeName>, <persName ref="#TruffaCastello">Truffa</persName>
+                    de <placeName ref="#Castello">Castello</placeName>, <persName
+                        ref="#UbertinusVallechia">Ubertinus de <placeName ref="#Vallecchia1"
+                            >Vallechia</placeName></persName>, <persName ref="#AldeprandinusSicco"
+                        >Aldeprandinus de <placeName ref="#Sicco">Sicco</placeName></persName>,
+                        <persName ref="#GuidoVal">Guido de <placeName ref="#Vallecchia1"
+                            >Vallecla</placeName></persName>, <persName ref="#RollandusGragnana"
+                        >Rollandus de <placeName ref="#Gragnana">Grangnana</placeName></persName>,
+                        <persName ref="#AttoFaucenova">Atto de <placeName ref="#Fosdinovo"
+                            >Fosdenova</placeName></persName>, <persName ref="#IunzeramusCalasco"
+                        >Iunzeramus de <placeName ref="#Calasco">Calasco</placeName></persName>,
+                        <persName ref="#BonencontrusSarzanacons">Bonencontrus de <placeName
+                            ref="#Sarzana">Sarzana</placeName></persName> et
+                        <roleName>consul</roleName> ipsius burgi et <persName
+                        ref="#GerardusZulfredi">Gerardus quondam Zulfredi de <placeName
+                            ref="#Sarzana">Sarzano</placeName></persName>, <persName
+                        ref="#GuilielmusCarraria">Guilielmus</persName> et <persName
+                        ref="#GuitonusCarraria">Guitonus</persName><note place="foot" n="c"
+                        xml:id="LXXXX_n_003">Guitonusi <emph>corretta su</emph> t <emph>e</emph> o
+                            <emph>in sopralinea.</emph></note> de <placeName ref="#Carrara"
+                        >Carraria</placeName>; et in tali ordine suprascripti omnes atque alii quam
+                    plures me <persName ref="#Prefectusnot">Prefectum</persName>, <roleName>Lunensis
+                        curie notarium, scribere et atestare rogaverunt.</roleName>
+                </p>
+                <p xml:id="LXXXX_p_09"> Acta sunt hec apud <placeName ref="#Carrara"
+                        >Carrariam</placeName>, in curia de <placeName ref="#Viciale"
+                        >Vicirale</placeName><note place="foot" n="d" xml:id="LXXXX_n_004"
+                            ><emph>Vicirale</emph>:così nel testo per<term xml:lang="latin"
+                            >Viciale</term></note>, <date when="1200-03-15">die iovis, qui fuit XV
+                        intrante mense martii, feliciter, anno a nativitate Eius millesimo CC,
+                        indictione IIIa,</date> presentibus <persName ref="#Gerardusvic"
+                        >Gerardo</persName>
+                    <roleName>vicedomino</roleName>, <persName ref="#RollandinusIustamontis"
+                        >Rollandino <roleName>vicedomino</roleName> quondam Iustamontis</persName>
+                    de <placeName ref="#Trebiano">Treblano</placeName>, <persName
+                        ref="#BernardinusHerberia">Bernardino de <placeName ref="#Herberia"
+                            >Herberia</placeName></persName>, <persName ref="#UgolinusPonzano"
+                        >Ugolino de</persName>
+                    <placeName ref="#Ponzano">Ponzaio<note place="foot" n="e" xml:id="LXXXX_n_005"
+                            >Ponzaio: <emph>così nel testo, forse per</emph>
+                        Ponzano</note></placeName>, <persName ref="#GualterotusSaladini">Galterio
+                        de</persName>
+                    <placeName ref="#Fosdinovo">Fosdenova</placeName>, <persName
+                        ref="#EnricusGuiscardi">Enrico quondam Guiscardi de <placeName
+                            ref="#Pontremoli">Pontremulo</placeName></persName>, <persName
+                        ref="#Oppizuscus">Oppizone</persName>
+                    <placeName ref="#Luni">Lunensi</placeName>
+                    <roleName>canonico</roleName>, <persName ref="#MasneriusMarciasio">Masnerio de
+                            <placeName ref="#Marciasio">Marsasio</placeName></persName> et aliis
+                    quam pluribus testibus, ad hec rogatis. </p>
+                <p xml:id="LXXXX_p_10">
+                    <ptr target="#LXXXX_st_001"/> Ego <persName ref="#Prefectusnot"
+                        >Prefectus</persName>, <roleName>domini imperatoris et Lunensis curie
+                        notarius</roleName>, hiis omnibus interfui atque rogatus scripsi et proprio
+                    signo signavi. </p>
+                <p xml:id="LXXXX_p_11">
+                    <ptr target="LXXXX_st_002"/><persName ref="#RanuciusRonchinelli_notarius"
+                        >Ranucius, filius Ronchinelli</persName>, sacri palacii iudex atque
+                    notarius, auttenticum illud, unde hoc su<supplied reason="omitted"
+                    >m</supplied>ptum est exemplum, vidi et legi et diligenter cum infrascriptis
+                    notariis abscultavi et de mandato et licencia mihi facto et data a domino
+                        <persName ref="#HenricusEpLucca">Henrico</persName>, <roleName>Dei gratia </roleName>
+                    <placeName ref="#Lucca">Lucano</placeName>
+                    <roleName>episcopo</roleName>, et etiam a domino <persName
+                        ref="#GuiscardusPietrasanta">Guiscardo de <placeName ref="#Pietrasanta"
+                            >Petra Sancta</placeName></persName>, <roleName>tertia vice </roleName>
+                    <placeName ref="#Lucca">Lucano</placeName>
+                    <roleName>potestate</roleName>, ut constat publice, scriptum manu <persName
+                        ref="#GuidoCaldovillani_notarius">Guidonis Caldovillani</persName>
+                    <roleName>notarii</roleName>, hic ego de verbo ad verbum, nichil addito vel
+                    diminuto, scripsi et fideliter exemplavi meisque signo et nomine confirmando. </p>
+                <pb n="205v" xml:id="fol_205v"/>
+                <p xml:id="LXXXX_p_12">
+                    <ptr target="LXXXX_st_003"/><persName ref="#RochiscianusPagani_notarius">
+                        Rochiscianus Pagani</persName>, <roleName>sacri palacii iudex et
+                        notarius</roleName>, auttenticum illud, unde hoc sumptum est exemplum, vidi
+                    et legi et diligenter cum suprascripto Ranutio, infrascripto Gerardo, notariis,
+                    abscultavi et de mandato et licencia mihi facto et data a
+                        <roleName>domino</roleName>
+                    <persName ref="#HenricusEpLucca">Henrico</persName>, <roleName>Dei gratia </roleName>
+                    <placeName ref="#Lucca">Lucano</placeName>
+                    <roleName>episcopo</roleName>, et etiam a domino <persName
+                        ref="#GuiscardusPietrasanta">Guiscardo de <placeName ref="#Pietrasanta"
+                            >Petra Sancta</placeName></persName>, <roleName>tercia vice </roleName>
+                    <placeName ref="#Lucca">Lucano</placeName>
+                    <roleName>potestate</roleName>, ut constat publice, scriptum manu <persName
+                        ref="#GuidoCaldovillani_notarius">Guidonis</persName>
+                    <roleName>notarii</roleName> suprascripti, hic ego subscripsi, meo signo et
+                    nomine confirmando. </p>
+                <p xml:id="LXXXX_p_13">
+                    <ptr target="LXXXX_st_004"/>
+                    <persName ref="#GerardusBuçolini_notarius">Gerardus Buçolini</persName>,
+                        <roleName>imperialis aule iudex et notarius</roleName>, auttenticum illud,
+                    unde hoc su<supplied reason="omitted">m</supplied>ptum est exemplum, vidi et
+                    legi et diligenter cum suprascriptis notariis ascultavi et de mandato et
+                    licencia mihi facto et data a domino <persName ref="#HenricusEpLucca"
+                        >Henrico</persName>, <roleName>Dei gratia </roleName>
+                    <placeName ref="#Lucca">Lucano</placeName>
+                    <roleName>episcopo</roleName> , et etiam a domino <persName
+                        ref="#GuiscardusPietrasanta">Guiscardo<note place="foot" n="f"
+                            xml:id="LXXXX_n_006">Guiscardo: s<emph>aggiunto in
+                            sopralinea.</emph></note></persName> de <placeName ref="#Pietrasanta"
+                        >Petra Sancta</placeName>, <roleName>potestate</roleName>
+                    <placeName ref="#Lucca">Lucano</placeName>
+                    <roleName>tercia vice</roleName>, ut constat publice, scriptum manu <persName
+                        ref="#GuidoCaldovillani_notarius">Guidonis</persName>
+                    <roleName>notarii</roleName> suprascripti, hic ego subscripsi, meo signo atque
+                    nomine confirmando.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

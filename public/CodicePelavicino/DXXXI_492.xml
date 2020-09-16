@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXXXI_492">
+    <front xml:id="DXXXI_front">
+
+      <titlePart type="numerazioneNuova">492</titlePart>
+      <titlePart type="numerazioneOrig">(DXXXI)</titlePart>
+
+      <docDate xml:id="DXXXI_docDate">
+        <date when="1181-04-17">1181 aprile 17</date>, <placeName>&lt;Sarzana&gt;</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="DXXXI_regesto">
+
+        <p>Alcuni testimoni comprovano i diritti della curia Lunense sul monastero di Aulla.</p>
+      </div>
+      <div type="footer" xml:id="DXXXI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 395v.-396r., cc. CCCLXXXVIIv.-CCCLXXXVIIIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 531,
+            p. 593.</p>
+          <p> Il documento è da collegarsi al n. 488-DXXVII, redatto il giorno precedente.</p>
+        </div>
+        <div type="crit_notes">
+          <note>Nel margine superiore, al centro: <term xml:lang="latin">Item de Avula</term>. Nel
+            margine esterno di c. 396r., di mano moderna: <term xml:lang="latin"> contra abbatem de
+              Avula vide decretum Sancte Congregationis anni 1667, cuius copia autentica adest in
+              archivio dominorum canonicorum.</term>
+          </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXXXI.
+              Testes ad eternam rei memoriam qualiter monasterium de Avula pertinet ad episcopatum
+              Lunensem.</term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="DXXXI_div">
+
+        <p xml:id="DXXXI_p_001">
+          <ptr target="#DXXXI_st_001"/>
+          <date when="1181-04-17"> Anno dominice incarnationis M°C° octogesimo primo, indictione
+            XIIII, apud Sarzanam, XV kalendas madii.</date> Testes recepti. </p>
+        <p xml:id="DXXXI_p_002">§ <persName ref="#Raimundus_arch">Raimundus</persName>
+          <roleName>Lunensis archipresbyter</roleName>, iuratus, dixit quod
+            <roleName>episcopus</roleName>
+          <persName ref="#GotefredEpLuni">Gotefredus</persName> ivit cum <roleName>domino papa
+            felicis recordationis</roleName><persName ref="#EugeniuspontifexIII"> Eugenio</persName>
+          cum multis militibus usque Cisam et tunc in separatione deposuit querelam de <orgName
+            ref="#Aulla_S_Caprasio" type="monasterium">ecclesia Avulensi</orgName>. Postea, rediens
+          dominus papa de ultramontanis partibus, prefixit terminum abbati <placeName ref="#Aulla"
+            >Avulensi</placeName> ut <placeName ref="#Pisa">Pisis</placeName> suo conspectui
+          presentaret paratum Lunensi episcopo respondere: quod et fecit. Et <roleName>episcopus </roleName>
+          <persName ref="#GotefredEpLuni">Gotefredus</persName> similiter ad dominum papam <pb
+            n="396r" xml:id="fol_396r"/> ivit et idem archipresbyter secum, et tunc dominus papa
+          sententiam dedit quod <placeName ref="#Aulla">Avulensis</placeName> abbas de cetero
+          benedictionem a Lunensi episcopo reciperet et ei obedientiam promitteret; set, cum
+            <placeName ref="#Pisa">Pisis</placeName> esset, presens sententie non interfuit. Postea,
+          rediens <persName ref="#Pisa">Pisis</persName>, dixit quod vidit quod
+            <roleName>episcopus</roleName><persName ref="#GotefredEpLuni">Gotefredus</persName>
+          investivit <roleName>abbatem</roleName>
+          <persName ref="#Gausoabbas">Gausonem</persName> de abbatia cum pastorali et benedixit eum
+          et ibidem abbas fecit obedientiam predicto episcopo; et dixit quod hospitatus est in
+          monasterio Avulensi cum predicto episcopo et sufficienter habuerunt victualia et annonam
+          equorum et cubaverunt infra claustrum monasterii; et dixit quod sepius ipse et fratres sui
+          canonici recepti sun hospitio in <orgName ref="#Aulla_S_Caprasio">monasterio
+            Avulensi</orgName> honorifice et credit quod pro debito servivit abbas episcopo, sicut
+          alie ecclesie episcopatus; et dixit quod abbas Henricus recepit benedictionem ab episcopo
+          Lunensi in ecclesia <orgName ref="#Sarzana_S_Basilio">Sancti Basilii</orgName> apud
+            <placeName ref="#Sarzana">Sarzanam</placeName>, set ipse non interfuit; et dixit quod
+            <roleName>abbas</roleName>
+          <persName ref="#Gausoabbas">Gauso</persName> servivit
+            <roleName>episcopo</roleName><persName ref="#GotefredEpLuni">Gotefredo</persName> pro
+          expensis quas episcopus fecerat pro domino <roleName>papa</roleName>
+          <persName ref="#EugeniuspontifexIII">Eugenio</persName>. Interrogatus quomodo sciret,
+          respondit quod audivit hoc dici ab <roleName>episcopo</roleName><persName
+            ref="#GotefredEpLuni"> Gotefredo</persName> et eius camerario et dixit quod
+            vidit<roleName>abbatem</roleName>
+          <persName ref="#Gausoabbas">Gausonem</persName> et <roleName>abbatem</roleName>
+          <persName ref="#HenricusEpLuni">Henricum</persName> venire ad synodos Lunensis episcopi et
+          dixit quod Avulensis ecclesia recipit a Lunensi episcopo crisma, oleum, ordinationes
+          clericorum. Interrogatus si vidit dari episcopo Lunensi pecuniam aliquam ab aliquo
+          predictorum abbatum, respondit quod non vidit, set audivit a tempore
+            <roleName>episcopi</roleName>
+          <persName ref="#GotefredEpLuni">Gotefredi</persName>, et dixit quod vidit <persName
+            ref="#GansapeCalderio">Gansape</persName> quondam Calderio<note place="foot" n="a"
+            xml:id="DXXXI_n_001">quondam Calderio: <emph>così nel testo</emph>.</note>,
+            <roleName>Lunensis canonicus</roleName>, acceperat ab abbate et abbas dederat ei quia
+          credebat se posse iuvari per illum ab episcopo. </p>
+        <p xml:id="DXXXI_p_003">
+          <persName ref="#Guido_cus">Guido</persName>, <roleName>custos Lunensis
+          ecclesie</roleName>, iuratus, dixit de benedictione <roleName>abbatis </roleName><persName
+            ref="#Gausoabbas">Gausonis</persName> et de investitura facta ab
+            <roleName>episcopo</roleName>
+          <persName ref="#GotefredEpLuni">Gotefred</persName>o in abbatem Gausonem in Lunensi
+          ecclesia et de obedientia idem quod archipresbyter et dixit quod receptus fuit cum
+            <persName ref="#GotefredEpLuni">episcopo Gotefredo</persName> in <orgName
+            ref="#S_caprasio_Aulla" type="monasterium">monasterio Avulensi</orgName> in prandio; de
+          synodo, ordinatione clericorum, crismate et oleo, idem. </p>
+
+        <p xml:id="DXXXI_p_004">
+          <roleName>Archipresbyter</roleName>
+          <persName ref="#Benedictus_arch">Benedictus</persName> de <placeName ref="#Caput_Pontis"
+            >Capite Pontis</placeName>, iuratus, dixit quod, dum esset puer, ivit <placeName
+            ref="#Aulla">Avulam</placeName> ubi <roleName>episcopus</roleName>
+          <persName ref="#GotefredEpLuni">Gotefredus</persName> ordinationem clericorum celebrabat
+          et ibi ab eo fuit designatus clericus et tunc vidit episcopum comedentem cum multis aliis
+          in refectorio monachorum et tunc ipsemet comedit ibi; de synodo et ordinatione clericorum
+          idem quod alii; de aliis nichil scit. </p>
+
+        <p xml:id="DXXXI_p_005">
+          <persName ref="#ClericusSarz">Clericus de <placeName ref="#Sarzana"
+            >Sarzano</placeName></persName>, iuratus, dixit quod, cum ipse esset sescalcus
+            <roleName>episcopi</roleName>
+          <persName ref="#GotefredEpLuni">Gotefredi</persName>, sepe mandato suscepto ab ipso
+          episcopo preivit <placeName ref="#Aulla">Avulam</placeName>, dicens <persName
+            ref="#Ildeprandusabbas">Ildeprando</persName><note place="foot" n="b"
+            xml:id="DXXXI_n_002">Ildeprando: p <emph>corretta su </emph>b.</note>
+          <roleName>abbati</roleName> ex parte episcopi ut pararet sibi et suis comestionem et abbas
+          respondebat: «Fiat secundum voluntatem eius» et iubebat abbas parari comestionem; et tunc
+          veniebat episcopus et comestionem recipiebat quandoque infra claustrum monasterii,
+          quandoque extra, et quando extra afferebantur de monasterio ea que necessaria erant,
+          excepto quod non recordatur quod vidit dari annonam equorum, set postea, cum esset cum
+            <roleName>episcopo</roleName><persName ref="#AlbertusEpLuni"> Alberto</persName>
+          <placeName ref="#Aulla">Avule</placeName>, et manducaverunt et cubaverunt infra
+          monasterium et pabulum equorum ab ecclesia susceperunt. Interrogatus si faciebat ex
+          debito, respondit: et amore et timore de benedictione abbatis in Lunensi Ecclesia, sicut
+          credit, et de investitura et obedientia idem quod archipresbyter. Preterea addidit quod,
+          cum episcopus <persName ref="#GotefredEpLuni">Gotefredus</persName> non haberet ius
+          benedicendi abbatem Avulensem, quidam de <roleName>monachis</roleName>
+          <orgName ref="#Aulla_S_Caprasio">Sancti Caprasii</orgName>, nomine <persName
+            ref="#Tegrimus_monachus">Tegrimus</persName>, volens servire episcopo, misit ei quemdam
+          librum, in quo continebatur de benedictione, a quo abbas deberet eam recipere, et vidit
+          transcribi librum per <persName ref="#PaulusMunno">Paulum de <placeName ref="#Munno"
+              >Munno</placeName></persName> et postea clam, reverso libro, sibi exemplum retinuit
+          episcopus. Quo lecto, misit abbati ut veniret et reciperet benedictionem a se, cui, cum
+          nollet venire, minatus est penam excomunicationis inferre et abbas, timens ne incideret in
+          penam excomunicationis, venit ad episcopum cum <roleName>domino</roleName>
+          <persName ref="#Berizus_frater">Berizo</persName> fratre suo, et ab episcopo benedictionem
+          suscepit. </p>
+
+        <p xml:id="DXXXI_p_006">
+          <ptr target="#DXXXI_st_002"/> Ego <persName ref="#Lombardusnot">Lombardus</persName>,
+            <roleName>notarius imperatoris et Lunensis curie</roleName>, mandato <placeName
+            ref="#Sesto">Sexten</placeName>sis abbatis et <persName ref="#RollandusBacciano"
+            >Rollandi Lucani canonici</persName> suprascriptos testos<note place="foot" n="c"
+            xml:id="DXXXI_n_003">testos: <emph>così nel testo per </emph>testes.</note> diligenter
+          audivi et, eis presentibus et interrogantibus<note place="foot" n="d" xml:id="DXXXI_n_004"
+            >interrogantibus: <emph>così nel testo</emph>.</note>, memorie cause fideliter scripsi. </p>
+        <p xml:id="DXXXI_p_007">+ Ego frater <persName ref="#Atto_abbas">Atto</persName>,
+            <roleName>Sextensis abbas</roleName>, subscripsi.</p>
+        <p xml:id="DXXXI_p_008">+ Ego <persName ref="#RollandusBacciano">Rollandus de <placeName
+              ref="#Bacciano">Bacciano</placeName></persName> cum domino abbate Sextensi
+          suprascriptos testes interrogavi et subscripsi.</p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

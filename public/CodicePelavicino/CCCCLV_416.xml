@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLV_416">
+    <front xml:id="CCCCLV_front">
+
+      <titlePart type="numerazioneNuova">416</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLV</titlePart>
+
+      <docDate xml:id="CCCCLV_docDate">
+        <date when="1236-08-26">1236 agosto 26</date>, <placeName>Capriliola (<term xml:lang="latin"
+            >in arce de Capriliola</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLV_regesto">
+        <p>Il vescovo di Luni Guglielmo loca a Guido del fu Troppino di Vezzano il podere che ebbe
+          un tempo Alberto di Porreto, posto in Porreto, al fitto annuale di 4 staia di frumento.
+          Guido giura fedeltà al vescovo contro tutti eccetto che nei confronti dei figli di Atto di
+          Fosdinovo. Se avrà discendenti di sesso femminile la tenuta del podere dovrà essere
+          rinegoziata. La concessione costa 10 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 353v-354r., c. CCCXLIIIIv.-CCCXLVr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE, 1912</ref>, n. 455,
+            pp. 463-464.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il documento contiene formule ceterate. Stesura <term xml:lang="latin">in
+              mundum</term> databile tra il 1270 e il 1272 dalla presenza di Bonagiunta de Podio di
+            Lucca.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LV. Stariorum IIIIor frumenti, quod reddit Guido de Veçano de Fs(***)sq et est
+              vasallus de loco de Poretulo.</term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCCLV_div">
+        <p xml:id="CCCCLV_p_001" n="1"> In Dei nomine, amen. <date when="1236-08-07"> M°CCXXXVI,
+            indictione IX, die martis, VII kalendas septembris. </date>In arce de <placeName
+            ref="#Caprigliola">Capriliola</placeName>, coram <persName ref="#ParensPasqualini"
+              >Parente,<roleName> castaldione curie</roleName>
+            <placeName ref="#Sarzanello">castri Sarzane</placeName></persName>, et <persName
+            ref="#ParentinusManzet">Parentino quondam Manzeti, <roleName>castaldione curie </roleName>
+            <placeName ref="#Ameglia">Amelie</placeName></persName>, <persName
+            ref="#GuilielmusAttonis">Guilielmo quondam Attonis de <placeName ref="#Fosdinovo"
+              >Fosdenova</placeName></persName>, <persName ref="#BonaiunctaBellandi">Bonaiuncta
+            quondam Bellandi de <placeName ref="#Pulica">Puleca </placeName></persName>et <persName
+            ref="#VenturaGratiani">Ventura quondam Gratiani </persName> de eodem loco, testibus
+          rogatis. Per hoc publicum instrumentum clareat universis quod venerabilis <persName
+            ref="#GuilEpLuni">Guilielmus, <roleName>Dei gratia Lunensis
+            episcopus</roleName></persName>, episcopatus sui vice et nomine, per se et suos
+          successores dedit, cessit et locavit in perpetuum, ad affictum reddendum, <persName
+            ref="#GuidoTroppini">Guidoni de <placeName ref="#Vezzano">Vezano </placeName>quondam
+            Troppini</persName>, recipienti pro se et heredibus suis, masculis et feminis, ab eo
+          descendentibus, totum podere totamque tenutam et possessionem quod et quam habuit et
+          tenuit olim <persName ref="#AlbertusPorreto">Albertus de <placeName ref="#Porreto"
+              >Porreto</placeName></persName> seu fuit ipsius <persName ref="#AlbertusPorreto"
+            >Alberti</persName>, quicquid sit et quantumcumque et ubicumque et quocumque decurrat,
+          in plano et in monte, situm in <placeName ref="#Porreto">Porreto</placeName> et alibi,
+          agrum et cultum, plenum et vacuum, divisum et indivisum, cum accessibus et cetera; et
+          promisit legitimam deffensionem et cetera, vel in locis consimilibus restituere, sicut pro
+          tempore magis valuerit et cetera, et potestatem inde intrandi tenutam ei dedit et se
+          interim eius nomine constituit possidere, reddendo exinde omni anno Lunensi curie, per
+          mensem augusti, certum fictum IIII staria frumenti mundi, sicci et gretolati, delati et
+          parati in curia <placeName ref="#Sarzanello">castri Sarzane</placeName>, ad granarium
+          domini episcopi, ad starium legitimum fori de <placeName ref="#Sarzana"
+            >Sarzana</placeName> tantum; tenetur esse fidelis et vassallus ipse et eius heredes
+          descendentes, qui ex ipso podere habuerint, contra omnes homines domino episcopo et eius
+          successoribus et curie Lunensi, exceptis tantum filiis quondam <roleName>domini
+            </roleName><persName ref="#AttoFaucenova">Atti de <placeName ref="#Fosdinovo"
+              >Fosdenova</placeName></persName>, si cum eis Lunensis episcopus haberet guerram vel
+          vellet eos offendere; et taliter eidem domino episcopo fidelitatem iuravit; et, si in
+          heredibus feminis hoc podere remaneret, debeant concordare cum curia Lunensi, sicut
+          consuetum est, facere in consimilibus de poderibus curie, que remanent in feminis; et fuit
+          confessus se inde <measure type="Imperiales" quantity="10" unit="solidus"> X soldos
+            imperialium</measure> servicium recepisse. Ambe partes hec omnia suprascripta, inter se
+          vicissim stipulantes, attendere et observare perpetuo promisere, per se, suos successores
+          dominus episcopus, idem <persName ref="#GuidoTroppini">Guido </persName> pro se et
+          heredibus suis, nec contravenire, sub pena <measure type="Imperiales" quantity="40"
+            unit="solidus"> XL soldorum imperialium </measure> solvenda parti simul cum sorte
+          quociens incidetur in eam; et, ea soluta, rato manente pacto. <pb n="354r"
+            xml:id="fol_354r"/>
+        </p>
+      </div>
+      <div xml:id="CCCCLV_div2" type="mundum">
+        <p xml:id="CCCCLV_p_002" n="2">
+          <ptr target="#CCCCLV_st_001"/> Ego <persName ref="#HengeramusParentisnot">Hengheramus
+            quondam Parentis de <placeName ref="#Sarzanello">castro Sarzane</placeName>,
+              <roleName>palacii sacri notarius</roleName></persName>, hanc cartam olim a <persName
+            ref="#Bonencontrusnot"> Bonencontro de <placeName ref="#Soliera">Soleira</placeName>
+          </persName> abreviatam sive rogatam, prout in eius sceda et in eius contractibus et
+          inbreviaturis inveni, ita hic bona fide scripsi et autenticavi et in formam publicam
+          redegi, auctoritate et decreto super hiis mihi prestita et concesso a domina <note n="a"
+            place="foot" xml:id="CCCCLV_n_001">domina: <emph> così nel testo per
+            </emph>domino.</note>
+          <persName ref="#Bonaiunctaiud"> Bonaiuncta de <placeName ref="#PodioLucca">Podio de
+              Luca</placeName>, <roleName>iudice </roleName></persName> in <orgName
+            ref="#Lunigiana_provincia">provincia <placeName ref="#Lunigiana">Lunisiane
+            </placeName></orgName> pro venerabili patre domino <persName ref="#GuilEpLuni">Guilielmo
+              <roleName>Lunensi episcopo</roleName></persName>, et <orgName ref="#Lucca_comune"
+              ><placeName ref="#Lucca">Lucano</placeName> communi</orgName>, de qua auctoritate
+          constat per instrumentum publicum factum manu <persName ref="#Alcheriusnot">Alcherii
+              <roleName>notarii </roleName>
+            <placeName ref="#Lucca">de Luca</placeName>. </persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 416-CCCCLV databile tra il 1270 e il
+            1272 dalla presenza di Bonagiunta de Podio di Lucca. <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"> </date></note>
+        </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

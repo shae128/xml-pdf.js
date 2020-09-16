@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="DXLVII_509">
+    <front xml:id="DXLVII_front">
+      <titlePart type="numerazioneNuova">509</titlePart>
+      <titlePart type="numerazioneOrig">DXLVII</titlePart>
+
+      <docDate xml:id="DXLVII_docDate">
+        <date when="1239-06-29">1239 giugno 29</date>
+      </docDate>
+      <div type="regesto" xml:id="DXLVII_regesto">
+        <p>Nell’ambito della controversia tra il vescovo di Luni e il monastero di S. Michele di
+          Orticaria relativa al monastero di S. Croce del Corvo, il notaio Bonalbergo si presenta a
+          Beringerio, preposito delle pieve di S. Gimignano, subdelegato del vescovo di Firenze, a
+          sua volta delegato del papa, con una missiva del vescovo di Luni Guglielmo, in cui
+          quest’ultimo dichiara di essersi appellato alla sede apostolica e quindi chiede di
+          revocare il mandato nei suoi confronti fino al termine della causa. La richiesta è
+          motivata dal fatto che, dei tre giudici assegnati, il terzo giudice, priore di S. Paolo
+          all’Orto, era stato nominato maliziosamente a danno del vescovo di Luni. Nella medesima
+          circostanza Bonalbergo consegna a Beringerio una seconda missiva, in cui il canonico
+          lucchese Paolo, subdelegato del priore di Carrara, esorta Beringerio a recedere dalle sue
+          decisioni sulla base del fatto che non vi era stata conferma della delega del priore di S.
+          Paolo all’Orto come subdelegato del priore di S. Sisto ed era quindi opportuno di non
+          procedere nella causa. Sulla base di entrambe le missive Bonalbergo chiede quindi che il
+          processo non vada avanti con la presenza del priore di S. Paolo all’Orto e che Beringerio
+          revochi quanto già deciso. Il mandato di Beringerio, di cui si chiede l’annullamento e che
+          si riporta all’interno dell’atto, scomunicava il vescovo di Luni sulla base del fatto che
+          egli, nonostante avesse già ricevuto l’ammonizione di revocare tutte le innovazioni fatte
+          nel monastero di Santa Croce, aveva disatteso la richiesta.</p>
+      </div>
+      <div type="footer" xml:id="DXLVII_footer">
+        <div type="orig_doc">
+          <p>Copia [C] cc. 402v.-403r., cc. CCCLXXXXIIIIv-CCCLXXXXVr. secondo la numerazione
+            originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref type="biblio" target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 547, pp. 621-623.</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXLVII.
+              Qualiter sindicus Lunensis episcopi protestatus fuit coram delegato pape inter dictum
+              episcopum et abbatem Sancti Michaelis de Orticaria.</term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="DXLVII_div">
+        <pb n="402v" xml:id="fol_402v"/>
+        <p xml:id="DXLVII_p_001" n="1">In Dei nomine, amen. <date when="1239-06-29">Anno Domini
+            M°CCXXXIX, indictione XII, III kalendas iulii.</date> Appareat quod <persName
+            ref="#Bonalbergusnot4">Bonalbergus</persName>
+          <roleName>notarius, syndicus et procurator domini episcopi Lunensis</roleName>,
+          representavit ex parte dicti domini episcopi <roleName>domino</roleName>
+          <persName ref="#Beringerius_prepositus">Beringerio</persName>,
+            <roleName>preposito</roleName> plebis <orgName ref="SanGimignano_S_Maria_Assunta">Sancti
+            Geminiani</orgName>, unum par litterarum, quarum tenor talis <supplied reason="omitted"
+            >est</supplied>: «<persName ref="#GuilEpLuni">Guilielmus</persName>, <roleName>divina
+            paciencia Lunensis episcopus</roleName>, dilecto in Christo fratri preposito <orgName
+            ref="#SanGimignano_S_Maria_Assunta">Sancti Geminiani</orgName>, <placeName
+            ref="#Volterra">Vulter</placeName><orgName ref="#Volterra_diocesi">rane
+            dyocesis</orgName>, salutem in domino Ihesu Christo. Scripsistis nobis en<note
+            place="foot" n="a" xml:id="DXLVII_n_001">en: <emph> così nel testo.</emph></note> alia
+          vice ut omnes innovationes quas, appellatione pendente interposita a <orgName
+            ref="#Pisa_S_Michele_Orticaria">monasterio Sancti Michaelis de</orgName>
+          <placeName ref="#Orticaria">Orticaria</placeName>, feceramus in <orgName
+            ref="#Corvo_S_Croce">monasterio Sancte Crucis</orgName> revocaremus omnino; quod quidem
+          non fecimus cum mandatum manifeste contradiceret rationi si mandati forma domini pape
+          diligentius attendatur. Cum enim directe appellatur a sententia iudicis delegati in
+          litteris appellationis domini pape, concluditur <supplied reason="omitted"
+          >quod</supplied>revocato in statu debito quicquid post appellationem huiusmodi inveneris
+          temere attemptatum, de sententia ipsa legitime cognoscentes et cetera et in hoc casu et
+          secundum huiusmodi commissionis formam, mandatum vestrum iusticiam contineret et nos ipsi
+          mandato paruissemus tam humiliter quam devote, set non sic inveniri potest in nostro casu,
+          quia causa vertebatur inter nos et <orgName ref="#Corvo_S_Croce">monasterium Sancte
+            Crucis</orgName> et late pro nobis sententie ipsius monasterii monachi humiliter
+          paruerunt. Unde, licet abbas et <orgName ref="#Pisa_S_Michele_Orticaria">conventus Sancti
+            Michaelis de</orgName>
+          <placeName ref="#Orticaria">Orticaria</placeName> pro iure suo appellaverint ad
+          apostolicam sedem, non fuit intentionis domini pape in litteris commissionis facte ad
+          dominum <orgName ref="#Firenze_diocesi"><placeName ref="#Florencia"
+              >Florentinum</placeName></orgName> quod propter appellationem huiusmodi, que directe
+          appellacio dici non potest, executio dicte sententie tardaretur nisi prius ipsa sententia
+          iudicaretur iniusta, et hoc apparet ex forma commissionis facte ad dominum <orgName
+            ref="#Firenze_diocesi"><placeName ref="#Florencia">Florentinum</placeName></orgName>,
+          ubi non recluditur: “revocato in statu debito quicquid post appellationem huiusmodi
+          inveneritis attemptatum” et cetera, set “hac<note place="foot" n="b" xml:id="DXLVII_n_002"
+            >hac: <emph> così nel testo per </emph>ac</note> si nulla precessisset appellacio
+          mandatur, vocatis qui fuerint evocandi” et cetera. Hac igitur ratione quia quod fecimus,
+          auctoritate et vi sententie fecimus antedicte, et non prius revocandum erat quod feceramus
+          quam sententia revocaretur iniusta, sentientes indebite nos gravari, appellavimus ad
+          apostolicam sedem et ipsam appellationem pro posse prosequimur nisi quia monachi <orgName
+            ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis</orgName>, non sicut religiosi,
+          impediunt malitiose processum et hoc manifeste apparet quia in auditorio principis datus
+          fuit pro nobis unus iudex et pro eis alter. Tercius, videlicet
+            <roleName>magister</roleName>
+          <persName ref="#Iacopus_canonicus_Pistorie">Iacobus</persName>, <placeName ref="#Pistoia"
+            >Pistoriensis</placeName>
+          <roleName>canonicus</roleName>, fuit positus pro communi. Ipsi vero monachi infra XV dies
+          post datam litterarum, prevenientes diligenciam nostram, fraudulenter obtinuerunt quod
+          idem canonicus subdelegavit venerabili patri archiepiscopo <orgName ref="Pisa_diocesi"
+              ><placeName ref="#Pisa">Pisano</placeName></orgName> totaliter vices suas et postmodum
+          idem archiepiscopus protestatus enim<note place="foot" n="c" xml:id="DXLVII_n_003">enim:
+              <emph> così nel testo per </emph>est</note>, licet subdelegationem recepit, quod ipsi
+          esse nolebat nec poterat interesse sicque prior <orgName ref="#Pisa_S_Sisto">Sancti
+            Sixti</orgName> subdelegavit postmodum, ut dicitur, priori <orgName
+            ref="#Pisa_S_Paolo_Orto">Sancti Pauli de Orto</orgName> vices suas et, quia requisitus a
+          procuratore nostro de subdelegatione fidem facere recusavit secundum monachorum, immo
+          dyabulorum, propositum, remansit negocium indecisum, propter quod nuntium ad sedem
+          apostolicam destinamus. Nunc autem ex imperato ad arsectionem<note place="foot" n="d"
+            xml:id="DXLVII_n_004">arsectionem: <emph> così nel testo per </emph>assertionem</note>
+          unius partis, contra id quod legitur, merita causarum partium asse<supplied
+            reason="omitted">r</supplied>tioni panduntur, nobis non citatis, iterato mandastis ut,
+          secundum mandati vestri prioris tenorem, quod fecimus, revocemus et diffamastis nos
+            de<note place="foot" n="e" xml:id="DXLVII_n_005">de: <emph>aggiunto in sopralinea con
+              segno di richiamo.</emph></note> malicia et fraude, quod vestram non decuit
+          honestatem. Quid igitur dicemus numquid: appellanti non conceditur annus et, si necesse
+          fuerit, biennium in prosecutione ipsius? Quare ergo sic mature, non expectato anno contra
+          appellationem iam a sede apostolica acceptam et iudicibus delegatam, mandatum in
+          confusionem vestram et iuris et iniuriam renovastis. Rogamus itaque prudentiam vestram
+          humiliter ut non sic dehonestetis<note place="foot" n="f" xml:id="DXLVII_n_006"
+            >dehonestetis: <emph> così nel testo, con </emph>et<emph>corretto su precedente
+              scrittura. </emph></note> episcopum, set ob reverenciam Dei et Ordinis obsequium
+          parvitatis nostre, quod posset vobis esse forte aliquando fructuose, revocetis, sicut de
+          iure debetis, mandatum vel saltim suspendatis quod mandastis, usque de appellationis causa
+          fuerit terminata; quod si forte iustis nostris precibus contrahitis, non recedentes ab
+          appellatione priori, propter tam manifestum gravamen iterato sedem apostolicam appellamus,
+          scituri quod, si personaliter deberemus curiam visitare, processum vestrum manifestum
+          summo pontifici et suis fratribus faciemus, licet invicti, quia, si sic nos gravaveritis,
+          gravamen non possimus sic sub silentio preterire». Que littere erant sigillate sigillo
+          cereo dicti episcopi Lunensis, in quo erat ymago Sancte Marie et Filii et episcopi stantis
+          sub ipsis flexis genibus et manibus clausis, et hec littere erant inde sigillate
+            sigilli<note place="foot" n="g" xml:id="DXLVII_n_007">sigilli: <emph> così nel
+              testo.</emph></note>
+          <persName ref="#GuilEpLuni">Guilielmi</persName>
+          <roleName>Lunensis episcopi</roleName>. Date et representate fuerunt suprascripte littere
+          suprascripto domino preposito in <orgName ref="#SanGimignano_S_Maria_Assunta">Sancto
+            Geminiano</orgName>, in claustro plebis eiusdem loci, coram <roleName>domino</roleName>
+          <persName ref="#GentilisRustichi">Gentile <roleName>iurisperito</roleName> quondam
+            Rustichi</persName> et <persName ref="#BonvisignusRigalis">Bonvisigno
+              <roleName>notario</roleName>, filio Rigalis</persName>, testibus ad hec rogatis atque
+          vocatis. </p>
+        <p xml:id="DXLVII_p_002" n="2">Coram quibus testibus, eodem die et loco, incontinenti,
+          supracriptus <persName ref="#Bonalbergusnot4">Bonalbergus</persName> dedit et
+          representavit predicto <roleName>domino</roleName>
+          <persName ref="#Beringerius_prepositus">Beringerio</persName>,
+            <roleName>preposito</roleName>
+          <orgName ref="#SanGimignano_S_Maria_Assunta">Sancti Geminiani</orgName>, unum aliud par
+          litterarum ex parte <roleName>domini</roleName>
+          <persName ref="#Paulus_canonicus">Pauli</persName>, <placeName ref="#Lucca"
+            >Lucani</placeName>
+          <roleName>canonici</roleName>, sigillatarum eiusdem <persName ref="#Paulus_canonicus"
+            >Pauli</persName> sigillo, in quo erat quedam crux et ymago cuiusdam hominis morantis
+          flexis genibus et manibus clausis et quedam alie ymagines quas denotare nescivi, cum hiis
+          litteris, scilicet <persName ref="#Paulus_canonicus">Pauli de <placeName ref="#Garfagnana"
+              >Cafagnana</placeName>x</persName><note place="foot" n="h" xml:id="DXLVII_n_008"
+            >Cafagnana: <emph> così nel testo forse per </emph>Carfagnana. </note>
+          <placeName ref="#Lucca">Lucani</placeName>
+          <roleName>canonici</roleName> et Sancti<note place="foot" n="i" xml:id="DXLVII_n_009"
+            >Sancti: <emph> manca l’indicazione.</emph></note>, et cum aliis litteris quas legere
+          non valui, quarum litterarum tenor talis est: «Venerabili in Christo fratri
+            <roleName>domino</roleName>
+          <persName ref="#Beringerius_prepositus">Beringerio</persName>,
+            <roleName>preposito</roleName>
+          <orgName ref="SanGimignano_S_Maria_Assunta">Sancti Giminiani</orgName>, <persName
+            ref="#Paulus_canonicus">Paulus</persName>, <placeName ref="#Lucca">Lucanus</placeName>
+          <roleName>canonicus</roleName> et <roleName>prioris</roleName> de <placeName
+            ref="#Carrara">Carraria</placeName>, <roleName>domini pape iudicis delegati</roleName>,
+          subdelegatus, salutem in Domino. Cum pro causa, que vertitur inter venerabilem patrem
+          dominum Lunensem episcopum et monasterium <orgName ref="#Pisa_S_Michele_Orticaria">Sancti
+            Michaelis</orgName> de <placeName ref="#Orticaria">Orticaria</placeName>
+          <placeName ref="#Pisa">Pisanum</placeName>, de <orgName ref="#Corvo_S_Croce">monasterio
+            Sancte Crucis</orgName>, <persName ref="#Bonalbergusnot4">Bonalbergus</persName>,
+            <roleName>syndicus eiusdem episcopi</roleName>, et <roleName>frater</roleName>
+          <persName ref="#Benedictus_frater">Benedictus</persName>, <roleName>syndicus</roleName>
+          <orgName ref="#Pisa_S_Michele_Orticaria">monasterii Sancti Michaelis</orgName>, coram me
+          et priore <orgName ref="#Pisa_S_Paolo_Orto"> Pauli de <pb n="403r" xml:id="fol_403r"/>
+            Orto</orgName>
+          <placeName ref="#Pisa"> Pisano</placeName>, quod<note place="foot" n="j"
+            xml:id="DXLVII_n_010">quod: <emph> così nel testo.</emph></note> dicebat se domini
+          prioris <orgName ref="#Pisa_S_Sisto">Sancti Sixti</orgName>, domini pape iudicis delegati,
+          subdelegatum, comparuerint, idem <persName ref="#Bonalbergusnot4">Bonalbergus</persName>
+          pro dicto domino episcopo coram nobis proposuit, protestando, quod paratus erat et volebat
+          in causa procedere memorata dummodo dictus dominus prior <orgName ref="#Pisa_S_Paolo_Orto"
+            >Sancti Pauli</orgName> de subdelegatione sibi facta fidem faceret, ut deberet; et ego
+          ipse, ut de ipsa subdelegatione fidem faceret, exigissem, nec<note place="foot" n="k"
+            xml:id="DXLVII_n_011">nec: n <emph>corretto su precedente scrittura.</emph></note> parti
+          nec mihi<note place="foot" n="l" xml:id="DXLVII_n_012">mihi: <emph> corretto su precedente
+              scrittura.</emph></note> aliqua facta fuerit fides, tunc sicutve debuimus in ipsa
+          causa non duximus procedendum, sicut vobis patere poterit evidenter per publica
+          instrumenta; que omnia vobis duxi presentibus intimanda, ne fraudibus, cavillationibus,
+          astutiis contra Deum et honestatem persone vestre circumveniri possitis ac propter hoc ego
+          suadeo pariter et exhortor et, sub pena excomunicationis cum reverencia tamen auctoritatis
+          qua fungor, precipio quatinus, cum per me vel per ipsum dominum episcopum non steterit
+          quin in dicta causa secundum iuris ordinem sit processum, quod fecistis ad suasionem
+          partis adverse, parte episcopi non citata, in toto penitus revocetis, sicut de facto
+          processistis, et iurisdictionem meam nullatenus impediatis quia non possem equaminiter
+          ferre quin contra omnem personam iurisdictionem meam impedientem procedere secundum quod
+          postulat ordo iuris, cum ex neglicencia partis monasterii manifesta ad vos minime sit
+          iurisdictio devoluta».</p>
+        <p xml:id="DXLVII_p_003" n="3">Qui suprascriptus <persName ref="#Bonalbergusnot4"
+            >Bonalbergus</persName>, <roleName>syndicus et procurator antedicti domini episcopi
+            Lunensis</roleName>, coram iamscriptis testibus et eodem die et loco, syndicatus nomine
+          et pro eodem domino episcopo, incontinenti dixit et protestatus fuit coram dicto domino
+          preposito quod per eum vel per partem dicti domini episcopi non stetit quin processum
+          fuerit in causa appellationis coram predicto <roleName>domino</roleName>
+          <persName ref="#Paulus_canonicus">Paulo</persName> et priore <orgName
+            ref="#Pisa_S_Paolo_Orto">Sancti Pauli de Orto</orgName><placeName ref="#Pisa"
+            >Pisano</placeName>, qui dicebat se subdelegatum prioris <orgName ref="#Pisa_S_Sisto"
+            >Sancti Sixti</orgName>, domini pape iudicis delegati, set, quia non patebat de ipsa
+          subdelegatione nec fidem facere voluerunt ipse prior <orgName ref="#Pisa_S_Paolo_Orto"
+            >Sancti Pauli</orgName> vel syndicus <orgName ref="#Pisa_S_Michele_Orticaria">Sancti
+            Michaelis de Orticaria</orgName>
+          <placeName ref="#Pisa">Pisarum</placeName>, in causa non fuit processum, quare petit
+            idem<note place="foot" n="m" xml:id="DXLVII_n_013">idem: <emph> corretto su precedente
+              scrittura.</emph></note>syndicus a dicto preposito ut ad aliam non procedat et ut
+          revocaret que fecerat post predicta et que continebantur in litteris quas dixerat dictus
+          prepositus archipresbytero Lunensi, quarum tenor talis est: «Venerabili in Christo patri
+          et domino Dei gratia Lunensis ecclesie archipresbytero, <persName
+            ref="#Beringerius_prepositus">Beringerius</persName>, eadem gratia prepositus <orgName
+            ref="#SanGimignano_S_Maria_Assunta">Sancti Geminiani</orgName>, <orgName
+            ref="#Volterra_diocesi"><placeName ref="#Volterra">Vulterrane</placeName>
+            dyocesis</orgName>, subdelegatus domini episcopi <orgName ref="#Firenze_diocesi"
+              ><placeName ref="#Florencia">Florentini</placeName></orgName>, domini pape iudicis
+          delegati, salutem eternam in Domino. Sicut pro certo<note place="foot" n="n"
+            xml:id="DXLVII_n_014">certo: c<emph> corretto su precedente scrittura.</emph></note>
+          didicimus et tam ex intrumentis publicis quam ex actis dominorum priorum <orgName
+            ref="#Pisa_S_Sisto">Sancti Sixti</orgName>
+          <placeName ref="#Pisa">Pisarum</placeName> et <persName ref="#Paulus_canonicus"
+            >Pauli</persName>, <placeName ref="#Lucca">Lucani</placeName>
+          <roleName>canonici</roleName>, iudicum, reperimus expressius contineri, nostra cognitio,
+          que per appellationem a domino Lunensi episcopo prout dicitur interpositam videbatur
+          suspensa in causa que coram nobis inter ipsum et monasterium <orgName
+            ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis de </orgName><placeName
+            ref="#Orticaria">Orticaria</placeName> vertebatur, ad nos rediit cum effectu eo quod
+          dictus canonicus super hiis que coram eo et domino priore <orgName
+            ref="#Pisa_S_Paolo_Orto">Sancti Pauli de Orto</orgName>
+          <placeName ref="#Pisa">Pisano</placeName>, cui dictus prior <orgName ref="#Pisa_S_Sisto"
+            >Sancti Sixti</orgName> commisit totaliter vices suas, fuere proposita, procedere sicut
+          statutum et ordinatum fuerat recusavit. Ea propter, volentes in hac parte procedere
+          quantum de iure possimus et debemus, discretioni vestre sub pena excomunicationis, in qua
+          ex nunc incidere vos volumus si iamscriptis contempseritis obedire, auctoritate qua
+          fungimur precipimus et mandamus quatinus, incontinenti post receptionem presentium, ex
+          parte nostra personaliter moneatis dominum episcopum memoratum ut infra IIIIor dies post
+          admonitionem nostram omnes innovationes quas, appellatione pendente et a dicto monasterio
+          interposita, fecit in <orgName ref="#Corvo_S_Croce">monasterio Sancte Crucis</orgName> et
+          que in nostra interlocutoria sunt inserte, et pro quibus etiam ipsi episcopo dudum
+          dixerimus scripta nostra, in eo statu reducat in quo erant tempore quo a parte dicti
+            <orgName ref="#Pisa_S_Michele_Orticaria">monasterii Sancti Michaelis</orgName> extitit a
+          sententia <persName ref="#AttoCampigiola">Attonis de</persName>
+          <orgName ref="#Campiliola_S_Maria"><placeName ref="#Campiliola"
+            >Campigiola</placeName></orgName>
+          <note place="foot" n="o" xml:id="DXLVII_n_015">Campigiola: <emph> così nel testo
+              probabilmente per </emph>Campiliola</note>
+          <roleName>canonici</roleName> appellatum, denunciantes vel denunciari facientes eidem
+          quod, si mandati nostri contemptor extiterit, nos, considerantes quod nec nobis vult
+          obedire nec in appellatione procedere, eundem in sententiam excomunicationis, a qua non ad
+          cautelam, set ad maliciam, absolutionem obtinuit, reducemus et de novo excomunicabimus. Si
+          vero dictus episcopus a vobis non permitteret se videri aut si ex malicia sese occultare
+          verisimilius appareret, facta apud locum ubi est publice admonitione predicta, nobis
+          quicquid de premissis faceretis per instrumentum publicum vel per litteras vestro sigillo
+          firmatas, sub iamdicta pena, intimare curetis». Que littere erant sigillate sigillo cereo
+          dicti prepositi, in quo erat quedam palma cum datalis, habens in summitate quamdam avem ad
+          modum columbe cum hiis litteris, scilicet <persName ref="#Beringerius_prepositus"
+            >Beringerii</persName>, prepositi <orgName ref="#SanGimignano_S_Maria_Assunta">Sancti
+            Geminiani</orgName>, vel saltim suspenderet predicta quousque predicta causa
+          appellationis fuerit terminata. Que, si dictus dominus prepositus non faceret, dictus
+            <persName ref="#Bonalbergusnot4">Bonalbergus</persName>, sentiens se, syndicatus nomine
+          pro dicto domino episcopo, et ipsum dominum episcopum gravari, ad sedem apostolicam
+          appellavit.</p>
+        <p xml:id="DXLVII_p_004" n="4">
+          <ptr target="DXLVII_st_001"/>Ego <persName ref="#PalmeriusPellarii_notarius">Palmerius,
+            quondam Pellarii filius</persName>, <roleName>auctoritate imperialis
+          notarius</roleName>, predictis omnibus interfui et, rogatus a suprascripto <persName
+            ref="#Bonalbergusnot4">Bonalbergo</persName>
+          <roleName>syndico</roleName>, in publicam formam redegi. </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

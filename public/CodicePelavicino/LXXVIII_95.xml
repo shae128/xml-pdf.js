@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="LXXVIII_95">
+        <front xml:id="LXXVIII_front">
+
+            <titlePart type="numerazioneNuova">95</titlePart>
+            <titlePart type="numerazioneOrig">LXXVIII</titlePart>
+
+            <docDate xml:id="LXXVIII_docDate">
+                <date when="1231-08-19">1231 agosto 19</date>, <placeName>Sarzanello </placeName>
+                <emph>(<term xml:lang="latin">in curia castri Sarzane</term>)</emph>
+            </docDate>
+
+            <div type="regesto" xml:id="LXXVIII_regesto">
+                <p>Il vescovo di Luni Guglielmo volendo rispettare l’accordo stipulato tra il
+                    defunto vescovo di Luni Gualteroto ed il comune di Sarzana - secondo il quale si
+                    dovevano assegnare terreni del vescovato a chi veniva ad abitare fra il borgo di
+                    Sarzana e il castello (Sarzanello) – e considerando utili alcuni terreni lì
+                    ubicati di Compagnone di Clausura, cede a costui un fitto di annuale di uno
+                    staio e mezzo e di un terzo di staio proveniente da un orto posto nella bradia
+                    del vescovo in cambio dei suddetti terreni.</p>
+            </div>
+
+            <div type="footer" xml:id="LXXVIII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia di copia autentica [C] cc. 197v.-198r., cc. CLXXXVIIIIv.-CLXXXXr.
+                        secondo la numerazione originale.</p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 78, pp. 110-111.</p>
+                </div>
+
+                <div type="crit_notes">
+                    <note> Nel margine esterno, di mano moderna: <emph>Locatio episcopi</emph>.
+                            <emph>Per un errore la numerazione dei documenti salta da</emph> LXVII
+                            <emph>a</emph> LXXVIII. <p>L’autentica è stata redatta dal notaio
+                            Tebaldino nel 1250.</p>
+                    </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXXVIII. De terreno aquisito per canbium in Clausura
+                            pro casamentis.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="LXXVIII_div">
+                <pb n="197v" xml:id="fol_197v"/>
+                <p xml:id="LXXVIII_p_001"> In nomine Domini, amen. <date when="1231-08-19">Anno a
+                        nativitate Dei millesimo CCXXXI°, indictione IIIIa, die qui fuit XIIII
+                        kalendas septembris</date>. Cum <persName ref="#GuilEpLuni"
+                            ><roleName>dominus</roleName> Guilielmus, <roleName>Dei gratia Lunensis
+                            episcopus</roleName></persName>, tenetur ex pacto olim celebrato inter
+                    quondam <persName ref="#GualEpLuni">Gualterotum, <roleName>Lunensem episcopum
+                            dominum</roleName></persName>, suum predecessorem, ex parte una, et
+                    <orgName ref="#Sarzana_comune">commune burgi</orgName> <placeName ref="#Sarzana">Sarzane</placeName>, ex alia, dare et
+                    assignare et acquirere terrena pro casamentis construendis et casis inter
+                    suprascriptum burgum et castrum hominibus venientibus ad habitandum ibidem de
+                    bonis sui episcopii, sicut continetur in instrumento facto manu publica, idem
+                        <persName ref="#GuilEpLuni"><roleName>dominus</roleName>
+                        Guilielmus</persName>, volendo pactum de ipsis terrenis atque casamentis,
+                    quod continebatur in suprascripto instrumento, observare, previsa insuper
+                    utilitate sui episcopii, per se suosque successores pro quibusdam terrenis que
+                        <persName ref="#CompagnonusIohannis">Compagnonus de <placeName
+                            ref="#Clausura">Clausura</placeName> Iohanni<supplied reason="omitted"
+                            >s</supplied> de <placeName ref="#Stopia">Stopia</placeName></persName>
+                    habebat in suprascripto loco, que extimata fuerunt in starium I et dimidium
+                    atque I tercium<note place="foot" n="a" xml:id="LXXVIII_n_001">tercium:
+                            <emph>aggiunto dalla stessa mano nel margine esterno, con segno di
+                            richiamo; successivamente aggiunto anche in sopralinea, senza segno di
+                            richiamo</emph>. </note> terciuma starii frumenti ficti, annuatim per
+                    mensem augusti solvendum, per extimatores positos et electos ab ipso domino
+                    Lunensi episcopo et communi suprascripto, cessit, dedit, tradidit atque
+                    mandavit, nomine cambii et commutationis, suprascripto <persName
+                        ref="#CompagnonusIohannis">Compagnono</persName> , recipienti pro se suisque
+                    heredibus et cui dare et committere voluerit, quoddam fictum, quod est annuatim
+                    per mensem augusti starium I et dimidium et tercium sextarii<note place="foot"
+                        n="b" xml:id="LXXVIII_n_002">sextarii: <emph>così nel testo per
+                        </emph>starii.</note>, cum omni iure soli et tenute unde solvitur ipsum
+                    fictum et cum omni amasiamento et dismasiamento; quod fictum dat et solvit et
+                    dare et solvere tenetur annuatim per mensem augusti <persName
+                        ref="#BonacursetusBonaventure">Bonacorsetus, filius quondam Bonaventure de
+                            <placeName ref="#Bellolo">Bellolo</placeName></persName> , et eius
+                    heredes de quodam orto posito in bradia domini Lunensis episcopi; coheret ei ab
+                    uno latere ortus suprascripti domini episcopi, superius atque inferius via
+                    publica, a capite ortus <persName ref="#Abraciator">Abraciator</persName>. Et
+                    similiter cessit et mandavit ei omnia iura et omnes actiones et rationes, tam
+                    utiles quam directas, reales, personales et mixtas, sibi in predicto et pro
+                    predicto ficto vel occasione ipsius competentia atque competentes quatinus hiis
+                    omnibus et singulis suprascriptus <persName ref="#CompagnonusIohannis"
+                        >Compagnonus</persName> suique heredes et cui commiserint inde et proinde
+                    suo nomine directo et utiliter agere et experiri possit adversus quamlibet
+                    personam et locum, et eum inde fecit atque constituit procuratorem et dominum in
+                    rem suam. Insuper constituit se ipsum fictum pro eo et eius nomine possidere vel
+                    quasi; quod quidem suprascriptum fictum cum omni iure soli et cum omni
+                    amasiamento et dismasiamento et cum omnibus rationibus et pertinentiis suis
+                        <supplied reason="omitted">in</supplied> integrum, iamdictus dominus
+                    episcopus per se suosque successores sollempni stipulatione promisit
+                    suprascripto <persName ref="#CompagnonusIohannis">Compagnono</persName>,
+                    recipienti pro se suisque heredibus et cui commiserit, ratione deffendere et
+                    exbrigare ab omni contradicente et impediente persona et loco, in parte et toto,
+                    vel restaurare, et salvum cambium inde dare in duplum in consimili loco, si
+                    deffensare non posset et non deffenderet, sub iusta bonorum hominum extimatione,
+                    obligando se suosque successores et omnia bona sui episcopii <pb n="198r"
+                        xml:id="fol_198r"/> et renunciando omni iuri ecclesiastico et civili et omni
+                    alii iuri et legi pro se introducto. Pro quo et de quo suprascripto cambio et
+                    datione ipsius cambii suprascriptus <persName ref="#CompagnonusIohannis"
+                        >Compagnonus</persName> per se suosque heredes dedit, tradidit et mandavit,
+                    nomine cambii et commutationis, eidem domino Lunensi episcopo, recipienti pro se
+                    suisque successoribus atque cui commiserit, totos suprascriptos terrenos seu
+                    ortos quos habet in predicto loco suprascriptus <persName
+                        ref="#CompagnonusIohannis">Compagnonus</persName>, scilicet omnes illos qui
+                    extimati fuerunt per suprascriptos extimatores, cum omni iure, actione et
+                    proprietate, usu et utilitate et cum accessibus et regressibus et cum
+                    superioribus et inferioribus et cum omnibus rationibus et pertinentiis suis in
+                    integrum. De quo suprascripto cambio iamdictus <persName
+                        ref="#CompagnonusIohannis">Compagnonus</persName> suique heredes ita
+                    teneantur in omnibus atque per omnia suprascripto domino Lunensi episcopo et
+                    eius successoribus, sicut idem dominus Lunensis episcopus et eius successores
+                    sibi tenentur et se superius sibi obligant. Hec quidem suprascripta cambia atque
+                    dationes et traditiones ipsorum et omnia<supplied reason="omitted"
+                        >que</supplied> in hac carta leguntur perpetuo ratas et rata habere, firmas
+                    et firma tenere et in nullo contra venire vel facere iamdicti contrahentes per
+                    se et eorum successores et heredes inter se ad invicem, sollempni stipulatione,
+                    promiserunt; alioquin solvat pars parti fidem servanti, nomine pene, <measure
+                        type="Imperiales" quantity="100" unit="soldi">soldos C
+                    imperialium</measure>, rato manente pacto, obligando se suosque successores et
+                    heredes et bona eorum pro suprascriptis et quolibet eorum firmiter conservandis. </p>
+                <p xml:id="LXXVIII_p_002"> Actum in curia <placeName ref="#Sarzanello">castri
+                        Sarzane</placeName>, sollempniter cum stipulatione subnixa, presentibus
+                        <persName ref="#TedisiusBaldoini">Tedisio quondam Baldoini</persName>,
+                        <persName ref="#Prefectusnot">Prefecto
+                        <roleName>notario</roleName></persName>, <persName
+                        ref="#Gerardettus_notarius">Gerardetto
+                        <roleName>notario</roleName></persName>, <persName ref="#Bordonus"
+                        >Bordono</persName>, <persName ref="#GuilielmusTestafortis">Guilielmo
+                        quondam Testafortis</persName> et aliis testibus ad hec rogatis. </p>
+                <p xml:id="LXXVIII_p_003">
+                    <ptr target="LXXVIII_st_001"/> Ego <persName ref="#Comesnot">Comes,
+                            <roleName>domini Frederici Romanorum imperatoris
+                        notarius</roleName></persName> hiis omnibus interfui atque rogatus scripsi.
+                    Hoc exemplum lectum fuit et abscultatum coram <persName ref="#Tepertus_potestas"
+                            ><roleName>domino</roleName>Teperto, <roleName>potestate</roleName>
+                        <placeName ref="#Sarzana">Sarzane</placeName></persName> pro tribunali
+                    sedente, qui suam auctoritatem atque decretum huic publicationi interposuit et
+                    prestavit, anno a nativitate <date when="1250-02-03">anno a nativitate Domini
+                        M°CCL, indictione VIIIa, die tercio februarii<note>Autentica del documento
+                            n. 95-LXXVIII</note></date>, sub porticu communis <placeName
+                        ref="#Sarzana">Sarzane</placeName> ubi iura pro ipso communi redduntur,
+                    presentibus <persName ref="#Paganinusnot">Paganino
+                        <roleName>notario</roleName></persName>, <persName ref="#Philippusnot2"
+                        >Philippo <roleName>notario</roleName></persName>, <persName
+                        ref="#Posa_notarius">Posa <roleName>notario</roleName></persName> atque
+                        <persName ref="#Simonetusnot">Symoneto
+                        <roleName>notario</roleName></persName> et aliis testibus ad hec
+                    rogatis.</p>
+                <div type="autentica">
+                    <p xml:id="LXXVIII_p_004">
+                        <ptr target="LXXVIII_st_002"/> Ego <persName ref="#Tebaldinus_notarius"
+                            >Tebaldinus, <roleName>sacri palatii notarius</roleName></persName>, ut
+                        scriptum inveni ita ergo per ordinem exemplavi diligenter, nullo addito vel
+                        minuto vel mutato, quod mutet sensum vel variet intellectum, et coram dicto
+                            <persName ref="#Tepertus_potestas"><roleName>domino</roleName>
+                            Teperto</persName> et testibus iamdictis exemplum presens legi et de
+                        eius mandato et auctoritate scripsi et <supplied reason="omitted">in
+                            integrum</supplied> publicavi et proprio signo signavi. </p>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

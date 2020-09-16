@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="\schema\tei_cp.rng" type="application\xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXXII_434">
+    <front>
+
+      <titlePart type="numerazioneNuova">434</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXII</titlePart>
+
+      <docDate xml:id="CCCCLXXII_docDate">
+        <date when="1218-08-06">1218 agosto 6</date>, <placeName>Padivarma <emph>(<term
+              xml:lang="latin">in burgo de Padulvarmo</term>), </emph></placeName>
+        <placeName>Castiglione Vara <emph>(<term xml:lang="latin">in plano Castillione, prope ipsum
+              castrum de Castillione</term>), </emph></placeName>
+        <placeName>Urticeto sotto Madrignano <emph>(<term xml:lang="latin">Urticeto, subter
+              Madrognanum, in glarea Vare</term>), </emph></placeName>
+        <placeName>Liccia <emph>(<term xml:lang="latin">apud Licciam</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXXII_regesto">
+        <p> Il vescovo di Luni Marzucco, dopo aver ricevuto l’autorizzazione del vescovo di Lucca
+          riguardo alla causa che aveva contro gli Aldaberti di Pontremoli, prende possesso
+          dell’intero loro podere, comprensivo di diritti e vassalli, che gli Aldaberti reclamavano
+          nella diocesi di Luni, in particolare a Tivegna, Castiglione Vara e Bracelli. Riguardo a
+          Bracelli il vescovo entra nella chiesa di Padivarma e tira le corde delle campane fino a
+          farle suonare, chiedendo al cappellano Andrea e al console Marzolo di annunziare la presa
+          di possesso agli uomini delle due comunità, Padivarma e Bracelli, e di proibire loro, a
+          suo nome, di obbedire agli Adalberti. Passa poi a Castiglione Vara dove entra e prende per
+          i capelli tale Accorseto; medesima cosa fa a <emph><placeName>Urticeto</placeName></emph>
+          con tale Gerardo di Tivegna e a <emph><placeName>Liccia</placeName></emph> con gli uomini
+          di Tivegna lì presenti.</p>
+      </div>
+      <div type="footer" xml:id="CCCCLXXII_footer">
+        <div type="orig_doc">
+          <p>Copia [C] c. 361r.-361v., cc. CCCLIIr.-CCCLIIv., secondo la numerazione originale.</p>
+        </div>
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 472, pp.
+            479-481.</p>
+        </div>
+        <div type="crit_notes">
+          <note>
+            <p>Parte del documento è stata letta con l'ausilio della luce di Wood. Nel margine
+              esterno è vergata un'annotazione illeggibile.</p>
+          </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXII. De privatione et tenuta contra Aldebertos.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCLXXII_div">
+        <p xml:id="CCCCLXXII_p_001" n="1"> In nomine Domini, amen.<date when="1218-08-06"> Anno a
+            nativitate Dei MCCXVIII, indictione VI, die lune, VI mensis augusti</date>, presentibus
+          testibus infrascriptis. Dominus <persName ref="#MarzuccusEpLuni">Marzucus<roleName>, Dei
+              gratia Lunensis episcopus</roleName></persName>, cum haberet tenutam contumacie a
+            <roleName>domino</roleName>
+          <persName ref="#RobertusepiLuc">Lucano</persName>
+          <roleName><supplied>episcopo</supplied></roleName>, cognitore ex delegatione domini pape
+          super causa quam dictus Lunensis episcopus movet et movebat adversus <name
+            type="familia" ref="#AdelbertiFamilia">Aldebertos de <placeName ref="#Pontremoli"
+              >Pontremulo</placeName></name> super omni feudo quod tenent ab episcopatu et
+          specialiter super omni podere et districtu et honore et hominibus et vassallis, quos et
+          quod habent ab episcopatu Lunensi in <placeName ref="#Tivegna">Tivegnia</placeName> et in
+            <placeName ref="#CastiglionediVarese">Castillione de Varese</placeName> et in <placeName
+            ref="#Bracellis">Bracellio</placeName> et districtu seu pertinenciis predictorum
+          castrorum seu locorum, habens suprascriptus episcopus Lunensis auctoritatem a iamdicto
+          domino Lucano episcopo ut in tenu<supplied>tam</supplied> intraret de omnibus predictis,
+          sic idem dominus <persName ref="#MarzuccusEpLuni">Marzucus</persName>, Lunensis episcopus,
+          pro se et iamscripto episcopio et episcopatu, incipiens a <placeName ref="#Bracellis"
+            >Bracello</placeName>, pro ipso castro de <placeName ref="#Bracellis"
+            >Bracello</placeName> et districtu atque honore et hominibus <pb n="361v"
+            xml:id="fol_361v"/> et pro omnibus que ad ipsum castrum pertine<supplied>n</supplied>t,
+          in tenutam inde intravit, accipiendo in ecclesia burgi de <placeName ref="#Padulvarmo"
+            >Padulvarmo</placeName> funes campanarum, pulsando ipsas campanas pro tenuta ipsius
+          burgi et castri de <placeName ref="#Bracellis">Bracellio</placeName> et hominum ipsorum
+          locorum et pro omnibus predictis iamdicti burgi castri de <placeName ref="#Bracellis"
+            >Bracellio</placeName>. Et precepit idem dominus Lunensis episcopus <roleName>presbytero
+              <persName ref="#Andreapres">Andree</persName>, cappellano ipsius <orgName
+              ref="#Padivarma_S_Lorenzo">ecclesie de <placeName ref="#Padulvarmo"
+                >Padulvarmo</placeName></orgName>,</roleName> ut ipse in ecclesia suo populo de
+            <placeName ref="Padulvarmo">Padulvarmo</placeName> et de <placeName ref="#Bracellis"
+            >Bracellio</placeName>, ex parte ipsius domini episcopi, prohiberet ne ipsi de cetero
+          <name type="familia" ref="#AdelbertiFamilia">Aldebertis</name> predictis in aliquo nec aliquibus
+          obedirent et ut iamdictis de <placeName ref="#Padulvarmo">Padulvarmo</placeName> et de
+            <placeName ref="#Bracellis">Bracellio</placeName> publice in ecclesia nunciaret hanc
+          suprascriptam tenutam, quam de ipsis et omnibus suprascriptis accepit, nunciando eisdem
+          hominibus de <placeName ref="#Bracellis">Bracellio</placeName> et de <placeName
+            ref="#Padulvarmo">Padulvarmo</placeName>, ex parte dicti domini Lunensis episcopi,
+          quatenus in nullo iamdictis <name type="familia" ref="#AdelbertiFamilia">Aldebertis</name> servirent. Et
+          similiter iamscriptus dominus Lunensis episcopus precepit <persName ref="#Marzoluscons"
+            >Marzolo</persName>, presenti, <roleName>consuli de <placeName ref="#Bracellis"
+              >Bracellio</placeName></roleName>, pro se et suo populo et <orgName ref="#Bracelli_comune"
+                >communi de <placeName
+            ref="#Bracellis">Bracellio</placeName></orgName> audienti et recipienti, hoc dictum preceptum. Que
+          omnia suprascripta prefatus dominus Lunensis episcopus in tali ordine<note place="foot"
+            n="a" xml:id="CCCCLXXII_n_001"><term>ordine</term>: ine <emph>corretto su precedente
+              scrittura</emph>.</note> me <persName ref="#Prefectusnot">Prefectum</persName>
+          <roleName>notarium</roleName> scribere rogavit. </p>
+        <p xml:id="CCCCLXXII_p_002" n="2"> Acta sunt hec<note place="foot" n="b"
+            xml:id="CCCCLXXII_n_002">
+            <emph>Nel testo segue, depennato ed espunto:</emph> de</note> in burgo de <placeName
+            ref="#Padulvarmo">Padulvarmo</placeName>, sollempniter, presentibus <persName
+            ref="#SygeriusPisanus">Sygerio Pisano</persName>, <persName ref="#RollandusClerici"
+            >Rollando quondam Clerici</persName>, <persName ref="#BandinacusPadulvarmo"
+              >Bandinaco<note place="foot" n="c" xml:id="CCCCLXXII_n_003"><term>Bandinaco: co
+                  <emph>corretto su precedente lettera.</emph></term></note> de <placeName
+              ref="#Padulvarmo">Padulvarmo</placeName></persName>, <persName ref="#HenricusBalzano"
+            >Henrico de <placeName ref="#Balzano">Balzano</placeName></persName> et aliis multis de
+            <placeName ref="#Padulvarmo">Padulvarmo</placeName> et de <placeName ref="#Bracellis"
+            >Bracellio</placeName>, testibus ad hec rogatis. </p>
+        <p xml:id="CCCCLXXII_p_003" n="3"> Paulo postea, eodem anno et mense et eadem presente die,
+          in plano de <placeName ref="#Castiglione">Castillione</placeName>, prope ipsum castrum de
+            <placeName ref="#Castiglione">Castillione</placeName>, presentibus dicto <persName
+            ref="#SygeriusPisanus">Sygerio</persName>, <persName ref="#Aldeprandusvic"
+            >Aldeprando</persName>
+          <roleName>vicedomino</roleName>, <persName ref="#HenricusBalzano">Henrico de <placeName
+              ref="#Balzano">Balzano</placeName></persName>, <persName ref="#PresbyteroFelecto"
+            >Presbytero de <placeName ref="#Felecto">Felecto</placeName><note place="foot" n="d"
+              xml:id="CCCCLXXII_n_004"><term>Felecto</term>: <emph>c aggiunta in
+              sopralinea</emph>.</note></persName>, testibus ad hec rogatis, suprascriptus dominus
+          episcopus Lunensis, auctoritate predicta, quemdam de iamscripto loco <placeName
+            ref="#CastiglionediVarese">Castilione de Varese</placeName>, nomine <persName
+            ref="#Accursettus">Accursettum</persName>, cepit per capillos, intrando de ipso et de
+          predicto loco et castro <placeName ref="#Castiglione">Castilione<note place="foot" n="e"
+              xml:id="CCCCLXXII_n_005"><term>Castillione</term>: <emph>tili corretto suprecedente
+                scrittura</emph>.</note></placeName> et districtu et honore et hominibus ipsius
+          castri atque de omnibus ad ipsum castrum pertinentibus in tenutam.</p>
+        <p xml:id="CCCCLXXII_p_004" n="4"> Paulo postea, eodem anno et mense et eadem presente die,
+          coram eisdem testibus, in <placeName ref="#Urticeto">Urticeto</placeName>, subter
+            <placeName ref="#Madrognano">Madrognanum</placeName>, in glarea <placeName ref="Vara"
+            >Vare</placeName>, cum iamscriptus dominus <persName ref="#MarzuccusEpLuni"
+            >Marzucus</persName>, <roleName>Lunensis episcopus</roleName>, inveniret quemdam de
+            <placeName ref="#Tivegna">Tivegnia</placeName>, nomine <persName ref="#GerardusTivegnia"
+            >Gerardum</persName>, cum quibusdam aliis de <placeName ref="#Tivegna"
+            >Tivegnia</placeName>, eundem <persName ref="#GerardusTivegnia">Gerardum</persName>
+          cepit per capillos, intrando de ipso, auctoritate predicta, et de omnibus hominibus de
+            <placeName ref="#Tivegna">Tivegnia</placeName> et de ipso castro <placeName
+            ref="#Tivegna">Tivegnie</placeName> et de tota curia et districtu et honore ipsius
+          castri et de omnibus ad ipsum castrum pertinentibus in tenutam.</p>
+        <p xml:id="CCCCLXXII_p_005" n="5"> Postea vero, eodem anno et mense et eadem presente die,
+          apud <placeName ref="#Liccia">Licciam</placeName>, coram eisdem testibus et multis de
+          hominibus de <placeName ref="Tivegna">Tivegnia</placeName> presentibus, cum prefatus
+          dominus <persName ref="#MarzuccusEpLuni">Marzucus</persName>, <roleName>Lunensis
+            episcopus</roleName>, homines de <placeName ref="Tivegna">Tivegnia</placeName>
+          inveniret, de ipsis hominibus similiter pro ipsis et dicto castro de <placeName
+            ref="#Tivegna">Tivegnia</placeName> et honore et curia et districtu et omnibus
+          hominibus, qui et que ad dictum castrum et honorem et curiam seu disctrictum
+            pertine<supplied>n</supplied>t, auctoritate predicta, in tenutam intravit.</p>
+      </div>
+      <div xml:id="CCCCLXXII_div2">
+        <p xml:id="CCCCLXXII_p_006" n="6">
+          <ptr target="#CCCCLXXII_st_001"/> Ego <persName ref="#Prefectusnot">Prefectus</persName>,
+            <roleName>domini imperatoris et Lunensis curie notarius</roleName>, hiis omnibus
+          iamscriptis tenutis interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

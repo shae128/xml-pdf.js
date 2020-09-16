@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXXIIII_436">
+    <front xml:id="CCCCLXXIIII_front">
+
+      <titlePart type="numerazioneNuova">436</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXIIII</titlePart>
+
+      <docDate xml:id="CCCCLXXIIII_docDate">
+        <date when="1221-08-01"> &lt;1221 agosto 1&gt;</date> o<date when="1221-08-02"> &lt;1221
+          agosto 2&gt;</date>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXXIIII_regesto">
+        <p> Memoriale dei diritti della curia Lunense su Bracelli. Avendo il vescovo la
+          giurisdizione sulla terza parte del castello di Bracelli e su alcuni uomini di quel luogo,
+          i consoli di Bracelli Vencolo, Bandinaco e Ughicione danno al Vescovo Norandino 9 soldi di
+          genovesi, tenendo per sé i 16 soldi corrispondenti ai due terzi della giurisdizione,
+          ricavati in particolare dall’omicidio commesso a Bracelli da un uomo del vescovo. Si
+          ricordano inoltre i contributi porcata e amiscere dovuti alla curia di Luni a Castiglione
+          Vara.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXXIIII_footer">
+        <div type="orig_doc">
+          <p>Copia [C] c. 362v., c. CCCLIIIv., secondo la numerazione originale.</p>
+        </div>
+        <div type="biblio">
+          <p>Edizione pressochè integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 474, p. 485.</p>
+        </div>
+        <div type="crit_notes">
+          <note>
+            <p> Il documento è privo di data e di sottoscrizione notarile. La presenza del vescovo
+              Norandino pone la datazione tra il 1221 e il 1223; tuttavia il contenuto è analogo al
+              doc. n. 439-CCCCLXXVII redatto dal notaio Conforto a Bracelli, il quale agì nel
+              medesimo luogo anche il giorno precedente (437-CCCCLXXV). Da qui la datazione
+              proposta. Cfr. <ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 32.</p>
+            <p> Parte del documento è stata letta con l'ausilio della luce di Wood.</p>
+          </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXIIII. Memorial(is) reddituum de Bracellis.</term></p>
+        </div>
+      </div>
+
+    </front>
+    <body>
+      <div xml:id="CCCCLXXIIII_div">
+        <p xml:id="CCCCLXXIIII_p_001" n="1"> In nomine Domini, amen. Scriptum memoriale perpetuo
+          valiturum tale est et huiusmodi, videlicet quod, cum dominus Lunensis episcopus pro suo
+          episcopio et episcopatu Lunensi habent <note place="foot" n="a" xml:id="CCCCLXXIIII_n_001"
+              ><term>habent</term>: così nel testo;</note> dominium et iurisdictionem pro tertia
+          parte in castro et de castro <placeName ref="#Bracellis">Bracelli</placeName> et eius
+          districtu et de hominibus ipsius loci et eius districtu, <persName ref="#VencolusBracelli"
+            >Vencolus</persName>, <persName ref="#BandinacusBracelli">Bandinacus</persName> et
+            <persName ref="#UguicionusBracelli">Ugicionus</persName>, <roleName>consules
+            de</roleName>
+          <placeName ref="#Bracellis">Bracello</placeName>, dederunt domino <persName
+            ref="#NorandEpLuni">Norandino</persName>, <roleName>Lunensi episcopo</roleName>,
+          recipienti pro suo episcopio et episcopatu, <measure type="Ianuensis" quantity="9"
+            unit="solidus">soldos IX Ianuensium</measure>, pro parte ipsius domini episcopi et sue
+          Lunensis curie eidem Lunensi curie contingenti, sicut est pro tertia parte iamscripte
+          Lunensis curie; et ipsi consules pro parte <orgName ref="#Bracelli_comune"
+            >communis iamscripti castri</orgName>, videlicet pro
+          duabus partibus, in se retinuerunt <measure type="Ianuensis" quantity="9" unit="solidus"
+            >soldos IX Ianuensium</measure>, specialiter pro quodam homicidio facto in quemdam
+          hominem de <placeName ref="#Bracellis">Bracello</placeName> a quodam homicidiario de
+            <placeName ref="#Bracellis">Bracello</placeName>, qui erat homo dicti domini episcopi.
+          De hac contraebo <note place="foot" n="b" xml:id="CCCCLXXIIII_n_002"
+              ><term>contraebo</term>: <emph>così nel testo per</emph> contraibo.</note> presens
+          fieri instrumentum a <persName ref="#Prefectusnot">Prefecto</persName>
+          <roleName>notario</roleName>; sicut non habet rogatum de instrumento comparere, non
+          recordatur si habet nichillominus pro ipso habendo. </p>
+        <p xml:id="CCCCLXXIIII_p_002" n="2"> Hec sunt porcata et amiscera quas <note place="foot"
+            n="c" xml:id="CCCCLXXIIII_n_003"><term>quas</term>: <emph>così nel testo</emph>.</note>
+          debet habere Lunensis curia in <placeName ref="#CastiglionediVarese"
+            >Castillione</placeName>: de manso de <placeName ref="#Campo">Campo</placeName>
+          <measure quantity="22" unit="denarius">XXII denarios</measure>; de manso de <placeName
+            ref="#Lacu">Lacu</placeName>
+          <measure quantity="22" unit="denarius">XXII denarios</measure>; de manso de <placeName
+            ref="#SerraBra">Serra</placeName>
+          <measure quantity="22" unit="denarius">XXII denarios</measure>; de manso de <placeName
+            ref="#MonteBra">Monte</placeName>
+          <measure quantity="28" unit="denarius">XXVIII denarios</measure>; de tenuta illorum de
+            <placeName ref="#Fuce">Fuce</placeName>
+          <measure quantity="3" unit="denarius">III denarios</measure>; in domo <persName
+            ref="#GuidolinusBuscano">Guidolini de <placeName ref="#Buscano"
+            >Buscano</placeName></persName>
+          <measure quantity="1" unit="denarius">I denarios</measure>: et isti denarii debent solvi
+          porcata. Item de manso illorum de <placeName ref="#Campo">Campo</placeName> omni anno I
+          amiscere; item de manso de <placeName ref="#Lacu">Lacu</placeName> omni anno I amiscere;
+          item de tenuta de <persName ref="#Gasterinus">Gasterino</persName> omni anno II amiscera,
+            pane<supplied reason="omitted">m</supplied> et spalla<supplied reason="omitted"
+            >m</supplied>; item de tenuta <persName ref="#PetrusFelotoso">Petri de <placeName
+              ref="#Felotoso">Felotoso</placeName></persName> omni anno I amiscere, panem et
+          spallam. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

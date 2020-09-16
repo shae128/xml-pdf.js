@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="\schema\tei_cp.rng" type="application\xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="DLIII_515">
+        <front xml:id="DLIII_front">
+
+            <titlePart type="numerazioneNuova">515</titlePart>
+            <titlePart type="numerazioneOrig">DLIII</titlePart>
+
+            <docDate xml:id="DLIII_docDate">
+                <date when="1241-10-21">1241 ottobre 21</date>, <placeName>Massa Pisana</placeName>
+                    (<term xml:lang="latin">(in ecclesia Sancte Marie Lenundicis, in confinibus
+                    Masse Pisane, Lucane dyocesis</term>) </docDate>
+
+            <div type="regesto" xml:id="DLIII_regesto">
+                <p>Il vescovo di Luni Guglielmo, in presenza di Corrado primicerio di Lucca e del
+                    priore di S. Martino di Guatolongo di Pisa, chiede che entrambi o uno dei due
+                    eseguano il mandato loro fatto da Giovanni, uditore inviato dal papa al vescovo
+                    di Luni e all’abate di S. Michele di Orticaia riguardo al monastero di S. Croce
+                    del Corvo; chiede inoltre che recepiscano la garanzia da lui offerta attarverso
+                    idonei fideiussori; chiede infine che agiscano immediatamente, dato che il
+                    termine del mandato sta per scadere. Al rifiuto del priore di S. Martino di
+                    eseguire il mandato dietro la motivazione che era giorno festivo, il vescovo
+                    contesta il ruolo del priore stesso, in quanto scomunicato, e chiede che agisca
+                    solo il primicerio. Costui risponde di essere pronto a eseguire il mandato e
+                    quindi assolve il vescovo per cautela e assegna alle parti in causa il termine
+                    perentorio dell’ottavo giorno dopo la festa di S. Andrea entro cui debbano
+                    comparire di fronte al detto uditore Giovanni, facendo presenti le loro ragioni
+                    riguardo al suo mandato. </p>
+            </div>
+
+            <div type="footer" xml:id="DLIII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] c. 404v., c. CCCLXXXXVIv. secondo la numerazione originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 551, p.626</p>
+                </div>
+
+                <div type="crit_notes">
+                    <note>
+                        <p>In fondo alla carta, di mano moderna, le prime parole del fascicolo
+                            successivo: <term xml:lang="latin">In nomine Patris</term></p>
+                    </note>
+                </div>
+
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">DLIII. Qualiter episcopus Lunensis obtulit ydoneas
+                            securitates delegatiis et subdelegatiis a sede apostolica detis sibi et
+                            monasterio de Orticaria et loco Sancte Crucis de Corbo.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="DLIII_div">
+                <pb n="404v" xml:id="fol_404v"/>
+                <p xml:id="DLIII_p_001" n="1"> In nomine Domini, amen. <date when="1241-10-21">Anno
+                        ab incarnatione Domini M°CCXLI, XII kalendas novembris, indictione
+                        XIIII</date>. Hiis publicis litteris omnibus audientibus clareat manifeste
+                    quod venerabilis <persName ref="#GuilEpLuni">Guilielmus, <roleName>Dei gratia
+                            Lunensis episcopus</roleName></persName>, personaliter constitutus in
+                    presentia <persName ref="#Conradus_primicerius"><roleName>dominorum</roleName>
+                        Conradi, <roleName>Dei gratia primicerii Lucani, et prioris</roleName>
+                        <orgName ref="#Pisa_S_Martino_Guatolongo">Sancti Martini de <placeName
+                                ref="#Guatholongo">Guathalungo Pisanorum</placeName></orgName>
+                    </persName>, instanter petiit ut ipsi ambo vel alter eorum, si unus de facto
+                    interesse nollet vel de iure non posset, exequantur vel exequatur mandatum eis
+                    factum per <persName ref="#Iohannes_magister"><roleName>magistrum</roleName>
+                        Iohannem</persName> auditorem datum per dominum papam domino <orgName
+                        ref="#episcopo Lucanoa">episcopo Lucano <note place="foot" n="a"
+                            xml:id="DLIII_n_001">Lucano: <emph>così nel testo per</emph> Lunensi,
+                                <emph>cfr. qualche riga più sotto</emph>.</note></orgName> et abbati
+                        <orgName ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis de <placeName
+                            ref="#Orticaria">Orticaria Pisanorum</placeName></orgName> super
+                    monasterio <orgName ref="#Corvo_S_Croce">Sancte Crucis de <placeName
+                            ref="#Corvo">Corvo</placeName></orgName>, Lunensis dyocesis, et ut
+                    recipiant securitatem vel recipiat, secundum tenorem dictarum litterarum, a
+                    domino episcopo, quam offert et paratus est facere per fideiussores ydoneos,
+                    videlicet per nobiles <persName ref="#BonifaciusLiena">Bonifacium
+                        Lienam</persName>, civem <placeName ref="#Lucca">Lucanum</placeName>,
+                        <persName ref="#GerardinusColle">Gerardinum de <placeName ref="#Colle3"
+                            >Colle</placeName></persName>, <persName ref="#GerardusCarraria"
+                        >Gerardum de <placeName ref="#Carrara">Carraria</placeName></persName>,
+                        <persName ref="#HenrigetusBoccius">Henrigetum Boccium</persName>, <persName
+                        ref="#BonvisusLucanus">Bonvisum <placeName ref="#Lucca"
+                        >Lucanum</placeName></persName>, <persName ref="#FredericusCarraria"
+                        >Fridericum de <placeName ref="#Carrara"/>Carraria</persName> et alios, si
+                    plures sunt necessarii fideiussores, qui presentes a<supplied reason="omitted"
+                        >d</supplied> predicta se offerunt et offert etiam aliam cautionem
+                    quamcumque que ydonea reputetur et specialiter per proprium iuramentum hec
+                    offert et petit ut fiant incontinenti cum terminus sit ita brevis quod, si ultra
+                    differatur, non possit exequi quod mandatur. Hiis auditis, primicerius
+                    antedictus requisivit presertim priorem si volebat exequi mandatum domini
+                    Iohannis, auditoris dati per dominum papam dictis domino Lunensi episcopo et
+                    abbati et <orgName ref="#Pisa_S_Michele_Orticaria">conventui Sancti
+                        Michaelis</orgName>, et idem dominus prior respondit quod in nullo procedere
+                    volebat cum esset dies feriatus, ut dicebat. Post hec venerabilis Lunensis
+                    episcopus incontinenti protestatus fuit quod dictus prior <orgName
+                        ref="#Pisa_S_Martino_Guatolongo">Sancti Martini</orgName> predictis
+                    exequendis de iure interesse non poterat cum sit publice et sollempniter
+                    excomunicatus, et ad hoc induxit publicum instrumentum et petiit instanter a
+                    dicto primicerio ut, cum dictus prior <orgName ref="#Pisa_S_Martino_Guatolongo"
+                        >Sancti Martini</orgName> executioni premissarum litterarum de facto
+                    interesse nollit et de iure non possit cum sit excomunicatus ut dictum est; ipse
+                    primicerius predictum exequatur mandatum cum de iure hoc possit per illam
+                    clausolam quod “si non ambo” et cetera, et ipse dominus primicerius respondit
+                    quod paratus erat exequi prefatum mandatum cum ad hec non esset dies feriatus et
+                    terminus esset ita brevis quod, nisi tunc fieret executio ipsius mandati,
+                    terminari non posset et cum iudices quibus debebat inhiberi ne de cetero in
+                    causa procederent in parte una distarent per XXX miliaria et in alio<note
+                        place="foot" n="b" xml:id="DLIII_n_002">alio: <emph>così nel testo
+                            per</emph> alia.</note> per XXXVI miliaria, opinione ita, quod ille
+                    articulus de prohibitione ne iudices in causa procederent et alius qui
+                    denunciaretur absolutus si in sequentem diem fuisset dilatio, non potuissent
+                    expediri et paratus erat recipere iuratoriam et fideiussoriam cautionem domini
+                    episcopi super hiis que in mandato continentur et alia facere ut debeant de
+                    iure; et tunc dominus Lunensis episcopus iuravit coram positis quod stabit iuri
+                    et quod satisfaciet congrue pro quibus excomunicatus dicitur et ad hec dedit
+                    iuratores <persName ref="#BonifaciusLiena"><roleName>dominos</roleName>
+                        Bonifatium Lienam</persName>, <persName ref="#GerardinusColle">Gerardinum de
+                            <placeName ref="#Colle3">Colle</placeName></persName>, <persName
+                        ref="#BonvisusLucanus">Bonvisum</persName>, <persName
+                        ref="#HenrigetusBoccius">Henrigetum Boccium</persName>, cives <placeName
+                        ref="#Lucca">Lucanos</placeName>, <persName ref="#GerardusGandulfini"
+                        >dominum Gerardum quondam Gandolfini</persName> et <persName
+                        ref="#FredericusPelegriniPal">Fredericum quondam Peregrini <placeName
+                            ref="#Padule">de la Padule,</placeName>
+                        <placeName ref="#Carrara">Carrarienses</placeName></persName>, et ipse
+                    dominus primicerius, ad cautelam, dictum dominum episcopum absolvit et
+                    assignavit terminum perhemptorium dicto domino episcopo et fratri <persName
+                        ref="#Benedictus_frater">Benedicto, <roleName>syndico ecclesie et
+                            monasterii</roleName>
+                        <orgName ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis Discalciatorum
+                                <placeName ref="#Pisa">Pisanorum</placeName></orgName>
+                        <roleName>et abbati eiusdem monasterii</roleName></persName>, presentibus ut
+                    octava die post proximum festum Sancti Andree compareant coram <persName
+                        ref="#Iohannes_magister"><roleName>domino </roleName>Iohanne, <roleName>
+                            archipresbytero</roleName>
+                        <orgName ref="#Roma_S_Eusebio_Esquilino">Sancti Eusebii de</orgName>
+                        <placeName ref="#Roma">Urbe</placeName>
+                        <roleName>et cappellano domini pape</roleName></persName>, auditore
+                        <supplied reason="omitted">ab</supplied> eodem domino papa concesso dictis
+                    partibus, et ut compareant coram dicto auditore in dicto termino per se vel
+                    procuratores ydoneos et faciant et observent omnia que in mandato continentur
+                    sibi facto et dicto priori a prefato auditore, dictis partibus presentibus,
+                    firmiter precepit. </p>
+                <p xml:id="DLIII_p_002" n="2">Acta sunt hec in <orgName ref="#Lucca_S_Maria_Giudice"
+                        >ecclesia Sancte Marie Lenundicis</orgName>, in confinibus <placeName
+                        ref="#Massa_Pisana">Masse Pisane</placeName>
+                    <orgName ref="#Lucca_diocesis">Lucane dyocesis</orgName>, coram <persName
+                        ref="#Ubertus_presbyter2"><roleName>presbytero</roleName> Uberto dicte
+                        ecclesie <orgName ref="#Lucca_S_Maria_Giudice">Sancte Marie
+                            Lenundicis</orgName></persName> et <persName ref="#Manducator_magister"
+                            ><roleName>magistro</roleName> Manducatore,
+                            <roleName>canonico</roleName>
+                        <orgName ref="#Lucca_S_Martino_canonica">Sancti Martini
+                        Lucani</orgName></persName>, et <persName ref="#OrlandusVagus">Orlando dicto
+                        Vago</persName> et <persName ref="#UbertusSalamoncelli">Uberto, filio
+                        Salamoncelli, </persName>testibus ad hec rogatis et pluribus aliis. </p>
+                <p xml:id="DLIII_p_003" n="3">
+                    <ptr target="DLIII_st_001"/> Ego <persName ref="#RodulfusGuittoni_notarius"
+                        >Rodulfus quondam Guittonis de <placeName ref="#Ficechio"
+                            >Ficeclo</placeName>, <roleName>imperialis aule iudex ordinarius atque
+                            notarius</roleName></persName>, suprascriptis omnibus interfui et hec,
+                    causa memorie, de voluntate suprascripti domini episcopi et primicerii in
+                    publicam scripturam redegi. </p>
+                <p xml:id="DLIII_p_004" n="4"><ptr target="DLIII_st_002"/>
+                    <persName ref="#Antonius_notarius">Antonius, <roleName>iudex ordinarius et
+                            notarius</roleName></persName>, premissis omnibus interfui et de mandato
+                    primicerii Lucani subscripsi et proprio signo signavi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

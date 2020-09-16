@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="XI_40">
+		<front xml:id="XI_front">
+
+			<titlePart type="numerazioneNuova">40</titlePart>
+			<titlePart type="numerazioneOrig">XI</titlePart>
+
+			<docDate xml:id="XI_docDate">
+				<date when="1228-02-26"> 1228 febbraio 26 </date>, <placeName ref="#Laterano">
+						Laterano(<term xml:lang="latin">Laterani</term>) </placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="XI_regesto">
+				<p>Papa Gregorio <supplied reason="omitted">IX</supplied>, dietro richiesta del
+					vescovo di Luni <supplied reason="omitted">Guglielmo></supplied> e considerando
+					il fatto che la chiesa lunense non possiede gli atti probanti i suoi beni e
+					diritti, incarica il priore di Carrara di ascoltare con diligenza le deposizioni
+					di testimoni e, sulla base delle informazioni raccolte, ordinare la redazione di
+					documenti pubblici.</p>
+			</div>
+
+			<div type="footer" xml:id="XI_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] cc. 62r.,c. LIIIIr. secondo la numerazione originale</p>
+				</div>
+
+				<div type="biblio">
+					<p>Regesto: <ref target="#SFORZA_1922">SFORZA 1922</ref>, n. 28, pp.
+						132-133.</p>
+					<p> Edizioni: <ref target="#DESIMONI_1888">DESIMONI 1888</ref>, doc. I, p. 89,
+						con la data 1074 febbraio 25 (riferito a papa Gregorio VII);<ref
+							target="#LUPO_GENTILE_1912"> LUPO GENTILE 1912</ref>, n. 11, p. 14,
+						senza data. </p>
+				</div>
+
+				<div type="crit_notes">
+					<note><p>La datazione ha come unici due punti fermi il nome del pontefice,
+							Gregorio, e la sua presenza in Laterano per il 26 febbraio nel primo
+							anno di pontificato. Solo due papi rispondono a queste caratteristiche:
+							ossia Gregorio VII e Gregorio IX. Il nome del vescovo di Luni è indicato
+							solo con la prima lettera non ben leggibile, quasi certamente una V, che
+							potrebbe riguardare sia Guido II (<term xml:lang="latin">Vuido</term>)
+							per il 1074, sia Guglielmo(<term xml:lang="latin">Vuilielmus</term>) per
+							il 1228. Tuttavia, come già notato da <ref target="#AIRALDI_1970_71"
+								>AIRALDI 1970-71</ref> (p. 53) il formulario dell’atto è quello di
+							Gregorio IX; da qui la datazione proposta. Si tratterebbe di conseguenza
+							della prima attestazione del vescovo Guglielmo. </p>
+						<p>Nel margine esterno, di mano moderna: <term xml:lang="latin">Nota pro
+								causa Carraria</term>. Di altra mano: <term xml:lang="latin">Prior
+								Cararie, Lunensis diocesis.</term>
+						</p>
+						<p>L’evanescenza dell’inchiostro, unita a macchie di umidità, rende
+							problematica la lettura di parti del testo. </p></note>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">XI. Litere pape Gregorii priori de Cararia de
+							pensionibus et aliis iuribus Lunensis curie.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="XI_div">
+				<p xml:id="XI_p_001">
+					<persName ref="#GreoriuspontifexIX">Gregorius <roleName>episcopus, servus
+							servorum Dei</roleName></persName>, dilecto filio .., priori de
+						<placeName ref="#Carrara">Carraria</placeName>, Lunensis diocesis <note
+						xml:id="XI_n_01" place="foot" n="a">Lunensis diocesis: <emph>sottolineato da
+							mano posteriore</emph>.</note>salutem et apostolicam benedictionem.
+					Lunensi ecclesie in iuribus suis providere volentes, cui, pro dilectione quam
+					habemus ad personam venerabilis fratris nostri <persName ref="#GuilEpLuni">
+						<expan>V<ex>ilielmi</ex></expan>
+						<roleName>Lunensis episcopi</roleName></persName>, intendimus eciam gratiam
+					exibere, ipsius episcopi precibus inclinati, discretioni tue per apostolica
+					scripta mandamus quatinus, cum, sicut idem asserit, predicta ecclesia de multis
+					possessionibus et iuribus, que pacifice obtinet, autentica scripta non habeat,
+					de quibus, qualiter ad ipsam pertineant, <supplied reason="omitted"
+						>ad</supplied>presens potest fieri plena fides, ne forte, processu temporis,
+					copia valeat <supplied reason="illeggibile">...</supplied> pare testes ydoneos,
+					quos ipse super hoc duxerit presentandos, diligenter <supplied
+						reason="illeggibile">examinare</supplied> procures et depositiones ipsorum
+					redigi facias in publica munimenta, denunciando hiis, quos tangere videtur
+					negocium, ut receptioni testium, si velint, <supplied reason="illeggibile"
+						>in</supplied>*********<note xml:id="XI_n_02" place="foot" n="b"
+							><emph>Parola illeggibile.</emph>.</note> et faciendo super
+					denunciatione sic facta confici publicum instrumentum. </p>
+				<p xml:id="XI_p_002">Datum <placeName ref="#Laterano">Laterani</placeName>, <date
+						when="1228-02-26">V kalendas martii, pontificatus nostri anno primo.</date>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

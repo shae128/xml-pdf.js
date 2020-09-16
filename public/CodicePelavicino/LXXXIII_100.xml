@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="LXXXIII_100">
+        <front xml:id="LXXXIII_front">
+
+            <titlePart type="numerazioneNuova">100</titlePart>
+            <titlePart type="numerazioneOrig">(LXXXIII)</titlePart>
+
+            <docDate xml:id="LXXXIII_docDate">
+                <date when="1238-06-30">1238 giugno 30</date>, <placeName>Sarzana (<term
+                        xml:lang="latin">in domo Fratrum Minorum supra burgum
+                    Sarzane</term>)</placeName>
+            </docDate>
+            <div type="regesto" xml:id="LXXXIII_regesto">
+                <p>Il vescovo di Luni Guglielmo ordina a Paganino, sindaco del comune di Sarzana, di
+                    non impedire ai nunzi del vescovo la riscossione dei consueti redditi dovuti dal
+                    comune medesimo. </p>
+            </div>
+
+            <div type="footer" xml:id="LXXXIII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] c. 201v., c. CLXXXXIIIv. secondo la numerazione originale.</p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione in Lupo Gentile 1912, n. 83, p. 116.</p>
+                </div>
+                <div type="crit_notes">
+                    <note>Nel margine esterno, di mano moderna:<term xml:lang="latin"> Il vescovo
+                            Guglielmo commanda soto pena di 200 marche d’argento a Paganino, sindico
+                            della communità, che non impedisca i missi del vescovato per la colta
+                            che deve havere il vescovo dal Comune suddetto.</term></note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXXXIII. Precepti domini episcopi burgensibus.
+                        </term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="LXXXIII_div">
+                <p xml:id="LXXXIII_p_001"> In nomine Domini, amen. <date when="1238-06-30"> Anno a
+                        nativitate Eius M°CCXXXVIII°, indictione XIa, secundo kalendas iulii.</date>
+                    <persName ref="#GuilEpLuni">Guilielmus</persName>, <roleName>Dei gratia Lunensis
+                        episcopus</roleName>, precepit <persName ref="#Paganinus_syndicus"
+                            >Paganino</persName>, qui se dicebat <roleName>syndicum</roleName> <orgName ref="#Sarzana_comune">communis
+                    burgi</orgName> de <placeName ref="#Sarzana">Sarzana</placeName>, nomine ipsius communis,
+                    ad bannum <measure type="money"> CC marcarum argenti</measure>, ut non impediant
+                    nuncios episcopi et episcopatus recolligere redditus consuetos vel debitos a
+                    communi de <placeName ref="#Sarzana">Sarzana</placeName> vel a quocumque de ipso
+                    burgo et in territorio atque de territorio ipsius burgi. </p>
+                <p xml:id="LXXXIII_p_002">Actum <orgName ref="#Sarzana_S_Francesco">in domo Fratrum
+                        Minorum</orgName> supra burgum <placeName ref="#Sarzana"
+                    >Sarzane</placeName>, sollempniter, presentibus <persName
+                        ref="#UbertusPelavicinus">Uberto marchione Pelavisino</persName>, <persName
+                        ref="#Gulielmusprep">Guilielmo</persName> et <persName
+                        ref="#Gerardinus_iudex">Gerardino <roleName>iudice</roleName>
+                        <placeName ref="#Lucca">Lucano</placeName></persName>, testibus ad hec
+                    rogatis. </p>
+                <p xml:id="LXXXIII_p_003">
+                    <ptr target="LXXXIII_st_001"/> Ego <persName ref="#IacopinusTalliavachanot"
+                        >Iacopinus, qui nominor Talliavacca</persName>, <roleName>palatii sacri
+                        notarius</roleName>, hiis interfui et de mandato domini episcopi dicti
+                    scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

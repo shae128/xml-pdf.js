@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXXIII_245">
+    <front xml:id="CCLXXXIII_front">
+
+      <titlePart type="numerazioneNuova">245</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXXIII</titlePart>
+
+      <docDate xml:id="CCLXXXIII_docDate">
+        <date when="1205-03-03">1205 marzo 3</date>, <placeName>Luni (<term xml:lang="latin">in foro
+            de Luna</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXXIII_regesto">
+        <p>Rollando e Guglielmo, figli del fu Gerardino di Monzone, affittano a Retondalo di
+          Castelnuovo del fu Gerardino, a Boso del fu Cicolo <term xml:lang="latin">de Colle</term>
+          e a Guglielmo del fu Vitaleto, che sono loro uomini, la tenuta <term xml:lang="latin">de
+            Colle</term>, rinunciando a tutti i diritti eccetto che l’<term xml:lang="latin"
+            >homagium</term> e il <term xml:lang="latin">resedium</term>. Il fitto è di 9 staia di
+          frumento. La concessione costa 100 soldi imperiali. Cedono inoltre a Boso una vigna posta
+          nel luogo detto Colle.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXXIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP cc. 275v.-276r., cc. CCLXVIIv.-CCLXVIIIr. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 283,
+            pp. 258-259.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note> Autentica databile intorno alla metà del XIII secolo.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCLXXXIII. Afictationis Rollandi et Guilielmi de Monçone de Rotumdo quondam
+              Gerardini, Bosonis Citoli et Guilielmum condam Vitanecti. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXXIII_div">
+        <p xml:id="CCLXXXIII_p_001" n="1"><ptr target="#CCLXXXIII_st_001"/> In nomine Domini,
+            amen.<date when="1205-03-03">Anno a nativitate Eius millesimo CCV, indictione VIII, die
+            iovis, tercio intrante martio</date>. Nos <persName ref="#RollandusGerardini"
+            >Rollandus</persName> et <persName ref="#GuilielmusGerardini">Guilielmus</persName>,
+          germani, filii quondam Gerardini de <placeName ref="#Monzone">Monçone</placeName>,
+          affictamus vos <persName ref="#RetondalusGerardini">Retondalum de <placeName
+              ref="#Castelnuovo">Castronovo</placeName> quondam Gerardini</persName> et <persName
+            ref="#BosoCicoli">Bosonem quondam Cicoli de <placeName ref="#Colle"
+            >Colle</placeName></persName> et <persName ref="#GuilielmusVitaleti">Guilielmum quondam
+            Vitaleti</persName>, quos dicimus nostros homines esse de tenuta de <placeName
+            ref="#Colle">Colle</placeName>, recipientes pro vobis vestrisque heredibus, remittendo
+          et donando vobis vestrisque heredibus coltam, maltoltam, pensiones, a nostris<note
+            xml:id="CCLXXXIII_n_001" n="b" place="foot"><term type="incerto">a nostris</term>:
+              <emph>così nel testo, probabile lettura per</emph>
+            <term xml:lang="latin">angarias</term>.</note>, albergarias et omnes villanaticas
+          condictiones et redditus et omne servicium, retento in nobis solummodo homagio et resedio,
+          et de hiis omnibus finem et refutationem et pactum de non petendo vobis vestrisque
+          heredibus facimus totamque tenutam predictam et omnes alias terras et quicquid aliud a
+          nobis aliquo modo tenebatis vobis vestrisque heredibus ad affictum reddendum damus et
+          reconfirmamus ad habendum perpetuo, tenendum, fruendum, meliorandum et non peiorandum et
+          possidendum ipsam tenutam totam, quantacumque sit et ubicumque, et omnes alias terras et
+          quicquid aliud a nobis tenuistis huc usque, cum accessibus et regressibus suis et omnibus
+          suis pertinentiis in integrum, sine alicuius aliqua contradictione et cum nostra
+          nostrorumque heredum rationabili deffensione ab omni persona vel restauratione facienda in
+          consimili loco, in arbitrio bonorum hominum, prout tunc valuerit, et exinde teneamini dare
+          et reddere omni anno, in mense augusti, nobis nostrisque heredibus aut cui commiserimus
+          certum affictum stariorum IX de bono frumento mundo et sicco, dato in <placeName
+            ref="#Castelnuovo">Castronovo</placeName>, ad starium eiusdem loci currens mensurato
+          tantum; alia superimposita non fiat. Ad quorum omnium confirmationem confitemur nos
+          recepisse a vobis servicium <measure type="imperales" quantity="100" unit="solidus"
+            >soldorum C bonorum imperialium</measure>, renunciando exceptioni non numerate pecunie.
+          Que omnia predicta per nos nostrosque heredes vobis vestrisque heredibus facimus,
+          constituentes vobiscum ut quicumque nostrum vel nostrorum heredum unquam contra ea que in
+          hac carta leguntur in aliquo venire presumpserit et quod superius legitur non iure
+          tenuerit et observaverit, Lunensi curie penam <measure type="imperales" quantity="20"
+            unit="libra">librarum XX imperialium</measure> solvat, rato manente pacto. Et addimus
+          cum eisdem pactis tibi <persName ref="#BosusCicoli">Bosoni</persName> tuisque heredibus I
+          petiam vinee sitam in loco dicto <placeName ref="#Colle">Colle</placeName>, cum accessibus
+          et regressibus suis et omnibus suis pertinentiis in integrum, cui coheret ab utroque
+          latere dicti <persName ref="#RetondalusGerardini">Recondoli</persName>, superius et a
+          capite via publica. Et damus tibi licenciam intrandi et inde tua auctoritate in
+          tenutam.</p>
+        <p xml:id="CCLXXXIII_p_002" n="2">Actum in foro de <placeName ref="#Luni">Luna</placeName>,
+          feliciter, cum stipulatione, presentibus <persName ref="#RofinellusColle">Rofinello de
+              <placeName ref="#Colle">Colle</placeName></persName> et <persName ref="#BalditioColle"
+            >Balditione</persName> suo fratre, <persName ref="#DuransVitea">Durante de <placeName
+              ref="#Vitea">Vitea</placeName></persName>, <persName ref="#BelloneCodesorbolo">Bellone
+            de <placeName ref="#Codesorbolo">Codesorbolo</placeName></persName> et <persName
+            ref="#CalderoneMarçano">Calderone de <placeName ref="#Marzano"
+            >Marçano</placeName></persName>, testibus ad hec rogatis.</p>
+      </div>
+      <div xml:id="CCLXXXIII_div2" type="autentica">
+        <p xml:id="CCLXXXIII_p_003" n="3"><ptr target="#CCLXXXIII_st_002"/> Ego <persName
+            ref="#Bonacursusnot">Bonacursus, <roleName>sacri palacii notarius</roleName></persName>,
+          autenticum huius exempli vidi et legi et hoc fideliter scripsi, nichil addens vel minuens,
+          nisi litteram vel sillabam, quod mutet sensum vel variet intellectum.<pb xml:id="fol_276r"
+            n="276r"/></p>
+        <p xml:id="CCLXXXIII_p_004" n="4"><ptr target="#CCLXXXIII_st_003"/> Ego <persName
+            ref="#Aldoinus_notarius">Aldoinus, <roleName>sacri palacii
+            notarius</roleName></persName>, autenticum huius exempli vidi et legi et ideo hic
+          subscripsi.</p>
+        <p xml:id="CCLXXXIII_p_005" n="5"><ptr target="#CCLXXXIII_st_004"/> Ego <persName
+            ref="#Testafortenot">Testafortis, <roleName>imperii sacri iudex</roleName> et
+              <roleName>notarius</roleName></persName>, autenticum huius exempli vidi et legi,
+          propterea subscripsi signum proprium apponendo. <note>Autentica del documento n.
+            245-CCLXXXIII databile intorno alla metà del XIII secolo <date notBefore="1240-01-01"
+              notAfter="1260-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

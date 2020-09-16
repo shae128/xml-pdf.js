@@ -1,0 +1,647 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXLVI_308">
+    <front xml:id="CCCXLVI_front">
+
+      <titlePart type="numerazioneNuova">308</titlePart>
+      <titlePart type="numerazioneOrig">CCCXLVI</titlePart>
+
+      <docDate xml:id="CCCXLVI_docDate">
+        <date notBefore="1200" notAfter="1250">prima metà del XIII secolo</date>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXLVI_regesto">
+        <p>Elenco delle pensioni di Ugolino di Armannino.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXLVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 305r.-305v., cc. CCLXXXXVIIr.-CCLXXXXVIIv. secondo la numerazione
+            originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p><ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 346, p. 333, trascrive
+            soltanto la prima voce dell'elenco.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il documento è privo di data topica e cronica, oltre che di sottoscrizione notarile.
+            Tra i nomi elencati Ugolino di Armannino è attestato in diversi documenti, il più antico
+            del 1198 (306 - CCCXLIIII) e il più recente del 1230 (313 – CCCLI) in cui tuttavia
+            agisce il figlio Guglielmo; Bonaiuto di Miseglia è nominato in un documento del 1217
+            (290 - CCCXXVIII).</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCXLVI.
+              Pensionis et conditionum Ugolini Armanini.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXLVI_div">
+        <p xml:id="CCCXLVI_p_001" n="1">In nomine Domini, amen. Hee sunt pensiones et condiciones
+          Ugolini de Armannino: <cb n="1" rend="2col_layout" xml:id="CCCXLVI_cb_001"/>
+          <table rows="7" cols="2">
+            <head>In <placeName ref="#Fonte">Funti</placeName>:</head>
+            <row role="data">
+              <cell><persName ref="#DominicusPeralloca">Dominicus Peralloca</persName></cell>
+              <cell><measure type="Imperiales" quantity="6" unit="denarius">denarii VI
+                  imperialium</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Filia quondam <persName ref="#Acaritus">Acariti</persName></cell>
+              <cell><measure type="Imperiales" quantity="6" unit="denarius">denarii
+                VI</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Filius <persName ref="#Guiscardus">Guiscardi</persName></cell>
+              <cell><measure type="Imperiales" quantity="6" unit="denarius">denarii
+                VI</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Filia <persName ref="#Citellus">Citelli</persName></cell>
+              <cell><measure type="Imperiales" quantity="6" unit="denarius">denarii
+                VI</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Illi de <placeName ref="#Campolo">Campolo</placeName></cell>
+              <cell><measure type="Imperiales" quantity="6" unit="denarius">denarii VI<note
+                    xml:id="CCCXLVI_n_001" n="a" place="foot">VI: V <emph>corretto su precedente
+                      scrittura</emph>.</note></measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Martinus">Martinus</persName></cell>
+              <cell><measure type="Imperiales" quantity="2" unit="denarius">denarii
+                II</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#EnulisFunti">Enulis de Funti</persName></cell>
+              <cell><measure type="Imperiales" quantity="5" unit="denarius">denarii
+                V</measure></cell>
+            </row>
+          </table>
+          <table rows="6" cols="2">
+            <head>§ In <placeName ref="#Lotignano">Lotignana</placeName><note xml:id="CCCXLVI_n_002"
+                n="b" place="foot"><term xml:lang="latin">Lotignana</term>: ti <emph>corretto su
+                  precedente scrittura</emph>.</note>:</head>
+            <row role="data">
+              <cell>In domo filiorum <persName ref="#Gordianus">Gordiani</persName></cell>
+              <cell><measure type="Imperiales" quantity="3" unit="denarius">denarii
+                III</measure></cell>
+            </row>
+            <row role="data">
+              <cell>In casa <persName ref="#VitaletusCapusoli">Vitaleti Capusoli</persName></cell>
+              <cell><measure type="Imperiales" quantity="2" unit="denarius">denarii
+                II</measure></cell>
+            </row>
+            <row role="data">
+              <cell>In domo <persName ref="#VillanusPitiani">Villani Pitiani<note
+                    xml:id="CCCXLVI_n_003" n="c" place="foot"><term xml:lang="latin">Pitiani</term>:
+                      <emph>la seconda</emph> i <emph>in sopralinea</emph>.</note></persName></cell>
+              <cell><measure type="Imperiales" quantity="1.5" unit="denarius">denarium I et
+                  dimidium</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Vivaldus">Vivaldus</persName> cum suis consortibus</cell>
+              <cell><measure type="Imperiales" quantity="3" unit="denarius">denarii
+                III</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Messandinus">Messandinus</persName> et fratres</cell>
+              <cell><measure type="Imperiales" quantity="1.5" unit="denarius">denarium I et
+                  dimidium</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Bonensegna">Bonasegna</persName></cell>
+              <cell><measure type="Imperiales" quantity="1.5" unit="denarius">denarium I et
+                  dimidium</measure></cell>
+            </row>
+          </table>
+          <table rows="9" cols="2">
+            <head>§ In <placeName ref="#Sorgnano">Sorgnano</placeName>:</head>
+            <row role="data">
+              <cell><persName ref="#Bonensegna">Bonensegna</persName></cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium
+                I</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#BonacursusTascacinta">Bonacursus Tascacinta</persName></cell>
+              <cell><measure type="Imperiales" quantity="2.5" unit="denarius">denarii II
+                ½</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Benesia">Benesia</persName></cell>
+              <cell><measure type="Imperiales" quantity="4.5" unit="denarius">denarii IIII et
+                  dimidium</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Amatus">Amatus</persName></cell>
+              <cell><measure type="Imperiales" quantity="2" unit="denarius">denarii
+                II</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Filia <persName ref="#Bonardellus">Bonardelli</persName><note
+                  xml:id="CCCXLVI_n_004" n="d" place="foot"><term xml:lang="latin"
+                  >Bonardelli</term>: <emph>nel testo</emph>
+                  <term xml:lang="latin">Bornardelli</term>
+                  <emph>con la prima</emph> r <emph>espunta</emph>.</note></cell>
+              <cell><measure type="Imperiales" quantity="3.5" unit="denarius">denarii III et
+                  dimidium</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Cicolinus">Cicolinus</persName></cell>
+              <cell><measure type="Imperiales" quantity="1.5" unit="denarius">denarii I et
+                  dimidium</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#BonacursusArenaro">Bonacursus de <placeName ref="#Arenaro"
+                    >Arenaro</placeName></persName></cell>
+              <cell><measure type="Imperiales" quantity="3.5" unit="denarius">denarii III et
+                  dimidium</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Filii <persName ref="#UgolinusMonte">Ugolini de <placeName ref="#Monte"
+                    >Monte</placeName></persName></cell>
+              <cell><measure type="Imperiales" quantity="1.5" unit="denarius">denarium I
+                ½</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Vitalis">Vitalis</persName></cell>
+              <cell><measure type="Imperiales" quantity="1.5" unit="denarius">denarium I et
+                  dimidium</measure></cell>
+            </row>
+          </table>
+          <table rows="8" cols="2">
+            <head>§ In <placeName ref="#Gragnana">Gragnana</placeName>:</head>
+            <row role="data">
+              <cell><persName ref="#Citus">Citus</persName> et fratres</cell>
+              <cell><measure type="Imperiales" quantity="3" unit="denarius">denarii
+                III</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Andrucius">Andrucius</persName></cell>
+              <cell><measure type="Imperiales" quantity="3" unit="denarius">denarii
+                III</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Agustinus">Agustinus</persName> et <persName ref="#Bonaiuncta"
+                  >Bonaiuncta</persName></cell>
+              <cell><measure type="Imperiales" quantity="6" unit="denarius">denarii
+                VI</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Filia <persName ref="#Rognosus">Rognosi</persName></cell>
+              <cell><measure type="Imperiales" quantity="6" unit="denarius">denarii
+                VI</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Gislucia">Gislucia</persName></cell>
+              <cell><measure type="Imperiales" quantity="3" unit="denarius">denarii
+                III</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Filii <persName ref="#Favalinus">Favalini</persName></cell>
+              <cell><measure type="Imperiales" quantity="13" unit="denarius">denarii
+                XIII</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Filia <persName ref="#Bonizo">Bonici</persName></cell>
+              <cell><measure type="Imperiales" quantity="1.5" unit="denarius">denarium I et
+                  dimidium</measure></cell>
+            </row>
+            <row role="data">
+              <cell>et intra VI annos</cell>
+              <cell>amiscere I</cell>
+            </row>
+          </table>
+          <table rows="2" cols="2">
+            <head>§ In <placeName ref="#Apiola">Apiola</placeName>:</head>
+            <row role="data">
+              <cell><persName ref="#Adiutus">Adiutus</persName></cell>
+              <cell><measure type="Imperiales" quantity="3.5" unit="denarius">denarii III et
+                  dimidium</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Gracianus">Gracianus</persName></cell>
+              <cell><measure type="Imperiales" quantity="8" unit="denarius">denarii
+                VIII</measure></cell>
+            </row>
+          </table>
+          <table>
+            <head>§ In <placeName ref="#Passana">Passana</placeName>:</head>
+            <row role="data">
+              <cell>filius <persName ref="#GuilielmusGraffi">Guilielmi Graffi</persName></cell>
+              <cell><measure type="Imperiales" quantity="2" unit="denarius">denarii
+                II</measure></cell>
+            </row>
+          </table>
+          <table rows="9" cols="2">
+            <head>§ In <placeName ref="#Casapoci">Casapoci</placeName>:</head>
+            <row role="data">
+              <cell>In domo filie <persName ref="#Rusticellus">Rusticelli</persName></cell>
+              <cell><measure type="Imperiales" quantity="2.5" unit="denarius">denarii II et
+                  dimidium</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#TiniosusRipola">Tignosus de <placeName ref="#TiniosusRipola"
+                    >Ripola</placeName></persName></cell>
+              <cell><measure type="Imperiales" quantity="3" unit="denarius">denarii
+                III</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Bosulinus">Bosolinus</persName> cum consobrinis suis</cell>
+              <cell><measure type="Imperiales" quantity="3" unit="denarius">denarii
+                III</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Filii <persName ref="#Gualtierus">Gualterii</persName></cell>
+              <cell><measure type="Imperiales" quantity="0.5" unit="denarius">medium
+                  denarium</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Bertucia">Bertucia</persName></cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium
+                I</measure></cell>
+            </row>
+            <cb n="2" rend="2col_layout" xml:id="CCCXLVI_cb_002"/>
+            <row role="data">
+              <cell>Filiastra <persName ref="#Guidolotus">Guidoloti</persName></cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium
+                I</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Filii <persName ref="#Guilielmetus">Guilielmeti</persName></cell>
+              <cell><measure type="Imperiales" quantity="3" unit="denarius">denarii
+                III</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#RiccomannusVitaleti">Ricomannus quondam Vitaleti</persName> cum
+                suis consortibus</cell>
+              <cell><measure type="Imperiales" quantity="2" unit="denarius">denarii
+                II</measure></cell>
+            </row>
+            <row role="data">
+              <cell>et omni anno intra VIII annos</cell>
+              <cell>amiscere I</cell>
+            </row>
+          </table>
+          <table rows="5" cols="2">
+            <head>§ Circa <placeName ref="#Plebe">Plebem</placeName>:</head>
+            <row role="data">
+              <cell><persName ref="#Groppinus">Groppinus</persName></cell>
+              <cell><measure type="Imperiales" quantity="2" unit="denarius">denarii
+                II</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#AccorsusSermonuti">Accorsus filius Sermonuti</persName></cell>
+              <cell><measure type="Imperiales" quantity="2" unit="denarius">denarii
+                II</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Marapicus">Marapicus</persName></cell>
+              <cell><measure type="Imperiales" quantity="2" unit="denarius">denari
+                II</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#VenutusTorano">Venutus de <placeName ref="#Torano"
+                    >Torano</placeName></persName></cell>
+              <cell><measure type="Imperiales" quantity="2" unit="denarius">denari
+                II</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Iacopusmed">Iacopus
+                <roleName>medicus</roleName></persName></cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium
+                I</measure></cell>
+            </row>
+          </table>
+          <table rows="7" cols="2">
+            <head>§ In <placeName ref="#Miselia">Miselia</placeName>:</head>
+            <row role="data">
+              <cell><persName ref="#Malamensis">Malamensis</persName></cell>
+              <cell><measure type="Imperiales" quantity="2" unit="denarius">denarii
+                II</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#GerardusAletrine">Gerardus Aletrine</persName></cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium
+                I</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#GuidarellusBonacursi">Guidarellus quondam
+                Bonacursi</persName></cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium
+                I</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Benesia">Benesia</persName></cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium
+                I</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Manehesellis">Manehesellis</persName><note
+                  xml:id="CCCXLVI_n_005" n="e" place="foot"><term xml:lang="latin"
+                    >Manehesellis</term>: <emph>così nel testo</emph>.</note></cell>
+              <cell><measure type="Imperiales" quantity="3" unit="denarius">denarii
+                III</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Atolinus">Atolinus</persName></cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium
+                I</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#VivaldusAdiuti">Vivaldus Adiuti</persName></cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium
+                I</measure></cell>
+            </row>
+          </table>
+          <table rows="3" cols="2">
+            <head>§ In <placeName ref="#Petrognano">Petrognano</placeName>:</head>
+            <row role="data">
+              <cell>In domo <persName ref="#StrapatusPadule">Strapati de la <placeName ref="#Padule"
+                    >Padule</placeName></persName></cell>
+              <cell><measure type="Imperiales" quantity="4" unit="denarius">denarii
+                IIII</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Iacopinus">Iacopinus</persName></cell>
+              <cell><measure type="Imperiales" quantity="6" unit="denarius">denarii
+                VI</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Girreus">Girreus</persName></cell>
+              <cell><measure type="Imperiales" quantity="5" unit="denarius">denarii
+                V</measure></cell>
+            </row>
+          </table>
+          <table rows="1" cols="2">
+            <head>§ In plano <placeName ref="#Carrara">Carrarie</placeName>:</head>
+            <row role="data">
+              <cell><persName ref="#DurantusTesta">Durantus de Testa</persName></cell>
+              <cell><measure type="Imperiales" quantity="2" unit="denarius">denarii
+                II</measure></cell>
+            </row>
+          </table>
+          <table rows="1" cols="2">
+            <head>§ In <placeName ref="#Casalechio">Casalechio</placeName>:</head>
+            <row role="data">
+              <cell><persName ref="#Gerardus">Gerardus</persName></cell>
+              <cell><measure type="Imperiales" quantity="3" unit="denarius">denarii
+                III</measure></cell>
+            </row>
+          </table>
+          <table rows="2" cols="2">
+            <head>§ In <placeName ref="#Codano">Codano</placeName>:</head>
+            <row role="data">
+              <cell>In domo <persName ref="#Sardus">Sardi</persName></cell>
+              <cell><measure type="Imperiales" quantity="5.5" unit="denarius">denarii V et
+                  dimidium</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Iuncta">Iuncta</persName> et filia <persName ref="#Nigrus"
+                  >Nigri</persName></cell>
+              <cell><measure type="Imperiales" quantity="5.5" unit="denarius">denarii V et
+                  dimidium</measure></cell>
+            </row>
+          </table>
+          <table rows="5" cols="2">
+            <head>§ In <placeName ref="#Biduzzano">Biducano</placeName>:</head>
+            <row role="data">
+              <cell>In domo <persName ref="#DominicusSacatelli">Dominici Sacatelli</persName></cell>
+              <cell><measure type="Imperiales" quantity="3.5" unit="denarius">denarii III et
+                  dimidium</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Vivaldus">Vivaldus</persName> cum cosino suo</cell>
+              <cell><measure type="Imperiales" quantity="2.5" unit="denarius">denarii II et
+                  dimidium</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#BenesiaVecchio">Benesia de Vechio</persName></cell>
+              <cell><measure type="Imperiales" quantity="2.5" unit="denarius">denarii II et
+                  dimidium</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Filius <persName ref="#Çuchi">Çuchi</persName></cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium
+                I</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Badinus">Badinus</persName></cell>
+              <cell><measure type="Imperiales" quantity="2.5" unit="denarius"><supplied
+                    reason="omitted">denarii</supplied> II et medium</measure></cell>
+            </row>
+          </table>
+          <table rows="2" cols="2">
+            <head>§ In <placeName ref="#Monteclo">Montechio</placeName>:</head>
+            <row role="data">
+              <cell>Filii <persName ref="#Bernardinus">Bernardini</persName></cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium
+                I</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Filia <persName ref="#Mannolus">Mannoli</persName></cell>
+              <cell><measure type="Imperiales" quantity="2.5" unit="denarius">denarium
+                I</measure></cell>
+            </row>
+          </table>
+          <table rows="2" cols="2">
+            <head>§ In <placeName ref="#Colonnata">Colunnata</placeName>:</head>
+            <row role="data">
+              <cell><persName ref="#Bonacursus">Bonacursus</persName> et <persName ref="#Benedellus"
+                  >Benedellus</persName></cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium
+                I</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Caracosa">Caracosa</persName></cell>
+              <cell><measure type="Imperiales" quantity="3" unit="denarius">denarii
+                III</measure></cell>
+            </row>
+          </table>
+          <table rows="10" cols="2">
+            <head>§ In <placeName ref="#Miselia">Miselia</placeName>:</head>
+            <row role="data">
+              <cell>Filii <persName ref="#AgustinusTermeselli">Agustini Termeselli</persName></cell>
+              <cell><measure type="Imperiales" quantity="13.5" unit="denarius">denarii XIII et
+                  dimidium</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Filii <persName ref="#DuransValle">Durantis de <placeName ref="#Valle"
+                    >Valle</placeName></persName></cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium
+                I</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Belerçus">Belerçus</persName></cell>
+              <cell><measure type="Imperiales" quantity="4" unit="denarius">denarii
+                IIII</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#AlbertusValle">Albertus de <placeName ref="#Valle"
+                    >Valle</placeName></persName></cell>
+              <cell><measure type="Imperiales" quantity="3" unit="denarius">denarii
+                III</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Filius <persName ref="#Micheletus">Micheleti</persName></cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium
+                I</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Filii <persName ref="#Villanus">Villane</persName></cell>
+              <cell><measure type="Imperiales" quantity="2.5" unit="denarius">denarii II et
+                  dimidium</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Filia <persName ref="#Boniohannes">Boniohannis</persName>, scilicet <persName
+                  ref="#BorgeseAmati">Borgese, uxor quondam Amati</persName></cell>
+              <cell><measure type="Imperiales" quantity="2.5" unit="denarius">denarii II et
+                  dimidium</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Losius">Losius</persName> et <persName ref="#Rollandus"
+                  >Rollandus</persName></cell>
+              <cell><measure type="Imperiales" quantity="9" unit="denarius">denarii
+                IX</measure></cell>
+            </row>
+            <row role="data">
+              <cell>In domo <persName ref="#GrillusBeriola">Grilli de <placeName ref="#Beriola"
+                    >Beriola</placeName></persName></cell>
+              <cell><measure type="Lucenses" quantity="1" unit="denarius">denarium I
+                  Lucensium</measure></cell>
+            </row>
+            <row role="data">
+              <cell>In <placeName ref="#Beriola">Beriola</placeName> maiori, in domo filiorum
+                  <persName ref="#Dallindusius">Dallindusii</persName></cell>
+              <cell><measure type="Imperiales" quantity="10" unit="denarius">X denarios</measure>,
+                quos dictus <persName ref="#Ugolinus">Ugolinus</persName> dedit <orgName
+                  ref="Frigido_S_Leonardo">hospitali de Fregido </orgName>pro voto.</cell>
+            </row>
+          </table>
+        </p>
+        <p xml:id="CCCXLVI_p_002" n="2">Sunt ulterius episcopi: <pb n="305v" xml:id="fol_305v"/>
+          <cb n="1" rend="2col_layout" xml:id="CCCXLVI_cb_003"/>
+          <table rows="1" cols="2">
+            <head>§ In <placeName ref="#Graçano">Graçano</placeName></head>
+            <row role="data">
+              <cell><persName ref="#Ventura">Ventura</persName></cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium I<note
+                    xml:id="CCCXLVI_n_006" n="f" place="foot"><term xml:lang="latin">Ventura
+                      denarium I</term>: <emph>nel testo</emph>
+                    <term xml:lang="latin">denarium I Ventura</term>.</note></measure></cell>
+            </row>
+          </table>
+          <table rows="3" cols="2">
+            <head><supplied reason="omitted">§</supplied> In <placeName ref="#Lintignana"
+                >Lintignana</placeName>:</head>
+            <row role="data">
+              <cell><persName ref="#BellonusGuilielmi">Bellonus filius Guilielmi</persName></cell>
+              <cell><measure type="Imperiales" quantity="8" unit="denarius">denarii
+                VIII</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Ugolinusnot">Ugolinus
+                <roleName>notarius</roleName></persName></cell>
+              <cell><measure type="Imperiales" quantity="4" unit="denarius">denarii
+                IIII</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Bonacursusnot3">Bonacursus
+                  <roleName>notarius</roleName></persName></cell>
+              <cell><measure type="Imperiales" quantity="2" unit="denarius">denarii
+                II</measure></cell>
+            </row>
+          </table>
+          <table rows="11" cols="2">
+            <head><supplied reason="omitted">§</supplied>In <placeName ref="#Stabio"
+                >Stabulo</placeName>:</head>
+            <row role="data">
+              <cell><persName ref="#Martinus">Martinus</persName></cell>
+              <cell><measure type="Imperiales" quantity="2" unit="denarius">denarii II
+                  imperialium</measure> et unum <measure type="Parmenses" quantity="1"
+                  unit="denarius">Parmensium</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Bonencontrus">Bonencontrus</persName></cell>
+              <cell><measure type="Imperiales" quantity="1.5" unit="denarius">dimidium unius denarii
+                  imperialium</measure></cell>
+            </row>
+            <cb n="2" rend="2col_layout" xml:id="CCCXLVI_cb_004"/>
+            <row role="data">
+              <cell><persName ref="#PerasonusAventia">Perasonus de <placeName ref="#Avenza"
+                    >Aventia</placeName></persName></cell>
+              <cell><measure type="Imperiales" quantity="4" unit="denarius">denarii
+                IIII</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#SalveMontia">Salve de <placeName ref="#Montia"
+                    >Montia</placeName></persName></cell>
+              <cell><measure type="Imperiales" quantity="3" unit="denarius">denarii
+                III</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#DonamentaVeçi">Donamenta quondam Veçi</persName></cell>
+              <cell><measure type="Imperiales" quantity="4" unit="denarius">denarii
+                IIII</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#BonaiutusMiselia">Bonaiutus de <placeName ref="#Miselia"
+                    >Miselia</placeName></persName> cum fratre suo</cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium I
+                  imperialium</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#MartinusCodena">Martinus de <placeName ref="#Codena"
+                    >Codena</placeName></persName> cum suo nepote</cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium
+                I</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Gerardinus">Gerardinus</persName> et frater eius</cell>
+              <cell><measure type="Imperiales" quantity="2" unit="denarius">denarii
+                II</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#Arditus">Arditus</persName></cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium
+                I</measure></cell>
+            </row>
+            <row role="data">
+              <cell><persName ref="#VenutusBasiadore">Venutus Basiadore</persName></cell>
+              <cell><measure type="Imperiales" quantity="2" unit="denarius">denarium
+                II</measure></cell>
+            </row>
+            <row role="data">
+              <cell>Filie <persName ref="#Lanfranchinus">Lanfranchini</persName></cell>
+              <cell><measure type="Imperiales" quantity="1" unit="denarius">denarium
+                I</measure></cell>
+            </row>
+          </table>
+          <cb/>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLII_213">
+    <front xml:id="CCLII_front">
+
+      <titlePart type="numerazioneNuova">213</titlePart>
+      <titlePart type="numerazioneOrig">CCLII</titlePart>
+
+      <docDate xml:id="CCLII_docDate">
+        <date when="1231-05-11">1231 maggio 11</date>, <placeName>Soliera (<term xml:lang="latin">in
+            castro Solerie</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLII_regesto">
+        <p>Bernardo e Girardo, fratelli, del fu Guiscardello, Guido di Enrichino, Albertino
+          Cornachini, Martino e Giunto, fratelli, del fu Alineto, Bonnome, Meliorato, Bonusdie de
+          Plaza, Lombardino e Ventura de Ciserano, tutti castellani di Ciserano, giurano fedeltà a
+          Guglielmo, vescovo di Luni.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 264r.- 264v., cc. CCLVIr.- CCLVIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. 252, p. 233.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine interno, di mano moderna: <term xml:lang="latin">de Ciserano</term>.
+              <p>Stesura <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla presenza di
+              Bonagiunta de Podio di Lucca.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLII_div">
+        <p xml:id="CCLII_p_001" n="001">In Dei nomine, amen.<date when="1231-05-11"> Anno a
+            nativitate Eius M°CCXXXI, indictione IIIIa, die dominico, XI intrante madio</date>. In
+            <placeName ref="#Soliera">castro Solerie</placeName>, coram <persName
+            ref="#Peregrinusarc"><roleName>archipresbytero</roleName> Peregrino plebis de <placeName
+              ref="#Soliera">Soleria</placeName></persName>, <persName ref="Iacopuspres"
+              ><roleName>presbytero</roleName>Iacopo de <placeName ref="#SanTerenzo">sancto
+              Therencio</placeName></persName>, <persName ref="#Tbiliolopres"
+              ><roleName>presbytero</roleName> T. de <placeName ref="#Bigliolo"
+            >Biliolo</placeName></persName>, <persName ref="#Rollanduscast">Rollando
+              <roleName>castaldo</roleName></persName> et <persName ref="#BondiesCiserano">Bondie de
+              <placeName ref="#Ceserano">Ciserano</placeName></persName>, <pb n="264v"
+            xml:id="fol_264v"/> testibus. <persName ref="#BernardusGuiscardelli"
+            >Bernardus</persName> et <persName ref="#GirardusGuiscardelli">Girardus, germani,
+            quondam Guiscardelli</persName>, <persName ref="#GuidoHenricino">Guido de
+            Henricino</persName>, <persName ref="#AlbertinusCornachini">Albertinus
+            Cornachini</persName>, <persName ref="#MartinusAlineti">Martinus</persName> et <persName
+            ref="#IunctusAlineti">Iunctus, fratres, quondam Alineti</persName>, <persName
+            ref="#Bonomme">Bonnome</persName>, <persName ref="#Melioratus">Melioratus</persName>,
+            <persName ref="#BonusdiesPlaça">Bonusdies de Plaça</persName>, <persName
+            ref="#LombardinusCiserano">Lombardinus</persName> et <persName ref="#VenturaCiserano"
+            >Ventura de <placeName ref="#Ceserano">Ciserano</placeName></persName>, simul omnes
+          confitendo se esse castellani de <placeName ref="#Ceserano">castro Ciserani</placeName>
+          domini <persName ref="#GuilEpLuni">Guilielmi, Dei gratia venerabilis <roleName>Lunensis
+              episcopi</roleName></persName>, ipsi domino, pro se et suis successoribus et Lunensi
+          episcopatu, fidelitatem contra omnes homines iuraverunt, sicut in epistula fidelitatis per
+          totum continetur.</p>
+      </div>
+      <div xml:id="CCLII_div2" type="mundum">
+        <p xml:id="CCLII_p_002" n="002"><ptr target="#CCLII_st_001"/> Ego <persName
+            ref="#Henricusnot">Henricus de <placeName ref="#Sarzanello">castro Sarzane</placeName>,
+              <roleName>sacri palacii notarius</roleName></persName>, hanc cartam olim a <persName
+            ref="#Bonencontrusnot">Bonencontro de <placeName ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et autenticavi et
+          in publicam formam redegi, auctoritate et decreto super hiis michi prestita et concesso a
+          domino <persName ref="#Bonaiunctaiud">Bonaiuncta de Podio de <placeName ref="#Lucca"
+            >Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia
+              <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre domino Lunensi
+          episcopo et <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune"
+            >communi</orgName>, de qua auctoritate et
+          decreto constat per instrumentum publicum factum manu <persName ref="#Alcheriusnot"
+            >Alcherii <roleName>notarii de <placeName ref="#Lucca"
+            >Luca</placeName></roleName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 213-CCLII databile tra il 1270 e il
+            1272 dalla presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

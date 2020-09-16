@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXLVIIII_167">
+    <front xml:id="CXLVIIII_front">
+
+      <titlePart type="numerazioneNuova">167</titlePart>
+      <titlePart type="numerazioneOrig">CXLVIIII</titlePart>
+
+      <docDate xml:id="CXLVIIII_docDate">
+        <date when="1224-07-14">1224 luglio 14</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">apud castrum Sarzane, in porticu palatii domini
+            episcopi</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXLVIIII_regesto">
+        <p>Buttafava, vescovo di Luni, loca <term xml:lang="latin">per homagium et resedium</term> a
+          Gerardino e a Bellandino, figli del fu Cicere di Magnano, che ricevono anche a nome del
+          fratello Allegretto, tutto il podere che un tempo Guglielmo di Cafazo aveva dalla curia
+          lunense al medesimo titolo. La locazione costa 40 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CXLVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 242v.- 243r., c. CCXXXIIIIv.- CCXXXVr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">M. LUPO GENTILE 1912</ref>, n.
+            149, pp. 185-186.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXLVIIII_div">
+        <p xml:id="CXLVIIII_p_001" n="1"><ptr target="#CXLVIIII_st_001"/> In nomine Domini, amen.
+          Anno a nativitate Eius, <date when="1224-07-14">millesimo CC°XXIIII, indictione XII, die
+            dominico, XIIII intrantis mensis iulii</date>, in presentia infrascriptorum testium.
+          Dominus <persName ref="#ButtafavaEpLuni">Butafava, Dei gratia <roleName>Lunensis
+              episcopus</roleName></persName>, per se suosque successores, vice et nomine Lunensis
+          episcopatus et pro Lunensi episcopatu, dedit, tradidit et locavit per homagium et resedium
+            <persName ref="#GerardinusCyceris">Gerardino</persName> et <persName
+            ref="#BellandinusCyceris">Bellandino, filiis quondam Cyceris de <placeName
+              ref="#Magnano">Magnano</placeName></persName>, recipientibus pro se et <persName
+            ref="#AlegretusCyceris">Alegreto, fratre suo, filio quondam eiusdem Cyceris</persName>,
+          et pro suis eiusque heredibus, nominatim, totum poder<note place="foot" n="a"
+            xml:id="CXLVIIII_n_001"><term type="incerto">poder</term>: <emph>così nel testo
+              per</emph>
+            <term xml:lang="latin">podere</term></note> et tenutam quod atque quam <persName
+            ref="#GuilielmusCafazo">Guilielmus de <placeName ref="#Cafadio"
+            >Cafazo</placeName></persName> et sui heredes olim a Lunensi episcopatu seu a Lunensi
+          curia per homagium et residium habebant, tenebant et possidebant, ubicumque sit, iaceat,
+          reperiatur atque decurrat, in plano et in monte, in casis, capannis et casamentis, in
+          terris cultis et incultis, in pratis, pascuis, silvis et nemoribus, in molendinis et
+            aqueductibus,<pb n="243r" xml:id="fol_243r"/>in domesticis et silvestribus locis et de
+          suprascripto podere et tenuta quicquid fuerit repertum seu poterit modo aliquo reperiri,
+          agrum et cultum, plenum et vacuum, divisim et indivisim, ita quidem ut amodo perpetuo
+          suprascripti fratres eorumque heredes secundum modum predictum habeant, teneant, fruantur
+          et possideant totum suprascriptum poder<note place="foot" n="a" xml:id="CXLVIIII_n_002"
+              ><term type="incerto">poder</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">podere</term></note> atque tenutam, cum accessu et regressu et
+          cum superioribus et inferioribus et omnibus rationibus et pertinenciis suis in integrum,
+          sine suprascripti domini episcopi suorumque successorum et cuiusque persone
+          contradictione, dando, solvendo, reddendo, prestando atque faciendo illos redditus,
+          usantias, factiones, condictiones et servicia quos, quas et que suprascriptis<note
+            place="foot" n="b" xml:id="CXLVIIII_n_003"><term type="incerto">suprascriptis</term>:
+              <emph>così nel testo per</emph>
+            <term xml:lang="latin">suprascriptus</term> o <term xml:lang="latin"
+            >suprascripti</term></note>
+          <persName ref="#GuilielmusCafazo">Guilielmus</persName> suique heredes soliti erant de
+          ipso podere et tenuta prestare, facere, reddere, solvere atque dare tantum; alia
+          superimposita eis non fiat. Et promisit suprascritus dominus episcopus per se suosque
+          successores, vice et nomine Lunensis episcopatus et curie, stipulatione solempni, totum
+          suprascriptum podere et tenutam, cum omnibus rationibus et pertinenciis suis in integrum,
+          iure deffendere et exbrigare ab omni contradicente persona suprascriptis fratribus
+          eorumque heredibus, seu restaurare et salvum cambium inde dare in consimili loco, prout
+          nunc valuerit sive melioratum fuerit, sub iusta bonorum hominum extimatione, obligando se
+          suosque successores et omnia et singula bona Lunensis episcopatus, mobilia et immobilia,
+          presencia et futura, et renunciando exceptioni fori, domicilii et contractus et omni alii
+          iuri pro se introducto. Et fuit confessus suprascriptus dominus episcopus se recepisse ab
+          eis, dantibus pro se atque suprascripto fratre suo, servicium huius locationis, in
+          veritate et non spe future numerationis, bonorum <measure type="Imperiales" quantity="40"
+            unit="solidus">imperialium soldos XL</measure>, renunciando exceptioni non numerate
+          pecunie. Et dedit eis licenciam intrandi tenutam pro se et suprascripto fratre suo de
+          suprascripto podere sua auctoritate, constituendo se pro eis et eorum nomine precario
+          possidere, et constituerunt inter se ut quicumque eorum vel eorum successorum sive heredum
+          umquam suprascriptam locationem tollere vel laxare voluerit, seu contra id quod superius
+          legitur in aliquo venire presumpserit, alteri parti fidem servanti, nomine pene, solvat
+          bonorum <measure type="Imperiales" quantity="20" unit="solidus">imperialium soldos
+            XX</measure>, rato manente pacto post penam solutam.</p>
+        <p xml:id="CXLVIIII_p_002" n="2">Actum apud <placeName ref="#Sarzanello">castrum
+            Sarzane</placeName>, in porticu palatii suprascripti domini episcopi, sollempniter, cum
+          stipulatione subnixa, presentibus <persName ref="#AttolinusBandini">Attolino quondam
+            Bandini</persName>, <persName ref="#UgolinusGuilielmi">Ugolino quondam Guilielmi de
+            Carboncello de <placeName ref="#Sarzanello">castro predicto</placeName></persName>,
+            <persName ref="#UgolinusLanfranchini">Ugolino filio Lanfranchini</persName>, <persName
+            ref="#GerardetusGibertini">Gerardeto filio Gibertini de <placeName ref="#Ponzanello"
+              >Ponzanello</placeName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CXLVIIII_p_003" n="3">Ego <persName ref="#Philippusnot">Philippus,
+              <roleName>domini Ottonis quarti Romanorum serenissimi imperatoris
+            notarius</roleName></persName>, hiis interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="XV_44">
+		<front xml:id="XV_front">
+
+			<titlePart type="numerazioneNuova">44</titlePart>
+			<titlePart type="numerazioneOrig">XV</titlePart>
+
+			<docDate xml:id="XV_docDate">
+				<date when="1254-03-28">1254 marzo 28</date>, <placeName ref="#Laterano">
+						Laterano(<term xml:lang="latin">Laterani</term>) </placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="XV_regesto">
+				<p>Innocenzo IV, avendo saputo che gli Adalberti (Odolberti) di Pontremoli avevano
+					venduto a suo nipote Nicolò Fieschi, conte di Lavagna, i castelli di Tivegna,
+					Castiglione e Bracelli, che tenevano in feudo dal vescovo di Luni, e avendo il
+					medesimo vescovo obiettato che gli Adalberti vantavano diritti solo su un terzo
+					di Tivegna, invita il vescovo a concedere integralmente tali castelli a Nicolò
+					Fieschi in feudo e a vendergli eventuali redditi. Concede inoltre al vescovo il
+					permesso di vendere al medesimo Nicolò il castello di Vezzano.</p>
+			</div>
+
+			<div type="footer" xml:id="XV_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] cc. 63r.-63v., cc. LVr.-LVv. secondo la numerazione originale. </p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione in <ref target="#LUPO_GENTILE_1912"> LUPO GENTILE 1912</ref>, n. 15,
+						pp. 17-18, con la data 1253, corretta in 1254 da <ref target="#MAZZINI_1914"
+							>MAZZINI 1914</ref>, p. 9. </p>
+				</div>
+
+				<div type="crit_notes">
+					<note/>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">XV. Lictere pape Innocentii pro factis Tivegne et
+							Bracelis.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="XV_div">
+				<p xml:id="XV_p_001">
+					<persName ref="#InnocentiuspontifexIV">Innocentius <roleName>episcopus, servus
+							servorum Dei</roleName></persName>
+					<note xml:id="XV_n_01" place="foot" n="a"> Dei: i <emph>corretta su precedente
+							scrittura</emph>.</note> , venerabili fratri .., episcopo Lunensi,
+					salutem et apostolicam benedictionem. Hanc gerimus de tua fraternitate fiduciam
+					ut caritatis affectus, quem <note xml:id="XV_n_02" place="foot" n="b">quem:
+							<emph>così nel testo</emph>.</note> ad nos <note xml:id="XV_n_03"
+						place="foot" n="c">nos: s <emph>corretta su precedente
+						lettera</emph>.</note> habere te novimus, ad coniunctos nobis gratie et
+					nature federe prorogetur, licet autem in hiis que contingunt <supplied
+						reason="illeggibile">eos</supplied>dem dem te credamus inveniri utilitate
+					suadente pre<supplied reason="illeggibile">decessore</supplied> nostro pro illis
+					tacite interpellante respecto ita ut eis apud nostri sermonis patrocinio non sit
+					opus intercessionis tamen verbum adicimus ut de benevolentie munere quod illis
+					ut creditur eciam non exactus pro nostra reverentia exibere promptitudinem
+					certius noveris debito gratitudinis prosequendam. <supplied reason="illeggibile"
+						>Nobis</supplied> innotuit quod cum <name type="familia" ref="#AdelbertiFamilia"
+						>Oldoberti</name> de <placeName ref="#Pontremoli">Pontremulo
+					</placeName>dilecto filio <roleName>nobili viro </roleName><persName
+						ref="#NicholausFlisco">Nicolao de Flisco</persName>,<roleName>
+						comitti</roleName><placeName ref="#Lavania"> Lavanie</placeName>, ne <pb
+						n="63v" xml:id="fol_063v"/>poti nostro, <placeName ref="#Tivegna"
+						>Tivegne</placeName>, <placeName ref="#CastiglionediVarese">Castellionis
+					</placeName>et <placeName ref="#Bracellis"
+						><expan>Bracelli<ex>s</ex></expan></placeName> castra tue diocesis cum eorum
+					curiis et pertinentiis, que ab ecclesia tua se tenere dicebant in feudum,
+					venditione <note xml:id="XV_n_04" place="foot" n="d"> venditione: <emph>così nel
+							testo per</emph> venditionis.</note> titulo vendidissent, tradidissent,
+					tu ex eo super hoc retulisse diceris questionem quod ad venditores eosdem ex
+					predictis omnibus non nisi terciam partem dicti castri <placeName ref="#Tivegna"
+						>Tivegne</placeName> ipsiusque custodiam iure feudi, quod ab ecclesia tua
+					tenent, reliquas vero duas eiusdem castri partes ad homines eiusdem loci simili
+					pertinere proponis, quam vero prefati <name type="familia" ref="#AdelbertiFamilia"
+						>Odelberti</name> se predicta et totum castrum ipsum, exceptis quibusdam
+					redditibus tibi exinde provenientibus, qui <measure xml:id="XV_m_01"
+						unit="libra" quantity="15" ana="#acq">quindecim librarum</measure> summam,
+					ut dicitur, vix excedunt, a te obtinere in feudum asseverent. Volentes igitur
+					inter te et eundem nobilem super hoc omnis contentionis materiam summoveri
+					eumque tibi ac ecclesie tue, quibus per eum poterunt commoda provenire quam
+					plura, perpetue coniunctionis federe copulari et sic eidem in iure caveri ut
+					tibi et eidem ecclesie non instigantur gravis incommoda lesionis, fraternitatem
+					tuam afectuose rogamus et monemus attente, per apostolica tibi scripta
+					mandantes, quatenus predicta castra et quecumque ibidem a quibuscumque vasallis
+					tuis tenentur in feudum, cum omnibus pertinentiis eorumdem, eidem nobili, ob
+					reverentiam nostram, pleno ac perpetuo feudi iure concedas, recepto ab ipso
+					fidelitatis homagii <note xml:id="XV_n_05" place="foot" n="e"> homagii:
+							<emph>così nel testo per</emph> homagio,<emph>da concordarsi con</emph>
+						recepto.</note> , salvo iuramento, venditis sibi nichillominus redditibus,
+					quos ibidem habere dinosceris, pro iusto precio vel maiori vel retentis, si id
+					potius de tua processerit voluntate. Et ut, iuxta preces et mandatum nostrum,
+						conces<supplied reason="omitted">s</supplied>ionem ac venditionem huiusmodi
+					liberius facere possis nobili memorato, plenam super hoc tibi <note
+						xml:id="XV_n_06" place="foot" n="f"> tibi: <emph>segue, ripetuto per
+							errore</emph>, super hoc.</note> super hoc concedimus, auctoritate
+					apostolica, facultatem vendendi quoque eidem nobili castrum de <placeName
+						ref="#Vezzano">Vezano</placeName> cum omnibus pertinentiis, eumdem ac iura
+					omnia que habes ibidem plenam tibi auctoritate presentium licentiam elargimur,
+					iuramento quod de novo non infeudare vel alienare teneris aliquatenus non
+					obstante. Preces autem nostras et mandatum sic exaudire in hac parte procures
+					quod eumdem nobilem ac suos ibi ac ecclesie tue reddas obnoxios nosque in tuis
+					utilitatibus promptiores. </p>
+				<p xml:id="XV_p_002"> Datum <placeName ref="#Laterano">Laterani</placeName>, <date
+						when="1254-03-28">V kalendas aprilis, pontificatus nostri anno
+						undecimo</date>. </p>
+			</div>
+		</body>
+	</text>
+</TEI>

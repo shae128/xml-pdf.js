@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="XXXIIII_63">
+        <front xml:id="XXXIIII_front">
+            <titlePart type="numerazioneNuova">63</titlePart>
+            <titlePart type="numerazioneOrig">XXXIIII</titlePart>
+            <docDate xml:id="XXXIIII_docDate">
+                <date when="1286-03-19">1286 marzo 19</date>, <placeName>presso Ameglia (<term
+                        xml:lang="latin">in podio de Corbo</term>).</placeName>
+            </docDate>
+            <div type="regesto" xml:id="XXXIIII_regesto">
+                <p> Alberto del fu Federico de <emph>Lapadule</emph> di Carrara, in veste di
+                    procuratore del vescovo di Luni Enrico, fa costruire un muro sul poggio del
+                    Corvo, intorno alla torre. </p>
+            </div>
+            <div type="footer" xml:id="XXXIIII_footer">
+                <div type="orig_doc">
+                    <p> Copia [C] cc. 118v.-119r., cc. CXv.-CXIr. secondo la numerazione originale.
+                    </p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 34, p. 49.</p>
+                    <p>Bibliografia: <ref target="#MAZZINI_1909">MAZZINI 1909</ref>, p. 230, n.
+                        14.</p>
+                </div>
+                <div type="crit_notes">
+                    <note>
+                        <emph>Nel margine esterno di c. 118v., di mano moderna:</emph> De eodem
+                    </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">XXXIIII. De muris de Corvo.</term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="XXXIIII_div">
+                <p xml:id="XXXIIII_p_001" n="1"> In nomine Domini, amen. <persName
+                        ref="#AlbertusFrederici">Albertus quondam Frederici de</persName>
+                    <placeName ref="#Lapadule">Lapadule</placeName> de <placeName ref="#Carrara"
+                        >Carraria</placeName>, <roleName>sindicus atque procurator</roleName>
+                    venerabilis patris <roleName>domini</roleName>
+                    <persName ref="#HenricusEpLuni">Henrici</persName>, <roleName>Dei gratia
+                        Lunensis episcopi<note place="foot" n="a" xml:id="XXXIIII_n_001">Dei gratia
+                            Lunensis episcopi: <emph>nel testo</emph> Lunensis episcopi Dei gratia
+                                <emph>con segno di richiamo per invertire l’ordine delle
+                                parole.</emph></note></roleName>, ut continetur in carta sindicatus
+                    atque procurationis inde facta manu <persName ref="#LevantinusLevantonot"
+                        >Levantini</persName>
+                    <roleName>notarii</roleName> de <placeName ref="#Levanto">Levanto</placeName>,
+                    visa atque lecta a me <persName ref="#OpipzoAldebrandini_notarius"
+                        >Oppezone</persName>
+                    <roleName>notario</roleName> infrascripto, sindicatu<supplied reason="omitted"
+                        >s</supplied> atque procuratorio nomine pro ipso domino episcopo atque pro
+                    Lunensi curia, fecit murari atque muros construi in podio de <placeName
+                        ref="#Corbo">Corbo</placeName> circa turrim et ipsam turrim cum ipso muro
+                    circumdavit undique. </p>
+                <p xml:id="XXXIIII_p_002" n="2"> Actum in dicto loco, presentibus <persName
+                        ref="#AlbertusYlice_notarius">Alberto</persName>
+                    <roleName>notario</roleName> de <placeName ref="#Ylice">Ylice</placeName>,
+                        <persName ref="#VessusYlice">Vesso</persName>
+                    <placeName ref="#Ylice">eiusdem loci</placeName>, <persName ref="#BovusYlice"
+                        >Bovo</persName>
+                    <placeName ref="#Ylice">eiusdem loci</placeName>, <persName ref="#IohannesFerri"
+                        >Iohanne filio Ferri</persName>
+                    <placeName ref="#Ylice">eiusdem loci</placeName>, <persName
+                        ref="#BazanellusVenuti">Bazanello quondam Venuti</persName>, <persName
+                        ref="#IohanninusBarbazano">Iohannini</persName> de <placeName
+                        ref="#Barbazzano">Barbazano</placeName>, <persName ref="#MartinusAlegre"
+                        >Martino Alegre de <placeName ref="#Ameglia">Amelia</placeName></persName>
+                    atque <persName ref="#BruscusAmelia">Brusco</persName>
+                    <placeName ref="#Ameglia">eiusdem loci</placeName>, testibus <pb n="119r"
+                        xml:id="fol_119r"/> ad hec rogatis. <date when="1286-03-19">Anno a
+                        nativitate Domini millesimo CC° octuagesimo VI, inditione XIIII, die martis,
+                        XVIIII mensis martii.</date>
+                </p>
+                <p xml:id="XXXIIII_p_003" n="3">
+                    <ptr target="#XXXIIII_st_001"/> Ego <persName ref="#OpipzoAldebrandini_notarius"
+                        >Oppizo quondam domini Aldebrandi de <placeName ref="#Pistina"
+                            >Pistina</placeName></persName>, <roleName>notarius</roleName> domini
+                        <persName ref="#GuilielmusAdvocatis">Guilielmi de Advocatis de</persName>
+                    <placeName ref="#Lucca">Luca</placeName>
+                    <roleName>comitis sacri palacii</roleName>, hiis interfui atque hanc cartam,
+                    rogatus, scripsi.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

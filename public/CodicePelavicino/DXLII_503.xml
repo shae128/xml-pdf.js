@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXLII_503">
+    <front xml:id="DXLII_front">
+      <titlePart type="numerazioneNuova">503</titlePart>
+      <titlePart type="numerazioneOrig">DXLII</titlePart>
+
+      <docDate xml:id="DXLII_docDate">
+        <date when="1176-02-02">1176 febbraio 2</date>, <placeName>Ameglia (<term xml:lang="latin"
+            >Amelie, in curia</term>)</placeName>
+      </docDate>
+      <div type="regesto" xml:id="DXLII_regesto">
+        <p>Il vescovo di Luni Pipino dona a un monaco del Corvo trentadue giove di terra a Macena,
+          nel luogo detto Casale per l’edificazione di un monastero in onore della Santa Croce e di
+          San Nicola.</p>
+      </div>
+      <div type="footer" xml:id="DXLII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] cc. 401v., c. CCCLXXXXIIIv. secondo la numerazione
+            originale. </p>
+          <p> Altri esemplari: </p>
+          <p>Copia autentica [B] in Archivio di Stato di Firenze, Diplomatico, Malaspina, 1176
+            febbraio 2.</p>
+          <p> Copia [D] in Archivio Storico Comune di Sarzana, Registri, 5/5, Registrum Novum
+            Communitatis Sarzane, cc. 282v-283; </p>
+          <p> Copia [D’] in Archivio Storico Comune di Sarzana, Registri, 3/3, cc. 367v-368r. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione di [C] in <ref type="biblio" target="#DE_ROSSI_1776">De Rossi 1776 </ref>;
+              <ref type="biblio" target="#PODESTÀ_1894">PODESTÀ 1894</ref>, p. 118; <ref
+              type="biblio" target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 542, pp.
+            615-617; <ref type="biblio" target="#VECCHI_2013b"> VECCHI 2013b</ref>, pp. 141-143</p>
+          <p>Edizione di [B] in <ref type="biblio" target="#VECCHI_2013b">VECCHI 2013b</ref>, pp.
+            139-140.</p>
+          <p>Nella presente edizione si segnalano solo le differenze rispetto a [B] traendo
+            dall’edizione <ref type="biblio" target="#VECCHI_2013b"> VECCHI 2013b</ref>.</p>
+          <p>Bibliografia: <ref type="biblio" target="#VECCHI_2013a"> VECCHI 2013a</ref> e <ref
+              type="biblio" target="#VECCHI_2013b"> VECCHI 2013b</ref></p>
+        </div>
+        <div type="crit_notes">
+          <note>Il giorno e il mese (2 febbraio) sono espressi con il riferimento alla festa
+            religiosa della Purificazione della Vergine; cfr. anche <ref target="#MAZZINI_1914"
+              >MAZZINI 1914</ref>, p. 37. Nel margine esterno, di mano moderna: <term
+              xml:lang="latin">Donatio terrarum facta ab episcopo Lunensi monachis Sancte Crucis de
+              Corvo pro edificandis ecclesia et monasterio. Anno 1176</term>. Autentica della prima
+            metà del XIII secolo, fatta dal notaio Prefetto, attestato dal 1198 al 1227 e figlio del
+            notaio redattore Lombardo.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXLII.
+              Qualiter episcopus Pipinus donavit locum ad edificandum Corvum certis
+            modis.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXLII_div">
+        <pb n="401v" xml:id="fol_401v"/>
+        <p xml:id="DXLII_p_001" n="1">
+          <ptr target="#DXLII_st_001"/><date when="1176-02-02">Anno dominice incarnationis M°CLXXVI,
+            indictione IX<note place="foot" n="a" xml:id="DXLII_n_001"> IX: VIIII<emph> in <ref
+                  type="biblio" target="#VECCHI_2013b"> VECCHI 2013b</ref>.</emph></note>, regnante
+              Frederico<note place="foot" n="b" xml:id="DXLII_n_002"> Frederico: Federico<emph> in
+                  <ref type="biblio" target="#VECCHI_2013b"> VECCHI 2013b</ref>.</emph></note>, Dei
+            gratia Romanorum imperatore semper augusto.</date> Tibi monacho de <placeName
+            ref="#Corvo">Corvo</placeName> ego <persName ref="#PipEpLuni">Pipinus</persName>,
+            <roleName>Dei gratia Lunensis episcopus</roleName>, offertor et donator tuus,
+            presentibus<note place="foot" n="c" xml:id="DXLII_n_003"> presentibus:<emph> in <ref
+                type="biblio" target="#VECCHI_2013b"> VECCHI 2013b</ref> preceduto da
+            </emph>presens.</note> dixi: «Quisquis in sanctis, sacris ac venerabilibus locis ex suis
+          aliquid attulerit, iuxta<note place="foot" n="d" xml:id="DXLII_n_004"> iuxta: iusta<emph>
+              in <ref type="biblio" target="#VECCHI_2013b"> VECCHI 2013b</ref></emph></note>
+          auctoris vocem, centuplum accipiet et insuper, quod melius est, vitam eternam<note
+            place="foot" n="e" xml:id="DXLII_n_005">eternam: heternam<emph> in <ref type="biblio"
+                target="#VECCHI_2013b"> VECCHI 2013b</ref>.</emph></note> possidebit». Ideoque ego
+          iamdictus <roleName>episcopus</roleName>
+          <persName ref="#PipEpLuni">Pipinus</persName> tibi suprascripto monacho cedo, trado, dono,
+          offero id est XXXII<term ref="#iuva">iuvas</term><note place="foot" n="f"
+            xml:id="DXLII_n_006">XXXII iuvas: XXX et II iuvas<emph> in <ref type="biblio"
+                target="#VECCHI_2013b"> VECCHI 2013b</ref>.</emph></note> terre continuas ad
+            <placeName ref="#Macena">Macenam</placeName>, in loco qui dicitur <placeName
+            ref="#Casale">Casale</placeName>, ad hedificandum ibi <orgName ref="Corvo_S_Croce"
+            >monasterium in honore Dei et vivifice Sancte Crucis et beatissimi Nich[olay]<note
+              place="foot" n="g" xml:id="DXLII_n_007">Nicholay:<emph> Integrazione sulla base di
+                  <ref type="biblio" target="#VECCHI_2013b"> VECCHI 2013b</ref>.</emph></note>
+            confessoris</orgName>, et per presentem cartulam offersionis confirmo ut a presenti die
+          in antea, usque in perpetuum<note place="foot" n="h" xml:id="DXLII_n_008">in perpetuum:
+              imperpetuum<emph> in <ref type="biblio" target="#VECCHI_2013b"> VECCHI
+              2013b</ref>.</emph></note>, tu iamscriptus monachus tuique successores ibidem
+          permanentes et in tuo ordine, id est in monastico ordine, in ipso loco Deo servientes,
+          exinde faciant iure proprietario ad utilitatem et honorem<note place="foot" n="i"
+            xml:id="DXLII_n_009">honorem: onorem<emph> in <ref type="biblio" target="#VECCHI_2013b">
+                VECCHI 2013b</ref>.</emph></note>
+          <orgName ref="Corvo_S_Croce">monasterii ipsius loci, id est hedificati in honore Sancte
+            Crucis et beati <expan>Nich<ex>olay</ex></expan><note place="foot" n="g"
+              xml:id="DXLII_n_010">Nicholay:<emph> Integrazione sulla base di <ref type="biblio"
+                  target="#VECCHI_2013b"> VECCHI 2013b</ref>.</emph></note></orgName>, in ordine
+          monachorum, ut dictum est superius, pro anime mee meorumque successorum mercede, sine omni
+          mea meorumque successorum contradictione, salvo tamen iure Lunensis ecclesie in<note
+            place="foot" n="l" xml:id="DXLII_n_011">in: id est<emph> in <ref type="biblio"
+                target="#VECCHI_2013b"> VECCHI 2013b</ref>.</emph></note> consecratione, ordine et
+            correptione<note place="foot" n="m" xml:id="DXLII_n_012">correptione: corectione<emph>
+              in <ref type="biblio" target="#VECCHI_2013b"> VECCHI 2013b</ref>.</emph></note>, ita
+          quod locus ille sive ecclesia illa vel illud monasterium nemini subponatur nisi Lunensi
+          ecclesie. Hanc quoque donationem et offersionem ego iamdictus <persName ref="#PipEpLuni"
+            >Pipinus</persName><roleName> episcopus</roleName> tibi iamdicto monacho tuisque<note
+            place="foot" n="n" xml:id="DXLII_n_013">tuisque:<emph>segue </emph>successoribus
+              <emph>in <ref type="biblio" target="#VECCHI_2013b"> VECCHI 2013b</ref>.</emph></note>
+          fratribus ad hedificandum ibi monasterium, ut dictum est superius, facio et nullo unquam
+          tempore tibi molestare aut per quodvis ingenium subtrahere promitto. Ipsam donationem et
+          offersionem vobis dando confirmo i<supplied reason="omitted">n</supplied>
+          <note place="foot" n="o" xml:id="DXLII_n_014">in: id est<emph> in <ref type="biblio"
+                target="#VECCHI_2013b"> VECCHI 2013b</ref>.</emph></note> XXXII iuvis<note
+            place="foot" n="p" xml:id="DXLII_n_016">iuvis: iuvas <emph>con </emph>a <emph>corretto
+            </emph>su i</note><emph>n Vecchi2013b.</emph> terre, de quibus superius agitur, cum
+          omnibus suis decimationibus et primitiis et oblationibus, ut nemini liceat te iamscriptum
+          monachum tuosque successores molestare vel illo<note place="foot" n="q"
+            xml:id="DXLII_n_015">illo:<emph> così nel testo per</emph> ullo.</note> modo causare de
+          decimis et primitiis et iamscriptis offersionibus. Hanc quoque cartulam donationis et
+          offersionis pagine <persName ref="#Lombardusnot">Lombardi</persName>, <roleName>notarii
+            imperatoris et nostri</roleName>, tradidi corroborandam et subter confirmationem<note
+            place="foot" n="r" xml:id="DXLII_n_017">confirmationem: confirmandam<emph> in <ref
+                type="biblio" target="#VECCHI_2013b"> VECCHI 2013b</ref>.</emph></note> scribere
+          rogavi ut mihi non liceat ullo tempore nolle quod volui, set a me semel factum est
+          inviolabiliter servare promitto, cum stipulatione subnixa.</p>
+        <p xml:id="DXLII_p_002" n="2">Actum <placeName ref="#Ameglia">Amelie</placeName>, <date
+            when="1176-02-02">in Purificatione Sancte Marie</date>, in curia, feliciter.</p>
+        <p xml:id="DXLII_p_003" n="3"># # Signa manuum <persName ref="#RollandusCanonica">Rollandi
+            de <placeName ref="#Canonica">Canonica</placeName></persName>, <persName ref="#Alineus"
+            >Alinei</persName>, <persName ref="#Lanfranchinus">Lanfranchini</persName>, <persName
+            ref="#Manzetus">Mangetis</persName><note place="foot" n="s" xml:id="DXLII_n_018"
+            >Magneti: Magnetti<emph> in <ref type="biblio" target="#VECCHI_2013b"> VECCHI
+                2013b</ref></emph></note>, <persName ref="#GerardinusAmelia">Gerardini de <placeName
+              ref="#Ameglia">Amelia</placeName></persName><note place="foot" n="t"
+            xml:id="DXLII_n_019">Amelia: Amellia<emph> in <ref type="biblio" target="#VECCHI_2013b">
+                VECCHI 2013b</ref>.</emph></note> et <persName ref="#Guidolinus"
+            >Guidolini</persName>, <persName ref="#ventura">Venture</persName>, <persName
+            ref="#Bonensegna">Bonensigni</persName><note place="foot" n="u" xml:id="DXLII_n_020"
+            >Bonensigni: Boninsigni<emph> in <ref type="biblio" target="#VECCHI_2013b"> VECCHI
+                2013b</ref>.</emph></note> et <persName ref="#Iuxtamons">Iustamontis</persName>
+          vicedomini, rogatorum testium. </p>
+        <p xml:id="DXLII_p_004" n="4">
+          <ptr target="DXLII_st_002"/>Ego <persName ref="#Lombardusnot">Lombardus</persName>,
+            <roleName>notarius imperatoris</roleName> et episcopi Lunensis, rogatus, hanc cartulam
+          donationis et offersionis scripsi. </p>
+        <div xml:id="DXLII_div2" type="autentica">
+          <p xml:id="DXLII_p_005" n="5">
+            <ptr target="#DXLII_st_003"/>Ego <persName ref="#Prefectusnot">Prefectus</persName>,
+              <roleName>domini imperatoris et Lunensis curie notarius</roleName>, huius exempli
+            autenticum vidi et legi, in quo nec plus nec minus continebatur, sed sicut in eo repperi
+              <note place="foot" n="v" xml:id="DXLII_n_021">repperi: reperi<emph> in <ref
+                  type="biblio" target="#VECCHI_2013b"> VECCHI 2013b</ref>.</emph></note> sic bona
+            fide exemplavi.<note><date notBefore="1198-01-01" notAfter="1227-12-31" cert="medium"
+                >Autentica del documento 530-DXXXXII ad opera del notaio Prefetto figlio di
+                Lombardo.</date></note>
+          </p>
+        </div>
+      </div>
+    </body>
+
+
+
+  </text>
+
+</TEI>

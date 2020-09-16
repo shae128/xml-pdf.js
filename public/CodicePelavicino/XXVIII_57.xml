@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="XXVIII_57">
+		<front xml:id="XXVIII_front">
+
+			<titlePart type="numerazioneNuova">57</titlePart>
+			<titlePart type="numerazioneOrig">XXVIII</titlePart>
+
+			<docDate xml:id="XXVIII_docDate">
+				<date when="1269-06-07">1269 giugno 7</date> e <date when="1269-06-08">8</date>,
+					<placeName ref="#Sarzanello">Sarzanello (<term xml:lang="latin">in castro
+						Sarzane, in palacio domini episcopi</term>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="XXVIIIX_regesto">
+				<p>Statuto dell’arte dei beccai del borgo e del castello di Sarzana, stabilito dal
+					vescovo di Luni Guglielmo e giurato dai beccai nominalmente elencati. </p>
+			</div>
+
+			<div type="footer" xml:id="XXVIIIX_footer">
+
+				<div type="orig_doc">
+					<p>Copia di copia autentica [C] cc. 115r.-116r., cc. CVIIr.-CVIIIr. secondo la
+						numerazione originale.</p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione in<ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 28,
+						pp. 41-44, con la data <date when="1269-06-07">1269 giugno 7</date></p>
+				</div>
+
+				<div type="crit_notes">
+					<note>
+						<p>L’autentica del notaio Gasparino, fatta a Sarzanello su mandato del
+							vescovo di Luni Enrico, data al 1286 febbraio 12. </p>
+						<p>Nel margine esterno di c. 115r., di mano moderna: <term xml:lang="latin"
+								>Statutum bechariorum de Sarzana</term></p>
+					</note>
+				</div>
+
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">XXVIII. Carta becariorum de Sarçana et
+						castro.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="XXVIII_div1">
+				<pb n="115r" xml:id="fol_115r"/>
+				<p xml:id="XXVIII_p_001">Exemplum carte becariorum </p>
+				<p xml:id="XXVIII_p_002">In Dei nomine, amen. <date when="1269-06-07">A nativitate
+						Eius millesimo ducentesimo sexagesimo nono, inditione duodecima, die septimo
+						mensis iunii</date>.Infrascripte sunt constitutiones et ordinamenta facte et
+					facta per <roleName>venerabilem patrem dominum <persName ref="#GuilEpLuni"
+							>Guilielmum</persName>, Dei gratia Lunensem episcopum</roleName>, in
+					arte et super arte becariorum <orgName ref="#Sarzana_comune">communium burgi</orgName> et <orgName ref="#Sarzananello_comune">castri Sarzane</orgName>, ad que sive
+					quas omnes et singuli becarii atque qui artem becarie exercent in <placeName
+						ref="#Sarzana">burgo</placeName> et<placeName ref="#Sarzanello"> castro
+						Sarzane </placeName>teneantur iurare et eorum artem facere et exercere. </p>
+				<p xml:id="XXVIII_p_003">In primis, statutum est per dominum episcopum suprascriptum
+					quod ipsi becarii et quilibet eorum, carnes vendentium in <placeName
+						ref="#Sarzana">burgo</placeName> et<placeName ref="#Sarzanello"> castro
+						Sarzane</placeName>, teneantur iuramento carnes porcinas, bovinas sive
+					vacinas et castroninas et alias omnes, preter capretos et agnos et porcellos de
+					lacte, vendere ad rectum pondus et mensuram; et qui contrafecerit puniatur per
+					ipsum dominum episcopum et consules becariorum, pro qualibet vice, in <measure
+						type="ianuenses" quantity="5" unit="solidus"> soldis V Ianuensium</measure>;
+					et ad vistam vendere possint, si emptori placuerit. </p>
+				<p xml:id="XXVIII_p_004">Item quod ipsi becarii et quilibet eorum teneantur non
+					vendere aliquas carnes alicuius animalis morbosi vel infirmi, salvo quod
+						<roleName>bos polmonarie</roleName> non intelligatur morbosus; et qui
+					contrafecerit puniatur per suprascriptos, ut dictum est, in <measure
+						type="ianuenses" quantity="10" unit="solidus">soldis X
+					Ianuensium</measure>.</p>
+				<p xml:id="XXVIII_p_005">Item quod carnes omnes in publico occidantur in becaria et
+					non alibi et qui contrafecerit puniatur per suprascriptos, ut dictum est, in
+						<measure type="ianuenses" quantity="5" unit="solidus">soldis V
+						Ianuensium</measure> pro qualibet vice, salvo quod, tempore pluvioso,
+					possint occidere alibi, cum licentia consulum. </p>
+				<p xml:id="XXVIII_p_006">Item teneantur ipsi becarii et quilibet eorum non vendere
+					carnes pecudis pro carnibus castroninis, nec carnes montonis pro carnibus
+					castroninis, nec etiam carnes <roleName> troge </roleName> pro carnibus
+					porcinis, nec aliquas carnes unam pro alia; et qui contrafecerit puniatur per
+					suprascriptos, ut dictum est, pro qualibet vice, in <measure type="ianuenses"
+						quantity="5" unit="solidus">soldis V Ianuensium</measure>. </p>
+				<p xml:id="XXVIII_p_007">Item teneantur ipsi becarii et quilibet eorum non facere
+					aliquam iuram, societatem, vel compegniam, nisi causa mercandi; et qui
+					contrafecerit puniatur per predictos, ut dictum est, qualibet vice, in <measure
+						type="ianuenses" quantity="40" unit="solidus"> soldis XL
+						Ianuensium</measure>, et destruatur iura.</p>
+				<p xml:id="XXVIII_p_008">Item quod quilibet becarius possit et debeat artem suam
+					libere facere et exercere quandocumque et quocienscumque voluerit, et non
+					committere in carnibus vendendis aliquam maliciam nec pactum aliquod facere de
+					vendendo vel non vendendo carnes aliquibus temporibus, diebus vel horis; et qui
+					contrafecerit puniatur, pro qualibet vice, in <measure type="ianuenses"
+						quantity="5" unit="solidus">soldis V Ianuensium</measure>. </p>
+				<p xml:id="XXVIII_p_009">Item quod omnes et singuli becarii teneantur predicto
+					domino episcopo <note xml:id="XXVIII_n_001" n="a" place="foot">domino
+							episcopo:<emph>nel testo</emph> episcopo domino <emph>con segno di
+							richiamo per invertire l’ordine delle parole</emph>.</note> et
+					consulibus super predictis et aliis omnibus, que ad officium becarie pertinent,
+					obedire <note xml:id="XXVIII_n_002" n="b" place="foot">obedire:<emph>aggiunto
+							nel margine esterno da mano posteriore per rimediare ad omissione del
+							copista.</emph></note>
+					<pb n="115v" xml:id="fol_115v"/> et consules teneantur iuramento non facere vel
+					committere, vel fieri vel committi permittere, fraudem aliquam in vendendo
+					carnes et officium sui consolatus legaliter exercere, salvo in omnibus et
+					singulis suprascriptis mandato et voluntate domini episcopi; et nullus
+					recipiatur inter becarios nec artem becarie facere possit vel debeat in
+						<placeName ref="#Sarzana">burgo</placeName> et <placeName ref="#Sarzanello">
+						castro Sarzane</placeName> nisi iuraverit et fecerit istud sacramentum. </p>
+				<p xml:id="XXVIII_p_010">Item quod quilibet becarius possit carnes gramignosas
+					occidere et vendere, dummodo primo dicat ementi: <q rend="pre(«) post(»)">granugnosa est</q>; et qui
+					contrafecerit perdat, qualibet vice, <measure type="ianuenses" quantity="5"
+						unit="solidus">soldos V Ianuensium</measure>.</p>
+				<p xml:id="XXVIII_p_011">Item omnes et singuli becarii teneantur iuramento accusare
+					et denunciare domino episcopo et consulibus, vel cui commiserit, quoscumque
+					becarios sciverint vel cognoverint vel crediderint fecisse contra predicta vel
+					aliquod predictorum infra tres dies vel ante, si poterint, bona fide, sine
+					fraude, in banno <measure type="ianuenses" quantity="5" unit="solidus"> soldorum
+						quinque Ianuensium</measure>. Et consules teneantur, infra octo dies post
+					denunciationem factam, banna exigere et non remittere, si de delicto
+					constiterit. </p>
+				<p xml:id="XXVIII_p_012">Item teneantur becarii solvere annuatim, per totum mensem
+					ianuarii, domino episcopo <measure type="ianuenses" quantity="5" unit="solidus">
+						soldorum quinque Ianuensium</measure> pro quolibet bancho, si duo becarii
+					ibi fuerint; et, si ultra duos becarios fuerint ad unum banchum, <measure
+						type="ianuenses" quantity="2.5" unit="solidus"> soldos duos et dimidium
+						Ianuensium</measure> pro quolibet. Et duo becarii sint pro quolibet bancho
+					et non minus, sed plures possint esse, ut dictum est, et habeant licenciam
+					tenendi banchos in <placeName ref="#Carcandola">Carcandula</placeName>, et ibi
+					possint eos tenere continue, salvo quod aliis diebus, preter dies mercati,
+					faciant carnes in loco ubi modo habent becariam et vendant. Nunc autem, de
+					gratia speciali, idem dominus episcopus concedit becariis quod vendant carnes
+					precio competenti, ad eorum voluntatem; et si hoc fecerint utiliter, providendo
+					tam emptoribus quam venditoribus, perseverabit gratia, alioquin per suprastantem
+					suum et consules becariorum faciet imponi certum precium in carnibus vendendis.
+					Et consules elligantur infra octo dies ante kalendas ianuarii de voluntate
+					speciali ipsius domini episcopi et successorum suorum, et non aliter. </p>
+				<p xml:id="XXVIII_p_013">De addito vero teneantur et diminuto absolvantur, si
+					additum fuerit vel diminutum de voluntate et mandato domini episcopi, consilio
+					consulum qui pro tempore fuerint. </p>
+				<p xml:id="XXVIII_p_014">Lecte et publicate sunt suprascripte constitutiones et
+					ordinamenta et confirmate et approbata per dominum episcopum suprascriptum, in
+					presentia infrascriptorum becariorum, in <placeName ref="Sarzanello">castro
+						Sarzane</placeName> in palacio ipsius domini episcopi, presentibus
+						<roleName>domino <persName ref="#Peregrinuscan">Pelegrino</persName> Lunensi
+						canonico</roleName>, <roleName>fratre</roleName>
+					<persName ref="#GuidoPelagalli_frater">Guidone filio Pelagalli <pb n="116r"
+							xml:id="fol_116r"/>de <placeName ref="#Bibola"
+						>Bibola</placeName></persName>, <roleName>presbytero</roleName><persName
+						ref="#AccolinusCollechio"> Accolino de <placeName ref="#Collecchia"
+							>Collechio</placeName></persName> et <persName
+						ref="#MelanenseBrixiolini">Melanense Brisatirivi de <placeName ref="#Lucca"
+							>Luca</placeName></persName> et <persName ref="#TiniosusParenti">Tignoso
+						quondam Parentis de<placeName ref="#Sarzanello">castro
+						Sarzane</placeName></persName>, testibus.</p>
+				<p xml:id="XXVIII_p_015">Post hec ibidem incontinenti et eisdem presentibus,
+						<persName ref="#Guidotinus_becarius">Guidotinus</persName><note
+						xml:id="XXVIII_n_003" n="c" place="foot">Guidotinus:<emph>con segno di
+							abbreviazione generico depennato. </emph></note> et <persName
+						ref="#Ugerinus">Ugerinus</persName>, <roleName>consules suprascripte artis
+						becariorum</roleName>, et infrascripti<roleName>becarii</roleName>,
+					videlicet <persName ref="#UrsusFeste_becarius">Ursus quondam Feste</persName>,
+						<persName ref="#Fuschus_becarius">Fuschus</persName>, <persName
+						ref="#HenricusCursi_becarius">Henricus quondam Cursi</persName>, <persName
+						ref="#Guidarellus_becarius">Guidarellus</persName>, <persName
+						ref="#Guiluncius_becarius">Guiluncius</persName>, <persName
+						ref="#Condo_becarius">Condo <note xml:id="XXVIII_n_004" n="d" place="foot"
+								>Condo:<emph>lettura incerta</emph></note></persName>,<persName
+						ref="#Vitalis_becarius">Vitalis</persName>, <persName
+						ref="#Fuscus Ubertini_bacarius">Fuscus Ubertini</persName>, <persName
+						ref="#Lombardellus_becarius">Lombardellus</persName>, <persName
+						ref="#Rollandinus_becarius">Rollandinus</persName>, <persName
+						ref="#Mercadus_becarius">Mercadus</persName>, <persName
+						ref="#Cistonus_becarius">Cistonus</persName>, <persName
+						ref="#Segnorettus_becarius">Segnorettus</persName>, <persName
+						ref="#Bacchonus_becarius">Bacchonus</persName>, <persName
+						ref="#Ferrinus_becarius">Ferrinus</persName>, <persName
+						ref="#BomiohannesAdrianus_becarius">Bomiohannes Andrianus</persName>,
+						<persName ref="#Accolinus_becarius">Accolinus</persName>, <persName
+						ref="#Ugacius_becarius">Ugacius</persName>, <persName
+						ref="#Martinus_becarius">Martinus</persName>, <persName
+						ref="#Gerardellus_becarius">Gerardellus</persName>, <persName
+						ref="#Contrucius_becarius">Contrucius</persName>, <persName
+						ref="#Mercaducius_becarius">Mercaducius</persName>, <persName
+						ref="#Gerardus_becarius">Gerardus</persName>, <persName
+						ref="#Pedevacha_becarius">Pedevacha</persName>, <persName
+						ref="#Reddonus_becarius">Reddonus</persName>, omnes et singuli iuraverunt,
+					corporaliter tacto libro, predictas constitutiones et ordinamenta et omnia et
+					singula, que in eis continentur, attendere et observare bona fide, sine fraude,
+					ad voluntatem domini episcopi.</p>
+				<p xml:id="XXVIII_p_016"><date when="1269-06-08">Item, eodem anno et inditione et
+						die VIII iunii</date>et coram eis<supplied reason="omitted">dem</supplied>
+					testibus, in camera palacii suprascripti, infrascripti becarii, videlicet
+						<persName ref="#Abraciadore_becarius">Abraciadore</persName>, <persName
+						ref="#Guilielmus_becarius">Guilielmus</persName>, <persName
+						ref="#Venturellus_becarius">Venturellus</persName> et <persName
+						ref="#Sarzanellus_becarius">Sarzanellus</persName>, iuraverunt facere et
+					servare in omnibus et per omnia ut in suprascriptis ordinamentis et
+					constitutionibus continetur et ut suprascripti alii pro se iuraverunt et
+					fecerunt. </p>
+				<p xml:id="XXVIII_p_017"><ptr target="#XXVIII_st_001"/><persName
+						ref="#HengeramusParentisnot">Ghenheramus<note xml:id="XXVIII_n_005" n="e"
+							place="foot">Ghenheramus:<emph> così nel testo per</emph>
+							Hengheramus</note> quondam Parentis de <placeName ref="#Sarzanello"
+							>castro Sarzane</placeName></persName>, <roleName>palacii sacri
+						notarius</roleName>, hiis omnibus interfui et de mandato suprascripti domini
+					episcopi hec scripsi.</p>
+			</div>
+			<div xml:id="XXVIII_div2" type="autentica">
+				<p xml:id="XXVIII_p_018"><ptr target="XXVIII_st_002"/> Ego <persName
+						ref="#GasparinusSarzananot">Gasparinus <roleName>notarius</roleName> domini
+						<persName ref="#MarcusLomello">Marchi, comitis palatini</persName>/ de <note xml:id="XXVIII_n_006" n="f" place="foot">
+							de <emph>corretto su precedente scrittura</emph></note>
+						<placeName ref="#Lomello">Lomello</placeName></persName>, auttenticum huius
+					exempli vidi et legi et, ut in eo inveni, hic bona fide scripsi, nichil addito
+					vel minuto quod mutet sensum vel variet intellectum, signo proprio et nomine
+					apponendo mandato et auttoritate venerabilis patris <roleName>domini <persName
+							ref="#HenricusEpLuni">Henrici</persName>, Dei gratia Lunensis
+						episcopi</roleName> qui in hiis mihi suam interposuit auctoritatem atque
+					decretum, presentibus <roleName>presbytero <persName
+							ref="#GuilielmusRegnano_presbyter">Guilielmo de <placeName
+								ref="#Regnano">Regnano</placeName></persName></roleName>, <persName
+						ref="#LandusGualteroni">Lando Galteroni de <placeName ref="#Lucca"
+							>Luca</placeName></persName> et <persName ref="#IohannellusVirgilii"
+						>Iohannello quondam Virgilii de <placeName ref="#Sarzana"
+							>Sarzana</placeName></persName>, testibus ad hec rogatis.</p>
+				<p xml:id="XXVIII_p_019">Actum in palacio ipsius domini episcopi de <placeName
+						ref="#Sarzanello">castro Sarzane</placeName>, <date when="1286-02-12">anno a
+						nativitate Domini M°CC°LXXXVI, inditione XIIIIa, die XII° mensis
+							februarii<note>Autentica del documento 57-XXVIII</note></date>
+				</p>
+
+			</div>
+		</body>
+	</text>
+</TEI>

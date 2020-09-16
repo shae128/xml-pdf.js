@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXVIII_479">
+    <front xml:id="DXVIII_front">
+
+      <titlePart type="numerazioneNuova">479</titlePart>
+      <titlePart type="numerazioneOrig">DXVIII</titlePart>
+
+      <docDate xml:id="DXVIII_docDate">
+        <date when="1279-02-17">1279 febbraio 17, <placeName ref="#Carrara">Carrara </placeName>
+            (<term xml:lang="latin">Carrarie, in camera palacii sive curie domini
+          episcopi</term>)</date>
+      </docDate>
+
+      <div type="regesto" xml:id="DXVIII_regesto">
+
+        <p> Il vescovo di Luni Enrico nomina suo procuratore Proino di Santo Stefano per prendere
+          possesso del castello della Brina e del poggio di Castiglione pertinente al castello.</p>
+
+      </div>
+
+      <div type="footer" xml:id="DXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 385r.-385v., cc. CCCLXXVIIr.-CCCLXXVIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 518, pp.
+            562-563</p>
+          <p>Bibliografia: <ref target="#NERI_1915">NERI 1915 </ref>; <ref target="#FORMENTINI_1950"
+              >FORMENTINI 1950 </ref>; <ref target="#NOBILI_1982">NOBILI 1982. </ref></p>
+        </div>
+
+        <div type="crit_notes">
+          <note> La data M°LXXIX è errata e va corretta in M°CCLXXIX, come si ricava dal successivo
+            documento n. 480-DXVIIII redatto il giorno successivo e relativo all’evolversi della
+            vicenda. </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXVIII.
+              Procurationis et sindicatus domini episcopi Henrici Lunensis ad intrandum tenutam
+              castri de Brina et aliorum iurium que ibi habet et in pertinentiis ecclesia
+              Lunensis.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXVIII_div">
+        <p xml:id="DXVIII_p_001" n="1"> In nomine Domini, amen. <date when="1279-02-17"> Anno a
+            nativitate Eius M°<supplied reason="omitted">CC</supplied>LXXIX, indictione VII, XVII
+            die mensis februarii</date>. Venerabilis pater dominus <persName ref="#HenricusEpLuni"
+            >Henricus</persName>,<roleName> Dei gratia Lunensis episcopus </roleName>, suo et
+          episcopatus Lunensis nomine, fecit et constituit <persName ref="#ProhinusSanctiStephani">
+            <roleName>magistrum </roleName> Prohynum de <placeName ref="#Santo_Stefano">Sancto
+              Stephano</placeName>
+          </persName>, presentem et suscipientem, suum et <roleName>ipsius episcopatus syndicum,
+            actorem et procuratorem et certum nuncium </roleName> ad infrascripta facienda et
+          exercenda pro ipso domino episcopo et episcopatu, videlicet ad intrandum, accipiendum et
+          utendum pro ipso domino episcopo et episcopatu in tenutam et possessionem corporalem vel
+          quasi possessionem castri <placeName ref="#Brina"> Brine </placeName> et podii ipsius
+          castri et montis, qui dicitur <placeName ref="#Castiglione">Castilionem</placeName><note
+            xml:id="DXVIII_n_001" n="a">Castilionem: <emph>così nel testo</emph>.</note>, qui mons
+          est ab ipso castro inferius versus stratam, scilicet pro ea parte, ratione et iure quam et
+          quod ipse dominus episcopus et episcopatus habet et habere debet in ipso castro et podio
+          et monte ratione et occasione dominii et iurisdictionis et feudi et possessionis vel quasi
+          et alia qualibet ratione vel occasione vel modo et etiam in tenutam et possessionem vel
+          quasi iurisdictionis et districtus ipsius castri et podii et montis et hominum ipsius loci
+          et aqualium et riparum et saltarie et aliorum iurium omnium ad ipsum dominum episcopum et
+          episcopatum pertinentium et pertinere debentium in ipso castro et pertinentiis et ad
+          faciendum pro ipso domino episcopo et episcopatu illas protestationes et requisitiones et
+          precepta communi et universitati et hominibus ipsius loci et aliis quibuscumque personis
+          occasione predicta, que fuerint facienda et prout ipsi syndico vel actori utile vel
+          necessarium videbitur, et ad faciendum de predictis vel aliquo predictorum fieri vel
+          rogari publicum instrumentum vel instrumenta, prout ipsi syndico vel actori sive
+          procuratori videbitur faciendum, promittens pro se et dicto suo episcopatu se ratum et
+          firmum habiturum totum et quicquid per ipsum syndicum vel actorem sive procuratorem factum
+          fuerit in predictis et circa predicta vel in aliquo predictorum, sub obligatione bonorum
+          ipsius episcopatus.</p>
+        <p xml:id="DXVIII_p_002" n="2"> Actum <placeName ref="#Carrara">Carrarie</placeName>, in
+          camera palacii sive curie domini episcopi, presentibus <persName ref="#Rubeusiud">
+            <roleName>domino </roleName> Rubeo de <placeName ref="#Sarzana">Sarzana </placeName>
+          </persName>
+          <pb n="385v" xml:id="fol_385v"/>
+          <roleName>iudice, domino </roleName>
+          <persName ref="#Bertoluscan"> Bertulo <roleName>Lunensi canonico </roleName>
+          </persName> et <persName ref="#PetrusLamusca">Petro de <placeName ref="#Lamusca">Lamusca
+            </placeName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="DXVIII_p_003" n="3">
+          <ptr target="#DXVIII_st_001"/> Ego <persName ref="#PetrusGualterotinot">Petrus quondam
+            Gualteroti de <placeName ref="#Soliera"> Soleria</placeName></persName>, <roleName>sacri
+            palacii notarius </roleName>, hiis interfui et rogatus scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

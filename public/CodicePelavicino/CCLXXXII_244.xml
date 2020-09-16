@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXXII_244">
+    <front xml:id="CCLXXXII_front">
+
+      <titlePart type="numerazioneNuova">244</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXXII</titlePart>
+
+      <docDate xml:id="CCLXXXII_docDate">
+        <date when="1265-05-31">1265 &lt;maggio 31&gt;</date>, <placeName>Castelnuovo</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXXII_regesto">
+        <p>Salvetto &lt;del fu Pietro de Porreto, abitante di Castelnuovo&gt;, a nome suo e della
+          moglie Allegranza, loca in enfiteusi a Iacopino &lt;del fu Curadeto di Tivegna, abitante
+          di Castelnuovo&gt;, la medesima terra che questi gli aveva venduto. Il fitto ammonta a uno
+          staio di frumento all’anno.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXXII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 275r.-275v., cc. CCLXVIIr.-CCLXVIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 282,
+            p. 258, che trascrive le prime tre righe del documento.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il documento, privo di data (cfr.<ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p.
+            20), è legato al precedente ed era probabilmente scritto sulla medesima pergamena; da
+            qui le integrazioni proposte. Parti del documento sono state lette con l’ausilio della
+            lampada di Wood.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCLXXXII. Locationis suprascripte terre facte per eundem Salvectum eodem Iacopino ad
+              I starium frumenti ficti.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXXII_div">
+        <p xml:id="CCLXXXII_p_001" n="1">Ibidem incontinenti et presentibus testibus suprascriptis,
+          dictus vero <persName ref="#SalvettusCastronovo">Salvetus</persName> per se suosque
+          heredes et pro suprascripta <persName ref="#Alegrança">Alegrança</persName>, uxore sua,
+          dedit et locavit in perpetuum predictam terram in <supplied reason="omitted"
+          >em</supplied>fytheosim seu nomine ficti suprascripto <persName ref="#IacopinusCuradeti"
+            >Iacopino</persName>, recipienti pro se suisque heredibus et cui commiserit, et dedit ei
+          licentiam intrandi inde tenutam, auctoritate sua, quandocumque sibi placuerit,
+          constituendo se pro eo et eius nomine precario possidere donec tenutam fuerit apprehensus,
+            <supplied reason="omitted">ita quod ut abhinc perpe</supplied>tuo suprascriptus
+          acquisitor suique <supplied reason="omitted">heredes</supplied> et cui commiserit
+          suprascriptam terram, cum accessibus et regressibus, superioribus et inferioribus et
+          iuribus et <pb n="275v" xml:id="fol_275v"/> pertinenciis suis, in integrum habeat, teneat,
+          fruatur et possideat, sine contradictione aliqua alicuius, dando inde annuatim et reddendo
+          dictus acquisitor suique heredes locatori predicto, recipienti pro se et suprascripta
+          uxore sua et eorum heredibus et cui commiserit, starium I boni, mundi et sicci frumenti,
+          nomine ficti, infra mensem augusti ad commune starium <placeName ref="#Castelnuovo"
+            >Castrinovi</placeName>; alia imposita ei inde non fiat. De deffensione non tenetur,
+          quia sicut fuerit concordia inter eos. Si quis autem ipsorum vel suorum heredum contra
+          predicta fecerit et non observaverit, ut superius dictum est, dabit ex pacto alteri parti,
+          fidem servanti, nomine pene <measure type="Imperiales" quantity="20" unit="solidus">soldos
+            XX imperialium</measure>, qua soluta, rato manente pacto, obligando se ad hec vicissim
+          suosque heredes et omnia eorum bona habita et habenda et renunciando omni iuri et legibus
+          seu canonicis<note xml:id="CCLXXXII_n_001" n="a" place="foot"><term xml:lang="latin"
+              >canonicis</term>: <emph>corretto su precedente</emph>
+            <term xml:lang="latin">canonicum</term>.</note> beneficiis contra hec introductis.</p>
+        <p xml:id="CCLXXXII_p_002" n="2"><ptr target="#CCLXXXII_st_001"/> Ego <persName
+            ref="#Attolinusnot">Attolinus, <roleName>notarius</roleName></persName> suprascriptus,
+          hiis omnibus interfui, rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

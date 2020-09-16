@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLVII_319">
+    <front xml:id="CCCLVII_front">
+
+      <titlePart type="numerazioneNuova">319</titlePart>
+      <titlePart type="numerazioneOrig">CCCLVII</titlePart>
+
+      <docDate xml:id="CCCLVII_docDate">
+        <date when="1218-02-11">1218 febbraio 11</date>, <placeName>Carrara (<emph>in ecclesia de
+            Carraria</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLVII_regesto">
+        <p>Ugolino del fu Armannino concede in feudo a Bonaiuto e Gerardo, figli del fu Bonfigliolo
+          di Sorgnano, e alle rispettive mogli Dolceamata e Guirisetta, figlie del fu Guirisio di
+          Torano, tutta la sua tenuta, eccetto una casa nella villa di Sorgnano, che viene invece
+          venduta, ed eccetto le vigne in pianura. Acconsente all’investitura Guglielmino, figlio di
+          Ugolino.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 309r., c. CCCIr. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 357,
+            p. 341.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Parte del documento è stata letta con l’ausilio della luce di Wood.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCLVII.
+              Vassallatici Bonavite et Gerardi condam Bonfilii de Sorgnano.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLVII_div">
+        <p xml:id="CCCLVII_p_001" n="1"><ptr target="#CCCLVII_st_001"/> In nomine Domini, amen.
+            <date when="1218-02-11">Anno a nativitate Eius M°CCXVIII, indictione VI, die dominico,
+            XI mensis februarii</date>. Ego <persName ref="#UgolinusArmannini">Ugolinus quondam
+            Armannini</persName> investio, nomine recti et honorifici feudi, vos iugales, videlicet
+            <persName ref="#BonaiutusBonfioioli">Bonaiutus</persName> et <persName
+            ref="#GerardusBonfilioli">Gerardum germanos, filios quondam Bonfilioli de <placeName
+              ref="#Sorgnano">Sorgnano</placeName></persName>, et <persName
+            ref="#DolçamatamGuirisii">Dolçamatam</persName> et <persName ref="#GuirisectaGuirisii"
+            >Guirisectam germanas, filias quondam Guirisii de <placeName ref="#Torano"
+              >Torano</placeName></persName>, recipientes pro vobis vestrisque heredibus, nominatim
+          de tota tenuta et possessione quam a me tenuistis hucusque, ubicumque sit et poterit
+          reperiri, excepta I domo sita in villa de <placeName ref="#Sorgnano">Sorgnano</placeName>,
+          cum platea sua et eius pertinenciis, quam vobis vendidi, et exceptis vineis quas a me
+          tenebatis in plano, in loco dicto Ca<supplied reason="illeggibile">[..]</supplied>, quas
+          mihi retineo pro afficto, quod mihi de dicta tenuta dabatis, ita ut amodo perpetuo, nomine
+          recti et honorifici feudi, vos vestrique heredes habeatis, teneatis, fruamini et
+          possideatis totam dictam tenutam, sicut superius legitur, <supplied reason="illeggibile"
+            >agrum et</supplied> cultum, plenum et vacuum, divisim et indivisim, ubicumque sit et
+          poterit reperiri, cum accessibus et regressibus suis et omnibus suis pertinenciis, in
+          integrum, sin alicuius aliqua contradictione et cum <supplied reason="omitted"
+            >mea</supplied> meorumque heredum rationabili deffensione ab omni persona vel
+          restauratione facienda supra mea bona ad hoc obligata in consimili loco, in arbitrio
+          bonorum hominum, prout tunc valuerit, si deffendere cum ratione <note
+            xml:id="CCCLVII_n_001" n="a" place="foot"><term xml:lang="latin">ratione</term>: nel
+            testo roene con segno generico di abbreviazione e prima e espunta.</note> ego et heredes
+          mei vobis vestrisque heredibus non possemus, salva semper vobis dicta domo, quam vobis
+          vendidi et dedi per allodium, et retentis mihi dictis vineis pro cambio afficti, quod mihi
+          de dicta tenuta dabatis, et do vobis licenciam intrandi in tenutam, vestra auctoritate.
+          Pro quo feudo iamscripto vos vestrique heredes debeatis esse mei fideles et honorifici
+          vassalli contra omnes homines, personas et locos. Et sic dicti germani dicto <persName
+            ref="#UgolinusArmannini">Ugolino</persName> fidelitatem iuraverunt contra omnes homines,
+          personas et locos. Presens <persName ref="#GuilielminusUgolini">Guilielminus, filius
+            iamscripti Ugolini</persName>, in hiis omnibus assensum dedit et suam auctoritatem. </p>
+        <p xml:id="CCCLVII_p_002" n="2">Actum in ecclesia de <placeName ref="#Carrara"
+            >Carraria</placeName>, presentibus <persName ref="#GrecusPetrognano">Greco de <placeName
+              ref="#Petrognano">Petrognano</placeName></persName>, <persName ref="#PeregrinusTorano"
+            >Peregrino de <placeName ref="#Torano">Torano</placeName></persName>, <persName
+            ref="#BonusSorgnano">Bonone</persName> et <persName ref="#BonaiunctaSorgnano">Bonaiuncta
+            de <placeName ref="#Sorgnano">Sorgnano</placeName></persName>, <persName
+            ref="#BontempusVeçale">Bontempo de <placeName ref="#Veçale"
+            >Veçale</placeName></persName>, <persName ref="#RossalusFavale">Rossalo de <placeName
+              ref="#Favale">Favale</placeName></persName> et <persName ref="#VitaleMartinella"
+            >Vitale de Martinella</persName>, testibus ad hec rogatis. </p>
+        <p xml:id="CCCLVII_p_003" n="3">Ego <persName ref="#Ugolinusnot">Ugolinus, <roleName>sacri
+              palacii et Lunensis curie notarius</roleName></persName>, hiis interfui et rogatus
+          scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

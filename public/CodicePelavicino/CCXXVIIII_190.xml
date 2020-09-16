@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXXVIIII_190">
+    <front xml:id="CCXXVIIII_front">
+
+      <titlePart type="numerazioneNuova">190</titlePart>
+      <titlePart type="numerazioneOrig">CCXXVIIII</titlePart>
+
+      <docDate xml:id="CCXXVIIII_docDate">
+        <date when="1182-03-04">1182 marzo 4</date>, <placeName>Soliera (<term xml:lang="latin"
+            >iuxta plebem Solerie</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXXVIIII_regesto">
+        <p>Ugo e Lanfranco di Erberia ordinano a Enricolo, figlio di Isembardo di Soliera, di far sì
+          che il proprio figlio Ranuccino si dichiari vassallo di Pietro, vescovo di Luni, e dei
+          suoi successori, con la casa e il recinto (<term xml:lang="latin">clausum</term>) che
+          tiene per conto dello stesso prelato.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP, c. 254r., c. CCXLVIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 229, p.
+            209.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Datazione secondo lo stile pisano dell’incarnazione.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXXVIIII_div">
+        <p xml:id="CCXXVIIII_p_001" n="1">In presentia testium, quorum nomina hic inferius leguntur,
+            <persName ref="#UgoHerberia">Ugo</persName> et <persName ref="#LanfrancusHerberia"
+            >Lanfrancus de <placeName ref="#Erberia">Herberia</placeName></persName> dixerunt atque
+          preceperunt <persName ref="#HenriculusYsembardi">Henriculo, filio cuiusdam Ysembardi de
+              <placeName ref="#Soliera">Soleria</placeName></persName> ut ipse <persName
+            ref="#HenriculusYsembardi">Henriculus</persName> det filium suum <persName
+            ref="#RanucinusHenricoli">Ranucinum</persName>
+          <persName ref="#PetrusEpLuni">Petro, Dei gratia <roleName>Lunensi
+            episcopo</roleName></persName>, et suis successoribus, ut ipse <persName
+            ref="#RanucinusHenricoli">Ranucinus</persName> sit suus vassallus atque fidelis cum suis
+          heredibus ab hac die in antea contra omnes homines, cum casa et clauso quod tenet a domino
+          Lunensi episcopo et cum aliis que habet vel in antea est habiturus. Ipse vero <persName
+            ref="#HenriculusYsembardi">Henriculus</persName> dedit de precepto <persName
+            ref="#UgoHerberia">Ugonis</persName> et <persName ref="#LanfrancusHerberia"
+            >Lanfransci</persName><note xml:id="CCXXVIIII_n_001" n="a" place="foot"><term
+              xml:lang="latin">Lanfransci</term>: <emph>così nel testo</emph>.</note> prefatum
+          filium suum <persName ref="#RanucinusHenricoli">Ranucinum</persName> et heredes ipsius cum
+          iamscripto tenore domino iamdicto <persName ref="#PetrusEpLuni">Petro, <roleName>Lunensi
+              episcopo</roleName></persName>. Promittunt quidem iamscripti <persName
+            ref="#UgoHerberia">Ugo</persName> et <persName ref="#LanfrancusHerberia"
+            >Lanfrancus</persName> id quod semel voluerunt <supplied reason="omitted">et</supplied>
+          fecerunt semper inviolabiliter conservare, cum stipulatione subnixa.</p>
+        <p xml:id="CCXXVIIII_p_002" n="2">Actum iuxta plebem <placeName ref="#Soliera"
+            >Solerie</placeName>, feliciter.<date when="1182-03-04"> Anno dominice incarnationis M°C
+            octogesimo II, quarto die intrante mense martio, qui est dies iovis, indictione
+            XV</date>.</p>
+        <p xml:id="CCXXVIIII_p_003" n="3"># # Signa manuum iamscriptorum <persName
+            ref="#UgoHerberia">Ugonis</persName> et <persName ref="#LanfrancusHerberia"
+            >Lanfranci</persName>, qui hanc cartulam fieri rogaverunt. Donnus <persName
+            ref="#BonfiliusarcSol">Bonfilius <roleName>archypresbiter de <placeName ref="#Soliera"
+                >Soleria</placeName></roleName></persName>, <persName ref="#PilusRicii">Pilus
+            Ricii</persName>, <persName ref="#OpizusPili">Opizo eius filius</persName>, <persName
+            ref="#GuidoUgolinus">Wido Ugolinus quondam Brancii</persName>, rogati testes,
+          interfuerunt.</p>
+        <p xml:id="CCXXVIIII_p_004" n="4"><ptr target="#CCXXVIIII_st_001"/> Ego <persName
+            ref="#Albertusnot">Albertus, <roleName>notarius invictissimi Frederici
+              imperatoris</roleName></persName>, hanc cartulam scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

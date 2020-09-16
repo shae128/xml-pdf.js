@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="CCCXLVII_309">
+		<front xml:id="CCCXLVII_front">
+
+			<titlePart type="numerazioneNuova">309</titlePart>
+			<titlePart type="numerazioneOrig">CCCXLVII</titlePart>
+
+			<docDate xml:id="CCCXLVII_docDate">
+				<date when="1215-02-24">1215 febbraio 24</date>, <placeName>Avenza (<emph>ante domum
+						Adalasie Aventie</emph>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="CCCXLVII_regesto">
+				<p>Adalasia del fu Lommannete e Martinella del fu Martino de Pera concedono a
+					livello la quarta parte di una casa posta nel borgo di Avenza a Guido Bulgio di
+					Avenza al fitto annuo di 12 denari di imperiali. La transazione, autorizzata
+					dall’arcivescovo di Luni Marzucco, costa 6 lire di imperiali. </p>
+			</div>
+
+			<div type="footer" xml:id="CCCXLVII_footer">
+
+				<div type="orig_doc">
+					<p>Copia di copia autentica [C] CP cc. 305v.-306r., cc. CCLXXXXVIv.-CCLXXXXVIIr.
+						secondo la numerazione originale </p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+						1912</ref>, n. 347, p. 333, con data 5 febbraio. </p>
+				</div>
+
+				<div type="crit_notes">
+					<p><emph>Die martis V exeunte mense februarii</emph> corrisponde al 24 febbraio,
+						non al 5 febbraio: cfr. <ref target="#MAZZINI_1914">MAZZINI 1914</ref> p.
+						23.</p>
+					<p>L'autentica è dell'11 aprile 1272.</p>
+					<p>Parte del documento è stata letta con l’ausilio della luce di Wood.</p>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">CCCXLVII. De domo condam Boni de Aventia.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="CCCXLVII_div">
+				<p xml:id="CCCXLVII_p_001"><ptr target="#CCCXLVII_st_001"/> In nomine Domini, amen.
+						<date when="1215-02-24">Anno a nativitate Eius millesimo CCXV, indictione
+						III, die martis V exeunte mense februarii</date>. Ego <persName
+						ref="#AdalasiaLommannete">Adalasia quondam Lommannete</persName> et
+						<persName ref="#MartinellaMartini">Martinella quondam Martini de <placeName
+							ref="#Pera">Pera</placeName></persName>, ambe <note
+						xml:id="CCCXLVII_n_001" n="a" place="foot">
+						<term xml:lang="latin">ambe</term>: <term>be</term>
+						<emph>corretto su precedente scrittura</emph></note> insimul et quelibet pro
+					sua parte, que est quarta unius domus, sita <note xml:id="CCCXLVII_n_002" n="b"
+						place="foot">
+						<term xml:lang="latin">sita</term>: <emph>così nel testo.</emph></note> in
+					burgo <placeName ref="#Avenza">Aventie</placeName>, cum orto qui contingit domui
+					retro, damus et locamus nomine libelli tibi <persName ref="#GuidoBulgius">Guido
+						Bulgio de <placeName ref="#Avenza">Avencia</placeName></persName> in te
+					tuisque heredibus, et ei coheret domui ab uno latere <persName
+						ref="#BentevegnaLutignana">Bentevegne de <placeName ref="#Lotignano"
+							>Lutignana</placeName></persName> domus quondam <persName
+						ref="#Guilielmus">Guilielmi</persName>, ab alio filiorum <persName
+						ref="#BonacursusLongi">Bonacursi Longi quondam de <placeName ref="#Avenza"
+							>Avencia</placeName></persName>, ante <placeName ref="#Romea_st">strata
+						Romea</placeName>, retro <note xml:id="CCCXLVII_n_003" n="c" place="foot">
+						<term xml:lang="latin">retro</term>: <term>e</term>
+						<emph>corretto su</emph>
+						<term xml:lang="latin">x</term></note> fovea burgi, ita quod ut tu, dictus
+						<persName ref="#GuidoBulgius">Guidus Bulçius</persName>, et tui heredes
+					amodo in perpetuum debeatis suprascriptam domum libellario nomine habere,
+					tenere, laborare, frui, meliorare et non peiorare totam, in integrum, cum orto
+					predicto et cum omnibus pertinenciis eius et tenea<supplied reason="omitted"
+						>n</supplied>tur <note xml:id="CCCXLVII_n_004" n="d" place="foot">
+						<term xml:lang="latin">teneatur</term>: <emph>corretto su precedente
+							scrittura</emph></note> pro ea et eo orto solvere et reddere
+					suprascripte <note xml:id="CCCXLVII_n_005" n="e" place="foot">
+						<term xml:lang="latin">suprascripte</term>: <emph>così nel testo per</emph>
+						<term xml:lang="latin">suprascriptis</term></note>
+					<persName ref="#AdalasiaLommannete">Adalasie</persName> et <persName
+						ref="#MartinellaMartini">Martinelle</persName> et eorum heredibus aut cui
+					dederint vel habere decreverint, omni anno, infra octavam nativitatis Domini,
+					fictam pensionem <measure type="Imperiales" unit="denarius" quantity="12"
+						>denariorum XII imperialium</measure> tantum, inter ambas, sex uni et sex
+					alteri; alia super imposita non fiat. Pro hac vero locatione receperunt dicte
+					mulieres, ut confesse fuerunt, a suprascripto <persName ref="#GuidoBulgius"
+						>Guido Bulçio</persName> servicium <measure type="Imperiales" unit="libra"
+						quantity="6">bonorum imperialium libras VI</measure> et renunciaverunt
+					exceptioni non numerate pecunie et non recepte et omni auxilio iuris humani et
+					divini et alicuius consuetudinis; si valeret aliquid ultra dictum servicium et
+					precium, ei ex dono concesserunt. Unde dederunt eis licenciam intrandi, sua
+					auctoritate, de predicta domo et orto in tenutam, promittendo ei et heredibus
+					eius, per se et eorum heredes, eandem domum totam, cum orto et cum omnibus
+					pertinenciis eius, in integrum, ab omni contradicente persona rationabiliter
+					deffendere et exbrigare vel restaurare, prout tunc valuerit, in extimatione
+					bonorum hominum, si deffendere non possent, et omnem indempnitatem in eorumdem
+					arbitrio emendare. Preterea dicta <persName ref="#MartinellaMartini"
+						>Martinella</persName> iuravit ad sancta Dei evangelia hanc locationem et
+					dationem ratam habere et tenere et in nullo unquam contravenire, per se nec per
+					aliquam subnixam personam. Et <persName ref="#BonaventuraOccletti">Bonaventura
+						quondam Occletti</persName> promisit dicto <persName ref="#GuidoBulgius"
+						>Guido</persName> pro ipsa <persName ref="#MartinellaMartini"
+						>Martinella</persName> supra sua bona deffendere et exbrigare medietatem
+					domus et orti predicti vel restaurare, secundum quod fuerit pro tempore
+					meliorata; et <persName ref="#AdalasiaLommannete">Adalasia</persName>, consensu
+					et voluntate viri, fecit hanc locationem et dedit <persName ref="#GuidoBulgius"
+						>Guido</persName> predicto. Et dominus <persName ref="#MarzuccusEpLuni"
+						>Marçucus, <roleName>Dei gratia Lunensis episcopus</roleName></persName>,
+					dedit licenciam, auctoritatem et parabolam dicto <persName ref="#GuidoBulgius"
+						>Guido</persName> ut aquireret dictam domum et ortum. Insuper constituerunt
+					penam <measure type="Imperiales" unit="solidus" quantity="100">C soldorum
+						imperalium</measure>; si quis ex ipsis aut earum vel eorum heredibus unquam
+					tollere vel laxare voluerit seu etiam contra hoc quod superius legitur i n
+					aliquo fraudulenter venire temptaverit, solvat alteri parti fidem servanti penam
+					predictam; qua soluta, non minus iste libellus in sua permaneat firmitate. </p>
+				<p xml:id="CCCXLVII_p_002">Actum ante domum <persName ref="#AdalasiaLommannete"
+						>Adalasie <placeName ref="#Avenza">Aventie</placeName></persName>,
+					sollempniter cum stipulatione subnixa, presentibus <persName
+						ref="#VenturaMonteseni">Ventura quondam Monteseni <note
+							xml:id="CCCXLVII_n_006" n="f" place="foot">
+							<term xml:lang="latin">Monteseni</term>: <emph>lettura incerta,
+								l'inchiostro è sbiadito</emph>
+						</note> de <placeName ref="#Monte">Monte</placeName></persName> et <persName
+						ref="#IncuntroMonteseni">Incuntro</persName>, eius fratre, <persName
+						ref="#GuidolotusIoboli">Guidoloto quondam Ioboli de <placeName
+							ref="#Miselia">Miselia</placeName></persName>, <persName
+						ref="#MolinariusCampilia">Molinario de <placeName ref="#Campilia"
+							>Campilia</placeName></persName>, testibus ad hec rogatis. </p>
+				<p xml:id="CCCXLVII_p_003">Ego <persName ref="#Bonalbergusnot2">Bonalbergus,
+							<roleName>iudex ordinarius et notarius domini Ottonis
+							imperatoris</roleName></persName>, hiis omnibus interfui et memorie
+					causa hoc, rogatu suprascripte <persName ref="#AdalasiaLommannete"
+						>Adalasie</persName> et <persName ref="#MartinellaMartini"
+						>Martinelle</persName>, litteris publicis descripsi.</p>
+				<pb n="306r" xml:id="fol_306r"/>
+			</div>
+			<div xml:id="CCCXLVII_div2" type="autentica">
+				<p xml:id="CCCXLVII_p_004"><ptr target="#CCCXLVII_st_002"/> Ego <persName
+						ref="#VincentiusProininot">Vincentius de <placeName ref="#Carrara"
+							>Carraria</placeName>, Proyni filius, <roleName>Sancte Romane Sedis
+							auctoritate notarius ac iudex ordinarius</roleName></persName>,
+					autenticum huius exempli vidi et legi et quicquid in eo repperi fideliter
+					exemplavi, auctoritate <persName ref="#ManfredusLucapod"
+							><roleName>domini</roleName> Manfredi de <placeName ref="#Lucca"
+							>Luca</placeName>, <roleName>potestatis</roleName>
+						<placeName ref="#Carrara">Carrarie</placeName></persName>, mihi concessa, in
+					presentia <persName ref="#SaladinusFosdenova">Saladini de <placeName
+							ref="#Fosdinovo">Fosdenova</placeName></persName>, <persName
+						ref="#MarabotinusPetrognano">Marabotini de <placeName ref="#Petrognano"
+							>Petrognano</placeName></persName>, testium rogatorum, <date
+						when="1272-04-11">annis Domini currentibus millesimo CCLXXII, indictione XV,
+						XI aprilis<note>Autentica del documento n. 309-CCCXLVII.</note></date>, ante
+					apothecam <persName ref="#Tursus"><roleName>magistri</roleName> Tursi, que est
+							<placeName ref="#Carrara">Carrarie</placeName></persName>, apud
+						<roleName>plebem</roleName>.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="B25">
+        <front xml:id="B25_front">
+
+            <titlePart type="numerazioneNuova">25</titlePart>
+            <titlePart type="numerazioneOrig"/>
+
+            <docDate xml:id="B25_docDate"><date from="1252-07-30" to="1254-12-31"> &lt;1252 luglio
+                    30 - 1254&gt;</date></docDate>
+
+            <div type="regesto" xml:id="B25_regesto">
+                <p>Elenco degli uomini e dei redditi acquistati dal vescovo di Luni Guglielmo da
+                    Ardoino di Carrara e consorti.</p>
+            </div>
+
+            <div type="footer" xml:id="B25_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 47v.-48r., cc. XXXVIIIIv.-XLr. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+
+                    <p>Edizione parziale in <ref type="biblio" target="#LUPO_GENTILE_1912"> LUPO
+                            GENTILE 1912</ref>, Addenda, n. 17, pp. 661-662. </p>
+                </div>
+
+                <div type="crit_notes">
+                    <note>Il documento è privo di data cronica e topica, ma riassume in gran parte
+                        i dati del doc. 343-CCCLXXXI redatto tra il luglio 1252 e il 1254. L’elenco
+                        è mutilo.</note>
+                </div>
+
+                <div type="appr"> </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="B25_div">
+                <p xml:id="B25_p_001"> Infrascripti sunt homines et redditus quos emit dominus
+                    Guilielmus, Lunensis episcopus, ab <persName ref="#ArduinusPetrognano">Ardoino
+                        de <placeName ref="#Carrara">Carraria</placeName></persName> et consortibus
+                    suis: </p>
+                <p xml:id="B25_p_002">
+                    <persName ref="#LaurentiusVitalis">Laurentius quondam</persName><note
+                        xml:id="B25_n_01" place="foot" n="a">Manca l’indicazione <emph>quondam
+                            Vitalis</emph>. Si veda doc. 343- CCCLXXXI. </note></p>
+                <p xml:id="B25_p_003"><persName ref="#SalvetusFontenella">Salvetus de <placeName
+                            ref="#Fontenella">Fontanella</placeName> quondam</persName><note
+                        xml:id="B25_n_02" place="foot" n="b">Manca l’indicazione <emph>quondam
+                            Vitalis</emph>. Si veda doc. 343- CCCLXXXI. </note>
+                </p>
+                <p xml:id="B25_p_004"><persName ref="#AlbergusValdonica">Albergus de <placeName
+                            ref="#Valdonica">Valdonica</placeName> quondam</persName><note
+                        xml:id="B25_n_03" place="foot" n="c">quondam: <emph>manca l’indicazione,
+                            segue spazio bianco di mm 13 presente anche nel doc.
+                        343-CCCLXXXI</emph>.</note> de podere de <placeName ref="#Fontenella"
+                        >Fontanella</placeName>. Predicti sunt villani.</p>
+                <p xml:id="B25_p_005"> Redditus debent infrascripti:</p>
+                <p xml:id="B25_p_006"><persName ref="#MelioratusAmelia">Melioratus de <placeName
+                            ref="#Ameglia">Amelia</placeName></persName>: I starium de castaneis
+                    pulchris et sicis annuatim.</p>
+                <p xml:id="B25_p_007"><persName ref="#AlbergusValdonica">Albergus</persName> et
+                        <persName ref="#SalvetusFontenella">Salvetus</persName>: I minam frumenti
+                    nomine ficti annuatim.</p>
+                <p xml:id="B25_p_008">Filia <persName ref="#FuscolinusValleStephani">Fuscolini de
+                            <placeName ref="#Valle_Stephani">Valle Stephani</placeName></persName>:
+                        <measure type="imperiales" quantity="3" unit="denarius" ana="#fit">III
+                        imperialium</measure> annuatim de podere de <placeName ref="#Valle_Stephani"
+                        >Valle Stephani</placeName>.</p>
+                <p xml:id="B25_p_009"><persName ref="#GuidoValleStephani">Guido de <placeName
+                            ref="#Valle_Stephani">Valle Stephani</placeName></persName>: I
+                    admiscere, de duobus annis uno, et <measure type="imperiales" quantity="4"
+                        unit="denarius" ana="#fit">IIII imperialium</measure> annuatim de domo et
+                    podere de <placeName ref="#Valle_Stephani">Valle Stephani</placeName>, ubi
+                    residet.</p>
+                <p xml:id="B25_p_009bis">Filii <persName ref="#Bonensegna">Bonensigne</persName>:
+                        <measure type="imperiales" quantity="6" unit="denarius" ana="#fit">VI
+                        imperialium</measure> annuatim. </p>
+                <p xml:id="B25_p_010"><persName ref="#Bonaiutus">Bonaiutus</persName> et <persName
+                        ref="#Iuxtamons">Iustamons</persName>, suus nepos, de I iuva terre in
+                        <placeName ref="#Cafaçola">Cafaçola</placeName>: <measure type="imperiales"
+                        quantity="4.5" unit="denarius" ana="#fit">IIII imperialium et
+                        medium</measure> annuatim.</p>
+                <p xml:id="B25_p_011">
+                    <persName ref="#HengeramusfrGualteroni">Hengeramus</persName> et <persName
+                        ref="#GualteronusfrHengerami">Gualteronus</persName>, fratres, et <persName
+                        ref="#BonaverePortasione">Bonavere de <placeName ref="#Portesone"
+                            >Portexono</placeName></persName>: <measure type="imperiales"
+                        quantity="9" unit="denarius" ana="#fit">VIIII imperialium</measure> de
+                    podere de Meçan(a).</p>
+                <p xml:id="B25_p_012"><persName ref="#MançetinusAmelia">Mançetinus de <placeName
+                            ref="#Ameglia">Amelia</placeName></persName>: <measure type="imperiales"
+                        quantity="4.5" unit="denarius" ana="#fit">IIII imperialium et
+                        medium</measure> annuatim.</p>
+                <p xml:id="B25_p_013">Filii <persName ref="#PaganusBalognano">Pagani de <placeName
+                            ref="#Balognano">Balognano</placeName>:</persName>
+                    <measure type="imperiales" quantity="4.5" unit="denarius" ana="#fit">IIII
+                        imperialium et medium</measure> annuatim.</p>
+                <p xml:id="B25_p_014"><persName ref="#Bonencontrinus">Bonencontrus</persName> et
+                        <persName ref="#Panicia">Panicia</persName>: <measure type="imperiales"
+                        quantity="4.5" unit="denarius" ana="#fit">IIII imperialium et
+                        medium</measure> de podere de <placeName ref="#Niça">Niça</placeName> et
+                        <measure type="imperiales" quantity="4" unit="denarius" ana="#fit">IIII
+                        imperialium</measure> de podere de <placeName ref="#Rivo">Rivo</placeName>
+                    annuatim.</p>
+                <p xml:id="B25_p_015"><persName ref="#MartinusVenture">Martinus Venture</persName>:
+                    decimas de toto suo podere.</p>
+                <p xml:id="B25_p_016"><persName ref="#AdornetusBalognano">Adornetus de <placeName
+                            ref="#Balognano">Balognano</placeName></persName>: decimas de toto suo
+                    podere.</p>
+                <p xml:id="B25_p_017"><persName ref="#BonavitaBalognano">Bonavita de <placeName
+                            ref="#Balognano">Balognano</placeName></persName>: decimas de toto suo
+                    podere.</p>
+                <p xml:id="B25_p_018"><persName ref="#PaganusRamundini">Paganinus Ramundini de
+                            <placeName ref="#Balognano">Balognano</placeName></persName>:
+                    similiter.</p>
+                <p xml:id="B25_p_019">Donna <persName ref="#RosaBalognano">Rosa de <placeName
+                            ref="#Balognano">Balognano</placeName></persName>: similiter.</p>
+                <p xml:id="B25_p_020"><persName ref="#BellaBalognano">Bella de <placeName
+                            ref="#Balognano">Balognano</placeName></persName>: similiter.</p>
+                <p xml:id="B25_p_021"><persName ref="#BordonusQuaroçola">Bordonus de <placeName
+                            ref="#Quaragiota">Quarroçola</placeName></persName>: similiter.</p>
+                <p xml:id="B25_p_022"><persName ref="#MachetusQuaroçola">Machetus eiusdem
+                        loci</persName>: similiter.</p>
+                <p xml:id="B25_p_023"><persName ref="#IohanninusQuaroçola">Iohanninus
+                            <roleName>stiparius</roleName> de <placeName ref="#Quaragiota"
+                            >Quarroçola</placeName></persName>: decimas de toto suo podere.</p>
+                <p xml:id="B25_p_024"><persName ref="#PaganinusOliva">Paganinus de <placeName
+                            ref="#Oliveto">Oliva</placeName></persName>: similiter de suo
+                    podere.</p>
+                <p xml:id="B25_p_025"><persName ref="#GerardinusOliva">Gerardina eiusdem
+                        loci</persName>: similiter de suo podere.</p>
+                <p xml:id="B25_p_026"><persName ref="#GuidetusMiliaciola">Guidetus de <placeName
+                            ref="#Miliaciola">Miliaçola</placeName></persName>: similiter de suo
+                    podere.</p>
+                <p xml:id="B25_p_027"><persName ref="#MartignonusMiliaciola">Martignonus de
+                            <placeName ref="#Miliaciola">Miliaçola</placeName></persName>: similiter
+                    de suo podere.</p>
+                <p xml:id="B25_p_028"><persName ref="#SalveFontenella">Salve de <placeName
+                            ref="#Fontenella">Fontanella</placeName></persName>: similiter de suo
+                    podere.</p>
+                <p xml:id="B25_p_029">
+                    <persName ref="#AlbergusFontenella">Albergus de <placeName ref="#Fontenella"
+                            >Fontanella</placeName></persName>: similiter de suo podere.</p>
+                <p xml:id="B25_p_030">Podere <persName ref="#MançetusMiliaciola">Mançeti de
+                            <placeName ref="#Miliaciola">Miliaçola:</placeName></persName>
+                    similiter. </p>
+                <pb n="48r" xml:id="fol_048r"/>
+                <p xml:id="B25_p_031"><persName ref="#DeotisalviPortuveneris">Detesalve de
+                            <placeName ref="#Portovenere">Portuveneris</placeName></persName> de
+                    toto suo podere de <placeName ref="#Fontenella">Fontanella</placeName>:
+                    similiter.</p>
+                <p xml:id="B25_p_032"><persName ref="#BonsengnoreVia">Bonsegnorus de <placeName
+                            ref="#Via">Via</placeName></persName>: similiter de toto suo podere.</p>
+                <p xml:id="B25_p_033"><persName ref="#LaurentiusVia">Laurentius de <placeName
+                            ref="#Via">Via</placeName></persName>: similiter de suo podere.</p>
+                <p xml:id="B25_p_034"><persName ref="#MercatusVia">Mercadus de <placeName ref="#Via"
+                            >Via</placeName></persName>: similiter de suo podere.</p>
+                <p xml:id="B25_p_035"><persName ref="#SimonPorta">Symon de <placeName ref="#Porta"
+                            >Porta</placeName></persName>: similiter de suo podere.</p>
+                <p xml:id="B25_p_036">
+                    <persName ref="#MelioratusAmelia">Melioratus de <placeName ref="#Ameglia"
+                            >Amelia</placeName></persName>: similiter de suo podere.</p>
+                <p xml:id="B25_p_037">Filius <persName ref="#GuidetusAmelia"
+                        >Gerardeti</persName><note xml:id="B25_n_05" place="foot" n="5">filius
+                        Guideti in 343-CCCLXXXI.</note>: similiter de suo podere.</p>
+                <p xml:id="B25_p_038"><persName ref="#UgolinusAmelia">Ugolinus de <placeName
+                            ref="#Ameglia">Amelia</placeName></persName>: similiter de suo
+                    podere.</p>
+                <p xml:id="B25_p_039"><persName ref="#MartignonusCorsi">Martignonus
+                    Corsi</persName>: similiter de suo podere.</p>
+                <p xml:id="B25_p_040"><persName ref="#MercatusValdonica">Mercadus de <placeName
+                            ref="#Valdonica">Valdonica</placeName></persName>: similiter de suo
+                    podere.</p>
+                <p xml:id="B25_p_041"><persName ref="#GuidoValleStephani">Guido</persName>
+                    similiter.</p>
+                <p xml:id="B25_p_042"><persName ref="#AlbergusValdonica">Albergus</persName>
+                    similiter.</p>
+                <p xml:id="B25_p_43"><persName ref="#OliveriusValdonica">Oliverius</persName>
+                    similiter.</p>
+                <p xml:id="B25_p_44"><persName ref="#MelioratusAmelia">Melioretus</persName>
+                    similiter.</p>
+                <p xml:id="B25_p_045"><persName ref="#BonavitaBalognano">Bonavita</persName>
+                    similiter.</p>
+                <p xml:id="B25_p_046"><persName ref="#Bennatus">Bennadus</persName> similiter.</p>
+                <p xml:id="B25_p_047"><persName ref="#Durans">Durante</persName> similiter.</p>
+                <p xml:id="B25_p_048"><persName ref="#HenricusGuiterni">Henricus</persName>
+                    similiter.</p>
+                <p xml:id="B25_p_049"><persName ref="#HenricusGuiterni"> Filius
+                        Guitternini</persName> pro uxore: similiter<note xml:id="B25_n_04"
+                        place="foot" n="d">Filius Guitternini pro uxore: similiter: <emph>in doc.
+                            343-CCCLXXXI legato al precedente</emph> Henricus.</note>.</p>
+                <p xml:id="B25_p_050">De masio de <placeName ref="#Volpara">Volparia</placeName>
+                    redditur similiter.<note xml:id="B25_n_06" place="foot" n="f"><emph>In questo
+                            punto nel doc. 343-CCCLXXXI si interrompe la lista dei
+                        villani</emph>.</note>
+                </p>
+                <p xml:id="B25_p_051">Item in <placeName ref="#Sanquardrigo"
+                        >Sanquardrigo</placeName>: iuger I terre.</p>
+                <p xml:id="B25_p_052">Item in <placeName ref="#Vela">Vela</placeName> petia I terre,
+                    que est sulce LX, cui coheret a pede <supplied reason="omitted">terra</supplied>
+                    <persName ref="#ParentinusManzeti">Parentini de Mançeto</persName>, superius
+                        <supplied reason="omitted">terra</supplied>
+                    <persName ref="#Manzetus">Mançeti</persName>, ab uno latere illi de Lacala.</p>
+                <p xml:id="B25_p_053"> Item in loco dicto <placeName ref="#ColumpnaMonaçio">Columpna
+                        de Monaçio</placeName> I petia terre, que est tercia pars unius iugeris, cui
+                    coheret ab uno latere flumen, ab alio curia, superius<note xml:id="B25_n_07"
+                        place="foot" n="g">superius: <emph>manca l’indicazione, il testo si
+                            interrompe</emph>.</note></p>
+
+            </div>
+        </body>
+    </text>
+</TEI>

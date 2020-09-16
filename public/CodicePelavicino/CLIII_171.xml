@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CLIII_171">
+    <front xml:id="CLIII_front">
+
+      <titlePart type="numerazioneNuova">171</titlePart>
+      <titlePart type="numerazioneOrig">CLIII</titlePart>
+
+      <docDate xml:id="CLIII_docDate">
+        <date when="1255-10-26">1255 ottobre 26</date>, <placeName>Ponzanello <emph>(<term
+              xml:lang="latin">in ecclesia de Ponzanello</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CLIII_regesto">
+        <p>Guglielmo, vescovo di Luni, loca a Bordano di Bolano tutto il podere sito in Bolano che
+          tempo era di Alamanno <term xml:lang="latin">de Malliola</term>, fatta eccezione per
+          quanto già venduto da Alamanno e dai suoi eredi. Il fitto annuale ammonta a uno staio di
+          frumento.</p>
+      </div>
+
+      <div type="footer" xml:id="CLIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [CP] cc. 244r.-244v., cc. CCXXXVIr.-CCXXXVIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 153,
+            p. 189.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine interno di c. 244r., di mano moderna: <emph>Im Bolano</emph></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CLIII_div">
+        <p xml:id="CLIII_p_001" n="1">In Dei nomine, amen. Anno a nativitate Eius <date
+            when="1255-10-26">M°CCLV, indictione XIII, VII kalendas novembris</date>. Venerabilis
+          pater dominus <persName ref="#GuilEpLuni">Guilielmus, Dei gratia <roleName>Lunensis
+              episcopus</roleName></persName>, per se suosque successores et nomine episcopatus,
+          dedit, concessit atque locavit nomine ficti <persName ref="#BordanusBolano">Bordano de
+              <placeName ref="#Bolano">Bolano</placeName></persName>, recipienti pro se suisque
+          heredibus, totum podere quod fuit olim <persName ref="#AlamannusMalliola">Alamanni de
+              <placeName ref="#Malliola">Malliola</placeName></persName>, quod est in districtu
+            <placeName ref="#Bolano">Bolani</placeName>, exceptis possessionibus<pb n="244v"
+            xml:id="fol_244v"/>que vendite fuissent olim aliquibus per dictum <persName
+            ref="#AlamannusMalliola">Alamannum</persName> vel eius heredes, salvo etiam iure
+          cuiusque persone, cum terris, vineis, casis et casamentis, ortis et silvis et aliis ad
+          ipsum podere spectantibus, ita quidem ut amodo perpetuo, nomine ficti, suprascriptus
+            <persName ref="#BordanusBolano">Bordonus</persName> suique heredes suprascriptum podere
+          habeant, teneant, possideant et fruantur, cum accessibus et regressibus suis et omnibus
+          suis pertinentiis in integrum, sine contradictione ipsius domini episcopi suorumque
+          successorum vel alterius persone et cum ipsius domini episcopi suorumque successorum
+          rationabili deffensione ab omni contradicente persona et loco, dando atque reddendo exinde
+          ipsi domino episcopo suisque successoribus et curie Lunensi omni anno, nomine ficti,
+          starium unum frumenti mundi et sicci et bene mensurati, tracti et parati ad <orgName
+            ref="#Ceparana_S_Venanzio">monasterium de <placeName ref="#Ceparana"
+              >Cepparana</placeName></orgName> ad starium commune de <placeName ref="#Bolano"
+            >Bolano</placeName>, per totum mensem augusti, salvis tamen serviciis que consueverant
+          fieri de ipso podere castro et <placeName ref="#Bolano">communi de Bolano</placeName>,
+          promittendo idem dominus episcopus pro se suisque<note place="foot" n="a"
+            xml:id="CLIII_n_001"><term xml:lang="latin">suisque</term><emph>: segue depennato ed
+              espunto:</emph>
+            <term xml:lang="latin">heredibus.</term></note> successoribus<note place="foot" n="b"
+            xml:id="CLIII_n_002">
+            <term type="incerto">pro se suisque successoribus</term><emph>: così nel testo
+              per</emph>
+            <term xml:lang="latin">se et suosque successores.</term></note> eidem <persName
+            ref="#BordanusBolano">Bordono</persName>, recipienti pro se suisque heredibus,
+          suprascriptum podere iure deffendere et exbrigare ab omni contradicente persona et loco;
+          quod si non faceret vel non posset, salvum cambium eis inde dare promisit, dando eidem
+          Bordono licenciam intrandi in tenutam et possessionem de ipso podere, sua auctoritate,
+          quandocumque voluerit. Et hec omnia suprascripta sibi attendere et observare ad invicem
+          promiserunt ad penam <measure type="Imperiales" quantity="40" unit="solidus">XL soldorum
+            imperialium</measure>, quam dare et solvere teneatur pars, que contra venerit, parti
+          predicta servanti; qua soluta, suprascriptis omnibus et singulis nichillominus manentibus
+          semper firmis, obligando se idem dominus episcopus suosque successores et bona episcopatus
+          et suprascriptus Bordonus se suosque heredes et bona, renunciando omni iuri et legibus
+          contra hec introductis.</p>
+        <p xml:id="CLIII_p_002" n="2">Actum in <orgName ref="#Ponzanello_S_Martino">ecclesia de
+              <placeName ref="#Ponzanello">Ponzanello</placeName></orgName>, presentibus <persName
+            ref="#Paganinusnot">Paganino <roleName>notario</roleName> de <placeName
+              ref="#Santo_Stefano">sancto Stephano</placeName></persName>, <persName
+            ref="#BonaviaSerra">Bonavia de <placeName ref="#Serra">Serra</placeName></persName> et
+            <persName ref="#GuilielminusFontana">Guilielmino de <placeName ref="#Fontana"
+              >Fontana</placeName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CLIII_p_003" n="3"><ptr target="#CLIII_st_001"/>Ego <persName ref="#Adiutusnot"
+            >Adiutus, <roleName>sacri palatii notarius</roleName></persName>, hiis interfui et de
+          mandato suprascripti domini episcopi hec scripsi et in publicam formam redegi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

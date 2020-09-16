@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXLVI_164">
+    <front xml:id="CXLVI_front">
+
+      <titlePart type="numerazioneNuova">164</titlePart>
+      <titlePart type="numerazioneOrig">CXLVI</titlePart>
+
+      <docDate xml:id="CXLVI_docDate">
+        <date when="1198-02-11">1198 febbraio 11</date>, <placeName>Carrara <emph>(<term
+              xml:lang="latin">Carrarie, in porticu curie domini episcopi</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXLVI_regesto">
+        <p>Gualtiero, vescovo di Luni, dichiara di riconoscere come suoi vassalli Riccomanno del fu
+          Monaco di Ponzanello e i suoi nipoti, figli del fratello Vertralino. Costoro devono dare
+          alla curia del vescovo solo quanto anticamente stabilito, ossia grano, polli e uova, oltre
+          all’aiuto in casi peculiari. La conferma costa 50 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CXLVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 241v.- 242r., cc. CCXXXIIIv.- CCXXXIIIIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. 146, p. 183.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>La stesura <emph>in mundum</emph> della minuta (<emph>sceda</emph>) risale al 9
+            novembre 1268.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXLVI_div">
+        <p xml:id="CXLVI_p_001" n="1">In Christi nomine, amen.<date when="1198-02-11"> Anno a
+            nativitate Eius M°C° nonagesimo VIII, indictione Ia, die mercurii, tercio idus
+            februarii</date>, presentibus testibus infrascriptis. Nos <persName ref="#GualEpLuni"
+            >Gualterius, Dei gratia Lunensis episcopus</persName>, viso et intellecto per ydoneos
+          testes quod tu <persName ref="#RiccomannusMonaci">Riccomannus quondam Monaci de <placeName
+              ref="#Ponzanello">Ponzanello</placeName></persName> et nepotes tui, filii quondam
+          Vertralini fratris tui, essetis vassalli curie nostre atque non deberetis neque teneremini
+          dare vel reddere seu facere nobis nec curie nostre aliquid nisi ordeum, pullos et ova,
+          sicut antiquitus consuevistis, et adiutorium pro factis pape et imperatoris et sicut alii
+          vassalli pro terra emenda et expignoranda, confirmamus te et eosdem tuos nepotes in eodem
+          statu quo ipsi testes dixere, ita quidem ut tu et dicti tui nepotes et vestri heredes
+          amodo in perpetuum sitis vassalli nostri et successorum nostrorum sive curie nostri
+          Lunensis episcopatus et non debeatis nec teneamini nobis vel successoribus nostris seu
+          etiam dicte curie nostre reddere, dare vel facere aliquid preter ordeum, pullos et ova,
+          sicut olim consuevistis, et adiutorium pro papa et imperatore et sicut alii vassalli pro
+          terra emenda et expignoranda. Pro qua confirmatione fuit confessus dominus episcopus se
+          recepisse servicium <pb n="242r" xml:id="fol_242r"/> a predicto <persName
+            ref="#RiccomannusMonaci">Riccomanno</persName> et nepotibus suis bonorum <measure
+            type="Imperiales" quantity="50" unit="solidus">imperialium soldos L</measure> et
+          renunciavit exceptioni non numerate pecunie; unde, obligando se et suum episcopatum,
+          promisit per se et suos successores <persName ref="#RiccomannusMonaci"
+            >Riccomanno</persName>, recipienti pro se et dictis suis nepotibus et suis et eorum
+          heredibus, hanc confirmationem, ad penam <measure type="Imperiales" quantity="200"
+            unit="solidus">CC soldorum imperialium</measure>, firmam tenere et ratam et numquam
+          contravenire.</p>
+        <p xml:id="CXLVI_p_002" n="2">Acta sunt hec <placeName ref="#Carrara">Carrarie</placeName>,
+          in porticu curie domini episcopi, feliciter, cum stipulatione. Ibi fuerunt rogati testes
+            <persName ref="#FranciscusCarrara_castaldus">Franciscus <roleName>castaldus</roleName>
+            de <placeName ref="#Carrara">Carraria</placeName></persName>, <persName
+            ref="#GerardinusTraversara">Gerardinus de <placeName ref="#Traversara"
+              >Traversara</placeName></persName>, <persName ref="#MasneriusTrebiano">Masnerius de
+              <placeName ref="#Trebiano">Trebiano</placeName></persName>, <persName
+            ref="#BotrigellusGragnana">Botrigellus de <placeName ref="#Gragnana"
+              >Gragnana</placeName></persName>, <persName ref="#AmicusBeduçano">Amicus de <placeName
+              ref="#Beduzano">Beduçano</placeName></persName> et quidam alii.</p>
+      </div>
+      <div xml:id="CXLVI_div2" type="mundum">
+        <p xml:id="CXLVI_p_003" n="3"><ptr target="#CXLVI_st_001"/> Ego <persName
+            ref="#IacopinusTalliavachanot">Iacopinus, qui nominor Talliavacca, de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName>, <roleName>palatii sacri
+              notarius</roleName></persName>, hanc cartam olim a <persName ref="#Confortusnot"
+            >Conforto <roleName>notario</roleName></persName> abreviatam, visa sceda eius, prout in
+          ea continebatur scripsi et in publicam formam redegi, nichil addens vel minuens quod
+          sensum mutet vel variet intellectum, auctoritate domini <persName
+            ref="#LanfredusBonacursi">Lanfredi de <placeName ref="#Lucca">Luca</placeName></persName>, in
+            <orgName ref="#Lunigiana_provincia">provincia <placeName ref="#Lunigiana">Lunisiane</placeName></orgName>
+            <roleName>vicarii</roleName> pro domino <persName ref="#GuilEpLuni"
+            >Guilielmo, <roleName>Dei gratia Lunensi episcopo</roleName></persName>, que auctoritas
+          fuit mihi data a <persName ref="#LanfredusBonacursi">dicto <roleName>vicario</roleName>
+            <placeName ref="#Sarzana">Sarzane</placeName></persName>, in domo quondam <persName
+              ref="#Ponçius">Ponçi</persName> ubi iura reddebantur pro <persName ref="#LanfredusBonacursi"
+            >dicto <roleName>vicario</roleName></persName>, presentibus <persName
+            ref="#MercatorRollandini">Mercatore quondam Rollandina<note place="foot" n="a"
+              xml:id="CXLVI_n_001"><term type="incerto">Rollandina</term><emph>: così nel testo
+                per</emph><term xml:lang="latin">Rollandini</term></note> dicti Pecçamecçane de
+              <placeName ref="#Sarzana">Sarzana</placeName></persName> atque <persName
+            ref="#AlbertusFrederici">Alberto filio Frederici de <placeName ref="#Carrara"
+              >Carraria</placeName></persName>, testibus ad hec rogatis. <date when="1268-11-09"
+            >Anno a nativitate Domini M°CC°LXVIII°, indictione XI, IX° mensis novembris<note>Stesura
+                <emph>in mundum</emph> del documento n. 164-CXLVI</note></date>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

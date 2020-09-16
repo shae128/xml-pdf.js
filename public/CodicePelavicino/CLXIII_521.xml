@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="CLXIII_521">
+        <front xml:id="CLXIII_front">
+
+            <titlePart type="numerazioneNuova">521</titlePart>
+            <titlePart type="numerazioneOrig">CLXIII</titlePart>
+
+            <docDate xml:id="CLXIII_docDate">
+                <date when="1271-02-22">1271 febbraio 22</date>, <placeName ref="#Borgonuovo"
+                    >Borgonovo </placeName> (<term xml:lang="latin">in Burgonovo, in platea ecclesie
+                    dicti loci</term>) </docDate>
+
+            <div type="regesto" xml:id="CLXIII_regesto">
+                <p> Dietro richiesta di Opezzino del Guglielmo di Castiglione, marito di Fiordalina
+                    del fu Domalfollo di Terrarossa, Zafirone e Attocanino, figli del fu Parente di
+                    Terrarossa, confermano l’entità dei beni portati in dote da Fiordolina, derivati
+                    dall’eredità ricevuta da lei e dal fratello Ottoflore e dichiarano di non avere
+                    pretese su di essi. </p>
+            </div>
+
+            <div type="footer" xml:id="CLXIII_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] c. 409r., c. CCCCIr. secondo la numerazione originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p> Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                            1912</ref>, Addenda, n. 25, pp. 677-678. </p>
+                </div>
+
+                <div type="crit_notes"> </div>
+
+
+                <div type="appr">
+                    <p/>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="CLXIII_div">
+                <pb n="409r" xml:id="fol_409r"/>
+                <p xml:id="CLXIII_p_001" n="1"> In nomine Domini, amen. <date when="1271-02-22">Anno
+                        a nativitate Eiusdem M°CC°LXXI°, indictione XIIII, d<supplied
+                            reason="omitted">i</supplied>e VIII kalendas martii</date>. Actum in
+                        <placeName ref="#Borgonuovo">Burgonovo</placeName>, in platea ecclesie dicti
+                    loci, coram <roleName>domino</roleName>
+                    <persName ref="#GuiçolusMoregnanno">Guiçolo <note place="foot" n="a"
+                            xml:id="CLXIII_n_001"> Guiçolo: i <emph>aggiunta in sopralinea, con
+                                segno di richiamo.</emph></note> de <placeName ref="#Moregnano"
+                            >Moregnanno</placeName></persName>, <persName ref="#ConfortusOdonis"
+                        >Conforto quondam Odonis Benaie de <placeName ref="#Borgonuovo"
+                            >Burgonovo</placeName></persName>, <persName
+                        ref="#Gerardinus_cappellanus">Gerardino <roleName>capellano<note
+                                place="foot" n="b" xml:id="CLXIII_n_002"> capellano: n
+                                    <emph>corretto su</emph> ri</note></roleName></persName> dicti
+                    loci et <persName ref="#RollandinusÇannelli">Rollandino quondam çannelli
+                        Gerarducii de <orgName ref="#Parma_diocesi"><placeName ref="#Valbona"
+                                >Valbona</placeName> episcopatus <placeName ref="#Parma"
+                                >Parme</placeName></orgName></persName>, testibus ad hec rogatis. §
+                    Ad postulationem <persName ref="#UppecinusGuilielmi">Uppecini quondam
+                            <roleName>domini</roleName> Guilielmi de <placeName ref="#Castilliono"
+                            >Castilliono</placeName></persName>, viri domine <persName
+                        ref="#FrordolinaDomalfolli">Frordoline uxoris sue et filie quondam domini
+                        Domalfolli de <placeName ref="#Terrarossola">Terra
+                        Rossola</placeName></persName>, stipulantis pro se et ipsa domina <persName
+                        ref="#FrordolinaDomalfolli">Frordolina</persName> eorumque heredibus seu cui
+                    dederint, <roleName>dominus</roleName>
+                    <persName ref="#ÇapironusParentis">Çapironus</persName> et <persName
+                        ref="#AttocaninusParentis">Attocaninus, fratres et filii quondam domini
+                        Parentis de <placeName ref="#Terrarossola">Terra
+                        Rossala</placeName></persName>, pro sese eorumque heredibus, confirmaverunt,
+                    approbaverunt, ratificaverunt, consenserunt et sibi placere dixerunt datum
+                    factum, iure dotis, in extimatione per dominam <persName
+                        ref="#FrordolinaDomalfolli">Frordolinam</persName> predictam occasione
+                    bonorum et hereditatis que quondam fuerunt <persName
+                        ref="#DomafolleTerrarossola">Domalfolli</persName>, patris predicte domine
+                        <persName ref="#FrordolinaDomalfolli">Frordoline</persName>, et <persName
+                        ref="#OctoflosDomalfolli">Octofloris</persName>, fratris quondam<note
+                        place="foot" n="c" xml:id="CLXIII_n_003"> Octofloris, fratris quondam<emph>:
+                            così nel testo per</emph> Octofloris quondam, fratris.<emph> Cfr. doc.
+                            523 - CLXV.</emph></note> predicte <roleName>domine</roleName>
+                    <persName ref="#FrordolinaDomalfolli">Frordoline</persName> et filii quondam
+                    suprascripti <persName ref="#DomafolleTerrarossola">Domalfolli</persName>, et in
+                    omnibus et per omnia predictis omnibus parabolam dederunt atque se obligaverunt,
+                    ut suprascripta <roleName>domina</roleName>
+                    <persName ref="#FrordolinaDomalfolli">Frordolina</persName> se obligavit, ut de
+                    dicto dato continetur in instrumento manu <persName ref="#Giffrolus_notarius"
+                        >Giffroli <roleName>notarii</roleName></persName> facto, ut dixerunt.
+                    Insuper fecerunt finem et refutationem, cessionem et pactum in perpetuum de non
+                    petendo de omni iure eo et toto quod petere possent seu exigere a predicta
+                        <roleName>domina</roleName>
+                    <persName ref="#FrordolinaDomalfolli">Frordolina</persName> et ex eo quod
+                    evenire eis posset occasione hereditatis et successionis et vassallorum et
+                    iurium vassallorum et omnium bonorum que quondam fuerunt predictorum <persName
+                        ref="#DomafolleTerrarossola">Domalfolli</persName> et <persName
+                        ref="#OctoflosDomalfolli">Octofloris</persName> et ipsius
+                        <roleName>domine</roleName>
+                    <persName ref="#FrordolinaDomalfolli">Frordoline</persName> qualitercumque
+                    excogitari posset <persName ref="#UppecinusGuilielmi">Uppecino</persName>
+                    predicto, marito predicte <roleName>domine</roleName>
+                    <persName ref="#FrordolinaDomalfolli">Frordoline</persName>, pro se et nomine et
+                    vice eiusdem domine stipulanti. Quam finem et refutationem, pactum et cessionem
+                    de non petendo promiserunt per se, et se suosque heredes obligaverunt, firmam et
+                    ratam habere et tenere et numquam contravenire, in pena et sub pena <measure
+                        quantity="10" unit="solidus">X librarum Ianuensium</measure>; que pena
+                    tociens committatur et exigi possit, quociens contra factum fuerit, in solidum
+                    et in quolibet capitulo non observato, rato manente pacto. Et pro hiis omnibus
+                    et singulis suprascriptis et specialiter pro pena omnia eorum bona mobilia et
+                    immobilia, presentia et futura, eidem <persName ref="#UppecinusGuilielmi"
+                        >Uppecino</persName>, agenti et stipulanti pro se et nomine et vice domine
+                    dicte <persName ref="#FrordolinaDomalfolli">Frordoline <note place="foot" n="d"
+                            xml:id="CLXIII_n_004">Frordoline <emph>: la prima</emph> r
+                                <emph>aggiunta in sopralinea, senza segno di
+                        richiamo.</emph></note></persName>, uxoris sue, iure pignoris obligavit<note
+                        place="foot" n="e" xml:id="CLXIII_n_005"> obligavit<emph>: così nel testo
+                            per</emph> obligaverunt</note>, de quibus sese pro eo et eius nomine
+                    constituerunt precario presidere<note place="foot" n="f" xml:id="CLXIII_n_006">
+                            presidere<emph>: così nel testo per</emph> possidere</note>. Insuper
+                    additum est inter eos ex pacto et expresse dicto quod predicti<note place="foot"
+                        n="g" xml:id="CLXIII_n_007"> predicti: i <emph>finale corretta su</emph>
+                        e</note>
+                    <roleName>dominus</roleName>
+                    <persName ref="#ÇapironusParentis">Çapironus</persName> et <persName
+                        ref="#AttocaninusParentis">Actocaninus</persName> non teneantur ad
+                    deffensionem predictorum bonorum et hereditatis prelibate, nisi a semetipsis et
+                    eorum heredibus.</p>
+                <p xml:id="CLXIII_p_002" n="2"><ptr target="#CLXIII_st_001"/> Ego <persName
+                        ref="#Iannonusnot">Iannonus de <placeName ref="#Borgonuovo"
+                            >Burgonovo</placeName></persName>, <roleName>sacri palacii
+                        notarius</roleName>, huic interfui et rogatus scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

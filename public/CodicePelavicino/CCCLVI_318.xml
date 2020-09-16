@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLVI_318">
+    <front xml:id="CCCLVI_front">
+
+      <titlePart type="numerazioneNuova">318</titlePart>
+      <titlePart type="numerazioneOrig">CCCLVI</titlePart>
+
+      <docDate xml:id="CCCLVI_docDate">
+        <date when="1188-04-05">1188 aprile 5</date>, <placeName>Ameglia (<emph>in castro
+            Amelia</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLVI_regesto">
+        <p>Permuta tra il vescovo di Luni Pietro e Gibertino <term xml:lang="latin">de
+            Mabilia</term> del fu Buttavava tale che Gibertino deve dare annualmente ad Azzo di
+          Fosdinovo e a sua moglie Carrarese un fitto di 2 denari di imperiali a favore del vescovo;
+          quest’ultimo infatti era il proprietario della tenuta di Gibertino, un tempo lavorata da
+          tale Carenzione, che Gibertino aveva ottenuto dai coniugi suddetti al fitto indicato. In
+          cambio il vescovo concede a Gibertino quanto un uomo del medesimo Gibertino, tale Pietro
+          di Valdonnica, era solito dare al prelato, eccetto i servizi dovuti. Inoltre il vescovo
+          condona a Gibertino la metà dei denari dovuti da Gibertino stesso alla curia.<term
+            xml:lang="latin">pro secatura</term>.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 309r., c. CCCIr. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 356,
+            pp. 340-341.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCLVI.
+              Comutationis cuiusdam pensionis.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLVI_div">
+        <p xml:id="CCCLVI_p_001" n="1">Cummutatio facta inter dominum <persName ref="#PetrusEpLuni"
+            >Petrum, <roleName>Dei gratia Lunensem episcopum</roleName></persName>, et <persName
+            ref="#GibertinusMabilia">Gibertinum de Mabilia quondam Butafabe</persName>, videlicet
+          ipse <persName ref="#GibertinusMabilia">Gibertinus</persName> debet reddere annuatim
+            <persName ref="#AttoFaucenova">Attoni de Faucenova</persName> et eius coniugi <persName
+            ref="#Carrarese">Carrarese</persName> eorumque heredibus pensionem denariorum
+          imperialium II pro ipso domino episcopo; nam ipse dominus episcopus habet quandam tenutam
+          per ipsum <persName ref="#GibertinusMabilia">Gibertinum</persName>, que quondam recta et
+          laborata fuit per quendam <persName ref="#Carentionus">Carentionum</persName>. Quam
+          siquidem tenutam ipse <persName ref="#GibertinusMabilia">Gibertinus</persName>
+          acquisiverat et habebat per illos iamscriptos iugales ad ficta<supplied reason="omitted"
+            >m</supplied> pensionem reddendam denariorum II tantum, ut superius legitur, in
+          perpetuum; et proinde prefatus dominus episcopus concessit et dedit eidem <persName
+            ref="#GibertinusMabilia">Gibertino</persName> in cambium pensionis, quam quidam homo
+          eiusdem <persName ref="#GibertinusMabilia">Gibertini</persName>, scilicet <persName
+            ref="#PetrusValdonnica">Petrus de <placeName ref="#Valdonica"
+            >Valdonnica</placeName></persName>, solet reddere domino episcopo, retentis tamen aliis
+          serviciis que idem <persName ref="#PetrusValdonnica">Petrus</persName> debet facere curie.
+          Et preterea dominus episcopus remisit pro hoc eidem <persName ref="#GibertinusMabilia"
+            >Gibertino</persName> medietatem denariorum de illis quos ipse <persName
+            ref="#GibertinusMabilia">Gibertinus</persName> debet annuatim curie pro secatura. </p>
+        <p xml:id="CCCLVI_p_002" n="2">Actum est hoc <date when="1188-04-05">anno M°C octuagesimo
+            VIII, indictione VI, in castro Amelia, die martis, qui fuit V intrante mense
+            aprili</date>, in testimonio <persName ref="#AdvocatusSarzana">Advocati de <placeName
+              ref="#Sarzana">Sarzana</placeName></persName>, <persName ref="#MançetusTivenia"
+            >Manzeti de <placeName ref="#Tivegna">Tivenia</placeName></persName>, <persName
+            ref="#SegnoretusPonzano">Senioreti de <note xml:id="CCCLVI_n_001" n="a" place="foot"
+                ><term xml:lang="latin">Segue, ripetuto nel rigo seguente</term>: de</note>
+            <placeName ref="#Ponzano">Ponzano</placeName></persName>. </p>
+        <p xml:id="CCCLVI_p_003" n="3"><ptr target="#CCCLVI_st_001"/> Ego <persName
+            ref="#Lombardusnot">Lombardus, <roleName>domini imperatoris et Lunensis curie
+              notarius</roleName></persName>, interfui et, rogatu utriusque partis, hoc scriptum
+          feci. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

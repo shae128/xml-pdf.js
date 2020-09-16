@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="CCCCIIII_365">
+		<front xml:id="CCCCIIII_front">
+
+			<titlePart type="numerazioneNuova">365</titlePart>
+			<titlePart type="numerazioneOrig">CCCCIIII</titlePart>
+
+			<docDate xml:id="CCCCIIII_docDate">
+				<date when="1263-02-06">1263 febbraio 6</date>, <placeName ref="Ameglia">Ameglia
+						(<emph>in curia castri Amelie</emph>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="CCCCIIII_regesto">
+				<p>Il vescovo di Luni Guglielmo loca a Michele del fu Albertone di Balognano di
+					Ameglia un terreno con casamento posto nel luogo detto <emph>La Palmia</emph>
+					vicino al castello di Ameglia. Il fitto annuo ammonta a 15 denari di imperiali o
+					di genovesi secondo quanto già stipulato in un atto tra Michele e Manzettino del
+					fu Panigacio di Ameglia. Michele è tenuto a costruire sopra il terreno una casa
+					in muratura entro un anno, al termine del quale quanto costruito verrà valutato
+					e pagato secondo il giudizio di arbitri del luogo.</p>
+			</div>
+
+			<div type="footer" xml:id="CCCCIIII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] CP cc. 325r.-325v., cc. CCCXVIIr.- CCCXVIIv. secondo la numerazione
+						originale</p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+						1912</ref>, n. 404, pp. 384-385</p>
+				</div>
+
+				<div type="crit_notes">
+					<note/>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <emph>CCCCIIII. Sicut
+							heredes Micaelis de Balognano tenentur reddere denarios XV imperialium
+							pensionis de uno casamento.</emph></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="CCCCIIII_div">
+				<p xml:id="CCCCIIII_p_001">In nomine Domini, amen. <date when="1263-02-06">Anno a
+						nativitate Eius M°CCLXIII, indictione VI, die VI mensis februarii.</date>
+					Venerabilis pater dominus <persName ref="#GuilEpLuni">Guilielmus,
+							<roleName>Lunensis episcopus</roleName></persName>, vice et nomine
+					Lunensis episcopatus et pro ipso episcopatu, per se suosque successores, in
+					perpetuum, dedit et locavit nomine pensionis <persName ref="#MichaelAlbertini"
+						>Michaeli quondam Albertoni de <placeName ref="#Balognano"
+							>Balognano</placeName> de <placeName ref="#Ameglia"
+						>Amelia</placeName></persName>, recipienti pro se suisque heredibus,
+					masculis et feminis, ex eo legitime descendentibus et cui habere decreverit, I
+					terrenum seu casamentum positum in loco dicto a <placeName ref="#Palmia">la
+						Palmia</placeName>, prope castrum <placeName ref="#Ameglia"
+						>Amelie</placeName>, quod est longum de brachiis XVII et largum de brachiis
+					XVI et vadit et tangit dictum casamentum usque in gronda riparii, cui coheret
+					superius via publica, inferius <persName ref="#BandinusTorgnano">Bamdini de
+							<placeName ref="#Torgnano">Torgnano</placeName></persName>, ab uno
+					latere <persName ref="#BastardusGuilielmi">Bastardi quondam Guilielmi</persName>
+					in parte et in parte suprascripti <persName ref="#BandinusTorgnano"
+						>Bamdini</persName>, ab alio latere <persName ref="#VivaldusPagani">Vivaldi
+						quondam Pagani</persName>, et si qui alii ei sint fines, ita quod ut amodo
+					perpetuo suprascriptus <persName ref="#MichaelAlbertini">Michael</persName> et
+					sui heredes, masculi et femine, ex eo legitime descendentes, et cui habere
+					decreverit, dictum terrenum seu casamentum habeant, teneant, hedificent,
+					habitent, possideant et fruantur nomine pensionis et ad illam pensionem quam
+					dictus Michael dare et reddere tenetur et debet curie de <placeName
+						ref="#Ameglia">Amelia</placeName> seu Lunensi episcopatui de quibusdam
+					terris et possessionibus et pro eis quas habet et possidet in predicto loco de
+						<placeName ref="#Balognano">Balognano</placeName> et quas tenet a <persName
+						ref="#MançetinusAmelia">Mançeptino quondam Panigacii de <placeName
+							ref="#Ameglia">Amelia</placeName></persName> ad certum fictum vel alio
+					modo: que pensio est de <measure type="imperiales" unit="denarius" quantity="15"
+						>denariis XV imperialium</measure> vel <measure type="Ianuenses"
+						unit="denarius" quantity="15"> Ianuensium</measure> prout de locatione
+					dictarum terrarum et possessionibus et de predictis pensione et ficto vel alio
+					redditu seu condicione dicebant contineri in uno instrumento facto manu
+						<persName ref="#Vivaldusnot">Vivaldi
+					<roleName>notarii</roleName></persName>. Et ipsum casamentum habeant et teneant
+					a Lunensi episcopatu seu a curia de <placeName ref="#Ameglia">Amelia</placeName>
+					pro iamdicta pensione et ad ipsam pensionem, cum omnibus predictis terris et
+					possessionibus quas habet et tenet dictus acquisitor, et sui heredes faciant
+					quicquid voluerint iure pensionis, meliorando et non peiorando, dando, reddendo
+					et solvendo, tam de ipso terreno seu casamento quam de predictis terris et
+					possessionibus quas tenet a suprascripto <persName ref="#MançetinusAmelia"
+						>Manceptino</persName> in predicto loco de <placeName ref="#Balognano"
+						>Balognano</placeName>, et sicut in predicto instrumento facto manu
+						<persName ref="#Vivaldusnot">Vivaldi <roleName>notarii</roleName></persName>
+					continetur, ut dictum est, ipse acquisitor et sui heredes, annuatim,
+					suprascripto episcopo et eius successoribus vel eius certis nunciis seu curie de
+						<placeName ref="#Ameglia">Amelia</placeName> et cui dederit vel commiserit,
+					in festo Sancti Vincencii, predictos <measure type="imperiales" unit="denarius"
+						quantity="15">denarios XV imperialium</measure> seu <measure
+						type="Ianuenses" unit="denarius" quantity="15">Ianuensium</measure>> tantum;
+					alia superimposita inter eos non fiat. Tali pacto apposito de communi concordia
+					inter eos quod dictus acquisitor et sui heredes debeant et teneantur in dicto
+					terreno et supra eum habere hedificatam et factam domum unam condecenter de
+					muris, lignaminibus et plangruis<note xml:id="CCCCIIII_n_001" n="a" place="foot">
+						<term xml:lang="latin">plangruis</term>:<emph>così nel testo con</emph> gr
+							<emph>aggiunto in sopralinea da altra mano, forse per</emph>
+						plaustris.</note> usque ad unum annum proxime completum et quod debeant et
+					teneantur de dicto terreno solutionem et satisfationem facere suprascripto
+						<persName ref="#BandinusTorgnano">Bamdino</persName> in arbitrio extimatorum
+					dicti casamenti et aliorum quod in predicto loco de <placeName ref="#Palmia">la
+						Palmia</placeName> locata sint vel fuerint aliquibus hominibus de <placeName
+						ref="#Ameglia">Amelia</placeName> a predicto domino episcopo vel alii pro eo
+					vel ipsi <persName ref="#MichaelAlbertini">Michaeli</persName>, recipienti vice
+					et nomine Lunensis episcopatus seu curie de <placeName ref="#Ameglia"
+						>Amelia</placeName>: primo omnia sua iura et actiones et rationes, utiles et
+					directas, reales et personales, que et quas habet vel ei competunt in dicto
+					terreno vel eius occasione, et de ipsis iuribus et rationibus finem faciant pro
+					hiis denariis seu precio quibus per dictos extimatores fuerit extimatum, quam
+					solutionem eidem <persName ref="#BandinusTorgnano">Bamdino</persName> facere
+					teneatur, facto inde instrumento quod fieri debeat de ipsa cessione et fine<note
+						xml:id="CCCCIIII_n_002" n="b" place="foot">
+						<term xml:lang="latin">tali pacto-fine</term>:<emph>la clausola presenta
+							scorrettezze grammaticali e non risulta di immediata comprensione. Il
+							copista ha forse omesso per errore una o più righe
+							dell’antigrafo.</emph></note>. Et dedit idem dominus episcopus
+					acquisitori predicto licenciam intrandi tenutam et possessionem de dicto terreno
+					quandocumque voluerit, constituendo se pro eo et eius nomine precario possidere
+					deinceps, donec tenutam et possessionem corporalem de eo fuerit ingressus.
+					Insuper promisit et convenit dictus dominus episcopus <pb n="325v"
+						xml:id="fol_325v"/> per se suosque successores, in perpetuum, acquisitori
+					predicto, recipienti ut dictum est, dictum terrenum non imbrigare vel molestare
+					deinceps in toto vel in parte aliqua, immo eum cum omnibus suis pertinenciis
+					iure deffendere et exbrigare ab omni molestante et contradicente persona et
+					loco, suis et eiusdem Lunensis episcopatus propriis expensis et advocato; quod,
+					si non deffenderet vel non posset deffendere, promisit et teneatur dictus
+					locator et eius successores eidem acquisitori et eius heredibus dare et
+					restaurare salvum cambium in bonis Lunensis episcopatus, sub iusta bonorum
+					hominum extimatione qualis tunc valuerit seu meliorata fuerit res evicta, et
+					omne dampnum, interesse etiam singulare et expensas, quod vel quas dictus
+					acquisitor et sui heredes ea occasione haberet vel sustineret, promisit et
+					teneatur dictus locator et eius successores eidem acquisitori et eius heredibus
+					integre restaurare, credendo inde eius soli, nudo et simplici verbo, sine
+					iuramento et testibus vel instrumenti vel alterius honere probationis. Hanc
+					autem locationem et omnia et singula suprascripta dicte partes sibi ad invicem,
+					scilicet per se idem dominus episcopus suosque successores et idem <persName
+						ref="#MichaelAlbertini">Michael</persName> per se suosque heredes<note
+						xml:id="CCCCIIII_n_003" n="c" place="foot">
+						<term xml:lang="latin">scilicet-heredes</term>:<emph>scritto su
+							abrasione.</emph></note>, promiserunt et convenerunt in perpetuum ratam
+					et rata habere et firma tenere et attendere et observare facere et complere et
+					nunquam in aliquo, de iure vel de facto, contra facere vel venire, in pena et
+					sub pena <measure type="Ianuenses" unit="solidus" quantity="40">soldorum XL
+						bonorum denariorum Ianuensium</measure>, quam sibi ad invicem dare et
+					solvere promiserunt tociens quociens fuerit contraventum et pro quolibet
+					capitulo non observato; et, pena soluta vel non, suprascriptis omnibus et
+					singulis nichillominus semper firmis manentibus, obligando ad hec attendenda et
+					observanda sibi ad invicem dicte partes, scilicet idem dominus episcopus se
+					suosque successores et dictum episcopatum et bona omnia ipsius episcopatus et
+					idem acquisitor se suosque heredes et omnia sua bona, mobilia et immobilia,
+					habita et habenda, et renunciando omni iuri et legibus contra hec introductis,
+					et specialiter idem locator legi que iuvat deceptos<note xml:id="CCCCIIII_n_004"
+						n="d" place="foot">
+						<term xml:lang="latin">deceptos</term>: c <emph>corretto su</emph> t</note>
+					in contractibus ultra dimidiam iusti precii; et etiam remisit eidem acquisitori
+					necessitatem denunciandi.</p>
+				<p xml:id="CCCCIIII_p_002">Actum in curia castri <placeName ref="#Ameglia"
+						>Amelie</placeName>, sollempniter, presentibus <persName
+						ref="#Bonalbergusnot">Bonalbergo <roleName>notario</roleName> de
+							<placeName ref="#Carrara">Carraria</placeName></persName> et <persName
+						ref="#MansiliusBaldeçonis">Mansilio quondam<note xml:id="CCCCIIII_n_005"
+							n="e" place="foot">
+							<term xml:lang="latin">quondam</term>:<emph>aggiunto in sopralinea con
+								segno di richiamo.</emph></note> Baldeçonis de <placeName
+							ref="#Barbazzano">Barbaçano</placeName></persName>, testibus ad hec
+					rogatis.</p>
+				<p xml:id="CCCCIIII_p_003">
+					<ptr target="#CCCCIIII_st_001"/> Ego <persName ref="#Vivianusnot2">Vivianus,
+							<roleName>notarius sacri palacii</roleName></persName>, hiis omnibus
+					interfui et rogatus scripsi.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

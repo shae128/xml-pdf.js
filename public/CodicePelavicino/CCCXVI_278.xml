@@ -1,0 +1,260 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXVI_278">
+    <front xml:id="CCCXVI_front">
+
+      <titlePart type="numerazioneNuova">278</titlePart>
+      <titlePart type="numerazioneOrig">CCCXVI</titlePart>
+
+      <docDate xml:id="CCCXVI_docDate">
+        <date when="1230-01-04">1230 gennaio 4</date>, <placeName>Carrara-Vezzala (<emph>Carrarie,
+            in villa de Veçale, iuxta granarium curie</emph>)</placeName>
+        <date when="1230-01-07">1230 gennaio 7</date>, <placeName>Avenza (<emph>prope burgum de
+            Avencia, in ara Gualteroti de Veçale</emph>)</placeName>
+        <date when="1230-06-01">1230 giugno 1</date>, <placeName>Sarzana (<emph>Sarzane, in
+            sacristaria ecclesie Sancte Marie</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXVI_regesto">
+        <p>Guglielmo, vescovo di Luni, libera da ogni obbligo servile numerosi uomini della valle di
+          Gragnana presso Carrara e anche dai fitti che erano soliti pagare secondo l’atto fatto
+          redigere a suo tempo dal vescovo Andrea al notaio Bonabroca. La liberazione comporta
+          comunque un fitto annuale di 56 sestari meno un quarto di frumento e di 13 congi meno un
+          sestario e mezzo di mosto, con alcune eccezioni. In caso di transito del papa o
+          dell’imperatore i suddetti uomini di Gragnana sono tenuti a prestare aiuto così come fanno
+          quelli di Carrara per famiglia e focolare; se il vescovo avrà intenzione di costruire una
+          fortificazione o una dimora saranno tenuti ad aiutarlo come gli altri <term
+            xml:lang="latin">villani</term>, ma senza pagamento di denaro; se la comunità di Carrara
+          delibererà di fornire aiuto al vescovo per famiglia e focolare, al medesimo impegno
+          saranno tenuti anche gli uomini di Gragnana. La transazione costa 17 lire e mezzo di
+          imperiali. L’atto viene approvato dal visdomino della curia di Luni tre giorni dopo la
+          stipulazione e nel giugno successivo anche dal capitolo di Luni.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP cc. 291r.-292r., cc. CCLXXXIIIr.-CCLXXXIIIIr. secondo
+            la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 316, pp. 304 -
+            305.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Autentica databile con incertezza intorno alla metà del XIII secolo.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCXVI.
+              Ficti hominum de Gragnana.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXVI_div">
+        <p xml:id="CCCXVI_p_001" n="1">In nomine Domini, amen. <date when="1230-01-04">Anno a
+            nativitate Eius millesimo CCXXX, indictione III, die veneris, IIII die intrante mense
+            ianuarii</date>. Dominus <persName ref="#GuilEpLuni">Guilielmus, <roleName>Dei gratia
+              Lunensis episcopus</roleName></persName>, pro utilitate et melioratione sui
+          episcopatus, scilicet ut pro incerto redditu infrascriptorum hominum certum fictum et
+          redditum pro episcopatu et episcopatus nomine consequatur, per se suosque successores et
+          pro episcopatu et nomine episcopatus fecit finem et refutationem et pactum de non petendo
+          et generalem transactionem et liberationem infrascriptis hominibus de valle <placeName
+            ref="#Gragnana">Gragnane</placeName>, videlicet <persName ref="#Bonacursusnot">Bonacurso
+              <roleName>notario</roleName></persName> et <persName ref="#GerardusViviani">Gerardo,
+            germanis, quondam Viviani de <placeName ref="#Gragnana">Gragnana</placeName></persName>,
+            <persName ref="#VenturaBenedicti">Venture</persName> et <persName
+            ref="#VitalisBenedicti">Vitali, germanis, quondam Benedicti</persName>, <persName
+            ref="#MartinusAcursi">Martino quondam Acursi</persName>, <persName ref="#DiviciaMartini"
+            >Divitie</persName> et <persName ref="#BonaMartini">Bone, sororibus, filiabus quondam
+            Martini</persName>, recipientibus pro se et sororibus suis <persName
+            ref="#ByatriceMartini">Byatrice</persName> et Bonafante, <persName
+            ref="#DuransGuilielmi">Duranti quondam Guilielmi</persName>, recipienti pro se et nepote
+          suo <persName ref="#Vegnutus">Venuto</persName>, <persName ref="#RicheldaBonici">Richelde
+            quondam Bonici</persName>, <persName ref="#UgolinusBonfilioli">Ugolino quondam
+            Bonfilioli</persName>, recipienti pro se et fratre suo <persName
+            ref="#GuilielmusMartinelli">Guilielmo</persName>, <persName ref="#AgustinusMartinelli"
+            >Agustino quondam Martinelli</persName>, <persName ref="#ValentinusFavalini"
+            >Valentino</persName> et <persName ref="#GuicardusFavalini">Guicardo, germanis, filiis
+            quondam Favalini</persName>, <persName ref="#CompagnolaCompagni">Compagnole quondam
+            Compagni, uxori dicti Valentini</persName>, <persName ref="#MartinusVitaleti">Martino
+            quondam Vitaleti</persName>, <persName ref="#DiviciaMartini">Divicie quondam
+            Martini</persName>, <persName ref="#VenturaBernardi">Venture quondam
+          Bernardi</persName>, <persName ref="#AlbertinusCompagni">Albertino quondam
+            Compagni</persName>, <persName ref="#AmicaGuidoli">Amice quondam Guidoli</persName>,
+            <persName ref="#VenturaAlberti">Venture</persName> et <persName ref="#GerardusAlberti2"
+            >Gerardo quondam Alberti</persName>, <persName ref="#VitalisBernardi">Vitali quondam
+            Bernardi</persName>, <persName ref="#BonfiliolusMesserendi">Bonfiliolo quondam
+            Messerendi</persName>, <persName ref="#DolcebonusPasqualini">Dolce- <pb n="291v"
+              xml:id="fol_291v"/> bono quondam Pasqualini</persName>, <persName ref="#IunctaBrunete"
+            >Iuncte quondam Brunete</persName>, recipienti pro se et nepotibus suis, et <persName
+            ref="#GuilielminusAccursi">Guilielmino quondam Acursi</persName> et <persName
+            ref="#PalmeriusAcursi">Palmerio quondam eiusdem Acursi</persName>, recipienti pro se et
+          fratre suo <persName ref="#GerardusAcursi">Gerardo</persName>, et <persName
+            ref="#AdiutusDominici">Adiuto quondam Dominici</persName>, <persName
+            ref="#AimelinaBonfilioli">Aimeline quondam Bonfilioli</persName>, recipienti pro se et
+          nepotibus suis, filiis quondam sororis sue <persName ref="#PalmeriaBonfilioli"
+            >Palmerie</persName>, <persName ref="#VitalisLumbardi">Vitali</persName> et <persName
+            ref="#GuilielminusLumbardi">Guilielmino, germanis, quondam Lumbardi</persName>,
+            <persName ref="#DuransBenencase">Duranti quondam Benencase</persName> et <persName
+            ref="#BonavereBenencase">Bonavere</persName>, fratri suo, recipienti pro se et fratre
+          suo <persName ref="#BenesiaBenencase">Benesia</persName>, <persName ref="#UgolinusGrilli"
+            >Ugolino quondam Grilli</persName>, <persName ref="#CitaCompagni">Cite quondam
+            Compagni</persName>, <persName ref="#SimonetusSabrini">Symoneto quondam
+            Sabrini</persName>, recipienti pro se et fratribus suis <persName ref="#AprileSabrini"
+            >Aprile</persName>, <persName ref="#BlancusSabrini">Blanco</persName> et <persName
+            ref="#PetrusSabrini">Petro</persName>, <persName ref="#Bona">Bone quondam
+            Guidonis</persName> et <persName ref="#AlbertusBenedicti">Alberto quondam filio
+            Benedicti</persName>, recipienti pro se et dicto suo patre et pro omnibus heredibus
+          dicti sui patris et pro <persName ref="#BenesiaUgolini">Benesia quondam
+          Ugolini</persName>, omnibus iamscripriptis de valle <placeName ref="#Gragnana"
+            >Gragnane</placeName>, recipientibus pro se et pro suis heredibus, masculis et feminis,
+          et pro heredibus absentium, qui superius nominati sunt, masculis et feminis, nominatim de
+          operis et operibus, de collecta et colta, de dato et de maltolleto<note
+            xml:id="CCCXVI_n_001" n="a" place="foot"><term xml:lang="latin">maltolleto</term>:
+              <emph>la terza</emph> l <emph>aggiunta in sopralinea</emph>.</note>, de prestancia et
+          atractu, a quibus omnibus suprascriptis et singulis predictorum ipsos eorumque heredes
+          masculos et feminas, pro episcopatu et nomine episcopatus, per se suosque successores
+          inrevocabiliter absolvit et liberavit, ita ut amodo perpetuo omnes predicti et singuli,
+          mares et mulieres, tam absentes quam presentes, eorumque heredes, mares et mulieres, sint
+          penitus liberi et absoluti ab omnibus predictis et singulis predictorum et ab ortum<note
+            xml:id="CCCXVI_n_002" n="b" place="foot"><term xml:lang="latin">ortum</term>: <emph>così
+              nel testo per</emph>
+            <term xml:lang="latin">omni</term>.</note> iugo et nexu omnium predictorum et singulorum
+          et de cetero ullo tempore non liceat dicto domino episcopo vel suis successoribus aut
+          alicui suorum successorum sive alicui persone pro dicto domino episcopo vel pro aliquo
+          suorum successorum, pro episcopatu vel nomine episcopatus vel aliquo alio modo vel iure,
+          petere vel peti facere, exigere vel exigi facere, tollere vel tolli facere suprascriptis
+          hominibus et mulieribus vel eorum heredibus aut alicui eorum seu heredi vel heredibus
+          alicuius ipsorum ullas operas vel operam seu ullam coltam vel collectam aut datum aliquod
+          vel maltoltum seu aliquam prestantiam vel atractum, immo se suosque successores tacitos et
+          contentos in omni tempore per stipulationem permanere promisit, ad penam <measure
+            quantity="20" unit="marchi">viginti marcharum optimi argenti</measure> Romane curie
+          competentem, rato manente pacto; pena soluta, eisdem etiam eorumque heredibus penitus
+            absolutus<note xml:id="CCCXVI_n_003" n="c" place="foot"><term xml:lang="latin"
+              >absolutus</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">absoluti</term>.</note> ab affictis et ceteris aliis, que dare
+          consueverant episcopo et episcopatui per cartulam bone memorie <persName
+            ref="#AlbertusEpLuni">Alberti, <roleName>Lunensis episcopi</roleName></persName>,
+          scriptam per manum <persName ref="#Bonabrocanot">Bonabroce
+            <roleName>notarii</roleName></persName>. Pro qua fine et refutatione, liberatione et
+          transactione dicti homines et mulieres, pro se et pro predictis absentibus, scilicet illi
+          pro absentibus qui eis dictam liberationem receperunt, obligando se suosque heredes,
+          promiserunt per stipulationem dare et reddere dicto domino episcopo suisque successoribus
+          de cetero, annis singulis, in mense augusti, ad curiam domini episcopi, sitam <placeName
+            ref="#Veçale">Veçale</placeName>, staria LVI minus uno quarto de bono frumento mundo et
+          sicco, ad antiqum starium marmoreum mensuratum, inter fictum et atractum, quod starium est
+          ad curie granarium, et in mense septembris congia tredecim minus uno stario et dimidio de
+          bono et puro musto, ad currens starium de <placeName ref="#Carrara">Carraria</placeName>
+          mensurato, salvo ficto de perticatis de brolo et ficto de terra, de molendinis et aliis
+          condictionibus salvis, que domino episcopo et episcopatui seu alicui persone pro
+          episcopatu reddere tenentur, exceptis omnibus predictis et singulis a quibus dictus
+          dominus episcopus eos absolvit et liberavit et superius sunt expressa. Et si dominus papa
+          vel dominus imperator personaliter transiret vel iter faceret per Lunensem episcopatum,
+          tunc predicti tenenantur facere adiutorium domino episcopo per familiam et focum, sicuti
+          populus de <placeName ref="#Carrara">Carraria</placeName> per focum et familiam adiutorium
+          domino episcopo fecerit. Preterea, si dominus episcopus, qui pro tempore fuerit, voluerit
+          facere aliquod castrum vel domum aliquam, teneantur tunc iuvare dominum episcopum sicuti
+          alii sui villani, excepto quod non teneantur dare ullam datam vel pecuniam aliquam.
+          Insuper, si universitas <placeName ref="#Carrara">Carrarie</placeName> pro papa vel pro
+          imperatore vel alio modo fecerit adiutorium domino episcopo, tunc predicti teneantur
+          facere adiutorium domino episcopo per familiam et focum, sicuti universitas <placeName
+            ref="#Carrara">Carrarie</placeName> fecerit. Ad quorum omnium confirmationem dictus
+          dominus episcopus fuit confessus se recepisse servicium a iamscriptis hominibus <measure
+            type="Imperiales" quantity="17.5" unit="libra">bonorum imperialium librarum XVII et
+            dimidie</measure>, renunciando exceptioni non numerate pecunie.</p>
+        <p xml:id="CCCXVI_p_002" n="2">Actum <placeName ref="#Carrara">Carrarie</placeName>, in
+          villa de <placeName ref="#Veçale">Veçale</placeName>, iuxta granarium curie, presentibus
+            <persName ref="#PeregrinusCarr">Peregrino <roleName>castaldione dicti domini
+              episcopi</roleName></persName> in curia de <placeName ref="#Carrara"
+            >Carraria</placeName>, <persName ref="#RollandusVagus">Rollando Vago</persName>,
+            <persName ref="#BullioneRugerini">Bullione filio Rugerini de <placeName ref="#Sarzana"
+              >Sarzano</placeName><note xml:id="CCCXVI_n_004" n="d" place="foot"><term
+                xml:lang="latin">Sarzano</term>: <emph>così nel testo</emph>.</note></persName>,
+            <persName ref="#HengeramusAttolini">Hengirame filio <pb n="292r" xml:id="fol_292r"/>
+            Attolini de <placeName ref="#Caço">Caço</placeName></persName> et <persName
+            ref="#VillanusLucanus">Villano Lucano</persName>, testibus ad hec rogatis, unde plures
+          cartule uno tenore sunt. <date when="1230-01-07">Eodem anno et indictione currentibus, die
+            lune, VII die intrante mense ianuarii</date>, prope burgum de <placeName ref="#Avenza"
+            >Avencia</placeName>, in ara <persName ref="#GualterotusVeçale">Gualteroti de <placeName
+              ref="#Veçale">Veçale</placeName></persName>, in testimonio <persName
+            ref="#PeregrinusCarr">Peregrini <roleName>castaldionis</roleName> de <placeName
+              ref="#Carrara">Carraria</placeName></persName> et <persName ref="#RollandusVagus"
+            >Rollandi Vagi</persName>, testium rogatorum, <persName ref="#AlbertusGerardi">Albertus,
+              <roleName>vicedominus Lunensis curie</roleName></persName>, omnibus predictis et
+          singulis, que in hac cartula continentur, consensit. <date when="1230-06-01">Eodem anno et
+            indictione currentibus, die sabbati, qui fuit in kalendis iunii</date>, <placeName
+            ref="#Sarzana">Sarzane</placeName>, in sacristaria<note xml:id="CCCXVI_n_005" n="e"
+            place="foot"><term xml:lang="latin">sacristaria</term>: <emph>così nel
+            testo</emph>.</note>
+          <orgName ref="#Sarzana_S_Maria">ecclesie Sancte Marie</orgName>, in testimonio <persName
+            ref="#Mediuslombardusarc">Mediilumbardi <roleName>archipresbyteri</roleName> de
+              <placeName ref="#Ameglia">Amelia</placeName></persName>, <persName ref="#Odopres"
+              ><roleName>presbyteri</roleName> Odonis de <placeName ref="#Calesa"
+            >Calesa</placeName></persName> et <persName ref="#Tholomeuspres"
+              ><roleName>presbyteri</roleName> Tholomei de <placeName ref="#Congia"
+              >Congia</placeName></persName>, testium rogatorum, Lunense capitulum, videlicet
+          dominus <persName ref="#Bonaiunctaarc">Bonaiuncta, <roleName>Lunensis ecclesie
+              archipresbyter</roleName></persName>, <persName ref="#Oppizuscus">Opiçus, eiusdem
+            ecclesie <roleName>canonicus</roleName> et <roleName>custos</roleName></persName>,
+            <persName ref="#Ubalduscan">Ubaldus <roleName>canonicus</roleName> et
+              <roleName>cantor</roleName></persName>, <persName ref="#Vernaciuscan"
+              ><roleName>presbyter</roleName> Vernatius</persName> et <persName ref="#Guirisiuscan"
+              ><roleName>presbyter</roleName> Guirisius</persName>, <roleName>canonici</roleName>,
+            <persName ref="#Rollandusdiac">Rollandus <roleName>dyaconus</roleName></persName>,
+            <persName ref="#Antoniuscan">Antonius <roleName>subdyaconus</roleName></persName>,
+            <persName ref="#Ugolinuscan">Ugolinus <roleName>subdyaconus</roleName></persName>,
+            <persName ref="#Albertuscan">Albertus <roleName>subdyaconus</roleName></persName> et
+            <persName ref="#Grassuscan">Grassus</persName>, <roleName>Lunenses canonici</roleName>,
+          omnibus predictis et singulis, que in hac cartula continentur, consenserunt et ea omnia
+          rata habuerunt.</p>
+        <p xml:id="CCCXVI_p_003" n="3"><ptr target="#CCCXVI_st_001"/> Ego <persName
+            ref="#Adiutusnot">Adiutus, <roleName>sacri palacii notarius</roleName></persName>, hanc
+          cartulam ab <persName ref="#Ugolinusnot">Ugolino <roleName>notario</roleName></persName>
+          abreviatam, ipso semper presente, visa eius sceda, de suo mandato scripsi et proprio signo
+          signavi.</p>
+      </div>
+      <div xml:id="CCCXVI_div2" type="autentica">
+        <p xml:id="CCCXVI_p_004" n="4"><ptr target="#CCCXVI_st_002"/> Ego <persName
+            ref="#Guilielmusnot">Guilielmus, <roleName>notarius sacri palacii</roleName></persName>,
+          autenticum huius exempli vidi et legi et quicquid in eo repperi hic fideliter exemplavi;
+          nil addidi nec minui, nisi forte litteram vel sillabam, et ideo scripsi.</p>
+        <p xml:id="CCCXVI_p_005" n="5"><ptr target="#CCCXVI_st_003"/> Ego <persName
+            ref="#Bonacursusnot3">Bonacursus, <roleName>sacri palacii
+          notarius</roleName></persName>, autenticum huius exempli vidi et legi et huic
+          subscripsi.</p>
+        <p xml:id="CCCXVI_p_006" n="6"><ptr target="#CCCXVI_st_004"/> Ego <persName
+            ref="#Guilielmusnot4">Guilielmus, <roleName>sacri palacii
+          notarius</roleName></persName>, autenticum huius exempli vidi et legi et huic
+          subscripsi.</p>
+        <p xml:id="CCCXVI_p_007" n="7"><ptr target="#CCCXVI_st_005"/> Ego <persName
+            ref="#Bellonusnot">Bellonus, <roleName>sacri palacii notarius</roleName></persName>,
+          autenticum huius exempli vidi et legi et, viso quod nichil plus in uno quam in altero
+          instrumento continebatur, huic ideoque subscripsi, signum proprium
+            apponendo.<note>Autentica del documento n. 278-CCCXVI databile con incertezza intorno
+            alla metà del XIII secolo <date notBefore="1240-01-01" notAfter="1260-12-31" cert="low"
+            /></note>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

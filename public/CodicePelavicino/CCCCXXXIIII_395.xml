@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXXXIIII_395">
+    <front xml:id="CCCCXXXIIII_front">
+
+      <titlePart type="numerazioneNuova">395</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXXXIIII</titlePart>
+
+      <docDate xml:id="CCCCXXXIIII_docDate">
+        <date when="1257-06-08">1257 giugno 8</date>, <placeName>Lucca <emph>(<term xml:lang="latin"
+              >Luce, in domibus ecclesie Sancti Fridiani</term>)</emph>
+        </placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXXXIIII_regesto">
+        <p>Il vescovo di Luni Guglielmo concede in feudo a Berardino e Simone del fu Alberto di
+          Panicale quanto i due fratelli avevano acquistato nel castello e nel distretto di Stadano
+          da Guglielmo della Brina e da suo nipote Pucio, dai figli di Attocane di Bibola e da
+          Borlandino di Stadano. Il vescovo si riserva ogni diritto sul castello e, in particolare,
+          su un casalino posto al suo interno. Berardino giurà quindi fedeltà al vescovo e riceve
+          l’investitura.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXXXIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 340r., c. CCXXXIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 434,
+            pp. 430-431.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>L'atto di vendita citato nel corpo del documento, datato <emph>MCCXLIII indictione
+              XI die XXVI mense augusti</emph>, pone alcuni problemi in quanto nell'agosto 1243
+            correva la prima indizione e non l’undicesima; sono tuttavia formulabili più ipotesi di
+            correzione: il <ref target="#MAZZINI_1914">Mazzini (MAZZINI 1914, p. 29</ref>) propone
+            1253 per accordarlo all’indizione XI, ma lo scriba potrebbe aver effettivamente
+            trascritto XI al posto di I e in questo caso sarebbe da mantenere l’anno 1243; sempre
+            come errore di copiatura avrebbe potuto scrivere XI al posto di XV: in questo caso la
+            datazione originale sarebbe stata in stile pisano, riconducibile all’anno comune 1242.
+            Il notaio Iannone di Borgo Nuovo è tuttavia attestato in attività in un atto del 1253
+            datato con lo stile della natività, di conseguenza si considera dotata di maggiore
+            plausibilità l’ipotesi del <ref target="#MAZZINI_1914">Mazzini</ref>. </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCCXXXIIII. Sicut dominus Bernardinus et Symon de Panicali habent in feudum a
+              Lunensi curia id quod habent in Stadano.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXXXIIII_div">
+        <p xml:id="CCCCXXXIIII_p_001" n="1">
+          <pb n="340r" xml:id="fol_340r"/>
+          <ptr target="#CCCCXXXIIII_st_001"/> In nomine Domini, amen. <date when="1257-06-08">Anno
+            Domini a nativitate M°CCLVII, indictione XV, imperio vacante, ut dicitur, VIII die
+            iunii. </date>
+          <roleName>Dominus</roleName>
+          <persName ref="#GuilEpLuni">Guilielmus</persName>, <roleName>Lunensis
+          episcopus</roleName>, concessit, dedit atque tradidit in feudum et nomine feudi, per se
+          suosque successores omnes, <roleName>domino </roleName>
+          <persName ref="#BernardinusPanicali">Berardino de </persName>
+          <placeName ref="#Panicale">Panicali</placeName>, recipienti et stipulanti pro se et
+            <persName ref="#SimonAlberti">Simone <note xml:id="CCCCXXXIIII_n_001" n="a" place="foot"
+              >S <emph>corretto su precedente lettera</emph></note>, germano suo</persName>,
+            <roleName>filiis quondam domini Alberti</roleName>, pro se et in se et eorum heredibus,
+          masculis et feminis, in perpetuum, uno moriente alter succedat, omne id et totum quod
+          dictus <roleName>dominus</roleName>
+          <persName ref="#BernardinusPanicali"> Bernardinus</persName> et dictus <persName
+            ref="#SimonAlberti">Simonetus seu Simon</persName>, eius germanus, seu alter eorum
+          emerunt in castro <placeName ref="#Stadano">Stadani</placeName> et eius districtu a
+            <persName ref="#GuililemusBrina">Guilielmo de la <placeName ref="#Brina"
+              >Brina</placeName></persName>, vendite <note xml:id="CCCCXXXIIII_n_002" n="b"
+            place="foot"><term xml:lang="latin"> vendite</term>: <emph>così nel
+          testo</emph></note>pro se et <persName ref="#PuciusBrina">Pucio, nepote suo</persName>,
+          tam ratione vassallaticus quam reddituum et proventuum, ut continetur <supplied
+            reason="omitted">in</supplied> scriptura publica de dicta vendictione manu <persName
+            ref="#Iannonusnot">Iannonis </persName>
+          <roleName>notarii</roleName> de <placeName ref="#Borgonuovo"> Burgo Novo</placeName>,
+          cuius anni sunt <date when="1253-08-26">MCCXLIII , indictione XI, die XXVI mense
+            augusti</date>, et etiam totum id quod emerunt ipsi ambo vel alter eorum a filiis
+            <roleName>domini</roleName>
+          <persName ref="#AttocanisBibola">Attocani de <placeName ref="Bibola">
+            Bibola</placeName></persName> in castro predicto et eius districtu et quod emerunt a
+            <persName ref="#BorlandinusStadano">Borlandino de <placeName ref="#Stadano"
+              >Stadano</placeName></persName> vel ementes a quocumque qui ibi aliquod ius haberet,
+          cum accessibus et regressibus suis, cum omni iure et actione, usu seu requisitione eidem
+          domino episcopo vel suis successoribus aut dicto episcopatui de Lune<note
+            xml:id="CCCCXXXIIII_n_003" n="c" place="foot">
+            <term xml:lang="latin"> Lune</term>: <emph>così nel testo</emph></note> competentibus et
+          competituris, ad habendum, tenendum, possidendum et quicquid ipsi
+            <roleName>domino</roleName>
+          <persName ref="#BernardinusPanicali">Berardino</persName> et eius fratri et heredibus
+          ipsorum, iure feudi et nomine feudi, placuerit faciendum, cum accessibus et egressibus
+          suis et pertinenciis ipsius castri, reservato dicto domino <persName ref="#GuilEpLuni"
+            >Guillermo</persName>
+          <roleName>episcopo </roleName> et suis successoribus omni iure in dicto castro et
+          vassalatico et proventibus et redditibus ipsius domini episcopi et in omnes homines dicti
+          castri et in uno casalino seu casamento et aliis iuribus <note xml:id="CCCCXXXIIII_n_004"
+            n="d" place="foot"><term xml:lang="latin"> reservato-iuribus</term>: <emph>così nel
+              testo</emph></note> que tenen<supplied reason="omitted">tur</supplied> facere ipsi
+          homines curie vel alicui pro ipsa curia seu episcopatui vel consueverunt in dicto castro.
+          Que omnia fecit dictus dominus <persName ref="#GuilEpLuni"> Guilielmus</persName>
+          <roleName>episcopus</roleName> pro eo quod eidem domino <persName ref="#GuilEpLuni"
+            >Guilielmo</persName> episcopo, pro dicto episcopatu, ipse <roleName>dominus</roleName>
+          <persName ref="#BernardinusPanicali">Berardinus</persName> fidelitatem iuravit in terra
+          episcopi <roleName>prelibati</roleName> contra omnes personas et extra dictam terram
+          contra omnes personas, exceptis anterioribus dominis, et quam fidelitatem teneantur facere
+          omnes heredes predictorum domini <persName ref="#BernardinusPanicali">Berardini</persName>
+          et <persName ref="#SimonAlberti">Simonis</persName> predicto domino episcopo et suis
+          successoribus et usque ad duos menses proximos. Et promisit dictus
+            <roleName>dominus</roleName>
+          <persName ref="#BernardinusPanicali">Berardinus </persName> quod procurabit et faciet quod
+          predictus germanus ipsius similem fidelitatem faciet, sub pena <measure type="Lucchesi"
+            quantity="25" unit="libra"> XXV librarum denariorum Lucensium.</measure> Et promisit
+          ipse <roleName>dominus episcopus</roleName>
+          <persName ref="#GuilEpLuni">Guilielmus </persName>per se suosque successores et convenit
+          dicto <roleName>domino</roleName>
+          <persName ref="#BernardinusPanicali">Berardino</persName>, recipienti pro se et aliis, ut
+          supra, quod de predictis vel aliquod<note xml:id="CCCCXXXIIII_n_005" n="e" place="foot"
+              ><term xml:lang="latin"> aliquod</term>: <emph>così nel testo. </emph></note>
+          predictorum non inquietabit nec litem movebit dicto <roleName>domino</roleName>
+          <persName ref="#BernardinusPanicali">Berardino</persName> et eius germano et heredes<note
+            xml:id="CCCCXXXIIII_n_006" n="f" place="foot"><term xml:lang="latin"> heredes</term>:
+              <emph>così nel testo per</emph>heredibus</note> ipsorum de predictis vel aliquod <note
+            xml:id="CCCCXXXIIII_n_007" n="e" place="foot"><term xml:lang="latin"> aliquod</term>:
+              <emph>così nel testo.</emph></note> predictorum; immo erit deffensor, ipsis
+          existentibus et perseverantibus in fidelitate, in quantum poterit, et actor erit, sub
+          obligatione omnium bonorum dicti episcopatus. Quibus sic peractis, dictus dominus
+          episcopus pro se et successoribus suis et pro dicto episcopatu eundem dominum <persName
+            ref="#BernardinusPanicali">Berardinum </persName>, pro se et <persName
+            ref="#SimonAlberti">Simone</persName> fratre ipsius et heredibus eorum stipulanti et
+          recipienti <note xml:id="CCCCXXXIIII_n_008" n="g" place="foot"><term xml:lang="latin">
+              stipulanti et recipienti</term>: <emph>così nel testo.</emph></note>, investivit de
+          predictis omnibus et quolibet predictorum cum baculo, quem in sua manu tenebat, et cum
+          osculo pacis, asserens ipse dominus <persName ref="#BernardinusPanicali"
+            >Berardinus</persName> se esse in possessione omnium predictorum de voluntate et mandato
+          dicti domini <roleName>episcopi</roleName>
+          <persName ref="#GuilEpLuni">Guilielmi </persName>et eius auctoritate et consensu. </p>
+        <p xml:id="CCCCXXXIIII_p_002" n="2"> Actum <placeName ref="#Lucca">Luce</placeName>, in
+          domibus <orgName ref="#Lucca_S_Frediano">ecclesie Sancti Fridiani</orgName>, presentibus
+            <roleName>domino</roleName>
+          <persName ref="#Tegrinusiud">Tegrimo</persName>
+          <roleName>iudice</roleName>, <roleName>fratre</roleName>
+          <persName ref="#PhilippusBibia">Philippo Bibia</persName>
+          <note xml:id="CCCCXXXIIII_n_009" n="h" place="foot"><term xml:lang="latin"> Philippo
+              Bibia</term>: <emph> nel testo</emph> Bibia Philippo <emph> con segno di richiamo per
+              invertire l’ordine delle parole.</emph></note> et <roleName>fratre</roleName>
+          <persName ref="#Paganusfrat">Pagano</persName>
+          <roleName>de ordine Fratrum Minorum</roleName> et <persName ref="#ArrigusImperator">Arrigo
+            Imperatore</persName> et <persName ref="#CeciusIacopini">Ceccio quondam
+            Iacopini</persName> et <persName ref="#Rusticellusnot">Rusticello</persName>
+          <note xml:id="CCCCXXXIIII_n_010" n="i" place="foot"><term xml:lang="latin"> Rusticello: c
+                <emph>corretta su precedente</emph> b</term></note>
+          <roleName>notario</roleName>, qui ad hec vocati et rogati sunt testes. </p>
+        <p xml:id="CCCCXXXIIII_p_003" n="3"> Ego <persName ref="#BoncambiusVenturenot">Boncambius
+            olim Venture</persName>, <roleName>ab imperiali aula notarius constitutus</roleName>,
+          predictis omnibus interfui et, ut supra legitur, scripsi et publicavi et supra tunc
+          condempnavi et punctavi mea manu propria. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

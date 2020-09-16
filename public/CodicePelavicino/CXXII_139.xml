@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXXII_139">
+    <front xml:id="CXXII_front">
+
+      <titlePart type="numerazioneNuova">139</titlePart>
+      <titlePart type="numerazioneOrig">CXXII</titlePart>
+
+      <docDate xml:id="CXXII_docDate">
+        <date when="1269-08-21">1269 agosto 21</date>
+        <placeName/>
+      </docDate>
+
+      <div type="regesto" xml:id="CXXII_regesto">
+        <p>Giacomino detto Tagliavacca, notaio, procuratore di Guglielmo, vescovo di Luni, agisce in
+          giudizio contro Guglielmina, moglie del fu Formento <term xml:lang="latin">de castro
+            Sarzane</term>, tutrice di Alberguccio e Rondarella, figli del fu Formento, per ottenere
+          la restituzione di metà di una terra <term xml:lang="latin">pro diviso</term> spettante
+          alla curia di Luni, posta nel luogo detto <term xml:lang="latin">Paternulo</term>.
+          Guglielmina dichiara di fronte al giudice Normannino, vicario di Guglielmo nella provincia
+          di Lunigiana, di non voler andare in giudizio e di rinunciare a detto bene.</p>
+      </div>
+
+      <div type="footer" xml:id="CXXII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 227v.- 228r., c. CCXVIIIIv.- CCXXr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 122,
+            pp. 155-156.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXXII_div">
+        <p xml:id="CXXII_p_001" n="1">In Christi nomine, amen. <persName
+            ref="#IacopinusTalliavachanot">Iacopinus, qui dicitur Talliavacha,
+              <roleName>notarius</roleName>, <roleName>syndicus</roleName> et
+              <roleName>actor</roleName></persName> venerabilis patris domini <persName
+            ref="#GuilEpLuni">Guillelmi, <roleName>Lunensis episcopi</roleName></persName>,
+          syndicatus et actorio nomine pro ipso domino episcopo et episcopatu, agit contra <persName
+            ref="#Guilielmina">Guilielminam, uxorem quondam <persName ref="#FormentinusSar">Formenti
+              de <placeName ref="#Sarzanello">castro Sarzane</placeName></persName></persName>,
+          tutricem <persName ref="#AlberguciusFormenti">Albergucii</persName> et <persName
+            ref="#RondarellaFormenti">Rondarelle</persName>, filiorum quondam suprascripti <persName
+            ref="#FormentinusSar">Formenti</persName>, ut continetur dicebat<note place="foot" n="a"
+            xml:id="CXXII_n_001"><term type="incerto">continetur dicebat</term>: <emph>così nel
+              testo</emph>.</note> de tutoria in testamento et carta facta manu <persName
+            ref="#Bonacaptusnot">Capti seu Bonacapti <roleName>notarii</roleName>, filii Girardetti
+            de <placeName ref="#Sarzanello">castro Sarzane</placeName></persName>, petens ab ea,
+          syndicatus et actorio nomine, ut dictum est, medietatem unius petie terre pro diviso, sive
+          plus vel minus sit, sita<note place="foot" n="b" xml:id="CXXII_n_002"><term type="incerto"
+              >sita</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">site</term>.</note> in loco dicto <placeName ref="#Paternulo"
+            >Paternulo</placeName>, cui <pb n="228r" xml:id="fol_228r"/>toti coheret ab uno latere
+          terra <persName ref="#BonacaptusGirardi">Bonacapti quondam Girardi de <placeName
+              ref="#Brasile">Braisile</placeName></persName>, ab alio <persName
+            ref="#GerardusLealis">Girardi quondam Lealis de <placeName ref="#Sarzana"
+              >Sarzana</placeName></persName> in parte et <supplied reason="omitted">in</supplied>
+          parte <persName ref="#GerardetusDimandi">Girardetti quondam Dimandi de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName></persName>, a capite via publica, a pede
+          terra <persName ref="#StoppusAlberti">Stoppii quondam Alberti
+              <roleName>corbellarii</roleName> de <placeName ref="#Sarzana">burgo
+              Sarzane</placeName></persName>. Quam terram suprascriptam petitam dicit idem
+            <roleName>syndicus</roleName> et <roleName>actor</roleName> ad dictum dominum episcopum
+          pro ipso episcopatu et ad ipsum episcopatum pertinere iure dominii directi, utilis vel
+          quasi, et hec petit omni iure quo melius potest, salvo omni alio iure ipsius domini
+          episcopi et episcopatus, et petit expensas litis et advocati. Que <persName
+            ref="#Guilielmina">Guilielmina</persName>, auditis suprascriptis, dixit et protestata
+          fuit coram <persName ref="#NormanninusBernanduccisiud"><roleName>domino</roleName>
+            Normannino</persName>, <roleName>iudice</roleName> et locum <roleName>vicarii</roleName> tenente in
+            <orgName ref="#Lunigiana_provincia">provincia <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili
+          patre domino <persName ref="#GuilEpLuni">Guilielmo, <roleName>Lunensi
+            episcopo</roleName></persName>, tutorio nomine, ut dictum est, pro dictis filiis quondam
+          suprascripti <persName ref="#FormentinusSar">Formenti</persName>, quod de suprascriptis
+          terris non intendit nec vult causam facere nec intendit eam deffendere, set liti renunciat
+          in toto, presentibus <persName ref="#GerardetusDimandi">Girardeto quondam Dimandi de
+              <placeName ref="#Sarzanello">castro Sarzane</placeName></persName> et <persName
+                ref="#Iuxtamonscorr">Iuxtamonte</persName>, <roleName>correrio</roleName> <orgName ref="#Lunigiana_vicaria">vicarie</orgName>. Unde
+          suprascriptus <roleName>iudex</roleName>, auditis predictis ab ipsa <persName
+            ref="#Guilielmina">Guilielmina</persName>, ut dictum est, dedit licenciam et parabolam
+          suprascripto syndico seu actori intrandi in corporalem possessionem dicte terre. Coram
+          suprascriptis testibus, anno nativitatis Domini <date when="1269-08-02">M°CCLXVIIII,
+            indictione XII, XXI augusti</date>.</p>
+        <p xml:id="CXXII_p_002" n="2"><ptr target="#CXXII_st_001"/>
+          <persName ref="#Aliottusnot">Aliottus Marroncinus de <placeName ref="#Lucca"
+              >Luca</placeName>, <roleName>notarius</roleName> et dicte curie
+              <roleName>scriba</roleName></persName>, suprascriptis interfui et hec scripsi et
+          publicavi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

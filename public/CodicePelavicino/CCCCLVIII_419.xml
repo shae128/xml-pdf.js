@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLVIII_419">
+    <front xml:id="CCCCLVIII_front">
+
+      <titlePart type="numerazioneNuova">419</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLVIII</titlePart>
+
+      <docDate xml:id="CCCCLVIII_docDate">
+        <date when="1255-05-12">1255 maggio 12</date>, <placeName>Vezano <emph>(<term
+              xml:lang="latin">Vexani, in ara Guideti</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLVIII_regesto">
+        <p>Guizolino del fu Alamanno di Vezzano vende a Guideto del fu Benvenuto di Vezzano,
+          castaldo del vescovo di Luni Guglielmo, un pezzo di vigna posto a Vezzano nel luogo di
+          Ridesalice al prezzo di 20 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 355v.-356r., cc. CCCXLVIv.-CCCXLVIIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 458,
+            p. 467.</p>
+        </div>
+
+        <div type="crit_notes"> </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <emph>IIIIc LVIII. Enptionis
+              unius petie terre ab Uicolino Alamanni de Veçanno. </emph></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCCLVIII_div">
+        <p xml:id="CCCCLVIII_p_001" n="1">In nomine Domini, amen. <date when="1255-05-12">Anno a
+            nativitate Eius M°CCLV, indictione XIII, die mercurii, XII intrante madio. </date>
+          <persName ref="#GuiçolinusAlamanni">Guiçolinus quondam Alamanni de <placeName
+              ref="#Vezzano"> Vezano</placeName></persName>, suo nomine, iure proprio et in
+          perpetuum et per alodium, vendidit et tradidit, penitus omnino mandavit <persName
+            ref="#GuidetusBenvenuti"> Guideto quondam Benvenuti de <placeName ref="#Vezzano">
+              Vezano</placeName></persName>, <roleName>castaldioni domini</roleName>
+          <persName ref="#GuilEpLuni">Guilielmi</persName>, <roleName>Dei gratia Lunensis
+            episcopi</roleName>, recipienti eius nomine et eius successorum et episcopatu<supplied
+            reason="omitted">s</supplied> Lunensis, petiam I terre vineate posite in pertinenciis
+            <placeName ref="#Vezzano"> Vezani</placeName>, loco ubi dicitur <placeName
+            ref="#Ridesalice">Ridesalice</placeName>, cui coheret a duobus lateribus <persName
+            ref="#Anninellus">Anninelli</persName>, inferius via publica, ab alio latere canale et
+          via publica, ad habendum, tenendum, possidendum, agendum, petendum et quicquid sibi seu
+          dicto domino episcopo et eius successoribus placuerit perpetuo faciendum, sine sui
+          venditoris et suorum heredum vel alterius contradictione, cum arboribus fructiferis et
+          infructiferis, accessibus, ingressibus et egressibus suis et cum omnibus et singulis super
+          se et infra atque intra se habitis, in integrum, infra predictos confines, vel si qui alii
+          sint, eis rebus vel alicui ipsorum <note n="a" place="foot" xml:id="CCCCLVIII_n_001"> eis
+            rebus vel alicui ipsorum: <emph>così nel testo.</emph></note>, maiores et meliores
+          omnique iure et actione atque persecutione, usu seu requisitione sibi ex eis vel pro eis
+          rebus aliquatenus pertinente vel pertinere posset, modo aliquo sive causa. Qui quidem
+          dictus <persName ref="#Guiçolinus">Guiçolinus</persName> fecit dicto <persName
+            ref="#Guidetus">Guideto</persName> atque dedit, pro precio, <measure type="Imperiales"
+            quantity="20" unit="solidus">XX soldos imperialium</measure> quod totum, presentibus
+          testibus infrascriptis et me notario, confessus fuit et contemptus se ab eo accepisse
+          sibique integre numeraturi atque soluturi esse, renunciando non numerati et non soluti et
+          non habiti et non traditi sibi dicti precii exceptioni, doli indebiti sine causa et ob
+          causam et in factum et omni iuris et legum auxilio. Et dictam terram se nomine dicti
+            <persName ref="#Guidetus">Guideti</persName>, recipienti<note n="b" place="foot"
+            xml:id="CCCCLVIII_n_002">recipienti: <emph>così nel testo per</emph>recipientis.</note>
+          pro dicto domino episcopo et eius successoribus et episcopatu Lunensi, constituit
+          possidere et quasi donec corporalem eius rei sive earum rerum acceperit possessionem et
+          quasi, quam accipiendi et retinendi, sua auctoritate, deinceps licenciam omnimodam sibi
+          contulit atque dedit et eundem, videlicet dictum <persName ref="#Guidetus"
+            >Guidetum</persName>, recipientem pro dicto domino episcopo et eius successoribus et
+          episcopatu Lunensi, de predictis omnibus in rem suam constituit suum procuratorem et
+          posuit in locum suum pro precio pretaxato; et omnem possessionem sibi traditam atque
+          datam, ut dictum est, de predictis omnibus ei omnimode confirmavit, promittens dictus
+            <persName ref="#Guiçolinus">Guiçolinus</persName> pro se suisque heredibus dicto
+            <persName ref="#Guidetus">Guideto</persName>, recipienti pro predicto domino episcopo et
+          eius successoribus et episcopatu Lunensi, dictam terram ab omni persona et universitate
+          deffendere, auctorizare atque disbrigare in toto et in parte, sine aliqua denunciatione
+          dicti emptoris seu dicti domini episcopi vel successorum eius, propriis omnibus et suis
+          expensis dicti venditoris et suorum heredum, tam in proprietate quam in possessione et
+          quasi, remisso sibi scilicet dicto emptori seu dicto episcopo vel eius successoribus omni
+          iure denunciandi et iudicium suscipere, si lis dicto <persName ref="#Guidetus"
+            >Guideto</persName> vel dicto domino episcopo vel eius successoribus aliquando
+          moveretur, et litem nec <note n="c" place="foot" xml:id="CCCCLVIII_n_003">nec:
+              <emph>scritto su precedente abrasione.</emph></note> controversiam aliquam movere vel
+          cautionem vel imbrigationem de cetero inferre, per se vel alium, occasione minoris precii
+          vel alia quacumque occasione vel ratione, omneque interesse, dampna et expensas, que vel
+          quas fecerit vel sustinuerit de predictis vel pro predictis in iudicio vel extra,
+          integraliter resartire <note n="d" place="foot" xml:id="CCCCLVIII_n_004">resartire:
+              <emph>così nel testo per</emph>resarcire.</note>
+          <pb n="356r" xml:id="fol_356r"/> solo nudo et simplici verbo dicti emptoris seu dicti
+          domini episcopi vel eius successorum, sine sacramento vel honere probationis alicuius,
+          sive obtinuerit sive succubuerit in causa; et predictam vendictionem, dationem et
+          traditionem et omnia et singula suprascripta rata et firma habere atque tenere et contra
+          ea vel aliquod eorum per se vel alium occasione aliqua vel exceptione, de iure vel de
+          facto, non facere nec venire, sub pena dupli extimationis dicte rei, ut plus aliquando
+          foret, habita semper rationem<note n="e" place="foot" xml:id="CCCCLVIII_n_005">rationem:
+              <emph>così nel testo per</emph>ratione-</note> meliorationis; et, pena soluta sive
+          commissa et exacta vel non, dicta firma sint et rata, sub obligatione omnium suorum
+          bonorum mobilium et immobilium, presentium et futurorum. Insuper iuravit dictus <persName
+            ref="#Guiçolinus">Guiçolinus</persName> ad sancta Dei Evangelia corporalier atque sponte
+          predicta firma et rata perpetuo habere atque tenere nec restitutionem in toto vel in parte
+          petere de predictis, ratione minoris etatis vel precii, nec alia qua<supplied
+            reason="omitted">cum</supplied>que ratione vel occasione contravenire. </p>
+        <p xml:id="CCCCLVIII_p_002" n="2"> Actum <placeName ref="#Vezzano">Vexani</placeName>, in
+          ara suprascripti <persName ref="#Guidetus">Guideti</persName>, coram <persName
+            ref="#ConfortusPenti">Conforto quondam Penti</persName>, <persName ref="#SoçusAiuti"
+            >Soço quondam Aiuti</persName>, <persName ref="#BertholotusAndrioli">Bertholoto quondam
+            Andrioli</persName> et <persName ref="#NuvelonusRollandini">Nivelono filio
+            Rollandini</persName>, ad hec testibus rogatis. </p>
+        <p xml:id="CCCCLVIII_p_003" n="3">
+          <ptr target="#CCCCLVIII_st_001"/> Ego <persName ref="#Mastruciusnot">Mastrucius,
+              <roleName>ab imperiali auctoritate notarius</roleName></persName>, dictis omnibus
+          interfui et rogatus scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="412(CCCCLI).xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLI_412">
+    <front xml:id="CCCCLI_front">
+      <titlePart type="numerazioneNuova">412</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLI</titlePart>
+      <docDate xml:id="CCCCLI_docDate">
+        <date when="1241-07-14">1241 luglio 14</date>, <placeName>Vezzano <emph>(<term
+              xml:lang="latin">ad Vezanum, ante domum Frederici quondam domini
+            Comitis</term>)</emph></placeName>
+      </docDate>
+      <div type="regesto" xml:id="CCCCLI_regesto">
+        <p>Gisla,figlia<term xml:lang="latin">del fu Vivaldo </term>di Lamberto di Vezano, cede al
+          fratello Aldevrandino ogni diritto a lei competente su tutti i beni di lui, mobili ed
+          immobili, che furono un tempo del loro padre. <term xml:lang="latin"/>
+        </p>
+      </div>
+      <div type="footer" xml:id="CCCCLI_footer">
+
+        <div type="orig_doc">
+          <p> Copia [C] c. 352v., c. CCCXLIIIv. secondo la numerazione originale </p>
+        </div>
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 451,
+            p.461. </p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <emph>IIIIc LI. Refutationis
+              Guisle Aldebrandino Lanberti de Veçano de sua parte poderis.</emph></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCCLI_div">
+        <p xml:id="CCCCLI_p_001" n="1">
+          <ptr target="#CCCCLI_st_001"/> In nomine Domini. Ego <persName ref="#GislaVivaldi">Gisla,
+            filia quondam <roleName>domini</roleName> Vivaldi</persName>
+          <persName ref="#LambertusVezzano">de Lamberto de <placeName ref="#Vezzano"
+              >Vezano</placeName></persName>, pro me et meis heredibus, facio tibi <persName
+            ref="#AldobrandinusVivaldi">Aldevrandino</persName>, fratri meo, recipienti pro te et
+          heredibus tuis et cui dederis vel habere statueris, dationem et cessionem et omnimodam
+          remissionem et finem et refutationem et pactum de non petendo de cetero, in perpetuum, de
+          omni iure et omnibus rationibus realibus et personalibus, utilibus et directis atque
+            mixtis<note n="a" place="foot" xml:id="CCCCLI_01"><emph>La prima</emph>i<emph> corretta
+              su precedente scrittura</emph></note>, quod vel quas habeo vel habere debeo vel aliquo
+          tempore habui<note n="b" place="foot" xml:id="CCCCLI_02">h<emph>corretta su precedente
+              scrittura</emph></note> in omnibus tuis bonis que quondam fuerunt patris mei, et in
+            <note n="c" place="foot" xml:id="CCCCLI_03"> que quondam fuerunt patris mei et in:
+              <emph>scritto in calce al documento, prima della sottoscrizione del notaio, con segno
+              di</emph></note> mobilibus et immobilibus, habitis et habendis, promittendo tibi pro
+          me et tuis heredibus quod de cetero, in perpetuum, adversus te et heredes tuos et bona
+          tua, habita et habenda, nullum ius nullamque rationem petam nec peti faciam nec consentiam
+          nec molestiam movebo nec brigam tibi dabo in aliquo de predictis; et, si contra hec fecero
+          vel ut supra non observavero vel tibi vel tuis heredibus vel cui dederis in aliquo de
+          predictis et ita factum fuerit per me vel per meos heredes vel per aliquam aliam personam
+          pro me, promitto et convenio tibi conservare indempnem, ad penam et in penam tibi
+          solvendam <measure type="imperalium" quantity="10" unit="librarum">librarum X
+            imperialium</measure>. Pro pena et omnibus sic observandis omnia mea bona, habita et
+          habenda, ut supra, tibi pignori obligo, tali pacto quod, pena commissa et exacta, predicta
+          omnia nichillominus firma permaneant, abrenunciando omni auxilio legum et capituli quo me
+          tueri possum. Et confiteor me verbotenus esse maiorem annorum XXV. </p>
+        <p xml:id="CCCCLI_p_002" n="2"> Actum ad <placeName ref="#Vezzano">Vezanum</placeName>, ante
+          domum <persName ref="#FedericusComitis">Frederici quondam <roleName>domini</roleName>
+            Comitis</persName> et fratris. <date when="1241-07-14"> Anno dominice nativitatis
+            M°CCXLI,indictione XIIII, die dominico,XIIII intrante iulio</date>. Interfuerunt testes
+            <persName ref="#OradinusFancelli">Oradinus quondam Fancelli</persName>, <persName
+            ref="#GuilielminusMatelda">Guilielminus de Matelda</persName>, <persName
+            ref="#BonafidesPiçoli">Bonafides quondam Piçoli de <placeName ref="#Binsello"
+              >Binsello</placeName></persName>, <persName ref="#Pellerius">Pellerius</persName> et
+          plures alii. Ego <persName ref="#Iohannesnot">Iohannes</persName>, <roleName>notarius
+            sacri palacii</roleName>, hanc cartam rogatus scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

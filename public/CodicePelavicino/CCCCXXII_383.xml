@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXXII_383">
+    <front xml:id="CCCCXXII_front">
+
+      <titlePart type="numerazioneNuova">383</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXXII</titlePart>
+
+      <docDate xml:id="CCCCXXII_docDate">
+        <date when="1257-04-06">1257 aprile 6</date>, <placeName>Santo Stefano Magra (<emph>in burgo
+            Sancti Stephani, iuxta domum Gerardi de Vindemia</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXXII_regesto">
+        <p>Viviano del fu Albianello di Albiano cede a Paganino, notaio di Santo Stefano, castaldo
+          del vescovo di Luni Guglielmo, al prezzo di 20 soldi di imperiali, un pezzo di terra nel
+          distretto di Bolano, <emph>Prato</emph>. Viviano, che teneva tale terra in feudo dalla
+          curia di Luni, la ottiene nuovamente in affitto al censo annuale di una libbra d’olio.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXXII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 334v., c. CCCXXVIv. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 422,
+            pp. 413-414.</p>
+        </div>
+
+        <div type="crit_notes">
+          <p>Sul margine esterno, di mano moderna: <emph>Bolani</emph></p>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCCXXII. Unius libre olei a Viviano Albianelli de Albiano. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXXII_div">
+        <p xml:id="CCCCXXII_p_001">In Dei nomine, amen. <date when="1257-04-06">Anno a nativitate
+            Eius M°CCLVII, indictione XV, VI aprilis.</date>
+          <persName ref="#VivianusAlbianelli">Vivianus quondam Albianelli de <placeName
+              ref="#Albiano">Albiano</placeName></persName> per se suosque heredes fecit finem et
+          refutationem et pactum de non petendo et datum <persName ref="Paganinusnot">Paganino
+              <roleName>notario</roleName> de <placeName ref="#Santo_Stefano">Sancto
+              Stephano</placeName></persName>, castaldioni venerabilis patris domini <persName
+            ref="#GuilEpLuni">Guilielmi, <roleName>Dei gratia Lunensis
+            episcopi</roleName></persName>, recipienti nomine et vice predicti domini episcopi et
+          episcopatus, de I petia terre vineate, cum omnibus suis pertinenciis, posita in districtu
+            <placeName ref="#Bolano">Bolani</placeName>, in loco dicto <placeName ref="#Prato"
+            >Prato</placeName>, que habet fines superius et ab uno latere via publica, inferius et
+          ab alio latere <persName ref="#CarindinusGuerceto">Carindinus de <placeName
+              ref="#Guerceto">Guerceto</placeName></persName>, quam a Lunensi curia tenebat. Quam
+          finem et refutationem promisit dictus <persName ref="#VivianusAlbianelli"
+            >Vivianus</persName> predicto <persName ref="#Paganinusnot">Paganino</persName>,
+          recipienti ut dictum est, perpetuo firmam habere et tenere et numquam in aliquo contra
+          facere vel venire, de iure vel de facto, et ipsas <note xml:id="CCCCXXII_n_002" n="b"
+            place="foot">
+            <term xml:lang="latin">ipsas</term>: <emph>così nel testo per</emph> ipsam terram</note>
+          deffendere ab omni contradicente persona, specialiter de suo dato et facto, sub
+          obligatione bonorum et heredum suorum, sub pena <measure type="imperiales" unit="solidus"
+            quantity="40">XL soldorum imperialium</measure>, quam dare et solvere promisit
+          suprascripto <persName ref="#Paganinusnot">Paganino</persName>, recipienti ut dictum est,
+          nomine predicti domini episcopi et episcopatus <note xml:id="CCCCXXII_n_003" n="c"
+            place="foot"><term xml:lang="latin">nomine predicti domini episcopi et
+              episcopatus</term>: <emph>nel manoscritto</emph> predicti domini episcopi et
+            episcopatus nomine<emph> con segno di richiamo per invertire l’ordine delle
+              parole</emph></note>, si contra predicta venerit vel non observaverit et quociens
+          fuerit contraventum, confitendo se recepisse ab ipso <persName ref="#Paganinusnot"
+            >Paganino</persName>, dante nomine predicti domini episcopi et episcopatus, <measure
+            type="imperiales" unit="solidus" quantity="20">soldos XX bonorum imperialium</measure>
+          pro melioramento suprascripte terre, renunciando exceptioni non numerate pecunie. Ibidem
+          incontinenti predictus <persName ref="#Paganinusnot">Paganinus</persName>, nomine et vice
+          predicti domini episcopi et episcopatus, dedit et locavit ei suprascriptam terram, cum
+          omnibus super positis et pertinenciis suis, ita ut ipse <persName
+            ref="#VivianusAlbianelli">Vivianus</persName> et sui heredes, ex se descendentes,
+          habeant, teneant et fruantur suprascriptam terram cum omnibus super positis et
+          pertinenciis, dando et reddendo exinde annuatim Lunensi curie, in curia de <placeName
+            ref="#Bolano">Bolano</placeName>, ubi alii redditus episcopales dantur et consignantur,
+          libram I olei, nomine ficti, per totum mensem ianuarii, ad currentem libram curie de
+          Sarzana, promittendo dictus <persName ref="#Paganinusnot">Paganinus</persName>, nomine
+          predicti domini episcopi et episcopatus, dicto <persName ref="#VivianusAlbianelli"
+            >Viviano</persName>, recipienti pro se suisque heredibus, dictam locationem perpetuo
+          firmam habere et tenere et non contravenire. Et pro predictis omnibus sic attendendis et
+          observandis obligaverunt se dictus <persName ref="#Paganinusnot">Paganinus</persName> et
+            <note xml:id="CCCCXXII_n_004" n="d" place="foot"><term xml:lang="latin">et</term>:
+              <emph>segno tachigrafico per</emph> et <emph>aggiunto in sopralinea con segno di
+              richiamo</emph></note> bona episcopatus et dictus <persName ref="#VivianusAlbianelli"
+            >Vivianus</persName> se suosque heredes et omnia sua bona, ad penam <measure
+            type="imperiales" unit="solidus" quantity="40">soldorum XL imperialium</measure>, quam
+          pars que contra predicta venerit parti fidem servanti dare et solvere teneatur quociens in
+          eam inciderit; et, ea soluta, predicta omnia in suo robore perseverent. Et nichillominus
+          teneatur dictus <persName ref="#VivianusAlbianelli">Vivianus</persName> ex ipsa terra
+          Lunensi curie respondere sicut ante presentem contractum facere et respondere
+          tenebatur.</p>
+        <p xml:id="CCCCXXII_p_002">Actum in burgo <placeName ref="#Santo_Stefano">Sancti
+            Stephani</placeName>, iuxta domum <persName ref="#GerardusVindemia">Gerardi de
+              <placeName ref="#Vindemia">Vindemia</placeName></persName>, presentibus <persName
+            ref="#AndrionusFalcinelli">Andriono quondam Falcinelli</persName>, <persName
+            ref="#ThomasiusBonapartis">Thomasio quondam Bonapartis</persName>, <persName
+            ref="#GualteriusPipioni">Gualterio quondam Pipioni</persName>, testibus ad hec
+          rogatis.</p>
+        <p xml:id="CCCCXXII_p_003"><ptr target="#CCCCXXII_st_001"/>Ego <persName
+            ref="#Benedictusnot">Benedictus, <roleName>imperialis aule
+            notarius</roleName></persName>, hiis interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

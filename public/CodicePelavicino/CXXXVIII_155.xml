@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXXXVIII_155">
+    <front xml:id="CXXXVIII_front">
+
+      <titlePart type="numerazioneNuova">155</titlePart>
+      <titlePart type="numerazioneOrig">CXXXVIII</titlePart>
+
+      <docDate xml:id="CXXXVIII_docDate">
+        <date when="1260-04-21">1260 aprile 21</date>, <placeName>Ponzanello <emph>(<term
+              xml:lang="latin">in ecclesia de Ponçanello</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXXXVIII_regesto">
+        <p>Aldebrando del fu Brico e Iacopino del fu Albertino, consoli del comune di San Terenzo,
+          insieme ai consiglieri del comune, giurano fedeltà a Guglielmo, vescovo di Luni. La
+          comunità può designare i propri consoli a patto che siano abitanti del luogo e non siano
+          nemici della chiesa di Luni; se ne designano uno non residente devono avere il permesso
+          del vescovo; non possono vendere beni immobili in San Terenzo a non residenti; le
+          compravendite tra residenti sono libere a patto che non ci sia obiezione del vescovo; i
+          matrimoni possono essere contratti anche con donne non residenti a patto che il vescovo
+          non obietti; le donne proprietarie di beni in San Terenzo possono tuttavia sposare solo i
+          residenti. Tutti gli abitanti dai 14 anni ai 70 devono giurare fedeltà al vescovo.</p>
+      </div>
+
+      <div type="footer" xml:id="CXXXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 235v.-236r., c. CCXXVIIv.- CCXXVIIIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. 138, pp. 171-172.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXXXVIII_div">
+        <p xml:id="CXXXVIII_p_001" n="1">De sancto Terencio<note place="foot" n="a"
+            xml:id="CXXXVIII_n_001"><term xml:lang="latin">De sancto Terencio</term><emph>: in
+              inchiostro rosso.</emph></note></p>
+        <p xml:id="CXXXVIII_p_002" n="2">In Dei nomine, amen. Anno a nativitate Eius <date
+            when="1260-04-21">M°CC°LX°, indictione III, XXI aprilis</date>. <persName
+            ref="#AldebrandusBrici">Aldebrandus quondam Brici</persName> et <persName
+            ref="#IacopinusAlbertini">Iacopinus quondam Albertini</persName>, <roleName>consules
+              <orgName ref="#S_Terenzo_comune">communis et universitatis hominum</orgName> ville <placeName ref="#SanTerenzo">sancti
+              Terencii</placeName></roleName>, nomine et vice ipsius communis et universitatis et
+          singulorum de ipsa universitate, de consensu et voluntate <persName ref="#RossusFilippi"
+            >Rossi quondam Philippi</persName> et <persName ref="#RodulfusUgolini">Rodulfi quondam
+            Ugolini</persName>, <roleName>consiliariorum <placeName ref="#SanTerenzo">dicti
+              communis</placeName></roleName>, et ipsi idem consiliarii promiserunt, stipulatione
+          sollempni interveniente, et convenerunt, obligando se suosque heredes et bona in perpetuum
+          atque ipsum commune et quemlibet de ipso communi, quod ipsi et eorum heredes in perpetuum
+          obedient ipsi domino episcopo et suis successoribus in omnibus que ad iurisdictionem
+          pertinent, sicut sibi obedire debent atque obediunt honorati vassalli sue iurisdictionis.
+          Hoc adiecto pacto, quod universitas ipsa possint<note place="foot" n="b"
+            xml:id="CXXXVIII_n_002"><term xml:lang="latin">possint</term><emph>: così nel
+              testo.</emph>
+          </note> sibi facere et creare consules, sicut hactenus consueverunt, dummodo sint de ipsa
+          villa et habitatores ipsius ville et non sint inimici <placeName ref="#Luni">Lunensis
+            ecclesie</placeName>; set, si potestatem vel rectorem, quocumque nomine censeatur,
+          voluerint habere aliquem extraneum, qui non sit de ipso communi et ipsa villa et habitator
+          ipsius ville continuus, ipsum habere non possint nec debeant absque speciali consensu et
+          assensu atque vo<pb n="236r" xml:id="fol_236r"/>luntate expressa ipsius domini episcopi et
+          successorum eius, atque quod bona que possident in ipsa villa <placeName ref="#SanTerenzo"
+            >sancti Terencii</placeName> immobilia possint sibi ad invi<supplied reason="omitted"
+            >cem</supplied> vendere et alienare, dummodo extranee persone et qui non sit de ipsa et
+          habitator ipsius ville et qui non teneatur episcopatui atque episcopo, qui pro tempore
+          fuerit, sicut et ceteri de ipsa villa, non vendant vel alienent; atque hoc quod datum est,
+          quod possint vendere et alienare sibi ad invicem, intelligatur absque contradictione
+          ipsius domini episcopi et successorum eius, et quod absque contradictione domini Lunensis
+          episcopi, qui pro tempore fuerit, possint tradere nuptui feminas suas cuicumque voluerint,
+          cum podere, sive extrane<note place="foot" n="c" xml:id="CXXXVIII_n_003"><term
+              type="incerto">extrane</term><emph>: così nel testo per</emph>
+            <term xml:lang="latin">extranee</term>.</note> persone sive de ipsa villa, ita tamen
+          quod qui acceperit mulierem cum podere de ipsa villa debeat esse habitator ipsius ville et
+          teneatur respondere in omnibus, sicut dictum est supra, de hiis que habet in ipsa villa;
+          et teneantur omnes de ipsa villa iurare sequimentum domini episcopi, qui pro tempore
+          fuerit, a XIIII annis supra usque in septuaginta. Et quod dominus episcopus teneatur omnes
+          et singulos de ipsa universitate deffendere et manutenere in omnibus iuribus eorum, sicut
+          et alios homines sue iurisdictionis. Ibidem incontinenti dicti consules atque consiliarii
+          iuraverunt sequimentum <persName ref="#GuilEpLuni">domini Guilielmi, Dei gratia
+              <roleName>Lunensis episcopi</roleName></persName>, et promiserunt sic attendere et
+          observare, sicut dictum est superius, ad penam <measure type="Lucenses" quantity="100"
+            unit="libra">C librarum Lucensium</measure>, quam dare atque solvere promiserunt si
+          contra facerent vel venirent aliquo modo vel iure; et, pena soluta vel non, predicta omnia
+          et singula nichillominus robur obtineant perpetue firmitatis, obligando se ad hec
+          attendenda et observanda atque dictum commune et quemlibet de ipso communi et suos et
+          eorum heredes et bona, renunciando omni iuri et legibus quibus contra predicta vel aliquod
+          predictorum possent ullo tempore facere vel venire.</p>
+        <p xml:id="CXXXVIII_p_003" n="3">Actum in <placeName ref="#Ponzanello"><orgName
+              ref="#Ponzanello_S_Martino">ecclesia de Ponçanello</orgName></placeName>, presentibus
+          magistro <persName ref="#Saladinusarc">Saladino <roleName>archipresbytero de <placeName
+                ref="#Viano">Viano</placeName></roleName></persName>, <persName ref="#Iacopinusarc"
+            >Iacopino <roleName>archipresbytero de <placeName ref="#Ameglia"><orgName
+                  ref="#Ameglia_S_Vincenzo">Amelia</orgName></placeName></roleName></persName>,
+            <persName ref="#Gualardusnot">Gualardo <roleName>notario
+          Melanense</roleName></persName>, <persName ref="#BonaiunctaPesticio">Bonaiuncta dicto
+            Pesticio</persName>, civibus Lucanis, et <persName ref="#Peregrinusnot">Peregrino, filio
+            Bonalbergi <roleName>notarii de <placeName ref="#Carrara"
+              >Carraria</placeName></roleName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CXXXVIII_p_005" n="4"><ptr target="#CXXXVIII_st_001"/>Ego <persName
+            ref="#Adiutusnot">Adiutus, <roleName>sacri palatii notarius</roleName></persName>, hiis
+          interfui atque de mandato suprascripti domini episcopi hec scripsi et in publicam formam
+          redegi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

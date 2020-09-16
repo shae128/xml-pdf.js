@@ -1,0 +1,276 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="XXII_51">
+		<front xml:id="XXII_front">
+
+			<titlePart type="numerazioneNuova">51</titlePart>
+			<titlePart type="numerazioneOrig">XXII</titlePart>
+
+			<docDate xml:id="XXII_docDate">
+				<date when="1191-02-23">1191 febbraio 23</date>, <placeName ref="#Lucca">Lucca
+						(<term xml:lang="latin">Luce</term>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="XXII_regesto">
+				<p>L’imperatore Enrico VI, confermando quanto stabilito dai suoi predecessori,
+					prende sotto la sua protezione la chiesa di Luni. </p>
+			</div>
+
+			<div type="footer" xml:id="XXII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] cc. 69r.-69v., cc. LXIr-LXIv. secondo la numerazione originale. </p>
+					<p>Copia autentica da C [C’] presso l’Archivio di Stato di Torino, Vescovadi di
+						Sarzana e Brugnato, Fasc. 2; autentica di Francescus Serenus de Catronovo
+						Lunigiane, notaio e giudice ordinario del collegio dei notai di Sarzana, del
+						17 novembre 1547. </p>
+				</div>
+
+				<div type="biblio">
+					<p>Regesto in <ref type="biblio" target="#STUMPF_BRENTANO_1865">STUMPF BRENTANO
+							1865 </ref>, p. 426, n. 4684;<ref type="biblio" target="#TOECHE_1867"
+							>TOECHE 1867 </ref>, 107; <ref type="biblio" target="#SFORZA_1922"
+							>SFORZA 1922 </ref>p. 129, n. 13;<ref type="biblio"
+							target=" BÖHMER_1831"> BÖHMER 1831</ref>n. 2757;<ref type="biblio"
+							target="#BÖHMER_BAAKEN_1972">BÖHMER BAAKEN 1972 </ref> p. 58, n. 134. </p>
+					<p>Edizione parziale<ref type="biblio" target="#UGHELLI_1644">UGHELLI
+						1644</ref>, I, co. 916; <ref type="biblio" target="#UGHELLI_1717">UGHELLI
+							1717</ref>, I, col. 850.</p>
+					<p>Edizione in <ref type="biblio" target="#LUPO_GENTILE_1912">LUPO GENTILE
+							1912</ref>, n. 22, pp. 33-36; <ref type="biblio"
+							target="#PFERSCHY_MALECZEK">PFERSCHY-MALECZEK</ref> (si ringrazia
+						Bettina Pferschy-Maleczek per averci fatto consultare l’edizione ancora in
+						corso di pubblicazione) </p>
+				</div>
+
+				<div type="crit_notes">
+					<note>
+						<p> Nel margine interno di c. 69r., di mano posteriore:<term
+								xml:lang="latin">alia susceptio iura iurium episcopalium Henrici
+								imperatoris</term>.Nel margine esterno della medesima carta, di mano
+							posteriore: <term xml:lang="latin">Privilegium confirmationis</term> Più
+							in basso, sempre di mano moderna: <term xml:lang="latin">Carraria</term>
+						</p>
+						<p> Nella metà inferiore di c. 69r. l’inchiostro svanito e le macchie di
+							umidità rendono alquanto difficoltosa la lettura di singole parole. Le
+							integrazioni delle parole illeggibili come di quelle omesse dallo scriba
+							durante il lavoro di copiatura sono desunte dai documenti n. 50-XXI e
+							491-DXXX. </p>
+					</note>
+				</div>
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">XXII. Privilegium imperatoris Henrici VI</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="XXII_div">
+				<pb n="69r" xml:id="fol_069r"/>
+				<p xml:id="XXII_p_001">In nomine sancte et individue Trinitatis. <persName
+						ref="#HenricusVI">Henricus sextus</persName>, <roleName>divina favente
+						clementia, Romanorum rex et semper augustus</roleName>. </p>
+				<p xml:id="XXII_p_002">Regie celsitudinis nostre sublimitas eam circa subditos suos
+					et precipue<note xml:id="XXII_n_001" n="a" place="foot">precipue: <emph>nel
+							testo</emph> prencipue<emph> con</emph> p<emph> espunto</emph>.</note>
+					principes circumspectionis diligentiam habere consuevit, ut eos specialioris
+					gratie favore complecti et ubioribus beneficiis honorare decreverit quos et
+					purioris fidei sinceritas et laudabilium obsequiorum frequentia ampliori nobis
+					devotionis constantia redidit commendatos. In quorum numero digne computantes
+					dilectum ac fidelem nostrum <persName ref="#RollandusEpLuni"
+					>Rulandum</persName>, <roleName>venerabilem Lunensem episcopum</roleName>,
+					sobria morum honestate decenter illustratum scientiaque litterarum pariter et
+					christiane religionis cultu merito venerandum, iustis favorabilibusque
+					petitionibus <note xml:id="XXII_n_002" n="b" place="foot">petitionibus: <emph>le
+							seconde</emph> ti<emph> aggiunte in sopralinea in carattere più
+							minuto.</emph>.</note> suis facilem prebuimus assensum, sperantes in
+					examine iudicis eterni precibus suis et ecclesie sue iuvari. Eapropter cognoscat
+					tam presens etas fidelium imperii quam succesura posteritas quod nos, ad
+					inmitationem predecessorum nostrorum divorum regum <note xml:id="XXII_n_003"
+						n="c" place="foot">divorum regum: <emph>segue ripetuto</emph> divorum
+						regum.</note> et imperatorum, ecclesiam Lunensem, personam predicti
+					venerabilis episcopi et omnia tam episcopatus quam ecclesie bona, que nunc habet
+					vel im posterum, auctore Domino, canonice poterit obtinere, sub protectione
+					defensionis nostre suscepimus, nominatim civitatem Lunensem, cum fossatis et
+					suburbiis et suburbannis suis, cum ripa et theloneo atque mercato, banno et
+					pedagio, iusticia atque guidatico a <placeName ref="#Lavello"
+						>Lavello</placeName> et per totam terram episcopatui <supplied
+						reason="omitted">e</supplied>idem et ecclesie attinente<supplied
+						reason="omitted">m</supplied> et plateam, que est inter murum civitatis,
+					iusta mare<note xml:id="XXII_n_004" n="d" place="foot">iusta: <emph>così nel
+							testo per </emph>iuxta.</note>, et edifficium quod circulum vocatum
+						<note xml:id="XXII_n_005" n="e" place="foot">vocatum: <emph>lettura
+							incerta</emph>; vocatur<emph> in 50-XXI e 491-DXXX</emph>.</note> aut
+					arena; comitattum etiam Lunensem totum in integrum, castra etiam que ad Lunensem
+					ecclesiam <supplied reason="illegible">pertine</supplied>nt,<supplied
+						reason="illegible">tur</supplied>rem <note xml:id="XXII_n_006" n="f"
+						place="foot"><emph>Lettura incerta. Il diploma di Federico I nella copia al
+							doc. 50-XXI riporta</emph> curtem;<emph>al doc. 491-DXXX invece </emph>
+							turrem,<emph>sempre</emph> turrem<emph> in D</emph>.</note> videlicet
+						<placeName ref="#Guidenga_torre">Guidengam</placeName>, que <placeName
+						ref="#Corvaia">Corvaria</placeName> dicitur, et quicquid in burgo de
+						<placeName ref="#Brancaliano">Bracaliano</placeName> ad ius Lunensis
+					ecclesie pertinet; castrum de <placeName ref="#Stectoria">Stectoria</placeName>,
+					cum districtu et pertinentiis eius, et quicquid in castro <placeName
+						ref="#CastelloAghinolfi">Ag<supplied reason="iilegible"
+						>enol</supplied>phi</placeName> ad supradictam ecclesiam pertinet; castrum
+						<placeName ref="#Campilia">Campilie</placeName> et curtem <placeName
+						ref="#Carrara">Carrarie</placeName>, cum alpibus et lapidiciniis<note
+						xml:id="XXII_n_007" n="g" place="foot">lapidiciniis: <emph>così nel testo
+							per</emph> lapicidiniis,<emph> cfr. docc. 50-XXI e
+						491-DXXX</emph>.</note> etiam marmorum, cum montibus, nemoribus, terris<note
+						xml:id="XXII_n_008" n="h" place="foot">terris: <emph>nel testo</emph>
+							terries<emph>con la seconda e espunta</emph>.</note>, pratis, pascuis,
+					pratis <note xml:id="XXII_n_009" n="i" place="foot">pratis: <emph> così nel
+							testo per </emph> aquis.</note> aquarumque discursibus<note
+						xml:id="XXII_n_010" n="j" place="foot">discursibus: <emph> così nel testo
+							per </emph> decursibus<emph>, cfr. docc. 50-XXI e
+						491-DXXX</emph>.</note>, silvis, plenum et vacuum, cum herbatico ei
+						<supplied reason="omitted">us</supplied>dem curtis, piscariis, venationibus;
+						<supplied reason="omitted">curtem etiam</supplied> que <placeName
+						ref="#SupraLuna">Supra Lunam</placeName> dicitur, <placeName ref="#Iliaulo"
+						>Illiaolum</placeName> cum erbatico de <placeName ref="#Alione"
+						>Allione</placeName> et alias villas <supplied reason="iilegible"
+						>que</supplied> ad ipsam curtem pertinent; nemus <placeName ref="#Valmaiore"
+						>Vallis Maioris</placeName>, <placeName ref="#Sarzanello">castrum de
+						Sarzane</placeName>
+					<note xml:id="XXII_n_011" n="k" place="foot">de Sarzane: <emph> così nel testo
+						</emph>.</note>, cum curte <supplied reason="illegible">et
+						district</supplied>u suo et villas quas <note xml:id="XXII_n_012" n="l"
+						place="foot">quas: <emph> così nel testo per </emph> que.</note>ad ipsam
+					curtem pertinent et erbaticum ei<supplied reason="omitted">us</supplied>dem
+					curtis, burgum de <placeName ref="#Sarzana">Sarzana</placeName> et iusticiam
+					eius et mercatum, bannum et devectum <note xml:id="XXII_n_013" n="m"
+						place="foot"> devectum: dev<emph> corretto su</emph> cler; devetum<emph> in
+							50-XXI e 491-DXXX</emph>.</note>, quartam partem castri de <placeName
+						ref="#Brina">Brina</placeName> et castrum de <placeName ref="#Falcinello"
+							>Fa<supplied reason="omitted">l</supplied>cinello</placeName>, cum
+					pertinentiis suis, castrum de <placeName ref="#Caprigliola">
+						Caprilliola</placeName>, cum curte et pertinentiis et piscatione, burgum
+						<placeName ref="#Santo_Stefano">Sancti Stephani</placeName> cum mercato,
+					banno, iusticia, <supplied reason="illegible">districtu</supplied>,
+					piscationibus, castrum de <placeName ref="#Bolano">Bolano</placeName> cum burgo,
+					mercato de<placeName ref="#Cepanana"><supplied reason="illegible"
+						>Cep</supplied>arana</placeName> cum omni curte et districtu, erbatico et
+					pertinentiis <pb n="69v" xml:id="fol_069v"/>suis, castrum de <placeName
+						ref="#Tivegna">Tivenia</placeName> cum omni curte et pertinentiis, burgum de
+						<placeName ref="#Padulvarmo">Padulvarmo</placeName>, ius quod ipse episcopus
+					vel antecessores sui in homines et loco de <placeName ref="#Bruniade"
+						>Bruniade</placeName> et pertinentiis suis, presertim in observatione treuge
+						<note xml:id="XXII_n_014" n="n" place="foot">treuge: <emph> così nel testo
+							per </emph> tregue.</note> et pacis, habuerunt; que utique locum, ex
+					tenore privilegiorum predecessorum nostrorum imperatorum et regum, <persName
+						ref="#Carolusrex">Karoli</persName> scilicet, <persName
+						ref="#Otto_imperator1">Ottonis</persName>, <persName ref="#Berengarius_rex"
+						>Berengarii</persName>, <persName ref="#Ludovicus_rex">Ludevici</persName>,
+						<persName ref="#Conradusimp">Conradi</persName> regis et <persName
+						ref="#Conradusimp">Comradi</persName> imperatoris et aliorum, aperte
+					cognovimus in Lunensem comittatum consistere, ei et successoribus suis regali
+					auctoritate confirmamus, nichillominusque castrum de <placeName ref="#Trebiano"
+						>Triblano</placeName> cum fodro et pertinentiis suis, castrum de <placeName
+						ref="#Ameglia">Amelia</placeName> cum curte, districtu, portu, venationibus,
+					piscationibus et erbatico eiusdem curtis, montem de <placeName ref="#Caprione">
+						<supplied reason="omitted">Ca</supplied>prione</placeName>, locum qui
+					dicitur <placeName ref="#Panticella">Particella</placeName> et montem Illicis
+					cum portu et piscatione sua, curaturam quoque a<supplied reason="omitted"
+						>nima</supplied>lium que per terram et districtum sui transeunt, castrum de
+						<placeName ref="#Ponzanello">Ponzanello</placeName> cum curte et districtu
+					et venectione sua, castrum <placeName ref="#Soliera">Solerie</placeName> cum
+					curte et districtu suo, villis et pertinentiis suis, locum et villam que dicitur
+						<placeName ref="#SanTerenzo">Sancti Terentii</placeName>, castrum de
+						<placeName ref="#Regnano">Reniano</placeName><note xml:id="XXII_n_015" n="o"
+						place="foot"> Reniano:<emph> preceduto da
+						una</emph>T<emph>abrasa</emph>.</note>cum curte et pertinentiis suis,
+					castrum montis Floris cum pertinentiis suis, castrum de Malliano cum
+					pertinentiis suis, castrum de Sagriasio cum pertinentiis, castrum de <placeName
+						ref="#Congia">Congia</placeName> cum pertinentiis et sua parte castri de
+						<placeName ref="#Marciaso">Marciasio</placeName> cum omnibus aliis eius
+					bonis, eadem regali auctoritate ipsi episcopo et successoribus suis confirmamus,
+					salva in omnibus regali iusticia. Preterea autem que im privilegio inclite
+					memorie patris nostri Friderici divi augusti continentur, supra nominatum
+						<persName ref="#RollandusEpLuni">Rulandum
+						<roleName>episcopum</roleName></persName> investivimus de omni iure et
+					regalibus ad episcopatum Lunensem iuste pertinentibus, concedentes eidem
+					episcopo theloneum sex imperialium de qualibet summa in burgo <placeName
+						ref="#Santo_Stefano">Sancti Stephani</placeName> vel in pede <placeName
+						ref="#Caprigliola">Caprilie</placeName>, statuentes et regali auctoritate
+					precipientes ut nullus dux, nullus marchio neque comes, nulla civitas, nullum
+					commune, nulla denique persona, humilis vel alta, secularis vel ecclesiastica,
+					hanc nostre maiestatis paginam audeat violare nec aliquibus iniuriis
+					calumpniarum seu dampnis presumat attemptare. Quod qui fecerit in ultionem
+					temeritatis sue aponat <note xml:id="XXII_n_016" n="p" place="foot">aponat:
+							<emph> così nel testo per </emph> componat.</note>centum libras auri,
+					dimidium regali camere et dimidium passis iniuriam. Huius rei testes sunt
+						<persName ref="#Godefridus_patriarcha">Godefridus <roleName>patriarcha
+						</roleName></persName><placeName ref="#Aquileia">Aquileiensis</placeName>,
+						<persName ref="#Otto_episcopusFrisinga">Otto</persName>
+					<placeName ref="#Frisinga">Frisingensis</placeName>
+					<roleName>episcopus</roleName>, <persName ref="#Bonifacius_Episcopus_Nov"
+						>Bonefatius <placeName ref="#Novara">Novariensis</placeName>
+						<roleName>episcopus</roleName></persName>, <persName
+						ref="#ConradusRonteberc">Conradus<note xml:id="XXII_n_017" n="q"
+							place="foot">Conrandus: <emph> nel testo </emph> Conrandux<emph> con x
+								abrasa e s in sopralinea</emph>.</note>
+						<roleName>dux</roleName> de <placeName ref="#Ronteberc"
+							>Ronteberc</placeName></persName>, <persName ref="#Petrus_prefectus">
+							Petrus<roleName> prefatus<note xml:id="XXII_n_018" n="r" place="foot"
+								>prefatus: <emph>così nel testo per </emph> prefectus.</note>
+							Urbis</roleName></persName>, <persName ref="#RobertusDurne">Robertus de
+							<placeName ref="#Durne">Durne</placeName></persName>, <persName
+						ref="#CraftusBulerusberc">Craftus de <placeName ref="#Bulerusberc"
+							>Bulerusberc</placeName></persName>, <persName ref="#HenricusTesta"
+						>Henricus Testa <roleName>marscalcus</roleName></persName>, <persName
+						ref="#HenricusLutra">Henricus <roleName>camerarius</roleName> de <placeName
+							ref="#Lutra">Lutra</placeName></persName>, <persName
+						ref="#HildebrandinusIoseph">Hildebrandinus Ioseph</persName>, <persName
+						ref="#LotariusSanctoGenesio_iudex">Lotharius <roleName>iudex</roleName> de
+							<placeName ref="#San_Genesio">Sancto Genesio</placeName></persName> et
+					alii quam plures.</p>
+				<p xml:id="XXII_p_003"> Signum <roleName>donni</roleName>
+					<persName ref="#HenricusVI">Hanrici sexti</persName>, <roleName>Romanorum rex
+						invictissimi</roleName>. </p>
+				<p xml:id="XXII_p_004"> Ego <persName ref="#Dyterius_cancellarius"
+						>Dyterius</persName>, <roleName>imperialis aule cancellarius</roleName>,
+					vice <roleName>domini</roleName>
+					<persName ref="#Philippus_arc">Philippi <placeName ref="#Colonia"
+							>Colost</placeName><note xml:id="XXII_n_019" n="s" place="foot">Colost:
+								<emph>così nel testo con</emph>lo<emph>aggiunto in sopralinea,
+								errore del copista per </emph>
+							Coloniensis.</note><roleName>archiepiscopi</roleName></persName> et
+					totius <placeName ref="#Italia">Ytalie</placeName>
+					<roleName>archicancellarii</roleName>, recognevi<note xml:id="XXII_n_020" n="t"
+						place="foot">recognevi: <emph>così nel testo</emph>.</note>
+				</p>
+				<p xml:id="XXII_p_005">Acta sunt hec anno <date when="1191-02-23">dominice
+						incarnationis M°C°XC°I°, indictione VIIIIª</date>, regnante<pb n="70r"
+						xml:id="fol_070r"/><roleName>domino <persName ref="#HenricusVI">Henrico
+							sexto</persName>, Romanorum rege gloriosissimo</roleName>, <date
+						when="1191-02-23">anno regni eius XX°II°</date>. </p>
+				<p xml:id="XXII_p_006">Datum <placeName ref="#Lucca">Luce</placeName>, per manum
+						<roleName>magistri <persName ref="#Henricus_protonotarius"
+							>Henrici</persName> imperialis aule protonotarii</roleName>
+					<date when="1191-02-23">VII kalendas marchii</date><note xml:id="XXII_n_021"
+						n="u" place="foot">marchi: <emph>così nel testo</emph>.</note>. Feliciter.
+					Amen, amen <ptr target="XXII_m_001"/>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

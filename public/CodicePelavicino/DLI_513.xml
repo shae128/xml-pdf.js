@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="DLI_513">
+    <front xml:id="DLI_front">
+      <titlePart type="numerazioneNuova">513</titlePart>
+      <titlePart type="numerazioneOrig">DLI</titlePart>
+
+      <docDate xml:id="DLI_docDate">
+        <date when="1240-05-04">1240 maggio 4,</date><placeName>San Gimignano (<term
+            xml:lang="latin">in claustro plebis Sancti Geminiani</term>)</placeName>
+      </docDate>
+      <div type="regesto" xml:id="DLI_regesto">
+        <p>Gerardo, procuratore del vescovo di Luni Guglielmo, in seguito alla sentenza
+          interlocutoria emanata da Beringerio, preposito di San Gimignano, nella quale revocava a
+          sé la titolarità della causa, si appella al pontefice ponendosi sotto la sua protezione.
+        </p>
+      </div>
+      <div type="footer" xml:id="DLI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 403v., c. CCCLXXXXVv. secondo la numerazione originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>n. 551, p.
+            626.</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DLI.
+              Appellatio iterum a quadam sententia dicti subdelegati.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DLI_div">
+        <p xml:id="DLI_p_001" n="1">In Dei nomine, amen. <date when="1240-05-04">Anno Domini MCCXL,
+            indictione XIII, IIII nonas madii.</date>
+          <roleName>Magister</roleName>
+          <persName ref="#Gerardusmag">Gerardus</persName>, <roleName>procurator domini episcopi
+            Lunensis</roleName>, sentiens se et suprascriptum dominum episcopum gravare ex
+          interlocutoria lata a <roleName>domino</roleName>
+          <persName ref="#Beringerius_prepositus">Beringerio</persName>,
+            <roleName>preposito</roleName>
+          <orgName ref="#SanGimignano_S_Maria_Assunta">Sancti Geminiani</orgName>, per quam
+          pronunciavit iurisdictionem ad se rediisse et remissam esse, et, ne ipse dominus
+          prepositus occasione illius interlocutorie, que iniqua est, ad aliquod gravamen procedatur
+          episcopi, procuratorio nomine pro ipso domino episcopo sedem apostolicam appellat et se et
+          ipsum episcopum domini pape protectioni supponit. </p>
+        <p xml:id="DLI_p_002" n="2">Actum est in claustro <orgName
+            ref="#SanGimignano_S_Maria_Assunta">plebis <placeName ref="#San_Gimignano">Sancti
+              Geminiani</placeName></orgName>, coram <persName ref="#GuiciardusGuiciardi_not"
+            >Guiciardo <roleName>notario</roleName> quondam Guiciardi</persName> et <persName
+            ref="#CambiusMichelis_not">Cambio <roleName>notario</roleName> quondam
+            Michaelis</persName>, testibus ad hec rogatis. </p>
+        <p xml:id="DLI_p_003" n="3"><ptr target="DLI_st_001"/>Ego <persName
+            ref="#PalmeriusPellarii_notarius">Palmerius, quondam Pellarii filius</persName>,
+            <roleName>auctoritate imperiali notarius</roleName>, predictis omnibus interfui et
+          rogatus in publicum redegi. </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

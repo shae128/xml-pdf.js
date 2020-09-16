@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CVIII_125">
+    <front xml:id="CVIII_front">
+
+      <titlePart type="numerazioneNuova">125</titlePart>
+      <titlePart type="numerazioneOrig">CVIII</titlePart>
+
+      <docDate xml:id="CVIII_docDate">
+        <date when="1235-07-01">1235 luglio 1</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in cassaro castri Sarzane</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CVIII_regesto">
+        <p>Guglielmo, vescovo di Luni, loca in perpetuo ad Enrichetto calzolaio del fu Guido e a
+          Baldoino del fu Guglielmo, abitanti del <term xml:lang="latin">castrum</term> di Sarzana,
+          metà per ciascuno, una pezza di terra, sita in Castagneto, dietro corresponsione annuale,
+          da parte di uno qualsiasi dei due, di un sestario e un quarto di frumento entro il mese di
+          agosto. A tale terreno aveva da poco rinunciato, a favore del vescovo, Sarzanese <term
+            xml:lang="latin">de castro Sarzane</term>.</p>
+      </div>
+
+      <div type="footer" xml:id="CVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 222r., c. CCXIIIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 108,
+            p. 145.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note> Nel margine esterno, di mano moderna: <emph>Livello perpetuo fatto dal vescovo di
+              terra in Castagnedolo.</emph>
+            <p>Stesura <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla presenza di
+              Bonagiunta de Podio di Lucca.</p>Una parte del documento è stata letta con l’ausilio
+            della lampada di Wood.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CVIII_div">
+        <pb n="222r" xml:id="fol_222r"/>
+        <p xml:id="CVIII_p_001" n="1">In Dei nomine, amen.<date when="1235-07-01"> Anno a nativitate
+            Eius millesimo ducentesimo XXXV, indictione VIII, die dominico, in kalendis
+          iulii</date>. In cassaro <placeName ref="#Sarzanello">castri Sarzane</placeName>, coram
+            <persName ref="#GuilielmusTestafortis">Guilielmo Testaforte</persName>, <persName
+            ref="#Codargollius">Codargollo</persName>, <persName ref="#BonacursetusBonfancelli"
+            >Bonacurseto filio Bonfancelli</persName> et <persName ref="#PersonaCastroSarzane"
+            >Persona de <placeName ref="#Sarzanello">castro Sarzane</placeName></persName> et
+          pluribus aliis testibus rogatis. Venerabilis <persName ref="GuilEpLuni">Guilielmus, Dei
+            gratia <roleName>Lunensis episcopus</roleName></persName>, suo nomine et episcopatus,
+          per se et suos successores dedit, cessit atque locavit <persName ref="#HenrigetusGuidonis"
+            >Henrigeto <roleName>calçolario</roleName>, in una medietate, quondam
+            Guidonis</persName> et <persName ref="#BaldoinusGuillelmi">Baldoino quondam
+            Guilielmi</persName>, in alia medietate, habitatoribus <placeName ref="#Sarzanello"
+            >castri Sarzane</placeName>, recipientibus pro se et eorum heredibus ab eis legitime
+          descendentibus, in perpetuum, ad affictum reddendum, petiam unam terre sitam in <placeName
+            ref="#Castagneto">Castagneto</placeName>, que est medium iugere<note place="foot" n="a"
+            xml:id="CVIII_n_001"><term type="incerto">medium iugere</term>: <emph>così nel
+              testo</emph>.</note> de terra de bradia, quam terram, paulo ante hunc contractum,
+            <persName ref="#SarzanensisSar">Sarzanensis de <placeName ref="#Sarzanello">castro
+              Sarzane</placeName></persName> coram me <roleName>notario</roleName> et testibus
+          suprascriptis refutavit ipsi domino episcopo, cum omnibus iuribus suis, sibi quoquo modo
+          competentibus et competituris, cui petie terre sunt fines ab uno capite <persName
+            ref="#VegnutusRamondini">Vegnutus quondam Ramondini de castro</persName>, a pede terra
+            <persName ref="#GuidoBurgifer">Guidonis ferrarii de burgo</persName>, ab una parte
+          possidet idem <persName ref="#HenrigetusGuidonis">Henrigetus</persName> pro <persName
+            ref="#FestaVitalis">Festa Vitalis</persName> et ab alia parte via publica, cum
+          accessibus et regressibus suis omnique iure cunctaque ratione, utilitate dicte terre
+          competentibus, ad habendum, tenendum, fruendum et possidendum, sine omni dicti domini
+          episcopi atque suorum successorum contradictione et cum sua et suorum successorum
+          rationabili deffensione ab omni homine <supplied reason="omitted">et</supplied>
+          contradicente persona, suis expensis et cum <roleName>advocato</roleName> suo, et
+          restituere, si deffendere non poterit, in loco consimili; et potestatem tenutam intrandi
+          inde eorum auctoritatem eis dedit, reddendo exinde omni anno, quilibet ipsorum
+          acquisitorum atque heredes eorum, unum sextarium et quartum boni, pulcri, sicci et
+          gretolati frumenti per totum mensem augusti <placeName ref="#Luni">Lunensi
+            curie</placeName> et eius nunciis et cui commiserit in <placeName ref="#Sarzanello"
+            >castro Sarzane</placeName>, ad domum dictorum acquisitorum, ad sextarium legitimum
+            <placeName ref="#Sarzana">mercati Sarzane</placeName> tantum; alia superimposita eis
+          exinde non fiat. Que omnia suprascripta et singula ambe partes, inter se sibi vicissim
+          stipulantes, attendere et observare, per se et heredes atque successores suos, promiserunt
+          in perpetuum et non contravenire, sub pena <measure type="Imperiales" quantity="20"
+            unit="solidus">XX soldorum imperialium</measure> quociens incidetur in eam, solvenda
+          parti pactum fide servanti; et, ea soluta, rato manente pacto.</p>
+      </div>
+      <div xml:id="CVIII_div2" type="mundum">
+        <p xml:id="CVIII_p_002" n="2">
+          <ptr target="#CVIII_st_001"/>Ego <persName ref="#Henricusnot">Henricus de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName>, <roleName>sacri palatii
+              notarius</roleName></persName>, hanc cartam olim a <persName ref="#Bonencontrusnot"
+            >Bonencontro de <placeName ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et auttenticavi et
+          in publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+            <persName ref="#Bonaiunctaiud"><roleName>domino</roleName> Bonaiuncta de <placeName
+              ref="#PodioLucca">Podio de Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+                ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre
+          domino Lunensi episcopo et <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName>, de qua
+          auctoritate et decreto constat per instrumentum publicum factum manu <persName
+            ref="#Alcheriusnot">Alcherii <roleName>notarii</roleName> de <placeName ref="#Lucca"
+              >Luca</placeName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 125-CVIII databile tra il 1270 e il
+            1272 dalla presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

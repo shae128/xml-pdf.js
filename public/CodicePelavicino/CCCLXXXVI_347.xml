@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXXXVI_347">
+    <front xml:id="CCCLXXXVI_front">
+
+      <titlePart type="numerazioneNuova">347</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXVI</titlePart>
+
+      <docDate xml:id="CCCLXXXVI_docDate">
+        <date when="1153-06-01">1153 giugno 1</date>, <placeName>Ameglia (<term xml:lang="latin"
+            >castro Amelia</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXXXVI_regesto">
+        <p>Gottolo, figlio del fu Amato di Ascletulo, chiede in livello al vescovo di Luni
+          Gotifredo, quanto Gerardo, suo parente, aveva avuto dal vescovo Filippo, ossia due case
+          nel castello di Ameglia, la terza parte della <emph>caroçola</emph>, divisa con il
+          vicedomino Aldeprando e gli uomini di Carrara, vigne, castagneti e il manso di Sorolo in
+          Plastra, un pezzo di terra in Pontesella, due iugeri e 48 solchi a Capo Corvo, due iugeri
+          a Isolella, 4 iugeri a Isola, altri 3 iugeri in località non definita, uno iugero
+          rispettivamente in Formicosa, in Guado <term xml:lang="latin">de Insula</term>, in Banco,
+          in Cavallo, un pezzo di terra in Ramaro e tre pezzi in Marmore. Il fitto annuo consiste 9
+          denari milanesi e nell’impegno ad abitare nel castello di Ameglia e a guardie notturne,
+          custodia diurna della porta, ospitalità, caccia e uccellagione nel casale.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXXXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP cc. 318v.-319r., cc. CCCXv.-CCCXIr. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 386,
+            pp. 365-366.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il documento reca la data 1153 giugno, senza indicare il giorno, <term
+              xml:lang="latin">die lune kalendas iunii</term>, espresso nell’escatocollo, ossia il
+            1° giugno: <ref target="#MAZZINI_1914">Mazzini 1914</ref>, p. 25.</note>
+          <note>L’autentica è riconducibile al primo quarto del XIII secolo.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXXXVI. Carta domine Maioris de Amelia.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXXXVI_div">
+        <p xml:id="CCCLXXXVI_p_001" n="1"><ptr target="#CCCLXXXVI_st_001"/>
+          <date when="1153-06-01">Anno ab incarnatione Domini M°CLIII, indictione prima, mense
+            iunio</date>. Peto ego <persName ref="#GotulusAmati">Gotulus, filius quondam Amati de
+              <placeName ref="#Ascletulo">Ascletulo</placeName>,</persName> una cum meis heredibus,
+          a vobis domino <persName ref="#GotefredEpLuni">Gotefredo, <roleName>Dei gratia Lunensis
+              Ecclesie episcopo</roleName>,</persName> vestrisque successoribus libellario nomine
+          habere et tenere, frui, meliorare et non peiorare, id est quicquid <persName
+            ref="#GerardusRubei">Girardus</persName>, patruus meus, habuit et tenuit per dominum
+            <persName ref="#PhilippusEpLuni2">Philippum, <roleName>Lunensis ecclesie
+              episcopum</roleName></persName>, hoc est duas casas in castro <placeName
+            ref="#Ameglia">Amelia<note place="foot" n="a" xml:id="CCCLXXXVI_n_001"><term
+                xml:lang="latin">Amelia</term>:<emph>così nel testo</emph>.</note></placeName> et
+          terciam partem caroçola, sicuti dividitur cum <persName ref="#Aldeprandusvic1">Aldeprando
+              <roleName>vicedomino</roleName></persName> et cum hominibus de <placeName
+            ref="#Carrara">Carraria</placeName>, et in <placeName ref="#Plastra">Plastra</placeName>
+          vineas et castagneta et mansum de <placeName ref="#Sorolo">Sorolo</placeName>, cum omnibus
+          suis pertinenciis, ubicumque inventum fuerit, et I petiam terre in <placeName
+            ref="#Pontesella">Pontesella</placeName> et in <placeName ref="#Capo_Corvo">Capo
+            Corvi</placeName> iugera duo, quibus coheret ab uno latere terra vicedomini, ab uno
+          capite terra <persName ref="#Iulita">Iulite</persName>, ab alio <persName
+            ref="#GuidoNizola">Guidonis de <placeName ref="#Nizola">Nizola<note place="foot" n="b"
+                xml:id="CCCLXXXVI_n_002">
+                <term xml:lang="latin">Nizola</term>:<emph>N corretto su precedente
+                lettera</emph>.</note></placeName></persName>; et ibi prope I petiam terre XL et
+          VIII sulcorum: habet coherencias ab uno latere terra vicedomini, ab alio terra <placeName
+            ref="#Carrara">Cararese</placeName>; et in <placeName ref="#Isolella"
+            >Isolella</placeName> iugera duo: habet coherencias ab uno latere terra <placeName
+            ref="#Sorbolasca">Sorbolasca<note place="foot" n="c" xml:id="CCCLXXXVI_n_003"><term
+                xml:lang="latin">Sorbolascac</term>:<emph>Sorbolasca: nel manoscritto Sorbolesca con
+                e espunta e sostituita da una a in sopralinea</emph>.</note></placeName>, ab alio
+          terra <placeName ref="#Carrara">Cararese</placeName>, a capite terra <placeName
+            ref="#Angarecia">Angarecia</placeName> et ab alio <placeName ref="#Parentore">terra
+            Parentore</placeName>; et in <placeName ref="#Isola3">Insula</placeName> IIII iugera,
+          quibus coheret ab uno latere terra vicedomini et ab alio <placeName ref="#Parentore">terra
+            Parentore</placeName>, a capite terra <placeName ref="#Sorbolasca"
+            >Sorbolasca</placeName>, ab alio terra Sancti Vincencii; et in alio loco iugera III,
+          quibus coheret ab uno latere terra de prevostaria et ab alio vicedomini, a capite terra
+            <persName ref="#GuidoNizola">Guidonis de <placeName ref="#Nizola"
+            >Nizola</placeName></persName> et ab alio terra quorumdam hominum de <placeName
+            ref="#Valerano">Valerano</placeName>; et in <placeName ref="#Formicoso"
+            >Formicosa</placeName> I iugerum terre, cui coheret ab uno latere terra <persName
+            ref="#GuidoNizola">Guidonis de <placeName ref="#Nizola">Nizola</placeName></persName>,
+          ab alio via publica, a capite terra vicedomini; et in <placeName ref="#Guado_de_Insula"
+            >Guado de Insula</placeName> terre iugerum I, cui coheret ab uno latere terra <placeName
+            ref="#Caprognano">Caprognanese</placeName> et ab alio terra <persName ref="#Butafava"
+            >Butafave</persName>, a capite terra <placeName ref="#Vezzano">Vezanese</placeName> et
+          ab alio terra de ambassaria; et in <placeName ref="#Banco">Banco</placeName> I iugerum
+          terre, cui coheret ab uno latere terra vicedomini, ab alio filiorum <persName
+            ref="#RaineriusCervaria">Rainerii de <placeName ref="#Cervaria"
+            >Cervaria</placeName></persName>, a capite terra curtesanorum; et in <placeName
+            ref="#Cavallo">Cavallo</placeName> I iugerum terre, cui coheret ab uno latere terra
+          domini episcopi, a capite <placeName ref="#Parentore">terra Parentore</placeName>; et in
+            <placeName ref="#Ramaro">Ramaro</placeName> petiam I terre et in <placeName
+            ref="#Marmore">Marmore</placeName> petias tres et quicquid, ubi<supplied
+            reason="omitted">cum</supplied>que inventum fuerit, de possessione iamscripti <persName
+            ref="#GerardusRubei">Gerardi</persName>, una cum accessibus et regressibus seu cum
+          superioribus et inferioribus suis et cum omnibus super se habentibus, in integru. Exinde
+          ad mandatum vestrum veniamus ad legem faciendam et solvamus vobis singulis annis, infra
+          octavam Domini nativitatis, ertam pensionem pro prato secando <measure
+            type="Mediolanenses" quantity="9" unit="denari">IX denariorum Mediolanensium</measure>
+          et castrum habitare et gaitas nocturnas et custodias diei de porta et lectos et caciam et
+            aucipem<note place="foot" n="d" xml:id="CCCLXXXVI_n_004"><term xml:lang="latin"
+              >aucipem</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">aucupem</term>.</note> in casale; alia superimposita nobis non
+          fiat. Penam vero ambe partes inter se posuerunt ut, si qui s ex ipsis aut illorum
+          heredibus omnia non compleverit vel si tollere aut laxare voluerit, tunc componat pars
+          parti fidem servanti <measure quantity="30" unit="soldi">soldos XXX</measure> et post
+          penam solutam, libellus in sua permaneat firmitate.</p>
+        <p xml:id="CCCLXXXVI_p_002" n="2">Actum est hoc kalendis iunii, <placeName ref="#Ameglia"
+            >castro Amelia</placeName>, die lune, feliciter.</p>
+        <p xml:id="CCCLXXXVI_p_003" n="3">Signa # # # manuum <persName ref="#Aldeprandusvic1"
+            >Aldeprandi <roleName>vicedomini</roleName></persName>, <persName ref="#GerardusRubei"
+              >Gir<supplied reason="omitted">ar</supplied>di Rubei</persName>, <persName
+            ref="#Corsus">Corsi</persName>, <persName ref="#Fuscolus">Fusculi</persName>, <persName
+            ref="#Rognosus">Rognosi</persName>, <persName ref="#Baldinellus">Baldinelli</persName>,
+            <persName ref="#GuilicioAmelia">Guilicionis de <placeName ref="#Ameglia"
+              >Amelia</placeName></persName>, rogatorum testium.</p>
+        <p xml:id="CCCLXXXVI_p_004" n="4">Ego <persName ref="#GotefredEpLuni">Gotefredus
+              <roleName>episcopus</roleName></persName> subscripsi.</p>
+        <pb n="319r" xml:id="fol_319r"/>
+        <p xml:id="CCCLXXXVI_p_005" n="5"><ptr target="#CCCLXXXVI_st_002"/>Ego <persName
+            ref="#Bonabrocanot">Bonabrocca</persName>, <roleName>notarius sacri palacii et advocatus
+            Lunensis curie</roleName>, iussu et edicto iamscripti domini episcopi et rogatus a
+          predicto <persName ref="#GottolusBonensegne">Gotulo</persName>, hunc libellum scripsi,
+          complevi et dedi.</p>
+      </div>
+      <div xml:id="CCCLXXXVI_div2" type="autentica">
+        <p xml:id="CCCLXXXVI_p_006" n="6"><ptr target="#CCCLXXXVI_st_003"/> Ego <persName
+            ref="#Philippusnot">Philippus</persName>, <roleName>domini Ottonis quarti Romanorum
+            serenissimi imperatoris notarius</roleName>,autenticum huius exempli vidi et legi, in
+          quo ut in isto legitur continebatur; et hoc fideliter scripsi, nichil addens vel minuens,
+          nisi forte littera vel sillaba plus minusve sit; quedam verba inveni infra lineas scripta,
+          scilicet “terre, terre”.</p>
+        <p xml:id="CCCLXXXVI_p_007" n="1"><ptr target="#CCCLXXXVI_st_004"/>Ego <persName
+            ref="#Benvenutusnot1">Benevenutus</persName>, <roleName>domini Ottonis quarti Romanorum
+            imperatoris <supplied reason="omitted">notarius</supplied></roleName>, autenticum huius
+            <supplied reason="omitted">exempli</supplied> vidi, legi et ideo hinc scripsi,
+            sub<supplied reason="omitted">ter</supplied> proprium signum apponenendo<note
+            place="foot" n="e" xml:id="CCCLXXXVI_n_005"><term xml:lang="latin">apponenendo</term>:
+              <emph>così nel testo</emph>.</note>.</p>
+        <p xml:id="CCCLXXXVI_p_008" n="1"><ptr target="#CCCLXXXVI_st_005"/>Ego <persName
+            ref="#Confortusnot">Confortus</persName>, <roleName>sacri palacii iudex et
+            notarius</roleName>, autenticum huius exempli vidi et legi et in hoc exemplo subscripsi
+          et proprium signum apposui.</p>
+        <p xml:id="CCCLXXXVI_p_009" n="1"><ptr target="#CCCLXXXVI_st_006"/> Ego
+            <roleName>magister</roleName>
+          <persName ref="#Bernardusnot2">Bernardus</persName>, <roleName>imperialis aule
+            notarius</roleName>, predictum exemplum vidi, legi, in quo continebatur ut in hoc, et de
+          exemplo exemplum sumpsi, nichil addendo vel diminuendo, et subscripsi, signum proprium
+            apponendo<note>Autentica del documento n. 347-CCCLXXXVI databile nel primo
+            venticinquennio del XIII secolo dalla presenza dei notai Filippo, Benvenuto e Conforto
+              <date notBefore="1200-01-01" notAfter="1225-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

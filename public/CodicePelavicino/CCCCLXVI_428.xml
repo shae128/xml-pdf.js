@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXVI_428">
+    <front xml:id="CCCCLXVI_front">
+
+      <titlePart type="numerazioneNuova">428</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXVI</titlePart>
+
+      <docDate xml:id="CCCCLXVI_docDate">
+        <date when="1253-03-18">1253 marzo &lt;18&gt;</date> o <date when="1253-03-25"
+          >&lt;25&gt;</date>, <placeName>Cobia (<term xml:lang="latin">ad Cobiam, in via publica,
+            iuxta domum heredum Portarii</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXVI_regesto">
+        <p>Guidetto del fu Benvenuto di Vezzano, castaldo e procuratore del vescovo di Luni
+          Guglielmo ingiunge a Pasquale e Aldeberto, figli del fu Manerio di Cobia di concordare,
+          entro la domenica successiva, i redditi ottenuti dai terreni un tempo appartenuti al fu
+          Benvenuto di Cobia, vassallo del vescovo. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 358v.-359r., cc. CCCXLVIIIIv.-CCCLr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 466,
+            p. 474, con la data marzo 24. </p>
+        </div>
+        <div type="crit_notes">
+          <note>Nel margine superiore, al centro: <term xml:lang="latin">Item de
+            Bolano</term>.</note>
+          <note> Per i problemi di datazione si veda il documento precedente. </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXVI. Denuntiationis castaldis de Veçano.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCLXVI_div">
+        <p xml:id="CCCCLXVI_p_001" n="1"> In nomine Domini, amen. <date when="1253-03-24">Anno a
+            nativitate Eius MCCLIII, indictione XI, die martis, XXIIII intrante marcio</date>.
+            <persName ref="#GuidetusBenvenuti">Guidetus quondam Benvenuti de <placeName
+              ref="#Vezzano">Vezano</placeName>, <roleName>castaldus seu procurator</roleName>
+          </persName> domini <persName ref="#GuilEpLuni">G(uilielmi), <roleName>Dei gratia Lunensis
+              episcopi</roleName>, </persName>
+          <pb n="359r" xml:id="fol_359r"/> ut dixit, ipsius domini <persName ref="#GuilEpLuni"
+            >Guilielmi <roleName>episcopi</roleName>
+          </persName> vice et nomine, denunciavit <persName ref="#PasqualeMainerii"
+            >Pasquali</persName> et <persName ref="#AldebertusMainerii">Aldeberto filiis et
+            heredibus quondam Manerii de <placeName ref="#Cobia">Cobia</placeName>, </persName> ut
+          ipsi deberent secum concordare de introitu quod fecerant in podere et possessionibus seu
+            tenutas<note place="foot" n="a" xml:id="CCCCLXVI_n_001">tenutas: <emph>così nel
+              testo</emph></note> olim <persName ref="#BenvenutusCobia">Benvenuti de <placeName
+              ref="#Cobia">Cobia</placeName></persName>, fidelis et vassalli suprascripti <persName
+            ref="#GuilEpLuni">Guilielmi <roleName>episcopi</roleName></persName>, a die ad dominicam
+          proxime venientem, vel sibi dimittant, nomine et vice suprascripti domini episcopi, podere
+          et possessiones sive tenutas olim suprascripti <persName ref="#BenvenutusCobia"
+            >Benvenuti</persName>. Actum ad <placeName ref="#Cobia">Cobiam</placeName>, in via
+          publica, iuxta domum heredum <persName ref="#PortariusCobia">Portarii</persName>,
+          presentibus <persName ref="#SegnorinusTunsi">Segnorino Tunsi de la <placeName ref="#Sera"
+              >Sera</placeName>
+          </persName> et <persName ref="#GuillieçonusUbaldini">Guillieçono quondam
+            Ubaldini</persName><note place="foot" n="b" xml:id="CCCCLXVI_n_002">Ubaldini: b
+              <emph>aggiunto in sopralinea</emph></note> et <persName ref="#BenesiaBoveromo">Benesia
+            de <placeName ref="#Boveromo">Boverono</placeName></persName>, ad hec testibus rogatis. </p>
+        <p xml:id="CCCCLXVI_p_002" n="2"> Ego <persName ref="#Guarnellusnot">Guarnellus,
+              <roleName>sacri imperii notarius</roleName>, </persName> hanc cartam rogatus scripsi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

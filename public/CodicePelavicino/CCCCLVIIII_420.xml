@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLVIIII_420">
+    <front xml:id="CCCCLVIIII_front">
+      <titlePart type="numerazioneNuova">420</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLVIIII</titlePart>
+      <docDate xml:id="CCCCLVIIII_docDate">
+        <date when="1255-05-12">1255 maggio 12</date>, <placeName>Vezzano <emph>(<term
+              xml:lang="latin"> Vezani, in ara Guideti</term>)</emph></placeName>
+      </docDate>
+      <div type="regesto" xml:id="CCCCLVIIII_regesto">
+        <p> Guidetto del fu Benvenuto di Vezzano, castaldo del vescovo di Luni di Guglielmo, loca un
+          pezzo di vigna sito in Ridesalice a Guizolino del fu Alamannino di Vezzano per il fitto di
+          una libbra d’olio l’anno. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLVIIII_footer">
+        <div type="orig_doc">
+          <p> Copia [C] c. 356r., c. CCCXLVIIr. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 459,
+            p. 468.</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <emph>IIIIc LVIIII. Unius libre
+              olei ficti, quod reddit Guiçolinus suprascriptus de dicta terra. </emph></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCCLVIIII_div">
+        <p xml:id="CCCCLVIIII_p_001" n="1"> In nomine Domini, amen. <date when="1255-05-12">Anno a
+            nativitate Eius M°CCLV, indictione XIII, die mercurii, XII intrante madio</date>.
+            <persName ref="#GuidetusBenvenuti">Guidetus quondam Benevenuti</persName> de <placeName
+            ref="#Vezzano">Vezano</placeName>, <persName ref="#GuidetusBenvenuti"
+              ><roleName>procurator atque castaldio</roleName></persName> domini <persName
+            ref="#GuilEpLuni">Guilielmi</persName>, <persName ref="#GuilEpLuni"><roleName>Dei gratia
+              Lunensis episcopi</roleName></persName>, ut asseruit seu dixit, nomine procuratorio et
+          castaldionatu pro ipso domino episcopo et episcopatu Lunensi, dedit, concessit atque
+          locavit, nomine directi ficti, <persName ref="#GuiçolinusAlamanni">Guiçolino quondam
+            Alamannini</persName> de <placeName ref="#Vezzano">Vezano</placeName>, recipienti pro se
+          suisque heredibus, petiam I terre vineate posite in pertinenciis <placeName ref="#Vezzano"
+            >Vezani</placeName>, loco ubi dicitur <placeName ref="#Ridesalice"
+            >Ridesalice</placeName>, cui coheret a duobus lateribus<persName ref="#Anninellus">
+            Anninelli</persName>, inferius via publica, ab alio latere canale et via publica, et
+          quam terram ipse <persName ref="#GuiçolinusAlamanni">Guiçolinus</persName> ipsi <persName
+            ref="#GuidetusBenvenuti">Guideto</persName>, recipienti pro predicto domino episcopo et
+          eius successoribus et episcopatu Lunensi, vendidit, ut continetur in quodam instrumento
+          facto manu mei <persName ref="#Mastruciusnot">Mastrucii</persName> notarii, ad habendum,
+          tenendum, possidendum et quicquid sibi et suis heredibus placuerit, iure consimilis ficti,
+          perpetuo faciendum, cum arboribus fructiferis et infructiferis, accessibus, ingressibus et
+          egressibus suis omnique iure, actione atque persecutione et cum omnibus et singulis super
+          se et infra atque intra se infra <note place="foot" n="a" xml:id="CCCCLVIIII_n_01">
+            <term xml:lang="latin"> infra </term> : f <emph> corretto su precedente scrittura.
+            </emph>
+          </note> predictos confines, vel si qui alii sint, eis rebus vel alicui ipsorum, maiores et
+          meliores, promittendo dictus <persName ref="#GuidetusBenvenuti">Guidetus</persName>,
+          nomine dicti <persName ref="#GuilEpLuni">Guilielmi</persName> et eius successorum et
+          episcopatus Lunensis, dictam terram non subtrahere nec auferre nec aliquam superimpositam
+          facere nec adfictum nec pensionem nec condictionem, nisi ut infra, acrescere, dando et
+          reddendo dictus <persName ref="#GuiçolinusAlamanni">Guiçolinus</persName> vel eius heredes
+          singulis annis, in domo sua, I libram olei, ad libram rectam domini episcopi, per octavam
+          nativitatis Domini, promittentes inter se vicissim quod, si aliquis eorum contra hec
+          venire presumpserit seu fecerit, scilicet dictus <persName ref="#GuidetusBenvenuti"
+            >Guidetus</persName>, procuratorio nomine et castaldionatu pro ipso domino episcopo et
+          eius successoribus et episcopatu Lunensi, et dictus <persName ref="#GuiçolinusAlamanni"
+            >Guiçolinus</persName> pro se suisque heredibus, dare atque solvere, nomine pene, pars
+          non observans parti fidem observanti <measure type="Imperiales" quantity="40"
+            unit="solidus">XL soldos imperialium</measure>, renunciando omni iuris et legum auxilio,
+          quibus se tueri possent; qua pena soluta sive commissa et exacta vel non, dicta firma sint
+          et rata. </p>
+        <p xml:id="CCCCLVIIII_p_002" n="2"> Actum <placeName ref="#Vezzano">Vezani</placeName>, in
+          ara suprascripti <persName ref="#GuidetusBenvenuti">Guideti</persName>, coram <persName
+            ref="#ConfortusPenti">Conforto quondam Penti</persName>, <persName
+            ref="#NuvelonusRollandini">Nivelono filio Rollandini</persName>, <persName
+            ref="#BertholotusAndrioli">Bertholoto quondam Andrioli</persName> et <persName
+            ref="#SoçusAiuti">Soço quondam Aiuti</persName>, ad hec testibus rogatis. </p>
+        <p xml:id="CCCCLVIIII_p_003" n="3">
+          <ptr target="#CCCCLVIIII_st_001"/> Ego <persName ref="#Mastruciusnot"
+            >Mastrucius</persName>, ab imperiali auctoritate notarius, dictis omnibus interfui et
+          rogatus scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXXXVIII_300">
+    <front xml:id="CCCXXXVIII_front">
+
+      <titlePart type="numerazioneNuova">300</titlePart>
+      <titlePart type="numerazioneOrig">CCCXXXVIII</titlePart>
+
+      <docDate xml:id="CCCXXXVIII_docDate">
+        <date when="1253-12-23">1253 dicembre 23</date>, <placeName>Ceparana (<emph>Cepparane, in
+            ecclesia Sancti Venancii</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXXXVIII_regesto">
+        <p>Giovanni, abate del monastero di Ceparana, con il consenso del capitolo, vende per 14
+          lire d'imperiali a Paganino di Santo Stefano, sindaco del vescovo di Luni Guglielmo, il
+          fitto di alcuni beni posti presso Carrara presso il ponte di Cimatico, ammontante a 6
+          sestari di frumento annui. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCXXXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 301v.-302r., cc. CCLXXXXIIIv.-CCLXXXXIIIIr. secondo la numerazione
+            originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 338,
+            pp. 325-326. </p>
+        </div>
+
+        <div type="crit_notes">
+          <note> </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCXXXVIII. Emptionis stariorum VI frumenti ficti, quod reddere tenentur heredes
+              Gandulfini et Iacoputii de molendino de Punte Cimatici. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXXXVIII_div">
+        <p xml:id="CCCXXXVIII_p_001" n="1">In Dei nomine, amen. <date when="1253-12-23">Anno a
+            nativitate Eius millesimo CCLIII, indictione XI, X kalendas ianuarii</date>. Pro precio
+            <measure type="imperiales" unit="solidus" quantity="14">librarum<note
+              xml:id="CCCXXXVIII_n_001" n="a" place="foot">
+              <term xml:lang="latin">librarum</term>: lb <emph>corretto su precedente
+                scrittura</emph>.</note> XIIII imperialium</measure>, quos<note
+            xml:id="CCCXXXVIII_n_002" n="b" place="foot"><term xml:lang="latin">quos</term>:
+              <emph>così nel testo per</emph>
+            <term xml:lang="latin">quas</term>.</note> donnus <persName ref="#Iohannesabbas"
+            >Iohannes, <roleName>abbas</roleName>
+            <orgName ref="#Ceparana_S_Venanzio">monasterii de <placeName ref="#Ceparana"
+                >Cepparana</placeName></orgName></persName>, fuit confessus se recepisse et recepit
+          coram me notario et testibus infrascriptis nomine sui monasterii, consensu capituli sui,
+          videlicet <persName ref="#Benedictusmonacus"><roleName>donni</roleName>
+            Benedicti</persName>, <persName ref="#Iordanusmonacus"><roleName>fratris</roleName>
+            Iordani</persName> et <persName ref="#Paulusmonacus">
+            <roleName>fratris</roleName> Pauli</persName>, <roleName>monachorum</roleName> ipsius
+          monasterii, et <persName ref="#Pontremulususclericus"><roleName>donni</roleName>
+            Pontremuli, <roleName>clerici</roleName></persName> dicti monasterii, a <persName
+            ref="#Paganinusnot">Paganino de <placeName ref="#Santo_Stefano">Sancto
+              Stephano</placeName></persName>, <roleName>syndico, actore et procuratore ac
+            negociorum gestore</roleName> domini <persName ref="#GuilEpLuni">Guilielmi,
+              <roleName>Dei gratia Lunensis episcopi</roleName></persName>, et episcopatus, dante et
+          solvente pro ipso domino episcopo et episcopatu, nomine ipsius monasterii, consensu dicti
+          capituli sui, vendidit, dedit et tradidit <persName ref="#Paganinusnot">Paganino de
+              <placeName ref="Santo_Stefano">Sancto Stephano</placeName></persName>,
+            <roleName>syndico, actori et procuratori et negociorum gestori</roleName> dicti domini
+          episcopi et episcopatus, recipienti nomine ac vice dicti domini episcopi et episcopatus,
+          quoddam fictum, quod est staria VI frumenti, cum iure soli seu molendini et aqueductilis
+          et aliarum pertinenciarum ipsorum et personarum reddentium, pro quibus redditur quod
+          reddere debent et consueverunt dicto monasterio heredes quondam <persName
+            ref="#GandulfinusCarraria">Gandulfini</persName> de <placeName ref="#Carrara"
+            >Carraria</placeName>, videlicet <roleName>dominus</roleName>
+          <persName ref="#GerardusAlberti3">Gerardus</persName> et <persName
+            ref="#IacopuciusAlberti">Iacopucius</persName>, nepos eius, <persName
+            ref="#GerardusAlberti3">quondam Alberti de Gandulfino</persName>, de molendino et
+          aqueductili et omnibus pertinenciis eorum positis in loco dicto <placeName ref="#Guercia"
+            >Guercia</placeName>, prope et iuxta <placeName ref="#PonteCimatico">pontem de
+            Cimatico</placeName>. Et cessit ei, consensu dicti capituli, recipienti nomine dicti
+          domini episcopi, omnia iura et actiones, utiles et directas, reales, personales et mixtas
+          sibi pro dicto monasterio et ipsi monasterio in dicto ficto et predictis competencia et
+          competentes; et constituit se, nomine dicti monasterii, pro ipso syndico, syndicatus
+          nomine, predicta omnia possidere et quasi; et fecit, nomine dicti monasterii, dictum
+          syndicum, recipientem nomine dicti domini episcopi et episcopatus, procuratorem et dominum
+          in rem suam, promittendo nomine dicti monasterii, consensu dicti capituli sui, dicto
+          syndico, recipienti nomine dicti domini episcopi et episcopatus, dictum fictum et solum
+          seu molendinum et aqueductile et alia pro quibus redditur, deffendere et exbrigare ab omni
+          contradicente et impediente persona et loco; et si deffendere et exbrigare non posset et
+          non deffenderet et exbrigaret, restaurare et salvum cambium inde ei dare <supplied
+            reason="omitted">promisit</supplied> et ipsam deffensionem facere expensis dicti
+          monasterii et dampna reficere et expensas et interesse etiam singulare et conservare,
+          nomine dicti monasterii, dictum syndicum, recipientem pro ipso domino episcopo et
+          episcopatu, de predictis omnibus indempnem, confitendo quod dictum fictum suprascripto
+          precio plus valet, set totum et quicquid plus valet inrevocabiliter, nomine sui
+          monasterii, dicto syndico, recipienti nomine dicti domini episcopi et episcopatus,
+          donavit, renunciando, consensu dicti sui capituli,<pb n="302r" xml:id="fol_302r"/> iuri
+          quo dicitur quod venditio potest rescindi si sit in ea deceptio ultra dimidium iusti
+          precii et omni alii iuri et consuetudini et legum auxilio quo posset pro ipso
+            monasterio<note xml:id="CCCXXXVIII_n_003" n="c" place="foot">
+            <term xml:lang="latin">monasterio</term>: <term xml:lang="latin">mona</term>
+            <emph>corretto su precedente scrittura</emph>.</note> contra predicta venire, confitendo
+          etiam dictus abbas, nomine dicti monasterii, et ipsum capitulum quod predictam
+          vendictionem fecissent necessitate vel indigencia famis, nec aliunde habebant unde possent
+          sue necessitati vel indigencie subvenire nec aliud vendere unde minus dictum monasterium
+          lederetur; etiam hanc vendictionem et omnia et singula, que in hac carta leguntur,
+          promisit dictus abbas, nomine dicti monasterii, consensu dicti capituli et monachorum,
+          dicto syndico, recipienti nomine dicti domini episcopi et episcopatus, rata habere et
+          observare et facere et in nullo contravenire, obligando se, nomine dicti monasterii,
+          consensu dicti capituli, et ipsum monasterium et capitulum et bona dicti monasterii ad
+          penam dupli suprascripte pecunie et eius tocius quod in questionem veniret; quam, nomine
+          dicti monasterii, consensu dicti capituli et monachorum, dicto syndico, recipienti nomine
+          dicti domini episcopi et episcopatus, solvere promisit si contra predicta venerit vel
+          predicta non fuerint observata in omnibus et singulis capitulis, ut superius continetur;
+          et, ea soluta vel non, predicta semper nichillominus robur obtineant firmitatis.</p>
+        <p xml:id="CCCXXXVIII_p_002" n="2">Actum <placeName ref="#Ceparana">Cepparane</placeName>,
+          in <orgName ref="#Ceparana_S_Venanzio">ecclesia Sancti Venancii</orgName>, testibus
+            <persName ref="#GaidiferusGuilielmi">Gaidefero filio Guilielmi de <placeName
+              ref="#Santo_Stefano">Sancto Stephano</placeName></persName>, <persName
+            ref="#PedoneBonaventure">Pedone de <placeName ref="#Ceparana">Cepparana</placeName>
+            quondam Bonaventure</persName>, <persName ref="#IacominusFormentini">Iacomino quondam
+            Formentini <placeName ref="#Ceparana">de eodem loco</placeName></persName> et aliis
+          presentibus et rogatis. </p>
+        <p xml:id="CCCXXXVIII_p_003" n="3"><ptr target="#CCCXXXVIII_st_001"/> Ego <persName
+            ref="#Bonalbergusnot">Bonalbergus</persName>, <roleName>domini Frederici invictissimi
+            Romanorum imperatoris notarius</roleName>, hiis interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

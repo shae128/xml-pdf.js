@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXVII_429">
+    <front xml:id="CCCCLXVII_front">
+
+      <titlePart type="numerazioneNuova">429</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXVII</titlePart>
+
+      <docDate xml:id="CCCCLXVII_docDate">
+        <date when="1225-09-16">1225 settembre 16</date>, <placeName>Sarzanello (<term
+            xml:lang="latin">castro Sarzane, in porticu curie Lunensis</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXVII_regesto">
+        <p>Il vescovo di Luni Buttafava concede in feudo al notaio Conforto di Madrignano, che
+          agisce anche a nome dei propri figli Benvenuto, Parentino e Alberto, tutta la tenuta nel
+          distretto di Bolano un tempo appartenuta a Mazucco di Guerceto e gestita da Dolcetto,
+          Valentino e Manzetto, oltre che la casa nel castello di Montebello un tempo del fu
+          Mulazolo. La concessione costa 60 soldi di imperiali. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 359r.-359v., cc. CCCLr.-CCCLv. secondo la numerazione originale.</p>
+        </div>
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 467,
+            pp. 474-475. </p>
+        </div>
+        <div type="crit_notes">
+          <note>Nel margine superiore, al centro: <term xml:lang="latin">Item de
+            Bolano</term>.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXVII. Feudi dati Comforto in Guerceto de Bolano et alibili.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCLXVII_div">
+
+        <p xml:id="CCCCLXVII_p_002" n="2">
+          <ptr target="#CCCCLXVII_st_001"/> In nomine Domini, amen. <date when="1225-06-16">Anno a
+            nativitate Eius M°CCXXV, indictione XIII, die martis, XVI kalendas octubris</date>.
+          Harum publicarum tenorum<note place="foot" n="a" xml:id="CCCCLXVII_n_001">tenorum:
+              <emph>così nel testo per</emph> tenore</note> litterarum tam presentibus quam futuris
+          evidenter pateat universis quod dominus <persName ref="#ButtafavaEpLuni">Buttafaba,
+              <roleName>Dei gratia Lunensis episcopus</roleName>, </persName> dedit et investivit,
+          nomine recti et honorifici feudi, <persName ref="#ConfortusMadnot">Confortum
+              <roleName>notarium</roleName> de <placeName ref="#Madrognanno"
+              >Matrognanno</placeName><note place="foot" n="b" xml:id="CCCCLXVII_n_002">Madrognanno:
+                <emph>la seconda a aggiunta in sopralinea</emph></note>, </persName> agentem et
+          recipientem pro <persName ref="#BenvenutusConforti">Benvenuto</persName>, <persName
+            ref="#ParentinusConfortinot">Parentino</persName> et <persName ref="#AlbertinusConforti"
+            >Albertino, filiis ipsius Conforti</persName>, nominatim de tota tenuta totaque
+          possessione et podere, que et quod fuerunt quondam <persName ref="#MaçuchusGuerceto"
+            >Maçuchi de <placeName ref="#Guerceto">Guerceto</placeName>
+          </persName> et quas et quod tenuerunt et habuerunt <persName ref="#Dolcetus"
+            >Dolcetus</persName>, <persName ref="#Valentinus">Valentinus</persName> et <persName
+            ref="#Manzetus">Manzetus</persName> in curia et districtu <placeName ref="#Bolano"
+            >Bolani</placeName> et nominatim in <placeName ref="#Guerceto">Guerceto</placeName> et
+          alibi et in omnibus aliis locis, ubicumque sint et de eis aliquid poterit reperiri, tam in
+          terris agris et cultis, plenis et vacuis, divisis et indivisis, quam in domibus, casis et
+          casamentis et rebus aliis universis, et insuper de domo que fuit quondam <persName
+            ref="#Mulaçolus">Mulaçoli</persName>, que est in castro <placeName ref="#Montebello"
+            >Montisbelli</placeName>, ita ut deinceps perpetuo, nomine recti et honorifici feudi,
+          dicti <persName ref="#BenvenutusConforti">Benvenutus</persName>, <persName
+            ref="#ParentinusConfortinot">Parentinus</persName> et <persName
+            ref="#AlbertinusConforti">Albertinus</persName> et eorum heredes predicta omnia habeant
+          et teneant et ex eis, una cum accessionibus et ingressionibus suis et cum omnibus in se et
+          super se et infra se habentibus et cum omnibus suis pertinenciis, in integrum, secundum
+          ius et usum feudi, faciant quicquid facere voluerint sine alicuius aliqua contradictione.
+          Et remisit idem dominus episcopus eidem <persName ref="#ConfortusMadnot"
+            >Conforto</persName>, recipienti pro dictis suis filiis et heredibus, omnes redditus et
+          condictiones quas de ipso podere, tenutis, casis et casamentis curie Lunensi reddere vel
+          facere tenebantur. Et promisit insuper et convenit predictus dominus episcopus per se
+          suosque successores predicto <persName ref="#ConfortusMadnot">Conforto</persName>,
+          recipienti pro predictis suis filiis, predicta omnia infeudata deffendere et exbrigare eis
+          et eorum heredibus ab omni contradicente persona et loco et predicta omnia firma et rata
+          habere et tenere et in aliquo modo vel iure non contravenire vel ipsa eis restaurare in
+          bonis Lunensis episcopatus, que ad hec obligavit, in consimili loco et rebus, in arbitrio
+          bonorum hominum, prout tunc valuerint, si deffendere ipse vel eius successores non possent
+          et non deffensarent seu predictis vel alicui <pb n="359v" xml:id="fol_359v"/> predictorum
+          contravenirent. Et dedit ei <persName ref="#ConfortusMadnot">Conforto</persName> pro ipsis
+          filiis suis licenciam ut de predictis omnibus, sua auctoritate, intret tenutam et
+          constituit se pro eis possidere donec inde habuerit tenutam, ita ut quicumque ex ipsis
+          fratribus vel eorum heredibus superstiterint vel superstiterit semper de futuro et de
+          futuris sine herede in predictis succedant vel succedat. Et confessus fuit predictus
+          dominus episcopus se recepisse, pro predictis omnibus et investitura, a dicto Conforto,
+          dante et solvente pro predictis filiis suis, <measure type="Imperiales" quantity="60"
+            unit="solidus">soldos LX imperialium</measure>, renunciando exceptioni non numerate
+          pecunie et omni iuri et legibus, constitutionibus, auxiliis et deffensionibus quibus ipse
+          vel eius successores predictis posset contra facere vel venire seu a predictis vel alicui
+          predictorum se tueri vel iuvare. </p>
+        <p xml:id="CCCCLXVII_p_003" n="3"> Actum in <placeName ref="#Sarzanello">castro
+            Sarzane</placeName>, in porticu curie Lunensis, presentibus <persName
+            ref="#Nicholausmon">
+            <roleName>presbytero</roleName> Nicholao <roleName>monacho de</roleName>
+            <orgName ref="Ceparana_S_Venanzio">Cepparana</orgName></persName>, <persName
+            ref="#Albertuscapp">
+            <roleName>presbytero</roleName> Alberto <roleName>cappellano</roleName>
+            <orgName ref="Sarzanello_S_Martino">ecclesie de predicto castro</orgName>
+          </persName>, <persName ref="#Grassuscler">Grasso <roleName>clerico predicti domini
+              episcopi</roleName>
+          </persName> et <persName ref="#BonafestaBolano">Bonafesta de <placeName ref="#Bolano"
+              >Bolano</placeName></persName>, testibus ad hec rogatis. </p>
+        <p xml:id="CCCCLXVII_p_004" n="4"> Ego <persName ref="#Benvenutusnot1">Benvenutus,
+              <roleName>domini Ottonis quarti Romanorum imperatoris notarius</roleName>, </persName>
+          hiis omnibus interfui et rogatus scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

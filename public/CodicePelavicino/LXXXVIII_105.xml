@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="LXXXVIII_105">
+		<front xml:id="LXXXVIII_front">
+
+			<titlePart type="numerazioneNuova">105</titlePart>
+			<titlePart type="numerazioneOrig">LXXXVIII</titlePart>
+
+			<docDate xml:id="LXXXVIII_docDate">
+				<date when="1206-03-31">1206 marzo 31</date>, <placeName ref="#Sarzana">Sarzana
+						(<emph>in canonica Sancti Basilii</emph>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="LXXXVIII_regesto">
+				<p>L’arciprete Guido e Ardizzone, preposito e pievano di Massa, procedono
+					all’elezione di altri dieci canonici per volontà del vescovo di Luni Gualterio e
+					di sei canonici. I nuovi canonici avranno metà prebenda fino a che sarano
+					complessivamente 16; inseguito la riceveranno per intero. Il prete Bonagiunta
+					avrà quanto detto se rinuncerà alla cappella di Sarzanello; il prete Guido
+					nipote di Filippo potrà avere la sua solita prebenda, ma se rinuncerà ne avrà la
+					metà come gli altri.</p>
+			</div>
+
+			<div type="footer" xml:id="LXXXVIII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] c. 203v., c. CLXXXXVv. secondo la numerazione originale. </p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione parziale in <ref type="biblio" target="#LUPO_GENTILE_1912">LUPO
+							GENTILE 1912</ref>,n. 88, pp. 121-122.</p>
+				</div>
+
+				<div type="crit_notes">
+					<p><emph>Nel margine esterno, di mano moderna:</emph>La cathedrale soto il
+						titolo di San Basilio 1206.</p>
+					<p><emph>In seguito a rifilatura della pergamena il numero</emph>LXXXVIII<emph>è
+							stato riscritto da altra mano su precedente </emph><supplied
+							reason="omitted">L</supplied>XXXVIII</p>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">LXXXVIII. Precepti sententie super locis
+							canonicatus.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="LXXXVIII_div">
+				<p xml:id="LXXXVIII_p_001">
+					<pb n="203v" xml:id="fol_203v"/>
+					<ptr target="LXXXVIII_st_001"/>In nomine Domini, amen. <date when="1206-03-31"
+						>Anno a nativitate Eius M°CCVI°, indictione IXa, die veneris, secundo
+						kalendas aprilis</date>, <persName ref="#Guidoarch">Guido</persName>
+					<roleName>archipresbyter</roleName> et <persName ref="#Arditio_prepositus"
+						>Arditio</persName>, <roleName> prepositus et plebanus de</roleName>
+					<orgName ref="#S_Vitale_Massa"><placeName ref="Massa"
+						>Massa</placeName></orgName>, de voluntate <roleName>domini <persName
+							ref="#GualEpLuni">Gualterii</persName>, Dei gratia Lunensis
+						episcopi</roleName>, et <persName ref="#Albertuscan">Alberti
+							<roleName>custodis</roleName></persName>, <persName ref="#Baldanzacan"
+							>Baldancie<roleName> cantoris</roleName></persName>, <persName
+						ref="#Philippus_canonicus_Lun">Philippi
+						<roleName>canonici</roleName></persName>, <persName ref="#BonfiliusarcSol"
+						>Bonfilii <roleName>archipresbyteri de <orgName ref="#S_Maria_Soliera"
+								type="ecclesia_plebs"><placeName ref="#Soliera"
+								>Soleria</placeName></orgName></roleName></persName>, <persName
+						ref="#AlbertusRocha">Alberti de <placeName ref="#Rocha">
+						Rocha</placeName></persName>, <persName ref="#Oppizuscus"
+							>Opizonis<roleName>, Lunensium canonicorum</roleName></persName>,
+					elegerunt in fratres et canonicos Lunenses <persName ref="#Iohannes_presbyter3"
+						>Iohannem</persName>
+					<orgName ref="#S_Pancrazio_Vignola" type="ecclesia_plebs">plebis de <placeName
+							ref="#Vignola">Vignola</placeName></orgName>
+					<roleName>archipresbyterum</roleName> et <roleName>magistrum</roleName>
+					<persName ref="#Obertus_canonicus">Obertum</persName> et <roleName>presbyterum
+					</roleName>habeat <note xml:id="LXXXVIII_n_001" n="a" place="foot">habeat<emph>
+							corretto su precedente scrittura</emph>.</note>
+					<persName ref="#Guido_presbyter">Guidonem</persName> et <persName
+						ref="#Buttafaba_canonicus">Buttafabam</persName> et <persName
+						ref="#Ughitiusarc">Ugicionem
+						<roleName>archipresbyterum</roleName></persName>
+					<orgName ref="#S_Stefano_Magra" type="plebs_ecclesia"><placeName
+							ref="#Santo_Stefano">Sancti Stephani</placeName></orgName> et <persName
+						ref="#AttoHerbera">Attonem de <placeName ref="#Erberia"
+						>Herbera</placeName></persName> et <roleName>presbyterum <persName
+							ref="#Bonaiunctapresb">Bonamiunctam</persName></roleName> et <persName
+						ref="#GuidoneposPhilippi">Guidetum nepotem Philippi</persName>, citius quam
+					erit in sacro ordine, et <persName>Ianum<roleName>
+						archidiaconum</roleName></persName> et <persName
+						ref="#GuilielmusBrancalliano">Guilielmum de <placeName ref="#Brancaliano"
+							>Brancalliano</placeName></persName>, videlicet ad mediam prebendam in
+					omnibus rebus usque ad id tempus quo fuerint XVI canonici; et ab inde postea
+					habeant integram prebendam, sicut alii consueti canonici habent. De
+						<roleName>presbytero <persName ref="#Bonaiunctapresb"
+						>Bonaiuncta</persName></roleName> sic dictum est: quod ita sit firmum ut pro
+					eo dicitur, si renunciaverit <orgName ref="#S_Martino_de_castro_Sarzane"
+						type="capella">capellam de <placeName ref="#Sarzanello">castro
+							Sarzana</placeName></orgName> et non aliter; <roleName>presbyter
+							<persName ref="#GuidoneposPhilippi">Guido</persName></roleName> habeat
+					suam solitam prebendam et, si noluerit, habeata mediam, sicut dictum est de
+					aliis. Cum ecclesia Lunensis fuerit reducta ad XVI canonicos, postea non debeant
+					plures esse canonici. Hec omnia suprascriptus dominus episcopus eisdem canonicis
+					precepit, sub pena excomunicationis, observari. </p>
+				<p xml:id="LXXXVIII_p_002"> Actum in <orgName ref="#S_Basilio_Sarzana"
+						type="ecclesia_plebs">canonica Sancti Basilii</orgName>, presentibus
+						<roleName>presbytero <persName ref="#Wilielmuspres"
+						>Guilielmo</persName></roleName>, <persName ref="#Gerardetus_clericus"
+						>Gerardeto <roleName>clerico presbitero</roleName></persName>, ad hec
+					rogatis. </p>
+				<p xml:id="LXXXVIII_p_003"> Ego <persName ref="#Prefectusnot">Prefectus,
+							<roleName>domini imperatoris et Lunensis curie
+						notarius</roleName></persName>, hec rogatus scripsi.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

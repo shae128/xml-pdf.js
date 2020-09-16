@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXXXIII_494">
+    <front xml:id="DXXXIII_front">
+      <titlePart type="numerazioneNuova">494</titlePart>
+      <titlePart type="numerazioneOrig">(DXXXIII)</titlePart>
+      <docDate xml:id="DXXXIII_docDate">
+        <date when="1174-02-11">1174 febbraio 11</date>, <placeName>Sarzanello (<term
+            xml:lang="latin">in basilica de castro Sarzani</term>)</placeName>
+      </docDate>
+      <div type="regesto" xml:id="DXXXIII_regesto">
+        <p> I consoli del borgo di Aulla giurano di custodirne i beni della Chiesa di Luni; si
+          impegnano a raccogliere i redditi e versare, annualmente, 10 lire di denari imperiali
+          oltre che l’albergaria, se richiesta. Il vescovo si riserva il dominio della casa in cui
+          mettere segretari e cellari col consiglio dei consoli; monaci, preti e altri servitori
+          devono avere vitto e abiti. Eventuali avanzi di reddito devono essere impiegati nel
+          restauro della chiesa. </p>
+      </div>
+      <div type="footer" xml:id="DXXXIII_footer">
+        <div type="orig_doc">
+          <p>Copia [C] c. 397r., c. CCCLXXXVIIIr. secondo la numerazione originale.</p>
+          <p>Edizione parziale in <ref type="biblio" target="#PODESTÀ_1894">PODESTÀ 1894</ref>,
+            pp-49-50.</p>
+          <p>Edizione in <ref type="biblio" target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n.
+            533, pp. 596-597.</p>
+          <p> Il documento è da collegarsi al n. 488-DXXVII, redatto il giorno precedente.</p>
+        </div>
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna, la seguente annotazione: <term
+              xml:lang="latin"> Sanctissimi Caprasii Avule</term>
+          </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXXXIII.
+              Instrumentum cuiusdam pactionis inter episcopum Lunensem et cumsules Avulenses super
+              monasterio de Avula.</term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="DXXXIII_div">
+        <pb n="397r" xml:id="fol_397r"/>
+        <p xml:id="DXXXIII_p_001">Ad honorem Dei et sui sanctissimi Caprasii confessoris ac
+            <roleName>domini</roleName><persName ref="#AlexanderpontifiexIII">
+            Alexandri</persName><roleName> pape</roleName> et <roleName>domini</roleName>
+          <persName ref="#PipEpLuni">Pipini</persName>, <roleName>Dei gratia Lunensis
+            episcopi</roleName>, consules burgi <placeName ref="#Aulla">Avule</placeName>, qui modo
+          sunt, et maior pars fidelium ecclesie eiusdem burgi, iuraverunt per Domini Evangelia
+          custodire et salvare sine fraude omnes res ecclesie suprascripte, intus et foris, atque ab
+          omni homine ad suum posse deffensare; et in hoc facto nec fraudem nec malum ingenium
+          contra <roleName>dominum</roleName>
+          <persName ref="#PipEpLuni">Pipinum</persName>
+          <roleName>episcopum</roleName> habent nec habuerint, tali lege quod consules, qui modo
+          sunt et qui pro tempore fuerint, et castaldio prefate ecclesie debent colligere omnes
+          redditus iamdicte ecclesie omnesque alias collectiones, intus et foris, pro temporibus
+          bona fide facere ac sine fraude, ut superius legitur, et custodire et salvare et reddere
+          omni anno iamdicto <roleName>domino</roleName>
+          <persName ref="#PipEpLuni">Pipino</persName>
+          <roleName>episcopo</roleName> libras X denariorum bonorum imperialium, in hoc anno infra
+          octavam Sancti Martini, in aliis annis infra octavam Epyphanie, et albergarias sibi et suo
+          archidyacono aliisque suis nunciis, si transierint per locum illum et requisierint, et
+          legatis domini pape ac domini imperatoris. Omne dominium domus in se retinuit. Secretarios
+          et celerarios in illam mittere debet, consilio consulum. Monachi, presbyteri omnesque alii
+          servientes eiusdem ecclesie debent habere victum et vestitum ex ea rationabiliter. Alia
+          omnia que superfuerint, consules et fideles, consilio <roleName>domini</roleName>
+          <persName ref="#PipEpLuni">Pipini</persName><roleName>episcopi</roleName>, in
+          restauratione ecclesie mittere debent. Hec supradicta firma et rata sint inter iamdictum
+            <roleName>dominum</roleName>
+          <persName ref="#PipEpLuni">Pipinum</persName>
+          <roleName>episcopum</roleName> et Avulenses consules atque fideles, dum fuerit voluntas
+            <roleName>domini</roleName>
+          <persName ref="#AlexanderpontifiexIII">Alexandri</persName>
+          <roleName>pape</roleName> vel sui successoris quod ipse episcopus Pipinus habeat prefatam
+          ecclesiam in suo regimine. Unde due carte uno tenore facte sunt.</p>
+        <p xml:id="DXXXIII_p_002"> Actum est hoc in <orgName ref="#Sarzanello_S_Martino"
+            >basilica</orgName> de <placeName ref="Sarzanello">castro Sarzani</placeName>,
+          feliciter, <date when="1174-02-11">anno dominice incarnationis M°C septuagesimo IIII, die
+            XI intrante mense februario, qui est dies lune, indictione VII.</date>
+        </p>
+        <p xml:id="DXXXIII_p_003"> Signa # # # manuum <persName ref="#PonzanellusPonziano"
+            >Ponzanelli</persName> de <placeName ref="#Ponzano">Pontiano</placeName>, <persName
+            ref="#UgolinusVetiano">Ugolini</persName> de <placeName ref="#Vezzano"
+            >Vetiano</placeName>, <persName ref="#BartholomeusSarzano">Bartholomei</persName> de
+            <placeName ref="#Sarzana">Sarzano</placeName>, <persName ref="#BotaciusOliveto"
+            >Botacii</persName> de <placeName ref="#Oliveto">Oliveto</placeName>, <persName
+            ref="#MorengnolusGerardini">Moregnolli de <placeName ref="#Terrio"
+            >Terrio</placeName></persName>, <persName ref="#AlegretusCastroSar">Alegreti</persName>
+          de <placeName ref="#Sarzanello">castro Sarzani</placeName>, <persName
+            ref="#AlegretusBorselli">Alegreti Borselli</persName>, rogatorum testium. </p>
+        <p xml:id="DXXXIII_p_004">
+          <ptr target="#DXXXIII_st_001"/> Ego <persName ref="#Iohannesnot2">Iohannes</persName>,
+            <roleName>notarius Friderici imperatoris invictissimi</roleName>, hanc cartam, iussu
+          domini Pipini episcopi, scripsi, complevi et dedi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

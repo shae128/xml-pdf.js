@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="\schema\tei_cp.rng" type="application\xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="XLVI_74">
+        <front xml:id="XLVI_front">
+
+            <titlePart type="numerazioneNuova">74</titlePart>
+            <titlePart type="numerazioneOrig">XLVI</titlePart>
+
+            <docDate xml:id="XLVI_docDate">
+                <date when="1232-08-15">1232 agosto 15</date>, <placeName>Sarzana (<term
+                        xml:lang="latin">in sacrestia Lunensis ecclesie de burgo
+                    Sarzane</term>)</placeName>
+            </docDate>
+
+            <div type="regesto" xml:id="XLVI_regesto">
+                <p>I fratelli Bartolomeo e Guglielmo del defunto Pagano, castellani di Massa, cedono
+                    a Guglielmo, vescovo di Luni, sessanta famiglie di Arcola e del suo distretto,
+                    che abiteranno in perpetuo a Sarzana, in edifici a loro concessi dal vescovo.
+                    Per tali edifici ogni famiglia deve versare 2 denari di imperiali l’anno
+                    ripartiti per un terzo al vescovo e due terzi ai suffetti fratelli, che li
+                    detengono a titolo di feudo. Nel caso che siano trasmessi in eredità a donne,
+                    costoro dovranno sposarsi col consenso del vescovo e di detti fratelli. Gli
+                    uomini delle suddette famiglie devono giurare fedeltà al vescovo. Assieme
+                    all’investitura dei due terzi degli edifici, il vescovo assegna a Bartolomeo e
+                    Guglielmo anche un casamento, tramite il vicedomino Alberto e Urciolo di
+                    Burcione che si occupano delle assegnazioni. </p>
+            </div>
+
+            <div type="footer" xml:id="XLVI_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 136v.-137r., cc. CXXVIIIv.-CXXVIIIIr. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 46, pp. 69-70.</p>
+                </div>
+
+                <div type="crit_notes">
+                    <note>
+                        <p> Stesura <term xml:lang="latin">in mundum </term> posteriore al 1237,
+                            anno in cui il notaio Buoncontro di Soliera risulta ancora vivo, e
+                            anteriore al 1272 per l’autorizzazione data dal vescovo Guglielmo. </p>
+                        <p> Parte del testo è stata letta con l’ausilio della luce di Wood. Nel
+                            margine esterno di c. 136v., di mano moderna: <term xml:lang="latin"
+                                >Episcopus erat dominus Sarzane</term>. </p>
+                    </note>
+                </div>
+
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">XLVI. De eodem facto.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="XLVI_div">
+                <p xml:id="XLVI_p_001" n="1">
+                    <pb n="136v" xml:id="fol_136v"/> In Christi<note place="foot" n="a"
+                        xml:id="XLVI_n_001">Christi: <emph>nel testo</emph> XPRISTI.</note> nomine,
+                    amen. Ex huius publici instrumenti serie declarent quod <persName
+                        ref="#BartholomeusPagani"><roleName>dominus</roleName>
+                        Bartholomeus</persName> et <persName ref="#GuilielmusPagani"
+                            ><roleName>dominus</roleName> Guilielmus germani</persName>, <persName
+                        ref="#PaganusMassa">filii qondam <roleName>domini</roleName> Pagani,
+                            <roleName>castellani</roleName> de <placeName ref="#Massa"
+                            >Massa</placeName></persName>, dederunt <persName ref="#GuilEpLuni"
+                            ><roleName>venerabili patri domino</roleName>Guilielmo, <roleName>Dei
+                            gratia Lunensi episcopo</roleName></persName>, sexaginta familias de
+                        <placeName ref="#Arcola">Arcula</placeName> et de districtu <placeName
+                        ref="#Arcola">Arcule</placeName>, qui erunt perpetui habitatores de
+                        <placeName ref="#Sarzana">Sarzana</placeName> , in casamentis que eis
+                    dominus episcopus assignabit; pro quibus casamentis pro tercia parte quelibet
+                    familia et eorum heredes solvant dicto domino episcopo vel eius certo nuncio et
+                    suis successoribus imperpetuum, annuatim, <measure type="Imperiales"
+                        quantity="2" unit="solidus">duos imperiales</measure> infra octavam Natalis
+                    Domini; duas autem partes ipsorum casamentorum filii <persName
+                        ref="#PaganusMassa"><roleName>domini</roleName> Pagani</persName> teneant in
+                    feudum ab episcopo et episcopatu. Et simili modo locationes que fient pro
+                    tempore de poderibus dictarum familiarum, que poderia habent vel habuerint in
+                    districtu domini episcopi, fient communiter ab ipsis filiis <persName
+                        ref="#PaganusMassa"><roleName>domini</roleName> Pagani</persName> et eorum
+                    heredibus et ab episcopo et suis successoribus; atque due partes eorum, que
+                    provenient ex dictis locationibus, erunt filiorum <persName ref="#PaganusMassa">
+                        <roleName>domini</roleName> Pagani</persName> et tercia pars domini episcopi
+                    et suorum successorum, exceptis poderibus, tenutis, terris, possessionibus
+                    universis quod vel que ipsi homines de <placeName ref="#Arcola"
+                        >Arcula</placeName> nunc habent, tenent vel possident pro filiis <persName
+                        ref="#PaganusMassa">Pagani <placeName ref="#Arcola"
+                        >Arcula</placeName></persName> et districtu. Iterum, si quidem de ipsis
+                    poderibus remanserit in feminam, femina nubatur de voluntate episcopi et
+                    dictorum fratrum et heredum atque successorum utriusque et quod proveniet eis
+                    cuncordia maritationis modo simili dividatur, quia due partes sint filii
+                        <persName ref="#PaganusMassa"><roleName>domini</roleName> Pagani</persName>
+                    et eorum heredum et tercia pars domini episcopi et eius successorum; duas vero
+                    partes casamentorum et locationum et mulierum, que nubentur cum podere, filii
+                        <persName ref="#PaganusMassa">Pagani</persName> et eorum heredes teneant in
+                    feudum ab episcopo et ex hoc iurent fidelitatem sibi et suis successoribus
+                    contra omnes homines. Preterea homines dictarum familiarum iurabunt fidelitatem
+                    domino episcopo contra omnes homines. Mobilia poderum, que locanda fuerint,
+                    simili modo dividantur inter filios <persName ref="#PaganusMassa"
+                            ><roleName>domini</roleName> Pagani</persName> atque dominum episcopum
+                    per terciam partem. Ad hec dominus episcopus, secundum communem mensuram
+                    designandam per <persName ref="#UrsolusBur"><roleName>dominum</roleName>
+                        Urçolum</persName> et <persName ref="#Albertusvic">Albertum
+                            <roleName>vicedominum</roleName></persName>, cuilibet familie dabit unum
+                    casamentum secundum predictas conventiones et manute<supplied reason="omitted"
+                        >ne</supplied> bit eos et eorum iura sicut alios burgenses de <placeName
+                        ref="#Sarzana">Sarzana</placeName> et ponet eos in loco de quo convenient
+                        <persName ref="#UrsolusBur"><roleName>dominus </roleName>Urgolus</persName>
+                    et <persName ref="#Albertusvic">Albertum
+                        <roleName>vicedominum</roleName></persName>, et secundum eorum dispositiones
+                    faciant vias et s<supplied reason="omitted">t</supplied>ratas. Filiis vero
+                        <persName ref="#PaganusMassa">Pagani</persName> concedet in feudum duas
+                    partes ipsorum casamentorum atque locationum et dabit ipsis filiis <persName
+                        ref="#PaganusMassa">Pagani</persName> unum honorabile casamentum, ad
+                    voluntatem predictorum <persName ref="#UrsolusBur">Urgoli</persName> et
+                        <persName ref="#Albertusvic">Alberti
+                        <roleName>vicedomini</roleName></persName>; simili modo tenebitur dominus
+                    episcopus si quas familias filii <persName ref="#PaganusMassa">Pagani</persName>
+                    dederint domino episcopo ultra sexaginta familias, et ipse familie tenebuntur
+                    domino episcopo ut superius dictum est. <pb n="137r" xml:id="fol_137r"/>
+                </p>
+                <p xml:id="XLVI_p_002" n="2"> Suprascriptis et singulis omnibus consensit Lunense
+                    capitulum, videlicet <persName ref="#Gualterotus_archidiaconus">Gualterottus
+                            <roleName>archidiaconus</roleName></persName>, <persName
+                        ref="#Guilielmus_prepositus">Guilielmus
+                        <roleName>prepositus</roleName></persName>, <persName ref="#Bonaiunctaarc"
+                        >Bonacuncta <roleName>archipresbyter</roleName></persName>, <persName
+                        ref="#Ubalduscan">Ubaldus <roleName>cantor</roleName></persName>, <persName
+                        ref="#Oppizuscus">Oppicço <roleName>custos</roleName></persName>, <persName
+                        ref="#Guerisius_canonicus">Guerisius</persName>, <persName
+                        ref="#Antoniuscan">Antonius</persName>, <persName
+                        ref="#GuidoPisanus_canonicus">Guido Pysanus</persName>, <persName
+                        ref="#Mannus_canonicus"><roleName>magister</roleName> Mannus</persName>,
+                        <persName ref="#Tursaccus_canonicus">Tursaccus</persName>, <persName
+                        ref="#AlbertusVirsilia_canonicus">Albertus de <placeName ref="#Versilia"
+                            >Virsilia</placeName></persName>, <persName
+                        ref="#RollandusMascharus_canonicus">Rollandus Mascharus</persName>. </p>
+                <p xml:id="XLVI_p_003" n="3"> Actum in sacrestia Lunensis ecclesie de burgo
+                        <placeName ref="#Sarzana">Sarzane</placeName>, coram testibus <persName
+                        ref="#Bentevegnaarc">Bentivengna <roleName>archipresbytero de</roleName>
+                        <orgName ref="#S_Stefano_Magra">Sancto Stephano</orgName></persName>,
+                        <persName ref="#Falcopre"><roleName>presbytero</roleName>
+                    Falcono</persName>, <persName ref="#Confortusnot">Conforto
+                            <roleName>notario</roleName></persName>, <persName ref="#UrsolusBur"
+                        >Urçolo de <placeName ref="#Burcione">Burgone</placeName></persName>,
+                        <persName ref="#UbertusPontremolo">Uberto <roleName>causidico</roleName> de
+                            <placeName ref="#Pontremoli">Pontremolo</placeName></persName>, <date
+                        when="1232-08-15">millesimo CC trigesimo secundo, indictione quinta, die
+                        dominico, quinto decimo mensis intrantis augusti.</date>
+                </p>
+            </div>
+            <div xml:id="XLVI_div2" type="mundum">
+                <p xml:id="XLVI_p_004" n="4">
+                    <ptr target="XLVI_st_001"/>Ego <persName ref="#Albertinus_notarius">Albertinus,
+                            <roleName>sacri palacii notarius</roleName></persName>, hanc escedam seu
+                    rotum, michi a <persName ref="#Bonencontrusnot">Bonencontro
+                            <roleName>notario</roleName> de <placeName ref="#Soliera"
+                            >Soliera</placeName></persName>, in ultima sua voluntate dimissam, datam
+                    et concessam, auctoritate venerabilis patris <persName ref="#GuilEpLuni"
+                            ><roleName>domini</roleName>Guilielmi, <roleName>Dei gratia Lunensi
+                            episcopo</roleName></persName>, mihi ab eo prestita, data et concessa,
+                    scripsi et complevi atque in publicam formam redegi, meum signum proprium
+                        apponendo<note>Stesura <emph>in mundum</emph> del documento n. 74- XLVI
+                        databile tra il <date notBefore="1237-12-31" notAfter="1272-12-31"
+                            cert="medium">1237 e il 1272, in quanto posteriore all’anno in cui il
+                            notaio Buoncontro di Soliera risulta ancora vivo e anteriore alla morte
+                            del vescovo Guglielmo.</date></note>. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

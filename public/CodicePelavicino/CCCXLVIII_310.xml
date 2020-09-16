@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="CCCXLVIII_310">
+		<front xml:id="CCCXLVIII_front">
+
+			<titlePart type="numerazioneNuova">310</titlePart>
+			<titlePart type="numerazioneOrig">CCCXLVIII</titlePart>
+
+			<docDate xml:id="CCCXLVIII_docDate">
+				<date when="1235-06-09"> &lt;1235&gt; giugno 9</date>, <placeName>Carrara (<emph>in
+						ecclesia de Carraria</emph>)</placeName>
+			</docDate>
+			<div type="regesto" xml:id="CCCXLVIII_regesto">
+				<p>Guglielmo, gastaldo del vescovo di Luni Guglielmo, concede a livello a Bondie del
+					fu Alberto de Fattore, che riceve anche per la moglie Massaria, mezza giova di
+					terra posta presso il castello di Moneta al fitto annuo di 2 denari di
+					imperiali. La transazione costa 10 denari di imperiali.</p>
+			</div>
+
+			<div type="footer" xml:id="CCCXLVIII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] CP c. 306r., c. CCLXXXXVIIIr. secondo la numerazione originale</p>
+				</div>
+				<div type="biblio">
+					<p> Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+							1912</ref>, n. 348, p. 334, con data 1035 giugno 9.</p>
+				</div>
+
+				<div type="crit_notes">
+					<p>La data riportata è errata in quanto nel 1035 non poteva essere vescovo
+						Guglielmo. Il copista ha probabilmente dimenticato due C dato l’indizione
+						del 1235 è l’VIII come si legge nel documento, mentre nel 1035 sarebbe stata
+						la III: cfr. <ref target="#MAZZINI_1912">MAZZINI 1914</ref> p. 23.</p>
+					<p>Nel margine esterno, di mano moderna: Carraria</p>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">CCCXLVIII. Locationis Bondici ad denarios II
+							pensionis.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="CCCXLVIII_div">
+				<p xml:id="CCCXLVIII_p_001"> In nomine Domini, amen. <date when="1235-06-09">Anno a
+						nativitate Eius millesimo <supplied reason="omitted">CC</supplied>XXXV,
+						indictione VIII, IX die mensis iunii.</date> Ego <persName
+						ref="#Guilielmuscast">Guilielmus<roleName>, castaldio</roleName></persName>
+					domini <persName ref="#GuilEpLuni">Guilielmi<roleName>, Dei gratia Lunensis
+							episcopi</roleName>, in curia de <placeName ref="#Carrara"
+							>Carraria</placeName></persName>, habita ab eodem domino episcopo
+					licencia et mandato faciendi locationes in meo castaldatu, eius vice et nomine,
+					do et loco per libellum tibi <persName ref="#BondiesAlberti">Bondiei quondam
+						Alberti de Factore,</persName>recipienti pro te et uxore tua <persName
+						ref="#Massaria">Massaria</persName> et pro tuis et eius heredibus,
+					nominatim, mediam <term ref="#iuva">iuvam</term> terre site iuxta castrum de
+						<placeName ref="#Moneta">Moneta,</placeName> desubter domum tuam, cui
+					coheret a pede via publica, a capite relevata castri, ab uno latere quidam
+					canalis, ab alio, <note xml:id="CCCXLVIII_n_001" n="a" place="foot">
+						<term xml:lang="latin">alio</term>:<emph>Manca l'indicazione</emph></note>
+					ita ut amodo perpetuo, nomine libelli, tu tuique heredes et dicta <persName
+						ref="#Massaria">Massaria</persName> suique heredes habeatis, teneatis,
+					fruamini et possideatis totam dictam terram, sicut superius legitur, cum
+					accessibus et regressibus suis et omnibus suis pertinenciis, in integrum, sine
+					alicuius aliqua contradictione et cum rationabili deffensione suprascripti
+					domini episcopi eiusque successorum ab omni persona vel restauratione facienda
+					in bonis curie, que ad hoc obligo, in consimili loco, in arbitrio bonorum
+					hominum, prout tunc valuerit, si deffendere cum ratione non posset. Et exinde
+					teneamini dare et reddere suprascripto episcopo suisque successoribus aut cui
+					pro eius curia commissum fuerit omni anno, infra octavam nativitatis Domini,
+					fictam pensionem <measure type="imperiales" unit="denarius" quantity="2"
+						>denariorum II imperialium</measure> tantum; alia superimposita non fiat.
+					Servicium inde recepi a te, dante pro te et dicta tua uxore, <measure
+						type="imperiales" unit="solidus" quantity="10">soldos X bonorum denariorum
+						imperialium,</measure> unde do tibi licenciam intrandi inde in tenutam, tua
+					auctoritate et dicte tue uxoris; et constituo tecum ut quicumque nostrum vel
+					nostrorum successorum aut heredum unquam dictam terram tollere vel laxare aut
+					contra venire voluerit, alteri parti fidem servanti penam <measure
+						type="imperiales" unit="solidus" quantity="20">soldorum XX
+						imperialium</measure> solvat, rato manente pacto, pena soluta.</p>
+				<p xml:id="CCCXLVIII_p_002"> Actum in <orgName ref="#Carrara_S_Andrea">ecclesia de
+							<placeName ref="#Carrara">Carraria,</placeName></orgName> presentibus
+						<persName ref="#OchetusAvencia">Ocheto de <placeName ref="#Avenza"
+							>Avencia</placeName></persName>, <persName ref="#BelluciusMoneta"
+						>Bellucio de <placeName ref="#Moneta">Moneta</placeName></persName> et
+						<persName ref="#BonizoMoneta">Bonico de <placeName ref="#Moneta">eodem
+							loco</placeName></persName>, testibus ad hec rogatis.</p>
+				<p xml:id="CCCXLVIII_p_003">
+					<ptr target="#CCCXLVIII_st_001"/>Ego <persName ref="#Bonacursusnot3"
+							>Bonacursus,<roleName> sacri palacii notarius,</roleName></persName>
+					hiis interfui et rogatus scripsi.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

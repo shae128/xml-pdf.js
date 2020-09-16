@@ -1,0 +1,340 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXII_274">
+    <front xml:id="CCCXII_front">
+
+      <titlePart type="numerazioneNuova">274</titlePart>
+      <titlePart type="numerazioneOrig">CCCXII</titlePart>
+
+      <docDate xml:id="CCCXII_docDate">
+        <date when="1235-05-22">1235 maggio 22</date>, <placeName ref="#Avenza">Avenza
+            (<emph>Aventia, in ecclesia Sancti Petri</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXII_regesto">
+        <p>Guglielmo, vescovo di Luni, dietro consiglio e volontà di Arduino e Bonalbergo, consoli
+          di Carrara, e dei loro consiglieri nominati singolarmente, stabilisce i capitoli degli
+          statuti di Carrara.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 287r.-288r., c. CCLXXVIIIIr.-CCLXXXr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizioni: <ref target="#LUPO_GENTILE_1910">LUPO GENTILE 1910</ref>, pp 12-14; <ref
+              target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 312, pp. 290-294; <ref
+              target="#CONTI_1979-1988">CONTI 1979-1988</ref>, I, doc. XVI, pp. 79-84.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine superiore, al centro <term xml:lang="latin">De Carraria</term>. Nel
+            margine esterno, di mano moderna: <term xml:lang="latin">Carraria</term>.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCXII.
+              Cunstitutionum Cararie.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXII_div">
+        <pb n="287r" xml:id="fol_287r"/>
+
+        <p xml:id="CCCXII_p_002" n="2">In nomine Domini, amen. <date when="1235-05-22">Anno a
+            nativitate Eius millesimo CCXXXV, indictione VIII, die martis, XI kalendas iunii</date>.
+          Venerabilis pater dominus <persName ref="#GuilEpLuni">Guilielmus, <roleName>Dei gratia
+              Lunensis episcopus</roleName></persName>, de consilio, voluntate et consensu <persName
+            ref="#Arduinuscons">Arduini</persName> et <persName ref="#Bonalberguscons"
+            >Bonalbergi</persName>, <roleName>consulum</roleName> de <placeName ref="#Carrara"
+            >Carraria</placeName>, et eorum consiliatorum, videlicet <persName
+            ref="#UgolinusGualteronis">Ugolini</persName> et <persName ref="#GuilielmusGualteroni"
+            >Guilielmi quondam Gualteroni</persName>, <persName ref="#LanfranchinusColle"
+            >Lanfranchini de <placeName ref="#Colle">Colle</placeName></persName>, <persName
+            ref="#GerardetusGandolfini">Gerardeti quondam Gandolfini</persName>, <persName
+            ref="#GuilielminusBoscus">Guilielmini dicti Boschi</persName>, <persName
+            ref="#LeoTorano">Leonis de <placeName ref="#Torano">Torano</placeName></persName>,
+            <persName ref="#GuidoLucia">Guidonis de <placeName ref="#Lucia"
+            >Lucia</placeName></persName>, <persName ref="#VentitusTorano">Ventiti de <placeName
+              ref="#Torano">Torano</placeName></persName>, <persName ref="#GerardusPetrognano"
+            >Gerardi de <placeName ref="#Petrognano">Petrognano</placeName></persName>, <persName
+            ref="#RiccovillanusVeçale">Riccovillani de <placeName ref="#Veçale"
+            >Veçale</placeName></persName> et <persName ref="#NicholosiusBonaccursi">Nicholosii
+            Bonacursi de <placeName ref="#Biana">Biana</placeName></persName>, <persName
+            ref="#BonencontrusMiselia">Bonencontri de <placeName ref="#Miselia"
+            >Miselia</placeName></persName>, <persName ref="#Bellonus">Belloni</persName>, <persName
+            ref="#Attolinuscons">Attolini</persName> et <persName ref="#Benarelluscons"
+            >Benarelli</persName>, <persName ref="#BenvenutusCodano">Benvenuti de <placeName
+              ref="#Codena">Codano</placeName></persName> et <persName ref="#Bonavitacons"
+            >Bonavite</persName>, <persName ref="#GuilielmusPlebe">Guilielmi de <placeName
+              ref="#Plebe">la Plebe</placeName></persName>, <persName ref="#Plebanuscons"
+            >Plebani</persName> et <persName ref="#Lucanuscons">Lucani</persName>, <persName
+            ref="#BonaiunctaSorgnano">Bonaiuncte de <placeName ref="#Sorgnano"
+            >Sorgnano</placeName></persName> et <persName ref="#Vivalduscon">Vivaldi</persName> et
+            <persName ref="#Cytuscons">Cyti</persName>, <persName ref="#Bonannuscons"
+            >Bonanni</persName>, <persName ref="#Palmeriuscons">Palmerii</persName> et <persName
+            ref="#VitalisGragnano">Vitalis de <placeName ref="#Gragnano"
+            >Gragnano</placeName></persName>, <persName ref="#Gualterotuscons">Gualteroti</persName>
+          et <persName ref="#VenturaAventia">Venture de <placeName ref="#Avenza"
+            >Aventia</placeName></persName> et <persName ref="#GuilielmusLuna">Guilielmi de
+              <placeName ref="#Luni">Luna</placeName></persName>, <persName ref="#Bonaverecons"
+            >Bonavere de <placeName ref="#Biduzzano">Biduçano</placeName></persName>, <persName
+            ref="#Bonfancelluscons">Bonfancelli</persName> et <persName ref="#BaldinotusMoneta"
+            >Baldinotti de <placeName ref="#Moneta">Moneta</placeName></persName>, presentium,
+          presentis statuti capitula statuit, perpetuo valitura. Consules seu potestas, qui pro
+          tempore fuerint, antequam de consulatu se vel potestaria intromittant, iurabunt in hunc
+          modum: </p>
+        </div>
+          <div xml:id="CCCXII_div2" type="quotation">
+          <quote rend="pre(«) post(»)">Ego consul sive potestas <placeName ref="#Carrara"
+              >Carrarie</placeName> iuro ad sancta Dei Evangelia portare et regere bona fide et sine
+            omni fraude, omni malicia remota, ad voluntatem et honorem domini Lunensis episcopi,
+            consulatum seu potestariam omnium habitatorum<note xml:id="CCCXII_n_01" n="a"
+              place="foot">habitatorum: <emph>corretto su</emph>
+              habitatorium.</note> de <placeName ref="#Carrara"
+              >Carraria</placeName> et eius districtus a festo Sancte Marie Candelarum usque ad
+            annum et eligere potestatem vel consules infra annum mei consulatus sive potestarie,
+            scilicet in kalendas ianuarii, ad voluntatem domini Lunensis episcopi vel eius
+            castaldionis, qui pro tempore fuerit, et consiliatorum de <placeName ref="#Carrara"
+              >Carraria</placeName>. De omnibus querimoniis mihi oblatis iusticiam faciam et eas
+            terminabo bona fide, sine fraude, infra tempus mee potestarie vel consulatus, nisi ante
+            litem contestatem<note xml:id="CCCXII_n_02" n="b" place="foot">contestatem: <emph>così nel testo per</emph>
+              contestatam.</note> ad dominum episcopum vel eius
+            castaldionem fuerit appellatum, et quod sententiam<note xml:id="CCCXII_n_03" n="c"
+              place="foot"><emph>Segue non depennato</emph>: bo.</note> exequar nisi
+            steterit de voluntate eius, pro quo lata fuerit sententia, vel nisi ad dominum episcopum
+            vel eius castaldionem fuerit appellatum; in quibus casibus, quocumque modo fuerit
+            appellatum, ante litem contestatam vel post, sententiam ad dominum episcopum vel eius
+            castaldionem de ipsa lite vel negocio me non intromittam absque voluntate domini
+            episcopi vel eius castaldionis, set post litem contestatam per sententiam, non obstante
+            aliqua appellatione, negocium terminabo. Banna imposita, unde lamentanciam habuero,
+            tollam et non reddam, nisi de licencia domini episcopi remaneret; et medietatem domino
+            episcopo, vel eius castaldioni pro domino episcopo, dabo et aliam medietatem mihi
+            retinebo. Benutam<note xml:id="CCCXII_n_04" n="d" place="foot">Benutam: <emph>così nel testo, probabilmente per</emph>
+              tenutam</note> a domino episcopo vel castaldione suo
+            datam manutenebo ad voluntatem domini episcopi. Benutam<note xml:id="CCCXII_n_05" n="d"
+              place="foot">Benutam: <emph>così nel testo, probabilmente
+                per</emph>
+              tenutam</note> a consulibus vel potestate precedenti
+            manutenebo bona fide, sine fraude. De lamentia<note xml:id="CCCXII_n_06" n="e"
+              place="foot">lamentia: <emph>così nel testo per</emph>
+              lamentancia.</note> non accipiam nisi <measure
+              type="Imperiales" quantity="4">IIIIor imperialium</measure> tantum demum, cum lis
+            fuerit composita per negociationem, et <measure type="Imperiales" quantity="16">sedecim
+              imperialium</measure> de qualibet libra pro datia ab illo qui perdiderit tantum vel ab
+            eo pro quo steterit quod<note xml:id="CCCXII_n_07" n="f" place="foot">quod: <emph>così nel testo forse per</emph>
+              quando.</note> causa non terminabitur, et moderatas
+            expensas, si in iudicio petite fuerint, a victo victori restituam<note
+              xml:id="CCCXII_n_08" n="g" place="foot">restituam:
+                <emph>così nel testo per</emph>
+              restituere.</note> faciam. Si autem quis debitor
+            confessus fuerit de summa <measure type="Imperiales" quantity="10" unit="soldi">X
+              soldorum</measure> et infra, precipiam ei qui confessus fuerit absque vinculo
+            iuramenti, ut debitum solvat infra X dies; si autem excesserit summam <measure
+              type="Imperiales" quantity="10" unit="soldi">X soldorum</measure>, dabo terminum XX
+            dierum et infra, sicut mihi videbitur; quod si debitor in termino sibi prefixo non
+            solverit et exinde lamentanciam habuero, tollam pro banno de quolibet soldo I denarium
+            et assignabo sibi alium terminum similem, in quo, si iterum non solverit, tollam ei pro
+            banno de quolibet soldo I denarium et creditori de mobilibus suis in solitum<note
+              xml:id="CCCXII_n_09" n="h" place="foot">solitum:
+                <emph>così nel testo per</emph>
+              solutum.</note> dabo usque in summam liquidi debiti;
+            aliam datiam seu <measure type="Imperiales" quantity="4">IIIIor imperialium</measure>
+            non tollam et terminus remaneat in creditore tantum. Item si quis, citatus, non venerit
+            ad rationem faciendam in primo termino perhemptorio, solvat pro banno <measure
+              type="Imperiales" quantity="6" unit="denari">denarios VI</measure>, in secundo
+              <measure type="Imperiales" quantity="12" unit="denari">XII</measure>, in tercio
+              <measure type="Imperiales" quantity="2" unit="soldi">soldos II</measure>, et quilibet
+            terminus sit X dierum ad plus et infra X dies secundum quod consules vel potestas
+            viderint expedire; quod, si in tercio perhemptorio reus non venerit, actor doceat de
+            iure suo et consules vel potestas, sumaria cognitione prehabita et recepto sacramento
+            actoris, qui iuste se credat petere, negocium termine<supplied reason="omitted"
+              >n</supplied>t per sententiam; ac si esset contumacie annus elapsus, videlicet ut si
+            fuerit actio personalis, de bonis rei detur actori in solutum pro modo debiti declarati.
+            Si vero fuerit realis, constituatur actor verus possessor, reservata reo questione
+            proprietatis tantum. Non accipiam aliquod munus nec promissionem muneris ab aliquo donec
+            causa duraverit; non cogam actorem dare libellum de <measure type="Imperiales"
+              quantity="10" unit="soldi">X soldis imperialium</measure> vel minori summa; <pb
+              n="287v" xml:id="fol_287v"/> de maiori actor dare teneatur. In qualibet causa iuretur
+            de calumpnia ab utraque parte, si petitum fuerit, nisi agatur ad penam sanguinis.
+            Benutasd dabo, sententias exequam<note xml:id="CCCXII_n_11" n="i" place="foot">exequam: <emph>così nel testo per</emph>
+              exequar.</note> et banna tollam, ut dictum est, si tamen
+            fuerit in mobilibus eius qui fuerit condempnandus; alioquin assignabo tenutam in
+            immobilibus, salvis rationibus dominorum a quibus immobilia tenentur. Sint autem XXV
+            consiliarii <placeName ref="#Carrara">Carrarie</placeName> annuatim, qui secundum
+            infrascriptam formam eligantur, videlicet consules vel potestas de consilio
+            consiliatorum vel maioris partis eligant vel eligat tres homines quando consules vel
+            potestas electi vel electus fuerit, qui cum ipsis consulibus venturi anni eligant
+            consiliarios, quorum<note xml:id="CCCXII_n_12" n="l" place="foot">quorum: o <emph>in sopralinea</emph>.</note> consilio vel maioris partis
+            consules vel potestas facta <orgName ref="#Carrara_comune">communis</orgName> <placeName ref="#Carrara">Carrarie</placeName>
+            facere teneantur. Consiliarii electi iurabunt consulere consulibus vel potestati bona
+            fide, sine omni fraude, de omnibus et singulis de quibus consilium petitum fuerit quod
+            cognoverint magis iustum, equum et utile communi <placeName ref="#Carrara"
+              >Carrarie</placeName>; et quando negocium occurrerit communi <placeName ref="#Carrara"
+              >Carrarie</placeName>, quod isti consiliarii nollint vel non possint legitime
+            diffinire, ad illud negocium teneantur consules convocare alios XXV homines quos
+            utiliores cognoverint, qui iurent secundum eundem modum consulere ut consiliarii
+            iuraverint; et quod maior pars consiliatorum et hominum, qui sic vocati fuerint et sic
+            iuraverint, statuerit super diffiniendo negocio robur obtineat firmitatis, ita tamen
+            quod consules non facient neque consiliarii aut alii homines dabunt consilium quod sit
+            contra honores, iura vel usantias domini Lunensis episcopi. Preterea nulla societas vel
+            societates alique fiat vel fiant in districtu <placeName ref="#Carrara"
+              >Carrarie</placeName> de cetero, set omnes iurent potestati vel consulibus a XIIII
+            annis supra presens observare statutum cum suis capitulis. Si quis autem societatem
+            aliquam facere procuraverit cum effectu, <measure type="Imperiales" quantity="10"
+              unit="lire">libras X imperialium</measure> ei tollam pro banno, si tamen in bonis
+            habuerit, alias sit in banno perpetuo domini episcopi et communis <placeName
+              ref="#Carrara">Carrarie</placeName>. Ille vero qui iurabit vel obediet rectoribus
+            alicuius societatis <measure type="Imperiales" quantity="40" unit="soldi">soldos XL
+              imperialium</measure> ei tollam, et non minus societas destruatur. Homicide,
+            proditores, falsarii, forisbanniti et tricatores iudicio et voluntate domini episcopi
+            reservantur. Pueri infra pupillarem etatem constituti et curie masnadengi infrascriptis
+            bannis non ligentur. Qui, propter paupertatem, infrascripta banna solvere non
+              potueri<supplied reason="omitted">n</supplied>t, alias arbitrio domini episcopi vel
+            eius castaldionis et consulum puniantur. Banna sunt hec: si quis amputaverit alicui
+            pedem vel manum, oculum vel nasum vel in aliquo ex dictis membris mutillaverit, solvat
+            pro banno <measure type="Imperiales" quantity="20" unit="soldi">soldos XX
+              imperialium</measure>; si quis vulnus cassale vel os fregerit, perdat <measure
+              type="Imperiales" quantity="10" unit="soldi">soldos X imperialium</measure>; si quis
+            alias sanguinem fecerit, perdat <measure type="Imperiales" quantity="5" unit="soldi"
+              >soldos V imperialium</measure> et in omnibus premissis solvat medicaturam et operas
+            vel extimationem operum reficiat vulnerato; et hec omnia ita procedunt, nisi se
+            deffendendo predicta fecerit. Si quis lividum fecerit, <measure type="Imperiales"
+              quantity="3" unit="soldi">soldos III imperialium</measure> perdat. Si quis assaltum
+            fecerit cum armis studiose, <measure type="Imperiales" quantity="2" unit="soldi">soldos
+              II imperialium</measure> perdat. Si quis furtum fecerit vel guastum seu talliam vel
+            incendium, quod extimari possit a <measure type="Imperiales" quantity="6" unit="denari"
+              >VI denariis</measure> infra, perdat <measure type="Imperiales" quantity="2"
+              unit="soldi">soldos II imperialium</measure> et dampnum emendet in quadruplum de nocte
+            et in duplum de die; si autem extimari potuerit a <measure type="Imperiales"
+              quantity="6" unit="denari">VI denariiis</measure> supra, <measure type="Imperiales"
+              quantity="5" unit="soldi">soldos V imperialium</measure> perdat et dampnum emendet
+            simili modo. Si quis deieraverit de mandato specialiter facto a potestate vel consulibus
+            vel eorum nuncio, <measure type="Imperiales" quantity="5" unit="soldi">soldos V
+              imperialium</measure> perdat, et quod mandatum non minus facere teneatur. Si quis
+            aliquem detentum extraxerit sine auctoritate iudicis, <measure type="Imperiales"
+              quantity="5" unit="soldi">soldos V imperialium</measure> perdat. Si quis non fecerit
+            sacramentum consulatus in termino sibi statuto vel potestarie et harum constitutionum,
+            solvat <measure type="Imperiales" quantity="5" unit="soldi">soldos V
+              imperialium</measure> in omni termino sibi statuto. Nullus <placeName ref="#Carrara"
+              >Carrarie</placeName> pro aliqua offensa vel pro aliquo sibi debito capiat de bonis
+            alicuius, preter auctoritatem<note xml:id="CCCXII_n_13" n="m" place="foot">auctoritatem: <emph>con</emph> ct <emph>corretto su
+                precedente scrittura e con</emph> e <emph>aggiunto in sopralinea</emph>.</note>
+            domini episcopi vel castaldionis seu consulum; si quis contra fecerit, perdat <measure
+              type="Imperiales" quantity="5" unit="soldi">soldos V imperialium</measure>. Consules
+            tamen et castaldio requisiti teneantur facere stasiri de bonis creditoris, si<note
+              xml:id="CCCXII_n_14" n="n" place="foot">si: <emph>segue
+                non depennato</emph>
+              in.</note> inventa fuerint in districtu <placeName
+              ref="#Carrara">Carrarie</placeName>, usque in summam debiti liquidi. Et si aliquis de
+            districtu <placeName ref="#Carrara">Carrarie</placeName> non potuerit habere rationem de
+            debitore suo, postquam commune <placeName ref="#Carrara">Carrarie</placeName> vel
+            castaldio scripserit bis potestati vel consulibus terre debitoris, ipsi consules vel
+            castaldio sumatim de debito cognoscant et liquidum, si fuerit, teneantur facere stasiri
+            de bonis illorum debitoris sive hominum terre debitoris usque in summam liquidi debiti;
+            et si monitus debitor ipsa bona <pb n="288r" xml:id="fol_288r"/> non recuperaverit infra
+            mensem tempore monitionis, ipsa bona creditori in solitum<note xml:id="CCCXII_n_10"
+              n="h" place="foot">solitum: <emph>così nel testo
+                per</emph>
+              solutum.</note> dentur, dummodo debitor non sit de
+            iurisdictionibus domini episcopi: in quo casu in ipsius domini episcopi curia suam
+            iusticiam prosequatur. Item quicumque iuraverit aut noverit non recipere consulatum aut
+            aliud officium communis vel non esse consiliarius seu non iurare consulibus vel portare
+            officium secundum formam statuti, perdat <measure type="Imperiales" quantity="5"
+              unit="soldi">soldos V imperialium</measure> et non minus iuret et accipiat officium;
+            et hoc in quolibet termino sibi prefixo. Item cum statutum sit quod omnes homines de
+              <placeName ref="#Carrara">Carraria</placeName>, exceptis illis de <placeName
+              ref="#Casapoci">Casapoci</placeName> et de <placeName ref="#Noceto"
+            >Noceto</placeName>, de <placeName ref="#Fonti">Functi</placeName>, de <placeName
+              ref="#Beriola">Beriola</placeName> et de <placeName ref="#Colonnata"
+              >Columnata</placeName>, debeant facere ortulatum de cepollis, porinis et brassecis a
+            ponte de <placeName ref="#Veçale">Veçale</placeName> et a <placeName
+              ref="#Groppo_Talliato">Groppo Talliato</placeName> et a <placeName
+              ref="#Groppino_Lutignano">Groppino de Lutignano</placeName> inferius, <measure
+              type="Imperiales" quantity="2" unit="soldi">soldos II imperialium</measure> ei tollam
+            qui ortulatum non fecerit, ut dictum est, si terram habuerit a <placeName
+              ref="#Capranello">Capranello</placeName> citra et a <placeName ref="#Mulnato"
+              >Munlato</placeName> citra et a dictis confinibus inferius; a bannis ortulatus
+            excipiuntur vidue et pupilli, scilicet si voluerint facere ortulatum. Item quecumque
+            persona de districtu <placeName ref="#Carrara">Carrarie</placeName> intraverit in ortum
+            alterius sine domino vel domina orti vel eius nuncii<note xml:id="CCCXII_n_15" n="o"
+              place="foot">nuncii: <emph>così nel testo, probabilmente
+                per</emph>
+              nunciis
+              <emph>o</emph>
+              nuncio.</note> et acceperit inde brassicas vel porinas
+            vel cepollas vel alea, poros vel caules, <measure type="Imperiales" quantity="2"
+              unit="soldi">soldos II imperialium</measure> ei tollam, et dampnum faciam emendari si
+            mihi fuerit nunciatum ab aliquo meo iurato vel iuratis sub sacramento quo mihi tenetur
+            vel ab aliqua alia persona que hoc per sacramentum monstrare voluerit. Alia vero banna
+            et pauperes, qui non possint solvere penam, sint in voluntate potestatis vel consulum.
+            Turmam porcorum non permittam stare in districtu <placeName ref="#Carrara"
+              >Carrarie</placeName> a <placeName ref="#Groppo_Talliato">Groppo Talliato</placeName>
+            et a ponte de <placeName ref="#Veçale">Veçale</placeName> inferius et a <placeName
+              ref="#Casalechio">Casalechio</placeName> et a <placeName ref="#Groppino_Lutignano"
+              >Groppino de Lutignano</placeName> inferius; turmam vero intelligimus que porcarium
+            habet, et si aliqua persona ultra meam voluntatem tenuerit et ipsam non removerit ad
+            terminum quem sibi statuero, unum porcum de turma interfecero ad omnem terminum quem ei
+            dedero. Item si quis vir vel aliqua mulier iverit cum aliqua muliere per lignum, solvat
+              <measure type="Imperiales" quantity="5" unit="soldi">soldos V imperialium</measure>,
+            ei tollam nisi fuerit de <placeName ref="#Carrara">Carraria</placeName>, unde due
+            cartule uno eodemque tenore sunt eo anno que virum accipiat<note xml:id="CCCXII_n_16"
+              n="p" place="foot">unde due cartule-virum accipiat:
+                <emph>la frase sembra non avere corrispondenza con il testo, forse l’amanuense ha
+                copiato per errore da un altro contesto o ha saltato uno o più righe
+                dell'antigrafo</emph>.</note>. Item laborerio<note xml:id="CCCXII_n_17" n="q"
+              place="foot">laborerio: <emph>così nel testo per</emph>
+              laborerium.</note> ecclesie de <placeName ref="#Carrara"
+              >Carraria</placeName> toto tempore mee potestarie vel consulatus manutenebo et meos
+            iuratos manuteneri faciam, et de rebus ipsius laborerii non expendam nec expendi faciam
+            nisi in facto laborerii; et similiter faciam iurare successorem meum vel successores.
+            Item si quando placuerit domino episcopo et consiliatoribus <placeName ref="#Carrara"
+              >Carrarie</placeName> addere vel minuere aut mutare in hoc breve pro honore domini
+            episcopi et commoditate terre, eis liceat; et de addito tenear, de diminuto absolvar.
+            Hec omnia observabo bona fide et sine omni fraude ad voluntatem et honorem domini
+            Lunensis episcopi et utilitatem communis de <placeName ref="#Carrara"
+              >Carraria</placeName>. Sic Deus me adiuvet et Eius sancta evangelia, salvis rationibus
+            et usantiis curie. Item si qua<note xml:id="CCCXII_n_18" n="r" place="foot">qua: <emph>così nel testo, forse per</emph>
+              aliqua.</note> persona, nisi fuerit pater vel mater,
+            sorores vel fratres, aut avunculus vel avuncula vel cognate etiam, eo die quo sponsa
+            post nuptias se ecclesie presentaverit, iverit ad domum sponse cum artoclea vel sine
+            artoclea ad comedendum, <measure type="Imperiales" quantity="5" unit="soldi">soldos V
+              imperialium</measure> ei tollam et non reddam.</quote></div>
+          
+        <div xml:id="CCCXII_div3">
+        <p xml:id="CCCXII_p_003" n="3">Actum <placeName ref="#Avenza">Aventia</placeName>, in
+            <orgName ref="#Avenza_S_Pietro">ecclesia Sancti Petri</orgName>, presentibus <persName
+            ref="#DuransRipa">Durante de la <placeName ref="#Ripa">Ripa</placeName></persName>,
+            <roleName>magistro</roleName>
+          <persName ref="#VenturaBiduçano">Ventura de <placeName ref="#Biduzzano"
+              >Biduçano</placeName></persName> et <persName ref="#IacopinusMaladice">Iacopino dicto
+            Maladice</persName>, testibus ad hoc rogatis.</p>
+        <p xml:id="CCCXII_p_004" n="4"><ptr target="#CCCXII_st_001"/> Ego <persName
+            ref="#Bonacursusnot3">Bonacursus, <roleName>sacri palacii
+          notarius</roleName></persName>, predictis omnibus et singulis interfui et rogatus scripsi.
+        </p>
+      </div>
+
+    </body>
+  </text>
+</TEI>

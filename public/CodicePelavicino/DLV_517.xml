@@ -1,0 +1,401 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="DLV_517">
+        <front xml:id="DLV_front">
+
+            <titlePart type="numerazioneNuova">517</titlePart>
+            <titlePart type="numerazioneOrig">DLV</titlePart>
+
+            <docDate xml:id="DLV_docDate">
+                <date from="1238-12-18" to="1239-12-31">&#60;1238 dicembre 18 - 1239 dicembre
+                    31&#62;</date>
+            </docDate>
+
+            <div type="regesto" xml:id="DLV_regesto">
+                <p>Sintesi delle ragioni riguardanti la lite tra il vescovo di Luni, rappresentato
+                    da Gerardetto Montone, e il monastero di San Michele di Orticaria di Pisa,
+                    rappresentato da Benetto, relativamente alla chiesa e monastero di Santa Croce
+                    del Corvo, esposte di fronte a Berengario preposito di San Giminiano, giudice
+                    delegato del vescovo di Firenze, a sua volta delegato dal pontefice.</p>
+            </div>
+
+            <div type="footer" xml:id="DLV_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 405v.-406v., cc. CCCLXXXXVIIv.-CCCLXXXXVIIIv. secondo la
+                        numerazione originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 555, pp. 633-634.</p>
+                </div>
+
+                <div type="crit_notes">
+                    <p>Il documento è privo di sottoscrizione notarile e interrotto. Al suo interno
+                        presenta diverse date che segnano l’esposizione delle ragioni delle parti al
+                        giudice subdelegato. La prima data menzionata - <term xml:lang="latin"
+                            >MCCXXXVIII, indictione XII, XV kalendas ianuarii</term> – pone qualche
+                        problema in quanto l’indizione non corrisponde all’anno e al giorno, a meno
+                        di non prendere in considerazione lo stile dell’incarnazione fiorentino, che
+                        tuttavia non viene usato negli altri casi. E’ invece presumibile che il
+                        copista abbia tralasciato un asticella dell’anno: presumendo lo stile pisano
+                        dell’incarnazione la data sarebbe quindi da sciogliere al 1238 dicembre 18.
+                        La seconda data – 1239 febbraio 14 - indica invece l’inizio della
+                        discussione tra i contendenti e precede la lista delle rispettive posizioni.
+                        La terza – 1239 febbraio 15 – è presa da punto di riferimento dai
+                        contendenti per datare l’elezione ad abate di Santa Croce del monaco Pace,
+                        fatta 11 mesi prima (quindi nel gennaio 1238), che il rappresentante del
+                        vescovo sostiene invece essere stata fatta il 25 marzo 1238 (quarta data).
+                        Il documento dovrebbe essere stato redatto poco dopo la data più recente
+                        (1239 febbraio 15), certamente prima della definizione della lite nel 1257
+                        dicembre 29. Il Lupo Gentile propone la data “1240, ind. XIII” (<ref
+                            target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, p. 633); per
+                        Mazzini (<ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 38), invece, il
+                            <term xml:lang="latin">terminus post quem</term> potrebbe essere il 26
+                        dicembre 1239, così interpretando il <term xml:lang="latin">prima die
+                            lune</term> XL indicato come scadenza di una pratica, da noi invece
+                        interpretabile come il 14 febbraio 1239. </p>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">DLV. Positiones et alia data et allegata in causa
+                            vertente inter dominum episcopum et monasterium de Corbo.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="DLV_div">
+                <p xml:id="DLV_p_001" n="1">Coram vobis <persName ref="#Beringerius_prepositus"
+                                ><expan>B<ex>eringerio</ex></expan></persName>,
+                        <roleName>preposito</roleName>
+                    <orgName ref="#SanGimignano_S_Maria_Assunta"><placeName ref="#San_Gimignano"
+                            >Sancti Geminiani</placeName></orgName>, <roleName>subdelegato domini
+                        episcopi</roleName>
+                    <persName ref="#ArdengusTrottiEp">Florentini</persName>, <roleName>domini Pape
+                        iudicis delegati</roleName>, <persName ref="#Benettus_monacus"
+                        >Benettus</persName>, <roleName>conversus et syndicus monasterii et
+                        ecclesie</roleName>
+                    <orgName ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis de <placeName
+                            ref="#Orticaria">Orticaria</placeName></orgName>, <orgName
+                        ref="#Pisa_diocesi"><placeName ref="#Pisa">Pisane</placeName>
+                        dyocesis</orgName>, syndicatus nomine pro ipso monasterio, agendo contra
+                        <persName ref="#GerardetusMontoni">Gerardetum dictum Montonem</persName>,
+                        <roleName>syndicum vel procuratorem sive responsalem vel actorem domini
+                        episcopi et episcopatus Lunensis</roleName>, procuratorio et syndicatus
+                    nomine pro ipso episcopo et episcopatu, et nunc ipsum<note place="foot" n="a"
+                        xml:id="DLV_n_001"> ipsum: i <emph>corretto su precedente
+                        scrittura.</emph></note> episcopum et episcopatum, petit a vobis
+                    suprascripto subdelegato quatenus ex officio subdelegationis vobis commisse
+                    sententiam vel pronunciatum sive dictum, si sententia vel pronunciatum sive
+                    dictum dici potest, latam vel latum ab <persName ref="#AttoCampigiola"
+                        >Attone</persName>, <roleName>canonico</roleName>
+                    <orgName ref="#Campiliola_S_Maria">plebis de <placeName ref="#Campiliola"
+                            >Campiliola</placeName></orgName>
+                    <note place="foot" n="b" xml:id="DLV_n_002">plebis de Campiliola:<emph> nel
+                            testo</emph>
+                        <term xml:lang="latin">de Campiliola plebis</term><emph> con segno di
+                            richiamo per invertire l’ordine delle parole.</emph></note>,
+                        <roleName>iudice subdelegato</roleName>, sicut dicitur,
+                        <roleName>domini</roleName>
+                    <persName ref="#PetrusFesso">Petri</persName>
+                    <roleName>archipresbyteri</roleName> de <persName
+                        ref="#_Faustino_Giovita_Erberia"><placeName ref="#Erberia"
+                            >Herberia</placeName>, domini pape</persName>, ut dicitur, iudicis
+                    delegati pro domino episcopo Lunensi, pro ipso episcopo et episcopatu vel eius
+                    procuratore, contra predictum monasterium et ecclesiam <orgName
+                        ref="#Corvo_S_Croce">Sancte Crucis de Corvo</orgName> vel eius syndicum,
+                    quod et que ad dictum monasterium <orgName ref="#Pisa_S_Michele_Orticaria"
+                        >Sancti Michaelis</orgName> pertinet pleno iure et nullo mediante et contra
+                    monasterium predictum <orgName ref="#Pisa_S_Michele_Orticaria">Sancti
+                        Michaelis</orgName>, pronuncietis nullam vel nullum et nullius esse momenti
+                    et de iure non valuisse nec tenuisse aut valere nec tenere et, si aliqua vel
+                    aliquod apparet, pronuncietis iniustam vel iniustum in eo quod est contra
+                    predicta monasteria vel aliquod eorum et ab ea vel eo iuste appellatum fuisse.
+                    Petit etiam ab eodem expensas litis factas et faciendas suprascriptaque omnia et
+                    singula petit et de suprascriptis agit omnibus iuribus et rationibus sibi pro
+                    predictis ecclesiis et monasteriis et ipsis ecclesiis et monasteriis et cuique
+                    eorum competentibus et competituris et etiam iure canonico et legibus et
+                    condictionibus earum et iudicis subdelegati officio, salvo iure addendi,
+                    mutandi, corrigendi et aliam vel alias petitiones faciendi.</p>
+                <p xml:id="DLV_p_002" n="2">§ Qui <persName ref="#GerardetusMontoni"
+                        >Gerardetus</persName>, non consentiendo in dominum prepositum tanquam in
+                    iudicem, salvis omnibus exceptionibus suis, ad quas proponendas petiit terminum
+                    competentem, recepit libellum; unde dictus dominus prepositus dedit et
+                    assignavit terminum perhemptorium dicto procuratori ad proponendas omnes
+                    exceptiones dilatorias et ad deliberandum super carta syndicatus dicti
+                    monasterii et super rescripto domini pape et instrumento subdelegationis vel ad
+                    respondendum libello, hinc scilicet VII idus ianuarii coram eo, set dictus
+                        <persName ref="#GerardetusMontoni">Gerardetus</persName> tali termino non
+                    consensit, immo, dicens indebite se gravari propter brevitatem termini et quia
+                    dies sunt feriati, ad sedem apostolicam appellavit.</p>
+                <p xml:id="DLV_p_003" n="3">Actum in claustro <orgName
+                        ref="#SanGimignano_S_Maria_Assunta">plebis Sancti Geminiani</orgName>, coram
+                        <persName ref="#GuiciardusGuiciardi_not">Guiciardo</persName>
+                    <roleName>notario</roleName> et <persName ref="#GalgariettusScotes">Galgarietto
+                        Scotes</persName> et dicto <persName ref="#Benettus_monacus">Berandone<note
+                            place="foot" n="c" xml:id="DLV_n_003"> Berandone: <emph>così nel
+                                testo.</emph></note></persName> suprascripto, <date
+                        when="1238-12-18">XMCCXXXVIII, indictione XII, XV kalendas ianuarii</date>.
+                    Terminus respondendi ad hunc libellum <date when="1239-02-01">prima die lune
+                            XL<note> Data di scadenza per dare risposta alla prima lista di ragioni
+                            riguardanti la lite tra il vescovo di Luni e il monastero di San Michele
+                            di Orticaria di Pisa relativamente alla chiesa e monastero di Santa
+                            Croce del Corvo. Si indica il primo lunedì passati 40 giorni dalla data
+                            del 18 dicembre 1238.</note></date>. </p>
+                <p xml:id="DLV_p_004" n="4">§ <persName ref="#GerardetusMontoni"
+                        >Gerardetus</persName>, procurator et syndicus domini <persName
+                        ref="#GuilEpLuni">Guilielmi</persName>, <roleName>episcopi
+                        Lunensis</roleName>, et episcopatus, syndicatus nomine pro ipsis, negat vos,
+                        <roleName>domine</roleName>
+                    <persName ref="#Beringerius_prepositus">
+                        <expan>B<ex>eringerio</ex></expan></persName>,
+                        <roleName>preposite</roleName>
+                    <orgName ref="#SanGimignano_S_Maria_Assunta">Sancti Geminiani</orgName>, debere
+                    facere ea vel aliquod eorum que petuntur seu petitur a <persName
+                        ref="#Benettus_monacus">Benetto</persName>, <roleName>syndico</roleName>
+                    <orgName ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis de <placeName
+                            ref="#Orticaria">Orticaria</placeName></orgName>, vel in suo libello
+                    continentur cum ei non sit ius petendi que petit nec appellaverit et, si
+                    appareret ipsum appellasse, cum sciverit causam tractari inter episcopum et
+                    episcopatum Lunensem et <orgName ref="#Corvo_S_Croce">monasterium Sancte Crucis
+                        de Corvo</orgName>, non se proposuerit nec infra legitima ipsa<note
+                        place="foot" n="d" xml:id="DLV_n_004"> ipsa: <emph> così nel testo, forse
+                            per</emph> tempora</note> appellaverit et aliam<note place="foot" n="e"
+                        xml:id="DLV_n_005"> aliam: <emph>così nel testo per</emph> alias</note>
+                    iuste et de iure et canonice lata sententia fuerit pro Lunensi episcopo et
+                    episcopatu. Ideo petit ut ipsam sententiam confirmetis, pronunciantes, si
+                    constiterit vobis appellatio a parte adversa male appellata et bene iudicata, et
+                    petit expensas cause factas et faciendas.</p>
+                <p xml:id="DLV_p_005" n="5">§ <persName ref="#Benettus_monacus">Benectus</persName>
+                    predictus, <roleName>syndicus et procurator</roleName>
+                    <orgName ref="#Pisa_S_Michele_Orticaria">monasterii et ecclesie Sancte
+                        Michaelis</orgName>, supra se <note place="foot" n="f" xml:id="DLV_n_006"
+                        >supra se: <emph>così nel testo per</emph> suprascripte</note> syndicatus et
+                    procuratorio nomine pro suprascripto monasterio, negat dictam sententiam esse
+                    confirmandam et negat male appellatum esse et etiam negat se teneri ad expensas
+                    supra petitas a parte adversa; et dictus <persName ref="#GerardetusMontoni"
+                        >Gerardetus</persName> replicat male appellatum et dictam sententiam
+                    confirmandam. </p>
+                <p xml:id="DLV_p_006" n="6">§ Lis cepta est super utraque petitione coram
+                        <roleName>domino</roleName>
+                    <persName ref="#Beringerius_prepositus">Beringerio</persName> suprascripto,
+                        <persName ref="#ArdengusTrottiEp"><roleName>iudice delegato domini
+                            episcopi</roleName>
+                        <orgName ref="#Firenze_diocesi"><placeName ref="#Firenze"
+                                >Florentini</placeName></orgName></persName>, <roleName>iudicis
+                        domini pape delegati</roleName>, <date when="1239-02-14"> MCCXXXIX,
+                        indictione XII, XVI kalendas martii.</date> || <pb n="406r"
+                        xml:id="fol_406r"/></p>
+                <p xml:id="DLV_p_007" n="7">§ Ponit <persName ref="#Benettus_monacus"
+                        >Benettus</persName> quod <orgName ref="#Corvo_S_Croce">monasterium Sancte
+                        Crucis de Corvo</orgName> pertinet pleno iure ad monasterium <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis de <placeName
+                            ref="#Orticaria">Orticaria</placeName></orgName>
+                    <placeName ref="#Pisa">Pisarum</placeName>; <persName ref="#GerardetusMontoni"
+                        >Gerardetus</persName> non credit. Item ponit quod abbas et capitulum
+                        <orgName ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis</orgName> predicti
+                    posuerunt rectorem in prefato <orgName ref="#Corvo_S_Croce">monasterio Sancte
+                        Crucis</orgName> cum dictum <orgName ref="#Corvo_S_Croce">monasterium Sancte
+                        Crucis</orgName> vacavit et hoc fecerunt a XLVI annis citra. Respondit: in
+                    quantum viderit legitimam probationem confitetur de facto; quam, si viderit,
+                    negat de iure valere, et aliter negat. Interrogatus descendendo usque ad I
+                    annum, respondit ut supra. Item ponit quod dicti abbas et capitulum a predicto
+                    tempore citra pro sue voluntatis arbitrio removerunt quando voluerunt rectorem
+                    dicti <orgName ref="#Corvo_S_Croce">monasterii Sancte Crucis</orgName>, faciendo
+                    eos venire ad dictum monasterium <orgName ref="#Pisa_S_Michele_Orticaria">Sancti
+                        Michaelis</orgName>. Negat. Et hoc fecerunt absque scientia et voluntate
+                    monachorum dicti <orgName ref="#Corvo_S_Croce">monasterii Sancte
+                        Crucis</orgName>. Negat. Item ponit quod dicti abbas et capitulum a predicto
+                    tempore citra posuerunt et removerunt pro sue voluntatis arbitrio monachos in
+                    dicto <orgName ref="#Corvo_S_Croce">monasterio Sancte Crucis</orgName>. Negat.
+                    Item ponit quod dicti abbas et capitulum <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis</orgName> a predicto
+                    tempore citra pro sue voluntatis arbitrio deposuerunt<note place="foot" n="g"
+                        xml:id="DLV_n_007">deposuerunt: <emph> così nel testo per</emph>
+                        disposuerunt, <emph>cfr. più avanti nel testo.</emph></note>de temporalibus
+                    et spiritualibus in dicto <orgName ref="#Corvo_S_Croce">monasterio Sancte
+                        Crucis</orgName>. Negat. Item ponit quod dictum <orgName
+                        ref="#Corvo_S_Croce">monasterium Sancte Crucis</orgName> stetit a predicto
+                    tempore citra usque ad tempus mote litis a suprascripto episcopo Lunensi contra
+                    monachos <orgName ref="#Corvo_S_Croce">Sancte Crucis</orgName> absque aliqua
+                    obedientia facta a rectore dicti monasterii <orgName ref="#Corvo_S_Croce">Sancte
+                        Crucis</orgName> episcopo Lunensi. Negat. Item ponit quod rector et
+                        monachi<note place="foot" n="h" xml:id="DLV_n_008"> monachi:<emph> corretto
+                            su precedente scrittura.</emph></note> predicti <orgName
+                        ref="#Corvo_S_Croce">monasterii Sancte Crucis</orgName> a predicto tempore
+                    citra responderunt in spiritualibus et temporalibus abbati <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis de <placeName
+                            ref="#Orticaria">Orticaria</placeName></orgName>. In quantum viderit et
+                    cetera, ut supra. Item ponit quod post sententiam sive pronunciatum vel dictum
+                    quam vel quod dominus <persName ref="#AttoCampigiola">Atto</persName>,
+                        <roleName>canonicus</roleName> de <placeName ref="#Campiliola"><orgName
+                            ref="#Campiliola_S_Maria">Campiliola</orgName></placeName>, subdelegatus
+                    ut dicebat domini <persName ref="#PetrusFesso">Petri</persName>, tunc
+                        <roleName>archipresbyteri</roleName> de <placeName ref="#Erberia"
+                        >Herberia</placeName> vel <roleName>episcopi</roleName>
+                    <placeName ref="Terdona">Terdonensis</placeName>, qui se dicebat summi
+                    pontificis delegatus, tulit pro domino episcopo Lunensi vel eius syndico et
+                    contra dictum <orgName ref="#Corvo_S_Croce">monasterium Sancte Crucis</orgName>,
+                    si sententia aut pronunciatum sive dictum dici potest, prefatus dominus
+                    episcopus Lunensis ivit ad prefatum <orgName ref="#Corvo_S_Croce">monasterium
+                        Sancte Crucis</orgName> et quasdam novitates ibi fecit, videlicet recipiendo
+                    obedientiam a rectore et monachis ipsius loci et confirmandam<note place="foot"
+                        n="i" xml:id="DLV_n_009">confirmandam: <emph>così nel testo, probabilmente
+                            per</emph> confirmando</note> quemdam <roleName>donnum</roleName>
+                    <persName ref="#Pax_abbas">Pacem</persName>, <roleName>monachum</roleName> dicti
+                        <orgName ref="#Corvo_S_Croce">monasterii Sancte Crucis</orgName>, de facto
+                    electum in abbatem dicti loci a monachis ipsius loci dicti <orgName
+                        ref="#Corvo_S_Croce">monasterii Sancte Crucis</orgName>. Confitetur quod
+                    episcopus ivit ad <orgName ref="#Corvo_S_Croce">monasterium Sancte
+                        Crucis</orgName> de voluntate monachorum, recepit obedientiam ab eisdem et
+                    instituit <roleName>donnum</roleName>
+                    <persName ref="#Pax_abbas">Pacem</persName>
+                    <roleName>abbatem</roleName> in illo loco, sicut de iure fuerat faciendum; et
+                    aliter et alia et alio modo negat. Item ponit quod post dictam sententiam seu
+                    pronunciatum vel dictum, si sententia sive pronunciatum sive dictum dici potest,
+                    dominus episcopus Lunensis absolvit de facto monachos dicti loci <orgName
+                        ref="#Corvo_S_Croce">Sancte Crucis</orgName> excomunicatos ab abbate et
+                    capitulo <orgName ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis de <placeName
+                            ref="#Orticaria">Orticaria</placeName></orgName>. <persName
+                        ref="#GerardetusMontoni">Gerardetus</persName> negat excomunicatos fuisse de
+                    iure nisi viderit legitimam probationem; quam, si viderit de facto, negat de
+                    iure fuisse et confitetur quod episcopus absolvit eos sicut de iure faciendum
+                    fuit. Item ponit quod abbas et capitulum <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis</orgName> predicti
+                    excomunicaverunt quosdam ex monachis et ministris dicti loci <orgName
+                        ref="#Corvo_S_Croce">Sancte Crucis</orgName> cum necessarium fuit et eos ab
+                    ipsa excomunicatione absolverunt et hoc fecerunt pluries a predicto tempore.
+                        <persName ref="#GerardetusMontoni">Gerardetus</persName>: in quantum viderit
+                    legitimam probationem de facto confitetur, quam, si viderit, negat de iure
+                    valere; aliter negat. Item ponit quod rector et monachi <orgName
+                        ref="#Corvo_S_Croce">Sancte Crucis</orgName>, qui pro tempore fuerunt in
+                    dicto monasterio, prestiterunt et fecerunt obedientiam abbati et capitulo
+                        <orgName ref="#Pisa_S_Michele_Orticaria">monasterii Sancti
+                        Michaelis</orgName> suprascripti et hoc fecerunt a predicto tempore usque ad
+                    tempus litis predicte. Respondit ut supra. Item ponit quod abbas et capitulum
+                        <orgName ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis</orgName>
+                    suprascripti tempore suprascripte sententie sive pronunciati vel dicti, si
+                    sententia vel pronunciatum seu dictum dici potest, erant in possessione vel
+                    quasi possessione iuris ponendi et instituendi et removendi in dicto <orgName
+                        ref="#Corvo_S_Croce">monasterio Sancte Crucis</orgName> rectorem et monachos
+                    et recipiendi ab eis obedientiam et disponendi ibidem de spiritualibus et
+                    temporalibus ad voluntatem et arbitrium abbatis et capituli <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis</orgName> predicti et
+                    excomunicandi et absolvendi eosdem monachos et rectorem <orgName
+                        ref="#Corvo_S_Croce">Sancte Crucis</orgName>. Respondit ut supra. Item ponit
+                    quod abbas et capitulum <orgName ref="#Pisa_S_Michele_Orticaria">Sancti
+                        Michaelis</orgName> predicti aliquando posuerunt et instituerunt in dicto
+                        <orgName ref="#Corvo_S_Croce">monasterio Sancte Crucis</orgName> rectorem et
+                    monachos <note place="foot" n="l" xml:id="DLV_n_010"> posuerunt et instituerunt
+                        in dicto monasterio Sancte Crucis rectorem et monachos: <emph>nel testo
+                        </emph>posuerunt in dicto monasterio Sancte Crucis rectorem et monachos et
+                        instituerunt <emph>con segno di richiamo per invertire l’ordine delle
+                            parole.</emph></note>. Respondit <persName ref="#GerardetusMontoni"
+                        >Gerardetus</persName>: in quantum et cetera. Item ponit quod aliquando
+                    removerunt eos. <persName ref="#GerardetusMontoni">Gerardetus</persName> negat
+                    ut supra. Item quod aliquando receperunt ab eis obedientiam. <persName
+                        ref="#GerardetusMontoni">Gerardetus</persName> negat ut supra. Item quod
+                    aliquando disposuerunt ibidem de spiritualibus et temporalibus ad voluntatem et
+                    arbitrium abbatis et capituli <orgName ref="#Pisa_S_Michele_Orticaria">Sancti
+                        Michaelis</orgName> predicti. <persName ref="#GerardetusMontoni"
+                        >Gerardetus</persName> negat. Item quod aliquando excomunicaverunt et
+                    absolverunt monachos et rectorem <orgName ref="#Corvo_S_Croce">Sancte
+                        Crucis</orgName> sive quosdem ex eis. <persName ref="#GerardetusMontoni"
+                        >Gerardetus</persName> respondit quod in quantum et cetera. Item ponit quod
+                        <roleName>donnus</roleName>
+                    <persName ref="#Luca_monacus">Lucas</persName>, tunc <roleName>rector
+                        suprascripti</roleName>
+                    <orgName ref="#Corvo_S_Croce">monasterii Sancte Crucis</orgName>, excomunicavit
+                        <roleName>donnum</roleName>
+                    <persName ref="#MichaelSarzana">Michaelem de <placeName ref="#Sarzana"
+                            >Sarzana</placeName></persName>, <supplied reason="omitted"
+                        >monachum</supplied>
+                    <orgName ref="#Corvo_S_Croce">Sancte Crucis</orgName>, et quod abbas predictus
+                    ab omni excomunicatione absolvit ipsum. <persName ref="#GerardetusMontoni"
+                        >Gerardetus</persName> negat. Item ponit de <roleName>donno</roleName>
+                    <persName ref="#GuilielmusGragnana_monacus"><expan>G<ex>uilielmo</ex></expan>
+                    </persName> de <placeName ref="#Gragnana">Gragnana</placeName> olim
+                        <roleName>monacho</roleName>
+                    <orgName ref="#Corvo_S_Croce">Sancte Crucis</orgName>; <persName
+                        ref="#GerardetusMontoni">Gerardetus</persName> negat. Item ponit quod illam
+                    absolutionem quam episcopus Lunensis fecit de monachis predictis, sicut
+                        <persName ref="#GerardetusMontoni"
+                        ><expan>G<ex>erardetus</ex></expan></persName> suprascriptus <note
+                        place="foot" n="m" xml:id="DLV_n_011"> Gerardetus suprascriptus: <emph>nel
+                            testo</emph> suprascriptus Gerardetus <emph>con segno di richiamo per
+                            invertire l’ordine delle parole.</emph></note> confessus fuit, fecit eam
+                    ab excomunicatione quam dictus abbas in eos tulerat de iure vel de facto.
+                        <persName ref="#GerardetusMontoni">Gerardetus</persName> negat excomunicatos
+                    dictos monachos et, si apparuerit, de facto fuit et non de iure et episcopus
+                    absolvit eos ab illa que apparuerit sive de iure sive de facto, sicut de iure
+                    fuit faciendum. Item ponit quod predictam absolutionem quam episcopus dictus
+                    fecit, ut supradictus <persName ref="#GerardetusMontoni">Gerardetus</persName>
+                    dixit, de monachis predictis et obedientiam quam dictus episcopus recepit a
+                    rectore et monachis predictis, ut suprascriptus <persName
+                        ref="#GerardetusMontoni">Gerardetus</persName> dixit, et institutionem quam
+                    fecit de dicto <roleName>donno</roleName>
+                    <persName ref="#Pax_abbas">Pace</persName>
+                    <roleName>in abbatem</roleName> dicti loci <orgName ref="#Corvo_S_Croce">Sancte
+                        Crucis</orgName>, ut suprascriptus <persName ref="#GerardetusMontoni"
+                        >Gerardetus</persName> dixit, fecit dictus episcopus ab <date
+                        when="1238-01-01">XI mensibus citra<note>Data proposta per la nomina del
+                            monaco Pace ad abate di S. Croce del Corvo.</note></date>
+                    <date when="1239-02-15"> M°CC°XXXIX° indictione XII, XV kalendas martii
+                            <note>Data usata come riferimento per indicare la nomina dell’abate di
+                            S. Croce del Corvo, fatta 11 mesi prima.</note></date>. Respondit
+                        <persName ref="#GerardetusMontoni"
+                        ><expan>G<ex>erardetus</ex></expan></persName> quod dicta institutio abbatis
+                    fuit facta <date when="1238-03-25">anno a nativitate MCCXXXVIII, VII
+                            kalendas<note> Data proposta per la nomina dl monaco Pace ad abate di S.
+                            Croce del Corvo.</note> aprilis, indictione XI</date>, et obedientia et
+                    absolutio eadem die, anno et mense; aliter et alia negat. <pb n="406v"
+                        xml:id="fol_406v"/> Item ponit quod <roleName>donnus</roleName>
+                    <persName ref="#Luca_monacus">Lucas</persName>, <roleName>rector</roleName>
+                    <orgName ref="#Corvo_S_Croce">monasterii Sancte Crucis</orgName>, fuit positus
+                    et institutus in rectorem ipsius loci ab abbate <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis</orgName> suprascripti et
+                    quod dictus <roleName>donnus</roleName>
+                    <persName ref="#Luca_monacus">Lucas</persName> prestitit et fecit obedientiam
+                    dicto abbati. <persName ref="#GerardetusMontoni">Gerardetus</persName> de
+                    voluntate episcopi Lunensis confitetur et quod fuit institutus in quantum ad
+                    regularem disciplinam confitetur; et aliter et alia negat. Idem ponit de
+                        <roleName>donno</roleName>
+                    <persName ref="#Symon_monacus">Symone</persName>. <persName
+                        ref="#GerardetusMontoni">Gerardetus</persName> idem dicit de eodem <persName
+                        ref="#Symon_monacus">Symone</persName>. Item ponit quod monachi nunc
+                    existentes in dicto <orgName ref="#Corvo_S_Croce">monasterio Sancte
+                        Crucis</orgName> fuerunt ibi positi ab abbate <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis</orgName> suprascripti et
+                    quod dicti monachi habitum monachationis susceperunt a dicto abbate <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis</orgName> et in ipsa
+                    ecclesia <orgName ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis</orgName>.
+                        <persName ref="#GerardetusMontoni">Gerardetus</persName> quod fuerunt ibi
+                    positi de voluntate Lunensis episcopi confitetur et quod susceperint habitum ab
+                    ipso abbate quantum ad regularem observanciam confitetur; aliter negat. Item
+                    ponit quod prefati monachi prestiterunt et fecerunt obedientiam abbati <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis</orgName> suprascripto.
+                        <persName ref="#GerardetusMontoni">Gerardetus</persName>: quantum ad
+                    regularem observanciam confitetur et de voluntate episcopi Lunensis; aliter
+                    negat. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

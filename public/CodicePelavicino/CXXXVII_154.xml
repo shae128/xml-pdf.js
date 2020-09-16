@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXXXVII_154">
+    <front xml:id="CXXXVII_front">
+
+      <titlePart type="numerazioneNuova">154</titlePart>
+      <titlePart type="numerazioneOrig">CXXXVII</titlePart>
+
+      <docDate xml:id="CXXXVII_docDate">
+        <date when="1233-02-08">1233 febbraio 8</date>
+      </docDate>
+
+      <div type="regesto" xml:id="CXXXVII_regesto">
+        <p>Guglielmo, vescovo di Luni, loca a Carbono di Falcinello due parti <term xml:lang="latin"
+            >pro indiviso</term> di un pezzo di terra non edificata, posto in Montirone, entro i
+          confini del <term xml:lang="latin">castrum</term> di Sarzana. Il fitto ammonta a 1
+          sestario di frumento.</p>
+      </div>
+
+      <div type="footer" xml:id="CXXXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 235r.- 235v., c. CCXXVIIr.- CCXXVIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 137,
+            p. 170.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>La parte finale di c. 235r. è stata letta con l’ausilio della lampada di Wood. L’8
+            febbraio 1233 era un lunedì e non un martedì. <p>Stesura <emph>in mundum</emph> databile
+              tra il 1270 e il 1272 dalla presenza di Bonagiunta de Podio di Lucca.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+    <body>
+
+      <div xml:id="CXXXVII_div">
+        <p xml:id="CXXXVII_p_001" n="1">In Dei nomine, amen.<date when="1233-02-08">M°CCXXXIII,
+            indictione VI, die martis, VIII intrantis februarii</date>. Coram domino <persName
+            ref="#SalomonLucanus">Salomone Lucano</persName>, <persName ref="#Tholomeus"
+              ><roleName>archipresbytero</roleName> de <placeName ref="#Castello"
+              >Castello</placeName> nomine Tholomeo</persName>, <persName ref="#ParensPasqualini"
+            >Parente castaldione de <placeName ref="#Sarzanello">castro
+            Sarzane</placeName></persName> et aliis pluribus testibus ad hec rogatis. Venerabilis
+            <persName ref="#GuilEpLuni">Guilielmus, Dei gratia <roleName>Lunensis
+              episcopus</roleName></persName>, per se et suos successores dedit, cessit atque
+          locavit ad affictum reddendum <persName ref="#CarboBottacciFal">domino Carbono de
+              <placeName ref="#Falcinello">Falcinello</placeName></persName> et eius heredibus, in
+          perpetuum, duas partes pro indiviso unius petie terre seu tenute dismasiate, alia tercia
+          pars pro ipso domino episcopo habetur, posite in <placeName ref="#Montirone"
+            >Montirone</placeName>, in confinibus <placeName ref="Sarzanello">castri
+            Sarzane</placeName>, cui toti sunt fines superius filii quondam <persName
+            ref="#UbertinusVal">Hubertini de <placeName ref="#Valmoro"
+            >Valmoro</placeName></persName>, a pede rivus de <placeName ref="#Armo"
+          >Armo</placeName>, ab una parte <persName ref="#SabbatinusSar">Sabbatinus de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName></persName> et ab alia via publica usque
+          ad terram <persName ref="#Bellotus">Bellotti</persName> et ab inde inferius <persName
+            ref="#Corbellarius">Corbellarius</persName>, cum accessibus et regressibus suis omnique
+          iure conctaque utilitate sibi competentibus atque <pb n="235v" xml:id="fol_235v"
+          />competituris, promittens legitimam deffensionem vel restaurationem faciendum. Et exinde
+          teneatur et debeat idem dominus <persName ref="#CarboBottacciFal">Carbonus</persName>
+          reddere annuatim unum sextarium frumenti mondi et sicci, dati et parati ad granarium
+          episcopi de <placeName ref="#Sarzanello">castro Sarzane</placeName>, ad starium ad quod
+          redditur aliud fictum, et facere et procurare ita quod <persName ref="#BonvexinusAlamanno"
+            >Bonvexinus de Alamanno</persName> dabit et solvet ipsum fictum omni anno pro ipso
+          domino <persName ref="#CarboBottacciFal">Carbono</persName> ipsi domino episcopo, sicut
+          super dictum est, atque potestatem tenutam inde intrandi ei dedit et se pro eo interim
+          constituit possidere. Et hec omnia promiserunt ambe partes, sub pena <measure
+            type="Imperiales" quantity="40" unit="solidus">XL soldorum imperialium</measure>
+          solvenda parti pactum fide servanti quociens incidetur in eam; et, ea soluta, rato semper
+          manente pacto, se suosque heredes in perpetuum obligando.</p>
+      </div>
+      <div xml:id="CXXXVII_div2" type="mundum">
+        <p xml:id="CXXXVII_p_002" n="2"><ptr target="#CXXXVII_st_001"/> Ego <persName
+            ref="#HengeramusParentisnot">Hengherramus quondam Parentis de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName>, palatii sacri
+              <roleName>notarius</roleName></persName>, hanc cartam olim a <persName
+            ref="#Bonencontrusnot">Bonencontro <roleName>notario</roleName> de <placeName
+              ref="#Soliera">Soleria</placeName></persName> abreviatam sive rogatam, prout in eius
+          sceda et in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et
+          auttenticavi et in publicam formam redegi, auctoritate et decreto super hiis mihi prestita
+          et concesso a domino <persName ref="#Bonaiunctaiud">Bonaiuncta de Podio de <placeName
+            ref="#Lucca">Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+            ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre domino <persName
+            ref="#GuilEpLuni">Guilielmo, <roleName>Lunensi episcopo</roleName></persName>, atque
+          <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName>, de qua auctoritate <note
+            place="foot" n="a" xml:id="CXXXVII_n_001">Nel testo segue <term xml:lang="latin">et
+              decreto</term> espunto</note> constat per instrumentum publicum factum manu <persName
+            ref="#Alcheriusnot">Alcherii <roleName>notarii</roleName> de <placeName ref="Lucca"
+              >Luca</placeName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 154-CXXXVII databile tra il 1270 e
+            il 1272 dalla presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

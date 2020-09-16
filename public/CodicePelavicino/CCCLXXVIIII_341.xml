@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXXVIIII_341">
+    <front xml:id="CCCLXXVIIII_front">
+
+      <titlePart type="numerazioneNuova">341</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXXVIIII</titlePart>
+
+      <docDate xml:id="CCCLXXVIIII_docDate">
+        <date when="1237-01-26">1237 gennaio 26</date>
+        <placeName>Ameglia (<emph>in curia Amelie</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXXVIIII_regesto">
+        <p>Guglielmo, vescovo di Luni, loca ad Oliverio di Barbazano de Lamica un pezzo di terra
+          sita ad <term xml:lang="latin">Atiliano</term>, presso Barbazzano. Il fitto annuo ammonta
+          a un congio e mezzo di mosto. La transazione costa 5 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 316r.-316v., cc. CCCVIIIr.-CCCVIIIv. secondo la numerazione originale
+          </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 379,
+            pp. 359-360.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il documento contiene formule ceterate.<p>Stesura <emph>in mundum</emph> databile
+              tra il 1270 e il 1272 dalla presenza di Bonagiunta de Podio di Lucca.</p></note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXXVIIII. Con(gii) I ½ musti, quod reddit Oliverius Amiche.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXXVIIII_div">
+        <p xml:id="CCCLXXVIIII_p_001" n="1">In Dei nomine, amen. <date when="1237-01-26">M°CCXXXVII,
+            indictione X, die lune, VII kalendas februarii</date>, in curia <placeName
+            ref="#Ameglia">Amelie</placeName>, coram nobili <persName ref="#SalomonLucanus">Salomone
+            Lucano</persName>, <persName ref="#ParentinusManzeti">Parentino quondam Manzeti
+              <roleName>castaldo</roleName></persName>, <persName ref="#GuilielmusBastardi"
+            >Guilielmo quondam Bastardi de <placeName ref="#Ameglia">Amelia</placeName></persName>,
+            <persName ref="#AbraçaleneBarbazano">Abraçalene de <placeName ref="#Barbazzano"
+              >Barbazano</placeName></persName> et <persName ref="#VillanusPortoVenere">Villano de
+              <placeName ref="#Portovenere">Portu Veneris</placeName></persName>, testibus rogatis.
+          Venerabilis dominus <persName ref="#GuilEpLuni">Guilielmus, <roleName>Dei gratia Lunensis
+              episcopus</roleName></persName>, per se et suos successores dedit, cessit atque
+          locavit ad affictum reddendum <persName ref="#OliveriusBarbazano">Oliverio<note
+              xml:id="CCCLXXVIIII_n_001" n="a" place="foot"><term xml:lang="latin">Oliverio</term>:
+                <term xml:lang="latin">Oli</term>
+              <emph>corretto su precedente scrittura.</emph></note> de <placeName ref="#Barbazzano"
+              >Barbazano</placeName> de Lamica</persName>, recipienti pro se et suis heredibus ab eo
+          descendentibus, in perpetuum, I petiam terre cum vineis, site<note
+            xml:id="CCCLXXVIIII_n_002" n="b" place="foot"><term xml:lang="latin">site</term>:
+              <emph>corretto su</emph>
+            <term xml:lang="latin">sitam</term></note> in confinibus <placeName ref="#Barbazzano"
+            >Barbazani</placeName>, in loco dicto <placeName ref="#Atilliano">Atilliano<note
+              xml:id="CCCLXXVIIII_n_003" n="c" place="foot"><term xml:lang="latin">Atilliano</term>:
+                <emph>nel manoscritto</emph>
+              <term xml:lang="latin">Atillliano</term>
+              <emph>con la prima</emph>
+              <term xml:lang="latin">l</term>
+              <emph>espunta.</emph></note></placeName>, cui sunt fines ab uno capite <persName
+            ref="#OliveriusCala">Oliverius <note xml:id="CCCLXXVIIII_n_004" n="d" place="foot"><term
+                xml:lang="latin">Oliverius</term>: <emph>corretto su</emph>
+              <term xml:lang="latin">Oliverii</term></note> de <placeName ref="#Cala">la
+              Cala</placeName></persName> et via publica, a pede <persName ref="#NigerSerra">Niger
+            de <placeName ref="#Serra">la Serra</placeName></persName> et <persName
+            ref="#MartinusMarcheselli">Martinus quondam Marcheselli</persName>, ab uno latere
+            <persName ref="#SimonetusVite">Symonetus quondam Vite</persName> et ab alio <persName
+            ref="#ÇuntaMaruco">Çunta de <placeName ref="#Maruco">Maruco</placeName></persName>, cum
+          accessibus et regressibus suis, et cetera. Et promisit ab omni homine per stipulationem
+          sollempnem deffendere iure vel in loco consimili restituere, et potestatem inde tenutam
+          intrandi et cetera; et se interim constituit possidere, reddendo idem <persName
+            ref="#OliveriusBarbazano">Oliverius</persName> omni anno per mensem septembris ipsi
+          domino episcopo et suis successoribus et Lunensi curie exinde I congium et dimidium musti
+          boni et puri et non aqua musti<note xml:id="CCCLXXVIIII_n_005" n="e" place="foot"><term
+              xml:lang="latin">musti</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">misti</term></note> de musto eiusdem vinee seu de consimili vel
+          equivalenti, <pb n="316v" xml:id="fol_316v"/> per eum delati ad curiam et canevam de
+            <placeName ref="#Barbazzano">Barbazano</placeName> domini episcopi tantum; alia
+          superimposita non fiat. Et fuit confessus se inde<note xml:id="CCCLXXVIIII_n_006" n="f"
+            place="foot"><term xml:lang="latin">inde</term>: <emph>segue ripetuto</emph>
+            <term xml:lang="latin">se</term></note> servicium recepisse <measure type="imperiales"
+            unit="solidus" quantity="5">soldos imperialium V</measure>, renunciando et cetera. Que
+          omnia suprascripta et singula ambe partes inter se sibi vicissim stipulantes attendere et
+          observare promiserunt in perpetuum, per se et suos successores dominus episcopus et per
+          suos heredes idem <persName ref="#OliveriusBarbazano">Oliverius</persName>, nec
+          contravenire, sub pena <measure type="imperiales" unit="solidus" quantity="20">XX soldorum
+            imperialium</measure>, solvenda parti quociens incidetur in eam; et, ea soluta, rato
+          manente pacto. </p>
+      </div>
+      <div xml:id="CCCLXXVIIII_div2" type="mundum">
+        <p xml:id="CCCLXXVIIII_p_002" n="2"><ptr target="#CCCLXXVIIII_st_001"/> Ego <persName
+            ref="#HengeramusParentisnot">Hengeramus quondam Parentis de <placeName ref="#Sarzanello"
+              >castro Sarzane</placeName>, <roleName>palacii sacri notarius</roleName></persName>,
+          hanc cartam olim a <persName ref="Bonencontrusnot">Bonencontro de <placeName
+              ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et autenticavi et
+          in publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+            <roleName>domino</roleName>
+          <persName ref="#Bonaiunctaiud">Bonaiuncta de Podio de <placeName ref="#Lucca"
+            >Luca</placeName>, <roleName>iudice</roleName></persName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+              ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre <persName
+            ref="#GuilEpLuni"><roleName>domino</roleName> Guilielmo, <roleName>Lunensi
+              episcopo</roleName></persName>, et  <orgName ref="#Lucca_comune"><placeName ref="#Lucca">Lucano</placeName> communi</orgName>, de qua auctoritate constat per
+          instrumentum publicum factum manu <persName ref="#Alcheriusnot">Alcherii
+              <roleName>notarii</roleName> de <placeName ref="#Lucca"
+            >Luca</placeName></persName><note>Stesura <emph>in mundum</emph> del documento n.
+            341-CCCLXXVIIII databile tra il 1270 e il 1272 dalla presenza di Bonagiunta de Podio di
+            Lucca <date notBefore="1270-01-01" notAfter="1272-12-31" cert="medium"/></note>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="B20">
+        <front xml:id="B20_front">
+
+            <titlePart type="numerazioneNuova">20</titlePart>
+            <titlePart type="numerazioneOrig"/>
+
+            <docDate xml:id="B20_docDate"><date when="1285-10">1285 ottobre</date></docDate>
+
+            <div type="regesto" xml:id="B20_regesto">
+                <p>Il vescovo di Luni Enrico dichiara di avere battuto moneta per privilegio
+                    concesso alla chiesa di Luni dall’imperatore Rodolfo. La moneta, detta imperiale
+                    di Luni, è stata battuta in modo che 13 once di imperiali piccoli contenessero 3
+                    once di argento e 10 di rame e corrispondessero a 43 soldi e 4 denari imperiali
+                    piccoli; fece inoltre battere una moneta ancora più piccola, avente metà del
+                    valore degli imperiali piccoli, e un imperiale grosso, che valeva 12 imperiali
+                    piccoli o 24 minori. </p>
+            </div>
+            <div type="footer" xml:id="B20_footer">
+                <div type="orig_doc">
+                    <p>Copia [C] c. 41v., c. XXXIIIv. secondo la numerazione originale. </p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione in <ref type="biblio" target="#LUPO_GENTILE_1912"> LUPO GENTILE
+                            1912</ref>, Addenda, n. 18, p. 662.</p>
+                    <p>Bibliografia: <ref type="biblio" target="#OLIVIERI_1864">OLIVIERI 1864</ref>;
+                            <ref type="biblio" target="#MAZZINI_1918">MAZZINI 1918</ref>; <ref
+                            type="biblio" target="#GIAMPAOLI_1922">GIAMPAOLI 1922</ref>; <ref
+                            type="biblio" target="#BERTINO_1997">BERTINO 1997</ref>; <ref
+                            type="biblio" target="#BALDASSARRI_PARODI_2011">BALDASSARRI PARODI
+                            2011</ref></p>
+                </div>
+                <div type="crit_notes">
+                    <p>Nel margine esterno, di mano moderna: <term xml:lang="latin">faciebat fieri
+                            monetam</term>. Poco più in basso, di altra mano ancora più tarda: <term
+                            xml:lang="latin">valutatione et forza che tenevano li vescovi in far
+                            batere monete</term>.</p>
+                </div>
+                <div type="appr"> </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="B20_div">
+
+                <p xml:id="B20_p_001"> In Dei nomine, amen. <date when="1285-10">Anno Domini
+                        M°CC°LXXXV, inditione XIII, de mense octubris</date>. Nos <persName
+                        ref="#HenricusEpLuni">Henricus, <roleName>miseratione divina Lunensis
+                            episcopus et comes</roleName></persName>, fecimus fieri monetam ex
+                    concessione et privilegio nobis et Lunensi ecclesie concesso ab illustri<note
+                        xml:id="B20_n_01" place="foot" n="a">illustri: <emph>segue, non depennato,
+                            et pleonastico</emph>.</note>
+                    <roleName>domino</roleName>
+                    <persName ref="#Radulphus_imperator">Rodulfo, <roleName>Romanorum rege electo et
+                            confirmato</roleName></persName>. Que moneta imperialis vocatur de
+                        <placeName ref="#Luni">Luna</placeName>, secundum quod antiquitus vocabatur,
+                    et eam facimus fieri ad legem recti et legalis ponderis, prout per ipsam monetam
+                    evidenter et manifeste poterit omnibus apparere, videlicet hoc modo: quod XIII
+                    uncie <measure type="imperiales_Lunenses_parvi" unit="denarius" ana="#altro"
+                        >imperialium parvorum</measure> debent tenere tres uncias argenti puri et
+                    optimi et uncias X rami et debent esse numero <measure
+                        type="imperiales_Lunenses_parvi" quantity="43" unit="soldus" ana="#altro"
+                        >soldorum XLIII</measure> et <measure type="imperiales_Lunenses_parvi"
+                        quantity="4" unit="denarius" ana="#altro">IIIIor imperialium
+                        parvorum</measure> de <placeName ref="#Luni">Luna</placeName>; et facimus
+                    fieri aliam monetam parviorem, quorum duo valent unum ex imperialibus predictis.
+                    Item facimus fieri monetam de argento grossam, c<supplied reason="omitted"
+                        >ui</supplied>us libra tenet argenti puri et octimi uncias X et dimidiam et
+                    rami unciam I et dimidiam et debent esse in dicta libra <measure
+                        type="imperiales_Lunenses_grossi" quantity="11" unit="soldus" ana="#altro"
+                        >soldi XI dictorum imperialium grossorum</measure>, quorum quilibet <measure
+                        type="imperiales_Lunenses_grossi" quantity="1" unit="denarius" ana="#altro"
+                        >imperialis grossus</measure> valet <measure
+                        type="imperiales_Lunenses_parvi" quantity="12" unit="denarius" ana="#altro"
+                            >XII imperiales parvos</measure> et <measure type="imperiales_Lunenses_minores"
+                                quantity="24" unit="denarius" ana="#altro">XXIIII ex aliis minoribus</measure> de <placeName ref="#Luni">Luna</placeName> et
+                    parvioribus. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="B17">
+        <front xml:id="B17_front">
+
+            <titlePart type="numerazioneNuova">17</titlePart>
+            <titlePart type="numerazioneOrig"/>
+
+            <docDate xml:id="B17_docDate">
+                <date when="1279-11">1279 novembre</date>
+            </docDate>
+
+            <div type="regesto" xml:id="B17_regesto">
+                <p>Inchiesta promossa dal vescovo di Luni Enrico sul pedaggio di Avenza. </p>
+            </div>
+            <div type="footer" xml:id="B17_footer">
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 40v.-41r., cc. XXXIIv.-XXXIIIr. secondo la numerazione
+                        originale. </p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione: <ref type="biblio" target="#SFORZA_1890-1891">SFORZA 1890-1891
+                        </ref>, p. 139;<ref type="biblio" target="#LUPO_GENTILE_1912"> LUPO GENTILE
+                            1912</ref>, Addenda, n. 8, pp. 649-650.</p>
+                </div>
+                <div type="crit_notes">
+                    <p>In testa al documento, di mano posteriore, scritto con inchiostro più chiaro
+                        e in carattere più minuto: <term xml:lang="latin">Pedagium Avencie</term>.
+                        Nel margine interno di c. 40v., di mano moderna: <term xml:lang="latin">In
+                            Aventia pedagium</term>.</p>
+                </div>
+                <div type="appr"> </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="B17_div">
+
+                <p xml:id="B17_p_001"> In Dei nomine, amen. <date when="1279-11">Anno a nativitate
+                        Eius M°CC°LXXVIIII, inditione II, mense novembris</date>. Inquisitio facta
+                    per venerabilem patrem <roleName>domimum</roleName>
+                    <persName ref="#HenricusEpLuni"> Henricum, <roleName>Dei gratia Lunensem
+                            episcopum</roleName></persName>, per antiquos et fidedignos de pedagio
+                    quod consuevit accipi in <placeName ref="Avenza">Aventia</placeName> pro curia
+                    Lunensi. Invenimus quod pro qualibet soma dricta debent solvi <measure
+                        type="imperiales" quantity="18" ana="#tax">XVIII imperialium</measure> et
+                    dicitur soma dricta sive bona soma panni ultramontani, monete, lane gentilis
+                    lavate et de succida lana tres some pro II bonis; lane sardesche lavate tres
+                    some similiter pro II; lane sardesche sucide IIIIor some pro I bona; lane
+                    agneline pro bona et dricta soma; pelles sardesche et coria et carnes IIIIor
+                    some pro una bona. Item pro qualibet soma <placeName ref="Lucca"
+                        >Lucensium</placeName> sive balla <measure quantity="18" unit="denarius"
+                        ana="#tax">XVIII denarii</measure> pro mercibus, pro balla sive soma
+                        <measure quantity="18" unit="denarius" ana="#tax">XVIII denarii</measure>.
+                    Item pondus casei <measure quantity="18" unit="denarius" ana="#tax">XVIII
+                        denarii</measure> et <measure quantity="1" unit="denarius" ana="#tax">I
+                        denarius</measure> pro quolibet fillo et pro centanario duo filla sive pro C
+                    caseis duo.</p> 
+                <p xml:id="B17_p_002">
+                    <pb n="41r" xml:id="fol_041r"/> Item pro pondo plumbi <measure quantity="18"
+                        unit="denarius" ana="#tax">XVIII denarii</measure>. Item pro soma ferri et
+                    açari IIIIor some pro I bona. Item pro soma olei VI denarii. Item pro soma vini
+                        <measure quantity="4" unit="denarius" ana="#tax">IIII denarii</measure>,
+                    quod defertur extra terram episcopatus. Item de vena ferri <measure
+                        quantity="2.5" unit="soldus" ana="#tax">soldi II et medium</measure> de
+                    quolibet miliario. Item de quolibet petio ligni, si fuerit magnum <measure
+                        quantity="2" unit="denarius" ana="#tax">II denarii</measure>, si fuerit
+                    parvum <measure quantity="1" unit="denarius" ana="#tax">I denarius</measure> et
+                    pro centanario duo. Item rami et ricalcalchi IIIIor some pro I bona. Item tela
+                    subtilis pro bona et dricta soma; bambasium pro bona et dricta soma. Item
+                    pignolatum pro bona et dricta soma. Item albaxeti et borracii IIIIor some pro I
+                    bona. Item biffeti et meçalane grossi, qui portantur de <placeName
+                        ref="Lombardia">Lombardia</placeName>, tres some pro II et similiter de
+                    lino, canapa et cordis. De frumento denarii <measure quantity="3"
+                        unit="denarius" ana="#tax">III</measure>. De aliis blavis <measure
+                        quantity="2" unit="denarius" ana="#tax">II denarii</measure> de qualibet
+                    soma. De quolibet porco <measure quantity="2" unit="denarius" ana="#tax">II
+                        denarii</measure>. De bove IIII, de qualibet ove, veniente vel exeunte de
+                    terra episcopatus, <measure quantity="1" unit="denarius" ana="#tax">I
+                        denarius</measure>, scilicet mercatorum et de aliis que vadunt ad pascua
+                    aliena et <measure quantity="2.5" unit="soldus" ana="#tax">soldi II et
+                        medius</measure> pro centanario et eodem modo in reversione cum caseis et
+                    capretis. De destrario, qui ducitur ad vendendum in <placeName ref="Lombardia"
+                        >Lombardiam</placeName> vel in <placeName ref="Francia">Franciam</placeName>
+                    vel in <placeName ref="Tuscia">Tusciam</placeName>, <measure quantity="10"
+                        unit="soldus" ana="#tax">soldi X</measure>, de mediocri <measure
+                        quantity="5" unit="soldus" ana="#tax">V soldi</measure>, de runcino <measure
+                        quantity="2.5" unit="soldus" ana="#tax">II soldi et medius</measure>, et si
+                    per mare veniat de qualibet soma <measure quantity="18" unit="denarius"
+                        ana="#tax">XVIII denarii</measure> et est soma de L libris. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

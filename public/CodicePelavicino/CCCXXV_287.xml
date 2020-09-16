@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXXV_287">
+    <front xml:id="CCCXXV_front">
+
+      <titlePart type="numerazioneNuova">287</titlePart>
+      <titlePart type="numerazioneOrig">CCCXXV</titlePart>
+
+      <docDate xml:id="CCCXXV_docDate">
+        <date when="1178-10">1178 ottobre</date>, <placeName>Luni</placeName> (<emph>Lune</emph>) </docDate>
+
+      <div type="regesto" xml:id="CCCXXV_regesto">
+        <p>Testimonianze di abitanti di Castelpoggio, <term xml:lang="latin">Colle</term>,
+          Vallecchia, <term xml:lang="latin"> Conano</term>, <term xml:lang="latin"
+          >Sporliano</term>, <term xml:lang="latin">Codesorbo</term> e <term xml:lang="latin">
+            Capagnano</term> presentate dal vescovo di Luni Pietro per la pertinenza del bosco di
+          Valmaggiore, in contrasto con le pretese degli uomini di Fosdinovo.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXXV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 295r.-296v., cc. CCLXXXVIIr.-CCLXXXVIIIv. secondo la numerazione
+            originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 325,
+            pp. 314-315.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>L’identificazione del vescovo che presenta le testimonianze pone qualche problema,
+            perché indicato solo dall’iniziale P., usata poi ripetutamente nel testo per il vescovo
+            Pipino. Proponiamo qui tuttavia l’identificazione con il vescovo Pietro a seguito delle
+            seguenti considerazioni: innanzitutto nel corpo dell’atto si nominano apparentemente
+            solo i predecessori del presule in carica e Pipino è sempre nominato con la formula
+            «dopo il tempo di», <term xml:lang="latin">post tempus episcopi Pipini</term>; in
+            secondo luogo il primo nome è abbreviato in maniera diversa dagli altri: alla prima P
+            abbreviata con una linea ondulata, seguono sette volte P. e infine due volte Pi. Se si
+            accetta questa interpretazione il documento costituisce la prima attestazione del
+            vescovo Pietro, che probabilmente agì a tutela del bosco di Valmaggiore appena dopo la
+            nomina. </note>
+          <note>Nel margine interno, di mano moderna: <term xml:lang="latin">confines illorum de
+              Valechia cum illis de Fosdenovo</term>. Nel margine esterno, di mano moderna: <term
+              xml:lang="latin">Nota. Confines Castrinovi e Fosdenovi</term>.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCXXV.
+              Testes Vallegie et Capaci et de confinibus cum illis de Fosdenova.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXXV_div">
+        <p xml:id="CCCXXV_p_001" n="1">Isti sunt testes ex parte <persName ref="#PetrusEpLuni">
+            <roleName>episcopi</roleName>
+            <expan>P<ex>etri</ex></expan></persName>, quorum nomina hic subter leguntur, scilicet:
+            <persName ref="#UgoCasapoli">Ugo de <placeName ref="#Casapoci"> Casapoli<note
+                place="foot" n="a" xml:id="CCCXXV_n_001"><term xml:lang="latin">Casapoli</term> :
+                  <emph>così nel testo</emph>.</note></placeName></persName> per sacramentum dixit
+          quod <persName ref="#PhilippusEpLuni2"><roleName>episcopus</roleName> Philippus</persName>
+          misit suos porcos in <placeName ref="#Valmaiore">Valmaiore</placeName> et ibi fecit stare
+          ad suam voluntatem, et scit quod illi de <placeName ref="#Vallecchia2"
+            >Vallecla</placeName> habent versus <placeName ref="#Valmaiore">Valmaiorem</placeName>
+          et terminus est ad fontem <placeName ref="#AqueNigre">Aque Nigre</placeName>, inter illam
+          de <placeName ref="#Mandria">Mandra</placeName> et <pb n="295v" xml:id="fol_295v"
+          />Vallecle, se et custos de Faucenova me ibi invenit et dixit<note place="foot" n="b"
+            xml:id="CCCXXV_n_002"><term xml:lang="latin">se-dixit</term>: <emph>così nel testo, è
+              probabile che lo scriba abbia omesso per errore una parte di testo</emph></note>.:
+          «Nos folavimus nemus deinceps ne venias». </p>
+        <p xml:id="CCCXXV_p_002" n="2">
+          <persName ref="#MesserusCasaposi">Messerus de <placeName ref="#Casapoci"
+              >Casaposi</placeName></persName> per sacramentum dixit quod <persName
+            ref="#PhilippusEpLuni2"><roleName>episcopus</roleName> Philippus</persName> misit in uno
+          anno porcos <placeName ref="#Pontremoli">Pontremulenses</placeName> per illam de
+            <placeName ref="#Vallecchia2">Valleccla</placeName> in <placeName ref="#Valmaiore"
+            >Valmaiore</placeName> et per se folam misit et per se ibi fecit manere, et in domo sua
+          iacebant. </p>
+        <p xml:id="CCCXXV_p_003" n="3"><persName ref="#DuransCole">Durans de <placeName ref="#Colle"
+              >Colle</placeName></persName> per sacramentum dixit quod a <placeName ref="#Colimento"
+            >Colimento</placeName> in hac episcopi est; contra, <placeName ref="#Valmaiore"
+            >Valmaiorem</placeName> versus fui<note place="foot" n="d" xml:id="CCCXXV_n_003"><term
+              xml:lang="latin">fui</term>: <emph>così nel testo, lo scriba ha probabilmente
+              equivocato il testo dell’antigrafo.</emph></note> propter illos de <placeName
+            ref="#Fosdinovo">Faucenova </placeName> ibat et a <placeName ref="#Colimento">Colimento
+          </placeName>usque in <placeName ref="#Capanella">Capanella</placeName> episcopi est, et
+          illi omnes, qui usi fuere, propter episcopum ivere. </p>
+        <p xml:id="CCCXXV_p_004" n="4"><persName ref="#VillanellusVallecla">Villanellus de
+              <placeName ref="#Vallecchia2">Vallecçla</placeName></persName> per sacramentum dixit
+          quod a termino <placeName ref="#StancaCaballo">Stancavallo</placeName> usque ad terminum
+            <placeName ref="#MonteLeone">Monleonis</placeName> in <placeName ref="#Vallecchia2"
+            >Vallecla</placeName>revertente in <placeName ref="#Colimento">Colimento</placeName> ita
+          episcopi est, et istemet ivit <placeName ref="#Valmaiore">Valmaiorem</placeName> et illi
+          de <placeName ref="#Fosdinovo">Faucenova</placeName> abstulerunt falcium unum et
+          reddiderunt propter unum pullum, et si contrarium fecere de latra nondum sunt transacti
+          duo anni. </p>
+        <p xml:id="CCCXXV_p_005" n="5"><persName ref="#GrumpusVallecla">Grumpus de <placeName
+              ref="#Vallecchia2">Vallecla</placeName></persName> per sacramentum dixit quod in
+          tempore <persName ref="#AndreaEpLuni"><roleName>episcopi</roleName> Andree</persName>
+          vidit habere, tenere propter episcopum a fine termino de <placeName ref="#StancaCaballo">
+            Stancavallo</placeName> usque in <placeName ref="#Colimento">Colimento</placeName>
+          revertente ad terminum subtanum <placeName ref="#MonteLeone">Monleonis</placeName> de
+            <placeName ref="#Vallecchia2">Vallecla</placeName>, et ita episcopi est, preter
+          castagnetum et preter pratum quod est illorum de <placeName ref="#Fosdinovo"
+            >Faucenova</placeName>. <placeName ref="#VillanellusVallecla">Villanellus</placeName>
+          testatur idem de castagneto et de prato; et, si ipsi de <placeName ref="#Fosdinovo"
+            >Faucenova</placeName> fecere ibi folam vel ullum contrarium, post tempus <persName
+            ref="#PipEpLuni"><roleName>episcopi </roleName> Pipini</persName> fecere.</p>
+        <p xml:id="CCCXXV_p_006" n="6"><persName ref="#CiconusVallecla">Ciconus de <placeName
+              ref="#Vallecchia2">Vallecla</placeName></persName> per sacramentum dixit quod a fine
+            <placeName ref="#Colimento">Colimento</placeName> usque ad <placeName
+            ref="#StancaCaballo">Stancavallum</placeName> ad diffinitiones, que sunt inter illos de
+            <placeName ref="#Pulica">Puleca</placeName> et illos de <placeName ref="#Vallecchia2">
+            Vallecla</placeName>, et sicut vadit via publica ad <placeName ref="#MonteLeone">
+            Monleonem</placeName> descendentem ad terminum, qui est in valle inter illos de
+            <placeName ref="#Vallecchia2">Vallecla</placeName> et illos de <placeName
+            ref="#Marciano"> Marciano</placeName>, ita est Sancte Marie, preter castagnetum quod
+          dedit <persName ref="#GotefredEpLuni"><roleName>episcopus</roleName> Gotefredus</persName>
+          <persName ref="#GaforiusFaucenova">Igaforio de <placeName ref="#Fosdinovo"
+              >Faucenova</placeName></persName>; et si aliquod contrarium omnes qui tenebant pro
+          episcopo habuere, post tempus <persName ref="#PipEpLuni">Pipini <roleName>
+              episcopi</roleName></persName> habuere.</p>
+        <p xml:id="CCCXXV_p_007" n="7"><persName ref="#SegnoretusVallecla">Segnioretus de <placeName
+              ref="#Vallecchia2">Vallecla</placeName></persName> per sacramentum dixit quod in
+          tempore <persName ref="#GotefredEpLuni"><roleName>episcopi</roleName> G<supplied
+              reason="omitted">otefredi</supplied></persName> a termino Stancavallo, qui est in
+          diffinitione inter illos de <placeName ref="#Pulica">Puleca</placeName> et de <placeName
+            ref="#Vallecchia2">Vallecla</placeName>, et sicuti vadit ad terminum de <placeName
+            ref="#Colimento">Colimento</placeName>, qui est in diffinitione inter nos et illos de
+            <placeName ref="#Fosdinovo">Faucenova</placeName>, et revertente ad terminum de valle,
+          qui est in diffinitione que est inter nos de <placeName ref="#Vallecchia2"
+            >Vallecla</placeName> et illos de <placeName ref="#Marciano">Marciano</placeName>,
+          excepto prato de <placeName ref="#Montorbo">Montorbo</placeName> et preter castagnetum
+          quod dedit <persName ref="#GotefredEpLuni"><roleName>episcopus</roleName> G<supplied
+              reason="omitted">otefredus </supplied></persName>
+          <persName ref="#GaforiusFaucenova"> Igaforio</persName>, et ita fuit tenta propter
+          episcopum, et si aliquod contrarium fuit nobis post tempus <persName ref="#PipEpLuni"
+              ><roleName>episcopi</roleName> P<supplied reason="omitted">ipini</supplied></persName>
+          habuimus.</p>
+        <p xml:id="CCCXXV_p_008" n="8"><persName ref="#SegnoritusVallecla">Segnorinus de <placeName
+              ref="#Vallecchia2">Vallecla</placeName></persName> per sacramentum dixit quod in
+          tempore <persName ref="#GotefredEpLuni"><roleName>episcopi</roleName> G<supplied
+              reason="omitted">otefredi</supplied>
+          </persName> a termino <placeName ref="#StancaCaballo"> Stancavallo</placeName>, qui est in
+          diffinitione inter illos de <placeName ref="#Pulica">Puleca </placeName> et de <placeName
+            ref="#Vallecchia2">Vallecla</placeName>, et sicuti vadit ad terminum, qui est in valle
+          subter <placeName ref="#MonteLeone">Monleonem</placeName> inter illos de <placeName
+            ref="#Vallecchia2">Vallecla</placeName> et de <placeName ref="#Marciano"
+            >Marciano</placeName>, excepto prato quod est in <placeName ref="#Montorbo"
+            >Montorbo</placeName> et castagneto quod dedit <persName ref="#GotefredEpLuni"
+              ><roleName>episcopus</roleName> G<supplied reason="omitted">otefredus
+            </supplied></persName>
+          <persName ref="#GaforiusFaucenova">Gaforio</persName>, et ita est tenta per domum Sancte
+          Marie, et si aliquod contrarium evenit, post tempus <persName ref="#PipEpLuni"
+              ><roleName>episcopi</roleName> P<supplied reason="omitted">ipini</supplied></persName>
+          evenit.</p>
+        <p xml:id="CCCXXV_p_009" n="9"><persName ref="#MimonusVallecla">Mimonus de <placeName
+              ref="#Vallecchia2">Vallecla</placeName></persName> per sacramentum dixit quod a fine
+          Colimento, quod est inter illos de <placeName ref="#Fosdinovo">Faucenova</placeName> et de
+            <placeName ref="#Vallecchia2">Vallecla</placeName>, et sicuti vadit a termino de
+            <placeName ref="#StancaCaballo">Stancavallo</placeName>, quod est inter illos de
+            <placeName ref="#Vallecchia2"> Vallecla</placeName> et de <placeName ref="#Pulica"
+            >Puleca</placeName>, et revertente ad terminum <placeName ref="#Cernetorio"
+            >Cernitoris</placeName>, qui est subter <placeName ref="#MonteLeone"
+            >Monleonem</placeName> inter illos de <placeName ref="#Marciano">Marciano </placeName>
+          et de <placeName ref="#Vallecchia2">Vallecla</placeName>, excepto prato quod est desuper
+          stratam a <placeName ref="#Montorbo">Montorbo</placeName>, et ita habuimus et tenuimus
+          propter episcopum, et nullum contrarium nobis evenit, nisi post tempus <persName
+            ref="#PipEpLuni"><roleName>episcopi</roleName> P<supplied reason="omitted"
+              >ipini</supplied></persName>.</p>
+        <p xml:id="CCCXXV_p_010" n="10"><persName ref="#BernardusVallecla">Bernardus de <placeName
+              ref="#Vallecchia2">Vallecla</placeName></persName> per sacramentum dixit quod a fine
+            <placeName ref="#Colimento">Colimento</placeName>, scilicet a termino qui est inter nos
+          et illos de <placeName ref="#Fosdinovo">Faucenova</placeName>, et sicuti vadit ad terminum
+          de Stancavallo, qui est in diffinitione inter nos de <placeName ref="#Vallecchia2"
+            >Vallecla</placeName> et illos de <placeName ref="#Pulica">Puleca</placeName>, et
+          veniente ad <placeName ref="#MonteLeone">Monleonem </placeName> usque ad terminum
+            <placeName ref="#Cernetorio">Cernitoris</placeName>, qui est in diffinitione inter nos
+          et illos de Marciano, excepto <pb n="296r" xml:id="fol_296r"/> prato de <placeName
+            ref="#Montorbo">Montorbo</placeName> et preter castagnetum quod dedit <persName
+            ref="#GotefredEpLuni"><roleName>episcopus</roleName> Gotefredus</persName>
+          <persName ref="#GaforiusFaucenova">G<supplied reason="omitted">aforio
+            </supplied></persName>, et ita etiam dicit se videre tenuisse per XXX annos per domum
+          Sancte Marie, et nullum contrarium habuere, nisi post tempus <persName ref="#PipEpLuni"
+              >P<supplied reason="omitted">ipini </supplied> episcopi</persName>.</p>
+        <p xml:id="CCCXXV_p_011" n="11"><persName ref="#Andrionus">Andrionus</persName> per
+          sacramentum dixit quod a termino <placeName ref="#Colimento">Colimento</placeName>, qui
+          est in diffinitione inter illos de <placeName ref="#Fosdinovo">Faucenova</placeName> et de
+            <placeName ref="#Vallecchia2">Vallecla</placeName>, et sicut vadit ad terminum
+          Stancavalli, qui est in diffinitione inter illos de <placeName ref="#Pulica"
+            >Puleca</placeName> et de <placeName ref="#Vallecchia2">Vallecla </placeName>, et sicut
+          vadit usque ad <placeName ref="#MonteLeone">Monleonem</placeName> et ad terminum
+            <placeName ref="#Cernetorio">Cernitoris</placeName>, qui est inter nos et illos de
+            <placeName ref="#Marciano">Marciano</placeName> et de <placeName ref="#Vallecchia2"
+            >Vallecla</placeName>, testatur videre tenuisse post<note place="foot" n="c"
+            xml:id="CCCXXV_n_004"><term xml:lang="latin"> post</term>: <emph>così nel testo
+              per</emph>
+            <term xml:lang="latin">propter</term></note> episcopum, excepto prato <placeName
+            ref="#Montorbo">Montorbi </placeName> et preter castagnetum quod<note place="foot" n="e"
+            xml:id="CCCXXV_n_005"><term xml:lang="latin">quod</term>: <emph>corretto su </emph>
+            <term xml:lang="latin">que</term></note> dedit <persName ref="#GotefredEpLuni">
+            <roleName>episcopus</roleName> G<supplied reason="omitted"
+            >otefredus</supplied></persName>
+          <persName ref="#GaforiusFaucenova">Gaforio</persName> et in tempore <persName
+            ref="#GotefredEpLuni"><roleName>episcopi</roleName> Gotefredi</persName> nullum
+          contrarium vidit nec postea, nisi post tempus <persName ref="#PipEpLuni">P<supplied
+              reason="omitted"> ipini</supplied>
+            <roleName>e<supplied reason="omitted">piscopi</supplied></roleName></persName>.</p>
+        <p xml:id="CCCXXV_p_012" n="12"><persName ref="#CicolusConano">Cicolus de <placeName
+              ref="#Conano">Conano</placeName></persName> per sacramentum dixit quod a <placeName
+            ref="#Colimento">Colimento</placeName>, scilicet termino, qui est in diffinitione inter
+          illos de <placeName ref="#Fosdinovo">Faucenova</placeName> et illos de <placeName
+            ref="#Vallecchia2">Vallecla</placeName>, et a termino <placeName ref="#StancaCaballo"
+            >Stancavalli</placeName>, qui est inter illos de <placeName ref="#Pulica"
+            >Puleca</placeName> et illos de <placeName ref="#Vallecchia2">Vallecla</placeName>, et
+          ita vidit tenere temporibus <persName ref="#GotefredEpLuni"><roleName>episcopi</roleName>
+              G<supplied reason="omitted">otefredi</supplied></persName> et, se sciente, nullam
+          litem vidit, nisi post tempus <persName ref="#PipEpLuni"><roleName>episcopi</roleName>
+              P<supplied reason="omitted">ipini</supplied></persName>.</p>
+        <p xml:id="CCCXXV_p_013" n="13"><persName ref="#GualandusSporliano">Gualandus de <placeName
+              ref="#Sporliano">Sporliano</placeName></persName> per sacramentum dixit quod terminus
+          de <placeName ref="#Colimento">Colintento<note place="foot" n="f" xml:id="CCCXXV_n_006"
+                ><term xml:lang="latin"> Colintento</term>: <emph>così nel
+            testo</emph>.</note></placeName> est inter illam de <placeName ref="#Fosdinovo"
+            >Faucenova</placeName> et illam de <placeName ref="#Vallecchia2">Vallecla</placeName>,
+          alio latere a Stancavallo est diffinitio inter illam de <placeName ref="#Vallecchia2"
+            >Vallecla</placeName> et de <placeName ref="#Pulica">Puleca</placeName> et veniente ad
+          terminum <placeName ref="#Cernetorio"> Cernitoris</placeName>, qui est in diffinitione
+          inter illos de Marciano et de <placeName ref="#Vallecchia2"> Vallecla</placeName>, excepto
+          prato et castagneto quod dedit <persName ref="#GotefredEpLuni">
+            <roleName>episcopus</roleName> G<supplied reason="omitted"
+            >otefredus</supplied></persName>
+          <persName ref="#GaforiusFaucenova">Gaforo</persName>, et nec in tempore <persName
+            ref="#PhilippusEpLuni2"><roleName>episcopi</roleName> Philippi</persName> neque
+            <persName ref="#GotefredEpLuni">Gotefredi</persName> nullam litem vidit.</p>
+        <p xml:id="CCCXXV_p_014" n="14"><persName ref="#AmigetusSporliano">Amigetus de <placeName
+              ref="#Sporliano">Sporliano</placeName></persName>, presens, dixit quod audivit et
+          credit ut sit illorum de <placeName ref="#Vallecchia2">Vallecla</placeName> a termino
+            <placeName ref="#Colimento">Colintento <note place="foot" n="f" xml:id="CCCXXV_n_007"
+                ><term xml:lang="latin">Colintento</term>: <emph>così nel
+            testo</emph>.</note></placeName>, qui est in diffinitione inter illos de <placeName
+            ref="#Fosdinovo"> Faucenova</placeName> et de <placeName ref="#Vallecchia2"
+            >Vallecla</placeName>, et usque ad diffinitionem <placeName ref="#StancaCaballo"
+            >Stancavalli</placeName> que est inter illos de <placeName ref="#Pulica"
+            >Puleca</placeName> et illos de <placeName ref="#Vallecchia2">Vallecla</placeName>, et
+          sicuti vadit<note place="foot" n="g" xml:id="CCCXXV_n_008"><term xml:lang="latin"
+              >vadit</term>: <term xml:lang="latin">v</term>
+            <emph>corretto su precedente scrittura</emph>.</note> via publica usque ad terminum
+            <placeName ref="#Cernetorio">Cernitoris</placeName>, qui est inter illos de <placeName
+            ref="#Vallecchia2">Vallecla</placeName> et de <placeName ref="#Marciano"
+            >Marciano</placeName>, et ita vidit tenere in tempore <persName ref="#GotefredEpLuni"
+            >Gotifredi <roleName>episcopi</roleName>
+          </persName>, suis omnibus, sine lite, excepto castagneto quod dedit <persName
+            ref="#GotefredEpLuni">
+            <roleName>episcopus</roleName> G<supplied reason="omitted"
+            >otefredus</supplied></persName>
+          <persName ref="#GaforiusFaucenova">G<supplied reason="omitted">aforio
+            </supplied></persName>, et nullum contrarium vidit habere, nisi post tempus <persName
+            ref="#PipEpLuni">
+            <roleName>episcopi</roleName> P<supplied reason="omitted">ipini </supplied></persName>,
+          et pratum de <placeName ref="#Montorbo">Montorbo</placeName> semper audivit ut illorum de
+            <placeName ref="#Fosdinovo"> Faucenova</placeName> erat.</p>
+        <p xml:id="CCCXXV_p_015" n="15"><persName ref="#GerardusCodesorbo">Gerardus de <placeName
+              ref="#Codesorbo">Codesorbo</placeName></persName>, presens, dixit quod a termino
+            <placeName ref="#Colimento">Colintenti<note place="foot" n="f" xml:id="CCCXXV_n_009"
+                ><term xml:lang="latin"> Colintento</term>: <emph>così nel
+            testo</emph>.</note></placeName>, qui est inter illos de <placeName ref="#Fosdinovo"
+            >Faucenova</placeName> et illos de episcopo, et a termino <placeName
+            ref="#StancaCaballo">Stancavalli</placeName>, qui debet esse inter illos de <placeName
+            ref="#Pulica"> Puleca</placeName> et de <placeName ref="#Vallecchia2"
+            >Vallecla</placeName>, vidit habere, tenere per XXX annos, sine lite, propter
+          episcopum.</p>
+        <p xml:id="CCCXXV_p_016" n="16"><persName ref="#CitusCampagnano">Citus de <placeName
+              ref="#Capagnano">Capagnano</placeName></persName>, presens, dixit quod hoc nemus, unde
+          lis est inter episcopum et illos de <placeName ref="#Fosdinovo">Faucenova</placeName>,
+          habere, tenere ad illos<note place="foot" n="h" xml:id="CCCXXV_n_010"><term
+              xml:lang="latin">ad illos</term>: <emph> così nel testo</emph>.</note> de <placeName
+            ref="#Vallecchia2">Vallecla</placeName> et nullam litem vidit de hoc nemore, nisi inter
+          illos de <placeName ref="#Capagnano">Capagnano</placeName> et de <placeName
+            ref="#Vallecchia2">Vallecla</placeName>, et <persName ref="#GotefredEpLuni">
+            <roleName>episcopus</roleName> Gotefredus</persName> concordavit eos insimul et tenuta
+          nemoris remansit ad illos de <placeName ref="#Vallecchia2">Vallecla</placeName>; et ita
+          per XXX annos vidit habere<note place="foot" n="i" xml:id="CCCXXV_n_011"><term
+              xml:lang="latin">habere</term>: <term xml:lang="latin">h</term>
+            <emph>corretto su precedente scrittura</emph>.</note>, tenere sine lite, nisi post
+          tempus <persName ref="#PipEpLuni"><roleName>episcopi</roleName> P<supplied
+              reason="omitted">ipini </supplied></persName>.</p>
+        <p xml:id="CCCXXV_p_017" n="17"><persName ref="#PilusCapagnano">Pilus de <placeName
+              ref="#Capagnano">Capagnano</placeName></persName>, presens, dixit quod de hoc nemore,
+          unde lis est inter illos de <placeName ref="#Fosdinovo">Faucenova</placeName> et illos de
+            <placeName ref="#Vallecchia2">Vallecla</placeName>, nullam litem vidit nisi inter illos
+          de <placeName ref="#Vallecchia2"> Vallecla</placeName> et illos de <placeName
+            ref="#Capagnano">Capagnano</placeName>, et <persName ref="#GotefredEpLuni"
+              ><roleName>episcopus</roleName> G<supplied reason="omitted">otefredus</supplied>
+          </persName> concordavit eos insimul et tenuta remansit ad illos de <placeName
+            ref="#Vallecchia2">Vallecla </placeName> et nullam litem vidit inter illos de <placeName
+            ref="#Vallecchia2">Vallecla</placeName> et illos de <placeName ref="#Fosdinovo"
+            >Faucenova</placeName>, nisi istam.</p>
+        <p xml:id="CCCXXV_p_018" n="18"><persName ref="#PlacentinusVallecla">Placentinus<note
+              place="foot" n="l" xml:id="CCCXXV_n_012"><term xml:lang="latin">Placentinus</term>:
+                <emph>la seconda</emph>
+              <term xml:lang="latin">n</term>
+              <emph>corretta su precedente scrittura</emph>.</note> de <placeName ref="#Vallecchia2"
+              >Vallecla</placeName></persName>, presens, dixit quod in tempore <persName
+            ref="#AlbertusEpLuni"><roleName>episcopi</roleName> Alberti</persName> a termino
+            <placeName ref="#Colimento">Colintenti<note place="foot" n="f" xml:id="CCCXXV_n_013"
+                ><term xml:lang="latin"> Colintento</term>: <emph>così nel
+            testo</emph>.</note></placeName>, qui est in diffinitione inter illos de <placeName
+            ref="#Fosdinovo">Faucenova</placeName> et de <placeName ref="#Vallecchia2">Vallecla
+          </placeName>, et sicut vadit ad diffinitionem <placeName ref="#StancaCaballo"
+            >Stancavalli</placeName> que est inter illos de <placeName ref="#Pulica"
+            >Puleca</placeName> et de <placeName ref="#Vallecchia2"> Vallecla</placeName>, et
+          veniente ad terminum <placeName ref="#AqueNigre">Aque Nigre</placeName> et ad terminum
+            <placeName ref="#Cernetorio">Cernitoris</placeName>, qui est in diffinitione inter illos
+          de <placeName ref="#Marciano">Marciano</placeName> et illos de <placeName
+            ref="#Vallecchia2">Vallecla </placeName>, excepto prato <placeName ref="#Montorbo"
+            >Montorbi</placeName> et castagneto quod dedit <persName ref="#GotefredEpLuni"
+              ><roleName>episcopus</roleName> G<supplied reason="omitted">
+            otefredus</supplied></persName>
+          <persName ref="#GaforiusFaucenova"> G<supplied reason="omitted"
+            >aforio</supplied></persName>, et ita vidit habere, tenere ad illos<note place="foot"
+            n="h" xml:id="CCCXXV_n_014"><term xml:lang="latin">ad illos</term>: <emph>così nel testo
+            </emph>.</note> de <placeName ref="#Vallecchia2">Vallecla</placeName> sine lite post
+          suum tempus, nisi istam que nunc est.</p>
+        <p xml:id="CCCXXV_p_019" n="19"><persName ref="#LambernonusVallecla">Lambernonus de
+              <placeName ref="#Vallecchia2">Vallecla</placeName></persName>, presens, dixit quod a
+          termino <placeName ref="#Colimento">Colintento<note place="foot" n="f"
+              xml:id="CCCXXV_n_015"><term xml:lang="latin"> Colintento</term>: <emph>così nel
+                testo</emph>.</note></placeName>, qui est in diffinitione inter illos de <placeName
+            ref="#Fosdinovo">Faucenova</placeName> et illos de <placeName ref="#Vallecchia2"
+            >Vallecla </placeName>, et ad diffinitionem <placeName ref="#StancaCaballo"
+            >Stancavalli</placeName> que est inter illos de <placeName ref="#Pulica"
+            >Puleca</placeName> et de <placeName ref="#Vallecchia2">Vallecla </placeName>, et
+          veniente ad terminum <placeName ref="#AqueNigre">Aque Nigre</placeName>, qui est in
+          diffinitione inter illos de <placeName ref="#Casapoci">Casaposi</placeName> et de
+            <placeName ref="#Vallecchia2">Vallecla</placeName>, et veniente per viam desubterm
+          stratam usque ad faucem <placeName ref="#Montorbo">Montorbi</placeName> et descendente ad
+          terminum <placeName ref="#Cernetorio">Cernitoris</placeName>, qui est in diffinitione
+          inter illos de <placeName ref="#Marciano"> Marciano</placeName> et de <placeName
+            ref="#Vallecchia2">Vallecla</placeName>, excepto prato et castagneto quod <pb n="296v"
+            xml:id="fol_296v"/> dedit <persName ref="#GotefredEpLuni">
+            <roleName>episcopus</roleName> Gotefredus </persName>
+          <persName ref="#GaforiusFaucenova">Ga<supplied reason="omitted"
+            >forio</supplied></persName>, et ita vidit habere, tenere, usufructuare et sepem facere
+          et capriolos<note place="foot" n="n" xml:id="CCCXXV_n_016"><term xml:lang="latin"
+              >capriolos: pri</term>
+            <emph>corretto su precedente scrittura</emph>.</note> capere ad illos<note place="foot"
+            n="h" xml:id="CCCXXV_n_017"><term xml:lang="latin">ad illos</term>: <emph>così nel
+              testo</emph>.</note> de <placeName ref="#Vallecchia2"> Vallecla</placeName> propter
+          episcopum et propter ecclesiam et nullam litem vidit, nisi in tempore <persName
+            ref="#PipEpLuni"><roleName>episcopi</roleName> P<supplied reason="omitted"
+              >ipini</supplied>
+          </persName> et istam.</p>
+        <p xml:id="CCCXXV_p_020" n="20"><persName ref="#MarchesinusVallecla">Marchesinus de
+              <placeName ref="#Vallecchia2">Vallecla</placeName></persName> per sacramentum<note
+            place="foot" n="o" xml:id="CCCXXV_n_018"><term xml:lang="latin">sacramentum: r</term>
+            <emph>in sopralinea con segno di richiamo</emph>.</note> dixit quod a termino <placeName
+            ref="#Colimento">Colintenti<note place="foot" n="f" xml:id="CCCXXV_n_019"><term
+                xml:lang="latin"> Colintento</term>: <emph>così nel
+          testo</emph>.</note></placeName>, qui est inter illos de <placeName ref="#Fosdinovo"
+            >Faucenova </placeName> et de <placeName ref="#Vallecchia2">Vallecla</placeName>, et ad
+          diffinitionem <placeName ref="#StancaCaballo">Stancavalli</placeName> que est inter illos
+          de <placeName ref="#Pulica">Puleca</placeName> et de <placeName ref="#Vallecchia2"
+            >Vallecla</placeName>, et veniente per viam ad terminum <placeName ref="#AqueNigre">Aque
+            Nigre</placeName>, qui est in diffinitione inter illos de <placeName ref="#Vallecchia2"
+            >Vallecla</placeName> et de <placeName ref="#Casapoci">Casaposi</placeName>, et veniente
+          ad faucem <placeName ref="#Montorbo">Montorbi </placeName> desubter stratam, et veniente
+          ad terminum <placeName ref="#Cernetorio">Cernitoris</placeName>, qui est inter illos de
+            <placeName ref="#Marciano">Marciano</placeName> et de <placeName ref="#Vallecchia2"
+            >Vallecla</placeName>, excepto castagneto quod dedit <persName ref="#GotefredEpLuni"
+              ><roleName>episcopus</roleName> G<supplied reason="omitted"
+            >otefredus</supplied></persName>
+          <persName ref="#GaforiusFaucenova">Ga<supplied reason="omitted"
+            >forio</supplied></persName>, et ita vidit habere, tenere, usufructuare, sepem facere et
+          capriolos capere ad illos<note place="foot" n="h" xml:id="CCCXXV_n_020"><term
+              xml:lang="latin"> ad illos</term>: <emph>così nel testo</emph>.</note> de <placeName
+            ref="#Vallecchia2">Vallecla </placeName>propter episcopum et propter ecclesiam a tempore
+            <persName ref="#GotefredEpLuni">
+            <roleName>episcopi</roleName> Gotefredi</persName> in hac et nullam litem vidit, nisi
+          per tempus <persName ref="#PipEpLuni"><roleName>episcopi</roleName> Pi<supplied
+              reason="omitted">pini</supplied>
+          </persName>, ita ut dictum est. Omnes per sacramenta dixere coram potestatibus, <date
+            when="1178-10">anno ab incarnatione Domini nostri Ihesu Christi millesimo CLXXVIII,
+            indictione XI, mense octubris</date>.</p>
+        <p xml:id="CCCXXV_p_021" n="21">Actum <placeName ref="#Luni">Lune</placeName>,
+          feliciter.</p>
+        <p xml:id="CCCXXV_p_022" n="22"><ptr target="#CCCXXV_st_001"/>Ego <persName
+            ref="#Costantinusnot">Constantinus, <roleName>notarius domini Frederici
+              imperatoris</roleName></persName>, hanc cartam complevi et scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

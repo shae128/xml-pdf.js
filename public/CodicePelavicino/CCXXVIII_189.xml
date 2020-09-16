@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXXVIII_189">
+    <front xml:id="CCXXVIII_front">
+
+      <titlePart type="numerazioneNuova">189</titlePart>
+      <titlePart type="numerazioneOrig">CCXXVIII</titlePart>
+
+      <docDate xml:id="CCXXVIII_docDate">
+        <date when="1188-02-27">1188 febbraio 27</date>, <placeName>Collecchia (<term
+            xml:lang="latin">in colle castri novi de Barci</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXXVIII_regesto">
+        <p>Enrico visdomino, a nome di Pietro, vescovo di Luni, e Guido di Erberia del fu Gerardo
+          Bianco, podestà e rettore dei suoi consorti, stabiliscono di edificare insieme un <term
+            xml:lang="latin">castrum</term> posto nel luogo detto <term xml:lang="latin"
+            >Collicclum</term>, presso la <term xml:lang="latin">villa</term> di <term
+            xml:lang="latin">Barci</term>. Si stabilisce inoltre che la fortificazione, chiamata
+            <term xml:lang="latin">Castrum Novum de Barci</term>, sia di proprietà per una metà del
+          vescovo e per l’altra metà dei signori di Erberia e che i diritti e le spese ad essa
+          pertinenti siano equamente divisi.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP, cc. 253v.- 254r., c. CCXLVv.- CCXLVIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. 228, pp. 207-209.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p>Bibliografia: <ref target="#FORMENTINI_1970">FORMENTINI 1970</ref>, p. 10; <ref
+              target="#NOBILI_2006">NOBILI 2006</ref>, pp. 423-426</p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXXVIII_div">
+        <p xml:id="CCXXVIII_p_001" n="1">In eterni Dei nomine, amen. Scriptum memorie tam
+          presentibus quam futuris qualiter <persName ref="#Henricus">Henricus
+              <roleName>vicedominus</roleName></persName>, pro domino <persName ref="#PetrusEpLuni"
+            >Petro, Dei gratia <roleName>Lunensi episcopo</roleName></persName>, ex una parte, et
+          dominus <persName ref="#GuidoGerardiHerb">Guido de <placeName ref="#Erberia"
+              >Herberia</placeName> quondam Gerardi Blanki</persName>, potestas tunc et rector
+          suorum consortum habentium podere in <orgName ref="#Luni_comitatus">Lunensi
+            comitatu</orgName>, pro ipsis suis consortibus, ex altera parte, statuerunt,
+          ordinaverunt pactum et conventum firmaverunt super castro edificando<note
+            xml:id="CCXXVIII_n_001" n="a" place="foot"><term xml:lang="latin">edificando</term>: fi
+              <emph>aggiunto in sopralinea</emph>.</note>, habendo, tenendo, fruendo, dominando et
+          manutenendo, sito in loco qui solet dici <placeName ref="#Collecchia"
+            >Collicclum</placeName>, in partibus ville dicte <placeName ref="#Barci"
+            >Barci</placeName>, cui nomen etiam impositum est a compluribus <placeName
+            ref="#CastelnuovodiBarci">Castrum Novum de Barci</placeName>: videlicet predictus
+            <persName ref="#Henricus">Henricus</persName>, in ipso iamdicto loco et castro existens
+          cum vexillo sancte Marie et episcopi Lunensis atque cum compluribus hominibus eiusdem
+          episcopii et ex voluntate et consensu iamscripti domini episcopi pro ipso episcopio, pro
+          medietate eiusdem castri, atque predictus <persName ref="#GuidoGerardiHerb"
+            >Guido</persName> pro se suisque predictis consortibus, similiter pro alia medietate
+          eiusdem castri, ipsum castrum hedificaverunt ad honorem Dei et beatissime Dei genitricis
+          semperque Virginis Marie et ecclesie Lunensis et eius episcopii et domini <persName
+            ref="#PetrusEpLuni">Petri, Dei gratia <roleName>Lunensis episcopi</roleName></persName>,
+          suorumque catholicorum successorum, statuentes, dicentes, conventantes et compromittentes,
+          quisque sibi ad invicem pro sua parte, ut medietas eiusdem castri tota in integrum, cum
+          accessibus et regressibus suis, sit eorumdem dominorum de <placeName ref="#Erberia"
+            >Herberia</placeName>, eorum videlicet qui habent podere in <orgName
+            ref="#Luni_comitatus">Lunensi comitatu</orgName>, atque alia medietas sit predicti
+          domini episcopi suorumque successorum et eius episcopii, intus siquidem et foris, in
+          domignone, in turri vel turribus et omnibus mediis seu hedificiis sive quibus<supplied
+            reason="omitted">cum</supplied>que municionibus castelli, in introitu et exitu, in burgo
+          vel burgis atque in confines et securitates castelli, et ipsum castrum, guarnitum et
+          scaritum ad guerram et pacem faciendam, sit per medium eiusdem episcopi atque eiusdem
+          episcopii atque alia medietas sit iamscripti domini Guidonis<note xml:id="CCXXVIII_n_002"
+            n="b" place="foot"><term xml:lang="latin">domini <persName ref="#GuidoGerardiHerb"
+                >Guidonis</persName></term>: <emph>nel testo</emph>
+            <term xml:lang="latin">Guidonis domini</term>
+            <emph>con segno di richiamo per indicare l’inversione delle parole</emph>.</note>
+          suorumque iamscriptorum consortum,<pb n="254r" xml:id="fol_254r"/> ita etiam videlicet
+          quod omnes homines habitantes in ipso castro sive qui pro tempore vel temporibus venerint
+          habitaturi, cuiusque homines fuerint, in ipso tamen castro per medietatem sint
+          uniuscuiusque partium iamscriptarum et unicuique partium, tam in castro quam in
+          confinibus, equaliter, teneantur et quamcumque securitatem fatient<note
+            xml:id="CCXXVIII_n_003" n="c" place="foot"><term xml:lang="latin">fatient</term>:
+              <emph>corretto su precedente scrittura</emph>.</note> communiter faciant et obedire
+          pariter teneantur astricti; placitum, districtum, banda, potestates, consulatus et omnis
+          honor castri communia partibus fiant in ipso et de ipso atque pro ipso castro et tam sint
+          ex voluntate et assensu et consilio Lunensis episcopi quam predictorum dominorum de
+            <placeName ref="#Erberia">Herberia</placeName>. Et nulla iamscriptarum partium aliam
+          molestabit nec inquietabit nec imbrigari fatiet atque, si aliquando forte aliqua partium
+          quod ibi suum est vel erit voluerit alienare, alteram partem requiret sine fraude atque
+          illi prius dabit quam alii si, prius requisita, dare voluerit sine fraude quod alius dare
+          voluerit et secundum iustam extimationem; et aliqua partium non debet esse in facto nec in
+          consilio nec assensu quod alia perdat suam, immo retinere adiuvabit. Expensam quoque
+          ipsius castri dominus episcopus faciat per medietatem, sicut et illi domini facient, et
+          quicquid aliquando dominus episcopus et predicti domini, aut quis fuerit potestas pro
+          tempore pro illis dominis, pro utilitate vel melioramento addere concorditer vel minuere
+          voluerit, totum observabunt. Hec omnia integra et inviolabilia perpetuo per sese suosque
+          heredes et successores utraque pars per stipulationem observare promiserunt, sub pena ab
+          ipsis constituta centum librarum imperialium.</p>
+        <p xml:id="CCXXVIII_p_002" n="2">Actum est hoc <date when="1118-02-27">anno millesimo
+            centesimo octogesimo VIII, indictione VI, die sabbati qui fuit IIII kalendas
+            marcii</date>, in colle eiusdem castri, qui etiam dies fuit tercius ab eo die quo
+          predicte partes ipsum castrum ascenderant.</p>
+        <p xml:id="CCXXVIII_p_003" n="3"># Signa manuum <persName ref="#RomeusSoleria">Romei de
+              <placeName ref="#Soliera">Soleria</placeName></persName>, <persName
+            ref="#BonacursusMazasio">Bonacursi de <placeName ref="#Marciaso"
+            >Marzasio</placeName></persName>, <persName ref="#GerardusMunzone">Gerardi de <placeName
+              ref="#Monzone">Munzone</placeName></persName>, <persName ref="#GuilielmusViano"
+            >Guilielmi</persName> et <persName ref="#BosoViano">Bosonis de <placeName ref="#Viano"
+              >Viano</placeName></persName>, <persName ref="#GuidoCergnano">Guidonis de <placeName
+              ref="#Cergnano">Cergnano</placeName></persName>, <persName ref="#PettenariusCervaria"
+            >Pettennarii de <placeName ref="#Cervaria">Cervaria</placeName></persName>, <persName
+            ref="#Vestitus">Vestiti</persName>, <persName ref="#AldeprandinusOletto">Aldeprandini de
+              <placeName ref="#Oletto">Oletto</placeName></persName>, <persName
+            ref="#ParisiusRegnano">Parisii de <placeName ref="#Regnano"
+            >Regnano</placeName></persName>, <persName ref="#BulgarinusSarzana">Bulgarini de
+              <placeName ref="#Sarzana">Sarzana</placeName></persName>, <persName
+            ref="#HenricolusSoleria">Henricoli</persName> et <persName ref="#ThebaldinusSoleria"
+            >Thebaldini de <placeName ref="#Soliera">Soleria</placeName></persName>, rogatorum
+          testium. Et cum ego <persName ref="#Lombardusnot">Lumbardus
+            <roleName>notarius</roleName></persName> hunc contractum et hoc statutum retulerim et
+          ostenderim prelibato domino episcopo apud <placeName ref="#Ameglia">Ameliam</placeName>,
+          ipse laudavit, assensit et confirmavit et in publico scripto redegi iussit atque rogavit
+          atque exinde due cartule uno tenore sunt facte.</p>
+        <p xml:id="CCXXVIII_p_004" n="4"># Signa manuum iamscripti domini episcopi et iamscripti
+          domini <persName ref="#GuidoGerardiHerb">Guidonis de <placeName ref="#Erberia"
+              >Herberia</placeName></persName> et iamscripti <persName ref="#Henricus">Henrici
+              <roleName>vicedomini</roleName></persName>, qui hanc cartulam fieri rogaverunt.</p>
+        <p xml:id="CCXXVIII_p_005" n="5"><ptr target="#CCXXVIII_st_001"/> Ego <persName
+            ref="#Lombardusnot">Lumbardus, <roleName>domini imperatoris et Lunensis curie
+              notarius</roleName></persName>, interfui et rogatus hanc cartulam scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

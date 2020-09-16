@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXX_181">
+    <front xml:id="CCXX_front">
+
+      <titlePart type="numerazioneNuova">181</titlePart>
+      <titlePart type="numerazioneOrig">CCXX</titlePart>
+
+      <docDate xml:id="CCXX_docDate">
+        <date when="1021-01">1021 gennaio</date>, <placeName>Ameglia <emph>(<term xml:lang="latin"
+              >in Amelia</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXX_regesto">
+        <p>Benedetto del fu Bono di Ponzano e il figlio del fu Giovanni, per una metà, Martino e
+          Giovanni, figli del fu Bonezo, per l’altra metà, chiedono a Guido, vescovo di Luni, due
+          porzioni di terra e di foresta, siti nel luogo detto <term xml:lang="latin"
+            >Ponciano</term> e <term xml:lang="latin">in monte Langolo</term>, due porzioni di terra
+            <term xml:lang="latin">in Ortoriano</term> e <term xml:lang="latin">in valle
+            Preiutese</term> e due pezzi di vigna in Valmaggiore. Questi beni, un tempo concessi a
+          livello dal vescovo all’avo comune Paolo, comportano un fitto annuale di 7 denari.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXX_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP, c. 250v., c. CCXLIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 220,
+            p. 199.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il testo è molto scorretto. Il documento è il medesimo del n. 182-CCXXI, sebbene si
+            riscontrino numerose varianti. <p>Autentica databile con incertezza tra il 1180 e il
+              1190.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXX_div">
+        <p xml:id="CCXX_p_001" n="1"><ptr target="#CCXX_st_001"/>In nomine Domini Dei et Salvatoris
+          nostri Ihesu Christi.<date when="1021-01"><persName ref="HenricusII">Einricus,
+                <roleName>gratia Dei imperator augustus</roleName></persName>, anno imperii eius,
+            Deo propicio, septimo, mense ianuarii, indictione quarta</date>. Petimus nos <persName
+            ref="#BenedictusBoni">Benedicto quondam Bono de <placeName ref="#Ponzano"
+              >Ponçano</placeName></persName> et filius quondam <persName ref="#Iohannes"
+            >Iohanni</persName>, in una medietate, et <persName ref="#MartinusBonezi"
+            >Martino</persName> seu <persName ref="#IohannesBonezi">Iohannes, germani, filii quondam
+            Bonezi</persName>, in alia medietate, quisque in suorum porcione, una cum nostris
+          heredibus, ad vos dominus <persName ref="#GuidoEpLuni1">Guido, <roleName>episcopus sancte
+              Marie Lunensis ecclesie</roleName></persName>, hoc sunt dues portiones de petia una de
+          terra et aliis quantum de silvis abente iuris sancte Marie episcopio vestro in loco ubi
+          dicitur <placeName ref="#Ponzano">Ponciano</placeName> et in monte <placeName
+            ref="#Langolo">Langolo</placeName>, et est per finis de uno campo suteriore fine terra
+            <orgName ref="#S_Pietro">sancti Petri</orgName>, de alio campo superiori pro <placeName
+            ref="#CerroSuvero">Cerro Suvero</placeName> de <placeName ref="#Scusia">valle
+            Scusia</placeName> et de uno latere <persName ref="#ParentinaTerrarossola">Parentine de
+              <placeName ref="#Terrarossola">Terrarossola</placeName></persName>, et petimus a vobis
+          dues portiones de petia una de terra in <placeName ref="#Ortoriano">Ortoriano</placeName>
+          et alia in valle <placeName ref="#Preiutese">Preiutese</placeName> atque dues petiole de
+            vineas<note place="foot" n="a" xml:id="CCXX_n_001"><term xml:lang="latin"
+              >vineas</term><emph>: s aggiunto in sopralinea.</emph></note> in <placeName
+            ref="#Valmaiore">Valmaiore</placeName> et pro aliis ceteris locis, ubicumque de
+            ipses<note place="foot" n="b" xml:id="CCXX_n_002"><term xml:lang="latin"
+              >ipses</term><emph>: s aggiunto in sopralinea.</emph></note> dues portiones de
+            ipsas<note place="foot" n="c" xml:id="CCXX_n_003"><term xml:lang="latin"
+              >ipsas</term><emph>: s aggiunto in sopralinea.</emph></note> rex, quam iam antea
+          tenuit bone memorie <persName ref="#Paulus">Paulo</persName>, avo nostro, pro libello de
+          pars ipsius episcopio vestro, cum casis, terris, vineis, pometis, olivetis, castanetis,
+          silvis et pascuis, cultum et agrum, plenum et vacuum et cum omnia super se abente ad ipse
+          dues portiones est pertinentes in integrum, ipse predicte dues portiones de predicta rex,
+          sicut supra legitur, alendum, colendum, laborandum, frugiendum atque meliorandum, casas et
+          territorias restaurandum; et ibi resedere debeamus ad abitandum et a mandato vestro
+          veniamus de ipsa res ad lex faciendum et exinde persolvere debeamus nos<note place="foot"
+            n="c" xml:id="CCXX_n_004"><term xml:lang="latin">nos</term><emph>: s aggiunto in
+              sopralinea.</emph></note> iamscriptis petitores vel nostris heredes aut a nostro misso
+          vobis domni<persName ref="#GuidoEpLuni1"> Guidonis
+            <roleName>episcopo</roleName></persName> vel successoribus vestris aut ad misso vestro
+          per omnes annos infra octava nativitatis Domini afictam pensionem denarios bonos septem
+            co<supplied reason="omitted">n</supplied>signati vobis aut quibus in beneficio abuit
+            t<supplied reason="omitted">an</supplied>t<supplied reason="omitted">um</supplied>; alia
+          superimposita eorum non fiat. Penam vero inter se posuerunt ut quis ex ipsis aut
+          successoribus vel heredibus eorum non compleverint omnia, qualiter superius legitur, vel
+          si tollere aut<note place="foot" n="e" xml:id="CCXX_n_005"><term xml:lang="latin"
+              >aut</term><emph>: corretto su</emph>
+            <term xml:lang="latin">vel</term>.</note> laxare voluerint, componat pars parti fidem
+          servanti penam <measure type="Imperiales" quantity="20" unit="solidus">argentum soldorum
+            XX</measure> et ipso libello inter nos facto in sua permaneat firmitatem.</p>
+        <p xml:id="CCXX_p_002" n="2">Actum in <placeName ref="#Ameglia">Amelia</placeName>. Signum
+            manuu<supplied reason="omitted">m</supplied> iamscriptorum petitorum, qui hoc libello
+          fieri rogaverunt.</p>
+        <p xml:id="CCXX_p_003" n="3">Ego <persName ref="#GuidoEpLuni1">Guido
+              <roleName>episcopus</roleName></persName> in hoc libello manu mea scripsi. Signa
+          manibus <persName ref="#Andrea">Andree</persName> et <persName ref="#Guido"
+            >Guidoni</persName> seu <persName ref="#MartinusBonezi">Martini</persName>, omnes rogati
+          testes.</p>
+        <p xml:id="CCXX_p_004" n="4"><ptr target="#CCXX_st_002"/>Ego <persName ref="#Bernardusnot"
+            >Bernardus, <roleName>notarius et iudex sacri palacii</roleName></persName>, istius
+          libelli scripsi.</p>
+      </div>
+      <div xml:id="CCXX_div2" type="autentica">
+        <p xml:id="CCXX_p_005" n="5"><ptr target="#CCXX_st_003"/>Ego <persName ref="#Lombardusnot"
+            >Lombardus, <roleName>domini imperatoris et Lunensis curie
+            notarius</roleName></persName>, huius exempli auttenticum vidi et diligenter perlegi et,
+          sicut in eo repperi, sic exemplavi et proprio signo notati<note place="foot" n="f"
+            xml:id="CCXX_n_006"><term type="incerto">notati</term><emph>: così nel testo per</emph>
+            <term xml:lang="latin">notavi</term></note><note>Autentica databile con incertezza dal
+            1180 al 1190 <date notBefore="1180-01-01" notAfter="1190-12-31" cert="low"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

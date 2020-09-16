@@ -1,0 +1,783 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="\schema\tei_cp.rng" type="application\xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="XXIIII_53">
+    <front xml:id="XXIIII_front">
+
+      <titlePart type="numerazioneNuova">53</titlePart>
+      <titlePart type="numerazioneOrig">XXIIII</titlePart>
+
+      <docDate xml:id="XXIIII_docDate">
+        <date from="1171-04-13" to="1171-04-14">1171</date>o<date from="1176-04-13" to="1176-04-14"
+          >1176 aprile 13 e 14</date>,<placeName ref="#Sarzana">Sarzana (<term xml:lang="latin">in
+            curia Sarzane</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="XXIIII_regesto">
+        <p>Elenco di censi dovuti all’episcopato di Luni dichiarati sotto giuramento dagli scari
+          della curia di Sarzana: Moregnolo da <term xml:lang="latin">Terrio</term>, Allegretto,
+          Buscallante, Guglielmo da <term xml:lang="latin">Paternulo</term> e Durante da <term
+            xml:lang="latin">Colle</term>. </p>
+      </div>
+
+      <div type="footer" xml:id="XXIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 70r.-74r., cc. LXIIr.-LXVIr. secondo la numerazione originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Notizia in: <ref type="biblio" target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>,n.
+            24, p. 37, che riporta soltanto le prime tre righe del documento.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>
+            <p>Il documento è stato redatto al tempo del vescovo di Luni Pipino (attestato tra 1170
+              e 1176), un martedì 13 aprile e il giorno seguente: da qui gli anni proposti. Se
+              l’anno fosse il 1176, questa sarebbe l’ultima attestazione nota del vescovo
+              Pipino.</p>
+            <p><emph>Nel margine interno di c. 70r., di mano moderna, la seguente
+                annotazione:</emph><term xml:lang="latin">Recordatio introituum curie episcopalis
+                seu aliarum <expan>colon<ex>arum</ex></expan>.</term> L’elenco è diviso in rubriche
+              tematiche titolate con inchiorstro rosso; le lettere iniziali di ogni riga e altre
+              lettere sparse nel testo sono ornate con inchiostro rosso.</p>
+          </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">XXIIII.
+              Breve recordationis de conditionibus curie Sarçane et de pensionibus.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="XXIIII_div">
+        <p xml:id="XXIIII_p_001">In Christi nomine, amen. Breve recordationis de conditionibus curie
+            <placeName ref="#Sarzana">Sarzane</placeName> et pensionibus dessignatis et nominatis
+          sub tenore sacramenti a <persName ref="#MorengnolusTerrio">Moregnolo de <placeName
+              ref="#Terrio">Terrio</placeName></persName> et <persName ref="#Alegreito_scarius"
+            >Alegreito</persName> et <persName ref="#Buscallantus_scarius">Buscallanti</persName> et
+            <persName ref="#GuillermusPaternulo">Guillermo de <placeName ref="#Paternulo"
+              >Paternulo</placeName></persName>, <roleName>scariis</roleName> curie <placeName
+            ref="#Sarzana">Sarzane</placeName>. </p>
+        <p xml:id="XXIIII_p_002">Filii <persName ref="#GortolusAsketulo">Gortoli de <placeName
+              ref="#Ascletulo">Asketulo</placeName></persName>:<measure type="Mediolanenses"
+            quantity="9" unit="denarius">VIIII denarios Mediolanenses</measure> inter pensionem et
+          secatam. <pb n="70v" xml:id="fol_070v"/>
+        </p>
+        <p xml:id="XXIIII_p_003">Filii <persName ref="#ButtafabaTyvenia">Buttafabe de <placeName
+              ref="#Tivegna">Tyvenia</placeName></persName>: <measure type="Mediolanenses"
+            quantity="9" unit="denarius">VIIII denarios Mediolanenses</measure> inter pensionem et
+          secatam. </p>
+        <p xml:id="XXIIII_p_004">Inter filios <persName ref="#GirardinusBacketi">Girardini
+            Backeti</persName> et filium <persName ref="#Sygerolus">Sygeroli</persName>: <measure
+            type="Mediolanenses" quantity="8" unit="denarius">XIII <note xml:id="XXIIII_n_001" n="a"
+              place="foot">XIII: III<emph>corretto su precedente
+            scrittura.</emph></note>Mediolanenses</measure> inter pensionem et secatam. </p>
+        <p xml:id="XXIIII_p_005"><persName ref="#Almeus">Almeus</persName> cum <persName
+            ref="#RolandinusRaynaldi">Rolandino, filio Raynaldi de <placeName ref="#Sera"
+              >Sera</placeName></persName>: <measure type="Mediolanenses" quantity="3"
+            unit="denarius">III denarios</measure>, secata. </p>
+        <p xml:id="XXIIII_p_006">Filius <persName ref="#Girardinus_mariskalkus">Girardini
+              <roleName>mariskalki</roleName></persName>: <measure type="Mediolanenses" quantity="8"
+            unit="denarius">VI denarios</measure>, inter pensionem et secatam. </p>
+        <p xml:id="XXIIII_p_007"><persName ref="#GalunariusSarzana">Galunarius de <placeName
+              ref="#Sarzana">Sarzana</placeName></persName>: <measure type="Mediolanenses"
+            quantity="13" unit="denarius">XIII denarios</measure>, inter pensionem et guaitam et
+          secatam. </p>
+        <p xml:id="XXIIII_p_008"><persName ref="#DuransPrudenzale">Durans de Prudenzale</persName>:
+            <measure type="Lucensem" quantity="1">I Lucensem</measure> pensionis. </p>
+        <p xml:id="XXIIII_p_009"><persName ref="#Gradolonis">Filii Gradolonis</persName>: <measure
+            type="Mediolanenses" quantity="3" unit="denarius">III denarios</measure> pensionis. </p>
+        <p xml:id="XXIIII_p_010">Filius <persName ref="#GualendinusAsketulo">Gualendini de
+              <placeName ref="#Ascletulo">Asketulo</placeName></persName>: <measure type="Lucensem"
+            quantity="1" unit="denarius">I Lucensem</measure> pensionis. </p>
+        <p xml:id="XXIIII_p_011"><persName ref="#IohannellusBaraitelli">Iohannellus
+            Baraitellus</persName>: <measure type="Mediolanenses" quantity="2" unit="denarius">II
+            denarios</measure> pensionis. </p>
+        <p xml:id="XXIIII_p_012">Filia <persName ref="#Luskignolus">Luskinoli</persName>:<measure
+            type="Mediolanenses" quantity="5" unit="denarius">V denarios</measure> et medium
+          pensionis. </p>
+        <p xml:id="XXIIII_p_013">Filia <persName ref="#BaldinellusAsceto">Baldinelli de <placeName
+              ref="#Ascletulo">Asketulo</placeName></persName>: <measure type="Mediolanenses"
+            quantity="5" unit="denarius">V denarios</measure> et medium pensionis. </p>
+        <p xml:id="XXIIII_p_014">Filius <persName ref="#RolandinusPastenello">Rolandini de
+              <placeName ref="#Pastenello">Pastenello</placeName></persName>: <measure
+            type="Mediolanenses" quantity="11" unit="denarius">XI denarios pensionis</measure>. </p>
+        <p xml:id="XXIIII_p_015"><persName ref="#Sabbatinus">Salbatinus</persName>: <measure
+            type="Mediolanenses" quantity="12" unit="denarius">XII denarios</measure> pensionis. </p>
+        <p xml:id="XXIIII_p_016">Filii <persName ref="#GuilielmusAmato">Guilielmi de
+            Amato</persName>: <measure type="Mediolanenses" quantity="12" unit="denarius">XII
+            denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_017">Filia <persName ref="#BellonMarsari">Bellonis Marsarii</persName>:
+            <measure type="Mediolanenses" quantity="3.5" unit="solidus">III soldos et
+            medium</measure> inter pensionem et secatam.</p>
+        <p xml:id="XXIIII_p_018">Inter <persName ref="#Levoraitus">Levoraitum</persName> et
+            <persName ref="#Nobilinus">Nobelinum</persName>: <measure type="Mediolanenses"
+            quantity="3" unit="denarius">III denarios</measure>, secata.</p>
+        <p xml:id="XXIIII_p_019"><persName ref="#UbaldinusBellesorus">Ubaldinus
+            Bellesorus</persName>: <measure type="Mediolanenses" quantity="3" unit="denarius">III
+            denarios</measure>, secata.</p>
+        <p xml:id="XXIIII_p_020"><persName ref="#SarzanellusCasa">Sarzanellus de <placeName
+              ref="#Casa">Casa</placeName></persName>: <measure type="Mediolanenses" quantity="1"
+            unit="denarius">I denarium</measure>, secata.</p>
+        <p xml:id="XXIIII_p_021">Filii <persName ref="#TiniosusLinaro">Tiniosi de <placeName
+              ref="#Linaro">Linaro</placeName></persName>: <measure type="Mediolanenses"
+            quantity="6" unit="denarius">VI denarios</measure>, secata.</p>
+        <p xml:id="XXIIII_p_022">Homines de <placeName ref="#Maretema">Maretema</placeName> de terra
+          de <placeName ref="#Padule">Pa<supplied reason="omitted">d</supplied>ule</placeName> de
+          XII <note xml:id="XXIIII_n_002" n="b" place="foot">XII: II <emph>corretto su precedente
+              scrittura</emph></note> iuvis reddunt pensionis <measure type="Mediolanenses"
+            quantity="2" unit="solidus">II soldos Mediolanenses</measure> et quartum usufructus. </p>
+        <p xml:id="XXIIII_p_023"><persName ref="#GordinusGargandula">Gordinus de <placeName
+              ref="#Gargandula">Gargandula</placeName></persName> cum suis consortibus: <measure
+            type="Mediolanenses" quantity="4" unit="denarius">IIII denarios</measure> pensionis de
+          duobus iuvis et quartum usufructus.</p>
+        <p xml:id="XXIIII_p_024"><persName ref="#UgolinusCarcandula">Ugolinus de <placeName
+              ref="#Carcandola">Carcandula</placeName></persName> pro una iuva: <measure
+            type="Mediolanenses" quantity="2" unit="denarius">II denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_025"><persName ref="#GuidolinusIuncano">Guidolinus de <placeName
+              ref="#Giuccano">Iuncano</placeName></persName> pro una iuva: <measure
+            type="Mediolanenses" quantity="2" unit="denarius">II denarios</measure>. </p>
+        <p xml:id="XXIIII_p_026">Illi de <placeName ref="#Nauze">Nauze</placeName> pro una iuva:
+            <measure type="Mediolanenses" quantity="2" unit="denarius">II denarios</measure></p>
+        <p xml:id="XXIIII_p_027"><persName ref="#Auriculamuza">Auriculamuza</persName>: II iuvas,
+            <measure type="Mediolanenses" quantity="4" unit="denarius">IIII denarios</measure>
+          pensionis.</p>
+        <p xml:id="XXIIII_p_028"><persName ref="#Bombaronus">Bombaronus</persName> et <persName
+            ref="#GuidoCasadio">Guido de <placeName ref="#Casadio">Casadio</placeName></persName>
+          pro una iuva: <measure type="Mediolanenses" quantity="2" unit="denarius">II
+            denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_029"><persName ref="#GuidoRio">Guido de <placeName ref="#Rio"
+              >Rio</placeName></persName> cum fratre suo pro una iuva: <measure type="Mediolanenses"
+            quantity="2" unit="denarius">II denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_030"><persName ref="#PicotusAspasiano">Picoti de <placeName
+              ref="#Aspasiano">Aspasiano</placeName></persName> pro una iuva: <measure
+            type="Mediolanenses" quantity="2" unit="denarius">II denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_031"><persName ref="#EngolinusRio">Engolinus de <placeName ref="#Rio"
+              >Rio</placeName></persName> cum fratre suo: <measure type="Mediolanenses" quantity="2"
+            unit="denarius">II denarios</measure> pensionis pro una iuva.</p>
+        <p xml:id="XXIIII_p_032"><persName ref="#IohanninusCasanus">Iohanninus Casanus</persName>:
+            <measure type="Mediolanenses" quantity="2" unit="denarius">II denarios</measure>
+          pensionis pro una iuva.</p>
+        <p xml:id="XXIIII_p_033"><persName ref="#MartinellusCoxano">Martinellus de <placeName
+              ref="#Coxano">Coxano</placeName></persName> et <persName ref="#GuilielmusClausurella"
+            >Guilielmus de <placeName ref="#Clausurella">Clausurella</placeName></persName>
+          <measure type="Mediolanenses" quantity="2" unit="denarius">II denarios</measure>
+          <note xml:id="XXIIII_n_003" n="c" place="foot">denarios: <emph>segue una parola abrasa e
+              depennata con due tratti orizzontali in inchiostro rosso.</emph></note> pro I
+          iuva.</p>
+        <p xml:id="XXIIII_p_034">Filii <persName ref="#GuidoNave">Guidonis de <placeName ref="#Nave"
+              >Nava</placeName></persName>: <measure type="Mediolanenses" quantity="2"
+            unit="denarius">II denarios</measure> pensionis pro una iuva et quartum usufructus de
+          tota ista terra. Isti denarii omnes, qui supra leguntur, debent esse Mediolanenses, preter
+            <measure type="Lucenses" quantity="2">duos Lucenses</measure>, qui superius sunt
+          nominati.</p>
+        <pb n="71v" xml:id="fol_071v"/>
+        <p xml:id="XXIIII_p_035">Curia de <placeName ref="#Padule">Padule</placeName></p>
+        <p xml:id="XXIIII_p_036"><persName ref="#Ortulanus">Ortulani</persName>: <measure
+            type="Mediolanenses" quantity="4" unit="denarius">IIII denarios pensionis
+            Mediolanenses</measure>.</p>
+        <p xml:id="XXIIII_p_037"><persName ref="#GirardusAlferolo">Girardus de Alferolo</persName>:
+            <measure type="Mediolanenses" quantity="4" unit="denarius">IIII denarios</measure>
+          pensionis.</p>
+        <p xml:id="XXIIII_p_038"><persName ref="#GuilielmusOddolino">Guilielmus de
+            Oddolino</persName>: <measure type="Mediolanenses" quantity="2" unit="denarius">II
+            denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_039"><persName ref="#Ugolinus">Ugolinus</persName>: <measure
+            type="Mediolanenses" quantity="2" unit="denarius">II denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_040"><persName ref="#MartinellusFurnolo">Filii Martinelli<note
+              xml:id="XXIIII_n_004" n="d" place="foot">Martinelli:<emph>nel
+                testo</emph>Martellini<emph>con</emph>llini<emph>depennato e </emph>nelli
+                <emph>aggiunto dalla stessa mano</emph>.</note> de <placeName ref="#Furnolo"
+              >Furnolo</placeName></persName>: <measure type="Mediolanenses" quantity="2"
+            unit="denarius">II denarios</measure> pensionis. </p>
+        <p xml:id="XXIIII_p_041"><persName ref="#Nobilinus">Nobilinus</persName>: <measure
+            type="Mediolanenses" quantity="6" unit="denarius">VI denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_042"><persName ref="#Guido">Guido</persName>: <measure
+            type="Mediolanenses" quantity="3" unit="denarius">III denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_043"><persName ref="#AlegettusBursellus">Alegettus Bursellus</persName>:
+            <measure type="Mediolanenses" quantity="2" unit="denarius">II denarios</measure>
+          pensionis.</p>
+        <p xml:id="XXIIII_p_044">Filii <persName ref="#MarcolinusMontale">Marcolini de <placeName
+              ref="Montale">Muntale</placeName></persName>: <measure type="Mediolanenses"
+            quantity="2" unit="denarius">II denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_045"><persName ref="#Abandonatus">Abandonatus</persName>: <measure
+            type="Mediolanenses" quantity="2" unit="denarius">II denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_046"><persName ref="#Moranus">Moranus</persName>: <measure
+            type="Mediolanenses" quantity="2" unit="denarius">II denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_047"><persName ref="#GirardusVaginellus">Girardus Vaginellus</persName>:
+            <measure type="Mediolanenses" quantity="3" unit="denarius">III denarios</measure>
+          pensionis.</p>
+        <p xml:id="XXIIII_p_048">Filius <persName ref="#BonomolusCasalina">Bonomoli de <placeName
+              ref="#Casalina">Casalina</placeName></persName>: <measure type="Mediolanenses"
+            quantity="1" unit="denarius">I denarium</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_049">Filius <persName ref="#BellandinusPlaza">Bellandini de <placeName
+              ref="#Plaça">Plaza</placeName></persName>: <measure type="Mediolanenses" quantity="2"
+            unit="denarius">II denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_050"><persName ref="#Fantinellus">Fantinellus</persName>: <measure
+            type="Mediolanenses" quantity="2" unit="denarius">II denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_051">Filii <persName ref="#PeregrinusCaynerii">Peregrini
+            Caynerii</persName>: <measure type="Mediolanenses" quantity="10" unit="denarius">X
+            denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_052">Filia <persName ref="#Martinus_faber">Martini
+              <roleName>fabri</roleName></persName>: <measure type="Mediolanenses" quantity="4"
+            unit="denarius">IIII denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_053">Filius <persName ref="#GunzolinusAlferoli">Gunzolini
+            Alferoli</persName>: <measure type="Mediolanenses" quantity="4" unit="denarius">IIII
+            denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_054"><persName ref="#BellonFurnulo">Bellon de <placeName ref="#Furnulo"
+              >Furnulo</placeName></persName>: <measure type="Mediolanenses" quantity="2"
+            unit="denarius">II denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_055"><persName ref="#Bacarellus">Bacarellus</persName>: <measure
+            type="Mediolanenses" quantity="2" unit="denarius">II denarios</measure> pensionis. Et
+          isti denarii debent esse Mediolanenses.</p>
+        <p xml:id="XXIIII_p_056"><persName ref="#Turzanus">Turzanus</persName> pro I iuva: <measure
+            type="Mediolanenses" quantity="2" unit="denarius">II denarios</measure> pensionis.</p>
+        <p xml:id="XXIIII_p_057"><persName ref="#Grappolus">Grappolus</persName> pro una iuva:
+            <measure type="Mediolanenses" quantity="2" unit="denarius">II denarios</measure>.</p>
+        <p xml:id="XXIIII_p_058">Redditus ordei</p>
+        <p xml:id="XXIIII_p_059">Mansus de <placeName ref="#Terria">Terria</placeName>: II<note
+            xml:id="XXIIII_n_005" n="e" place="foot">II: <emph>segue una parola abrasa e depennata
+              con due tratti orizzontali in inchiostro rosso</emph>.</note> sextaria ordei. Item de
+          altera <placeName ref="#Terria">Terria</placeName>: II sextaria ordei.</p>
+        <p xml:id="XXIIII_p_060">Mansus de <placeName ref="#Garatuli">Garattulim</placeName>: II
+          sextaria ordei.</p>
+        <p xml:id="XXIIII_p_061">Mansus de <placeName ref="#Utricino">Utrecinis</placeName>: II
+          sextaria ordei.</p>
+        <p xml:id="XXIIII_p_062">Mansus de <placeName ref="#Montedarmo">Montedarmo</placeName>: II
+          sextaria ordei; ad <placeName ref="#Casalina">Casalinam</placeName>: unum sextarium.</p>
+        <p xml:id="XXIIII_p_063">Mansus de <placeName ref="#Argussolo">Arguzolis</placeName>: unum
+          sextarium ordei.</p>
+        <p xml:id="XXIIII_p_064">Mansus de<note xml:id="XXIIII_n_006" n="f" place="foot">de:
+              <emph>segue una parola abrasa e depennata con due tratti orizzontali in inchiostro
+              rosso</emph>.</note>
+          <placeName ref="#Zazolis">Zazulis</placeName>: unum sextarium ordei.</p>
+        <p xml:id="XXIIII_p_065">Mansus de <placeName ref="#Vignola2">Vignola</placeName>: unum
+          sextarium ordei.</p>
+        <p xml:id="XXIIII_p_066">Mansus de <placeName ref="#Pirzolo">Pirzolo</placeName>: unum
+          sextarium ordei.</p>
+        <p xml:id="XXIIII_p_067">Mansus de <placeName ref="#Nebiana">Nebiana</placeName>: I
+          sextarium ordei.</p>
+        <p xml:id="XXIIII_p_068">Inter <persName ref="#Guidolorsus">Guidolorsi</persName> et
+            <persName ref="#Bonettus">Bonettum</persName>: I sextarium ordei.</p>
+        <p xml:id="XXIIII_p_069">Mansus de <placeName ref="#Montirone">Montirone</placeName>: II
+          sextaria ordei.</p>
+        <p xml:id="XXIIII_p_070"><placeName ref="#Ortogarolo">Ortus Garoli</placeName>: unam minam
+          ordei.</p>
+        <p xml:id="XXIIII_p_071">Mansus de <placeName ref="#Pizara">Pizara</placeName>: II sextaria
+          ordei.</p>
+        <pb n="71r" xml:id="fol_071r"/>
+        <p xml:id="XXIIII_p_072">Mansus de <placeName ref="#Lamula">Lamula</placeName>: unum
+          sextarium ordei.</p>
+        <p xml:id="XXIIII_p_073">Inter <persName ref="#BonomolusFuntanaMartici">Bonomulum de
+              <placeName ref="#FuntanaMartuli">Funtana Martuli</placeName></persName> et suos
+          consortes:  I sextarium ordei.</p>
+        <p xml:id="XXIIII_p_074"><persName ref="#AzzolinusVicerolo">Azzolinus de <placeName
+              ref="#Vicerolo">Vicerolo</placeName></persName> cum suis consortibus: II sextaria
+          ordei.</p>
+        <p xml:id="XXIIII_p_075"><persName ref="#InaLomonte">Ine de <placeName ref="#Lomonte"
+              >Lomonte</placeName></persName>: terciam partem unius sextarii ordei.</p>
+        <p xml:id="XXIIII_p_076"><persName ref="#VeneriusMorano">Venerius de Morano</persName> cum
+          suis consortibus: I sextarium ordei.</p>
+        <p xml:id="XXIIII_p_077">Ad <placeName ref="#Tebiola">Teblolam</placeName>: II sextaria
+          ordei.</p>
+        <p xml:id="XXIIII_p_078">Mansus de <placeName ref="#Bucinis">Bucinis</placeName>: I
+          sextarium ordei.</p>
+        <p xml:id="XXIIII_p_079">Mulinarius de <placeName ref="#Sarzana">Sarzana</placeName>: I
+          sextarium ordei.</p>
+        <p xml:id="XXIIII_p_080">Martignelus de <placeName ref="#Serra">Serra</placeName>: unam
+          minam ordei et II capones, pro comandisia illos capones.</p>
+        <p xml:id="XXIIII_p_081">De porcata, de guaita, de muntonata</p>
+        <p xml:id="XXIIII_p_082">Mansus de <placeName ref="#Bursellis">Bursellis</placeName>:
+            <measure type="Mediolanenses" quantity="3" unit="solidus">III soldos</measure> porcata
+          et <measure type="Mediolanenses" quantity="12" unit="denarius">XII denarios</measure>
+          muntonata et <measure type="Mediolanenses" quantity="3" unit="solidus">III
+            soldos</measure> guaita.</p>
+        <p xml:id="XXIIII_p_083">Mansus de <placeName ref="#Vergarolo">Vergarolo</placeName>:
+            <measure type="Mediolanenses" quantity="18" unit="denarius">XVIII denarios</measure>
+          porcata et <measure type="Mediolanenses" quantity="6" unit="denarius">VI
+            denarios</measure> muntonata et <measure type="Mediolanenses" quantity="27"
+            unit="denarius">XXVII denarios</measure> guaita.</p>
+        <p xml:id="XXIIII_p_084">Mansus de <placeName ref="#Monzolono">Munzolone</placeName>:
+            <measure type="Mediolanenses" quantity="3" unit="solidus">III soldos</measure> porcata
+          et <measure type="Mediolanenses" quantity="12" unit="denarius">XII denarios</measure>
+          muntonata et <measure type="Mediolanenses" quantity="6" unit="solidus">VI soldos</measure>
+          guaita.</p>
+        <p xml:id="XXIIII_p_085"><persName ref="#Buscallanus">Buscallanus</persName>: <measure
+            type="Mediolanenses" quantity="12" unit="denarius">XII denarios</measure> porcata.</p>
+        <p xml:id="XXIIII_p_086"><persName ref="#Peregrinus_ioculator">Peregrinus
+              <roleName>ioculator</roleName></persName>: <measure type="Mediolanenses" quantity="18"
+            unit="denarius">XVIII denarios</measure> porcata.</p>
+        <p xml:id="XXIIII_p_087">Mansus de <placeName ref="#Vignola2">Vignola</placeName>: <measure
+            type="Mediolanenses" quantity="3" unit="solidus">III soldos</measure> porcata et
+            <measure type="Mediolanenses" quantity="12" unit="denarius">XII denarios</measure>
+          muntonata et <measure type="Mediolanenses" quantity="3" unit="solidus">III
+            soldos</measure> guaita.</p>
+        <p xml:id="XXIIII_p_088">Mansus de <placeName ref="#Pozolo">Pozolo</placeName>: <measure
+            type="Mediolanenses" quantity="3" unit="solidus">III soldos</measure> porcata et
+            <measure type="Mediolanenses" quantity="12" unit="denarius">XII denarios</measure>
+          muntonata et <measure type="Mediolanenses" quantity="3">III</measure>
+          <note xml:id="XXIIII_n_007" n="g" place="foot">III:<emph>segue spazio bianco, manca
+              l'ndicazione della moneta.</emph></note> guaita.</p>
+        <p xml:id="XXIIII_p_089">Mansus de <placeName ref="#Nebiana">Nebiana</placeName>: <measure
+            type="Mediolanenses" quantity="3" unit="solidus">III soldos</measure> porcata et
+            <measure type="Mediolanenses" quantity="12" unit="denarius">XII denarios</measure>
+          muntonata.</p>
+        <p xml:id="XXIIII_p_090">Mansus de <placeName ref="#Argussolo">Arguzolis</placeName>:
+            <measure type="Mediolanenses" quantity="3" unit="solidus">III soldos</measure> porcata
+          et <measure type="Mediolanenses" quantity="12" unit="denarius">XII denarios </measure>
+          muntonata et <measure type="Mediolanenses" quantity="3" unit="solidus">III
+            soldos</measure> guaita.</p>
+        <p xml:id="XXIIII_p_091">Mansus de <placeName ref="#Zazolis">Zazolis</placeName>: <measure
+            type="Mediolanenses" quantity="3" unit="solidus">III soldos</measure> porcata et
+            <measure type="Mediolanenses" quantity="12" unit="denarius">XII denarios</measure>
+          muntonata et <measure type="Mediolanenses" quantity="3" unit="solidus">III
+            soldos</measure> guaita.</p>
+        <p xml:id="XXIIII_p_092">Mansus de <placeName ref="#Montedarmo">Montedarmo</placeName>:
+            <measure type="Mediolanenses" quantity="3" unit="solidus">III soldos</measure>
+          guaita.</p>
+        <p xml:id="XXIIII_p_093">Mansus de <placeName ref="#Bucinis">Bucinis</placeName>: <measure
+            type="Mediolanenses" quantity="18" unit="denarius">XVIII denarios</measure> porcata et
+            <measure type="Mediolanenses" quantity="3" unit="solidus">III soldos</measure>
+          guaita.</p>
+        <p xml:id="XXIIII_p_094">Inter <persName ref="#RusticellusMontecello">Rusticellum de
+              <placeName ref="#Moncello">Montecello</placeName></persName> et <persName
+            ref="#UgolinusVagus">Ugolinum Vagum</persName>: <measure type="Mediolanenses"
+            quantity="18" unit="denarius">XVIII denarios</measure> porcata et <measure
+            type="Mediolanenses" quantity="18" unit="denarius">XVIII denarios</measure> guaita et
+            <measure type="Mediolanenses" quantity="12" unit="denarius">XII denarios</measure>
+          muntonata <note xml:id="XXIIII_n_008" n="h" place="foot">et XII denarios muntonata:
+              <emph>scritto nel rigo precedente, con segno di richiamo</emph>.</note>.</p>
+        <p xml:id="XXIIII_p_095"><persName ref="#Mariskalkus">Mariskalki</persName>: <measure
+            type="Mediolanenses" quantity="3" unit="solidus">III soldos</measure> porcata et omni
+          mense unam ebdomadam guaitam.</p>
+        <p xml:id="XXIIII_p_096">Inter <persName ref="#Buscallanus">Buscallanum</persName> et
+            <persName ref="#Peregrinus_ioculator">Peregrinum
+            <roleName>ioculatorem</roleName></persName>: omni mense unam ebdomadam guaitam.</p>
+        <p xml:id="XXIIII_p_097">Inter <persName ref="#UgolinusCaballinus">Ugolinum
+            Caballinum</persName> et filios <persName ref="#TiniosusLinaro">Tiniosi de <placeName
+              ref="#Linaro">Linaro</placeName></persName>: omni mense unam ebdomadam guaitam.</p>
+        <p xml:id="XXIIII_p_098"><persName ref="#DominicusFossato">Dominicus de <placeName
+              ref="#Fossato">Fossato</placeName></persName>: omni mense unam ebdomadam guaitam.</p>
+        <p xml:id="XXIIII_p_099">Inter <persName ref="#Cabuscellus">Cabuscellum</persName> et
+            <persName ref="#Benettus">Benettum</persName>: omni mense unam ebdomadam.</p>
+        <p xml:id="XXIIII_p_100"><persName ref="#Robertus">Robertus</persName>: omni mense unam
+          ebdomadam guaitam.</p>
+        <p xml:id="XXIIII_p_101">De altero <placeName ref="#Vergarolo">Vergarolo</placeName> qui
+            tene<supplied reason="omitted">n</supplied>t <persName ref="#Buscallanus"
+            >Buscallanus</persName> et <persName ref="#Peregrinus_ioculator">Peregrinus
+              <roleName>ioculator</roleName></persName>: <persName ref="#Buscallanus"
+            >Buscallanus</persName>
+          <measure type="Mediolanenses" quantity="12" unit="denarius">XII denarios</measure>
+          porcata, <persName ref="#Peregrinus_ioculator">Peregrinus</persName>
+          <measure type="Mediolanenses" quantity="18" unit="denarius">XVIII denarios</measure>
+          porcata.</p>
+        <pb n="72r" xml:id="fol_072r"/>
+        <p xml:id="XXIIII_p_102">De gallinis</p>
+        <p xml:id="XXIIII_p_103">Mansus de <placeName ref="#Bursello">Bursellis</placeName> debet
+          dare VI gallinas omni anno.</p>
+        <p xml:id="XXIIII_p_104">Mansus de <placeName ref="#VergaroloMoreco">Vergarolo de
+            Moreco</placeName>: VI gallinas.</p>
+        <p xml:id="XXIIII_p_105">Mansus de <placeName ref="#Monzolono">Monzolone</placeName>: VI
+          gallinas.</p>
+        <p xml:id="XXIIII_p_106">Inter <persName ref="#RusticellusMontecello">Rusticellum de
+              <placeName ref="#Montecello">Montecello</placeName></persName> et <persName
+            ref="#UgolinusVagus">Ugolinum Vagum</persName>: duas gallinas.</p>
+        <p xml:id="XXIIII_p_107">Mansus de <placeName ref="#Bucinis">Bucinis</placeName>: VI
+          gallinas.</p>
+        <p xml:id="XXIIII_p_108">Mansus de <placeName ref="#Zazolis">Zazulis</placeName>: VI
+          gallinas.</p>
+        <p xml:id="XXIIII_p_109">Mansus de <placeName ref="#Argussolo">Arguzulis</placeName>: VI
+          gallinas.</p>
+        <p xml:id="XXIIII_p_110">Mansus de <placeName ref="#Nebiana">Nebiana</placeName>: VI
+          gallinas.</p>
+        <p xml:id="XXIIII_p_111">Mansus de <placeName ref="#Puteo">Puteo</placeName>: IIII
+          gallinas.</p>
+        <p xml:id="XXIIII_p_112">Mansus de <placeName ref="#Vignola2">Vi<supplied reason="omitted"
+              >g</supplied>nola</placeName>: IIII gallinas.</p>
+        <p xml:id="XXIIII_p_113">Mansus de <placeName ref="#Montedarmo">Mon<supplied
+              reason="omitted">te</supplied>darmo</placeName>: IIII gallinas.</p>
+        <p xml:id="XXIIII_p_114">Mansus de <placeName ref="#Utricino">Utrecinis</placeName>: VI
+          gallinas.</p>
+        <p xml:id="XXIIII_p_115">Mansus de <placeName ref="#Garatuli">Garartulis</placeName>: VI
+          gallinas.</p>
+        <p xml:id="XXIIII_p_116">Mansus de <placeName ref="#Terrio">Terrio</placeName>: VI
+          gallinas.</p>
+        <p xml:id="XXIIII_p_117">Mansus de altera <placeName ref="#Terria">Terria</placeName>: VI
+          gallinas.</p>
+        <p xml:id="XXIIII_p_118">Mansus de <placeName ref="#Guidolorsus">Guidolorsi</placeName>: III
+          gallinas.</p>
+        <p xml:id="XXIIII_p_119">Mansus de <placeName ref="#Lamula">Lamola</placeName>: III
+          gallinas.</p>
+        <p xml:id="XXIIII_p_120">Mansus de <placeName ref="#Pizara">Pizara</placeName>: VI
+          gallinas.</p>
+        <p xml:id="XXIIII_p_121"><placeName ref="#Ortogarolo">Ortus Garoli</placeName>: unam
+          gallinam et mediam.</p>
+        <p xml:id="XXIIII_p_122">Mansus de <placeName ref="#Factore">Factore</placeName>: VI
+          gallinas.</p>
+        <p xml:id="XXIIII_p_123">Mansus de <placeName ref="#Montirone">Muntirone</placeName>: IIII
+          gallinas.</p>
+        <p xml:id="XXIIII_p_124">Ad <placeName ref="#Monte">Montem</placeName>: unum pullum.</p>
+        <p xml:id="XXIIII_p_125">Ad <placeName ref="#Moranus">Moranum</placeName>: inter duos annos
+          unam gallinam.</p>
+        <p xml:id="XXIIII_p_126">Ad <placeName ref="#Clarola">Clarolam</placeName>: unam gallinam et
+            <measure type="Mediolanenses" quantity="4" unit="denarius">IIII denarios</measure>.</p>
+        <p xml:id="XXIIII_p_127">Casa de <persName ref="#MartinusCerretulo">Martino de <placeName
+              ref="#Cerretulo">Cerretulo</placeName></persName>: <measure type="Mediolanenses"
+            quantity="6" unit="denarius">VI denarios</measure> et placitum et districtum et
+          amasamentum.</p>
+        <p xml:id="XXIIII_p_128">De casa de <persName ref="#BonomolusFuntanaMartici">Bonomulo de
+              <placeName ref="#FuntanaMartuli">Funtana Martici</placeName></persName>: <measure
+            type="Mediolanenses" quantity="6" unit="denarius">VI denarios</measure> et placitum et
+          districtum et amasamentum.</p>
+        <p xml:id="XXIIII_p_129"><persName ref="#CerrianusRiola">Cerrianus de <placeName
+              ref="#Riola">Riola</placeName></persName>: <measure type="Mediolanenses" quantity="3"
+            unit="denarius">III denarios</measure> de tenimento de <persName ref="#MartinusBoccone"
+            >Martino Boccone</persName>.</p>
+        <p xml:id="XXIIII_p_130">De casa filii <persName ref="#MorandellusRiola">Morandelli de
+              <placeName ref="#Riola">Riola</placeName></persName>: II capones; et de omnibus illi
+          de <placeName ref="#Riola">Riola</placeName> , quos filius <persName ref="#Philippus"
+            >Philippi</persName> tenet per curiam, omni anno debent facere albergariam castaldo ad
+          voluntatem ipsius in <orgName ref="#Sarzana_S_Basilio" type="ecclesia_plebs">Sancto
+            Blasio</orgName> et II sextaria ordei.</p>
+        <p xml:id="XXIIII_p_131"><persName ref="#Buscallanus">Buscall<supplied reason="omitted"
+              >an</supplied>us</persName>: unam gallinam omni anno.</p>
+        <p xml:id="XXIIII_p_132"><persName ref="#Peregrinus_ioculator">Peregrinus
+              <roleName>ioculator</roleName></persName>: duas gallinas.</p>
+        <pb n="72v" xml:id="fol_072v"/>
+        <p xml:id="XXIIII_p_133">Pensio vini</p>
+        <p xml:id="XXIIII_p_134">Mansus de <placeName ref="#Bursello">Bursellis</placeName>: IIII
+          congios musti II galletis minus.</p>
+        <p xml:id="XXIIII_p_135">Mansus de <placeName ref="#VergaroloMoreco">Vergarolo de
+            Moreco</placeName>: III congios.</p>
+        <p xml:id="XXIIII_p_136"><persName ref="#Carbuncellus">Carbuncellus</persName>: I
+          congium.</p>
+        <p xml:id="XXIIII_p_137"><persName ref="#Benettus">Benettus</persName>: I congium.</p>
+        <p xml:id="XXIIII_p_138"><persName ref="#Bonandonus">Bonandonus</persName>: II congios.</p>
+        <p xml:id="XXIIII_p_139"><persName ref="#Buscallanus">Buscallanus</persName>: I congium.</p>
+        <p xml:id="XXIIII_p_140"><persName ref="#Peregrinus_ioculator">Peregrinus
+              <roleName>ioculator</roleName></persName>: II congios.</p>
+        <p xml:id="XXIIII_p_141"><persName ref="#Robertus:">Robertus</persName>: II congios.</p>
+        <p xml:id="XXIIII_p_142"><persName ref="#Mariskalkus">Mariskalki</persName>: III
+          congios.</p>
+        <p xml:id="XXIIII_p_143">Inter <persName ref="#Levoraitus">Levoraitum</persName> et
+            <persName ref="#Nobilinus">Nobilinum</persName>: III ialletas currentes.</p>
+        <p xml:id="XXIIII_p_144"><persName ref="#RodulfinusCarersto">Rodulfinus de <placeName
+              ref="#Carersto">Caresta</placeName></persName>: II congios.</p>
+        <p xml:id="XXIIII_p_145">Mansii de <placeName ref="#Monzolono">Munzolone</placeName>: III
+          congios pro uno et III pro alio.</p>
+        <p xml:id="XXIIII_p_146"><persName ref="#Balduinus">Balduinus</persName>: II congios.</p>
+        <p xml:id="XXIIII_p_147">De ialleratis</p>
+        <p xml:id="XXIIII_p_148">De podere <persName ref="#GualteroneVallechia">Gualteronis de
+              <placeName ref="#Vallecchia2">Vallecla</placeName></persName> et fratris sui: IIII
+          corbas de vino in <placeName ref="#Popletulo">Popletulo</placeName>.</p>
+        <p xml:id="XXIIII_p_149">Filius <persName ref="#Alzadellis">Alzadellis</persName>: II
+          corbas.</p>
+        <p xml:id="XXIIII_p_150">De podere <persName ref="#Ortolinus_cocus">Ortolini</persName>
+          coci: II corbas.</p>
+        <p xml:id="XXIIII_p_151">De podere <persName ref="#RuffinusBrina">Ruffini</persName> et
+            <persName ref="#CazaregisBrina">Cazaregis de <placeName ref="#Brina"
+            >Brina</placeName></persName> in <placeName ref="#Pruneta">Pruneta</placeName>: IIII
+          corbas.</p>
+        <p xml:id="XXIIII_p_152"><persName ref="#RusticellusMontecello">Rusticellus de <placeName
+              ref="#Montecello">Montecello</placeName></persName> in <placeName ref="#Pruneta"
+            >Pruneta</placeName>: II corbas in eodem loco.</p>
+        <p xml:id="XXIIII_p_153"><persName ref="#UgolinusVagus">Ugolinus Vagus</persName>: II
+          corbas.</p>
+        <p xml:id="XXIIII_p_154"><persName ref="#BosusBruno">Boso de Bruno</persName> in <placeName
+            ref="#Cetorno">Cetorno</placeName>: I corbam in eodem loco.</p>
+        <p xml:id="XXIIII_p_155"><persName ref="#Billinellus">Billinellus</persName>: I corbam.</p>
+        <p xml:id="XXIIII_p_156">Filius <persName ref="#Martinellus">Martinelli</persName>: <measure
+            type="Mediolanenses" quantity="1" unit="denarius">I denarium</measure> et I corbam.</p>
+        <p xml:id="XXIIII_p_157"><persName ref="#Ritius">Ritius</persName>: <measure
+            type="Mediolanenses" quantity="1" unit="denarius">I denarium</measure> et I corbam.</p>
+        <p xml:id="XXIIII_p_158">De podere <persName ref="#Baldinellus">Baldinelli</persName>:
+            <measure type="Mediolanenses" quantity="1" unit="denarius">I denarium</measure> et I
+          corbam.</p>
+        <p xml:id="XXIIII_p_159">De podere <persName ref="#RolandinusPastenello">Rolandini de
+              <placeName ref="#Pastenello">Pastenello</placeName></persName>: II corbas.</p>
+        <p xml:id="XXIIII_p_160"><persName ref="#Sabbatinus">Sabbatinus</persName>: II corbas.</p>
+        <p xml:id="XXIIII_p_161">Filii <persName ref="#Guilielmuscast">Guilielmi
+              <roleName>castaldi</roleName></persName>: II corbas.</p>
+        <p xml:id="XXIIII_p_162">Filii <persName ref="#Beaqua">Beaque</persName>: II corbas.</p>
+        <p xml:id="XXIIII_p_163"><persName ref="#Bonezus">Bonezo</persName>: I corbam.</p>
+        <p xml:id="XXIIII_p_164">Inter <persName ref="#Martinellus">Martinellum</persName> et filiam
+            <persName ref="#Bonfans">Bonfanti</persName>: I corbam.</p>
+        <p xml:id="XXIIII_p_165">Inter <persName ref="#RamengusNebiana">Ramengum de <placeName
+              ref="#Nebiana">Nebiana</placeName></persName> et <persName ref="#VitalisBelseris"
+            >Vitalem de <placeName ref="#Ortale">Ortale</placeName></persName>: II corbas.</p>
+        <p xml:id="XXIIII_p_166">Inter <persName ref="#HubertinusPlaza">Ubertinum de <placeName
+              ref="#Plaça">Plaza</placeName></persName> et <persName ref="#Gerardus"
+            >Girardum</persName>: II corbas.</p>
+        <p xml:id="XXIIII_p_167">De podere de <persName ref="#GuandalmusAsketulo">Guandalmo de
+              <placeName ref="#Ascletulo">Asketulo</placeName></persName>: I corbam.</p>
+        <p xml:id="XXIIII_p_168"><persName ref="#DuransPrudenzale">Durans de Prudenzale</persName>:
+          I corbam.</p>
+        <pb n="73r" xml:id="fol_073r"/>
+        <p xml:id="XXIIII_p_169">De pondere <note xml:id="XXIIII_n_009" n="i" place="foot"
+              >pondere:<emph> così nel testo per</emph>podere</note>
+          <persName ref="#IohannellusBaraitelli">Iohannelli Baraitelli</persName>: II corbas.</p>
+        <p xml:id="XXIIII_p_170">Filii <persName ref="#GortolusAsketulo">Gortoli de <placeName
+              ref="#Ascletulo">Asketulo</placeName></persName>: II corbas.</p>
+        <p xml:id="XXIIII_p_171">De podere <persName ref="#Luskignolus">Luskignoli</persName>: II
+          corbas.</p>
+        <p xml:id="XXIIII_p_172">Filius <persName ref="#PetrusCasale">Petri de <placeName
+              ref="#Casale">Casale</placeName></persName>: IIII corbas.</p>
+        <p xml:id="XXIIII_p_173">Filii <persName ref="#Bellinus_archipresbyter">Bellini
+              <roleName>archipresbyteri</roleName></persName>: VII corbas.</p>
+        <p xml:id="XXIIII_p_174">De scariatico <placeName ref="#Pulica">Pulice</placeName> et
+            <placeName ref="#Carersto">Careste</placeName></p>
+        <p xml:id="XXIIII_p_175">Filii <persName ref="#GuidoNave">Guidonis de <placeName ref="#Nave"
+              >Nave</placeName></persName>: <measure type="Mediolanenses" quantity="18"
+            unit="denarius">XVIII denarios</measure> porcata et <measure type="Mediolanenses"
+            quantity="12" unit="denarius">XII muntonata</measure> , cum suis consortibus, et in uno
+          anno V galli<supplied reason="omitted">n</supplied>as et in alio III.</p>
+        <p xml:id="XXIIII_p_176">Filii <persName ref="#DominicusSerra">Dominici de <placeName
+              ref="#Serra">Serra</placeName></persName>: <measure type="Mediolanenses" quantity="3"
+            unit="solidus">III soldos</measure> porcata et <measure type="Mediolanenses"
+            quantity="12" unit="denarius">XII denarios</measure> muntonata et III gallinas et I
+          sextarium ordei.</p>
+        <p xml:id="XXIIII_p_177">Filii <persName ref="#BlancusCollecello">Blanci de <placeName
+              ref="Collecello">Collecello</placeName></persName>: <measure type="Mediolanenses"
+            quantity="9" unit="denarius">VIIII denarios</measure> porcata et VI muntonata et II
+          gallinas et I sextarium ordei.</p>
+        <p xml:id="XXIIII_p_178"><persName ref="#AzzolinusPlaza">Azzolinus de <placeName
+              ref="#Plaça">Plaza</placeName></persName> cum suis consortibus: III sextaria ordei et
+          VI gallinas.</p>
+        <p xml:id="XXIIII_p_179">Ad <placeName ref="#Terenzolus">Terenzolum</placeName>: I sextarium
+          ordei et VI gallinas.</p>
+        <p xml:id="XXIIII_p_180">Ad <placeName ref="#Vasana">Vasana</placeName>: <measure
+            type="Mediolanenses" quantity="12" unit="denarius">XII denarios</measure>, inter
+          muntonatam et porcatam.</p>
+        <p xml:id="XXIIII_p_181"><persName ref="#IohanninusOrdine">Iohanninus de Ordine</persName>
+          cum suis consortibus: VII gallinas et VI sextaria ordei et <measure type="Mediolanenses"
+            quantity="6" unit="solidus">VI solidos</measure> guaita.</p>
+        <p xml:id="XXIIII_p_182"><persName ref="#MartinusCasa">Martinus de <placeName ref="#Casa"
+              >Casa</placeName></persName> cum suis consortibus: III gallinas.</p>
+        <p xml:id="XXIIII_p_183"><persName ref="#MorentanusPetrognano">Morentanus</persName> et
+            <persName ref="#GuilliusPetrognano">Guillius de <placeName ref="#Petrognano"
+              >Petrognano</placeName></persName>: VII gallinas.</p>
+        <p xml:id="XXIIII_p_184"><persName ref="#Barellus">Barellus</persName> cum suis consortibus:
+          VI <note xml:id="XXIIII_n_010" n="j" place="foot">VI: <emph>segue una parola depennata che
+              inizia per g</emph>.</note> gallinas.</p>
+        <p xml:id="XXIIII_p_185"><persName ref="#Aginellus">Aginellus</persName> cum suo nepote: V
+          gallinas.</p>
+        <p xml:id="XXIIII_p_186"><persName>Casa de <placeName ref="#Alcoxano"
+            >Alcoxano</placeName></persName>: III gallinas et I sextarium ordei.</p>
+        <p xml:id="XXIIII_p_187">Mansus <persName ref="#Martinus">Martini</persName>: <measure
+            type="Mediolanenses" quantity="3" unit="solidus">III solidos</measure> porcata et
+            <measure type="Mediolanenses" quantity="6" unit="denarius">VI denarios</measure>
+          secata.</p>
+        <p xml:id="XXIIII_p_188">Filii <persName ref="#Rollandinus">Rolandini</persName>: <measure
+            type="Mediolanenses" quantity="3" unit="solidus">III solidos</measure> porcata et
+            <measure type="Mediolanenses" quantity="6" unit="denarius">VI denarios</measure>
+          secata.</p>
+        <p xml:id="XXIIII_p_189"><persName ref="#Romanertus">Romanertus</persName> cum suis
+          consortibus: <measure type="Mediolanenses" quantity="3" unit="solidus">III
+            soldos</measure> porcata et <measure type="Mediolanenses" quantity="6" unit="denarius"
+            >VI denarios</measure> secata.</p>
+        <p xml:id="XXIIII_p_190">Ad <placeName ref="#Pulica">Pulicam</placeName> hercaticum <note
+            xml:id="XXIIII_n_011" n="k" place="foot">hercaticum:<emph> così nel testo per</emph>
+            herbaticum.</note> porcors<note xml:id="XXIIII_n_012" n="l" place="foot"
+              >porcors:<emph>così nel testo per</emph>porcorum.</note> et III sextaria sagine et
+            IIII<note xml:id="XXIIII_n_013" n="m" place="foot">IIII:<emph>corretto su precedente
+              scrittura</emph>.</note> focatias et XVI gallinas et circuli <note
+            xml:id="XXIIII_n_014" n="n" place="foot">circuli:<emph>così nel testo
+            per</emph>circulos.</note> ad vegetes et sidulas <note xml:id="XXIIII_n_015" n="o"
+            place="foot">sidulas:<emph>così nel testo per</emph>scandolas.</note> ad cooperiendum
+          domus <note xml:id="XXIIII_n_016" n="p" place="foot">domus: s<emph>corretto in sopralinea
+              su precedente lettera depennata</emph>.</note> et scalas ad turrem et curtem et
+          ansides <note xml:id="XXIIII_n_017" n="q" place="foot">ansides:<emph>così nel
+            testo</emph>.</note> ad furnum et ad coquinam, archam ad ouranttandam farinam; et illi
+          de <placeName ref="#Vasana">Vasana</placeName> et de <placeName ref="#Nave"
+            >Nave</placeName> et de <placeName ref="#Tenenzola">Tenenzola</placeName> debent deferre
+          circulos vegetum a <placeName ref="#Pulica">Puleca</placeName> usque ad curtem<note
+            xml:id="XXIIII_n_018" n="r" place="foot">Ad Pulecam hercaticum-ad curtem:<emph>l’intero
+              periodo è dubbio. Manca il soggetto passivo dell’imposta e parti del testo sembrano
+              cadute</emph>.</note>.</p>
+        <p xml:id="XXIIII_p_191">Acta sunt hec et nuntiata et notificata in curia <placeName
+            ref="#Sarzana">Sarzane</placeName> sub debito sacramenti supradictoris <note
+            xml:id="XXIIII_n_019" n="s" place="foot">supradictoris:<emph> così nel testo per</emph>
+            supradictorum.</note>, id est <persName ref="#MorengnolusTerrio">Moregnoli</persName>,
+            <persName ref="#Alegretus">Alegretti</persName>, <persName ref="#Guilielmus"
+            >Guilielmi</persName>, <persName ref="#Buscallanus">Buscallani</persName> et <note
+            xml:id="XXIIII_n_020" n="t" place="foot">et:<emph>pleonastico</emph>.</note> tempore
+            <persName ref="#PipEpLuni">Pipini, <roleName>Dei gratia Lunensis
+            episcopi</roleName></persName>, die martis, quod fuit <note xml:id="XXIIII_n_021" n="u"
+            place="foot">fuit: fu<emph>corretto su precedente scrittura</emph>.</note> XIII intrante
+          april. </p>
+        <p xml:id="XXIIII_p_192">Secunda vero die iuravit <persName ref="#DuransColle">Durans de
+              <placeName ref="#Colle">Colle</placeName></persName>, scarius de duobus scariatibus,
+          id est de <placeName ref="#Coxano">Cozano</placeName> et de <placeName ref="#Caprognano"
+            >Caprognano</placeName>, de illis duobus scariatibus notificare videlicet de
+          conditionibus qui duo scariatus sunt de curia Lunensi, scilicet: </p>
+        <p xml:id="XXIIII_p_193"><persName ref="#RayneriusArtula">Raynerius <note
+              xml:id="XXIIII_n_022" n="v" place="foot">Raynerius:<emph>preceduto all’inizio del rigo
+                da una parola abrasa e depennata con due tratti orizzontali in inchiostro
+                rosso</emph>.</note> de <placeName ref="#Arcola">Artula</placeName></persName><note
+            xml:id="XXIIII_n_023" n="w" place="foot"> Artula:<emph> così nel testo forse
+            per</emph>Arcula.</note>: II sextaria ordei.</p>
+        <pb n="73v" xml:id="fol_073v"/>
+        <p xml:id="XXIIII_p_194"><persName ref="#MartinusCasa">Martinus de <placeName ref="#Lacasa"
+              >Lacasa</placeName></persName>: II sextaria ordei et III pullos.</p>
+        <p xml:id="XXIIII_p_195"><persName ref="#GirardusCalefo">Girardus Calefum</persName>: II
+          sextaria ordei et IIII pullos.</p>
+        <p xml:id="XXIIII_p_196"><persName ref="#ColumbinusBrasile">Columbinus de <placeName
+              ref="#Brasile">Brasile</placeName></persName>: II sextaria ordei et V pullos.</p>
+        <p xml:id="XXIIII_p_197"><persName ref="#AzzolinusBrasile">Azzolinus de <placeName
+              ref="#Brasile">Brasile</placeName></persName>: II sextaria ordei et V pullos.</p>
+        <p xml:id="XXIIII_p_198"><persName ref="#MattolusValcalda">Mattolinus de <placeName
+              ref="#Valcada">Valcalda</placeName></persName>: II sextaria ordei et V pullos.</p>
+        <p xml:id="XXIIII_p_199"><persName ref="#MattolusPostitio">Mattolinus de <placeName
+              ref="#Posticio">Postitio</placeName></persName>: unum sextarium ordei.</p>
+        <p xml:id="XXIIII_p_200">Et <persName ref="#Casanus">Casanus</persName>: I sextarium
+          ordei.</p>
+        <p xml:id="XXIIII_p_201"><persName ref="#IngolinusRia">Ingolinus de <placeName ref="#Ria"
+              >Ria</placeName></persName> cum suis consortibus: III sextaria ordei.</p>
+        <p xml:id="XXIIII_p_202">Filii <persName ref="#FolliaZingnaco">Follie de <placeName
+              ref="#Zugnaco">Zingnaco</placeName></persName> cum suis consortibus: II sextaria
+          ordei.</p>
+        <p xml:id="XXIIII_p_203"><persName ref="#AlbertinusLinari">Albertinus de <placeName
+              ref="#Linari">Linari</placeName></persName> cum suis consortibus: unum <note
+            xml:id="XXIIII_n_024" n="x" place="foot">unum: n<emph>corretto su precedente
+              lettera</emph>.</note> congium vini et unam perapsidem ordei, id est sextam partem
+          sextarii.</p>
+        <p xml:id="XXIIII_p_204"><persName ref="#Zampicus">Zampici</persName> cum suis consortibus:
+          I sextarium ordei et II congios vini.</p>
+        <p xml:id="XXIIII_p_205"><persName ref="#MartignolusPorreta">Martignolus de <placeName
+              ref="#Porreta">Porreta</placeName></persName> cum suis consortibus: II sextaria ordei
+          et IIII congios vini.</p>
+        <p xml:id="XXIIII_p_206"><persName ref="#Morus">Morus</persName> cum suo consorte: I
+          sextarium ordei et II congios vini.</p>
+        <p xml:id="XXIIII_p_207"><persName ref="#BaldinellusPorreta">Baldinellus de <placeName
+              ref="#Porreta">Porreta</placeName></persName>: I sextarium ordei et I congium
+          vini.</p>
+        <p xml:id="XXIIII_p_208"><persName ref="#BertaldusFuntana">Bertaldus de <placeName
+              ref="#Fontana">Funtana</placeName></persName> cum suis consortibus: I sextarium ordei
+          et I congium vini et medium.</p>
+        <p xml:id="XXIIII_p_209"><persName ref="#AlbertinusMonteFranzo">Abertinus de <placeName
+              ref="#MonteFranzo">Monte Franco</placeName></persName>: II sextaria ordei et IIII
+          congios vini.</p>
+        <p xml:id="XXIIII_p_210"><persName ref="#GuilielmusLatrina">Guilielmus de <placeName
+              ref="#Latrina">Latrina</placeName></persName>: III minas ordei.</p>
+        <p xml:id="XXIIII_p_211"><persName ref="#Vivianus">Wivianus</persName>: I minam ordei.</p>
+        <p xml:id="XXIIII_p_212"><persName ref="#GirardinusBellecolus">Girard<supplied
+              reason="omitted">i</supplied>nus Bellecolus</persName>: I sextarium ordei.</p>
+        <p xml:id="XXIIII_p_213"><persName ref="#ManzusLatrina">Manzum <note xml:id="XXIIII_n_025"
+              n="y" place="foot">Manzum:<emph>così nel testo. Segue, depennato con un tratto
+                orizzontale in inchiostro rosso:</emph>cum suis consortibus.</note> de <placeName
+              ref="#Latrina">Latrina</placeName></persName> cum suis consortibus: III minas
+          ordei.</p>
+        <p xml:id="XXIIII_p_214"><persName ref="#DominicusClausuraMori">Dominicus de <placeName
+              ref="#ClausuraMori">Clausura Mori</placeName></persName> cum suis consortibus: I
+          sextarium ordei et II congios vini.</p>
+        <p xml:id="XXIIII_p_215"><persName ref="#UbaldinusGermagnano">Ubaldinus de <placeName
+              ref="#Germagnano">Germagnano</placeName></persName> cum suis consortibus: IIII congios
+          vini et II sextaria ordei.</p>
+        <p xml:id="XXIIII_p_216"><persName ref="#Baldolinus">Baldolinus</persName> cum consorte suo:
+          I sextarium ordei.</p>
+        <p xml:id="XXIIII_p_217"><persName ref="#GuittoncellusCastagneto">Guittoncellus de
+              <placeName ref="#Castagneto">Castagneto</placeName></persName>: II sextaria ordei.</p>
+        <p xml:id="XXIIII_p_218"><persName ref="#GirardinusAlbi">Girardinus Albi</persName> cum suis
+          consortibus de <placeName ref="#Felecto">Felecto</placeName>: I sextarium ordei.</p>
+        <p xml:id="XXIIII_p_219"><persName ref="#UgolinusCorna">Ugolinus de <placeName ref="#Cornia"
+              >Corna</placeName></persName><note xml:id="XXIIII_n_026" n="z" place="foot"
+              >Corna:<emph> così nel testo.forse per</emph> Cornia.</note>: I sextarium ordei
+          scarionibus et V pullos curie et in unaquaque ebdomada unam operam</p>
+        <p xml:id="XXIIII_p_220"><persName ref="#MartinusPrato">Martinus de <placeName ref="#Prato"
+              >Prato</placeName></persName>: V pullos et in omni ebdomada unam operam.</p>
+        <p xml:id="XXIIII_p_221"><persName ref="#GuidolinusBotuntellus">Guidolinus Botuntellus de
+              <placeName ref="#Curte">Curte</placeName></persName>: I minam ordei et I gallinam et
+          in omni ebdomada I operam.</p>
+        <p xml:id="XXIIII_p_222">Filii <persName ref="#BaroncinusCozano">Baroncini de <placeName
+              ref="#Coxano">Cozano</placeName></persName>: II sextaria ordei et II congios vini.</p>
+        <p xml:id="XXIIII_p_223"><persName ref="#GuidolinusPatrognone">Guidolinus de <placeName
+              ref="#Patrognone">Patrognone</placeName></persName> cum suo consorte: II sextaria
+          ordei et V gallinas.</p>
+        <p xml:id="XXIIII_p_224"><persName ref="#GuitonusCanneto">Guittone de <placeName
+              ref="#Canneto">Canneto</placeName></persName>: I sextarium ordei.</p>
+        <p xml:id="XXIIII_p_225"><persName ref="#GuidolinusRabona">Guidolinus de <placeName
+              ref="#Rabona">Rabona</placeName></persName>: II sextaria ordei.</p>
+        <p xml:id="XXIIII_p_226"><persName ref="#GuittoncellusCastagneto">Guittuncellus de
+              <placeName ref="#Ortus_Garoli"> Orto
+            <expan><ex>***</ex>oli</expan></placeName></persName> I sextarium ordei.</p>
+        <p xml:id="XXIIII_p_227"><persName ref="#BernardusEcclesia">Bernardus de <placeName
+              ref="#Ecclesia">Ecclesia</placeName></persName>: in uno anno II sextaria ordei et in
+          alio unum.</p>
+        <pb n="74r" xml:id="fol_074r"/>
+        <p xml:id="XXIIII_p_228"><persName ref="#GuidolinusGueyzo">Guidolinus de <placeName
+              ref="#Gueyzo">Gueyzo</placeName></persName>: unum sextarium ordei.</p>
+        <p xml:id="XXIIII_p_229"><persName ref="#Bondies">Bondie</persName> cum suis consortibus: I
+          sextarium ordei.</p>
+        <p xml:id="XXIIII_p_230"><persName ref="#GirardinusEcclesia">Girardinus de <placeName
+              ref="#Ecclesia">Ecclesia</placeName></persName>: I sextarium ordei.</p>
+        <p xml:id="XXIIII_p_231"><persName ref="#Trullus">Trullus</persName>: I sextarium ordei et
+          III gallinas et omni mense III operas.</p>
+        <p xml:id="XXIIII_p_232"><persName ref="#PetietCampitello">Petiet de <placeName
+              ref="#Campitello">Campitello</placeName></persName>: terciam partem <note
+            xml:id="XXIIII_n_027" n="aa" place="foot"><emph>Segue spazio bianco, manca l’indicazione
+              dell’unità di misura</emph>.</note> ordei.</p>
+        <p xml:id="XXIIII_p_233"><persName ref="#AldeprandusColdesorbo">Aldeprandus de <placeName
+              ref="#Codesorbo">Coldesorbo</placeName></persName> cum suis consortibus: I sextarium
+          ordei.</p>
+        <p xml:id="XXIIII_p_234"><persName ref="#MorandellusColle">Morandellus de <placeName
+              ref="#Colle">Colle</placeName></persName>: I sextarium ordei et III pullos et XII
+          operas omni anno.</p>
+        <p xml:id="XXIIII_p_235"><persName ref="#BosolinusColle">Bosolinus de <placeName
+              ref="#Colle">Colle</placeName></persName> cum suis consortibus: I sextarium ordei et
+          VI pullos et omni ebdomada I operam.</p>
+        <p xml:id="XXIIII_p_236"><persName ref="#DuransColle">Durantus de <placeName ref="#Colle"
+              >Colle</placeName></persName> cum suis consortibus: II sextaria ordei et V pullos et
+          in omni ebdomada I operam.</p>
+        <p xml:id="XXIIII_p_237"><persName ref="#GuilielminusBarbarcello">Guilielminus de <placeName
+              ref="#Barbarcello">Barbarcello</placeName></persName>: I sextarium ordei et terciam
+          partem unius et in omni ebdomada I operam et IIII pullos cum illis de <placeName
+            ref="#Furno">Furno</placeName>.</p>
+        <p xml:id="XXIIII_p_238"><persName ref="#AlbertusFurno">Albertus de <placeName ref="#Furno"
+              >Furno</placeName></persName>: III minas ordei et I congium vini et II alios pullos et
+          totidem operas.</p>
+        <p xml:id="XXIIII_p_239"><persName ref="#BellonCavecla">Bellon de <placeName ref="#Cavecla"
+              >Cavecla</placeName></persName> cum suis consortibus: II sextaria ordei.</p>
+        <p xml:id="XXIIII_p_240"><persName ref="#TeuzusPlaza">Teuzus de <placeName ref="#Plaça"
+              >Plaza</placeName></persName> cum suis consortibus: I sextarium ordei.</p>
+        <p xml:id="XXIIII_p_241"><persName ref="#GirardinusFactore">Girardinus de <placeName
+              ref="#Factore">Factore</placeName></persName> cum suis consortibus: I sextarium ordei
+          et V pullos et omni ebdomada I operam.</p>
+        <p xml:id="XXIIII_p_242"><persName ref="#ZittellusCapagnano">Zittellus de <placeName
+              ref="#Capagnano">Capagnano</placeName></persName>: III sextaria ordei et III
+          pullos.</p>
+        <p xml:id="XXIIII_p_243">Filii <persName ref="#UbaldinusPonzanello">Ubaldini de <placeName
+              ref="#Ponzanello">Po<supplied reason="omitted"
+            >n</supplied>zanello</placeName></persName>: I sextarium ordei.</p>
+        <p xml:id="XXIIII_p_244">De istis duobus scariatis debet habere CCCCC ova XX minus et IIII
+          libras mellis.</p>
+        <p xml:id="XXIIII_p_245"><supplied reason="omitted">In</supplied>
+          <placeName ref="#Pulica">Pulica</placeName> debet habere curia placitum et districtum et
+          amasamentum et desmansamentum et coltam.</p>
+        <p xml:id="XXIIII_p_246">Ego <persName ref="#Lombardusnot">Lumbardus<roleName>,imperatoris
+              et episcopi Lunensis notarius,</roleName>
+          </persName> hec audiens et recognoscens ex sacramentis supradictorum scariorum, que
+          fecerunt <persName ref="#PipEpLuni">Pipini<roleName>, Dei gratia Lunensis
+              episcopi</roleName></persName>, in presentia, scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

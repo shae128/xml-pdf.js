@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXV_237">
+    <front xml:id="CCLXXV_front">
+
+      <titlePart type="numerazioneNuova">237</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXV</titlePart>
+
+      <docDate xml:id="CCLXXV_docDate">
+        <date when="1209-03-05">1209 marzo 5</date>, <placeName>Luni <emph>(<term xml:lang="latin"
+              >in foro de Luna</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXV_regesto">
+        <p>Tebaldino, gastaldo di Gualtiero, vescovo di Luni, loca un pezzo di terra sita in
+          Castelnuovo a Bonfilieto del fu Ubertino di Boccognano e a Bonagiunta del fu Bonoso di
+          Germagnano. Il fitto corrisponde a un terzo della produzione di vino e d’olio. Ai locatari
+          è lecito tenere un orto e una capanna senza corrispondere per questo alcun canone.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXV_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP cc. 273r.-273v., cc. CCLXVr.-CCLXVv. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, pp.
+            253-254.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il documento è pressoché identico al <ref target="#CCLXXVI_247">n. 247
+              (CCLXXVI)</ref>, ma è tratto da altra copia autentica. <p>Autentica del 12 settembre
+              1259.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXV_div">
+        <p xml:id="CCLXXV_p_001" n="1"><ptr target="#CCLXXV_st_001"/> In nomine Domini, amen.<date
+            when="1209-03-05">Anno a nativitate Eius millesimo CCIX, indictione XII, die iovis, V
+            mensis martii</date>. Ego <persName ref="#ThebaldinusSoleria">Tebaldinus</persName>,
+            <roleName>castaldio</roleName> domini <persName ref="#GualEpLuni">Gualterii,
+              <roleName>Dei gratia Lunensis episcopi</roleName></persName>, in <placeName
+            ref="#Luni">curia de Luna</placeName>, habita licencia faciendi hoc, ut dico, do et loco
+          ad tercium reddendum de vino et oleo vobis <persName ref="#BonfilietoUbertini">Bonfilieto
+            quondam Ubertini de <placeName ref="#Boccognano">Boccognano</placeName></persName> et
+            <persName ref="#BonaiunctaBonosi">Boneiuncte quondam Bonosi de <placeName
+              ref="#Germagnano">Germagnano</placeName></persName>, recipienti pro te et fratre tuo
+            <persName ref="#GalganusBonosi">Galgano</persName>, nominatim, I petiam terre sitam in
+          podio <placeName ref="#CastelnuovoMagra">Castrinovi</placeName>, cui coheret superius
+          cymiterium ecclesie eiusdem loci, ab uno latere terra ipsius ecclesie et ab alio <persName
+            ref="#RetondolusVallecla">Retondoli</persName> et <persName ref="#PanicaciusVallecla"
+            >Panicacii de <placeName ref="#Vallecchia2">Vallecla</placeName></persName>, a pede
+          terra domini episcopi, ita ut amodo perpetuo vos et dictus <persName ref="#GalganusBonosi"
+            >Galganus</persName> vestrique heredes et sui habeatis, teneatis, fruamini et
+          possideatis, meliorando et non peiorando, dictam tenutam, sicut superius legitur, cum
+          introitu et exitu suo et omnibus suis pertinenciis in integrum, sine alicuius aliqua
+          contradictione et cum rationabili deffensione dicti domini episcopi eiusque successorum ab
+          omni persona vel restauratione facienda in bonis episcopatus in consimili loco in
+            arbit<supplied reason="omitted">ri</supplied>o bonorum hominum, prout tunc valuerit, si
+          deffendere non posset. Quam suprascriptam terram debeatis postiçare <supplied
+            reason="omitted">de vineis</supplied><note place="foot" n="a" xml:id="CCLXXV_n_001"
+              ><term>de vineis</term><emph>: per integrazione cfr. doc. 247 (CCLXXVI).</emph></note>
+          et olivis et teneamini reddere curie omni anno, temporibus congruis, terciam partem, bona
+          fide et sine omni fraude, de toto vino et oleo quod ibi, dante Domino, habueritis tantum;
+          tamen sit vobis licitum habere et tenere in ipsa terra unum ortum et unam capannam cum
+          area in arbitrio duorum bonorum hominum, de quo vel de qua nil reddere teneamini; alia
+          superimposita non fiat. Et do vobis licenciam intrandi inde in tenutam vestra auctoritate,
+          et constituo vobiscum ut quicumque nostrum vel nostrorum successorum aut heredum numquam
+          dictam terram retollere vel laxare voluerit aut contra quod superius legitur venerit
+          alteri parti, fidem servanti, penam <measure type="Imperiales" quantity="40"
+            unit="solidus">soldorum XL imperialium</measure> solvat, rato manente pacto.</p>
+        <p xml:id="CCLXXV_p_002" n="2">Actum in <placeName ref="#Luni">foro de Luna</placeName>,
+          sollempniter cum stipulatione, presentibus <persName ref="#HenricusBalzano">Henrico de
+              <placeName ref="#Balzano">Balzano</placeName></persName>, <persName
+            ref="#RustichinusCastroNovo">Rustichino</persName> et <persName
+            ref="#LazarellusCastroNovo">Lazarello de <placeName ref="#CastelnuovoMagra">Castro
+              Novo</placeName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCLXXV_p_003" n="3">Ego <persName ref="#Ugolinusnot">Ugolinus, <roleName>sacri
+              palacii et Lunensis curie notarius</roleName></persName>, hiis interfui et rogatus
+            scripsi.<pb xml:id="fol_273v" n="273v"/></p>
+      </div>
+      <div xml:id="CCLXXV_div2" type="autentica">
+        <p xml:id="CCLXXV_p_004" n="4"><ptr target="#CCLXXV_st_002"/> Ego <persName
+            ref="#Bonacursusnot">Bonacursus, <roleName>sacri palacii notarius</roleName></persName>,
+          autenticum huius exempli vidi et legi et hoc fideliter <supplied reason="omitted"
+            >exemplavi</supplied>, nichil addens vel minuens quod mutet sensum vel variet
+          intellectum; et hec sic feci auctoritate <supplied reason="omitted">et</supplied> bailia
+          domini <persName ref="#GetreduciusMalusii">Getreducii Malusii,
+            <roleName>vicarii</roleName></persName> pro <orgName ref="#Lucca_comune">communi</orgName>
+          <placeName ref="#Lucca">Lucano</placeName> et domini episcopi in <orgName ref="#Lunigiana_provincia">provincia
+                  <placeName ref="#Lunigiana">Lunisiane</placeName></orgName>, qui michi prestitit suam auctoritatem et decretum, ut dictum est,
+          et eo sedente pro tribunali in <placeName ref="#Sarzanello">castro Sarzane</placeName>, ad
+          bancum subter domum heredum quondam <persName ref="#Parens">Parentis</persName>,
+          presentibus <persName ref="#Ripus">Ripo</persName>, <persName ref="#GuilielmusAcorseti"
+            >Guilielmo Acorseti</persName>, <persName ref="#Petrusnot2">Petro
+              <roleName>notario</roleName></persName> et <persName ref="#IacopinusTalliavachanot"
+            >Iacobino <roleName>notario</roleName> dicto Talliavacca</persName>, testibus, <date
+            when="1259-09-12">anno millesimo CCLIX, indictione II, die XII mensis
+              septembris<note>Autentica del documento n. 237-CCLXXV</note></date>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

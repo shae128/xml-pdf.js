@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXXXXI_352">
+    <front xml:id="CCCLXXXXI_front">
+
+      <titlePart type="numerazioneNuova">352</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXXXXI</titlePart>
+
+      <docDate xml:id="CCCLXXXXI_docDate">
+        <date when="1200-06-03">1200 giugno 3</date>,<placeName> Sarzana (<emph>Sarzani, in domo
+            Burgensis quondam Bellotti</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXXXXI_regesto">
+        <p>Manzeto, castaldo del vescovo Gualtiero, loca a Matelda del fu Pagano di Balognano,
+          vedova di Gregorio vetraio, quanto quest'ultimo già teneva a livello dalla curia. Il fitto
+          è di 12 denari di imperiali; la cessione costa 50 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXXXXI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 320r., c. CCCXIIr. secondo la numerazione originale</p>
+        </div>
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 391,
+            pp. 370-371.</p>
+        </div>
+        <div type="crit_notes">
+          <p/>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXXXXI. Denariorum XII pensionis a Matelda Pagani de Balognano</term></p>
+        </div>
+
+      </div>
+
+    </front>
+    <body>
+      <div xml:id="CCCLXXXXI_div">
+        <p xml:id="CCCLXXXXI_p_001">
+          <ptr target="#CCCLXXXXI_st_001"/>In Dei nomine, amen. <date when="1200-06-03"> Anno a
+            nativitate Eius M°CC, indictione III, die sabbati, III intrante iunio</date>,
+          presentibus testibus infrascriptis. Ego <placeName ref="#Mangenuscast">Manzetus
+              <roleName>castaldus domini</roleName></placeName>
+          <persName ref="#GualEpLuni">Gualterii, <roleName>Dei gratia Lunensis
+            episcopi</roleName></persName>, in curia <placeName ref="#Ameglia">Amelie</placeName>,
+          vice et mandato eius, do et loco tibi <persName ref="#MateldaPagani">Matelde quondam
+            Pagani de <placeName ref="#Balognano">Balognano</placeName></persName>, uxori quondam
+            <persName ref="#Gregoriusvitrarius">Gregorii <roleName>vitrarii</roleName></persName>,
+          quicquid idem <persName ref="#Gregoriusvitrarius">Gregorius</persName> quondam, vir tuus,
+          habebat et tenebat a curia iamscripti domini episcopi, tali pacto ut tu et tui heredes
+          amodo perpetuo debeatis illud totum, agrum et cultum, plenum et vacuum, divisum et
+          indivisum, in plano et in monte, ubicumque est vel poterit reperiri aliquid ex hoc, cum
+          superioribus et inferioribus et omnibus pertinenciis eius et precipue cum domibus, vineis
+          et omnibus arboribus, que ibi sunt, libellario nomine habere, tenere, frui, meliorare et
+          non peiorare, et habitare ibi semper debeatis tu et tui heredes vel vester nuncius et
+          teneamini exinde persolvere curie iamscripti domini episcopi aut cui commiserit omni anno,
+          infra octavam nativitatis Domini, fictam pensionem <measure type="imperiales"
+            quantity="12" unit="denarius">denariorum XII imperialium</measure> tantum; alia
+          superimposita non fiat. Servicium recepi ex hoc a te ad opus iamscripti domini episcopi
+          bonorum <measure type="imperiales" quantity="50" unit="solidus">imperalium soldos L<note
+              xml:id="CCCLXXXXI_n_01" n="a" place="footer">L : corretto su precedente
+              scrittura</note>.</measure>; possessionem vel quasi tibi de predictis rebus tradidisse
+          confiteor. Item renuncio exceptioni non numerate vel non recepte pecunie, promittendo, pro
+          dicto domino episcopo et curia eius, deffendere et exbrigare semper, tibi stipulanti et
+          tuis heredibus, quicquid tibi dedi in integrum, in parte et toto, rationabiliter ab omni
+          contradicente persona vel restaurare in bonis dicte curie, prout tunc valuerit, in
+          arbitrio bonorum hominum, si deffendere non posset illud dominus episcopus. Item
+          composuerunt ut penam C soldorum imperialium alteri parti persolvere teneatur quicumque
+          pro dicta curia vel ex heredibus <persName ref="#MateldaPagani">Matelde</persName> ipsa
+            <persName ref="#MateldaPagani">Matelda</persName> umquam tollere vel laxare temptaverit
+          sive etiam contra hoc quod superius legitur in aliquo venire presumpserit; qua soluta, non
+          minus iste libellus in sua firmitate permaneat. </p>
+
+        <p xml:id="CCCLXXXXI_p_002">Actum est hoc <placeName ref="#Sarzana">Sarzani</placeName>, in
+          domo <persName ref="#BurgensisBellotti">Burgensis quondam Bellotti</persName>, feliciter,
+          cum stipulatione. Ibi fuerunt rogati testes <persName ref="#UbertinusGrassus">Ubertinus
+            Crassus</persName>, <persName ref="#MasneriusTrebiano">Masnerius de <placeName
+              ref="#Trebiano">Trebiano</placeName></persName>, <persName ref="#PortenariusTivegna"
+            >Portonarius de <placeName ref="#Tivegna">Tivegna</placeName></persName> et <persName
+            ref="#CunradusTivegna">Cu<add place="inline">n</add>radus de <placeName ref="#Tivegna"
+              >Tivegna</placeName></persName>. </p>
+
+        <p xml:id="CCCLXXXXI_p_003">Ego <persName ref="#Confortusnot">Confortus<roleName>, sacri
+              palacii et Lunensis curie notarius</roleName></persName>, hiis interfui et rogatus
+          hanc cartam scripsi. </p>
+
+      </div>
+
+
+
+
+
+
+    </body>
+  </text>
+</TEI>

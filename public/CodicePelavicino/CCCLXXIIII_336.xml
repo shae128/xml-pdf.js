@@ -1,0 +1,225 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXXIIII_336">
+    <front xml:id="CCCLXXIIII_front">
+
+      <titlePart type="numerazioneNuova">336</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXXIIII</titlePart>
+
+      <docDate xml:id="CCCLXXIIII_docDate">
+        <date when="1197-05-13">1197 maggio 13</date>, <placeName><supplied reason="omitted"
+            >Barbazzano</supplied> (<emph>Batazano, prope curiam domini episcopi</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXXIIII_regesto">
+        <p>Maurizio di Cala e suo fratelli Albertinello, Stefano de la Crosa, Bonagiunta del fu
+          Iuvenello, Bonico di Mezzana rendono testimonianza sui beni ed i redditi dei fratelli
+          Uberto e Guglielmo di Torano, <term xml:lang="latin">domini</term> di Carrara, nella curia
+          e nel distretto di Ameglia.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXXIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 314r.-314v., cc. CCCVv.-CCCVIr. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 374,
+            pp. 355-356, con la data 1197 marzo 3 ; data già corretta da <ref target="#MAZZINI_1914"
+              >Mazzini 1914</ref>, p. 25. n. 373, pp. 354-355.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>La data topica è stata interpretata per confronto col documento seguente n. 337
+            (CCCLXXV).</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXXIIII. Designationis iurium, que habebant nobiles de Torano in
+            Amelia.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXXIIII_div">
+        <p xml:id="CCCLXXIIII_p_001" n="1">In eterni Dei nomine, amen. <date when="1197-05-13">Anno
+            a nativitate Eius millesimo C nonagesimo VII, indictione XV, die martis, III idus
+            madii</date>, presentibus testibus infrascriptis. </p>
+        <p xml:id="CCCLXXIIII_p_002" n="2"><c>§</c> Isti homines, scilicet <persName
+            ref="#MauriciusCala">Mauricius de <placeName ref="#Cala">la Cala</placeName></persName>,
+            <persName ref="#AlbertinellusCala">Albertinellus</persName> frater eius, <persName
+            ref="#StephanusCrosa">Stephanus <note xml:id="CCCLXXIIII_n_001" n="a" place="foot"><term
+                xml:lang="latin">Stephanus</term>: <term xml:lang="latin">phs</term>, <emph>con
+                segno generico di abbreviazione, corretto su precedente scrittura.</emph></note> de
+            la Crosa</persName>, <persName ref="#BonaiunctaIuvenelli">Bonaiuncta quondam
+            Iuvenelli</persName>, <persName ref="#BonicusMezana">Bonicus de <placeName ref="#Mezana"
+              >Mezana</placeName></persName> et <persName ref="#UbertinusCala">Ubertinus de
+              <placeName ref="#Cala">la Cala</placeName></persName>, iuraverunt demonstrare et
+          dicere omnes rationes et quicquid <persName ref="#UbertusTorano">Ubertus</persName> et
+            <persName ref="#GuilielmusTorano">Guilielmus, germani, de <placeName ref="#Torano"
+              >Torano</placeName></persName> habent vel habere debent in curia et districtu
+            <placeName ref="#Ameglia">Amelie</placeName>, in hominibus et redditibus omnibus. </p>
+        <p xml:id="CCCLXXIIII_p_003" n="3"><c>§</c> Item dicit <persName ref="#StephanusCrosa"
+            >Stephanus</persName> quod dicti domini de <placeName ref="#Carrara"
+            >Carraria</placeName> habent de domo sua et fratris sui <persName ref="#GandulfusCrosa"
+            >Gandulfi</persName>
+          <measure unit="denari" quantity="6">denarios VI</measure> pensionis et <measure
+            unit="denari" quantity="2">denarios II</measure> pro apporto, omni anno, et inter duos
+          annos I admisile et resident supra terram eorum. Et dicit quod <persName
+            ref="#BonaiunctaIuvenelli">Bonaiuncta, filius Iuvenelli</persName>, cum fratribus suis
+          dant omni anno pensionem <measure unit="denari" quantity="10">denariorum X</measure> et
+          unum apportum de <measure unit="denari" quantity="2">II denariis</measure> et inter tres
+          annos I admisile et sunt eorum residentes. Item dicit quod <persName
+            ref="#PonziusAlbertinelli">Ponzius quondam Albertinelli
+            <roleName>pecciatoris</roleName></persName> dat omni anno <measure unit="denari"
+            quantity="5">V denarios</measure> pensionis et <measure unit="denari" quantity="2"
+            >denarios II</measure> pro apporto et inter tres annos I admisile et est residens eorum.
+            <persName ref="#AlegretusTiniosi">Alegretus quondam Tiniosi Barencini</persName> dat
+          tantum quantum <persName ref="#PonziusAlbertinelli">Ponzius</persName> et est residens
+          sicut <persName ref="#PonziusAlbertinelli">Ponzius</persName>. Item dicit quod inter
+            <persName ref="#PonziusAlbertinelli">Ponzium</persName> dictum et dictum <persName
+            ref="#AlegretusTiniosi">Alegretum</persName> dant in tribus annis tria admisilia et in
+          quarto non dant; postea reincipiunt. </p>
+        <p xml:id="CCCLXXIIII_p_004" n="4">Item de podere quondam <persName ref="#Bazuchus"
+            >Bazuchi</persName>, omni anno, <measure unit="denari" quantity="3">denarios
+            III</measure> pensionis et <measure unit="denari" quantity="2">II</measure> pro apporto,
+          et est residens. </p>
+        <p xml:id="CCCLXXIIII_p_005" n="5">Item <persName ref="#UbertinusCala">Ubertinus de
+              <placeName ref="#Cala">la Cala</placeName></persName>, omni anno, pensionem <measure
+            unit="denari" quantity="4.5">denariorum IIII et ½</measure> et <measure unit="denari"
+            quantity="2">duos</measure> pro apporto et inter IIIIor annos I admisile et est
+          residens; de domo quondam <persName ref="#MiletusValleStephani">Mileti de <placeName
+              ref="#Valle_Stephani">Valle Stephani</placeName></persName>, omni anno, <measure
+            unit="denari" quantity="1">denarium I</measure> pensionis et <measure unit="denari"
+            quantity="2">II</measure> pro apporto et inter tres annos I admisile cum I gallina et
+          est residens. Item <persName ref="#Guidolinus">Guidolinus<note xml:id="CCCLXXIIII_n_002"
+              n="b" place="foot">
+              <term xml:lang="latin">Guidolinus</term>: <term xml:lang="latin">lin</term>
+              <emph>corretto su precedente scrittura.</emph></note></persName>
+          <measure unit="denari" quantity="6">denarios VI</measure> pensionis, omni anno, et
+            <measure unit="denari" quantity="2">II</measure> pro apporto et est residens. </p>
+        <p xml:id="CCCLXXIIII_p_006" n="6">Item <persName ref="#VenturaBaloganano">Ventura de
+              <placeName ref="#Balognano">Balognano</placeName></persName>
+          <measure unit="denari" quantity="2">denarios II</measure> uno anno pensionis et alio
+            <measure unit="denari" quantity="1.5">I et ½</measure>; de domo quondam <persName
+            ref="#BussusBalognano">Bussi de <placeName ref="#Balognano"
+            >Balognano</placeName></persName>, <measure unit="denari" quantity="7">denarios
+            VII</measure> pensionis, omni anno, pro terra <orgName ref="#Luni_S_Maurizio">Sancti
+            Mauricii</orgName>. </p>
+        <p xml:id="CCCLXXIIII_p_007" n="7">Item dicunt predicti duo iurati quod dicti domini de
+            <placeName ref="#Carrara">Carraria</placeName> habent de quarto et decimis a <placeName
+            ref="#Caporaqua">fonte de Caporaqua</placeName> usque ad <placeName ref="#Suvero">montem
+            Suverum</placeName> et a <placeName ref="#Valle_Stephani">Valle Stephani</placeName>
+          citra usque ad mare duodecimam partem, excepto illam decimam quam dant <persName
+            ref="#PetrusSerra">Petrus</persName> et <persName ref="#UbertinusSerra"
+            >Ubertinus</persName> et <persName ref="#GordianusSerra">Gordianus de <placeName
+              ref="#Serra">la Serra</placeName></persName> de terra quam tenent ab eisdem <persName
+            ref="#UbertusTorano">Uberto</persName> et <persName ref="#GuilielmusTorano"
+            >Guilielmo</persName>, de qua dant eis pensionem quam diximus; que decima est propria
+            <persName ref="#UbertusTorano">Uberti</persName> et <persName ref="#GuilielmusTorano"
+              >Guil<supplied reason="omitted">i</supplied>elmi</persName>. </p>
+        <p xml:id="CCCLXXIIII_p_008" n="8">Item debent habere dicti <persName ref="#UbertusTorano"
+            >Ubertus</persName> et <persName ref="#GuilielmusTorano">Guilielmus</persName> de masio
+          de <placeName ref="#Valle_Stephani">Valle Stephani</placeName> decimam. Item debent habere
+          de masio de <placeName ref="#Cerreto">Cerreto</placeName> medietatem decimationum. </p>
+        <p xml:id="CCCLXXIIII_p_009" n="9">Item debent habere medietatem decime de masio de
+            <placeName ref="#Sorolo">Sorolo</placeName>. Item debent habere quartam partem decime de
+          terra de <placeName ref="#Cortiola">Cortiola</placeName>. </p>
+        <p xml:id="CCCLXXIIII_p_0010" n="10">Item debent habere medietatem decime de terra filiorum
+          quondam <persName ref="#Gotolus">Gotoli</persName>, quam habent in plano a volta insule
+          inferius, excepto de terra de <orgName ref="#S_Sila">Sancto Sile</orgName>. </p>
+        <p xml:id="CCCLXXIIII_p_0011" n="11">Item debent habere decimam de media <term ref="#iuva"
+            >iuva</term> terre domini episcopi, quam habet in bradia de <placeName ref="#Arenale"
+            >Arenale</placeName>. </p>
+        <p xml:id="CCCLXXIIII_p_0012" n="12">Item a <placeName ref="#Bocco">Bocco</placeName>
+          superius usque ad canalem de domo <persName ref="#MarcusVia">Marcii de <placeName
+              ref="#Via">la Via</placeName></persName> in plano et monte, in omnibus locis ubi
+          habent vicedomini et alii Carrarenses, debent isti habere duodecimam partem tocius decime. </p>
+        <p xml:id="CCCLXXIIII_p_0013" n="13"><c>§</c> Hec omnia dixerunt <persName
+            ref="#StephanusCrosa">Stephanus</persName> et <persName ref="#MauriciusCala"
+            >Mauricius</persName> per sacramentum iamscriptum. </p>
+        <p xml:id="CCCLXXIIII_p_0014" n="14"><c>§</c>
+          <persName ref="#BonaiunctaIuvenelli">Bonaiuncta</persName>, iuratus, fuit confessus de se
+          quod dat, sicut dixerunt predicti de eo; de aliis nescit. </p>
+        <p xml:id="CCCLXXIIII_p_0015" n="15"><c>§</c>
+          <persName ref="#UbertinusCala">Ubertinus de la <placeName ref="#Cala"
+            >Cala</placeName></persName>, iuratus, fuit confessus de se sicut dixerunt predicti; de
+          aliis nescit. </p>
+        <p xml:id="CCCLXXIIII_p_0016" n="16"><c>§</c> Item dicunt predicti quod de hac eadem ratione
+          dant filii quondam <persName ref="#BonfantePlazio">Bonfantis de <placeName ref="#Plazio"
+              >Plazio</placeName></persName>, omni anno, <measure unit="denari" quantity="1"
+            >denarium I</measure> pensionis et duodecimam partem unius admisilis. </p>
+        <p xml:id="CCCLXXIIII_p_0017" n="17">Item <persName ref="#Segnoretus">Segnoretus</persName>
+          dat annuatim pensionem <measure unit="denari" quantity="6">denariorum VI</measure>. Item
+            <persName ref="#Balditio">Balditionus</persName> cum suis consortibus debet dare, ut
+          dicit, annuatim <measure unit="denari" quantity="5">denarios V</measure> inter pensionem
+          et apportum et inter IIIIor annos I admisile cum una gallina. </p>
+        <p xml:id="CCCLXXIIII_p_0018" n="18">Item dicunt, in alia ratione, quod inter <persName
+            ref="#UbertinusSerra">Ubertinum de <placeName ref="#Serra">la
+            Serra</placeName></persName> et Petrum de Pollula et <persName ref="#GordianusSerra"
+            >Gordianum</persName> dant, omni anno, pensionem <measure unit="denari" quantity="11"
+            >denariorum XI</measure>, et <persName ref="#BonicusMezana">Bonicus <pb n="314v"
+              xml:id="fol_314v"/> de <placeName ref="#Mezana">Mezana</placeName></persName> dat,
+          omni anno, pensionem <measure unit="denari" quantity="5">denariorum V</measure>; et hoc
+          ipse iuratus confitetur de se, de aliis nescit. Filii quondam <persName
+            ref="#GuilielminusCala">Guilielmini de la <placeName ref="#Cala"
+            >Cala</placeName></persName> dant omni anno pensionem <measure unit="denari"
+            quantity="4.5">denariorum IIII et ½</measure> et <measure unit="denari" quantity="2"
+            >duos</measure> pro apporto et inter IIIIor annos I admisile et sunt residentes. </p>
+        <p xml:id="CCCLXXIIII_p_0019" n="19">Item dictus <persName ref="#MauriciusCala"
+              >Manrucius<note xml:id="CCCLXXIIII_n_003" n="c" place="foot">
+              <term xml:lang="latin">Manrucius</term>: <emph>così nel testo per</emph>
+              <term xml:lang="latin">Mauricius</term></note></persName> dat omni anno, cum fratribus
+          suis, <measure unit="denari" quantity="11">denarios XI</measure> pensionis et <measure
+            unit="denari" quantity="2">II</measure> pro apporto et inter IIIIor annos I admisile et
+          sunt residentes. <persName ref="#AlbertinellusCala">Albertinellus, frater
+            Manrucii</persName>, iuratus, hoc confitetur de se et fratribus suis, set de aliis
+          nescit. </p>
+        <p xml:id="CCCLXXIIII_p_0020" n="20">Item <persName ref="#BellonusValleStephani">Bellonus de
+              <placeName ref="#Valle_Stephani">Valle Stephani</placeName></persName> omni anno
+            <measure unit="denari" quantity="4">denarios III</measure> pensionis et inter tres annos
+          I admisile et est residens. Hec omnia, hac ratione, sunt de podere filiorum quondam
+            <persName ref="#Rollandus">Rollandi</persName>, in qua<note xml:id="CCCLXXIIII_n_004"
+            n="d" place="foot">
+            <term xml:lang="latin">qua</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">quo</term></note> habent ad hoc suam partem donna <persName
+            ref="#Sibilia">Sibilia</persName> et donna <persName ref="#Diamante">Diamans</persName>
+          et filii quondam <persName ref="#Albertinus">Albertini</persName>. </p>
+        <p xml:id="CCCLXXIIII_p_0021" n="21">Acta sunt hec in Batazano<note
+            xml:id="CCCLXXIIII_n_005" n="e" place="foot">
+            <term xml:lang="latin">Batazano</term>: <emph>così nel testo, probabilmente per</emph>
+            <term xml:lang="latin">Barbaçano.</term></note>, prope curiam domini episcopi,
+          feliciter. Ibi fuerunt rogati testes <persName ref="#Sismunduscan">Sismundus,
+              <roleName>Lunensis custos</roleName></persName>, <persName ref="#Rusticuspres"
+              ><roleName>presbyter</roleName> Rusticus</persName>, <persName
+            ref="#RollandusPanigale">Rollandus de <placeName ref="#Panicale"
+            >Panigale</placeName></persName> et quidam alii. </p>
+        <p xml:id="CCCLXXIIII_p_0022" n="22"><ptr target="#CCCLXXIIII_st_001"/> Ego <persName
+            ref="#Confortusnot">Confortus, <roleName>sacri palacii et Lunensis curie
+              notarius</roleName></persName>, hiis interfui et hec omnia, a me ipso rogata et a
+            <persName ref="#Bonvicinusdisc">Bonvicino, <roleName>discipulo
+          meo</roleName></persName>, de mandato meo scripta, et hanc cartam comfirmavi et proprio
+          signo signavi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

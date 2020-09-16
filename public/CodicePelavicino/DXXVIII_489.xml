@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXXVIII_489">
+    <front xml:id="DXXVIII_front">
+
+      <titlePart type="numerazioneNuova">489</titlePart>
+      <titlePart type="numerazioneOrig">DXXVIII</titlePart>
+
+      <docDate xml:id="DXXVIII_docDate">
+        <date when="1198-03-16">1198 marzo 16</date>, <placeName>Laterano (<term xml:lang="latin"
+            >Laterani</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="DXXVIII_regesto">
+        <p>Innocenzo III concede al vescovo di Luni Gualtiero il monastero di Aulla con le sue
+          pertinenze nel temporale e nello spirituale. </p>
+      </div>
+
+      <div type="footer" xml:id="DXXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 393r.-393v., cc. CCCLXXXVr.-CCCLXXXVv. secondo la numerazione
+            originale.</p>
+          <p>Altra copia [C'] Reg. Vat 4 ff. 11v.-12r. (n. XXXVIII).</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizioni di C: <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 528, pp.
+            587-588, con la data 1197.</p>
+          <p>Edizioni di C': <ref target="#BALUZE_1682">BALUZE 1682</ref>, p. 24, n. 42; <ref
+              target="#INNOCENTIUS_III">INNOCENTIUS III - MIGNE</ref>, I, n. XLII, con data 1198;
+              <ref target="#DIE_REGISTER">DIE REGISTER INNOCENZ' III</ref>1, n. 41, pp. 64-66.</p>
+
+          <p>Regesto: <ref target="#POTTHAST_1874_1875">POTTHAST 1874-1875</ref>, I, n. 50, p.
+            7.</p>
+          <p> Si segnalano in nota le variazioni rispetto a C' tratte dall'edizione <ref
+              target="#DIE_REGISTER">DIE REGISTER INNOCENZ' III</ref>1, n. 41, pp. 64-66.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note><p>Innocenzo III venne eletto l’8 gennaio 1198, anno in cui correva l’indizione
+              prima, come è indicato nel testo. Il documento è datato 1197 secondo lo stile
+              fiorentino, da trasformare in 1198 in stile comune. Cfr. anche <ref
+                target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 35.</p><p> Il documento è pressoché
+              identico al n. 84-LVII. </p><p>Nel margine superiore, al centro:
+                <emph>Privilegium</emph>; nel margine esterno, di mano moderna: <term
+                xml:lang="latin">Sententia contra abbatem de Avula </term></p></note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXXVIII.
+              Privilegium Innocentii pape III quo concessum est episcopo Lunensi monasterium de
+              Avula cum suis pertinentiis. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXXVIII_div">
+        <pb n="393r" xml:id="fol_393r"/>
+        <p xml:id="DXXVIII_p_001" n="1">
+          <persName ref="#InnocentiuspontifexIII">Innocentius <roleName>servus servorum
+              Dei</roleName></persName> venerabili fratri <persName ref="#GualEpLuni">Gualtero,
+              <roleName>Lunensi episcopo</roleName></persName>, eiusque <note n="a" place="foot"
+            xml:id="DXXVIII_n_001">Innocentius-eiusque <emph>in lettere elongate.</emph></note>
+          successoribus canonice sustinendis<note n="b" place="foot" xml:id="DXXVIII_n_002">
+            sustinendis <emph>con</emph> tuen <emph>corretto in sopralinea su n con segno
+              abbreviativo depennato</emph>.</note>, in perpetuum<note n="c" place="foot"
+            xml:id="DXXVIII_n_003"> Titolo apposto in C': <emph>G(ualtero) Lunensi episcopo, eiusque
+              successoribus canonice substinendis, in perpetuum </emph></note>. Ampla, divino
+          munere, manus apostolice sedis hos humiliat et hos exaltat, <supplied reason="omitted"
+            >hiis</supplied> superflua subtrahit, aliis, necessaria subministrat; ipsa etenim,
+          tanquam mater omnium generalis, cum personarum merita et temporis et loci qualitatem
+          attendat, hos honerat<note n="d" place="foot" xml:id="DXXVIII_n_004">onerat <emph>in
+              C'</emph>.</note>, hos honorat, immo sepius honorem honeribus<note n="e" place="foot"
+            xml:id="DXXVIII_n_005">oneribus <emph>in C'</emph>.</note> et honus<note n="f"
+            place="foot" xml:id="DXXVIII_n_006">onus <emph>in C'</emph>.</note> honore compensans et
+            honerat<note n="g" place="foot" xml:id="DXXVIII_n_007">onerat <emph>in C'</emph>.</note>
+          honoratos et honeratos<note n="h" place="foot" xml:id="DXXVIII_n_008">oneratos <emph>in
+              C'</emph>.</note> honorat. Hac siquidem ratione inducti, specialem gratiam, quam ad
+          personam tuam tuis exigentibus meritis, et Lunensem ecclesiam propter te gerimus,
+          attendentes ac volentes ipsius ecclesie utilitati consulere, de communi fratrum nostrorum
+          consilio, <orgName ref="#Aulla_S_Caprasio">monasterium<note n="i" place="foot"
+              xml:id="DXXVIII_n_009"> monasterium: o <emph>corretto su precedente scrittura.</emph>.
+            </note></orgName><placeName ref="#Aulla">Avulense<note n="j" place="foot"
+              xml:id="DXXVIII_n_010">Auolense <emph>in C'</emph>. </note></placeName>, quod ad
+          iurisdictionem sedis apostolice pertinebat, cum pertinenciis suis, tibi et per te ipsi
+          ecclesie concedimus, confirmamus et presentis scripti privilegio communimus; tam te ipsi
+          prodesse quam preesse volentes, ut honorem quem tibi super hoc<note n="k" place="foot"
+            xml:id="DXXVIII_n_011">super hoc tibi <emph>in C'</emph>.</note> exhibemus, attendens,
+            honus<note n="l" place="foot" xml:id="DXXVIII_n_012">onus <emph>in C'</emph>.</note> et
+          provisionem ipsius monasterii, taliter exequaris, quod in temporalibus<note n="m"
+            place="foot" xml:id="DXXVIII_n_013">temporalibus: li <emph>corretto su</emph> u.</note>
+          et spiritualibus per tuum studium auctore<note n="n" place="foot" xml:id="DXXVIII_n_014"
+            >actore <emph>in C'</emph>.</note> Domino reformetur; nec tu aut successores tui
+          privilegium amittere mereamini<note n="o" place="foot" xml:id="DXXVIII_n_015">debeatis
+              <emph>in C'</emph>.</note>, si concessa vobis abusi fueritis potestate.
+            Decrevimus<note n="p" place="foot" xml:id="DXXVIII_n_016">Decernimus <emph>in
+            C'</emph>.</note> ergo ut nulli omnino hominum liceat prefatam Lunensem ecclesiam temere
+          perturbare aut eius possessiones auferre vel ablatas retinere, minuere seu quibuslibet
+          vexationibus fatigare, set omnia integra conserventur eorum pro quorum gubernatione aut
+          substentatione concessa sunt usibus omnimodis profutura<note n="q" place="foot"
+            xml:id="DXXVIII_n_017"><emph>Da </emph>ut nulli<emph> a </emph>profutura<emph>
+              sostituito da </emph><emph>et cetera</emph>
+            <emph>in C'</emph>.</note>, salva sedis apostolice auctoritate. Si qua igitur in futurum
+          ecclesiastica secularisve persona, hanc nostre confirmationis paginam sciens, contra eam
+          temere venire temptaverit, secundo terciove commonita, nisi reatum suum congrua
+          satisfactione correxerit, potestatis honorisque sui dignitate careat reamque se divino
+          iudicio existere de perpetrata iniquitate cognoscat et a sacratissimo corpore et sanguine
+          Dei et domini Redemptoris nostri Ihesu Christi aliena fiat atque in extremo examine
+          districte ultioni subiaceat. Cunctis autem, eidem loco sua iura servantibus, sit pax
+          Domini nostri Ihesu Christi, quatinus et hic fructum bone actionis percipiant et apud
+          districtum iudicem premia eterne pacis inveniant. Amen, amen. </p>
+        <p xml:id="DXXVIII_p_002" n="2">
+          <ptr target="#DXXVIII_r_001"/>Ego <persName ref="#InnocentiuspontifexIII"
+            >Innocentius</persName>, <roleName>catholice Ecclesie episcopus</roleName>, subscripsi
+            <ptr target="#DXXVIII_bn_001"/></p>
+        <p xml:id="DXXVIII_p_003" n="3">† Ego <persName ref="#Octavianus_episcopus"
+            >Octavianus</persName>, <orgName ref="#Ostia_Velletri_diocesi"><placeName ref="#Ostia"
+              >Hostiensis</placeName> et <placeName ref="#Velletri"
+            >Velletrensis</placeName></orgName>
+          <roleName>episcopus</roleName>, subscripsi. </p>
+        <p xml:id="DXXVIII_p_004" n="4"> † Ego <persName ref="#Petrus_episcopus">Petrus</persName>,
+            <orgName ref="#Porto_Silva_Candida_diocesi"><placeName ref="#Porto"
+              >Portuensis</placeName> et <placeName ref="#Sancta_Ruffina">Sancte
+            Rufine</placeName></orgName>
+          <roleName>episcopus</roleName>, subscripsi. </p>
+        <p xml:id="DXXVIII_p_005" n="5">† Ego <persName ref="#Petrus_presbyter">Petrus</persName>,
+            <orgName ref="#Roma_S_Cecilia_Trastevere">tituli Sancte Cecilie</orgName>
+          <roleName>presbyter cardinalis</roleName>, subscripsi. </p>
+        <p xml:id="DXXVIII_p_006" n="6">† Ego <persName ref="#Iordanus_presbyter"
+            >Iordanus</persName>, <orgName ref="#Roma_S_Pudenziana">Sancte Pudentiane tituli
+            Pastoris</orgName>
+          <roleName>presbyter cardinalis</roleName>, subscripsi. </p>
+        <p xml:id="DXXVIII_p_007" n="7">† Ego <persName ref="#Iohannes_presbyter"
+            >Iohannes</persName>, <orgName ref="#Roma_S_Clemente_Laterano">tituli Sancti
+            Clementis</orgName>
+          <roleName>cardinalis</roleName><orgName ref="Viterbo_Tuscania_diocesi">
+            <placeName ref="#Viterbo">Viterbiensis</placeName> et <placeName ref="#Tuscania"
+              >Tuscanensis</placeName></orgName>
+          <roleName>episcopus</roleName>, subscripsi. </p>
+        <p xml:id="DXXVIII_p_008" n="8">† Ego <persName ref="#Guido_cardinalis">Guido</persName>,
+            <orgName ref="#Roma_">Sancte Marie trans <placeName ref="#Tiberis">Tyberim</placeName>
+            tituli Calixti</orgName>
+          <roleName>presbyter cardinalis</roleName>, subscripsi. </p>
+        <p xml:id="DXXVIII_p_009" n="9">† Ego <persName ref="#Hugo_presbyter">Hugo</persName>,
+            <roleName>presbyter cardinalis</roleName>
+          <orgName ref="#Roma_SS_Silvestro_Martino">Sancti Martini tituli Equitii</orgName>,
+          subscripsi. </p>
+        <p xml:id="DXXVIII_p_010" n="10">† Ego <persName ref="#Iohannes_presbyter2"
+            >Iohannes</persName>, <orgName ref="#Roma_S_Stefano_Celio">tituli Sancti Stephani
+            in</orgName>
+          <placeName ref="#Celio">Celio monte</placeName>
+          <roleName>presbyter cardinalis</roleName>, subscripsi. </p>
+        <p xml:id="DXXVIII_p_011" n="11"> † Ego <persName ref="#Soffredus_presbyter"
+            >Soffredus</persName>, <orgName ref="#Roma_S_Prassede">tituli Sancte Praxedis</orgName>
+          <roleName>presbyter cardinalis</roleName>, subscripsi. </p>
+        <pb n="393v" xml:id="fol_393v"/>
+        <p xml:id="DXXVIII_p_012" n="12">† Ego <persName ref="#Gratianus_cardinalis"
+            >Gratianus</persName>, <orgName ref="#Roma_SS_Cosma_Damiano">Sanctorum Cosme et
+            Damiani</orgName>
+          <roleName>dyaconus cardinalis</roleName>, subscripsi.</p>
+        <p xml:id="DXXVIII_p_013" n="13">† Ego <persName ref="#Gerardus_cardinalis"
+            >Gerardus</persName>, <orgName ref="#Roma_S_Adriano_Foro">Sancti Adriani</orgName>
+          <roleName>dyaconus cardinalis</roleName>, subscripsi.</p>
+        <p xml:id="DXXVIII_p_014" n="14">† Ego <persName ref="#Gregorius_cardinalis"
+            >Gregorius</persName>, <orgName ref="#Roma_S_Maria_Aquiro">Sancte Marie in
+            Aquiro</orgName>
+          <roleName>dyaconus cardinalis</roleName>, subscripsi. </p>
+        <p xml:id="DXXVIII_p_015" n="15">† Ego <persName ref="#Gregorius_cardinalis2"
+            >Gregorius</persName>, <orgName ref="#Roma_S_Giorgio_Velabro">Sancti Georgii ad Vellum
+            Aureum</orgName>
+          <roleName>dyaconus cardinalis</roleName>, subscripsi. </p>
+        <p xml:id="DXXVIII_p_016" n="16">† Ego <persName ref="#Nicholaus_cardinalis"
+            >Nicholaus</persName>, <orgName ref="#Roma_S_Maria_Cosmedin">Sancte Marie in
+            Cosmidin</orgName>
+          <roleName>dyaconus cardinalis</roleName>, subscripsi. </p>
+        <p xml:id="DXXVIII_p_017" n="17">† Ego <persName ref="#Gregorius_cardinalis3"
+            >Gregorius</persName>, <orgName ref="#Roma_S_Angelo_Pescheria">Sancti Angeli</orgName>
+          <roleName>dyaconus cardinalis</roleName>, subscripsi. </p>
+        <p xml:id="DXXVIII_p_018" n="18">† Ego <persName ref="#Petrus_cardinalis">Petrus</persName>,
+            <orgName ref="#Roma_S_Maria_ViaLata">Sancte Marie in Via Lata</orgName>
+          <roleName>dyaconus cardinalis</roleName>, subscripsi. </p>
+        <p xml:id="DXXVIII_p_019" n="19">† Ego <persName ref="#Centius_cardinalis"
+            >Centius</persName>, <orgName ref="#Roma_S_Lucia_Orphea">Sancte Lucie in
+            Horchea</orgName>
+          <roleName>dyaconus cardinalis</roleName>, subscripsi. <note n="r" place="foot"
+            xml:id="DXXVIII_n_018"><emph>Da </emph>Si qua igitur<emph> a </emph>subscripsi<emph>
+              sostituito da </emph><emph>et cetera</emph>
+            <emph>in C'</emph>.</note>
+        </p>
+        <p xml:id="DXXVIII_p_020" n="20">Datum <placeName ref="#Laterano">Laterani <note n="s"
+              place="foot" xml:id="DXXVIII_n_019">Laterani <emph>manca in C'</emph>.</note>
+          </placeName>, per manum <persName ref="#Rainaldus_not">Raynaldi</persName>
+          <roleName>domini pape notarii cancellarii vicem agentis</roleName>, <date
+            when="1198-03-16">XVII kalendas aprelis<note n="t" place="foot" xml:id="DXXVIII_n_020"
+              >aprilis <emph> in C'</emph>.</note>, indictione prima, incarnationis Dominice anno
+              M°C°XCVII°<note n="u" place="foot" xml:id="DXXVIII_n_021">millesimo CXCVII <emph> in
+                C'</emph>.</note>, pontificatus vero <roleName>domini</roleName>
+            <persName ref="#InnocentiuspontifexIII">Innocentii</persName>
+            <roleName>pape III</roleName> anno primo</date>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

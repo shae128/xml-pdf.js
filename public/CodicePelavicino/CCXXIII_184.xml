@@ -1,0 +1,164 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXXIII_184">
+    <front xml:id="CCXXIII_front">
+
+      <titlePart type="numerazioneNuova">184</titlePart>
+      <titlePart type="numerazioneOrig">CCXXIII</titlePart>
+
+      <docDate xml:id="CCXXIII_docDate">
+        <date when="1084-06">1084 giugno</date>, <placeName>Sarzana <emph>(<term xml:lang="latin"
+              >burgo Sarzania</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXXIII_regesto">
+        <p>Il marchese Alberto detto Ruffo, figlio del defunto marchese Alberto, dona alla chiesa di
+          Santa Maria di Luni le terre che suo padre Alberto già diede alla stessa chiesa, ossia la
+          corte di Camisiano eccetto il manso <term xml:lang="latin">de Silva Maiori</term> e un
+          bene <term xml:lang="latin">in Castagneto Plano</term>; dona inoltre altre terre <term
+            xml:lang="latin">in Cesare</term> (o <term xml:lang="latin">Cesari</term>), a
+          Carpenetulo, Vallecchia, Castelpoggio (<term xml:lang="latin">Casapoci</term>),
+          Corfeciano, Carbognano (<term xml:lang="latin">Rivo Carbovario</term>) e Acciliano.<term
+            xml:lang="latin"/></p>
+      </div>
+
+      <div type="footer" xml:id="CCXXIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP, c. 251v., c. CCXLIIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#UGHELLI_1644">UGHELLI 1644</ref>, I, 840; <ref
+              target="#MURATORI_1717">Muratori 1717</ref>, pp. 232-233; <ref
+              target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 223, pp. 200-202.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Lupo Gentile data il documento al 1085, ma si tratta del 1084 secondo lo stile
+            pisano dell’incarnazione. In alto a destra della carta, circondata da un riquadro:
+              <emph>de Soleria</emph>. Nel margine esterno, di mano moderna: <emph>im isto
+              instrumento sunt multe redonationes episcopatui</emph></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXXIII_div">
+        <p xml:id="CCXXIII_p_001" n="1"><pb n="251v" xml:id="fol_251v"/><ptr
+            target="#CCXXIII_st_001"/><date when="1084-06"> Anno ab incarnatione Domini nostri Ihesu
+            Christi M° octogesimo V°, mense iunio, indictione VIIa</date>, <orgName
+            ref="#Luni_S_Maria">ecclesie sancte Marie</orgName> sita<note xml:id="CCXXIII_n_001"
+            n="a" place="foot">Ecclesie sancte Marie sita: <emph>ma non
+              è chiaro il significato, dato che la data topica è</emph>
+            <term xml:lang="latin">burgo Sarzania</term>.</note> in loco <placeName ref="#Luni"
+            >Lune</placeName>, ego <persName ref="#AlbertusRuffusmarchio">Albertus
+              <roleName>marchio</roleName>, qui dicor Ruffus</persName>, filius quondam itemque
+            <persName ref="#Albertusmarchio">Alberti <roleName>marchionis</roleName></persName>, qui
+          professus sum ex nacione mea lege vivere Longobardorum, offertor et donator ipsius
+          ecclesie, presens presentibus dixi: <q rend="pre(«) post(»)">Quisquis in sanctis ac
+            venerabilibus locis ex suis aliquid contulit rebus, iuxta auctoris<note
+              xml:id="CCXXIII_n_002" n="b" place="foot">auctoris: u
+                <emph>aggiunta in sopralinea.</emph></note> vocem, centuplum accipiet, et insuper,
+            quod melius est, vitam possidebit eternam.</q> Ideoque ego qui supra <persName
+            ref="#AlbertusRuffusmarchio">Albertus</persName><note xml:id="CCXXIII_n_003" n="c"
+            place="foot">Ideoque-Albertus<emph>: nel
+              manoscritto</emph>
+            Ideoque qui supra Albertus ego
+            <emph>con segno di richiamo a indicare l’inversione.</emph></note>
+          <roleName>marchio</roleName> dono et offero a presenti die in eadem ecclesia, pro anime
+          mee atque patris et fratris mei <persName ref="#UgoAlbertimarchio">Ugonis</persName>
+          mercede, id est omnes terras quas quondam iste <persName ref="#Albertusmarchio"
+            >Albertus</persName>, pater meus, dedit isti ecclesie, scilicet curtem de <placeName
+            ref="#Camisiano">Camisiano</placeName>, cum omnibus suis pertinenciis, excepto manso de
+            <placeName ref="#SilvaMaiori">Silva Maiori</placeName>, quod ego dedi <persName
+            ref="#GerardusVezano">Gerardo de <placeName ref="#Vezzano"
+          >Vezano</placeName></persName>, atque excepto quantum dedi ego <persName ref="#AzoVillani"
+            >Azoni, filio Villani</persName>, quod est in <placeName ref="#CastagnetoPlano"
+            >Castagneto Plano</placeName>. Nam omnes alias terras et res dono et offero in ista
+          ecclesia, id est quantum <persName ref="#AlbertusValle">Albertus de <placeName
+              ref="#Valle">la Valle</placeName></persName>, qui est de <placeName ref="#Arcola"
+            >Arcula</placeName>, tenuit in <placeName ref="#Cesari">Cesare</placeName> et quantum
+            <persName ref="#GumpolusPegazana">Gumpolus de <placeName ref="#Pegazana"
+              >Pegazana</placeName></persName> tenuit et quantum <persName ref="#Teuzopre"
+              ><roleName>presbyter</roleName> Teuzo</persName> et <persName ref="#MorectusSarzana"
+            >Morectus de <placeName ref="#Sarzana">Sarzana</placeName></persName> tenuerunt et
+          quantum <persName ref="#BellotusAciliano">Bellotus</persName> et <persName
+            ref="#BarellusAciliano">Barellus de <placeName ref="#Aciliano"
+            >Aciliano</placeName></persName> tenuerunt ex parte patris mei et <persName
+            ref="#Guidomarchio">Guidonis <roleName>marchionis</roleName></persName>, et quantum
+          pater meus et istius <persName ref="#Guidomarchio">Guidonis</persName> tenuerunt in
+            <placeName ref="#Carpenetolo">Carpenetulo</placeName> et quantum illi de <placeName
+            ref="#Bebulo">Bebulo</placeName> tenuerunt ex eorum parte et quantum filii <persName
+            ref="#Rusticus">Rustici</persName> tenuerunt in <placeName ref="#Vallecchia2"
+            >Vallecla</placeName> et quantum patri meo pertinuit in <placeName ref="#Casapoci"
+            >Casapoci</placeName> et quantum <persName ref="#BonefaciusArdano">Bonefacius de
+              <placeName ref="#Ardano">Ardano</placeName></persName> tenuit in <placeName
+            ref="#Corfeciano">Corfeciano</placeName> atque medietatem de quanto fuit <persName
+            ref="#Guidomarchio">Guidonis <roleName>marchionis</roleName></persName> in <placeName
+            ref="#Carbovario">rivo Carbovario</placeName> et quantum <persName
+            ref="#MattolusAciliano">Mattolus de <placeName ref="#Aciliano"
+            >Aciliano</placeName></persName> tenuit in eodem loco ex parte patris mei et quantum
+            <persName ref="#PaganusArmo">Paganus</persName> de <placeName ref="#Armo">rivo de
+            Armo</placeName> tenet in eodem loco <placeName ref="#Aciliano">Aciliano</placeName> et
+          quantum <persName ref="#Bellinuscler">Bellinus <roleName>clericus</roleName></persName>
+          tenet, et quantum <persName ref="#OdoMascari">Odo, filius Mascari</persName>, tenuit in
+            <placeName ref="#Cesari">Cesari</placeName> et quantum <persName ref="#EzoBibola">Ezo de
+              <placeName ref="#Bibola">Bibola</placeName></persName> tenuit in <placeName
+            ref="#Cesari">Cesari</placeName> atque quantum <persName ref="#OpicellusSilvaMaiori"
+            >Opicellus de <placeName ref="#SilvaMaiori">Silva Maiori</placeName></persName> tenuit
+          et quantum <persName ref="#VillanusVallecla">Villanus de <placeName ref="#Vallecchia"
+              >Vallecla</placeName></persName> cum suis consortibus tenet, sive ubicumque de terris
+          et rebus de ista curte inventum fuerit totum in ista presente offersionis mee cartula
+          permaneat in integrum. Istam autem curtem cum omnibus suis pertinenciis et istas omnes
+          alias terras, una cum accessionibus atque ingressionibus suis et cum omnibus super
+          habentibus in integrum, ab hac die in eadem ecclesia pro anime mee et patris atque fratris
+          mei mercede, dono, cedo et offero, et faciat exinde pars ipsius ecclesie aut cui pars
+          ipsius ecclesie dederit proprietario nomine ad usum et sumptum de canonicis, qui ibi Deo
+          die noctuque deservierint, quicquid voluerint pro anime mee et patris et fratris mei
+          mercede. Equidem et spondeo atque promitto ego qui supra <persName
+            ref="#AlbertusRuffusmarchio">Albertus <roleName>marchio</roleName></persName>, una cum
+          meis heredibus, isti ecclesie aut cui parti ista ecclesia dederit, istam meam offersionem,
+          qualiter superius legitur, in integrum ab omni homine deffensare; quod, si deffensare non
+          potuerimus aut si parti istius ecclesie exinde aliquid per quodvis ingenium subtrahere
+          quesierimus, tunc in duplum eandem meam offersionem isti ecclesie restituamus, sicut pro
+          tempore fuerit meliorata aut valuerit, sub extimatione, in consimilibus locis. Hanc enim
+          cartule offersionis mee paginam Caro Amico notario tradidi et scribere rogavi, in qua
+          etiam subter confirmans testibus atque obtuli roborandam.</p>
+        <p xml:id="CCXXIII_p_002" n="2">Actum <placeName ref="#Sarzana">burgo Sarzania</placeName>,
+          feliciter.</p>
+        <p xml:id="CCXXIII_p_003" n="3"><c>†</c>Signum manuum istius <persName
+            ref="#AlbertusRuffusmarchio">Alberti <roleName>marchionis</roleName></persName>, qui
+          hanc cartulam offersionis fieri rogavit.</p>
+        <p xml:id="CCXXIII_p_004" n="4">Signum manuum <persName ref="#GuibertusBurcione">Guiberti de
+              <placeName ref="#Burcione">Burcione</placeName></persName> et <persName
+            ref="#GuidoBibula">Guidonis de <placeName ref="#Bibola">Bibula</placeName></persName> et
+            <persName ref="#GuntardusCaricino">Guntardi de <placeName ref="#Caricino"
+              >Caricino</placeName></persName>, omnium rogatorum testium.</p>
+        <p xml:id="CCXXIII_p_005" n="5"><ptr target="#CCXXIII_st_002"/>Ego <persName
+            ref="#CarusAmicusnot">Carus Amicus, <roleName>notarius sacri
+            palacii</roleName></persName>, scripsi, post traditam complevi et dedi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

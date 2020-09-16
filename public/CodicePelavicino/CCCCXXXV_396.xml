@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="CCCCXXXV_396">
+    <front xml:id="CCCCXXXV_front">
+      <titlePart type="numerazioneNuova">396</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXXXV</titlePart>
+      <docDate xml:id="CCCCXXXV_docDate">
+        <date when="1257-01-23">1257 gennaio 23</date>, <placeName> Lucca<emph>(<term
+              xml:lang="latin">in civitate Lucana, in claustro ecclesie Sancti Michaelis in
+              foro</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXXXV_regesto">
+        <p>Amatore, canonico di S. Michele in foro a <placeName ref="#Lucca">Lucca</placeName>,
+          delegato dal priore Ranuccio e dal pontefice, chiede a Orlandino del fu Michele di
+          Potensano di comparire di fronte a Uberto Dominici, procuratore e sindaco del vescovo di
+          Luni Guglielmo, per la questione relativa a tre pezzi di terra in località <term
+            xml:lang="latin">Rota</term> e <term xml:lang="latin">Trefoxoli</term> che i vescovo
+          reclama per sé. Il convocato dichiara di non possedere alcuna delle terre suddette.</p>
+      </div>
+      <div type="footer" xml:id="CCCCXXXV_footer">
+        <div type="orig_doc">
+          <p>Copia [C] cc. 340r.-340v., cc. CCCXXXIIr.-CCCXXXIIv. secondo la numerazione
+            originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 435,
+            p. 432.</p>
+        </div>
+        <div type="crit_notes">
+          <note>Una parte del documento è stata letta con l’ausilio della luce di Wood.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCCXXXV. Sententie de quibusdam terris in Stadano.</term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCCXXXV_div">
+        <p xml:id="CCCCXXXV_p_001" n="1"> In Christi nomine, amen. Ex huius publici instrumenti
+          clareat lectione quod, cum <persName ref="#Amadorcan"><roleName>presbyter</roleName>
+            Amador </persName>, <note place="foot" n="a" xml:id="CCCCXXXV_n_001">
+            <term xml:lang="latin">Amador</term>
+            <emph>: d corretta su precedente lettera.</emph>
+          </note>
+          <persName ref="#Amadorcan"><roleName>canonicus</roleName></persName>
+          <orgName type="Lucca_S_Michele_Foro">Sancti Michaelis in foro de <placeName ref="#Lucca"
+              >civitate Lucana </placeName></orgName>, subdelegatus <persName ref="#Ranuciusprior"
+              ><roleName>domini</roleName> Ranucii </persName>, <persName ref="#Ranuciusprior"
+              ><roleName>prioris predicte ecclesie et subdelegati domini pape</roleName></persName>,
+          quas subdelegationes ego infrascriptus notarius vidi et legi, fecisset citari <persName
+            ref="#OrlandinusMichelis">Orlandinum quondam Michelis</persName> de <placeName
+            ref="#Pontensano"><term xml:lang="latin">Potensano</term></placeName>, ut mihi dictus
+            <persName ref="#Amadorcan"><roleName>presbyter</roleName></persName> dixit, ut certa die
+          deberet <placeName ref="#Lucca">Luce</placeName> ante presentiam dicti <persName
+            ref="#Amadorcan"><roleName>presbyteri</roleName></persName>
+          <persName ref="#Amadorcan">Amadoris</persName>
+          <note place="foot" n="b" xml:id="CCCCXXXV_n_002">
+            <term xml:lang="latin">Amadoris</term>
+            <emph>: d corretta su precedente lettera.</emph>
+          </note> comparere, facturus rationem, <persName ref="#HubertusDominici"> Huberto Dominici
+          </persName>, <persName ref="#HubertusDominici"><roleName>
+            procuratori</roleName></persName>, <persName ref="#HubertusDominici"><roleName> actori
+            </roleName></persName><pb n="340v" xml:id="fol_340v"/>
+          <persName ref="#HubertusDominici"><roleName>seu syndico</roleName></persName> venerabilis
+          patris domini <persName ref="#GuilEpLuni">Guilielmi</persName>, <persName
+            ref="#GuilEpLuni"><roleName> Dei gratia Lunensis episcopi</roleName></persName>, et
+          ipsius episcopatus, de tribus petiis terrarum, quas dictus procurator seu syndicus ab
+          eodem <persName ref="#OrlandinusMichelis">Orlandino</persName> petere intendebat pro ipso
+          episcopo et episcopatu - prima petia terre posita est in confinibus <placeName ref="#Rota"
+            >Rote</placeName> et coheret ab una parte et a capite vie publice et ab alia <persName
+            ref="#GuidoRollandini">Guidoni Rollandini</persName>; alie due sunt in loco ubi dicitur
+            <placeName ref="#Trefoxoli">Trefoxoli</placeName>: prima petia coheret ab una parte
+          terre <persName ref="#Albertucius">Albertucii</persName> et ab alia terre <persName
+            ref="#BenvenutusBonvicine">Benvenuti Bonvicine</persName> et ab alia vie publice, alia
+          petia terre coheret ab una parte terre <persName ref="#Alcherotus">Alcheroti</persName> et
+          ab alia, desuper, vie publice; qui <persName ref="#OrlandinusMichelis"
+            >Orlandinus</persName>, constitutus ante presentiam dicti <persName ref="#Amadorcan"
+              ><roleName>presbyteri</roleName>
+            <note place="foot" n="b" xml:id="CCCCXXXV_n_003">
+              <term xml:lang="latin">Amadoris</term>
+              <emph>: d corretta su precedente lettera.</emph>
+            </note></persName> termino ei statuto, audita et intellecta petitione quam dictus
+            <persName ref="#HubertusDominici">Hubertus</persName>, <persName ref="#HubertusDominici"
+              ><roleName>syndicus seu procurator</roleName></persName> dicti domini episcopi, eidem
+          faciebat pro predicto domino episcopo et episcopatu de suprascriptis tribus petiis
+          terrarum, dixit et confessus fuit coram predicto <persName ref="#Amadorcan"
+              ><roleName>presbytero</roleName> Amadore</persName>, subdelegato dicti domini
+            <persName ref="#Ranuciusprior">Ranucii</persName>, subdelegati domini pape, et ipso
+          procuratore domini episcopi dicti presente et coram me Iacobo notario et testibus
+          infrascriptis, quod supradictas terras, sibi petitas a suprascripto syndico seu
+          procuratore pro ipso episcopo et episcopatu, quod eas non habet vel possidet, et in
+          quantum haberet vel possideret ipsas, dixit, voluit quod restituantur dicto <persName
+            ref="#HubertusDominici">Huberto</persName>, syndico seu procuratori dicti domini
+          episcopi et episcopatus, et perpetuo renunciavit omni iudicio et cause quam vel quod cum
+          predicto domino episcopo et episcopatu habere posset. </p>
+        <p xml:id="CCCCXXXV_p_002" n="2"> Hec acta sunt in civitate <placeName ref="#Lucca"
+            >Lucana</placeName>, in claustro predicte ecclesie, ante<note place="foot" n="c"
+            xml:id="CCCCXXXV_n_004">
+            <term xml:lang="latin">capitulum</term>
+            <emph>: t corretta su l</emph>
+          </note> ipsius ecclesie, <date when="1257-01-23">anno nativitatis Domini MCCLVII,
+            indictione XV, X kalendas februarii</date>, coram <persName ref="#OrmannucciusStephani"
+            >Ormannuccio quondam Stephani</persName> de <placeName ref="#Florencia"
+            >Florencia</placeName> et <persName ref="#IacobusLamberti">Iacobo quondam Lamberti
+            Rubei</persName> de civitate <placeName ref="#Lucca">Lucana</placeName> et <persName
+            ref="#FormentinusCarpinelli">Formentino quondam Carpinelli</persName> de <placeName
+            ref="#Stadano">Stadano</placeName> de <placeName ref="#Lunigiana">Lunisiana</placeName>,
+          testibus ad hec rogatis. </p>
+        <p xml:id="CCCCXXXV_p_003" n="3">
+          <ptr target="#CCCCXXXV_st_001"/> Ego<note place="foot" n="d" xml:id="CCCCXXXV_n_005">
+            <term xml:lang="latin">Ego</term>
+            <emph>: aggiunto in sopralinea.</emph>
+          </note>
+          <persName ref="#IacopusIacopininot"> Iacobus Iacopini, <roleName>imperialis aule iudex
+              ordinarius atque notarius</roleName></persName>, predictis omnibus interfui et in
+          publicam scripturam redegi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

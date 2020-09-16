@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXXVIII_440">
+    <front xml:id="CCCCLXXVIII_front">
+
+      <titlePart type="numerazioneNuova">440</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXVIII</titlePart>
+
+      <docDate xml:id="CCCCLXXVIII_docDate">
+        <date when="1219-01-16">1229 maggio 23</date>, <placeName>Tivegna <emph>(<term
+              xml:lang="latin">ecclesia Sancti Laurentii de Tivegna</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXXVIII_regesto">
+        <p>Venco di Bracelli, Corvetto e Boso testimoniano di fronte al priore di Carrara e al
+          canonico Grasso circa i diritti della curia lunense su Bracelli.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 364r., c. CCLIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 478,
+            pp. 489-490.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>
+            <emph>Il 23 maggio cadeva di mercoledì. Per avere martedì bisognerà datare il documento
+              al 22 maggio, quindi supporre nel testo </emph> X&lt;I&gt; kalendas iunii: <emph>cfr.
+                <ref target="#MAZZINI_1914">U. MAZZINI</ref>,</emph> Correzioni critiche <emph>cit.,
+              p. 32.</emph>
+          </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXVIII. Item de eadem.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+
+      <div xml:id="CCCCLXXVIII_div">
+
+        <p xml:id="CCCCLXXVIII_p_001" n="1"> In nomine Domini, amen. <date when="1229-05-23">Anno a
+            nativitate Eius MCCXXIX, indictione II, die martis, X kalendas iunii.</date>
+          <persName ref="#VencusBlaçellio">Vencus de <placeName ref="#Bracellis"
+              >Blazellio</placeName></persName> , <persName ref="#Corvetus">Corvetus</persName> et
+            <persName ref="#Boso">Bosus</persName> coram domino priore de <placeName ref="#Carrara"
+            >Carraria</placeName>, supra hoc iudice delegato, ad sancta Dei evangelia iuraverunt
+          assignare, monstrare et confessare omnes rationes, condictiones et factiones que et quas
+          Lunensis curia habet vel debet habere in <placeName ref="#Bracellis">Blazellio</placeName>
+          et in districtu. Dicit <persName ref="#VencusBlaçellio">Vencus</persName> pro sacramento
+          quod mansus de <placeName ref="#Cepporeto">Cepporeto</placeName> annuatim solvit I
+          amiscere; mansus de <placeName ref="#MonteBra">Monte</placeName> I amiscere; mansus de
+            <placeName ref="#Via">Via</placeName> I amiscere; mansus de <placeName ref="#Cruce2"
+            >Cruce</placeName> II amiscera; I medium de <placeName ref="#Flaso">Flaso</placeName> et
+          alium medium de <placeName ref="#Grondi">Grondi</placeName>; mansus de <placeName
+            ref="#Salvola">Salvola </placeName>
+          <note place="foot" n="a" xml:id="CCCCLXXVIII_n_001"><term xml:lang="latin">Salvola</term>:
+              <emph>la prima asta della v corretta su precedente</emph> a</note> I amiscere et alium
+          medium de <placeName ref="#Flaso">Flaso</placeName>; illi de <placeName ref="#MonteMese"
+            >Monte de Mese</placeName>, de <placeName ref="#Facto">Facto</placeName>, de <placeName
+            ref="#Bançola">Banzola</placeName> I amiscere; de <placeName ref="#Grondi"
+            >Grondi</placeName> pro filio <persName ref="#Bonellus">Bonelli</persName> I amiscere,
+          de duobus annis uno; de terra quam tene<supplied reason="omitted">n</supplied>t <persName
+            ref="#AcatellusInoplena">Acatellus Inoplena</persName> et <persName ref="#Bonvisinus"
+            >Bonusvicinus</persName>, de tribus annis uno, I amiscere; et dicit quod recordatur de
+          LX annis quod ista amiscera sunt soluta de annis in annis. <persName ref="#Boso"
+            >Bosus</persName> dicit pro suo sacramento quod vidit nuncios domini <persName
+            ref="#AlbertusGombus">Alberti</persName> petere dicta amiscera. <persName
+            ref="#Corvetus">Corvetus</persName> dicit pro suo sacramento quod habuit et collegit
+          dicta amiscera, excepto <emph>hovino</emph>, pro domino <persName ref="#AlbertusGombus"
+            >Alberto Gombo</persName>, et credit quod debebant esse VIII, sicut predixerat dictus
+            <persName ref="#VencusBlaçellio">Vengus</persName>, et interdum recepit pro I amiscere V
+          denarios quadam die et loco; et fere incontinenti dixit <persName ref="#VencusBlaçellio"
+            >Vencus</persName> quod curia debet habere pensiones et decimas et quedam alia, ut
+          continetur in alia scriptura facta per manum <persName ref="#Confortusnot">Conforti
+              <roleName>notarii</roleName></persName>. Et hoc firmiter credunt et viderunt colligi
+          multa de predictis per nuncios domini episcopi; et de hoc publica fama est <placeName
+            ref="#Bracellis">Blazellio</placeName>. Illud idem dicit <persName ref="#Corvetus"
+            >Corvetus</persName>; <persName ref="#Boso">Bosus</persName> dicit quod predicta audivit
+          dici et credit quod ita sit. </p>
+
+        <p xml:id="CCCCLXXVIII_p_002" n="2"> Acta sunt hec in <orgName type="Tivegna_S_Lorenzo"
+            >ecclesia Sancti Laurentii de <placeName ref="#Tivegna">Tivegna</placeName></orgName>,
+          presentibus <persName ref="#Bonencontruspres"><roleName>presbytero</roleName>
+            Bonencontro</persName> et <persName ref="#IacopinusIuncte">Iacopino de <placeName
+              ref="#Valerano">Valerano</placeName></persName>, testibus ad hec rogatis. </p>
+
+        <p xml:id="CCCCLXXVIII_p_03" n="3">
+          <ptr target="#CCCCLXXVIII_st_001"/> Ego <persName ref="#Confortus_notarius2">Confortus,
+              <roleName>domini Ottonis quarti imperatoris notarius</roleName></persName>, hec
+          rogatus scripsi. </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

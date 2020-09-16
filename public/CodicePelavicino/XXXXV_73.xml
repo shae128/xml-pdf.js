@@ -1,0 +1,404 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="XLV_73">
+        <front xml:id="XLV_front">
+            <titlePart type="numerazioneNuova">73</titlePart>
+            <titlePart type="numerazioneOrig">XLV</titlePart>
+            <docDate xml:id="XLV_docDate">
+                <date when="1245-02-28">1245 febbraio 28</date>, <placeName>&lt;Sarzana&gt;(<term
+                        xml:lang="latin">in ecclesia Sancte Marie, in ecclesia Sancti
+                    Andree</term>).</placeName>
+            </docDate>
+            <div type="regesto" xml:id="XLV_regesto">
+                <p> 86 uomini di Arcola, <emph>burgenses</emph> di Sarzana, esplicitamente nominati
+                    in due momenti separati, si impegnano con il podestà di Sarzana Iacopo di
+                    Corviaco e con il consiglio del borgo a mantenere in perpetuo la condizione di
+                    abitanti di Sarzana, adempiere ai medesimi obblighi, godendo dei medesimi
+                    diritti degli altri, e a distruggere le dimore lasciate ad Arcola. Promettono
+                    infne di non prestare giuramento di fedeltà al marchese Corrado Malaspina e
+                    consorte e a Bartolomeo di Massa e consorte, avendo il primo comprato la metà
+                    della giurisdizione di Arcola dal secondo. </p>
+            </div>
+            <div type="footer" xml:id="XLV_footer">
+
+                <div type="orig_doc">
+                    <p> Copia di copia autentica [C] cc. 134v.-136r., cc. CXXVIv.-CXXVIIIr. secondo
+                        la numerazione originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 45, pp. 66-68.</p>
+                </div>
+                <div type="crit_notes">
+                    <note> Parte del testo è stata letta con l’ausilio della luce di Wood. La
+                        pergamena presenta un guasto anteriore alla scrittura, che non intacca il
+                        testo. La copia è redatta dal notaio Iacopino Tagliavacca il 27 marzo 1255. </note>
+                    <note> Nel margine esterno di c. 134v., di mano moderna: <emph>Pactum cum
+                            quibusdam de Arculla, habitantibus Sarzanam</emph>
+                    </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">XLV. De eadem materia.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="XLV_div">
+                <p xml:id="XLV_p_001" n="1"> In Dei nomine, amen. <date when="1245-02-28">Anno a
+                        nativitate Eius millesimo CCXLV, indictione tercia, pridie kalendas
+                        martii</date>. Isti infrascripti de <placeName ref="#Arcola"
+                        >Arcula</placeName>, burgenses <placeName ref="#Sarzana"
+                    >Sarzane</placeName>, videlicet <persName ref="#Galliardus_consiliarius"
+                        >Galliardus</persName>, <persName ref="#Apportus">Apportus</persName>,
+                        <persName ref="#GiliolusGuilielmini">Giliolus dicti Guilielmini<note
+                            place="foot" n="a" xml:id="XLV_n_001">dicti Guilielmini: <emph>così nel
+                                testo.</emph></note></persName>, <persName ref="#GuiçolinusFurni"
+                        >Guiçolinus quondam Furni</persName>, <persName ref="#UgolinusRubaldi"
+                        >Ugolinus qondam Rubaldi</persName>, <persName ref="#BonavitaGuilielmini"
+                        >Bonavita qondam Guillielmini</persName>, <persName ref="#RogerinusSarzana"
+                        >Rogerinus</persName>, <persName ref="#BastrodusGranelli">Bastrodus
+                        Granelli</persName>, <persName ref="#Iordanus">Iordanus</persName>,
+                        <persName ref="#Rubaldettus">Rubaldettus<note place="foot" n="b"
+                            xml:id="XLV_n_002">Rubaldettus: 1 <emph>aggiunto in
+                            sopralinea.</emph></note></persName>, <persName ref="#Ravascherius"
+                        >Ravascherius</persName>, <persName ref="#Thebaldinus"
+                        >Thebaldinus</persName>, <persName ref="#GuilielmetusMarrachine"
+                        >Guilielmettus Marrachine</persName>, <persName
+                        ref="#BonalbergusMonteGallorum">Bonalbergus de <placeName
+                            ref="#MonteGallorum">Monte Gallorum</placeName></persName>, <persName
+                        ref="#Guigardinus">Guigardinus</persName>, <persName ref="#Bonafesta"
+                        >Bonafesta</persName>, <persName ref="#Iohannes">Iohannes</persName>,
+                        <persName ref="#Fornarius">Fornarius</persName>, <persName ref="#Bonaiuncta"
+                            >Bonaiuncte<note place="foot" n="c" xml:id="XLV_n_003">Bonaiuncte:
+                                <emph>così nel testo.</emph></note></persName>, <persName
+                        ref="#MartinusBefulci">Martinus Befulci</persName>, <persName
+                        ref="#RubaldinusUberti">Rubaldinus Uberti</persName>, <persName
+                        ref="#FredericusNoceto">Fredericus de <placeName ref="#Noceto"
+                            >Noceto</placeName></persName>, <persName ref="#RollandinusPitelli"
+                        >Rollandinus de <placeName ref="#Pitelli">Pitelli</placeName></persName>,
+                        <persName ref="#PinellusGaforetti">Pinellus Gaforetti<note place="foot"
+                            n="d" xml:id="XLV_n_004">Gaforetti: afo <emph>corretto su precedente
+                                scrittura.</emph></note></persName>
+                    <persName ref="#FalconetusPitelli">Falconetus de Pitelli</persName>, <persName
+                        ref="#Pysanus_magister">Pysanus</persName>
+                    <roleName>magister</roleName>, <persName ref="#MarchesellusArimbaldo"
+                        >Marchesellus de Arimbaldo</persName>, <persName ref="#BonacursusAugustini"
+                        >Bonacursus Augustini</persName>, <persName ref="#Bertollus"
+                        >Bertollus</persName>, <persName ref="#Baldinottus">Baldinottus</persName>,
+                        <persName ref="#GerardusCarbonaria">Gerardus de</persName>
+                    <placeName ref="#Carbonara">Carbonaria</placeName>, <persName ref="#Prefectus"
+                        >Prefectus</persName>, <persName ref="#Bonafides">Bonafides</persName>,
+                        <persName ref="#Donatus">Donatus</persName>, <persName ref="#Bandellus"
+                        >Bandellus</persName>, <persName ref="#Cartegnudus">Cartegnudus</persName>,
+                        <persName ref="#Guadagninus">Guadagninus<note place="foot" n="e"
+                            xml:id="XLV_n_005">Guadagninus: g <emph>aggiunto in sopralinea con segno
+                                di richiamo.</emph></note></persName>, <persName ref="#Dainense"
+                        >Danese</persName>, <persName ref="#Confortus">Confortus</persName>,
+                        <persName ref="#Aicardinus">Aicardinus</persName>, <persName
+                        ref="#BernardetusCorte">Bernardettus de <placeName ref="#Curte"
+                            >Curte</placeName></persName>, <persName ref="#Corvarinus"
+                        >Corvarinus</persName>, <persName ref="#Gualdus">Gualdus</persName>,
+                        <persName ref="#Bondecasa">Bondecasa</persName><note place="foot" n="f"
+                        xml:id="XLV_n_006">Bondecasa: a <emph>finale corretta su precedente
+                            scrittura.</emph></note>, <persName ref="#BernardetusScinci"
+                        >Bernardettus de <placeName ref="#Scinci">Scinci</placeName></persName>,
+                        <persName ref="#GuiçolinusBefulci">Guiçolinus Befulci</persName>, <persName
+                        ref="#Bonguilielmus">Bonguilielmus</persName>, <persName ref="#Bellus"
+                        >Bellus</persName>, <persName ref="#Bonsenior">Bonsengnorus</persName>,
+                        <persName ref="#Molinarius">Molinarius</persName>, <persName
+                        ref="#Oliverius">Oliverius</persName>, <persName ref="#Martinus"
+                        >Martinus</persName>, <persName ref="#Fantellastrus"
+                        >Fantellastrus</persName>, <persName ref="#BonavitaBastardi">Bonavita
+                        Bastardi</persName>, <persName ref="#Cancellerius">Cancellerius</persName>,
+                        <persName ref="#Orodus">Orodus</persName>, <persName ref="#Confalonus"
+                        >Confalonus</persName>, <persName ref="#Andreolus">Andriolus</persName>,
+                        <persName ref="#Chese">Chese</persName>, <persName ref="#Sicardus"
+                        >Siccardus</persName>, <persName ref="#Gerardinus">Girardinus</persName>,
+                        <persName ref="#Gerardus">Girardus</persName>, <persName ref="#Lanfrancus"
+                        >Lanfrancus</persName>, <persName ref="#Rainerius">Raynerius</persName>,
+                        <persName ref="#Rollandetus">Rollandettus</persName>, <persName
+                        ref="#S_Perlini">S<supplied reason="illeggibile">[…]</supplied>us<note
+                            place="foot" n="g" xml:id="XLV_n_007"><emph>Nominativo illeggibile a
+                                causa di un’abrasione della pergamena.</emph></note>
+                        Perlini</persName>, <persName ref="#BonaiunctaCanalmora">Bonaiuncta de
+                            <placeName ref="#Canalmora">Canalmora</placeName></persName>, <persName
+                        ref="#Confalonus">Confalonus</persName>, <persName
+                        ref="#Bonaiuncta_calçolarius">Bonaiuncta</persName>
+                    <roleName>calçolarius</roleName>, <persName ref="#BonacursusGuilie">Bonacursus
+                        Guilie</persName>, <persName ref="#Salve">Salve<note place="foot" n="h"
+                            xml:id="XLV_n_008">Salve: l <emph>aggiunto in
+                        sopralinea.</emph></note></persName>, <persName ref="#Benvenutus"
+                        >Benvenutus</persName>, <persName ref="#Billanus">Billanus</persName>,
+                        <persName ref="#GuilielminusPovici">Guilielminus de <placeName ref="#Povici"
+                                >Poti<supplied reason="illegibel"
+                        >ci</supplied></placeName></persName><note place="foot" n="i"
+                        xml:id="XLV_n_009"><emph>Le due lettere finali sono illeggibili a causa
+                            dell’inchiostro sbiadito.</emph></note>, omnes insimul et quilibet eorum
+                    promiserunt et convenerunt <roleName>domino</roleName>
+                    <persName ref="#IacopusCorviaco">Iacopo de <placeName ref="#Corviaco"
+                            >Corviaco</placeName></persName>, <roleName>potestati</roleName>
+                    <placeName ref="#Sarzana">Sarzane</placeName>, et consilio eiusdem loci,
+                    coadunato more solito per trinum sonum campane in <orgName
+                        ref="#Sarzana_S_Maria">ecclesia Sancte Marie</orgName>, videlicet
+                        <roleName>domino</roleName>
+                    <persName ref="#Marabotinus_dominus">Maraboltino</persName>,
+                        <roleName>domino</roleName>
+                    <persName ref="#Opecinusiud">Oppecino</persName>
+                    <roleName>iurisperito</roleName>, <roleName>domino</roleName>
+                    <persName ref="#Attolinus_dominus">Attolino</persName>,
+                        <roleName>domino</roleName>
+                    <persName ref="#Mercadante_dominus">Mercadanti</persName>, <persName
+                        ref="#Benvenutus">Benvenuto</persName>, <persName ref="#Simonetusnot2"
+                        >Symonetto</persName>
+                    <roleName>notario</roleName>, <persName ref="#Guichardinus"
+                        >Guichardino</persName>, <persName ref="#Iacopucius">Iacoputtio</persName>,
+                        <persName ref="#Bondies">Bondiei</persName>, <persName ref="#Riçardus"
+                        >Richardo</persName>, <persName ref="#Baldinottus">Baldinotto</persName>,
+                        <roleName>domino</roleName>
+                    <persName ref="#Rubeusiud">Russo</persName>, <persName ref="#Bandinus"
+                        >Bandino</persName>, <persName ref="#Gerardus">Gerardo</persName>, <persName
+                        ref="#Hengeramus">Hengerami</persName>, <persName ref="#Parentinus"
+                        >Parentino</persName>, <persName ref="#Bonapars">Bonaparti</persName>,
+                        <persName ref="#Bontalentus">Bontalento</persName>, <persName
+                        ref="#Galliardus">Galliardo</persName>, <persName ref="#Gualterotus"
+                        >Gualterotto</persName>, <persName ref="#Robertinus">Robertino</persName>,
+                        <persName ref="#Fulcerius">Fulcerio</persName>, <persName ref="#Comesnot"
+                        >Conti</persName>
+                    <roleName>notario</roleName>, <persName ref="#Gervasinus">Gervasino</persName>,
+                        <persName ref="#Serardus_consiliarius">Serardo</persName>, <persName
+                        ref="#Gibertinus_ferrarius">Gybertino</persName>
+                    <roleName>ferrario</roleName>, <persName ref="#Philippusnot2"
+                        >Philippo</persName>
+                    <roleName>notario</roleName>, <persName ref="#Pungus_consiliarius"
+                        >Pungo</persName>, <persName ref="#VivaldusAmati">Vivaldo Amati</persName>,
+                        <persName ref="#Iacopus_consiliarius">Iacopo</persName>, <persName
+                        ref="#Philippus_consiliarius">Philippo</persName>, <persName
+                        ref="#Verniccius_consiliarius">Verniccio</persName>, <persName
+                        ref="#Paganinusnot3">Paganino</persName>
+                    <roleName>notario</roleName> et <persName ref="#Bonaposa_notarius"
+                        >Bonapose</persName>
+                    <roleName>notario</roleName>, <roleName>consiliariis</roleName>
+                    <placeName ref="#Sarzana">Sarzane</placeName>, recipientibus nomine et vice
+                    <orgName ref="#Sarzana_comune">communis</orgName> <placeName ref="#Sarzana">Sarzane</placeName>, quod erunt perpetuo ipsi
+                    eorumque heredes burgenses et habitatores <placeName ref="#Sarzana"
+                        >Sarzane</placeName> nec inde discedent ad habitandum aliquo modo vel iure,
+                    sed perpetuo stabunt et erunt burgenses <placeName ref="#Sarzana"
+                        >Sarzane</placeName>, ipsi et eorum heredes, et deinceps perpetuum faciendo
+                    et prestando conditiones et factiones, ostem et cavalcatam, guaitam et
+                    scheraguaitam, sicut alii burgenses <placeName ref="#Sarzana"
+                        >Sarzane</placeName> sunt facere consueti atque faciunt communi predicto,
+                    habendo istam libertatem quam habent alii burgenses <placeName ref="#Sarzana"
+                        >Sarzane</placeName> et agnoscendo honera et emolimenta<note place="foot"
+                        n="l" xml:id="XLV_n_010">emolimenta: <emph>così nel testo.</emph></note>
+                    communis, sicut alii burgenses <placeName ref="#Sarzana">Sarzane</placeName>. Et
+                    promiserunt et convenerunt predictis, recipientibus ut dictum est, venire <pb
+                        n="135r" xml:id="fol_135r"/> ad habitandum, cum familia et omnibus rebus
+                    mobilibus ipsorum, apud <placeName ref="#Sarzana">Sarzanam</placeName> et
+                    hedificare quilibet unam domum <placeName ref="#Sarzana">Sarzane</placeName> et
+                    destruere omnes domos quas habent in districtu <placeName ref="#Arcola"
+                        >Arcule</placeName>, ad voluntatem suprascripti communis, et totum
+                    hedificium, preter muros, deportare vel deportari facere <placeName
+                        ref="#Sarzana">Sarzane</placeName> et aliquo tempore non<note place="foot"
+                        n="m" xml:id="XLV_n_011">non: <emph>aggiunto in sopralinea con segno di
+                            richiamo.</emph></note> facere, per se vel per alium, in districtu
+                        <placeName ref="#Arcola">Arcule</placeName>, aliquam domum vel hedificium
+                    causa habitandi, nisi ad voluntatem communis predicti. Et destructio predictarum
+                    domorum intelligatur et debeat fieri ab illis qui non habent domos <placeName
+                        ref="#Sarzana">Sarzane</placeName>. Et promiserunt et convenerunt non facere
+                    pactum vel conventionem vel aliquam promissionem habitandi seu subponendi se sub
+                    alterius iurisdictione vel facere fidelitatem alicui persone vel personis, loco
+                    vel locis, sed perpetuo debeant esse sub iurisdictione communis <placeName
+                        ref="#Sarzana">Sarzane</placeName>, ipsi et eorum heredes, et bona, mobilia
+                    et immobilia, et vivere et stare statutis et ordinamentis dicti communis, factis
+                    et que fient in futurum, sicut alii burgenses, dando licencia<supplied
+                        reason="omitted">m</supplied> ipsi communi quod possintn ius dicere inter
+                    eos, bannire et exbannire; et, si res eorum essent sub litigio inter eos,
+                    commune burgi <placeName ref="#Sarzana">Sarzane</placeName> et eius officiales,
+                    qui essent ordinati per dictum commune, possint cognoscere, diffinire et
+                    sentenciare inter eos. Et bona eorum, mobilia et immobilia, possint folare et
+                    diffolare, saltarios ponere in eorum territoriis et nemoribus<note place="foot"
+                        n="o" xml:id="XLV_n_012">nemoribus: o <emph>corretto su</emph> q</note> et
+                    bostare et distostare <note place="foot" n="p" xml:id="XLV_n_013">bostare et
+                        distostare: <emph>così nel testo, probabilmente per</emph> boscare et
+                        disboscare.</note> et omnia facere que ipsimet<note place="foot" n="q"
+                        xml:id="XLV_n_014">ipsimet:<emph>nel testo</emph> met <emph>con segno di
+                            abbreviazione superfluo.</emph></note> facere possent. Item concesserunt
+                    et dederunt suprascriptis, recipientibus ut dictum est, omnem iurisdictionem et
+                    dominium et iura, quam vel quod habent vel ad eos pertinet vel alicui ipsorum in
+                        <placeName ref="#Arcola">Arcula</placeName> et districtu, in consulatu,
+                    potestaria, saltaria, pascaticu, in aquis, in districtu et rellevalliis terrarum
+                    et nemoribus, in venationibus, in paludibus, in stagnis, in terra et mari et in
+                    omnibus generaliter, que ad eos pertinent, aliquo iure vel modo vel occasione.
+                    Et promiserunt atque convenerunt suprascriptis, recipientibus ut dictum est,
+                    quod ipsi et eorum heredes et deinceps in perpetuum non erunt vassalli nec se
+                    facient vassallos, per confessionem vel alio modo vel ingenio, nec fidelitatem
+                    facient <roleName>domino</roleName>
+                    <persName ref="#ConradusMalaspina2">Conrado, <roleName>marchioni</roleName>
+                        Malaspine</persName>, vel domine comitisse nec <roleName>domino</roleName>
+                    <persName ref="#BartholomeusPagani">Bertholomeo</persName> vel eius uxori vel
+                    eorum heredibus vel alii pro eis, nec alicui universitati vel loco, nec alteri
+                    persone vel loco pro eis, vel finem <supplied reason="omitted">facere</supplied>
+                    eis aliquo modo vel iure nec etiam predictis nec alicui predictorum nec alteri
+                    persone, occasione vassallatici seu fidelitatis, intendent, nec obedient nisi
+                    communi predicto, ut superius dictum est. Et promiserunt et convenerunt
+                    suprascriptis, recipientibus ut dictum est, non operari nec tractare aliquid quo
+                    minus suprascripti omnes et eorum heredes et deinceps in perpetuum sint
+                    burgenses et habitatores Sarzane atque quo minus predicta omnia et singula rata
+                    permaneant et observentur, ut superius dictum est. Et promiserunt et convenerunt
+                    suprascriptis, recipientibus ut dictum est, non facere pacem <pb n="135v"
+                        xml:id="fol_135v"/> neque concordiam cum <roleName>domino</roleName>
+                    <persName ref="#ConradusMalaspina2">Conrado</persName> vel cum alia persona pro
+                    eo, vel fidelitatem seu sacramentum aliquo modo vel iure vel ingenio, nisi ad
+                    voluntatem dicti communis, occasione emptionis facte per
+                        <roleName>dominum</roleName>
+                    <persName ref="#ConradusMalaspina2">Conradum</persName> a
+                        <roleName>domino</roleName>
+                    <persName ref="#BartholomeusPagani">Bertholomeo</persName> vel aliqua alia
+                    occasione preterita, presenti sive futura. Illis vero suprascriptis qui habent
+                    iurisdictionem divisam vel spectantes<note place="foot" n="r" xml:id="XLV_n_015"
+                        >spectantes: <emph>così nel testo.</emph></note> ad iurisdictionem
+                    predictam, ut superius dicta sunt et expressa, teneants commune <placeName
+                        ref="#Sarzana">Sarzane</placeName> providere et satisfacere, sicut placuerit
+                    consilio et communi et quod eis melius visum fuerit, et si qua essent omnium
+                    suprascriptorum vel maioris partis commune non teneant<note place="foot" n="s"
+                        xml:id="XLV_n_016">teneant: <emph>così nel testo per </emph>teneatur</note>
+                    providere in aliquo. Suprascripta omnia et singula convenerunt et promiserunt
+                    suprascripti omnes per se suosque heredes, sub pena <measure type="Marcharum"
+                        quantity="1000" unit="solidus">mille marcharum argenti</measure>, et
+                    quilibet eorum pro rata; et etiam ad sancta Dei evangelia iuraverunt perpetuo
+                    attendere, facere et observare et in nullo contravenire: que pena tociens
+                    committatur et exigi possit cum effectu quotiens in predictis seu aliquo
+                    predictorum per ipsos seu per alterum eorum vel eorum heredes fuerit
+                    contraventum, predictis omnibus et singulis semper ratis manentibus cum eadem
+                    pene commissione, dando predicto potestati et consilio, recipientibus nomine et
+                    vice dicti communis, liberam potestatem, si contra facerent, capiendi de rebus
+                    contrafacentium, sua auctoritate et dicti communis, obligando ad hec omnia et
+                    singula observanda suprascripti omnes et quilibet eorum se suosque heredes et
+                    omnia sua bona, habita et habenda, et restaurare totum dampnum et dispendium
+                    quod dictum commune vel eius factores seu officiales haberent<note place="foot"
+                        n="t" xml:id="XLV_n_017">haberent: t <emph>corretto su precedente
+                            lettera.</emph></note>, substinerent vel facerent. Et renunciaverunt
+                    suprascripti omnes et quilibet eorum fori et doli exceptioni et omni alii iuri
+                    et legibus et constituto, scriptis et non scriptis, quibus possent se tueri a
+                    predictis vel ab aliquibus predictorum, pro quibus omnibus suprascriptis
+                    promissis et factis a suprascriptis hominibus suprascriptis, recipientibus ut
+                    dictum est. Versa vice, suprascriptus <roleName>dominus</roleName>
+                    <persName ref="#Iacopinusiud">Iacopinus</persName> et consiliarii suprascripti,
+                    nomine et vice suprascripti communis, receperunt suprascriptos in burgenses
+                    atque iterum promiserunt et convenerunt hominibus suprascriptis, recipientibus
+                    pro se et heredibus suis, ipsos et quemlibet eorum et eorum heredes cum ratione
+                    deffendere atque iuvare in eorum iure et iuribus ab omni persona et loco,
+                    occasione emptionis quam dicit suprascriptus <roleName>dominus</roleName>
+                    <persName ref="#ConradusMalaspina2">Conradus</persName> se fecisse a
+                        <roleName>domino</roleName>
+                    <persName ref="#BartholomeusPagani">Bertholomeo</persName> de <placeName
+                        ref="#Massa">Massa</placeName> de medietate iurisdictionis de <placeName
+                        ref="#Arcola">Arcula</placeName> et fidelitate vassallorum et qualibet alia
+                    occasione pro ipsa fidelitate et iurisdictione. Si vero violentia fieret eis vel
+                    alicui ipsorum vel eorum heredibus per suprascriptum
+                        <roleName>dominum</roleName>
+                    <persName ref="#ConradusMalaspina2">Conradum</persName> vel aliam personam, in
+                    persona vel rebus, occasione predicta vel alia occasione, promiserunt
+                    suprascripta potestas et consilium, nomine et vice suprascripti communis,
+                    adiuvare et manutenere eorum iusto posse cum ratione, si ratio eis peteretur; et
+                    cum inde, si eis vix fieret vel alicui eorum vel eorum heredibus, ad lignamen
+                    vero et plastras deferendas <pb n="136r" xml:id="fol_136r"/> pro domibus eorum
+                    hedificandis <placeName ref="#Sarzana">Sarzane</placeName>, promiserunt dicta
+                    potestas et consilium, nomine et vice dicti communis, omnibus suprascriptis
+                    ipsos et quemlibet eorum adiuvare et dare eis operam cum effectu quod predictum
+                    lignamen et plastre deferant apud <placeName ref="#Sarzana">Sarzanam</placeName>
+                    pro predictis domibus faciendis. Et tenea<supplied reason="omitted"
+                    >n</supplied>tur suprascripta potestas et consilium bona fide facere iurare
+                    omnes de <placeName ref="#Sarzana">Sarzana</placeName> a quatuordecim annis
+                    supra et a septuaginta infra quod iurabunt manutenere omnes suprascriptos et
+                    quemlibet eorum cum ratione, si ratio eis peteretur, et si vim eis fieret, cum
+                        vim<note place="foot" n="u" xml:id="XLV_n_018">si vim-vim: <emph>così nel
+                            testo.</emph></note> eos adiuvare et manutenere, ut dictum est, toto
+                    tempore. Predicta omnia et singula promiserunt et convenerunt dicta potestas et
+                    consilium, pro se suisque successoribus, facere et observare, sub predicta pena
+                    et obligatione, obligando eis se suosque successores et bona dicti communis, sub
+                    predicta pena. Hec acta fuerunt in <orgName ref="Sarzana_S_Maria">ecclesia
+                        Sancte Marie</orgName>, testibus <persName ref="#GerardinusManno">Gerardino
+                        Manni</persName>, <persName ref="#StoppusAlberti">Stupio qondam
+                        Alberti</persName>
+                    <roleName>corbellarii</roleName>, <persName ref="#RauloGerardini">Raulo qondam
+                        Gerardini de</persName>
+                    <placeName ref="#Bucciliano">Buccilliano</placeName> et <persName
+                        ref="#PetrusBeccerio">Petro Beccerio</persName>, presentibus et rogatis. </p>
+                <p xml:id="XLV_p_002" n="2"> Eodem die, in <orgName ref="#Sarzana_S_Andrea">ecclesia
+                        Sancti Andree</orgName>, infrascripti promiserunt, convenerunt, dederunt et
+                    concesserunt, obligaverunt et renunciaverunt atque iuraverunt et fecerunt in
+                    omnibus et per omnia ut predicti de <placeName ref="#Arcola">Arcula</placeName>
+                    fecerunt, ut superius dictum est, videlicet <persName ref="#Guiçolinus"
+                        >Guiçolinus</persName>, <persName ref="#Cuetius">Cuetius</persName>,
+                        <persName ref="#Ugolinetus">Ugolinettus</persName>, <persName
+                        ref="#Paganinus">Paganinus</persName>, <persName ref="#ThomasiusBelesia"
+                        >Thomasinus Benesia</persName>, <persName ref="#GallusAlbertus">Gallus
+                        Albertus</persName>, <persName ref="#AdornetusNoceto">Addornettus de
+                            <placeName ref="#Noceto">Noceto</placeName></persName>, <persName
+                        ref="#Accattus">Accattus</persName>, <persName ref="#Durans"
+                        >Durante</persName>, <persName ref="#Gerardinus">Gerardinus</persName>,
+                        <persName ref="#Gibertinus_sartor">Gybertinus</persName>
+                    <roleName>sartor</roleName> et <persName ref="#GuilielmusAlbareto">Guilielmus de
+                            <placeName ref="#Albareto">Albareto</placeName></persName>, testibus
+                        <persName ref="#StoppusAlberti">Stupio qondam Alberti</persName>
+                    <roleName>corbellarii</roleName>, <persName ref="#Bontalentus"
+                        >Bontalento</persName> et <persName ref="#Robertinus">Robertino</persName>. </p>
+                <p xml:id="XLV_p_003" n="3">
+                    <ptr target="#XLV_st_001"/> Ego <persName ref="#Vivianusnot"
+                    >Vivianus</persName>, <roleName>sacri palacii notarius</roleName>, hiis interfui
+                    et, rogatus, scripsi. </p>
+                <p xml:id="XLV_p_004" n="4">
+                    <ptr target="#XLV_st_002"/> Ego <persName ref="#IacopinusTalliavachanot"
+                        >Iacopinus, qui nominor Talliavacca</persName>, <roleName>palacii sacri
+                        notarius</roleName>, auctenticum huius exempli vidi et legi, et, prout in eo
+                    inveni, ita in hoc additis<note place="foot" n="v" xml:id="XLV_n_019">additis:
+                            <emph>così nel testo per</emph> addito</note> nichil vel diminuto, quod
+                    sensum mutet vel intellectum, bona fide scripsi et autenticavi de auctoritate et
+                    mandato <roleName>domini</roleName>
+                    <persName ref="#Rubeusiud">Russi</persName>, <roleName>iudicis et assessoris
+                        communis</roleName> Sarzane et nunc <roleName>vicarii domini</roleName>
+                    <persName ref="#SygeriusSassecta"><supplied reason="illegible"
+                            >Segerii</supplied></persName><note place="foot" n="x"
+                        xml:id="XLV_n_020"><emph>La pergamena è consunta; integrazione da doc.
+                            93-LXVI</emph>.</note>
+                    <roleName>potestatis</roleName>
+                    <placeName ref="#Sarzana">Sarzane</placeName>, residentis pro tribunali in
+                        <supplied reason="illeggibile">...</supplied><note place="foot" n="y"
+                        xml:id="XLV_n_021">[...]: <emph>tre parole risultano illeggibili a causa di
+                            consunzione della pergamena.</emph></note> sub porticu <orgName
+                        xml:id="S_Basilio_Sarzana">ecclesia Sancti Andree</orgName>, ubi redditur
+                    ius pro dicto commune, presentibus domino <persName ref="#Antoniuscan"
+                        >Antonio</persName>
+                    <roleName>Lunensi canonico</roleName>, <persName ref="#BondiesPetorialis">Bondie
+                        Pectorale</persName> et <persName ref="#CalandrinusBoniohannis">Calandrino
+                        quondam Boniohannis<note place="foot" n="z" xml:id="XLV_n_022">quondam
+                            Boniohannis: <emph>lettura incerta per consunzione della
+                                pergamena.</emph></note></persName> de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>, testibus ad hec rogatis. <date when="1255-04-06">Anno
+                        a nativitate Domini millesimo CC quinquagesimo quinto, indictione XIIIa,
+                        sexto kalendas aprilis.</date>
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

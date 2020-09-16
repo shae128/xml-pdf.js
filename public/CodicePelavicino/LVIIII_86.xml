@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="LVIIII_86">
+        <front xml:id="LVIIII_front">
+
+            <titlePart type="numerazioneNuova">86</titlePart>
+            <titlePart type="numerazioneOrig">LVIIII</titlePart>
+
+            <docDate xml:id="LVIIII_docDate">
+                <date when="1141-01-13">1141 gennaio 13</date>, <placeName>Sarzana</placeName>
+            </docDate>
+
+            <div type="regesto" xml:id="LVIIII_regesto">
+                <p>Guglielmo del fu Amato di <emph>Egreppolo</emph> chiede al vescovo Gotifredo due
+                    pezze di terre poste in Castagnetolo, impegnandosi a lavorarle ed a
+                    corrispondergli annualmente la somma di 3 denari a titolo di affitto. </p>
+            </div>
+
+            <div type="footer" xml:id="LVIIII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] c. 162r., c. CLIIIIr.. secondo la numerazione originale.</p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 59, p. 97, con la data 1241.</p>
+                </div>
+
+                <div type="crit_notes">
+                    <note>
+                        <p>La data indicata dal copista e recepita da Lupo Gentile è errata poiché
+                            in quell’anno era vescovo Guglielmo e non Gotifredo, come indicato nel
+                            documento. Inoltre nel 1241 correva l’indizione XIV e non la IIII. Il
+                            documento deve essere quindi retrodatato al 1141: cfr. <ref
+                                target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 11. </p>
+                        <p> A favore di una datazione più alta depone inoltre il fatto che si tratta
+                            di un tipico livello, con la <emph>petitio</emph> del richiedente e la
+                            concessione da parte del vescovo, e che il notaio Rodolfo sia attestato
+                            da altri documenti del medesimo periodo. </p>
+                    </note>
+                </div>
+
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LIX. Pensio Amati de Groppulo.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="LVIIII_div">
+                <pb n="162r" xml:id="fol_162r"/>
+                <p xml:id="LVIIII_p_001" n="1"> In nomine Domini nostri Ihesu Christi et Dei eterni.
+                        <date when="1141-01-13"> Anno ab incarnatione Eius millesimo CCXLI<note
+                            place="foot" n="a" xml:id="LVIIII_n_001">millesimo CCXLI: <emph>così nel
+                                testo</emph>.</note>, idibus ianuarii, indictione IIIIa</date> Peto
+                    ego <persName ref="#GuilielmusAmati">Guilielmus, filius quondam Amati de
+                            <placeName ref="#Gropolo">Egroppolo</placeName></persName>, una cum meis
+                    heredibus, a vobis <persName ref="#GotefredEpLuni2"><roleName>domino
+                            </roleName>Gotefredo,<roleName>Lunensi episcopo</roleName></persName>,
+                    et a vestris successoribus, id est duas petias terre in <placeName
+                        ref="#Castagnetulo">Castagnetulo</placeName>, quarum una est sulcas<note
+                        place="foot" n="b" xml:id="LVIIII_n_002">sulcas: <emph>così nel
+                        testo</emph>.</note> nonaginta; coheret ei de uno capite terra hospitalis de
+                        <placeName ref="#Sarzana">Sarzana</placeName>, de alio capite vadit usque in
+                    summo margine, de uno latere alia mea libellaria ex parte <persName
+                        ref="#AlegretusTerria">Alegretti de <placeName ref="#Terria"
+                            >Terria</placeName></persName>, que est II sulca. Altera petia est XXX
+                    sulca; coheret ei de uno capite ipsa nonaginta, subter de alio capite illorum de
+                    Terria, de uno latere ab alia mea libellaria<note place="foot" n="c"
+                        xml:id="LVIIII_n_003">ab alia mea libellaria: <emph>così nel testo,
+                            con</emph> ab <emph>superfluo</emph>.</note>, de alio terra <persName
+                        ref="#ImeliaLoCampo">Imelie de <placeName ref="#Campo">Lo
+                        Campo</placeName></persName> Has autem nunc suprascriptas duas petias terre
+                    habere, tenere, laborare, frui et meliorare et exinde vobis persolvamus omni
+                    anno fictam pensionem denariorum III tantum; alia superimposita eis non fiat. </p>
+                <p xml:id="LVIIII_p_002" n="2"> Actum <placeName ref="#Sarzana">Sarzana</placeName>.
+                    Sub pena <measure type="Imperiales" quantity="60" unit="solidus">XX
+                        soldorum</measure>, si quis eorum retollere aut laxare voluerit<note
+                        place="foot" n="d" xml:id="LVIIII_n_004">Sub pena XX soldorum, si quis eorum
+                        retollere aut laxare voluerit: <emph>scritto dopo l’</emph>actum<emph> per
+                            evidente errore del copista</emph>. </note>. </p>
+                <p xml:id="LVIIII_p_003" n="3"> Suprascriptus petitor hunc libellum me <persName
+                        ref="#Rodulfusnot">Rodulfum <roleName>domini imperatoris
+                        notarium</roleName></persName>, scribere rogavit. <persName
+                        ref="#BelluciusBaronelli">Bellucius Baronelli</persName>, <persName
+                        ref="#MalabucaTre">Malabucca de <placeName ref="#Trebiano"
+                            >Trebiano</placeName></persName>, <persName ref="#AlbertusBellonis"
+                        >Albertus filius Belloni</persName>, <persName ref="#YmoregnolusLoCampo">Ymo
+                        regnolus de <placeName ref="#Campo">Lo Campo</placeName></persName>, rogati
+                    testes, interfuerunt. </p>
+                <p xml:id="LVIIII_p_004" n="4">
+                    <ptr target="LVIIII_st_001"/> Ego <persName ref="#Rodulfusnot">Rodulfus,
+                            <roleName>domini imperatoris notarius</roleName></persName>, post
+                    traditum complevi et dedi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

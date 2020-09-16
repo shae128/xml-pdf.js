@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLVII_418">
+    <front xml:id="CCCCLVII_front">
+
+      <titlePart type="numerazioneNuova">418</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLVII</titlePart>
+
+      <docDate xml:id="CCCCLVII_docDate">
+        <date when="1253-10-08">1253 ottobre 8</date>, <placeName>Ponzanello (<term xml:lang="latin"
+            >Ponzanelli, in domo Aidantis, ubi curia tenebatur</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLVII_regesto">
+        <p>Aldobrandino del fu Vivaldo di Vezzano cede alcuni suoi vassalli, nominalmente elencati,
+          al vescovo di Luni Guglielmo, ricevendone in cambio nove lire di imperiali, due iugeri di
+          terra a Castagnetulo e due staia di frumento.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 355r.-355v., c. CCCXLVIr.-CCCXLVIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE, 1912</ref>, n. 457,
+            p. 465-467.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>L’indizione non è la IX, come erroneamente indicato in Lupo Gentile, ma la XI (cfr.
+              <ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 31).</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <emph>IIIIc LVII. Vasallorum de
+              Veçano.</emph></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCCLVII_div">
+        <p xml:id="CCCCLVII_p_001" n="1">
+          <pb n="355r" xml:id="fol_355r"/> In Dei nomine, amen. <date when="1253-10-08"> Anno a
+            nativitate Eius M°CCLIII, indictione XI, VIII intrantis octubris. </date><persName
+            ref="#VivaldusLamberti">Aldebrandinus quondam Vivaldi de Lamberto de <placeName
+              ref="#Vezzano">Vezano</placeName></persName> dedit et tradidit nomine permutationis
+          venerabili patri <roleName>domino </roleName>
+          <persName ref="#GuilEpLuni">Guilielmo</persName>, <roleName>Dei gratia Lunensi
+            episcopo</roleName>, infrascriptos fideles et vassallos suos, videlicet <persName
+            ref="#GuilielmusAlamanni">Guilielmum Alamanni</persName>, <persName
+            ref="#VenucellusBonfancelli">Venucellum quondam Bonfancelli</persName>, <persName
+            ref="#BenvenutusValentini">Benvenutum quondam Valentini de <placeName ref="#Cobio"
+              >Cobio</placeName></persName>, <persName ref="#RainaldusValentini"
+            >Rainaldum</persName> fratrem eius, <persName ref="#ParentellusCarotto">Parentellum del
+            Carotto</persName>, <persName ref="#Calandrinus">Calandrinum</persName> et fratres,
+            <persName ref="#CalandrinusEngelensis">filios quondam Engelensis</persName>, <persName
+            ref="#TonsonusPenti">Tosonum filios quondam Penti</persName>, <persName
+            ref="#MorandusGuitoni">Morandum de Guitono</persName>, <persName
+            ref="#BonafidesConvenuto">Bonafidem de Convegnuto</persName>, <persName
+            ref="#ValerianusMalacheti">Valerianum quondam Malacheti de <placeName ref="#Plaça">la
+              Piaza</placeName></persName>, <persName ref="#NicolosiusBonesingne">Nicholosium
+            quondam Bonensigne</persName>, <persName ref="#ConfortiusRainaldini">Confortium quondam
+            Rainaldini</persName>, <persName ref="#BenvenutusBernardi">Benvenutum quondam Bernardi
+          </persName>et <persName ref="#Guilielmus">Guilielmum</persName> fratrem eius, <persName
+            ref="#PartecellusPhilippini">Partecellum quondam Philippini</persName>, <persName
+            ref="#PeregrinusAlamanneti">Peregrinum quondam Alamanneti</persName> et <persName
+            ref="#FancelletusPrato">Fancelletum de <placeName ref="#Prato">Prato
+            </placeName></persName> et omnes alios fideles et vassallos, quos habet in <placeName
+            ref="#Vezzano">Vezano</placeName>, curia et districtu et pertinenciis, cum omni iure
+          feudi quod habent, tenent et possident et cum omni dominio et proprietate quod et quam
+          habet in eos, exceptis solummodo <persName ref="#BernardusGuiderelli">Bernardo quondam
+            Guiderelli de <placeName ref="#Pulica">Pulica</placeName></persName>, <persName
+            ref="#SavoritusGuiderelli">Savorito fratre dicti Bernardi</persName>, filiis quondam
+            <persName ref="#GuilielmusSassina">Guilielmi de <placeName ref="#Sassina"
+              >Sassina</placeName></persName>, <persName ref="#RecorverusDetesalvis">Recovero
+            quondam Detesalvis de <placeName ref="#Raio">Raio</placeName></persName> et <persName
+            ref="#GrimaldinusMartinelli">Grimaldino quondam Martinelli de <placeName
+              ref="#MonteRegulo">Monte Regulo</placeName></persName>. Et cessit ei omnia iura et
+          actiones que et quas habet in predictis fidelibus datis et poderibus et possessionibus
+          eorum et fecit eum procuratorem et dominum in rem suam et constituit se pro eo et eius
+          nomine predicta possidere et quasi, promittendo dictus <persName ref="#Aldebrandinus"
+            >Aldebrandinus </persName>predicta data et concessa ipsi domino episcopo, recipienti
+          nomine sui episcopatus, deffendere et exbrigare ab omni contradicente et impediente <note
+            n="a" place="foot" xml:id="CCCCLVII_n_001">impediente: impe <emph>corretto su precedente
+              scrittura.</emph></note> persona et loco; et, si deffendere et exbrigare non posset,
+          restaurare et salvum cambium inde ei dare promisit et ipsam deffensionem facere suis
+          expensis et conservare eum inde indempnem <note n="b" place="foot" xml:id="CCCCLVII_n_002"
+            >inde indempnem: <emph>nel testo</emph>indempnem inde<emph>con segno di richiamo per
+              invertire l’ordine delle parole.</emph></note>, confitendo predictus <persName
+            ref="#Aldebrandinus">Aldebrandinus </persName>ipsi domino episcopo quod predictos
+          fideles a curia Lunensi tenebat et de ipsis et feudis ipsorum fecit ipsi domino episcopo,
+          recipienti nomine sui episcopatus, finem et refutationem et pactum de non petendo et
+          dationem et eos a sua fidelitate et omni obligatione liberavit et absolvit. Et predicta
+          omnia promisit rata habere et non contravenire et pro predictis omnibus sic attendendis et
+          observandis obligavit se idem <persName ref="#Aldebrandinus">Aldebrandinus</persName> et
+          suos heredes et bona predicto domino episcopo. Et predictus dominus episcopus dedit,
+          tradidit et concessit eidem <persName ref="#Aldebrandinus">Aldebrandino</persName>, nomine
+          permutationis pro suprascriptis datis et concessis, <measure quantity="8" unit="solidus"
+            >libras VIII imperialium </measure> coram me notario et testibus infrascriptis et duo
+          iugera terre posita in bradia subtana de <placeName ref="#Castagnetulo"
+            >Castangnetulo</placeName>, quibus coheret a pede via publica versus <placeName
+            ref="#Sarzana">Sarzanam</placeName>, a capite terra quondam <persName
+            ref="#GuilielmotusRossello">Guilielmoti de <placeName ref="#Rossello"
+              >Rossello</placeName></persName>, ab uno latere terra <persName
+            ref="#ParensPasqualini">Parentis quondam Pasqualini </persName>in parte et in parte
+          terra quam tenent heredes quondam <persName ref="#CunradusLamberti">Conradi de <placeName
+              ref="#Vezzano">Vezano</placeName></persName>, ab alio terra que tenetur per curiam
+          Lunensem, et staria duo frumenti ex illis duobus et dimidio que reddit <persName
+            ref="#ParentinusBaldeçoni">Parentinus quondam Baldicioni</persName>, eo pacto et ea
+          condictione apposita quod idem <persName ref="#Aldebrandinus">Aldebrandinus</persName>, et
+          eius heredes ex se descendentes, predictam terram et fictum habeat et habere debeat et
+          possideat nomine recti et honorifici feudi, promittendo idem dominus episcopus ipsi
+            <persName ref="#Aldebrandinus">Aldebrandino </persName>predictam terram et fictum
+          deffendere et exbrigare ab omni contradicente et impediente persona et loco; et, si
+          deffendere et exbrigare non posset, restaurare et salvum cambium inde ei dare promisit et
+          ipsam deffensionem facere suis expensis et conservare eum inde indempnem. Insuper promisit
+          idem <persName ref="#Aldebrandinus">Aldebrandinus </persName>ipsi domino episcopo dictam
+          terram et fictum non vendere vel alienare seu distrahere aut permutare; et, si contra
+          fecerit, ipsa terra cum ficto predicto, ipso iure, ad ipsum dominum episcopum et Lunensem
+          curiam revertatur. Et similiter dictus episcopus promisit et convenit ipsi <persName
+            ref="#Aldebrandinus">Aldebrandino </persName>predictos fideles et vassallos non vendere
+          nec alienare seu distrahere aut permutare; et, si contra fecerit, ipsi fideles ad ipsum
+            <persName ref="#Aldebrandinus">Aldebrandinum</persName>, ipso iure, revertantur. Et pro
+          predictis omnibus sic attendendis et observandis obligaverunt se, et idem dominus
+          episcopus suos successores et bona episcopatus, ad penam eius tocius quod idem <persName
+            ref="#Aldebrandinus">Aldebrandinus </persName> ei dedit et concessit; et, si
+          contravenerit idem dominus episcopus, ad ipsum <persName ref="#Aldebrandinus"
+            >Aldebrandinum </persName> libere revertantur, predictis omnibus aliis semper firmis; et
+          idem <persName ref="#Aldebrandinus">Aldebrandinus </persName>suos heredes et bona, ad
+          penam eius tocius <pb n="355v" xml:id="fol_355v"/> quod sibi predictus dominus episcopus
+          dedit et concessit ut, si contra predicta idem <persName ref="#Aldebrandinus"
+            >Aldebrandinus </persName>venerit vel fecerit, predicta sibi data et concessa ad ipsum
+          dominum episcopum libere revertantur, predictis omnibus aliis semper firmis et ratis. </p>
+        <p xml:id="CCCCLVII_p_002" n="2">Actum <placeName ref="#Ponzanello">Ponzanelli</placeName>,
+          in domo <persName ref="#AidansPonz">Aidantis</persName>, ubi curia tenebatur, testibus
+            <persName ref="#ParensPasqualini">Parente quondam Pasqualini</persName>, <persName
+            ref="#ConfortusPaganini">Conforto quondam Paganini de Bono</persName>, <persName
+            ref="#BastardusArmannini">Bastardo quondam Armannini</persName>, <persName
+            ref="#GuidetusBenvenuti">Guideto quondam Benvenuti</persName>
+          <roleName>castaldione </roleName>ipsius domini episcopi in <placeName ref="#Vezzano"
+            >Vezano</placeName>, <persName ref="#BonalbergusAicardini">Bonalbergo quondam Aicardini
+            de <placeName ref="#Colognola3">Columgnola</placeName></persName>, <persName
+            ref="#MercadantePlaça">Mercadante de <placeName ref="#Plaça"
+            >Plaça</placeName></persName> et aliis presentibus et rogatis.</p>
+        <p xml:id="CCCCLVII_p_003" n="3">
+          <ptr target="#CCCCLVII_st_001"/> Ego <persName ref="#Bonalbergusnot"
+              >Bonalbergus<roleName>. domini Frederici invictissimi Romanorum imperatoris
+              notarius</roleName></persName>, hiis interfui et rogatus scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

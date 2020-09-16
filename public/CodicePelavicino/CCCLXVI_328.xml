@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXVI_328">
+    <front xml:id="CCCLXVI_front">
+
+      <titlePart type="numerazioneNuova">328</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXVI</titlePart>
+
+      <docDate xml:id="CCCLXVI_docDate">
+        <date when="1199-11-30">1199 novembre <add place="inline">30</add></date>,
+            <placeName>Trebiano<term xml:lang="latin"><emph> (Trebiani, in domo Alberti quondam
+              Parentis)</emph></term></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXVI_regesto">
+        <p>Maria del fu Gerardino di Ruffino, col consenso e insieme al marito Ubaldo del fu
+          Parente, dona a Gomitano, rettore della chiesa di San Maurizio,un pezzo di terra posto
+          presso la chiesa stessa.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 311v.-312r., cc. CCCIIIv.-CCCIIIIr. secondo la numerazione
+            originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 366, pp. 348.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>La data è espressa in stile pisano e quindi datata erroneamente al 1200 da <ref
+              target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref> e da <ref target="#MAZZINI_1914"
+              >MAZZINI 1914</ref> p. 14; tuttavia il 30 novembre 1199 cadeva di martedì e non di
+            lunedì.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCLXVI.
+              Sancti Mauritii.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXVI_div">
+        <p xml:id="CCCLXVI_p_001" n="1"><ptr target="#CCCLXVI_st_001"/>In Dei nomine, amen. <date
+            when="1199-11-30">Anno a nativitate Eius M°CC, indictione III, die lune, pridie kalendas
+            decembris</date>. Ego donna <persName ref="#MariaGerardini">Maria quondam Gerardini de
+              <placeName ref="#Ruffino">Ruffino</placeName></persName>, nullam patiens violenciam,
+          immo mea libera voluntate et <persName ref="#UbaldusParente">Hubaldi quondam
+            Parentis</persName>, viri mei, consensu, et idem <persName ref="#UbaldusParente"
+            >Hubaldus</persName>, vir meus, mecum, damus inrevocabiliter pura donatione tibi
+            <persName ref="#Gomitanusrect">Gomitano, <roleName>rectori</roleName>
+            <orgName ref="#Luni_S_Maurizio">ecclesie Sancti Mauricii</orgName></persName>,
+          recipienti pro ipsa ecclesia, pro animarum nostrarum nostrorumque parentum remedio, I
+          iugerum terre site prope ipsam ecclesiam, cui coheret ab una parte terra <persName
+            ref="#Gerardus">Gerardi</persName> et filiorum quondam <persName
+            ref="#LevacastellusBuzano">Levacastelli de <placeName ref="#Buçano"
+            >Bozano</placeName></persName>, ab uno capite <placeName ref="#Padule"
+            >Padule</placeName>, ab alia parte via publica, ab alia terra eiusdem ecclesie, ita quod
+          ut ipsa ecclesia et ministri eius pro ea amodo perpetuo debeant dictum iugerum terre, in
+          integrum, cum omnibus pertinenciis eius, habere, tenere et frui et facere inde
+          proprietario iure quicquid voluerint, sine nostra nostrorumque heredum contradictione.
+          Dominium et possessionem vel quasi iamscripte terre <pb n="312r" xml:id="fol_312r"/>tibi,
+          recipienti pro dicta ecclesia, tradidisse confitemur, ut ad ipsam ecclesiam amodo perpetuo
+          proprietario iure pertineat, cum omni iure, actione, dominio, proprietate et usu nobis
+          exinde vel proinde pertinente. </p>
+        <p xml:id="CCCLXVI_p_002" n="2">Actum est hoc <placeName ref="#Trebiano"
+            >Trebiani</placeName>, in domo <persName ref="#AlbertusParentis">Alberti quondam
+            Parentis</persName>, feliciter, cum stipulatione. Ibi fuerunt rogati testes <persName
+            ref="#AldeprandinusCatti"> Aldeprandinus quondam Gatti</persName>, <persName
+            ref="#Bellomus">Bellomus</persName>, <persName ref="#BonaiunctaFerrucci">Bonaiuncta
+            quondam Ferrucii</persName> et <persName ref="#AlbertusBarendini">Albertus quondam
+            Barendini</persName>. </p>
+        <p xml:id="CCCLXVI_p_003" n="3">Ego <persName ref="#Confortusnot">Confortus, <roleName>sacri
+              palacii et Lunensis curie notarius</roleName></persName>, hiis interfui et rogatus
+          hanc cartam scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

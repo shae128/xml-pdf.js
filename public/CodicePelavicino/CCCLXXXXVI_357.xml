@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="CCCLXXXXVI_357">
+    <front xml:id="CCCLXXXXVI_front">
+      <titlePart type="numerazioneNuova">357</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXXXXVI</titlePart>
+
+      <docDate xml:id="CCCLXXXXVI_docDate">
+        <date when="1236-02-28"> 1236 febbraio 28</date>
+        <placeName>Ameglia </placeName>(<emph>in curia Amelie</emph>) </docDate>
+      <div type="regesto" xml:id="CCCLXXXXVI_regesto">
+        <p>Volta di Sarzanello e i suoi consorti de <term xml:lang="latin">Corchiola</term> dichiarano di fronte al
+          vescovo di Luni di aver avuto in feudo da lungo tempo dalla curia Lunense quattro giove di
+          terra confinanti con la Bradia del vescovo, alla pensione annua di 17 soldi di imperiali.
+          La dichiarazione è corroborata da testimoni.</p>
+      </div>
+      <div type="footer" xml:id="CCCLXXXXVI_footer">
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 321v., c. CCCXIIIv. secondo la numerazione originale </p>
+        </div>
+      </div>
+      <div type="biblio">
+        <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>,
+          n. 396, p. 375, con la data 1236 febbraio 29, giustamente corretta al 28 febbraio da <ref
+            target="#UBALDO_MAZZINI_1914">MAZZINI 1914</ref>, p. 26.</p>
+      </div>
+      <div type="crit_notes">
+        <p/>
+      </div>
+      <div type="appr">
+        <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+            >CCCLXXXXVI. Pensionis illorum de Cortiola.</term></p>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCLXXXXVI_div">
+        <p xml:id="CCCLXXXXVI_p_001"> In Dei nomine, amen. <date when="1236-02-28">M°CCXXXVI,
+            indictione IX, die iovis, III<note xml:id="CCCLXXXXVI_n_001" n="a" place="foot">III:
+                <emph>corretto su precedente scrittura</emph>.</note> kalendas marcii</date>, in
+          curia <placeName ref="#Ameglia">Amelie</placeName>, coram <persName ref="#SalomonLucanus"
+            >Salomone et <persName ref="#RollandusVagus">Rollando Vago Lucanis</persName></persName>
+          <note xml:id="CCCLXXXXVI_n_002" n="b" place="foot"><term xml:lang="lat">Lucanis</term>:
+              <emph>nel testo segue spazio bianco per mm. 9, dove avrebbe dovuto essere scritto il
+              nome del terzo testimone originario</emph> de castro Sarzane</note>, de <placeName
+            ref="#Sarzanello">castro Sarzane</placeName>, testibus. <persName
+            ref="#VoltacastroSarzane">Volta de <placeName ref="#Sarzanello">castro
+              Sarzane</placeName></persName> et eius <name type="familia" ref="#CortiolaFamilia">consortes de <placeName ref="#Cortiola"
+            >Corchiola</placeName></name>, sibi providentes, idem <persName ref="#VoltacastroSarzane"
+            >Volta</persName> pro se et suis consortibus, ante presentiam domini episcopi venit,
+          dicens quod ipse et eius <name type="familia" ref="#CortiolaFamilia">consortes de <placeName ref="#Cortiola">Corchiola</placeName></name>
+          habebant et habere debebant IIII iugera terre, ad iugera domini episcopi, non constituta
+            a<note xml:id="CCCLXXXXVI_n_003" n="c" place="foot">a: <emph>corretto su</emph> i</note>
+          domino episcopo et habere consuevera<add place="inline">n</add>t a longis temporibus,
+          cuius non extat memoria, cui sunt fines ab omnibus partibus terra <placeName ref="#Bradia"
+            >Bradie</placeName>
+          <roleName>domini episcopi</roleName>, de qua, sicut ipse protestatus fuit, tenebantur ipse
+          et eius consortes omni anno, in festo Sancti Vincentii, <placeName ref="#Luni"
+            >Lunensi</placeName> curie solvere, nomine pensionis, <measure type="imperiales"
+            unit="solidus" quantity="17">soldos imperialium XVII</measure>. In cuius rei et dicti
+          seu protestationis testimonium, <persName ref="#Simonscar">Symon
+              <roleName>scarius</roleName></persName> et <persName ref="#GerardetusAmelia"
+            >Gerardetus de <placeName ref="#Amelia">Amelia</placeName></persName>, de mandato
+            <roleName>domini</roleName>
+          <persName ref="#GuilEpLuni">Guilielmi</persName>
+          <roleName>episcopi</roleName>, et in quorum dicto et testimonio
+            <roleName>dominus</roleName> venerabilis <persName ref="#GuilEpLuni">Guilielmus, Dei
+            gratia <roleName>Lunensis episcopus</roleName></persName>, fidem sine sacramento
+          adhibuit, dixerunt et testificati sunt ita verum esse ut dixit <persName
+            ref="#VoltacastroSarzane">Volta</persName> et protestatus fuit; et sic <roleName>dominus
+            episcopus</roleName> eorum dictum et testimonium confirmavit et roboravit, supplentes,
+          si quid deest firmitatis predictis, de sue plenitudine potestatis. </p>
+      </div>
+      <div xml:id="CCCLXXXXVI_div2" type="mundum">
+        <p xml:id="CCCLXXXXVI_p_002">
+          <ptr target="#CCCLXXXXVI_st_001"/> Ego <persName ref="#HengeramusParentisnot">Hengheramus
+            quondam Parentis de <placeName ref="#Sarzanello">castro Sarzane</placeName></persName>,
+            <roleName>palacii sacri notarius</roleName>, hanc cartam olim a <persName
+            ref="#Bonencontrusnot">Bonencontro de <placeName ref="#Soliera"
+            >Soleria</placeName></persName>
+          <roleName>notario</roleName> abreviatam sive rogatam, prout in eius sceda et in eius
+          contractibus et imbreviaturis inveni, ita hic bona fide scripsi et autenticavi et in
+          publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+          domino Bonaiuncta de <placeName ref="#PodioLucca">Podio de Luca</placeName>,
+          <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia <placeName ref="#Lunigiana"
+            >Lunisiane</placeName></orgName> pro venerabili patre <roleName>domino</roleName>
+          <persName ref="#GuilEpLuni">Guilielmo, <roleName>Lunensi episcopo</roleName></persName>,
+          et   <orgName ref="#Lucca_comune"><placeName ref="#Lucca">Lucano</placeName> communi</orgName>, de qua auctoritate constat per
+          instrumentum publicum factum manu <persName ref="#Alcheriusnot">Alcherii
+              <roleName>notarii</roleName> de <placeName ref="#Lucca"
+            >Luca</placeName></persName><note>Stesura <emph>in mundum</emph> del documento n.
+            357-CCCLXXXXVI databile tra il 1270 e il 1272 dalla presenza di Bonagiunta de Podio di
+            Lucca <date notBefore="1270-01-01" notAfter="1272-12-31" cert="medium"/></note>. </p>
+      </div>
+
+    </body>
+  </text>
+</TEI>

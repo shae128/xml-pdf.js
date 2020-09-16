@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXV_426">
+    <front xml:id="CCCCLXV_front">
+
+      <titlePart type="numerazioneNuova">426</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXV</titlePart>
+
+      <docDate xml:id="CCCCLXV_docDate">
+        <date when="1214-09-01">1214 settembre 1</date>, <placeName>Corongiola e Beverino (<term
+            xml:lang="latin">Colognole, in porticu archipresbyeri - in castro
+          Bivilini</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXV_regesto">
+        <p>Ramondino figlio di Baldovino di Vezzano permuta con Giunta del fu Uberzone di Valeriano,
+          che agisce a nome di Marzucco, vescovo di Luni, quattro iugeri di terra con vigna, posti a
+          Vezzano nel luogo detto Caneva, con due iugeri di terra posta a Isola di Ameglia.
+          Ramondino e suo padre Baldovino riconoscono che tenevano quei quattro iugeri in feudo dal
+          vescovo e quindi ricevono analoga investitura da Giunta sul bene permutato. Conferma la
+          permuta anche Paganello, fratello di Ramondino. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 358v., c. CCCXLVIIIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 465,
+            pp. 472-473.</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXV. Cambium cum domino Ramundino et patre et fratre de terra in Veçano cum II
+              iugeribus in Insula de Amelia et sicut tenebant in feudum.</term></p>
+        </div>
+      </div>
+
+    </front>
+
+    <body>
+      <div xml:id="CCCCLXV_div">
+        <pb n="358v" xml:id="fol_358v"/>
+        <p xml:id="CCCCLXV_p_001" n="1">
+          <ptr target="#CCCCLXV_st_001"/> In nomine Domini, amen. <date when="1214-09-01">Anno a
+            nativitate Eius M°CCXIIII, indictione II, die lune, kalendis septembris.</date>
+          <persName ref="#RaimundinusVezano">Ramundinus, filius domini Balduini de <placeName
+              ref="#Vezzano">Vezano</placeName></persName>, per se suosque heredes dedit nomine
+          cambii et cummutationis <persName ref="#IunctaUberçoni">Iuncte quondam Uberçonis de
+              <placeName ref="#Valerano">Valerano</placeName>, <roleName>villico domini</roleName>
+          </persName>
+          <persName ref="#MarzuccusEpLuni">Marzuchi, <roleName>Dei gratia Lunensis Ecclesie
+              episcopi</roleName>
+          </persName>, recipienti ipsius domini episcopi nomine et suorum successorum, secundum quod
+          dictus <persName ref="#IunctaUberçoni">Iuncta</persName> fuit confessus, coram me
+            <persName ref="#Bonaventuranot2">Bonaventura <roleName>notario</roleName></persName>, se
+          habuisse in mandatis a iamdicto domino episcopo cambium inferius scriptum facere, quod
+          cambium est: ex parte domini <persName ref="#RaimundinusVezano">Ramundini</persName>,
+          petia I terre cum vineis super se habente (<note place="foot" n="a" xml:id="CCCCLXV_n_001"
+            >habente: po <emph> così nel testo</emph></note>), posita in loco qui dicitur <placeName
+            ref="#Caneva2">Caneva</placeName> in <placeName ref="#Vezzano">Vezano</placeName> que
+          terra est alodium domini <persName ref="#RaimundinusVezano">Ramundini</persName> iamdicti
+          et est IIIIor iugera, secundum quod arbitratus est cum dicto <persName
+            ref="#IunctaUberçoni">Iuncta</persName>, cui coheret superius et inferius via publica,
+          ab uno latere eorumdem domini <persName ref="#BaldoinusVezano">Balduini</persName> et
+            <persName ref="#RaimundinusVezano">Ramundini</persName>, nomine pro duobus iugeribus
+          terre positis in <placeName ref="#Isola3">Insula</placeName> de <placeName ref="#Ameglia"
+            >Amelia</placeName>, que iugera dedit dictus <persName ref="#IunctaUberçoni"
+            >Iuncta</persName> dicto <persName ref="#RaimundinusVezano">Ramundino</persName>, loco
+          ipsius domini episcopi, nomine cambii et cummutationis, ut superius legitur, de predicta
+          terra cum vineis super se habentea, faciendo dictus <persName ref="#RaimundinusVezano"
+            >Ramundinus</persName>
+          <supplied reason="omitted">de</supplied> duobus dictis iugeribus terre quicquid ipse et
+          sui heredes facere voluerint, sine omni domini episcopi et suorum successorum
+          contradictione et cum sua suorumque successorum deffensione ab omni persona cum ratione
+          vel salvum cambium eis dare in consimili loco, in extimatione, secundum quod fuerit
+          meliorata vel valuerit, si deffendere rationabiliter non possent vel nollent. Ita tamen
+          quod dictus <persName ref="#RaimundinusVezano">Ramundinus</persName> et eius pater
+          nominatus <persName ref="#BaldoinusVezano">Balduinus</persName>, qui interfuit dicto
+          cambio et cummutationi et omnibus que fecerunt <persName ref="#RaimundinusVezano"
+            >Ramundinus</persName> et <persName ref="#IunctaUberçoni">Iuncta</persName>, consensit
+          et confirmavit et promisit, una cum filio suo <persName ref="#RaimundinusVezano"
+            >Ramundino</persName>, per se suosque heredes omni tempore firmam et ratam habere,
+          tenere et numquam contravenire <supplied reason="omitted">aliqua</supplied> occasione
+          ultra dimidiam iusti precii seu alterius cuiuslibet deceptionis, sub pena <measure
+            type="Imperiales" quantity="200" unit="soldi">CC soldorum imperialium</measure>,
+          promittentes dicti <persName ref="#RaimundinusVezano">Ramundinus</persName> et <persName
+            ref="#BaldoinusVezano">Balduinus</persName> dicto <persName ref="#IunctaUberçoni"
+            >Iuncte</persName>, recipienti nomine iamdicti domini episcopi, dictam terram cum vineis
+          super se habente (<note place="foot" n="a" xml:id="CCCCLXV_n_002">habente: po <emph> così
+              nel testo</emph></note>) ab eo et suis successoribus per rectum et honorificum feudum
+          omni tempore recognoscere, secundum quod dictus <persName ref="#RaimundinusVezano"
+            >Ramundinus</persName> dicta duo iugera terre ab ipso domino episcopo, antequam cambium
+          fieret, recognoscebat, recipientes ambo pater et filius investitura<supplied
+            reason="omitted">m</supplied> loco illius domini episcopi a iamdicto Iuncta de dicto
+          feudo. </p>
+        <p xml:id="CCCCLXV_p_002" n="2"> Actum <placeName ref="#Colognola2">Colognole</placeName>,
+          in <orgName ref="Colognola_S_Prospero">porticu archipresbyteri</orgName>, feliciter,
+          stipulatione sollempni, in presentia <persName ref="#Parenspres">
+            <roleName>presbyteri</roleName> Parentis de <placeName ref="#Colognola2"
+              >Colognola</placeName></persName>, <persName ref="#BernazonusVezano">Bernaconis de
+              <placeName ref="#Vezzano">Vezano</placeName></persName>, <persName
+            ref="#GerfalchusVezano">Gerfalchi</persName> eiusdem loci de <placeName ref="#Vezzano"
+            >Vezano</placeName>, <persName ref="#Balduinetusscut">Balduineti
+              <roleName>scutiferis</roleName>
+          </persName> domini <persName ref="#RaimundinusVezano">Ramundini</persName>. </p>
+        <p xml:id="CCCCLXV_p_003" n="3"> § Paulo postea, in <placeName ref="#Bivilini">castro
+            Bivilini</placeName>, eodem die, <persName ref="#PaganellusBalduini">Paganellus filius
+            domini Balduini</persName> iamdicti, frater iamdicti <persName ref="#RaimundinusVezano"
+            >Ramundini</persName>, per se suosque heredes, huic cambio, quod fecerunt dicti
+            <persName ref="#RaimundinusVezano">Ramundinus</persName> et <persName
+            ref="#BaldoinusVezano">Balduinus</persName>, consensit et confirmavit in omnibus et per
+          omnia ut suprascripti <persName ref="#RaimundinusVezano">Ramundinus</persName> et
+            <persName ref="#BaldoinusVezano">Balduinus</persName>, in presentia <persName
+            ref="#SarrachusBivilino">Sarrachi de <placeName ref="#Bivilini"
+            >Bilivino,</placeName></persName>
+          <persName ref="#GuilielmusCermignanno">Guilielmi de <placeName ref="#Cermignanno"
+              >Cermignanno</placeName>
+          </persName> et <persName ref="#SertusGandolfini">Serti quondam Gandolfini</persName>. </p>
+        <p xml:id="CCCCLXV_p_004" n="4"> Ego <persName ref="#Bonaventuranot2">Bonaventura,
+              <roleName>domini Ottonis imperatoris notarius</roleName></persName>, hiis interfui,
+          rogatus hoc scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

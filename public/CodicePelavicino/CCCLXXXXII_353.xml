@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXXXXII_353">
+    <front xml:id="CCCLXXXXII_front">
+
+      <titlePart type="numerazioneNuova">353</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXXXXII</titlePart>
+
+      <docDate xml:id="CCCLXXXXII_docDate">
+        <date when="1234-05-22">1234 maggio 22</date>, <placeName ref="#Barbazzano">Barbazzano
+            (<emph>Barbaçano</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXXXXII_regesto">
+        <p>Guglielmo, vescovo di Luni, conferma a Tebaldino, figlio di Albertino di
+            <emph>Nirono</emph>, metà della terra a lui ceduta da Matilde di Balognano figlia del fu
+          Pagano e il figlio di lei Pagano e metà della terra di <emph>Foresto</emph> che Matilde
+          teneva dalla curia di Luni. La concessione costa 16 soldi di imperiali. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXXXXII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 320v., c. CCCXIIv. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p> Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref> 912, n.
+            392, pp. 371-372, con la data 1232 maggio 22, corretta da <ref
+              target="#UBALDO_MAZZINI_1914">Mazzini 1914</ref>, p. 26. </p>
+        </div>
+        <div type="crit_notes">
+          <p/>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXXXXII. Confirmationis poderis dati a donna Matelda de Balognano.</term></p>
+        </div>
+
+      </div>
+    </front>
+    <body>
+      <pb n="320v" xml:id="fol_320v"/>
+      <div xml:id="CCCLXXXXII_div">
+        <p xml:id="CCCLXXXXII_p_001">In Ihesu Christi Dei eterni nomine, amen. <date
+            when="1234-05-22">Anno nativitatis Domini M°CCXXXIIII, indictione VII, die lune, XI
+            kalendas iunii</date>. Ex huius publici instrumenti lectione clareat universis quod nos
+            <persName ref="#GuilEpLuni">Guilielmus, <roleName>Dei gratia Lunensis
+              episcopus</roleName></persName>, per nos et successores nostros damus, concedimus et
+          per investituram et presens instrumentum, valiturum perpetuo, confirmamus tibi <persName
+            ref="#TebaldinusAlbertini">Tebaldino, filio Albertini de <placeName ref="#Nirono"
+              >Nirono</placeName></persName>, recipienti pro te et heredibus tuis ex te
+          descendentibus, in perpetuum, medietatem tocius et integre poderis, tenute et possessionis
+          quod et quam tibi cesserunt, dederunt et tradiderunt domina <persName ref="#MateldaPagani"
+            >Matelda de <placeName ref="#Balognano">Balognano</placeName></persName>, <persName
+            ref="#MateldaPagani">filia quondam Pagani <placeName ref="#Balognano"
+              >Balognano</placeName></persName>, et <persName ref="#PaganusMatelde"
+            >Paganus</persName>, eius filius, et medietatem tocius terre de <placeName
+            ref="#Foresto">Foresto</placeName> quam ipsa <persName ref="#MateldaPagani"
+            >Matilda</persName>, aut pro ea alia persona et eius nomine, tenebat et habebat a curia
+          Lunensi, quicquid sit et quantumcumque et ubicumque et quocumque decurrit seu poterit
+          exinde aliquid invenire, agrum et cultum, plenum et vacuum, divisum et indivisum, sicut ex
+          cessione et datione ipsa tibi <persName ref="#TebaldinusAlbertini">Tebaldino</persName> a
+          predicta <persName ref="#MateldaPagani">Matilda</persName> et eius filio facta continet
+          publicum instrumentum manu <persName ref="#Comesnot">Comitis
+            <roleName>notarii</roleName></persName> inde confectum. Pro qua concessione et
+          confirmatione confessi sumus a te in veritate servicium recepisse <measure
+            type="imperiales" quantity="16" unit="solidus">bonorum imperialium soldos XVI</measure>,
+          exceptioni non numerate pecunie renunciando. </p>
+        <p xml:id="CCCLXXXXII_p_002"> Actum <placeName ref="#Barbazzano">Barbaçano</placeName>,
+          sollempniter, presentibus <roleName>donno <persName ref="#Peregrinusarc"
+              >Peregrino</persName> archipresbytero</roleName>
+          <orgName ref="#Soliera_S_Maria">plebis de <placeName ref="#Soliera"
+            >Soleria</placeName></orgName>, <persName ref="#ParentinusfraterPeregrini">Parentino
+            eius fratre</persName>, <persName ref="#GuidoDominici">Guidone quondam Dominici
+            Lucano</persName>, <persName ref="#GuilielminusBastardi">Guilielmino quondam Bastardi de
+              <placeName ref="#Ameglia">Amelia</placeName></persName> et <persName
+            ref="#GislitionoIovello">Gislitiono de <placeName ref="#Iovello"
+            >Iovello</placeName></persName>, habitatore <placeName ref="#Sarzana">burgi
+            Sarzane</placeName>, testibus ad hec rogatis. </p>
+        <p xml:id="CCCLXXXXII_p_003"><ptr target="#CCCLXXXXII_st_001"/> Ego <persName
+            ref="#Bonencontrusnot">Bonencontrus de Soleria<roleName>, imperialis aule et Lunensis
+              curie notarius</roleName></persName>, interfui hiis et scripsi rogatus. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

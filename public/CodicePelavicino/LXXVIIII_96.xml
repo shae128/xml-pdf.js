@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="LXXVIIII_96">
+        <front xml:id="LXXVIIII_front">
+
+            <titlePart type="numerazioneNuova">96</titlePart>
+            <titlePart type="numerazioneOrig">LXXVIIII</titlePart>
+
+            <docDate xml:id="LXXVIIII_docDate">
+                <date when="1250-01-25">1250 gennaio 25</date>, <placeName>Sarzana </placeName>
+                <emph>(<term xml:lang="latin">in clausura burgi Sarzane, in domo Petri quondam
+                        Compagnoni</term>)</emph>
+            </docDate>
+
+            <div type="regesto" xml:id="LXXVIIII_regesto">
+                <p> Pietro del fu Compagnono di Clausura, la moglie Bonaventura, figlia di Bonacatto
+                    di Monte Marcello, e la madre Donna di Casa vendono a Vitale del fu Belseri di
+                    Ortale un pezzo di terra posta nella bradia del vescovo di Luni, presso
+                    Rigaliata, per la somma di 46 soldi di imperiali, di cui rilasciano
+                    quietanza.</p>
+            </div>
+
+            <div type="footer" xml:id="LXXVIIII_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] cc. 198v.-199r., cc. CLXXXXv.-CLXXXXIr. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>,n. 79, p. 111.</p>
+                </div>
+
+                <div type="crit_notes">
+                    <p/>
+                </div>
+
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXXVIIII. De aquisitione terreni dati per canbium
+                            suprascripti terreni.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="LXXVIIII_div">
+                <pb n="198v" xml:id="fol_198v"/>
+                <p xml:id="LXXVIIII_p_001">
+                    <ptr target="LXXVIIII_st_001"/> In nomine Domini, amen. <date when="1250-01-25"
+                        >Anno a nativitate Eius millesimo CC quinquagesimo, indictione octava, die
+                        XXV ianuarii</date>. <persName ref="#PetrusCompagnoni">Petrus quondam
+                            Compagnonus<note place="foot" n="a" xml:id="LXXVIIII_n_001">Compagnonus:
+                                <emph>così nel testo per </emph>Compagnoni. <emph>Cfr. doc.
+                                95-LXXVIII</emph>.</note> de <placeName ref="#Clausura"
+                            >Clausura</placeName>
+                    </persName> et <persName ref="#BonaventuraBonacapti">Bonaventura, filia
+                        Bonacapti de <placeName ref="#Montemarcello">Monte
+                        Marcelli</placeName></persName>, <persName ref="#PetrusCompagnoni">uxor
+                        predicti Petri</persName>, consensu, parabola et voluntate <persName
+                        ref="#BonacaptusMonteMarcelli">Bonacapti, predicti patris sui</persName>,
+                    ibi presentis, volentis et consentientis, et <persName ref="#Donnandecasa">Donna
+                        de Casa</persName>, <persName ref="#PetrusCompagnoni">mater predicti
+                        Petri</persName>, suprascripte vero mulieres nullam violentiam patientes,
+                    immo sponte, omnes simul et quilibet eorum in solidum per se et eorum heredes,
+                    vendiderunt et tradiderunt <persName ref="#VitalisBelseris">Vitali quondam
+                        Belseri de <placeName ref="#Ortale2">Ortale</placeName></persName>,
+                    recipienti pro se et suis heredibus et cui dederit vel commiserit, petiam unam
+                    terre, que est ortus, positam in bradia Lunensis episcopi, prope <placeName
+                        ref="#Rigaliata">Rigaliatam</placeName>, cui coheret ab uno capite et pede
+                    via publica, ab uno latere <persName ref="#AlbertusUgolini">Alberti Ugolini de
+                            <placeName ref="#Pizone">Pizo</placeName></persName> et <persName
+                        ref="#BonalbergusBurgensis">Bonalbergi quondam Burgensis de <placeName
+                            ref="#Pulica">Pulica</placeName></persName>, ab alio <persName
+                        ref="#ParensPasqualini">Parentis Pasqualini</persName>, cum accessu et
+                    regressu et cum superioribus et inferioribus et cum omni dominio et proprietate,
+                    usu et utilitate, ad habendum, tenendum<note place="foot" n="b"
+                        xml:id="LXXVIIII_n_002">tenendum: t <emph>corretta su precedente
+                            lettera</emph>.</note> ac possidendum et quicquid sibi vel suis
+                    heredibus aut<note place="foot" n="c" xml:id="LXXVIIII_n_003">aut: t
+                            <emph>aggiunto in sopralinea</emph>.</note> cui dederint vel commiserint
+                    deinceps placuerit faciendum, cum omni iure et actione utili et directo, reali,
+                    personali et mixto, ad ipsos venditores ex ea et pro ea petia terre ortiva
+                    pertinente quoquomodo vel spectante, mandantes ei ut sua auctoritate tenutam
+                    ingrediatur de suprascripta venditione. Et interea se pro eo et eius nomine
+                    constituerunt precario possidere, facientes eum procuratorem et dominum in rem
+                    suam et eidem <persName ref="#VitalisBelseris">Vitali</persName> remiserunt
+                    necessitatem denunciandi et inquirendi; et si suprascripta res vendita in toto
+                    vel in parte evincerent eidem <persName ref="#VitalisBelseris">Vitali</persName>
+                    vel suis heredibus aut cui dederint vel commiserint, remiserint<note
+                        place="foot" n="d" xml:id="LXXVIIII_n_004">remiserint: <emph>così nel testo
+                            per</emph> remiserunt.</note> eis necessitatem appellandi et causam
+                    appellationis prosequendi. Et fuerunt confessi suprascripti venditores se
+                    habuisse et recepisse ab eodem <persName ref="#VitalisBelseris"
+                        >Vitali</persName> finito precio huius venditionis et in veritate habuerunt
+                    et receperunt coram me notario et testibus infrascriptis <measure
+                        type="Imperiales" quantity="46" unit="solidus">soldos XLVI
+                        imperialium</measure>, donantes ei superfluum, si res vendita maioris precii
+                    foret, renunciando legi que iuvat deceptos ultra dimidiam iusti precii. Quam
+                    quidem venditionem, cum omnibus rationibus et pertinentiis suis in integrum, cum
+                    advocato et expensis propriis ipsorum venditorum, ab omni contradicente et
+                    impediente persona et loco, in parte et toto, tam in iuditio quam extra,
+                    suprascripti venditores per se et eorum heredes, stipulatione sollempni,
+                    suprascripto emptori suisque heredibus aut cui dederint vel commiserint se iure
+                    deffensuros et exbrigaturos; et etiam, si quid inde sibi evictum fuerit, illud
+                    in duplum, quale tunc fuerit, in arbitrio bonorum hominum se restauraturos <pb
+                        n="199r" xml:id="fol_199r"/> promiserunt. Omneque dampnum et interesse
+                    singulare et omnes expensas ex eo vel ob id vel ea occasione quoquomodo habitas
+                    seu factas promiserunt in integrum restaurare, credendo et stando de dampno et
+                    expensis et interesse simplici verbo ipsius emptoris et suorum heredum, sine
+                    iuramento et aliquo alio onere probationis, et pro evictione dupli et faciendis
+                    et observandis hiis omnibus et singulis incorupte obligando in solidum eidem
+                        <persName ref="#VitalisBelseris">Vitali</persName> se suosque heredes et
+                    universa et singula eorum bona, mobilia atque immobilia, presentia et futura, ad
+                    penam <measure type="Imperiales" quantity="40" unit="solidus">soldorum XL
+                        imperialium</measure> Quam quidem penam suprascripti venditores et quilibet
+                    eorum in solidum suprascripto Vitali suisque heredibus aut cui dederint vel
+                    commiserint promiserunt solvere atque dare, si adversus predicta vel aliquod
+                    predictorum factum fuerit; vel, si quid ita factum non erit, ut per omnia et in
+                    singulis est superius comprehensum, ita quod pena cum sorte simul atque divisim
+                    debeatur, peti possit atque exigi cum effectu quociens in aliquo capitulo fuerit
+                    contraventum, non obstante iure quo dicitur sortem et penam simul peti non
+                    posse; et, ea soluta vel non, predicta omnia et singula nichillominus in sua
+                    permaneant firmitate, renunciando privilegio fori, domicilii et contractus et
+                    auxilio nove constitutionis et omni legitimo auxilio pro eis vel eorum aliquo
+                    introducto, et ipse mulieres renuntiando omni suo iuri pignoris, ypothece,
+                    dotis, carte vel donationis et senatui consultui Velleyano et auxilio iuris meri
+                    et legi Iulie de prediis<note place="foot" n="e" xml:id="LXXVIIII_n_005"
+                        >prediis: ii <emph>corretto su precedente scrittura</emph>.</note> et omni
+                    alii iuri sibi proficienti.</p>
+                <p xml:id="LXXVIIII_p_002"> Actum in clausura burgi <placeName ref="#Sarzana"
+                        >Sarzane</placeName>, in domo eiusdem <persName ref="#PetrusCompagnoni"
+                        >Petri</persName>, presentibus <persName ref="#BonaventuraVite">Bonaventura
+                        quondam Vite de <placeName ref="#Bostingino"
+                        >Bostingino</placeName></persName>, <persName ref="#RonzaninusGerardini"
+                        >Ronzanino quondam Gerardini de <placeName ref="#Ronzano"
+                            >Ronzano</placeName></persName> atque <persName
+                        ref="#MolinariusBramalactis">Molinario quondam Bramalactis de <placeName
+                            ref="#Bolano">Bolano</placeName></persName>, habitatoribus <placeName
+                        ref="#Sarzana">Sarzane</placeName>, testibus ad hec rogatis.</p>
+                <p xml:id="LXXVIIII_p_003"> Ego <persName ref="#Thebaldinusnot">Tebaldinus,
+                            <roleName>sacri palatii notarius</roleName></persName>, hiis interfui et
+                    rogatus scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

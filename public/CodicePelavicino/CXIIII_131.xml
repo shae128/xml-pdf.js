@@ -1,0 +1,175 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXIIII_131">
+    <front xml:id="CXIIII_front">
+
+      <titlePart type="numerazioneNuova">131</titlePart>
+      <titlePart type="numerazioneOrig">CXIIII</titlePart>
+
+      <docDate xml:id="CXIIII_docDate">
+        <date when="1232-08-14">1232 agosto 14</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in palatio domni episcopi Lunensis castri
+          Sarzane</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXIIII_regesto">
+        <p>Guglielmo, vescovo di Luni, loca a Fuscolino di Nave del fu Balduino un pezzo di terra,
+          posto a oriente del <term xml:lang="latin">castrum</term> di Sarzana. Il fitto annuale
+          ammonta a mezzo congio di mosto, mentre la locazione costa 35 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CXIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP cc. 224r.- 224v., c. CCXVIr.- CCXVIv. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 114,
+            pp. 149-150.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <emph>Locatione</emph>; in calce alla carta,
+            aggiunto da altra mano coeva <emph>In Christi nomine</emph>; di mano posteriore
+              <emph>:el quarto:</emph> per segnalare la fine del fascicolo; al centro, in fondo alla
+            carta e in inchiostro rosso: <emph>XIIIIus</emph>. <p>Autentica dell'11 dicembre
+              1267.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXIIII_div">
+
+        <p xml:id="CXIIII_p_001" n="1"><ptr target="#CXIIII_st_001"/> In nomine Domini, amen. Anno a
+          nativitate Eius <date when="1232-08-14">M°CC°XXXII°, indictione V, die sabbati, XIIII
+            mensis intrantis augusti</date>. Venerabilis pater <persName ref="#GuilEpLuni"
+            >Guilielmus, Dei gratia <roleName>Lunensis episcopus</roleName> et
+              <roleName>comes</roleName></persName>, per se suosque successores et Lunensem
+          episcopatum et <orgName ref="#Luni_comitatus">comitatum</orgName> dedit, cessit atque
+          locavit, ad affictum reddendum sive pensionem, <persName ref="#FuscolinusBalduini"
+            >Fuscolino de <placeName ref="#Nave">Nave</placeName> quondam Balduini</persName>,
+          recipienti pro se suisque heredibus, in perpetuum, petiam unam terre, posite iuxta sive
+          prope <placeName ref="#Sarzanello">castrum Sarzane</placeName>, versus orientem, cui sunt
+          fines a capite via publica, a pede possidet <persName ref="#Personeta">Personeta de
+              <placeName ref="#Sarzanello">castro Sarzane</placeName></persName>, ab uno latere
+          acquisitor suprascriptus et ab alio <persName ref="#RogerinusSinischie">Rogerinus
+            Sinischie de <placeName ref="#Sarzanello">eodem loco</placeName></persName>, cum
+            accessibus<note place="foot" n="a" xml:id="CXIIII_n_001"><term xml:lang="latin"
+              >accessibus</term>: <emph>la parola è scritta in due tempi e divisa da un foro già
+              esistente nella pergamena.</emph></note> et egressibus superioribus et inferioribus
+          suis omnique iure cunctaque utilitate suprascripte petie terre et arboribus, si que sunt,
+          competentibus, ad habendum, tenendum, fruendum, possidendum, meliorandum et non
+          deteriorandum, pro <measure type="imperiales" quantity="35" unit="solidus">soldis XXXV
+            imperialium</measure>, quos confessus fuit se inde ab eodem <persName
+            ref="#FuscolinusBalduini">Fuscolino</persName>, locationis nomine, servicium recepisse,
+          et exceptioni non numerate pecunie et recepte renunciavit. Insuper quoque idem dominus
+          episcopus et comes per se suosque successores promisit <persName ref="#FuscolinusBalduini"
+            >Fuscholino</persName> eidem, recipienti pro se suisque heredibus, tam<note place="foot"
+            n="b" xml:id="CXIIII_n_002"><term type="incerto">tam</term>: <emph>così nel
+              testo.</emph></note> dictam terram locatam totam in integrum, cum omnibus pertinenciis
+          suis, iure semper deffendere et disbrigare ab omni homine et contradicente persona cum
+          advocato suo et expensis suis; atque, si deffendere non poterit, in loco consimili
+          restaurare, <pb n="224v" xml:id="fol_224v"/>sicut pro tempore magis valuerit aut meliorata
+          fuerit, seu inde salvum cambium dare, sub extimatione legitima, absque dampno et dispendio
+          eiusdem acquisitoris et eius heredum, obligando se ad hec suosque successores et fructus
+          et redditus <placeName ref="#Luni">Lunensis mense et curie</placeName> usque ad
+          quantitatem rei petite; et exinde teneatur et debeat idem <persName
+            ref="#FuscolinusBalduini">Fuscolinus</persName> eiusque heredes dare et reddere certum
+          fictum prefato domino episcopo suisque successoribus aut cui dederit vel commiserit omni
+          anno, tempore congruo atque vindemiarum videlicet, unum medium<note place="foot" n="c"
+            xml:id="CXIIII_n_003"><term xml:lang="latin">medium</term>: e<emph>aggiunto in
+              sopralinea.</emph></note> conctum<note place="foot" n="d" xml:id="CXIIII_n_004"><term
+              type="incerto">conctum</term>: <emph>così nel testo, probabilmente per</emph>
+            <term xml:lang="latin">congium</term>.</note> musti boni et puri, dati et parati, ad
+          vegetem domini episcopi, in <placeName ref="#Sarzanello">castro Sarzane</placeName>; alia
+          ei inde superimposita non fiat. Et potestatem inde tenutam intrandi ei dedit, auctoritate
+          propria, et se interim pro eo et eius nomine constituit possidere. Que omnia et singula
+          idem dominus episcopus et comes, per se et suos successores et <orgName
+            ref="#Luni_comitatus">Lunensem episcopatum et comitatum</orgName>, atque suprascriptus
+            <persName ref="#FuscolinusBalduini">Fuscolinus</persName>, per se suosque heredes, inter
+          se sibi vicissim stipulantes, attendere et observare promiserunt in perpetuum nec contra
+          venire vel facere per se vel alium aliqua occasione vel exceptione, sub pena <measure
+            type="Imperiales" quantity="20" unit="solidus">XX soldorum imperialium</measure> et eius
+          tocius quod in questione deduceretur, solvenda parti pactum fide servanti; et, ea soluta,
+          rato manente pacto; renunciando prescriptioni fori omnique suo iuri, legibus,
+          constitutionibus et auxiliis sibi pro hoc facto competenti et quibus a suprascripta pena
+          vel ab aliquo suprascriptorum se tueri vel iuvari possent. Et hec omnia acta sunt, salva
+          ratione et iure tamen <persName ref="#CagnolaBoccadecanis">Cagnole quondam
+            Boccadecanis</persName>, si quod vel si qua habet in predictis, et etiam eiusdem
+            <persName ref="#FuscolinusBalduini">Fuscolini</persName> et aliarum personarum.</p>
+        <p xml:id="CXIIII_p_002" n="2">Actum in palatio prenominati domni episcopi Lunensis
+            <placeName ref="#Sarzanello">castri Sarzane</placeName>, feliciter, stipulatione
+            sollempni<note place="foot" n="e" xml:id="CXIIII_n_005"><term xml:lang="latin"
+              >sollempni</term>: <emph>la prima</emph> l <emph>aggiunta in
+          sopralinea.</emph></note>, coram <persName ref="#AlbertusRudolfini">Alberto</persName> et
+            <persName ref="#GerardusRudolfini">Gerardo, germanis, de <placeName ref="#Carrara"
+              >Carraria</placeName>, filiis quondam Rodulfini</persName>, <persName
+            ref="#PeregrinusCarr">Peregrino <roleName>castaldione</roleName> de <placeName
+              ref="#Carrara">Carraria</placeName></persName> et <persName ref="#ParensPasqualini"
+            >Parente <roleName>castaldione</roleName> de <placeName ref="#Sarzanello">castro
+              Sarzane</placeName></persName> et <persName ref="#AidansGondeti">Aidante quondam
+            Gondeti de <placeName ref="#Ponzanello">Ponzanello</placeName></persName>, testibus ad
+          hec rogatis.</p>
+        <p xml:id="CXIIII_p_003" n="3">Ego <persName ref="#Bonencontrusnot">Bonencontrus,
+              <roleName>imperialis aule notarius</roleName></persName>, hiis interfui et rogatus
+          scripsi.</p>
+      </div>
+      <div xml:id="CXIIII_div2" type="autentica">
+        <p xml:id="CXIIII_p_004" n="4">Hoc exemplar lectum fuit et ascultatum coram domino <persName
+            ref="#Gotefredusiud">Gottefredo</persName>, <roleName>iudice</roleName> et <roleName>assessore</roleName> pro
+          <orgName ref="#Pisa_comune">communi</orgName> <placeName ref="#Pisa">Pisano</placeName> in <orgName ref="#Lunigiana_provincia">provincia <placeName ref="#Lunigiana"
+                >Lunisiane</placeName></orgName>, suam auctoritatem
+          publicationi huic prestante atque mihi, nomine infrascripto, exemplandi dictum
+          exemplar.</p>
+        <p xml:id="CXIIII_p_005" n="5"> Anno a nativitate Domini <date when="1267-12-11"
+            >M°CC°LXVII°, indictione Xa, die XI° mensis decembris<note>autentica del documento n.
+              131-CXIIII </note></date>, ad exemplum seu autenticum huius exemplaris, in via
+          publica, que est iuxta terrenum filiorum quondam <persName ref="#BonaiunctaCer">Bonaiuncte
+            de <placeName ref="#Cervarolo">Cervarolo</placeName> extra <placeName ref="#Sarzana"
+              >Sarzanam</placeName></persName>, ubi capannam eorum habent, presentibus domino
+            <persName ref="#Rossusiur">Russo <roleName>iurisperito</roleName></persName>, <persName
+            ref="#SpagnolusBonfantis">Spagnolo Bonfantis</persName>, habitatoribus <placeName
+            ref="#Sarzana">Sarzane</placeName>, <persName ref="#AiutellusBonaiuti">Aiutello
+            Bonaiuti</persName>, <persName ref="#GuidoHenrigeti">Guidone Henrigeti</persName>,
+            <persName ref="#Tiniosus">Tignoso</persName>, <persName ref="#HengeramusParentisnot"
+            >Hengramutio <roleName>notario</roleName></persName>, fratribus germanis, habitatoribus
+          in <placeName ref="#Sarzanello">castro Sarzane</placeName>, testibus ad hec rogatis, et
+          absente domino <persName ref="#RaineriusGualteroti">Raynerio Gualteroti,
+            <roleName>vicario</roleName></persName> pro dicto commune in eadem <orgName ref="#Lunigiana_provincia">provincia</orgName>, qui
+          presens non erat suprascripte prestationi auctoritatis seu decreti.</p>
+
+        <p xml:id="CXIIII_p_006" n="6"><ptr target="#CXIIII_st_002"/> Ego <persName
+            ref="#PetrusGentisnot">Petrus, filius quondam Gentis de <placeName ref="#Sarzanello"
+              >castro Sarzane</placeName>, <roleName>notarius sacri palatii</roleName></persName>,
+          huius exemplaris auttenticum vidi et legi et, cognito ipsum fore eiusdem tenoris, ideo hoc
+          exemplar scripsi et proprio signo signavi, nullo addito vel diminuto mutante sensum vel
+          variante intellectum et, eo lecto et ascultato coram dicto iudice et assessore ac habita
+          sua auctoritate cum decreto, ut dictum est, diligenter et tucius predictum exemplar
+          publicavi, ut in dicto exemplo per ordinem reperivi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXLV_163">
+    <front xml:id="CXLV_front">
+
+      <titlePart type="numerazioneNuova">163</titlePart>
+      <titlePart type="numerazioneOrig">CXLV</titlePart>
+
+      <docDate xml:id="CXLV_docDate">
+        <date when="1232-09-29">1232 settembre 29</date>, <placeName>Ponzanello (<term
+            xml:lang="latin">in Ponzanello</term>)</placeName>.</docDate>
+
+      <div type="regesto" xml:id="CXLV_regesto">
+        <p>Guglielmo, vescovo di Luni, loca a Gerardino e Vivaldo, figli del fu Ferretto di
+          Ponzanello, un pezzo di terra in <term xml:lang="latin">Niblono</term>, nel luogo detto
+            <term xml:lang="latin">a la Carpena</term>. Il fitto è di un &lt;denaro&gt; bresciano,
+          mentre il prezzo della locazione è di 3 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CXLV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 241v., c. CCXXXIIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 145,
+            p. 182.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <term xml:lang="latin">In Ponzanelo
+              terra</term>. Il documento contiene formule ceterate. <p>Stesura <emph>in
+                mundum</emph> databile tra il 1270 e il 1272 dalla presenza di Bonagiunta de Podio
+              di Lucca.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CXLV_div">
+        <p xml:id="CXLV_p_001" n="1">
+          <pb n="241v" xml:id="fol_241v"/>In Dei nomine, amen.<date when="1232-09-29"> Anno a
+            nativitate Eius M°CCXXXII, indictione V, die mercurii, tercio kalendas octubris</date>.
+          In <placeName ref="#Ponzanello">Ponzanello</placeName>, coram <persName
+            ref="#GuidopresPon"><roleName>presbytero</roleName> Guidone de <placeName
+              ref="#Ponzanello">Ponzanello</placeName></persName>, <persName ref="#GerardusCicoli"
+            >Girardo quondam Cicoli</persName>, <persName ref="#PaganinusAnto">Paganino de
+              <placeName ref="#Antognolo">Antognolo</placeName></persName>, <persName
+            ref="#UgolinusVex">Ugolino de <placeName ref="#Vexana">Vexana</placeName></persName>
+          <term ref="#scarius">scario</term> et pluribus aliis testibus. Venerabilis dominus
+            <persName ref="#GuilEpLuni">Guilielmus, <roleName>Lunensis
+            episcopus</roleName></persName>, per se et suos successores dedit, cessit atque locavit
+            <persName ref="#GerardinusFerreti">Girardino</persName> et <persName
+            ref="#VivaldusFerreti">Vivaldo, germanis, quondam Ferreti de <placeName
+              ref="#Ponzanello">Ponzanello</placeName></persName>, et eorum heredibus, in perpetuum,
+          petiam unam terre posite in <placeName ref="#Neblone">Niblono</placeName>, in loco dicto a
+          la <placeName ref="#Carpena2">Carpena</placeName>, cui sunt fines superius idem <persName
+            ref="#GerardinusFerreti">Girardinus</persName> pro uxore sua et <persName
+            ref="#Gondetus">filii quondam Gondeti</persName> et <persName ref="#Dominicus"
+            >Dominicus</persName>, a pede via publica, ab uno latere canalis et ab alio acquisitores
+          suprascripti, cum accessibus et regressibus suis atque cetera, pro tribus soldis
+          imperialium, quos confessus fuit se ab eis recepisse, et exceptioni non numerate pecunie
+          renunciando, promittens sub hiis legitimam deffensionem et sumptus omnes reficere; et
+          exinde teneantur omni anno ipsi fratres reddere <placeName ref="#Luni">Lunensi
+            curie</placeName> pensione <measure type="Brexani" quantity="1" unit="solidus">unum
+            Brexanum</measure>, alia superimposita non fiat; et potestatem intrandi tenutam ei dedit
+          et interim se pro eis constituit possidere. Ambe partes, videlicet idem dominus episcopus
+          per se suosque successores, fructus <placeName ref="#Luni">Lunensis curie</placeName>
+          obligando, et predicti fratres, se suosque heredes et bona obligando, inter se sibi
+          vicissim stipulantes, attendere et observare promiserunt nec contra venire vel facere, sub
+          pena dupli et eius tocius quod in questionem veniret; et ea soluta et cetera.</p>
+      </div>
+      <div xml:id="CXVLV_div2" type="mundum">
+        <p xml:id="CXLV_p_002" n="2"><ptr target="#CXLV_st_001"/>
+          <persName ref="#Henricusnot">Ego Henricus de <placeName ref="#Sarzanello">castro
+              Sarzane</placeName>, <roleName>sacri palatii notarius</roleName></persName>, hanc
+          cartam olim a <persName ref="#Bonencontrusnot">Bonencontro de Soleria
+              <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda
+          et in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et auttenticavi
+          et in publicam formam redegi, auctoritate et decreto mihi super hiis prestita et concesso
+          a domino <persName ref="#Bonaiunctaiud">Bonaiuncta de <placeName ref="#PodioLucca">Podio
+            de Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia
+              <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre domino Lunensi
+          episcopo et <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName>, de qua auctoritate et
+          decreto constat per instrumentum publicum factum manu <persName ref="#Alcheriusnot"
+            >Alcherii <roleName>notarii de <placeName ref="#Lucca"
+            >Luca</placeName></roleName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 163-CXLV databile tra il 1270 e il
+            1272 dalla presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

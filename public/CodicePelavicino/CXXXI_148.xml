@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXXXI_148">
+    <front xml:id="CXXXI_front">
+
+      <titlePart type="numerazioneNuova">148</titlePart>
+      <titlePart type="numerazioneOrig">CXXXI</titlePart>
+
+      <docDate xml:id="CXXXI_docDate">
+        <date when="1140-02">1140 febbraio</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in castro Sarzane</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXXXI_regesto">
+        <p>I coniugi Guido Runtio e Gisla, figlia del fu Giovanni <term xml:lang="latin">de la
+            Fontana</term>, chiedono a Gotifredo, vescovo di Luni, un pezzo di terra <term
+            xml:lang="latin">in loco et finibus Forano</term> per un fitto annuo di 2 denari.</p>
+      </div>
+
+      <div type="footer" xml:id="CXXXI_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP cc. 231v.- 232r., cc. CCXXIIIv.- CCXXIIIIr. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>n. 131, p.
+            162.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il documento è datato con il sistema dell’incarnazione secondo lo stile pisano.
+              <p>Autentica del 5 dicembre 1267.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXXXI_div">
+        <p xml:id="CXXXI_p_001" n="1"><ptr target="#CXXXI_st_001"/>In nomine Domini nostri Ihesu
+          Christi Dei eterni. Anno ab incarnatione Eius <date when="1140-02">M° centesimo XL, mense
+            februarii, indictione III</date>. Peto ego <persName ref="#GuidoRun">Guido
+            Runtio</persName> et <persName ref="#GislaIohannis">Gislla, iugales et filia quondam
+            Iohannis de la Fontana</persName>, una cum nostris heredibus, a vobis domino <persName
+            ref="#GotefredEpLuni">Gotefredo, <roleName>episcopo Lunensis
+            ecclesie</roleName></persName>, et a vestris successoribus id est unam petiam terre, que
+          est una iuga, in loco et finibus <placeName ref="#Forano">Forano</placeName>. Coheret
+          eidem <supplied reason="omitted">de</supplied> duabus partibus terra dominicata vestri
+          episcopi, de tercia parte, que est desubter, via de <placeName ref="#Robbiano"
+            >Robbiano</placeName>, de quarta parte terra quondam <persName ref="#GerardusImelde"
+            >Gerardi, filii Imelle de <placeName ref="#Lucca">Luca</placeName></persName>. Hanc
+          autem suprascriptam petiam terre in integrum, sicut superius legitur, habere, tenere,
+          laborare, frui et meliorare et exinde vobis<note place="foot" n="a" xml:id="CXXXI_n_001"
+              ><term type="incerto">vobis</term><emph>: manca un predicato verbale
+            come</emph>solvamus <emph>o </emph>persolvamus.</note> omni anno fictam pensionem
+            <measure type="Imperiales" quantity="2" unit="denarius">denarios duos</measure> tantum;
+          alia superimposita eis non fiat.</p>
+        <p xml:id="CXXXI_p_002" n="2">Actum <supplied reason="omitted">in</supplied>
+          <placeName ref="#Sarzanello">castro Sarzane</placeName>, sub pena <measure
+            type="imperiales" quantity="22" unit="solidus">XX soldorum</measure>, si quis eorum
+          retollere aut laxare voluerit.</p>
+        <p xml:id="CXXXI_p_003" n="3">Ego <persName ref="#GotefredEpLuni">Gotefredus
+            episcopus</persName> subscripsi. Suprascriptus petitor hunc libellum me <persName
+            ref="#Rodulfusnot">Rodulfum, <roleName>domini imperatoris
+          notarium</roleName></persName>, scribere rogavit. <persName ref="#MalabucaTre">Malabuca de
+              <placeName ref="#Trebiano">Treblano</placeName></persName>, <persName
+            ref="#GerardusRussus">Gerardus Russus</persName>, <persName ref="#Reineriuspel"
+            >Reinerius <roleName>pelliciarus</roleName></persName><note place="foot" n="b"
+            xml:id="CXXXI_n_002"><term type="incerto">pelliciarus</term><emph>: così nel
+              testo.</emph></note>, <persName ref="#AlbertusBellonis">Albertus Bellonis</persName>,
+            <persName ref="#GuilielmusGrop">Guillelmus de <placeName ref="#Groppolo"
+              >Groppollo</placeName></persName> et <persName ref="#RustigellusVig">Rustigellus de
+              <placeName ref="#Vignola">Vignola</placeName></persName>, rogati testes,
+          interfuerunt.</p>
+        <p xml:id="CXXXI_p_004" n="4"><ptr target="#CXXXI_st_002"/>Ego <persName ref="#Rodulfusnot"
+            >Rodulfum, <roleName>domini imperatoris notarium</roleName></persName>, post traditum
+          complevi et dedi.</p>
+      </div>
+      <div xml:id="CXXXI_div2" type="autentica">
+        <p xml:id="CXXXI_p_005" n="5">Hoc exemplar lectum et ascultatum fuit ad auttenticum huius
+          exemplaris coram <roleName>domino</roleName><persName ref="#Gotefredusiud"> Gotefredo</persName>,
+          <roleName>iudice</roleName> atque <roleName>assessore</roleName> pro <orgName ref="#Pisa_comune">commune</orgName> <placeName
+            ref="#Pisa">Pisano</placeName> in <orgName ref="#Lunigiana_provincia">provincia
+                  <placeName ref="#Lunigiana">Lunisiane</placeName></orgName>, suam huic publicationi auctoritatem prestante, anno
+          a nativitate Eius <date when="1267-12-05">millesimo CC°LXVII°, indictione X, die V°
+            decembris <note>autentica del documento n. 148-CXXXI</note></date>, in via publica que
+          est <pb n="232r" xml:id="fol_232r"/>iuxta terrenum filiorum quondam <persName
+            ref="#BonaiunctaCer">Bonaiuncte de <placeName ref="#Cervarolo"
+            >Cervarolo</placeName></persName> extra <placeName ref="#Sarzana">Sarzanam</placeName>,
+          ubi est capanna eorum, presentibus domino <persName ref="#Rossusiur">Russo
+              <roleName>iurisperito</roleName></persName>, <persName ref="#SpagnolusBonfantis"
+            >Spagnolo Bonfantis</persName>, habitatoribus <placeName ref="#Sarzana"
+            >Sarzane</placeName>, <persName ref="#AvitellusBonaiuti">Avitello quondam
+            Bonaiuti</persName>, <persName ref="#GuidoHenrigeti">Guidone quondam
+            Henrigeti</persName>, <persName ref="#Tiniosus">Tignoso</persName> et <persName
+            ref="#HengeramusParentisnot">Hengramo <roleName>notario</roleName></persName>, fratribus
+          germanis, testibus ad hec rogatis, et absente <roleName>domino</roleName> <persName ref="#RaineriusGualteroti"
+            >Rainerio Galterotti</persName>, <roleName>vicario</roleName> in <orgName ref="#Lunigiana_provincia">eadem
+              provincia pro</orgName> <orgName ref="#Pisa_comune">suprascripto
+            communi</orgName>, qui presens non erat prestationi dicte auctoritatis.</p>
+
+        <p xml:id="CXXXI_p_006" n="6"><ptr target="#CXXXI_st_003"/>Ego <persName
+            ref="#PetrusGentisnot">Petrus, filius quondam Gentis de <placeName ref="#Sarzanello"
+              >castro Sarzane</placeName>, <roleName>notarius sacri palatii</roleName></persName>,
+          ut <note place="foot" n="c" xml:id="CXXXI_n_003"><term xml:lang="latin">ut</term><emph>:
+              corretto su precedente scrittura.</emph></note> in predicto exemplo inveni, ita hic
+          diligenter per ordinem exemplavi et coram dicto iudice et assessore, suam huic
+          publicationi auctoritatem prestante, et coram iam dictis testibus, pesens<note
+            place="foot" n="d" xml:id="CXXXI_n_004"><term type="incerto">pesens</term><emph>: così
+              nel testo per</emph>
+            <term xml:lang="latin">presens</term>.</note> exemplar legi, ut dictum est, atque tucius
+          publicavi, nullo addito, mutato vel diminuto, mutante sensum vel variante intellectum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

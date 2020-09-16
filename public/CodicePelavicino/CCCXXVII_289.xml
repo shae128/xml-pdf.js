@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXXVII_289">
+    <front xml:id="CCCXXVII_front">
+
+      <titlePart type="numerazioneNuova">289</titlePart>
+      <titlePart type="numerazioneOrig">CCCXXVII</titlePart>
+
+      <docDate xml:id="CCCXXVII_docDate">
+        <date when="1217-10-11">1217 ottobre 11</date>, <placeName>Carrara (<term xml:lang="latin"
+            >Carrarie, in camera curie de Veçale</term>)</placeName>
+        <date when="1217-10-20">1217 ottobre 20</date>, <placeName>Sarzanello (<term
+            xml:lang="latin"> in castro Sarzane</term>)</placeName>
+        <date when="1217-10-27">1217 ottobre 27</date>, <placeName>Carrara (<term xml:lang="latin"
+            >Carrarie, ante portam ecclesie de Carraria</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXXVII_regesto">
+        <p>Il vescovo di Luni Marzucco riduce ad un sestario di frumento tutte le condizioni e
+          redditi che Trapedecino del fu Gonforuto di Bedizzano era solito dare alla curia lunense.
+          Pochi giorni dopo il vescovo autorizza il suo gastaldo Pellegrino della Padule a siglare
+          un patto con Trapedecino, effettivamente concluso di lì a poco, in cui Trapedicino compra
+          il sestario da versare annualmente da Bonaccorso del fu Guglielmino della Padule, il quale
+          a sua volta lo riceveva come fitto per una terra posta in <term xml:lang="latin"
+            >Figadia</term>. Alla concessione del fitto è legato il diritto del vescovo al <term
+            xml:lang="latin">locamento et dislocamento </term> della terra suddetta.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP cc. 296v.-297r, c. CCLXXXVIIIv.-CCLXXXVIIIIr. secondo
+            la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 327,
+            p. 317-318.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>L’autentica è datata con giorno e mese (venerdì, III giorno prima delle calende di
+            marzo) ma senza anno. Il notaio Taddeo di Carrara, tuttavia, è attestato nel 1251 e 1252
+            in due pergamene del fondo di <term xml:lang="latin">S. Frediano</term>, nell’Archivio
+            di Stato di Lucca (ASLu, S. Frediano 1251 febbraio 12 e 1252 novembre 26); gli anni
+            vicini a queste date in cui il giorno dell’autentica cadeva di venerdì sono il 1248 e il
+            1254.</note>
+          <note>La parte iniziale del documento è stata letta con l’ausilio della luce di
+            Wood.</note>
+          <note>Nel margine inferiore di c. 296v., di mano posteriore, le parole iniziali della
+            carta seguente: <term xml:lang="latin">seu eidem domino episcopo</term>.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCXXVII. Unius starii frumenti, quod reddit Trapodicinus sive illi de
+            Apiola.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXXVII_div">
+        <p xml:id="CCCXXVII_p_001" n="1"><ptr target="#CCCXXVII_st_001"/>In nomine Domini, amen.
+            <date when="1217-10-11">Anno a nativitate Eius millesimo CCXVII, indictione V, die
+            mercurii, XI mensis octubris</date>. Ex hoc publico instrumento sit liquidum universis
+          quod dominus <persName ref="#MarçucusPisanus">Marçucus, <roleName>Dei gratia Lunensis
+              Ecclesie episcopus</roleName></persName>, pro melioratione et commodo et utilitate sui
+          episcopatus et curie sue, omnes condictiones et redditus, quas et quos dabat et reddebat
+          omni anno <persName ref="#TrapedecinusGonforuti">Trapedecinus <placeName ref="#Beduzano"
+              >quondam Gonforuti de Beduçano</placeName>
+          </persName>curie dicti domini episcopi vel ministerialibus curie pro ipsa curia <pb
+            n="297r" xml:id="fol_297r"/> seu eidem domino episcopo, in unum starium boni frumenti,
+          mundi et sicci, ad currens starium de <placeName ref="#Carrara">Carraria</placeName>,
+          annis singulis solvendum in mense augusti dicte curie, permutavit et redegit, remissis,
+          perdonatis et condonatis eidem <persName ref="#TrapedecinusGonforuti">Trapedecino
+          </persName>, recipienti pro se et suis heredibus, dictis condictionibus et redditibus
+          universis nomine permutationis et cambii pro dicto frumento, tali pacto ut amodo perpetuo
+            dictis<note place="foot" n="a" xml:id="CCCXXVII_n_001"><term xml:lang="latin">dictis
+            </term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">dictus</term></note>
+          <persName ref="#TrapedecinusGonforuti">Trapedecinus</persName> eiusque heredes, nomine
+          permutationis et cambii, pro suprascriptis condictionibus et redditibus debeantur <note
+            place="foot" n="b" xml:id="CCCXXVII_n_002"><term xml:lang="latin">debeantur </term>:
+              <emph>così nel testo</emph>.</note> dare vel dari facere dicte curie annis singulis,
+          in mense augusti, predictum starium frumenti<note place="foot" n="c"
+            xml:id="CCCXXVII_n_003"><term xml:lang="latin">frumenti</term>: <emph>corretto su
+              precedente scrittura</emph>.</note> boni, mundi et sicci, ad currens starium de
+            <placeName ref="#Carrara">Carraria</placeName> mensuratum, tantum. Quod suprascriptum
+          starium frumenti dictus <persName ref="#TrapedecinusGonforuti"> Trapedecinus</persName>,
+          obligando se et suos heredes, promisit et convenit dare et solvere vel dari et solvi
+          facere omni anno, in mense augusti, suprascripte curie pro dictis condictionibus et
+          redditibus a quibus omnibus dictus dominus episcopus dictum <persName
+            ref="#TrapedecinusGonforuti">Trapedicinum</persName>, recipientem pro se et suis
+          heredibus, absolvit et liberavit. Que condictiones et redditus tales erant, ut utraque
+          pars dicebat, quas et quos dictus <persName ref="#TrapedecinusGonforuti">
+            Trapedicinus</persName> reddebat de podere suo, videlicet quarta pars unius starii
+          castanearum siccarum et media gallina, ova sex, quarta pars unius starii ordei, ad
+          antiquum starium, et in alia parte de XXX duabus partibus una pars et denarii sex
+          imperialium et quarta pars unius capreti et quarta<note place="foot" n="d"
+            xml:id="CCCXXVII_n_004"><term xml:lang="latin">quarta</term>: <emph>corretto su
+              precedente scrittura</emph></note> pars unius [..]<note place="foot" n="e"
+            xml:id="CCCXXVII_n_005"><emph>Una parola è illeggibile a causa di un foro nella
+              pergamena causato da abrasione</emph>.</note>: que omnia dabat omni anno.</p>
+        <p xml:id="CCCXXVII_p_002" n="2">Actum <placeName ref="#Carrara">Carrarie </placeName>, in
+          camera curie de <persName ref="#Veçale">Veçale</persName>, presentibus <persName
+            ref="#Dominicuspres"><roleName>presbytero</roleName> Dominico</persName>, <persName
+            ref="#UbertusRossus">Uberto Rosso</persName>, <persName ref="#AlbertusGandulphini"
+              >Alberto<note place="foot" n="f" xml:id="CCCXXVII_n_006"><term xml:lang="latin"
+                >Alberto</term>: <emph>corretto su precedente scrittura</emph>.</note> quondam
+            Gandulphini</persName>, <persName ref="#SalvetusPetrognano">Salveto de <placeName
+              ref="#Petrognano">Petrognano</placeName></persName>, <persName ref="#Bonalbergusiud"
+            >Bonalbergo <roleName>iudice</roleName></persName>, <persName ref="#G_Braçano">G. de
+              <placeName ref="#Braçano">Braçano</placeName></persName> et <persName
+            ref="#Daninuscalz">Danino <roleName>calzolario</roleName></persName> testibus.</p>
+        <p xml:id="CCCXXVII_p_003" n="3">Postea vero <date when="1217-11-06">eodem anno, die
+            veneris, VI kalendas novembris</date>, <placeName ref="#Carrara">Carrarie</placeName>,
+          ante portam ecclesie de <placeName ref="#Carrara">Carraria</placeName>, coram <persName
+            ref="#BonaiunctaVecii">Bonaiuncta quondam Veçii de <placeName ref="#Veçale"
+              >Veçale</placeName></persName>, <persName ref="#BonacursusFosse">Bonacurso
+            Fosse</persName><note place="foot" n="g" xml:id="CCCXXVII_n_007"><term xml:lang="latin"
+              >Fosse: o</term>
+            <emph>corretta su precedente scrittura</emph>.</note>, <persName ref="#VivaldusAvencia"
+            >Vivaldo de <placeName ref="#Avenza">Avencia</placeName></persName> et aliis pluribus
+          testis rogatis. <persName ref="#PeregrinusPal">Pelegrinus de <placeName ref="#Padule"> la
+              Padule</placeName></persName>, <roleName>castaldio domini</roleName>
+          <persName ref="#MarzuccusEpLuni">Marzuci, <roleName>Dei gratia Lunensis episcopi
+            </roleName></persName>, in curia de <placeName ref="#Carrara">Carraria</placeName>,
+          habita ab eodem domino episcopo licenciam<note place="foot" n="h" xml:id="CCCXXVII_n_008"
+              ><term xml:lang="latin">licenciam</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">licencia</term>.</note> et auctoritate <supplied reason="omitted"
+            >et</supplied> inrevocabile mandato faciendi ea que leguntur inferius, cum dicto
+            <persName ref="#TrapedecinusGonforuti">Trapedicino<note place="foot" n="i"
+              xml:id="CCCXXVII_n_009"><term xml:lang="latin">Trapedicino</term>: <emph>corretto su
+                precedente scrittura</emph>.</note></persName> de predicto stario frumenti tale
+          pactum fecit pro curia et pro domino episcopo, videlicet quod ipse <persName
+            ref="#TrapedecinusGonforuti">Trapedicinus</persName>, nomine permutationis, pro predicto
+          stario frumenti dedit, tradidit et assignavit dicto <persName ref="#Peregrinuscas">
+            Pelegrino <roleName>castaldioni</roleName></persName>, recipienti pro dicto domino
+          episcopo et episcopatu et pro curia, nominatim, I starium frumenti boni, mundi et sicci,
+          annis singulis solvendum, quod emerat a <persName ref="#BonacursusGuilielminiPal"
+            >Bonacurso quondam Guilielmini de <placeName ref="#Padule">la
+            Padule</placeName></persName>, quod sibi dabant omni anno <persName
+            ref="#BonfiliolusMesserendi">Bonfiliolus quondam Messerandi de <placeName ref="#Apiola"
+              >Apiola</placeName></persName> et <persName ref="#SabbatinusDonne">Sabbatinus de
+              <placeName ref="#Apiola">Apiola </placeName> et filius quondam Donne de <placeName
+              ref="#Apiola">Apiola</placeName>
+          </persName> affictualiter, in mense augusti, de media <term ref="#iuva">iuva</term> terre
+          pro indiviso, sita in <placeName ref="#Figadia">Figadia</placeName>, cum omni iure et
+          actione sibi inde competenti et cum locamento et dislocamento ipsius terre unde datur
+          ipsum frumentum et etiam cum ipsa terra, unde datur. Insuper dedit, tradidit, cessit atque
+          mandavit ei, recipienti pro curia, omnia iura et actiones sibi competentia et competentes,
+          et fecit ipsum procuratorem et dominum in rem curie. Quod suprascriptum frumentum et
+          terram, unde datur, obligando, deffendere et exbrigare <supplied reason="omitted"
+            >promisit</supplied> cum ratione ab omni persona dicto domino episcopo eiusque
+          successoribus et dicte curie vel salvum cambium dare supra sua bona ad hoc obligata in
+          consimili loco, in arbitrio bonorum<note place="foot" n="l" xml:id="CCCXXVII_n_010"><term
+              xml:lang="latin">bonorum: b</term>
+            <emph>corretto su precedente scrittura</emph>.</note> hominum, prout tunc valuerit, si
+          deffendere cum ratione non posset, et dedit ei licenciam intrandi inde pro curia in
+          tenutam, sua auctoritate. Dicte terre toti coheret ab uno latere terra filii <persName
+            ref="#DonnaApiola">Done de <placeName ref="#Apiola">Apiola</placeName></persName>, a
+          pede filiorum quondam <persName ref="#Frolinus">Frolini</persName>, superius filiorum
+          quondam <persName ref="#RollandusTorano">Rollandi de <placeName ref="#Torano">
+              Torano</placeName></persName>, a latere<note place="foot" n="m"
+            xml:id="CCCXXVII_n_011"><emph>Manca l’indicazione</emph>.</note>. Et est sciendum quod
+            <date when="1217-11-13">eodem anno et indictione, die veneris, XIII kalendas
+            novembris</date>, in <placeName ref="#Sarzanello">castro Sarzane</placeName>, in camera
+          domini episcopi, in testimonio <persName ref="#MarçucusPisanus">Marçuci Pisani</persName>,
+            <persName ref="#UgolinusCarraria">Ugolini de <placeName ref="#Carrara">
+              Carraria</placeName></persName> et <persName ref="#GrecusGallitia">Greci de donna
+            Gallitia</persName>, dictus dominus episcopus dederat licenciam et auctoritatem et
+          inrevocabile mandatum dicto <persName ref="#Peregrinuscas">Peregrino, <roleName>
+              castaldioni</roleName></persName> suo, faciendi predicta et quicquid inde faceret se
+          ratum habiturum promiserat. Dictus <persName ref="#TrapedecinusGonforuti">Trapedicinus
+          </persName> se et suos heredes promisit stipulatione sollempni<note place="foot" n="n"
+            xml:id="CCCXXVII_n_012"><term xml:lang="latin">Dictus-sollempni</term>: <emph>scritto
+              dopo</emph>
+            <term xml:lang="latin">rogatus scripsi</term>
+            <emph>con segno di richiamo </emph>.</note>.</p>
+        <p xml:id="CCCXXVII_p_004" n="4">Ego <persName ref="#Ugolinusnot">Ugolinus, <roleName> sacri
+              palacii et Lunensis curie notarius</roleName></persName>, hiis interfui et rogatus
+          scripsi.</p>
+      </div>
+      <div xml:id="CCCXXVII_div2" type="autentica">
+        <p xml:id="CCCXXVII_p_005" n="5"><ptr target="#CCCXXVII_st_002"/>Ego <persName
+            ref="#Taddeusnot">Tadeus de <placeName ref="#Carrara">Carraria</placeName>, <roleName>
+              apostolice sedis auctoritate notarius</roleName></persName> ac <persName
+            ref="#Bonalbergusnot">Bonalbergi <roleName>notarii</roleName></persName> filius,
+          autenticum huius exempli vidi et legi et quicquid in eo repperi fideliter exemplavi, nil
+          addens vel minuens quod mutet sensum vel intellectum, de mandato et auctoritate domini
+            <persName ref="#IohannesScocosagolli">Iohannis Scocosagolli, <roleName>vicarii
+              domini</roleName>
+          </persName>
+          <persName ref="#GrillusCarr">Grilli, <roleName>potestatis Carrarie</roleName></persName>,
+          mihi facto in platea de <placeName ref="#Carrara">Carraria</placeName>, die veneris, III
+          kalendas marcii, testibus <persName ref="#GuilielmusiudVeçale">Guilielmo
+              <roleName>iudice</roleName> de <placeName ref="#Veçale">Veçale</placeName></persName>,
+            <persName ref="#Bonalbergusnot"> Bonalbergo <roleName>notario</roleName></persName> et
+            <persName ref="#CastaldusFicola"> Castaldo de <placeName ref="#Ficola"
+              >Ficola</placeName></persName> et aliis multis pluribus rogatis, et meo signo et
+          nomine roboravi, interpositum<note place="foot" n="o" xml:id="CCCXXVII_n_013"><term
+              xml:lang="latin">interpositum</term>: <emph>corretto su precedente
+            scrittura</emph>.</note> a dicto <persName ref="#Peregrinuscas">Peregrino
+              <roleName>castaldione</roleName></persName>
+          <note>Autentica del documento n. 289-CCCXXVII databile con incertezza attorno alla metà
+            del XIII secolo <date from="1248-02-27" to="1254-02-28" cert="low"/></note>.</p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

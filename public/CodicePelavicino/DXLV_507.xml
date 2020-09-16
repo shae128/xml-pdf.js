@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXLV_507">
+    <front xml:id="DXLV_front">
+      <titlePart type="numerazioneNuova">507</titlePart>
+      <titlePart type="numerazioneOrig">DXLV</titlePart>
+
+      <docDate xml:id="DXLV_docDate">
+        <date when="1239-04-05">1239 aprile 5</date>, <placeName>Pisa (<term xml:lang="latin">Pisis,
+            in porticu palacii archiepiscopi</term>)</placeName>
+      </docDate>
+      <div type="regesto" xml:id="DXLV_regesto">
+        <p>L’arcivescovo di Pisa Vitale, subdelegato del canonico di Pistoia Iacopo, nella causa
+          vertente fra il vescovo di Luni Guglielmo e l’abate di San Michele di Orticaria, dichiara
+          a Ildebrando, canonico di S. Sisto di Pisa, e a Nicola di Carrara, delegati del papa,
+          dietro richiesta del procuratore del vescovo di Luni Gerardo Muntono, di non aver potuto
+          prendere cognizione della causa per i molti impegni del suo ufficio e che desiderava che
+          gli altri due delegati procedessero senza di lui.</p>
+      </div>
+      <div type="footer" xml:id="DXLV_footer">
+        <div type="orig_doc">
+          <p>Copia [C] c. 402r., c. CCCLXXXXIIIIr. secondo la numerazione originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 545, p.
+            619</p>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXLV.
+              Protestatio facta per sindicum episcopatus Lunensis coram archiepiscopo Pisano
+              occasione monasterii Sancti Michaelis de Orticaria.</term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="DXLV_div">
+        <p xml:id="DXLV_p_001" n="1">In nomine Domini, amen. <date when="1239-04-05">Anno a
+            nativitate Ipsius M°CCXXXIX, indictione XII, nonis intrantis aprilis</date>.
+            <roleName>Venerabilis pater dominus</roleName>
+          <persName ref="#Vitalis_archiepiscopus_Pisa">Vitalis</persName>, <roleName>Dei
+            gratia</roleName>
+          <placeName ref="#Pisa">Pisa</placeName><orgName ref="#Pisa_diocesi">nus</orgName>
+          <roleName>archiepiscopus</roleName>, dictus <roleName>subdelegatus
+            domini</roleName><persName ref="#Iacopus_canonicus_Pistorie"> Iacobi</persName>,
+            <placeName ref="#Pistoia">Pistorie</placeName><orgName ref="#Pistoia_S_Zeno"
+            >nsis</orgName>
+          <roleName>canonici</roleName>, in causa appellationis que vertitur inter
+            <roleName>dominum</roleName>
+          <persName ref="#GuilEpLuni">Guilielmum</persName>, <roleName>Dei gratia Lunensem
+            episcopum</roleName>, ex una parte, et abbatem <orgName ref="#Pisa_S_Michele_Orticaria"
+            >Sancti Michaelis de</orgName>
+          <placeName ref="#Orticaria">Orticaria</placeName>, ex altera, coram suprascripto<note
+            place="foot" n="a" xml:id="DXLV_n_001"> suprascripto:<emph> così nel
+            testo.</emph></note>
+          <persName ref="#Ildebrandus_canonicus_Pisa"
+            ><expan>I<ex>ldebrando</ex></expan></persName><note place="foot" n="b"
+            xml:id="DXLV_n_002">
+            <emph> Si veda il doc. 508-DXXXXVI.</emph></note>, <roleName>canonico</roleName>
+          <orgName ref="#Pisa_S_Sisto">Sancti Sixti</orgName>
+          <placeName ref="#Pisa">Pisani</placeName>, <persName ref="#N_Kararia">N<supplied
+              reason="omitted">icholao</supplied></persName> de <placeName ref="#Carrara"
+            >Kararia</placeName>, Lunensis dictionis<note place="foot" n="c" xml:id="DXLV_n_003"
+            >dictionis: <emph> così nel testo per</emph> diocesis.</note>, <roleName>iudicibus
+            prioribus</roleName>, <roleName>delegatis a domino papa</roleName>, dixit et protestatus
+          fuit, interrogatus a <persName ref="#GerardetusMontoni">Gerardeto dicto Muntono</persName>
+          <roleName>notario</roleName>, <roleName>procuratore suprascripti domini
+            episcopi</roleName>, ut dicitur, quod non poterat interesse cognitioni suprascripte
+          cause appellationis, occupatus pluribus et arduis negociis sui archiepiscopatus et dixit
+          quod volebat quod alii duo procederent in negocium sine ipso, secundum domini pape
+          continenciam, sicut de iure fuerit procedendum.</p>
+        <p xml:id="DXLV_p_002" n="2">Actum <placeName ref="#Pisa">Pisis</placeName>, in porticu
+          palacii suprascripti archiepiscopi, sollempniter, presentibus <persName
+            ref="#GuidoPisa_notarius">Guidone</persName>
+          <roleName>notario</roleName> de <placeName ref="#Pisa">Pisis</placeName> et <persName
+            ref="#PosaMartini">Posa<note place="foot" n="d" xml:id="DXLV_n_004"> Posa: s <emph>
+                corretta su precedente</emph> 1</note> quondam Martini de Greco</persName>, testibus
+          ad hec rogatis.</p>
+        <p xml:id="DXLV_p_003" n="3"><ptr target="DXLV_st_001"/>Ego <persName ref="#Petrusnot4"
+            >Petrus</persName>, <roleName>notarius imperialis aule</roleName>, hiis interfui et
+          rogatus scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

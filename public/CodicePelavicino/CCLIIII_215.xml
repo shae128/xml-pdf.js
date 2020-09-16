@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLIIII_215">
+    <front xml:id="CCLIIII_front">
+
+      <titlePart type="numerazioneNuova">215</titlePart>
+      <titlePart type="numerazioneOrig">CCLIIII</titlePart>
+
+      <docDate xml:id="CCLIIII_docDate">
+        <date when="1232-09-10">1232 settembre 10</date>, <placeName>Moncigoli<emph> (<term
+              xml:lang="latin">in castro Moncicoli</term>)</emph>
+        </placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLIIII_regesto">
+        <p>Guglielmo vescovo di Luni, Enrico podestà delle terre dei Bianchi, Lanfranchino e Pietro
+            <term xml:lang="latin">de Herberia</term> si dividono i castellani di Moncigoli. Sono
+          elencati nominalmente i castellani del vescovo.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 264v.- 265r., cc. CCLVIv.- CCLVIIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 254,
+            p. 235.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <term xml:lang="latin">Monciculo</term>. Il
+            luogo di redazione dell’atto è ricavato per analogia dal documento n. 223 (CCLIII).
+              <p>Stesura <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla presenza di
+              Bonagiunta de Podio di Lucca.</p></note>
+        </div>
+
+        <div type="appr">
+          <p>Bibliografia: <ref target="#NOBILI_2006">NOBILI</ref>, pp. 423-426.</p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLIIII_div">
+        <p xml:id="CCLIIII_p_001" n="001">In Dei nomine, amen. Hec est divisio casamentorum et
+          castellanorum <placeName ref="#Moncigoli">castri de Moncicolo</placeName> facta inter
+          venerabilem <persName ref="#GuilEpLuni">Guillelmum, Dei gratia <roleName>Lunensem
+              episcopum</roleName></persName> et comitem, et dominum <persName
+            ref="#HenricusBlancus">Henricum, <roleName>potestatem <placeName ref="#TerreBianchi"
+                >terrarum Blancorum</placeName></roleName></persName>, pro se et suis heredibus et
+          pro suis successoribus atque consortibus, absentibus, et per dominum <persName
+            ref="#LanfranchinusHerberia">Lanfranchinum</persName> et <persName ref="#PetrusHerberia"
+            >Petrum de <placeName ref="#Erberia">Herberia</placeName></persName>, pro se et suis
+          heredibus. In primis, pars dicti episcopi est hec: casa <supplied reason="omitted"
+            >et</supplied> casamentum <persName ref="#Guiçolus">Guiçoli</persName>, que et quod sunt
+          versus rivum, iuxta domum <persName ref="#Martinus">Martini</persName>; item domus et
+          casamentum <persName ref="#Squasius">Squasii</persName> et eius fratris <persName
+            ref="#Bonensegna">Bonensegne</persName>; item domus et casamentum <persName
+            ref="#Confortus">Conforti</persName>; item casamentum <persName ref="#Rollandinus"
+            >Rollandi</persName>; item casamentum quod habebat et fuit <persName
+            ref="#LombardetusBlecce">Lombardeti de <placeName ref="#Blecce"
+            >Blecce</placeName></persName>; item unum de duobus casamentis <persName
+            ref="#Montaninus">Montanini</persName>, videlicet illud quod est iuxta casamentum<note
+            xml:id="CCLIIII_n_001" n="a" place="inline"><term xml:lang="latin">casamentum</term>:
+              <emph>nel testo corretto su</emph>
+            <term xml:id="latin">casam</term>
+            <emph>con</emph>
+            <term xml:lang="latin">mentum</term>
+            <emph>aggiunto in sopralinea in corpo più minuto</emph>.</note> de hominibus de
+            Deblecce<note xml:id="CCLIIII_n_002" n="b" place="inline"><term xml:lang="latin">de
+                <placeName ref="#Blecce">Deblecce</placeName></term>: <emph>così nel
+            testo</emph>.</note>; item casamentum filiorum quondam <persName ref="#Cancellerius"
+            >Cancellerii</persName>, illud videlicet ubi fabricabatur. Item pars <name
+            type="familia" ref="#BlanciHerberiaFamilia">dominorum Blancorum</name> in burgo eodem
+          est hec: casamentum <persName ref="#Martinus">Martini</persName>; item casamentum
+            <persName ref="#BenvenutusPectenato">Benvenuti de <placeName ref="#Pectenato"
+              >Pectenato</placeName></persName>; item casamentum filiorum quondam <persName
+            ref="#Bozarellus">Boçarelli</persName>; item casamentum <persName ref="#UgolinusRecçani"
+            >Ugolini Recçani</persName>; item casamentum <persName ref="#Çenepria"
+            >Çeneprie</persName>; item casamentum <persName ref="#Montaninus">Montanini</persName>,
+          quod est iuxta domum <persName ref="#Çenepria">Çeneprie</persName>; item casamentum
+          filiorum <persName ref="#AldeprandusAntiquo">Aldeprandi de Antiquo</persName> et <persName
+            ref="#GuilielmusBleccoe">Guillelmi de <placeName ref="#Blecce"
+            >Bleccoe</placeName></persName>. Item, <supplied reason="omitted">in</supplied> alio
+          sequenti burgo, in capite suprascriptorum dominorum: pars domus atque casamentum aliud
+            <persName ref="#Guiçolus">Guiçoli</persName>; item casamentum <persName
+            ref="#Bonfiliolus">Bonfilioli</persName>; item casamentum quondam <persName
+            ref="#GuidolinusFoscherio">Guidolini de Foscherio</persName>; item casamentum quondam
+            <persName ref="#AlbertusRainerio">Alberti de Rainerio</persName>; item casamentum
+          filiorum quondam <persName ref="#Cancellerius">Cancellerii</persName>, quod est iuxta
+          domum <persName ref="#BenvenutusPectenato">Benvenuti</persName>; <pb n="265r"
+            xml:id="fol_265r"/> item casamentum <persName ref="#Aldebertinus"
+          >Aldebertini</persName>; item casamentum <persName ref="#Tiniosus">Tiniosi</persName>.
+          Item, in eodem burgo, pars domini episcopi: casamentum <persName ref="#PetrusAnçelina"
+            >Petri de Ançelina</persName>; item casamentum <persName ref="#Bonencontrus"
+            >Bonencontri</persName>; item casamentum filiorum quondam <persName ref="#Pegolotus"
+            >Pegoloti</persName>; item casamentum <persName ref="#BenvenutusRainerio">Benvenuti de
+            Rainerio</persName>; item casamentum filiorum quondam<note xml:id="CCLIIII_n_003" n="c"
+            place="inline"><term xml:lang="latin">filiorum quondam</term>: <emph>nel testo</emph>
+            <term xml:lang="latin">quondam filiorum</term>
+            <emph>con segno di richiamo per indicare l’inversione</emph>.</note>
+          <persName ref="#Cancellerius">Cancellerii</persName>, quod <supplied reason="omitted"
+            >est</supplied> iuxta domum <persName ref="#Aldebertinus">Aldebertini</persName>; item
+          casamentum filiorum quondam <persName ref="#GuilielminusAnnobono">Guilielmini de
+            Annobono</persName>; item casamentum <persName ref="#Venutus">Vegnuti</persName>. Item,
+          in alio burgo, pars suprascriptorum dominorum: casamentum filiorum quondam <persName
+            ref="#Codevilla">Codeville</persName>; item casamentum <persName ref="#Gerardinus"
+            >Gerardini</persName>; item et illud filiorum quondam <persName ref="#GuidolinusCosta"
+            >Guidolini de la <placeName ref="#Costa">Costa</placeName></persName>. Item pars
+          episcopi in ipsa ruga: casamentum <persName ref="#Ferrarius">Ferrarii</persName>; item
+          illud <persName ref="#GibertinusQuerceto">Gibertini de <placeName ref="#Querceto"
+              >Querceto</placeName></persName>; item casamentum <persName ref="#IohannessanctoPaulo"
+            >Iohannis de sancto Paulo</persName>. Item pars suprascriptorum dominorum: casamentum
+            <persName ref="#Riccomannus">Riccomanni</persName>, quod est iuxta portam; item
+          casamentum <persName ref="#Odo">Odonis</persName>; item casamentum <persName
+            ref="#AtçolinusTerria">Atçolini de <placeName ref="#Terria"
+            >Terria</placeName></persName>; item casamentum <persName ref="#GerarddellusQuerceto"
+            >Gerardelli de <placeName ref="#Querceto">Querceto</placeName></persName>; item
+          casamentum quondam <persName ref="#RiçolusGropolo">Riçoli de <placeName ref="#Groppolo"
+              >Gropolo</placeName></persName>. Item pars episcopi: casamentum <persName
+            ref="#Iacopinus">Iacopini</persName> et illud quondam <persName ref="#Çanellus"
+            >Çanelli</persName> et illud <persName ref="#UgolinusMartinello">Ugolini de
+            Martinello</persName>; item atque illud <persName ref="#Bonvillanus"
+            >Bonivillani</persName> et casamentum <persName ref="#BenencasaPlano">Benencase de
+              <placeName ref="#Plano">Plano</placeName></persName>. Item casamentum quoddam<note
+            xml:id="CCLIIII_n_004" n="d" place="inline"><term type="incerto">quoddam</term>:
+              <emph>corretto su</emph>
+            <term xml:lang="latin">quondam</term>.</note>, inhedificatum, <persName
+            ref="#Riccomannus">Riccomanni</persName>, quod est inter domum <persName
+            ref="#IohannessanctoPaulo">Iohannis</persName> et filiorum quondam <persName
+            ref="#GuidolinusCosta">Guidolini de la <placeName ref="#Costa"
+            >Costa</placeName></persName>, est et sit commune domini episcopi et ipsorum dominorum.
+          Hii sunt castellani et fideles episcopi: <persName ref="#Paganinus">Paganinus</persName>,
+            <persName ref="#Bonensegna">Bonasengna</persName>, <persName ref="#Confortus"
+            >Confortus</persName>, <persName ref="#Montaninus">Montaninus</persName>, <persName
+            ref="#IohannesCancellerio">Iohannes de Cancellerio</persName>, <persName ref="#Venutus"
+            >Vegnutus</persName>, <persName ref="#BenvenutusRainerio">Benvenutus de
+            Rainerio</persName>, <persName ref="#AnnobonusGuilielmini"> Annobonus quondam
+            Guilielmini</persName>, <persName ref="#GuidetusRainerio">Guidetus de
+            Rainerio</persName>, <persName ref="#Rollandus">Rollandus</persName>. Fidelitatem
+          iuraverunt suprascripti homines contra omnes homines <persName ref="#GuilEpLuni"
+              ><roleName>Lunensi episcopo</roleName> domino Guillelmo</persName>.<date
+            when="1232-09-10">M°CC° XXXII, indictione Va, die veneris, X intrante septembri</date>,
+          in <placeName ref="#Moncigoli">castro Moncicoli</placeName> et coram <persName
+            ref="#GuiçolusStatione">Guiçolo de <placeName ref="#Statione"
+            >Statione</placeName></persName>, <persName ref="#TiniosusMoncicolo">Tinioso de
+              <placeName ref="#Moncigoli">Moncicolo</placeName></persName> et <persName
+            ref="#Riccomannus">Riccomanno</persName>, testibus.</p>
+      </div>
+      <div xml:id="CCLIIII_div2" type="mundum">
+        <p xml:id="CCLIIII_p_002" n="002"><ptr target="#CCLIIII_st_001"/> Ego <persName
+            ref="#HengeramusParentisnot">Hengheramus quondam Parentis de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName>, <roleName>palacii sacri
+              notarius</roleName></persName>, hanc cartam olim a <persName ref="#Bonencontrusnot"
+            >Bonencontro de <placeName ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus et inbreviaturis inveni, ita hic bona fide scripsi et autenticavi et
+          in publicam formam redegi, auctoritate et decreto mihi super hiis prestita et concesso a
+          domino <persName ref="#Bonaiunctaiud">Bonaiuncta de Podio de <placeName ref="#Lucca"
+              >Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName
+            ref="#Lunigiana_provincia">provincia <placeName ref="#Lunigiana"
+            >Lunisiane</placeName></orgName> pro venerabili patre domino <persName ref="#GuilEpLuni"
+            >Guilielmo, <roleName>Lunensi episcopo</roleName></persName>, et <placeName ref="#Lucca"
+            >Lucano</placeName>
+          <orgName ref="#Lucca_comune">communi</orgName>, de qua auctoritate et decreto constat per
+          instrumentum publicum factum manu <persName ref="#Alcheriusnot">Alcherii <roleName>notarii
+              de <placeName ref="#Lucca">Luca</placeName></roleName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 215-CCLIIII databile tra il 1270 e
+            il 1272 dalla presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

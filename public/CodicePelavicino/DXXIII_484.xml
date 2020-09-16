@@ -1,0 +1,288 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXXIII_484">
+    <front xml:id="DXXIII_front">
+
+      <titlePart type="numerazioneNuova">484</titlePart>
+      <titlePart type="numerazioneOrig">DXXIII</titlePart>
+
+      <docDate xml:id="DXXIII_docDate">
+        <date when="1281-05-06">1281 maggio 6</date>, Civitavecchia (<term xml:lang="latin">apud Urbem
+          Veterem, in cappella domini episcopi Sabinensis </term>) </docDate>
+
+      <div type="regesto" xml:id="DXXIII_regesto">
+
+        <p> Il vescovo di Luni Enrico e Gualterotto di Giovagallo, procuratore del marchese Moroello
+          Malaspina, al fine di dirimere le loro controversie eleggono come arbitro il vescovo di
+          Sabina Gerardo. Gualterotto di Giovagallo promette che anche i fratelli di Moroello,
+          Manfredo e Alberto, e i nipoti Corrado, Tommaso e Opizino, accetteranno le decisioni
+          dell’arbitro. </p>
+
+      </div>
+
+      <div type="footer" xml:id="DXXIII_footer">
+
+        <div type="orig_doc">
+          <p> Copia [C] cc. 387v.-389r., cc. CCCLXXVIIIIv.-CCCLXXXIr. secondo la numerazione
+            originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 523,
+            pp. 573-577. </p>
+
+        </div>
+
+        <div type="crit_notes">
+          <note> All’interno del documento è riportata per intero la procura data da Moroello
+            Malaspina a Gualterotto di Giovagallo il 18 marzo 1281. </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXXXIII.
+              Instrumentum cuiusdam pactionis inter episcopum Lunensem et cumsules Avulenses super
+              monasterio de Avula.</term></p>
+        </div>
+
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXXIII_div">
+        <p xml:id="DXXIII_p_001" n="1"> In nomine Domini nostri Ihesus Christi, amen. Inter
+          venerabilem patrem dominum <persName ref="#HenricusEpLuni">Henricum, <roleName>Lunensem
+              episcopum</roleName></persName>, pro se, episcopatu suo et ecclesia Lunensi, ex parte
+          una, et nobiles viros dominos <persName ref="#Morruellusvic">Monroellum</persName> et
+            <persName ref="#AlbertusMalaspina3">Albertum, fratres, <roleName>marchiones</roleName>
+            Malaspine</persName>, ex altera, super diversis iniuriis et gravaminibus illatis ipsi
+          episcopo, episcopatui et ecclesie Lunensi atque in persona ipsius episcopi et familiarium
+          suorum necnon hominibus et vassallis eiusdem episcopi et episcopatus seu ecclesie, eidem
+          episcopo assistentibus et faventibus contra nobiles predictos occasione iniuriarum
+          ipsarum, quam etiam super variis et diversis spoliationibus et rapinis et depredationibus
+          castrorum et villarum eiusdem episcopi et episcopatus, obsiditionibus<note place="foot"
+            n="a" xml:id="DXXIII_n_001">obsiditionibus: <emph>così nel testo per</emph>
+            obsidionibus.</note>, combustionibus seu incendiis, devastationibus et occupationibus
+          castrorum, villarum, domorum, vinearum, arborum et agrorum, <pb n="388r" xml:id="fol_388r"
+          />captionibus hominum ipsius episcopatus et ecclesie, incarcerationibus et securitatibus
+          receptis et omnibus aliis questionibus, super quibus discordia orta sit et oriri possit,
+          et aliis variis et diversis dampnis et iniuriis illatis et datis et excessibus hinc inde
+          factis <supplied reason="omitted">in</supplied> villas, castra, possessiones ac homines et
+          vassallos dictorum episcopi et episcopatus et ecclesie Lunensis, orta materia questionis,
+          dictus <persName ref="#HenricusEpLuni"><roleName>dominus</roleName> Henricus<roleName>,
+              episcopus Lunensis</roleName></persName>, pro se, episcopatu et ecclesia sua
+          predictis, et <persName ref="#GualterotusIovagallo"><roleName>dominus</roleName>
+            Gualterotus de <placeName ref="#Zovagallo">Iovagallo</placeName></persName>,
+            <roleName>procurator dicti domini</roleName> Monroelli, procuratorio nomine eiusdem,
+          habens ad compromittendum, componendum et transigendum in unum arbitrium<note place="foot"
+            n="b" xml:id="DXXIII_n_002">arbitrium: <emph>così nel testo per</emph> arbitrum.</note>
+          seu arbitratorem vel plures arbitros seu arbitratores plenum et speciale mandatum scriptum
+          manu <persName ref="#BonacursellusMontebellonot">Bonacurselli <roleName>notarii</roleName>
+            de <placeName ref="#Montebello">Montebello</placeName></persName>, prout in instrumento
+          publico super huiusmodi mandato, confecto per eundem publicum notarium, cuius tenor talis
+          est, plenius continetur: «In nomine Domini, amen. <date when="1281-03-18"> Anno a
+            nativitate Eius M°CCLXXXI, indictione IX, die martis, XVIII marcii <note> Procura data
+              dal marchese Malaspina Moroello del fu Corrado a Gualterotto di Giovagallo per gestire
+              le controversie col vescovo di Luni presso la curia romana. </note></date><persName
+            ref="#Morruellusvic"><roleName>Nobilis vir dominus</roleName> Monroellus
+              <roleName>marchio Malaspine</roleName> quondam <roleName>domini</roleName> Conradi
+            marchionis Malaspine</persName> fecit, constituit et ordinavit <persName
+            ref="#GualterotusIovagallo"><roleName>dominum</roleName> Gualterotum de <placeName
+              ref="#Zovagallo">Iovagallo</placeName></persName>, presentem et suscipientem,
+          procuratorem suum et nuncium specialem in omnibus et singulis causis seu litibus,
+          negociis, questionibus et controversiis, que et quas habet vel habere posset cum quacumque
+          persona, collegio vel universitate, et specialiter cum venerabili patre <persName
+            ref="#HenricusEpLuni"><roleName>domino</roleName> Henrico<roleName>, Dei gratia Lunensi
+              episcopo</roleName></persName>, seu que vel quas quecumque persone vel collegia vel
+          universitates habent vel habere possunt contra predictum nobilem seu que vel quas idem
+          dominus episcopus, pro se aut ecclesia Lunensi vel episcopatu suo, habet vel habere posset
+          cum nobili suprascripto in Romana curia et quacumque alia, necnon coram summo pontifice et
+          quocumque iudice vel auditore ab eodem summo pontifice dato vel dando, ac etiam coram
+          quocumque alio iudice, arbitro seu arbitratore ex quacumque causa, dans ipse nobilis
+          predicto procuratori suo potestatem et speciale mandatum agendi, deffendendi, respondendi,
+          iurandi in anima ipsius veritatem dicendi et de calumpnia et faciendi cuiuslibet alterius
+          generis iuramentum, necnon componendi, transigendi, compromittendi in unum arbitrum seu
+          arbitratorem vel plures arbitros seu arbitratores et compositionem, transactionem seu
+          compromissum, huiusmodi iuramento et quibuscumque penis aliis, vallandi et corroborandi,
+          et arbitrium seu arbitramentum quodlibet ferendi, emologandi, et ipsum nobilem submittendi
+          iurisdictioni cuiuslibet iudicis arbitrio sui arbitratoris, de quo eidem procuratori
+          videbitur expedire in causis seu negociis omnibus suprascriptis, ac etiam eundem nobilem
+          obligandi et personam ac omnia bona sua mobilia et immobilia, presentia et futura, omni
+          modo omnique obligationis genere, de quo eidem procuratori suo videbitur expedire, ac
+          etiam renunciandi privilegio fori, quibuscumque bonis, indulgenciis et privilegiis
+          apostolicis, imperialibus et quibuscumque aliis per quem vel quas compositio vel
+          transactio seu compromissum, quam vel quod per dictum procuratorem fieri contingeret cum
+          quacumque persona, necnon arbitrium seu arbitramentum, laudum, dictum, preceptum seu
+          diffinitionem, quam vel quod ex eis sequi contingeret, quessiri posset aliquatenus vel
+          infringi constitutione de duabus diecis<note place="foot" n="c" xml:id="DXXIII_n_003"
+            >diecis: <emph>così nel testo</emph>.</note> edita in conscilio generali, beneficio
+          restitutionis in integrum et cuilibet alteri exceptioni et deffensioni, consuetudini atque
+          iuri specialiter et generaliter de quibus eidem procuratori videbitur et per quas vel que
+          dictus nobilis contra quamcumque compositionem, transactionem seu compromissum aut contra
+          quodcumque arbitrium seu arbitratum, laudum, dictum, preceptum seu diffinitionem, quod et
+          quam in predictis causis seu negociis fieri vel proferri contingeret, posset de iure vel
+          de facto, in iudicio vel extra iudicium, aliquatenus se deffendere vel tueri. Et promisit
+          idem nobilis mihi notario infrascripto, stipulanti nomine dicti domini episcopi et nomine
+          aliorum quorum interest vel interesse posset, sub ypotheca bonorum suorum omnium,
+          presentium et futurorum, de iudicato sisti et iudicatum solvendo, se ratum habiturum et
+          firmum quicquid per dictum procuratorem suum in predictis omnibus et singulis et circa ea
+          actum, gestum fuerit seu etiam procuratum. </p>
+        <p xml:id="DXXIII_p_002" n="2">Actum <placeName ref="#Sarzana">Sarzane</placeName>, in domo
+            <persName ref="#Bonalbergus">Bonalbergi</persName>, presentibus <persName
+            ref="#ArdoinusViano">Ardoino de <placeName ref="#Viano">Viano</placeName></persName>,
+            <persName ref="#ThomasiusZovagallo">Thomasio de <placeName ref="#Zovagallo"
+              >Zovagallo</placeName></persName> et <persName ref="#AlexanderMonteAguto">Alexandro de
+              <placeName ref="#MonteAguto">Monte Aguto</placeName></persName>, testibus ad hec
+          rogatis. Ego <persName ref="#BonacursellusMontebellonot">Bonacursus, <roleName>notarius
+              domini</roleName></persName>
+          <persName ref="#G_Advocatis">G. de Advocatis de <placeName ref="#Lucca"
+            >Luca</placeName></persName>, hiis omnibus interfui et rogatus scripsi».</p>
+        <p xml:id="DXXIII_p_003" n="3">Volentes <supplied reason="omitted">vitare</supplied>
+          <note place="foot" n="d" xml:id="DXXIII_n_004"><emph>Integrazione da doc.
+              485-DXXIIII</emph>.</note> litigiorum anfractus et viam pacis et concordie
+          amplectentes, compromiserunt in reverendum patrem <persName ref="#GerardusepSabinensis"
+              ><roleName>dominum</roleName> G(erardum), <roleName>miseratione divina episcopum
+              Sabinensem</roleName></persName>, super omnibus iniuriis, spoliationibus, rapinis,
+          incendiis, devastationibus et occupationibus suprascriptis et omnibus aliis et super
+          omnibus litibus, questionibus, causis, controversiis et querelis que sunt vel esse possunt
+          vel hactenus fuerunt inter ipsos <persName ref="#HenricusEpLuni"
+              ><roleName>dominum</roleName> Henricum, <roleName>Lunensem
+            episcopum</roleName></persName>, et nobilem predictum <pb n="388v" xml:id="fol_388v"/>
+          occasione dictarum iniuriarum, spoliationum, incendiorum, devastationum, rapinarum et
+          occupationum et quacumque alia occasione vel causa, que orta sit vel oriri possit in
+          posterum inter eos, tanquam in arbitrum, arbitratorem, cognitorem, diffinitorem,
+          laudatorem, preceptorem et amicabilem compositorem, submittentes se libere et absolute, de
+          alto et basso, iurisdictioni, arbitrio, arbitratui, cognitioni, laudo, dicto, precepto et
+          diffinitioni dicti domini episcopi Sabinensis, promittentes dictus dominus episcopus
+          Lunensis, pro se, episcopatu et ecclesia sua et hominibus predictis, et prefatus
+          procurator predicti nobilis, procuratorio nomine pro eo et hominibus suis, stare et parere
+          arbitrio, arbitratui, cognitioni, laudo, dicto, precepto cuilibet quem et quod idem
+          dominus episcopus Sabinensis, semel et pluries et quocienscumque voluerit, faceret in
+          omnibus et singulis suprascriptis et aliis quibuscumque, sub pena duorum millium marcharum
+          argenti hinc inde promissa et sollempniter stipulata a partibus suprascriptis, ac
+          arbitrium, arbitratum<note place="foot" n="e" xml:id="DXXIII_n_005">arbitratum: bitrat
+              <emph>corretto su precedente scrittura</emph>.</note>, laudum, dictum, preceptum,
+          compositionem, cognitionem et diffinitionem inviolabiliter observare, que pena tociens
+            committatur<note place="foot" n="f" xml:id="DXXIII_n_006">committatur: a <emph>corretto
+              su precedente scrittura</emph>.</note> et peti et exigi possit cum effectu in quolibet
+          et pro quolibet capitulo suprascripto et aliis ac solvi debeat parti observanti arbitrium,
+          arbitratum, laudum, dictum, preceptum, compositionem, cognitionem et diffinitionem a parte
+          ea non observante quociens contra predicta vel aliquod predictorum gestum, ventum fuerit
+          seu factum. Et voluerunt dicte partes et promiserunt, sub pena predicta, specialiter et
+          expresse quod dictus dominus Sabinensis possit de dictis litibus et singulis causis et
+          controversiis, questionibus et querelis cognoscere, arbitrari, laudare, dicere, precipere
+          et sententiari, iuris ordine servato vel non servato, summarie, sine strepitu et figura
+          iudicii seu absque libelli oblatione et litis contestatione aut aliqua iuris sollempnitate
+          servata, necnon fideliter arbitrari, laudare, precipere, componere inter eos ac etiam
+          diffinire in quocumque loco et quandocumque sibi placuerit, semel et pluries, coniunctim
+          et separatim, diebus feriatis et non feriatis, partibus presentibus vel absentibus, seu
+          una presente et altera absente, citatis vel non citatis, sedendo vel stando, in scriptis
+          et sine scriptis, prout ipse dominus Sabinensis voluerit et sibi videbitur expedire. Et
+          promiserunt eedem partes omnem processum dicti domini <orgName ref="#Sabina_diocesi"
+            >Sabinensis</orgName> omneque arbitrium, laudum, preceptum, dictum, compositionem et
+          diffinitionem, quam et quod dictus dominus Sabinensis in omnibus et singulis suprascriptis
+          et omnibus aliis in posterum emergentibus fecerit aut pronunciaverit, acceptare, recipere
+          et emologare infra triduum post prolationem ipsorum, sub pena predicta. Actum est etiam
+          inter easdem partes specialiter et expresse quod idem dominus Sabinensis possit arbitrium,
+          arbitratum, laudum, dictum, preceptum, compositionem et diffinitionem quomodocumque
+          faciendum seu pronunciandum per eum in omnibus et singulis suprascriptis et aliis
+          quibuscumque, que oriri possent inter eos, quandocumque et ubicumque et quocienscumque
+          voluerit interpretari, declarare in qualibet sui<note place="foot" n="g"
+            xml:id="DXXIII_n_007">sui: <emph>così nel testo per</emph> sua.</note> parte et in
+          quocumque capitulo et eisdem addere vel minuere et eadem immutare, prout sibi melius
+          videbitur expedire; quas quidem interpretationem, declarationem, additionem et
+          diminutionem ac immutationem eedem partes, sub pena predicta promissa et stipulata,
+          sollempniter promiserunt inviolabiliter observare et numquam contra ea per se vel alium
+          aut alios facere vel venire, de iure vel de facto, aliqua ratione vel causa, omni laudo,
+          arbitrio, dicto, precepto, diffinitioni, pronunciationi ipsius domini Sabinensis, que vel
+          quas inter predictas partes super quocumque aut aliquo eorum vel predictorum occasione
+          fecerit, dixerit, pronunciaverit et arbitratus fuerit<note place="foot" n="h"
+            xml:id="DXXIII_n_008">omni laudo-fuerit: <emph>così nel testo, la frase è priva di verbo
+              reggente</emph>.</note>. Ac etiam voluerunt et consenserunt dicte partes quod idem
+          dominus Sabinensis possit et debeat temporaliter et spiritualiter procedere et
+          excomunicationis et interdicti sententias sine aliqua iuris sollempnitate proferre et
+          executioni mandare et mandari facere contra partem dictum arbitrium, arbitratum, laudum,
+          dictum et preceptum non servantem et penam et penas alias temporales predictis partibus
+          imponere et ab eis exigere, semel et pluries, quandocumque et quocienscumque sibi
+          placuerit et visum fuerit expedire. Promisit etiam idem <roleName>dominus</roleName>
+          <persName ref="#GualterotusIovagallo">Gualterotus</persName>, procurator ipsius
+            <roleName>domini</roleName>
+          <persName ref="#Morruellusvic">Monroelli</persName>, nomine ipsius, dictum
+            <roleName>dominum</roleName>
+          <persName ref="#Morruellusvic">Monroellum</persName> facturum et curaturum cum effectu,
+          sub pena predicta, quod <persName ref="#ManfredusMalaspina"><roleName>domini</roleName>
+            Manfredus</persName>, <persName ref="#AlbertusMalaspina3">Albertus</persName>, <persName
+            ref="#ConradusMalaspina2">fratres, Conradus</persName>, <persName ref="#ThomasMalaspina"
+            >Thomas</persName> et <persName ref="#OpicinusMalaspina">Opicinus</persName>, nepotes
+          predictorum dominorum, habebunt ratum et firmum quicquid per dictum dominum Sabinensem
+          sententiatum, laudatum et arbitratum, dictum et preceptum fuerit in omnibus suprascriptis,
+          et observabunt et in nullo capitulo contravenient de hiis que per eundem dominum
+          Sabinensem sententiata seu arbitrata fuerint. Et promiserunt dicte partes quod securitates
+          sive fideiussores ad mandatum dicti domini Sabinensis dabunt, quociens ab eodem domino
+          Sabinensi fuerint requisite. Et promiserunt insuper ambe partes, sub predicta <pb n="389r"
+            xml:id="fol_389r"/>pena, quod facient et curabunt toto eorum posse quod partes de
+            <placeName ref="#Sarzana">Sarzana</placeName> super omnibus querelis, iniuriis et
+          questionibus ortis et illatis in personis et rebus inter eos compromittent in dictum
+          dominum Sabinensem et observabunt quicquid dictum, laudatum et preceptum fuerit per dictum
+          dominum Sabinensem et pro suprascriptis omnibus et singulis observandis, ut superius sunt
+          expressa. Idem dominus episcopus omnia bona episcopatus Lunensis, mobilia et immobilia, et
+          idem <persName ref="#GualterotusIovagallo"><roleName>dominus</roleName>
+            Gualterotus</persName>, <roleName>procurator</roleName> prefati <persName
+            ref="#Morruellusvic"><roleName>domini</roleName> Monroelli</persName>, procuratorio
+          nomine, (omnia bona) mobilia et immobilia, presentia et futura, que unaqueque pars alteri
+          nomine se constituit precario possidere in quibuscumque bonis existant, sibi invicem
+          obligarunt et pars parti inter se et ipse partes mihi notario stipulatione observare et
+          firmum habere, nomine predictorum et omnium quorum interest vel interesse potest. Que
+          omnia predicta et singula <persName ref="#Symoncler"><roleName>magister</roleName> Symon,
+              <roleName>clericus ipsius domini episcopi Lunensis</roleName></persName>, nomine
+          ipsius domini episcopi, et in animam ipsius, ibidem presentis et manda(n)tis, et predictus
+          dominus <persName ref="#GualterotusIovagallo">Gualterotus
+            <roleName>procurator</roleName></persName>, nomine prefati<note place="foot" n="i"
+            xml:id="DXXIII_n_009">nomine prefati: <emph>nel testo prefati nomine con segno di
+              richiamo per invertire l’ordine delle parole</emph>. </note>
+          <persName ref="#Morruellusvic"><roleName>domini</roleName> Monroelli</persName> et in
+          animam ipsius, iuraverunt attendere et observare absque dolo et fraude in omnibus et
+          singulis capitulis suprascriptis super quibus prefatus dominus Sabinensis sententiam seu
+          arbitrium inter partes ipsas duxerit proferendum. </p>
+        <p xml:id="DXXIII_p_004" n="4">Acta sunt hec apud <placeName ref="#UrbisVeteris">Urbem
+            Veterem</placeName>, in <orgName ref="#Sabina_diocesiSabina_diocesi">cappella eiusdem
+            domini Sabinensis</orgName>, presentibus nobilibus viris <persName
+            ref="#GuilielmusSipione">dominis Guilielmo de <placeName ref="#Sipione"
+              >Sipione</placeName></persName>
+          <persName ref="#UbertusPelavicinus"><roleName>marchione</roleName> Pellavicino</persName>,
+            <persName ref="#FedericusFlisco">Frederico de Flisco <roleName>comite</roleName>
+            <placeName ref="#Lavania">Lavanie</placeName></persName>, <persName
+            ref="#PetrusGrimaldis">Petro de Grimaldis</persName>, <persName ref="#SimonFerapecoris"
+            >Symone de Ferapecoris</persName>, <persName ref="#RollandusVez">Rollando de <placeName
+              ref="#Vezzano">Vezano</placeName></persName>, <persName ref="#BonacursusDallo"
+            >Bonacurso de <placeName ref="#Dallo">Dallo</placeName></persName> et <persName
+            ref="#NicoluciusBarisseti">Nicolucio Barisseti de <placeName ref="#Lucca"
+              >Luca</placeName></persName> et <persName ref="#AndreaGavio">Andrea de <placeName
+              ref="#Gavio">Gavio</placeName>
+            <roleName>canonico</roleName>
+            <placeName ref="#Soissons">Suessiensi</placeName></persName> et pluribus aliis testibus
+          ad hec vocatis et rogatis. <date when="1281-05-06">Anno Domini M°CCLXXXI, indictione IX,
+            die VI mensis maii, pontificatus domini Martini pape IIII anno primo</date>. </p>
+        <p xml:id="DXXIII_p_005" n="5">
+          <ptr target="#DXXIII_st_001"/> Ego <persName ref="#ArmannusMantuanusnot">Armannus dictus
+            Mantuanus de <placeName ref="#Mantua">Mantua</placeName></persName>,
+            <roleName>auctoritate domini pape notarius</roleName>, omnibus hiis interfui, scripsi et
+          publicavi et consueto signo meo signavi, rogatus, predicta. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

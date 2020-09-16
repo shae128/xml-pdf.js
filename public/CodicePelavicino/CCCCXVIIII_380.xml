@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="CCCCXVIIII_380">
+    <front xml:id="CCCCXVIIII_front">
+
+      <titlePart type="numerazioneNuova">380</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXVIIII</titlePart>
+
+      <docDate xml:id="CCCCXVIIII_docDate">
+        <date when="1255-09-21">1255 settembre 21</date>, <placeName>Ponzanello</placeName>
+          (<emph>in ecclesia de Ponzanello</emph>) </docDate>
+
+      <div type="regesto" xml:id="CCCCXVIIII_regesto">
+        <p>Bolaneto del fu Prodomo di <emph>Debio</emph>, del distretto di Bolano, cede al vescovo
+          di Luni Guglielmo, al prezzo di 20 soldi di imperiali, la metà di due pezzi di terra posti
+          a <emph>Debio</emph>. Bolaneto, che prima teneva tali beni in feudo dal vescovo e dalla
+          curia lunense, li ottiene ora in affitto al censo di una libbra d’olio. Il vescovo paga il
+          dovuto con quello che ha ricavato dalla liberazione dei rustici di Carrara.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 333r.-333v., cc. CCCXXVr.-CCCXXVv. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 419,
+            p. 411, con data 1256, già corretta da <ref target="#MAZZINI_1914">MAZZINI 1914</ref>,
+            p. 28.</p>
+        </div>
+
+        <div type="crit_notes">
+          <p>La parte iniziale del documento è stata letta con l’ausilio della luce di Wood</p>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCCXVIIII. Unius libre olei, quam reddit Balanectus.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXVIIII_div">
+        <p xml:id="CCCCXVIIII_p_001">In Dei nomine, amen. <date when="1255-09-21">Anno a nativitate
+            Eius M°CCLV, indictione XIII, XXI septembris.</date>
+          <persName ref="#BolanetusProdomi">Bolanetus quondam Prodomi de <placeName ref="#Debia"
+              >Debio</placeName></persName> de districtu <placeName ref="#Bolano">Bolani</placeName>
+          pro se suisque heredibus fecit finem et refutationem et <supplied reason="illeggibile"
+            >pactum de non <note xml:id="CCCCXVIIII_n_001" n="a" place="foot">[..]: <emph>parole
+                illeggibili a causa dell’inchiostro sbiadito, per l’integrazione cfr. doc. 0379
+                (CCCCXVIIII) con la stessa data cronica e topica</emph></note></supplied> petendo et
+          datum venerabili patri domino <persName ref="#GuilEpLuni">Guilielmo, <roleName>Dei gratia
+              Lunensi episcopo</roleName></persName>, recipienti pro se suisque successoribus,
+            <supplied reason="illeggibile">nomine episcopatus <note xml:id="CCCCXVIIII_n_002" n="a"
+              place="foot">[…]: <emph>parole illeggibili a causa dell’inchiostro sbiadito, per
+                l’integrazione cfr. doc. 0379 (CCCCXVIIII) con la stessa data cronica e
+                topica</emph></note></supplied>, de medietate duarum petiarum terre pro indiviso,
+          que posite <supplied reason="omitted">sunt</supplied> in loco dicto <placeName
+            ref="#Debia">Debio</placeName>, in <supplied reason="illeggibile">districtu <placeName
+              ref="#Bolano">Bolani</placeName><note xml:id="CCCCXVIIII_n_003" n="a" place="foot"
+              >[…]: <emph>parole illeggibili a causa dell’inchiostro sbiadito, per l’integrazione
+                cfr. doc. 0379 (CCCCXVIIII) con la stessa data cronica e
+            topica</emph></note></supplied>, quas, ut dicebat, ab ipso domino episcopo et a curia
+          Lunensi nomine homagii detinebat, quarum uni coheret ab uno latere <persName
+            ref="#BonafestaDebia">Bonafeste de <placeName ref="#Debia">Debio</placeName></persName>,
+          ab alio <persName ref="#GuilielminusDebio">Guilielmini</persName> eiusdem loci, superius
+          eiusdem <persName ref="#BolanetusProdomi">Bolaneti</persName>, <pb n="333v"
+            xml:id="fol_333v"/> inferius similiter suprascipti <persName ref="#GuilielminusDebio"
+            >Guilielmini</persName>,et habet tres pedes olivarum super se; alteri petie coheret ab
+          uno latere <persName ref="#BonafestaDebia">Bonafeste</persName>, ab alio suprascripti
+            <persName ref="#GuilielminusDebio">Guilielmini</persName>, superius eiusdem <persName
+            ref="#BonafestaDebia">Bonafeste</persName>, inferius eiusdem <persName
+            ref="#BolanetusProdomi">Bolaneti</persName>, cedendo et dando eidem domino episcopo,
+          recipienti ut dictum est, omnia iura et actiones et rationes utiles et directas, reales et
+          personales seu mixtas, que et quas habebat in medietate suprascriptarum duarum petiarum
+          terre vel sibi competere possent aliquo modo vel iure, confitendo se recepisse idem
+            <persName ref="#BolanetusProdomi">Bolanetus</persName> a suprascripto domino episcopo,
+          pro predictis fine et refutatione, dato et pacto, <measure type="imperiales"
+            unit="solidus" quantity="20">soldos XX imperialium</measure>, qui denarii fuerunt de
+          francatione rusticorum de <placeName ref="#Carrara">Carraria</placeName>, renunciando
+          exceptioni non numerate pecunie et non recepte et omni alii iuri et legum auxilio,
+          promittendo dictam finem et refutationem et predicta omnia suprascriptus <persName
+            ref="#BolanetusProdomi">Bolanetus</persName> rata habere et firma tenere et in nullo
+          contravenire de iure vel de facto, aliquo modo vel ingenio, obligando se suosque heredes
+          ad penam dupli suprascripte pecunie et eius tocius quod in questione veniret; qua soluta,
+          predicta omnia et singula in suo robore perseverent, renunciando omni iuri et legibus
+          contra hec introductis. Ibidem et incontinenti predictus dominus episcopus per se suosque
+          successores, nomine episcopatus, locavit et dedit nomine ficti suprascripto <persName
+            ref="#BolanetusProdomi">Bolaneto</persName>, recipienti pro se suisque heredibus,
+          medietatem pro indiviso suprascriptarum petiarum duarum terre, ita quod ut amodo perpetuo,
+          nomine ficti, suprascriptus <persName ref="#BolanetusProdomi">Bolanetus</persName> suique
+          heredes suprascriptam medietatem predictarum duarum petiarum terre habeant, teneant,
+          possideant et fruantur, cum accessibus et regressibus suis et omnibus suis pertinenciis in
+          integrum, sine alicuius aliqua contradictione, dando et reddendo exinde suprascriptus
+            <persName ref="#BolanetusProdomi">Bolanetus</persName> suique heredes suprascripto
+          domino episcopo suisque successoribus et curie Lunensi, omni anno, per totum mensem
+          ianuarii, libram I boni olei, ad libram currentem curie Lunensis, nomine ficti, apud
+            <orgName ref="#Ceparana_S_Venanzio">monasterium de <placeName ref="#Ceparana"
+              >Cepparana</placeName></orgName>; alia superimposita ex hoc eis non fiat. Et hoc omnia
+          et singula attendere et observare promiserunt sibi ad invicem, sub pena <measure
+            type="imperiales" unit="solidus" quantity="20">XX soldorum imperialium</measure>, quam
+          dare et solvere teneatur pars que contra iverit parti predicta servanti; qua soluta,
+          suprascriptis omnibus et singulis semper in suo robore duraturis, obligando se idem
+          dominus episcopus suosque successores et bona episcopatus ad hec attendenda et observanda
+          et suprascriptus <persName ref="#BolanetusProdomi">Bolanetus</persName> se suosque heredes
+          et bona sua, renunciando omni iuri et legibus contra hec introductis.</p>
+        <p xml:id="CCCCXVIIII_p_002">Actum in <orgName ref="#Ponzanello_S_Martino">ecclesia de
+              <placeName ref="#Ponzanello">Ponzanello</placeName></orgName>, presentibus magistro
+            <persName ref="#Saladinusarc">Saladino <roleName>archipresbytero</roleName> de
+              <placeName ref="#Viano">Viano</placeName></persName>, <persName ref="#Iacopinusarc"
+            >Iacopino <roleName>archipresbytero</roleName> de <placeName ref="#Ameglia"
+              >Amelia</placeName></persName> et <persName ref="#Paganinusnot">Paganino
+              <roleName>notario</roleName> de <placeName ref="#Santo_Stefano">Sancto
+              Stephano</placeName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCCCXVIIII_p_003"><ptr target="#CCCCXVIIII_st_001"/>Ego <persName
+            ref="#Adiutusnot">Adiutus, <roleName>sacri palatii notarius</roleName></persName>, hiis
+          interfui et de mandato suprascripti domini episcopi, hec scripsi et complevi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

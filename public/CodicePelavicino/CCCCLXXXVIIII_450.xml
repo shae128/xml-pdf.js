@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="450(CCCCLXXXVIIII).xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXXXVIIII_450">
+    <front xml:id="CCCCLXXXVIIII_front">
+      <titlePart type="numerazioneNuova">450</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXVIIII</titlePart>
+      <docDate xml:id="CCCCLXXXVIIII_docDate">
+        <date when="1285-04-29">1285 aprile 29</date>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXXXVIIII_regesto">
+        <p>Dichiarazione mutila. Si attesta che alcuni nobili di Trebiano, Guglielmo Mascardo,
+          Saladino, Gualterotto <term xml:lang="latin">del fu Arduino</term>, i fratelli Cardino e
+          Attolino, Corrado <term xml:lang="latin">della fu Garfagnina</term>, Attolino e Riccardo,
+          avevano venduto il castello di Trebiano al comune di Genova agendo contro il giuramento di
+          fedeltà prestato al vescovo di Luni e che il comune di Genova aveva fatto poi distruggere
+          il medesimo castello, arrecando grave danno alla chiesa di Luni.<term xml:lang="latin"/>
+        </p>
+      </div>
+      <div type="footer" xml:id="CCCCLXXXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 369r., c. CCCLXr., secondo la numerazione originale </p>
+        </div>
+        <div type="biblio">
+          <p>Edizione in <ref target="#PODESTÀ_1984">PODESTÀ 1894</ref>, pp. 102-103 e in <ref
+              target="#LUPO_GENTITLE_1912">LUPO GENTILE 1912</ref>, n. 489, p. 509. </p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il documento è interrotto. Nel margine esterno, di mano posteriore, la seguente
+            annotazione: <emph>Castrum Tribiani</emph>
+          </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXXVIIII. Item de Trebiano.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCLXXXVIIII_div">
+        <p xml:id="CCCCLXXXVIIII_p_001" n="1"> In Dei nomine, amen. <date when="1285-04-29">Anno
+            Domini MCCLXXXV, indictione XIII, die penultima aprilis</date>. Quia castrum <placeName
+            ref="#Trebiano">Trebiani</placeName>, cum pertinenciis suis, et ius et proprietas ad
+          Lunensem Ecclesiam et episcopatum spectat et spectare debet et nobiles de <placeName
+            ref="#Trebiano">Trebiano</placeName> in feudum teneant ipsum castrum et tenere debent et
+          vassalli et fideles esse debeant Lunensis episcopi et episcopatus de ipso castro et
+          pertinenciis ipsius, <persName ref="#GuilielmusAlberti">Guilielmus Mascardi</persName>,
+            <persName ref="#SaladinusTrebiano">Saladinus</persName>, <persName
+            ref="#GualterotusArduini">Gualterotus quondam domini Arduini</persName>, <persName
+            ref="#CardinusAttTrebiano">Cardinus</persName>, <persName ref="#AttolinusCarTrebiano"
+            >Attolinus</persName>, fratres, <persName ref="#CunradusTrebiano">Conradus quondam <note
+              n="a" place="foot" xml:id="CCCCLXXXVIIII_01">
+              <emph>manca l’indicazione, segue spazio bianco per mm. 20.</emph></note></persName>,
+            <persName ref="#GarfagninaFacii">domina Garfagnina uxor quondam Facii</persName>
+          <persName ref="#Paganellus">domini Paganelli</persName>, <persName
+            ref="#AttolinusCarTrebiano">Attolinus</persName>, <persName ref="#RiçardusTrebiano"
+            >Riçardus</persName> et alii nobiles de <placeName ref="#Trebiano">Trebiano </placeName>
+          vendiderunt dictum castrum de facto et non de iure <orgName ref="#Genova_comune">communi <placeName ref="#Ianua"
+            >Ianue</placeName></orgName>, in grave dampnum et dispendium Lunensis Ecclesie et episcopatus,
+          veniendo contra fidelitatis proprium iuramentum, et nobiles viri domini <persName
+            ref="#ObertusSpinula">Obertus Spinula</persName> et <persName ref="#ObertusDoria"
+            >Obertus Auria <note n="b" place="foot" xml:id="CCCCLXXXVIIII_02">Auria: <emph>nel
+                testo</emph> Aut, <emph>con segno generico di abbreviazione</emph>
+            </note></persName>, <roleName>capitanei civitatis</roleName>
+          <placeName ref="#Ianua">Ianue</placeName>, potestas et <orgName ref="#Genova_comune">commune <placeName ref="#Ianua">Ianue</placeName></orgName> domum castri dirui et
+          destrui fecerunt, in grave detrimentum et lesionem non modicam Lunensis Ecclesie et
+          episcopatus, contra requisitionem et inhibitionem et ostensionem iurium eis a nobis
+            <persName ref="#HenricusEpLuni">Henrico, <roleName>Dei gratia Lunensi
+              episcopo</roleName>, natione de <placeName ref="#Fucecchio"
+            >Ficechio</placeName></persName>, factam et nos <persName ref="#HenricusEpLuni"
+            >Henricus, <roleName>Lunensis episcopus</roleName></persName>, propter eorum<note n="c"
+            place="foot" xml:id="CCCCLXXXVIIII_03"><emph>Il documento si interrompe senza apparente
+              motivo</emph>.</note>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

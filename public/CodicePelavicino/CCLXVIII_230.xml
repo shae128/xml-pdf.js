@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXVIII_230">
+    <front xml:id="CCLXVIII_front">
+
+      <titlePart type="numerazioneNuova">230</titlePart>
+      <titlePart type="numerazioneOrig">CCLXVIII</titlePart>
+
+      <docDate xml:id="CCLXVIII_docDate">
+        <date when="1203-03-21">1203 marzo 21</date> o <date when="1203-03-23"> 23</date> o <date
+          when="1203-03-28">28</date>, <placeName>Sarzanello <emph>(<term xml:lang="latin">in curia
+              castri Sarzani</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXVIII_regesto">
+        <p>Gualtiero, vescovo di Luni, concede in locazione a Bonacorso gastaldo 8 iugeri di terra
+          posta <term xml:lang="latin">ad hospitale de Padule</term> al fitto annuale di 8 staia di
+          frumento. La terra confina con la <term xml:lang="latin">strata Romea.</term></p>
+      </div>
+
+      <div type="footer" xml:id="CCLXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 270v., c. CCLXIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 268,
+            p. 248.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il 23 marzo 1203 cadeva di domenica; per cadere di venerdì dovrebbe essere <emph>V
+              kalendas aprilis</emph>, cioè il 28 marzo, oppure <emph>XII Kalendas aprilis</emph>,
+            cioè il 21 marzo: cfr.<ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 19. La parte
+            finale del documento è stata letta con l’ausilio della lampada di Wood.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXVIII_div">
+        <p xml:id="CCLXVIII_p_001" n="1"><ptr target="#CCLXVIII_st_001"/> In nomine Domini,
+            amen.<date when="1203-03-23">Anno a nativitate Eius millesimo CC tercio, indictione VIa,
+            die veneris, X kalendas aprilis</date>. Dominus <persName ref="#GualEpLuni">Gualterius,
+              <roleName>Dei gratia Lunensis Ecclesie episcopus</roleName></persName>, per se et suos
+          successores locavit et dedit nomine ficti <persName ref="#Bonacursuscas">Bonacurso
+              <roleName>castaldo</roleName></persName>, recipienti pro se et suis heredibus, VIII
+            <term ref="#iuva">iuvas</term> terre insimul continuas sive plus, positas ad <orgName
+            ref="Padule_S_Leonardo">hospitale de <placeName ref="#Padule"
+            >Padule</placeName></orgName>, tali pacto quod de cetero in perpetuum iamscriptus
+            <persName ref="#Bonacursuscas">Bonacursus</persName> et sui heredes iamscriptas VIII
+          iuvas terre sive plus, in integrum, cum omni iure et actione et pertinencia sua, habeant
+          et teneant et fruantur nomine ficti, sine contradictione iamscripti domini episcopi et
+          suorum successorum et cum sua suorumque successorum deffensione ab omni persona, cum
+          ratione, aut in consimili restaurare, prout valuerit, restaurare promisit, si deffensare
+          non posset, dando exinde iamscriptus <persName ref="#Bonacursuscas">Bonacursus</persName>
+          et sui heredes iamscripto domino episcopo et suis successoribus vel cui commiserit, omni
+          anno, per mensem augusti, nomine ficti, staria VIII de frumento, ad starium commune de
+            <placeName ref="#Sarzana">Sarzana</placeName>, videlicet mundi et sicci tantum; alia
+          superimposita eis non fiat. Et quicumque ex ipsis vel illorum heredibus contra hoc quod
+          superius legitur venerit, vel successoribus, tunc persolvat alteri parti, nomine pene,
+            <measure type="Imperiales" quantity="100" unit="solidus">soldos C imperialium</measure>,
+          rato manente pacto, precipiendo eidem <persName ref="#Bonacursuscas">Bonacurso</persName>
+          ut de iamscripta tota locatione sua auctoritate inde tenutam intraret. Coheret iamscripte
+          terre toti inferius <placeName ref="#Romea_st">strata Romea</placeName>, superius terra
+          hominum de <placeName ref="#Castelnuovo">Castro Novo</placeName>, ab una parte via
+          publica, ab alia hominum de <placeName ref="#Fosdinovo">Fosdenova</placeName>.</p>
+        <p xml:id="CCLXVIII_p_002" n="2">Actum in <placeName ref="#Sarzanello">curia castri
+            Sarzani</placeName>, feliciter, cum stipulatione, presentibus <persName
+            ref="#UbaldusParente">Ubaldo quondam Parentis</persName>, <persName ref="#Nicholausiud"
+            >Nicholao <roleName>iudice</roleName></persName>, <roleName>archipresbytero de
+              <placeName ref="#Sorano">Surano</placeName></roleName>, <persName
+            ref="#BalzanusSarzana">Balzano de <placeName ref="#Sarzanello">castro
+              Sarzani</placeName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCLXVIII_p_003" n="3">Ego <persName ref="#Prefectusnot">Prefectus,
+              <roleName>domini imperatoris et Lunensis curie notarius</roleName></persName>, hec
+          rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

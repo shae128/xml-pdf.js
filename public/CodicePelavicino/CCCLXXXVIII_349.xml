@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXXXVIII_349">
+    <front xml:id="CCCLXXXVIII_front">
+
+      <titlePart type="numerazioneNuova">349</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXVIII</titlePart>
+
+      <docDate xml:id="CCCLXXXVIII_docDate">
+        <date when="1233-01-31">1233 gennaio 31</date>, <placeName>Ameglia (<term xml:lang="latin"
+            >in palatio episcopi de Amelia</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXXXVIII_regesto">
+        <p>Guglielmo, vescovo di Luni, loca a Guidone di Canneto del fu Guglielmo e a Giunta del fu
+          Pietro di Montemarcello, che agiscono a nome del loro pupillo Enricuccio del fu Enrico di
+          Canneto, due parti <term xml:lang="latin">pro indiviso</term> di un pezzo di terra in
+          Monte Marcello, a <term xml:lang="latin">Sommo Foresto</term>. Il fitto annuale
+          corrisponde a due sestari di frumento; la concessione costa 18 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXXXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 319v., c. CCCXIv. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 388,
+            pp. 367-368.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il documento contiene formule ceterate.<p>Stesura <emph>in mundum</emph> databile
+              tra il 1270 e il 1272 dalla presenza di Bonagiunta de Podio di Lucca.</p></note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXXXVIII. Duorum stariorum frumenti, quod reddit Henrigutius de Caneto.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXXXVIII_div">
+        <pb n="319v" xml:id="fol_319v"/>
+        <p xml:id="CCCLXXXVIII_p_001" n="1">In Dei nomine, amen. <date when="1233-01-31">Anno a
+            nativitate Eius M°CCXXXIII, indictione VI, die lune, ultimo die mensis ianuarii</date>,
+          in palatio episcopi de <placeName ref="#Ameglia">Amelia</placeName>, coram <persName
+            ref="#MartinusGrecacas">Martino de Greca <roleName>castaldo</roleName></persName>,
+            <persName ref="#GualterotusManzeti">Gualteroto quondam Mançeti</persName>, <persName
+            ref="#BennatusSpu">Bennato de <placeName ref="#Speluçano">Speluçano </placeName>
+          </persName>de <placeName ref="#Garfagnana">Garfagnano</placeName><note n="a" place="foot"
+            xml:id="CCCLXXXVIII_n_001"><term xml:lang="latin">Garfagnano</term>: <emph>così nel
+              testo</emph>.</note>, <roleName>domino</roleName>
+          <persName ref="#SalvagiusMarciaso">Salvagio de <placeName ref="#Marciaso"
+              >Marciasio</placeName></persName> et <persName ref="#VenturaBaloganano">Ventura de
+              <placeName ref="#Baloganano">Balognano</placeName></persName>, testibus ad hec<note
+            n="b" place="foot" xml:id="CCCLXXXVIII_n_002"><term xml:lang="latin">hec</term>:
+              <emph>corretto su precedente scrittura</emph>.</note> rogatis. Venerabilis <persName
+            ref="#GuilEpLuni">Guilielmus</persName>, <roleName>Dei gratia Lunensis
+            episcopus</roleName>, per se et suos successores dedit, cessit atque locavit <persName
+            ref="#GuidoGuilielmi">Guidoni de <placeName ref="#Canneto">Canneto</placeName> quondam
+            Guilielmi</persName> et <persName ref="#IunctaPetri">Iuncte quondam Petri de <placeName
+              ref="#Montemarcello">Montemarcello</placeName></persName>, tutori <persName
+            ref="#HenriguciusHenrici">Henrigucii quondam Henrici de <placeName ref="#Canneto"
+              >Canneto</placeName></persName>, pro ipso pupillo tutorio nomine recipienti, et
+          heredibus eorum, in perpetuum, masculis et feminis, nominatim duas partes pro indiviso de
+          una tenuta seu<supplied reason="omitted">de</supplied> una petia terre posite in
+            <placeName ref="#Montemarcello">Montemarcello</placeName>, a <placeName
+            ref="#Somo_Foresto">Somo Foresto</placeName>, cui sunt fines superius via publica, a
+          pede forestum et castanei <persName ref="#Riccius">Ricci</persName>, ab una parte
+            <persName ref="#RicciusMontemarcello">Riccius de <placeName ref="#Montemarcello"
+              >Montemarcello</placeName></persName> et eius frater et ab alia via publica, cum
+          accessibus et egressibus, superioribus et inferioribus suis omnique iure conctaque
+          utilitate suprascripte tenute et terre competentibus, ad habendum et tenendum et cetera,
+          promittens super predictis legitimam deffensionem vel restaurationem faciendum et sumptus
+          omnes reficere, suis expensis et suo advocato. Et potestatem tenutam intrandi inde eis
+          dedit et cetera, se eorum nomine constituendo possidere, pro <measure type="imperialium"
+            quantity="18" unit="solidus">soldis XVIII imperialium</measure>, quos confessus fuit se
+          inde ab eis servicium recepisse, renuntiando exceptioni non numerate pecunie. Et exinde
+          teneatur idem <persName ref="#GuidoGuilielmi">Guido</persName> et dictus tutor, tutorio
+          nomine pro ipso <persName ref="#HenriguciusHenrici">Henrigutio</persName>, se et sua bona
+          et bona dicti pupilli idem tutor obligando, et debeant omni anno certum fictum dare et
+          reddere duo staria frumenti mundi et sicci et parati seu adparati ad curiam ipsius
+          episcopi de <placeName ref="#Ameglia">Amelia</placeName>, ad starium curie <placeName
+            ref="#Ameglia">Amelie</placeName> legitimum, per mensem augusti, et facere, reddere et
+          prestare ipsi domino episcopo et suis successoribus omnes alias condictiones et redditus
+          et servicia que alii de <placeName ref="#Montemarcello">Montemarcello</placeName> de ipsa
+          tenuta et terra vel consimili reddere et prestare debent et consueverunt et reperitur eos
+          facere sic et prestare; alia superimposita non fiat. Que omnia ambe partes, inter se sibi
+          vicissim stipulantes, attendere et observare, per se et suos successores dominus episcopus
+          et dictus <persName ref="#GuidoGuilielmi">Guido</persName> per se et suos heredes et
+          dictus tutor tutorio nomine pro predicto pupillo et suis heredibus, promiserunt, in
+          perpetuum, nec contravenire, sub pena <measure type="imperialium" quantity="20"
+            unit="solidus">XX soldorum imperialium</measure> solvenda parti pactum fide servanti;
+          et, ea soluta, rato manente pacto.</p>
+      </div>
+      <div xml:id="CCCLXXXVIII_div2" type="mundum">
+        <p xml:id="CCCLXXXVIII_p_006" n="6"><ptr target="#CCCLXXXVIII_st_001"/> Ego <persName
+            ref="#HengeramusParentisnot">Hengeramus quondam Parentis de <placeName ref="#Sarzanello"
+              >castro Sarzane</placeName></persName>, <roleName>palacii sacri notarius</roleName>,
+          hanc cartam olim a <persName ref="#Bonencontrusnot">Bonencontro de <placeName
+              ref="#Soliera">Soleria</placeName>
+          </persName>
+          <roleName>notario</roleName> abreviatam sive rogatam, prout in eius sceda et in eius
+          contractibus et imbreviaturis inveni, ita hic bona fide scripsi et autenticavi et in
+          publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+            <roleName>domino</roleName>
+          <persName ref="#Bonaiunctaiud">Bonaiuncta de <placeName ref="#PodioLucca">Podio de
+              Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+            ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre domino <persName
+            ref="#GuilEpLuni">Guilielmo</persName>, <roleName>Lunensi episcopo</roleName>, et
+          <orgName ref="#Barbazzano_comune"><placeName ref="#Lucca">Lucano</placeName> communi</orgName>, de qua auctoritate constat per
+          instrumentum publicum factum manu <persName ref="#AlcheriusPagani">Alcherii
+              <roleName>notarii</roleName> de <placeName ref="#Lucca"
+            >Luca</placeName></persName><note>Stesura <emph>in mundum</emph> del documento n.
+            349-CCCLXXXVIII databile tra il 1270 e il 1272 dalla presenza di Bonagiunta de Podio di
+            Lucca <date notBefore="1270-01-01" notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

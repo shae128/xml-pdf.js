@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXLI_158">
+    <front xml:id="CXLI_front">
+
+      <titlePart type="numerazioneNuova">158</titlePart>
+      <titlePart type="numerazioneOrig">CXLI</titlePart>
+
+      <docDate xml:id="CXLI_docDate">
+        <date when="1233-06-26">1233 giugno 26</date>, <placeName>Ponzanello (<term xml:lang="latin"
+            >in castro de Ponzanello</term>)</placeName>.</docDate>
+
+      <div type="regesto" xml:id="CXLI_regesto">
+        <p>Il vescovo di Luni Gugliemo stabilisce con i consoli del <term xml:lang="latin"
+            >castrum</term> e del comune di Ponzanello - Giovanni Bono e Guidobono -, in concordia
+          con i consiglieri del comune medesimo, i confini del <term xml:lang="latin"
+          >castrum</term>. Si stabiliscono quindi anche gli statuti riguardo ai casi di omicidio,
+          incendio doloso, violenza, furto, spergiuro, insulti e alterazione di documenti pubblici.
+          Si elencano inoltre le norme che regolano il consolato, i doveri dei consoli, del vescovo,
+          degli abitanti, i rapporti tra Ponzanello e Falcinello e, infine, la cura del bosco.</p>
+      </div>
+
+      <div type="footer" xml:id="CXLI_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP cc. 237r.- 239r., cc. CCXXVIIIIr.- CCXXXIr. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>n. 141,
+            pp. 173-177; <ref target="#CONTI_1979-1988">Conti</ref>, I, doc. XIV, pp. 65-70 con data
+            25 giugno.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine interno della c. 237r., di mano moderna: <term xml:lang="latin">Confines
+              Ponzanelli</term>. Nel margine esterno della c. 237v., di mano moderna: <term
+              xml:lang="latin">Confines Ponzanelli</term>; poco più sotto, di altra mano: <term
+              xml:lang="latin">Statuta Ponzaneli</term>. <p>Lupo Gentile data il documento al 25
+              giugno, poi corretto da MAZZINI 1914, p. 13. La parte finale del documento è stata
+              letta con l’ausilio della lampada di Wood.</p>
+            <p>Autentica del 15 dicembre 1267.</p></note>
+        </div>
+
+        <div type="appr">
+          <p>Bibliografia: MAZZINI 1914, p. 13</p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CXLI_div">
+        <p xml:id="CXLI_p_001" n="1">In Ihesu Christi Dei eterni nomine, amen. Ut ea, que leguntur
+          inferius, tam modernis quam venturis in posterum semper memoria reserventur, cum non
+          possint alias memoriter retineri, dignum fuit in scriptura publica eadem reserari,
+          presentibus igitur testibus infrascriptis. Venerabilis <persName ref="#GuilEpLuni"
+            >Guilielmus, Dei gratia <roleName>Lunensis episcopus</roleName></persName>, <persName
+            ref="#IohannesBonuscons">Iohannes Bonus</persName> et <persName ref="#GuidobonusPon"
+            >Guidobonus</persName>, <roleName>consules castri</roleName> et
+          <orgName ref="#Falcinello_comune">communis</orgName> de <pb n="237v" xml:id="fol_237v"/>
+          <placeName ref="#Ponzanello">Ponçanello</placeName>, per se et suos successores, et
+          commune de <placeName ref="#Ponzanello">Ponçanello</placeName>, de consilio etiam
+            <persName ref="#GuidoPandulfini">Guidonis quondam Pandulfini</persName>, <persName
+            ref="#BonfiletusBonecase">Bonfileti quondam Bonencase</persName>,
+            <roleName>consiliariorum dicti communis</roleName>, ac etiam universorum hominum dicti
+          communis vel quasi, ibidem presentium, statuerunt hanc esse iuram <placeName
+            ref="#Ponzanello">castri de Ponçanello</placeName>, videlicet a <placeName
+            ref="#SerraVeceto">Serra de Vecheto</placeName> usque ad <placeName ref="#Tebiola"
+            >collem de Tebiola</placeName>, veniendo superius per canale usque ad<note place="foot"
+            n="a" xml:id="CXLI_n_001">d <emph>aggiunto in sopralinea</emph>.</note>
+          <placeName ref="#Rosetulo">groppum Rosetuli</placeName>, et a <placeName ref="#Rosetulo"
+            >groppo Rosetuli</placeName> veniendo superius usque ad <placeName ref="#Mandriale"
+            >summum Mandriale</placeName>, et a <placeName ref="#Mandriale">Mandriali</placeName>
+          descendendo per <placeName ref="#SerraTezana">Serram Treçanam</placeName> usque ad canale
+          de <placeName ref="#Colignolo">Colignolo</placeName>, et a canali de <placeName
+            ref="#Colignolo">Colignolo</placeName> veniendo superius usque ad <placeName
+            ref="#Fazeto">summum Façetum</placeName>, et a <placeName ref="#Fazeto">summo
+            Façeto</placeName> recolligendo <placeName ref="#Setalaro">campum Setalarii</placeName>
+          usque ad <placeName ref="#SerraVeceto">Serram Vecheti</placeName>; infra quam iuram omnes
+          iurati dicti castri atque qui iurabunt super hiis statutis sive hiis statutis teneantur
+          inter se ad invicem adiuvare, salvare, guardare et custodire in personis et rebus contra
+          omnes homines, personas et loca, salvo tamen in omnibus iure, honore et mandato domini
+          episcopi eiusque vicemgerentis.</p>
+        <p xml:id="CXLI_p_002" n="2"><c>§</c> Statuerunt iterum hec esse statuta dicti communis.
+          Quicumque fecerit homicidium de aliquo suo iurato infra <supplied reason="omitted"
+            >supra</supplied>scriptam iuram, quod absit, perdat totum suum mobile et domus eius
+          diruatur et extra castrum portetur atque comburatur, et magis non debeat nec audeat
+          habitare in ipsa terra sine consensu et parabola domini episcopi et voluntate filiorum vel
+          filiarum illius qui fuerit interfectus atque, si filios non habuerit, proximiorum
+          consanguineorum suorum; et medietas mobilis sit domini episcopi Lunensis et alia medietas
+          sit communis.</p>
+        <p xml:id="CXLI_p_003" n="3"><c>§</c> Si quis incendium fecerit infra predictam iuram et
+          extra castrum, perdat <measure type="Imperiales" quantity="40" unit="solidus">soldos
+            imperialium XL</measure> et emendet dampnum illius cuius fuerit domus vel capanna,
+          medietas cuius banni sit domini episcopi et alia medietas sit communis. Si autem in castro
+          apposuerit ignem, puniatur ad voluntatem domini episcopi.</p>
+        <p xml:id="CXLI_p_004" n="4"><c>§</c> Si quis fecerit sanguinem, sine mutilatione vel
+          debilitatione alicuius membri, alicui suo iurato infra istam iuram, perdat <measure
+            type="Imperiales" quantity="5" unit="solidus">soldos V imperialium</measure>; si autem
+          mutilaverit vel debilitaverit aliquem in aliquo membro, puniatur ad voluntatem domini
+          episcopi; si autem extra iuram fecerit, perdat <measure type="Imperiales" quantity="3"
+            unit="solidus">soldos imperialium tres</measure>. Hoc capitulum intelligendum est
+          secundum determinationem et correctionem propositam.</p>
+        <p xml:id="CXLI_p_005" n="5"><c>§</c> Si quis fecerit lividum vel assaltum alicui suo iurato
+          infra suprascriptam iuram, perdat <measure type="Imperiales" quantity="3" unit="solidus"
+            >soldos imperialium tres</measure>; si autem extra iuram fecerit, perdat <measure
+            type="Imperiales" quantity="12" unit="denarius">XII imperialium</measure>.</p>
+        <p xml:id="CXLI_p_006" n="6"><c>§</c> Quicumque fecerit furtum alicui suo iurato infra iuram
+          vel extra iuram, in die vel in nocte, perdat <measure type="imperiales" quantity="5"
+            unit="solidus">soldos V imperialium</measure> et furtum emendet, si furtum poterit
+          extimari a <measure type="Imperiales" quantity="12" unit="denarius">XII
+            imperialium</measure> supra; infra vero perdat <measure type="Imperiales" quantity="12"
+            unit="denarius">XII imperialium</measure> pro banno et semper furtum emendet, quod
+          solvatur curie et communi.</p>
+        <p xml:id="CXLI_p_007" n="7"><c>§</c> Quicumque iuratorum fecerit periurium de sacramento
+          communis perdat <measure type="Imperiales" quantity="6" unit="solidus">soldos imperialium
+            VI</measure> et faciat iterum sacramentum, quorum medietas sit domini episcopi atque
+          alia medietas sit communis.</p>
+        <p xml:id="CXLI_p_008" n="8"><c>§</c> Quicumque iniuriose dixerit quod sit periurus, perdat
+            <measure type="Imperiales" quantity="2" unit="solidus">soldos II
+          imperialium</measure>.</p>
+        <p xml:id="CXLI_p_009" n="9"><c>§</c> Quicumque dixerit alicui suo iurato, coram consule,
+          iniuriose quod sit <pb n="238r" xml:id="fol_238r"/> periurus, perdat <measure
+            type="Imperiales" quantity="12" unit="denarius">XII imperialium</measure>.</p>
+        <p xml:id="CXLI_p_010" n="10"><c>§</c> Si quis alicui suo iurato, coram consule, in placito
+          vel in parlamento dixerit: <q rend="pre(«) post(»)">mentiris</q>, perdat <measure
+            type="Imperiales" quantity="6" unit="denarius">VI imperialium</measure>, et si in populo
+          vel in parlamento dixerit: <q rend="pre(«) post(»)">cogoça</q>, perdat <measure
+            type="imperiales" quantity="12" unit="denarius">XII imperialium</measure>.</p>
+        <p xml:id="CXLI_p_011" n="11"><c>§</c> Quicumque extraxerit aliquem de tenuta sine parabola
+          consulis, perdat <measure type="Imperiales" quantity="2" unit="solidus">soldos II
+            imperialium</measure>.</p>
+        <p xml:id="CXLI_p_012" n="12"><c>§</c> Quicumque fecerit guastum alicui suo iurato studiose,
+          a <measure type="Imperiales" quantity="10" unit="solidus">X soldis</measure> infra perdat
+            <measure type="Imperiales" quantity="5" unit="solidus">soldos V imperialium</measure> et
+          dampnum emendet; si autem plus <measure type="Imperiales" quantity="10" unit="solidus">X
+            soldorum</measure> extimabitur bannum, perdat <measure type="Imperiales" quantity="10"
+            unit="solidus">soldos X</measure> et dampnum emendet.</p>
+        <p xml:id="CXLI_p_013" n="13"><c>§</c> Quicumque perdiderit cartam seu breve communis perdat
+            <measure type="Imperiales" quantity="10" unit="solidus">soldos X
+          imperialium</measure>.</p>
+        <p xml:id="CXLI_p_014" n="14"><c>§</c> Quicumque addiderit aliquid in carta sive in brevi
+          communis vel fecerit addi vel iungi sine parabola et voluntate domini episcopi atque
+          tocius consilii vel maioris partis, perdat <measure type="imperiales" quantity="10"
+            unit="solidus">soldos X imperialium</measure>.</p>
+        <p xml:id="CXLI_p_015" n="15"><c>§</c> Quicumque electus fuerit consul et refutaverit
+          consulatum perdat <measure type="Imperiales" quantity="10" unit="solidus">soldos X
+            imperialium</measure>.</p>
+        <p xml:id="CXLI_p_016" n="16"><c>§</c> Quicumque audiverit gridum <q
+            rend="pre(«) post(»)">ad castrum</q> et non traxerit sive iverit ad eum perdat
+          soldos V imperialium.</p>
+        <p xml:id="CXLI_p_017" n="17"><c>§</c> Illi tamen qui non iurant sub consulibus, si habent
+          scientiam et intellectum cognoscendi bonum a malo et fecerint furtum, per<supplied
+            reason="omitted">n</supplied>dat <measure type="imperiales" quantity="6" unit="denarius"
+            >denarios VI imperialium</measure> et furtum emendent.</p>
+        <p xml:id="CXLI_p_018" n="18"><c>§</c> Item unusquisque qui habet casamentum in <placeName
+            ref="#Serra">Serra</placeName> faciat et teneatur facere singulis annis pontem unum muri
+          castellani usque ad complementum muri castellani, atque de hoc non possint dare verbum vel
+          terminum consules, qui erunt pro tempore, alicui. Et si murum in dicto loco non fecerint
+          ut dictum est, perdant <measure type="imperiales" quantity="10" unit="solidus">soldos X
+            imperialium</measure>, qui non possint remitti per dominum episcopum nec per consules
+          vel aliam personam.</p>
+        <p xml:id="CXLI_p_019" n="19"><c>§</c> Teneantur consules qui pro tempore fuerint, omni
+          anno, dari facere unam operam a quolibet fumante de <placeName ref="#Ponzanello"
+            >Ponçanello</placeName> sue ecclesie vel communi.</p>
+        <p xml:id="CXLI_p_020" n="20"><c>§</c> Omnes episcopi qui pro tempore fuerint in episcopatu
+          Lunensi, antequam intrent castrum Ponçanelli, debeant facere securitatem loci.</p>
+        <p xml:id="CXLI_p_021" n="21"><c>§</c> Quilibet iuratorum teneatur iuramento venire ad
+          parlamentum ex quo audiverit campanam vel preconem, nisi haberet iustum impedimentum;
+          alias perdat <measure type="Imperiales" quantity="4" unit="denarius">IIII
+            imperialium</measure>.</p>
+        <p xml:id="CXLI_p_022" n="22"><c>§</c> Cetera banna que non sunt scripta in hoc brevi,
+          consules, cum consilio consiliariorum suorum, debeant ea mittere atque auferre ad
+          voluntatem eorum, secundum quod melius viderint expedire, salva auctoritate et mandato
+          domini episcopi.</p>
+        <p xml:id="CXLI_p_023" n="23"><c>§</c> Consules qui iurabunt huic brevi et instrumento vel
+          super hoc breve, teneantur facere attendere et observare et facere fieri attendi et
+          observari omnia et singula que continentur in hoc brevi, et de addito teneantur et de
+          diminuto absolvantur, si additum vel diminutum fuerit ad voluntatem domini episcopi; et
+          sine eius consensu nichil addatur vel minuatur. Si aliquis consulum fecerit periurium
+          contra suum commune, nec possit nec debeat esse magis tempore vite sue consul nec debeat
+          eligi in officium consulatus.</p>
+        <p xml:id="CXLI_p_024" n="24"><c>§</c> Consules teneantur atque debeant eligere unum hominem
+          illorum de <placeName ref="#Falcinello">Falcinello</placeName> qui debeat iurare coram
+            <supplied reason="omitted">eis</supplied> extimare, bona fide et sine omni fraude, omnia
+          et singula dampna que homines de <placeName ref="#Falcinello">Falcinello</placeName>
+          fecerint hominibus de <placeName ref="#Ponzanello">Ponzanello</placeName> aliquo modo vel
+          iure, et hoc facere debeant in anno novo vel infra eius octavam: hoc tantum faciant si
+          homines de <placeName ref="#Falcinello">Falcinello</placeName> elegerint alium de
+          hominibus <placeName ref="#Ponzanello">Ponzanelli</placeName>, requisiti semel; aliter
+          non.</p>
+        <p xml:id="CXLI_p_025" n="25"><c>§</c> Tenor sacramenti consulis est talis: <q
+            rend="pre(«) post(»)">Ego talis ad honorem Dei et Virginis gloriose atque <pb n="238v"
+              xml:id="fol_238v"/> domini episcopi, qui pro tempore fuerit, ecclesie Lunensis iuro ad
+            sancta Dei Evangelia portare officium consulatus castri et loci de <placeName
+              ref="#Ponzanello">Ponzanello</placeName> ab isto festo sancti Andree usque ad unum
+            annum proxime venturum bona fide et sine omni fraude, et ea facere salvo honore et
+            mandato domini episcopi, que totum consilium meum vel eius maior pars mihi dederit pro
+            consilio; et omnes lamentancias, que mihi facte fuerint, infra XL dies diffiniam et
+            determinabo, nisi remanserit iusto iure vel impedimento, atque quas finire seu
+            determinare non potero aliis consulibus, qui post me intraverint,
+          renunciabo</q>.</p>
+        <p xml:id="CXLI_p_026" n="26"><supplied reason="omitted"><c>§</c></supplied>Appellationes in
+          causis et in aliis ad solum dominum episcopum pertinent et pertineant, sicut in aliis
+          terris atque locis episcopatus.</p>
+        <p xml:id="CXLI_p_027" n="27"><c>§</c> Consules vero teneantur pignora, que pro bannis
+          acceperint, infra XXX dies cognoscere coram consiliariis; et ea, que iuste habuerint,
+            tenere<note place="foot" n="b" xml:id="CXLI_n_002">tenere:
+            <emph>nel testo segue depennato</emph>: et ea, que iuste habuerint,
+              tenere.</note>, et ea, que iniuste habuerint, reddere teneantur.</p>
+        <p xml:id="CXLI_p_028" n="28"><c>§</c> Consules, qui pro tempore fuerint, non possint nec
+          debeant unquam magis locare pascaticum de <placeName ref="#Corvasana"
+            >Corvaxana</placeName> alicui persone.</p>
+        <p xml:id="CXLI_p_029" n="29"><c>§</c> Medietatem omnium bannorum a duobus soldis supra
+          solvant rectores sive consules, qui pro tempore fuerint, episcopo vel eius vicario aut
+          certo nuncio et aliam medietatem habeat commune vel eorum consules.</p>
+        <p xml:id="CXLI_p_030" n="30"><c>§</c> Item societatem nullam faciant inter se homines
+          aliqui de <placeName ref="#Ponzanello">Ponzanello</placeName>, set omnes consulibus suis
+          iurent ne alicui vel aliquibus se subiciant vel societatem faciant sine speciali mandato
+          domini episcopi; et ad hoc teneantur sacramento omnes, et bannum de periurio solvant, si
+          contra fecerint. In omnibus predictis intelligatur auctoritas domini episcopi semper
+          salva, iura etiam et honores.</p>
+        <p xml:id="CXLI_p_031" n="31"><c>§</c> Homicide, proditores domini episcopi vel <placeName
+            ref="#Ponzanello">Ponzanelli</placeName> et incend<supplied reason="omitted"
+            >i</supplied>arii eiusdem castri vel proditores alicuius terre domini episcopi aut
+          hominis de <placeName ref="#Ponzanello">Ponzanello</placeName> ad solum dominum prefatum
+          episcopum pertinebunt.</p>
+        <p xml:id="CXLI_p_032" n="32"><c>§</c> Boschum quod dicitur <placeName ref="#Burculo"
+            >Burculum</placeName> secundum suos confines usque in <placeName ref="#Capriola"
+            >Capriolam</placeName>: semper ita quod nullus castellanus de <placeName
+            ref="#Ponzanello">Ponçanello</placeName> vel extraneus faciat ibi insetatum vel excoriet
+          ibi arborem vel arbores aut aliud dampnum ibidem faciat excogitatum; castellani tamen de
+            <placeName ref="#Ponzanello">Ponzanello</placeName>, qui habitant continue in
+          Ponzanello, possint, non deteriorando sive peiorando boschum, ad opus sui tantum atque ad
+          illa opera que sibi sunt necessaria in Ponzanello et districtu, boschiçare in dictum
+          boschum; extranei et castellani qui non habitant in <placeName ref="#Ponzanello"
+            >Ponzanello</placeName> nulla ratione ibidem boschigient, nisi vellent domum hedificari
+          Ponzanelli vel aliud operari et uti semper continue vel quasi Ponzanelli et in confinibus
+          Ponzanelli. Antique castanei, que fuerunt insetate atque que fecerunt fructum a X annis
+          retro, libere pertineant, de voluntate venerabilis <persName ref="#GuilEpLuni">Guilielmi,
+              <roleName>episcopi Lunensis</roleName></persName>, ad illos qui eas hactenus
+            possederint<note place="foot" n="c" xml:id="CXLI_n_003">Possederint: <emph>così nel testo per </emph>possiderint</note>. Novelle vero castanei ad mensam domini episcopi revertantur
+          vel alias concordent cum domino episcopo; qui contra hec fecerit pro qualibet vice perdat
+            <measure type="Imperiales" quantity="5" unit="solidus">soldos V</measure>. Et hoc iurent
+          omnes, singulis annis, singuli, qui iurare debent, consulibus observare, et bannum non
+          possit remitti, et specialiter medietas domini episcopi. Et hoc capitulum sine voluntate
+          domini episcopi non possit removeri de brevi. Si ignis ibi accendatur, omnes teneantur
+          facem ire ad extinguendum. Qui viderit facientem contra teneatur denunciare consulibus, et
+          consules teneantur accipere bannum. Si foretanus incidat ibidem, perdat <measure
+            type="Imperiales" quantity="12" unit="denarius">XII imperialium</measure>, et quilibet
+          de <placeName ref="#Ponzanello">Ponzanello</placeName> teneatur forensi accipere bannum;
+          tercia pars istius banni sit domini episcopi, tercia consulum et tercia illius <pb
+            n="239r" xml:id="fol_239r"/> qui accepit pignus. Et sic me <persName
+            ref="#Bonencontrusnot">Bonencontrum, <roleName>notarium</roleName></persName>
+          infrascriptum, prefatus venerabilis <persName ref="#GuilEpLuni">Guilielmus, Dei gratia
+              <roleName>Lunensis episcopus</roleName></persName>, et prefati consules et commune
+          scribere rogaverunt et redigi in publicam formam.</p>
+        <p xml:id="CXLI_p_033" n="33">Actum in <placeName ref="#Ponzanello">castro de
+            Ponzanello</placeName>, feliciter, <date when="--06-26">die dominico, VI° kalendas
+            iulii</date>, coram <roleName>presbytero</roleName>
+          <persName ref="#GuidoPon">Guidone de <placeName ref="#Ponzanello"
+            >Ponzanello</placeName></persName>, <persName ref="#GerardusLucanusmag"
+              ><roleName>magistro</roleName> Gerardo Lucano</persName>, <persName ref="#BennatusSpe"
+            >Bennato de <placeName ref="#Spedizano">Spedizano</placeName>
+            <roleName>mariscalco</roleName></persName>, <persName ref="#GerardusFerrus">nobili
+            Girardo dicto Ferro de <placeName ref="#Fosdinovo">Fosdenova</placeName></persName> et
+            <persName ref="#CeretusTen">Cereto de <placeName ref="#Tendola"
+            >Tendola</placeName></persName>, testibus ad hec rogatis, <date when="1233">anno
+            dominice nativitatis M°CC°XXXIII, indictione sexta</date>.</p>
+        <p xml:id="CXLI_p_034" n="34"><ptr target="#CXLI_st_001"/> Ego <persName
+            ref="#Bonencontrusnot">Bonencontrus de <placeName ref="#Soliera">Soleria</placeName>,
+              <roleName>imperialis aule notarius</roleName></persName>, predictis omnibus interfui
+          et rogatus scripsi.</p>
+      </div>
+      <div xml:id="CXLI_div2" type="autentica">
+        <p xml:id="CXLI_p_035" n="35"><ptr target="#CXLI_st_002"/> Ego <persName
+            ref="#PetrusGualterotinot">Petrus quondam Gualteroti de <placeName ref="Soliera"
+              >Soleria</placeName>, <roleName>sacri palatii notarius</roleName></persName>,
+          auttenticum huius exempli vidi, legi et ascultavi diligenter, presentibus <persName
+            ref="#Albertus_magister"><roleName>magistro</roleName> Alberto</persName> et <persName
+            ref="#PeregrinusCar">Peregrino de <placeName ref="#Caria">Caria</placeName>
+            <roleName>canonico Lunensi</roleName></persName>, <persName ref="#Iacopinusarc">Iacobino
+              <roleName>archipresbytero</roleName> de <placeName ref="#Ameglia"><orgName
+                ref="#Ameglia_S_Vincenzo">Amelia</orgName></placeName></persName>, <persName
+            ref="#Bonavitapre"><roleName>presbytero</roleName> Bonavita rectore <orgName
+              ref="#Ponzanello_S_Martino">ecclesie de <placeName ref="#Ponzanello"
+                >Ponzanello</placeName></orgName></persName> et <persName ref="#GuiduciusRubei"
+            >Guiducio filio Rubei de <placeName ref="#Carpena">Carpina</placeName></persName>,
+          testibus ad hec rogatis, et de mandato venerabilis patris domini <persName
+            ref="GuilEpLuni">Guilielmi, Dei gratia <roleName>Lunensis
+          episcopi</roleName></persName>, et de ipsius auctoritate mihi concessa, in presentia
+          predictorum testium, in <orgName ref="#Ponzanello_S_Martino">ecclesia de <placeName
+              ref="#Ponzanello">Ponzanello</placeName></orgName>, fideliter exemplavi, signum
+          proprium apponendo, nichil addens vel minuens quod sensum mutet vel variet intellectum.
+            <date when="1267-12-15"> Anno a nativitate Domini millesimo ducentesimo LXVII,
+            indictione X, quintodecimo die decembris <note>autentica del documento n.
+              158-CXLI.</note></date>.</p>
+        <p xml:id="CXLI_p_036" n="36"><ptr target="#CXLI_st_003"/> Ego <persName
+            ref="#Peregrinusnot">Peregrinus, <roleName>summi pontificis auctoritate notarius ac
+              iudex ordinarius</roleName></persName>, auttenticum huius exempli vidi, legi et
+          ascultavi diligenter, in presentia suprascriptorum testium, in quo continebatur ut in isto
+          legitur exemplo, et rogatus me subscripsi, signum proprium apponendo.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

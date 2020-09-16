@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXII_234">
+    <front xml:id="CCLXXII_front">
+
+      <titlePart type="numerazioneNuova">234</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXII</titlePart>
+
+      <docDate xml:id="CCLXXII_docDate">
+        <date when="1244-11-19">1244 novembre 19</date>, <placeName>Trebiano (<term xml:lang="latin"
+            >Trebiani, in loco dicto Serra, in domo Alberti</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXII_regesto">
+        <p>Permuta di beni e terre fra Maria, vedova di Ubaldo di Parente, e suo figlio Alberto.
+          Maria cede tutto quanto possiede in un’ampia zona che va da porta Beltrame a Santo Stefano
+          e da qui, lungo il Magra, fino al mare e dal mare ai monti, specialmente nei distretti di
+          Massa, San Vitale, Carrara, Nicola, Ortonovo, Sarzana e Castelnuovo, qui eccettuando
+          quanto detiene Pietro del fu Bianco di Marzano. Alberto deve dare a sua madre 20 denari di
+          imperiali che ha ricevuto da un villano che stava nei suddetti confini e che lui aveva
+          liberato. In cambio Alberto cede alla madre tutto quanto possiede nei distretti di
+          Trebiano, <term xml:lang="latin">Maretema e Lerici</term>.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 271v.-272r., cc. CCLXIIIv.-CCLXIIIIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref> n. 272,
+            pp. 251-252.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXII_div">
+        <p xml:id="CCLXXII_p_001" n="1">In nomine Domini, amen.<date when="1244-11-19">Anno a
+            nativitate Eius millesimo CCXLIIII, indictione II, die sabbati, XIII kalendas
+            decembris</date>. Commutatio bone fidei dignoscitur esse contractus ut vice evictionis
+          et venditionis retineat firmitatem. In primis domina <persName ref="#Maria"
+            >Maria</persName>, uxor relicta quondam <persName ref="#UbaldusParente">Ubaldi de
+            Parente</persName>, dedit et tradidit nomine permutationis et cambii <persName
+            ref="#AlbertusUbaldiParente">Alberto quondam suprascripti Ubaldi</persName> et filio suo
+          totum et quicquid habet suprascripta domina <persName ref="#Maria">Maria</persName>, vel
+          ad eam pertinet quoquo modo vel iure, a porta <placeName ref="#Bertrame"
+            >Bertenme</placeName><note xml:id="CCLXXII_n_001" n="a" place="foot"><term
+              xml:lang="latin">Bertenme</term>: <emph>così nel testo</emph>.</note> sursum usque ad
+            <placeName ref="#Santo_Stefano">sanctum Stephanum</placeName> et descendendo sicut <pb
+            n="272r" xml:id="fol_272r"/> currit aqua <placeName ref="#Magra">Macre</placeName> usque
+          mare et a mari usque <placeName ref="#Alpes">Alpes</placeName>, et specialiter in
+            <placeName ref="#Massa">Massa</placeName> et <placeName ref="#San_Vitale">sancto
+            Vitali</placeName> et in eorum confinibus et districtu et in <placeName ref="#Carrara"
+            >Carraria</placeName> et districtu et in <placeName ref="#Micoria">Nichola</placeName>
+          et <placeName ref="#Ortonovo">Ortonovo</placeName> et in eorum confinibus et districtu et
+          in <placeName ref="#Castelnuovo">Castello Novo</placeName> et in eius confinibus et
+          districtu, excepto quod retinuit in se <persName ref="#PetrusBlanci">Petrus quondam Blanci
+            de <placeName ref="#Marzano">Marçano</placeName></persName> et in burgo <placeName
+            ref="#Sarzana">Sarzane</placeName> et claustro<note xml:id="CCLXXII_n_002" n="b"
+            place="foot"><term type="incerto">claustro</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">castro</term>.</note> et in eorum confinibus et districtu, tam
+          domos et casamenta quam terras et vineas et arbores et villanos et vassallos, pensiones et
+          amisceria et omnes redditus et introitus et obventiones et perceptiones et iura et agra et
+          culta, tam in plano quam in monte et ubicumque sint, et omnia iura et actiones, que et
+          quas habet vel ad eam pertinent, contra omnem personam et locum de predictis confinibus
+          vel infra predictas confines habitantes vel existentes pro aliqua occasione vel ratione
+          vel modo, ita ut suprascriptus <persName ref="#AlbertusUbaldiParente">Albertus</persName>
+          et sui heredes et cui dederint vel habere decreverint de cetero in perpetuum habeant,
+          teneant, fruantur et possideant omnia et singula suprascripta, que superius leguntur; et
+          faciant ipse <persName ref="#AlbertusUbaldiParente">Albertus</persName> et sui heredes de
+          eis et in eis quicquid facere voluerint, cum omni iure, dominio et proprietate, usu,
+          requisitione atque utilitate ad ipsum aliquo modo vel iure pertinentes seu spectantes et
+          cum accessibus et regressibus suis et cum superioribus et inferioribus suis, ac infra se
+          habitis et omnibus eorum et earum pertinenciis in integrum, sine alicuius aliqua
+          contradictione, et constituit se pro eo possidere et quasi predicta omnia et singula
+          predictorum donec suprascriptus <persName ref="#AlbertusUbaldiParente">Albertus</persName>
+          corporalem possessionem intraverit et dederit<note xml:id="CCLXXII_n_003" n="c"
+            place="foot"><term type="incerto">dederit</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">dedit</term>, <emph>cfr. più avanti nel documento</emph>.</note>
+          ei licenciam inde intrandi in tenutam, sua auctoritate. Quad omnia suprascripta et singula
+          suprascripta domina <persName ref="#Maria">Maria</persName>, obl<add
+            rend="pre(&lt;) post(&gt;)" place="inline">igando</add> se suosque heredes et bona sub
+          pena <measure quantity="15">XV marcharum optimi<note xml:id="CCLXXII_n_004" n="d"
+              place="foot"><term xml:lang="latin">optimi</term>: <emph>nel testo</emph>
+              <term xml:lang="latin">optimii</term>
+              <emph>con seconda</emph> i <emph>sbiadita</emph>.</note> argenti boni et
+            puri</measure>, promisit et convenit per stipulationem sollempnem suprascripto <persName
+            ref="#AlbertusUbaldiParente">Alberto</persName>, recipienti pro se suisque heredibus et
+          cui dederint vel habere decreverint, deffendere et exbrigare ab omni contradicente persona
+          et loco, suis expensis et advocato; et, si deffendere non possent, ipsa et sui heredes, et
+          non deffenderent et exbrigarent, restaurare et salvum cambium inde dare in consimili loco,
+          in arbitrio boni viri, promisit et convenit et reficere ei omnia dampna de et expensas que
+          et quas in predictis vel pro predictis fecerit vel habuerit in curia et extra, in advocato
+          et in advocatis, remittendo ei necessitatem denunciandi, et conservare cum<note
+            xml:id="CCLXXII_n_005" n="e" place="foot"><term type="incerto">cum</term>: <emph>così
+              nel testo per</emph>
+            <term xml:lang="latin">eum</term>.</note> inde indempnes promisit, credendo de dampnis
+          et expensis simplici suo verbo absque ullo honere probationis, renunciando omni iuri et
+          consuetudini et legum auxilio quo posset contra predicta venire vel contra aliquod
+          predictorum vel se deffendere a predictis vel aliquo predictorum et nominatim a predicta
+          pena, que tociens solvatur quociens in eam inciderit et pro quolibet capitulo non
+          observato et, ea soluta vel non, ratis omnibus predictis et singulis atque firmis. Insuper
+          suprascriptus <persName ref="#AlbertusUbaldiParente">Albertus</persName> iuravit ad sancta
+          Dei evangelia dare et solvere suprascripte domine <persName ref="#Maria">Marie</persName>
+          <measure type="Imperiales" quantity="20" unit="denarius">denarios XX imperialium</measure>
+          de qualibet libra imperialium, quod<note xml:id="CCLXXII_n_006" n="f" place="foot"><term
+              xml:lang="latin">quod</term>: <emph>così nel testo</emph>.</note> ipse habuerit ab
+          aliquo villano quodg liberabit ipse de suprascriptis confinibus. Versa vice, suprascriptus
+            <persName ref="#AlbertusUbaldiParente">Albertus</persName> pro suprascripto cambio dedit
+          et tradidit nomine permutationis et cambii suprascripte domine <persName ref="#Maria"
+            >Marie</persName> totum et quicquid habet suprascriptus <persName
+            ref="#AlbertusUbaldiParente">Albertus</persName> vel ad eum pertinet, quoquo modo vel
+          iure, in claustro<note xml:id="CCLXXII_n_007" n="g" place="foot"><term type="incerto"
+              >claustro</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">castro</term>.</note>
+          <placeName ref="#Trebiano">Trebiani</placeName> et in eius confinibus et districtu et in
+            <placeName ref="#Maretema">Maretema</placeName> et <placeName ref="#Lilice"
+            >Lilice</placeName> et in eorum confinibus et districtu, tam domos et casamenta quam
+          terras, vineas et arbores et villanos et vassallos, pensiones et amisceria et omnes
+          redditus et introitus et obventiones et perceptiones et iura et agra et culta, tam in
+          plano quam in monte, ubicumque sint, et omnia iura et actiones, que et quas habet vel <add
+            rend="pre(&lt;) post(&gt;)" place="inline">ad</add> eum pertinent, contra omnem personam
+          et locum de predictis locis et confinibus vel infra predicta loca habitantes vel
+          existentes pro aliqua occasione vel ratione vel modo, ita ut suprascripta domina <persName
+            ref="#Maria">Maria</persName> et sui heredes et cui dederint vel habere decreverint de
+          cetero in perpetuum habeant, teneant, fruantur et possideant omnia suprascripta et singula
+          suprascriptorum, que superius leguntur; et faciant ipsa domina <persName ref="#Maria"
+            >Maria</persName> et sui heredes de eis et in eis quicquid facere voluerint, cum omni
+          iure, dominio et proprietate, usu, requisitione atque utilitate ad ipsam aliquo modo vel
+          iure pertinentes seu spectantes et cum accessibus et regressibus suis et cum superioribus
+          et inferioribus suis ac infra se habitis et omnibus eorum et earum pertinenciis in
+          integrum, sine alicuius aliqua contradictione, et constituit se pro ea possidere et quasi
+          predicta omnia et singula predictorum donec suprascripta domina <persName ref="#Maria"
+            >Maria</persName> corporalem possessionem intraverit et dedit ei licenciam inde intrandi
+          in tenutam, sua auctoritate. Qua<note xml:id="CCLXXII_n_008" n="h" place="foot"><term
+              type="incerto">Qua</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">Que</term>.</note> omnia suprascripta et singula suprascriptus
+            <persName ref="#AlbertusUbaldiParente">Albertus</persName>, obligando se suosque heredes
+          et bona sub pena <measure quantity="15">XXV marcharum optimi argenti boni et
+            puri</measure>, promisit et convenit per stipulationem solempnem suprascripte domine
+            <persName ref="#Maria">Marie</persName>, recipienti pro se suisque heredibus et cui
+          dederint vel habere decreverint, deffendere et exbrigare ab omni contradicente persona et
+          loco, suis expensis et advocato; et, si deffendere non posset et non deffenderet et
+          exbrigaret, restaurare et salvum cambium inde dare in consimili loco, in arbitrio boni
+          viri, promisit et convenit et reficere ei omnia dampna et expensas que et quas in
+          predictis vel pro predictis fecerit vel habuerit in curia et extra, in advocato et
+          advocatis, remittendo ei necessitatem denunciandi, et conservare cumf inde indempnes
+          promisit, credendo de dampnis et expensis simplici verbo suo absque ullo honere
+          probationis, renunciando omni iuri et consuetudini et legum auxilio quo posset contra
+          predicta venire vel contra aliquod predictorum vel se deffendere a predictis vel ab aliquo
+          predictorum et nominatim a predicta pena, <add rend="pre(&lt;) post(&gt;)" place="inline"
+            >que</add>h tociens solvatur quociens in eam inciderit et pro quolibet capitulo non
+          observato et, ea soluta vel non, ratis omnibus predictis et singulis atque firmis.</p>
+        <p xml:id="CCLXXII_p_002" n="2">Actum <placeName ref="#Trebiano">Trebiani</placeName>, in
+          loco dicto <placeName ref="#Serra">Serra</placeName>, in domo suprascripti <persName
+            ref="#AlbertusUbaldiParente">Alberti</persName> et nepotum, presentibus <persName
+            ref="#AlduinusGuidi">Alduino quondam Guidi de Ubaldo</persName> et <persName
+            ref="#DuransUgolini">Durante quondam Ugolini de <placeName ref="#Rofiano"
+              >Rofiano</placeName></persName> et <persName ref="#BonardinusAlbertini">Bonardino
+            quondam Albertini de <placeName ref="#Arcola">Arcula</placeName></persName> et <persName
+            ref="#AcoltusBonavite">Acolto quondam Bonavite de <placeName ref="#Trebiano"
+              >Trebiano</placeName></persName> et <persName ref="#RaineriusBottomini">Ranerio filio
+            Bottomini de <placeName ref="#Rofiano"><supplied reason="illeggibile"
+                >Ro</supplied>fi<supplied reason="illeggibile"
+            >an</supplied>o</placeName></persName><note xml:id="CCLXXII_n_009" n="i" place="foot"
+              ><emph>La pergamena è forata</emph>.</note>, testibus ad hec rogatis.</p>
+        <p xml:id="CCLXXII_p_003" n="3"><ptr target="#CCLXXII_st_001"/> Ego <persName
+            ref="#Guilielmusnot">Guilielmus, <roleName>notarius sacri palacii</roleName></persName>,
+          hiis omnibus interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="\schema\tei_cp.rng" type="application\xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="XLVIII_76">
+        <front xml:id="XLVIII_front">
+
+            <titlePart type="numerazioneNuova">76</titlePart>
+            <titlePart type="numerazioneOrig">XLVIII</titlePart>
+
+            <docDate xml:id="XLVIII_docDate">
+                <date when="1232-08-15">1231 ottobre 25</date>, <placeName>Sarzanello</placeName>
+                    (<term xml:lang="latin">in castro Sarzane, ante ecclesiam Sancti Martini</term>) </docDate>
+
+            <div type="regesto" xml:id="XLVIII_regesto">
+                <p>Il vescovo di Luni Guglielmo cede a Bonaventura del fu Lombardello di Sarzana le
+                    quattro staia di frumento che percepiva annualmente da Venuto del fu Branca e da
+                    Lanfranchino de Tortiliano per due orti, posti in Bradia, in cambio di un campo
+                    e di una parte di edificio posti in Clausura. </p>
+            </div>
+
+            <div type="footer" xml:id="XLVIII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 138v.-139r., cc. CXXXv.-CXXXIr. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 48, p. 71, con la data 1231 novembre 25; per la correzione
+                        del giorno al 25 ottobre cfr. <ref target="#MAZZINI_1914">MAZZINI
+                        1914</ref>, p.10. </p>
+                </div>
+
+                <div type="crit_notes">
+                    <note>
+                        <p> Nel margine esterno di c. 138v., di mano moderna: <emph><term
+                                    xml:lang="latin">Livellum factum ab episcopo cuidam de
+                                    Sarzana</term></emph>
+                        </p>
+                    </note>
+                </div>
+
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">XLVIII. De aquisitione terreni pro casamentis
+                            suprascripterum.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="XLVIII_div">
+                <pb n="138v" xml:id="fol_138v"/>
+                <p xml:id="XLVIII_p_001" n="1"> In nomine Domini, amen. <date when="1232-08-15">Anno
+                        a nativitate Domini millesimo CCXXXI, indictione quarta, die sabbati, VIII
+                        kalendas novembris</date>, in presentia infrascriptorum testium. <persName
+                        ref="#GuilEpLuni"><roleName>Dominus</roleName> Guilielmus <roleName>Dei
+                            gratia Lunensis episcopus</roleName></persName>, <persName
+                        ref="#BonaventuraLombardelli">Bonaventure quondam Lombardelli de <placeName
+                            ref="#Sarzana">burgo Sarzane</placeName></persName> staria quatuor
+                    frumenti quod annuatim percipiebat et percipere debebat, nomine ficti, dictus
+                    dominus episcopus de duobus seu pro duobus ortis, positis in <placeName
+                        ref="#Bradia">Bradia</placeName>, a <persName ref="#VenutusBranche">Venuto
+                        qondam Branche</persName> et <persName ref="#LanfranchinusTortiliano"
+                        >Lanfranchino de <placeName ref="#Tortiliano"
+                        >Tortiliano</placeName></persName>, ita quod a quolibet eorum staria duo,
+                    ita quidem ut amodo perpetuo suprascriptus <persName
+                        ref="#BonaventuraLombardelli">Bonaventura</persName> eiusque heredes et cui
+                    dederint suprascriptum fictum cum omni iure, dominio, proprietate, usu soli,
+                    utilitate, amasiamento et dismasiamento<note place="foot" n="a"
+                        xml:id="XLVIII_n_001">dismasiamento: <emph>nel testo </emph>discamasiamento
+                            <emph>con </emph>ca <emph>espunto e depennato con un tratto orizzontale
+                            in inchiostro rosso</emph>.</note> et aliis omnibus ad ipsum fictum et
+                    solum pertinentibus, habeant, teneant, fruantur et possideant et faciant ex eis
+                    et quolibet predictorum iure proprietario, nemine contradicente. Versa vice,
+                    suprascriptus <persName ref="#BonaventuraLombardelli">Bonaventura</persName>,
+                    nomine predictorum, dedit et<note place="foot" n="b" xml:id="XLVIII_n_002">et:
+                            <emph>corretto su precedente scrittura</emph>.</note> cessit domino
+                    episcopo et episcopatui Lunensi, nomine permutationis seu cambii, campum unum,
+                    cum medietate unius orti, et quamdam partem unius casamenti positi in <placeName
+                        ref="#Clausura">Clausura</placeName>, ita quidem ut amodo perpetuo
+                    suprascriptus dominus episcopus et sui successores et cui dederint suprascriptum
+                    campum, ortum et casamentum, cum omni iure, dominio, proprietate, usu, utilitate
+                    et aliis omnibus ad ipsum campum, ortum et casamentum pertinentibus, habeant,
+                    teneant, fruantur et possideant et faciant ex eis et quolibet predictorum iure
+                    proprietario, nemine contradicente. Et cesserunt vicissim inter se omnia iura et
+                    omnes actiones et rationes utiles, directas, reales, personales atque mixtas,
+                    que et quas habebant vel sibi quoquomodo vel iure pertinebant vel competere
+                    poterant in dictis fictis, ortis et campo, orto et casamento. Et promiserunt
+                    sibi vicissim suprascripta inter se taliter permutata perpetuo rationabiliter
+                    deffendere et exbrigare ab omni impediente persona et loco et dederunt vicissim
+                    inter se licenciam apprehendendi tenutam de suprascriptis, inter se permutatis,
+                    constituentes se ad invicem de permutatis dominos et procuratores in res suas.
+                    Et ad hec attendenda<note place="foot" n="c" xml:id="XLVIII_n_003">attendenda:
+                        attende <emph>corretto su precedente scrittura</emph>.</note> obligaverunt
+                    se vicissim suosque successores et heredes et sua bona ad penam <measure
+                        type="Imperiales" quantity="100" unit="solidus">centum soldorum imperialium
+                    </measure> solvenda<supplied reason="omitted">m</supplied>; parti fidem servanti
+                    quociens incidetur in eam, ratis nichillominus manentibus suprascriptis, et
+                    renunciando omni privilegio fori, ecclesiastico et civili, atque exceptionibus
+                    omnibus atque aliis iuribus et legum seu canonum auxiliis, quo possent contra
+                    predicta seu aliquo predictorum venire. Coheret autem suprascriptis ortis, de
+                    quibus suprascriptum fictum redditur, ab una parte <note place="foot" n="d"
+                        xml:id="XLVIII_n_004"><emph>Segue depennato con un tratto orizzontale in
+                            inchiostro rosso</emph>: Paganicii</note>
+                    <persName ref="#PanigaciusFantinelli">Panigacii quondam Fantinelli</persName>,
+                    ab alio latere ortus <persName ref="#PresbyterocastroSar">Presbyteri de
+                            <placeName ref="#Sarzanello">castro Sarzane</placeName></persName>,
+                    mediante inter ipsos ortos orto <persName ref="#NicholetusSoleria"
+                        >Nicholeti</persName> et <persName ref="#AlbertinusSoleria">Albertini de
+                            <placeName ref="#Soleria">Soleria</placeName></persName> a pede et a
+                    capite via publica; campo vero et orto coheret ab una parte <orgName ref="#Sarzana_comune">communis burgi</orgName>
+                        <placeName ref="#Sarzana">Sarzane</placeName>, ab alia parte via publica, a
+                    pede fovea burgi <placeName ref="#Sarzana">Sarzane</placeName>, a capite ipsius
+                        <persName ref="#BonaventuraClausura">Bonaventure</persName> et <persName
+                        ref="#CompagnonusChiausura">Compagnoni de <placeName ref="Clausura"
+                            >Clausura</placeName></persName> et heredum quondam <persName
+                        ref="#Benvenutusnot1">Benevenuti <roleName>notarii</roleName></persName>;
+                    casamento coheret ab una parte domus ipsius <persName ref="#BonaventuraClausura"
+                        >Bonaventure</persName>, <pb n="139r" xml:id="fol_139r"/> ab alia parte
+                    heredum qondam <persName ref="#Grimaldettus">Grimaldetti</persName>, a pede
+                    fovea burgi <placeName ref="#Sarzana">Sarzane</placeName>, a capite <persName
+                        ref="#GuilielmusBlantibulliti">Guilielmi Blantibulliti</persName>. </p>
+                <p xml:id="XLVIII_p_002" n="2"> Actum in <placeName ref="#Sarzana">Castro
+                        Sarzane</placeName>, ante <orgName ref="#S_Martino_de_castro_Sarzane"
+                        >ecclesiam Sancti Martini</orgName>, sollempniter, presentibus <persName
+                        ref="#Mannus_canonicus"><roleName>magistro</roleName> Manno
+                            <roleName>Lunensi canonico</roleName></persName>, <persName
+                        ref="#TedisiusBaldoini">Thedisio qondam Balduini</persName>, <persName
+                        ref="#GerardettusBonbernardi_notarius">Gerardetto notario quondam
+                        Bonbernardi</persName>, <persName ref="#GuilielmotusGerardetti">Guilielmotto
+                        qondam Gerardetti Rosselli</persName>, <persName ref="#BorgesetusHubertini"
+                        >Burgesetto quondam Obertini Grassi</persName>, testibus et rogatis. </p>
+                <p xml:id="XLVIII_p_003" n="3">
+                    <ptr target="#XLVIII_st_001"/>Ego <persName ref="#Nicholaus_notarius2"
+                        >Nicholaus, <roleName>domini Frederici Romanorum imperatoris
+                            notarius</roleName></persName>, hiis interfui et hanc cartam
+                    permutationis, rogatus, scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

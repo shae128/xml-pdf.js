@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="XIIII_43">
+		<front xml:id="XIIII_front">
+
+			<titlePart type="numerazioneNuova">43</titlePart>
+			<titlePart type="numerazioneOrig">XIIII</titlePart>
+
+			<docDate xml:id="XIIII_docDate">
+				<date when="1273-04-04">1273 aprile 4</date>, <placeName ref="#UrbisVeteris">
+						Civitavecchia(<term xml:lang="latin">apud Urbem Veterem</term>) </placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="XIIII_regesto">
+				<p>Papa Gregorio X scrive al podestà, al capitano, al consiglio e al comune di Lucca
+					per informarli che, essendo la sede di Luni vacante e non potendo il capitolo
+					eleggere un nuovo vescovo per il divieto emesso da papa Clemente IV, ha nominato
+					vescovo di Luni il maestro Enrico da Fucecchio, già canonico di Sant’Omero,
+					diocesi morinense.</p>
+			</div>
+
+			<div type="footer" xml:id="XIIII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] cc. 62v.-63r., cc. LIIIIv.-LVr. secondo la numerazione originale.
+					</p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912"> LUPO
+							GENTILE 1912</ref>, n. 14, pp. 16-17. </p>
+				</div>
+
+				<div type="crit_notes">
+					<note>Nel margine esterno di c. 63r., di mano posteriore: <term xml:lang="latin"
+							>Capitulum eligebat episcopum Lunensem antequam esset prohibitus</term>
+					</note>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">XIIII. Lictere pape Gregorii super eletionem domini
+							episcopi.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="XIIII_div">
+				<p xml:id="XIIII_p_001">
+					<persName ref="#GreoriuspontifexX">Gregorius <roleName>episcopus, servus
+							servorum Dei</roleName></persName>, dilectis filiis nobilibus viris
+						<note xml:id="XIIII_n_01" place="foot" n="a"> nobilibus viris: <emph>una
+							mano moderna ha ripassato il testo, all’epoca già poco
+						leggibile</emph>.</note> potestati, capitaneo, consilio et conmuni
+						<placeName ref="#Lucca">Lucanis</placeName>, salutem et apostolicam
+					benedictionem. Pater <note xml:id="XIIII_n_02" place="foot" n="b"> Pater: at
+							<emph>ripassato da mano posteriore</emph>.</note> eternus super
+					unigenitum suum erigens ecclesie sacrosancte structuram ita regimen et
+					gubernationem ipsius <expan>inco<ex>mmensu</ex>rabili</expan> provisione
+					disposuit ut ad <supplied reason="illeggibile">eam</supplied> salubriter
+					gubernandam plures assumerentur in partem sollicitudinis quamvis <note
+						xml:id="XIIII_n_03" place="foot" n="c"> quamvis: <emph>corretto su
+							precedente scrittura. </emph>.</note>
+					<supplied reason="omitted">pro firmamento unitatis Ecclesie unus
+						obtineat</supplied><note xml:id="XIIII_n_04" place="foot" n="d">Integrazione
+						per confronto da <ref target="#BULLARIUM_FRANCISCANUM">BULLARIUM
+							FRANCISCANUM</ref>, tomo 2, n. XLVIII, p. 457.</note> plenitudinem
+					potestatis. Ex hac siquidem potestatem per eiusdem Patris beneplacitum debilibus
+					humeris nostris imposita <pb n="63r" xml:id="fol_063r"/>universis obligamur
+					ecclesiis ut, providentibus nobis, tales pro illarum regimine im partem
+					huiusmodi sollicitudinis assumantur per quorum industriam eisdem provideatur
+					ecclesiis et in nobis huiusmodi potestatis ministerium honoretur. Cum itaque
+					Lunensis ecclesia, olim pastoris solatio destituta, capitulum ipsius, tam
+					propter inhibitionem felicis recordationis <persName ref="#ClemenspontifeXIIII"
+							>Clementis<roleName> pape</roleName></persName>, predecessoris nostri,
+					quam nostram eisdem <note xml:id="XIIII_n_05" place="foot" n="e"> eisdem: così
+						nel testo.</note>capitulo specialiter super non eligendo sibi pastore absque
+					licentia sedis apostolice speciali ex necessitate temporis et causis legitimis
+					factam, episcopum eligere sibi non possent, nos, tenentes quod venerabilis
+					frater noster <roleName>magister </roleName><persName ref="#HenricusEpLuni"
+						>Henricus de <placeName ref="#Ficechio">Fisceto</placeName>
+						<note xml:id="XIIII_n_06" place="foot" n="f"> Fisceto: <emph>lettura
+								incerta</emph>.</note>
+						<roleName>episcopus Lunensis</roleName></persName>, tunc
+						<roleName>canonicus</roleName>
+					<orgName ref="#Thérouanne_Sant_Audomaro" type="ecclesia_canonica">ecclesie
+						Sancti Andomarti</orgName>,<orgName ref="#Thérouanne_diocesi"
+						type="diocesis"> Morinensis diocesis</orgName>, sit vir in spiritualibus
+					providus et in temporalibus circumspectus et dono scientie preditus ut preesse
+					noverit ac prodesse, dictum magistrum de fratrum nostrorum consilio et
+					apostolice potestatis plenitudine supradicte ecclesie in episcopum preficimus et
+					pastorem et, firma spe fiduciaque concepta, quod ecclesia supradicta per ipsius
+					industriam <supplied reason="illeggibile">potius</supplied>
+					<note xml:id="XIIII_n_07" place="foot" n="g"><emph>Inchiostro molto sbiadito,
+							lettura incerta.</emph>.</note> suscipiet in spiritualibus et
+					temporalibus incrementum, per venerabilem fratrem nostrum .., episcopum
+						<placeName ref="#Porto">Portuensem</placeName>, sibi munus fecimus
+					consecrationis impendi. Ideoque universitatem vestram monemus et hortamur
+					attente vobis, per apostolica scripta mandantes, quatinus, predictum episcopum
+					et commissam sibi ecclesiam habentes pro nostra et apostolice sedis reverentia
+					propensius conmendatos, super manuten<supplied reason="omitted">en</supplied>dis
+					et defendendis iuribus et suis exibeatis vos sibi propicios et benignos, ita
+					quod devotionem vestram possimus pro<supplied reason="omitted">p</supplied>ter
+					hoc merito commendare et vobis inde perveniat quod divina bonitas prop<supplied
+						reason="omitted">r</supplied>iis actibus recompenset. </p>
+				<p xml:id="XIIII_p_002">Datum apud<placeName ref="#UrbisVeteris"> Urbem
+						Veterem</placeName>,<date when="1273-04-04"> secundo nonas aprilis,
+						pontificatus nostri anno secundo.</date>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

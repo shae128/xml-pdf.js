@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXIII_224">
+    <front xml:id="CCLXIII_front">
+
+      <titlePart type="numerazioneNuova">224</titlePart>
+      <titlePart type="numerazioneOrig">CCLXIII</titlePart>
+
+      <docDate xml:id="CCLXIII_docDate">
+        <date when="1202-04-27">1202 aprile 27</date>, <placeName>Sarzana (<term xml:lang="latin"
+            >Sarzani, in foro</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXIII_regesto">
+        <p>Bonalbergo, gastaldo di Gualtiero, vescovo di Luni, dichiara a Guglielmino di Capannara
+          del fu Picerio, Stefanello del fu Besso <term xml:lang="latin">de Summo Tranci</term> e
+          Castagnolo del fu Talamello <term xml:lang="latin">de Summo Tranci</term>, che agiscono
+          anche a nome loro dei consorti, tutti del <term xml:lang="latin">masio Gallasco de Summo
+            Tranci</term> e uomini del vescovo, che loro e i loro eredi non devono essere venduti o
+          impegnati o alienati in alcuna maniera, ma mantenuti entro il suo <term xml:lang="latin"
+            >donnicum</term> e la sua <term xml:lang="latin">curia</term>. L’affitto per il <term
+            xml:lang="laitn">masio pro colta</term> ammonta a 3 soldi di imperiali l’anno; tutti gli
+          altri redditi e servizi, usi e condizioni rimangono invariati. La concessione costa 20
+          soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 268v., c. CCLXv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 263,
+            p. 242.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXIII_div">
+        <p xml:id="CCLXIII_p_001" n="1"><ptr target="#CCLXIII_st_001"/> In Dei nomine, amen.<date
+            when="1202-04-27"> Anno a nativitate Eius millesimo CCII°, indictione Va, die sabbati,
+            V° kalendas madii</date>. Ego <persName ref="#Bonalberguscast">Bonabelergus<note
+              xml:id="CCLXIII_n_001" n="a" place="foot"><term type="incerto">Bonabelergus</term>:
+                <emph>così nel testo per</emph>
+              <term xml:lang="latin">Bonalbergus</term>.</note>,
+            <roleName>castaldus</roleName></persName> domini <persName ref="#GualEpLuni">Walterii,
+            Dei gratia venerabilis <roleName>Lunensis episcopi</roleName></persName>, eius vice,
+          nomine et auctoritate atque parabola, facio tale pactum quondam<note
+            xml:id="CCLXIII_n_002" n="b" place="foot"><term type="incerto">quondam</term>:
+              <emph>così nel testo per</emph>
+            <term xml:lang="latin">cum</term>.</note>
+          <persName ref="#GuilielminusPicerii">Guilielmino de <placeName ref="#Capannara"
+              >Capannara</placeName> quondam Picerii</persName> et cum <persName
+            ref="#StephanellusBessi">Stephanello de <placeName ref="#SummoTranci">Summo
+              Tranci</placeName> quondam Bessi</persName> et cum <persName
+            ref="#CastagnolusTalamelli">Castagnolo de <placeName ref="#SummoTranci">Summo
+              Tranci</placeName> quondam Talamelli</persName>, recipientibus pro vobis et pro
+          omnibus vestris consortibus, qui sunt vestri consortes de masio <persName
+            ref="#GallascusSummoTranci">Gallasco de <placeName ref="#SummoTranci">Summo
+              Tranci</placeName></persName>, de quo vel pro quo estis homines dicti domini episcopi:
+          quod idem dominus episcopus vel sui successores non debeant vos vel vestros heredes
+          vendere vel impignare aut cambiare nec aliquo alio modo alienare, set semper vos et
+          vestros heredes debeat, ipse et successores sui, in suo donnico et sue curie retinere; et
+          afficto vobis coltam tali modo quod, inter omnes, quod habetis de illo masio debeatis dare
+          curie dicti domini episcopi annuatim <measure type="Imperiales" quantity="3"
+            unit="solidus">soldos III imperialium</measure> pro colta tantummodo et non debeatis
+          plus dare pro colta; set alios redditus, servicia, usancias et condictiones, que
+          consueverunt dari et fieri de ipso masio, semper integre dare ac facere debeatis curie
+          suprascripti domini episcopi vel cui commiserit, preter coltam, quam non debeatis dare,
+          nisi tres soldos, sicut dictum est, solummodo annuatim. Servicium recepit inde a vobis
+          dominus episcopus suprascriptus <measure type="Imperiales" quantity="20" unit="solidus"
+            >bonorum imperialium soldorum XX</measure>, unde ego promitto pro dicto domino episcopo
+          quod ipse et successores sui hec omnia vobis et vestris dictis consortibus et vestris et
+          eorum heredibus rata habebunt et firma tenebunt et per omnia observabunt; alioquin nisi
+          penam <measure type="Imperiales" quantity="100" unit="solidus">C soldorum
+            imperialium</measure> vobis vel cui commiseritis solvent, rato manente pacto. Hec omnia
+          dixit <persName ref="#Bonalberguscast">Bonalbergus</persName> se facere verbo, mandato et
+          parabola dicti domini episcopi.</p>
+        <p xml:id="CCLXIII_p_002" n="2">Actum <placeName ref="#Sarzana">Sarzani</placeName>, in
+          foro, sollempniter, cum stipulatione. Ibi fuerunt rogati testes <persName
+            ref="#UgolinusZucheto">Ugolinus de <placeName ref="#Zucheto"
+            >Zucheto</placeName></persName>, <persName ref="#MartinusSerra">Martinus de <placeName
+              ref="#Serra">la Serra</placeName></persName>, <persName ref="#Ianuensis">Ianuensis de
+              <placeName ref="#Ylice">Ylice</placeName></persName>, <persName ref="#TrumbolusAmelia"
+            >Trumbolus de <placeName ref="#Ameglia">Amelia</placeName></persName> et <persName
+            ref="#IunctaMalagonelle">Iuncta quondam Malagonelle de <placeName ref="#Vezzano"
+              >Vezano</placeName></persName>.</p>
+        <p xml:id="CCLXIII_p_003" n="3">Ego <persName ref="#Confortusnot">Confortus, <roleName>sacri
+              palacii et Lunensis curie notarius</roleName></persName>, hiis interfui rogatus et
+          scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXXVI_438">
+    <front xml:id="CCCCLXXVI_front">
+
+      <titlePart type="numerazioneNuova">438</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXVI</titlePart>
+
+      <docDate xml:id="CCCCLXXVI_docDate">
+        <date when="1229-05-20">1229 maggio 20</date>, <placeName>Tivegna <emph> (<term
+              xml:lang="latin">in ecclesia Sancti Laurentii de Tivegnia</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXXVI_regesto">
+        <p>Guidobono di Tivegna e Donato di Campotriolo testimoniano di fronte al priore di Carrara
+          e al canonico Grasso circa i diritti della curia lunense a Tivegna, Castiglione Vara e
+          Bracelli. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 363v., c. CCCLIIIIv., secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 476, pp. 487-488.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>L’indizione coincide, il <emph>XII kalendas iunii</emph> dovrebbe essere 21 maggio,
+            giorno che però cadeva di lunedì. Per concordare con il <emph>die dominico</emph>
+            dovrebbe essere <emph>XIII kalendas iunii</emph> come già suggerito da <ref
+              target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 32.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXVI. Reddituum pro porcatis de Tivegna.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+
+      <div xml:id="CCCCLXXVI_div">
+
+        <p xml:id="CCCCLXXVI_p_001" n="1">
+          <pb xml:id="fol_363v" n="363v"/> In nomine Domini, amen. <date when="1229-05-20">Anno a
+            nativitate Eius MCCXXIX, indictione II, die dominico, XII<supplied reason="omitted"
+              >I</supplied> kalendas iunii.</date>
+          <persName ref="#GuidobonusTivegna">Guidobonus de <placeName ref="#Tivegna"
+              >Tivegnia</placeName></persName> et <persName ref="#DonatusCampotriolo">Donatus de
+              <placeName ref="#Campotriolo">Campotriolo</placeName></persName> testificati sunt
+          coram domino priore de <placeName ref="#Carrara">Carraria</placeName>, supra hoc iudice
+          delegato, et <roleName>domino</roleName>
+          <persName ref="#Grassuscan">Crasso</persName>, <roleName>Lunensi canonico</roleName>.
+          Dixerunt et testificati sunt quod episcop<supplied reason="omitted">i</supplied>um Lunense
+          debet habere, nomine porcate, et consueverit habere, secundum quod ipsi viderunt, per XL
+          annos et plus, et nomine episcopi <note place="foot" n="a" xml:id="CCCCLXXVI_n_001"><term
+              xml:lang="latin"> episcopi </term><emph>: nel testo</emph>
+            <term xml:lang="latin"> episcopii </term>
+            <emph>con la seconda </emph> i <emph> abrasa </emph></note> quandoque recollegerunt vel
+          alterius qui pro episcopio habebant in <placeName ref="#Tivegna">Tivegnia</placeName> et
+          in districtu et in curia de <placeName ref="#Tivegna">Tivegnia</placeName>, in <placeName
+            ref="#CastiglionediVarese">Castilione</placeName> et in districtu, in <placeName
+            ref="#Bracellis">Blaçellio</placeName> et in districtu: a manso de <placeName
+            ref="#Folo">Folo</placeName>
+          <measure unit="soldi">VI soldos II denarios</measure> minus et cetera. Item dicunt de domo
+            <persName ref="#BeccolusSantAndrea">Beccoli de <placeName ref="#Sant_Andrea">Sancto
+              Andrea</placeName></persName> curia habebat annuatim <measure unit="soldi">XXII
+            denarios</measure> et I amiscere. Item dixit <persName ref="#GuidobonusTivegna"
+            >Guidobonus</persName> quod mansus de <placeName ref="#Monte">Monte</placeName>
+          tenebatur et debet tenere pro curia Lunensi, quem mansum tenebant <persName
+            ref="#Ugolinus">Ugolinus</persName>, <persName ref="#HenriginusPolveraria"
+            >Henriginus</persName> et <persName ref="#MontaninusPolveraria">Montaninus de <placeName
+              ref="#Polverara">Polveraria</placeName></persName>, et de quo manso est silva de
+            <placeName ref="#Marzano">Marçano</placeName> et de quo manso debet habere condictiones,
+          set ignorat que et quanta si<supplied reason="omitted">n</supplied>t et habuit, et vidit
+          habere tempore maxime <persName ref="#NorandEpLuni">Noradini</persName> et vidit tamen
+          quadam vice de predicto manso deferre <roleName>episcopo</roleName>
+          <persName ref="#NorandEpLuni">Noradino</persName> castaneas, caules et caseum. <persName
+            ref="#GuidobonusTivegna">Guidobonus</persName> et <persName ref="#DonatusCampotriolo"
+            >Donatus</persName> predicti sic iuraverunt, ut superius legitur, et testificati sunt,
+          sicut apparet in alio instrumento. </p>
+
+        <p xml:id="CCCCLXXVI_p_002" n="2"> Acta sunt hec in <orgName type="Tivegna_S_Lorenzo"
+            >ecclesia Sancti Laurentii de <placeName ref="#Tivegna">Tivegnia</placeName></orgName>,
+          presentibus <roleName>presbytero</roleName>
+          <persName ref="#Bonencontruspres">Bonencontro</persName>, <persName
+            ref="#IacopinusValeriano">Iacopino de <placeName ref="#Valerano"
+            >Valeriano</placeName></persName> et <persName ref="#GuarachinusOrandini">Guarachino
+            filio Orandini</persName>, testibus ad hec rogatis. </p>
+
+        <p xml:id="CCCCLXXVI_p_03" n="3">
+          <ptr target="#CCCCLXXVI_st_001"/> Ego <persName ref="#Confortus_notarius2">Confortus,
+              <roleName>domini Ottonis quarti imperatoris notarius</roleName></persName>, hec
+          rogatus scripsi. </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

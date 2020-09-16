@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="VII_36">
+		<front xml:id="VII_front">
+
+			<titlePart type="numerazioneNuova">36</titlePart>
+			<titlePart type="numerazioneOrig">VII</titlePart>
+
+			<docDate xml:id="VII_docDate">
+				<date when="1203-10-16">1203 ottobre 16</date>, <placeName ref="#Bologna"> Bologna
+						(<term xml:lang="latin">Bononie</term>) </placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="VII_regesto">
+				<p>Innocenzo III esenta il clero lunense da una retribuzione chiesta dalla Chiesa
+					sui benefici e le pensioni, non volendo tuttavia creare alcun pregiudizio al
+					cappellano Paolo di Garfagnana riguardo la sua pensione annuale nella diocesi di
+					Luni.</p>
+			</div>
+
+			<div type="footer" xml:id="VII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] cc. 61r.-61v., cc. LIIIr.-LIIIv. secondo la numerazione originale.
+					</p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione in <ref type="biblio" target="#LUPO_GENTILE_1912">LUPO GENTILE
+							1912</ref> n. 7, pp. 11-12, con la data 1204. </p>
+				</div>
+
+
+				<div type="crit_notes">
+					<note>Come già notato da <ref type="biblio" target="#MAZZINI_1914">MAZZINI
+							1914</ref>, p. 6, l’ottobre del sesto anno del pontificato cadeva nel
+						1203 stile comune.</note>
+					<note>Nel margine esterno di c. 61r., di mano moderna: <emph><term
+								xml:lang="latin">benificia <expan>Lun<ex>ensia</ex></expan> non
+								debent gravari pensionibus.</term></emph>
+					</note>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">VII. Lictere pape Inocentii clero Lunensi.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="VII_div">
+				<p xml:id="VII_p_001">
+					<persName ref="#InnocentiuspontifexIII">Innocentius <roleName>episcopus, servus
+							servorum Dei</roleName></persName>
+					<note xml:id="VII_n_01" place="foot" n="a"><emph>Dopo</emph>Dei<emph>una s
+							allungata.</emph>.</note>dilectis filiis, clero Lunensis diocesis,
+					salutem et apostolicam benedictionem. Volentes vobis et ecclesiis vestris,
+					intercedente venerabili fratre nostro .. Lunensi episcopo, super impositis
+					oneribus <pb n="61v" xml:id="fol_061v"/>adhibere medelam et a futuris, quantum
+					possumus, precavere, a prestatione qualibet provisionis vel pensionis
+					auctoritate litterarum nostrarum vobis iniuncta quibuscumque clericis vel
+					laicis, de quibus specialem vel expressam mentionem fieri oporteat facienda, vos
+					et ecclesias vestras, auctoritate presentium, absolventes, vobis duximus
+					indulgendum ut ad provisionem cuiusquam in beneficiis ecclesiasticis vel
+					pensionibus compelli per litteras sedis apostolice vel legatorum ipsius
+					impetrandas decetero non possitis, nisi eedem littere de presenti indulgentia
+					plenam et expressam de verbo ad verbum fecerint mentionem. Nolumus tamen dilecto
+					filio <persName ref="#Paulus_canonicus">Paulo de <placeName ref="#Garfagnana">
+							Carfagnana</placeName></persName>, <roleName>capellanno </roleName>
+					nostro, super assignata sibi pensione annua in Lunensi diocesi per hoc
+					preiuditium aliquod generari. Nulli ergo omnino hominum liceat hanc paginam
+					nostre absolutionis et concessionis infringere vel ei ausu temerario contraire.
+					Si quis autem hoc atemptare presumpserit, indignationem omnipotentis Dei, Petri
+					et Pauli, apostolorum Eius, se noverit incursurum. </p>
+				<p xml:id="VII_p_002">Datum <placeName ref="#Bononia">Bononie</placeName>, <date
+						when="1203-10-16">XVII kalendas novembris, pontificatus nostri anno
+						sextio</date>
+					<note xml:id="VII_n_02" place="foot" n="b">sextio: <emph>così nel
+						testo</emph>.</note>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

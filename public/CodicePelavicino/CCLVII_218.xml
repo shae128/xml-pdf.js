@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLVII_218">
+    <front xml:id="CCLVII_front">
+
+      <titlePart type="numerazioneNuova">218</titlePart>
+      <titlePart type="numerazioneOrig">CCLVII</titlePart>
+
+      <docDate xml:id="CCLVII_docDate">
+        <date when="1197-12-10">1197 dicembre 10</date> e <date when="1197-12-11">11</date>,
+          <placeName>Ponzanello (<term xml:lang="latin">in castro Ponçanelli</term>)</placeName> e
+          <date when="1197-12-12">1197 dicembre 12</date>, <placeName>Sarzana (<term
+            xml:lang="latin">apud Sarzanam, in palacio domini episcopi</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLVII_regesto">
+        <p>Gualtiero, vescovo di Luni, affitta a Marcellino di Ceserano, a Pietro e a Bello, che
+          ricevono anche a nome dei loro consorti, che sono uomini del vescovo, quanto concerne il
+            <term xml:lang="latin">masio</term> di Summo Vico; a Guideto, Odolino e Albertino, che
+          ricevono anche a nome dei loro consorti, che sono uomini del vescovo, quanto concerne il
+            <term xml:lang="latin">masio de Pallaroso</term>. Costoro si impegnano a ospitare i
+          nunzi del vescovo; a partecipare alle cavalcate del vescovo come gli uomini di Sarzana; a
+          fornire aiuto al vescovo per le questioni relative al papa e all’imperatore e all’acquisto
+          di terre; a recarsi dal vescovo per portare i tributi, se richiesti dal gastaldo; a non
+          diventare uomini di altri senza il permesso del vescovo o del gastaldo. Il vescovo tiene
+          per sé i diritti di placito, banno e <term xml:lang="latin">amasiamenta</term>, mentre
+          condona loro tutti gli altri obblighi. Il fitto annuale ammonta a 14 sestari di frumento,
+          4 congi di mosto, 8 galline, 80 uova e, quando il vescovo o un suo nunzio si reca
+          annualmente a Soliera, anche 8 fasci di fieno per i cavalli e prodotti dell’orto per la
+          corte. Il prezzo della transazione ammonta a 110 soldi di imperiali.</p>
+        <p>Il giorno seguente il vescovo procede alla medesima maniera con Giannino <term
+            xml:lang="latin">de Gropo</term> e Saraceno di Cormezzano, che ricevono anche a nome dei
+          consorti, mentre per Durante, minorenne, riceve Tebaldino gastaldo di Soliera in qualità
+          di tutore. In questo caso il fitto ammonta a 8 sestari di frumento, 6 polli, 40 uova e 6
+          fasci di fieno. Gli obblighi e le esenzioni sono i medesimi di quelli degli uomini di
+          Ceserano, eccetto che per la cavalcata e i trasporti, da cui sono esentati. Il prezzo
+          della transazione ammonta a 40 soldi di imperiali.</p>
+        <p>Nel terzo giorno il vescovo agisce nello stesso modo nei confronti di Tebaldino <term
+            xml:lang="latin">de Debioce</term>, suo fratello Enrigeno, Guidolino <term
+            xml:lang="latin">de Via</term> e Gerardino, che ricevono anche a nome dei consorti
+          riguardo alla tenuta <term xml:lang="latin">de Plano</term> e <term xml:lang="latin">de
+            Via</term>. In questo caso il fitto ammonta a 9 sestari di frumento, 1 congio di mosto,
+          6 polli, 40 uova e 6 fasci di fieno. Gli obblighi e le esenzioni sono i medesimi di quelli
+          degli uomini di Soliera. Il vescovo tiene per sé i diritti di placito e <term
+            xml:lang="latin">amasiamenta</term>, ma non di banno. Il prezzo della transazione
+          ammonta a 40 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 265v.- 266v., cc. CCLVIIv.- CCLVIIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 257,
+            pp. 237-238.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il testo contiene atti di affitto che si ritrovano in altri documenti del codice: in
+            particolare il primo atto è replicato al n. 270 (CCCVIII) e il terzo atto con Tebaldino
+              <term xml:lang="latin">de Debioce</term>, suo fratello Enrigeno, Guidolino <term
+              xml:lang="latin">de Via</term> e Gerardino è replicato con varianti minime ai nn. 210
+            (CCXL), 215 (CCXLV) e 221 (CCLI);</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLVII_div">
+        <p xml:id="CCLVII_p_001" n="1"><ptr target="#CCLVII_st_001"/>In eterni Dei nomine,
+            amen.<date when="1197-12-10"> Anno a nativitate Eius millesimo centesimo nonagesimo VII,
+            indictione XV, die mercurii, quarto idus decembris</date>, presentibus testibus
+          infrascriptis. Dominus <persName ref="#GualEpLuni">Gualterius, Dei gratia venerabilis
+              <roleName>Lunensis episcopus</roleName></persName>, affictavit <persName
+            ref="#MarcellusCisirano">Marcellum de <placeName ref="#Ceserano"
+            >Cisirano</placeName></persName> et <persName ref="#Petrus">Petrum</persName> et
+            <persName ref="#Bellus">Bellum</persName>, recipientes pro se et suis consortibus, qui
+          sunt eius homines, de masio atque pro masio de <placeName ref="#SummoVico">Summo
+            Vico</placeName>, et <persName ref="#Guidetus">Guidetum</persName> et <persName
+            ref="#Odolinus">Odolinum</persName> et <persName ref="#Albertinus"
+          >Albertinum</persName>, recipientes pro se et pro omnibus suis consortibus, qui sunt eius
+          homines, de masio et pro masio de <placeName ref="#Pallaroso">Pallaroso</placeName>, tali
+          pacto quod omnes, qui tenent de masio de <placeName ref="#SummoVico">Summo
+            Vico</placeName> et de <placeName ref="#Pallaroso">Pallaroso</placeName> simul, et eorum
+          heredes amodo perpetuo debeant et teneantur dare curie domini predicti episcopi annuatim,
+          in kalendis augusti, sextaria XIIII frumenti mundi et sicci et ad communem sextarium de
+            <placeName ref="#Soliera">Soleria</placeName> mensurati et debeant illud portare apud
+            <placeName ref="#Soliera">Soleriam</placeName>, in granarium domini episcopi, et
+          teneantur similiter dare annuatim eidem curie quatuor congia musti et in natale sancti
+          Stephani VIII gallinas et octuaginta ova et omni anno, quando dominus episcopus vel eius
+          nuncius venerit <placeName ref="#Soliera">Soleriam</placeName>, semel in anno, debeant ei
+          dare pro equis VIII faxios straminis et ortulatum quandocumque, ad opus curie, quando
+          dominus episcopus iverit <placeName ref="#Soliera">Soleriam</placeName>, sicut eius alii
+          villani de curia <placeName ref="#Soliera">Solerie</placeName>. Nuncios domini episcopi,
+          euntes per partes eorum, in hospicio recipere debeant et procurare; in exercitu et
+          cavalcata debeant ei facere sicut homines de curia <placeName ref="#Sarzana"
+            >Sarzani</placeName>; pro factis pape et imperatoris<note xml:id="CCLVII_n_001" n="a"
+            place="foot"><term xml:lang="latin">et imperatoris</term>: <emph>scritto su
+              rasura</emph>.</note> debeant ei auxilium dare; quando castaldus de <placeName
+            ref="#Soliera">Soleria</placeName> voluerit eos transmittere ad dominum episcopum<note
+            xml:id="CCLVII_n_002" n="a" place="foot"><term xml:lang="latin">voluerit eos
+              transmittere ad dominum episcopum</term>: <emph>scritto su rasura</emph>.</note> cum
+          apportis, debeant illuc ire; si quando dominus episcopus terram emeret, debeant<note
+            xml:id="CCLVII_n_003" n="a" place="foot"><term xml:lang="latin">terram emeret,
+              debeant</term>: <emph>scritto su rasura</emph>.</note> ei dare adiutorium, <pb
+            n="266r" xml:id="fol_266r"/> sicut alii sui affictati; non debeant se facere homines
+          alicuius, sine parabola domini episcopi vel castaldi eius. Placita, banda et amasiamenta
+          retinuit in se dominus suprascriptus episcopus de ipsis hominibus; alias omnes usancias,
+          condictiones et servicia et omnia, que ei et<note xml:id="CCLVII_n_004" n="b" place="foot"
+              ><term xml:lang="latin">et</term>: <emph>aggiunto in sopralinea con segno di
+              richiamo</emph>.</note> curie eius vel eius nuncio et precipue castaldo eius dabant
+          vel faciebant, seu facere vel dare debebant vel solebant, eis remisit et condonavit; ad
+          quorum omnium confirmationem fuit confessus se recepisse ab eis servicium bonorum <measure
+            type="imperiales" quantity="110" unit="solidus">imperialium soldorum CX</measure>,
+          renunciando exceptioni non numerate pecunie. Item constituerunt ut penam <measure
+            type="Imperiales" quantity="20" unit="libra">XX librarum imperialium</measure> alteri
+          parti persolvere teneatur quisquis ex ipsis aut ex<note xml:id="CCLVII_n_005" n="c"
+            place="foot"><term xml:lang="latin">ex</term>: <emph>aggiunto in sopralinea con segno di
+              richiamo</emph>.</note> successoribus domini episcopi vel ex heredibus eorum hominum
+          unquam in aliquo contra suprascripta pacta venire temptaverit; qua soluta, non minus hec
+          carta in sua permaneat firmitate.</p>
+        <p xml:id="CCLVII_p_002" n="2">Acta sunt hec in castro <placeName ref="#Ponzanello"
+            >Ponçanelli</placeName>, in domo <persName ref="#Gondetus">Gondeti</persName>,
+          feliciter, cum stipulatione. Ibi fuerunt rogati testes <persName ref="#Ugitiuscam">Ugitio
+              <roleName>camerarius</roleName></persName>, <persName ref="#Petruspres"
+              ><roleName>presbyter</roleName> Petrus de <placeName ref="#Soliera"
+              >Soleria</placeName></persName>, <persName ref="#Ugopres"
+              ><roleName>presbyter</roleName> Ugo de <placeName ref="#Ponzanello"
+              >Ponçanello</placeName></persName>, <persName ref="#RollandusPanigale">Rollandus de
+            Panigale</persName>, <persName ref="#BonencontrusSarzana">Bonencontrus de <placeName
+              ref="#Sarzana">Sarzana</placeName></persName>, <persName ref="#ThebaldinusSoleria"
+            >Tebaldinus de <placeName ref="#Soliera">Soleria</placeName></persName>, <persName
+            ref="#Gondetus">Gondetus</persName> et multi alii.</p>
+        <p xml:id="CCLVII_p_003" n="3"><c>§</c> Altera vero die, <date when="1197-12-11">qui fuit
+            dies iovis, III idus decembris</date>, in eodem loco, in presentia predictorum <persName
+            ref="#Ugitiuscam">Ugitionis</persName>, <persName ref="#Petruspres"
+              ><roleName>presbyteri</roleName> Petri</persName>, <persName ref="#RollandusPanigale"
+            >Rollandi</persName>, <persName ref="#BonencontrusSarzana">Bonencontri</persName>,
+            <persName ref="#ThebaldinusSoleria">Tebaldini</persName>, <persName ref="#Gondetus"
+            >Gondeti</persName>, <persName ref="#CancellinusFalcinello">Cancellini de <placeName
+              ref="#Falcinello">Falcinello</placeName></persName> et aliorum plurium, rogatorum ibi
+          testium. Predictus dominus episcopus affictavit <persName ref="#IanninusGropo">Ianninum de
+              <placeName ref="#Gropo">Gropo</placeName></persName> et <persName
+            ref="#SaracenusColmezano">Saracenum de <placeName ref="#Colmezano"
+            >Colmezano</placeName></persName>, recipientes pro se et pro omnibus suis consortibus,
+          set pro <persName ref="#Durans">Durante</persName>, consorte eorum, qui minor erat,
+          recepit dictus <persName ref="#ThebaldinusSoleria">Tebaldinus,
+              <roleName>castaldus</roleName> de <placeName ref="#Soliera"
+            >Soleria</placeName></persName>, tutorio nomine, tali pacto quod ipsi omnes et eorum
+          heredes amodo perpetuo simul debeant atque teneantur dare<note xml:id="CCLVII_n_006" n="d"
+            place="foot"><emph>Nel testo segue</emph>
+            <term xml:lang="latin">et</term>
+            <emph>superfluo</emph>.</note> suprascripte curie in omnibus et per omnia sicut
+          suprascripti de <placeName ref="#Ceserano">Cisirano</placeName>, hoc excepto quod isti
+          debeant dare tantum VIII sextaria frumenti et VI pullos et XL ova et VI fascios straminis.
+          In omnibus vero aliis debeant facere et dare et portare sicut illi de <placeName
+            ref="#Ceserano">Cisirano</placeName>, preterquam in cavalcata, et qui non debent portare
+          apporta, sicut illi de <placeName ref="#Ceserano">Cisirano</placeName>. Alia namque omnia
+          que dominus episcopus remisit et condonavit illis de <placeName ref="#Ceserano"
+            >Cisirano</placeName>, remisit et istis, et omnia que retinuit in illis retinuit et in
+          istis, preter predicta exceptata; servicium autem recepit ab istis, ad confirmationem
+          omnium predictorum, bonorum <measure type="Imperiales" quantity="40" unit="solidus"
+            >imperialium soldorum XL</measure>, ut dixit, renunciando exceptioni non numerate
+          pecunie. Item constituerunt ut penam <measure type="Imperiales" quantity="200"
+            unit="solidus">CC soldorum imperialium</measure> alteri parti persolvere teneatur
+          quicumque ex ipsis aut ex<note xml:id="CCLVII_n_007" n="e" place="foot"><term
+              xml:lang="latin">ex</term>: <emph>aggiunto in sopralinea</emph>.</note> successoribus
+          domini episcopi vel ex heredibus eorum hominum umquam in aliquo contra ea que scripta sunt
+          in hac carta venire temptaverit; qua soluta, non minus hec carta suum obtineat robur et
+          firmitatem.</p>
+        <p xml:id="CCLVII_p_004" n="4"><c>§</c> Sequenti vero <date when="1197-12-12">die veneris,
+            pridie idus decembris</date>, apud <placeName ref="#Sarzana">S(arzana)m</placeName>, in
+          palacio domini episcopi, in presencia <persName ref="#IacopinusCarraria">Iacopini de
+              <placeName ref="#Carrara">Carraria</placeName></persName>, <persName
+            ref="#BalzanusSarzana">Balzani de <placeName ref="#Sarzanello">castro
+              Sarzani</placeName></persName>, <persName ref="#MançetusTivenia">Manzeti de <placeName
+              ref="#Tivegna">Tivegna</placeName></persName>, <persName ref="#UbertinusGrassus"
+            >Ubertini Crassi</persName>, <persName ref="#ThebaldinusSoleria">Tebaldini de <placeName
+              ref="#Soliera">Soleria</placeName></persName> et aliorum multorum rogatorum testium.
+          Sepedictus dominus episcopus affictavit <persName ref="#ThebaldinusDebicoe">Tebaldinum de
+              <placeName ref="#Debicoe">Debioce</placeName></persName> et <persName
+            ref="#HenrigenusDebicoe">Henrigenum</persName>, fratrem eius, et <persName
+            ref="#GuidolinusVia">Guidolinum de <placeName ref="#Via">Via</placeName></persName> et
+            <persName ref="#GerardinusVia">Gerardinum</persName>, recipientes pro se et pro omnibus
+          suis consortibus, qui tenent ab eo et sunt eius homines, de tenuta et pro tenuta de
+            <placeName ref="#Plano">Plano</placeName> atque de <placeName ref="#Via"
+          >Via</placeName>, tali pacto quod omnes simul et eorum heredes debeant dare curie predicte
+          de cetero annuatim sextaria IX frumenti, sicut predicti, et I congium musti et VI pullos
+          et XL ova et VI faxios straminis, sicut predicti, et in illis terminis quibus predicti
+          hostem et cavalcatam debeant facere, sicut vassalli sui de <placeName ref="#Soliera"
+            >Soleria</placeName>; ortulatum debeant dare nunciis domini episcopi quando episcopus
+          venerit <placeName ref="#Soliera">Soleriam</placeName>, sicut alii affictati de <placeName
+            ref="#Soliera">Soleria</placeName>; pro papa et imperatore et pro terra, quam emeret
+          dominus episcopus, debeant ei dare auxilium, sicut vassalli sui de <placeName
+            ref="#Soliera">Soleria</placeName>; non debeant se facere homines alicuius, sine
+          licencia domini episcopi vel sui nuncii; frumentum teneantur portare <placeName
+            ref="#Soliera">Soleriam</placeName>, set alia non. Placita et amasiamenta retinuit in se
+          dominus episcopus, set banda non. Alia omnia eis remisit et condonavit, sicut
+          suprascriptis, pro quibus omnibus dixit se recepisse ab eis servicium bonorum <measure
+            type="Imperiales" quantity="40" unit="solidus">imperialium soldorum XL</measure>,
+          renunciando exceptioni non numerate pecunie, et apporta non debent isti portare. Item
+          constituerunt penam <measure type="Imperiales" quantity="200" unit="solidus">CC
+            soldorum</measure> alteri parti esse persolvendam ab ea parte que contra hoc faceret,
+          sicut suprascripti; qua soluta, non minus predicta firmiter observentur.</p>
+        <p xml:id="CCLVII_p_005" n="5"><c>§</c> Hec omnia promisit dominus episcopus per se et suos
+          successores omnibus predictis, quando affictavit eos, recipientibus pro se et omnibus suis
+            <pb n="266v" xml:id="fol_266v"/> consortibus atque pro suis et eorum heredibus, atque
+          ipsi similiter promiserunt ei et successoribus eius, quando fuerunt affictati, per se et
+          suos consortes atque per suos et eorum heredes, suprascripta omnia que leguntur superius,
+          sub predicta pena, firma tenere atque rata et omnia que in cartis, quas ego <persName
+            ref="#Confortusnot">Confortus <roleName>notarius</roleName></persName> illis hominibus
+          de istis affictactionibus scripsi, continentur similiter atque numquam in aliquo
+          contravenire.</p>
+        <p xml:id="CCLVII_p_006" n="6">Ego <persName ref="#Confortusnot">Confortus, <roleName>sacri
+              palacii et Lunensis curie notarius</roleName></persName>, hiis omnibus interfui
+          rogatus atque hanc cartam precepto domini suprascripti episcopi scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

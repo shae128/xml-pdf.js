@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXX_282">
+    <front xml:id="CCCXX_front">
+
+      <titlePart type="numerazioneNuova">282</titlePart>
+      <titlePart type="numerazioneOrig">CCCXX</titlePart>
+
+      <docDate xml:id="CCCXX_docDate">
+        <date when="1273-05-08">1273 maggio 8</date>, <placeName>Vezzala (<emph>in capite pontis
+            ville de Veçale</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXX_regesto">
+        <p>Il notaio Bonalbergo di Carrara del fu Giovanni di Torano, per mandato del vescovo di
+          Luni Enrico, giura di difendere le località di Miseglia, Vezzala e Torano, così come
+          fecero i suoi predecessori al tempo del vescovo Pipino. Si eccettua dal giuramento quanto
+          è scritto in un documento rogato dal notaio Lombardo, a meno che non risulti che i vescovi
+          successivi a Pipino e all’eletto Rolando lo abbiano giurato.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 293r., c. CCLXXXVr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 320,
+            p. 309.</p>
+        </div>
+
+        <div type="crit_notes"> </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCXX.
+              Iuramenti prestiti a domino episcopo villarum Misegie, Veçalis et Torani.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXX_div">
+        <p xml:id="CCCXX_p_001" n="1">In Dei nomine, amen. <date when="1273-05-08">Anno a nativitate
+            Eius millesimo CCLXXIII, indictione I, VIII maii</date>. Ex forma huius publici
+          instrumenti clareat omnibus videntibus manifeste, tam presentibus quam futuris, quod
+            <persName ref="#Bonalbergusnot">Bonalbergus de <placeName ref="#Carrara"
+              >Carraria</placeName>
+            <roleName>notarius</roleName> quondam Iohannis de <placeName ref="#Torano"
+              >Torano</placeName></persName>, de mandato et voluntate venerabilis patris domini
+            <persName ref="#HenricusEpLuni">Henrici, <roleName>Dei gratia Lunensis
+              episcopi</roleName></persName>, iuravit ad sancta Dei evangelia, corporaliter libro
+          tacto, in animam ipsius domini episcopi, securitatem villarum <placeName ref="#Miselia"
+            >Miselie</placeName>, <placeName ref="#Veçale">Veçalis</placeName> et <placeName
+            ref="#Torano">Torani</placeName> et eorum honores et iura deffendere et manutenere bona
+          fide, sicut hactenus fecerunt antecessores sui a tempore domini <persName ref="#PipEpLuni"
+            >Pipini, <roleName>Lunensis episcopi</roleName></persName>, salvo quod de hiis, que in
+          instrumento scripto per <persName ref="#Lombardusnot">Lombardum
+              <roleName>notarium</roleName></persName>, non teneatur idem episcopus in aliquo, nisi
+          appareret legitime alios episcopos qui fuerunt post ipsum <persName ref="#PipEpLuni"
+              ><roleName>episcopum</roleName> Pipinum</persName> et post dominum <persName
+            ref="#Rollandus">Rollandum, <roleName>electum Lunensem</roleName></persName>, iuramentum
+          fecisse secundum formam ipsius instrumenti facti per dictum <persName ref="#Lombardusnot"
+            >Lumbardum <roleName>notarium</roleName></persName>.</p>
+        <p xml:id="CCCXX_p_002" n="2">Actum in capite pontis suprascripte ville de <placeName
+            ref="#Veçale">Veçale</placeName>, testibus <persName ref="#GuilielmusNigro"
+              ><roleName>domino</roleName> Guilielmo Nigro de <placeName ref="#Castello"
+              >Castello</placeName></persName>, <persName ref="#SaladinusFosdenova">Saladino de
+              <placeName ref="#Fosdinovo">Fosdenova</placeName></persName>, <persName
+            ref="#Rubeusiud"><roleName>domino</roleName> Rubeo de <placeName ref="#Sarzana"
+              >Sarzana</placeName>
+            <roleName>iudice</roleName></persName>, <persName ref="#Petrusmed"
+              ><roleName>magistro</roleName> Petro <roleName>medico</roleName></persName> et
+            <persName ref="#Guilielmusiud">Guilielmo <roleName>iudice</roleName> quondam Symonis
+            Asinelli</persName> et aliis multis, presentibus et rogatis.</p>
+        <p xml:id="CCCXX_p_003" n="3"><ptr target="#CCCXX_st_001"/> Ego <persName
+            ref="#Bonacursusnot2">Bonacursus, <roleName>domini Frederici serenissimi Romanorum
+              imperatoris notarius</roleName></persName>, hiis interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

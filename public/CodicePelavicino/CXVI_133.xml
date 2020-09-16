@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXVI_133">
+    <front xml:id="CXVI_front">
+
+      <titlePart type="numerazioneNuova">133</titlePart>
+      <titlePart type="numerazioneOrig">CXVI</titlePart>
+
+      <docDate xml:id="CXVI_docDate">
+        <date when="1235-04-02">1235 aprile 2</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in curia castri Sarzane</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXVI_regesto">
+        <p>Guglielmo, vescovo di Luni, loca <term xml:lang="latin">per homagium</term> a Vegnuto del
+          fu Carentano di Pulica, che riceve per la dote di sua moglie Diamante, figlia del fu
+          Guiscardello, la metà di tutti i beni appartenuti al suocero, siti in Pulica. La locazione
+          costa 18 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 225v., c. CCXVIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 116,
+            p. 151.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <emph>Terreno nella giurisdizione di
+              Pulica</emph>. Il documento contiene formule ceterate. <p>Stesura <emph>in
+                mundum</emph> databile tra il 1270 e il 1272 dalla presenza di Bonagiunta de Podio
+              di Lucca.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXVI_div">
+        <p xml:id="CXVI_p_001" n="1"><pb n="225v" xml:id="fol_225v"/>In Ihesu Christi Dei eterni
+          nomine, amen.<date when="1235-04-02">Millesimo CCXXXV, indictione VIIIa, die lune, II
+            mensis intrantis aprilis</date>. In <placeName ref="#Sarzanello">curia castri
+            Sarzane</placeName>, coram <persName ref="#ParensPasqualini">Parente quondam Pasqualini
+              <roleName>castaldione <placeName ref="#Sarzanello">curia castri
+              Sarzane</placeName></roleName></persName>, <persName ref="BurgensisSarz">Burgese de
+              <placeName ref="#Sarzanello">castro Sarzane</placeName></persName>, <persName
+            ref="#AdelbertinusBonaiuti">Aldebertino quondam Bonaiuti de <placeName ref="#Pulica"
+              >Puleca</placeName></persName> et <persName ref="#GerardusGuilielmini">Girardo quondam
+            Guilielmini</persName>, testibus rogatis. Venerabilis <persName ref="#GuilEpLuni"
+            >Guilielmus, Dei gratia <roleName>Lunensis episcopus</roleName></persName>, per se et
+          suos successores dedit, cessit atque locavit per homagium et iure homagii <persName
+            ref="#VegnutusCarentani">Vegnuto quondam Carentani de <placeName ref="#Pulica"
+              >Puleca</placeName></persName>, recipienti nomine dotis pro se et uxore sua <persName
+            ref="#DiamanteGuiscardelli">Diamante, filia quondam Guiscardelli</persName>, et eorum
+          heredibus ab <supplied reason="omitted">eis</supplied> simul descendentibus, in perpetuum,
+          nominatim, medietatem pro indiviso tocius poderis, tenute et possessionis, quod et quam
+          olim fuit prenominati <persName ref="#Guiscardellus">Guiscardelli, patris dicte <persName
+              ref="#DiamanteGuiscardelli">Diamantis</persName></persName>, sive habuit et tenuit in
+            <placeName ref="#Pulica">Puleca</placeName> et eius finibus et pertinenciis et alibi, in
+          castro et extra castrum, in casis, capannis et in casamentis, in terris cultis et
+          incultis, in pratis, pascuis, silvis et nemoribus, aqualibus levatis atque
+            aqueductilibus<note place="foot" n="a" xml:id="CXVI_n_001"><term type="incerto"
+              >aqueductilibus</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">aqueductibus</term>.</note>, molendinis, agrum et cultum, plenum
+          et vacuum et cetera, cum accessibus et regressibus et cetera, ad habendum, tenendum,
+          fruendum et cetera, pro <measure type="Imperiales" quantity="18" unit="solidus">XVIII
+            soldis imperialium</measure>, quos confessus fuit se inde ab eo servicium recepisse,
+          renunciando et cetera, et potestatem intrandi tenutam et cetera, reddendo, solvendo et
+          prestando exinde <placeName ref="#Luni">curie Lunensi</placeName> omnes illos redditus,
+          condictiones, factiones, operas et usantias, que<note place="foot" n="b"
+            xml:id="CXVI_n_002"><term type="incerto">que</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">quos</term>.</note> et quas olim dictus <persName
+            ref="#Guiscardellus">Guiscardellus</persName> exinde reddere consuevit vel tenebatur pro
+          ipsa medietate tantum et cetera.</p>
+      </div>
+      <div xml:id="CXVI_div2" type="mundum">
+        <p xml:id="CXVI_p2_002" n="2"><ptr target="#CXVI_st_001"/>Ego <persName ref="#Henricusnot"
+            >Henricus de <placeName ref="#Sarzanello">castro Sarzane</placeName>
+            <roleName>sacri palatii notarius</roleName></persName>, hanc cartam olim a <persName
+            ref="#Bonencontrusnot">Bonencontro de <placeName ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et auttenticavi et
+          in publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+            <persName ref="#Bonaiunctaiud"><roleName>domino</roleName> Bonaiuncta de <placeName
+              ref="#PodioLucca">Podio de Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+                ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre
+          domino Lunensi episcopo atque <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName>, de qua
+          auctoritate et decreto constat per instrumentum publicum factum manu <persName
+            ref="#Alcheriusnot">Alcherii <roleName>notarii</roleName> de <placeName ref="#Lucca"
+              >Luca</placeName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 133-CXVI databile tra il 1270 e il
+            1272 dalla presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

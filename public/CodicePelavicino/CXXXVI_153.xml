@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXXXVI_153">
+    <front xml:id="CXXXVI_front">
+
+      <titlePart type="numerazioneNuova">153</titlePart>
+      <titlePart type="numerazioneOrig">CXXXVI</titlePart>
+
+      <docDate xml:id="CXXXVI_docDate">
+        <date when="1231-10-31">1231 ottobre 31</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in castro Sarzane, in camera curie domini
+          episcopi</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXXXVI_regesto">
+        <p>A seguito della discordia sorta tra i Bottacungi, ossia Guido, Tancredino, Gibertino,
+          Rollandino, Balzano e Gibertino de Carpena, signori di Falcinello, che avevano siglato un
+          patto col vescovo di Luni Guglielmo, e il popolo di Falcinello insieme ad altri consorti -
+          nominalmente Tranchedino da Vallecchia, Albertino del fu Bernardo ed Enrico di Gerardo –,
+          si arriva a un accordo in presenza e col consenso del vescovo stesso. Per la cura del
+          castello si devono eleggere due consoli l’anno, uno dei signori e l’altro del popolo; nei
+          successivi venti anni il console del popolo non può essere ricusato dal vescovo fintanto
+          che è suo vassallo e amico.</p>
+      </div>
+
+      <div type="footer" xml:id="CXXXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 235r., c. CCXXVIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. 136, pp. 169-170.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine interno, di mano moderna: <emph>De Falcinello.</emph></note>
+        </div>
+
+        <div type="appr">
+          <p>Bibliografia: PAVONI 1999, pp. 145-147; GENTILE 2000, pp. 15-16.</p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <pb n="235r" xml:id="fol_235r"/>
+      <div xml:id="CXXXVI_div">
+        <p xml:id="CXXXVI_p_001" n="1">In Christi nomine, amen. Anno a nativitate Ipsius <date
+            when="1231-10-31">M°CCXXXI, indictione IIII, die veneris, secundo kalendas
+            novembris</date>. Cum discordia esset inter <persName ref="#Bottacungi"
+            >Bottacungos</persName>, <persName ref="#GuidoGerardiFal">Guidonem</persName> et
+            <persName ref="#TancredinusGerardiFal">Tranchedinum</persName>, <persName
+            ref="#GibertinusCodeFal">Gibertinum</persName> et <persName ref="#RollandinusCodeFal"
+            >Rollandinum</persName>, <persName ref="#BalçanusBott">Balçanum</persName> et <persName
+            ref="#GibertinusCar">Gibertinum de <placeName ref="#Carpena"
+            >Carpena</placeName></persName> et omnes dominos de <placeName ref="#Falcinello"
+            >Falcinello</placeName>, qui fecerunt concordiam super iuridictionibus ipsius terre cum
+          venerabili patre <persName ref="#GuilEpLuni">domino Guilielmo, Dei gratia
+              <roleName>Lunensi episcopo</roleName></persName>, ex una parte, et populum de
+            <placeName ref="#Falcinello">Facinello</placeName><note place="foot" n="a"
+            xml:id="CXXXVI_n_001">
+            <term type="incerto">Facinello</term><emph>: così nel testo per</emph>
+            <term xml:lang="latin">Falcinello</term>.</note>, ex altera, tamdem <persName
+            ref="#TancredinusVal">Tranchedinus de <placeName ref="#Vallecchia1"
+              >Vallechia</placeName></persName>, <persName ref="#AlbertinusBernardiFal">Albertinus
+            quondam Bernardi</persName> et <persName ref="#HenricusGerardi">Henricus filius
+            Gerardi</persName>, pro se et omnibus dominis de <placeName ref="#Falcinello"
+            >Facinello</placeName><note place="foot" n="a" xml:id="CXXXVI_n_002">
+            <term type="incerto">Facinello</term><emph>: così nel testo per</emph>
+            <term xml:lang="latin">Falcinello</term>.</note>, qui fecerunt pactum cum dicto domino
+          episcopo vel qui in posterum facerent, atque <persName ref="#SpinellusCarucci">Spinellus
+            filius Caruccii</persName>, <persName ref="#BonaiutusCam">Bonaiutus de <placeName
+              ref="#Camtellino">Camtellino</placeName></persName>, <persName
+            ref="#AldebertusZanforni">Aldebertus nepos Çanforni</persName>, <persName
+            ref="#BernardusTedisio">Bernardus de Tedisio</persName><note place="foot" n="b"
+            xml:id="CXXXVI_n_003"><term xml:lang="latin">Tedisio</term><emph>: nel testo</emph>
+            <term xml:lang="latin">Tedesio</term>
+            <emph>con la seconda</emph> e <emph>espunta e sostituita da</emph> i <emph>in
+              sopralinea.</emph></note>, <persName ref="#CompagnonusLano">Compagnone de
+            Lano</persName> et <persName ref="#Ruffaldus">Ruffaldus</persName>, pro se et
+          universitate et singulis de <placeName ref="#Falcinello">Facinello</placeName><note
+            place="foot" n="a" xml:id="CXXXVI_n_004">
+            <term type="incerto">Facinello</term><emph>: così nel testo per</emph>
+            <term xml:lang="latin">Falcinello</term>.</note>, ad talem concordiam devenerunt,
+          volente, presente et consentiente predicto domino episcopo, videlicet quod duo consules
+          pro regimine ipsius castri annis singulis eligantur, unus de dominis et unus de populo,
+          secundum formam expressam in pactis conventis inter ipsos dominos de <placeName
+            ref="#Falcinello">Facinello</placeName> et ipsum dominum episcopum et continetur in
+          instrumento rogato manu <persName ref="#GerardetusMontoni">Gerardeti
+              <roleName>notarii</roleName></persName>. Hoc adiecto, quod hinc ad viginti annos
+          Lunensis episcopus non possit reprobare electum vel nominatum consulem de populo dummodo
+          sit vassallus episcopi et amicus. Cetera omnia, secundum quod in pactis prenominatis
+          superius, continentur in cartis factis manu dicti <persName ref="#GerardetusMontoni"
+            >Gerardeti <roleName>notarii</roleName></persName>, in suo robore perseverent. Et sic
+          predicti, pro se et pro quilibet erant<note place="foot" n="c" xml:id="CXXXVI_n_005">
+            <term type="incerto">pro quilibet erant</term><emph>: così nel testo, probabilmente
+              per</emph>
+            <term xml:lang="latin">pro quolibet eorum</term>.</note>, promiserunt ad invicem et ipsi
+          domino episcopo sollempniter observare.</p>
+        <p xml:id="CXXXVI_p_002" n="2">Actum in <placeName ref="#Sarzanello">castro
+            Sarzane</placeName>, in camera curie suprascripti domini episcopi, sollempniter,
+          presentibus <persName ref="#Bonaiunctaarc">Bonaiuncta <roleName>archipresbytero
+              Lunensi</roleName></persName>, <persName ref="#AttolinusCacti">Attolino quondam Catii
+            de <placeName ref="#Sarzana">Sarzana</placeName></persName>, <persName
+            ref="#Bonencontrusnot">Bonencontro <roleName>notario</roleName> de <placeName
+              ref="#Soliera">Soleria</placeName></persName> et aliis multis.</p>
+        <p xml:id="CXXXVI_p_003" n="3"><ptr target="#CXXXVI_st_001"/> Ego <persName
+            ref="#IacopinusTalliavachanot">Iacobinus, qui nominor Talliavacca, <roleName>palatii
+              sacri notarius</roleName></persName>, hanc cartam a <persName
+            ref="#PinosiusIacopinusnot">Pynosio nomine Iacopino, bone memorie
+              <roleName>notario</roleName></persName>, abreviatam, auctoritate et mandato
+          venerabilis patris <persName ref="#GuilEpLuni">domini Guilielmi, Dei gratia
+              <roleName>Lunensis episcopi</roleName></persName>, visa sceda eius, prout in ea
+          continebatur, scripsi atque proprio signo signavi, nichil addens vel minuens, quod sensum
+          mutet aut intellectum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

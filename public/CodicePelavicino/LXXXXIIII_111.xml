@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="LXXXXIIII_111">
+        <front xml:id="LXXXXIIII_front">
+
+            <titlePart type="numerazioneNuova">111</titlePart>
+            <titlePart type="numerazioneOrig">LXXXXIIII</titlePart>
+
+            <docDate xml:id="LXXXXIIII_docDate">
+                <date when="1202-04-03">1202 aprile 3</date>
+                <placeName>Sarzanello (<term xml:lang="latin">in palacio castri de
+                    Sarzana</term>)</placeName>
+                <date when="1202-07-05">1202 luglio 5</date>
+                <placeName>Sarzanello (<term xml:lang="latin">in camera palacii castri de
+                        Sarzana</term>)</placeName>
+            </docDate>
+            <div type="regesto" xml:id="LXXXXIIII_regesto">
+                <p> Alberto di Ceserano del fu Martino, abitante a Sarzana, dona al vescovo di Luni
+                    Gualtiero, tutti i suoi beni mobili ed immobili, ricevendoli poi in investitura
+                    a titolo di feudo insieme con due ulteriori iugeri di terra ricevendone il
+                    giuramento di fedeltà e la consegna annuale di un anello d’oro del valore di 12
+                    denari di imperiali. Se Alberto o i suoi eredi moriranno senza eredi, succederà
+                    loro vescovo, con l’eccezione del feudo che Alberto ha ricevuto dalla figlia del
+                    fu Ranieri, figlio di Dalfinella. Pochi mesi dopo il vescovo investe allo stesso
+                    modo Bonaiuto figlio del fu Alberto di Ceserano. </p>
+                <p> Gualtiero, vescovo di Luni, conferma a Bonaiuto, figli del fu Alberto di
+                    Cisirano, agente anche a nome dei propri fratelli, il feudo a suo tempo concesso
+                    al loro padre defunto. </p>
+            </div>
+            <div type="footer" xml:id="LXXXXIIII_footer">
+
+                <div type="biblio">
+                    <p>Copia [C] cc. 208v.-209r., cc. CCv.-CCIr. secondo la numerazione
+                        originale.</p>
+                    <p>Edizione parziale in Lupo Gentile 1912, n. 94, pp. 126-127.</p>
+                    <p>La parte iniziale del documento è stata letta con l’ausilio della luce di
+                        Wood.</p>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXXXXIIII. De eadem domo.</term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="LXXXXIIII_div">
+                <p xml:id="LXXXXIIII_p_001">
+                    <ptr target="#LXXXXIIII_st_001"/> In Dei nomine, amen. <date when="1202-04-03"
+                        >Anno a nativitate Eius millesimo CC secundo, indictione Va, die mercurii,
+                        tercio mensis aprilis</date>, presentibus testibus infrascriptis. <persName
+                        ref="#AlbertusMartiniCyc">Albertus de <placeName ref="#Ceserano"
+                            >Cisirano</placeName></persName>, habitator <placeName ref="#Sarzana"
+                        >Sarzane</placeName>, <persName ref="#AlbertusMartiniCyc">filius quondam
+                        Martini</persName>, fecit datum <roleName>domino</roleName>
+                    <persName ref="#GualEpLuni">Walterio</persName>, <roleName>Dei gratia venerabili
+                        Lunensi episcopo</roleName>, episcopatus sui nomine recipienti, de omnibus
+                    suis rebus mobilibus et immobilibus, nomine pure et simplicis donationis.
+                    Dominus vero episcopus suprascriptus investivit eumdem <persName
+                        ref="#AlbertusMartiniCyc">Albertum</persName>, recipientem pro se et omnibus
+                    suis heredibus, nomine recti atque honorifici feudi, de omnibus predictis rebus,
+                    de quibus ei fecerat datum, pro qua investitura idem <persName
+                        ref="#AlbertusMartiniCyc">Albertus</persName> iuravit prefato domino
+                    episcopo fidelitatem contra omnes homines. Et dominus episcopus promisit ei dare
+                    et addere similiter per feudum duo iugera terre, de quibus cum eo fuerit in
+                    concordiam, et ob hoc dato teneatur dominus episcopus et successores sui iuvare
+                    et manutenere eumdem <persName ref="#AlbertusMartiniCyc">Albertum</persName> et
+                    eius heredes et eorum possessiones rationabiliter ab omni contradicente persona;
+                    et ad memoriam <pb n="209r" xml:id="fol_209r"/>horum teneatur idem <persName
+                        ref="#AlbertusMartiniCyc">Albertus</persName> et sui heredes dare domino
+                    episcopo et suis successoribus annuatim anulum unum, valentem duodecim denariis
+                    imperialium. Et tali pacto sunt hec facta ut, si forte, quod absit, <persName
+                        ref="#AlbertusMartiniCyc">Albertus</persName> vel sui heredes sine herede
+                    deficerent, quod dominus episcopus et successores sui succedant ei vel eis in
+                    omnibus suis possessionibus, preterquam in feudo quod ipse <persName
+                        ref="#AlbertusMartiniCyc">Albertus</persName> tenet a filia quondam
+                        <persName ref="#RayneriusDalfinelle">Raynerii, filii donne
+                        Dalfinelle</persName>, de quo feudo nec Albertus fecit datum nec dominus
+                    episcopus nec successores sui umquam in eo succedere debeant; et heredes Alberti
+                    debeant iurare domino episcopo et suis successoribus fidelitatem, sicut iuravit
+                        <persName ref="#AlbertusMartiniCyc">Albertus</persName> idem contra omnes
+                    homines, et predictus anulus debeat esse aureus.</p>
+                <p xml:id="LXXXXIIII_p_002"> Actum in palacio <placeName ref="#Sarzanello">castri de
+                        Sarzana</placeName>, cum investitura et stipulatione, sollempniter. Ibi
+                    fuerunt rogati testes <persName ref="#Nicholausadv">Nicholaus</persName>
+                    <roleName>advocatus domini episcopi</roleName>, <persName
+                        ref="#UbertinusGrassus">Ubertinus Crassus</persName> et <persName
+                        ref="#BalditioSarzana">Balditionus</persName> de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>. </p>
+                <p xml:id="LXXXXIIII_p_003">
+                    <date when="1202-07-05">Eodem anno, die veneris, quinto intrante iulio</date>,
+                    in camera dicti palacii, presentibus dicto <persName ref="#Nicholausadv"
+                        >Nicholao</persName>, <persName ref="#Bonacursuscas">Bonacurso</persName>
+                    <roleName>castaldo</roleName>, <persName ref="#GuidoCassina">Guidone</persName>
+                    de <placeName ref="#Cassina">Cassina</placeName>, <persName ref="#AlbertusGumbo"
+                        >Alberto Gumbo</persName> atque dicto <persName ref="#BalditioSarzana"
+                        >Balditione</persName>, testibus ad hec rogatis. Dominus episcopus
+                    suprascriptus investivit <persName ref="#BonaiutusCiçerano">Bonaiutum, filium
+                        quondam dicti Alberti </persName>de <placeName ref="#Ceserano"
+                        >Cisirano</placeName>, recipientem pro se et fratribus suis, de suprascripto
+                    feudo, de quo patrem eius investiverat et de quo eidem domino episcopo fecerat
+                    datum suprascriptus <persName ref="#AlbertusMartiniCyc">Albertus</persName>, ita
+                    quidem ut idem <persName ref="#BonaiutusCiçerano">Bonaiutus</persName> et sui
+                    fratres et eorum heredes habeant et teneant suprascriptum feudum et sint inde
+                    domini episcopi et successorum suorum vassalli contra omnes homines atque
+                    teneantur dare domino episcopo et suis successoribus annuatim anulum unum,
+                    valentem <measure quantity="12" unit="denariis">XII denariis
+                        imperialium</measure>, sicut pater eorum promisit, atque dominus episcopus
+                    promisit addere feudum dictis fratribus, scilicet duo iugera terre, de quibus
+                    cum eis fuerit in concordiam, atque iuvare et manutenere eos et eorum heredes et
+                    possessiones rationabiliter ab omni contradicente persona per se et suos
+                    successores, sicut promisit patri eorum per omnia et in omnibus. Dominus
+                    episcopus, per se et suos successores, et dictus Bonaiutus, pro se et fratribus
+                    suis et suis et eorum heredibus, confirmaverunt et promiserunt per omnia ratum
+                    habere quicquid actum est et contractum inter eundem dominum episcopum et
+                    suprascriptum qondam <persName ref="#AlbertusMartiniCyc">Albertum</persName>,
+                    prout superius legitur. Et sic iuravit ei ibi fidelitatem dictus <persName
+                        ref="#BonaiutusCiçerano">Bonaiutus</persName>. </p>
+                <p xml:id="LXXXXIIII_p_004"> Ego <persName ref="#Confortusnot">Confortus</persName>,
+                        <roleName>sacri palatii et Lunensis curie notarius</roleName>, hiis
+                    interfui, rogatus, atque scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

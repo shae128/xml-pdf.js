@@ -1,0 +1,337 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCVII_368">
+    <front xml:id="CCCCVII_front">
+
+      <titlePart type="numerazioneNuova">368</titlePart>
+      <titlePart type="numerazioneOrig">CCCCVII</titlePart>
+
+      <docDate xml:id="CCCCVII_docDate">
+        <date when="1279-07-28">1279 luglio 28</date>, <placeName>Santo Stefano (<term
+            xml:lang="latin">in plebe Sancti Stephani; in domo Guilielmini quondam Alamanni de
+            Sancto Stephano</term>)</placeName>
+        <date when="1279-07-30">1279 luglio 30</date>, <placeName>Caprigliola (<term
+            xml:lang="latin">Capriliole, in palacio domini episcopi</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCVII_regesto">
+        <p>Il vescovo di Luni Enrico raccoglie alcune testimonianze sui diritti sulla strada
+          pubblica presso l’ospedale di Scognavarano, che gli venivano contesi dagli uomini e dal
+          comune di Vezzano. Tali diritti riguardano in particolare la raccolta del pedaggio, il
+          controllo e la protezione dei viandanti.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 327r.-328v. cc. CCCXVIIIIr.-CCCXXv. secondo la numerazione originale
+          </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n.407,
+            pp. 390-396.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno di c. 327r., di mano moderna: <emph>De gabella quam exigunt illi
+              de Vezano in strata Romea prope fosam Ponzani</emph>.</note>
+          <note>Nel margine esterno di c. 327v. di mano moderna: <emph>erant extra hanc fines in
+              anno.</emph></note>
+          <note>Parte del documento è stata letta con l’ausilio della luce di Wood.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCCVII.
+              Testium receptorum super strata de Scongnavarano. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCVII_div">
+        <p xml:id="CCCCVII_p_001" n="1"> In nomine Domini, amen. <date when="1279-07-28">Anno a
+            nativitate Eius M°CCLXXIX, indictione VII, XXVIII die iulii.</date> Nos <persName
+            ref="#HenricusEpLuni">Henricus</persName>, <roleName>miseratione divina Lunensis
+            episcopus</roleName>, ad eternam memoriam rei<note n="a" place="foot"
+            xml:id="CCCCVII_n_001">
+            <term xml:lang="latin">memoriam rei</term>: <emph>nel manoscritto rei memoriam con segno
+              di richiamo per invertire l’ordine delle parole</emph>.</note> perpetue, audito et
+          intellecto quod <orgName ref="#Vezzano_comune"
+            >commune et homines de <placeName ref="#Vezzano">Veçano</placeName></orgName>
+          dicebant se ius habere et iurisdictionem in strata publica, que est iuxta <orgName
+            ref="#Scongnavarano_ospedale">hospitale de <placeName ref="#Scongnavarano"
+              >Scongnavarano</placeName></orgName>, et quod <note n="b" place="foot"
+            xml:id="CCCCVII_n_002"><term xml:lang="latin">et quod</term>: <emph>scritto su
+              rasura.</emph>.</note> volebant ibidem pedagium colligere et capere suos inimicos et
+          alios quos volebant sine iniuria inferenda nobis vel alicui alii, propter quod, volentes
+          super hiis scire veritatem et nullam iniuriam eis vel aliis inferentes, inquisivimus a
+          maioribus et a fidedignis de hoc diligentius veritatem, prout inferius continetur.
+            <persName ref="#PaganinusBenedicti">Paganinus quondam Benedicti de <placeName
+              ref="#Santo_Stefano"> Sancto Stephano</placeName></persName>, testis iuratus et
+          requisitus super hoc, dicit, suo iuramento, quod a XL annis citra vidit quod episcopus
+          Lunensis et sui vicarii et officiales habuerunt et exercuerunt in dicta strata de
+            <placeName ref="#Scongnavarano"> Scongnavarano</placeName> specialiter omnem et plenam
+          iurisdictionem in custodiendo, pedagiando<note n="c" place="foot" xml:id="CCCCVII_n_003"
+              ><term xml:lang="latin">pedagiando</term>: <emph>Nel manoscritto pedagiando, con la
+              seconda a corretta in sopralinea su e espunta.</emph>.</note>, capientes omnes
+          delinquentes ibidem et salvando omnes mercatores et mercimonia transeuntes sive
+          transeuncia per dictam stratam sub protectione <pb n="327v" xml:id="fol_327v"/> et
+          deffensione ipsius episcopi et suorum, et restitituendo<note n="d" place="foot"
+            xml:id="CCCCVII_n_004"><term xml:lang="latin"> restitituendo</term>: <emph>così nel
+              testo per restituendo</emph>.</note>, si qua ibidem ablata fuerant ab aliquibus
+          malefactoribus vel latronibus, et ea faciendo restitui a dictis malefactoribus, si
+          inveniri poterant; alioquin a communitatibus et hominibus terrarum suarum de <placeName
+            ref="#Santo_Stefano">Sancto Stephano</placeName> et <placeName ref="#Bolano"
+            >Bolano</placeName> et aliis terris suis. Requisitus quomodo scit, dicit quod vidit
+          pluries tales restitutiones fieri, et specialiter de quodam correrio straneo, qui
+          spoliatus fuit circa <placeName ref="#Sant_Andrea"> Sanctum Andream</placeName>,<supplied
+            reason="omitted">et</supplied> quod homines de <placeName ref="#Bolano"
+            >Bolano</placeName> compulsi fuerunt per dominum et eius vicarium restituere ablata ipsi
+          corerio. Hoc idem dicit de quodam puero, qui inventus mortuus fuit in strata predicta,
+          iuxta dictum <orgName ref="#Scongnavarano_ospedale"> hospitale de <placeName
+              ref="#Scongnavarano">Scongnavarano</placeName></orgName>; et quia non fuit inventus
+          malefactor, vicarius terrarum ipsius episcopi punivit commune et homines de <placeName
+            ref="#Santo_Stefano">Sancto Stephano</placeName> et fuerunt duobus diebus detempti in
+          inquirendo; et etiam dicit quod vidit homines terrarum episcopatus, ad mandatum ipsius
+          domini episcopi et vicariorum terrarum ips<supplied reason="omitted">i</supplied>us
+          episcopi, facere et reaptare dictam stratam a <placeName ref="#MonteRubeo">Monte
+            Rubeo</placeName> usque ad <placeName ref="#Aulla">Avulam</placeName> et per aliam
+          stratam usque ad rivum de <placeName ref="#Goçolo">Goçolo</placeName>, sine requisitione
+          vel contradictione alicuius communitatis seu aliquorum hominum de <placeName
+            ref="#Vezzano">Veçano</placeName> sive <supplied reason="omitted">de</supplied> alio
+          quocumque loco. Requisitus si de hiis et consimilibus sit fama publica in partibus illis,
+          dicit quod sic. Requisitus quod sit fama publica, dicit quod <supplied reason="omitted"
+            >est</supplied> illud quod homines communiter dicunt; et ista non testificatur odio,
+          amore, precio vel precibus. Item dicit quod vidit preconizari et precipi per
+            <roleName>dominum</roleName>
+          <persName ref="#BonacursusLanfredi">Bonacursum Lanfredi de <placeName ref="#Lucca"
+              >Luca</placeName></persName>, <roleName>vicarium</roleName> ipsius domini episcopi,
+          omnibus hominibus episcopatus quod dictam stratam et alias fideliter custodirent, sub
+          certa pena et banno qualem communitas in suo districtu: quod fecerunt semper sine
+          requisitione et contradictione hominum de <placeName ref="#Vezzano">Vezano</placeName> vel aliunde seu alicuius alterius
+          cuiuscumque; et ista omnia facta sunt publice, scientibus et non contradicentibus commune
+          de <placeName ref="#Vezzano"> Vezano</placeName> et qualibet alia persona dicti communis,
+          pro se nec pro ipso communi seu alicuius alterius communitatis.</p>
+        <p xml:id="CCCCVII_p_002" n="2">Actum publice in <orgName ref="#S_Stefano_Magra">plebe
+              <placeName ref="#Santo_Stefano">Sancti Stephani</placeName></orgName>, presentibus
+            <roleName>magistro</roleName>
+          <persName ref="#ProhinusSanctiStephani"> Prohimo de <placeName ref="#Santo_Stefano">Sancto
+              Stephano</placeName></persName>, <persName ref="#PetrusGentisnot">Petro de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName>, <roleName>notario</roleName>, quondam
+            Gentis</persName>, <persName ref="#HenricusPadulvarmo">Henrico de <placeName
+              ref="#Padulvarmo">Padulvarmo</placeName>
+          </persName> et aliis pluribus testibus ad hec rogatis, coram quibus dictus <persName
+            ref="#PaganinusBenedicti">Paganinus</persName> predicta dixit, deposuit et testificatus
+          fuit, ut dictum est supra.</p>
+        <p xml:id="CCCCVII_p_003" n="3">Eodem die et coram predictis<note n="e" place="foot"
+            xml:id="CCCCVII_n_005"><term xml:lang="latin">predictis</term>: <emph>pre aggiunto in
+              sopralinea con segno di richiamo, in scrittura più minuta</emph>.</note> testibus, in
+          domo infrascripti <persName ref="#GuilielminusAlamanni">Guilielmini</persName>, <persName
+            ref="#GuilielminusAlamanni">Guilielminus quondam Alamanni de <placeName
+              ref="#Santo_Stefano">Sancto Stephano</placeName></persName>, testis iuratus et
+          interrogatus super predictis, dicit, suo iuramento, quod a LXa annis citra vidit quod
+          dominus Lunensis episcopus et eius vicarius et officiales habuerunt, tenuerunt et
+          exercuerunt plenam iurisdictionem in predicta strata de <placeName ref="#Scongnavarano"
+            >Scongnavarano</placeName> a <placeName ref="#Sarzana">Sarzana</placeName> usque ad
+          districtum <placeName ref="#Aulla"> Avule</placeName> et per aliam stratam usque ad
+          confines <placeName ref="#Madrognano"> Madrognani</placeName> in custodiendo dictam
+          stratam, pedagiando, capiendo omnes delinquentes ibidem et in salvando et custodiendo
+          mercatores et mercimonia transeuntes et transeuncia per dictam stratam sub protectione
+          ipsorum domini episcopi et vicariorum et officialium suorum et restituendo, si qua ablata
+          fuerant ibidem ab aliquibus malefactoribus vel latronibus, si inveniri poterant, et
+          procedendo contra eos ut ipsos cogerent ad restitutionem rerum ablatarum. Interrogatus
+          quomodo scit predicta, dicit quod <persName ref="#VivaldusLamberti"> Vivaldus Lamberti de
+              <placeName ref="#Vezzano">Veçano</placeName></persName> semel in dicta strata de
+            <placeName ref="#Scongnavarano">Scongnavarano</placeName> fuit depredatus quosdam
+          mercatores Pisanos et tunc dominus episcopus et eius officiales fecerunt coadunari gentem
+          episcopatus et iverunt contra homines de <placeName ref="#Vezzano">Vezano</placeName>
+          hostiliter ad devastandum, depopulandum bona eorum predicta occasione, et sic ipsi homines
+          de <placeName ref="#Vezzano"> Vezano</placeName> remiserunt res ablatas apud <placeName
+            ref="#Santo_Stefano">Sanctum Stephanum</placeName> et restitute fuerunt mercatoribus
+          ipsis. Et dicit quod hoc vidit et predictis interfuit et tunc reintravit <placeName
+            ref="#Vezzano">Vezanum</placeName>. Item dicit quod alia vice
+            <roleName>dominus</roleName>
+          <persName ref="#RaimundinusVezano">Ramondinus de <placeName ref="#Vezzano"
+              >Vezano</placeName></persName> in dicta strata de <placeName ref="#Scongnavarano"
+            >Scongnavarano</placeName> spoliavit quosdam mercatores straneos argento, çendatis et
+          aliis rebus, et sic dominus <persName ref="#MarzuccusEpLuni"> Marzucus</persName>,
+            <roleName>tunc Lunensis episcopus</roleName>, precepit predicta restitui, alioquin
+          diffidabat eum et alios de <placeName ref="#Vezzano">Veçano</placeName>; propter quod idem
+            <persName ref="#RaimundinusVezano">Ramondinus</persName> restituit; et vidit ponderari
+          idem testis argentum et alia quando restituebantur in domo <persName
+            ref="#LupisinusSanctoStephano">Lupisini de <placeName ref="#Santo_Stefano">Sancto
+              Stephano</placeName></persName>. Item dicit <pb n="328r" xml:id="fol_328r"/> quod
+            <persName ref="#FedericusFabiano">Fredericus de <placeName ref="#Fabiano"
+              >Fabiano</placeName></persName> et alii pro <orgName ref="#Vezzano_comune"
+                >communi de <placeName ref="#Vezzano"
+            >Vezano</placeName></orgName> colligebant in dicta strata pedagium, quia ipsum emerant. Unde
+          dominus <persName ref="#HenricusEpLuni">Henricus</persName>, <roleName> Lunensis
+            episcopus</roleName>, qui nunc est, fecit eos inde licenciari, quod nullo modo pedagium
+          ibi colligerent, et sic recesserunt et non collegerunt postmodum ibi pedagium; et hoc fuit
+          publicum. Item, requisitus, dicit quod preceptum fuit publice per vicarios domini episcopi
+          quod quelibet communitas custodiret et salvaret dictam stratam in suo districtu sub certo
+          banno et pena, et dicit quod hec omnia publice facta sunt, scientibus et non
+          contradicentibus hominibus de Vezano vel aliquo ipsius loci vel aliunde. Et dicit quod
+          dominus Lunensis episcopus, ex pacto, tenetur dictam stratam deffendere et securare
+          Mediolanensibus, Cremonensibus et aliis mercatoribus <placeName ref="#LombardiaR"
+            >Lombardie</placeName> transeuntibus per dictam stratam; et vidit inde instrumentum
+          publicum inter dictum dominum episcopum et dictos mercatores a <placeName ref="#Lavello"
+            >Lavello</placeName> superius per totam dictam stratam usque ad <placeName
+            ref="#Piastrum">Piastrum</placeName>, et tantum plus quantum durat districtus terrarum
+          domini episcopi. Et dicit quod vicarii terrarum domini episcopi precipiebant quod quelibet
+          communitas reaptaret et faceret dictam stratam in suo districtu, sine eo quod commune et
+          homines de <placeName ref="#Vezzano">Veçano</placeName> facerent stratam vel reaptarent in
+          dictis locis vel in aliquo contradicerent aliquod fieri in dicta strata, set ipsam libere
+          dimiserunt Lunensibus episcopis in custodiam ipsorum et officialium et hominum terrarum
+          suarum, sine aliqua contradictione; et dicit quod de predictis est publica vox et fama in
+          partibus istis. Et dicit, interrogatus, quod publica fama est id quod verum est et quod
+          publicum est; et non testificatur doctus, precio, amore vel timore.</p>
+        <p xml:id="CCCCVII_p_004" n="4">Eodem die et coram predictis testibus, in <orgName>plebe
+              <placeName ref="#Santo_Stefano">Sancti Stephani</placeName></orgName>, <persName
+            ref="#UgolinusPelavicini">Ugolinus quondam Pelavicini de <placeName ref="#Santo_Stefano"
+              >Sancto Stephano</placeName></persName>, testis iuratus et interrogatus super
+          predictis, coram eisdem testibus, dicit, suo iuramento, quod vidit per LXa annos quod
+          domini Lunenses episcopi, qui pro tempore fuerunt, et eorum vicarii et officiales
+          habuerunt, tenuerunt et exercuerunt plenam iurisdictionem in dicta strata de <placeName
+            ref="#Scongnavarano">Scongnanavarano<note n="f" place="foot" xml:id="CCCCVII_n_006"
+                ><term xml:lang="latin">Scongnanavarano</term>: <emph>così nel
+            testo</emph>.</note></placeName> in custodiendo et securando dictam stratam et salvando
+          mercatores transeuntes per dictam stratam cum eorum mercimoniis et in puniendo
+          delinquentes in dicta strata et in faciendo restitui, si qua ibidem ablata fuerunt ab
+          aliquibus. Interrogatus quomodo scit predicta, dicit quia ipse testis, precepto domini
+          episcopi et eius officialium, cum quibusdam aliis, iam fuit ad custodiam dicte strate
+          pluries, in die et in nocte, et vidit sepe preconizari ex parte domini episcopi et
+          officialium suorum quod dicta strata custodiatur a communitatibus et hominibus terrarum
+          suarum, quelibet communitas in suo districtu. Et dicit quod <persName
+            ref="#VivaldusLamberti">Vivaldus Lamberti de <placeName ref="#Vezzano"
+              >Vezano</placeName></persName> olim spoliavit in dicta strata, iuxta <orgName
+            ref="#Scongnavarano_ospedale">hospitale de <placeName ref="#Scongnavarano"
+              >Scongnavarano</placeName></orgName>, quosdam mercatores et <roleName>dominus
+            episcopus</roleName>
+          <persName ref="#MarzuccusEpLuni">Marzucus</persName>, qui tunc erat, fecit ita quod dictus
+            <persName ref="#VivaldusLamberti">Vivaldus</persName> restituit ea que a dictis
+          mercatoribus acceperat; et hoc fuit publicum omnibus de contrata. Item dicit quod dominus
+            <persName ref="#RaimundinusVezano">Ramondinus de <placeName ref="#Vezzano"
+              >Vezano</placeName></persName> spoliavit in dicta strata de <placeName
+            ref="#Scongnavarano">Scongnavarano</placeName> quosdam mercatores et dominus episcopus
+          fecit tunc congregari guaitam<note n="g" place="foot" xml:id="CCCCVII_n_007"><term
+              xml:lang="latin">guaitam</term>: <emph>lettura incerta</emph>.</note> suam ad eundum
+          contra illos de <placeName ref="#Vezzano">Vezano</placeName>, et sic fecerunt restitui ea
+          que idem <persName ref="#RaimundinusVezano">Ramondinus</persName> abstulerat ipsis
+          mercatoribus; et hoc vidit idem testis, et dicit quod domini episcopi Lunenses et eorum
+          vicarii fecerunt et faciunt et precipiunt reaptari dictam stratam, quando expedit, ab
+          hominibus terrarum suarum per totam dictam stratam a <placeName ref="#MonteRubeo">Monte
+            Rubeo</placeName> supra usque ad <placeName ref="#Piastrum">Piastrum</placeName>, et
+          tanto plus quantum durat eorum districtus, et in ea quicquid voluerunt fecerunt. Item
+          dicit quod de predictis omnibus est publica vox et fama in partibus istis. Interrogatus
+          quod est publica vox et fama, dicit quod id quod est manifestum et publicum per terram; et
+          hec facta sunt scientibus et non contradicentibus communi et hominibus de <placeName
+            ref="#Vezzano">Vezano</placeName> vel aliquo ipsorum vel aliunde et sine eo quod de
+          iurisdictione dicte strate in aliquo se intromitterent. Item dicit quod, quia fuit
+          inventus quidam puer mortuus in dicta strata, prope <placeName ref="#Scongnavarano"
+            >Scongnaveranum</placeName>, vicarius terrarum domini episcopi fecit citari homines de
+            <placeName ref="#Santo_Stefano">Sancto Stephano</placeName> et detinuit eos ut de hoc
+          inquireret veritatem; et quia non invenit, punivit eos. Et dicit quod non testificatur
+          doctus, precio vel precibus vel timore.</p>
+        <p xml:id="CCCCVII_p_005" n="5">Eodem die et coram predictis testibus<note n="h"
+            place="foot" xml:id="CCCCVII_n_008"><term xml:lang="latin">predictis testibus</term>:
+              <emph>nel manoscritto testibus predictis con segno di richiamo per invertire l’ordine
+              delle parole</emph>.</note>, in <orgName>plebe <placeName ref="#Santo_Stefano">Sancti
+              Stephani</placeName></orgName>, <persName ref="#BendecasaGuidoleti">Bendecasa quondam
+            Guidoleti de <placeName ref="#Santo_Stefano">Sancto Stephano</placeName></persName>,
+          testis iuratus et interrogatus super predictis, dicit quod vidit quod
+            <roleName>dominus</roleName>
+          <pb n="328v" xml:id="fol_328v"/>
+          <persName ref="#GuilEpLuni">Guilielmus</persName> et <roleName>dominus</roleName>
+          <persName ref="#HenricusEpLuni">Henricus</persName>, <roleName>Lunensis
+            episcopus</roleName>, quilibet suo tempore, et eorum vicarii et officiales per XXXa
+          annos, de quibuslibet bene recordatur, habuerunt, tenuerunt et exercuerunt plenam
+          iurisdictionem in strata predicta de <placeName ref="#Scongnavarano"
+            >Scongnavarano</placeName> a <placeName ref="#Sarzana">Sarzana</placeName> ad <placeName
+            ref="#Piastrum">Piastram<note n="i" place="foot" xml:id="CCCCVII_n_009"><term
+                xml:lang="latin">Piastram</term>: <emph>così nel testo per
+            Piastrum</emph>.</note></placeName>, et inde superius quantum durat districtus terrarum
+          episcopatus, et per aliam stratam nescit, nisi quantum durat districtus terrarum
+          episcopatus, securando ipsam stratam et faciendo fieri et refici dictam stratam in
+          predictis locis, quando expedit, scientibus et non contradicentibus commune et hominibus
+          de <placeName ref="#Vezzano">Vezano</placeName> et aliunde. Et dicit, iuratus, quod de
+          predictis est publica vox et fama in partibus istis. Et dicit quod publica vox et fama est
+          id quod a pluribus scitur et dicitur. Interrogatus quis puniebat maleficia que fiebant in
+          dicta strata, respondit: dominus episcopus, qui fuit pro tempore, et eius vicarii, sine
+          contradictione alicuius; et ista faciebant<note n="l" place="foot" xml:id="CCCCVII_n_010"
+              ><term xml:lang="latin">faciebant</term>: <emph>aci corretto su precedente
+              scrittura</emph>.</note> et fieri faciebant publice et manifeste, scientibus et non
+            contradicentibus<note n="m" place="foot" xml:id="CCCCVII_n_011"><term xml:lang="latin"
+              >contradicentibus</term>: <emph>ti corretto su precedente scrittura</emph>.</note>
+          illis de <placeName ref="#Vezzano">Vezano</placeName> et non aliunde. Et dicit quod non
+          testificatur doctus, precio, amore vel timore.</p>
+        <p xml:id="CCCCVII_p_006" n="6">Postea vero<note n="n" place="foot" xml:id="CCCCVII_n_012"
+              ><term xml:lang="latin">Postea vero</term>: <emph>corretto su precedente
+              scrittura</emph>.</note>, <date when="1279-07-30">eodem anno, die XXX iulii,</date>
+          <placeName ref="#Caprigliola">Capri<supplied reason="omitted"
+          >liol</supplied>e</placeName>, in palacio domini episcopi, presentibus <persName
+            ref="#FedericusRibaldini">Federico quondam Ribaldini de <placeName ref="#Santo_Stefano"
+              >Sancto Stephano</placeName></persName>, <persName ref="#RofinusPlacencia">Roffino de
+              <placeName ref="#Piacenza">Placencia</placeName></persName> et <persName
+            ref="#FranceschinusOpecini">Franceschino quondam Opecini de <placeName ref="#Felerrecia"
+                >Felerrecia<note n="o" place="foot" xml:id="CCCCVII_n_013"><term xml:lang="latin"
+                  >Felerrecia</term>: <emph>er corretto su precedente
+              scrittura</emph>.</note></placeName></persName>, testibus ad hec rogatis, <persName
+            ref="#AlcherotusSanctoStephano">Alcherotus de <placeName ref="#Santo_Stefano">Sancto
+              Stephano</placeName></persName>, testis iuratus et requisitus super predictis, dicit,
+          suo iuramento, quod ab eo tempore citra de quo recordatur, scilicet a L annis citra, de
+          quibus bene recordatur, vidit quod domini Lunenses episcopi et eorum vicarii et officiales
+          habuerunt, tenuerunt et exercuerunt plenam iurisdictionem in dicta strata de <placeName
+            ref="#Scongnavarano">Scongnavarano</placeName> in custodiendo et securando dictam
+          stratam et salvando mercatores transeuntes per ipsam stratam cum rebus et mercimoniis
+          eorum a <placeName ref="#Sarzana">Sarzana</placeName> usque ad <placeName
+            ref="#Santo_Stefano">Sanctum Stephanum</placeName> et amplius quantum durat districtus
+          terrarum episcopatus, et etiam in puniendo delinquentes in dicta strata et in faciendo
+          restitui, si qua ibidem ablata fuerint ab aliquibus. Interrogatus quomodo scit predicta,
+          dicit: quia semper vidit sic et audivit, etiam ab antiquis, quod episcopi Lunenses, qui
+          pro tempore fuerunt, et eorum officiales habuerunt dominium dicte strate et fecerunt in ea
+          quicquid facere voluerunt, et ipsam stratam reaptari fecerunt, quando expedit, et hec
+          omnia fecerunt scientibus et non contradicentibus commune et hominibus de <placeName
+            ref="#Vezzano">Vezano</placeName> vel aliis aliquibus et sine eo quod ipsi de <placeName
+            ref="#Vezzano">Vezano</placeName> se in aliquo intromitterent de strata predicta. Et
+          dicit quod homines de <placeName ref="#Vezzano">Vezano</placeName> iam voluerunt pedagium
+          colligere iuxta <orgName ref="#Scongnavarano_ospedale">hospitale de <placeName
+              ref="#Scongnavarano">Scongnavarano</placeName></orgName> et
+            <roleName>dominus</roleName>
+          <persName ref="#GuilEpLuni">Guilielmus</persName>, <roleName>Lunensis olim
+            episcopus</roleName>, fecit eos inde licenciari, et non fuerunt ausi colligere et dicit
+          quod de predictis omnibus est et fuit publica vox et fama in partibus istis. Requisitus
+          quod sit publica vox et fama, dicit quod illud quod communiter dicunt omnes homines<note
+            n="p" place="foot" xml:id="CCCCVII_n_014"><term xml:lang="latin">homines</term>:
+              <emph>Nel manoscritto quod omnes communiter dicunt homines con segno di richiamo per
+              invertire l’ordine delle parole</emph>.</note>; et dicit quod predicta non
+          testificatur doctus, odio, amore et timore, precio vel precibus.</p>
+
+        <p xml:id="CCCCVII_p_007" n="7"><ptr target="#CCCCVII_st_001"/> Ego <persName
+            ref="#PetrusGualterotinot">Petrus quondam Gualteroti de <placeName ref="#Soliera"
+              >Soleria</placeName></persName>, <roleName>sacri palacii notarius</roleName>, hiis
+          interfui et de mandato venerabilis patris domini <persName ref="#HenricusEpLuni"
+            >Henrici</persName>, <roleName>Dei gratia Lunensis episcopi</roleName>, predictos testes
+          recepi et examinavi coram testibus suprascriptis et eorum dicta fideliter scripsi et in
+          publicam fomam redegi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

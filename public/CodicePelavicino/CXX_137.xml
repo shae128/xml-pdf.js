@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXX_137">
+    <front xml:id="CXX_front">
+
+      <titlePart type="numerazioneNuova">137</titlePart>
+      <titlePart type="numerazioneOrig">CXX</titlePart>
+
+      <docDate xml:id="CXX_docDate">
+        <date when="1235-08-18">1235 agosto 18</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in camera Lunensis episcopi de castro
+          Sarzane</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXX_regesto">
+        <p>Guglielmo, vescovo di Luni, loca a Parente del fu Pasqualino <term xml:lang="latin">de
+            castro Sarzane</term> un pezzo di terra posta <term xml:lang="latin">in castro
+            Sarzane</term>, un tempo tenuto dalla fu Settembrina. La locazione costa 24 lire di
+          imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CXX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 227r.- 227v., cc. CCXVIIIIr.-CCXVIIIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 120,
+            p. 154.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <emph>Guidiccione di Lucca</emph>. <p>Stesura
+                <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla presenza di Bonagiunta
+              de Podio di Lucca.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXX_div">
+        <p xml:id="CXX_p_001" n="1">In Dei nomine, amen.<date when="1235-08-18">M°CCXXXV, indictione
+            VIII, die sabbati, XV kalendas septembris</date>. In <placeName ref="#Sarzanello">camera
+            Lunensis episcopi de castro Sarzane</placeName>, coram <roleName>nobili</roleName>
+          <persName ref="#SalomonLucanus">Salomone</persName>, <persName ref="#RollandusVagus"
+            >Rolando dicto Vago</persName> et <persName ref="#GerardusGuidictionis"
+              ><roleName>magistro</roleName> Girardo filio Guidictionis Morellini, Luc<supplied
+              reason="omitted">anis</supplied></persName>, testibus. Venerabilis <persName
+            ref="#GuilEpLuni">Guilielmus, Dei gratia <roleName>Lunensis
+            episcopus</roleName></persName>, suo et episcopatus nomine dedit, cessit atque locavit
+            <persName ref="#ParensPasqualini">Parenti quondam Pasqualini de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName></persName> et eius heredibus, masculis et
+          feminis, ab eo descendentibus, in perpetuum, nominatim, totum podere, tenutam et
+          possessionem quondam <persName ref="#SeptembrinaSar">Septembrine de <placeName
+              ref="#Sarzanello">castro eodem</placeName></persName>, situm in castro et eius
+          pertinenciis et etiam alibi, quicquid sit et quantumcumque et ubicumque atque quocumque
+          decurrit vel aliquid exinde poterit reperiri, agrum, cultum, plenum et vacuum, ad
+          habendum, tenendum, fruendum et possidendum, cum accessibus et regressibus suis omnique
+          iure et utilitate sibi competentibus, promittens legitimam deffensionem in predictis et
+          sumptus omnes reficere, et potestatem inde tenutam intrandi ei dedit, constituendo se pro
+          eo interim possidere, reddendo atque prestando <placeName ref="#Luni">Lunensi
+            curie</placeName> et omnibus aliis omnes illos redditus, condictiones, factiones et
+          usantias, quam et que<note place="foot" n="a" xml:id="CXX_n_001"><term type="incerto">quam
+              et que</term>: <emph>così nel testo</emph>.</note> exinde et de eo podere reddi et
+          prestari consueverunt, et ipsum podere tenent pro <measure type="imperiales" quantity="24"
+            unit="libra">libris imperialium XXIIII</measure>, quas confessus fuit se inde ab eo
+          servicium recepisse, renunciando exceptioni non numerate pecunie. Ambe partes, sub pena
+            <measure type="imperiales" quantity="100" unit="solidus">C soldorum
+            imperialium</measure>, predicta attendere et observare promiserunt sibi vicissim,
+          solvenda parti fidem servanti, quotiens incidetur in eam; et, ea soluta, rato manente
+          pacto.</p>
+      </div>
+      <div xml:id="CXX_div2" type="mundum">
+        <p xml:id="CXX_p_002" n="2"><ptr target="#CXX_st_001"/> Ego <persName ref="#Henricusnot"
+            >Henricus de <placeName ref="#Sarzanello">castro Sarzane</placeName>
+            <roleName>sacri palatii notarius</roleName></persName>, hanc cartam olim a <persName
+            ref="#Bonencontrusnot">Bonencontro de <placeName ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, <pb n="227v"
+            xml:id="fol_227v"/>prout in eius sceda et in eius contractibus et imbreviaturis inveni,
+          ita hic bona fide scripsi et auttenticavi et in publicam formam redegi, auctoritate et
+          decreto super hiis mihi prestita et concesso a <persName ref="#Bonaiunctaiud"
+              ><roleName>domino</roleName> Bonaiuncta de <placeName ref="#PodioLucca">Podio de
+                Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia
+                  <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre domino Lunensi episcopo et
+          <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName> de qua auctoritate et decreto
+          constat per instrumentum publicum factum manu <persName ref="#Alcheriusnot">Alcherii
+              <roleName>notarii</roleName> de <placeName ref="#Lucca">Luca</placeName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 137-CXX databile tra il 1270 e il
+            1272 dalla presenza di Bonagiunta de Podio di Lucca <date notBefore="1273-04-04"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

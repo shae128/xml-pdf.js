@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLIII_315">
+    <front xml:id="CCCLIII_front">
+
+      <titlePart type="numerazioneNuova">315</titlePart>
+      <titlePart type="numerazioneOrig">CCCLIII</titlePart>
+
+      <docDate xml:id="CCCLIII_docDate">
+        <date when="1271-06-10">1271 giugno 10</date>, <placeName><supplied reason="omitted"
+            >Sarzanello</supplied> (<emph>ad bancum curie vicarie</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLIII_regesto">
+        <p>Nicolò di Macone, notaio della provincia di Lunigiana per il vescovo di Luni Guglielmo e
+          per il comune di Lucca, agente al posto del vicario Aldebrandino Tagliamelo e del giudice
+          Bertolotto Gigli, dietro richiesta di Iacopino Tagliavacca, sindaco del vescovo di Luni,
+          chiede a Bellono del fu Guicciardo di Gragnana di Carrara di presentarsi in giudizio. Non
+          presentandosi costui entro i termini indicati, Nicolò emette sentenza riguardo alla
+          proprietà di una terra vignata a Gragnana che Tagliavacca sosteneva appartenesse al
+          vescovo; in particolare stabilisce che la terra torni in piena proprietà del vescovo a
+          meno che Bellono non paghi entro un anno le spese relative al procedimento
+          giudiziario.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 308r.-308v., cc. CCCr.-CCCv. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 353,
+            pp. 338-339.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il documento ha una data topica priva di toponimo, tuttavia altri documenti, ad
+            esempio il n. 70 (XLIII) e il n. 152 (CXXXV) consentono di ipotizzare la localizzazione
+            del banco della curia della vicaria nel <emph>castrum Sarzane</emph>.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCLIII.
+              Tenute contra Bellonum Guiçardi.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLIII_div">
+        <p xml:id="CCCLIII_p_001" n="1">In Christi nomine, amen. Cum ego <persName
+            ref="#NicholausMaconisnot">Nicholaus Maconis de <placeName ref="#Lucca"
+              >Luca</placeName>, <roleName>notarius</roleName></persName> <orgName ref="#Lunigiana_provincia">provincie
+                <placeName ref="#Lunigiana">Lunixiane</placeName> </orgName>pro venerabili patre domino <persName ref="#GuilEpLuni">Guilielmo,
+                  <roleName>Lunensi episcopo</roleName></persName>, et pro  <orgName ref="#Lucca_comune">communi <placeName
+            ref="#Lucca">Lucano</placeName></orgName>, locum domini <persName ref="#AldebrandinusTalliamelo"
+            >Aldebrandini Talliamello, <roleName>vicarii</roleName></persName>, et <persName
+            ref="#BertolottusGilii"><roleName>domini</roleName> Bertoloti Gilii</persName>, <roleName>iudicis</roleName>
+              <orgName ref="#Lunigiana_vicaria">vicariatus</orgName> predicti, pro predictis, <supplied reason="omitted"
+            >locum</supplied> absentium tenens, ad petitionem <persName
+            ref="#IacopinusTalliavachanot">Iacopini Talliavache
+              <roleName>notarii</roleName></persName>, <roleName>syndici, actoris et procuratoris</roleName> venerabilis
+          patris domini <persName ref="#GuilEpLuni">Guilielmi, <roleName>Lunensis
+              episcopi</roleName></persName>, et episcopatus, per <persName ref="#Cavallinuscorr"
+                >Cavallinum</persName>, <roleName>correrium et publicum nuncium</roleName> <orgName ref="#Lunigiana_vicaria">vicarie
+                  <placeName ref="#Luni">Lunensis</placeName></orgName>, citari et requiri fecerim <persName
+            ref="#BellonusGuicciardi">Bellonum quondam Guicciardi de <placeName ref="#Gragnana"
+              >Gragnana</placeName> de <placeName ref="#Carrara">Carraria</placeName></persName> ut
+          certo termino constituto, iam elapso, veniret et compareret ad curiam rationem facturus
+          dicto syndico et actori, syndicatus et actorio nomine, ut dictum est, de hiis et pro hiis
+          que dictus syndicus ab eo petebat sive petere intendebat, iamscriptus <persName
+            ref="#BellonusGuicciardi">Bellonus</persName> non venit in termino, nec ante vel post,
+          dicto quidem syndico comparente legitimo et ante et post et <note xml:id="CCCLIII_n_001"
+            n="a" place="foot"><term xml:lang="latin">et</term>: <emph>aggiunto in sopralinea con
+              segno di richiamo.</emph></note> petente sibi dari contra dictum <persName
+            ref="#BellonusGuicciardi">Bellonum</persName> sententiam, tenutam et possessionem in una
+          et super una petia terre vineate posite in <placeName ref="#Gragnana"
+          >Gragnana</placeName>, cui coheret ab uno latere et a pede via publica, ab alio heredes
+            <persName ref="#Ugolinus">Ugolini de <placeName ref="#Materia"
+            >Materia</placeName></persName>, vel si alii sint confines, dicendo eam ad dictum
+          episcopum et episcopatum redire debere et pertinere iure dominii vel quasi. Ego <persName
+            ref="#NicholausMaconisnot">Nicholaus, <roleName>notarius</roleName></persName>
+          suprascriptus, locum suprascriptorum vicarii et iudicis, absentium extra <orgName ref="#Lunigiana_vicaria">vicariam</orgName>, tenens,
+          visa citatione et requisitione facta de dicto <persName ref="#BellonusGuicciardi"
+            >Bellono</persName> et relatione et presentatione dicti syndici et contumacia dicti
+            <persName ref="#BellonusGuicciardi">Belloni</persName> et habito eo pro contumace, visa
+          petitione dicti syndici, qui suo iuramento in<supplied reason="omitted"
+          >ter</supplied>rogatus dixit quod non calumpniose petit, dico et pronuncio dictum syndicum
+          et actorem, syndicatus et actorio nomine pro predicto domino episcopo et episcopatu, esse
+          mittendum, et eum mitti debere et mitto, in corporalem possessionem et tenutam predicte
+          petie terre et mando quod <persName ref="#Cavallinuscorr">Cavallinus</persName>, noster
+          <roleName>nuncius</roleName>, dictum syndicum et actorem, syndicatus et actorio nomine pro predictis domino
+          episcopo et episcopatu, de predicta terra <supplied reason="omitted">in</supplied>
+          corporalem possessionem inducat, mea auctoritate atque decreto, ita quod, si inter I
+          proximum annum dictus <persName ref="#BellonusGuicciardi">Bellonus</persName> venerit ad
+          curiam paratus subire iudicium iamscripto syndico et actore, syndicatus et actorio nomine
+          ut dictum est, restitutis primo eidem expensis infrascriptis, audiatur et rehabeat hanc
+          tenutam, sicut habebat ante hanc pronunciationem; alias vero, post annum elapsum,
+          efficiatur dictus syndicus et actor, syndicatus et actorio nomine pro predicto domino
+          episcopo et episcopatu, et ipse dominus episcopus et episcopatus verus possessor dicte
+          petie terre et fructuum qui pro tempore erunt in ea, salvo iure aliarum personarum.
+          Expense vero sunt hee, videlicet: pro citatione, relatione et presentatione <measure
+            type="Ianuenses" unit="denarius" quantity="10">denarii X Ianuensium</measure> et pro hac
+          scriptura <measure type="Ianuenses" unit="denarius" quantity="18">denarii XVIII
+            Ianuensium</measure>; pro carta, si fiet, <measure type="Ianuenses" unit="solidus"
+            quantity="2">soldi II et <measure type="Ianuenses" unit="denarius" quantity="6">denarii
+              VI Ianuensium</measure></measure> et pro salario advocati <measure type="Ianuenses"
+            unit="solidus" quantity="3">soldi III Ianuensium</measure> et pro nuncio, qui dabit
+          tenutam, <measure type="Ianuenses" unit="denarius" quantity="12">denarii XII
+            Ianuensium</measure> et pro relatione <measure type="Ianuenses" unit="denarius"
+            quantity="6">denarii VI Ianuensium</measure>, et pro carta, <supplied reason="omitted"
+            >si</supplied>
+          <pb n="308v" xml:id="fol_308v"/> inde fiet, <measure type="Ianuenses" unit="denarius"
+            quantity="12">denarii XII Ianuensium</measure> et salvo iure aliarum personarum. </p>
+        <p xml:id="CCCLIII_p_002" n="2">Lata et lecta fuit hec sententia sive pronunciatio dicto
+          loco, ad bancum curie <orgName ref="#Lunigiana_vicaria">vicarie</orgName>, coram <roleName>dominis</roleName> <persName ref="#Rubeusiud">Rubeo</persName>
+          <supplied reason="omitted">et</supplied>
+          <persName ref="#Opizusiud">Opicho,<roleName> iudicibus</roleName></persName>. <date
+            when="1271-06-10">Anno Domini M°CCLXXI°, indictione XIIII, X iunii</date> et coram
+            <persName ref="#TiniosusParenti">Tignoso Parentis</persName>, testibus ad hec <note
+            xml:id="CCCLIII_n_002" n="b" place="foot"><term xml:lang="latin">et coram-ad hec</term>:
+              <emph>aggiunto in calce al documento, con segno di richiamo.</emph></note>.</p>
+        <p xml:id="CCCLIII_p_003" n="3"><ptr target="#CCCLIII_st_001"/>
+          <persName ref="#AlcheriusPagani">Alcherius Pagani, <roleName>imperialis aule iudex et
+            notarius</roleName></persName>, suprascripta omnia, ut in actis curie <orgName ref="#Lunigiana_vicaria">vicarie</orgName>
+          suprascripte inveni <note xml:id="CCCLIII_n_003" n="c" place="foot"><term xml:lang="latin"
+              >suprascripte inveni</term>: <emph>nel manoscritto inveni suprascripte con segno di
+              richiamo per invertire l’ordine delle parole.</emph></note>, hic fideliter scribens,
+          meis signo et nomine publicavi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

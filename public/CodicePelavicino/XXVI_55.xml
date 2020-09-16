@@ -1,0 +1,951 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="XXVI_55">
+        <front xml:id="XXVI_front">
+            <titlePart type="numerazioneNuova">55</titlePart>
+            <titlePart type="numerazioneOrig">XXVI</titlePart>
+
+            <docDate xml:id="XXVI_docDate">
+                <date from="1235-01-01" to="1285-12-31">&lt;1235 – 1285&gt;</date>
+            </docDate>
+            <div type="regesto" xml:id="XXVI_regesto">
+                <p>Elenco di censi dovuti all’episcopato lunense.</p>
+            </div>
+            <div type="footer" xml:id="XXVI_footer">
+                <div type="orig_doc">
+                    <p>Copia [C] cc 76r-78r, cc LXVIIIr-LXXr secondo la numerazione originale</p>
+                </div>
+                <div type="biblio">
+                    <p>Regesto in <ref type="biblio" target="#LUPO_GENTILE_1912">LUPO GENTILE
+                            1912</ref>, n.26, p. 40; edizione parziale <ref type="biblio"
+                            target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, Addenda, pp
+                        685-688</p>
+                </div>
+                <div type="crit_notes">
+                    <note><p>Il documento è privo di data cronica e topica. L’indicazione proposta
+                            deriva dal riconoscimento di alcuni nominativi elencati, in particolare
+                                Gerardo<term xml:lang="latin">de Vernaccio</term>, identificabile
+                            con il personaggio attestato nei docc. 165-CXLVII, 178-CCXVII,
+                            408-CCCCXXXXVII e Sarzanese Ricapanico, già morto nel doc. 56-XXVII.</p>
+                        <p>Le <term xml:lang="latin">rubricae</term> con l’indicazione dei mansi
+                            sono vergate in inchiostro rosso.</p>
+                        <p>Nelle forme antroponimiche presenti non è sempre agevole distinguere gli
+                            antroponimi dai toponimi: l’indicazione deve pertanto considerarsi una
+                            proposta di lettura.</p>
+                    </note>
+                </div>
+
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">XXVI. Carta de masiis.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="XXVI_div">
+                <pb n="76r" xml:id="fol_076r"/>
+                <table rend="frame" xml:id="XXVI_table_1">
+                    <row>
+                        <cell>Masium de <placeName ref="#Terria">Terria</placeName></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><persName ref="#IunctaTerria"> Iuncta de <placeName ref="#Terria">
+                                    Terria </placeName></persName></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Alegnetius">Alegnetius</persName>, filius<note
+                                xml:id="XXVI_n_1" place="foot" n="a"> filius: <emph>manca
+                                    l’indicazione</emph></note></cell>
+                        <cell rend="start">staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#IacopinusMorignoli">Iacopinus
+                            Morignoli</persName></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Vegnudellus">Vegnudellus</persName><note
+                                xml:id="XXVI_n_2" place="foot" n="b"> Vegnudellus: g <emph>aggiunto
+                                    in sopralinea</emph></note> et <persName ref="#Petriciolus"
+                                >Pedricciolus</persName></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#FormentinusTranpulio">Formentinus de
+                                Tranpulio</persName></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Venutus">Vegnutus</persName> et <persName
+                                ref="#Bonaiutus">Bonaiutus</persName>, fratres</cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#BaronisNobilino">Barone de Nobilino</persName></cell>
+                        <cell>starium I</cell>
+                    </row>
+                    <row>
+                        <cell>Filii <persName ref="#BeatrixBonencontro">Beatricis de
+                                Bononcontro</persName></cell>
+                        <cell>starium I</cell>
+                    </row>
+                    <row>
+                        <cell>Filii <persName ref="#AlbertusNobelini">Alberti de
+                            Nobilino</persName></cell>
+                        <cell>starium I</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                    </row>
+                </table>
+
+
+                <table rend="frame" xml:id="XXVI_table_2">
+                    <row>
+                        <cell rend="start">Masium de alia <placeName ref="#Terria"
+                                >Terria</placeName></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell rend="start"><persName ref="#BonafeminaDelrapo">Bonafemina, uxor
+                                Delrapo</persName></cell>
+                        <cell rend="start">starium I ½</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#GerardusVernaccii">Gerardus de <placeName
+                                    ref="#Vernaccio">Vernaccio</placeName></persName></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell>Filius <persName ref="#Bellucius">Belluccii</persName></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#GerardusMerlino">Gerardus de
+                            Merilino</persName></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell>Filius <persName ref="#OliveriusCornaricta">Oliverii
+                                Cornaricta</persName></cell>
+                        <cell>staria II et quarto</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#ArmanninusOliverio">Armanninus de
+                            Oliverio</persName></cell>
+                        <cell>staria II et quarto</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#BonaiutusVitali">Bonaiutus de Vitali</persName></cell>
+                        <cell>starium I ½</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Bonavere">Bonavere</persName></cell>
+                        <cell>minam I</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#UgolinusRosso">Ugolinus Rosso</persName></cell>
+                        <cell>minam I</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Abraciator">Abracciadore</persName></cell>
+                        <cell>starium I</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#BernardusParte">Bernardus de Parte</persName></cell>
+                        <cell>starium I</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#PaganinusDelbono">Paganinus Delbono</persName></cell>
+                        <cell>starium I ½</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#VitalisDelbono">Vitalis Delbono</persName></cell>
+                        <cell>starium I ½</cell>
+                    </row>
+                </table>
+
+
+                <table rend="frame" xml:id="XXVI_table_3">
+                    <row>
+                        <cell>Masium de <placeName ref="#Garatuli">Garrattuli</placeName></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><persName ref="#VitalisDonnolina">Vitalis de
+                            Donnolina</persName></cell>
+                        <cell>staria IIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Balditio">Baldiccione</persName></cell>
+                        <cell>staria VIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Bonfilius">Bonfilius </persName>et <persName
+                                ref="#Alegretus">Allegrectus</persName></cell>
+                        <cell>staria IIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#PaganinusDelbono">Paganinus Delbono</persName></cell>
+                        <cell>staria II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#VitalisDelbono">Vitalis Delbono</persName></cell>
+                        <cell>staria II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Venutus">Vegnutus </persName>et <persName
+                                ref="#Bonaiutus">Bonaiutus</persName>, fratres</cell>
+                        <cell>starium I ½</cell>
+                    </row>
+                    <row>
+                        <cell>Filii <persName ref="#AlbertusNobelini">Alberti de
+                            Nobilino</persName></cell>
+                        <cell>minam I</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Baronis">Barone</persName></cell>
+                        <cell>minam I</cell>
+                    </row>
+                    <row>
+                        <cell>Filii <persName ref="#BeatrixBonencontro">Beatricis de
+                                Bononcontro</persName></cell>
+                        <cell>minam I</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Masium de <placeName ref="#Utricino">Utricino</placeName></cell>
+                        <cell/>
+                    </row>
+                </table>
+                <pb n="76v" xml:id="fol_076v"/>
+
+                <table rend="frame" xml:id="XXVI_table_4">
+                    <row>
+                        <cell rend="start"><persName ref="#Borghese">Borghese</persName></cell>
+                        <cell rend="start">staria II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#GalopinusRicii">Galopinus</persName></cell>
+                        <cell>staria II</cell>
+                    </row>
+                    <row>
+                        <cell>Filii <persName ref="#Beneveni">Beneveni</persName></cell>
+                        <cell>staria IIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Gimignana">Gimignana</persName></cell>
+                        <cell>staria IIII et bacilia IIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Balduinus">Baldovinus</persName></cell>
+                        <cell>staria IIII et bacilia IIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#GerardusVernaccii">Gerardus de <placeName
+                                    ref="#Vernaccio">Vernaccia</placeName></persName></cell>
+                        <cell>starium I et bacilia III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#BastardusPerdivicia">Bastardo
+                            Perdivicia</persName></cell>
+                        <cell>minam I et bacile I ½</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#GiordanusBonasera">Giordanus de
+                            Bonasera</persName></cell>
+                        <cell>minam I et bacile I ½</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Venutus">Vegnutus</persName> et <persName
+                                ref="#Bonaiutus">Bonaitus</persName>, fratres</cell>
+                        <cell>starium I et bacilia III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Ferrinus">Ferrinus</persName></cell>
+                        <cell>b(acilia) VIII</cell>
+                    </row>
+                    <row>
+                        <cell>Filii <persName ref="#AlbertusNobelini">Alberti de
+                            Nobilino</persName></cell>
+                        <cell>b(acilia) VIII</cell>
+                    </row>
+                    <row>
+                        <cell>Filii <persName ref="#BeatrixBonencontro">Beatricis de
+                                Bononcontro</persName></cell>
+                        <cell>b(acilia) VIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Baronis">Barone</persName></cell>
+                        <cell>b(acilia) IIII</cell>
+                    </row>
+                </table>
+
+                <table rend="frame" xml:id="XXVI_table_5">
+                    <row>
+                        <cell>Masium de <placeName ref="#Busino">Buzino</placeName></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><persName ref="#VivianusBoso">Vivianus de Boso</persName></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#GuilielmettusViviano">Guilielmettus de
+                                Viviano</persName></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Persona">Persona</persName></cell>
+                        <cell>staria VI</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#SarzanensisRicapanici">Sarzanese
+                            Ricapanico</persName></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#FortioreMartini">Fortiore, filia Martini de <placeName
+                                    ref="#Gagarusco">Cacarusco</placeName></persName></cell>
+                        <cell>starium I ½</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#BonaventuraGagarusco">Bonaventura de <placeName
+                                    ref="#Gagarusco">Cacarusco</placeName></persName></cell>
+                        <cell>starium I ½</cell>
+                    </row>
+                </table>
+
+                <table rend="frame" xml:id="XXVI_table_6">
+                    <row>
+                        <cell rend="start">Masium de <placeName ref="#Pozola"
+                            >Puzola</placeName></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell rend="start"><persName ref="#VoltacastroBertollocto">Volta de
+                                Bertollocto</persName></cell>
+                        <cell rend="start">staria II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Gerardetus">Gerardettus</persName> et <persName
+                                ref="#SoperchiaGerardetti">Soperchia</persName>, uxor eius</cell>
+                        <cell>staria II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#BonfancellusCortiola">Bonfancellus</persName> et
+                            frater de <placeName ref="#Cortiola">Cortiola</placeName></cell>
+                        <cell>staria IIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#VivianusParlonso">Vivianus de <placeName
+                                    ref="#Parlonso">Parlonso</placeName></persName></cell>
+                        <cell>staria IIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#DuransParlonso">Durante de <placeName ref="#Parlonso"
+                                    >Parlonso</placeName></persName></cell>
+                        <cell>staria IV</cell>
+                    </row>
+                    <row>
+                        <cell>Podere <persName ref="#Aymericus">Aimerrici</persName> est in donico
+                            curie</cell>
+                        <cell>staria VIII</cell>
+                    </row>
+                </table>
+
+                <table rend="frame" xml:id="XXVI_table_7">
+                    <row>
+                        <cell rend="start">Masium de <placeName ref="#Munsulum"
+                            >Munsulum</placeName></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell rend="start"><persName ref="#VenturaFerrocincto">Ventura
+                                Ferrocincto</persName></cell>
+                        <cell rend="start">staria II</cell>
+                    </row>
+                    <row>
+                        <cell rend="start"><persName ref="#PalmeriusRiccione">Palmerius
+                                Riccione</persName></cell>
+                        <cell rend="start">staria II</cell>
+                    </row>
+                    <row>
+                        <cell rend="start"><persName ref="#DeotisalviMozolone">Deotisalvi de
+                                    <placeName ref="#Monzolono"
+                            >Mozolone</placeName></persName></cell>
+                        <cell rend="start">staria VI</cell>
+                    </row>
+                    <row>
+                        <cell rend="start"><persName ref="#FormentinusRaffanino">Formentinus de
+                                Raffanino</persName></cell>
+                        <cell rend="start">staria II</cell>
+                    </row>
+                    <row>
+                        <cell rend="start"><persName ref="#BernardusRafanini">Bernardus de
+                                Raffanino</persName></cell>
+                        <cell rend="start">staria II</cell>
+                    </row>
+                    <row>
+                        <cell rend="start"><persName ref="#FantinellusRaffanino">Fantinello de
+                                Raffanino</persName></cell>
+                        <cell rend="start">staria II</cell>
+                    </row>
+                    <row>
+                        <cell rend="start"><persName ref="#FestaRustichino">Festa de
+                                Rustichino</persName></cell>
+                        <cell rend="start">staria IIII</cell>
+                    </row>
+                    <row>
+                        <cell rend="start"><persName ref="#VivaldusBianca">Vivaldo de
+                                Bianca</persName></cell>
+                        <cell rend="start">staria IIII</cell>
+                    </row>
+                </table>
+                <pb n="77r" xml:id="fol_077r"/>
+                <table rend="frame" xml:id="XXVI_table_8">
+                    <row>
+                        <cell>Masium de <placeName ref="#Nebiana">Nebiana</placeName></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Discalzo">Discalzo</persName></cell>
+                        <cell>staria IIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#VitaliBono">Vitali de Bono</persName> cum <persName
+                                ref="#Paganinus">Pagamino</persName></cell>
+                        <cell>starium I et ½ quarto<note xml:id="XXVI_n_3" place="foot" n="c">
+                                quarto: <emph>così nel testo, anche in seguito.</emph></note></cell>
+                    </row>
+                    <row>
+                        <cell>Filii <persName ref="#RiccusBottochio">Riccii de
+                            Bottochio</persName></cell>
+                        <cell>I quarto</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#FoscusGerardini">Foscus Gerardini de
+                            Ricco</persName></cell>
+                        <cell>I quarto</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Volta">Volta</persName></cell>
+                        <cell>I quarto</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Guiçolus">Guizolo</persName> et <persName
+                                ref="#BeatrixTedeschina">Beatrice de Tedeschina</persName></cell>
+                        <cell>starium I et ½</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Riccomannus">Riccomanno</persName></cell>
+                        <cell>starium I et ½</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#GerardusGuiliecta">Girardo di<note xml:id="XXVI_n_4"
+                                    place="foot" n="d"> di: <emph>così nel testo.</emph></note>
+                                Guiliecta</persName></cell>
+                        <cell>starium I et ½</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#BernardusRafanini">Bernardus de Raffanino</persName>
+                            et eius frater</cell>
+                        <cell>staria IIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#SarzanensisRicapanici">Sarzanese
+                                Riccapanico</persName></cell>
+                        <cell>staria II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#BonaventuraGagarusco">Bonaventura de <placeName
+                                    ref="#Gagarusco">Cacarusco</placeName></persName> et <persName
+                                ref="#FortioreMartini">Fortiore</persName>, eius neptis</cell>
+                        <cell>staria II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Bellochius">Bellochio</persName></cell>
+                        <cell>staria II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#VidalTerria">Vidal de <placeName ref="#Terria"
+                                    >Terria</placeName></persName></cell>
+                        <cell>staria II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#VidalBelsere">Vidal de Belsere</persName></cell>
+                        <cell>starium I</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Burnettus">Burnettus</persName></cell>
+                        <cell>starium I</cell>
+                    </row>
+                </table>
+
+                <table rend="frame" xml:id="XXVI_table_9">
+                    <row>
+                        <cell>Masium de <placeName ref="#Montedarmo">Montedarmo</placeName>
+                            alio</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><persName ref="#DatusGuidi">Datus</persName> et frater eius, filii
+                            Guidi</cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Bonavia">Bonavia</persName></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#BonacursettusMorselliera">Bonaccorsectus de <placeName
+                                    ref="#Morsellera">Morselliera</placeName></persName></cell>
+                        <cell>staria III </cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#FormentinusRafanini">Formentino de
+                                Raffanino</persName> et <persName ref="#Ferrocintto"
+                                >Ferrocintto</persName></cell>
+                        <cell>starium I et ½</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Corbellarius">Corbellarius</persName></cell>
+                        <cell>starium I et ½</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#BenvenutusArnula">Benvenutus de <placeName
+                                    ref="#Arnula">Arnula</placeName></persName></cell>
+                        <cell>staria XII</cell>
+                    </row>
+                </table>
+
+                <table rend="frame" xml:id="XXVI_table_10">
+                    <row>
+                        <cell>Masium de <persName ref="#Bursellis">Bursellis</persName></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Bellandinus">Bellandinus</persName></cell>
+                        <cell>staria II et parti II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Accursettus">Accorsectus</persName></cell>
+                        <cell>staria II et parti II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Romeus">Romeus</persName></cell>
+                        <cell>staria II et parti II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#RiccaBoctrico">Ricca de Boctrico</persName></cell>
+                        <cell>starium I</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Corbellarius">Corbellari</persName></cell>
+                        <cell>starium I</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#VivaldusGrossola">Vivaldo de
+                            Grossula</persName></cell>
+                        <cell>staria II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#PadulectusSabbatino">Padulectus de
+                                Sabbatino</persName></cell>
+                        <cell>starium I et ½</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#BonacursettusMorselliera">Bonaccorsectus de <placeName
+                                    ref="#Morsellera">Morselliera</placeName></persName></cell>
+                        <cell>starium I</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Beliarda">Beliarda</persName></cell>
+                        <cell>staria III et ½</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#IunctaSerraUrsi">Iuncta de <placeName ref="#Serraursi"
+                                    >Serra Ursi</placeName></persName></cell>
+                        <cell>staria III et ½</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#CastellanusMonti">Castellanus de <placeName
+                                    ref="#Monte">Monte</placeName></persName></cell>
+                        <cell>minam I</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Riccone">Riccone</persName></cell>
+                        <cell>minam I</cell>
+                    </row>
+                </table>
+                <pb n="77v" xml:id="fol_077v"/>
+                <table rend="frame" xml:id="XXVI_table_11">
+                    <row>
+                        <cell><persName ref="#Rigalecta">Rigalecta</persName></cell>
+                        <cell>minam I </cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#UbertinusBuzo">Ubertinus Buzo</persName></cell>
+                        <cell>minam I</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Gaforetus">Gaforecto</persName></cell>
+                        <cell>minam I</cell>
+                    </row>
+                </table>
+
+                <table rend="frame" xml:id="XXVI_table_12">
+                    <row>
+                        <cell>Masium de <placeName ref="#Picacrese">Picciaresi</placeName></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><persName ref="#FormentinusRafanini">Formentino de
+                                Raffanino</persName></cell>
+                        <cell>staria VI</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Ferrocintto">Ferrocinto</persName></cell>
+                        <cell>staria VI</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Corbellarius">Corbellaro</persName></cell>
+                        <cell>staria XII</cell>
+                    </row>
+                </table>
+
+                <table rend="frame" xml:id="XXVI_table_13">
+                    <row>
+                        <cell>Masium de <placeName ref="#Montedarmo">Montedarmo</placeName></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><persName ref="#PetrusCapagno">Petrus</persName> et <persName
+                                ref="#CursusCapagno">Corsus</persName> de <placeName ref="#Capagno"
+                                >Capagno</placeName></cell>
+                        <cell>staria VI</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#BastardusArmannini">Bastardo de
+                                A&lt;r&gt;mannino</persName></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#CampaneoBertolocto">Campaneo de
+                            Bertolocto</persName></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#BononcontroStorpo">Bononcontro de
+                            Storpo</persName></cell>
+                        <cell>staria VI</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#GuidoSpinello">Guido de Spinello</persName></cell>
+                        <cell>staria VI</cell>
+                    </row>
+                </table>
+
+                <table rend="frame" xml:id="XXVI_table_14">
+                    <row>
+                        <cell>Masium de <placeName ref="#Argussolo">Arghussolo</placeName></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Filii <persName ref="#VitalisBeagua">Vitalis Beaigua</persName></cell>
+                        <cell>staria VIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#TedescusBonizo">Tedescus de Bonizo</persName></cell>
+                        <cell>staria VIII</cell>
+                    </row>
+                    <row>
+                        <cell>Filii <persName ref="#Bonasera">Bonesere</persName> et <persName
+                                ref="#BastardusDivitia">Bastardo de Divitia</persName></cell>
+                        <cell>staria IIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Buiardus">Buiardo</persName></cell>
+                        <cell>staria II</cell>
+                    </row>
+                    <row>
+                        <cell>Filii <persName ref="#Bonensegna">Bonsengne</persName></cell>
+                        <cell>staria II</cell>
+                    </row>
+                </table>
+
+                <table rend="frame" xml:id="XXVI_table_15">
+                    <row>
+                        <cell>Masium de <placeName ref="#Ghiauli">Ghiagguili</placeName></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Baldinottus">Baldinoctus</persName></cell>
+                        <cell>staria VIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#BrunetusCorneta">Brunectus de <placeName
+                                    ref="#Corneta">Corneta</placeName></persName></cell>
+                        <cell>staria II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Vitalis">Vitalis</persName></cell>
+                        <cell>staria II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#VitalisTerria">Vitalis de <placeName ref="#Terria"
+                                    >Terria</placeName></persName></cell>
+                        <cell>staria IIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Discalzo">Discalzo</persName></cell>
+                        <cell>staria IIII</cell>
+                    </row>
+                </table>
+
+                <table rend="frame" xml:id="XXVI_table_16">
+                    <row>
+                        <cell>Masium de <placeName ref="#Vignola2">Vignola</placeName></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><persName ref="#PagenellusVignola">Pagenellus de <placeName
+                                    ref="#Vignola2">Vingnola</placeName></persName></cell>
+                        <cell>staria IIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#ViveldaSabbatino">Vivelda de
+                            Sabbatino</persName></cell>
+                        <cell>staria IIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#RollandinusGualdi">Rolandino de <placeName
+                                    ref="#Gualdo">Gualdo</placeName></persName></cell>
+                        <cell>staria IIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#BernardusVingnola">Bernardo de <placeName
+                                    ref="#Vignola2">Vingnola</placeName></persName></cell>
+                        <cell>staria IIII</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#BastardusSerra">Bastardo de <placeName ref="#SerraPon"
+                                    >Serra</placeName></persName></cell>
+                        <cell>starium I et b(acilia) III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#AldibertinusNerdone">Aldibertino de
+                            Nerdone</persName></cell>
+                        <cell>starium I et b(acilia) III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Nicholosius">Nicholosus</persName> cum filiis
+                                <persName ref="#Rainerius">Rainerii</persName></cell>
+                        <cell>starium I et b(acilia) III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Buiardus">Buiardo</persName></cell>
+                        <cell>minam I et b(acile) I et ½</cell>
+                    </row>
+                    <row>
+                        <cell>Filii <persName ref="#Bonensegna">Bonensengne</persName></cell>
+                        <cell>minam I et barile I et ½</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell>Masium de <placeName ref="#Virgarolo">Virgarolo</placeName></cell>
+                        <cell/>
+                    </row>
+                </table>
+                <pb n="78r" xml:id="fol_078r"/>
+                <table rend="frame" xml:id="XXVI_table_17">
+                    <row>
+                        <cell><persName ref="#GuilielmusGuittone">Guilielmus de Guittone</persName>
+                            et frater eius</cell>
+                        <cell>staria VI et quartum</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Bastardus">Bastardo</persName> et <persName
+                                ref="#BernardusRafanini">Bernardo de Raffanino</persName></cell>
+                        <cell>staria VI et quartum</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Cancellerius">Cancillerius</persName></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Volta">Volta</persName></cell>
+                        <cell>starium I</cell>
+                    </row>
+                    <row>
+                        <cell>Filii de <persName ref="#Donnula">Donnula</persName></cell>
+                        <cell>starium I</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#AlbertusPizo">Alberto de Pizo</persName></cell>
+                        <cell>minam I</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#IunctaDimembrato">Iuncta Dimembrato</persName></cell>
+                        <cell>minam I</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Bonfancellus">Bonfancellus</persName> et frater
+                            eius</cell>
+                        <cell>staria II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Ferrinus">Ferrino</persName></cell>
+                        <cell>starium I</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#VitalisDonnolina">Vitalis de
+                            Donnolina</persName></cell>
+                        <cell>staria II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#VitaliBono">Vitalis de Bono</persName></cell>
+                        <cell>staria II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#UgolinusRosso">Ugolino Russo</persName></cell>
+                        <cell>starium I</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Padulectus">Padulecto</persName></cell>
+                        <cell>minam I</cell>
+                    </row>
+                </table>
+
+                <table rend="frame" xml:id="XXVI_table_18">
+                    <row>
+                        <cell>Masium de <placeName ref="#Ortogarolo">Ortogarolo</placeName></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><persName ref="#SabatinusMinaciato">Salbatinus de
+                                Minacciato</persName></cell>
+                        <cell>staria VIII et ½</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#AcorsettusRogerio">Accorsectus de
+                            Rogerio</persName></cell>
+                        <cell>minam I</cell>
+                    </row>
+                    <row>
+                        <cell>Filius <persName ref="#Iohannetus_fornarius">Iovanneti
+                                    <roleName>fornarii</roleName></persName></cell>
+                        <cell>minam I</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Bellotus">Bellottus</persName> et filii <persName
+                                ref="#VitalisDonadeo">Vitalis de Donadeo</persName></cell>
+                        <cell>staria IIII</cell>
+                    </row>
+                    <row>
+                        <cell>Filius <persName ref="#Bontempus">Bontepi</persName><note
+                                xml:id="XXVI_n_5" place="foot" n="e"> Bontepi: <emph>così nel
+                                    testo.</emph></note></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell>Filius <persName ref="#TardionusFactura">Tardioni de
+                                Factura</persName></cell>
+                        <cell>starium I et ½</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Puchilinus">Puchilinus</persName></cell>
+                        <cell>starium I</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#CarboBottacciFal">Carbone de <placeName
+                                    ref="#Falcinello">Falcinello</placeName></persName></cell>
+                        <cell>starium I</cell>
+                    </row>
+                </table>
+
+                <table rend="frame" xml:id="XXVI_table_19">
+                    <row>
+                        <cell>Masium de <placeName ref="#Orto_Michetti">Orto
+                            Michetti</placeName></cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell><persName ref="#GerardusVernaccii">Gerardo de <placeName
+                                    ref="#Vernaccio">Vernaccio</placeName></persName></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Bastardus">Bastardus</persName> et filii <persName
+                                ref="#Bonasera">Bonasere</persName></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Ugolinus_ortolanus">Ugolinus
+                                    <roleName>ortulanus</roleName></persName></cell>
+                        <cell>staria II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#BiancusTivegna">Biancus de <placeName ref="#Tivegna"
+                                    >Tivegna</placeName></persName></cell>
+                        <cell>staria II</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#FoscusGerardini">Foscus de
+                            Ghirardino</persName></cell>
+                        <cell>starium I et ½</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Bonavere">Bonavere</persName></cell>
+                        <cell>minam I</cell>
+                    </row>
+                    <row>
+                        <cell>Filius <persName ref="#RiccusBottochio">Ricchi<note xml:id="XXVI_n_6"
+                                    place="foot" n="f"> Ricchi: <emph>la prima</emph> c
+                                        <emph>aggiunta in sopralinea.</emph></note> de
+                                Buttotho</persName></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#GerardusGuiliecta">Gerardus de
+                            Guilliecta</persName></cell>
+                        <cell>staria III</cell>
+                    </row>
+                    <row>
+                        <cell><persName ref="#Ferrinus">Ferrinus</persName> et filii <persName
+                                ref="#Nobilinus">Nobilini</persName></cell>
+                        <cell>staria II et quartum</cell>
+                    </row>
+                </table>
+            </div>
+        </body>
+    </text>
+</TEI>

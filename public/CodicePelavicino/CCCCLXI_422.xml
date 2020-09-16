@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXI_422">
+    <front xml:id="CCCCLXI_front">
+
+      <titlePart type="numerazioneNuova">422</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXLI</titlePart>
+
+      <docDate xml:id="CCCCLXI_docDate">
+        <date when="1255-02-09">1255 febbraio 9</date>, <placeName>Vezzano<emph>(<term
+              xml:lang="latin">Vezani, ante domum Bonalbergi quondam Aycardini de
+            Stabia</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXI_regesto">
+        <p>Guidetto del fu Benvenuto di Vezzano, castaldo del vescovo di Luni di Guglielmo, concede
+          in affitto a Bonalbergo del fu Aicardino di Stabia tre pezzi di terra posti nel distretto
+          di Vezzano, nei luoghi di Piazza e Stabia, per il fitto di uno staio di frumento
+          l’anno.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 357r., c. CCCXLVIIIr. secondo la numerazione originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 461,
+            p. 469.</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <emph>IIIIc LXI. Unius starii
+              frumenti ficti, quod reddit Bonabergus suprascriptus ex dictis terris.</emph></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCLXI_div">
+        <p xml:id="CCCCLXI_p_001" n="1">In nomine Domini, amen. <persName ref="#GuidetusBenvenuti"
+            >Guidetus quondam Benvenuti de <placeName ref="#Vezzano">Vezano</placeName> venerabilis
+            patris domini <roleName>castaldio et procurator</roleName>
+            <roleName>Guilielmi Lunensis episcopi,</roleName>
+          </persName> prout de ipsa procuratione dixit contineri in quodam instrumento inde confecto
+          manu <persName ref="#Bonalbergusnot">Bonalbergi <roleName>notarii</roleName> de <placeName
+              ref="#Carrara">Carraria</placeName>, </persName> procuratorio nomine pro ipso domino
+          episcopo, dedit atque investivit <persName ref="#BonalbergusAicardiniStabia">Bonalbergum
+            quondam Aycardini de <placeName ref="#Stabia">Stabia</placeName>
+          </persName> ad fictum, in perpetuum, in eo eiusque heredibus utriusque sexus, masculis et
+          feminis, ab eo legitimis (<note place="foot" n="a" xml:id="CCCCLXI_n_001">legitimis:
+              <emph>così nel testo per</emph> legitime</note>) descendentibus, nominatim de tribus
+          petiis terre, quas idem procurator emit pro ipso domino episcopo, prout apparet in quodam
+          instrumento emptionis inde confecto manu mei <persName ref="#TaravatiusVezanonot"
+            >Taravacii <roleName>notarii,</roleName>
+          </persName> que terre sunt site in confinibus <placeName ref="#Vezzano"
+          >Vezani</placeName>. Prima est in loco ubi dicitur in <placeName ref="#Plaça"
+            >Plaça,</placeName> cum una domo superius existente et hedificata, cui coheret ab uno
+          latere <persName ref="#PaganinusPlolo">Paganini de <placeName ref="#Plolo"
+              >Plolo</placeName></persName>, ab alio heredum <persName ref="#FancelletusStabia"
+            >Fancelleti de <placeName ref="#Stabia">Stabia</placeName>
+          </persName>, superius via, inferius terra quam tenet dictus <persName
+            ref="#Bonalbergusnot">Bonalbergus</persName> ad fictum a <persName
+            ref="#GuicardinusCaustro">Guicardino de <placeName ref="#Caustro">Caustro</placeName>
+          </persName>, sicut est divisa et terminata; secunda petia est loco ubi dicitur in
+            <placeName ref="#Stabia">Stabia</placeName>, cum castaneis et aliis super se positis,
+          cui coheret ab uno latere et superius via publica, ab alio latere <persName
+            ref="#GuicardinusCaustro">Guicardini</persName> suprascripti, inferius heredum dicti
+            <persName ref="#FancelletusStabia">Fancelleti</persName>; tercia petia est in eodem loco
+          de <placeName ref="#Stabia">Stabia</placeName>, cui coheret ab uno latere <persName
+            ref="#RanuçiusStasbia">Ranucini de <placeName ref="#Stabia">Stabia</placeName>,
+          </persName> ab alio heredum dicti <persName ref="#FancelletusStabia"
+          >Fancelleti</persName>, superius <persName ref="#IacopinusColugnola">Iacomini de
+              <placeName ref="#Colognola2">Colungnola</placeName></persName>, inferius dicti
+            <persName ref="#GuicardinusCaustro">Guicardini</persName>, et si qui alii sunt confines.
+          Et dedit ei illas simul cum accessibus et ingressionibus et omni iure et mandavit ei ut
+          intret inde corporaliter in tenutam et possessionem sua auctoritate, ita ut amodo et
+          deinceps predictus <persName ref="#Bonalbergusnot">Bonalbergus</persName> et eius heredes
+          predictas terras habeant, teneant et possideant iure consimilis ficti et investiture; et
+          cessit ei omnia iura et actiones ad agendum et deffendendum. </p>
+
+        <p xml:id="CCCCLXI_p_002" n="2"> § Unde dictus <persName ref="#Bonalbergusnot"
+            >Bonalbergus</persName> obligando se suosque heredes, promisit et convenit dicto
+          procuratori, recipienti nomine et vice nomine procuratorio pro dicto domino episcopo,
+          dictas terras pro eo ad fictum tenere et laborare et advulvere, bona fide et sine fraude,
+          et dare et solvere et reddere ei vel suis nunciis aut cui ipse dederit vel commiserit
+          annuatim, usque in perpetuum, nomine recti ficti, starium I frumenti numerati, mundi,
+          sicci et <term ref="#gredelatus">gredelati</term>, mensurati ad legitimum starium communis <placeName ref="#Vezzano">Vezani</placeName>,
+          per mensem augusti, ad domum ipsius <persName ref="#Bonalbergusnot">Bonalbergi</persName>,
+          in <placeName ref="#Vezzano">Vezano</placeName>, sub pena et in pena <measure
+            type="Imperiales" quantity="40" unit="solidus">soldorum XL imperialium;</measure> qua
+          soluta sive commissa, rato manente pacto, et tociens pena committatur exigi possit
+          quociens in aliquo fuerit contraventum. Pro quibus omnibus et singulis faciendis et
+          observandis ille se obligavit ei pignori omnia sua bona, habita et habenda, renunciando
+          omni iuri et legibus contra hec introductis. </p>
+        <p xml:id="CCCCLXI_p_003" n="3"> Actum <placeName ref="#Vezzano">Vezani</placeName>, ante
+          domum ipsius <persName ref="#Bonalbergusnot">Bonalbergi.</persName>
+          <date when="1255-02-09">Anno a nativitate Christi MCCLV, indictione XIII, die IX intrante
+            mense februario. </date>
+        </p>
+        <p xml:id="CCCCLXI_p_004" n="4"> § Presentibus <persName ref="#GregoriusRanuccini">Gregorio
+            filio Ranucini de <placeName ref="#Stabia">Stabia</placeName>, </persName>
+          <persName ref="#FuscusGuilielmi">Fuscho de <placeName ref="#Via">Via</placeName> quondam
+            Guilielmini</persName>, <persName ref="#BenedictusPaganini">Benedicto filio Paganini de
+              <placeName ref="#Bolegera">Bolegera</placeName></persName>, testibus ad hec rogatis. </p>
+        <p xml:id="CCCCLXI_p_005" n="5">
+          <ptr target="#CCCCLXI_st_001"/>
+          <persName ref="#TaravatiusVezanonot">Taravacius de <placeName ref="#Vezzano"
+              >Vezano</placeName>, <roleName>domini Frederici imperatoris notarius</roleName>,
+          </persName> hanc cartam rogatus scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

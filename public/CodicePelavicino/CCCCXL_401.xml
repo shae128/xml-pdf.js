@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXL_401">
+    <front xml:id="CCCCXL_front">
+
+      <titlePart type="numerazioneNuova">401</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXL</titlePart>
+
+      <docDate xml:id="CCCCXL_docDate">
+        <date when="1230-04-25">1230 aprile 25</date>, <placeName>Barbazzano <emph>(<term
+              xml:lang="latin">apud Barbazanum, in curia domini episcopi</term>)</emph>
+        </placeName>
+        <lb/>
+        <date when="1230-04-30">1230 aprile 30</date>, <placeName>Isola <emph>(<term
+              xml:lang="latin">apud Ysolam, ante ecclesiam Sancti Victoris</term>)</emph>
+        </placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXL_regesto">
+        <p>I signori e i consorti del castello di Isola, ossia Federico, Iungo anche per i fratelli
+          Recoino e Marchesello, Guido del fu Alberto anche per il fratello Albertino, Aicardino del
+          fu Visconte anche per i fratelli Guglielmino, Gerardino e Filippo, Belengio e suo fratello
+          Baldovino, Ugolino e Bonacorso si impegnano sotto giuramento a mantenere tra loro il
+          consorzio e fare tutto quello che comporta farne parte e donano al vescovo di Luni
+          Guglielmo il mero e misto imperio del castello e curia di Isola. Dopo cinque giorni
+          Recoino e Marchesello del fu Valentino, Guglielmino, Gerardino e Filippo del fu Visconte,
+          Albertino del fu Alberto, Enrighino Calcinello, Talaferro e Trulio approvano. Giurano
+          infine nominalmente anche i consoli e gli uomini di Isola. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXL_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 344v.-345v., cc. CCCXXXVIv.-CCCXXXVIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 440, pp.
+            444-447.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>
+            <emph>La carta 344v. è stata letta con l’ausilio della lampada di Wood.</emph>
+            <p><emph>Nel margine esterno, di mano moderna: </emph>Isola</p>
+            <p><emph>In calce a c. 344v., di mano moderna, le prime parole del fascicolo successivo:
+              </emph>et misto imperio</p>
+          </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCCXXXX. Carta de Isola ex donatione facta Lunensi ecclesie. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXL_div">
+        <pb n="344v" xml:id="fol_344v"/>
+        <p xml:id="CCCCXL_p_001" n="1"> In nomine Domini nostri Ihesu Christi, amen. <date
+            when="1230-04-25">Anno a nativitate Eius M°CCXXX, die iovis, VII kalendas madii,
+            indictione III</date>. Omnes isti <roleName>domini et consortes castri</roleName>
+          <placeName ref="#Isola2">Ysole</placeName>, videlicet <roleName>dominus</roleName>
+          <persName ref="#FedericusInsula">Fridericus</persName> pro se, <persName
+            ref="#IungusYsole">Iungus</persName> pro se et fratribus suis <persName
+            ref="#RecoinusValentiniYsole">Recoino</persName> et <persName
+            ref="#MarchesellusValentiniYsole">Marchesello</persName>, <persName
+            ref="#GuidoAlbertisYsole">Guido quondam Albertis</persName> pro se et pro <persName
+            ref="#AlbertinusAlbertisYsole">Albertino</persName> fratre suo, <persName
+            ref="#AicardinusVicecomitis">Aicardinus quondam Vicecomitis</persName> pro se et pro
+          fratribus suis <persName ref="#GuilielminusVicecomitis">Guilielmino</persName>, <persName
+            ref="#GerardinusVicecomitis">Gerardino</persName> et <persName
+            ref="#PhilippusVicecomitis">Philippo</persName>, <persName ref="#BelengiusYsole"
+            >Belengius</persName> et <persName ref="#BaldoinusYsole">Baldinoinus</persName>
+          <note xml:id="CCCCXL_n_001" n="a" place="foot"><term xml:lang="latin"> Baldinoinus</term>:
+              <emph>così nel testo per </emph>Balduinus </note>, frater eius, pro se, <persName
+            ref="#UgolinusYsole">Ugolinus</persName> et <persName ref="#BonacursusYsole"
+            >Bonacursus</persName> pro se et pro omnibus habentibus partem secum in suo quarterio
+          iamscripti castri, iuraverunt ad sancta Dei evangelia et promiserunt sibi ad invicem et
+          quilibet predictorum aliis et cuilibet eorum singulariter per stipulationem, sub pena
+            <measure type="Imperiales" quantity="100" unit="lire">C librarum imperialium</measure>,
+          obligando se suosque heredes et omnia sua bona in perpetuum, inter se et suos heredes
+          consortaticum tenere et servare et facere omnia que in consortatico continentur de castro
+          et curia <placeName ref="#Isola2">Ysole</placeName> et de dominio et districtu et
+          iurisdictione et de omnibus et singulis que ad dominium vel iurisdictionem vel districtum
+          pertinent castri et curie suprascripte, et salvare et guardare se et suas familias in
+          persona et rebus in ipso castro et per totam curiam ipsius, et quod non erunt, nec aliquis
+          eorum, in facto vel consilio vel assensu quod aliquis eorum offendatur in persona vel
+          rebus nec quod perdat vel amittat dominium vel districtum vel iurisdictionem, quam habet
+          vel ad ipsum pertinet, in castro et curia suprascriptis nec dominium vel vassallos vel
+          villanos vel res aliquas sive possessiones, quas habet vel ad eum pertine<supplied
+            reason="omitted">n</supplied>t, in predicto castro et curia, et quod aliquis eorum non
+          emet nec acquiret aliquem vassallum alterius nec ipsi feudum constituet vel dabit sine
+          consensu et voluntate expressa domini sui. Predicta omnia et singula sibi ad invicem et
+          unusquisque alteri et omnes cuilibet generaliter et singulariter et in solidum sibi facere
+          et servare et contra non venire vel facere promiserunt per sollempnem stipulationem, sub
+          pena predicta et obligatione suorum heredum et bonorum, ita quod tociens pena suprascripta
+          in solidum ab omnibus et a quolibet eorum peti possit quociens predicta omnia et singula
+          non fuerint servata et facta, ut suprascriptum est, et quociens contra predicta vel
+          aliquod predictorum ventum vel factum fuerit a suprascriptis vel aliquibus
+          suprascriptorum. Et suprascripta omnia et singula nichillominus firma et rata omni tempore
+          perseverent. Preterea suprascriptus <persName ref="#IungusYsole">Iungus</persName>
+          promisit per se ipsum, sub dicta pena et obligatione suorum heredum et honorum, aliis
+          suprascriptis et cuilibet suprascriptorum facere et curare ita quod fratres sui, scilicet
+            <persName ref="#RecoinusValentiniYsole">Recoinus</persName> et <persName
+            ref="#MarchesellusValentiniYsole">Marchesellus</persName>, predicta omnia et singula
+          confirmabunt et rata habebunt et contra non venient vel facient et predictum iuramentum
+          prestabunt et facient et promittent et paciscentur et facient omnia et singula
+          suprascripta, cum predictis et singulis predictorum que superius continentur, secundum
+          predictum modum et formam et tenorem, sub eisdem obligationibus atque penis. Insuper
+            <persName ref="#GuidoAlbertisYsole">Guido quondam Albertis</persName> promisit per
+          stipulationem, sub dicta pena et obligatione suorum heredum et bonorum, aliis
+          suprascriptis et cuilibet suprascriptorum facere et curare ita quod frater eius <persName
+            ref="#AlbertinusAlbertisYsole">Albertinus</persName> predicta omnia et singula
+          confirmabit et rata habebit et contra non veniet vel faciet et predictum iuramentum
+          prestabit et faciet et promittet et paciscetur et faciet omnia et singula suprascripta,
+          cum predictis et singulis predictorum que superius continentur, secundum predictum modum
+          et formam et tenorem, sub eisdem obligationibus atque penis. Postea suprascriptus
+            <persName ref="#FedericusInsula">Fredericus</persName> pro se, <persName
+            ref="#IungusYsole">Iungus</persName> pro se et fratribus suis <persName
+            ref="#RecoinusValentiniYsole">Recoino</persName> et <persName
+            ref="#MarchesellusValentiniYsole">Marchesello</persName>, <persName
+            ref="#GuidoAlbertisYsole">Guido</persName> pro se et pro <persName
+            ref="#AlbertinusAlbertisYsole">Albertino</persName>, fratre suo, <persName
+            ref="#AicardinusVicecomitis">Aycardinus</persName> pro se et fratribus suis <persName
+            ref="#GuilielminusVicecomitis">Guilielmino</persName>, <persName
+            ref="#GerardinusVicecomitis">Gerardino</persName> et <persName
+            ref="#PhilippusVicecomitis">Philippo</persName>, <persName ref="#BelengiusYsole"
+            >Belengius</persName> et <persName ref="#BaldoinusYsole">Baldinoinus</persName>, frater
+          eius, pro se, <persName ref="#UgolinusYsole">Ugolinus</persName> et <persName
+            ref="#BonacursusYsole">Bonacursus</persName> pro se et pro omnibus habentibus partem
+          secum in suo quarterio suprascripti castri et <orgName ref="#Isola_comune">commune</orgName>, pro bono pacis et concordie
+          servande inter se et pro servandis pactis et promissionibus et obligationibus
+          suprascriptis et pro remissione animarum suarum et suorum heredum et ob reverenciam beate
+          Marie semper virginis, titulo donationis et dationis et concessionis inrevocabiliter inter
+          vivos donaverunt et dederunt et concesserunt venerabili patri <roleName>domino</roleName>
+          <persName ref="#GuilEpLuni">Guilielmo</persName>, <roleName>Dei gratia Lunensi
+            episcopo</roleName>, recipienti pro se suisque successoribus et pro suo episcopio, in
+          perpetuum, merum et mixtum imperium et iurisdictionem et bailliam et districtum et
+          potestatem et omnia et singula que inferius continentur, in se et suos heredes et
+            <supplied reason="omitted">in</supplied> ipso castro et curia et in omnibus eorum et
+          cuiusque eorum bonis, secundum quod inferius exprimetur , videlicet quia omnes et singuli
+          suprascripti pro se et suis successoribus et heredibus et proheredibus in perpetuum
+          submiserunt et supposuerunt se et ipsos et dictum castrum et curiam et vassallos et
+          villanos suos et omnia ipsorum et cuiusque ipsorum bona mero <pb n="345r"
+            xml:id="fol_345r"/>et mixto imperio et iurisdictioni ordinarie et districtui et
+          potestati et mandatis et preceptis suprascripti domini episcopi et suorum successorum et
+          sui episcopii, et eum et eius successores et suum episcopium sibi et constituerunt et
+          consenserunt et voluerunt esse suum iudicem ordinarium et potestatem et distringitorem et
+          preceptorem et executorem in hiis, videlicet quod, si predicti vel aliquis predictorum per
+          se vel per alium facerent vel factum vel ventum esset contra predicta vel aliquod
+          predictorum vel si predicta omnia et singula non servabunt vel non servabit vel non
+          facient vel non faciet vel non servata vel non facta erunt, suprascriptus dominus
+          episcopus et sui successores et ipsum episcopium possint, sine aliquo appellationis vel
+          proclamationis vel exceptionis vel deffensionis vel allegationis obstaculo, de hiis et
+          super hiis et quolibet eorum cognoscere, semper investigare ordinarie et exordinarie et de
+          bono regimento et de bono arbitrio et bona potestaria et citare et terminos ponere, artare
+          et prorogare testes et probationes recipere, interloqui, contumaciter et diffinitive
+          pronunciare et iudicare et exequi iudicata et bonorum possessionem dare et in possessionem
+          mittere ex primo et secundo decreto et in solutum dare et assignare et ex mero imperio
+          animadvertere in facinorosos et exercere gladii potestatem et punire in ultimum supplicium
+          et membrorum abscisionem et exbannire et publicare et adiudicare bona et iura et omnem
+          corporalem et realem et mixtam penam infligere suprascriptis omnibus et cuique
+          suprascriptorum. Et suprascripti omnes, qui presentes erant, et quisque eorum, pro se et
+          aliis absentibus, sicut dictum est supra, suprascripto domino episcopo, pro se suisque
+          successoribus et pro suo episcopio, promiserunt et promittunt et ad sancta Dei evangelia
+          iuraverunt, obligando se suosque heredes et omnia sua et cuiusque ipsorum bona per
+          stipulationem et ad penam partium suarum et partis cuiusque ipsorum et omnium bonorum
+          suorum et cuiusque ipsorum que habent et habebunt ipsi et quilibet eorum in suprascripto
+          castro et curia, suprascriptam donationem et dationem et concessionem et submissionem et s
+          uppositionem et [..] <note xml:id="CCCCXL_n_002" n="b" place="foot"><term xml:lang="latin"
+              > et</term>: <emph>segue una parola illeggibile per abrasione.</emph></note> et omnia
+          et singula que dederunt et fecerunt suprascripto domino episcopo, ut superius dictum est,
+          in perpetuum rata et firma habere et tenere et observare et facere et contra non venire
+          nec facere ullo modo. Et in predictis et de predictis et pro predictis omnibus et singulis
+          iuraverunt ad sancta Dei evangelia observare et facere et obedire omnia et singula
+          precepta et mandata suprascripti domini episcopi et suorum successorum et sui episcopii et
+          ipsa et quelibet ipsorum nullo tempore ullatenus recusare. </p>
+
+        <p xml:id="CCCCXL_p_002" n="2"> Actum apud <placeName ref="#Barbazzano"
+            >Barbazanum</placeName>, in curia memorati domini episcopi, presentibus <persName
+            ref="#Mannus_canonicus">Manno</persName>
+          <roleName>canonico Lunensi</roleName>, <roleName>donno</roleName>
+          <persName ref="#Decanuspres">Decano</persName>
+          <roleName>presbytero</roleName> de <placeName ref="#Isola2">Ysola</placeName>, <persName
+            ref="#Guidofrater">Guidone</persName> germano dicti domini episcopi, <persName
+            ref="#GuidoUbaldi">Guidone quondam Ubaldi Parentis</persName>, <persName
+            ref="#ArmanninusTrebiano">Armannino de <placeName ref="#Trebiano"
+            >Trebiano</placeName></persName>, <persName ref="#BaldicioBarbaçano">Baldicione de
+              <placeName ref="#Barbazzano">Barbaçano</placeName></persName> et aliis pluribus
+          testibus, ad hec vocatis.</p>
+
+        <p xml:id="CCCCXL_p_003" n="3">
+          <date when="1230-04-30"><note>Conferma della donazione del castello e curia di
+              Isola</note>Postea, die martis, pridie kalendas madii, eodem anno et eodem millesimo
+            et eadem indictione</date>, apud <placeName ref="#Isola2">Ysolam</placeName>, ante
+            <orgName ref="#Isola_S_Vittore">ecclesiam Sancti Victoris</orgName>, coram me <persName
+            ref="#GeorgiusMediolombardus" next="nn2" xml:id="nn1">Georgio</persName>, <persName
+            ref="#GeorgiusMediolombardus" prev="nn1" xml:id="nn2">dicto Mediolombardo</persName>, et
+          testibus subscriptis, <persName ref="#RecoinusValentiniYsole">Recontus</persName><note
+            xml:id="CCCCXL_n_003" n="c" place="foot">
+            <term xml:lang="latin"> Recontus</term>: <emph>così nel testo per
+            </emph>Recoinus.</note> et <persName ref="#MarchesellusValentiniYsole">Marchesellus
+            quondam Valentini</persName> et <persName ref="#GuilielminusVicecomitis"
+            >Guilielminus</persName>, <persName ref="#GerardinusVicecomitis">Gerardinus</persName>
+          et <persName ref="#PhilippusVicecomitis">Philippus quondam Vicecomitis</persName>,
+            <persName ref="#AlbertinusAlbertisYsole">Albertinus quondam Albertis</persName>,
+            <persName ref="#HenriginusCalcinellusYsole">Henriginus Calcinellus</persName>, <persName
+            ref="#TalaferrusYsole">Talaferrus</persName>, <persName ref="#TruliusYsole"
+            >Trulius</persName> consenserunt omnibus et singulis suprascriptis et confirmaverunt et
+          emologaverunt et approbaverunt omnia et singula suprascripta, et cum suis consortibus
+          suprascriptis et inter se suprascripto modo et forma et ordine sibi ad invicem promiserunt
+          et ordinaverunt et statuerunt et sub eisdem pactis et promissionibus et obligationibus et
+          penis, et suprascripto domino episcopo, pro se suisque successoribus et suo episcopio, se
+          suosque heredes et proheredes et successores submiserunt et supposuerunt. Et donaverunt et
+          dederunt et concesserunt et fecerunt pro se suisque heredibus et proheredibus et
+          successoribus, sub eisdem obligationibus et penis, omnia que de aliis eorum consortibus
+          dicta sunt et sicut superius continetur. Et suprascripto modo et ordine ad sancta Dei
+          evangelia iuraverunt <persName ref="#Philippuscons">Philippus</persName> et <persName
+            ref="#Fontanelluscons">Fontanellus</persName>
+          <roleName>consules</roleName>, <persName ref="#Segnorinus">Segnorinus</persName> et
+            <persName ref="#Vinciguerra">Vinciguerra</persName>, <persName ref="#Aldeprandetus"
+            >Aldebrandettus</persName>, <persName ref="#Francichinus">Francichinus</persName>,
+            <persName ref="#Armannetus">Armannetus</persName>, <persName ref="#Bonionus"
+            >Bonionus</persName>, <persName ref="#Fuscus">Fuscus</persName>, <persName ref="#Galdus"
+            >Galdus</persName>, <persName ref="#Morignolus">Morignolus</persName>, <persName
+            ref="#Albertus">Albertus</persName>, <persName ref="#Comes">Comes</persName>, <persName
+            ref="#Bonadonus">Bonadonus</persName>, <persName ref="#Vitalis">Vitalis</persName>,
+            <persName ref="#Bonensegna">Bonensegna</persName>, <persName ref="#Durans"
+            >Durans</persName>, <persName ref="#Benatus">Benatus</persName>, <persName
+            ref="#Fredericus">Fredericus</persName>, <persName ref="#Rainaldus"
+          >Rainaldus</persName>, <persName ref="#Attonus">Attonus</persName>, <persName
+            ref="#Ubertinus">Ubertinus</persName>, <persName ref="#Ferretus">Ferretus</persName>,
+            <persName ref="#Senescalcus">Senescalcus</persName>, <persName ref="#Mercatus"
+            >Mercatus</persName>, <persName ref="#Ysoletus">Ysoletus</persName>, <persName
+            ref="#Rustiginus">Rustiginus</persName>, <persName ref="#Guilielminus"
+            >Guilielminus</persName>, <persName ref="#Mercadantus">Mercadans</persName>, <persName
+            ref="#Guidolinus">Guidolinus</persName>, <persName ref="#Paganetus"
+          >Paganetus</persName>, <persName ref="#Vernacius">Vernacius</persName>, <persName
+            ref="#Guilielminus">Guilielminus</persName>, <persName ref="#Armanninus"
+            >Armanninus</persName>, <persName ref="#Iuncta">Iuncta</persName>, <persName
+            ref="#Duratus">Duratus</persName>, <persName ref="#Valens">Valens</persName>, <persName
+            ref="#Compagnonus">Compagnonus</persName>, <persName ref="#Bonfancellus"
+            >Bonfancellus</persName>, <persName ref="#Lambertus">Lambertus</persName>, <pb n="345v"
+            xml:id="fol_345v"/>
+          <persName ref="#Stephanus">Stephanus</persName>, <persName ref="#Benvenutus"
+            >Benvenutus</persName>, <persName ref="#Bonusmelior">Bonusmelior</persName>, <persName
+            ref="#Guilielminus">Guilielminus</persName>, <persName ref="#Nicholaus"
+            >Nicholaus</persName>, <persName ref="#Michael">Michael</persName>, <persName
+            ref="#Bonusiohannes">Bonusiohannes</persName>, <persName ref="#Montanarius"
+            >Montanarius</persName>, <persName ref="#GuilielmusBenadii">Guilielmus
+            Benadii</persName>, <persName ref="#Bonavita">Bonavita</persName>, <persName
+            ref="#Ricobonus">Ricobonus</persName>, <persName ref="#Guilielminus"
+            >Guilielminus</persName>, <persName ref="#Albertus">Albertus</persName>, <persName
+            ref="#Compagnonus">Compagnonus</persName>, <persName ref="#AlbertetusBenadii">Albertetus
+            Benadii</persName>, <persName ref="#Aldoinus">Alduinus</persName>, <persName
+            ref="#Pipinus">Pipinus</persName>, <persName ref="#Benvenutus">Benvenutus</persName>,
+            <persName ref="#Mercadantus">Mercadans</persName>, <persName ref="#Iunctarellus"
+            >Iunctarellus</persName>, <persName ref="#Nicholaus">Nicholaus</persName>
+          <persName ref="#Martinus">Martinus</persName>, <persName ref="#Segnorinus"
+            >Segnorinus</persName>, <persName ref="#Richelmus">Richelmus</persName>, <persName
+            ref="#Rubaldinus">Rubaldinus</persName>, <persName ref="#Torexanus"
+          >Torexanus</persName>, <persName ref="#Iunctarellus">Iunctarellus</persName>, <persName
+            ref="#Adornetus">Adornetus</persName>, <persName ref="#Guidarellus"
+            >Guidarellus</persName>, <persName ref="#Guilicionus">Guilicionus</persName>, <persName
+            ref="#Benvenutus">Benvenutus</persName>, <persName ref="#Nicholaus"
+          >Nicholaus</persName>. Isti homines suprascripti pro comunitate tocius populi <placeName
+            ref="#Isola2">Ysole</placeName> laudaverunt, approbaverunt et consenserunt omnibus et
+          singulis suprascriptis et ad sancta Dei evangelia iuraverunt, sicut suprascripti domini,
+          ad voluntatem dicti domini episcopi et suorum successorum et sui episcopii. </p>
+        <p xml:id="CCCCXL_p_004" n="4"> Actum apud <placeName ref="#Isola2">Ysolam</placeName>, ante
+            <orgName ref="#Isola_S_Vittore">ecclesiam Sancti Victoris</orgName>, presentibus
+            <roleName>donno</roleName>
+          <persName ref="#Decanuspres">Decano</persName>
+          <roleName>presbitero</roleName> et rectore eiusdem ecclesie, <persName
+            ref="#IohanninusPixalaqua">Iohannino dicto Pixalaqua</persName>, <persName
+            ref="#OliveriusPlaço">Oliverio de <placeName ref="#Plaço">Plaço</placeName></persName>,
+          testibus ad hec rogatis. </p>
+      </div>
+
+      <div xml:id="CCCCXL_div2">
+        <p xml:id="CCCCXL_p_005" n="5"><ptr target="#CCCCXL_st_001"/>Ego <persName
+            ref="#Georgiusnot">Georgius</persName>, <roleName>sacri palacii notarius</roleName>,
+          suprascriptis omnibus interfui et de mandato et voluntate dicti domini episcopi et omnium
+          suprascriptorum hanc cartam scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

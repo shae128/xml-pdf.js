@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXXI_283">
+    <front xml:id="CCCXXI_front">
+
+      <titlePart type="numerazioneNuova">283</titlePart>
+      <titlePart type="numerazioneOrig">CCCXXI</titlePart>
+
+      <docDate xml:id="CCCXXI_docDate">
+        <date when="1252-02-11">1252 febbraio 11</date>, <placeName>Carrara (<emph>Carrarie, in domo
+            Guilielmi quondam Guidonis Pisani de la Plebe</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXXI_regesto">
+        <p>Plebano e Rollando del fu Ugolino di Vezzala confermano a Vicino del fu Agostino di
+          Castelpoggio l’affitto di tutta la tenuta che egli già occupava al censo annuale di 4
+          sestari di frumento.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXXI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 293v., c. CCLXXXVv. secondo la numerazione originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 321, pp.
+            309-310. </p>
+        </div>
+
+        <div type="crit_notes">
+          <note> </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCXXI.
+              Stariorum IIII frumenti ficti, quod reddit Vicinus Acustini Capaci per homagium et
+              resedium. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXXI_div">
+        <pb n="293v" xml:id="fol_293v"/>
+        <p xml:id="CCCXXI_p_001" n="1">In nomine Domini, amen. <date when="1252-02-11">Anno a
+            nativitate Eius millesimo CCLII, indictione X, die dominico, XI mensis februarii</date>.
+          Nos <persName ref="#PlebanusUgolini">Plebanus</persName> et <persName
+            ref="#RollandusUgolini">Rollandus</persName>, germani, quondam Ugolini de <placeName
+            ref="#Veçale">Veçale</placeName> affictamus te <persName ref="#VicinusAgustini">Vicinum
+            quondam Agustini de <placeName ref="#Casapoci">Casapoci</placeName></persName>,
+          remittendo et condonando tibi, recipienti pro te tuisque heredibus, coltam, maltoltum,
+          pensionem et omnes redditus et condictiones et villanatica servicia, retento homagio et
+          resedio, totamque tenutam, quam a nobis tenes, et totum et quicquid a nobis tenes et habes
+          et possides tibi ad affictum reddendum reconfirmamus, recipienti pro te tuisque heredibus,
+          ita ut amodo perpetuo tu tuique heredes habeatis, teneatis, fruamini et possideatis,
+          meliorando et non peiorando, totam ipsam tenutam et totum et quicquid a nobis tenes,
+          ubicumque sit et poterit reperiri, cum omnibus suis pertinenciis in integrum, sine
+          alicuius aliqua contradictione et cum nostra nostrorumque heredum rationabili deffensione
+          ab omni persona contradicente, dando et reddendo inde nobis nostrisque heredibus aut cui
+          commiserimus, omni anno, in mense augusti, certum affictum stariorum IIIIor de bono
+          frumento, mundo et sicco et gritulato, ad starium commune de <placeName ref="#Carrara"
+            >Carraria</placeName> mensurato, datum et tractum ad domum nostram in <placeName
+            ref="#Carrara">Carraria</placeName>, ubicumque habitaverimus, tantum; alia superimposita
+          non fiat.</p>
+        <p xml:id="CCCXXI_p_002" n="2">Preterea constituimus nos tecum ut, <supplied
+            reason="omitted">si</supplied>; quicumque nostrum vel nostrorum heredum hec omnia
+          predicta, que leguntur superius, non iure tenuerit et observaverit, alteri parti, fidem
+          servanti, penam <measure type="imperiales" unit="solidus" quantity="40">XL soldorum
+            imperialium</measure> solvat, rato manente pacto pena soluta. Actum <placeName
+            ref="#Carrara">Carrarie</placeName>, in domo <persName ref="#GuilielmusGuidonis"
+            >Guilielmi quondam Guidonis Pisani de <placeName ref="#Plebe">la
+            Plebe</placeName></persName>, presentibus <persName ref="#OctonellusNoceto">Octonello de
+              <placeName ref="#Noceto">Noceto</placeName></persName>, <persName ref="#DamianusCamua"
+            >Damiano de <placeName ref="#Canina">Canina</placeName></persName> et <persName
+            ref="FortinusTorano">Fortino de <placeName ref="#Torano">Torano</placeName></persName>,
+          testibus ad hec r<supplied reason="omitted">o</supplied>gatis. </p>
+        <p xml:id="CCCXXI_p_003" n="3"><ptr target="#CCCXXI_st_001"/> Ego <persName
+            ref="#Guilielmusnot">Guilielmus, <roleName>notarius sacri palacii</roleName></persName>,
+          hiis omnibus interfui et rogatus scripsi et due cartule uno tenore facte sunt. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

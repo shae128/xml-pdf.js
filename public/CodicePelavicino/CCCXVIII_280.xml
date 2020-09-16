@@ -1,0 +1,158 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXVIII_280">
+    <front xml:id="CCCXVIII_front">
+
+      <titlePart type="numerazioneNuova">280</titlePart>
+      <titlePart type="numerazioneOrig">CCCXVIII</titlePart>
+
+      <docDate xml:id="CCCXVIII_docDate">
+        <date when="1271-06-10">1271 giugno 10</date>, <placeName>&lt;Sarzanello&gt; (<emph>sub
+            porticu domus domini episcopi, ubi per curiam vicarii iura redduntur</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXVIII_regesto">
+        <p>Il notaio Nicolò di Macone, agente al posto del vicario e giudice della provincia di
+          Lunigiana, dietro richiesta di Tagliavacca, sindaco del vescovo di Luni Guglielmo, chiede
+          a Bonaccorso e a Ferro di Carrara di presentarsi in giudizio. Non presentandosi costoro
+          entro i termini indicati, emette sentenza riguardo alla proprietà di alcuni pezzi di terra
+          che Tagliavacca sosteneva appartenessero al vescovo. In particolare Nicolò stabilisce che
+          le terre tornino in piena proprietà del vescovo a meno che Ferro e Bonaccurso non paghino
+          entro un anno le spese relative al procedimento giudiziario.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 292v., c. CCLXXXIIIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 31, pp. 307 -
+            308.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <term xml:lang="latin">Carraria</term>. Il
+            documento ha una data topica priva di toponimo, tuttavia altri documenti, ad esempio il
+            n. 70 (XLIII) e il n. 152 (CXXXV) consentono di ipotizzare la localizzazione nel <term
+              xml:lang="latin">castrum Sarzane</term>.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCXVIII. Tenute contra Bonacursum et Ferrum de Gragnana.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXVIII_div">
+        <p xml:id="CCCXVIII_p_001" n="1">In Christi nomine, amen. Cum ego <persName
+          ref="#NicholausMaconisnot">Nicholaus Maconis</persName> <roleName>notarius</roleName>,
+          <roleName>locum tenens absentis vicarii et iudicis <orgName ref="#Lunigiana_provincia">provincie
+            Lunisiane</orgName></roleName>, ad petitionem <persName ref="#IacopinusTalliavachanot"
+            >Talliavache, <roleName>syndici</roleName> et <roleName>actoris</roleName></persName>
+          venerabilis patris domini <persName ref="#GuilEpLuni">Guilielmi, <roleName>Lunensis
+              episcopi</roleName></persName>, pro ipso domino episcopo et episcopatu syndicatus et
+          actorio nomine, citari et requiri fecerim per <persName ref="#Iuxtamonscorr">Iustamontem,
+              <roleName>publicum correrium</roleName> <orgName ref="#Lunigiana_vicaria">vicarie predicte</orgName> et
+              <roleName>nuncium</roleName></persName>, <persName ref="#BonacursusCarrara"
+            >Bonacursum</persName> et <persName ref="#FerrusCarrara">Ferrum de <placeName
+              ref="#Carrara">Carraria</placeName></persName> ut certo termino et die, iam elapso,
+          venirent ad curiam rationem facturi dicto syndico de hiis <supplied reason="omitted"
+            >et</supplied> pro hiis que ab eis, syndicatus nomine et actorio pro dicto domino
+          episcopo et episcopatu, petere intendebat, dicti <persName ref="#BonacursusCarrara"
+            >Bonacursus</persName> et <persName ref="#FerrusCarrara">Ferrus</persName> non venerunt
+          ante terminum nec in termino vel post dicto quidem syndico et actore ante terminum et in
+          termino et post legitime comparente et petente procedi contra predictos <persName
+            ref="#FerrusCarrara">Ferrum</persName> et <persName ref="#BonacursusCarrara"
+              >Bonacursum<note xml:id="CCCXVIII_n_001" n="a" place="foot"><term xml:lang="latin"
+                >Bonacursum</term>: B <emph>corretto su precedente
+            scrittura</emph>.</note></persName> et sibi dari sententiam et tenutam et possessionem
+          de quibusdam et super quibusdam petiis terrarum quas ab eis et quolibet eorum petere
+          intendebat, quas iamscripti <persName ref="#BonacursusCarrara">Bonacursus</persName> et
+            <persName ref="#FerrusCarrara">Ferrus</persName> possidebant, quarum uni sunt <supplied
+            reason="omitted">confines terra</supplied>
+          <persName ref="#AndruciusPoppio">Andrucii de <placeName ref="#Poppio"
+            >Poppio</placeName></persName> sive <persName ref="#GuilielmusBianca">Guilielmi de
+              <placeName ref="#Bianca">Bianca</placeName></persName>, ab alio <persName
+            ref="#IacopinusAra">Iacopinus de <placeName ref="#Ara">Ara</placeName></persName>,
+          desubter <persName ref="#ArmanninusPlebe">Armanninus de <placeName ref="#Plebe"
+              >Plebe</placeName></persName>, desuper <persName ref="#GuidetusYmilia">Guidetus
+            Ymilia</persName>, et ipsam terram detinent heredes <persName ref="#MartinusAra">Martini
+            de <placeName ref="#Ara">Ara</placeName></persName>; alteri, que videtur esse due
+          petiole vinearum, coherent toti ab utraque parte ipsi <persName ref="#MartinusAra">Martini
+            heredes de <placeName ref="#Ara">Ara</placeName></persName> et ipsas vineas emerunt et
+          detinent, et si qui alii sunt confines et coherentie. Quas terrarum petias dictus syndicus
+          et actor dicto nomine a predictis <persName ref="#FerrusCarrara">Ferro</persName> et
+            <persName ref="#BonacursusCarrara">Bonacurso</persName> petebat et petere intendebat
+          dicendo eas ad dictum dominum episcopum et episcopatum redire debere et pertinere iure
+          dominii vel quasi. Unde ego <persName ref="#NicholausMaconisnot">Nicholaus</persName>
+          iamscriptus, locum vicarii et iudicis iamscriptorum extra <orgName ref="#Lunigiana_vicaria">vicariam</orgName> absentium tenens, visa
+          citatione et requisitione predicta, in presentatione<note xml:id="CCCXVIII_n_002" n="b"
+            place="foot"><term type="incerto">presentatione</term>: <emph>così nel
+            testo</emph>.</note> dicti syndici et actoris sive procuratoris predictorum <persName
+            ref="#BonacursusCarrara">Bonacursi</persName> et <persName ref="#FerrusCarrara"
+            >Ferri</persName> et habitis<note xml:id="CCCXVIII_n_003" n="c" place="foot"><term
+              xml:lang="latin">habitis</term>: h <emph>corretto su precedente
+            scrittura</emph>.</note> eis pro contumacibus, pronuncio dictum syndicum et actorem sive
+          procuratorem dicti domini episcopi, syndicatus et actorio et procuratorio nomine pro ipso
+          domino episcopo, et ipsum dominum episcopum vel eius castaldionem vel alium syndicum vel
+          procuratorem vel alium eius nuncium, eius loco pro eo, esse mittendum et eum mitto et
+          mitti iubeo in tenutam et possessionem predictarum terrarum, ita quod ut, si iamscripti
+            <persName ref="#FerrusCarrara">Ferrus</persName> et <persName ref="#BonacursusCarrara"
+            >Bonacursus</persName> venerint ad curiam infra annum proximum et expensas infrascriptas
+          ea occasione factas restitueri<supplied reason="omitted">n</supplied>t dicto syndico et
+          actori pro dicto domino episcopo, audia<supplied reason="omitted">n</supplied>tur et
+            rehabea<supplied reason="omitted">n</supplied>t tenutam et possessionem predictarum
+          terrarum ut habeba<supplied reason="omitted">n</supplied>t ante hanc sententiam sive
+          pronunciationem; alioquin, ab inde ultra, sit et efficiatur dictus syndicus et actor pro
+          dicto domino episcopo et ipse dominus episcopus et episcopatus verus possessor predictarum
+          terrarum. Expense autem predicta occasione facte a dicto syndico pro dicto domino episcopo
+          sunt iste, videlicet: pro correrio, qui fecit citationem et relationem, <measure
+            unit="Imperiales" quantity="4" type="denari">denarii IIII Ianuensium</measure>; pro
+          nuncio, qui dabit tenutam, <measure unit="Ianuenses" quantity="16" type="denari">denarii
+              XVI<note xml:id="CCCXVIII_n_004" n="d" place="foot"><term xml:lang="latin">XVI</term>:
+              VI <emph>corretto su precedente scrittura</emph>.</note> Ianuensium</measure>; pro
+          scriptura sive carta, que fiet de relatione missionis in tenutam, <measure
+            unit="Ianuenses" quantity="6" type="denari">denarii VI Ianuensium</measure>. Et precipio
+          et ordino quod <persName ref="#Iuxtamonscorr">Iustamonte</persName> vel <persName
+            ref="#Cavallinuscorr">Cavallimus<note xml:id="CCCXVIII_n_005" n="e" place="foot"><term
+                xml:lang="latin">Cavallimus</term>: <emph>così nel testo per</emph>
+              <term xml:lang="latin">Cavallinus</term>.</note></persName> vel alter
+            <roleName>correrius</roleName> dictum syndicum et actorem pro ipso domino episcopo vel
+          alium eius syndicum vel castaldionem pro eo, mea auctoritate atque decreto, eundem de
+          predictis in corporalem possessionem inducat, secundum predictum modum. Lata et lecta fuit
+          hec sententia sive pronunciacio <placeName ref="#Sarzanello">sub porticu domus domini
+            episcopi, ubi per curiam vicarii iura redduntur</placeName>, presentibus domino
+            <persName ref="#Rubeusiud">Rubeo</persName> et <persName ref="#Opizusiud"
+            >Opizo</persName>, <roleName>iudicibus</roleName>, et <persName ref="#TiniosusParenti"
+            >Tignoso Parentis de <placeName ref="#Sarzanello">castro Sarzane</placeName></persName>,
+            <persName ref="#FuscusGuidi">Fusco Guidi</persName>, <date when="1271-06-10">anno Domini
+            M°CCLXX primo, indictione XIIII, decimo iunii</date>.</p>
+        <p xml:id="CCCXVIII_p_002" n="2"><ptr target="#CCCXVIII_st_001"/>
+          <persName ref="#AlcheriusPagani">Alcherius Pagani, <roleName>imperialis aule
+              iudex</roleName> et <roleName>notarius</roleName></persName>, iamscripta omnia, ut in
+          actis curie iamscripte <orgName ref="#Lunigiana_vicaria">vicarie</orgName> inveni, hic fideliter scribens, ea meis signo et nomine
+          publicavi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="CCCCXXIII_384">
+    <front xml:id="CCCCXXIII_front">
+
+      <titlePart type="numerazioneNuova">384</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXXIII</titlePart>
+
+      <docDate xml:id="CCCCXXIII_docDate">
+        <date when="1257-04-06">1257 aprile 6</date>, <placeName>Santo Stefano Magra (<emph>in burgo
+            Sancti Stephani, iuxta domum Gerardi de Vindemia</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXXIII_regesto">
+        <p>Benvenuto del fu Vivasino Guasco di <emph>Cafaggiolo</emph>, del distretto di Bolano,
+          cede a Paganino, notaio di Santo Stefano, castaldo del vescovo di Luni Guglielmo, al
+          prezzo di 27 soldi di imperiali, un pezzo di terra posta in <emph>Cafaggiolo</emph>.
+          Benvenuto, che teneva tale terra in feudo dalla curia di Luni, la ottiene ora in affitto
+          al censo annuale di due parti di staio di frumento.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXXIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 335r., c. CCCXXVIIr. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 423,
+            p. 414</p>
+        </div>
+
+        <div type="crit_notes">
+          <p/>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCCXXIII. Duarum partium unius starii frumenti a Benvenuto Vivasini.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXXIII_div">
+        <pb n="335r" xml:id="fol_335r"/>
+        <p xml:id="CCCCXXIII_p_001">In Dei nomine, amen. <date when="1257-04-06">Anno a nativitate
+            Eius M°CCLVII, indictione XV, VI aprilis.</date>
+          <persName ref="#BenvenutusVivasini">Benvenutus quondam Vivasini Guaschi de <placeName
+              ref="#Cafaçolo">Cafaçolo</placeName></persName>, districtus <placeName ref="#Bolano"
+            >Bolani</placeName>, per se suosque heredes fecit finem et refutationem <persName
+            ref="Paganinusnot">Paganino <roleName>notario de <placeName ref="#Santo_Stefano">Sancto
+                Stephano</placeName></roleName>, <roleName>castaldioni</roleName></persName>
+          venerabilis patris domini <persName ref="#GuilEpLuni">Guilielmi, <roleName>Dei gratia
+              Lunensis episcopi</roleName></persName>, recipienti nomine et vice predicti domini
+          episcopi et episcopatus, de I petia terre, cum omnibus super positis et pertinenciis suis,
+          sita in districtu <placeName ref="#Bolano">Bolani</placeName>, in loco <placeName
+            ref="#Cafaçolo">Cafaçolo</placeName>, cui coheret inferius et ab uno latere via publica,
+          superius terra vineata dicti <persName ref="#BenvenutusVivasini">Benvenuti</persName>, ab
+          alio latere <persName ref="#TiniosusFontanella">Tiniosus de <placeName ref="#Fontanella"
+              >Fontanella</placeName></persName>, quam terram a Lunensi curia tenebat. Quam finem et
+          refutationem promisit dictus <persName ref="#BenvenutusVivasini">Benvenutus</persName> per
+          se suosque heredes dicto <persName ref="#Paganinusnot">Paganino</persName>, recipienti ut
+          dictum est, perpetuo firmam et ratam habere et tenere et numquam in aliquo contra facere
+          vel venire, de iure vel de facto, et ipsam deffendere ab omni contradicente persona,
+          specialiter de suo dato et facto, sub obligatione bonorum et heredum suorum, sub pena
+            <measure type="imperiales" unit="solidus" quantity="40">XL soldorum
+            imperialium</measure>, quam dare et solvere promisit dicto <persName ref="#Paganinusnot"
+            >Paganino</persName>, recipienti ut dictum est, si contra predicta venerit vel non
+          observaverit et quociens fuerit contraventum, confitendo se recepisse ab ipso <persName
+            ref="Paganinusnot">Paganino</persName>, dante nomine predicti domini episcopi et
+          episcopatus, <measure type="imperiales" unit="solidus" quantity="27">soldos XXVII bonorum
+            imperialium</measure> pro melioramento suprascripte terre, renunciando exceptioni non
+          numerate pecunie. Ibidem incontinenti suprascriptus <persName ref="#Paganinusnot"
+            >Paganinus</persName>, nomine et vice predicti domini episcopi et episcopatus, dedit et
+          locavit ei suprascriptam terram, cum omnibus super se positis et pertinenciis suis, ita ut
+          ipse <persName ref="#BenvenutusVivasini">Benvenutus</persName> suique heredes, ex se
+          descendentes, habeant, teneant et fruantur suprascriptam terram, cum omnibus super se
+          positis et pertinenciis suis, dando et reddendo exinde annuatim curie Lunensi, in curia de
+            <placeName ref="#Bolano">Bolano</placeName>, ubi alii redditus episcopales dantur et
+          consignantur, per totum mensem augusti, duas partes unius starii frumenti, nomine ficti,
+          boni, mundi et sicci, ad currens starium communis <placeName ref="#Bolano"
+            >Bolani</placeName>, promittendo dictus <persName ref="#Paganinusnot"
+            >Paganinus</persName>, nomine predicti domini episcopi et episcopatus, dictam locationem
+          perpetuo firmam habere et tenere et non contra venire. Et pro predictis omnibus sic
+          attendendis et observandis obligaverunt se, predictus <persName ref="#Paganinusnot"
+            >Paganinus</persName> bona episcopatus et dictus <persName ref="#BenvenutusVivasini"
+            >Benvenutus</persName> se suosque heredes et omnia sua bona, ad penam <measure
+            type="imperiales" unit="solidus" quantity="40">soldorum XL imperialium</measure>, quam
+          pars que contra predicta venerit parti fidem servanti dare et solvere teneatur quociens in
+          eam inciderit; et, ea soluta, predicta omnia nichillominus suo robore perseverent. Et
+          nichillominus idem <persName ref="#BenvenutusVivasini">Benvenutus</persName> teneatur ex
+          ipsa terra Lunensi curie respondere sicut in omnibus ante presentem contractum facere et
+          respondere tenebatur.</p>
+        <p xml:id="CCCCXXIII_p_002">Actum in burgo <placeName ref="Santo_Stefano">Sancti
+            Stephani</placeName>, iuxta domum <persName ref="#GerardusVindemia">Gerardi de
+              <placeName ref="#Vindemia">Vindemia</placeName></persName>, presentibus <persName
+            ref="#AndrionusFalcinelli">Andriono quondam Falcinelli</persName>, <persName
+            ref="#ThomasiusBonapartis">Thomasio quondam Bonapartis</persName> et <persName
+            ref="#GualteriusPipioni">Gualterio q<supplied reason="omitted">u</supplied>ondam
+            Pipioni</persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCCCXXIII_p_003"><ptr target="#CCCCXXIII_st_001"/><persName ref="#Benedictusnot"
+            >Ego Benedictus, <roleName>imperialis aule notarius</roleName></persName>, hiis interfui
+          et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

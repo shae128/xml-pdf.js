@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXXX_292">
+    <front xml:id="CCCXXX_front">
+
+      <titlePart type="numerazioneNuova">292</titlePart>
+      <titlePart type="numerazioneOrig">CCCXXX</titlePart>
+
+      <docDate xml:id="CCCXXX_docDate">
+        <date when="1233-04-06">1233 aprile 6</date>, <placeName>&lt;presso Carrara&gt; (<term
+            xml:lang="latin">in Ortomorano, in loco dicto Flumeneço</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXXX_regesto">
+        <p>Bonacorso de Ficola loca a livello perpetuo a Guglielmo del fu Ramondino e a Fortino di
+          Torano, consoli di Carrara, che ricevono a nome del comune, un pezzo di terra sita in
+            <term xml:lang="latin">Ortomorano</term>, nel luogo detto <term xml:lang="latin"
+            >Flumeneço</term>, attraverso cui scorre l’acqua che va al mulino del comune di Carrara
+          posto presso il ponte di Cimatico. Il fitto annuale è di un denaro minuto di Parma. La
+          transazione costa 17 denari di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXXX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 298v., c. CCLXXXXv. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 330,
+            p. 320-321.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <term xml:lang="latin"> Aquisitio
+            terre</term>. Poco più sotto, di altra mano moderna e in inchiostro più chiaro: <term
+              xml:lang="latin">Carraria</term>
+          </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCXXX.
+              De quadam terra aquisita pro molendino comunis Cararie.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXXX_div">
+        <p xml:id="CCCXXX_p_001" n="1">In nomine Domini, amen. <date when="1233-04-06">Anno a
+            nativitate Eius millesimo CCXXXIII, indictione VI, die mercurii, VI die intrantis mensis
+            aprilis</date>. Ego <persName ref="#BonacursusFicola"> Bonacursus de Ficola</persName>
+          do et loco per libellum in perpetuum vobis <persName ref="#GuililemusRamundini">Guilielmo
+            quondam Ramundini</persName> et <persName ref="#FortinusTorano">Fortino de <placeName
+              ref="#Torano"> Torano</placeName></persName>, <roleName>consules</roleName><note
+            place="foot" n="a" xml:id="CCCXXX_n_001">consules: <emph>così nel testo per</emph>
+            consulibus </note>
+          <orgName ref="#Carrara_comune">communis</orgName>
+          <placeName ref="#Carrara">Carrarie</placeName>, recipientibus vice et nomine pro communi
+          de <placeName ref="#Carrara">Carraria</placeName>, petiolam I terre sitam in <placeName
+            ref="#Ortomorano">Ortomorano</placeName>, in loco dicto <placeName ref="#Flumeneço">
+            Flumeneço</placeName>, per quam<note place="foot" n="b" xml:id="CCCXXX_N_002"><term
+              xml:lang="latin">quam</term>: <emph>nel manoscritto</emph>
+            <term xml:lang="latin">aquam</term>
+            <emph>con la prima</emph>
+            <term xml:lang="latin">a</term>
+            <emph>depennata</emph>. </note> vadit seu currit aqua ad molendinum communis de
+            <placeName ref="#Carrara">Carraria</placeName>, post<note place="foot" n="c"
+            xml:id="CCCXXX_n_003"><term xml:lang="latin">post</term>: <emph>così nel testo
+              per</emph>
+            <term xml:lang="latin">quod</term>
+            <emph>(cfr. docc. 293 (CCCXXXI), 294 (CCCXXXII) 295 (CCCXXXIII)</emph>.</note> factum et
+          hedificatum per dictum commune de <placeName ref="#Carrara">Carraria</placeName>, situm
+          apud pontem de Cimatico, sicut est facta et hedificata levata per dictam terram, cui terre
+          coheret desuper terra mea et desubter ab uno latere, ita ut amodo perpetuo nomine libelli
+          vos vestrique successores, recipientes pro dicto communi, ut dictum est, habeatis,
+          teneatis, fruamini et possideatis totam dictam terram, sicut est hedificata dicta levata,
+          cum accessibus et regressibus suis et omnibus suis pertinenciis, in integrum, sine
+          alicuius aliqua contradictione et cui datum vel commissum fuerit dictum molendinum per
+          dictum commune de <placeName ref="#Carrara">Carraria</placeName>. Et si forte quod per
+          aliquod tempus advenerit vel acciderit quod dicta levata dirueret vel se destrueret et
+          vellet se aliter aptare ad utilitatem molendini predicti et commune<note place="foot"
+            n="d" xml:id="CCCXXX_n_004"><term xml:lang="latin">commune</term>: <emph> nel
+              manoscritto</emph>
+            <term xml:lang="latin">coie</term>, <emph>con segno generico di abbreviazione</emph>,
+              <term xml:lang="latin">i</term>
+            <emph>espunto e</emph>
+            <term xml:lang="latin">e</term>
+            <emph>corretta su</emph>
+            <term xml:lang="latin">s</term></note>
+          <placeName ref="#Carrara">Carrarie</placeName> vel aliquis alius, qui vel que pro communi
+            <placeName ref="#Carrara">Carrarie</placeName> haberet vel custodiret, licitum sit ei
+          vel eis<note place="foot" n="e" xml:id="CCCXXX_n_005"><term xml:lang="latin">Et si
+              forte-ei vel eis</term>: <emph>così nel testo (cfr. docc. 293 (CCCXXXI), 294
+              (CCCXXXII)</emph>.</note> per dictam terram ipsam levatam reaptare et hedificare,
+          ascendendo et descendendo per dictam terram ad eorum arbitrium et voluntatem semper in
+          perpetuum, sine alicuius aliqua contradictione et cum mea meorumque heredum rationabili
+          deffensione ab omni persona et loco vel restauratione facienda supra mea bona ad hoc
+          obligata in consimili loco, in arbitrio bonorum hominum, prout tunc valuerit, si
+          rationabiliter deffendere non possent. Et vos predicti consules pro dicto communi
+          promittitis mihi, recipienti pro <supplied reason="omitted">me</supplied> meisque
+          heredibus, dare et solvere mihi meisque heredibus omni anno, infra octavam nativitatis
+          Domini, fictam pensionem <measure type="Parmensis" unit="denarius" quantity="1">denarii I
+            Parmensium</measure> minutorum tantum; alia superimposita non fiat. Et si pensio
+          predicta teneretur per triennium vel per plures annos, non amittatur possessio propter
+          hoc, set pensio predicta semper emendetur mihi meisque heredibus; unde do vobis, pro dicto
+          communi recipientibus, licenciam inde intrandi in tenutam vestra auctoritate. Et confiteor
+          me recepisse a vobis, dante<note place="foot" n="f" xml:id="CCCXXX_n_006">
+            <term xml:lang="latin">dante</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">dantibus</term></note> pro dicto communi, silicet pro
+          libellatico, <measure type="Imperiales" unit="denarius" quantity="17">denarios XVII
+            imperialium</measure> denariorum bonorum. Et constituo vobiscum ut quicumque nostrum vel
+          nostrorum heredum sive successorum pro dicto communi unquam dictam terram tollere aut
+          laxare vel contra id<note place="foot" n="g" xml:id="CCCXXX_n_007"><term xml:lang="latin"
+              >contra id</term>: <emph> corretto su precedente scrittura</emph>.</note> quod
+          superius legitur venire voluerit, alteri parti, fidem servanti, penam <measure
+            type="Imperiales" unit="solidus" quantity="20">XX soldorum imperialium</measure> solvat,
+          rato manente pacto, pena soluta vel non. </p>
+        <p xml:id="CCCXXX_p_002" n="2">Actum in <placeName ref="#Ortomorano">Ortomorano</placeName>,
+          in loco dicto <placeName ref="#Flumeneço">Flumeneço</placeName>, iuxta dictam levatam,
+          presentibus <persName ref="#IacopinusPadule">Iacopino de <placeName ref="#Padule"> la
+              Padule</placeName></persName> et <persName ref="#LeoTorano">Leone de <placeName
+              ref="#Torano">Torano</placeName></persName> et <persName ref="#ArduinusPetrognano"
+            >Arduino de <placeName ref="#Petrognano">Petrognano</placeName></persName>, testibus ad
+          hec rogatis.</p>
+        <p xml:id="CCCXXX_p_003" n="3"><ptr target="#CCCXXX_st_001"/>Ego <persName
+            ref="#Guilielmusnot">Guilielmus, <roleName>notarius sacri palacii </roleName>
+              quondam<note place="foot" n="h" xml:id="CCCXXX_n_008">
+              <term xml:lang="latin">quondam</term>: <emph>corretto su precedente scrittura
+                abrasa</emph>.</note> Guidonis Pisani</persName>, hiis omnibus interfui et rogatus
+          scripsi.</p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

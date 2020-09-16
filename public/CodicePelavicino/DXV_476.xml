@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXV_476">
+    <front xml:id="DXV_front">
+
+      <titlePart type="numerazioneNuova">476</titlePart>
+      <titlePart type="numerazioneOrig">DXV</titlePart>
+
+      <docDate xml:id="DXV_docDate">
+        <date from="1269-09-18" to="1269-12-31">1269 settembre 18 - dicembre 31</date>
+      </docDate>
+
+      <div type="regesto" xml:id="DXV_regesto">
+        <p>Alcuni testimoni, sentiti dal giudice nella provincia di Lunigiana Normannino dei
+          Bernarducci di Lucca, confermano i diritti della curia Lunense sul castello di
+          Marciaso.</p>
+      </div>
+
+      <div type="footer" xml:id="DXV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 382r.-384r., cc. CCCLXXIIIIr.-CCCLXXVIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 515,
+            pp. 551-558, con la data 1270.</p>
+          <p>Bibliografia: <ref target="#ZOPPI_2013">ZOPPI 2013</ref>, p. 23 e 38</p>
+
+        </div>
+
+        <div type="crit_notes">
+          <note><p>La data finale del documento deve essere corretta in 1269 perché l’atto è datato
+              secondo lo stile della natività: cfr. <ref target="#MAZZINI_1914">MAZZINI 1914</ref>,
+              p. 34. </p>
+            <p>Una mano posteriore ha sottolineato alcuni nomi di persone ed alcune frasi. Nel
+              margine esterno di c. 382r., di mano moderna, le seguenti annotazioni: <term
+                xml:lang="latin">Bernardutii de Lucca nobili et [ ] </term>; poco più sotto: <term
+                xml:lang="latin">Isti nobiles sunt Cattanei de Sarzana</term>; poco più sotto: <term
+                xml:lang="latin">Isti nobiles de Marciasio sunt Cattanei</term>; poco più sotto:
+                <term xml:lang="latin">De Cattaneis</term>. Nel margine esterno di c. 382v., sempre
+              della stessa mano: <term xml:lang="latin">Cattanei</term>; poco più sotto: <term
+                xml:lang="latin">De Marciasio silicet de Cattaneis</term>. Nel margine interno di c.
+              383r: <term xml:lang="latin">Cattanei</term>; poco più sotto: <term xml:lang="latin"
+                >Cattanei de Sarzana</term>. Nel margine esterno di c. 383r: <term xml:lang="latin"
+                >Cattanei</term>. Nel margine esterno di c. 383v: <term xml:lang="latin"
+                >Suprascripti domini de Cattaneis</term>.\ </p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXV_div">
+        <p xml:id="DXV_p_001" n="1">
+          <pb n="382r" xml:id="fol_382r"/>Testes venerabilis patris <roleName>domini</roleName>
+          <persName ref="#GuilEpLuni">Guilielmi</persName>, <roleName>Lunensis episcopi</roleName>,
+          seu <persName ref="#Bonacursusnot">Bonacursi</persName>
+          <roleName>notarii, eius syndici</roleName>, in causa quam habere seu haberi sperat cum
+          dominis, comite, nobilibus, consilio et <orgName ref="#Marciaso_comune">communi</orgName><note xml:id="DXV_n_001" n="a" place="foot"
+            >cum dominis, comite, nobilibus, consilio et communi: <emph>scritto su precedente
+              scrittura abrasa</emph>.</note> de <placeName ref="#Marciaso">Marziasio</placeName> et
+          hominibus, ad litem futuram, examinati et recepti per virum nobilem
+            <roleName>dominum</roleName>
+          <persName ref="#NormanninusBernanduccisiud">Normanninum de Bernarduciis de <placeName
+            ref="#Lucca">Luca</placeName></persName>, <roleName>iudicem</roleName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+              ref="#Lunigiana">Lunisiane</placeName></orgName>, examinati per eum tamquam per iudicem
+          ordinarium et locum vicarii tenentem pro dicto episcopo, cum testes ipsi sint senes et
+          valitudinarii, recepti et examinati ad perpetuam rei memoriam, ut inferius continetur.
+            <persName ref="#FortinusCursi">Fortinus, filius quondam Cursi de <placeName
+              ref="#Torano">Torano</placeName></persName>, testis iuratus, <date when="1269-07-18"
+            >die mercurii, XVIII septembris</date>, presente <persName ref="#Bonacursusnot"
+            >Bonacurso</persName>
+          <roleName>notario, syndico seu procuratore</roleName> venerabilis patris
+            <roleName>domini</roleName>
+          <persName ref="#GuilEpLuni">Guilielmi</persName>, <roleName>Lunensis episcopi</roleName>,
+          et episcopatus, et presente <persName ref="#BenadueMeliorati">Benadue quondam
+            Melioreti</persName>, qui dixit et asseruit se esse <roleName>syndicum et
+            nuncium</roleName> specialem communis et hominum de <placeName ref="#Marciaso"
+            >Marçiasio</placeName>; et postea, <date when="1269-09-23">die lune, XXIII mensis
+            septembris</date>, suprascriptus, diligenter interrogatus et examinatus per
+            <roleName>nobilem virum dominum</roleName>
+          <persName ref="#NormanninusBernanduccisiud">Normanninum de Bernarduciis</persName>, civem
+            <placeName ref="#Lucca">Lucanum</placeName>, <roleName>iudicem et locum vicarii tenentem
+            pro dicto episcopo</roleName>, dixit suo iuramento. Interrogatus si castrum <placeName
+            ref="#Marciaso">Marzasii</placeName> est in comitatu et de <orgName
+            ref="#Luni_comitatus">comitatu Lunensi</orgName>, dixit sic. Interrogatus si de hoc est
+          publica vox et fama in episcopatu Lunensi, dixit sic. Interrogatus qualiter scit, dixit
+          sic audivit publice dici et vidit. Item super secundo capitulo interrogatus si domini
+            <persName ref="#MarchesellusMarciasio">Marchesellus</persName>, <persName
+            ref="#SalvagiusMarciasio">Salvagius</persName> et <persName ref="#MasneriusMarciasio"
+            >Masnerius</persName>, <roleName>nobiles</roleName> de <placeName ref="#Marciaso"
+            >Marzasio</placeName>, recognoverunt <roleName>episcopum</roleName>
+          <persName ref="#NorandEpLuni">Orradinum</persName> in dominum, sicut fideles, dixit sic.
+          Interrogatus qualiter scit, dixit quod serviebant ei<note xml:id="DXV_n_002" n="b">ei:
+              <emph>nel manoscritto un’altra mano ha erroneamente aggiunto in sopralinea una
+              s</emph>.</note> in exercitibus et cavalcatis et in foveis et aliis serviciis et cum
+          armis et sine armis, et etiam <roleName>episcopum</roleName>
+          <persName ref="#GuilEpLuni">Gualterium</persName> et <roleName>episcopum</roleName>
+          <persName ref="#MarzuccusEpLuni">Marzuchum</persName>, eius predecessores, et postea
+            <roleName>episcopos</roleName>
+          <persName ref="#ButtafavaEpLuni">Buttafavam</persName> et presentem
+            <roleName>dominum</roleName>
+          <persName ref="#GuilEpLuni">Guilielmum</persName>, <roleName>Lunensem
+          episcopum</roleName>. Interrogatus si cognovit predictos episcopos, dixit sic et eis
+          servivit et cum eis ivit postquam etatem habuit, scilicet cum
+            <roleName>episcopo</roleName>
+          <persName ref="#MarzuccusEpLuni">Marzucho</persName> et suis successoribus, in hostes et
+          exercitus et eisdem servivit cum armis et sine armis. Item interrogatus si erant fideles
+          et vassalli et fuerunt contra omnes personas et loca et eidem servierunt tanquam
+          principali eorum domino, respondit sic. Interrogatus ubi fecerunt eis predicta servicia,
+          que ipse viderit, sciverit, dixit in <placeName ref="#Varese">Varese</placeName>, scilicet
+          ad <placeName ref="#Padulvarmo">Padulvarmum</placeName> et <placeName
+            ref="#CastiglionediVarese">Castilionem</placeName>, quando quondam dictus episcopus de
+            <date when="1269-09-18">quodam mense madii</date> ivit obsidere et expugnare castrum
+            <placeName ref="#CastiglionediVarese">Castilionis</placeName> et burgum <placeName
+            ref="#Padulvarmo">Padulvarmi</placeName>, et expugnavit tunc et habuit ad sua mandata.
+          Et fuerunt tunc ibi vulnerati in servicio ipsius domini episcopi <persName
+            ref="#GurdianusMarziasio">Gurdianus de <placeName ref="#Marciaso"
+            >Marziasio</placeName></persName> et <persName ref="#PalmeriusPonzanello">Palmerius de
+              <placeName ref="#Ponzanello">Ponzanello</placeName></persName> et servierunt eis etiam
+          apud <placeName ref="#Trebiano">Trebianum</placeName> ipsi nobiles et alii nobiles et
+          populares de ipso castro <placeName ref="#Marciaso">Marzasii</placeName>, expugnantes cum
+          dicto episcopo ipsum castrum <placeName ref="#Trebiano">Trebiani</placeName>, et fuit ibi
+          vulneratus <persName ref="#VegnutusGastiadore">Vegnutus Gastiadore</persName>, germanus
+          eius, et apud <placeName ref="#Avenza">Avenciam</placeName> ad faciendas foveas, quoniam
+          ipse <roleName>episcopus</roleName>
+          <persName ref="#NorandEpLuni">Orradinus</persName> fecit fieri foveam de <placeName
+            ref="#Avenza">Avencia</placeName>. Et tunc fecerunt ipsi eorum partem que advenit eis et
+          data et assignata fuit, et predicta servicia fecerunt iam sunt anni LX et ab illo tempore
+          citra de predecessore in successorem, secundum quod servicia eis imponita fuerunt per
+          tempus et tempora; et etiam per tantum tempus, cuius non exstat memoria, servierunt,
+          tenuerunt et recognoverunt ipsi nobiles et populares episcopos Lunensis ecclesie et eorum
+          principales dominos, quamdiu vixerint, et specialiter ipsum <roleName>episcopum</roleName>
+          <persName ref="#NorandEpLuni">Orradinum</persName> in predictis serviciis. Interrogatus
+          qualiter scit, dixit quia vidit et interfuit et saltavit foveam de <placeName
+            ref="#Avenza">Avencia</placeName> de mandato ipsius <roleName>episcopi</roleName>
+          <persName ref="#NorandEpLuni">Orradini</persName>, quando fiebat. Item interrogatus si de
+          predictis est publica vox et fama, ut et omnibus et singulis in episcopatu et <orgName
+            ref="#Luni_comitatus">comitatu Lunensi</orgName>, dixit sic. Item interrogatus si de
+          ipso castro <persName ref="#RollandinusAntoni">Rollandinus</persName>, <persName
+            ref="#TedisiusAntoni">Tedisius</persName> et <persName ref="#GiliolusAntoni"
+            >Giliolus</persName>, fratres, <persName ref="#AntoniusMarchesello">filii quondam
+            Antonii de Marchesello</persName>, iuraverant fidelitatem, dixit quod nescit. Item
+          interrogatus si commune et homines de Marzasio sunt fideles episcopi et episcopatus, dixit
+          quod credit. Interrogatus si iuraverant presenti<note xml:id="DXV_n_003" n="c">presenti: t
+              <emph>corretto su</emph> d. </note>
+          <roleName>domino</roleName>
+          <persName ref="#GuilEpLuni">Guilielmo</persName> fidelitatem, dixit quod nescit, tamen
+          dixit quod presens <roleName>episcopus</roleName>
+          <persName ref="#GuilEpLuni">Guilielmus</persName> ivit, commune et homines de <placeName
+            ref="#Marciaso">Marzasio</placeName>, contra homines et commune de <placeName
+            ref="#Casapoci">Casapozi</placeName> et <placeName ref="#Carrara"
+            >Carrarenses</placeName>, et fecit portari per commune et homines de <placeName
+            ref="#Marciaso">Marziasio</placeName> castaneas iam sunt anni XL usque in LX<note
+            xml:id="DXV_n_004" n="d">castaneas iam sunt anni XL usque in LX: <emph>nel testo</emph>
+            castaneas in LX usque iam sunt anni XL, <emph>con segno di richiamo per invertire
+              l’ordine delle parole</emph>.</note>, et ipse erat tunc consul communis <placeName
+            ref="#Carrara">Carrarie</placeName> cum <persName ref="#GuilielmusEmma">Guilielmo donne
+            Emmie</persName>. Item interrogatus si presens episcopus <pb n="382v" xml:id="fol_382v"/>
+          <roleName>dominus</roleName>
+          <persName ref="#GuilEpLuni">Guilielmus</persName> fuit in possessione vel quasi
+          iurisdictionis et hominum dicti castri et ibi iurisdictionem exercuit per se et suos
+          ordinatores, tamquam dominus, et ipsum castrum pacifice custodiri fecit, respondit quod
+          predicta omnia non vidit, tamen vidit et scit quod <persName ref="#FresciotusCarraria"
+            >Fresciotus de <placeName ref="#Carrara">Carraria</placeName></persName> fuit
+            <roleName>castellanus</roleName> dicti castri pro domino episcopo et ipse eum posuit ad
+          castellaniam et custodiam dicti castri et bene XX ad minus de hominibus <placeName
+            ref="#Carrara">Carrarie</placeName>, de mandato dicti domini episcopi, custodiebant
+          ipsum castrum. Interrogatus qualiter scit, dixit quia vidit. Interrogatus de tempore,
+          dixit: «non recordor». Item, interrogatus si dictum commune et homines de <placeName
+            ref="#Marciaso">Marzasio</placeName> responderunt dicto domino episcopo in hiis que ad
+          iurisdictionem pertinent per omnia tempora et vicariis, potestatibus et ordinatis episcopi
+          suprascripti tanquam eorum domino principali et tanquam fideles dicti episcopi et
+          episcopatus, respondit ut supra de eorum maioribus, set de presentibus nescit aliter quam
+          supra dixerit. Item, interrogatus si dictum commune et homines ipsius communis de
+            <placeName ref="#Marciaso">Marzasio</placeName> iverunt in servicium episcopi et
+          episcopatus Lunensis in exercitibus et cavalcatis et custodiis castrorum tanquam fideles
+          episcopi et episcopatus et ut homines de <orgName ref="#Luni_comitatus">comitatu
+            Lunensi</orgName>, ad voluntatem ipsius episcopi et episcoporum et eius et eorum
+          vicariorum et ministeriorum, et maxime tempore olim domini <persName ref="#GualEpLuni"
+            >Gualterii</persName>, <roleName>Lunensis episcopi et comitis</roleName>, iverunt in
+          exercitibus pro ipso episcopo et episcopatu et comitatu cum aliis hominibus episcopatus et
+            <orgName ref="#Luni_comitatus">comitatus Lunensis</orgName>, et tempore
+            <roleName>domini</roleName>
+          <persName ref="#MarzuccusEpLuni">Marzucci</persName>, <roleName>Lunensis episcopi et
+            comitis</roleName>, et de hoc est publica vox et fama, respondit idem per omnia, ut
+          supra. Interrogatus de ultimo capitulo, dixit se nescire. Interrogatus quot annos habet,
+          dixit LXXV et plures, et recordatur de annis, dixit de LXX, et habet in bonis valens
+            <measure type="Ianuenses" quantity="200" unit="libra">librarum CC Ianuensium.</measure>
+          <persName ref="#VenutusBasiadore">Vegnudus, Pastia dictus, quondam Cursi de</persName>
+          <placeName ref="#Torano">Torano</placeName>, testis iuratus, <date when="1269-09-23">die
+            lune, XXIII septembris</date>, in absentia syndici domini episcopi suprascripti, eius
+          cum parabola et mandato et licencia, et absente syndico de <placeName ref="#Marciaso"
+            >Marzasio</placeName>, nolendo eum videre iurare nec se opponere in predictis,
+          interrogatus diligenter et examinatus per suprascriptum iudicem et locum vicarii tenentem
+          in dicta <orgName ref="#Lunigiana_provincia">provincia <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> pro dicto <persName
+            ref="#GuilEpLuni">Guilielmo</persName>, <roleName>episcopo Lunensi</roleName>, si
+          castrum <placeName ref="#Marciaso">Marçiasii</placeName> est in comitatu et de <orgName
+            ref="#Luni_comitatus">comitatu Lunensi</orgName> et de hoc est publica vox et fama,
+          consentiens quod sit de episcopatu et <orgName ref="#Luni_comitatus">comitatu
+            Lunensis</orgName> ecclesie, dixit et respondit sic; eo videlicet modo quia apud
+            <placeName ref="#Padulvarmo">Padulvarmum</placeName> vidit <roleName>dominos</roleName>
+          <persName ref="#MarchesellusMarciasio">Marchesellum</persName>, <persName
+            ref="#SalvagiusMarciasio">Salvagium</persName> et <persName ref="#GordianusMarzasio"
+              >Gordianum<note xml:id="DXV_n_005" n="e">Gordianum: <emph>così nel testo probabilmente
+                per</emph> Masnerium.</note></persName> de <placeName ref="#Marciaso"
+            >Marzasio</placeName>, qui pretendebant contra <roleName>marchiones</roleName>
+          <name type="familia" ref="#MalaspinaFamilia">Malespine</name> in servicium olim
+            <roleName>domini</roleName>
+          <persName ref="#GualEpLuni">Gualterii</persName>, <roleName>Lunensis episcopi</roleName>,
+          qui serviebant dicto episcopo armis et equis sicut fideles contra ipsos
+            <roleName>marchiones</roleName>
+          <name type="familia" ref="#MalaspinaFamilia">Malaspine</name>, et tunc ipse episcopus expugnavit et
+          obtinuit <placeName ref="#Aulla">Avulam</placeName> et combursit et plures alias terras
+          expugnavit et, nisi fuisset <roleName>marchio</roleName>
+          <placeName ref="#Montisferrato">Montisferrati</placeName>, totam terram ipse episcopus
+          expugnasset et obtinuisset; et tunc ipsi <roleName>marchiones</roleName>
+          <name type="familia" ref="#MalaspinaFamilia">Malaspine</name> iverunt ad ipsum
+            <roleName>marchionem</roleName>
+          <placeName ref="#Montisferrato">Montisferrati</placeName>, ut dicebatur, et dixerunt: «Nos
+          proferimus querimoniam coram vobis quod quidam presbyter aufert nobis totam terram; venite
+          et iuvetis nos, et volumus recognoscere a vobis totam terram», et tunc, ut audivit, venit
+            <roleName>marchio</roleName>
+          <placeName ref="#Montisferrato">Montisferrati</placeName>, volens videre ipsum
+            <roleName>episcopum</roleName>
+          <persName ref="#GualEpLuni">Gualterium</persName> et, data fidancia ad invicem, locuti
+          fuerunt simul, ipse episcopus et marchio, et fecit ipse marchio pacem inter eos. Item,
+          interrogatus si castrum <placeName ref="#Marciaso">Marziasii</placeName> est feudum et in
+          feudum concessum fuit nobilibus de <placeName ref="#Marciaso">Marçiasio</placeName>
+          episcopi Lunensis ecclesie et ab episcopo Lunensis ecclesie, et specialiter quod dominus
+            <persName ref="#MarchesellusMarciasio">Marchesellus</persName>, <persName
+            ref="#SalvagiusMarciasio">Salvagius</persName> et <persName ref="#MasneriusMarciasio"
+            >Masnerius</persName> ipsum recognoverant in feudum et pro feudi Lunensis ecclesia<note
+            xml:id="DXV_n_006" n="f">pro feudi Lunensis Ecclesia: <emph>così nel
+            testo</emph>.</note>, respondit: sic de dimidio et pro dimidio et servierunt eidem
+            <roleName>episcopo</roleName>
+          <persName ref="#GualEpLuni">Gualterio</persName> olim in exercitibus et cavalcatis, cum
+          armis et sine armis, et aliis serviciis apud <placeName ref="#Padulvarmo"
+            >Padulvarmum</placeName> et ad expugnandum alias terras, et hec fuerunt iam sunt anni LX
+          et plus, et de predictis omnibus et quod fuerint et sint vassalli et fideles dicti nobiles
+          episcopi et episcopatus Lunensis ecclesie est publica vox et fama in <orgName
+            ref="#Luni_comitatus">comitatu</orgName> et comitatu<note xml:id="DXV_n_007" n="g"
+            >comitatu: <emph>così nel testo per</emph> episcopatu, <emph>cfr. più avanti nel
+              documento</emph>.</note> Lunensis ecclesie. Item, interrogatus si <persName
+            ref="#RollandinusAntoni">Rollandinus</persName>, <persName ref="#TedisiusAntoni"
+            >Tedisius</persName> et <persName ref="#GiliolusAntoni">Giliolus</persName>, qui fuerunt
+            <persName ref="#AntoniusMarchesello">filii quondam Antonii de Marchesello de</persName>
+          <placeName ref="#Marciaso">Marçiasio</placeName>, iuraverunt fidelitatem de ipso castro
+          presenti episcopo Lunensi contra omnes personas et loca et de hoc sic<note
+            xml:id="DXV_n_008" n="h">sic: <emph>così nel testo per</emph> sit.</note> publica vox et
+          fama, respondit et dixit quod nescit, set credit eos esse fideles et vassallos Lunensis
+          ecclesie de dicto castro, sicut fuerant eorum maiores, et credit quod sit inde publica vox
+          et fama, ut supra. Interrogatus de omnibus aliis et singulis capitulis, per singula dixit
+          se nil aliunde scire, tamen audivit dici quod olim dictus <roleName>episcopus</roleName>
+          <persName ref="#GualEpLuni">Gualterius</persName>, quia <name type="familia" ref="#BlanciHerberiaFamilia"
+            >Blanci</name> nimium dominabantur et insidias ponebant hominibus <placeName
+            ref="#Guisceple">Guisceple</placeName>, ut credit quod ita vocaretur et que erat in
+          quodam nemore, ipsi homines recommendaverunt se <roleName>episcopo</roleName>
+          <persName ref="#GualEpLuni">Gualterio</persName> et ipse posuit eos super podium et in
+          podio inde est modo castrum de <placeName ref="#Marciaso">Marçiasio</placeName> et ex ea
+          causa fecerunt se suos fideles et vassallos et hec dixit ex auditu, et de predictis est
+          publica vox et fama in contrata et per totum comitatum et episcopatum. <pb n="383r"
+            xml:id="fol_383r"/> Item, interrogatus quot annorum est, dixit quod est annorum LXXXV et
+          plus. Interrogatus de quot recordatur, dixit de LXXX et plus. <persName
+            ref="#VillanusTorano">Villanus de <placeName ref="#Torano">Torano</placeName> quondam
+            Viviani de <placeName ref="#Ficola">Ficola</placeName></persName>, testis iuratus, ea
+          die mercurii, ut suprascriptus <persName ref="#FortinusCursi">Fortinus</persName> et eo
+          modo et forma et postea receptus et examinatus per suprascriptum iudicem et locum vicarii
+          tenentem, ut dictum est, <date when="1269-09-23">die lune XXIII septembris</date>.
+          Interrogatus si castrum <placeName ref="#Marciaso">Marçiasii</placeName> est in comitatu
+          et de <orgName ref="#Luni_comitatus">comitatu</orgName> Lunensi et de hoc est publica vox
+          et fama in terris episcopatus et <orgName ref="#Luni_comitatus">comitatus
+            Lunensis</orgName>, respondit et dixit quod semper vidit et audivit dici quod est de
+            <orgName ref="#Luni_comitatus">comitatu</orgName> et episcopatu Lunensi et quod inde est
+          publica vox et fama in terris episcopatus et <orgName ref="#Luni_comitatus">comitatus
+            Lunensis</orgName> et ita publice dicitur. Item, interrogatus si castrum <placeName
+            ref="#Marciaso">Marçiasii</placeName> est feudum episcopatus Lunensis, respondit sic
+          audivit dici publice et credit et vidit quod servierunt domini <persName
+            ref="#MarchesellusMarciasio">Marchesellus</persName>, <persName
+            ref="#SalvagiusMarciasio">Salvagius</persName> et alii nobiles et popolares, omnes de
+          dicto castro et terra de <placeName ref="#Marciaso">Marçiasio</placeName>, domino
+            <roleName>episcopo</roleName>
+          <persName ref="#NorandEpLuni">Oradino</persName>, pro episcopatu, apud <placeName
+            ref="#Trebiano">Trebianum</placeName> cum armis et equis, sicut fideles et vassalli, et
+          credit quod, pro feudo quod habebant de castro <placeName ref="#Marciaso"
+            >Marciasii</placeName> ab ipso episcopo, servierunt et venerunt apud <placeName
+            ref="#Avenza">Avenciam</placeName> ad faciendam eorum partem fovee, ut alii homines de
+          episcopatu et comitatu. Interrogatus quomodo scit, dixit sic audivit et vidit et presens
+          fuit et hec fuerunt iam sunt anni LX et plus et de hiis est publica vox et fama in
+            <orgName ref="#Luni_comitatus">comitatu</orgName> et episcopatu Lunensi. Item.
+          interrogatus si commune et homines de <placeName ref="#Marciaso">Marciasio</placeName>
+          sunt fideles et vassalli episcopi et episcopatus Lunensis ecclesie, respondit sic.
+          Interrogatus qualiter scit, dixit quod sic audivit et vidit et publice dicitur; et dixit,
+          interrogatus quod ubi episcopus et <placeName ref="#Carrara">Carrarenses</placeName> pro
+          episcopo et alii fideles episcopi et ecclesie Lunensis, <persName ref="#BlanciHerberia"
+            >Blanci</persName> multum male tractabant eos<note xml:id="DXV_n_009" n="i">interrogatus
+            quod-eos: <emph>così nel testo, periodo sospeso</emph>.</note>. Item, interrogatus si
+          episcopus Lunensis, qui presens est <roleName>dominus</roleName>
+          <persName ref="#GuilEpLuni">Guilielmus</persName>, fuit in possessione vel quasi
+          iurisdictionis dicti castri et hominum et exercitii iurisdictionis, respondit et dixit
+          sic, secundum audivit. Item, interrogatus si commune et homines dicti castri respondebant
+          dicto episcopo in hiis que ad iurisdictionem pertinebant et sub eius vicariis et ordinatis
+          cum procuratione, respondit et dixit sic. Interrogatus quomodo scit, dixit quia vidit et
+          de hiis est fama publica et vox in <orgName ref="#Luni_comitatus">comitatu</orgName> et
+          episcopatu Lunensi et dixit quod de predictis omnibus et singulis est publica vox et fama
+          in <orgName ref="#Luni_comitatus">comitatu</orgName> et episcopatu Lunensi. Interrogatus
+          quot annorum est, dixit quod est annorum LXXXX et plus et recordatur de annis LXXXX et
+          specialiter de <roleName>episcopo</roleName>
+          <persName ref="#GualEpLuni">Gualterio</persName> et eius successoribus. Interrogatus
+          quantum habet in bonis, dixit valens librarum CC Ianuensium. <persName
+            ref="#Guilielmusnot">Guilielmus <roleName>notarius</roleName> quondam Guidi
+            Pisani</persName> de <orgName ref="#Carrara_S_Andrea">plebe<placeName ref="#Carrara">
+              Carrarie</placeName></orgName>, testis iuratus, <date when="1269-09-18">die
+            mercurii</date>, qua dictus <persName ref="#FortinusCursi">Fortinus</persName> et eo
+          modo et forma et eadem die lune postea diligenter receptus et examinatus per suprascriptum
+            <roleName>dominum</roleName>
+          <persName ref="#NormanninusBernanduccisiud">Normanninum</persName>. Interrogatus si
+          castrum de <placeName ref="#Marciaso">Marçiasio</placeName> est in <orgName
+            ref="#Luni_comitatus">comitatu</orgName> et de comitatu Lunensi et de hoc est publica
+          vox et fama in <orgName ref="#Luni_comitatus">comitatu</orgName> et episcopatu Lunensi,
+          dixit sic. Interrogatus quomodo scit<note xml:id="DXV_n_010" n="l">scit: <emph>segue, non
+              depennato, segno tachigrafico per <emph>et</emph> superfluo</emph>.</note>, dixit quia
+          vidit et audivit quod sic se tenebant et recognoscebant. Item, interrogatus si predictum
+          castrum <placeName ref="#Marciaso">Marciasii</placeName> feudum episcopatus Lunensis est
+          et quod domini de <placeName ref="#Marciaso">Marziasio</placeName>, videlicet domini
+            <persName ref="#MarchesellusMarciasio">Marchesellus</persName> et <persName
+            ref="#SalvagiusMarciasio">Salvagius</persName>, de dicto castro predicto domino episcopo
+          et quibusdam aliis predecessoribus fidelitatem iuraverunt contra omnes personas et loca et
+          servierunt ipsi domino episcopo et episcopatui tanquam principali domino suo, iam sunt
+          anni XL et ultra, et etiam per tantum tempus cuius non exstat memoria, et de predictis est
+          publica fama, et recognoverunt et tenuerunt eum in dominum principalem quamdiu vixerint,
+          respondit et dixit sic. Interrogatus de causa scientie, dixit quia sic vidit et audivit
+          iam sunt anni LX et ab illo tempore citra et bene recordatur de
+            <roleName>episcopo</roleName>
+          <persName ref="#GualEpLuni">Gualterio</persName> et eius successoribus. Item, interrogatus
+          si de ipso castro <persName ref="#RollandinusAntoni">Rollandinus</persName>, <persName
+            ref="#TedisiusAntoni">Tedisius</persName> et <persName ref="#GiliolusAntoni"
+            >Giliolus</persName>, fratres, <persName ref="#AntoniusMarchesello">filii quondam
+            Antonii de Marchesello</persName>, predicti domini de <placeName ref="#Marciaso"
+            >Marçiasio</placeName>, iuraverunt fidelitatem predicto domino episcopo de ipso castro
+          contra omnes personas et loca et quod inde est publica fama, dixit sic, ut audivit dici et
+          publice dicitur, et ita credit verum esse. Item, interrogatus si commune et homines dicti
+          castri sunt fideles episcopi et episcopatus predicti et bis dicto episcopo fidelitatem
+          iuraverunt iam sunt anni XXXVI et plus, et quod inde est publica fama, dixit sic.
+          Interrogatus quomodo scit, dixit quia vidit et audivit et dixit quod<note
+            xml:id="DXV_n_011" n="m">quod: <emph>segue depennato</emph> quando.</note> tempore
+            <roleName>domini</roleName>
+          <persName ref="#PetrusBernardiniHerberia">Petri de <placeName ref="#Erberia"
+              >Herberia</placeName></persName> iuraverunt ipsam fidelitatem maiores ipsius testis
+          pro ipso episcopo et episcopatu. Item, interrogatus si dictus episcopus fuit in
+          possessione vel quasi iurisdictionis dicti castri et dominorum et hominum iurisdictionis
+          dicti castri et in ipso castro et de hominibus dicti castri et etiam inter homines dicti
+          castri iurisdictionem exercuit per se et vicarios, potestates et ordinatos suos tanquam
+          dominus pacifice et quiete et ipsum castrum fecit custodiri pro voluntate sua, et de hoc
+          est publica fama et vox, ut supra, dixit sic. Interrogatus quomodo scit, dixit quia vidit
+          suis oculis et sic est verum et est inde publica fama, ut dixit supra. Item, interrogatus
+          si domini et commune et homines de <placeName ref="#Marciaso">Marciasio</placeName>
+          <pb n="383v" xml:id="fol_383v"/> dicto domino episcopo responderunt in hiis, que ad
+          iurisdictionem pertinent, per omnia tempora et vicariis, potestatibus et ordinatis
+          episcopi suprascripti tanquam eorum domino principali et tanquam fideles dicti episcopi et
+          episcopatus et quod inde est fama publica et vox, dixit quod per omnia tempora nescit, set
+          quod iam sunt LX anni et a LX annis citra dixit quod sic. Interrogatus quomodo scit, dixit
+          quia vidit et sic est publica vox et fama in terris episcopatus Lunensis et <orgName
+            ref="#Luni_comitatus">comitatus</orgName> et comedit pluries ibidem cum familiaribus
+          domini episcopi, recipiendo comestionem ab illis curiabilibus, qui ibidem erant pro
+          episcopo. Item, interrogatus si dicti domini, commune et homines de <placeName
+            ref="#Marciaso">Marciasio</placeName> iverunt et servierunt semper et etiam per tantum
+          tempus, cuius non extat memoria, episcopo et episcopis Lunensibus et episcopatui pro ipso
+          episcopo et episcopis et comitatui tanquam fideles ipsius domini episcopi et episcopatus
+          et <orgName ref="#Luni_comitatus">comitatus Lunensis</orgName> in exercitibus et
+          cavalcatis et custodiis castrorum et aliis faciendis tanquam homines qui sunt, erant et
+          fuerunt de episcopatu et <orgName ref="#Luni_comitatus">comitatu Lunensi</orgName>, ad
+          voluntatem ipsius episcopi et episcoporum et eius et eorum vicariorum et nunciorum, et
+          maxime tempore <roleName>domini</roleName>
+          <persName ref="#GualEpLuni">Gualterii</persName>, <roleName>olim Lunensis episcopi et
+            comitis</roleName>, iverunt in exercitibus pro ipso episcopo et episcopatu et comitatu
+          cum aliis hominibus episcopatus et <orgName ref="#Luni_comitatus">comitatus
+            Lunensis</orgName>, et tempore <roleName>domini</roleName>
+          <persName ref="#MarzuccusEpLuni">Marzucci</persName>, <roleName>Lunensis episcopi et
+            comitis</roleName>, et de hoc est publica fama et vox, ut supra, dixit sic. Interrogatus
+          quomodo scit, dixit quia vidit et audivit. De aliis dixit se nil scire. Interrogatus quot
+          annorum est, dixit LXX et recordatur de LX et plus et habet in bonis valens <measure
+            type="Ianuenses" quantity="150" unit="libra">librarum CL Ianuensium.</measure>
+          <persName ref="#MartinusMoneta">Martinus de <placeName ref="#Moneta"
+            >Moneta</placeName></persName> de <placeName ref="#Carrara">Carraria</placeName>, testis
+          iuratus, <date when="1269-09-23">die lune XXIII</date>, ut iamscriptus <persName
+            ref="#VegnutusCursi">Vegnudus Bastia dictus</persName>, et receptus et examinatus
+          diligenter per suprascriptum iudicem. Interrogatus si castrum <placeName ref="#Marciaso"
+            >Marciasii</placeName> est in comitatu et de <orgName ref="#Luni_comitatus">comitatu
+            Lunensi</orgName> et de hoc est publica vox et fama in terris Lunensis episcopatus,
+          dixit sic. Interrogatus quomodo scit, dixit quia vidit ipsum tenere et habere per
+          episcopos Lunenses et per homines et est inde publica fama. Item, interrogatus si
+          predictum castrum <placeName ref="#Marciaso">Marciasii</placeName> feudum est episcopatus
+          Lunensis et si domini de <placeName ref="#Marciaso">Marciasio</placeName>, videlicet
+          domini <persName ref="#MarchesellusMarciasio">Marchesellus</persName> et <persName
+            ref="#SalvagiusMarciasio">Salvagius</persName>, de dicto castro predicto domino episcopo
+          et quibusdam predecessoribus fidelitatem iuraverunt contra omnes personas et loca, et
+          servierunt ipsi domino episcopo et episcopatui tanquam principali domino suo iam sunt anni
+          XL et ultra et etiam per tantum tempus cuius non extat memoria, et si de predictis est
+          publica vox et fama in terris episcopatus et <orgName ref="#Luni_comitatus">comitatus
+            Lunensis</orgName>, et si recognoverunt et tenuerunt eum in dominum principalem quamdiu
+          vixerint, dixit sic. Interrogatus quomodo scit, dixit quia vidit et sic est verum et eos
+          cognovit et facere sic vidit et publica fama est inde, ut dictum est supra. Item,
+          interrogatus si commune et homines dicti castri sunt fideles episcopi et episcopatus
+          predicti et bis iuraverunt fidelitatem dicto episcopo iam sunt anni XXXVI et plus et de
+          hoc est publica fama in dictis terris episcopatus, dixit sic. Interrogatus quomodo scit,
+          dixit quia vidit sic et audivit et ei servierunt ut fideles et vassalli. Item,
+          interrogatus si dictus episcopus fuit in possessione vel quasi iurisdictionis dicti castri
+            <placeName ref="#Marciaso">Marciasii</placeName> et dominorum et hominum et
+          iurisdictionis dicti castri et in ipso castro et de hominibus dicti castri et etiam inter
+          homines dicti castri iurisdictionem exercuit per se et vicarios, potestates et ordinatos
+          suos, tanquam dominus terre, pacifice et quiete et ipsum castrum fecit custodiri pro
+          voluntate sua, et de hiis est publica fama et vox ut supra, dixit sic. Interrogatus
+          quomodo scit, dixit quod vidit et audivit et est verum et de dicto castro et hominibus
+          vidit <roleName>episcopum</roleName>
+          <persName ref="#GualEpLuni">Gualterium</persName> facere ut de re episcopatus, et de hiis
+          est publica fama, ut supra dixit. Item, interrogatus si dictum commune et homines de
+            <placeName ref="#Marciaso">Marçiasio</placeName> dicto episcopo responderunt in hiis que
+          ad iurisdictionem pertinent per omnia tempora, et vicariis, potestatibus et ordinatis
+          episcopi suprascripti, tanquam eorum domino principali et tanquam fideles dicti episcopi
+          et episcopatus, et quod de hiis est publica vox et fama, ut supra dixit sic. Interrogatus
+          quomodo scit, respondit et dixit quia vidit sic facere eos et fieri et sic est verum et
+          inde est publica vox et fama et notorium omnibus de <orgName ref="#Lunigiana_provincia">provincia <placeName ref="#Lunigiana">Lunisiane</placeName></orgName>. Item, interrogatus si dicti domini, commune et homines de
+            <placeName ref="#Marciaso">Marciasio</placeName> iverunt et servierunt semper et etiam
+          per tantum tempus, cuius non extat memoria, episcopo et episcopis Lunensibus et
+          episcopatui et pro ipso episcopo et episcopis et episcopatu et comitatu tanquam fideles
+          ipsius domini episcopi et episcopatus Lunensis et comitatus in exercitibus et cavalcatis
+          et custodiis castrorum et aliis faciendis tanquam homines qui sunt, erant et fuerunt de
+          episcopatu et <orgName ref="#Luni_comitatus">comitatu Lunensi</orgName>, ad voluntatem
+          ipsius episcopi et episcoporum et eius et eorum vicariorum et nunciorum, et maxime tempore
+            <roleName>domini</roleName>
+          <persName ref="#GualEpLuni">Gualterii</persName>, <roleName>olim Lunensis episcopi et
+            comitis</roleName>, iverunt in exercitibus pro ipso episcopo et episcopatu et comitatu
+          cum aliis hominibus episcopatus et <orgName ref="#Luni_comitatus">comitatus
+            Lunensis</orgName>, et tempore <roleName>domini</roleName>
+          <persName ref="#MarzuccusEpLuni">Marzucci</persName>, <roleName>Lunensis episcopi et
+            comitis</roleName>, et de hoc est publica fama, ut supra, dixit quod sic. Interrogatus
+          quomodo scit, dixit <pb n="384r" xml:id="fol_384r"/> quia vidit suis oculis et sic est
+          verum et publica fama et notorium est omnibus de <orgName ref="#Lunigiana_provincia">provincia <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> et dixit quod vidit dictos dominos et nobiles de <placeName
+            ref="#Marciaso">Marciasio</placeName>, tam eos quam alios populares, servientes pro
+          dictis episcopis et episcopatu ut alii dicti episcopatus ut fideles et vassalli ipsius
+          episcopi et episcopatus Lunensis cum armis et equis et sine armis, cum necesse esset, et
+          iverunt cum dictis episcopis apud <placeName ref="#Padulvarmo">Padulvarmum</placeName> et
+          apud <placeName ref="#Castiglione">Castilionem</placeName> ad expugnandum et apud
+            <placeName ref="#Caprigliola">Capriliolam</placeName> et apud <placeName
+            ref="#Santo_Stefano">Sanctum Stefanum</placeName>, et etiam iverunt apud <placeName
+            ref="#Trebiano">Trebianum</placeName> ad expugnandum ipsum castrum cum aliis de
+          episcopatu et <orgName ref="#Luni_comitatus">comitatu Lunensi</orgName> et sicut fideles
+          et vassalli et fecerunt ipsis episcopis et episcopatui quia habebant in feudum dictum
+          castrum <placeName ref="#Marciaso">Marciasii</placeName> ab ipsis episcopis et habuerant,
+          et omnia suprascripta vidit. Et hec dixit fuisse et vidisse iam sunt anni LXXX et plus ab
+          eo tempore citra. Interrogatus quot annorum est, dixit LXXXX et plus et recordatur de
+          annis LXXX et plus et habet in bonis valens <measure type="Ianuenses" quantity="60"
+            unit="libra">librarum LX Ianuensium</measure>; et aliud nescit.</p>
+        <p xml:id="DXV_p_002" n="2">
+          <ptr target="#DXV_st_001"/><persName ref="#BaldinotusCaldovillanus">Baldinotus
+            Caldovillani de <placeName ref="#Lucca">Porticu civitatis Lucane</placeName></persName>,
+          <roleName>imperii Romani iudex et notarius et suprascripte <orgName ref="#Lunigiana_vicaria">vicarie</orgName> tunc
+            scriba</roleName> pro suprascripto venerabili patre <roleName>domino</roleName>
+          <persName ref="#GuilEpLuni">Guilielmo</persName>, <roleName>Lunensi episcopo</roleName>,
+          suprascriptos testes et eorum dicta fideliter scripsi, sub examine dicti iudicis, et eos
+          et eorum dicta in publicam formam reduxi et redegi, mandato dicti iudicis et licencia, ad
+          perpetuam et<note xml:id="DXV_n_012" n="n">et: <emph>segno tachigrafico per</emph>
+              et<emph> aggiunto in sopralinea con segno di richiamo</emph>.</note> futuram rei
+          memoriam, et meo signo et nomine ego publicavi et confirmavi, eius auctoritate et mandato
+          ipsius iudicis. <date when="1269-12-31">Anno nativitatis Domini M°CC septuagesimo,
+            indictione XIII, die martis, pridie kalendas ianuarii</date>, presentibus
+            <roleName>domino</roleName>
+          <persName ref="#LiossusIacomini">Liosso <roleName>iudice</roleName> de <placeName
+              ref="#Sarzana">Sarzana</placeName> quondam Iacomini</persName> et <persName
+            ref="#IohannesFormichella">Iohanne Fermichella de</persName>
+          <placeName ref="#Lucca">Luca</placeName> et <persName ref="#CaudaAliotti">Cauda filio
+            Aliotti Massocchi</persName> et <persName ref="#GuidoIacobi">Guido de Lamora quondam
+            Iacobi</persName> de <placeName ref="#Florencia">Florencia</placeName>, testibus ad hec
+          rogatis et vocatis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

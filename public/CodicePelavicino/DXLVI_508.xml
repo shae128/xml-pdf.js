@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="DXLVI_508">
+    <front xml:id="DXLVI_front">
+      <titlePart type="numerazioneNuova">508</titlePart>
+      <titlePart type="numerazioneOrig">DXLVI</titlePart>
+
+      <docDate xml:id="DXLVI_docDate">
+        <date when="1239-05-24">1239 maggio 24</date>, <placeName>Brancaliano (<term
+            xml:lang="latin">Sancti Bartholomei de Brancaliano</term>)</placeName>
+      </docDate>
+      <div type="regesto" xml:id="DXLVI_regesto">
+        <p>Il vescovo di Luni Guglielmo e il notaio Bonalbergo, suo procuratore, giurano davanti al
+          canonico lucchese Paolo subdelegato del priore di Carrara, a sua volta delegato del papa,
+          e al priore di S. Sisto di Pisa Ildebrando, anch’egli delegato pontificio, di sottostare
+          alla loro sentenza interlocutoria, formulata a seguito del giudizio di Pietro, priore di
+          S. Maria Fuoriporta di Lucca. Di conseguenza i due giudici assolvono per cautela il
+          vescovo di Luni dalla scomunica comminatagli dal preposito di S. Geminiano.</p>
+      </div>
+      <div type="footer" xml:id="DXLVI_footer">
+        <div type="orig_doc">
+          <p>Copia [C] c. 402r., c. CCCLXXXXIIIIr. secondo la numerazione originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 546, pp.
+            620-621.</p>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXLVI.
+              Qualiter episcopus Lunensis et eius sindicus petierunt absolvi a quadam
+              excomunicatione et fuerunt absoluti.</term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="DXLVI_div">
+        <p xml:id="DXLVI_p_001" n="1">In Christi nomine, amen. Ex huius publici instrumenti lectione
+          sit omnibus manifestum quod <roleName>dominus</roleName>
+          <persName ref="#GuilEpLuni">Guilielmus</persName>, <roleName>venerabilis Dei gratia
+            Lunensis episcopus</roleName>, coram positis corporaliter, et <persName
+            ref="#Bonalbergusnot4">Bonalbergus</persName>
+          <roleName>notarius</roleName>, syndicus et procurator predicti domini episcopi, ut
+          infrascripti iudices asserebant, tactis sacrosantis Evangeliis, iuraverunt coram
+            <roleName>domino</roleName>
+          <persName ref="#Paulus_canonicus">Paulo</persName>, <placeName ref="#Lucca"
+            >Lucano</placeName>
+          <roleName> canonico</roleName>, <roleName>subdelegato prioris de</roleName>
+          <placeName ref="#Carrara">Carraria</placeName>, <roleName>domini pape iudicis
+            delegati</roleName>, et coram <roleName>domino</roleName>
+          <persName ref="#Ildebrandus_canonicus_Pisa">Ildebrando</persName>,
+            <roleName>priore</roleName>
+          <orgName ref="Pisa_S_Sisto">Sancti Sixti</orgName>
+          <placeName ref="#Pisa">Pisarum</placeName>, <roleName>domini pape iudice
+            delegato</roleName>, quod parebunt mandatis ecclesie et stabunt iuri secundum tenorem
+          interlocutorie late a dictis iudicibus, iuxta formam consilii eorum assessoris, iudicis et
+          prioris <orgName ref="Lucca_S_Maria_Forisportam">Sancte Marie foris Porte</orgName>
+          <placeName ref="#Lucca">Lucane</placeName>, cuius tenor interlocutorie talis est:
+          «Consilium <persName ref="#P_prior">P.</persName>, <roleName>prioris</roleName><orgName
+            ref="Lucca_S_Maria_Forisportam"> Sancte Marie foris Porte</orgName>
+          <placeName ref="#Lucca">Lucane</placeName>, tale est, videlicet quod, super eo quod
+          procurator episcopi predicti petit, ipsum episcopum absolvi ad cautelam ab excomunicatione
+          in eum lata a preposito <orgName ref="#SanGimignano_S_Maria_Assunta">Sancti
+            Geminiani</orgName>, quod absolvatur cum periculosum sit in excomunicatione manere et
+          propter periculum anime»; ipso quidem procuratore et etiam eodem <supplied
+            reason="omitted">prio</supplied>re iurantibus corporaliter ad sancta Dei Evangelia quod
+          parebunt ipsi et quicquid<note place="foot" n="a" xml:id="DXLVI_n_001"> quicquid: <emph>
+              così nel testo per </emph>quisquis</note> eorum mandatis ecclesie et parebunt mandatis
+          que eisdem predictus prepositus fecerat, si constiterit ipsum dominum episcopum legitime
+          fore a dicto preposito excomunicatum, et toliter<note place="foot" n="b"
+            xml:id="DXLVI_n_002"> toliter: <emph> così nel testo per </emph>taliter</note> me
+            <persName ref="#Symon_iudex_notarius">Symonem</persName>
+          <roleName>iudicem et notarium</roleName> scribere rogaverunt. </p>
+        <p xml:id="DXLVI_p_002" n="2">Hec quidem acta sunt in choro <orgName
+            ref="Brancaliano_S_Bartolomeo">ecclesie Sancti Bartholomei de</orgName>
+          <placeName ref="#Brancaliano">Brancaliano</placeName>, presentibus
+            <roleName>domino</roleName>
+          <persName ref="#Grassus_canonicus_Pisa">Grasso</persName>
+          <roleName>canonico</roleName>
+          <placeName ref="#Pisa">Pisa<orgName ref="Pisa_capitolo">no</orgName></placeName> et
+            <roleName>plebano de</roleName>
+          <placeName ref="#Massa">Mas<orgName ref="Massa_S_Vitale">sa</orgName></placeName>,
+            <roleName>magistro</roleName>
+          <persName ref="#Gerardusarc">Gerardo</persName>
+          <roleName>archipresbytero de</roleName>
+          <placeName ref="#Marnasco">Marnasco</placeName> et <persName ref="#Bellomus_clericus"
+            >Bellomo</persName>
+          <roleName>clerico</roleName>, <roleName>tunc scriptore</roleName> dicti domini prioris
+            <orgName ref="Pisa_S_Sisto"><supplied reason="omitted">Sixti</supplied></orgName>,
+          testibus ad hec rogatis. <date when="1239-05-24">Dominice quidem nativitatis anno
+            M°CCXXXIX, indictione XII, nono kalendas iunii.</date>
+        </p>
+        <p xml:id="DXLVI_p_003" n="3">Postmodum vero in eodem loco et eodem die, coram dictis
+          testibus, predicti iudices dominus <persName ref="#Paulus_canonicus">Paulus</persName>,
+            <placeName ref="#Lucca">Lucanus</placeName>
+          <roleName>canonicus</roleName>, et <roleName>dominus</roleName>
+          <persName ref="#Ildebrandus_canonicus_Pisa">Ildebrandus</persName>,
+            <roleName>prior</roleName>
+          <orgName ref="Pisa_S_Sisto">Sancti Sixti</orgName>
+          <placeName ref="#Pisa">Pisani</placeName>, absolvunt et absolutum pronunciaverunt dictum
+          dominum episcopum, quantum ad cautelam secundum predicte interlocutorie scientiam.</p>
+        <p xml:id="DXLVI_p_004" n="4"><ptr target="DXLVI_st_001"/>Ego <persName
+            ref="#Symon_iudex_notarius">Symon</persName>, <roleName>domini Frederici Romanorum
+            imperatoris iudex et notarius</roleName>, hiis interfui et hec rogatus scripsi et
+          firmavi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

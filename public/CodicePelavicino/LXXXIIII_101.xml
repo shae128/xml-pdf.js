@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="LXXXIIII_101">
+		<front xml:id="LXXXIIII_front">
+
+			<titlePart type="numerazioneNuova">101</titlePart>
+			<titlePart type="numerazioneOrig">LXXXIIII</titlePart>
+
+			<docDate xml:id="LXXXIIII_docDate">
+				<date when="1236-10-25">1236 ottobre 25</date>, <placeName ref="#Sarzana">Sarzana
+						(<term xml:lang="latin">in burgo Sarzane, ante domum Boninsegne quondam
+						Furditoris</term>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="LXXXIIII_regesto">
+				<p>Avendo Bonencontro di Nicola del fu Martino confessato di fronte a Bonapace,
+					giudice e vicario di Gualteroto, podestà delle terre del vescovo di Luni, di non
+					avere alcun diritto sul podere di Gerardeto del fu Zacone, villano del vescovo,
+					e avendo il gastaldo del vescovo Codagorgio chiestogli di rinunciare a detto
+					podere, Bonapace gli ordina di farlo.</p>
+			</div>
+
+			<div type="footer" xml:id="LXXXIIII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] c. 202r., c. CLXXXXIIIIr. secondo la numerazione originale.</p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione parziale in <ref type="biblio" target="#LUPO_GENTILE_1912">LUPO
+							GENTILE 1912</ref>, n. 84, p. 117.</p>
+				</div>
+
+				<div type="crit_notes">
+					<p/>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">LXXXIIII. Precepti Codorgollii castaldionis.
+						</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="LXXXIIII_div">
+				<pb n="202r" xml:id="fol_202r"/>
+				<p xml:id="LXXXIIII_p_001"> In nomine Domini, amen. <date when="1236-10-25">Anno a
+						nativitate ipsius M°CCXXXVI°, indictione IXa, VIII° kalendas
+						novembris</date>. Cum <persName ref="#BonencontrusMartini">Bonencontrus de
+							<placeName ref="#Nicola">Nichola</placeName> quondam Martini</persName>
+					foret confessus coram <persName ref="#Bonapax_iudex">Bonapace, <roleName>iudice
+							et vicario</roleName></persName>
+					<roleName>domini <persName ref="#Gualterotus_potestas">Gualteroti</persName>,
+						potestatis terrarum Lunensis episcopi</roleName>, nullum ius habere in
+					terra, podere, rebus et bonis quondam <persName ref="#GerardetusZaconi"
+						>Gerardeti quondam Zaconi, <roleName>villani domini
+						episcopi</roleName></persName>, et <persName ref="#Codadorgius_cas"
+						>Codargogius, <roleName>castaldio ipsius episcopi</roleName></persName>, pro
+					ipso episcopo et episcopatu peteret ab ipso <persName ref="#BonencontrusMartini"
+						>Bonencontro</persName> ut dimitteret dictum podere, terras et bona omnia
+					ipsius poderis eidem domino episcopo et episcopatui et ipsi <persName
+						ref="#Codadorgius_cas">Codargogio</persName> pro ipso domino episcopo libere
+					et exbligata <note xml:id="LXXXIIII_n_001" n="a" place="foot">libere et
+						exbligata: <emph>così nel testo</emph>.</note>, nec in eis amplius moraretur
+					nec laboraret vel detineret ipsa contra voluntatem domini episcopi et
+					suprascripti <persName ref="#Codadorgius_cas">Codargogii</persName>, et ipse
+						<persName ref="#BonencontrusMartini">Bonencontrus</persName> foret
+					confessus, ut dictum est, dictus <persName ref="#Bonapax_iudex"
+						>Bonapax</persName> precepit eidem <persName ref="#BonencontrusMartini"
+						>Bonencontro</persName>, sub nomine iuramenti et ad bannum <measure
+						type="imperiales" quantity="100" unit="denarius">soldorum C
+						imperialium</measure>, ut ipse <persName ref="#BonencontrusMartini"
+						>Bonencontrus</persName> deinceps non teneat vel laboret dictum podere <note
+						xml:id="LXXXIIII_n_002" n="b" place="foot">podere:<emph>nel manoscritto con
+							segno generico di abbreviazione superfluo.</emph>.</note> et res et bona
+					nec ea litiget vel molestet ipsi domino episcopo et episcopatui et suprascripto
+						<persName ref="#Codadorgius_cas">Codargogio</persName>, nec in eo amplius
+					stet contra voluntatem ipsius domini episcopi vel <persName
+						ref="#Codadorgius_cas">Codargogii</persName> suprascripti. </p>
+				<p xml:id="LXXXIIII_p_002"> Actum in burgo <placeName ref="#Sarzana"
+						>Sarzane</placeName>, ante domum <persName ref="#BonensegnaFurditoris"
+						>Boninsegne quondam Furditoris</persName>, sollempniter, presentibus
+						<persName ref="#GualdusSte">Gualdo de <placeName ref="#Santo_Stefano">Sancto
+							Stephano</placeName></persName>, <persName ref="#DatusProvinzale">Dato
+						Provinzale de <placeName ref="#Sarzana">Sarzana</placeName></persName>,
+						<persName ref="#MartinusParotto">Martino Parotto</persName> et aliis
+					pluribus testibus, ad hec rogatis. </p>
+				<p xml:id="LXXXIIII_p_003">
+					<ptr target="LXXXIIII_st_001"/>Ego <persName ref="#IacopinusTalliavachanot"
+						>Iacopinus, qui nominor Talliavacca, <roleName>palatii sacri
+							notarius</roleName></persName>, hiis interfui et rogatus scripsi </p>
+			</div>
+		</body>
+	</text>
+</TEI>

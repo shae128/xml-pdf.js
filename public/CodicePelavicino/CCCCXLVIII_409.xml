@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="409(CCCCXLVIII).xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXLVIII_409">
+    <front xml:id="CCCCXLVIII_front">
+      <titlePart type="numerazioneNuova">409</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXLVIII</titlePart>
+      <docDate xml:id="CCCCXLVIII_docDate">
+        <date when="1235-05-31">1235 maggio 31</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in cassaro castri Sarzane</term>)</emph></placeName>
+      </docDate>
+      <div type="regesto" xml:id="CCCCXLVIII_regesto">
+        <p>Possedendo il vescovo di Luni Guglielmo metà <term xml:lang="latin">pro indiviso</term>
+          di tutti i vassalli e uomini una volta tenuti a Vezzano da Vivaldo e Corrado <term
+            xml:lang="latin">del fu Lamberto</term> e volendo entrambe le parti definire la
+          divisione si stabilisce che Vivaldo e Corrado procedano alla divisione in due parti e poi
+          il vescovo scelga la sua I vassalli delle due parti vengono nominalmente elencati. <term
+            xml:lang="latin"/>
+        </p>
+      </div>
+      <div type="footer" xml:id="CCCCXLVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 350r.-350v., cc. CCCXLIr.-CCCXLIv. secondo la numerazione originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref type="biblio" target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 448, pp.457-459. Bibliografia in <ref type="biblio"
+              target="#PETTI_BALBI_1978">PETTI BALBI 1978</ref>, <ref target="#NOBILI_2007">NOBILI
+              2007</ref> pp.437-441. </p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Come segnala MAZZINI 1914, il documento presenta <term xml:lang="latin"><emph> die
+                iovis pridie aprilis</emph></term> cioè 31 marzo 1235, ma in quest’anno l’ultimo
+            giorno di marzo cadeva di sabato e non di giovedì, perciò dobbiamo correggere la data in
+              <term xml:lang="latin"><emph>pridie iunii</emph></term>, cioè 31 maggio, giovedì, a
+            meno che non sia sbagliato il giorno della settimana. .</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              XLIII. Sententie arbitri inter dominum episcopum et dominos de Veçano. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXLVIII_div">
+        <p xml:id="CCCCXLVIII_p_001" n="1"> In Ihesu Christi Dei eterni nomine, amen. <date
+            when="1235-05-31">Dominice nativitatis anno M°CCXXXV, indictione VIII, die iovis, pridie
+            aprilis</date>, in cassaro <placeName ref="#Sarzanello">castri Sarzane</placeName>,
+          presentibus <roleName>domino</roleName>
+          <persName ref="#Bonaiunctaarc">Bonaiuncta </persName>
+          <roleName>archipresbytero Lunensi</roleName>, <persName ref="#Ugolinuscan">Ugolino </persName>
+          <roleName>Lunensi canonico</roleName>, <roleName>domino </roleName>
+          <persName ref="#SaladinusFosdenova"> Saladino de <placeName ref="#Fosdinovo"
+              >Fosdenova</placeName></persName> et <roleName>domino</roleName>
+          <persName ref="#Albertusvic">Alberto</persName>
+          <roleName>vicedomino</roleName>. Omnibus audientibus patefiat quod, cum venerabilis pater
+          dominus <persName ref="#GuilEpLuni">Guilielmus</persName>, <roleName>Dei gratia Lunensis
+            episcopus</roleName>, haberet et possideret vel quasi, nomine episcopalis mense,
+          medietatem pro indiviso omnium vassallorum et hominum seu villanorum et bonorum ipsorum,
+          qui olim tenebantur in <placeName ref="#Vezzano">Vezano</placeName> et districtu
+            <placeName ref="#Vezzano">Vezani</placeName> per <persName ref="#VivaldusLamberti"
+            >Vivaldum</persName> et <persName ref="Conradus">Conradum, filios quondam
+            Lamberti</persName>, et ipsorum omnium medietatem, de voluntate predictorum fratrum, in
+          proprietatem et possessionem vel dominicum seu demanium suum et episcopalis mense
+          revocaverit vel acquisiverit, volentes, tam<note n="a" place="foot"
+            xml:id="CCCCCXLVIII_n_01">a<emph>corretto su precedente lettera</emph></note> idem
+          dominus episcopus quam prefati germani, ipsos et eorum bona inter se dividere, pacti sunt
+          quod ipsi germani, videlicet <persName ref="#VivaldusLamberti">Vivaldus</persName> et
+            <persName ref="#Conradus">Conradus</persName>, de predictis communibus vassallis,
+          hominibus seu villanis et eorum bonis faciant duas partes, et electio ad dictum dominum
+          episcopum pro episcopatu pertineat. Ita videlicet quod, factis partibus a predictis
+          germanis, illa pars, quam idem dominus episcopus elegerit, ad ipsum et episcopatum
+          perpetuo libere pertineat et in eis nullum ius dicti germani sibi retineant vel reservent,
+          sed quicquid iuris in ipsis habent totum mandent et cedant ipsi domino pro episcopatu;
+          illam vero partem, <pb n="350v" xml:id="fol_350v"/> quam<note n="b" place="foot"
+            xml:id="CCCCXLVIII_n_02">quam: <emph>corretto su</emph> quod </note> remanserit, teneant
+          dicti germani iure feudi, sicuti antea ab episcopatu tenebant, et idem dominus episcopus
+          nichil in ipsa parte vendicet ratione donici vel demanii, set tantum id sibi reservat
+          quantum domini habere debent de iure in feudo quod ab eis tenetur ex hoc pacto, videlicet
+          quod dicti germani debent dividere et idem dominus episcopus eligere. Concessit eis ipse
+          dominus episcopus <persName ref="#Conetus">Conectum</persName> communem vassallorum, cum
+          omnibus que ad ipsum pertinebant, in <placeName ref="#Vezzano">Vezano</placeName> et
+          districtu <placeName ref="#Vezzano">Vezani</placeName>, sicque dicti germani <persName
+            ref="#VivaldusLamberti">Vivaldus</persName> et <persName ref="#Conradus"
+            >Conradus</persName>, formam pacti conventi sequentes, ex omnibus communibus vassallis,
+          hominibus et villanis et eorum bonis, quos ipsi et predictus dominus episcopus communiter
+          habebant et possidebant vel quasi in Vezano et districtu Vezani, fecerunt duas partes
+          communiter in hunc modum: ut, videlicet, in una parte fuit <persName
+            ref="#IohanninusParente">Iohanninus de Parente</persName>, <persName
+            ref="#CorvarinusPelegrini">Corvarinus et frater, filii quondam Pelegrini de <placeName
+              ref="#MonteRegulo">Monte Regulo</placeName></persName>, <persName
+            ref="#IacopinusAlamanni">Iacopinus quondam Alamanni</persName>, medietas heredum
+            <persName ref="#PetrusBernardo">Petri de Bernardo</persName>, <persName
+            ref="#DetesalveCaneva">Detesalve de <placeName ref="#Caneva"
+            >Caneva</placeName></persName> et <persName ref="#Tavarellus">Tavarellus</persName>,
+            <persName ref="#AlbergetusStadia">Albergetus de <placeName ref="#Stadia"
+              >Stadia</placeName></persName>, <persName ref="#PortonnariusCobia">Portonnarius de
+              <placeName ref="#Cobia">Cobia</placeName></persName>, <persName ref="#Bonafesta"
+            >Bonafesta</persName>, <persName ref="#Paganellus">Paganellus</persName>, <persName
+            ref="#VivianusAndrioli">Vivianus et frater eius, filii Andrioli de <placeName
+              ref="#Cocomola">Cocomola</placeName></persName>, <persName ref="#Rollandinus"
+            >Rollandinus</persName>, <persName ref="#Ponzalettus">Ponzalettus</persName>, <persName
+            ref="#Bertholotus">Bertholotus</persName>, <persName ref="#Albertoçcus"
+            >Albertoçcus</persName>, <persName ref="#Bellometus">filius Bellometi</persName>,
+            <persName ref="#GuilielminusMellaroli">Guilielminus Mellaroli</persName>, <persName
+            ref="#Guilelçonetus">Guilelçonetus</persName>, <persName ref="#PetrusEgidii">Petrus
+            Egidii</persName>, <persName ref="#AlbergusRainaldini">Albergus</persName> et <persName
+            ref="#ArduinusRainaldini">Arduinus quondam Rainaldini de <placeName ref="#Plaça">la
+              Piaça</placeName></persName>, <persName ref="#Salvetus">Salvetus</persName> cum fratre
+          suo minori, <persName ref="#SusnusBenvenuti">Susanus</persName> et <persName
+            ref="#VezaninusBenvenuti">Vezaninus</persName>, <persName ref="#TocçusBenvenuti">Tocçus,
+            filii Benvenuti de Fraymundo</persName>, <persName ref="#GuilielminusMatelda"
+            >Guilielminus de Matelda</persName> et <persName ref="#MercadanteParente">Mercadante de
+            Parente</persName>, cum omnibus eorum bonis; et, ex secunda parte, <persName
+            ref="#Bonensegna">Bonensigna</persName>, filii <persName ref="#MartinellusMonteRegulo"
+            >Martinelli de <placeName ref="#MonteRegulo">Monte Regulo</placeName></persName>,
+            <persName ref="#GuilielminusIohannini">Guilielminus frater Iohannini</persName>
+          predicti, alia medietas heredum dicti <persName ref="#PetrusBernardo">Petri</persName>,
+            <persName ref="#RaimundinusStabia">Raimundinus de <placeName ref="#Stabia"
+              >Stabia</placeName></persName>, <persName ref="#ParentellusAlcaroti">Parentellus
+            filius Alcaroti</persName>, <persName ref="#FancelletusAlbergi">Fancelletus frater dicti
+            Albergi</persName>, <persName ref="#Benvenutus">Benvenutus</persName>, <persName
+            ref="#Mainerius">Mainerius</persName>, <persName ref="#Valentinus"
+          >Valentinus</persName>, <persName ref="#Benvenutus">Benvenutus</persName>, <persName
+            ref="#Galegoptus">Galegoptus</persName>, <persName ref="#Adornetus"
+          >Adornetus</persName>, <persName ref="#Hengelensis">Enghelese</persName>, <persName
+            ref="#Compagnonus">Compagnonus</persName>, <persName ref="#MorandusGuitoni">Morandus
+            Guitoni</persName>, filii <persName ref="#Guilielmotus">Guilielmoti</persName>,
+            <persName ref="#Bonafesta">Bonafesta</persName>, <persName ref="#Confortinus"
+            >Confortinus</persName>, <persName ref="#Tholomeus">Tholomeus</persName>, <persName
+            ref="#VivaldetusConvenuti">Vivaldetus quondam Convenuti</persName>, <persName
+            ref="#Valerianus">Valerianus</persName>, <persName ref="#BonafidesConvenuto">Bonafides
+            de Convenuto</persName>, <persName ref="#Pentus">Pentus</persName>, <persName
+            ref="#BernardetusCocomola">Bernadetus de <placeName ref="#Cocomola"
+            >Cocomola</placeName></persName>, <persName ref="#BernardetusLaPiaça">Bernadetus de
+              <placeName ref="#Placa">la Piaça</placeName>
+            <note n="c" place="foot" xml:id="CCCCXLVIII_03"><emph> Nel manoscritto</emph>La
+                Pieça<emph>con</emph>a<emph> corretto in sopralinea su</emph> e
+              <emph>espunto</emph>.</note></persName> et <persName ref="#Fuscus"
+          >Fuschius</persName>. Isti omnes cum omnibus eorum bonis. Post hec, incontinenti, prefatus
+          venerabilis dominus <persName ref="#Guilielmus">Guilielmus</persName>, <roleName>Lunensis
+            episcopus</roleName>, suo et episcopatus nomine, elegit in partem propriam pro diviso
+          dictum <persName ref="#IohanninusParente">Iohannetum</persName>
+          <note n="d" place="foot" xml:id="CCCCXLVIII_04"><emph>così nel testo in riferimento a
+            </emph>Iohanninus de Parente</note> et ceteros positos seu nominatos in illa parte, cum
+          rebus ad ipsos ubique pertinentibus; et dicti germani receperunt sibi pro divisa parte
+            <persName ref="#Bonensegna">Bonensignam</persName> et ceteros positos seu nominatos in
+          ipsa parte. Et idem dominus episcopus et predicti germani, ad invicem, secundum ipsam
+          divisionem et electionem, cesserunt sibi ad invicem iura et actiones reales et personales
+          et mixtas, ut sic idem dominus episcopus habeat suam partem pro diviso et dicti germani
+          suam, sicut antea habebant, pro indiviso, communem. Et promiserunt sibi ad invicem, idem
+          dominus episcopus et dicti germani, divisiones seu partes superius factas et electionem et
+          omnia et singula, que superius continentur, habere et tenere rata et firma in perpetuum et
+          inconcessa et nullo tempore contravenire aliquo modo vel ingenio, per se vel submissam
+          personam, ad penam <measure type="imperialum" quantity="100" unit="librarum">C librarum
+            imperialium</measure>, que tociens committatur et possit exigi cum effectu quociens in
+          singulis capitulis vel aliquo premissorum fuerit contrafactum; et, pena soluta, omnia et
+          singula perpetuo in sua permaneant firmitate, obligando ad hec, sollempni stipulatione
+          interveniente, idem dominus episcopus se et suos successores et fructus episcopatus et
+          dicti germani se suosque heredes et eorum bona, presentia et futura; et, si plus valeret
+          una partium altera, sibi ad invicem donaverunt id quod plus valent inrevocabiliter inter
+          vivos; et renunciavit pars parti omni legum et iuris auxilio quo se posset deffendere vel
+          tueri contra predicta vel aliquod premissorum. </p>
+        <p xml:id="CCCCXLVIII_p_002" n="2">
+          <ptr target="#CCCCXLVIII_st_001"/>Ego <persName ref="#Bonalbergusnot4"
+            >Bonalbergus</persName>, <roleName>imperialis aule notarius</roleName>, hiis omnibus
+          interfui et rogatus scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

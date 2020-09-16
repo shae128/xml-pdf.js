@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXXVII_488">
+    <front xml:id="DXXVII_front">
+
+      <titlePart type="numerazioneNuova">488</titlePart>
+      <titlePart type="numerazioneOrig">DXXVII</titlePart>
+
+      <docDate xml:id="DXXVII_docDate">
+        <date when="1181-04-16">1181 aprile 16</date>, <placeName>Santo Stefano Magra (<term
+            xml:lang="latin">apud Sanctum Stephanum, in ecclesia eiusdem loci</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="DXXVII_regesto">
+        <p>Su mandato dell’abate di Sesto, il canonico lucchese Rollando de Bacciano interroga
+          alcuni testimoni sui diritti della curia Lunense sul monastero di Aulla.</p>
+      </div>
+
+      <div type="footer" xml:id="DXXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 392r.-392v., cc. CCCLXXXIIIIr.-CCCLXXXIIIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#PODESTÀ_1894">PODESTÀ 1894</ref>, pp. 60-61 e <ref
+              target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 527, pp. 585-587, con la data
+            15 aprile. Il XVI kalendas madii corrisponde al 16 e non al 15 aprile: cfr. <ref
+              target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 35. </p>
+        </div>
+
+        <div type="crit_notes">
+          <note> Nel margine superiore, al centro: <term xml:lang="latin">De Avula</term>. Nel
+            margine esterno, di mano moderna: <term xml:lang="latin">contra abbatem
+            Avulensem</term>. In calce a c. 392v., di mano posteriore, le prime parole del fascicolo
+            successivo: <term xml:lang="latin">Innocentius servus servorum Dei</term></note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXXVII.
+              Testes ad ecternam rei memoriam producti super iuribus que Lunensis episcopus et
+              ecclesia habent in monasterio de Avula. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXXVII_div">
+
+        <p xml:id="DXXVII_p_002" n="2">
+          <ptr target="#DXXVII_st_001"/>
+          <date when="1181-04-16">Anno dominice incarnationis M°C octogesimo primo, indictione
+            XIIII</date>, apud <placeName ref="#Santo_Stefano">Sanctum Stephanum</placeName>, in
+            <orgName ref="#S_Stefano_Magra">ecclesia</orgName> eiusdem loci, XVI kalendas madii.
+          Testes recepti: </p>
+        <p xml:id="DXXVII_p_003" n="3">§ <roleName>Presbyter</roleName>
+          <persName ref="#Henrriguspres2">Henricus</persName>, iuratus, dixit quod, cum
+            <roleName>episcopus</roleName>
+          <persName ref="#PhilippusEpLuni3">Philippus</persName> eger esset pedibus et non posset
+          ire <placeName ref="#Aulla">Avulam</placeName> pro consecranda ecclesia, misit pro se
+            <roleName>episcopo</roleName>
+          <placeName ref="#Parma">Parmensi</placeName>
+          <persName ref="#BernardusEpParma">Bernardo</persName>, sancte memorie, ut veniret et pro
+          se ecclesie consecrationem faceret. Qui venit <placeName ref="#Aulla">Avulam</placeName>
+          et pro episcopo Lunensi consecravit <orgName ref="#Aulla_S_Caprasio">ecclesiam Avulensem
+            Sancti Kaprasii</orgName> et consecrationes altarium celebravit et tunc
+            <roleName>abbatem</roleName> eiusdem ecclesie, nomine <persName ref="#Ildeprandusabbas"
+            >Ildeprandum</persName>, pro ipso episcopo Lunensi benedixit; et hoc factum est anni
+          sunt L et ultra. Succedente vero <roleName>abbate</roleName>
+          <persName ref="#Gausoabbas">Gausone</persName>, tempore <roleName>episcopi</roleName>
+          <persName ref="#GotefredEpLuni2">Gotefredi</persName>, controversia fuit de recipienda
+          benedictione. Nam <roleName>episcopus</roleName>
+          <persName ref="#GotefredEpLuni2">Gotefredus</persName> volebat eum benedicere, ille vero
+          econtra dicebat se ab eo non debere benedici, set a summo pontifice. Propter quod
+            controversiam<note xml:id="DXXVII_n_001" n="a" place="foot">quod controversiam:
+              <emph>così nel testo</emph>.</note> predictus episcopus et abbas iverunt <placeName
+            ref="#Roma">Romam</placeName> et producti sunt testes coram domino papa, videlicet
+          archipresbyter de <placeName ref="#Berceto">Berceto</placeName> et abbas <placeName
+            ref="#Ceparana">Cepparane</placeName>, quibus auditis dominus papa pronunciavit abbatem
+          benedici debere a predicto episcopo: quod et postea factum est. Postea vero vidit
+            <roleName>abbatem</roleName>
+          <persName ref="#Henricusabbas">Henricum</persName> venire ad recipiendam benedictionem a
+          Lunensi episcopo. Interrogatus si episcopi Lunenses consueverant recipi in <orgName
+            ref="#Aulla_S_Caprasio">monasterio Avulensi</orgName>, respondit: episcopi hospitabantur
+          in burgo <placeName ref="#Aulla">Avulensi</placeName>, set semel vidit
+            <roleName>episcopum</roleName>
+          <persName ref="#GotefredEpLuni2">Gotefredum</persName> comedentem in monasterio, in camera
+          abbatis, cum aliquantis de suis, VI vel VIII vel X, aliis remanentibus in burgo.
+          Interrogatus si abbates dabant annonam equitaturis episcopi, respondit quod non vidit
+          dari; dixit tamen quod panem, vinum, mortoriola, olera, poma sepe vidit dari. Interrogatus
+          si ex debito hec facere tenebantur, respondit quod credit quod tenebantur propter
+          beneficia que percipiebant a Lunensi ecclesia, scilicet et populum Avulensem et de
+            <placeName ref="#Campo_Iohannis">Campo Iohannis</placeName>, <placeName ref="#Formicoso"
+            >Formicoso</placeName>, de <placeName ref="#Burcione">Burtione</placeName> et <placeName
+            ref="#Bibola">Bibula</placeName> et <placeName ref="#Barbarasco">Barbarasco</placeName>
+          et de <placeName ref="#Podentiana">Pontentiana</placeName> et de <placeName ref="#Ulmeta"
+            >Ulmeta</placeName>; dixit tamen quod monachi dicebant quod ex amore faciebant. Ipse
+          vero dixit se credere quod ex debito faciebant, quia sepe faciebant et episcopus eorum
+          erat; et dixit quod ecclesia Avulensis baptismum, crisma, oleum sanctum et consecrationes
+          ecclesie et altarium et ordinationes clericorum ab an<supplied reason="omitted"
+            >tedicto</supplied> episcopo ex antiquo habuit, et dixit quod ad synodum Lunensis
+          episcopi venire consuevit<note xml:id="DXXVII_n_002" n="b" place="foot">Lunensis episcopi
+            venire consuevit: <emph>nel testo</emph> venire consuevit Lunensis episcopi <emph>con
+              segno di richiamo per invertire l’ordine delle parole</emph>.</note> abbas Avulensis.
+          Interrogatus si vidit manualem obedientiam fieri episcopo ab aliquo predictorum abbatum,
+          respondit quod non vidit et dixit quod <roleName>abbas</roleName>
+          <persName ref="#Henricusabbas">Henricus</persName>, post benedictionem susceptam,
+          discordiam habuit cum <roleName>episcopo</roleName>
+          <persName ref="#GotefredEpLuni2">Gotefredo</persName> et rogavit se
+            <roleName>presbyterum</roleName>
+          <persName ref="#Henrriguspres2">Henricum</persName> et <roleName>presbyterum</roleName>
+          <persName ref="#Olivariuspres">Olivarium</persName> ut irent ad episcopum et componerent
+          inter se et episcopum. Qui venerunt ad episcopum et, eis intercedentibus, episcopus
+          recepit abbatem in osculo pacis et tunc donavit abbas episcopo quatuor bizantios et ex
+          tunc habuit abbas plenam gratiam. Et postea donanavit<note xml:id="DXXVII_n_003" n="c"
+            place="foot">donanavit: <emph>così nel testo per</emph> donavit.</note> idem abbas
+            <roleName>episcopo</roleName>
+          <persName ref="#AlbertusEpLuni">Alberto</persName>
+          <term ref="#palafredus">palafredum</term>
+          <term ref="#falanus">falanum</term>.</p>
+        <p xml:id="DXXVII_p_004" n="4">§ Archipresbyter de <placeName ref="#Crespiano"
+            >Crisplano</placeName>, iuratus, dixit idem de victualibus receptis a familia episcopi
+          in monasterio et quod deferebantur in burgo <supplied reason="omitted">idem</supplied>
+          quod <roleName>presbyter</roleName>
+          <persName ref="#Henrriguspres2">Henricus</persName>, excepto quod non vidit episcopum
+          comedentem in monasterio; <pb n="392v" xml:id="fol_392v"/> de crismate, oleo et
+          ordinatione clericorum et synodo idem; de consecratione abbatum audivit; de obediencia
+          abbatum dixit quod audivit quod controversia fuit inter <roleName>abbatem</roleName>
+          <persName ref="#Gausoabbas">Gausonem</persName> et <roleName>episcopum</roleName>
+          <persName ref="#GotefredEpLuni2">Gotefredum</persName> et audivit quod postea, concordia
+          facta inter eos, abbas promisit ei obedientiam. Interrogatus si servicia que faciebant
+          abbates episcopis ex debito fiebant, respondit quod ex debito, sicuti credit, quia
+            <orgName ref="#Aulla_S_Caprasio">ecclesia Avulensis</orgName> recipit multa beneficia ab
+          ecclesia Lunensi, scilicet populum, decimas et oblationes et alia; de palafredo idem
+          dixit.</p>
+        <p xml:id="DXXVII_p_005" n="5">§ <roleName>Presbyter</roleName>
+          <persName ref="#Albertuspres">Albertus</persName>, iuratus, dixit quod tempore
+            <roleName>abbatis</roleName>
+          <persName ref="#Gausoabbas">Gausonis</persName> vidit <roleName>episcopum</roleName>
+          <persName ref="#GotefredEpLuni2">Gotefredum</persName> comedentem semel ad prandium in
+          refectorio monachorum cum multis, ad minus XXX, et ipsemet fuit unus ex eis; de
+          ordinatione, consecratione et synodo et de controversia <roleName>abbatis</roleName>
+          <persName ref="#Gausoabbas">Gausonis</persName> et <roleName>episcopi</roleName>
+          <persName ref="#GotefredEpLuni2">Gotefredi</persName> et concordia facta inter eos et de
+          benedictione idem quod archipresbyter de <placeName ref="#Crespiano"
+          >Crisplano</placeName>; de obedientia nichil scit<note xml:id="DXXVII_n_004" n="d"
+            place="foot">obedientia nichil scit: <emph>nel testo</emph> nichil scit obedientia
+              <emph>con segno di richiamo per invertire l’ordine</emph>. </note>. Interrogatus si
+          serviebant ex debito, respondit sicut et ille; preterea dixit quod quidem de monachis
+            <orgName ref="#Aulla_S_Caprasio">Sancti Kaprasii</orgName> ostendit ei scriptum quoddam
+          in quo continebatur, sicut legitur, quod <persName ref="#Adalbertusmar"
+            >Adalbertus</persName>, <roleName>dux et comes</roleName>, hedificavit <orgName
+            ref="#Aulla_S_Caprasio">ecclesiam Avulensem</orgName> et <persName
+            ref="#GalcheriusEpLuni">Galcherius</persName>, <roleName>sancte memorie Lunensis
+            episcopus</roleName>, consecravit ecclesiam et venerabile corpus <persName
+            ref="#Caprasius_san">Sancti Kaprasii</persName> recondidit. </p>
+        <p xml:id="DXXVII_p_006" n="6">§ <persName ref="#Guaraccus_scut">Guaraccus</persName>,
+          iuratus, dixit quod, cum esset <roleName>scutifer episcopi</roleName>
+          <persName ref="#GotefredEpLuni2">Gotefredi</persName> et episcopus iret <placeName
+            ref="#Pontremoli">Pontremulum</placeName> hospitatus in burgo <placeName ref="#Aulla"
+            >Avule</placeName>, in domo quondam <persName ref="#Rodulfinus">Rodulfini</persName>
+          <note xml:id="DXXVII_n_005" n="e" place="foot">Rodulfini: <emph>segue et
+              pleonastico</emph>.</note>, et recepit ab abbate pro ecclesia omnem apparatum [et]
+          panem, vinum, carnes et annonam equorum. Postea, variis vicibus vidit
+            <roleName>episcopum</roleName>
+          <persName ref="#GotefredEpLuni2">Gotefredum</persName> comedentem infra claustrum
+          monasterii, ad minus quater; alia vice vidit eundem episcopum in eodem burgo et in eadem
+          domo recipere ab eodem abbate victui necessaria, scilicet panem, vinum, pisces, olera et
+          annonam equorum; postea vero <roleName>abbas</roleName>
+          <persName ref="#Henricusabbas">Henricus</persName> dedit <persName ref="#AlbertusEpLuni"
+            >Alberto</persName> victui necessaria semel et, cum continuo ibi stetisset per tres
+          dies, semper dedit ei vinum. Interrogatus de obedientia, dixit quod vidit illos duos
+          abbates benedici ab episcopo Lunensi et mittere manus suas in manibus episcopi, et sicut
+          credit pro obedientia. De ordinatione, consecratione, oleo, crismate, synodo sicut alii. </p>
+        <p xml:id="DXXVII_p_007" n="7">§ <persName ref="#Baldinellus">Baldinellus</persName>,
+          iuratus, dixit quod, cum iret cum <roleName>episcopo</roleName>
+          <persName ref="#GotefredEpLuni2">Gotefredo</persName>
+          <placeName ref="#Pontremoli">Pontremulum</placeName>, vidit episcopum comedentem semel
+          infra monasterium ad prandium cum familia sua, set postea, cum esset castaldus et
+          massarius episcopi et inde, impeditus, non posset ire cum episcopo interrogabat sepius
+          familiam episcopi «quomodo fuistis recepti <placeName ref="#Aulla">Avule</placeName> ab
+          abbate», qui respondebant: «bene». De discordia dixit quod episcopus et abbas iverunt
+          Romam et cum redissent audivit episcopum dicentem: «Abbas est ad mandatum meum». </p>
+        <p xml:id="DXXVII_p_009" n="9">§ <persName ref="#Guiliecio">Guilicio</persName>, iuratus,
+          dixit quod, cum esset cum <roleName>episcopo</roleName>
+          <persName ref="#GotefredEpLuni2">Gotefredo</persName> tempore <roleName>abbatis</roleName>
+          <persName ref="#Gausoabbas">Gausonis</persName>, fuit episcopus hospitatus in <orgName
+            ref="#Aulla_S_Caprasio">monasterio Avule</orgName> per tres dies, venerat eum pro
+          discordia que dicebatur esse inter abbatem et fratres eiusdem monasterii, et tunc fuit ibi
+            <persName ref="#GregoriusepiLuc">Gregorius</persName>, <roleName>Lucensis
+            episcopus</roleName>, et tunc habuit <roleName>episcopus</roleName>
+          <persName ref="#GotefredEpLuni2">Gotefredus</persName> victui necessaria a monasterio sibi
+          et hominibus suis et equis; in mensa non erat infra monasterii claustrum. Postea vero
+          revertebatur ad hospicium suum in burgo, in domo quondam <persName ref="#Rodulfinus"
+            >Rodulfini</persName>; et vidit <roleName>abbatem</roleName>
+          <persName ref="#Gausoabbas">Gausonem</persName> benedici ab <roleName>episcopo</roleName>
+          <persName ref="#GotefredEpLuni2">Gotefredo</persName> et <roleName>abbatem</roleName>
+          <persName ref="#Henricusabbas">Henricum</persName> benedici ab
+            <roleName>episcopo</roleName>
+          <persName ref="#AlbertusEpLuni">Alberto</persName> et vidit manus eorum mitti in manus
+          episcoporum quando benedicebantur. De aliis nichil scit.</p>
+        <p xml:id="DXXVII_p_010" n="10">§ <persName ref="#RamondinusBiliolo">Ramundinus de
+              <placeName ref="#Bigliolo">Biliolo</placeName></persName>, iuratus, dixit quod, cum
+          esset serviens <roleName>episcopi</roleName>
+          <persName ref="#GotefredEpLuni2">Gotefredi</persName> tempore <roleName>abbatis</roleName>
+          <persName ref="#Ildeprandusabbas">Ildeprandi</persName>, servivit episcopo in mensa in
+            <orgName ref="#Aulla_S_Caprasio">monasterio Avulensi</orgName>, qui episcopus cum multis
+          comedebat in prandio et alia vice fuit in prandio cum <roleName>episcopo</roleName>
+          <persName ref="#AlbertusEpLuni">Alberto</persName>. Interrogatus si abbates serviebant
+          episcopis ex debito, respondit quod credit, sicut et alie ecclesie episcopatus. De aliis
+          nichil scit.</p>
+        <p xml:id="DXXVII_p_011" n="11">§ <persName ref="#Folbertinus">Folbertinus</persName>,
+          iuratus, dixit quod, cum rediret cum <roleName>episcopo</roleName>
+          <persName ref="#GotefredEpLuni2">Gotefredo</persName>
+          <placeName ref="#Pontremoli">Pontremulo</placeName>, hospitatus est apud <placeName
+            ref="#Aulla">Avulam</placeName>, in domo <persName ref="#Rodulfinus"
+            >Rodulfini</persName>, et tunc episcopus dixit abbati: «Volumus habere hospicium a te»,
+          et abbas respondit: «Domine, omnia fiant ad libitum vestrum secundum posse nostrum», et
+          tunc dedit episcopo duas spatulas carnis et edos IIII, panem et vinum et annonam pro equis
+          et candelas. De aliis nichil scit.</p>
+        <p xml:id="DXXVII_p_012" n="12">§ <persName ref="#Capretus">Capretus</persName>, iuratus,
+          dixit quod, cum iret cum <roleName>episcopo</roleName>
+          <persName ref="#GotefredEpLuni2">Gotefredo</persName>
+          <placeName ref="#Pontremoli">Pontremulum</placeName> pro ecclesia consecranda, vidit
+          episcopum comedentem in prandio in monasterio et habere ibi victui necessaria.
+          Interrogatus de aliis respondit se nichil scire.</p>
+        <p xml:id="DXXVII_p_013" n="13">§ <persName ref="#Ferrarius">Ferrarius</persName>, iuratus,
+          dixit quod fuit cum <roleName>episcopo</roleName>
+          <persName ref="#GotefredEpLuni2">Gotefredo</persName> ad minus X in <orgName
+            ref="#Aulla_S_Caprasio">monasterio Avulensi</orgName> in hospicio, et ipse episcopus
+          recipiebat victui necessaria sibi et hominibus suis, et dixit quod credit quod abbas ex
+          debito faciebat episcopo predicta servicia, sicut alie ecclesie episcopatus; cum
+            <roleName>episcopo</roleName> vero <persName ref="#PipEpLuni">Pipino</persName>
+          multociens ibi comedit. De aliis nichil scit. </p>
+        <p xml:id="DXXVII_p_014" n="14">
+          <ptr target="#DXXVII_st_002"/> Ego <persName ref="#Lombardusnot">Lombardus</persName>,
+            <roleName>notarius imperatoris et Lunensis curie</roleName>, mandato <placeName
+            ref="#Sesto">Sextensiti</placeName> abbatis et <persName ref="#RollandusBacciano"
+            >Rollandi</persName>, <placeName ref="#Luca">Lucani</placeName>
+          <roleName>canonici</roleName>, suprascriptos testes diligenter audivi et, eis presentibus
+          et interrogatis, memorie causa fideliter scripsi.</p>
+        <p xml:id="DXXVII_p_015" n="15">† Ego <roleName>frater</roleName>
+          <persName ref="#Atto_abbas">Atto</persName>, <placeName ref="#Sesto">Sextensis</placeName>
+          <roleName>abbas</roleName>, subscripsi. </p>
+        <p xml:id="DXXVII_p_016" n="16">† Ego <persName ref="#RollandusBacciano">Rollandus de
+              <placeName ref="#Bacciano">Bacciano</placeName></persName> cum domino abbate
+            <placeName ref="#Sesto">Sextensi</placeName> interrogavi suprascriptos testes,
+          subscripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

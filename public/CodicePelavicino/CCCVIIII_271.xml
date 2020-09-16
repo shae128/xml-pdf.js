@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCVIIII_271">
+    <front xml:id="CCCVIIII_front">
+
+      <titlePart type="numerazioneNuova">271</titlePart>
+      <titlePart type="numerazioneOrig">CCCVIIII</titlePart>
+
+      <docDate xml:id="CCCVIIII_docDate">
+        <date when="1205-03-24">1205 marzo 24</date>, <placeName>Luni (<emph>in foro de
+          Luna</emph>)</placeName></docDate>
+
+      <div type="regesto" xml:id="CCCVIIII_regesto">
+        <p>Bonacorso, gastaldo di Gualtiero, vescovo di Luni, loca a Bonacorso, figlio del fu
+          Rollandino di Yliolo, tutto il podere del fu Gusmareto e di Gisla, coniugi, che il vescovo
+          Pietro aveva a suo tempo locato al padre del nuovo locatario. Il fitto, non dichiarato, è
+          quello usuale; la transazione costa 5 soldi. Nel medesimo giorno Bonacorso gastaldo
+          dichiara nulle le pretese di tale Bonfacello del fu Bernolo sul medesimo podere.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 286r.-286v., cc. CCLXXVIIIr.-CCLXXVIIIv secondo la numerazione
+            originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 309,
+            pp. 288 - 289.</p>
+        </div>
+
+        <div type="crit_notes"> </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCVIIII. Locationis Bonacursi Rolandini predicti de Ygiolo. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCVIIII_div">
+        <p xml:id="CCCVIIII_p_001" n="1"><ptr target="#CCCVIIII_st_001"/> In nomine Domini, amen.
+            <date when="1205-03-24">Anno a nativitate Eius millesimo CCV, indictione VIII, die
+            iovis, IX kalendas aprilis</date>. Ego <persName ref="#Bonacursus"
+          >Bonacursus</persName>, <roleName>castaldio</roleName> domini <persName ref="#GualEpLuni"
+            >Walterii, <roleName>Dei gratia Lunensis episcopi</roleName></persName> venerabilis, in
+          curia de <placeName ref="#Luni">Luna</placeName> et de <placeName ref="#Sarzana"
+            >Sarzana</placeName>, vice et nomine eiusdem domini episcopi, confirmo tibi <persName
+            ref="#Bonacursus">Bonacurso</persName>, homini Lunensis curie, filio quondam <persName
+            ref="#RollandinusYliolo">Rollandini de <placeName ref="#Yliolo"
+            >Yliolo</placeName></persName>, recipienti pro te tuisque heredibus, nominatim, totum
+          podere quod fuit quondam <persName ref="#Gunsmaretus">Gunsmareti</persName> et <persName
+            ref="#Gisla">Gisle</persName>, iugalium, et quod podere quondam dominus <persName
+            ref="#PetrusEpLuni">Petrus, <roleName>Lunensis episcopus</roleName></persName>, patri
+          tuo locaverat et concesserat, quantumcumque sit illud podere, ubicumque sit, tam in plano
+          quam in monte, <pb n="286v" xml:id="fol_286v"/> tam in domesticis quam in silvestribus
+          locis, agrum, cultum, plenum et vacuum, divisum et indivisum et quicquid de hoc alicubi
+          repertum fuerit, ut tu tuique heredes amodo perpetuo debeatis habere, tenere, frui et
+          possidere, meliorando et non peiorando totum dictum podere, sicut superius legitur, in
+          integrum, cum accessibus et regressibus suis et omnibus suis pertinenciis, in integrum,
+          sine alicuius aliqua contradictione et cum mea meorumque successorum rationabili
+          deffensione ab omni persona vel restauratione facienda in consimili loco, in arbitrio
+          bonorum hominum, prout tunc valuerit, dando, reddendo et faciendo inde annuatim Lunensi
+          curie illas condictiones, redditus et servicia que de ipso podere solent dari, reddi et
+          fieri tantum; alia superimposita non fiat. Pro hac confirmatione confiteor me recepisse a
+          te pro domino episcopo <measure quantity="5" unit="solidus">soldos V</measure>,
+          renunciando exceptioni non numerate pecunie.</p>
+        <p xml:id="CCCVIIII_p_002" n="2">Actum in foro de <placeName ref="#Luni">Luna</placeName>,
+          feliciter, cum stipulatione, presentibus <persName ref="#GuilielminusPilloti">Guilielmino
+            Pilloto <roleName>scario</roleName></persName>, <persName ref="#UgolinusVeç">Ugolino de
+              <placeName ref="#Veçale">Veçale</placeName></persName> et <persName
+            ref="#LanfranchinusSanT">Lanfranchino de <placeName ref="#SanTerenzo">Sancto
+              Terencio</placeName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCCVIIII_p_003" n="3">In eodem die, in dicto foro, coram dicto <persName
+            ref="#GuilielminusPilloti">Guilielmino Pilloto</persName> et <persName
+            ref="#PeregrinusPal">Peregrino de <placeName ref="#Padule"
+          >Palude</placeName></persName>, rogatis testibus, dictus <persName ref="#Bonacursus"
+            >Bonacursus</persName>
+          <roleName>castaldio</roleName> fuit confessus et dixit se reddidisse sententiam de dicto
+          podere pro dicto <persName ref="#Bonacursus">Bonacurso</persName> contra <persName
+            ref="#BonfancellusBernoli">Bonfancellum quondam Bernoli</persName> et se vidisse et
+          cognovisse quod ipse <persName ref="#BonfancellusBernoli">Bonfancellus</persName> nullum
+          ius habebat in ipso podere.</p>
+        <p xml:id="CCCVIIII_p_004" n="4">Ego <persName ref="#Ugolinusnot">Ugolinus, <roleName>sacri
+              palatii notarius</roleName></persName>, hiis interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

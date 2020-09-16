@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXVI_228">
+    <front xml:id="CCLXVI_front">
+
+      <titlePart type="numerazioneNuova">228</titlePart>
+      <titlePart type="numerazioneOrig">CCLXVI</titlePart>
+
+      <docDate xml:id="CCLXVI_docDate">
+        <date when="1241-03-03">1241 marzo 3</date>, <placeName>Castelnuovo Magra <emph>(<term
+              xml:lang="latin">in Castro Novo, iuxta portam ad banca</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXVI_regesto">
+        <p>Elenco dei censi dovuti al vescovo di Luni dagli uomini di Castelnuovo.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 269v.-270r., cc. CCLXIv.-CCLXIIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 266,
+            p. 246.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note><p>Nel margine superiore, al centro: <term xml:lang="latin">De Castro Novo</term>;
+              alla sua sinistra di mano moderna: <term xml:lang="latin">Reditus</term>.</p>
+            <p> La minuta di questo elenco è stata scritta all’epoca del vescovo Guglielmo, mentre
+              la redazione definitiva si deve al vescovo Enrico da Fucecchio (1273-1297) per mano
+              del notaio Attolino.</p></note>
+        </div>
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXVI_div">
+
+        <p xml:id="CCLXVI_p_002" n="2">In nomine Domini, amen. Iste sunt condictiones curie
+          Lunensis, quas reddunt homines de <placeName ref="#CastelnuovoMagra">Castro
+            Novo</placeName>, videlicet: heredes quondam <persName ref="#Bellonus"
+            >Belloni</persName> annuatim sextarium I et I quartum frumenti; item <persName
+            ref="#UgolinusBellosa">Ugolinus de Bellosa</persName>, pro filia sua <persName
+            ref="#Boncadosa">Boncadosa</persName>, annuatim I sextarium frumenti et I quartum; item
+            <persName ref="#BonsingusAnnoboni">Bonsingus quondam Annoboni</persName>, pro uxore sua
+            <persName ref="#Vicina">Vicina</persName>, annuatim I sextarium ordei et I gallinam et
+          II pullos; item <persName ref="#GuidoCassano">Guido de <placeName ref="#Casano"
+              >Cassano</placeName></persName> I sextarium frumenti; item <persName
+            ref="#DuransBonevite">Durante quondam Bonevite</persName>, cum fratre suo <persName
+            ref="#MelioreBonevite">Meliore</persName>, annuatim sextaria II frumenti; item <persName
+            ref="#PetrusDonata">Petrus de Donata</persName>, pro uxore sua <persName ref="#Donna"
+            >Donna</persName>, sextarium I et medium frumenti annuatim; item <persName
+            ref="#GuidetusVenture">Guidetus Rubeus quondam Venture</persName>, cum nepotibus suis,
+          medium sextarium ordei, et ita confessa est <persName ref="#Rosada">Rosada, mater filiorum
+            quondam Alberti</persName>; item <persName ref="#Carandus">Carandus</persName>, pro
+          podere uxoris sue <persName ref="#Septembrina">Septembrine</persName>, denarios<note
+            place="foot" n="a" xml:id="CCLXVI_n_001"><term xml:lang="latin">Denarios</term><emph>:
+              manca l’indicazione.</emph></note> pensionis et medietatem musti et olei de <placeName
+            ref="#CafadioBaruçoli">Cafadio</placeName> et <placeName ref="#Costa">Costa</placeName>;
+          item <persName ref="#RustichinusGisla">Rustichinus de Gisla</persName>, pro podere uxoris
+          sue <persName ref="#Madonina">Madonine</persName>, medium sextarium ordei; item <persName
+            ref="#PetrusAlberti">Petrus quondam Alberti</persName> sextaria II ordei et II gallinas
+          et III pullos et collectam de duobus annis unum; item <persName ref="#RetondolusColle"
+            >Retondolus de <placeName ref="#Colle">Colle</placeName></persName>
+          <measure type="Imperiales" quantity="4" unit="denarius">denarios IIII</measure> pensionis
+          annuatim; item <persName ref="#GerardinusMommio">Gerardinus de <placeName ref="#Mommio"
+              >Mommio</placeName></persName> I sextarium frumenti et I libram olei annuatim; item
+            <persName ref="#BonalbergusAlberti">Bonalbergus quondam Alberti</persName>, pro se et
+          nepote sua <persName ref="#Tedora">Tedora</persName>, sextaria VII et medium ordei et
+            denarios<note place="foot" n="b" xml:id="CCLXVI_n_002"><term type="latin"
+              >Denarios</term><emph>: manca l’indicazione.</emph></note> pensionis annuatim; item
+            <persName ref="#SamuelBlanci">wlus quondam Blanci</persName> sextaria II frumenti pro
+          podere quondam <persName ref="#GuidoMuri">Guidonis Muri</persName> et mediam libram olei;
+          item in alia<note place="foot" n="c" xml:id="CCLXVI_n_003"><term xml:lang="latin"
+              >alia</term>: a <emph>iniziale corretta su precedente scrittura.</emph></note> parte
+          III quartos frumenti et I quartam olei pro podere uxoris sue <persName ref="#Bonafemina"
+            >Bonafemine</persName> et <measure type="imperiales" quantity="1" unit="denarius"
+            >denarium I</measure> pensionis de <placeName ref="#PosticioFontola">Posticio de
+            Fontola</placeName> annuatim; item <persName ref="#GordianusDominici">Gordianus quondam
+            Dominici</persName> I minam ordei pro podere de <placeName ref="#Raboi"
+            >Raboi</placeName> et <measure type="imperiales" quantity="2" unit="denarius">denarios
+            II</measure> pensionis de superfluo castellarie; item <persName
+            ref="#AlbertonusGuidonis">Albertonus quondam Guidonis</persName> sextaria II frumenti et
+          duos tercios sextarii annuatim; item <persName ref="#BonafidesDonnaAldebertini">Bonafides
+            de Donna quondam Aldebertini</persName>, pro podere quondam <persName
+            ref="#UgolinusColumba">Ugolini de Columba</persName>, sextaria III frumenti et libram
+          mediam olei annuatim; item in alia parte pro podere suo antiquo sextarium I et medium
+          ordei annuatim; item <persName ref="#CanciusPaganni">Cancius</persName>
+          <measure type="Imperiales" quantity="1" unit="denarius">denarium I</measure> pensionis
+          annuatim de superfluo castellarie; item <persName ref="#UrsusLaçarelli">Ursus quondam
+            Laçarelli</persName>, pro podere uxoris sue <persName ref="#Aymelina"
+            >Aymeline</persName>, sextaria II frumenti et I quartum annuatim; item <persName
+            ref="#UrsusMarsilii">Ursus quondam Marsilii</persName> sextaria II frumenti et I quartum
+          annuatim; item <persName ref="#MacciusRio">Maccius de <placeName ref="#Rio"
+              >Rio</placeName></persName> sextaria II frumenti annuatim; item heredes quondam
+            <persName ref="#IannisRoberto">Ianni de Roberto</persName> I sextarium ordei et denarios
+          XII pensionis annuatim imperialium et I amiscele annuatim et collectam de duobus annis I;
+          item suprascriptus <persName ref="#CanciusPaganni">Cancius quondam Paganni</persName> duos
+          tercios ordei annuatim; item <persName ref="#GiliolusRiçoli">Giliolus quondam
+            Riçoli</persName> I tercium ordei annuatim; item <persName ref="#ArmanninusIacobini"
+            >Armanninus quondam Iacobini</persName>
+          <measure type="Imperiales" quantity="1" unit="denarius">denarium I</measure> pensionis de
+          caneva sua annuatim; item heredes quondam <persName ref="#Calandronus"
+            >Calandroni</persName> sextaria II frumenti annuatim; item heredes quondam <persName
+            ref="#Ramundetus">Ramundeti</persName>
+          <measure type="Imperiales" quantity="26" unit="denarius">denarios XXVI
+            imperialium</measure> pensionis annuatim; item <persName ref="#UgolinusHenrigeti"
+            >Ugolinus quondam Henrigeti</persName> sextaria II frumenti, pro podere quod fuit
+            <persName ref="#GuilielminusBarbadegati">Guilielmini Barbadegati</persName> et pro
+          podere quondam <persName ref="#BovesiaFurno">Bovesie de <placeName ref="#Furno"
+              >Furno</placeName></persName>; item in alia parte pro podere filie sue, quam habuit ex
+          uxore sua <persName ref="#Riccadonna">Ricadonna</persName>, III quartos frumenti et I
+          quartam olei annuatim; item <persName ref="#UgolinusAnnoboni">Ugolinus quondam
+            Annoboni</persName>, pro podere uxoris sue <persName ref="#FuscaGalosnini">Fusce, filie
+            quondam Galosnini</persName>, <measure type="Imperiales" quantity="28" unit="denarius"
+            >denarios XVIII</measure> pensionis annuatim; item <persName ref="#OmodeusAldebertini"
+            >Omodeus quondam Aldebertini</persName>, pro suo podere antiquo, sextarium I et medium
+          ordei annuatim; item idem in alia parte, pro podere quondam <persName ref="#Richelda"
+            >Richelde</persName>, sextaria II frumenti et I libram olei annuatim; item <persName
+            ref="#VenturellusBonaiuti">Venturellus quondam Bonaiuti</persName>
+          <measure type="Imperiales" quantity="2" unit="denarius">denarios II</measure> pensionis
+          annuatim; item <persName ref="#PetrusPanicacii">Petrus quondam Panicacii</persName>, cum
+          nepote suo quondam <persName ref="#Ventura">Venture</persName>, sextaria II et medium
+          frumenti; item <persName ref="#RomeusBrancheti">Romeus quondam Brancheti</persName>
+          sextaria II et medium frumenti et denarios<note place="foot" n="d" xml:id="CCLXVI_n_004"
+              ><term xml:lang="latin">Denarios</term><emph>: manca l’indicazione.</emph></note>
+          imperialium pensionis annuatim; item heredes quondam <persName ref="#PetrusBrancheto"
+            >Petri de Brancheto</persName> sextaria II et medium frumenti et denarios II imperialium
+          pensionis annuatim; item <persName ref="#RostichinusOrbagnanno">Rostichinus de <placeName
+              ref="#Orbagnanno">Orbagnanno</placeName></persName>
+          <measure type="Imperiales" quantity="2" unit="denarius">denarios II imperialium</measure>
+          de terra de <placeName ref="#Padule">Padule</placeName> annuatim; item <persName
+            ref="#GerardusBonensingne">Gerardus quondam Bonensingne</persName> sextaria III ordei
+          annuatim; item <persName ref="#SibiliaVenture">Sibilia quondam Venture</persName>
+          <measure type="Imperiales" quantity="2" unit="denarius">denarios II imperialium</measure>
+          pensionis annuatim, pro filiis suis, quos habuit olim <supplied reason="omitted"
+            >a</supplied>
+          <persName ref="#Ventura">Venture</persName> vire<note place="foot" n="e"
+            xml:id="CCLXVI_n_005"><term type="incerto">Venture vire</term><emph>: così nel testo
+              per</emph>
+            <term xml:lang="latin">Ventura viro.</term></note> suo; item heredes quondam <persName
+            ref="#PetrusCibiliani">Petri Cibiliani</persName> sextaria II frumenti et medium iugerum
+          terre ad quartum reddendum in <placeName ref="#Padule">Padule</placeName> annuatim; item
+            <persName ref="#MelioreBonensingne">Melior quondam Bonensingne</persName>
+          <pb n="270r" xml:id="fol_270r"/>sextaria III ordei et <measure type="imperiales"
+            quantity="2" unit="denarius">denarios II imperialium</measure> pensionis de una<note
+            place="foot" n="f" xml:id="CCLXVI_n_006"><term type="incerto">una</term><emph>: così nel
+              testo per</emph>
+            <term xml:lang="latin">uno.</term></note> iugero terre ad hospitale de <placeName
+            ref="#Padule">Padule</placeName> annuatim; item <persName ref="#BonalbergusCalderone"
+            >Bonalbergus quondam Calderone</persName>, pro podere uxoris sue <persName
+            ref="#Meliore">Melioris</persName>, duos tercios frumenti annuatim; item <persName
+            ref="#BonavereBonfilieti">Bonavere quondam Bonfilieti</persName> II tercios frumenti
+          annuatim; item <persName ref="#MartinusPorcilliola">Martinus de <placeName
+              ref="#Porcilliola">Porcilliola</placeName></persName> sextarium I frumenti de
+          superfluo castellarie annuatim; item <persName ref="#Galganus">Galganus</persName>
+          sextaria II et medium ordei annuatim; item est confessus quod dabat simul cum <persName
+            ref="#Bonavita">Bonavita</persName> collectam de duobus annis I; item <persName
+            ref="#RicheldaMinuçano">Richelda de <placeName ref="#Minuçano"
+            >Minuçano</placeName></persName> I quartum ordei et de XII annis I, unam gallinam et
+          unam iovatam et vegetem restringere de XII annis I et collectam de duobus annis I; item
+            <persName ref="#AldebertinusAliardi">Aldebertinus quondam Aliardi</persName>, pro podere
+          uxoris sue <persName ref="#CastellanaFancelli">Castellane filie quondam
+            Fancelli</persName>, sextarium I et medium frumenti annuatim; item <persName
+            ref="#PhilippusMaccii">Philippus, filius Maccii</persName>, pro podere uxoris sue
+            <persName ref="#BillaGalosnini">Bille filie quondam Galosnini</persName>, <measure
+            type="imperiales" quantity="18" unit="denarius">denarios XVIII imperialium</measure>
+          pensionis annuatim; item <persName ref="#VenturaMartiniBrageri">Ventura quondam Martini
+            Brageri</persName> sextaria II frumenti annuatim; item <persName
+            ref="#BonacursusGuilielmini">Bonacursus quondam Guilielmini de <placeName
+              ref="#Germagnano">Germagnano</placeName></persName> sextaria II et medium frumenti et
+          sextaria IIII musti annuatim; item <persName ref="#GuidoVenture">Guido quondam Venture de
+            Codesorbo</persName>, pro se et fratre suo, sextaria II et medium frumenti annuatim;
+          item <persName ref="#ProdomusAlcarini">Prodomus quondam Alcarini</persName>, pro se et
+          fratre suo <persName ref="#BonacursusAlcarini">Bonacurso</persName>, sextaria V frumenti
+          et <measure type="Imperiales" quantity="4" unit="denarius">denarios IIII
+            imperialium</measure> pensionis annuatim; item <persName ref="#Lombardinus"
+            >Lombardinus</persName>, pro podere uxoris sue <persName ref="#RicheldaAmate">Richelde,
+            filie Amate</persName>, I quartum ordei et <measure type="Imperiales" quantity="1"
+            unit="denarius">denarium I</measure> et medium pensionis annuatim imperialium; item
+            <persName ref="#MartinusBuce">Martinus quondam Buce</persName>
+          <measure type="Imperiales" quantity="2" unit="denarius">denarios II imperialium</measure>
+          pensionis annuatim de tenuta de <placeName ref="#Fontola">Fontola</placeName>, cum fratre
+          suo <persName ref="#BonafidesBuce">Bonafide</persName>; item <persName
+            ref="#RayneriusRustichini">Raynerius quondam Rustichini</persName> sextaria VI ordei
+          annuatim; item <persName ref="#Ugetus">Ugetus</persName> sextarium I ordei, et facit
+          ambassiariam ad <placeName ref="#Sarzanello">castrum Sarzane</placeName>, cum gallinis,
+          ovis et similibus ad <placeName ref="#Ameglia">Ameliam</placeName> et <placeName
+            ref="#Carrara">Carrariam</placeName>, suprascripta deferendo, annuatim; item <persName
+            ref="#Bonafemina">Bonafemina</persName> olim relicta <persName ref="#GuidoSaçine"
+            >Guidonis Saçine</persName>, pro podere ipsius quondam <persName ref="#GuidoSaçine"
+            >Guidonis</persName>, sextarium I et medium ordei annuatim; item <persName ref="#Rosa"
+            >Rosa</persName> olim relicta <persName ref="#Bonaiuncita">Boneiuncte</persName> medium
+          sextarium ordei et II situlas musti annuatim; item <persName ref="#Castagnola"
+            >Castagnola</persName>, pro podere filiorum suorum et quondam <persName ref="#Venutus"
+              >Veg<supplied reason="omitted">n</supplied>uti</persName>, sextaria II ordei annuatim;
+          item <persName ref="#Verdilia">Verdilia</persName> I quartum ordei annuatim; item
+            <persName ref="#Bellosa">Bellosa</persName>, olim relicta <persName ref="#Bernardus"
+            >Bernardi</persName>, pro podere suorum filiorum et suprascripti <persName
+            ref="#Bernardus">Bernardi</persName>, sextarium I ordei annuatim; item <persName
+            ref="#Romea">Romea</persName>, olim relicta <persName ref="#GerardusColle">Gerardi de
+              <placeName ref="#Colle">Colle</placeName></persName>, II tercios ordei et terciam
+          partem duarum gallinarum et I pollastrum et <measure type="Imperiales" quantity="4"
+            unit="denarius">denarios IIII imperialium</measure> pensionis annuatim et collectam de
+          duobus annis unum; item <persName ref="#Valentina">Valentina</persName>, olim relicta
+            <persName ref="#Valentinus">Valentini</persName>, pro podere ipsius <persName
+            ref="#Valentinus">Valentini</persName>, sextarium I et medium frumenti et mediam libram
+          olei annuatim; item <persName ref="#Ymeldina">Ymeldina</persName>, pro filiis suis,
+          collectam de duobus annis I; item <persName ref="#MateldaOrbagnano">Matelda de <placeName
+              ref="#Orbagnanno">Orbagnano</placeName></persName>
+          <measure type="Imperiales" quantity="4" unit="denarius">denarios IIII</measure>
+          imperialium pensionis annuatim et quartum unius iugeris terre; item <persName
+            ref="#RicheldaFancelli">Richelda magistri Fancelli</persName> sextarium I et medium
+          frumenti annuatim; item <persName ref="#Gerardina">Gerardina</persName>, relicta <persName
+            ref="#Corsus">Corsi</persName>, pro podere sui filii et suprascripti <persName
+            ref="#Corsus">Corsi</persName>, sextarium I ordei et <measure type="Imperiales"
+            quantity="1" unit="denarius">denarium I imperialium</measure> pensionis annuatim; item
+            <persName ref="#RomeusBrancheti">Romeus quondam Brancheti</persName>, pro podere uxoris
+          sue <persName ref="#Saracina">Saracine</persName>, sextaria IIII musti annuatim; item
+            <persName ref="#Blancus">Blancus</persName>, pro podere uxoris sue <persName
+            ref="#Richelda">Richelde</persName>, et I gallinam de XII annis semel et I iovatam et
+          restringere vegetem; item <persName ref="#Albercellus">Albercellus</persName> sextarium I
+          frumenti et I libram ordei de podere <persName ref="#AlbertinusCeolaschi">Albertini
+            Ceolaschi</persName>; item uxor <persName ref="#Vivaldus">Vivaldi</persName> collectam
+          pro podere <persName ref="#Vivaldus">Vivaldi</persName>, ut superius legitur. Qui
+          suprascripti homines et mulieres, coram domino <persName ref="#GuilEpLuni">Guilielmo,
+              <roleName>Lunensi episcopo</roleName></persName>, et me <roleName>notario</roleName>
+          et testibus infrascriptis, ita fuerunt confessi ut superius legitur, et sic me
+          suprascriptus dominus episcopus precepit et rogavit ut in publicum instrumentum reduceret
+          et cartam publicam faceret<note place="foot" n="g" xml:id="CCLXVI_n_007"><term
+              type="incerto">reduceret-faceret</term><emph>: così nel testo.</emph></note>.</p>
+        <p xml:id="CCLXVI_p_003" n="3">Actum in castro, iuxta portam ad banca<note place="foot"
+            n="h" xml:id="CCLXVI_n_008"><term xml:lang="latin">banca</term><emph>: segue lettera non
+              identificabile, probabilmente errore del copista.</emph></note>, in <supplied
+            reason="omitted">presentia</supplied> domini <persName ref="#Iacobinus"
+            >Iacobini</persName>, <persName ref="#SalomonLucanus">domini Salomonis</persName>,
+            <persName ref="#RollandusVagus">Rollandi Vagi</persName>, <persName ref="#Rollanduspres"
+              ><roleName>presbyteri</roleName> Rollandi</persName> eiusdem castri, <persName
+            ref="#RayneriusRustichini">Raynerii quondam Rustichini</persName>, <persName
+            ref="#BonafidesDonnaAldebertini">Bonafidei de Donna</persName>, testium rogatorum. <date
+            when="1241-03-03">Anno a nativitate Domini MCCXLI, indictione XIIII, tercio intrantis
+            marcii</date>.</p>
+      </div>
+      <div xml:id="CCLXVI_div2" type="mundum">
+        <p xml:id="CCLXVI_p_004" n="4"><ptr target="#CCLXVI_st_001"/> Ego <persName
+            ref="#Attolinusnot">Attolinus, <roleName>sacri palacii notarius</roleName></persName>,
+          hanc <supplied reason="omitted">cartam</supplied> olim abreviatam<note place="foot" n="i"
+            xml:id="CCLXVI_n_009"><term xml:lang="latin">abreviatam</term><emph>: la terza</emph> a
+              <emph>corretta su precedente scrittura.</emph></note> a <persName
+            ref="#Bonacursusnot3">Bonacurso <roleName>notario</roleName></persName>, sicut in scedis
+          ipsius notarii reperitur, in publicam formam redegi, nichil addens vel minuens quod sensum
+          mutet, et fideliter supplevi, signum proprium apponendo, auctoritate mihi prestita et
+          concessa super hiis a venerabili patre domino <persName ref="#HenricusEpLuni">Henrico,
+              <roleName>Lunensi episcopo</roleName></persName>, prout in carta facta manu <persName
+            ref="#HengeramusParentisnot">Hengerami <roleName>notarii</roleName></persName>
+            continetur<note>Stesura <emph>in mundum</emph> del documento n. 228-CCLXVI databile tra
+            il 1273 e il 1297 <date notBefore="1273-04-04" notAfter="1297-01-01" cert="high"
+            /></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

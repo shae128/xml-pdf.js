@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="LXXXVI_103">
+		<front xml:id="LXXXVI_front">
+
+			<titlePart type="numerazioneNuova">103</titlePart>
+			<titlePart type="numerazioneOrig">LXXXVI</titlePart>
+
+			<docDate xml:id="LXXXVI_docDate">
+				<date when="1237-08-22">1237 agosto 22</date><placeName ref="#Sarzana">Sarzana
+						(<emph>in ecclesia Sancti Basilii</emph>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="LXXXVI_regesto">
+				<p>Parente, gastaldo del vescovo di Luni Guglielmo, ordina al giudice Bernardo,
+					vicario del podestà di Sarzana Marchesello, di non servirsi di altro notaio che
+					di Tagliavacca e di consegnare al vescovo tutti i beni requisiti ai ladri.</p>
+			</div>
+
+			<div type="footer" xml:id="LXXXVI_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] c. 202v., c. CLXXXXIIIIv. secondo la numerazione originale.</p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione pressoché integrale in <ref type="biblio"
+							target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 86, p. 119.</p>
+				</div>
+
+				<div type="crit_notes">
+					<p>Parte del documento è stata letta con l’ausilio della luce di Wood.</p>
+					<p>Nel margine esterno, di mano moderna:<emph>Il vescovo metteva i notari al
+							bando del Commune </emph></p>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">LXXXVI. Precepti burgensibus de notario non
+							habendo.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="LXXXVI_div">
+				<p xml:id="LXXXVI_p_001">
+					<ptr target="LXXXVI_st_001"/>In Dei omnipotentis nomine, amen. <persName
+						ref="#Parenscas">Parens</persName>, <roleName>castaldio</roleName>
+					venerabilis patris <roleName>domini</roleName>
+					<persName ref="#GuilEpLuni">Guilielmi, <roleName>Dei gratia Lunensis
+							episcopi</roleName></persName>, pro ipso domino episcopo et eius vice et
+					nomine atque eius in hoc gerendo negocium precepit et iniunxit, sub pena centum
+					marcarum argenti, <roleName>domino <persName ref="#Bernardus_iudex"
+							>Bernardo</persName> iudici</roleName>, vicario <roleName>domini
+							<persName ref="#Marchesellus_potestas">Marcheselli</persName>,
+						potestatis</roleName> burgi <placeName ref="#Sarzana">Sarzane</placeName>,
+					pro ipsa potestate et toto <orgName ref="#Sarzana_comune">communi ipsius burgi</orgName>, ut neque ipsa potestas pro
+					dicto communi neque ipsum commune suprascripti burgi nec aliquis pro ipso
+					communi pro anno presenti aliquem habeant notarium ad officium ipsius communis
+					nisi <persName ref="#IacopinusTalliavachanot">Talliavaccam
+							<roleName>notarium</roleName></persName>, quem dictus dominus episcopus
+					specialiter ad ipsius communis officium eis concessit, neque scriptura alicuius
+					alterius scriptoris utantur nisi <persName ref="#IacopinusTalliavachanot"
+						>Talliavache</persName> predicti, et ut non contradicant ipsi <persName
+						ref="#Parenscas">Parenti</persName> pro suprascripto domino episcopo neque
+					impediant, immo promittant ipsum habere et percipere omnia bona et res que
+					fuerunt latronum, qui suspensi sunt, atque que penes ipsos vel alios pro eis
+					invente fuerunt, super quibus rebus et bonis idem dominus episcopus facere
+					possit quod sibi iustum videbitur faciendum. </p>
+				<p xml:id="LXXXVI_p_002">Hec acta sunt in <orgName ref="#S_Basilio_Sarzana"
+						type="ecclesia_plebs">ecclesia Sancti Basilii</orgName>, presentibus
+						<roleName>magistro <persName ref="#Gerardusmag"
+						>Gerardo</persName></roleName> et <persName ref="#Henricus">Henrico
+							<roleName>clerico</roleName></persName> et <persName
+						ref="#VillanusAlioti">Villano Aliotti</persName>, ad hec rogatis testibus,
+						<date when="1237-08-22">anno nativitatis Domini M°CCXXXVII°, XI° kalendas
+						septembris, indictione X</date>. </p>
+				<p xml:id="LXXXVI_p_003">
+					<ptr target="LXXXVI_st_002"/>Ego <persName ref="#Bonapaxnot">Bonapax,
+							<roleName>Romanorum imperii iudex ordinarius et
+						notarius</roleName></persName>, suprascriptis omnibus interfui et rogatus
+					hec in publicam scripturam redegi. </p>
+			</div>
+		</body>
+	</text>
+</TEI>

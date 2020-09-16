@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="LXXXXI_108">
+        <front xml:id="LXXXXI_front">
+
+            <titlePart type="numerazioneNuova">108</titlePart>
+            <titlePart type="numerazioneOrig">LXXXXI</titlePart>
+
+            <docDate xml:id="LXXXXI_docDate">
+                <date when="1181-03-08">1181 marzo 8</date>, <placeName>Sarzana (in canonica
+                    ecclesie Sancti Andree)</placeName>
+            </docDate>
+            <div type="regesto" xml:id="LXXXXI_regesto">
+                <p>Alberto di Ceserano del fu Martino, a nome suo e dei suoi fratelli Guido, Gerardo
+                    e Guibertino, chiede a Benetto del fu Petricino, abitante a Sarzana, la
+                    concessione a livello della metà di una casa posta nel borgo nuovo di
+                    Carcandola, che Benetto tiene a sua volta a livello dalla chiesa di Sant’Andrea,
+                    dietro corresponsione di un censo annuo di 2 denari. </p>
+            </div>
+
+            <div type="footer" xml:id="LXXXXI_footer">
+
+                <div type="orig_doc">
+                    <p>Copia di copia autentica [C] cc. 205v.-206r., cc. CLXXXXVIIv.-CLXXXXVIIIr.
+                        secondo la numerazione originale. </p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione parziale in Lupo Gentile 1912, n. 91, p. 123.</p>
+                </div>
+                <div type="crit_notes">
+                    <note> Nel margine esterno, di mano moderna, la seguente annotazione: <emph>Una
+                            casa della chiesa di Sant’Andrea nel borgo novo della Carcandola.</emph>
+                        <p>L’autentica, ad opera del notaio Bonaparte, è del 1250.</p>
+                    </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXXXXI. Casamenti Alberti de Cisirano.</term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="LXXXXI_div">
+                <p xml:id="LXXXXI_p_001">
+                    <ptr target="LXXXXI_st_001"/>
+                    <date when="1181-03-08">Anno dominice incarnationis M°C° octogesimo primo,
+                        indictione XIIIIa, regnante Federigo, Dei gratia Romanorum imperatore semper
+                        augusto</date>. Peto ego <persName ref="#AlbertusMartiniCyc">Albertus de
+                            <placeName ref="#Ceserano">Cycirano</placeName></persName>, filius
+                    quondam Martini, per me et per meos fratres, scilicet <persName
+                        ref="#GuidoMartiniCyc">Guidonem</persName>, <persName
+                        ref="#GerardusMartiniCyc">Gerardum</persName> et <persName
+                        ref="#GuibertinusMartiniCyc">Guibertinum</persName> et <persName
+                        ref="#RodulfinusMartiniCyc">Rodulfinum</persName>, una cum nostris
+                    heredibus, a te <persName ref="#BenettusPetricini">Benetto
+                    habiratore</persName>, <note place="foot" n="a" xml:id="LXXXXI_n_001"
+                            >habiratore:<emph> così nel testo per </emph> habitatore</note> in
+                        <placeName ref="#Sarzanello">castro Sarzane</placeName>, <persName
+                        ref="#BenettusPetricini">filio quondam Petricini</persName>, tuisque
+                    heredibus libellario nomine habere, tenere, laborare, sive meliorare, non
+                    peiorare, id est medium casamenti, quod habes in burgo novo de <placeName
+                        ref="#Carcandola">Carcandula</placeName>, quod habes per libellum ab
+                        <orgName ref="#Sarzana_S_Andrea">ecclesia Sancti Andree</orgName>, cui
+                    medietati coheret antea <placeName ref="#Carcandola_rivus">Carcandule<note
+                            place="foot" n="b" xml:id="LXXXXI_n_002">Carcandule:<emph> così nel
+                                testo.</emph></note></placeName>, retro via publica, ab uno latere
+                    cuiusdam Granerii<persName><note place="foot" n="c" xml:id="LXXXXI_n_003"
+                            >Granerii: Gran<emph>corretto su precedente
+                        scrittura.</emph></note></persName>, ab alio alia medietas suprascripti
+                    casamenti, que tibi remanere videtur<note place="foot" n="d"
+                        xml:id="LXXXXI_n_004">videtur: tur<emph> corretto su precedente
+                            scrittura.</emph></note>. Hanc autem medietatem suprascriptam totam in
+                    integrum, cum ingressu et regressu insuper suprascriptis coherentiis, ut exinde
+                    annuatim veniamus ad mandatum suprascripte <orgName ref="#Sarzana_S_Andrea"
+                        >ecclesie Sancti Andree</orgName>, infra octavam Domini nativitatis, ad
+                    legem faciendam et fictam pensionem solvendam <measure unit="denarios">denarios
+                        duos</measure> tantum; alia imposita non fiat<note place="foot" n="e"
+                        xml:id="LXXXXI_n_005">fiat:<emph> così nel testo.</emph></note>. Penam vero
+                    inter se posuerunt ut, si quis eorum vel eorum heredibus<note place="foot" n="f"
+                        xml:id="LXXXXI_n_006"> heredibus: <emph>così nel testo per</emph>
+                        heredum</note> hoc recolere vel laxare voluerit, componat pars parti fidem
+                    servanti <measure unit="soldos" quantity="20">soldos XX</measure> et, post penam
+                    solutam, iste libellus in sua permaneat firmitate. </p>
+                <p xml:id="LXXXXI_p_002"> Actum in canonica suprascripte <orgName
+                        ref="#Sarzana_S_Andrea">ecclesie Sancti Andree</orgName>, <date
+                        when="1181-03-08">VIII <pb n="206r" xml:id="fol_206r"/> intrante
+                        martio</date>, feliciter, in presentia et consensu et affirmatione domini
+                        <persName ref="#Raimundus_arch">Raymundi</persName>, <roleName>Dei gratia
+                        eiusdem ecclesie archipresbyteri</roleName>. Et pro hoc libello dato fuit
+                    libellaticum <measure unit="soldorum" quantity="18">soldorum XVIII
+                        imperialium</measure>. # Signa manuum suprascripti <persName
+                        ref="#BenettusPetricini">Benetti</persName> locatoris et suprascripti domini
+                    archipresbyteri confirmatoris et suprascripti <persName
+                        ref="#AlbertusMartiniCyc">Alberti</persName> petitoris, qui hunc<note
+                        place="foot" n="g" xml:id="LXXXXI_n_007">hunc: c<emph>finale corretta su
+                        </emph>t</note> libellum fieri rogaverunt. # # Signa manuum <persName
+                        ref="#MulinariusCulliolo">Mulinarii de</persName>
+                    <placeName ref="#Colignolo">Culliolo</placeName>, <persName
+                        ref="#RomulanusAlegreti">Romulani Alegreti</persName> de <placeName
+                        ref="#Terria">Terria</placeName>, <persName ref="#Pitius">Pitii</persName>,
+                    rogatorum testium. </p>
+                <p xml:id="LXXXXI_p_003">
+                    Ego <persName ref="#Lombardusnot"
+                        >Lumbardus</persName>, <roleName>notarius <note place="foot" n="h"
+                            xml:id="LXXXXI_n_008">notarius:<emph>segue ripetuto</emph>
+                            notarius</note> imperatoris atque Lunensis curie</roleName>, rogatus,
+                    hunc libellum scripsi. </p>
+                <p xml:id="LXXXXI_p_004">
+                    Ego <persName ref="#Bonapartenot"
+                        >Bonapars</persName>, <roleName>sacri palacii notarius</roleName>,
+                    auttenticum huius exempli vidi et legi, in quo inveni ut in isto scripsi, nichil
+                    addens vel minuens quod mutet sensum aut variet intellectum, et auctoritate et
+                    mandato domini <persName ref="#Benettus_vicarius">Benetti</persName>,
+                    <roleName>vicarii</roleName> in <placeName ref="#Lunigiana">Lunisiana</placeName> pro <orgName ref="#Pisa_comune">communi</orgName> <placeName ref="#Pisa">Pisano</placeName>, mihi facto
+                        <placeName ref="#Sarzana">Sarzane</placeName>, sub porticu domus quondam
+                        <persName ref="#BonaiutusCiçerano">Bonaiuti de <placeName ref="#Ceserano"
+                            >Cysirano</placeName></persName>, ubi ius redditur, presentibus
+                        <roleName>domino</roleName>
+                    <persName ref="#Salvus_iudex">Salvo</persName><roleName>iudice</roleName> ,
+                        <persName ref="#Bastonus_calç">Bastono</persName>
+                    <roleName>calçolario</roleName> de <placeName ref="#Sarzana">Sarzana</placeName>
+                    et <persName ref="#BonfancellusGerardi">Bonfancello quondam Gerardi de
+                            <placeName ref="#Falcinello">Falcinello</placeName></persName>, testibus
+                    ad hec rogatis, sub <date when="1250-03-09">anno currente M°CCL°, indictione
+                        VIIIa, die mercurii, VIIII mensis martii</date>, hoc exemplum auttenticavi
+                    et in publicam formam redegi. </p>
+                <p xml:id="LXXXXI_p_005"> <ptr target="LXXXXI_st_002"/></p>
+            </div>
+        </body>
+    </text>
+</TEI>

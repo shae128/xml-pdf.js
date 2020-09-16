@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXII_373">
+    <front xml:id="CCCCXII_front">
+
+      <titlePart type="numerazioneNuova">373</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXII</titlePart>
+
+      <docDate xml:id="CCCCXII_docDate">
+        <date when="1204-07-09">1204 luglio 9</date>, <placeName>Ceparana (<term xml:lang="latin">in
+            ecclesia de Cepparana</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXII_regesto">
+        <p>Martino e Passatore, consoli di Bolano, col consenso degli uomini di quella comunità e
+          degli altri consoli, promettono al vescovo di Luni Gualtiero di abitare nel castello di
+          Bolano in tempo di guerra e di pace. La pena, per chi viene meno all’impegno, è di 20
+          soldi di imperiali. Segue il <emph>breve consulum</emph>.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 330r-330v., cc. CCCXXIIr.-CCCXXIIv. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>n. 412;
+              <ref target="#CONTI_1979-1988">CONTI 1979-1988</ref>, I, pp. 39-42, VII.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Parte del documento è stata letta con l’ausilio della luce di Wood. </note>
+          <note>Il giorno non può essere 11 luglio, perché nel 1204 cadeva di domenica e non <emph>
+              die veneris</emph>. Dobbiamo quindi considerare XI come errore del copista e leggere
+            IX, giorno che cadeva appunto di venerdì.</note>
+
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCCXII.
+              Statutum et iuramentum consulum de Bolano. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXII_div">
+        <pb n="330r" xml:id="fol_330r"/>
+        <p xml:id="CCCCXII_p_001" n="1"><ptr target="#CCCCXII_st_001"/> In Dei nomine, amen. <date
+            when="1204-07-11">Anno a nativitate Eius M°CCIIII, indictione VII, die veneris, XI
+            mensis iulii</date>, presentibus testibus infrascriptis. <persName ref="#MartinusSerra"
+            >Martinus</persName> et <persName ref="#Passador">Passator</persName>,
+            <roleName>consules</roleName> de <placeName ref="#Bolano"> Bolano</placeName>, pro se et
+          omnibus hominibus de <placeName ref="#Bolano"> Bolano</placeName>, de consensu et
+          voluntate <persName ref="#UbertusBurcione">Uberti de <placeName ref="#Burcione"
+              >Burcione</placeName></persName>, <persName ref="#Rimignonis">Rimignonis</persName>,
+            <persName ref="#Bolanellus">Bolanelli</persName>, <persName ref="#Sigebaldus"
+            >Sigebaldi</persName>, <persName ref="#VivianusGuerceto">Viviani de <placeName
+              ref="#Guerceto">Guerceto</placeName></persName>, <persName ref="#PluvianusAgnetulo"
+            >Pluviani de <placeName ref="#Agnetulo">Agnetulo</placeName></persName>, <persName
+            ref="#GuidoSerra">Guidonis de <placeName ref="#SerraBol">la
+          Serra</placeName></persName>, <persName ref="#RusticellusEcclesia">Rustigelli de
+              <placeName ref="#Ecclesia">Ecclesia</placeName></persName>, <persName
+            ref="#IordanusTurola">Iordani de <placeName ref="#Turola">Turola</placeName></persName>
+          et <persName ref="#VeclusCarpenetolo">Vecli de <placeName ref="#Carpenetolo"
+              >Carpenetolo</placeName></persName>, ibi presentium, et aliorum hominum de <placeName
+            ref="#Bolano"> Bolano</placeName>, ut dicebant, promiserunt domino <persName
+            ref="#Gualterius">Walterio</persName>, <roleName>Dei gratia Lunensi episcopo</roleName>,
+          habitare in castro <placeName ref="#Bolano">Bolani</placeName> per guerram semper, sicut
+          est antiquitus ordinatum, et per pacem semper, ad voluntatem domini episcopi; et quicumque
+          de hominibus de <placeName ref="#Bolano"> Bolano</placeName> ita non attenderet, teneatur
+          solvere, nomine pene, <measure type="imperialium" quantity="20" unit="solidus">soldos XX
+            imperialium</measure>, rato manente pacto, de qua pena medietas sit domini episcopi et
+          alia medietas consulum de <placeName ref="#Bolano">Bolano</placeName>, qui pro tempore
+          fuerint. Ibi erant similiter consentientes consulibus <persName ref="#ValentinusCepparana"
+            >Valentinus de <placeName ref="#Ceparana">Cepparana</placeName></persName>, <persName
+            ref="#BonvassallusCobiata">Bonvassallus de <placeName ref="#Cobiata"
+            >Cobiata</placeName></persName>, <persName ref="#TempusSerra">Tempus de <placeName
+              ref="#SerraBol">la Serra</placeName></persName> et <persName ref="#PiçolbonusSerra"
+            >Piçolbonus de <placeName ref="#SerraBol">la Serra</placeName></persName>.</p>
+
+        <p xml:id="CCCCXII_p_002" n="2">Actum est in <orgName ref="#Ceparana_S_Venanzio">ecclesia de
+              <placeName ref="#Ceparana">Cepparana</placeName></orgName>, sollempni cum
+          stipulatione. Ibi fuerunt rogati testes <roleName>donnus</roleName>
+          <persName ref="#Rollandusabb">Rollandus</persName>, <roleName>abbas</roleName>
+          <orgName ref="#Ceparana_S_Venanzio">de <placeName ref="#Ceparana"
+            >Cepparana</placeName></orgName>, <persName ref="#Gerardusvic">Gerardus</persName>
+          <roleName>vicedominus</roleName>, <persName ref="#MançetusTivenia">Manzetus de <placeName
+              ref="#Tivegna">Tivegna</placeName></persName> et <persName ref="#BonalberguscastB"
+            >Bonalbergus</persName>, tunc <roleName>castaldus</roleName> de <placeName ref="#Bolano"
+            >Bolano</placeName>.</p>
+
+        <p xml:id="CCCCXII_p_003" n="3">Ego <persName ref="#Confortusnot">Confortus</persName>,
+            <roleName>Sacri Palacii et Lunensis curie notarius</roleName>, interfui et, rogatus,
+          feci inde duas cartas uno tenore: «Ego talis iuro ad sancta evangelia portare consulatum
+          de <placeName ref="#Bolano">Bolano</placeName> ad honorem et voluntatem domini episcopi et
+          ad bonum et salvamentum omnium hominum, qui per consulatum de <placeName ref="#Bolano"
+            >Bolano</placeName> distringuntur, a festo Sancti Petri usque ad annum; et VIII diebus
+          ante exitum mei consulatus eligam alios consules, cum consilio et voluntate domini
+          episcopi vel ministerialis ipsius, quos credidero plus ydoneos ad portandum ipsum
+          consulatum: qui electi teneantur iurare, ut dictum est, consulatum. Et lamentancias mihi
+          factas diffiniam antequam exeam de consulatu, prout mihi fuerit visum per rationem vel per
+          convenienciam que placeat partibus, exceptis illis lamentanciis de quibus fuerit ad
+          dominum episcopum appellatum; et illas lamentancias, quas non potero in meo consulatu
+          finire, resignabo et nunciabo sequentibus consulibus, per<note n="a" place="foot"
+            xml:id="CCCCXII_n_001"><term xml:lang="latin">per</term>: <emph>così nel testo per
+              qui</emph>.</note> quam cicius poterint teneantur illas finire, ut dictum est. Penas
+          et banda, que ordinavero, tollam et non reddam, que talia sunt, videlicet: si infra iuram
+          studiose fiant, de sanguine <measure type="imperiales" quantity="5" unit="solidus">soldos
+            V</measure>, de livido <measure type="imperiales" quantity="2" unit="solidus">soldos
+            II</measure>, de assaltu <measure type="imperiales" quantity="2" unit="denarium"
+            >denarios XII</measure>; si quis acceperit arma contra vicinum suum, perdat <measure
+            type="imperiales" quantity="12" unit="denarium">denarios XII </measure>; de furto infra
+          iuram, a <measure type="imperiales" quantity="6" unit="denarium">VI denariis </measure>
+          supra perdat <measure type="imperiales" quantity="10" unit="solidus">soldos X</measure> et
+          furtum emendet in voluntate consulum, extra iuram, <measure type="imperiales" quantity="2"
+            unit="solidus"> soldos II</measure> et dampnum emendet in laude consulum; a <measure
+            type="imperiales" quantity="6" unit="denarium"> VI denariis</measure> infra, sit in
+          voluntate consulum; de guasto vel talia infra districtum <placeName ref="#Bolano"
+            >Bolani</placeName>, facto alicui de districtu <placeName ref="#Bolano"
+            >Bolani</placeName>, perdat <measure type="imperiales" quantity="5" unit="solidus"
+            >soldos V</measure> et non recipiatur in districtu <placeName ref="#Bolano"
+            >Bolani</placeName> ad habitandum, nisi prius iniuriam passo satisfecerit, secundum
+          voluntatem consulum et castaldi. Homicide et incendiarii<note n="b" place="foot"
+            xml:id="CCCCXII_n_002"><term xml:lang="latin">incendiarii</term>: <emph>la seconda i
+              aggiunta in sopralinea con segno di richiamo.</emph>.</note> et proditores castri de
+            <placeName ref="#Bolano">Bolano</placeName> vel alicuius terre domini episcopi secundum
+          voluntatem domini episcopi puniantur; de homicidio et incendio facto de hominibus de
+            <placeName ref="#Bolano">Bolano</placeName> in districtu <placeName ref="#Bolano"
+            >Bolani</placeName> non recipiatur habitator in <placeName ref="#Bolano"
+            >Bolano</placeName> qui illud faceret, nisi prius satisfecerit propinquis defuncti vel
+          passo iniuriam et dampnum incendii; ab hiis bandis excipiuntur pueri minores XIIII annorum
+          et masnada domini episcopi. Si quis non habitaret in castro <placeName ref="#Bolano"
+            >Bolani</placeName>, sicut est ordinatum antiquitus, perdat <measure type="imperiales"
+            quantity="20" unit="solidus">soldos XX</measure>; si quis castellanus de <placeName
+            ref="#Bolano">Bolano</placeName> habitaret alibi et non faceret hanc habitationem, ut
+          dictum est, auferam de bonis eius usque in <measure type="imperiales" quantity="20"
+            unit="solidus">soldos XX</measure> pro qualibet habitatione, si habet <supplied
+            reason="omitted">al</supplied>iunde in districtu <placeName ref="#Bolano"
+            >Bolani</placeName>; alie pene et banda relinquantur in arbitrio castaldionis et
+          consulum. De omnibus bandis sit medietas curie et alia medietas consulum, exceptis
+          homicidiis, incendiis et proditoribus<note n="c" place="foot" xml:id="CCCCXII_n_003"><term
+              xml:lang="latin">exceptis homicidiis, incendiis et proditoribus</term>: <emph>così nel
+              testo</emph>.</note>, qui domino episcopo relinquuntur, ut dictum est, puniendi; et
+          qui non habet unde banda persolvat in arbitrio castaldi et consulum puniatur<note n="d"
+            place="foot" xml:id="CCCCXII_n_004"><term xml:lang="latin">puniatur</term>: <emph>lo
+              scriba ha probabilmente alterato l’ordine delle parole che forse nell’antigrafo era il
+              seguente persolvat et puniatur in arbitrio castaldi et consulum.</emph>.</note>. Hec
+          omnia observabo bona fide, sine omni fraude, ad voluntatem et ad honorem domini episcopi
+          et ad utilitatem hominum de <placeName ref="#Bolano">Bolano</placeName>; et si quando
+          placuerit domino episcopo, cum consilio consulum de <placeName ref="#Bolano"
+            >Bolano</placeName>, <pb n="330v" xml:id="fol_330v"/> addere aliquid vel minuere, de
+          addito tenear et de diminuto absolvar<note n="e" place="foot" xml:id="CCCCXII_n_005"><term
+              xml:lang="latin">absolvar</term>: <emph>r corretto su t</emph>.</note>. Bailiam castri
+          de <placeName ref="#Bolano">Bolano</placeName> non dabo alicui episcopo donec exhibeat
+          securitatem loci et nisi sit catholice electus; rationes et honores <orgName
+            ref="#Ceparana_S_Venanzio">ecclesie beati Venancii de <placeName ref="#Ceparana"
+              >Cepparana</placeName></orgName> salvabo et guardabo ad meum posse bona fide et sine
+          omni fraude. Ego iurator iuro obedire omnia precepta consulum, que mihi fecerit, pro bono
+          et honore domini episcopi et terre de <placeName ref="#Bolano">Bolano</placeName>, et
+          recipere consulatum quando fuero electus consul et dare consulibus consilium melius quod
+          cognovero super factis terre de <placeName ref="#Bolano">Bolano</placeName> et domini
+          episcopi, sine fraude, quando a me quesierint consilium; et omnes qui sunt sub isto
+          consulatu ad honorem domini episcopi et <orgName ref="#Bolano_comune">communis de <placeName ref="#Bolano"
+            >Bolano</placeName></orgName> salvabo et guardabo et adiuvabo infra iuram».</p>
+
+        <p xml:id="CCCCXII_p_004" n="4">Factum est hoc breve cum consilio et voluntate domini
+            <persName ref="#GualEpLuni">Walterii</persName>, <roleName>Dei gratia Lunensis
+            episcopi</roleName>, ibi presentis, <date when="1204-07-09">anno a nativitate Domini M°
+            CCIIII, indictione VII, die veneris, IX intrante iulio</date>, in <orgName
+            ref="#Ceparana_S_Venanzio">ecclesia de <placeName ref="#Ceparana">
+            Cepparana</placeName></orgName>, sollempniter. Ibi fuerunt rogati testes <persName
+            ref="#Gerardusvic"> Gerardus</persName>
+          <roleName>vicedominus</roleName>, <persName ref="#RogerinusSarzana">Rogerinus de
+              <placeName ref="#Sarzana">Sarzana</placeName></persName>, <persName
+            ref="#PanizariusZovagallo"> Panizarius de <placeName ref="#Zovagallo"
+              >Zovagallo</placeName></persName>, <persName ref="#MançetusTivenia"> Manzetus de
+              <placeName ref="#Tivegna">Tivegna</placeName></persName> et alii plures. Ibi
+          iuraverunt consulatum, ut supra legitur, <persName ref="#MartinusSerra">Martinus de
+              <placeName ref="#SerraBol">la Serra</placeName></persName> et <persName
+            ref="#Passador"> Passator</persName>, <roleName>tunc consules</roleName>, qui hec omnia
+          fecerunt et ordinaverunt cum iamscripto domino episcopo et cum parte vicinancie, ibi
+          presentis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

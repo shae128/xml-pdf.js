@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXLIIII_205">
+    <front xml:id="CCXLIIII_front">
+
+      <titlePart type="numerazioneNuova">205</titlePart>
+      <titlePart type="numerazioneOrig">CCXLIIII</titlePart>
+
+      <docDate xml:id="CCXLIIII_docDate">
+        <date when="1259-07-22">1259 luglio 22</date>, <placeName>Ponzanello (<term xml:lang="latin"
+            >in ecclesia de Ponçanello</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXLIIII_regesto">
+        <p>Il vescovo di Luni Guglielmo investe <term xml:lang="latin">per summitatem pellium</term>
+          i Bianchi d’Erberia dei loro antichi feudi. In particolare l’investitura riguarda Rollando
+          del fu Enrico Bianco, Aldoino e Torisendo figli del fu Gibertino e Pietro del fu
+          Girardino.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXLIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 260r.-260v., cc. CCLIIr.-CCLIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 244, pp.
+            226-227.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p>Bibliografia: <ref target="#NOBILI_2006">NOBILI 2006</ref>, pp. 528-533.</p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXLIIII_div">
+        <p xml:id="CCXLIIII_p_001" n="1">In nomine Domini, amen.<date when="1259-07-22"> Anno a
+            nativitate Eius millesimo CC°LIX°, indictione IIª, XXII iulii</date>. Ex hiis publicis
+          litteris sit omnibus audientibus manifestum quod venerabilis pater dominus <persName
+            ref="#GuilEpLuni">Guilielmus, Dei gratia <roleName>Lunensis
+            episcopus</roleName></persName>, per se suosque successores atque Lunensis episcopatus
+          nomine, investivit per summitatem pellium suorum viros nobiles <name
+            type="familia" ref="#BlanciHerberiaFamilia">Blancos de <placeName ref="#Erberia"
+            >Herberia</placeName></name>, scilicet <persName ref="#RollandusHenriciHerberia"
+            >Rollandum quondam domini Henrici Blanci</persName>, <persName ref="#AldoinusGibertini"
+            >Aldoinum</persName> et <persName ref="#TorisendusGibertini">Torisendum, fratres, filios
+            quondam domini Gibertini</persName>, et <persName ref="#PetrusGirardini">Petrum quondam
+            domini Girardini</persName>, de omnibus eorum antiquis et dictis<note
+            xml:id="CCXLIIII_n_001" n="a" place="foot"><term type="incerto">dictis</term>:
+              <emph>corretto su</emph>
+            <term xml:lang="latin">ductis</term>
+            <emph>con il secondo tratto della</emph> u <emph>espunto</emph>.</note> feudis, que ipsi
+          vel eorum maiores tenent et tenuerunt ab ipso domino episcopo atque episcopatu Lunensi.
+          Qui <persName ref="#RollandusHenriciHerberia">Rollandus</persName>, <persName
+            ref="#AldoinusGibertini">Aldoinus</persName>, <persName ref="#TorisendusGibertini"
+            >Torisendus</persName> et <persName ref="#PetrusGirardini">Petrus</persName> iuraverunt
+          eidem domino episcopo, pro suo episcopatu, contra omnes homines et personas de mondo
+          fidelitatem.</p>
+        <p xml:id="CCXLIIII_p_002" n="2">Actum in <orgName ref="#Ponzanello_S_Martino">ecclesia de
+              <placeName ref="#Ponzanello">Ponçanello</placeName></orgName>, presentibus <persName
+            ref="#Iacopinusarc">Iacobino <roleName>archipresbytero</roleName> de <placeName
+              ref="#Ameglia"><orgName ref="#Ameglia_S_Vincenzo"
+            >Amelia</orgName></placeName></persName>, <persName ref="#Bonavitapre"
+              ><roleName>presbytero</roleName> Bonavita <roleName>rectore</roleName>
+            <orgName ref="#Ponzanello_S_Martino">ecclesie de <placeName ref="#Ponzanello"
+                >Ponçanello</placeName></orgName></persName>, <persName ref="#IacobusAldebrandi"
+            >Iacobo quondam domini Aldebrandi de <placeName ref="#Trebiano"
+            >Trebiano</placeName></persName> et <persName ref="#BardellinusViano">Bardellino de
+              <placeName ref="#Viano">Viano</placeName></persName>, testibus ad hec rogatis.<pb
+            n="260v" xml:id="fol_260v"/></p>
+        <p xml:id="CCXLIIII_p_003" n="3"><ptr target="#CCXLIIII_st_001"/> Ego <persName
+            ref="#PetrusGualterotinot">Petrus quondam Gualteroti de <placeName ref="#Soliera"
+              >Soleria</placeName>, <roleName>sacri palacii notarius</roleName></persName>, hiis
+          interfui et rogatus hanc cartam scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

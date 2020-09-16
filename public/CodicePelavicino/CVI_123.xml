@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CVI_123">
+    <front xml:id="CVI_front">
+      <titlePart type="numerazioneNuova">123</titlePart>
+      <titlePart type="numerazioneOrig">CVI</titlePart>
+
+      <docDate xml:id="CVI_docDate">
+        <date when="1269-08-30">1269 agosto 30</date>.<placeName/>
+      </docDate>
+
+      <div type="regesto" xml:id="CVI_regesto">
+        <p>Ugolino del fu Dato e Foscherio di Fosdinovo del fu Rustichello rinunciano in favore di
+          Giacomino detto Tagliavacca, sindaco, e di Tignoso del fu Parente, gastaldo,
+          rappresentanti di Guglielmo, vescovo di Luni, a un pezzo di terra posto presso il <term
+            xml:lang="latin">castrum</term> di Sarzana, nel luogo detto <term xml:lang="latin"
+            >Paternulo</term>.</p>
+      </div>
+
+      <div type="footer" xml:id="CVI_footer">
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 220v.- 221r., cc. CCXIIv.- CCXIIIr. secondo la numerazione
+            originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 106,
+            pp. 143-144.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <emph>Quittanza per alcuni terreni nella
+              giurisdizione e territorio di Sarzanello.</emph></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CVI_div">
+        <p xml:id="CVI_p_001" n="1">In nomine Domini, amen.<date when="1269-08-30"> Anno nativitatis
+            Domini M°CCLX°IX°, indictione XIIa, die veneris, XXX augusti</date>. <persName
+            ref="#UgolinusDati">Ugolinus quondam domini Dati <roleName>iudicis</roleName>, olim
+            filii Conforti <roleName>notarii</roleName></persName>, et <persName
+            ref="#FoscheriusRustichelli">Foscherius de <placeName ref="#Fosdinovo"
+              >Fosdenova</placeName> quondam Rustichelli</persName>, ambo simul atque uterque
+          ipsorum in solidum, in quantum ad eos vel aliquem eorum spectat vel spectare potest,
+          fecerunt <persName ref="#IacopinusTalliavachanot">Iacopino dicto Talliavache,
+              <roleName>notario</roleName></persName>, de <placeName ref="#Sarzanello">castro
+            Sarzane</placeName>, <roleName>syn <pb n="221r" xml:id="fol_221r"/> dico</roleName>,
+            <roleName>actori</roleName> et <roleName>procuratori</roleName> venerabilis patris
+          domini <persName ref="#GuilEpLuni">Guilielmi, Lunensis episcopi</persName>, sindicatus et
+          procuratorio atque actorio nomine pro ipso domino episcopo et episcopatu recipienti, et
+            <persName ref="#TiniosusParenti">Tingnoso quondam Parentis de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName>,
+            <roleName>castaldioni</roleName></persName> dicti domini episcopi, recipienti nomine et
+          vice ipsius domini episcopi atque episcopatus, finem et refutationem et pactum de non
+          petendo in perpetuum de quadam petia terre posita in pertinenciis <placeName
+            ref="#Sarzanello">castri Sarzane</placeName>, in loco dicto <placeName ref="#Paternulo"
+            >Paternulo</placeName>, cui coheret ab uno latere terra quam tenet <persName
+            ref="#GuicholinusStrivane">Guicholinus Strivane</persName>, ab alio terrenum domini
+          episcopi et episcopatus, superius via et mons, inferius canalis, quam terram suprascripti
+            <roleName>syndicus</roleName> et <roleName>castaldio</roleName> dicebant esse domini
+          episcopi suprascripti et episcopatus et ad ipsum dominum episcopum et episcopatum iure
+          dominii pertinendum<note n="a" place="foot" xml:id="CVI_n_001"><term type="incerto"
+              >pertinendum</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">pertinere</term></note>. Et etiam refutaverunt eisdem,
+          recipientibus dicto nomine, omnia iura et actiones et rationes utiles et directas, reales
+          et personales et mixtas, si quas vel si qua<note n="b" place="foot" xml:id="CVI_n_002"
+              ><term type="incerto">qua</term>: <emph>così nel testo.</emph></note> predicti
+            <persName ref="#UgolinusDati">Ugolinus</persName> et <persName
+            ref="#FoscheriusRustichelli">Foscherius</persName> vel aliquis eorum habebant in dicta
+          terra et in vineis super ea positis et in omnibus super positis suis, et dederunt eis et
+          utrique eorum licenciam et bailliam intrandi et accipiendi corporalem tenutam et
+          possessionem de predicta terra et vineis, constituentes se pro dicto episcopo et
+          episcopatu et pro dictis <roleName>syndico</roleName> et <roleName>castaldione</roleName>,
+          dicto nomine agentibus, possidere donec ipse dominus episcopus vel dicti
+            <roleName>syndicus</roleName> vel <roleName>castaldio</roleName>, vel alter eorum pro eo
+          vel alia persona pro ipso domino episcopo, corporalem possessionem habuerit vel acceperit
+          de dicta terra et vineis. Et predictam refutationem sic fecerunt, confitentes dictam
+          terram esse et esse debere predicti domini episcopi et ad ipsum dominum episcopum iure
+          dominii pertinere ad postulationem predictorum <roleName>syndici</roleName> et
+            <roleName>castaldionis</roleName>, dicto nomine agentium. Et ipsam refutationem et omnia
+          suprascripta promiserunt et convenerunt habere ratam et rata et tenere et contra non
+          venire per se vel alium et ipsam terram et vineas et pertinencias non imbrigare vel
+          molestare, sub pena <measure type="Ianuenses" unit="libra" quantity="10">librarum X
+            Ianuensium</measure> atque, pena soluta vel non, suprascriptis omnibus et singulis
+          nichillominus firmis manentibus, obligando se simul et in solidum et suos heredes et bona
+          omnia presentia atque futura iure pa [..]<note n="c" place="foot" xml:id="CVI_n_003"
+              ><emph>Segue una lettera illeggibile con segno di abbreviazione.</emph></note> et
+          ypothecarum. Et dictus <persName ref="#FoscheriusRustichelli">Foscherius</persName>
+          refutavit dicto <persName ref="#UgolinusDati">Ugolino</persName> omne ius et rationem,
+          quam et quod habet vel habere posset contra eum occasione terre vel eius melioramenti,
+          presentibus <persName ref="#UrsusDrivi">Urso de Drivi
+            <roleName>notario</roleName></persName>, <persName ref="#Rubeusiud"
+              ><roleName>domino</roleName> Rosso <roleName>iudice</roleName> de <placeName
+              ref="#Sarzana">Sarzana</placeName></persName> et <persName ref="#PercivalGuilielmi"
+            >Percivalle quondam Guilielmi</persName> et <persName ref="#Cavallinuscorr"
+              >Cavallini<note n="d" place="foot" xml:id="CVI_n_004"><term type="incerto"
+                >Cavallini</term>: <emph>così nel testo per</emph>
+              <term xml:lang="latin">Cavallino</term></note>
+            <roleName>correrio</roleName></persName> et <persName ref="#Augustuscorr">Augusto
+              <roleName>correrio</roleName></persName> et <persName ref="#Bonapartepresb"
+              ><roleName>presbytero</roleName> Bonaparte</persName>, testibus ad hec rogatis, in
+          presentia domini <persName ref="#NormanninusBernanduccisiud">Normannini</persName>,
+            <roleName>iudicis</roleName> et <roleName>assessoris</roleName>
+            <orgName ref="#Lunigiana_provincia">provincie <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> pro<note n="e"
+            place="foot" xml:id="CVI_n_005"><term xml:lang="latin">pro</term>: ro <emph>aggiunto in
+              sopralinea.</emph></note> venerabili patre domino <persName ref="#GuilEpLuni"
+            >Guilielmo, Lunensi episcopo</persName>, pro tribunali sedente.</p>
+        <p xml:id="CVI_p_002" n="2"><ptr target="#CVI_st_001"/><persName
+            ref="#BaldinotusCaldovillanus">Baldinotus Caldovillanus de porticu <placeName
+              ref="#Lucca">civitatis Lucane</placeName>, <roleName>imperii Romanorum iudex et
+                notarius </roleName>et<roleName> suprascripte <orgName ref="#Lunigiana_provincia">provincie</orgName> tunc <roleName>scriba</roleName> pro dicto patre
+              venerabili domino </roleName></persName>
+          <persName ref="#GuilEpLuni">Guilielmo, Lunensi episcopo</persName>, predictis interfui et
+          omnia ego scripsi et meo signo et nomine publicavi, confirmans.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

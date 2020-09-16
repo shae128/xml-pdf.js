@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXXXVIIII_400">
+    <front xml:id="CCCCXXXVIIII_front">
+
+      <titlePart type="numerazioneNuova">400</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXXXVIIII</titlePart>
+
+      <docDate xml:id="CCCCXXXVIIII_docDate">
+        <date when="1235-02-09">1235 febbraio 9</date>, <placeName>Ameglia <emph>(<term
+              xml:lang="latin">in palacio curie Amelie</term>)</emph>
+        </placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXXXVIIII_regesto">
+        <p>Vivaldo e Corrado del fu Lamberto di Vezzano dichiarano al vescovo di Luni Guglielmo di
+          non poter più conservare il loro feudo a Vezzano, dato che il palazzo è in rovina, non
+          hanno i mezzi per poterlo restaurare, i loro diritti sono usurpati dai consorti e i
+          vassalli oppressi. Per questo motivo cedono al vescovo in permuta il suolo con sopra il
+          palazzo e due torri e altri edifici e terreni nel castello di Vezzano, metà <term
+            xml:lang="latin">pro indiviso</term> di tutti i vassalli, castellani e uomini a loro
+          pertinenti e la quinta parte della giurisdizione di Vezzano; mantengono per sé metà dei
+          vassalli, castellani e uomini, oltre che i beni posti fuori dal castello di Vezzano e dal
+          consorzio dei signori di Vezzano. In cambio il vescovo Guglielmo cede ai due fratelli 6
+          iugeri contigui di terreno presso il Carcandola, vicino al borgo di Sarzana e 6 iugeri ad
+            <term xml:lang="latin">Acciliano</term>, valutati 200 lire di imperiali da Alberto
+          visdomino e Saladino di Fosdinovo. Dato che la cessione dei due fratelli ha un valore
+          maggiore, il vescovo versa loro 40 lire di imperiali in compensazione; Vivaldo e Corrado
+          ottengono i beni in feudo e di conseguenza rimangono suoi vassalli. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXXXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] cc. 343r.-344r., cc. CCCXXXVr.-CCCXXXVIr. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 439,
+            pp. 442-444.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>
+            <emph>Nel margine esterno, di mano moderna:</emph> Vendicio quinte partis Vezani </note>
+        </div>
+
+        <div type="appr">
+          <p> Bibliografia: <ref target="#PETTI_BALBI_1978">PETTI BALBI 1978</ref>, pp. 55-56</p>
+
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCCXXXVIIII. Emptionis quinte partis Veçani.</term></p>
+
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXXXVIIII_div">
+        <p xml:id="CCCCXXXVIIII_p_001" n="1"> In divi et veri unius et trini, summi et almi Dei
+          nomine, amen. <date when="1235-02-09">Dominice nativitatis anno MCCXXXV<note
+              xml:id="CCCCXXXVIIII_n_001" n="a" place="foot">
+              <term xml:lang="latin"> MCCXXXV</term>: V<emph>corretto su precedente
+                scrittura.</emph></note>, indictione VIII, die veneris, IX intrante
+          februario</date>. Omnibus<note xml:id="CCCCXXXVIIII_n_002" n="b" place="foot">
+            <term xml:lang="latin"> Omnibus</term>: O<emph>corretta su precedente
+            lettera.</emph></note> audientibus patefiat ex serie huius publici instrumenti quod
+            <persName ref="#VivaldusLamberti">Vivaldus</persName> et <persName
+            ref="#CunradusLamberti">Conradus</persName>, germani, <persName ref="#LambertusVezano"
+            >filii quondam Lamberti de <placeName ref="#Vezzano">Vezano</placeName></persName>,
+          denunciaverunt venerabili <roleName>domino</roleName>
+          <persName ref="#GuilEpLuni">Guilielmo</persName>, <roleName>Dei gratia Lunensi
+            episcopo</roleName>, quod feudum quod tenebant ab episcopo et episcopatu in <placeName
+            ref="#Vezzano">Vezano</placeName> et districtu <placeName ref="#Vezzano"
+            >Vezani</placeName> integre conservare non poterant eo quod palatium eorum rueret,
+          hedificia turrium marcida essent, nec haberent unde reficere possent, iurisdictio et
+          honores usurparentur a consortibus ipsorum, vassalli opprimerentur iniuste et ipsi tanquam
+          potentioribus resistere non valerent. Propter que dicti germani, pro se et filiis et
+          heredibus suis, in perpetuum, ex una parte, profitentes quod ab episcopo et episcopatu
+          Lunensi tenebant in feudum quintam partem iurisdictionis <placeName ref="#Vezzano"
+            >Vezani</placeName> et secundum ipsam partem honores, pedagia, piscationes, pascua,
+          nemora, ripatica, vassallos et cetera, que ad iurisdictionem et honores quinte partis de
+            <placeName ref="#Vezzano">Vezano</placeName> pertinent, de ipsis omnibus et singulis et
+          de eorum omnibus, que ad ipsa pertinent, cum venerabili domino, Dei gratia Lunensi
+          episcopo, agenti et recipienti pro se et suis successoribus, in perpetuum, et episcopali
+          mensa, ex altera, talem permutationis contractum bona fide fecerunt, videlicet quod dicti
+          germani, pro se et eorum filiis et heredibus, in perpetuum, dederunt, cesserunt et
+          tradiderunt dicto venerabili <roleName>domino</roleName>
+          <persName ref="#GuilEpLuni">Guilielmo</persName>, <roleName>Dei gratia Lunensi
+            episcopo</roleName>, recipienti pro se et Lunensi mensa et suis successoribus, in
+          perpetuum, solum cum duabus turribus se et palacio super<note xml:id="CCCCXXXVIIII_n_003"
+            n="c" place="foot">
+            <term xml:lang="latin"> sesuper</term>: <emph>così nel testo; probabilmente manca un
+              segno di richiamo per invertire l’ordine delle parole, dovrebbe essere</emph> et
+            palacio super se</note>, una parva et altera magna, et aliis hedificiis super se positis
+          et cum pertinenciis et accessibus et egressibus suis et cum omni iure soli et hedificii et
+          cum omni actione, dominio et proprietate, usu et utilitate, situm in castro <placeName
+            ref="#Vezzano">Vezani</placeName>; iuxta maiorem turrim est casamentum <persName
+            ref="#Opizinus">Oppicini</persName> quondam, iuxta minorem turrim est casamentum
+          filiorum quondam <persName ref="#GuilielmusBlanco">Guilielmi Blanchi</persName>, ex altera
+          parte palacii mu<supplied reason="omitted">rus</supplied> castellanus, et si qui alii<note
+            xml:id="CCCCXXXVIIII_n_004" n="d" place="foot"><term xml:lang="latin"> alii</term>: a
+              <emph>corretta su precedente lettera</emph></note> sunt fines. Item casas seu
+          casamenta, plateas seu territorium que habebant et possidebant vel quasi, ipsi vel aliqui
+          pro eis, in castro <placeName ref="#Vezzano">Vezani</placeName>; medietatem etiam pro
+          indiviso omnium vassallorum, castellanorum et hominum, que<note
+            xml:id="CCCCXXXVIIII_n_005" n="e" place="foot">
+            <term xml:lang="latin"> que</term>: <emph>così nel testo per</emph> qui</note> ad eos
+          pertinent, quoquo iure, in <placeName ref="#Vezzano">Vezano</placeName> et districtu
+            <placeName ref="#Vezzano">Vezani</placeName>, cum omnibus que ipsi vassalli habent,
+          tenent et possident, mobilibus et immobilibus, iuribus et actionibus, filiis et heredibus,
+          ita tamen quod divisionem de ipsis vassallis<note xml:id="CCCCXXXVIIII_n_006" n="f"
+            place="foot">
+            <term xml:lang="latin"> vassallis</term>: <emph>la prima s aggiunta in
+              sopralinea.</emph></note>, hominibus et castellanis facere teneantur ad requisitionem
+          domini episcopi; quintam partem integre iurisdictionis <placeName ref="#Vezzano"
+            >Vezani</placeName>, sive divisim sive pro indiviso, ad ipsos pertineat, cum honoribus,
+          iuribus, pascuis, piscationibus, pedagiis, ripis seu ripaticis, silvis seu pratis,
+          nemoribus, saudinis<note xml:id="CCCCXXXVIIII_n_007" n="g" place="foot"><term
+              xml:lang="latin"> sandinis</term>: <emph>così nel testo forse per </emph>sandonis
+              <emph>(barche da carico)</emph></note> et omnibus et singulis, que in <placeName
+            ref="#Vezzano">Vezano</placeName> et districtu <placeName ref="#Vezzano"
+            >Vezani</placeName> habuerunt, <pb n="343v" xml:id="fol_343v"/> tenuerunt et possiderunt
+          vel quasi predicti germani, habent, tenent et possident, ipsi vel aliqui pro eis,
+          reservatis sibi tantum medietate vassallorum, hominum et castellanorum, quos habebant in
+            <placeName ref="#Vezzano">Vezano</placeName> et districtu <placeName ref="#Vezzano"
+            >Vezani</placeName>, pro indiviso vel diviso, ut dictum est, ad voluntatem domini
+          episcopi pretaxati, et terris cultis, vineis et quibusdam nemoribus, que et quas extra
+          castrum <placeName ref="#Vezzano">Vexani</placeName> et extra comunionem et consortaticum
+          dominorum de <placeName ref="#Vezzano">Vezano</placeName> prius in donicum retinebant et
+          nunc sibi reservant. Et predicta datio, cessio et traditio, nomine permutationis facta,
+          nullum preiudicium faciant<note xml:id="CCCCXXXVIIII_n_008" n="h" place="foot"><term
+              xml:lang="latin"> faciant</term>: <emph>così nel testo.</emph></note> domino episcopo
+          vel episcopatui, quominus idem dominus episcopus et episcopatus Lunensis habeant, teneant
+          et possideant vel quasi, tam data quam reservata, eo iure quo ante predictam dationem,
+          cessionem et traditionem ad dominum Lunensem episcopum et episcopatum pertinebant.
+          Preterea quoque predicti germani dederunt, cesserunt et tradiderunt ac mandaverunt eidem
+          domino episcopo, pro se recipienti et episcopali mensa et suis successoribus et
+          episcopatu, in perpetuum, omnia iura omnesque actiones utiles et directas, reales et
+          personales et mixtas, que et quas habebant in predictis et singulis et sibi competebant
+          aut competere possent, ut in hiis et singulis, suo et episcopatus nomine, possit agere et
+          experiri et facere sicut de re propria adversus quamcumque personam et locum et se tueri,
+          remissa ei necessitate denunciandi. Et ipsum dominum episcopum, pro se et episcopali mensa
+          et episcopatu recipientem, fecerunt et constituerunt dominum ut in rem suam, dantes ei
+          generalem licenciam et liberam potestatem tenutam de predictis omnibus et singulis
+          intrandi, auctoritate propria, et de omnibus et singulis sicut de re propria faciendi; et
+          interim se pro eo et eius nomine et episcopalis mense et episcopatus constituerunt omnia
+          et singula possidere. Vice versa, eodem permutationis bone fidei contractus nomine, idem
+          venerabilis <persName ref="#GuilEpLuni">Guilielmus</persName>, <roleName>Dei gratia
+            Lunensis episcopus</roleName>, episcopatus sui vice et nomine, dedit, tradidit et cessit
+          predictis germanis, videlicet <persName ref="#VivaldusLamberti">Vivaldo</persName> et
+            <persName ref="#CunradusLamberti">Conrado</persName>, recipientibus pro se et heredibus
+          eorum, in perpetuum, VI iugera terre continua posita iuxta <placeName
+            ref="#Carcandola_rivus">Carcandulam</placeName>, prope burgum <placeName ref="#Sarzana"
+            >Sarzane</placeName>, ex superiori parte via publica, ex parte orientis lectum ipsius
+            <placeName ref="#Carcandola_rivus">Carcandule</placeName> et si qui alii sunt fines; VI
+          iugera terre in <placeName ref="#Aciliano">Acciliano</placeName> posita, secundum confines
+          ipsius. Que omnia extimata fuerunt valere per communes appreciatores et extimatores,
+          videlicet <roleName>nobiles</roleName>
+          <persName ref="#Albertusvic">Albertum</persName>
+          <roleName>vicedominum</roleName> et <persName ref="#SaladinusFosdenova">Saladinum
+            de</persName>
+          <placeName ref="#Fosdinovo">Fosdenova</placeName>, <measure type="Imperiales"
+            quantity="200" unit="libra">CC libre imperialium</measure>. Et quia forte plus valebant
+          data, tradita et cessa a dictis germanis quam ipsa terra, in recompensationem solvit
+          eisdem <measure type="Imperiales" quantity="40" unit="libra">libras XL
+            imperialium</measure> in pecunia numerata, ita videlicet ut ipsi germani predicta iugera
+          terre et ipsam terram habeant, teneant et fruantur et possideant vel quasi, cum accessibus
+          et egressibus, superioribus et inferioribus suis omnique iure cunctaque utilitate
+          suprascripte terre competentibus et competituris, sine omni dicti domini episcopi eiusque
+          successorum et cuiuscumque persone contradictione. Et eos germanos constituit idem dominus
+          episcopus procuratores ut in rem suam, dando et cedendo eis omnia iura omnesque actiones
+          et rationes utiles et directas, reales et personales et mixtas, que et quas habebat in
+          predictis, ut suo nomine directo et utili possint agere et experiri adversus quamcumque
+          personam et locum, et eis dedit potestatem inde tenutam intrandi et se pro eis interim
+          constituit possidere. Et promisit dominus episcopus, episcopatus sui vice et nomine,
+          predictam terram sitam in locis predictis semper iure deffendere et expedire ab omni
+          homine et contradicente persona suis propriis expensis et cum advo<supplied
+            reason="omitted">cato</supplied> suo; et, si deffendere non posset, salvum cambium inde
+          dare secundum quod pro tempore ipse terre magis valuerint sub legitima extimatione,
+          obligando ad hec se suosque successores et fructus Lunensis episcopatus et mense. Hec
+          expresse acta sunt, nullis eorum que posita sunt supra contradicentibus vel obviantibus,
+          videlicet inter prefatum dominum episcopum, vice et nomine episcopatus sui, ex una parte,
+          et <persName ref="#VivaldusLamberti">Vivaldum</persName> et <persName
+            ref="#CunradusLamberti">Conradum</persName> suprascriptos, suo et filiorum et heredum
+          suorum nomine, in perpetuum, ex altera parte, quod dicti germani et eorum heredes teneant
+          dicta iugera terre ab episcopo et episcopatu Lunensi nomine recti et honorifici feudi et
+          exinde et ex aliis qua<note xml:id="CCCCXXXVIIII_n_009" n="i" place="foot"><term
+              xml:lang="latin"> qua</term>: <emph>così nel testo per </emph>que</note> sibi
+          reservarunt in districtu <placeName ref="#Vezzano">Vezani</placeName> teneantur, ipsi et
+          eorum heredes, esse recti et fideles vassalli, contra omnes homines, Lunensis episcopi et
+          episcopatus, et episcopis, qui pro tempore fuerint, manualem fidelitatem <pb n="344r"
+            xml:id="fol_344r"/>iurare, quia ea que in permutationem dederunt, cesserunt et
+          tradiderunt superius sic ab episcopo et episcopatu Lunensi tenebant, ut publice fatebantur
+          et fama publica continebat, et quod ipsam terram in totum vel in parte non infeudabunt,
+          non vendent, non alienabunt seu in locationem perpetuam dabunt absque consensu et licencia
+          speciali Lunensis episcopi, qui pro tempore fuerit. Et ipsi germani et eorum filii et
+          heredes teneantur ipsi domino episcopo et episcopatui et eius successoribus deffendere ad
+          Lunensis episcopi voluntatem, qui pro tempore fuerit, ea omnia et singula que superius
+          dederunt, cesserunt et tradiderunt, in causis vel extra causas, sub expensis tamen
+          Lunensis episcopi et episcopatus; et si in totum vel in partem evictum esset vel si alias
+          appareret quod dicta datio, cessio et traditio non valerent<note
+            xml:id="CCCCXXXVIIII_n_010" n="m" place="foot">
+            <term xml:lang="latin"> valerent</term>: le <emph>corretto su </emph>ll</note>, idem
+          dominus episcopus et sui successores, absque lamentatione aliqua vel requisitione iudicum,
+          auctoritate propria, regressum habeant et habere possint ad dicta iugera terre et ea ad
+          propriam mensam Lunensis episcopi revocare et in perpetuum ad usum et utilitatem propriam
+          retinere et de aliis bonis fratrum ipsorum, mobilibus et immobilibus, usque ad valorem
+            <measure type="Imperiales" quantity="40" unit="libra">XL librarum imperialium</measure>,
+          ad proprietatem Lunensis Ecclesie vindicare; et quod idem dominus episcopus vel sui
+          successores ea omnia et singula que dicti fratres superius dederunt, cesserunt et
+          tradiderunt, non alienabit, set ea omnia et singula ad usum, commoditatem et proprietatem
+          episcopalis mense perpetuo reservabit. Actum est etiam inter predictas partes quod, si
+          permutationes non essent equales vel dationes, cessiones et traditiones non valerent<note
+            xml:id="CCCCXXXVIIII_n_011" n="l" place="foot"><term xml:lang="latin"> valerent</term>:
+              <emph>così nel testo.</emph></note> ut actum est, quod super esset vel quod non
+          valeret pars parti donavit pro remedio animarum suarum et salute, inrevocabiliter, inter
+          vivos. Et una pars ab altera quod recepit merito donationis, quam fecerat, recognovit et
+          renunciavit legi qua cavetur quod donatio absque insinuatione ultra expensam in lege
+          summam fieri non debeat vel non possit, et si omnia vel singula suprascripta non valerent
+          ut permutatio, valeant ut donatio inrevocabilis inter vivos, ut dictum est; et si non
+          valerent ut donatio, valeant ut renunciatio et resignatio feudi, quia ipsa omnia et
+          singula, que superius dicta sunt, in permutatione, dicti germani renunciant et resignant
+          ipsi domino episcopo, pro se et episcopali mensa, sicut feudum vero et principali domino,
+          eo quod cum sint pauperes et impotentes feudum ipsum conservare seu deffendere non possunt
+          propter nimiam domorum vetustatem et propter malignorum incursus et specialiter consortum.
+          Et secundum renunciationem et resignationem dominus episcopus, volens providere utilitati
+          et paupertati ipsorum, dictas terras et suprascriptam pecuniam pro merito ipsius
+          renunciationis seu resignationis in feudum concessit eisdem. Hec omnia et singula ambe
+          partes, interveniente stipulatione sollempni, promiserunt ad invicem facere, attendere et
+          observare, bona fide, sine fraude, et contra non venire aliquo modo vel ingenio, ad penam
+            <measure type="soldi" quantity="200">CC marcharum argenti</measure>, obligando dictus
+          dominus episcopus dictis germanis et eorum heredibus se suosque successores et episcopatus
+          bona et ipsi germani se et eorum filios et heredes et omnia eorum bona, que nunc habent
+          vel in antea possederint, ipsi domino episcopo et episcopatui et suis successoribus in
+          perpetuum, ita videlicet quod, pena soluta, ipsa permutatio, donatio seu resignatio et
+          singula, que superius sunt expressa, in sua semper permaneant firmitate; et tociens pena
+          committatur et possit exigi cum effectu quociens in quolibet capitulo fuerit contraventum.
+          Et renunciaverunt prescriptioni fori et contractus domicilii, legibus, iuribus,
+          constitutionibus, auxiliis, quibus a suprascriptis vel ab aliquo suprascriptorum, et
+          specialiter a dicta pena, se tueri vel iuvari possent. </p>
+
+        <p xml:id="CCCCXXXVIIII_p_002" n="2"> Acta sunt hec in palacio curie <placeName
+            ref="#Ameglia">Amelie</placeName>, presentibus <roleName>nobilibus</roleName>
+          <roleName>domino</roleName>
+          <persName ref="#SaladinusFosdenova">Saladino de</persName>
+          <placeName ref="#Fosdinovo">Fosdenova</placeName>, <roleName>domino</roleName>
+          <persName ref="#SalamoncellusBaratella">Salamoncello dicto Baratella</persName>
+          <placeName ref="#Lucca">Lucano</placeName>, <roleName>domino</roleName>
+          <persName ref="#AttolinusCacti">Attolino de Cacio</persName> et <persName
+            ref="#RollandusVagus">Rollando dicto Vago</persName>. </p>
+      </div>
+
+      <div xml:id="CCCCXXXVIIII_div2">
+        <p xml:id="CCCCXXXVIIII_p_003" n="3"><ptr target="#CCCCXXXVIIII_st_001"/>Ego <persName
+            ref="#Bonalbergusnot4">Bonalbergus</persName>, <roleName>imperialis aule
+            notarius</roleName>, hiis omnibus interfui et rogatus scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

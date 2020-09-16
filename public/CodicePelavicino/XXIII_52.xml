@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="XXIII_52">
+		<front xml:id="XXIII_front">
+
+			<titlePart type="numerazioneNuova">52</titlePart>
+			<titlePart type="numerazioneOrig">XXIII</titlePart>
+
+			<docDate xml:id="XXIII_docDate">
+				<date when="1285-05-15">1285 maggio 15</date>, <placeName>Altenheim (<term
+						xml:lang="latin">apud Alekiethem</term>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="XXIII_regesto">
+				<p>L’imperatore Rodolfo I concede ad Enrico, vescovo di Luni, e ai suoi successori
+					il privilegio di battere moneta.</p>
+			</div>
+
+			<div type="footer" xml:id="XXIII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] c. 70r., c. LXIIr. secondo la numerazione originale.</p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 23,
+						p. 36-37.</p>
+					<p>Edizione parziale in <ref target="#UGHELLI_1717">UGHELLI 1717</ref>, I, col.
+						853 e <ref target="#PODESTÀ_1895">PODESTÀ 1895</ref>, p. 108, nota 1.</p>
+				</div>
+
+				<div type="crit_notes">
+					<note>Come già segnalato da PISTARINO 1963, p. 83, a partire dal questo
+						documento <handShift/>cambia la mano del copista. Riguardo al luogo di
+						redazione il Böhmer, sulla base delle date topiche dei diplomi della
+						primavera 1285 ipotizza Altenheim presso Strarburgo. Nel margine esterno di
+						c. 70r. di mano posteriore:<term xml:lang="latin">concessio faciendi
+							monetam</term>
+					</note>
+				</div>
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">XXIII. Privilegium Romanorum regis de moneta
+							facienda.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="XXIII_div">
+				<p xml:id="XXIII_p_001"> In nomine Domini, amen. Exemplum privilegii concessi domino
+					episcopo de nova moneta facienda, ut inferius continetur:  </p>
+					<div xml:id="XXIII_div2" type="quotation">
+					<quote rend="pre(«) post(»)">
+						<persName ref="#Radulphus_imperator">Radulphus,<roleName> Dei gratia
+								Romanorum rex semper augustus</roleName></persName>, venerabili
+							<persName ref="#HenricusEpLuni">Henrico<roleName>, Lunensi
+								episcopo</roleName></persName>, sibi dilecto, gratiam suam et omne
+						bonum. Quia devotionem tuam et fidem purissimam, quam erga nos et Imperium
+						Sacrum Romanum gerere comprobaris, diligenter inspicimus et graciosius
+						amplexamur, placet nobis et volumus quod monetam Lunensem teneas et fieri
+						facias perpetuo ac tibi, nomine tuo et Lunensis ecclesie et successorum
+						tuorum, de gratia speciali de novo concedimus, sicut honorem nostrum et
+						Romani imperii decet et tibi et Lunensi ecclesie et successoribus tuis magis
+						visum fuerit expedire, dummodo iusti, equi et legalis ponderis dicta moneta
+						fiat, mandantes et precipientes omnibus fidelibus vestris ne te, Lunensem
+						ecclesiam vel successores tuos quoad dictam monetam fieri faciendam et
+						recipiendam perpetuo quisquam impediat vel perturbet. In cuius rei
+						testimonium presens privilegium et concessionem exinde conscribi et
+						maiestatis nostre sigillo fecimus communiri. Datum apud <placeName
+							ref="#Alekiethem">Alekiethem</placeName><date when="1285-05-15"> idus
+							maii, inditione XIIIa, anno Domini MCCLXXXV, regni vero nostri anno
+							XII°</date>
+					</quote>
+						</div>
+					<div xml:id="XXIII_div3">
+						<p>Sigillum predictum erat de cera pendens cum seta claucha et rubea, et in
+					ipso sigillo erat infixa et scripta quedam regalis ymago, cum lilio in manu
+					dextra et in sinistra quedam palla cum cruce superius; et littere erant, circa
+					dictam ymaginem, que ita legebantur: + <persName ref="#Radulphus_imperator"
+							>Radulphus,<roleName> Dei gratia Romanorum rex semper
+							augustus.</roleName></persName>
+					
+				</p>
+			</div>
+			</div>
+		</body>
+	</text>
+</TEI>

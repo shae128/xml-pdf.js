@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCIIII_266">
+    <front xml:id="CCCIIII_front">
+
+      <titlePart type="numerazioneNuova">266</titlePart>
+      <titlePart type="numerazioneOrig">CCCIIII</titlePart>
+
+      <docDate xml:id="CCCIIII_docDate">
+        <date when="1168-02-03">1168 febbraio 3</date>, <date when="1168-02-10">10</date>, <date
+          when="1168-02-17">17</date> o <date when="1168-02-24">24</date>, <placeName>Sarzanello
+            (<term xml:lang="latin">in castro Sarzana</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCIIII_regesto">
+        <p>I signori di <emph>Bozano</emph>, nella fattispecie i figli di Gregorio e i figli di
+          Catia <term xml:lang="latin">Regis</term> e di Rofino, avevano ceduto alla chiesa di Luni
+          il poggio di Volpiglione. Raimondo, vescovo eletto di Luni, concede in feudo il poggio ai
+          suddetti signori, che gli giurano fedeltà riguardo al castello ivi costruito. L’uso del
+          castello a favore del vescovo deve essere garantito entro 30 giorni dalla richiesta e
+          alcun consorte vi si può stabilire senza la sua approvazione; allo stesso modo il vescovo
+          non può insediarvi alcuno senza il consenso dei signori di <emph>Bozano</emph>. I
+          castellani sono tenuti anch’essi al giuramento di fedeltà e a non recare offesa al vescovo
+          o agli uomini della curia e dei canonici. Nel castello non sarà data ospitalità ad alcun
+          nemico del vescovo e se ci sarà offesa verrà emendata entro 30 giorni. Da parte sua il
+          vescovo si impegna a non sottrarre o far sottrarre il castello ai signori di
+            <emph>Bozano</emph>. Se in futuro il vescovo non vorrà richiedere il giuramento, i
+          signori e i castellani non saranno tenuti a consegnargli il castello. Il vescovo dà ai
+          signori di <emph>Bozano</emph> 60 lire in denari lucchesi.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 285r., c. CCLXXVIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 304, p.
+            283-285.</p>
+          <p> Bibliografia: <ref target="#FORMENTINI_1926b">FORMENTINI 1992</ref>, <ref
+              target="#NOCCHI_FORZANI_1970">NOCCHI FORZANI 1970</ref>; <ref target="#NOBILI_1992"
+              >NOBILI 1992</ref>. Secondo la letteratura scientifica questi signori di
+              <emph>Bozano</emph> apparterrebbero alla famiglia dei da Buggiano, di area pistoiese.
+            Pur concordando con l'identificazione, data la presenza in Toscana di diversi toponimi
+            simili come ad esempio Bozano presso Massarosa (Lucca), si preferisce lasciare il
+            termine anche nel regesto così come appare.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine superiore, in scrittura minuta quasi coeva: <term xml:lang="latin">†
+              Isti infrascripti vendiderunt Petrociolo Solerie</term>
+            <p>Manca l’indicazione del giorno. Il giorno sarà il 3, il 10, il 17 o il 24 febbraio
+              perché l’atto è rogato <emph>in castro Sarzani, die sabbati</emph>. Cfr. <ref
+                target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 21. Non è chiaro però a cosa
+              corrisponda il numero <emph>IIIIX</emph>: dato che l'incoronazione a imperatore di
+              Federico I avvenne il il 18 giugno 1155, il riferimento è probabilmente al 13° anno di
+              impero, tuttavia con l'errore di una cifra; l’indizione è esatta.</p></note>
+          <p>Il <ref target="#FORMENTINI_1926b">Formentini</ref>, seguito dal <ref
+              target="#NOBILI_1992">Nobili</ref>, legge <emph>Buzano</emph> come Buggiano (PT) e
+            identifica di conseguenza i signori come i domini di Buggiano. Per prudenza si è
+            preferito mantenere nel regesto la forma originale del toponimo, che è stato
+            temporaneamnete identificato con Buzzano (LU) in attesa di ulteriori
+            approfondimenti.</p>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCIIII.
+              Pactorum de Vulpillione cum dominis de Boçano.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCIIII_div">
+        <pb n="285r" xml:id="fol_285r"/>
+        <p xml:id="CCCIIII_p_001" n="1">
+          <ptr target="#CCCIIII_st_001"/> In Dei nomine.<date when="1168-02">Anno incarnationis
+            Domini millesimo CLXVIII, Frederico regnante, imperii eius regni IIIIX<note place="foot"
+              n="a" xml:id="CCCIIII_n_001"> IIIX: <emph>così nel testo.</emph></note>anno,
+            indictione I, mense februarii</date>. Manifestum est quod pozo de <placeName
+            ref="#Volpilione">Volpilone</placeName>, hoc totum quod domini de <placeName
+            ref="#Buçano">Bozano</placeName>, scilicet filii <persName ref="#GregoriusBuzano"
+            >Gregorii</persName> et filii <persName ref="#CatiaRegis">Catie Regis</persName> et
+            <persName ref="#RofinusBoz">Rofini</persName>, quocumque modo in predicto poço<note
+            place="foot" n="b" xml:id="CCCIIII_n_002"> poço: <c>p</c>
+            <term xml:lang="italian"><emph>corretto su </emph></term><c>l</c></note> habebant, per
+          se et per suos heredes, Lunensi Ecclesie in iure proprietatis dederunt. <persName
+            ref="#Raimondusep">Raimondus</persName>, Dei gratia sancte Lunensis Ecclesie electus,
+          predictus pozus<note place="foot" n="c" xml:id="CCCIIII_n_003"> predictus pozus:
+              <emph>così nel testo per</emph>
+            <term xml:lang="latin">predictum pozum</term></note> de <placeName ref="#Volpilione"
+            >Volpilone</placeName> iam dictis dominis de <placeName ref="#Buçano"
+          >Bozano</placeName>, sibi et suis heredibus, in feudum reddidit, et omnes qui tunc erant
+            <persName ref="#Raimondusep">Raimondo, Lunensi electo</persName>, fidelitatem
+          iuraverunt; similiter et illi qui pro tempore erunt debent iurare fidelitatem predicto
+          domino et eius successoribus et debent iurare Lunensi episcopo qui pro tempore erit
+          castrum de <placeName ref="#Volpilione">Volpilone</placeName> sibi dare garnitum et
+          scaritum in pace et in guerra et facere inde guerram et pacem cuicumque voluerit.
+          Fidelitates et securitates predicti castri infra XXX dies iam requisite debent facere et
+          ullum consortem in predictum castrum sine parabola Lunensis episcopi mittere non debent,
+          et etiam similiter ullum hominem de Lunensi Ecclesia non debent ad habitandum mittere in
+          castrum de <placeName ref="#Volpilione">Volpilone</placeName> sine parabola dominorum
+          predicte Ecclesie. Et omnes castellani qui pro tempore in predicto castro erunt similiter
+          iurabunt de securitate predicti castri sicuti et domini, et ullum manifestum inimicum
+          Lunensis Ecclesie domini et castellani in <placeName ref="#Volpilione"
+            >Volpilone</placeName> non debent retinere postquam Lunensis episcopus vetabit, et ullam
+          offensionem studiose non debent facere hominibus curie et canonicorum; et si fecerint,
+          post requisita, infra XXX dies emendare debent tantum per tantum. <persName
+            ref="#Raimondusep">Raimondo, Lunensis electo</persName>, iuravit predictum castrum de
+            <placeName ref="#Volpilione">Volpilone</placeName> iamdictis dominis non sibi auferre
+          nec consentire alicui auferre et in ullo tempore vetare; similiter episcopi qui fuerint
+          pro tempore hoc sacramentum debent facere; et si aliquis episcopus hoc sacramentum facere
+          noluerit, domini et castellani non teneantur sibi dare castrum. Facto autem sacramento, ut
+          superius dictum est, debent sibi dare castrum. Omnia suprascripta et sacramento firmata
+          per bonam fidem tenere et salvare, salva fidelitate domini imperatoris. Feliciter. </p>
+        <p xml:id="CCCIIII_p_002" n="2"> Actum in <placeName ref="#Sarzanello">castro
+            Sarzani</placeName>, die sabbati. </p>
+        <p xml:id="CCCIIII_p_003" n="3"> Signa testium. <persName ref="#Raimondusep">Raimundus et
+            domini de Buzano</persName> hanc cartulam fieri rogaverunt. </p>
+        <p xml:id="CCCIIII_p_004" n="4"> Signa <c>†</c>
+          <c>†</c>
+          <c>†</c> Parentis, <persName ref="#Carscedoniusiud">Carscedonii</persName>, <persName
+            ref="#PetrusArcolaiud">Petri de <placeName ref="#Arcola">Arcula</placeName></persName>
+          <roleName>iudicis</roleName> de <placeName ref="#Vallecchia1">Vallecla</placeName>,
+            <persName ref="#Turpha">Turphe</persName>, <persName ref="#GuidoSoleria">Guidonis de
+              <placeName ref="#Soliera">Soler<supplied reason="omitted"
+            >i</supplied>a</placeName></persName>, rogatorum testium. </p>
+        <p xml:id="CCCIIII_p_005" n="5">
+          <ptr target="#CCCIIII_st_002"/> Ego <persName ref="#Guilielmusnot3">Guilielmus</persName>,
+            <roleName>sacri palacii notarius</roleName>, hanc cartulam post traditam complevi et
+          dedi. De hoc negocio domini<supplied reason="omitted">s</supplied> de <persName
+            ref="#Raimondusep">Buzano Raimondus</persName>
+          <measure type="lucenses" quantity="60" unit="libra">LX libras lucensium</measure> dedit.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

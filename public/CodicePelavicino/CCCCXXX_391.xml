@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXXX_391">
+    <front xml:id="CCCCXXX_front">
+
+      <titlePart type="numerazioneNuova">391</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXXX</titlePart>
+
+      <docDate xml:id="CCCCXXX_docDate">
+        <date when="1224-09-21">1224 settembre 21</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">castro Sarzane, in porticu palacii domini
+          episcopi</term>)</emph></placeName>
+      </docDate>
+      <div type="regesto" xml:id="CCCCXXX_regesto">
+        <p>Buttafava, vescovo di Luni, approva quanto il vescovo Gualtiero, suo predecessore,
+          stipulò il 29 marzo 1208 con gli uomini di Pontilliolo quando aveva costruito il castello
+          di Montebello nel distretto di Bolano. Ai tali patti, riportati quasi per intero, il
+          vescovo Buttafava aggiunge l’obbligo per gli uomini di Montebello di partecipare alle
+          cavalcate per il vescovo sotto il vessillo del comune di Bolano. </p>
+      </div>
+      <div type="footer" xml:id="CCCCXXX_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] cc. 338r.- 338v., cc.CCCXXXr.-CCCXXXv. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 430,
+            pp. 423-425.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Autentica non datata ma collocabile intorno alla metà del XIII secolo dalla presenza
+            dei notai Pagano e Aiuto. <p>All’altezza del primo rigo di testo la pergamena presenta
+              un foro di forma ovoidale, antecedente alla scrittura. Nel margine esterno, di mano
+              moderna: Montebello in confinibus Bolani</p></note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCCXXX.
+              De Muntebello.</term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCCXXX_div">
+        <p xml:id="CCCCXXX_p_001" n="1">
+          <pb n="338r" xml:id="fol_338r"/>
+          <ptr target="#CCCCXXX_st_001"/> In nomine Domini, amen. <date when="1224-10-11"> Anno a
+            nativitate Eius M°CCXXIIII, indictione XII, die sabbati, XI kalendas octubris.</date> In
+          presentia infrascriptorum testium dominus <persName ref="#ButtafavaEpLuni"
+              >Butafava,<roleName> Dei gratia Lunensis episcopus</roleName></persName>, laudavit,
+          approbavit et confirmavit cartam, manu <persName ref="#Ugolinusnot">Ugolini,
+              <roleName>notarii</roleName></persName>, confectam, quam <persName ref="#GualEpLuni"
+            >Walterius, <roleName>bone memorie predecessor suus,</roleName></persName> fecit
+          hominibus de <placeName ref="#Pontilliolo">Pontilliolo</placeName>, [quando]<note n="a"
+            place="foot" xml:id="CCCCXXX_n_001"><emph>L’inchiostro è completamente
+            sbiadito.</emph></note> posuit et hedificavit castrum de <placeName ref="#Montebello"
+            >Montebello</placeName>, cuius tenor talis erat: </p>
+        <p xml:id="CCCCXXX_p_002" n="2">«Ad futuri temporis memoriam et ut rei geste posteris
+          plenius detur noticia, manifestum est quod nos <persName ref="#GualEpLuni"
+            >Walterius</persName><roleName>, Dei gratia Lunensis ecclesie episcopus <note n="b"
+              place="foot" xml:id="CCCCXXX_n_002">Lunensis Ecclesie episcopus:<emph>nel testo</emph>
+              Lunensis episcopus Ecclesie<emph> con segno di richiamo per invertire l’ordine delle
+                parole.</emph></note></roleName>, de consilio <roleName> vicedominorum
+          </roleName>nostrorum, <persName ref="#Azovic">Attonis</persName>, videlicet et <persName
+            ref="#Gerardi">Gerardi</persName>,ponimus et construimus castrum quod nunc dicitur
+            <placeName ref="#Montebello">Monsbellus</placeName>, in monte illo qui vocabatur
+            <placeName ref="#Lavachio">Lavachium </placeName>,infra confines <placeName
+            ref="#Bolani">Bolani</placeName>, qui mons est iuris nostri episcopii, et ponimus ibi ad
+          habitandum et residendum homines et residentes episcopatus nostri, qui habitant in villa
+          nostra de <placeName ref="#Pontilliolo">Pontilliolo</placeName>, retentis nobis et
+          successoribus nostris omnes condictiones et omnes usancias et omne homagium<note n="c"
+            place="foot" xml:id="CCCCXXX_n_003">retentis-homagium:<emph>così nel testo</emph></note>
+          , que nobis et curie nostre olim dicti residentes facere consueverunt, ut penitus et
+          omnino sint homines curie nostre sicuti erant in villa predicta, excepto quod dona <note
+            n="d" place="foot" xml:id="CCCCXXX_n_004">dona:<emph>così nel testo. </emph></note> eis
+          affictamus in X stariis frumenti boni, mundi et sicci, dando<note n="e" place="foot"
+            xml:id="CCCCXXX_n_005">dando:<emph>così nel testo. </emph></note> annis singulis in
+          mense augusti apud <placeName ref="#Ceparana">Cepparanam</placeName>, ad commune starium
+          currens de <placeName ref="#Bolano">Bolano</placeName>, et excepto quod habitatores
+          <supplied reason="illegible">dicti</supplied> castri novi affidamus infra istas coherencias, videlicet a canale de <placeName
+            ref="#Saçinale">Saçinale</placeName>, usque ad canale de <placeName ref="#Sercamoçoli"
+            >Sercamoçoli</placeName>, que canalia in unum coniunguntur, et desuper a fontana
+          veniendo usque ad predictum canale de <placeName ref="#Saçinale">Sazinale</placeName>,
+          exceptis homicidis <note n="f" place="foot" xml:id="CCCCXXX_n_006">Sazinale.. exceptis
+            homicidis: <emph>lo scriba ha saltato qualche frase.</emph></note>, incendiariis,
+          furibus et latronibus et aliis vite culpe criminibus et crimine lese maiestatis. Ordinamus
+          et constituimus quod prefati habitatores castri novi faciant guaitam, spaldum et
+          adiutorium ad fornellum castro de <placeName ref="#Bolano">Bolano</placeName>, sicuti
+          consueverant, et ab omnibus aliis factionibus castri de <placeName ref="#Bolano">Bolano
+          </placeName>, eos absolvimus. Item volumus et statuimus quod predicti habitatores predicti
+          castri novi debeant salvare et guardare dictum castrum novum et omnes habitatores ipsius
+          castri novi in personis et rebus, et nos nostrique successores debeamus salvare et
+          guardare homines de <placeName ref="#Bolano">Bolano, </placeName> in dicto castro novo,
+          sicuti in castro <placeName ref="#Bolani">Bolani</placeName>. Dominus <persName
+            ref="#GualEpLuni">Walterius</persName>, <roleName>Dei gratia Lunensis Ecclesie
+            episcopus</roleName>,predictis hominibus castri novi predicti talem securitatem fecit,
+          videlicet ab uno canale ad aliud canale et a suprana fovea ipsius castri usque eo ubi
+          dicta canalia coniunguntur, infra quos confines Lunensis episcopus, qui pro tempore
+          fuerit, teneatur salvare, tamquam suos homines proprios, omnes habitatores ipsius loci et
+          ipsum locum tenere ad utilitatem camere [sue] <note n="g" place="foot"
+            xml:id="CCCCXXX_n_007"><emph>L’inchiostro è completamente sbiadito.</emph></note> et non
+          exfortiare ipsos in rebus vel in persona neque illos qui reposterium habebunt infra dictos
+          confines, exceptis criminibus vite culpe, scilicet excogitato homicidio, incendio et
+          tradimento, et salvis condictionibus <note n="h" place="foot" xml:id="CCCCXXX_n_008"
+            >condictionibus: <emph>segue una parola illeggibile. </emph></note>, sicut in superiori
+            contractu<note n="i" place="foot" xml:id="CCCCXXX_n_009">contractu: <emph>la seconda t
+              aggiunta in sopralinea.</emph></note> continetur et legitur, et salvis condictionibus
+          quas debent facere castro Bolani illis scilicet que in superiori contractu leguntur. Et si
+          quando, quod Deus advertat, dictum castrum per guerram seu per incendium destrueretur,
+          Lunensis episcopus, qui tunc fuerit, teneatur illud rehedificare ad suum posse. Hec omnia
+          predicta, sicut in hoc contractu continentur et leguntur, <persName ref="#Mançetuscast"
+            >Manzetus, <roleName>castaldio</roleName></persName> domini <persName ref="#GualEpLuni"
+              >Walterii<roleName>, Lunensis episcopi</roleName></persName> suprascripti, recepta
+          investitura ab eodem domino episcopo iurandi super animam ipsius episcopi, iuravit ad
+          sancta Dei evangelia supra animam ipsius domini episcopi attendere et observare, bona fide
+          et sine omni fraude, in omnibus et per omnia; sic Deus eundem dominum episcopum adiuvet et
+          eius sancta Evangelia, Danale <note n="l" place="foot" xml:id="CCCCXXX_n_010">
+              Dattale:<emph>così nel testo.</emph></note>vero dicebat. <date when="1208-03-04">Anno
+            a nativitate Domini M°CCVIII, indictione XI, die sabbati, IIII kalendas aprilis». <note>
+              Il vescovo Gualtiero fonda il castello di Montebello e stabilisce diritti e doveri dei
+              residenti.</note></date>
+        </p>
+        <p xml:id="CCCCXXX_p_003" n="3"> Insuper addidit suprascriptus dominus <persName
+            ref="#Butafava">Butafava</persName><roleName>, Dei gratia Lunensis episcopus,</roleName>
+          ut predicti homines de <placeName ref="#Montebello">Montebello</placeName> debeant ire in
+          hostem et cavalcatam sub vexillo sive confalone <orgName ref="#Bolano_comune">communis de <placeName ref="#Bolano"
+            >Bolano</placeName></orgName> et currere ad eorum gridum sive stormitum quando esset pro facto
+          Lunensis episcopi seu episcopatus. Et hoc facere teneatur quilibet hominum de <placeName
+            ref="#Montebello">Montebello</placeName> ad bannum et ad penam <measure
+            type="Imperiales" quantity="6" unit="solidus">VI denariorum imperialium,</measure> cuius
+          medietas sit domini Lunensis episcopi sive Lunensis curie et alia medietas communis de
+            <placeName ref="#Bolano">Bolano</placeName>, reservato tamen quod dominus Lunensis
+          episcopus possit eis maiorem penam imponere pro iamdictis sibi et curie Lunensi
+          solvendam.</p>
+        <pb n="338v" xml:id="fol_338v"/>
+        <p xml:id="CCCCXXX_p_004" n="4"> Actum <placeName ref="#CastroSarzane">castro
+            Sarzane</placeName>, in porticu palacii suprascripti domini episcopi, sollempniter cum
+          stipulatione subnixa, presentibus <persName ref="#GualterotuscanL">Gualteroto</persName>
+          et <persName ref="#Ugolinuscan">Ugolino <roleName>canonicis Lunensibus</roleName>, </persName>
+          <persName ref="#AlcarinusHenrici">Alcharino qondam Henrici de <placeName ref="#Arcula"
+              >Arcula</placeName></persName>, <persName ref="#AttolinusBandini">Attolino qondam
+            Bandini de <placeName ref="#castro Sarzane">castro Sarzane</placeName></persName>,
+            <persName ref="#HenricusAldeprandini">Henrico quondam Aldeprandini de Gatto de
+              <placeName ref="#Trebiano">Trebiano</placeName></persName>, testibus ad hec rogatis. </p>
+        <p xml:id="CCCCXXX_p_005" n="5"> Ego <persName ref="#Philippusnot">Philippus</persName>,
+            <roleName>domini Ottonis quarti Romanorum serenissimi imperatoris notarius</roleName>,
+          hiis interfui et rogatus scripsi.</p>
+      </div>
+      <div xml:id="CCCCXXX_div2" type="autentica">
+
+        <p xml:id="CCCCXXX_p_006" n="6">
+          <ptr target="#CCCCXXX_st_002"/> Ego <persName ref="#Paganusnot">Paganus</persName>,
+            <roleName>notarius sacri palacii,</roleName>autenticum huius exempli vidi et legi et
+          quicquid in eo repperi fideliter exemplavi, nil addens vel minuens quod mutet sensum, nisi
+          forte litteram vel sillabam.</p>
+        <p xml:id="CCCCXXX_p_007" n="7">
+          <ptr target="#CCCCXXX_st_003"/> Ego <persName ref="#Adiutusnot">Adiutus, <roleName>sacri
+              palacii notarius,</roleName></persName> autenticum huius transcripti vidi et legi et,
+          cognito quod nichil plus in uno quam in alio esset, ideo huic subscripsi et signo proprio
+          roboravi.</p>
+        <p xml:id="CCCCXXX_p_008" n="8">
+          <ptr target="#CCCCXXX_st_004"/> Ego <persName ref="#Oradinusnot">Oradinus</persName>,
+            <roleName>notarius sacri palacii</roleName>, autenticum huius transcripti vidi et legi
+          et, cognito quod nichil plus in uno quam in alio esset, ideo huic subscripsi et signo
+          proprio roboravi. <note>Autentica del documento n. 391-CCCCXXX databile con incertezza
+            intorno alla metà del XIII secolo <date notBefore="1224-09-21" notAfter="1260-12-31"
+              cert="low"/></note></p>
+      </div>
+
+
+    </body>
+  </text>
+</TEI>

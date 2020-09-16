@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXXXII_444">
+    <front xml:id="CCCCLXXXII_front">
+
+      <titlePart type="numerazioneNuova">444</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXII</titlePart>
+
+      <docDate xml:id="CCCCLXXXII_docDate">
+        <date when="1269-01-17">1269 gennaio 17</date>, <placeName>La Spezia <emph> (<term
+              xml:lang="latin">Speze, in domo Parentini notarii</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXXXII_regesto">
+        <p>Il conte di Lavagna Niccolò Fieschi nomina suo procuratore Oradino <term xml:lang="latin"
+            >del fu Guidetto di Follo</term> per la riscossione di cento lire di genovesi date a suo
+          tempo in prestito al vescovo di Luni Guglielmo, dietro pegno della quinta parte di
+          Vezzano. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXXXII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 366r., c. CCCLVIIr., secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#PODESTÀ_1894">PODESTA 1894</ref>, p. 103.</p>
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 482, pp.
+            495-496.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note><emph>Parte del documento è stata letta con l’ausilio della luce di
+            Wood.</emph></note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXXII. Procurationis domini Nicholai.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+
+      <div xml:id="CCCCLXXXII_div">
+
+        <p xml:id="CCCCLXXXII_p_001" n="1"> In nomine Domini, amen. <date when="1269-01-17">Anno a
+            nativitate Eius M°CCLXIX, indictione XII, die XVII mensis ianuarii.</date>
+          <persName ref="#NicholausFlisco"><roleName>Dominus</roleName> Nicholaus de Flisco,
+              <roleName>comes Lavanie</roleName></persName>, fecit, constituit et ordinavit
+            <persName ref="#OradinusGuideti">Oradinum quondam Guideti de <placeName ref="#Folo"
+              >Folo</placeName></persName>, presentem et suscipientem, suum procuratorem et certum
+          nuncium ad recipiendum, pro eo et eius nomine, a <persName ref="#GuilEpLuni"
+              ><roleName>domino</roleName>
+            <expan>G<ex>uilielmo</ex></expan>, <roleName>Lunensi episcopo</roleName></persName> Dei
+          gratia, vel ab alio pro eo, <measure unit="soldi">libras C Ianuensium</measure>, quas idem
+          dominus <persName ref="#NicholausFlisco">Nicholaus</persName> vel alius pro eo mutuaverat
+          ipsi domino episcopo et pro quibus obligaverat ei idem dominus episcopus quintam partem
+            <placeName ref="#Vezzano">Vezani</placeName> nomine pignoris, prout in publico
+          instrumento seu instrumentis continetur, ut dicebat; et ad vocandum se solutum, quietum et
+          pacatum, pro eo et eius nomine; et ad dictum pignus restituendum ipsi domino episopo vel
+          alii pro eo et ad cassandum et irritandum et cassari et irritari faciendum et precipiendum
+          cassa esse et irrita omnia instrumenta inde facta et ad faciendum de predictis finem et
+          refutationem et pactum de non petendo in perpetuum et ad promittendum, pro eo et eius
+          nomine, dicto domino episcopo, vel alii pro eo recipienti, pro predictis omnibus et
+          singulis attendendis et observandis penam et penas, et ad obligandum ipsum dominum
+            <persName ref="#NicholausFlisco">Nicholaum</persName> et eius heredes et bona et ad alia
+          omnia et singula faciendum que in predictis et circa predicta fuerint facienda; promittens
+          dictus dominus <persName ref="#NicholausFlisco">Nicholaus</persName> mihi <persName
+            ref="#BonaiunctaBonaiutinot">Bonaiuncte <roleName>notario</roleName></persName>,
+          recipienti nomine dicti domini episcopi, se ratum et firmum habiturum totum et quicquid
+          per ipsum procuratorem factum et procuratum fuerit in predictis et quolibet eorum, sub
+          obligatione omnium bonorum suorum. </p>
+
+        <p xml:id="CCCCLXXXII_p_002" n="2"> Actum <placeName ref="#Speza">Speze</placeName>, in domo
+            <persName ref="#Parentinusnot">Parentini <roleName>notarii</roleName></persName>,
+          presentibus <persName ref="#Opecinusiud"><roleName>domino</roleName> Opecino
+              <roleName>iudice</roleName></persName>, <persName ref="#RicardusAldebrandeti">Ricardo
+            quondam Aldebrandeti de <placeName ref="#Sarzana">Sarzana</placeName></persName> et
+            <persName ref="#GuilielmusMascardus">Guilielmo quondam domini Alberti, dicti Mascardi,
+            de <placeName ref="#Trebiano">Trebiano</placeName></persName>, testibus ad hec rogatis. </p>
+
+        <p xml:id="CCCCLXXXII_p_003" n="3">
+          <ptr target="#CCCCLXXXII_st_001"/> Ego <persName ref="#BonaiunctaBonaiutinot">Bonaiuncta,
+            filius quondam Bonaiuti de <placeName ref="#Sarzana">Sarzana</placeName>,
+              <roleName>auctoritate imperiali notarius</roleName></persName>, hiis interfui et
+          rogatus scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

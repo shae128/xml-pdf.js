@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="LXXXVIIII_106">
+        <front xml:id="LXXXVIIII_front">
+
+            <titlePart type="numerazioneNuova">106</titlePart>
+            <titlePart type="numerazioneOrig">LXXXVIIII</titlePart>
+
+            <docDate xml:id="LXXXVIIII_docDate">
+                <date when="1257-03-06">1257 marzo 6</date>, <placeName>Sarzanello (<term
+                        xml:lang="latin">in castro Sarzane, ante domum quondam
+                    Volte</term>)</placeName>
+            </docDate>
+            <div type="regesto" xml:id="LXXXVIIII_regesto">
+                <p>Guibertino <term xml:lang="latin">de castro Sarzane</term> del fu Pietro di
+                    Fiorino, detenendo ingiustamente quattro pezzi di terra appartenenti al vescovo
+                    di Luni, rinuncia per sempre ad essi su petizione di Conforto del fu Paganino di
+                    Bono de castro Sarzane, sindaco e procuratore del vescovo di Luni Guglielmo.
+                </p>
+            </div>
+
+            <div type="footer" xml:id="LXXXVIIII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 203v.-204r., cc. CLXXXXVv.-CLXXXXVIr. secondo la numerazione
+                        originale.</p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione parziale in <ref type="biblio" target="#LUPO_GENTILE_1912">LUPO
+                            GENTILE 1912</ref>, n. 89, p. 122.</p>
+                </div>
+                <div type="crit_notes">
+                    <note>Nel margine esterno, di mano moderna: Locatione di terre a Guibertino dal
+                        vescovo nella giurisdizione di Sarzanello. Il numero LXXXVIIII è stato
+                        scritto da mano moderna su precedente LXXXVIIII perché la pergamena è
+                        rifilata. </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXXXVIIII. Refutatio terrarum a filio Petri de
+                            Florina.</term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="LXXXVIIII_div">
+                <p xml:id="LXXXVIIII_p_001"> In nomine Domini, amen. <date when="1257-03-06">Anno a
+                        nativitate Eius M°CC° quinquagesimo VII°, indictione XVa, die VI° mense<note
+                            place="foot" n="a" xml:id="LXXXVIIII_n_001">mense:<emph>così nel testo
+                                per </emph> mensis</note> martii.</date> Cum <persName
+                        ref="#GuibertinusPetri">Guibertinus quondam Petri de Florino</persName>
+                    iniuste tenuerit et habuerit terras infrascriptas, ut dicebat et dixerit atque
+                    confessus fuit eas<note place="foot" n="b" xml:id="LXXXVIIII_n_002">eas:
+                            <emph>corretto su precedente scrittura</emph>.</note> esse et fuisse et
+                    esse debere de iure de bonis et iure Lunensis episcopatus, ad petitionem
+                        <persName ref="#ConfortusPaganini">Conforti quondam Paganini de Bono de
+                            <placeName ref="#Sarzanello">castro Sarzane</placeName></persName>,
+                        <roleName>syndici seu procuratoris domini</roleName>
+                    <persName ref="#GuilEpLuni">Guilielmi</persName>, <roleName>Dei gratia Lunensis
+                        episcopi</roleName>, ut dicebat, syndicatus seu procuratorio nomine<note
+                        place="foot" n="c" xml:id="LXXXVIIII_n_003">nomine: <emph>segue, non
+                            depennato,</emph> suprascriptam.</note> pro ipso domino Lunensi episcopo
+                    et Lunensi episcopatu, ipse quidem <persName ref="#GuibertinusPetri"
+                        >Guibertinus</persName> de <placeName ref="#Sarzanello">castro
+                        Sarzane</placeName>, per se suosque heredes, fecit im perpetuum <persName
+                        ref="#ConfortusPaganini">Conforto</persName>, <roleName>syndico</roleName>
+                    suprascripto, syndicatus seu procuratorio nomine pro dicto domino Lunensi
+                    episcopo et Lunensi episcopatu recipienti, finem atque refutationem, dationem
+                    suarum rationum, cessionem, remissionem et pactum ulterius de non petendo
+                        ne<supplied reason="omitted">c</supplied> causando de terris omnibus
+                    infrascriptis et de omni iure, actione, ratione, utili, directa, reali,
+                    personali seu mixta et quali alia, quod et quam habebat vel sibi competebat aut
+                    competere posset quacumque occasione vel modo, in IIIIor et pro IIIIor petiis
+                    terrarum infrascriptis <pb n="204r" xml:id="fol_204r"/> vel earum sive alterius
+                    earum occasione. Una quarum, cum vineis, sita est in loco dicto <placeName
+                        ref="#Paternulo">Paternulo</placeName>, cui coheret ab uno latere <persName
+                        ref="#BonacaptusBra">Bonacapti de <placeName ref="#Brasile"
+                            >Brasili</placeName></persName>, ab alio <persName
+                        ref="#ArmanninusTrebiano">Armannini de <placeName ref="#Trebiano"
+                            >Trebiano</placeName></persName>; altera petia sita est in <placeName
+                        ref="#Cerreto">Cerreto</placeName>, in parte vinenta<note place="foot" n="d"
+                        xml:id="LXXXVIIII_n_004">vinenta: <emph>così nel testo per</emph>
+                        vineata.</note> et in parte baschiva<note place="foot" n="e"
+                        xml:id="LXXXVIIII_n_005">baschiva: <emph>così nel testo per</emph>
+                        boschiva.</note>, cui coheret ab uno latere canale, ab alio <persName
+                        ref="#GiliensisVivaldi">Vivaldi quondam Parentis</persName>; tercia petia
+                    posita est in imo <placeName ref="#MonteIudice">Montis Iudicis</placeName>, cui
+                    coheret a pede <placeName ref="#Romea_st">strata Romea</placeName>, a capite
+                    heredum quondam <persName>Venuti de Petro de Garimbono</persName>, ab uno latere
+                    labitur rivus de <placeName ref="#Ridipilla">Ridipilla</placeName>; quarta petia
+                    posita est in <placeName ref="#Robbiano">Robbiano</placeName>, cui coheret
+                    superius <persName ref="#AlegranciaBellandini">Alegrancie quondam
+                        Bellandini</persName>, inferius <persName ref="#Personeta">Personete de
+                            <placeName ref="#Sarzanello">castro Sarzane</placeName></persName> vel
+                    si qui alii sunt confines, ut exinde suprascriptus syndicus seu procurator,
+                    syndicatus seu procuratorio nomine vel<note place="foot" n="f"
+                        xml:id="LXXXVIIII_n_006">vel: <emph>così nel testo per</emph> pro.</note>
+                    dicto domino Lunensi episcopo atque episcopatu, et ipse dominus episcopus suique
+                    successores agant, respondeant et experiantur contra quamcumque personam et
+                    locum suo nomine directo et utiliter, et inde tanquam de re Lunensis episcopatus
+                    faciant quicquid voluerit sine alicuius contradictione, faciendo dictum
+                    syndicum, recipientem ut dictum est, dominum et procuratorem inde ut in rem
+                    Lunensis episcopatus. Et dedit eidem, recipienti ut dictum est, licenciam
+                    intrandi tenutam inde auctoritate sua quandocumque voluerit vel quasi,
+                    constituendo se interea pro eo et nomine Lunensis episcopatus possidere vel
+                    quasi donec tenutam inde dicto nomine fuerit introgressus vel quasi. Promisit
+                    insuper et convenit per se suosque heredes eidem syndico, recipienti ut dictum
+                    est, dictam finem, refutationem et omnia suprascripta perpetuo ratam habere,
+                    firmam tenere, attendere, facere et adimplere et contra numquam facere vel
+                    venire aliqua ratione vel occasione in pena <measure type="currency">soldorum C
+                        imperialium</measure>, quam penam dare atque solvere promisit et convenit
+                    eidem syndico, recipienti ut dictum est, quotiens fuerit contraventum et pro
+                    quolibet capitulo non observato; qua pena soluta vel non, suprascripta omnia
+                    perpetuo nichillominus rata sistant cum eadem pene commissione, obligando se ad
+                    hec suosque<note place="foot" n="g" xml:id="LXXXVIIII_n_007">suosque: <emph>la
+                            seconda</emph> s <emph>in sopralinea</emph>.</note> heredes atque omnia
+                    sua bona, habita et habenda, renuntiando omni iuri et conditioni ex lege sine
+                    causa vel ex iniusta causa et omnibus aliis exceptionibus et deffensionibus
+                    contra hec introductis. </p>
+                <p xml:id="LXXXVIIII_p_002"> Actum in <placeName ref="#Sarzanello">castro
+                        Sarzane</placeName>, ante domum quondam <persName ref="#VoltacastroSarzane"
+                        >Volte</persName>, sollempniter, presentibus <persName
+                        ref="#BoccadecanisCodargogii">Boccadecane quondam Codargogii</persName>,
+                        <persName ref="#ArdoinusViviani">Arduino quondam Viviani</persName>,
+                        <persName>Bonansegna</persName> de <placeName ref="#Collecchia"
+                        >Collechio</placeName>, <persName ref="#BellandinusGerardi">Bellandino filio
+                        Gerardi</persName> et <persName ref="#DonatusCompagnoni">Donato filio
+                        Compagnoni</persName> atque aliis, testibus ad hec rogatis. </p>
+                <p xml:id="LXXXVIIII_p_003">
+                    <ptr target="LXXXVIIII_st_001"/> Ego <persName ref="#PetrusGentisnot">Petrus,
+                        filius quondam Gentis</persName> de <placeName ref="#Sarzanello">castro
+                        Sarzane</placeName>, <roleName>notarius sacri palacii</roleName>, hiis
+                    interfui et rogatus scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

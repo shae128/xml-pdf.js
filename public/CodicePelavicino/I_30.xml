@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="I_30">
+    <front xml:id="I_front">
+
+      <titlePart type="numerazioneNuova">30</titlePart>
+      <titlePart type="numerazioneOrig">I</titlePart>
+
+      <docDate xml:id="I_docDate">
+        <date when="1148-11-11">1148 novembre 11</date>, <placeName ref="#Pisa"> Pisa (<term
+            xml:lang="latin">Pisis</term>) </placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="I_regesto">
+        <p>Papa Eugenio III, dietro richiesta del vescovo di Luni Gotifredo II, prende sotto la sua
+          protezione la chiesa di Luni. </p>
+      </div>
+
+      <div type="footer" xml:id="I_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 57r.-57v., cc. XLVIIIIr.-XLVIIIIv. secondo la numerazione originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Regesto: <ref target="#JAFFÉ_1885">JAFFÉ 1885</ref>, II, n. 9302, p. 60; </p>
+
+          <p> Edizione: <ref target="#UGHELLI_1648">Ughelli 1648</ref>, coll. 910-911;<ref
+              target="#UGHELLI_1717"> Ughelli 1717</ref>, coll. 845-846; <ref
+              target="#LUPO_GENTILE_1912"> LUPO GENTILE 1912</ref>, n. 1, pp. 1-3; <ref
+              target="#PISTARINO_1961a">PISTARINO 1961</ref>, pp. 11-13, doc. I. </p>
+        </div>
+
+        <div type="crit_notes">
+          <note><p>Usato lo stile pisano dell’incarnazione, che corrisponde al 1148 in stile comune,
+              con perfettta corrispondenza con il 4° anno di pontificato di Eugenio III.</p>
+            <p> Nel margine esterno di c. 57r., in corrispondenza della nona riga di testo, di mano
+              moderna: <term xml:lang="latin">subiecta pape</term>. Più in basso, nel margine
+              esterno e nel margine inferiore, un’altra mano sei-settecentesca ha riportato l’elenco
+              delle pievi confermate al vescovo di Luni. La medesima annotazione prosegue nel
+              margine esterno di c. 57v. </p>
+            <p>Il testo è stato letto con l’ausilio della luce di Wood.</p></note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">I.
+              Privilegium pape Eugenii concessum domino Gotefredo, Lunensi episcopo.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="I_div">
+        <pb n="57r" xml:id="fol_057r"/>
+        <p xml:id="I_p_001">
+          <persName ref="#EugeniuspontifexIII">Eugenius<roleName> episcopus <note xml:id="I_n_01"
+                place="foot" n="a"> Eugenius episcopus: <emph>riscritto sulla grafia originale da
+                  mano sei-settecentesca per rimediare all’evanescenza
+                dell’inchiostro.</emph></note> servus servorum Dei</roleName></persName>, venerabili
+          fratri <persName ref="#GotefredEpLuni2">Gotifredo<roleName>, Lunensi
+            episcopo</roleName></persName>, eiusque successoribus canonice institutionis <note
+            xml:id="I_n_02" place="foot" n="b"> institutionis: <emph>così nel testo per</emph>
+            institutis</note>, in perpetuum. In eminenti <note xml:id="I_n_03" place="foot" n="c">In
+            emi: <emph>riscritto sulla grafia originale da mano sei-settecentesca per rimediare
+              all’evanescenza dell’inchiostro.</emph></note>sedis apostolice specula, disponente
+          Domino, constituti, et <note xml:id="I_n_04" place="foot" n="d"> et: <emph>così nel testo
+              per</emph>ex</note> iniu<supplied reason="omitted">n</supplied>cto nobis apostolatus
+          officio fratres nostros episcopos debemus diligere et ecclesiis sibi a Deo commissis suam
+          iusticiam conservare. Eapropter, venerabilis frater noster in Christo <persName
+            ref="#GotefredEpLuni2">Gotifrede<roleName> episcope</roleName></persName>, tuis iustis
+          postulationibus debita benignitate gratu<supplied reason="omitted">m</supplied>
+          impertientes assensu<supplied reason="omitted">m</supplied> , beate Dei genitricis
+          semperque virginis Marie ecclesiam de <placeName ref="#Luni">Luna</placeName>, cui, Deo
+          auctore, preesse dinosceris, sub beati Petri et nostra protectione suscipimus et presentis
+          scripti privilegio communimus, statuentes ut quascumque possessiones, quecumque bona eadem
+          ecclesia impresentiarum iuste et canonice possidet aut in futurum, concessione pontificum,
+          largitione regum, oblatione fidelium seu aliis iustis modis, prestante Domino, poterit
+          adipisci, firma tibi tuisque successoribus et illibata permaneant. In quibus hec propriis
+          nominibus duximus exprimenda: plebem <orgName ref="#Versiglia_S_Stefano" type="plebs"
+            >Sancti Stephani de <placeName ref="#Versilia">Versilia</placeName></orgName> cum
+            <orgName ref="#Vallecchia_cappella2" type="cappella">capella de <placeName
+              ref="#Vallecchia1">Vallechia</placeName></orgName> et aliis capellis suis, <orgName
+            ref="#Montignoso_S_Vito" type="plebs">plebem Sancti Viti </orgName> de <placeName
+            ref="#CastelloAghinolfi"> castello Agninulphii</placeName>
+          <note xml:id="I_n_05" place="foot" n="e">Agninulphii: <emph>così nel testo
+              per</emph>ph<emph>corretto su precedente scrittura</emph></note>, <orgName
+            ref="#Massa_S_Pietro" type="plebs">plebem</orgName> de <placeName ref="#Massa"
+            >Massa</placeName>, <orgName ref="#Massa_S_Vitale" type="plebs">plebem de Sancto
+            Vitale</orgName>, <orgName ref="#Massa_S_Lorenzo" type="plebs">Sancti
+            Laurentii</orgName> de <placeName ref="#Monte_Libero">Monte Libero</placeName>, <orgName
+            ref="#Carrara_S_Andrea" type="ecclesia_plebs">plebem</orgName> de <placeName
+            ref="#Carrara">Carrara</placeName><note xml:id="I_n_06" place="foot" n="f">plebem de
+              Carraria:<emph>sottolineato da mano posteriore con brevi tratti
+            orizzontali.</emph></note>, <orgName ref="#Sarzana_S_Maria" type="ecclesia_plebs">
+            plebem Sancte Marie <supplied reason="omitted">d</supplied>e <placeName ref="#Sarzana"
+              >Sarzana</placeName></orgName><note xml:id="I_n_07" place="foot" n="g">plebem Sancte
+            Marie de Sar<emph> ripreso da mano moderna, su abrasione della pergamena.</emph></note>
+          <orgName ref="#Sarzana_S_Andrea" type="ecclesia_plebs_canonica">, plebem Sancti Andree
+              de<placeName ref="#Sarzana"> Sarzana</placeName></orgName>, <note xml:id="I_n_08"
+            place="foot" n="h">plebem Sancti Andree de Serzana:<emph> riscritto sulla grafia
+              originale da mano sei-settecentesca per rimediare all’evanescenza
+              dell’inchiostro</emph></note>
+          <orgName ref="#S_Stefano_Magra"> plebem Sancti Stephani de <placeName ref="#Cerreto2"
+              >Cerreto</placeName></orgName>, <orgName ref="#Ameglia_S_Vincenzo"
+            type="plebs_ecclesia">plebem de <placeName ref="#Ameglia">Amelia</placeName></orgName>,
+            <orgName ref="#Trebiano_S_Michele" type="ecclesia_plebs">plebem de <placeName
+              ref="#Trebiano">Treblano</placeName></orgName>, <orgName
+            ref="#Arcola_S_Stefano_Margherita" type="plebs">plebem <note xml:id="I_n_09"
+              place="foot" n="i"> plebem: bem<emph>riscritto sulla grafia originale da mano
+                sei-settecentesca per rimediare all’evanescenza dell’inchiostro.</emph></note> de
+              <placeName ref="#Arcola">Arcula</placeName></orgName>, <orgName
+            ref="#Antoniano_S_Venerio" type="ecclesia_plebs"> plebem de Sancto Venerio</orgName>,
+            <orgName ref="#Vezzano_S_Prospero"> plebem de Sancto <placeName>Vetiano <note
+                xml:id="I_n_10" place="foot" n="j">Sancto Vetiano: <emph>così nel
+                testo.</emph></note></placeName></orgName>, <orgName ref="#Marinasco_S_Stefano"
+            type="plebs_ecclesia">plebem de <placeName ref="#Marnasco"
+            >Marnasco</placeName></orgName>, <orgName ref="#Portovenere_S_Pietro" type="ecclesia"
+            >ecclesiam Sancti Petri de <placeName ref="#Portovenere">Portu
+            Veneris</placeName></orgName>, <orgName ref="#Ceula_S_Siro" type="plebs">plebem de
+              <placeName ref="#Ceula">Ceula</placeName></orgName>, <orgName ref="#Roggiano_S_Maria"
+            type="plebs">plebem de <placeName ref="#Rubiano">Robiana</placeName></orgName>, <orgName
+            ref="#Cornia_S_Pietro" type="plebs">plebem de <placeName ref="#Cornia"
+              >Cornia</placeName></orgName>, <orgName ref="#Pignone_S_Maria_Assunta" type="plebs"
+            >plebem de <placeName ref="#Pignone">Pignone</placeName></orgName>, <orgName
+            ref="#Montedivalli_S_Andrea">plebem Sancti Andree de Castello</orgName>, <orgName
+            ref="#Bolano_S_Maria_Assunta" type="plebs">plebem de <placeName ref="#Bolano"
+              >Bolano</placeName></orgName>, <orgName ref="#Piazza_al_Serchio_S_Pietro">plebem
+            Sancti Petri de Castello</orgName>, <orgName ref="#Minucciano_S_Lorenzo">plebem Sancti
+            Laurentii</orgName>, <orgName ref="#Offiano_s_Pietro" type="diocesis">plebem de
+              <placeName ref="#Offiano">Offlano</placeName></orgName>, <orgName
+            ref="#Codiponte_SS_Cornelio_Cipriano" type="plebs">plebem Sancti Cipriani de <placeName
+              ref="#Caput_Pontis">Capite Pontis</placeName></orgName>, <orgName
+            ref="#Viano_S_Martino" type="ecclesia_plebs">plebem de <placeName ref="#Viano"
+              >Viano</placeName></orgName>, <orgName ref="#Soliera_S_Maria" type="ecclesia_plebs"
+            >plebem de <placeName ref="#Soliera">Soliera</placeName></orgName>, <orgName
+            ref="#Vendaso_S_Paolo" type="ecclesia_plebs">plebem Sancti Pauli</orgName>, <orgName
+            ref="#Pognana_s_Maria" type="cappella">capellani<supplied reason="omitted">a</supplied>m
+            Sancte Marie de <placeName ref="#Pugnano">Pugnano</placeName></orgName>, <orgName
+            ref="#Verrucola_s_Margherita" type="ecclesia">ecclesiam Sancte Margarite de <pb n="57v"
+              xml:id="fol_057v"/> castro <placeName ref="#VerrucolaBosi"
+            >Verucula</placeName></orgName>, <orgName ref="#Sassalbo_S_Michele" type="ecclesia"
+            >ecclesiam Sancti Michaelis de <placeName ref="#Sassalbo">Saxo
+            Albo</placeName></orgName>, <orgName ref="#Crespiano_S_Maria_Assunta" type="plebs"
+            >plebem de Sancto Crispiano</orgName>, <orgName ref="#Venelia_S_Maria" type="plebs"
+            >plebem de <placeName ref="#Venelia">Venelia</placeName></orgName>, <orgName
+            ref="#Bagnone_ss_Ippolito_Cassiano" type="plebs">plebem de <placeName ref="#Bagnone"
+              >Bagnone</placeName></orgName>, <orgName ref="#Vico_S_Martino" type="ecclesia_plebs"
+            >plebem de <placeName ref="#Vico">Vico</placeName></orgName>, <orgName
+            ref="#Surano_s_Stefano" type="plebs">plebem de <placeName ref="#Sorano"><supplied
+                reason="illeggibile">Sura</supplied>no</placeName><note xml:id="I_n_11" place="foot"
+              n="k"><supplied reason="illeggibile">Sura</supplied>no<emph>una macchia di umidità
+                pregiudica la lettura della prima parte della parola, integrazione da docc. 31-II e
+                32-III.</emph></note></orgName>, <orgName ref="#Urceola_s_Cassiano"
+            type="ecclesia_plebs">plebem Sancti Casiani de <placeName ref="#Urciola"
+              >Urceola</placeName></orgName><note xml:id="I_n_12" place="foot" n="l">Urceola:
+              <emph>lettura incerta</emph></note>, <orgName ref="#Vignola_s_Pancrazio" type="plebs"
+            >plebem de <placeName ref="#Vignola">Vignola</placeName></orgName> cum omnibus cappellis
+          suis, quas iuste et canonice possidetis. Decernimus ergo ut nulli omnino hominum liceat
+          prefactam ecclesiam temere perturbare aut eius possessiones auferre vel ablata<supplied
+            reason="omitted">s</supplied> retinere, minuere aut aliquibus fatigationibus<note
+            xml:id="I_n_13" place="foot" n="m">fatigationibus: <emph>nel testo</emph>
+            fatigatigationibus <emph> con</emph> gati<emph> espunto</emph></note>, vexationibus
+          fatigare, sed omnia integra conserventur eorum pro quorum gubernatione et sustentatione
+          concessa sive <note xml:id="I_n_14" place="foot" n="n">sive: <emph>così nel testo
+              per</emph> sunt,<emph>cfr. docc. 31-II e 32-III.</emph></note> usibus omnimodis
+          profutura, salva sedis apostolice auctoritati <note xml:id="I_n_15" place="foot" n="o"
+            >auctoritati: <emph>così nel testo per</emph> auctoritate</note>. Si qua igitur in
+          futurum ecclesiastica secularisve persona, hanc nostre constitutionis paginam sciens,
+          contra eam temere venire temptaverit, secundo terciove conmonita, si non satisfactione
+          congrua emendaverit, potestatis honorisque sui dignitate careat reamque se divino iudicio
+          existere de perpetrata iniquitate cognoscat et a sacratissimo corpore ac sanguine Dei et
+          domini nostri Ihesu Christi aliena fiat atque in extremo examine districte ultioni
+          subiaceat. Conti<supplied reason="omitted">s</supplied> autem eidem <note xml:id="I_n_16"
+            place="foot" n="p">autem eidem: <emph>corretto su precedente scrittura.</emph></note>.
+          loco sua iura servantibus sit pax Domini nostri Ihesu Christi, quatinus et hic
+            fructu<supplied reason="omitted">m</supplied> bone actionis percipiant apud
+            districtu<supplied reason="omitted">m</supplied> iudice<supplied reason="omitted"
+            >m</supplied>premia eterne pacis inveniant. </p>
+        <p xml:id="I_p_002"> Amen, amen. </p>
+        <p xml:id="I_p_003">
+          <ptr target="#I_r_001"/> Ego <persName ref="#EugeniuspontifexIII">Eugenius,
+              <roleName>catholice Ecclesie episcopus</roleName></persName>, subscripsi. </p>
+        <p xml:id="I_p_004"> Ego <persName ref="#Conradus_episcopus">Conradus, <placeName
+              ref="#Sabina1">Dabins</placeName><note xml:id="I_n_017" place="foot" n="q">Dabins:
+                <emph>così nel testo per</emph> Sabinensis</note>
+            <roleName>episcopus</roleName></persName>, subscripsi. </p>
+        <p xml:id="I_p_005"> Ego <persName ref="#Odo_cardinalis">Odo, <roleName>diaconus
+              cardinalis</roleName></persName>
+          <orgName ref="#oma_S_Giorgio_Velabro" type="diaconia">Sancti Georgii ad Velum
+            Aureum</orgName>, subscripsi. </p>
+        <p xml:id="I_p_006"> Ego <persName ref="#Octavianus_cardinalis">Octavianus,
+              <roleName>diaconus cardinalis</roleName></persName>
+          <orgName ref="#Roma_S_Nicola_Carcere">Sancti Nicolai in carcere Tuliano</orgName>
+          <note xml:id="I_n_018" place="foot" n="r">Tuliano: <emph>scritto nel rigo
+              sottostante.</emph></note> , subscripsi </p>
+        <p xml:id="I_p_007"> Ego <persName ref="#Guido_cardinalis2">Guido, <orgName
+              ref="#Roma_S_Nicola_Carcere" type="ecclesia_diaconia">Sancti Nicholai in Carcere
+              Tulliano</orgName>
+            <roleName>diaconus cardinalis</roleName></persName>, subscripsi. </p>
+        <p xml:id="I_p_008"> Ego <persName ref="#Octavianus_cardinalis">Octavianus, <orgName
+              ref="#Roma_SS_Sergio_Bacco" type="chiesa_diaconia">Sanctorum Sergii et Bachi</orgName>
+            <roleName>diaconus cardinalis</roleName></persName>, subscripsi. </p>
+        <p xml:id="I_p_009"> Ego <persName ref="#Gregorius_cardinalis2">Gregorius,
+              <roleName>diaconus cardinalis</roleName></persName>
+          <orgName ref="#Roma_S_Angelo_Pescheria" type="diaconia">Sancti Angeli</orgName>,
+          subscripsi. </p>
+        <p xml:id="I_p_010"> Ego <persName ref="#Iohannes_cardinalis1">Iohannes, <roleName>diaconus
+              cardinalis</roleName></persName>
+          <orgName ref="#Roma_S_Maria_Nuova" type="diaconia">Sancte Marie Nove</orgName>,
+          subscripsi. </p>
+        <p xml:id="I_p_011"> Ego <persName ref="#Hubaldus_cardinalis">Hubaldus, <roleName>presbiter
+              cardinalis</roleName></persName>
+          <orgName ref="#Roma_S_Giovanni_Paolo" type="titolo_presbiteriale">tituli Sancti <note
+              xml:id="I_n_019" place="foot" n="s">Sancti: <emph>così nel testo per</emph>
+              Sanctorum.</note> Iohannis et Pauli</orgName>, subscripsi. </p>
+        <p xml:id="I_p_012"> Ego <persName ref="#Guido_cardinalis4">Guido</persName>, <orgName
+            ref="#Roma_S_Lorenzo_Damaso" type="titolo_presbiteriale">tituli Sancti Laurentii et
+            Damasi</orgName>
+          <roleName>presbiter cardinalis</roleName>, subscripsi. </p>
+        <p xml:id="I_p_013"> Ego <persName>Iulius</persName>, <roleName>presbiter
+            cardinalis</roleName>
+          <orgName ref="#Roma_S_Marcello" type="titolo_presbiteriale">tituli Sancti
+            Marcelli</orgName>, subscripsi.<ptr target="#I_bn_001"/>
+        </p>
+        <p xml:id="I_p_014"> Datum <placeName ref="#Pisa">Pisis </placeName>per manum <persName
+            ref="#Guido_cancellarius"><roleName>Sancte Romane Ecclesie diaconus <note
+                xml:id="I_n_020" place="foot" n="t">diaconus: <emph>così nel testo per</emph>
+                diaconi.</note>cardinalis et cancellarii</roleName></persName>, <date
+            when="1148-11-11">III idus novembris, inditione XII, incarnationis dominice anno
+            M°C°XLVIIII, pontificatus vero domini Eugenii pape III anno IIII</date>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

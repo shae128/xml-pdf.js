@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXXXXVIIII_460">
+    <front>
+      <titlePart type="numerazioneNuova">460</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXXVIIII</titlePart>
+
+      <docDate xml:id="CCCCLXXXXVIIII_docDate"><date when="1186-05-16">1186 maggio 16</date>,
+        Acciliano (<emph>apud Accilianum</emph>)</docDate>
+
+      <div type="regesto" xml:id="CCCCLXXXXVIIII_regesto">
+        <p> A seguito della lite esistente tra il vescovo di Luni Pietro e i signori di Fosdinovo
+          riguardo ai servizi che devono essee fatti dagli uomini di Pulica a vantaggio del castello
+          di Fosdinovo e avendo le parti eletto due fedeli della curia per valutare la questione, i
+          signori di Fosdinovo promettono di attenersi a quanto decideranno il vescovo suddetto e
+          Guglielmo Bianco di Vezzano. I due arbitri stabiliscono che quando ci saranno lavori al
+          castello di Fosdinovo, gli uomini di Pulica aiutino portando pali, giunchi, legname per
+          bertesche e berfredi, e facendo steccati, palizzate, aperture e scale.</p>
+      </div>
+      <div type="footer" xml:id="CCCCLXXXXVIIII_footer">
+        <div type="orig_doc">
+          <p>Copia [C] cc. 374bisr.-374&lt;bis&gt;v., cc. CCCLXVIr.-CCCLXVIv. secondo la numerazione
+            originale.</p>
+        </div>
+        <div type="biblio">
+          <p> Edizione in: <ref target="#SFORZA_1902">SFORZA 1902</ref>, p. 364; <ref
+              target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 499, pp. 526-527.
+            Bibliografia: <ref target="#SALVATORI_2002">SALVATORI 2002</ref></p>
+        </div>
+        <div type="crit_notes">
+          <p><emph>Nel margine esterno, di mano moderna</emph>: Fosdenova</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXXXVIIII. De his que homines de Pulica debent facere illis dominis de Fosdenova.
+            </term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCCLXXXXVIIII_div">
+        <p xml:id="CCCCLXXXXVIIII_p_001" n="1">
+          <ptr target="#CCCCLXXXXVIIII_st_001"/> Cum lis et controversia verteretur inter dominum
+            <persName ref="#PetrusEpLuni">Petrum</persName>, <roleName>Dei gratia venerabilem
+            Lunensem episcopum</roleName>, ab una parte, et <persName ref="#GerardusFaucenova"
+            >Gerardum</persName>, <persName ref="#AttoFaucenova">Attonem</persName>, <persName
+            ref="#MontaninusFaucenova">Montaninum</persName> et <persName ref="#GaforiusFaucenova"
+            >Gaforum</persName>, <roleName>dominorum <note place="foot" n="a"
+              xml:id="CCCCLXXXXVIIII_n_001">dominorum: <emph>così nel testo per
+              dominos</emph></note> de <placeName ref="#Fosdinovo">Faucenova</placeName></roleName>,
+          ab alia parte, super hominibus de <placeName ref="#Pulica">Puleca</placeName>, requirentes
+          super eisdem hominibus quod ipsi deberent facere quedam servicia ad operam castri de
+            <placeName ref="#Fosdinovo">Faucenova</placeName>, que se facturos modis omnibus illi de
+            <placeName ref="#Pulica">Puleca</placeName> negabant, et dum in hunc modum res
+          agitaretur, predicti domini de <placeName ref="#Fosdinovo">Faucenova</placeName> et idem
+          dominus <persName ref="#PetrusEpLuni">Petrus</persName>, <roleName>Lunensis
+            episcopus</roleName>, stantes parati ad causam cognoscendam <note place="foot" n="b"
+            xml:id="CCCCLXXXXVIIII_n_002">cognoscendam: <emph>g aggiunta in sopralinea con segno di
+              richiamo</emph>.</note> et electis duobus <roleName>fidelibus curie</roleName>,
+            <persName ref="#CacciusPirasicca">Catio videlicet de <placeName ref="#Sarzana"
+              >Sarzana</placeName> et Pirasica</persName>
+          <note place="foot" n="c" xml:id="CCCCLXXXXVIIII_n_003">Catio..Pirasica: <emph>nel doc.
+              433-CCCCLXXI più o meno coevo compare un testimone dal nome</emph>
+            <persName ref="#CacciusPirasicca">Caccio Pirasicca de <placeName ref="#Sarzana"
+                >Sarzana</placeName></persName>.</note>, sub cuius cognitione stare debebant, habito
+          consilio, predicti domini de <placeName ref="#Fosdinovo">Faucenova</placeName> distincte
+          et omnino et sine omni tenore se submiserunt in eundem <roleName>dominum</roleName>
+          <persName ref="#PetrusEpLuni">Petrum</persName>
+          <roleName>episcopum</roleName>, addito <roleName>nobili viro</roleName>
+          <persName ref="#GuilielmusBlanco">Guilielmo Blanco de <placeName ref="#Vezzano"
+              >Vezano</placeName></persName>, stare et obedire et observaturos quicquid ipsi super
+          hoc dixerint. Prefatus vero dominus episcopus una cum predicto <persName
+            ref="#GuilielmusBlanco">Guilielmo</persName>, eorumdem reverenciam diligenter intuentes,
+          quamvis forte que requirebant fieri non deberent, honorem fidelium augere potius quam
+          minuere et eorum amorem benigno favore retinere volentes, diligenti intuitu tale statutum
+          ediderunt ut deinceps, videlicet quando fuerit laborerium ad castrum de <placeName
+            ref="#Fosdinovo">Faucenova</placeName> per commune terre, homines de <placeName
+            ref="#Pulica">Puleca</placeName> adiuvent facere et atrahere palos, vimenas, sepes,
+          boccos, palancam, scelonos et lignamen ad bertescam et <term ref="#betefredus"
+            >betefredum</term> tantum et nichil aliud, et in hoc predicti domini de <placeName
+            ref="#Fosdinovo">Faucenova</placeName> per se suosque heredes in perpetuum esse
+          observandum et permansurum promiserunt, sub stipulatione subnixa.</p>
+        <p xml:id="CCCCLXXXXVIIII_p_002" n="2">
+          <date when="1186-05-16">Actum est hoc anno M°C octogesimo VI, indictione IV, apud
+              <placeName ref="#Atilliano">Accilianum</placeName>, die veneris, qui fuit XVI intrante
+            mense madio</date>, feliciter.</p>
+        <p xml:id="CCCCLXXXXVIIII_p_003" n="3"> Signa manuum predicti domini episcopi et predicti
+            <persName ref="#GuilielmusBlanco">Guilielmi</persName> et predictorum dominorum de
+            <placeName ref="#Fosdinovo">Faucenova</placeName>, qui hanc cartulam fieri
+          rogaverunt.</p>
+        <p xml:id="CCCCLXXXXVIIII_p_004" n="4"> Signa manuum <persName ref="#Henricusvic"
+            >Henrici</persName>
+          <roleName>vicedomini</roleName>, <persName ref="#GuilielmusViano">Guilielmi de <placeName
+              ref="#Viano">Viano</placeName></persName>, <persName ref="#CacciusPirasicca">Catii et
+            Pirasice de <placeName ref="#Sarzana">Sarzana</placeName></persName>, <persName
+            ref="#GuilielmotusPilo">Guilielmoti de <placeName ref="#Pilo"
+            >Pilo</placeName></persName>, <persName ref="#GibertinusPreiti">Gibertini
+            Preiti</persName>, <persName ref="#UgolinusFossato">Ugolini de <placeName ref="#Fossato"
+              >Fossato</placeName></persName>, <persName ref="#HubertinusPorta">Ubertini de la
+              <placeName ref="#Porta">Porta</placeName></persName>, <persName ref="#Tedescus"
+            >Teudiski de <placeName ref="#Fosdinovo">Faucenova</placeName></persName>, rogatorum
+          testium. <pb n="374bisv" xml:id="fol_374bisv"/>
+        </p>
+      </div>
+      <div xml:id="CCCCLXXXXVIIII_div2">
+        <p xml:id="CCCCLXXXXVIIII_p_005" n="5">
+          <ptr target="#CCCCLXXXXVIIII_st_002"/> Ego <persName ref="#Lombardusnot"
+            >Lombardus</persName>, <roleName>domini imperatoris et Lunensis curie
+            notarius</roleName>, interfui et rogatus hanc cartulam scripsi.</p>
+
+      </div>
+    </body>
+  </text>
+
+</TEI>

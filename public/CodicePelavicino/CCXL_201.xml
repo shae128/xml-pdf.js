@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXL_201">
+    <front xml:id="CCXL_front">
+
+      <titlePart type="numerazioneNuova">201</titlePart>
+      <titlePart type="numerazioneOrig">CCXL</titlePart>
+
+      <docDate xml:id="CCXL_docDate">
+        <date when="1197-12-12">1197 dicembre 12</date>, <placeName>Sarzanello (<term
+            xml:lang="latin">in castro Sarzani, in palacio domini episcopi</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXL_regesto">
+        <p>Gualtiero, vescovo di Luni, affitta la tenuta <term xml:lang="latin">de Plano</term> e
+            <term xml:lang="latin">de Via</term> a Tebaldino <term xml:lang="latin">de
+            Debbice</term> ed Enrigino, suo fratello, e a Guidolino e Gerardino <term
+            xml:lang="latin">de Via</term>, che ricevono per sé stessi e i propri consorti. Il fitto
+          annuale ammonta a 9 sestari di frumento, 1 congio di mosto, 6 polli, 40 uova, 6 fasci di
+          fieno per i cavalli e prodotti dell’orto. Tebaldino, Enrigino, Guidolino e Gerardino si
+          comportino come i vassalli di Soliera, quindi prestino aiuto militare se richiesto,
+          partecipino alla milizia e alle cavalcate, non radunino uomini senza permesso. Sono invece
+          condonati tutti gli altri obblighi a cui erano tenuti. La transazione costa 40 soldi di
+          imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXL_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 259r., c. CCLIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 240,
+            pp. 222.223.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il documento presenta varianti minime rispetto ai nn. 215 (CCXLV) e 221 (CCLI) e al
+            terzo atto del n. 227 (CCLVII).</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXL_div">
+        <p xml:id="CCXL_p_001" n="1"><ptr target="#CCXL_st_001"/> In Christi nomine, amen.<date
+            when="1197-12-12"> Anno a nativitate Eius M°C nonagesimo VII°, indictione XV, die
+            veneris, pridie idus decembris</date>. Dominus <persName ref="#GualEpLuni">Gualterius,
+            Dei gratia venerabilis <roleName>Lunensis episcopus</roleName></persName>, ex magna et
+          previsa utilitate sui Lunensis episcopatus, affictavit <persName ref="#ThebaldinusDebicoe"
+            >Thebaldinum de <placeName ref="#Debicoe">Debbice</placeName></persName> et <persName
+            ref="#HenrigenusDebicoe">Henriginum</persName>, fratrem eius, et <persName
+            ref="#GuidolinusVia">Guidolinum</persName> et <persName ref="#GerardinusVia">Gerardinum
+            de <placeName ref="#Via">Via</placeName></persName>, recipientes pro se et pro
+            omnibus<note xml:id="CCXL_n_001" n="a" place="foot"><term xml:lang="latin"
+              >omnibus</term>: b <emph>corretta su precedente</emph> l.</note> suis consortibus, qui
+          tenent ab eodem domino episcopo, de tenuta de <placeName ref="#Plano">Plano</placeName> et
+          de <placeName ref="#Via">Via</placeName> atque qui de eis et pro eis tenutis sunt eius
+          homines, tali modo quod ipsi omnes simul pariter atque eorum heredes debeant et teneantur
+          persolvere et dare annuatim, in kalendis augusti, curie suprascripti episcopi apud
+            <placeName ref="#Soliera">Soleriam</placeName>, in granario sive caneva Lunensis
+          episcopi, sextaria IX frumenti mundi et sicci et ad commune starium de <placeName
+            ref="#Soliera">Soleria</placeName> mensurati et omni anno, ad palmentum, congium I musti
+          et in natale sancti Stephani VI pullos et XL ova et VI faxios straminis semel in anno pro
+          equis, quando dominus episcopus Lunensis vel suus nuncius <placeName ref="#Soliera"
+            >Soleriam</placeName> advenerit, et ortulatum, sicut alii affictati de <placeName
+            ref="#Soliera">Soleria</placeName>. Item, quando dominus Lunensis episcopus terram
+          emeret et pro factis domini pape et imperatoris, similiter debeant ei auxilium dare, sicut
+          vassalli sui de <placeName ref="#Soliera">Soleria</placeName>; in exercitu et cavalcata
+          debeant ei facere et ire sicut vassalli sui de <placeName ref="#Soliera"
+            >Soleria</placeName>; homines alicuius non debeant effici sine licencia et parabola
+          domini episcopi vel castaldionis eius. Placita et amasiamenta retinuit in se et suo
+          episcopatu dominus episcopus supradictus; alias omnes condictiones, usantias et servicia
+          et factiones, que atque quas ipsi dabant et faciebant seu dare et facere debebant vel
+          solebant domino Lunensi episcopo vel eius nunciis atque maxime
+            <roleName>castaldo</roleName> suo, eis remisit, condonavit et perdonavit et ab omnibus
+          illis eos absolvit et liberavit; set sciendum est quod frumentum, ut diximus, debent
+          portare et dare apud <placeName ref="#Soliera">Soleriam</placeName>, in caneva curie, set
+          alia vero non. Pro quibus omnibus confirmandis fuit confessus idem dominus episcopus se
+          recepisse servicium ab eis <measure type="Imperiales" quantity="40" unit="solidus">bonorum
+            imperialium soldorum XL</measure> et renunciavit exceptioni non numerate pecunie. Penam
+          vero inter se posuerunt ut, si quando dominus episcopus vel sui successores aut ipsi
+          homines sive eorum heredes contra ea que scripta sunt in hac carta venire voluerint et ea
+          in omnibus et per omnia attendere et observare noluerint, tunc componat pars parti fidem
+          servanti <measure type="Imperiales" quantity="200" unit="solidus">soldos CC
+            imperialium</measure>; et, pena soluta, non minus hec carta in sua permaneat
+          firmitate.</p>
+        <p xml:id="CCXL_p_002" n="2">Acta sunt hec in <placeName ref="#Sarzanello">castro
+            Sarzani</placeName>, in palacio domini episcopi, feliciter, sub stipulatione subnixa.
+          Ibi fuerunt rogati testes <persName ref="#IacopinusCarraria">Iacopinus de <placeName
+              ref="#Carrara">Carraria</placeName></persName>, <persName ref="#BalçanusSar">Balzanus
+            de <placeName ref="#Sarzanello">castro Sarzani</placeName></persName>, <persName
+            ref="#MançetusTivenia">Manzettus de <placeName ref="#Tivegna"
+            >Tivegna</placeName></persName>, <persName ref="UbertinusGrassus">Ubertinus Crassus de
+              <placeName ref="#Sarzana">Sarzana</placeName></persName>, <persName
+            ref="#ThebaldinusSoleria">Thebaldinus de <placeName ref="#Soliera">Soleria</placeName>
+            <roleName>castaldus</roleName></persName> et multi alii.</p>
+        <p xml:id="CCXL_p_003" n="3">Ego <persName ref="#Confortusnot">Confortus, <roleName>sacri
+              palacii et Lunensis curie notarius</roleName></persName>, hiis interfui et rogatus
+          precepto domini suprascripti episcopi hanc cartam rogavi et scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

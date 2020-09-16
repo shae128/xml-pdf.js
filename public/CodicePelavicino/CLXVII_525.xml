@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="\schema\tei_cp.rng" type="application\xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="CLXVII_525">
+        <front xml:id="CLXVII_front">
+
+            <titlePart type="numerazioneNuova">525</titlePart>
+            <titlePart type="numerazioneOrig">CLXVII</titlePart>
+
+            <docDate xml:id="CLXVII_docDate">
+                <date when="1255-03-04">1271 febbraio 6</date>, <placeName><placeName
+                        ref="#Ponzanello">Ponzanello </placeName> (<term xml:lang="latin">in
+                        Ponzanello, in domo Aidantis quondam Gondeti</term>)</placeName>
+            </docDate>
+
+            <div type="regesto" xml:id="CLXVII_regesto">
+                <p> Attolino del fu Attocanino di Bibola cede al vescovo di Luni Guglielmo sette
+                    quarti &#60;di un fitto&#62; di frumento &#60;di complessivi 12 staia&#62; che
+                    riscuoteva &#60;annualmente&#62; a Ponzanello da Guido Alberti e consorti
+                    relativamente alle tenute di Factorese e Seratreçarie poste nel distretto di
+                    Ponzanello. Il frumento era stato acquistato da Attocanino del fu Parente di
+                    Terrarossa. Il prezzo della vendita ammonta a 4 lire e 3 soldi di imperiali.
+                    Fideiussori Paganino del fu Bono di Bibola e Vivaldeto di Bonvicino de
+                    Caprigliola. </p>
+            </div>
+
+            <div type="footer" xml:id="CLXVII_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] cc. 412v.-413v., cc. CCCCIIIIv.-CCCCVv. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p> Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                            1912</ref>, <emph>Addenda</emph>, n. 22, pp. 674-675. </p>
+                </div>
+
+                <div type="crit_notes">
+                    <p>Le integrazioni nel regesto sono state fatte sulla base del doc. 526 -
+                        CLXVIII</p>
+                </div>
+
+
+                <div type="appr">
+                    <p/>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="CLXVII_div">
+                <p xml:id="CLXVII_p_001" n="1"> In nomine Domini, amen. <date when="1255-03-04">Anno
+                        a nativitate Eius M°CC°LV°, indictione XIII, die quarto marcii</date>.
+                        <persName ref="#AttolinusAttocanini">Attolinus quondam domini Attocanini de
+                            <placeName ref="#Bibola">Bibola</placeName></persName> per se suosque
+                    fratres eiusque et eorum heredes et heredes dicti <roleName>domini</roleName>
+                    <persName ref="#AttocanisBibola">Attocanini</persName> vendidit, dedit atque
+                    tradidit venerabili patri <roleName>domino</roleName>
+                    <persName ref="#GuilEpLuni">Guilielmo, <roleName>Dei gratia Lunensi
+                            episcopo</roleName></persName>, recipienti nomine sui episcopatus, VII
+                    quartos frumenti pro indiviso, ad commune starium de <placeName ref="#Aulla">Avula</placeName>, quod consuetum est
+                    reddere <persName ref="#GuidoAlberti">Guido Alberti</persName> cum consortibus
+                    suis de quibusdam <pb n="413r" xml:id="fol_413r"/> tenutis positis in districtu
+                        <placeName ref="#Ponzanello">Ponzanelli</placeName>, scilicet de <placeName
+                        ref="#Factorose">Factorese</placeName> et <placeName ref="#Seratreçari"
+                            >Seratreçarie<note place="foot" n="a" xml:id="CLXVII_n_001">
+                                Seratreçarie<emph>: la seconda a corretta su precedente
+                                scrittura.</emph></note></placeName> vel aliunde, atque quod
+                    frumentum dictus <persName ref="#AttolinusAttocanini">Attolinus</persName> vel
+                    unus ex fratribus suis emerat vel habuerat ab <persName
+                        ref="#AttocaninusParentis">Attocanino quondam domini <persName
+                            ref="#ParensTerrarossa">Parentis de <placeName ref="#Terrarossola"
+                                >Terrarosola</placeName></persName></persName>, sicut continetur in
+                    instrumento facto manu <persName ref="#ValerianusOlivola_notarius">Valeriani
+                            <roleName>notarii</roleName> de <placeName ref="#Olivola"
+                            >Olivola</placeName></persName>, a me <persName ref="#Benedictusnot"
+                        >Benedicto <roleName>notario</roleName></persName> viso et lecto, et dedit,
+                    cessit atque mandavit eidem domino episcopo, recipienti ut dictum est, omne
+                    dominium, proprietatem, usum et utilitatem, actiones et rationes, utiles et
+                    directas, reales, personales seu mixtas, quas ipsi <persName
+                        ref="#AttolinusAttocanini">Attolino</persName> et fratribus suis competunt
+                    vel competere possunt in dictis VII quartis frumenti et in terris unde solvuntur
+                    et in persona et contra personam dicti <persName ref="#AttolinusAttocanini"
+                        >Attolini</persName> et fratrum eius, faciendo ipsum dominum episcopum
+                    procuratorem et dominum <supplied reason="omitted">ut</supplied>in rem suam,
+                    dans dictus <persName ref="#AttolinusAttocanini">Attolinus</persName> per se et
+                    fratres suos predictos et heredes dicti <roleName>domini</roleName>
+                    <persName ref="#AttocanisBibola">Attocanini</persName> eidem domino episcopo
+                    licenciam et bailliam ut sua auctoritate de predictis VII quartis frumenti
+                    tenutam et possessionem ingrediatur vel quasi quandocumque voluerit,
+                    constituendo se pro eo et eius nomine possidere donec de ipso frumento
+                    possessionem accipiat corporalem. Pro precio cuius frumenti habuit et recepit
+                    idem <persName ref="#AttolinusAttocanini">Attolinus</persName>, recipiens pro se
+                    et fratribus suis, ab ipso domino episcopo <measure type="Imperiales"
+                        quantity="4" unit="solidus">libras IIIIor et soldos tres bonorum
+                        imperialium</measure> coram me <persName ref="#Benedictusnot">Benedicto
+                            <roleName>notario</roleName></persName> et testibus infrascriptis,
+                    renunciando exceptioni non numerate pecunie et non recepte. Insuper promisit et
+                    convenit suprascriptus <persName ref="#AttolinusAttocanini">Attolinus</persName>
+                    per se et fratres suos atque eius eorumque heredes ipsi domino episcopo,
+                    recipienti pro se suisque successoribus et nomine episcopatus, dictum frumentum
+                    non imbrigare vel molestare, deinceps immo deffendere et exbrigare ab omni
+                    contradicente persona et loco: quod, si non faceret vel non posset, promisit
+                    inde dare salvum cambium in bonis suis loco consimili. Et hec omnia attendere et
+                    observare promisit pro se et fratribus suis suprascriptis ipsi domino episcopo,
+                    recipienti ut dictum est, et in nullo contravenire de iure vel de facto, sub
+                    pena <measure type="Imperiales" quantity="4" unit="solidus">librarum IIIIor
+                        imperialium</measure>, quam dare et solvere promisit et convenit eidem
+                    domino episcopo tociens quociens fuerit contraventum atque pro quolibet capitulo
+                    non observato; qua soluta, predictis omnibus et singulis nichillominus semper
+                    manentibus firmis, obligando se et fratres suos et eius eorumque heredes et
+                    omnia sua eorumque bona, renunciando omni exceptioni et omni iuri et legum
+                    auxilio quibus contra predicta vel aliquod predictorum posset facere vel venire.
+                    Preterea promisit et convenit dictus <persName ref="#AttolinusAttocanini"
+                        >Attolinus</persName> ita facere et curare quod suprascripti fratres sui
+                    hanc vendictionem ratam et firmam habebunt et numquam contravenient aliquo modo
+                    de iure vel de facto, datis fideiussoribus super hoc <persName
+                        ref="#PaganinusBoniBibola">Paganino quondam Boni de <placeName ref="#Bibola"
+                            >Bibola</placeName></persName> et <persName ref="#VivaldetusBonvisini"
+                        >Vivaldeto filio Bonvicini de <placeName ref="#Caprigliola"
+                            >Capriliola</placeName></persName>, qui precibus et mandato dicti
+                        <persName ref="#AttolinusAttocanini">Attolini</persName> se constituerunt
+                    atque fecerunt apud dictum dominum episcopum eiusque successores proprios et
+                    principales fideiussores et deffensores de suprascripto frumento et de omnibus
+                    et singulis suprascriptis tam de deffensione et evictione et salvo cambio quam
+                    de pena, dampno, interesse et expensis et in omnibus et per omnia ut
+                    suprascriptus <persName ref="#AttolinusAttocanini">Attolinus</persName>
+                    promiserit atque se obligaverit apud ipsum dominum episcopum, renunciando omni
+                    iuri et legum auxilio et specialiter nove constitutioni de fideiussoribus et
+                    epistule divi Adriani et si hec vendictio non valet pro precio suprascripto quod
+                    in feudum a Lunensi curia tenebant. </p>
+                <p xml:id="CLXVII_p_002" n="2">Actum in <placeName ref="#Ponzanello"
+                        >Ponzanello</placeName>, in domo <persName ref="#AidansGondeti">Aidantis
+                        quondam <persName ref="#Gondetus">Gondeti</persName></persName>, presentibus
+                    ipso Aidante, <persName ref="#Bonavitapre">Bonavita <roleName>
+                            presbytero</roleName></persName>
+                    <orgName ref="#Ponzanello_S_Martino">de <placeName ref="#Ponzanello"
+                            >Ponzanello</placeName></orgName>, <persName ref="#Iacopinusarc"
+                        >Iacopino <roleName>archipresbytero</roleName></persName>
+                    <orgName ref="#Ameglia_S_Vincenzo">de <placeName ref="#Ameglia"
+                            >Amelia</placeName></orgName>, <persName ref="#BonaiunctaPesticio"
+                        >Bonaiuncta Pesticio familiare dicti domini episcopi</persName>, testibus ad
+                    hec rogatis.</p>
+                <pb n="413v" xml:id="fol_413v"/>
+                <p xml:id="CLXVII_p_003" n="3"><ptr target="#CLXVII_st_001"/> Ego <persName
+                        ref="#Benedictusnot">Benedictus<note place="foot" n="b"
+                            xml:id="CLXVII_n_002"> Ego Benedictus<emph>: in lettere
+                                maiuscole.</emph></note></persName>, <roleName>imperialis aule
+                        notarius</roleName>, hanc cartam rogatus scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CIII_120">
+    <front xml:id="CIII_front">
+
+      <titlePart type="numerazioneNuova">120</titlePart>
+      <titlePart type="numerazioneOrig">CIII</titlePart>
+
+      <docDate xml:id="CIII_docDate">
+        <date when="1188-08-17">1188 agosto 17</date>, <placeName>Sarzanello (<term xml:lang="latin"
+            >in curia castri Sarzane</term>).</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CIII_regesto">
+        <p>Ordinamento della famiglia dei cuochi del vescovo di Luni. Il rifornimento per la cucina
+          del vescovo è affidato nel corso dell’anno a quattro poderi: di Linari, Brasile, Pogio e
+          Bolano. Si stabiliscono minuziosamente le procedure e le modalità per il funzionamento del
+          servizio.</p>
+      </div>
+
+      <div type="footer" xml:id="CIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP cc. 218v.- c. 219v., cc. CCXv.-c. CCXIv. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in: <ref target="#NERI_1882">NERI 1882</ref>p. 16 sgg.; <ref
+              target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 103, pp. 138-141.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <term xml:lang="latin">Ordo cocharie domini
+              episcopi Lunensis</term>. Un’altra mano ha aggiunto: <term xml:lang="latin">Ordo
+              quocorum et quocine domini episcopi Lunensis tempore Petri episcopi anno 1180</term>.
+            L’indizione coincide, ma il 17 agosto 1188 era mercoledì e non giovedì. <p>Autentica
+              databile con elevata incertezza a un periodo compreso tra il 1231 e il 1257 per la
+              presenza dei notai Pinioso detto Iacopino e Pagano/Paganino.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CIII_div">
+        <pb n="218v" xml:id="fol_218v"/>
+        <p xml:id="CIII_p_001" n="1">In eterni Dei nomine, amen. Ad memoriam in posterum retinendam
+          in hac pagina describitur ordo cocarie domini Lunensis episcopi qualiter fieri debeat,
+          videlicet: in primis <placeName ref="#Linari">podere de Linari</placeName> debet facere
+          quartam partem anni de cocaria, et ille qui habet <placeName ref="#Linari">illud
+            podere</placeName> debet incipere primam ebdomadam; <placeName ref="#Brasile">podere de
+            Brasile</placeName> secundam ebdomadam debet incipere et facere et quartam partem anni
+          debet facere <note place="foot" n="a" xml:id="CIII_n_001"><term xml:lang="latin">et
+              ille-partem anni</term>
+            <emph>in scrittura più minuta della stessa mano su abrasura.</emph></note>; <placeName
+            ref="#Pogio">podere de Pogio</placeName> similiter quartam partem anni, atque ille qui
+          habet <placeName ref="#Pogio">illud podere</placeName> debet incipere et facere terciam
+          ebdomadam; <placeName ref="#Bolano">podere vero de Bolano</placeName> similiter quartam
+          partem anni, et qui habet <placeName ref="#Bolano">illud podere</placeName> incipere debet
+          quartam ebdomadam. Et in hunc modum omnes isti suprascripti debent perficere servicium
+          cocarie domini episcopi Lunensis tocius anni per totum <placeName ref="#Luni" type="ente"
+            >episcopatum Lunensem</placeName>. <persName ref="#ValentinusFonCoc"
+            >Valentinus</persName> autem debet servire domino episcopo per medium annum de propria
+          et speciali coquina ipsius domini episcopi et debet esse super alios septimanarios et
+          servire et custodire tam ipsam coquinam, quam ipse facit proprie ad opus episcopi, quam
+          illam, quam ebdomadarii faciunt ad opus clericorum et militum et tocius manasde<note
+            place="foot" n="b" xml:id="CIII_n_002"><term type="incerto">manasde</term>: <emph>così
+              nel testo per</emph>
+            <term xml:lang="latin">masnade</term></note>, et debet ipse <persName
+            ref="#ValentinusFonCoc">Valentinus</persName> ire cum domino episcopo sive <placeName
+            ref="#Roma">Romam </placeName>sive alibi quocumque perrexerit ad voluntatem episcopi,
+          tamen cum equitatura domini episcopi. De omnibus autem cibariis que fu<supplied
+            reason="omitted">er</supplied>int cum pasta vel in cibariis pasta meritis, quando opus
+          est, ad coquinam, neque de coquendis fructibus in igne vel cinere
+            <roleName>coci</roleName> non debent se intromittere, nisi voluerint; set pistores
+          debent servire de pasta et cortesiani de fructibus. Et si forte puer non fuerit in curia
+          ad afferendam aquam ad opus coquine, quisque <roleName>cocus</roleName> septimanarius
+          debet ducere et habere aquarolum suum pro aqua afferenda in coquina, et ille aquarolus
+          debet comedere in curia. Finita vero ebdomada, septimanarius debet reconsignare scutellas
+          et vasa maiori <roleName>coco</roleName> vel castaldioni vel canovario. De porco, quem
+            <roleName>coci</roleName> interfecerint et paraverint ad opus coquine, ipsi
+            <roleName>coci</roleName> debent habere sumatam, que debet incidi per mediam pupellam, a
+            dextris<note place="foot" n="c" xml:id="CIII_n_003"><term xml:lang="latin"
+              >dextris</term>: <emph>x corretta su precedente scrittura.</emph></note> atque a
+          sinistris, et debent habere collare, preter barbinam et caudam cum tribus nodis et minorem
+          penolam fegati.<roleName>coci</roleName> quoque a festo beati<note place="foot" n="d"
+            xml:id="CIII_n_004"><term xml:lang="latin">beati</term>:<emph>b corretto su precedente
+              lettera</emph></note> Martini usque ad octavas resurrectionis Domini debent habere
+          pelles, capita, pedes et interiora montonorum, agnorum, capretorum et leporum, excepto
+          tamen fegatello capretorum, omnium illorum videlicet qui veniunt ad coquinam domini
+          episcopi de omnibus curiis sive per aportum curie presententur. Et si opus fuerit quod
+          bestioli impleantur, de interioribus suprascriptis impleri debent: et hoc ubicumque
+          episcopus fuerit a predicto festo beati Martini usque ad octavas resurrectionis Domini. In
+            <placeName ref="#Sarzana" type="ente">curia vero Sarzane</placeName> ab octavis Pasche
+          usque ad festum beati Martini sescalcus debet habere predictorum animalium pelles que
+          interficiuntur diebus dominicis. In omnibus autem festivitatibus, que vigiliam habent,
+            <roleName>coci</roleName> debent habere pelles tantum et collare predictorum animalium
+          et coratas, preter duas partes fegati, que ad eos non pertinet<note place="foot" n="e"
+            xml:id="CIII_n_005"><term type="incerto">pertinet</term>: <emph>così nel testo per <term
+                xml:lang="latin">pertinent</term>.</emph></note>, et preter pulmonem, quem aquarolus
+          debet habere, et cortesianus debet habere caudam muntonorum. Custos etiam habere
+            debet<note place="foot" n="f" xml:id="CIII_n_006"><term xml:lang="latin">habere
+              debet</term>: <emph>nel testo <term xml:lang="latin">debet habere</term> con segno di
+              richiamo ad indicare l’inversione.</emph></note> muntonorum capita et pedes montonorum
+          et <placeName ref="#Sarzana" type="ente">curia</placeName> debet habere introitum
+          muntonorum tantum.</p>
+
+        <pb n="219r" xml:id="fol_219r"/>
+        <p xml:id="CIII_p_002" n="2">Et si contingerit quod festivitas Apostolorum et aliorum que
+          vigiliam habuerint infra predictum terminum venerit in dominica die,
+            <roleName>coci</roleName> debent dividere pelles per medium cum siscasco<note
+            place="foot" n="g" xml:id="CIII_n_007"><term type="incerto">siscasco</term>: <emph>così
+              nel testo per</emph>
+            <term xml:lang="latin">siscalco</term>.</note>. In aliis autem diebus, ab octavis Pasche
+          usque ad festum beati Martini, pelles omnes sunt curie et collari et corate sunt
+            <roleName>cocorum</roleName>, preter duas partes fegati, que ad eos non pertinete, et
+          preter pulmonem, quem debet habere aquarolus, et cortesianus caudam et custos muntonorum
+          capita et pedes habere debent et curia introitum. In omnibus autem locis, preter
+            <placeName ref="#Sarzana">Sarzanam</placeName>, ab octavis Pasche usque ad festum beati
+          Martini <roleName>coci</roleName> debent habere capita omnia, exceptis capitibus porcorum,
+          et collaria, coratas muntonorum, agnorum et capretorum et porcellorum, si assati<note
+            place="foot" n="h" xml:id="CIII_n_008"><term xml:lang="latin">assati</term>: <emph>nel
+              testo con segno generico di abbreviazione finale superfluo.</emph></note> fuerint, et
+          sumatam porci, preter barbinam et collare et coratam cum tribus nodis; aprorum vero, omni
+          tempore, debent habere linguatium. Coria autem predictorum animalium infra suprascriptum
+          terminum debent <roleName>coci</roleName> dividere cum siscasco<note place="foot" n="g"
+            xml:id="CIII_n_009"><term type="incerto">siscasco</term>: <emph>così nel testo
+              per</emph>
+            <term xml:lang="latin">siscalco</term>.</note> per medium, exceptis diebus festivis que
+          habent vigiliam. Si quandocumque dominus episcopus congregaverit curiam,
+            <roleName>coci</roleName> debent venire omnes statim cum fuerint vocati ad servicium
+          faciendum, et omnes pelles, que ibi fuerint, erunt <roleName>cocorum</roleName>, preter
+          coria cervorum atque capriliorum: et hoc ubicumque curiam congregaverit. In Natale et in
+          Pascha dominus episcopus debet dare oblationes <roleName>cocis</roleName>, qui fuerint ibi
+            <roleName>coci</roleName> maiores. In Pascha debent habere garnellum unum tantum inter
+          eos. Preterea sciendum est quod collaria et iskiki agnorum et capretorum, si assati
+          fuerint, debent esse <roleName>cocorum</roleName>; et similiter collaria porcellorum sunt
+            <roleName>cocorum</roleName>, si fuerint assati.<roleName>Coci</roleName> omnes, si
+          offensam fecerint de officio suo, verberari debent sicut alii masnadengi. De fructibus
+          eorum vel ortulatu cortesianus non debet accipere. Feodum imperatoris sive regis
+            <roleName>coci</roleName> dare non debent. Aquaroli septimaniorum<note place="foot"
+            n="i" xml:id="CIII_n_010"><term type="incerto">septimaniorum</term>:<emph>così nel
+              testo,</emph>
+            <term xml:lang="latin">niorum</term>
+            <emph>scritto su abrasura.</emph></note> non debent afferre aquam, nisi in curia
+            <placeName ref="#Sarzana">Sarzane</placeName> et <placeName ref="#Ameglia"
+            >Amelie</placeName>.</p>
+        <p xml:id="CIII_p_003" n="3">Actum est hoc anno <date when="1188">M°C° octuagesimo VIII,
+            indictione VI</date>, in <placeName ref="#Sarzanello">curia castri Sarzane</placeName>,
+          die <date when="--08-17">iovis, qui fuit XVI kalendas septembris</date>, in presentia et
+          concordia <persName ref="#PetrusEpLuni">domini Petri, Dei <supplied reason="omitted"
+              >gratia</supplied>
+            <roleName>Lunensis episcopi</roleName></persName>, et cum signatione <persName
+            ref="#Baldinelluscast">Baldinelli</persName>
+          <roleName>castaldionis</roleName> et in concordia et assensu atque confessione <persName
+            ref="#ValentinusFoncoc">Valentini hominis de La Fontana</persName>, <persName
+            ref="#Dalfinelluscoc">Dalfinelli</persName>, <persName ref="#CereolusCoc"
+            >Cereoli</persName>, <roleName>cocorum</roleName>, atque <persName ref="#Rubbertuspis"
+            >Rubberti</persName>
+          <roleName>pistoris</roleName>, qui omnes concorditer publico scripto redigi
+          rogaverunt.</p>
+        <p xml:id="CIII_p_004" n="4"> # # Signum manuum <persName ref="#Gibertusdiac">Giberti
+            dyaconi</persName> domini episcopi, <persName ref="#CurtisCarnea">Curti de <placeName
+              ref="#Carnea">Carnea</placeName></persName>, <persName ref="#Henricusbec">Henrici
+            becarii</persName>, <persName ref="#Ferretus">Feretti</persName>, <persName
+            ref="#CastilioCasti">Castilionis de Castilione</persName>, <persName
+            ref="#GerardusBrusc">Gerardi de <placeName ref="Bruscaliano"
+            >Bruscaliano</placeName></persName>, rogatorum testium.</p>
+        <p xml:id="CIII_p_005" n="5"><ptr target="#CIII_st_001"/> Ego <persName ref="#Lombardusnot"
+            >Lumbardus</persName>, <roleName>domini imperatoris et Lunensis curie
+            notarius</roleName>, interfui atque rogatus hoc scriptum feci.</p>
+
+        <pb n="219v" xml:id="fol_219v"/>
+      </div>
+      <div xml:id="CIII_div2" type="autentica">
+        <p xml:id="CIII_p_006" n="6"><ptr target="#CIII_st_002"/> Ego <persName
+            ref="#PinosiusIacopinusnot">Pinosius nomine Iacopinus</persName>, <roleName>Romanorum
+            imperatoris notarius</roleName>, auttenticum huius exempli vidi et legi et, ut in eo
+          continebatur, in hoc scripsi, nichil addens vel minuens quod mutet sensum vel minuat
+          intellectum.</p>
+        <p xml:id="CIII_p_007" n="7"><ptr target="#CIII_st_003"/> Ego <persName ref="#Paganinusnot"
+            >Paganinus</persName>, <roleName>domini Frederici secundi Romanorum imperatoris
+            notarius</roleName>, auttenticum huius exempli vidi et legi, in quo, ut in isto legitur,
+          continebatur, et ideo huic subscripsi, signum proprium apponendo.</p>
+        <p xml:id="CIII_p_008" n="8"><ptr target="#CIII_st_004"/> Ego <persName ref="#Guadagnusnot"
+            >Guadagnus</persName>, <roleName>sacri palacii notarius</roleName>, auttenticum huius
+          exempli vidi et legi, in quo, ut in isto legitur, continebatur, atque ideo huic
+          subscripsi, signum proprium apponendo.<note>Autentica databile con elevata incertezza a un
+            periodo compreso tra il 1231 e il 1257 per la presenza dei notai Pinioso detto Iacopino
+            e Pagano/Paganino <date notBefore="1231-01-01" notAfter="1257-12-31" cert="low"
+          /></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

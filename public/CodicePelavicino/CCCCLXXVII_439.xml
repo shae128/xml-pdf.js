@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXXVII_439">
+    <front xml:id="CCCCLXXVII_front">
+
+      <titlePart type="numerazioneNuova">439</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXVII</titlePart>
+
+      <docDate xml:id="CCCCLXXVII_docDate">
+        <date when="1221-08-02">1221 agosto 2</date>, <placeName>Bracelli <emph> (<term
+              xml:lang="latin">in castello Blaçelli, in domo Iohannis quondam
+          Henrigi</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXXVII_regesto">
+        <p>Aldrado, Belengra e Venco di Bracelli testimoniano circa i diritti del vescovo di Luni
+          sul castello e distretto di Bracelli.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 363v.-364r., cc. CCCLIIIIv.-CCCLVr., secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 477, pp. 488-489.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note><emph>La carta si presenta in pessimo stato di conservazione. Larga parte del
+              documento è stata letta con l’ausilio della luce di Wood.</emph></note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXVII. Designationis reddituum de Bracellis.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCLXXVII_div">
+        <p xml:id="CCCCLXXVII_p_001" n="1"> In nomine Domini, amen. <date when="1221-08-02">Anno a
+            nativitate Eius M°CCXXI, indictione IX, die lune, II intrantis augusti.</date>
+          <persName ref="#AldradusBlaçellio">Aldradus</persName>, <persName ref="#BelengraBlaçellio"
+            >Belengra</persName> et <persName ref="#VencusBlaçellio">Vencus de <placeName
+              ref="#Bracellis">Blaçellio</placeName></persName> ad sancta Dei Evangelia iuraverunt
+          monstrare, assignare, confessare et testimoniare omnes rationes, condictiones, factiones
+          et redditus que et quas Lunensis episcopus habet vel debet habere in castello <placeName
+            ref="#Bracellis">Blaçellii</placeName> et in districtu eius. Primitus dixerunt quod de
+          manso <placeName ref="#Pianopiti">Pianopiti</placeName> curia episcopi debet habere XX
+          denarios imperialium pensionis et duo staria castanearum viridium et duos denarios
+          pensionis. <persName ref="#AldradusBlaçellio">Aldradus</persName> dat medietatem et
+            <persName ref="#Gerardus">Girardus</persName> aliam medietatem et decimas de <placeName
+            ref="#Valauri">Valauri</placeName>
+          <gap quantity="4" unit="chars" reason="illegible"/> [..] que est [..] <gap quantity="2"
+            unit="chars" reason="illegible"/> [..]<gap quantity="2" unit="chars" reason="illegible"
+          /> . Item in domo illorum de <placeName ref="#MonteBra">Monte</placeName> VI denarios
+          imperialium pensionis uno anno et in alio anno III denarios <note place="foot" n="a"
+            xml:id="CCCCLXXVII_n_001">et in alio anno III denarios:<emph>: nel testo</emph> et in
+            alio III denarios anno <emph>con segno di richiamo per invertire l’ordine delle
+              parole.</emph></note>; et de duobus annis I starium castanearum viridium et I
+            <supplied reason="omitted">denarium</supplied> pensionis annuatim. <persName
+            ref="#BelengraBlaçellio">Belengra</persName> et eius frater dant annuatim I starium
+          castanearum viridium et I denarium pensionis, et uno anno IIII denarios et in alio anno
+          III denarios pensionis de tenuta de <placeName ref="#Bançola">Bançola</placeName>.
+            <persName ref="#Melioretus">Meioretus</persName> et <persName ref="#Decanus"
+            >Decanus</persName> de tenuta de <placeName ref="#Bançola">Bançola</placeName> uno anno
+          III denarios pensionis et in alio anno IIII denarios et I starium castanearum et I
+          denarium; de tenuta de <placeName ref="#MonteMese">Monte de Mese</placeName> omni anno
+          IIII denarios et medium pensionis et decimas debet habere Lunensis curia. <persName
+            ref="#Genua"><emph>Genua</emph></persName> debet dare I denarium et <persName
+            ref="#Mercadantus">Mercadante</persName> alium denarium et <persName ref="#Belenga"
+            >Belenga</persName>, eius frater, duos denarios <note place="foot" n="b"
+            xml:id="CCCCLXXVII_n_002"> denarios <emph>: probabilmente aggiunto in un secondo
+              tempo</emph>.</note> et medium de tenuta de <placeName ref="#Iocasscoli"
+            >Iocasscoli</placeName>: omni anno IIII denarios et medium pensionis et decimas.
+            <persName ref="#ConfortusPadulvarmo">Confortus de <placeName ref="#Padulvarmo"
+              >Padulvarmo</placeName></persName> et <persName ref="#GuidoTivegna">Guidus de
+              <placeName ref="Tivegna">Tivegna</placeName></persName> debe<supplied reason="omitted"
+            >n</supplied>t solvere predictos denarios. Item de tenuta de <placeName
+            ref="#Morentassco">Morentassco</placeName> IX denarios pensionis; III denarios ex istis
+            debe<supplied reason="omitted">n</supplied>t solvere <persName ref="#Mignotus"
+            >Mignotus</persName> et <persName ref="#Ubertinus">Ubertinus</persName> et I minam de
+          castaneis viridi<supplied reason="omitted">bu</supplied>s et I minam. <persName
+            ref="#GerardinusPerdeti">Gerardinus quondam Perdeti</persName> et <persName
+            ref="#Melioretus">Meioretus</persName> et <persName ref="#Benefacto"
+            >Benefacto</persName> et filii <persName ref="#Cilometus">Cilometi</persName> III
+          denarios, <persName ref="#VencusBlaçellio">Vengus</persName> alios III denarios et I minam
+          de castaneis viridibus et I denarium et medium et alios tres denarios. <persName
+            ref="#VencusBlaçellio">Vengus</persName> et eius frater et <persName
+            ref="#Franceschinus">Françescchinus</persName>, <persName ref="#Belenga"
+            >Belenga</persName> et eius frater de tenuta de <placeName ref="#Cruce2"
+            >Cruce</placeName>, de quatuor annis uno, I starium de castaneis viridibus et I denarium
+          pensionis. <persName ref="#Bonusfilius">Bonusfilius</persName> cum suis nepotibus illud
+          idem sicuti <persName ref="#Belenga">Belenga</persName> et eius frater debet solvere de
+          tenuta de <placeName ref="#Cruce2">Cruce</placeName>; de tenuta de <placeName
+            ref="#SerraBra">Serra</placeName> omni anno <pb xml:id="fol_364r" n="364r"/> VI denarios
+          pensionis et I starium castanearum viridium et I denarium; de tenuta de Bonifrasco omni
+          anno I denarium pensionis et decimas de tota tenuta de <placeName ref="#MonteMese">Monte
+            de Mese</placeName>, que tenebatur a filiis <persName ref="#Lambertus"
+            >Lamberti</persName>
+          <supplied reason="omitted">et</supplied> est curie Lunensis. Amasamentum et dismasamentum
+          de <placeName ref="#Pianopiti">Pianopicti</placeName>, de <placeName ref="#Cruce2"
+            >Cruce</placeName> et de <placeName ref="#Bançola">Bançola</placeName> et de <placeName
+            ref="#Morentassco">Morentasco</placeName> et de <placeName ref="#SerraBra"
+            >Serra</placeName>, que teneba<supplied reason="omitted">n</supplied>tur a filiis
+            <persName ref="#Lambertus">Lamberti</persName>, debet esse Lunensis curie. Acta sunt hec
+          in castello <placeName ref="#Bracellis">Blaçelli</placeName>, in domo <persName
+            ref="#IohannesHenrigi">Iohanni<supplied reason="omitted">s</supplied> quondam
+            Henrigi</persName>, presentibus <persName ref="#Ubalduscan">Ubaldo
+              <roleName>canonico</roleName></persName>, <persName ref="#IuncteVallerano">Iuncta de
+              <placeName ref="#Valerano">Valerano</placeName></persName> et <persName
+            ref="#IacobusSala">Iacobo de <placeName ref="#Sala">Sala</placeName></persName>,
+          testibus ad hec rogatis. </p>
+
+        <p xml:id="CCCCLXXVII_p_002" n="2">
+          <ptr target="#CCCCLXXVII_st_001"/> Ego <persName ref="#Confortus_notarius2">Confortus,
+              <roleName>domini Ottonis quarti imperatoris notarius</roleName></persName>, hec
+          rogatus scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

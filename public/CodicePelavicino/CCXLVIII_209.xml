@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXLVIII_209">
+    <front xml:id="CCXLVIII_front">
+
+      <titlePart type="numerazioneNuova">209</titlePart>
+      <titlePart type="numerazioneOrig">CCXLVIII</titlePart>
+
+      <docDate xml:id="CCXLVIII_docDate">
+        <date when="1225-03-06">1225 marzo 6</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in castro Sarzane, in porticu palacii domini
+          episcopi</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXLVIII_regesto">
+        <p>Buttafava, vescovo e conte di Luni, loca a Giovannino del fu Aldeprando <term
+            xml:lang="latin">de Rapugnana</term>, che riceve per suo figlio Aldeprandino e i suoi
+          eredi, avuti dalla moglie Richelda, figlia del fu Vicino <term xml:lang="latin">de
+            Vico</term>, il podere un tempo tenuto da detto Vicino. Tale podere si trova in Vico,
+          nel distretto di Collecchia; il fitto annuale ammonta a 1 sestario di frumento e 1 di
+          spelta, 1 pollo e 6 uova, con l’obbligo di ospitare quando necessario il castaldo del
+          vescovo, così come fanno gli altri locatari di quella zona. La concessione costa 10
+          soldi.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXLVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] cc. 262v.-263r., cc. CCLIIIIv.-CCLVr. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p><ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 248, pp. 230-231.</p>
+        </div>
+
+        <div type="crit_notes">
+          <p>Autentica databile con incertezza tra il 1232 e il 1260 per la presenza contemporanea
+            dei notai Pagano, Bonalbergo e Aiuto.</p>
+          <note>
+            <emph/>
+          </note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXLVIII_div">
+        <p xml:id="CCXLVIII_p_001" n="1"><pb xml:id="fol_262v" n="262v"/>In nomine Domini,
+            amen.<date when="1225-03-06"> Anno a nativitate Eius millesimo CCXXV, indictione XIII,
+            die iovis, VI intrantis mensis marcii</date>.<persName ref="#ButtafavaEpLuni">Dominus
+            Butafava, <roleName>Dei gratia Lunensis episcopus</roleName> et
+              <roleName>comes</roleName></persName>, per se suosque successores, vice et nomine
+          Lunensis episcopatus atque comitatus et pro Lunensi episcopatu et comitatu, dedit,
+          tradidit et locavit et cum investitura firmavit ad fictum reddendum <persName
+            ref="#IohanninusAldeprandi">Iohannino quondam Aldeprandi de <placeName ref="#Rapugnana"
+              >Rapugnana</placeName></persName>, agenti et recipienti pro <persName
+            ref="#AldeprandinusIohannini">Aldeprandino</persName>, filio suo, et pro heredibus
+          eiusdem <persName ref="#AldeprandinusIohannini">Aldeprandini</persName>, masculis et
+          feminis, habitis et habendis ex <persName ref="#RicheldaVicini">Richelda, uxore sua, filia
+            quondam <persName ref="#VicinusVico">Vicini de <placeName ref="#Vico"
+              >Vico</placeName></persName></persName>, nominatim, totum poder et tenutam, quod et
+          que fuit quondam iamscripti <persName ref="#VicinusVico">Vicini</persName>, ubicumque sit,
+          iaceat, reperiatur et decurrat, in plano et in monte, in castris et extra castra, in
+          villis et extra villas, in casis, capannis et casamentis, in terris cultis atque incultis,
+          in pratis, pascuis, silvis et nemoribus, in molendinis et aqueductibus, in domesticis et
+          silvestribus locis, et de iamscripto podere et tenuta, quicquam fuerit repertum seu
+          poterit modo aliquo reperiri, agrum et cultum, plenum et vacuum, divisim et indivisim,
+          caput cuius poderis et tenute est in predicto loco <placeName ref="#Vico"
+          >Vico</placeName>, in confinibus et in districtu <placeName ref="#Collecchia"
+            >Collechii</placeName>, ita quod ut amodo perpetuo ad fictum reddendum suprascriptus
+            <persName ref="#AldeprandinusIohannini">Aldeprandinus</persName> suique heredes, masculi
+          et femine, habiti et habendi ex predicta <persName ref="#RicheldaVicini"
+            >Richelda</persName> uxore sua, habeant, teneant, fruantur et possideant totum istud
+          poder et tenutam, cum accessu et regressu et cum superioribus et inferioribus et omnibus
+          rationibus et pertinenciis suis in integrum, sine suprascripti domini episcopi et comitis
+          suorumque successorum et cuiusque persone contradictione, dando et solvendo exinde
+          suprascripto domino episcopo et comiti suisque successoribus aut cui dederint vel
+          commiserint annuatim, per mensem augusti, sextarium I frumenti mundi et sicci et I spelte
+          munde et sicce, ad commune sextarium <placeName ref="#Soliera">Solerie</placeName>
+          mensurati et mensurate, et pullum I et VI ova in nativitate sancti Stephani tantum; alia
+          superimposita eis non fiat. Et debeat super illa tenuta et podere habitare et residere et
+          recipere castaldionem suprascripti domini episcopi et comitis, qui pro tempore fuerit in
+            <placeName ref="#Soliera">curia Solerie</placeName>, sicuti faciunt alii affictati sui
+          eiusdem terre. Et promisit suprascritus dominus episcopus et comes per se suosque
+          successores, stipulatione sollempni, totum suprascriptum poder et tenutam, cum omnibus
+          rationibus et pertinenciis suis in integrum, iure deffendere et exbrigare ab omni
+          contradicente et impediente persona suprascripto <persName ref="#AldeprandinusIohannini"
+            >Aldeprandino</persName> suisque heredibus, masculis et feminis, habitis et habendis de
+          suprascripta <persName ref="#RicheldaVicini">Richelda</persName>, uxore sua, seu
+          restaurare et salvum cambium inde dare in consimili loco, prout tunc valuerit sive
+          melioratum fuerit, sub iusta bonorum hominum extimatione, obligando se suosque successores
+          et universa et singula bona episcopatus et <orgName ref="#Luni_comitatus"
+            >comitatus</orgName>, mobilia et immobilia, presentia et futura. Et confessus fuit
+          suprascriptus dominus episcopus et comes ipsum <persName ref="#AldeprandinusIohannini"
+            >Aldeprandinum</persName> habere tenutam de suprascripto podere, quam eidem patri suo,
+          recipienti pro eo, penitus confirmavit, constituendo se pro eo et eius nomine precario
+          possidere; et fuit confessus suprascriptus dominus episcopus et comes se recepisse ab eo,
+          dante pro suprascripto filio suo, servicium huius locationis, in veritate et non spe
+          future numerationis, bonorum <measure type="Imperiales" quantity="10" unit="solidus"
+            >imperialium soldorum X</measure>, renunciando exceptioni non numerate pecunie. Et
+          constituerunt inter se ut, si quis eorum vel eorum successorum sive heredum omnia atque
+          singula que in hac carta leguntur attendere et observare noluerit aut si tollere vel
+          laxare voluerit seu in aliquo contravenire presumpserit, alteri parti fidem servanti,
+          nomine pene, solvat bonorum <measure type="Imperiales" quantity="20" unit="solidus"
+            >imperialium soldos XX</measure>; qua soluta, hec carta nichillominus roboris obtineat
+          firmitatem.</p>
+        <p xml:id="CCXLVIII_p_002" n="2">Actum apud <placeName ref="#Sarzanello">castrum
+            Sarzane</placeName>, in porticu palacii eiusdem domini episcopi et comitis,
+          sollempniter, cum stipulatione subnixa, presentibus domino <persName
+            ref="#HenricusBlancus">Henrico Blan<supplied reason="omitted">c</supplied>o de
+              <placeName ref="#Erberia">Herberia</placeName></persName> et <persName
+            ref="#GibertinusHenrici">Gibertino eius filio</persName>, <persName
+            ref="#RollandusTebaldini">Rollando filio Thebaldini de <placeName ref="#Soliera"
+              >Soleria</placeName></persName>, <persName ref="#BonencontrusBosonis">Bonencontro
+            quondam Bosonis de <placeName ref="#Montevallese">Montevallese</placeName></persName>,
+            <persName ref="#PiçolbonusUgolini">Piçolbono quondam Ugolini de <placeName ref="#Arcola"
+              >Arcula</placeName></persName>, de loco dicto <placeName ref="#Monte"
+            >Monte</placeName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCXLVIII_p_003" n="3">Ego <persName ref="#Philippusnot">Philippus,
+              <roleName>domini Ottonis Romanorum serenissimi imperatoris
+            notarius</roleName></persName>, hiis interfui atque rogatus scripsi.</p>
+      </div>
+      <div xml:id="CCXLVIII_div2" type="autentica">
+        <p xml:id="CCXLVIII_p_004" n="4"><ptr target="#CCXLVIII_st_001"/> Ego <persName
+            ref="#Paganusnot">Paganus, <roleName>notarius sacri palacii</roleName></persName>,
+          autenticum huius exempli vidi et legi et quicquid in eo inveni fideliter exemplavi, nichil
+          addens vel minuens quod mutet sensum, nisi forte litteram vel sillabam.</p>
+        <p xml:id="CCXLVIII_p_005" n="5"><ptr target="#CCXLVIII_st_002"/> Ego <persName
+            ref="#Bonalbergusnot">Bonalbergus, <roleName>domini Frederici invictissimi Romanorum
+              imperatoris notarius</roleName></persName>, auttenticum huius exempli vidi et legi
+          atque, quia nichil in uno plus<note place="foot" n="a" xml:id="CCXLVIII_n_001"><term
+              xml:lang="latin">plus</term><emph>: aggiunto in sopralinea.</emph></note> quam in
+          altero continebatur quod mutet sensum, ideo huic subscripsi et meo signo signavi.<pb
+            n="263r" xml:id="fol_263r"/></p>
+        <p xml:id="CCXLVIII_p_006" n="6"><ptr target="#CCXLVIII_st_003"/> Ego <persName
+            ref="#Adiutusnot">Adiutus, <roleName>sacri palacii notarius</roleName></persName>,
+          auttenticum huius exempli vidi et legi et, quia nichil in uno plus quam in altero
+          continebatur quod mutet sensum, ideo huic subscripsi et meo signo signavi <note>Autentica
+            del documento n. 211-CCL databile tra il 1232 e il 1260 per la presenza del notaio Aiuto
+              <date notBefore="1232-01-01" notAfter="1260-12-31" cert="low"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXVII_279">
+    <front xml:id="CCCXVII_front">
+
+      <titlePart type="numerazioneNuova">279</titlePart>
+      <titlePart type="numerazioneOrig">CCCXVII</titlePart>
+
+      <docDate xml:id="CCCXVII_docDate">
+        <date when="1186-03-29">1186 marzo 29</date>, <placeName>Sarzana (<emph>in burgo
+            Sarzana</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXVII_regesto">
+        <p>Gerardino, gastaldo della curia di Luni, su mandato del vescovo Pietro, loca a Gerardino
+          del fu Burgengio di Cazano, che riceve anche a nome dei figli Martino e Carinbono, la
+          tenuta un tempo di proprietà di Zito degli Albizi, affinché i figli di Gerardino abbiano
+          in moglie due figlie del fu Zito. Se una delle due coppie non avrà eredi, l’altra le
+          succederà interamente. La transazione costa 40 soldi.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 292r.-292v., cc. CCLXXXIIIIr.-CCLXXXIIIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 317, p.
+            306.</p>
+        </div>
+
+        <div type="crit_notes"> </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCXVII.
+              Locationis Gerardino Burnengi de Gaçano de quodam podere per homagium et
+              resedium.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXVII_div">
+        <p xml:id="CCCXVII_p_001" n="1">In eterni Dei nomine. <date when="1186">Anno<note
+              xml:id="CCCXVII_n_001" n="a" place="foot"><term xml:lang="latin">Anno</term>:
+                <emph>corretto su</emph>
+              <term xml:lang="latin">amen</term>.</note> ab Eius incarnatione millesimo C
+            octuagesimo VI, indictione IIII</date>. <persName ref="#Gerardinuscast">Gerardinus,
+              <roleName>Lunensis curie castaldio</roleName></persName>, dedit et investivit de
+          mandato domini <persName ref="#PetrusEpLuni">Petri, <roleName>Dei gratia Lunensis
+              episcopi</roleName></persName>, cuidam <persName ref="#GerardinusBurnengi">Gerardino
+            quondam Burnengii de <placeName ref="#Cazano">Caçano</placeName></persName>, recipienti
+          pro duobus suis filiis, videlicet <persName ref="#MartinusGerardini">Martinus</persName>
+          et <persName ref="#CarinbonusGerardini">Carinbonus</persName><note xml:id="CCCXVII_n_002"
+            n="b" place="foot"><term type="incerto">Martinus et Carimbonus</term>: <emph>così nel
+              testo</emph>.</note>, videlicet de tota tenuta quondam <persName ref="#ZitusAlbizi"
+            >Ziti de li Albizi</persName><note xml:id="CCCXVII_n_003" n="c" place="foot"><term
+              xml:lang="latin">Albizi</term>: l <emph>aggiunta in sopralinea</emph>.</note>, ut ipsi
+          predicti filii <persName ref="#Gerardinuscast">Gerardini</persName> habeant duas filias
+          eiusdem <persName ref="#ZitusAlbizi">Ziti</persName> in coniugium cum tota possessione et
+          bonis que fuerint eiusdem <persName ref="#ZitusAlbizi">Ziti</persName>, patris earum, et
+          habeant et teneant et fruantur et ut sint residentes super eandem tenutam per dominum
+          episcopum et eius homines contra omnes homines, et tali etiam tenore, quod quicumque eorum
+          vel quecumque earum decesserit sine herede, alia sive alius succedat in totum. Et sicut
+          superius legitur sic predictus dominus episcopus conveniatur fieri debere et predictus
+            <persName ref="#Gerardinuscast">Gerardinus de <placeName ref="#Cazano"
+              >Cazano</placeName></persName> per suos predictos filios observandum<note
+            xml:id="CCCXVII_n_004" n="d" place="foot"><term xml:lang="latin">observandum</term>:
+              <emph>così nel testo per</emph>
+            <term xml:lang="latin">observare</term>. <emph>Segue, non depennato, segno tachigrafico
+              per</emph>
+            <term xml:lang="latin">con</term>.</note> promisit, et exinde predictus <persName
+            ref="#Gerardinuscast">Gerardinus de <placeName ref="#Cazano"
+            >Cazano</placeName></persName> dedit servicium <pb n="292v" xml:id="fol_292v"/> curie
+            <measure quantity="40" type="soldi">soldorum XL</measure>.</p>
+        <p xml:id="CCCXVII_p_002" n="2">Actum est hoc in burgo Sarzana<note xml:id="CCCXVII_n_005"
+            n="e" place="foot"><term xml:lang="latin">Sarzana</term>: <emph>così nel
+            testo</emph>.</note>, <date when="--03-29">die sabbati, qui fuit IIII kalendas
+            aprilis</date>, feliciter.</p>
+        <p xml:id="CCCXVII_p_003" n="3"># Signa manuum iamscripti castaldionis et iamscripti
+            <persName ref="#Gerardinuscast">Gerardini de <placeName ref="#Cazano"
+            >Cazano</placeName></persName>, qui hoc scriptum fieri rogaverunt.</p>
+        <p xml:id="CCCXVII_p_004" n="4"># # Signa manuum <persName ref="#GuerinusSarzane">Guerini de
+              <placeName ref="#Sarzana">Sarzana</placeName></persName>, <persName
+            ref="#SabbatinusPlaza">Sabbatini de <placeName ref="#Plaça"
+          >Plaza</placeName></persName>, <persName ref="#GuidoAlbizi">Guidonis de li
+            Albizi</persName>, <persName ref="#GuilielminusPilloti">Guilielmini Pilloti</persName>,
+          rogatorum testium.</p>
+        <p xml:id="CCCXVII_p_005" n="5"><ptr target="#CCCXVII_st_001"/> Ego <persName
+            ref="#Lombardusnot">Lumbardus, <roleName>domini imperatoris et Lunensis curie
+              notarius</roleName></persName>, interfui et rogatus hoc scriptum feci.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

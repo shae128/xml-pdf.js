@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXVIIII_331">
+    <front xml:id="CCCLXVIIII_front">
+
+      <titlePart type="numerazioneNuova">331</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXVIIII</titlePart>
+
+      <docDate xml:id="CCCLXVIIII_docDate">
+        <date when="1183-06-30">1183 giugno 30</date>, <placeName>Costanza
+          (<emph>Constancie</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXVIIII_regesto">
+        <p>Federico I concede al vescovo Pietro il comitato di Luni, la <term xml:lang="latin"
+            >ripa</term> del porto di Luni e del porto di Ameglia e il pedaggio che era solito
+          avere.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 312v., c. CCCIIIIv. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione con qualche inesattezza in <ref target="#UGHELLI_1644">Ughelli 1644</ref>, I,
+            p. 848; parziale in <ref target="#SIMONSFELD_1905">SIMONSFELD 1905</ref>; <ref
+              target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 369, pp. 350-351; <ref
+              target="#MGH_DD_FI">MGH DD FI</ref>, I, 4, n. 851, pp. 80-81.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine superiore, in posizione centrale <term xml:lang="latin">De
+            Amelia</term>. </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXVIIII. Privilegium comitatus Lunensis Amelie et pedagii.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXVIIII_div">
+        <pb n="312v" xml:id="fol_312v"/>
+        <p>
+          <persName ref="#Fredericus_imperator_I">Fredericus, <roleName>divina favente
+                clemencia<note xml:id="CCCLXVIIII_n_001" n="a" place="foot"><term xml:lang="latin"
+                  >Fredericus, divina favente clementia in littere elongatae</term></note>,
+              Romanorum imperator augustus</roleName></persName>. Cum ex officio imperatorie
+          maiestatis a Deo nobis credito universis imperii fidelibus teneamur gratie nostre
+          subsidium impendere, principibus nostris et precipue ecclesiasticis, quarum <note
+            xml:id="CCCLXVIIII_n_002" n="b" place="foot"><term xml:lang="latin">quarum</term>:
+              <emph>così nel testo per</emph>
+            <term xml:lang="latin">quorum</term></note> fides sedula devocione nobis est obnoxia et
+          quorum operis exhibitio sincere dilectionis affectum probat in eo debitores nos esse
+          clementer cognoscimus, ut quanto honestate morum et fidei sinceritate clarius elucescunt,
+          tanto liberalius consueta benignitate esse studeamus eis et prodesse. Notum igitur facimus
+          universis imperii fidelibus, tam presentis etatis quam successure posteritatis, quod nos
+          dilectum ac fidelem nostrum familiarem atque amicum, scilicet <persName
+            ref="#PetrusEpLuni">Petrum, <roleName>Lunensem episcopum</roleName></persName>, ob
+          intuitum sincere dilectionis et constancie fidei illibate quam erga personam nostram et
+          coronam imperialis excellencie gerit, intimis anime precordiis amplectantes, ad
+          rationabiles et honestas preces ac petitiones suas favorabiliter inclinati, <orgName
+            ref="#Luni_comitatus">comitatum Lunensem</orgName> cum omni integritate honoris suis et
+          ripam <placeName ref="#Luni">Lunensis</placeName> portus et portus <placeName
+            ref="#Ameglia">Amelie</placeName> et pedagium secundum quod habere consuevit ei
+          concedimus, statuentes et imperiali auctoritate firmiter inhibentes ut nullus dux, nullus
+          marchio, nullus comes, nullus capitaneus, nulla potestas nullumve commune, nulla denique
+          persona, humilis vel alta, secularis vel ecclesiastica, hanc nostre concessionis et
+          confirmationis paginam audeat violare, nec aliquibus <supplied reason="omitted"
+            >in</supplied>iuriarum calumpniis seu dampnis attemptet infestare. Quod qui fecerit,
+          maiestatis reus L<note xml:id="CCCLXVIIII_n_003" n="c" place="foot"><term xml:lang="latin"
+              >L</term>: <emph>lettura incerta, nel testo asta sovrastata da segno generico di
+              troncamento.</emph>
+            <term xml:lang="latin">quorum</term></note> libras auri puri pro pena componat, dimidium
+          fisco imperialis camere et reliquum episcopo Lunensis ecclesie. Huius rei testes sunt
+            <persName ref="#IohannesAnagninus">Iohannes Anagninus</persName>, tituli Sancti Marci
+            <roleName>presbyter cardi<supplied reason="omitted">n</supplied>alis</roleName>,
+            <persName ref="#HenrmannusEpMonasteriensis">Hermannus <placeName ref="#Monasterium"
+              >Monasteriensis</placeName>
+            <roleName>episcopus</roleName></persName>, <persName ref="#WillielmusEpAsti">Willielmus
+              <placeName ref="#Asti">Astensis</placeName>
+            <roleName>episcopus</roleName></persName>, <persName ref="#AnselmusEpCumanus">Anselmus
+              <placeName ref="#Comum">Cumanus</placeName>
+            <roleName>episcopus</roleName></persName>, <persName ref="#Gotifreduscanc">Gotifredus
+              <roleName>imperialis aule cancellarius</roleName></persName>, <persName
+            ref="#OttoBawarie">Otto <roleName>dux</roleName>
+            <placeName ref="#Bawaria">Bawarie</placeName></persName>, <persName
+            ref="#FredericusduxSuevie">Fridericus <roleName>dux</roleName>
+            <placeName ref="#Suevia">Suevie</placeName></persName>, filius noster,<persName
+            ref="#BertoldusIstrie"> Bertoldus <roleName>marchio</roleName>
+            <placeName ref="#Istria">Istrie</placeName></persName>, <persName ref="#HenricusdeDies"
+              ><roleName>comes</roleName> Henricus de Dies</persName>, <persName
+            ref="#TheopoldusLeschemunde"><roleName>comes</roleName> Thepoldus de <placeName
+              ref="#Leschemunde">Leschemunde</placeName></persName>, <persName ref="#Rodulfuscam"
+            >Rodulfus <roleName>camerarius</roleName></persName> et alii quam plures, tam clerici
+          quam laici. </p>
+        <p xml:id="CCCLXVIIII_p_002" n="2">Acta sunt hec <date when="1183-06-30">anno ab
+            incarnatione Domini millesimo CLXXXIII, indictione I, regnante domino <persName
+              ref="#Fredericus_imperator_I">Friderico, <roleName>Romanorum imperatore
+                gloriosissimo</roleName></persName>, anno regni eius XXXII, imperii vero XXIX. Datum
+              <placeName ref="#Costancia">Constancie</placeName>, II kalendas iulii</date>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

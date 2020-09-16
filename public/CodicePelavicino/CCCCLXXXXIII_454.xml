@@ -1,0 +1,336 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="\schema\tei_cp.rng" type="application\xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="CCCCLXXXXIII_454">
+    <front>
+      <titlePart type="numerazioneNuova">454</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXXIII</titlePart>
+
+      <docDate xml:id="CCCCLXXXXIII_454_docDate"><date when="1218-03-24">1218 marzo 24</date>, Pisa
+          (<emph>Pisis, in domo Gualfredi de Graffo</emph>)</docDate>
+
+      <div type="regesto" xml:id="CCCCLXXXXIII_454_regesto">
+        <p> Bandino Gaetani, arbitro eletto, prima dal vescovo di Luni Gualtiero e da Gerardo di
+          Trebiano a nome del comune e dei consorti di Trebiano, e in seguito dal vescovo di Luni
+          Marzucco e da Parentino da Vallecchia e Romeletto, consoli di Trebiano, Parentino anche in
+          rappresentanza dei suoi consorti, ascolta i testimoni e poi sentenzia sulle liti e le
+          controversie che contrapponevano le due parti sui confini dei distretti dei castelli di
+          Ameglia e Trebiano, sulle usanze e le consuetudini che i signori di Trebiano possono
+          vantare sugli uomini che abitano nel distretto di Ameglia e sul trasporto dei pesci nel
+          distretto di Trebiano catturati per il vescovo al di qua del capo di San Terenzo.</p>
+      </div>
+      <div type="footer" xml:id="CCCCLXXXXIII_454_footer">
+        <div type="orig_doc">
+          <p>Copia [C] cc. 371v.-372v., cc. CCCLXIIv.CCCLXIIIv., <emph>secondo la numerazione
+              originale</emph>.</p>
+        </div>
+        <div type="crit_notes">
+          <note>
+            <p> La data <emph>nono kalendas V exeuntis marcii</emph> si spiega presumendo che il
+              copista abbia scritto V al posto di a. per <emph>aprilis</emph>. Dato che il nono
+              giorno prima delle calende di aprile era il 24 marzo e a Pisa il 25 cambiava l’anno,
+              il notaio pisano ha abbondato nelle indicazioni.</p>
+          </note>
+        </div>
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 493,
+            pp. 516-518.</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >IIIIcLXXXXIII. Sententie Bandini Gaitani inter dominum episcopum, ex una parte, et
+              dominos de Tribiano et consules, ex altera.</term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCCLXXXXIII_div">
+        <p xml:id="CCCCLXXXXIII_p_001" n="1">
+          <pb n="371v" xml:id="fol_371v"/>In eterni Dei nomine, amen. Ego <persName
+            ref="#BandinusGaitani">Bandinus Gaitani</persName>, <roleName>arbiter et
+            laudator</roleName> ex compromisso electus a <roleName>domino</roleName>
+          <persName ref="#GualEpLuni">Gualterio</persName>, <roleName>Lunensi episcopo</roleName>,
+          pro ipso episcopatu, ex una parte, et a <persName ref="#GerardusTrebiano">Gerardo de
+            <placeName ref="#Trebiano">Trebiano</placeName></persName> pro <orgName ref="#Trebiano_comune"
+              >communi castri predicti</orgName>
+          et pro se et omnibus consortibus suis de Trebiano, ex altera, et postea, salvo
+          suprascripto compromisso, electus arbiter a <roleName>domino</roleName>
+          <persName ref="#MarzuccusEpLuni">Marzucho</persName>, <roleName>Lunensi
+            episcopo</roleName>, pro ipso episcopatu, ex una parte, et a <persName
+            ref="#ParentinusVallecla">Parentino</persName> de <placeName ref="#Vallecchia1"
+            >Vallechia</placeName> et a <persName ref="#Romelettuscons">Romeletto</persName>,
+            <roleName>consulibus</roleName> de <placeName ref="#Trebiano">Trebiano</placeName>, pro
+          ipso <orgName ref="#Trebiano_comune"
+            >communi</orgName> et ab ipso <persName ref="#ParentinusVallecla">Parentino</persName> pro se et
+          consortibus suis, ut apparet in sceda rogata per <persName ref="#GuilielmusPisanot"
+            >Guilielmum</persName>
+          <roleName>iudicem notarium</roleName> de <placeName ref="Pisa">Pisis</placeName>, ad lites
+          et controversias que inter eos erant vel esse poterant de confinibus districtus et curie
+          castri de <placeName ref="#Ameglia">Amelia</placeName> et castri de <placeName
+            ref="#Trebiano">Trebiano</placeName> et de iurisdictione et usantiis vel
+          consuetudinibus, quas domini de <placeName ref="#Trebiano">Trebiano</placeName> debent
+          habere in hominibus habitantibus infra districtum <placeName ref="#Ameglia"
+            >Amelie</placeName>, et de apportu piscium qui infra districtum et curiam de <placeName
+            ref="#Trebiano">Trebiano</placeName> a quibuscumque personis capiuntur a capite
+            <placeName ref="#SanTerenzo2">Sancti Terencii</placeName> citra, accipiendo vel tollendo
+          pro ipso Lunensi episcopatu, immo ab utraque parte, per rationem et <note place="foot"
+            n="a" xml:id="CCCCLXXXXIII_n_001">et:<emph>corretto su L</emph></note> laudamentum cum
+          partium voluntate diffiniendas positas, promittentibus inter se ad invicem ad penam
+            <measure quantity="100" unit="marca">C marcharum argenti</measure>, stipulatione
+          sollempni inter se vicissim promissam, habere ratum et tenere firmum totum et quicquid
+          inde aliquo istorum modorum dixero vel sententiavero, prout continetur in sceda ipsius
+          positionis rogate <note place="foot" n="b" xml:id="CCCCLXXXXIII_n_002">rogate:<emph>così
+              nel testo per rogata.</emph></note> per <persName ref="#UgolinusCarrarianot"
+            >Ugolinum</persName>
+          <roleName>notarium</roleName> de <placeName ref="#Carrara">Carraria</placeName>, ipsas
+          quidem lites et controversias sic per rationem diffinio siquidem ut predictus
+            <roleName>dominus</roleName>
+          <persName ref="#MarzuccusEpLuni">Marzuchus</persName>, <roleName>Lunensis
+            episcopus</roleName>, pro ipso episcopatu agebat contra suprascriptos <persName
+            ref="#ParentinusVallecla">Parentinum</persName> et <persName ref="#Romelettuscons"
+            >Romellum</persName>, <roleName>consules</roleName> de <placeName ref="#Trebiano"
+              >Trebiano</placeName> pro <orgName ref="#Trebiano_comune"
+                >communi ipsius castri</orgName>, et adversus dictum Parentinum pro se et
+          consortibus suis de <placeName ref="#Trebiano">Trebiano</placeName> de confine discernenda
+          et terminanda districtus et curie castri de <placeName ref="#Ameglia">Amelia</placeName>
+          et castri de <placeName ref="#Trebiano">Trebiano</placeName> et ut termini et confines
+          derigantur inter predicta castra, scilicet a canale de casa <persName ref="#Marcus"
+            >Martii</persName> et ab inde eundo ad terminum de campo <persName ref="#Diliatus"
+            >Diliati</persName> et ab inde descendendo ad fontanam <note place="foot" n="c"
+            xml:id="CCCCLXXXXIII_n_003">fontanam: <emph>la seconda n corretta su precedente
+              scrittura.</emph></note> de <placeName ref="#Ridacto">Ridacto</placeName>, eundo per
+          toraversum <note place="foot" n="d" xml:id="CCCCLXXXXIII_n_004">toraversum:<emph>così nel
+              testo per traversum</emph></note> usque ad terminum de <placeName ref="#Sensano"
+            >Sensano</placeName> et ab inde redeundo ad viam de <placeName ref="#Verazano"
+            >Verathano</placeName> et descendendo per vallem iuxta casam <persName ref="#Henrigetus"
+            >Henrigeti</persName> usque ad mare et ut a predictis confinibus citra versus <placeName
+            ref="#Ameglia">Ameliam</placeName> de <placeName ref="#Ameglia">Amelia</placeName> pro
+          districtu et curie assignetur et ut pro curia et districtu a predictis finibus et homines
+          etiam commorantes in hiis habere et possidere promittat.</p>
+        <p xml:id="CCCCLXXXXIII_p_002" n="2"> Item predicto modo agebat contra dictos <persName
+            ref="#ParentinusVallecla">Parentinum</persName> et <persName ref="#Romelettuscons"
+            >Romellum</persName>, <roleName>consules</roleName> de <placeName ref="#Trebiano"
+              >Trebiano</placeName> pro <orgName ref="#Trebiano_comune"
+                >communi ipsius castri</orgName>, et adversus dictum Parentinum pro se et
+          consortibus suis ut permittant et sinant nuncios episcopatus Lunensis accipere apportum
+          piscium usque ad <placeName ref="#SanTerenzo2">Sanctum Terencium</placeName>, actione
+          communi dividendo et finium regnadorum et uti possidetis et certi condictione generali
+            <note place="foot" n="e" xml:id="CCCCLXXXXIII_n_005">generali:<emph>segue, ripetuto per
+              errore, condictione</emph></note> ex lege vel legibus et arbitri officio illi,
+          scilicet <persName ref="#ParentinusVallecla">Parentinus</persName> et <persName
+            ref="#Romelettuscons">Tometus</persName>
+          <note place="foot" n="f" xml:id="CCCCLXXXXIII_n_006">Tometus:<emph>così nel testo per
+              Romellus</emph></note>
+          <roleName>consules</roleName> de <placeName ref="#Trebiano">Trebiano</placeName> pro
+          communi castri de <placeName ref="#Trebiano">Trebiano</placeName> et idem <persName
+            ref="#ParentinusVallecla">Parentinus</persName> pro se et consortibus suis de <placeName
+            ref="#Trebiano">Trebiano</placeName>, [..] <note place="foot" n="g"
+            xml:id="CCCCLXXXXIII_n_007">[...]:<emph>tre lettere non scioglibili appartenenti a una
+              forma verbale, probabilmente dicunt, declarant o statuunt.</emph></note> suprascriptam
+          confinem sic non esse <note place="foot" n="h" xml:id="CCCCLXXXXIII_n_008">non esse:
+              <emph>nel testo esse non con segno di richiamo per invertire l'ordine delle
+              parole.</emph></note> terminandas <note place="foot" n="i" xml:id="CCCCLXXXXIII_n_009"
+              >terminandas:<emph>così nel testo per terminandam</emph></note> et qui nunc credunt se
+          teneri de predictis tuti exceptionibus sibi competentibus et competituris usque ad finem
+          cause, quas omnes initio litis opponebant.</p>
+        <p xml:id="CCCCLXXXXIII_p_003" n="3"> Et econverso predictus <persName
+            ref="#ParentinusVallecla">Parentinus</persName> et <persName ref="#Romelettuscons"
+            >Romellus</persName>, <roleName>consules</roleName> de <placeName ref="#Trebiano"
+            >Trebiano</placeName> pro communi suprascripti castri de <placeName ref="#Trebiano"
+            >Trebiano</placeName>, et idem <persName ref="#ParentinusVallecla">Parentinus</persName>
+          pro se et suis consortibus agebant contra suprascriptum <roleName>dominum</roleName>
+          <persName ref="#MarzuccusEpLuni">Marzuchum</persName>, <roleName>episcopum
+            Lunensem</roleName>, pro ipso episcopatu ut non impediat pro curia et districtu habere
+          et possidere a predicto castro de <placeName ref="#Trebiano">Trebiano</placeName> usque ad
+            <placeName ref="#Fauce_Çanica">Faucem Çanicam</placeName>; et ut a <placeName
+            ref="#Fauce_Çanica">Fauce Çanica</placeName> suprascripta pro curia et districtu sibi
+          pro castro de <placeName ref="#Trebiano">Trebiano</placeName> assignetur; et ut non
+          impediat a castro de <placeName ref="#Trebiano">Trebiano</placeName> accipere apportum
+          piscium usque ad <placeName ref="#Combo">Combum</placeName>; et ut non impediat nec
+          prohibeat homines qui a predicto castro de <placeName ref="#Trebiano">Trebiano</placeName>
+          versus <placeName ref="#Ameglia">Ameliam</placeName> morantur etiam infra districtum et
+          curiam castri de <placeName ref="#Ameglia">Amelia</placeName> esse commune de <placeName
+            ref="#Trebiano">Trebiano</placeName> ad emendum <term ref="#scafa">scafam</term> et
+          accipere pro quolibet fumo mediatinum vel ianum novum <note place="foot" n="j"
+            xml:id="CCCCLXXXXIII_n_010">mediatinum vel ianum novum:<emph> si tratta probabilmente di
+              un mezzano lombardo, ossia di un denaro imperiale piano di valore minore rispetto a
+              denaro imperiale lombardo; lo ianum novum doveva essere invece un denaro nuovo
+              genovese (si ringrazia Monica Baldassarri per la consulenza).</emph></note> pro feudo
+            <term ref="#scafarius">scafarii</term>; et ut non prohibeat eos venire ad vias aptandas
+            <note place="foot" n="l" xml:id="CCCCLXXXXIII_n_011">aptandas: <emph>p corretta su
+              precedente t e la seconda a corretta su precedente e, in origine era scritto
+              attendas</emph></note> castri de <placeName ref="#Trebiano">Trebiano</placeName> et ad
+          gridam venire et ad hostem et cavalcatam cum commune de <placeName ref="#Trebiano"
+            >Trebiano</placeName> et ad guaitam castri de <placeName ref="#Trebiano"
+            >Trebiano</placeName> faciendam, et accipere pro quolibet fumo XII denarios pro guaita;
+          et saltariam accipere de terris usque ad [..] <note place="foot" n="m"
+            xml:id="CCCCLXXXXIII_n_012">[..]:<emph>parola di cinque lettere con
+              abbreviazione.</emph></note>  ; et fornellos et ceppatas infra predictos fines facere,
+          et <term ref="#circulus">circulos</term> et ligna et fenum accipere ; et ficus et uvas
+          primaticias interdicto uti possidetis, et actum in factum eis loco reddita ; et communi
+          dividendo finium regnandorum ; et certi condictione generali et arbitri officio.</p>
+        <p xml:id="CCCCLXXXXIII_p_004" n="4"> Ille pro Lunensi episcopatu respondit sic: terminos
+          predictos non esse ponendos nec derigendos nec se pro episcopatu de predictis teneri tuto
+          pluribus exceptionibus et deffensionibus quas omnes initio litis opponebat, predictus vero
+          episcopus ad ea que intendebat probanda confessiones suprascripti <persName
+            ref="#GerardusTrebiano">Gerardi</persName> et testes a se productos induxit.</p>
+        <p xml:id="CCCCLXXXXIII_p_005" n="5"> Confessus enim fuit suprascriptus <persName
+            ref="#GerardusTrebiano">Gerardus</persName>, <roleName>consul</roleName> de <placeName
+            ref="#Trebiano">Trebiano</placeName>, quod episcopus Lunensis est comes et episcopus in
+          Lunensi episcopatu et quod ipse cum suis consortibus tenet <placeName ref="#Trebiano"
+            >Trebianum</placeName> a <orgName ref="#Luni_comitatus">comitatu Lunensi</orgName> et
+          qui episcopus habet frodium <note place="foot" n="n" xml:id="CCCCLXXXXIII_n_014">frodium:
+              <emph>così nel testo per fodrum</emph></note> in districtu <placeName ref="#Trebiano"
+            >Trebiani</placeName> et quod nuncii episcopi <note place="foot" n="o"
+            xml:id="CCCCLXXXXIII_n_015">nuncii episcopi: <emph>nel testo episcopi nuncii con segno
+              di richiamo per invertire l'ordine delle parole.</emph></note> consueverunt accipere
+          apportum piscium usque ad <placeName ref="#Corbo">Corbum</placeName> ab hominibus omnibus
+          ibi piscantibus, exceptis illis de <placeName ref="#Trebiano">Trebiano</placeName>. <pb
+            n="372r" xml:id="fol_372r"/> Interrogatus simpliciter si ab omnibus quibus
+          confessionibus et testium dictis de sua intentione probatum fore asserebat.</p>
+        <p xml:id="CCCCLXXXXIII_p_006" n="6">
+          <persName ref="#ParentinusVallecla">Parentinus</persName> et <persName
+            ref="#Romelettuscons">Romellus</persName> suprascripti, econtra, confessiones predictas
+          et testium dicta sibi non obesse dicebant et ad suam intentionem fundandam testes a
+          suprascripto <persName ref="#GerardusTrebiano">Gerardo</persName> datos et confessiones
+          dicti <roleName>episcopi</roleName>
+          <persName ref="#GualEpLuni">Gualterii</persName> pro se inducebant.</p>
+        <p xml:id="CCCCLXXXXIII_p_007" n="7"> Confessus enim fuit episcopus suprascriptus quod
+          homines qui habitant in <placeName ref="#Portesone">Portexono</placeName> et a <placeName
+            ref="#Portesone">Portexono</placeName> versus <placeName ref="#Trebiano"
+            >Trebianum</placeName> sunt de plebatu plebis de Trebiano et quod recipient baptismum ab
+          ipsa plebe et quod illi qui sunt a canale de <placeName ref="#Plazio">Plasu</placeName>
+          versus <placeName ref="#Trebiano">Trebianum</placeName> emerunt cum illis de <placeName
+            ref="#Trebiano">Trebiano</placeName> et non sub eis <term ref="#scafa">scafam</term> ad
+          voluntatem castaldi de <placeName ref="#Ameglia">Amelia</placeName>, qui pro tempore erat,
+          antequam esset episcopus<note place="foot" n="p" xml:id="CCCCLXXXXIII_n_016">episcopus:
+              <emph>così nel testo probabilmente per episcopi.</emph></note>, et quod dederunt pro
+          fumo ad eandem <term ref="#scafa">scafam</term> duos mediolanos quando <term ref="#scafa"
+            >scafa</term> emebatur. Interrogatus si dederunt ad emendam <term ref="#scafa"
+            >scafam</term> tantum quantum quilibet de <placeName ref="#Trebiano"
+            >Trebiano</placeName> [..]<note place="foot" n="q" xml:id="CCCCLXXXXIII_n_017">[..]:
+              <emph>la frase si interrompe, il copista ha dimenticato una parte di testo di
+              lunghezza imprecisabile.</emph></note>. Interrogatus si sunt soliti ire ad gridam de
+            <placeName ref="#Trebiano">Trebiano</placeName>, respondit non, nisi sint fideles
+          vicedominorum. Interrogatus si homines de predictis partibus quando serviunt episcopo
+          receperint vel recipere debeant expensas a curia, respondit quod castaldus de <placeName
+            ref="#Ameglia">Amelia</placeName> et alii sui castaldi dant, si volunt, set non ex
+          debito et quod quidam de suprascriptis partibus dant pro guaita denarios XII castro de
+            <placeName ref="#Trebiano">Trebiano</placeName>, set pro episcopo, et quod illos de
+            <placeName ref="#Cala">Cala</placeName> et de <placeName ref="#Elosa">Elosa</placeName>
+          pro cambio habent dicens quod ab episcopatu tenebantur in feudum dedit illud et pro cambio
+          ipsorum hominum dedit et quod domini de <placeName ref="#Barbazzano">Barbazano</placeName>
+          fieri fecerunt et quod alicui vicedominorum. Interrogatus quod facere volebat in
+            <placeName ref="#Barbazzano">Barbazano</placeName> quando posuit <placeName
+            ref="#Barbazzano">Barbazanum</placeName>, dixit quod facere volebat vel faciebat canovam
+          et palacium et castellum; interrogatus simpliciter de canova, interrogatus si homines de
+          predictis confinibus armaverunt se per consules de <placeName ref="#Trebiano"
+            >Trebiano</placeName> vel vicedominos, respondit non, nisi fuerint homines
+          vicedominorum, et quod illis <note place="foot" n="r" xml:id="CCCCLXXXXIII_n_018">illis:
+              <emph>così nel testo probabilmente per illi.</emph></note> de predictis partibus qui
+          fecerunt homicidium de castellario de <placeName ref="#Trebiano">Trebiano</placeName>, qui
+          expectabant ad <persName ref="#AldebrandusTrebiano">Aldebrandum</persName> et <persName
+            ref="#GerardusTrebiano">Gerardum</persName>, exiverunt de plebatu de <placeName
+            ref="#Trebiano">Trebiano</placeName> timore ipsorum vicedominorum; et quod vicedomini
+          fecerunt pisces auferri in suo districtu ab illis personis qui portant pisces pro eorum
+          districtu; et quod <persName ref="#Salvarellus">Salvarellus</persName> et <persName
+            ref="#Montaninus">Montaninus</persName> et <persName ref="#Contolinus"
+            >Contolinus</persName> habent I domum in castro de <placeName ref="#Trebiano"
+            >Trebiano</placeName> ; et quod a XV annis citra est positum <placeName
+            ref="#Barbazzano">Barbazanum</placeName>; et quod homines qui sunt in <placeName
+            ref="#Barbazzano">Barbazano</placeName> deessent in villan<supplied>atico</supplied>
+          <supplied>et</supplied> servierunt vicedominis ut bonis hominibus, set non ex debito
+          quibus omnibus se absolvendos fore et ipsos sibi condempnandos debere dicebat.</p>
+        <p xml:id="CCCCLXXXXIII_p_008" n="8"> Unde ego suprascriptus arbiter, visis rationibus
+          utriusque partis et confessionibus factis et dictis testium ab utraque parte datorum,
+          secundum ea que coram me proposita sunt, ut <note place="foot" n="s"
+            xml:id="CCCCLXXXXIII_n_019">ut: <emph>manca il verbo reggente, probabilmente
+              precipio.</emph></note> termini et fines derigantur inter predicta castra a canale de
+          casa <persName ref="#Marcus">Marcii</persName> usque ad mare, sicut in petitione facta
+          designatum est, et ut a predictis confinibus citra versus <placeName ref="#Ameglia"
+            >Ameliam</placeName> suprascripto episcopo pro districtu et curia castri <note
+            place="foot" n="v" xml:id="CCCCLXXXXIII_n_020"/> de <placeName ref="#Ameglia"
+            >Amelia</placeName> assignetur et ut pro curia et districtu a predictis finibus; et
+          homines in hiis commorantes sicut homines sui districtus et curie, exceptis illis de
+            <placeName ref="#Cala">Cala</placeName> et <placeName ref="#la_Fracta"
+            >Fracta</placeName>, suprascripti <persName ref="#ParentinusVallecla"
+            >Parentinus</persName> et <persName ref="#Romelettuscons">Romellus</persName>, consules
+          de <placeName ref="#Trebiano">Trebiano</placeName> pro communi castri predicti, et ipse
+            <persName ref="#ParentinusVallecla">Parentinus</persName> pro se et consortibus suis de
+            <placeName ref="#Trebiano">Trebiano</placeName> habere et possidere permittat<note
+            place="foot" n="x" xml:id="CCCCLXXXXIII_n_021">permittat: <emph>così nel testo
+              probabilmente per permittant</emph></note>; et ut nuncios episcopatus Lunensis
+          apportum piscium accipere usque ad <placeName ref="#SanTerenzo2">Sanctum
+            Terencium</placeName> permittant; et non inquietent suprascriptos <persName
+            ref="#ParentinusVallecla">Parentinum</persName> et Romellum, consules de <placeName
+            ref="#Trebiano">Trebiano</placeName> pro suprascripto communi ; et <persName
+            ref="#ParentinusVallecla">Parentinum</persName> predictum pro se et consortibus suis de
+            <placeName ref="#Trebiano">Trebiano</placeName> suprascripto episcopo ad suprascriptam
+          penam condempno <note place="foot" n="t" xml:id="CCCCLXXXXIII_n_022">condempno:
+              <emph>empno corretto su precedente scrittura.</emph></note>  ; et eundem episcopum pro
+          suprascripto episcopatu ut suprascriptos <persName ref="#ParentinusVallecla"
+            >Parentinum</persName> et <persName ref="#Romelettuscons">Romellum</persName>, consules
+          pro suprascripto communi, et ipsum <persName ref="#ParentinusVallecla"
+            >Parentinum</persName> pro se et consortibus suis pro curia et districtu castri de
+            <placeName ref="#Trebiano">Trebiano</placeName>, a suprascripta confine versus predictum
+          castrum de <placeName ref="#Trebiano">Trebiano</placeName> habere et possidere permittat;
+          et ut pro curia et districtu sibi a predicta confine versus <placeName ref="#Trebiano"
+            >Trebianum</placeName> pro castro de <placeName ref="#Trebiano">Trebiano</placeName>
+          assignetur ; et ut non impediat nec prohibeat homines qui morantur a canale de <placeName
+            ref="#Plazio">Ploçii</placeName> versus <placeName ref="#Trebiano">Trebianum</placeName>
+          esse cum <orgName ref="#Trebiano_comune"
+            >commune de <placeName ref="#Trebiano">Trebiano</placeName></orgName> ad emendum <term
+            ref="#scafa">scafam</term> et ab hominibus qui sunt a <placeName ref="#Portesone"
+            >Portexono</placeName> versus <placeName ref="#Trebiano">Trebianum</placeName> accipere
+          pro quolibet fumo medionanensium <note place="foot" n="u" xml:id="CCCCLXXXXIII_n_023"
+            >medionanensium: <emph>così nel testo per mediolanensium</emph></note> vel ianuensium I
+          pro feudo <term ref="#scafarius">scafarii</term>; et ut non prohibeat eos, qui a
+            <placeName ref="#Portesone">Portesione</placeName> versus <placeName ref="#Trebiano"
+            >Trebianum</placeName> morantur, ad vias de Rimaço aptandas <note place="foot" n="x"
+            xml:id="CCCCLXXXXIII_n_024">aptandas: <emph>p corretto su precedente
+            lettera.</emph></note> venire; et accipere pro quolibet fumo ab hominibus de Verucula,
+          exceptis illis de <placeName ref="#Plazio">Ploçi</placeName> et filiis <persName
+            ref="#Amittetus">Amitteti</persName>, denarios XII pro guaita; et ab illis de <placeName
+            ref="#Serra">Serra</placeName> et <placeName ref="#Verazano">Verasano</placeName>
+          pensiones et exsema <note place="foot" n="y" xml:id="CCCCLXXXXIII_n_025">exsema :
+              <emph>così nel testo.</emph></note> et affictum et coltas sicut, ab eorum hominibus
+          preterquam ad placitum eos distringere et bannum ab eis accipere ad suprascriptam penam
+          condempno; ab aliis ab utraque parte vicissim petetis, utramque partem et alteram ab
+          altera, a dicta pena absolvo et libero.</p>
+        <p xml:id="CCCCLXXXXIII_p_009" n="9"> Data et lecta est <placeName ref="#Pisa"
+            >Pisis</placeName>, in domo <persName ref="#GualfredusGrasso">Gualfredi de
+            Grasso</persName>, presentibus <persName ref="#MarzuccusTeperti">Marzuco
+            Teperti</persName> et <persName ref="#PericciolusPandulfi">Pericciolo
+            Pandulfi</persName> et <persName ref="#ConfortusSarzananot">Conforto</persName>
+          <roleName>notario</roleName> de <placeName ref="#Sarzana">Sarzano</placeName>, ad hec
+          testibus rogatis. <date when="1218-03-24">Dominice incarnationis anno MCCXVIII, indictione
+            VI, <pb n="372v" xml:id="fol_372v"/> nono kalendas V exeuntis marcii</date>.</p>
+
+        <p xml:id="CCCCLXXXXIII_p_010" n="10">
+          <ptr target="#CCCCLXXXXIII_st_001"/>Ego <persName ref="#GuilielmusRusticinot">Wilielmus
+            Rustici filius</persName>, <roleName>imperiali aule notarius</roleName> et postea domini
+          imperatoris iudex ordinarius, hanc sententiam a suprascripto <persName
+            ref="#BandinusGaitani">Bandino Gaytani</persName> coram me datam eius mandato et
+          parabola scripsi atque firmavi.</p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

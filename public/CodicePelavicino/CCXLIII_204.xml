@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXLIII_204">
+    <front xml:id="CCXLIII_front">
+
+      <titlePart type="numerazioneNuova">204</titlePart>
+      <titlePart type="numerazioneOrig">CCXLIII</titlePart>
+
+      <docDate xml:id="CCXLIII_docDate">
+        <date when="1231-04-19">1231 aprile 19</date>, <placeName>Soliera <emph>(<term
+              xml:lang="latin">in camera plebis Solerie</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXLIII_regesto">
+        <p>Palmerio del fu Guido di Erberia, podestà delle terre dei Bianchi di Lunigiana, ed Enrico
+          del fu Arduino e Pietro del fu Bernardino di Erberia promettono al vescovo di Luni
+          Guglielmo di mantenere i patti a suo tempo stipulati col vescovo di Luni Marzucco grazie
+          all’arbitrato dei vicedomini Aldebrando e Gerardo, figli del fu Alberto, e da Gerardo di
+          Villano. Si costituiscono fideiussori per i signori di Erberia Guizolo di Moncigoli,
+          Uberto di Soliera, Rollando ferrario, Bonfileto <term xml:lang="latin">de Iovello</term>,
+          Pietro del fu Enrigolo e Guglielmino <term xml:lang="latin">de Oletulo.</term></p>
+      </div>
+
+      <div type="footer" xml:id="CCXLIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 260r., c. CCLIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. 243, pp. 225-226.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>La data del 12 aprile, proposta da Lupo Gentile, è da correggersi in 19 aprile, come
+            osserva <ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 17. </note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXLIII_div">
+        <p xml:id="CCXLIII_p_001" n="1"><pb n="260r" xml:id="fol_260r"/>In nomine Domini <date
+            when="1231-04-19">millesimo CCXXXI, indictione IIII, die sabbati, XII exeuntis
+            aprilis</date>, in camera <orgName ref="#Soliera_S_Maria">plebis <placeName
+              ref="#Soliera">Solerie</placeName></orgName>, coram <persName ref="#GerardusVillani"
+            >Girardo quondam Villani de <placeName ref="#Sarzana">Sarzana</placeName></persName>,
+            <persName ref="#SaladinusFosdenova">Saladino de <placeName ref="#Fosdinovo"
+              >Fosdenova</placeName></persName>, <roleName>archipresbytero</roleName>
+          <persName ref="#Peregrinusarc">Peregrino</persName>
+          <orgName ref="#Soliera_S_Maria">plebis <placeName ref="#Soliera"
+            >Solerie</placeName></orgName>, testibus. Dominus <persName ref="#PalmerinusGuidonis"
+            >Palmerius quondam Guidonis de <placeName ref="#Erberia"
+          >Herberia</placeName></persName>, potestas <placeName ref="#TerreBianchi">terrarum
+            Blancorum</placeName> in <placeName ref="#Lunigiana">Lulexana</placeName><note
+            place="foot" n="a" xml:id="CCXLIII_n_001"><term type="incerto">Lulexana</term>:
+              <emph>così nel testo per</emph>
+            <term xml:lang="latin">Lunexana</term></note>, et <persName ref="#HenricusArdoini"
+            >domini Henricus quondam Ardoini</persName> et <persName ref="#PetrusBernardiniHerberia"
+            >Petrus quondam domini Bernardini</persName> de <placeName ref="#Erberia">eodem
+            loco</placeName>, per se et suos heredes, promiserunt quoque et iuraverunt venerabili
+          patri domino <persName ref="#GuilEpLuni">Guilielmo, <roleName>Dei gratia Lunensi
+              episcopo</roleName></persName>, stipulanti et recipienti pro se atque suis
+          successoribus, ad penam <measure quantity="100" unit="solidus">C marcharum
+            argenti</measure> ipsi domino episcopo stipulatione sollempni promissam, attendere et
+          observare, spectare et complere, perpetuo firmum et ratum habere et tenere omne illud et
+          quicquid pactum et conventiones quod et quas domini <persName ref="#AldebrandusAlberti"
+            >Aldebrandus</persName> et <persName ref="#GerardusAlberti">Girardus</persName>
+            suprascriptus<note place="foot" n="b" xml:id="CCXLIII_n_002"><term type="incerto"
+              >suprascriptus</term><emph>: così nel testo anche se la persona cui si riferisce non è
+              stata nominata prima.</emph></note>, <roleName>vicedomini</roleName>, quondam
+            filii<note place="foot" n="c" xml:id="CCXLIII_n_003"><term type="incerto">quondam
+              filii</term><emph>: così nel testo per</emph>
+            <term xml:lang="latin">filii quondam.</term></note> Alberti et <persName
+            ref="#GerardusVillani">Girardus de <placeName ref="#Villiano"
+            >Villano</placeName></persName> inter ipsos dominos et predecessores ipsius domini et
+          specialiter quondam bone memorie venerabilem patrem dominum <persName
+            ref="#MarzuccusEpLuni">Marçucum, <roleName>Lunensem episcopum</roleName></persName>,
+          arbitrati fuerunt, dixerunt vel composuerunt, sicut in publico continetur instrumento manu
+            <persName ref="#Benvenutusnot1">Benevenuti <roleName>notarii</roleName></persName> inde
+          confecto, et quod facient illud idem bona fide attendi et observari et firmum teneri ab
+          omnibus suis consortibus et iurare eos idem sacramentum; et, pena soluta, suprascripta
+          omnia rata maneant. Insuper <persName ref="#GuizolusMonciculo">Guizolus de <placeName
+              ref="#Moncigoli">Monciculo</placeName></persName>, <persName ref="#UbertusSoleria"
+            >Ubertus de <placeName ref="#Soliera">Soleria</placeName></persName>, <persName
+            ref="#Rollandusfer">Rollandus</persName>
+          <roleName>ferrarius</roleName> et <persName ref="#BonfiletusIovello">Bonfiletus de
+              <placeName ref="#Iovello">Iovello</placeName></persName>, <persName
+            ref="#PetrusHenrigoli">Petrus quondam Henrigoli</persName> et <persName
+            ref="#GuilielminusOletulo">Guilielminus de <placeName ref="#Oletulo"
+            >Oletulo</placeName></persName>, ipsorum dominorum mandato, tanquam principales
+          debitores, nomine pene, promiserunt se suosque heredes, et bona eorum obligaverunt, ipsi
+          domino <persName ref="#GuilEpLuni">Guilielmo, <roleName>Dei gratia Lunensi
+              episcopo</roleName></persName>, atque eius successoribus dare et solvere <measure
+            quantity="100" unit="solidus">marchas C argenti</measure> si domini suprascripti in
+          omnibus predicta omnia non observaverint et rata et firma perpetuo non attenderent seu
+          haberent et, ea soluta, rato manente pacto, omni suo <supplied reason="omitted"
+            >iuri</supplied> renunciando et epistule divi Adriani, nove constitutioni et legi que
+          dicit principalem prius fore conveniendum quam fideiussorem. Item <persName
+            ref="#GuilEpLuni">dominus Guilielmus, <roleName>Dei gratia Lunensis
+            episcopus</roleName></persName>, per se et suos successores, sub pena iamdicta,
+          suprascriptis dominis, stipulatione promissa, ipsis dominis<note place="foot" n="d"
+            xml:id="CCXLIII_n_004"><emph>Segue, non depennato: </emph>
+            <term xml:lang="latin">promisit</term></note> stipulantibus et recipientibus pro se et
+          suis consortibus et eorum heredibus, in omnibus et per omnia promisit, fecit et obligavit
+          ut ipsi domini ei in omnibus promiserunt et obligaverunt et fecerunt, excepto quod non
+          iuravit. Et sic suprascripti fideiussores et <persName ref="#RollandusSoleriacast"
+            >Rollandus, <roleName>castaldus de <placeName ref="#Soliera"
+              >Soleria</placeName></roleName></persName>, ipsius domini episcopi mandato, in omnibus
+          promiserunt et se et sua ipsis dominis obligaverunt ad penam predictam, ut pro ipsis
+          dominis ipsi domino episcopo promiserunt et obligaverunt.</p>
+        <p xml:id="CCXLIII_p_002" n="2"><ptr target="#CCXLIII_st_001"/> Ego <persName
+            ref="#PetrusGualterotinot">Petrus quondam Gualteroti de <placeName ref="#Soliera"
+              >Soleria</placeName></persName>, <roleName>sacri palacii notarius</roleName>, hanc
+          cartam a quondam <persName ref="#Bonencontrusnot">Bonencontro
+            <roleName>notario</roleName></persName> abreviatam, de mandato venerabilis patris domini
+            <persName ref="#GuilEpLuni">Guilielmi, <roleName>Dei gratia Lunensis
+            episcopi</roleName></persName>, et auctoritate mihi ab eo concessa, prout continetur in
+          instrumento inde rogato manu <persName ref="#Peregrinusnot">Peregrini
+              <roleName>notarii</roleName></persName>, sicut in contractu ipsius <persName
+            ref="#Bonencontrusnot">Bonencontri</persName> inveni, visa eius sceda, scripsi et in
+          publicam formam redegi, nichil addens vel minuens quod mutet sensum vel variet
+          intellectum. Que auctoritas mihi data fuit in <placeName ref="#Sarzanello">castro
+            Sarzane</placeName>, in camera domini episcopi, presentibus dominis <persName
+            ref="#Tegrinusiud">Tegrino</persName><note place="foot" n="e" xml:id="CCXLIII_n_005"
+              ><term xml:lang="latin">Tegrino</term>: T <emph>corretta su</emph> G</note>, <persName
+            ref="#Opecinusiud">Opecino</persName> et <persName ref="#Rubeusiud">Rubeo</persName>
+          <roleName>iudicibus</roleName>, testibus. Anno domini <date when="1268-10-11">M°CCLXVIII,
+            indictione XI, XI octubris</date>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

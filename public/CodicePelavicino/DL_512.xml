@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DL_512">
+    <front xml:id="DL_front">
+      <titlePart type="numerazioneNuova">512</titlePart>
+      <titlePart type="numerazioneOrig">DL</titlePart>
+
+      <docDate xml:id="DL_docDate">
+        <date when="1240-05-04">1240 maggio 4</date>, <placeName>San Gimignano (<term
+            xml:lang="latin">in claustro plebis Sancti Geminiani</term>)</placeName>
+      </docDate>
+      <div type="regesto" xml:id="DL_regesto">
+        <p>Gerardo, procuratore del vescovo di Luni Guglielmo, in riferimento alla vertenza tra il
+          suo assistito e il monastero di San Michele di Orticaria, dichiara di essere disponibile a
+          fare un patto con l’abate di S. Michele e ad affidarsi al giudizio del pontefice. La parte
+          avversa risponde che non accetta alcuna concordia se non rispettosa del suo diritto. </p>
+      </div>
+      <div type="footer" xml:id="DL_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 404v., c. CCCLXXXXVv. secondo la numerazione originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 550,
+            pp. 625-626.</p>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DL.
+              Protestatio facta per procuratorem episcopi, qui volebat ponere causam vertentem inter
+              se et monasterium de Orticaria in dominum papam.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DL_div">
+        <p xml:id="DL_p_001" n="1">In Dei nomine, amen. <date when="1240-05-04">Anno Domini MCCXL,
+            indictione XIII, IIII nonas madii.</date>
+          <roleName>Magister</roleName>
+          <persName ref="#Gerardusmag">Gerardus</persName>, <roleName>procurator domini episcopi
+            Lunensis</roleName>, procuratorio nomine pro eo, protestatus fuit et dixit quod paratus
+          erat facere et concordiam firmare cum abbate et <orgName ref="#Pisa_S_Michele_Orticaria"
+            >conventu Sancti Michaelis de</orgName>
+          <placeName ref="#Orticaria">Orticaria</placeName> sive cum eorum syindico quam obtulit et
+          proclamavit publice in porticu suprascripti monasterii et que continetur in carta facta
+          manu Ingherami<note place="foot" n="a" xml:id="DL_n_001">Inghirami: h<emph>aggiunto in
+              sopralinea.</emph></note> notarii, quam ego notarius infrascriptus vidi et legi. Item
+          protestatus fuit et dixit quod paratus erat et volebat totum factum ponere in manibus
+          domini pape si parti placeret adverse et super hoc facere plenariam firmitatem. Pars
+          altera respondit quod nolebat<note place="foot" n="b" xml:id="DL_n_002">nolebat:
+              no<emph>corretto su precedente scrittura.</emph></note> concordiam nisi secundum
+          tenorem privilegii sui.</p>
+        <p xml:id="DL_p_002" n="2">Actum est in claustro <orgName
+            ref="#SanGimignano_S_Maria_Assunta">plebis <placeName ref="#San_Gimignano">Sancti
+              Geminiani</placeName></orgName>, coram <persName ref="#GuiciardusGuiciardi_not"
+            >Guiciardo <roleName>notario</roleName> quondam Guiciardi</persName> et
+            <roleName>magistro </roleName>
+          <persName ref="#Guilielmus_canonicus_Collensis">Guilielmo</persName>
+          <roleName>canonico</roleName>
+          <placeName ref="#Colle2">Collensi</placeName>, testibus ad hec vocatis.</p>
+        <p xml:id="DL_p_003" n="3">
+          <ptr target="DL_st_001"/>Ego <persName ref="#PalmeriusPellarii_notarius">Palmerius,
+            quondam Pellarii filius</persName>, <roleName>auctoritate imperiali notarius</roleName>,
+          predictis omnibus interfui et rogatus in publicum redegi. </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

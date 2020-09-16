@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLII_413">
+    <front xml:id="CCCCLII_front">
+
+      <titlePart type="numerazioneNuova">413</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLII</titlePart>
+
+      <docDate xml:id="CCCCLII_docDate">
+        <date when="1208-06-17">1208 giugno 17</date>, <placeName> san Venerio <emph>(<term
+              xml:lang="latin">in foro Sancti Venerii </term>)</emph></placeName>
+      </docDate>
+      <div type="regesto" xml:id="CCCCLII_regesto">
+        <p>I fratelli Vernacciolo e Rollando del fu Botomino di Vezano locano per quindici anni a
+          Cacciaguerra del fu Bucciaro della Cala la terra che possiedono ad Isola di Ameglia, che
+            hanno<term xml:lang="latin">pro indiviso </term>con Signorino di Vezzano. Il fitto
+          corrisponde alla metà del raccolto annuale. La concessione costa 24 soldi di Brescia.</p>
+      </div>
+      <div type="footer" xml:id="CCCCLII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [CP] c. 352v.-353r-, c. CCCXLIIIv.-CCCXLIIIIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref type="biblio" target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 452, p. 462.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel 1209 correva la XII indizione ed il 17 giugno era mercoledì e non giovedì. I
+            dati corrispondono per il 1208 (già in <ref type="biblio" target="#MAZZINI_1914">MAZZINI
+              1914</ref>, p. 30). </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <emph>IIIIc LII. Terre locate
+              ad laborandum Cacciaguerre.</emph></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCCLII_div">
+        <p xml:id="CCCCLII_p_001" n="1">In nomine Domini, amen. <date when="1209-06-17"> Anno a
+            nativitate Eius M°CCIX, indictione XI, die iovis, XVII mensis iunii.</date> Infrascripti
+          germani <persName ref="#VernaciolusBothomini">Vernaciolus</persName> et <persName
+            ref="#RolandusBothomini">Rollandus, filii quondam Bothomini de <placeName ref="#Vezzano"
+              >Vezano</placeName></persName>, dederunt et locaverunt ad medium reddendum annuatim,
+          usque ad XV <note n="a" place="foot" xml:id="CCCCLII_n_001">XV:<emph> corretto su
+              precedente scrittura.</emph></note> annos proximos expletos, <persName
+            ref="#CacciaguerraBucciari">Cacciaguerre, filio quondam Bucciari de <placeName
+              ref="#Cala">la Cala</placeName></persName>, recipienti pro se et suis heredibus,
+          videlicet totam eorum partem, que est medietas pro indiviso, de terra quam habent in
+            <placeName ref="#Isola">Ysola</placeName> de <placeName ref="#Ameglia"
+            >Amelia</placeName> sicut dividunt cum <persName ref="#SeniorinusVezano">Seniorino de
+            </persName><placeName ref="#Vezzano">Vezano</placeName>; et est posita ipsa terra in
+          loco ubi dicitur <placeName ref="#Ficareta">Ficareta</placeName>, cui toti terre coheret
+          ab uno latere <persName ref="#Gordianus">Gordiani</persName>, ab uno capite <persName
+            ref="#VitaSerra">Vite </persName>de <placeName ref="#Serra">la Serra</placeName>, ab
+          alio flumen <note n="b" place="foot" xml:id="CCCCLII_n_002">flumen:flu<emph>corretto su
+              precedente scrittura.</emph></note> Tali pacto quod de cetero, usque ad annos XV
+          proximos, iamscriptus <persName ref="#CacciaguerraBucciari">Cacciaguerra</persName> et sui
+          heredes iamscriptam terram in integrum, cum omni iure et actione et pertinencia sua,
+          habeant, teneant et fruantur <pb n="353r" xml:id="fol_353r"/> nomine medii reddendi, sine
+          omni contradictione iamscriptorum fratrum locatorum et eorum heredum et cum sua suorumque
+          heredem deffensione ab omni persona, ratione aut in consimili loco, prout tunc valuerit,
+          restaurare, si deffendere non possent, promiserunt, reddendo exinde iamscriptus <persName
+            ref="#CacciaguerraBucciari">Cacciaguerra </persName>et sui heredes iamscriptis fratribus
+          locatoribus et eorum heredibus sive cui commiserint omni anno, tempore recollecture,
+          medietatem de omnibus fructibus quos habuerint ex ea medietate iamdicte tote terre tantum;
+          alia superimposita eis non fiat. Et quicumque ex ipsis contrahentibus vel eorum heredum
+          contra hoc, quod superius legitur, venerit, tunc persolvat alteri parti, nomine pene,
+            <measure type="Imperiales" quantity="40" unit="solidus"> soldos XL
+          imperialium</measure>, rato manente pacto. Unde iamscripti locatores habuerunt a
+          iamscripto <persName ref="#CacciaguerraBucciari">Cacciaguerra</persName>, pro investitura
+          et confirmatione iamscripte locationis, <measure quantity="24" unit="solidus"> soldos
+            XXIIII Brexanum</measure>, precipiendo eidem <persName ref="#CacciaguerraBucciari"
+            >Cacciaguerre</persName> ut de iamscripta terra sua auctoritate dicto nomine in tenutam
+          intraret. </p>
+      </div>
+      <div xml:id="CCCCLII_div2">
+        <p xml:id="CCCCLII_p_002" n="2"> Actum in <placeName ref="#Antoniano_S_Venerio">foro Sancti
+            Venerii</placeName>, sollempni cum stipulatione, presentibus <persName ref="#AmicusVia"
+            >Amico </persName>de <placeName ref="#Via">la Via</placeName>, <persName
+            ref="#FolbusValerano">Folbus</persName>
+          <note n="c" place="foot" xml:id="CCCCLII_n_003">Folbus: <emph>così nel
+            testo.</emph></note> de <placeName ref="#Valerano">Valerano</placeName>, <persName
+            ref="#BernardusVia">Bernardo de <placeName ref="#Via">la Via</placeName></persName> et
+          aliis testibus ad hec rogatis. </p>
+        <p xml:id="CCCCLII_p_003" n="3">
+          <ptr target="#CCCCLII_st_001"/> Ego <persName ref="#Prefectusnot">Prefectus</persName>,
+            <roleName>domini imperatoris et Lunensis curie notarius</roleName>, hec rogatus scripsi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

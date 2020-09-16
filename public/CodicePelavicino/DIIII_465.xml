@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DIIII_465">
+    <front xml:id="DIIII_front">
+
+      <titlePart type="numerazioneNuova">465</titlePart>
+      <titlePart type="numerazioneOrig">DIIII</titlePart>
+
+      <docDate xml:id="DIIII_docDate">
+        <date when="1211-08-04">1221 agosto 4</date>, <placeName ref="#Sarzanello">Sarzanello (<term
+              xml:lang="latin">in castro Sarzane, ante ecclesiam Sancti
+          Martini</term>)</placeName>
+        <date when="1221-08-05">1221 agosto 5</date>, <placeName ref="#Pegazana">Paghezzana (<term
+              xml:lang="latin">ante ecclesiam Sancti Laurentii de
+          Pegazano</term>)</placeName>
+        <date when="1221-08-08">1221 agosto 8</date>, <placeName ref="#Pegazana">Paghezzana (<term
+              xml:lang="latin">in loco dicto Pegazano, ante ecclesiam Sancti
+            Laurentii</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="DIIII_regesto">
+        <p> Il vescovo di Luni Gualterio e i signori di Fosdinovo eleggono arbitri Gerardo del fu
+          Villano e Bastardo del fu Guglielmo Bianco per decidere sulle loro controversie
+          riguardanti il poggio e castello di San Terenzo e sull’abitato di Pulica. I due arbitri
+          decidono che il vescovo lasci libero il poggio di San Terenzo, che né lui né i suoi
+          successori possono incastellare senza il permesso dei signori di Fosdinovo, a patto che
+          costoro non molestino la chiesa di San Terenzo, il suo pastore e gli uomini dell’abitato
+          di San Terenzo; i signori non devono distruggere l’edificio che si trova su quel poggio,
+          ma è il vescovo che deve farlo fare al sacerdote di San Terenzo entro otto giorni; il
+          vescovo è libero di incastellare il poggio detto Lunio e porvi ad abitare gli uomini di
+          Pulica; se questi ultimi vorranno fortificare il loro abitato possano farlo, a patto che
+          il castello o le fortificazioni costruite non siano usate contro i signori di Fosdinovo.
+          Questi ultimi devono aiutare e difendere gli uomini di Pulica contro tutti eccetto che
+          contro il vescovo; lo stesso devono fare gli uomini di Pulica nei loro confronti. Gli
+          uomini di Pulica sono tenuti ad alcuni servizi di manutenzione delle mura del castello di
+          Fosdinovo e al pagamento di 12 staia di frumento l’anno, ma tutti gli altri servizi che
+          essi facevano per i signori di Fosdinovo sono annullati. I signori devono inoltre
+          restituire agli uomini di Pulica i campi posti nel luogo detto Arli, eccetto il prato che
+          tiene Guglielmo di Gaforio e che costui deve riconoscere al vescovo; costui deve però
+          sciogliere i signori di Fosdinovo dal giuramento che fecero su tali campi. </p>
+      </div>
+
+      <div type="footer" xml:id="DIIII_footer">
+        <div type="orig_doc">
+          <p>Copia [C] cc. 376r.-377r., cc. CCCLXVIIIr.-CCCLXVIIIIr. secondo la numerazione
+            originale. </p>
+        </div>
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 504,
+            pp. 533-536.</p>
+          <p>Bibliografia <ref target="#FORMENTINI_1950">FORMENTINI 1950</ref>; <ref
+              target="#ZOPPI_2003">ZOPPI 2003</ref>.</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DIIII.
+              Cumpromissi inter dominum episcopum, ex una parte, et dominos de Fosdenova, ex altera,
+              de podio et castro Sancti Terentii.</term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="DIIII_div">
+        <p xml:id="DIIII_p_001" n="1">
+          <ptr target="#DIIII_st_001"/>In nomine Domini, amen. <date when="1211-08-04">Anno a
+            nativitate Eius M°CCXI, indictione XIIII, die iovis, IIII mensis augusti</date>.
+            <roleName>Dominus <persName ref="#GualEpLuni">Walterius</persName>, Dei gratia Lunensis
+            Ecclesie episcopus</roleName>, pro se et episcopatu suo, ex una parte, et
+            <persName>Atto</persName> de <placeName ref="#Fosdinovo">Fosdenova</placeName>,
+            <persName ref="#BernardinusHerberia">Bernardinus de <placeName ref="#Erberia"
+              >Herberia</placeName></persName> et <persName ref="#GuilielmusGaforio">Guilielmus de
+            Gaforio</persName>, ex alia, de omni lite, discordia et controversia, que inter eos erat
+          de podio et castro <placeName ref="#SanTerenzo">Sancti Terencii</placeName>,
+          compromiserunt per laudum et arbitrium in <persName ref="#GerardusVillani">Gerardum
+            quondam Villani</persName> et <persName ref="#BastardusGuilielmiBlanci">Bastardum
+            quondam Guilielmi Blanci</persName>, promittentes inter se vicissim, sub pena <measure
+            quantity="100" unit="solidus">C marcharum argenti</measure>, sibi ad invicem
+          stipulatione sollempni promissa, perpetuo ratum habere et firmum tenere totum et quicquid
+          de predicta lite, discordia et controversia dicti arbitri concorditer dixerint,
+          laudaverint vel fuerint arbitrati. Actum in <placeName ref="#Sarzana">castro
+            Sarzane</placeName>, <orgName ref="#Sarzanello_S_Martino">ante ecclesiam Sancti
+            Martini</orgName>, sollempniter, presentibus <persName ref="#BonefaciusCastello"
+            >Bonifacio de <placeName ref="#Castello">Castello</placeName></persName>, <persName
+            ref="#AlduciusForcaria">Alducio de <placeName ref="#Forcaria"
+            >Forcaria</placeName></persName>, <persName ref="#UrsolusBur">Urçolo de <placeName
+              ref="#Burcione">Burçono</placeName></persName>, <persName ref="#BernazonusVezano"
+            >Bernaçone de <placeName ref="#Vezzano">Vezano</placeName></persName>, <persName
+            ref="#GualteroneCarraria">Gualterono de <placeName ref="#Carrara"
+            >Carraria</placeName></persName> et aliis multis testibus ad hec rogatis. </p>
+        <p xml:id="DIIII_p_002" n="2">
+          <date when="1211-08-05">Alia die sequenti</date>, ante <orgName
+            ref="#Paghezzana_S_Lorenzo">ecclesiam Sancti Laurentii de <placeName ref="#Pegazana"
+              >Pegazano</placeName></orgName>, coram <persName ref="#BonavitacastroSarz">Bonavita de
+              <placeName ref="#Sarzana">castro Sarzane</placeName></persName>, <persName
+            ref="#ArdoinusPrato">Ardoino de <placeName ref="#Prato">Prato</placeName></persName>,
+            <persName ref="#MartinusPorta">Martino de <placeName ref="#Porta">la
+            Porta</placeName></persName> et aliis pluribus testibus ad hec rogatis, dictus
+            <roleName>dominus <persName ref="#GualEpLuni">Walterius</persName>, Lunensis
+            episcopus</roleName>, pro se et episcopatu suo, <pb n="376v" xml:id="fol_376v"/> et
+          suprascripti domini de <placeName ref="#Fosdinovo">Fosdenova</placeName>, videlicet
+            <persName>Atto</persName>, <persName ref="#BernardinusHerberia">Bernardinus</persName>
+          et <persName ref="#GuilielmusGaforio">Guilielmus</persName> et <persName
+            ref="#GaforiusFaucenova">Gaforius</persName><note place="foot" n="a"
+            xml:id="DIIII_n_001">Atto, Bernardinus et Guilielmus et Gaforius: <emph>così nel testo,
+              mentre all’inizio del documento gli attori erano</emph> Atto, Bernardinus et
+            Guilielmus de Gaforio</note> cum eis, de facto ville de <placeName ref="#Pulica"
+            >Pulica</placeName> et de omnibus litibus et discordiis et controversiis, quas inde
+          habebant, in dictos arbitros compromiserunt ad dictam penam, promittentes inter se
+          vicissim, sub pena <measure quantity="100" unit="solidus">C marcharum argenti</measure>,
+          sibi ad invicem stipulatione sollempni promissa, perpetuo ratum habere et firmum tenere
+          totum et quicquid dicti arbitri concorditer de predicto facto et de predictis litibus,
+          discordiis et controversiis dixerint, laudaverint vel fuerint arbitrati. </p>
+        <p xml:id="DIIII_p_003" n="3"> Quas omnes iamscriptas lites, discordias et controversias nos
+            <persName ref="#GerardusVillani">Gerardus</persName> et <persName
+            ref="#BastardusGuilielmiBlanci">Bastardus</persName>, arbitri, per laudamentum et
+          arbitrium, sic ut inferius legitur, concorditer diffinimus, videlicet laudamus et
+          arbitramur ut dominus episcopus dictum podium <placeName ref="#SanTerenzo">Sancti
+            Terencii</placeName>
+          <orgName ref="#Bardina_S_Terenzo">ecclesie Sancti Terencii</orgName> liberum dimittat nec
+          de cetero ipse vel aliquis suus successor ipsum podium vel alium in confinibus et
+          pertinenciis <placeName ref="#SanTerenzo">Sancti Terencii</placeName> debeat incastellare
+          sine voluntate dominorum de <placeName ref="#Fosdinovo">Fosdenova</placeName>, salvo tamen
+          in omnibus et per omnia omni iure et ratione suprascripte <orgName
+            ref="#Bardina_S_Terenzo">ecclesie Sancti Terencii</orgName>, precipientes dominis de
+            <placeName ref="#Fosdinovo">Fosdenova</placeName> ut nullum malum faciant ipsi ecclesie
+          vel pastori ipsius vel hominibus ville <placeName ref="#SanTerenzo">Sancti
+            Terencii</placeName><note place="foot" n="b" xml:id="DIIII_n_002">ville Sancti Terencii:
+              <emph>nel testo</emph> Sancti Terencii ville <emph>con segno di richiamo per invertire
+              l’ordine delle parole.</emph></note> vel alicui eorum ob hoc quod voluerint ascendere
+          in dictum podium et quod non destruant vel faciant destrui illud hedificium, quod factum
+          est in ipso podio; immo petimus domino episcopo ut precipiat incontinenti pastori ipsius
+          ecclesie ut illud destruat de hinc ad VIII dies, sine fraude. Item laudamus et arbitramur
+          ut dicto domino episcopo eiusque successoribus sit licitum et liberum, quandocumque
+          voluerit, incastellare montem dictum <placeName ref="#Lunium">Lunium</placeName> et ponere
+          ibi ad habitandum homines de <placeName ref="#Pulica">Pulica</placeName>, sine
+          contradictione dominorum et castellanorum de <placeName ref="#Fosdinovo"
+            >Fosdenova</placeName>; et, si ipsi homines de <placeName ref="#Pulica"
+            >Pulica</placeName> voluerint in villa de <placeName ref="#Pulica">Pulica</placeName>
+          aliquas munitiones facere, sit eis licitum et liberum, sine contradictione dominorum et
+          castellanorum de <placeName ref="#Fosdinovo">Fosdenova</placeName> facere in villa ipsa,
+          ubi voluerint, cum voluntate domini episcopi, se coadunare omnes fortitudines et
+          munitiones quas voluerint, eo tamen salvo quod dominus episcopus, qui pro tempore fuerit,
+          non debeat dominos de <placeName ref="#Fosdinovo">Fosdenova</placeName> offendere de
+          castro ipso vel de villa ipsa. Item laudamus et arbitramur ut domini de <placeName
+            ref="#Fosdinovo">Fosdenova</placeName> debeant coadunare<note place="foot" n="c"
+            xml:id="DIIII_n_003">coadunare: <emph>così nel testo probabilmente per</emph>
+            coadiuvare.</note> et deffendere ad eorum posse ipsos homines de <placeName
+            ref="#Pulica">Pulica</placeName>, et in castro et in villa, contra omnes homines et
+          personas, excepto contra dominum Lunensem episcopum, qui pro tempore fuerit, et eius
+          nuncios; et ipsi de <placeName ref="#Pulica">Pulica</placeName> debeant coadunare c ipsos
+          de <placeName ref="#Fosdinovo">Fosdenova</placeName> contra omnes homines et personas,
+          excepto contra dominum Lunensem episcopum, qui pro tempore fuerit, et eius nuncios. Item
+          laudamus et arbitramur ut ipsi homines de <placeName ref="#Pulica">Pulica</placeName>
+          debeant facere ad castrum de <placeName ref="#Fosdinovo">Fosdenova</placeName> et ad eius
+          castri munitionem, ad voluntatem potestatis de <placeName ref="#Fosdinovo"
+            >Fosdenova</placeName>, murum I de duobus pontibus, tantum murum per longum videlicet
+          quantum fuerimus arbitrati, et quando alii muraverint ibi, ipsi de <placeName
+            ref="#Pulica">Pulica</placeName> ipsum murum, quem fecerint, debeant in altum murare
+          tantum quantum alii, qui alium murum ad ipsum castrum muraverint, in altum levaverint, et
+          ipsum murum videlicet, quem fecerint, debeant manutenere et rehedificare, si ruerit, et
+          debeant communiter omni anno, in mense augusti, dare et solvere dominis de <placeName
+            ref="#Fosdinovo">Fosdenova</placeName> communiter staria XII frumenti boni, mundi et
+          sicci, ad starium nunc currens. Ab omnibus vero aliis factionibus et serviciis, quas et
+          que faciebant castro de <placeName ref="#Fosdinovo">Fosdenova</placeName> et dominis de
+            <placeName ref="#Fosdinovo">Fosdenova</placeName>, ipsos homines de <placeName
+            ref="#Pulica">Pulica</placeName> absolvimus per laudamentum, precipientes dominis de
+            <placeName ref="#Fosdinovo">Fosdenova</placeName> quod nichil preter quam dictum
+          frumentum et certos eorum redditus, si quos ibi habent, de cetero eis non tollant nec
+          tolli faciant. Item laudamus et arbitramur ut domini de <placeName ref="#Fosdinovo"
+            >Fosdenova</placeName> campos hominum de <placeName ref="#Pulica">Pulica</placeName>
+          sitos in loco dicto<placeName>Arli</placeName>, excepto prato quod ibi habet <persName
+            ref="#GuilielmusGaforio">Guilielmus</persName> de Gaforio, quod volumus ut ipse
+            <persName ref="#GuilielmusGaforio">Guilielmus</persName> eiusque heredes a domino
+          episcopo recognoscant, eisdem hominibus de <placeName ref="#Pulica">Pulica</placeName> in
+          integrum restituant et deffendant: quod pratum et campi non possint de cetero
+            exemplari<note place="foot" n="d" xml:id="DIIII_n_004">exemplari: <emph>così nel testo,
+              forse per</emph> explanari</note> nec protendi ultra terminos quos nos arbitri ponemus
+          vel faciemus poni. Item laudamus ut dominus episcopus absolvat castellanos de <placeName
+            ref="#Fosdinovo">Fosdenova</placeName> a sacramento quod fecerant pro ipsis campis. Que
+          omnia suprascripta, sicut superius leguntur, precipimus utrique parti, sub pena centum
+          marcharum argenti, sibi ad invicem stipulatione sollempni promissa, firmiter in omnibus et
+          per omnia perpetuo observari.<pb n="377r" xml:id="fol_377r"/></p>
+        <p xml:id="DIIII_p_004" n="4">Datum et lectum in loco dicto <placeName ref="#Pegazana"
+            >Pegazano</placeName>, ante <orgName ref="#Paghezzana_S_Lorenzo">ecclesiam Sancti
+            Laurentii</orgName>, sollempniter, presentibus <persName ref="#BolgarinusSarzana"
+            >Bolgarino de <placeName ref="#Sarzana">Sarzana</placeName></persName>, <persName
+            ref="#Mançetuscast">Manzeto <roleName>castaldo</roleName></persName>, <persName
+            ref="#AttolinusBandini">Attolino quondam Bandini</persName> et aliis pluribus testibus.
+            <date when="1211-08-08">Anno a nativitate Domini M°CCXI, indictione XIIII, die lune,
+            VIII mensis augusti</date>. Unde due carte uno tenore sunt. </p>
+        <p xml:id="DIIII_p_005" n="5">
+          <ptr target="#DIIII_st_002"/>Ego <persName ref="#Ugolinusnot">Ugolinus</persName>,
+            <roleName>sacri palacii et Lunensis curie notarius</roleName>, hiis interfui et rogatus
+          scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

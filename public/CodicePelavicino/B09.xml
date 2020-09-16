@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="B09">
+        <front xml:id="B09_front">
+
+            <titlePart type="numerazioneNuova">9</titlePart>
+            <titlePart type="numerazioneOrig"/>
+
+            <docDate xml:id="B09_docDate">
+                <date when="1222-01-28">1222 gennaio 28</date>, Sarzana (<term xml:lang="">Sarzane,
+                    in sacristia Lunensis capituli</term>) </docDate>
+
+            <div type="regesto" xml:id="B09_regesto">
+                <p>Il vescovo di Luni Norandino, volendo sistemare le controversie esistenti col
+                    capitolo lunense in merito all’elezione dei canonici e di altre dignità
+                    ecclesiastiche, stabilisce che si debba osservare quanto a suo tempo stabilito
+                    dal vescovo di Luni Gualtiero, ossia che se mancano tre o più prebende il
+                    vescovo può scegliere un solo canonico. Per quanto riguarda le altre cariche il
+                    vescovo può avere voce solo tramite un canonico che lo rappresenti, con la sola
+                    eccezione dell’elezione dell’arcidiacono, da concordarsi con il capitolo.</p>
+            </div>
+            <div type="footer" xml:id="B09_footer">
+                <div type="orig_doc">
+                    <p>Copia [C] c. 35r., c. XXVIIr. secondo la numerazione originale </p>
+                </div>
+                <div type="biblio">
+                    <p>Edizioni: <ref type="biblio" target="#PODESTÀ_1894">PODESTÀ 1894</ref>, p.
+                        73</p>
+
+                </div>
+                <div type="crit_notes">
+                    <p>Nel margine interno, di mano moderna, è disegnata una manicula con la scritta
+                        nota. </p>
+                </div>
+                <div type="appr"> </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="B09_div">
+                <p xml:id="B09_p_001">In nomine Domini, amen. <date when="1222-01-28">Anno a
+                        nativitate Eius M°CC°XXII°, inditione X, die veneris, V kalendas
+                        februarii</date>. <roleName>Venerabilis pater dominus</roleName>
+                    <persName ref="#NorandEpLuni">Norradinus, <roleName>Lunensis
+                            episcopus</roleName></persName>, volentes intendere ad refacetionem<note
+                        n="a" place="foot" xml:id="B09_n_001">refacetionem: <emph>così nel testo per
+                            refectionem</emph>.</note> Lunensis ecclesie et ad determinandum omnes
+                    questiones vertentes inter ipsum Lunensem episcopum et Lunense capitulum tam
+                    super electionibus canonicorum quam dignitatum Lunensis ecclesie, statuit et
+                    ordinavit, pro se suisque successoribus una cum Lunensi capitulo pro se ipsis et
+                    eorum successoribus, quod determinatio que olim facta fuit inter
+                        <roleName>dominum episcopum</roleName>
+                    <persName ref="#GualEpLuni">Gualterium</persName>, olim <roleName>Lunensem
+                        episcopum</roleName>, de qua constat publico instrumento facto per Confortum
+                    notarium, videlicet quandocumque vacabant<note n="b" place="foot"
+                        xml:id="B09_n_002">vacabant: <emph>così nel testo</emph>.</note> tres
+                    prebende vel plures in ecclesia Lunensi, quod tres canonici sint eligendi, quod
+                    electio unius debeat esse domini episcopi, debeat integraliter observari,
+                    scilicet quod nec ipse dictus dominus episcopus nec sui successores habeant
+                    vocem super aliqua electione canonicorum Lunensis ecclesie, nisi quando tres vel
+                    plures canonici tantum fuerint eligendi et tunc dictus dominus episcopus et sui
+                    successores I eligant ad suam voluntatem; et quod super electionibus dignatatum,
+                    considerata consuetudine Lunensis ecclesie longe vero observata, quod ipse
+                    dominus episcopus et sui successores habeant I vocem tantum in qualibet
+                    dignitatis electione sicut I <expan>can<ex>onicum</ex></expan>, quam committere
+                    debeant uni ex canonicis si voluerint habere vocem, alioquin nullam vocem
+                    habeant si vellent personaliter interesse, excepto quam super electione
+                    dignitatis <expan>archidiac<ex>onatus</ex></expan>, quam comuniter conferant cum
+                    capitulo, quibus electionibus ante factis per capitulum confirmentur et per
+                    maiorem de capitulo in corporalem possessionem inducantur nomine capituli. Que
+                    omnia et singula suprascripta ipse dominus episcopus et dictum Lunense
+                    capitulum, facta inquisitione diligenti, audierunt et intellexerunt observata
+                    fuisse ab antiquo in ecclesia Lunensi longissimo tempore et observari debere. Et
+                    hec omnia suprascripta ipse dominus episcopus et dictum capitulum, per se ipsos
+                    et eorum successores, sibi ad invicem promiserunt et firma et rata habere et
+                    tenere per sollempnem stipulationem sub pena <measure type="argentum"
+                        quantity="40" unit="marca" ana="#pena">XL marcharum argenti</measure>, qua
+                    soluta vel non predicta omnia nichillominus firma durent perpetuo. </p>
+                <p xml:id="B09_p_002">Actum <placeName ref="#Sarzana">Sarzane</placeName>, in
+                        sacrist<supplied reason="omitted">i</supplied>a Lunensis capituli,
+                    presentibus <roleName>presbiteris</roleName>
+                    <persName ref="#Rusticuspres">Rustigo</persName> et <persName
+                        ref="#Albertuspres">Alberto</persName> et <persName
+                        ref="#Guilielmus_sacrista">Guilielmo
+                        <roleName>sacrista</roleName></persName>, testibus ad hec rogatis.</p>
+                <p xml:id="B09_p_003"><persName ref="#Ugolinusnot">Ego Ugolinus, <roleName>sacri palatii et Lunensis curie
+                    notarius</roleName></persName>, hiis interfui et rogatus scripsi. </p>
+
+            </div>
+        </body>
+    </text>
+</TEI>

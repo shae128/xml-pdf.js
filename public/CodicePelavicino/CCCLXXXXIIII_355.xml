@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="CCCLXXXXIIII_355">
+    <front xml:id="CCCLXXXXIIII_front">
+      <titlePart type="numerazioneNuova">355</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXXXXIIII</titlePart>
+
+      <docDate xml:id="CCCLXXXXIIII_docDate">
+        <date when="1219-10-20"> 1219 ottobre 20</date>, <placeName>Sarzanello (<emph>in castro
+            Sarzane, in ecclesia Sancti Iuliani</emph>)</placeName>
+      </docDate>
+      <div type="regesto" xml:id="CCCLXXXXIIII_regesto">
+        <p>Marzucco vescovo di Luni, loca due pezzi di terra nel luogo detto <placeName ref="#Pozzo"
+            >Pozzo</placeName> a <persName ref="#MarchesellusRusticelli">Marchesello del fu
+            Rustichello de Utilia</persName>. </p>
+      </div>
+      <div type="footer" xml:id="CCCLXXXXIIII_footer">
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 321r., c. CCCXIIIr. secondo la numerazione originale </p>
+        </div>
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref> , n. 394,
+            p. 373. Lupo Gentile indica la data 1219 ottobre 21, che <ref target="#UBALDO_MAZZINI"
+              >Ubaldo Mazzini</ref> sulla base del fatto che nel 1219 <emph>il XII kalendas
+              novembris</emph> non cadeva di domenica corregge a <emph>XIII kalendas
+              novembris</emph>, cioè ottobre 20.</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXXXXIIII. De IIbus petiis terre locate Marchesello ad quartum.</term></p>
+        </div>
+
+      </div>
+
+    </front>
+    <body>
+      <pb n="321r" xml:id="fol_321r"/>
+      <div xml:id="CCCLXXXXIIII_div">
+        <p xml:id="CCCLXXXXIIII_p_001"> In nomine Domini, amen. <date when="1229-10-21">Anno a
+            nativitate Dei M°CCXIX, indictione VII, die dominico, XII<add place="inline">I</add>
+            kalendas novembris</date>, presentibus testibus infrascriptis.
+            <roleName>Dominus</roleName>
+          <persName ref="#MarzuccusEpLuni">Marçucus, Dei gratia <roleName>Lunensis
+              episcopus</roleName></persName>, per se et suos successores locavit et dedit nomine
+          quarti reddendi annuatim de omnibus fructibus, id est de uno<note
+            xml:id="CCCLXXXXIIII_n_001" n="a" place="foot">uno : <emph>così nel testo, probabilmente
+              per</emph> vino</note>, <persName ref="#MarchesellusRusticelli">Marchesello quondam
+            Rusticelli de <placeName ref="#Utila">Utilia</placeName></persName>, recipienti pro se
+          et filiastris suis, filiis quondam <persName ref="#MesserotusSerra">Messeroti de
+              <placeName ref="#Serra">la Serra</placeName></persName>, et pro suis illorumque
+          heredibus, ita ut quicumque ex ipsis sine herede deficeret alteri eorum superviventes in
+          hoc totum succedant,scilicet portionem deffuncti, scilicet duas petias terre, cum vineis
+          et omnibus superpositis suis, que sunt in loco ubi dicitur <placeName ref="#Pozzo"
+            >Pozzo</placeName>; coheret eis inferius via publica, superius cesa mediante inter ipsas
+          vineas et vineas illorum de <placeName ref="#Portesone">Portexone</placeName>
+          <note xml:id="CCCLXXXXIIII_n_002" n="b" place="foot"> Portexone: <term xml:lang="lat"
+              >or</term>
+            <emph>aggiunto in sopralinea, con segno di richiamo</emph>.</note>, ab uno capite
+          filiorum quondam <persName ref="#Marinellus">Marinelli</persName>, ab alio latere filiorum
+          quondam <persName ref="#Bullione">Bullionis</persName>, ab alio latere curie, sicut est
+          designatum. Ita quod de cetero perpetue iamscripti acquisitores et illorum heredes
+          iamscriptas vineas in integrum, cum omni iure et actione et pertinencia sua, habeant,
+          teneant et fruantur ad quartum reddendum de omnibus fructibus iamscriptarum vinearum
+          omniumque superimpositarum suarum <note xml:id="CCCLXXXXIIII_n_003" n="c" place="foot"
+              ><term xml:lang="lat">suarum</term>: <emph>su corretto su precedente
+            scrittura</emph></note>, sine aliqua contradictione iamscripti domini episcopi et suorum
+          successorum et cum sua suorum <add place="inline">que</add> successorum deffensione ab
+          omni persona, ratione, aut in consimili loco, prout tunc valuerit, sub arbitrio bonorum
+            <add place="inline">hominum</add> restaurare, si deffendere non posset, reddendo et
+          solvendo exinde iamscripti acquisitores et eorum heredes iamscripte curie de <placeName
+            ref="#Ameglia">Amelia</placeName> domini episcopi omni anno, tempore recollecture
+          scilicet tempore vindemiarum, quartum vini et omnium fructuum ipsarum vinearum tantum;
+          alia superimposita inter eos inde non fiat. Et constituerunt inter se ut quicumque ex
+          ipsis vel illorum heredibus vel successoribus contra hoc quod superius legitur venerit,
+          tunc persolvat alteri parti, nomine pene, <measure type="Imperiales" unit="solidus"
+            quantity="40">soldos XL imperialium</measure>, rato manente pacto. </p>
+
+        <p xml:id="CCCLXXXXIIII_p_002"> Actum in <placeName ref="#Sarzanello">castro
+            Sarzane</placeName>, in <orgName>ecclesia Sancti Iuliani</orgName>, sollempniter, cum
+          stipulatione, presentibus <persName ref="#BastardusGuilielmiBlanci">quondam Guilielmi
+            Blanci</persName>, <persName ref="#MançetuscastSarz">Manzeto <roleName>castaldo curie de
+                <placeName ref="#Sarzana">Sarzana</placeName></roleName></persName>, testibus ad hec
+          rogatis. </p>
+
+        <p xml:id="CCCLXXXXIIII_p_003">
+          <ptr target="#CCCLXXXXIIII_st_001"/> Ego <persName ref="#Prefectusnot">Prefectus,
+              <roleName>domini imperatoris<note xml:id="CCCLXXXXIIII_n_004" n="d" place="foot"><term
+                  xml:lang="lat">imperatoris</term>: <emph>corretto su precedente
+                scrittura</emph>.</note> et Lunensis curie notarius</roleName></persName>, hec
+          rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

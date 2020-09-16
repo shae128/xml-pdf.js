@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXVbis_427">
+    <front xml:id="CCCCLXVbis_front">
+
+      <titlePart type="numerazioneNuova">427</titlePart>
+      <titlePart type="numerazioneOrig"/>
+
+      <docDate xml:id="CCCCLXVbis_docDate">
+        <date when="1253-03-18">1253 marzo &lt;18&gt;</date> o <date when="1253-03-25"
+          >&lt;25&gt;</date>, <placeName>Cobia (<term xml:lang="latin">ad Cobiam, in via publica,
+            iuxta domum heredum Portarii</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXVbis_regesto">
+        <p>Guidetto del fu Benvenuto di Vezzano, castaldo del vescovo di Luni Guglielmo, ordina ad
+          alcuni uomini di giurare fedeltà al vescovo. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXVbis_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 358v., c. CCCXLVIIIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 466,
+            pp. 473-474, con la data marzo 24. Come notato già <ref target="#MAZZINI_2014">MAZZINI
+              2014</ref>, p. 31 (che però propone il 19 o il 25 marzo) l’uso di
+              <emph>intrante</emph> per la parte finale del mese è anomala; il 24 di marzo era
+            tuttavia un lunedì; si ritiene quindi possibili sia il 18, sia il 25 marzo. </p>
+        </div>
+        <div type="crit_notes">
+          <note> Il documento è privo di numerazione a margine. </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXVI. Denuntiationis castaldis de Veçano.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCLXVbis_div">
+        <p xml:id="CCCCLXVbis_p_001" n="1"> In nomine Domini, amen. <date when="1253-03-24">Anno a
+            nativitate Eius MCCLIII, indictione XI, die martis, XXIIII intrante marcio</date>.
+            <persName ref="#GuidetusBenvenuti">Guidetus quondam Benvenuti de <placeName
+              ref="#Vezzano">Vezano</placeName>, <roleName>castaldus seu procurator</roleName>
+          </persName> domini <persName ref="#GuilEpLuni">Guilielmi, <roleName>Dei gratia Lunensis
+              episcopi</roleName>, </persName> ut dixit, appellavit, denunciavit atque inquisivit
+            <persName ref="#AldevrandinusBenadi">Aldevrandinum quondam Benadi de <placeName
+              ref="#Cobia">Cobia</placeName></persName>, <persName ref="#TodescusPortarii"
+            >Todescum</persName>, <persName ref="#ProtisPortarii">Protem</persName><note
+            place="foot" n="a" xml:id="CCCCLXVbis_n_001">Protem: <emph>lettura incerta a causa
+              dell’inchiostro sbiadito</emph></note> et <persName ref="#AndriolusPortarii"
+            >Andriolum, fratres et filios quondam Portarii</persName>
+          <supplied reason="omitted">de</supplied> eodem loco, <persName ref="#PasqualeMainerii"
+            >Pasqualem</persName> et <persName ref="#AldebertusMainerii">Aldebertum filios et
+            heredes quondam Manerii </persName>
+          <supplied reason="omitted">de</supplied> eodem loco, ut, nomine et vice ipsius domini
+            <persName ref="#GuilEpLuni">Guilielmi <roleName>episcopi</roleName></persName>, faciant
+          et ipsi iurent sibi fidelitatem contra omnes homines et personas, denunciando ut tenentur
+          facere seu iurare sub pena et in pena fidelitatis seu feudi auferenda a die ad dominicam
+          proxime venientem. </p>
+        <p xml:id="CCCCLXVbis_p_002" n="2"> Actum ad <placeName ref="#Cobia">Cobiam</placeName>, in
+          via publica, iuxta domum heredum <persName ref="#PortariusCobia">Portarii</persName>
+          suprascripti, presentibus <persName ref="#SegnorinusTunsi">Segnorino Tunsi de <placeName
+              ref="#Sera">la Sera</placeName>
+          </persName> et <persName ref="#GuillieçonusUbaldini">Guillieçono quondam
+            Ubaldini</persName>
+          <supplied reason="omitted">de</supplied> eodem loco et <persName ref="#BenesiaBoveromo"
+            >Benesia de <placeName ref="#Boveromo">Boverono</placeName></persName>, ad hec testibus
+          rogatis. </p>
+        <p xml:id="CCCCLXVbis_p_003" n="3"> Ego <persName ref="#Guarnellusnot">Guarnellus,
+              <roleName>sacri imperii notarius</roleName>, </persName> hanc cartam rogatus scripsi.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

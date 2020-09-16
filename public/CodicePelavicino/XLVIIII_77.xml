@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="\schema\tei_cp.rng" type="application\xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="XLVIIII_77">
+        <front xml:id="XLVIIII_front">
+
+            <titlePart type="numerazioneNuova">77</titlePart>
+            <titlePart type="numerazioneOrig">XLVIIII</titlePart>
+
+            <docDate xml:id="XLVIIII_docDate">
+                <date when="1196-12-05">1196 dicembre 5</date>, <placeName>Sarzana</placeName>
+                    (<term xml:lang="latin">Sarzani, in canonica Sancti Basilii</term>) </docDate>
+
+            <div type="regesto" xml:id="XLVIIII_regesto">
+                <p>Villano di Sarzana del fu Guido vende al vescovo di Luni Gualtiero la saltaria di
+                    Quarantola e Accigliano per la somma di 12 lire d’imperiali. </p>
+            </div>
+
+            <div type="footer" xml:id="XLVIIII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 139r.-139v., cc. CXXXIr.-CXXXIv. secondo la numerazione
+                        originale.</p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 49, p. 72, con la data 1190.</p>
+                </div>
+
+                <div type="crit_notes">
+                    <note>
+                        <p> La data riportata dal copista all’inizio del documento è errata:
+                            nell’anno 1190 era vescovo Rollando e non Gualtiero, come indicato nel
+                            testo, l’indizione era la IX e non la XV, mentre il giorno 5 dicembre
+                            era mercoledì e non giovedì. È probabile che il copista abbia
+                            dimenticato nella trascrizione la parola <term xml:lang="latin"
+                                >sexto</term>: nel 1196, infatti, l’indizione era la
+                            quattordicesima, il 5 dicembre cadeva di giovedì ed era vescovo
+                            Gualtiero. Cfr. in proposito <ref target="#MAZZINI_1914">MAZZINI
+                                1914</ref>, p. 10. </p>
+                        <p> Nel margine esterno di c. 139r., di mano moderna: <term xml:lang="latin"
+                                >Quedam venditio</term>. Di altra mano: <term xml:lang="latin">facta
+                                episcopo a quodam de Sarzana</term>
+                        </p>
+                    </note>
+                </div>
+
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">XLVIIII. De saltaria villani.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="XLVIIII_div">
+                <p xml:id="XLVIIII_p_001" n="1">
+                    <ptr target="XLVIIII_st_001"/> In Christi nomine, amen. <date when="1196-12-05"
+                        >Anno a nativitate Eius millesimo centesimo nonagesimo <supplied
+                            reason="omitted">sexto</supplied>, indictione XV, die iovis, quinto
+                        intrante mense decembri</date>, presentibus testibus infrascriptis.
+                        <persName ref="#VillanusGuidonis">Villanus de <placeName ref="#Sarzana"
+                            >Sarzana</placeName> qondam Guidonis </persName> vendidit, dedit ac
+                    tradidit et cum investitura firmavit <persName ref="#GualEpLuni"
+                            ><roleName>domino</roleName> Gualtero, <roleName>Dei gratia Lunensis
+                            ecclesie episcopo</roleName></persName>, recipienti pro se et suis
+                    successoribus, id est salteriam tocius eius terre de <placeName
+                        ref="#Quarantula">Quarantula</placeName> et de <placeName ref="#Aciliano"
+                        >Acciliano</placeName> et de aliis eius terris, ut designatur seu decernitur
+                    infra has coherentias, videlicet a foveis<note place="foot" n="a"
+                        xml:id="XLVIIII_n_001">foveis: v <emph>corretto su precedente
+                            scrittura</emph>.</note> prati de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> eundo versus foveas medianas de <placeName
+                        ref="#Aciliano">Accili<supplied reason="omitted">a</supplied>no</placeName>,
+                    descendendo per ipsas foveas usque in flumine <placeName ref="#Magra"
+                        >Macra</placeName> et a flumine illo ascendendo usque ad <placeName
+                        ref="#fontanaRomana">fontanam Romana</placeName> et ascendendo usque ad
+                        <placeName ref="#Romea_st">stratam Romeam</placeName> et eundo per stratam
+                    versus dictam <placeName ref="#Sarzana">Sarzanam</placeName> usque ad rivum de
+                        <placeName ref="#Nave">Nava</placeName> atque ab ipso rivo eundo usque ad
+                    dictas foveas prati, ita quod suprascriptus dominus episcopus suique successores
+                    de cetero imperpetuum suprascriptam totam salteriam in integrum tocius terre
+                    dicti <persName ref="#VillanusGuidonis">Villani</persName> , ut dictum est, tam
+                    de hiis terris, quas habet apud se vel tenet in suum donicum, quam de illis
+                    totis, que retinentur seu aliquo ingenio, aliquo tempore, per ipsum <persName
+                        ref="#VillanusGuidonis">Villanum</persName> vel per suam domum infra dictas
+                    coherentias retente fuerint, habeant et <pb n="139v" xml:id="fol_139v"/> teneant
+                    et recolligant et faciant exinde quicquid voluerint nomine curie proprietario
+                    iure, sine omni suprascripti <persName ref="#VillanusGuidonis"
+                        >Villani</persName> eiusque heredum contradictione. Pro hac vero proprietate
+                    et venditione confessus fuit dictus <persName ref="#VillanusGuidonis"
+                        >Villanus</persName> se recepisse, finito precio, a prenominato domino
+                    episcopo <measure type="Imperiales" quantity="12" unit="solidus">bonorum
+                        imperialium libras XII</measure> et quicquid plus valeret dedit ei pro dono
+                    et abrenunciavit exceptioni non numerate pecunie. Unde suprascriptus <persName
+                        ref="#VillanusGuidonis">Villanus</persName> per sollempnem stipulationem
+                    promisit, per se atque suos heredes, suprascripto domino episcopo suisque
+                    successoribus iam dictam venditionem et proprietatem in integrum, omni tempore,
+                    ab omni contradicente persona rationabiliter deffendere et exbrigare ab omni
+                    briga et molestatione; quod, si deffendere non poterit vel aliquo ingenio
+                    subtrahere voluerit, tunc promisit ei restaurare in duplum prout tunc valuerit,
+                    sub arbitrio bonorum hominum. </p>
+                <p xml:id="XLVIIII_p_002" n="2"> Actum est hoc <placeName ref="#Sarzana"
+                        >Sarzani</placeName>, in <orgName ref="#S_Basilio_Sarzana">canonica Sancti
+                        Basilii</orgName>, feliciter, sub stipulatione subnixa. Ibi fuerunt rogati
+                    et vocati testes <persName ref="#Philippus_canonicus"> Philippus,
+                            <roleName>canonicus Lunensis ecclesie</roleName></persName>, <persName
+                        ref="#Aldeprandusvic1">Aldeprandus
+                        <roleName>vicedominus</roleName></persName>, <persName ref="#BusdroHenrici"
+                        >Busdro quondam Henrici de <placeName ref="#Burcione"
+                        >Burcione</placeName></persName>, <persName ref="#GuerinusSarzane">Guerinus
+                        de <placeName ref="#Sarzana">Sarzana</placeName></persName>, <persName
+                        ref="#Burgarinus">Burgarinus</persName>, <persName ref="#Bonencontrus"
+                        >Bonencontrus</persName>, <persName ref="#Mançetuscast">Manzettus
+                            <roleName>castaldus</roleName> de <placeName ref="#Ameglia"> Amelia<note
+                                place="foot" n="b" xml:id="XLVIIII_n_002">Amelia: <emph>segue uno
+                                    spazio bianco di mm 20, dove compaiono quattro puntini a uguale
+                                    distanza l’uno dall’altro</emph>.</note></placeName></persName>
+                </p>
+                <p xml:id="XLVIIII_p_003" n="3">
+                    <c>§</c> Ego <persName ref="#Prefectusnot">Prefectus, <roleName>notarius domini
+                            Henrici, imperatoris invictissimi</roleName></persName>, rogatus, hanc
+                    cartam venditionis et proprietatis scripsi et dedi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

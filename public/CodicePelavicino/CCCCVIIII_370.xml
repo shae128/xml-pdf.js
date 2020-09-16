@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="CCCCVIIII_370">
+		<front xml:id="CCCCVIIII_front">
+
+			<titlePart type="numerazioneNuova">370</titlePart>
+			<titlePart type="numerazioneOrig">CCCCVIIII</titlePart>
+
+			<docDate xml:id="CCCCVIIII_docDate">
+				<date when="1075-09-03">1075 settembre 3</date>, <placeName>Sarzanello (<emph>castro
+						Sarzana</emph>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="CCCCVIIII_regesto">
+				<p>Caro Vassallo chiede al vescovo di Luni Guido che gli sia concesso quanto era
+					stato affidato prima a Porcolo di Ameglia nella curia di Bolano e che fu anche
+					di Gerardo figlio di Aimone di Bolano. Caro è tenuto a risiedere nella tenuta, a
+					migliorarla e a pagare un fitto annuo di 6 denari.</p>
+			</div>
+
+			<div type="footer" xml:id="CCCCVIIII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] c. 329r., c. CCCXXIr. secondo la numerazione originale</p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+						1912</ref>, n. 409, p. 398 con data 1076.</p>
+				</div>
+
+				<div type="crit_notes">
+					<note> Il documento è datato secondo lo stile pisano.</note>
+				</div>
+
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">CCCCVIIII. Carta quam fecit Guido episcopus
+							Carovasallus de podere quod tenuit Parcolus in curte Bolani. </term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="CCCCVIIII_div">
+				<p xml:id="CCCCVIIII_p_001"><ptr target="#CCCCVIIII_st_001"/> In nomine Domini
+					nostri Ihesu Christi. <date when="1075-09-03">Anno ab incarnatione Eius
+						M°LXXVI°, III nonas septembris, indictione XIII.</date> Peto ego <persName
+						ref="#CarusVassallus">Carus Vassallus</persName>, una cum meis heredibus, a
+					vobis, domino <persName ref="#GuidoEpLuni2">Guidone <roleName>episcopo,
+							episcopio Sancte Lunensis Ecclesie</roleName></persName> et a vestris
+					successoribus uti mihi, qui supra petitori <persName ref="#CarusVassallus"
+						>Caro</persName>, iubeatis, hoc est quartum<note xml:id="CCCCVIIII_n_001"
+						n="a" place="foot">
+						<term xml:lang="latin">quartum</term>:<emph>così nel testo per</emph>
+						quantum.</note> iam antea <persName ref="#PorcolusAmelia">Porcolus de
+							<placeName ref="#Ameglia">Amelia</placeName></persName> tenuit in curte
+					de <placeName ref="#Bolano">Bolano</placeName>, hoc idem fuit <persName
+						ref="#GerardusAimonis">Gerardi, filii Aimonis de <placeName ref="#Bolano"
+							>Bolano</placeName></persName>, quod supra dixi peto a vobis, cum casis,
+					ortis, terris, vineis, silvis aliisque arboribus, campis, pratis, pascuis,
+					salectis, aminiculotris<note xml:id="CCCCVIIII_n_002" n="b" place="foot">
+						<term xml:lang="latin">aminiculotris</term>:<emph>così nel testo forse per
+							</emph>aminiculis<emph>, la prima parte della parola è corretta su
+							precedente scrittura.</emph>
+					</note>, culto et vacuo, tam in monte quam in plano, et cum omnibus super
+					habentibus. Peto ego qui supra <persName ref="#CarusVassallus">Carus
+						Vassallus</persName>, una cum meis heredibus, a vobis, iamscripto domino
+						<persName ref="#GuidoEpLuni2">Guidone</persName> episcopo, et a vestris
+					successoribus in integrum et per nos meliorentur, nam non peiorentur, et privato
+					nomine usufructuandi, et noster missus super ipsam terram resedere debeat ad
+					habitandum; et ad mandatum vestrum veniamus de ipsis rebus ad legem faciendam,
+					si oportunum fuerit. Et exinde persolvamus vobis, domino <persName
+						ref="#GuidoEpLuni2">Guidoni</persName> episcopo, et vestro successori
+						vel<note xml:id="CCCCVIIII_n_003" n="c" place="foot">
+						<term xml:lang="latin">vel</term>:<emph>corretto su precedente
+							scrittura.</emph></note> vestro misso, per omnes annos, infra octavam
+					nativitatis Domini, fictam pensionem <measure unit="denarius" quantity="06"
+						>denarios VI</measure>; tunc alia superimposita non fiat. Penam vero ambe
+					partes inter se posuerunt, ut<note xml:id="CCCCVIIII_n_004" n="d" place="foot">
+						<term xml:lang="latin">ut</term>:<emph>corretto su precedente
+							scrittura.</emph></note> quis ex ipsis aut illorum heredibus vel
+					successoribus non compleverit hec omnia, qualiter superius leguntur, vel si
+					tollere aut laxare voluerit, ut componat pars parti fidem servanti penam
+						<measure unit="solidus" quantity="20">argenti soldorum XX</measure>; et,
+					post penam solutam, iste libellus in sua permaneat firmitate.</p>
+				<p xml:id="CCCCVIIII_p_002">Actum <placeName ref="#Sarzanello">castro
+						Sarzana</placeName>, feliciter.</p>
+				<p xml:id="CCCCVIIII_p_003">Signum # manus iamscripti <persName
+						ref="#CarusVassallus">Cari Vassalli</persName>, petitoris, qui hunc libellum
+					fieri rogavit. Signa # # # # manu<supplied reason="omitted">u</supplied>m
+						<persName ref="#Guilielmus">Guilielmi</persName> et <persName
+						ref="#Grimolus">Grimoli</persName> et <persName ref="#Azo">Azonis</persName>
+					et <persName ref="#Bellonus">Belloni</persName> atque <persName ref="#Opeçus"
+						>Opizonis</persName>, omnes rogati testes<note xml:id="CCCCVIIII_n_005"
+						n="e" place="foot">
+						<term xml:lang="latin">omnes rogati testes</term>:<emph>così nel
+							testo.</emph></note>.</p>
+				<p xml:id="CCCCVIIII_p_004"><ptr target="#CCCCVIIII_st_002"/>Ego <persName
+						ref="#CarusAmicusnot">Carus Amicus, <roleName>notarius sacri
+							palacii</roleName></persName>, scriptor huius libelli, rogatus, post
+					traditum complevi et dedi.</p>
+				<p xml:id="CCCCVIIII_p_005">† <persName ref="#GuidoEpLuni2">Guido
+							<roleName>episcopus</roleName></persName> subscripsi.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

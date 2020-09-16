@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="LXXXXVI_113">
+        <front xml:id="LXXXXVI_front">
+
+            <titlePart type="numerazioneNuova">113</titlePart>
+            <titlePart type="numerazioneOrig">LXXXXVI</titlePart>
+
+            <docDate xml:id="LXXXXVI_docDate">
+                <date when="1282-12-27">1282 dicembre 27</date>, <placeName>Ameglia (<emph>Amelie,
+                        in sala palacii domini episcopi</emph>)</placeName>
+            </docDate>
+            <div type="regesto" xml:id="LXXXXVI_regesto">
+                <p>Avendo il il vescovo di Luni Enrico unito la pieve di S. Stefano di Arcola
+                    all’arcidiaconato di Luni ed essendo questo vacante, essendo l’arcidiacono
+                    Guelfo subentrato nel priorato di S. Maria di Vezzano, il vesvovi conferisce
+                    l’arcidiaconato al canonico lunense Canoro, con piena facoltà di amministrazione
+                    degli affari spirituali e materiali. </p>
+            </div>
+
+            <div type="footer" xml:id="LXXXXVI_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] c. 209v., c. CCIv. secondo la numerazione originale.</p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione parziale in Lupo Gentile 1912, n. 96, p. 128, con la data 1283.</p>
+                </div>
+                <div type="crit_notes">
+                    <note>Nel margine esterno, di mano moderna: <term xml:lang="latin">Ab isto loco
+                            usque ad cartas CCLXVII in contrattu supra, in quo est numerus
+                            contratuum CCLXXX, desunt rubrice numero 58</term>. Un’altra mano ancora
+                        posteriore ha aggiunto: <term xml:lang="latin">quod constat ex saltu rubrice
+                            158 usque ad rubricam 217 pagina 241 ubi vide in fine pagina 240
+                            precedenti</term>. Segue, di altra mano in parte coperta dalla scrittura
+                        posteriore, un’altra nota relativa al documento. </note>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="LXXXXVI_div">
+                <p xml:id="LXXXXVI_p_001"> In Dei eterni nomine, amen. <date when="1282-12-27">Anno
+                        a nativitate Eius M°CC octuagesimo III°, indictione XIa, die XXVII° mensis
+                        decembris.</date> Post unionem hodie factam per venerabilem patrem
+                        <roleName>dominum</roleName>
+                    <persName ref="HenricusEpLuni">Henricum</persName>, <roleName>Dei gratia
+                        Lunensem episcopum</roleName>, de <orgName
+                        ref="#Arcola_S_Stefano_Margherita">plebe Sancti Stephani</orgName> de
+                        <placeName ref="#Arcola">Arcula</placeName> archidiaconatui Lunensi, vacante
+                    dicto archidiaconatu per receptionem prioratus <orgName ref="#Vezzano_S_Maria"
+                        >ecclesie Sancte Marie de</orgName>
+                    <placeName ref="#Vezzano">Vezano</placeName>, Lunensis dyocesis, factam per
+                        <roleName>dominum</roleName>
+                    <persName ref="#Guelfusarc">Guelfum</persName>, <roleName>olim archidiaconum
+                        Lunensem</roleName>, considerata utilitate diligenter dicte ecclesie et
+                    prudentia discreti viri <roleName>domini</roleName>
+                    <persName ref="#Canoruscan">Canori</persName>, <roleName>canonici
+                        Lunensis</roleName>, prefactus dominus episcopus predictum archidiaconatum
+                    contulit dicto <roleName>domino</roleName>
+                    <persName ref="#Canoruscan">Canoro</persName> pleno iure et eundem
+                        <roleName>dominum</roleName>
+                    <persName ref="#Canoruscan">Canorum</persName> quodam suo anulo aureo et pacis
+                    osculo investivit et dedit eidem <roleName>domino</roleName>
+                    <persName ref="#Canoruscan">Canoro</persName> auctoritatem et plenam bailliam,
+                    ut in dicto archidiaconatu tam in spiritualibus quam in temporalibus de cetero
+                    in omnibus administret, prout postulat ordo iuris et dicti archidiaconatus
+                    consuetudo requirit. </p>
+
+                <p xml:id="LXXXXVI_p_002"> Actum <placeName ref="#Ameglia">Amelie</placeName>, in
+                    sala palacii dicti domini episcopi, presentibus <roleName>domino</roleName>
+                    <persName ref="#Thomasius_abbas">Thomasio</persName>
+                    <roleName>abbate</roleName>
+                    <orgName ref="#Aulla_S_Caprasio">monasterii</orgName> de <placeName ref="#Aulla"
+                        >Avula</placeName>, <persName ref="#GuilielmusAlberti">Guilielmo Mascardo de
+                            <placeName ref="#Trebiano">Trebiano</placeName></persName>, <persName
+                        ref="#Vincideo_not">Vincideo</persName>
+                    <roleName>notario</roleName> de <placeName ref="#Carrara">Carraria</placeName>
+                    atque aliis pluribus testibus ad hec rogatis. </p>
+
+                <p xml:id="LXXXXVI_p_003">
+                    <ptr target="LXXXXVI_st_001"/> Ego <persName ref="#BonacursusPetrinot">Bonacursus,
+                        filius Petri</persName> notarii de <placeName ref="#Sarzanello">castro
+                        Sarzane</placeName>, <roleName>notarius sacri palacii</roleName>, hiis
+                    omnibus interfuit et rogatus scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXX_232">
+    <front xml:id="CCLXX_front">
+
+      <titlePart type="numerazioneNuova">232</titlePart>
+      <titlePart type="numerazioneOrig">CCLXX</titlePart>
+
+      <docDate xml:id="CCLXX_docDate">
+        <date when="1164-04-03">1164 aprile 3</date>, <placeName>Sarzanello (<term xml:lang="latin"
+            >in castro Sarzane</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXX_regesto">
+        <p>Grimaldo <term xml:lang="latin">de la Trina</term>, Albertino <term xml:lang="latin">de
+            Monte Franzo</term>, Martino <term xml:lang="latin">de Corano</term> e Bonomo <term
+            xml:lang="latin">de Fontana</term> a nome della chiesa di S. Michele posta nel luogo
+          detto <term xml:lang="latin">Monteclo</term>, chiedono a livello ad Andrea, vescovo di
+          Luni, tre pezze di terra, due poste nel luogo detto <term xml:lang="latin">Bioran</term>,
+          una a <term xml:lang="latin">Virgareto</term>. Il fitto è di 9 denari milanesi l’anno.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 271r., c. CCLXIIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 270,
+            pp. 249-250, con data 1173.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il vescovo di cui si parla nel documento è Andrea (II), quindi la data dovrebbe
+            essere 1163 perché nel 1173 era già vescovo Pipino. Nel 1163, tuttavia, correva la XI
+            indizione, anziché la XII. Pertanto è da considerarsi errato il numero dell’indizione o
+            l’anno è il 1164, interpretando CLXIV anziché CLXX: cfr.<ref target="#MAZZINI_1914"
+              >MAZZINI 1914</ref>, p. 19.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXX_div">
+        <p xml:id="CCLXX_p_001" n="1">In nomine Domini nostri Ihesu Christi. <date when="1164-04-04"
+            >Anno ab incarnatione Domini millesimo CLXIV<note xml:id="CCLXX_n_001" n="a"
+              place="foot"><emph>Nel testo</emph> CLXX. <emph>Una mano posteriore ha ritoccato la
+                seconda</emph> X <emph>inserendo</emph> I <emph>e correggendo in</emph> V, <emph>in
+                maniera che risultasse</emph> CLXIV.</note>, III mense aprilis, indictione
+            XII</date>. Petimus nos <persName ref="#GrimaldusTrina">Grimaldo de <placeName
+              ref="#Trina">la Trina</placeName></persName><note xml:id="CCLXX_n_002" n="b"
+            place="foot"><term type="incerto">la Trina</term>: <emph>nel testo</emph>
+            <term xml:lang="latin">Latrina</term>
+            <emph>ma la località</emph>
+            <term xml:lang="latin">Trina</term>
+            <emph>è attestata altri documenti</emph>. Cfr. 250-CCLXXVIIII.</note> et <persName
+            ref="#AlbertinusMonteFranzo">Albertinus de <placeName ref="#MonteFranzo">Monte
+              Franzo</placeName></persName> et <persName ref="#MartinusCorano">Martinus de
+              <placeName ref="#Corano">Corano</placeName></persName> et <persName
+            ref="#BonomoFontana">Bonomo de <placeName ref="#Fontana">Fontana</placeName></persName>,
+          ex parte <orgName ref="#Montecchio_S_Michele">ecclesie sancti Michaelis</orgName>
+            sita<note xml:id="CCLXX_n_003" n="c" place="foot"><term type="incerto">sita</term>:
+              <emph>così nel testo per</emph>
+            <term xml:lang="latin">site</term>.</note> in loco ubi dicitur <placeName
+            ref="#Monteclo">Monteclo</placeName>, a vobis domino <persName ref="#AndreaEpLuni"
+            >Andrea, Lunensis ecclesie <roleName>episcopo</roleName></persName>, et a vestris
+          successoribus uti nobis suprascriptis petitoribus ex parte suprascripte ecclesie locare
+          iubeatis, id est tres petias terre aratorie, due site in loco ubi dicitur <placeName
+            ref="#Bioran">Bioran</placeName>, alia in <placeName ref="#Virgareto"
+            >Virgareto</placeName>, que est iugas duas<note xml:id="CCLXX_n_004" n="d" place="foot"
+              ><term xml:lang="latin">iugas duas</term>: <emph>così nel testo</emph>.</note> et
+          habet fines et coherencias ex uno capite via, ex alio alodium vicedomini; has enim
+          suprascriptas petias terre, una cum accessionibus et ingressionibus earum et cum
+          superioribus et inferioribus suis, habeat suprascripta ecclesia, et eius ministri, ex
+          parte suprascripti episcopi et eius successorum libellario nomine, ita ut ab hac hora in
+          antea habeat suprascripta ecclesia, et eius ministri, usufructuandi nomine, ita ut per eos
+          meliorentur et non peiorentur; et ad mandatum vestrum exinde veniant, ubi oportunum
+          fuerit, ad legem faciendam, et persolvamus omni anno, infra octavam nativitatis Domini,
+          fictam pensionem <measure type="Mediolanenses" quantity="9" unit="denarius">denariorum IX
+            mediolanensium</measure>; alia superimposita eis non fiat. Pena vero inter eos posita
+          est ut, si quis eorum tollere aut laxare voluerit, componat pars parti fidem servanti
+            <measure quantity="20" unit="solidus">soldos XX</measure> et, post penam solutam,
+          libellus iste in sua permaneat firmitate.</p>
+        <p xml:id="CCLXX_p_002" n="2">Actum <supplied reason="omitted">in</supplied>
+          <placeName ref="#Sarzanello">castro Sarzane</placeName>, feliciter.</p>
+        <p xml:id="CCLXX_p_003" n="3"><c>†</c> Ego <persName ref="#AndreaEpLuni">Andreas
+              <roleName>episcopus</roleName></persName> subscripsi.</p>
+        <p xml:id="CCLXX_p_004" n="4"># Signa manuum <persName ref="#Aldeprandusvic1">Aldeprandi
+              <roleName>vicedomini</roleName></persName> et <persName ref="#Gregorius"
+            >Gregorii</persName> et <persName ref="#Balduinus">Balduini</persName> et <persName
+            ref="#Folbertinus">Folbertini</persName>, rogati testes.</p>
+        <p xml:id="CCLXX_p_005" n="5">Ego <persName ref="#Mainardus">Mainardus, <roleName>iudex
+              sacri palacii</roleName></persName>, hunc libellum scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

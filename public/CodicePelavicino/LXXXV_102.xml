@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="LXXXV_102">
+		<front xml:id="LXXXV_front">
+
+			<titlePart type="numerazioneNuova">102</titlePart>
+			<titlePart type="numerazioneOrig">LXXXV</titlePart>
+
+			<docDate xml:id="LXXXV_docDate">
+				<date when="1260-02-09">1260 febbraio 9</date>
+			</docDate>
+
+			<div type="regesto" xml:id="LXXXV_regesto">
+				<p>Ottobono diacono cardinale di San Adriano, auditore del papa in causa vertente
+					fra il vescovo di Luni, da un lato, e i burgensi di Sarzana, dall’altro, ordina
+					ai procuratori del comune di Sarzana, Rollando di Parma e a Bondie, di esibire
+					entro il giorno successivo il privilegio attestante la concessione del comitato
+					lunense da parte dell’imperatore Enrico al vescovo di Luni.</p>
+			</div>
+
+			<div type="footer" xml:id="LXXXV_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] cc. 202r.-202v., cc. CLXXXXIIIIr.-CLXXXXIIIIv. secondo la
+						numerazione originale.</p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione in <ref type="biblio" target="#LUPO_GENTILE_1912">LUPO GENTILE
+							1912</ref>,n. 85, p. 118.</p>
+				</div>
+
+				<div type="crit_notes">
+					<p>Nel margine esterno, di mano moderna:<emph>Un precetto a procuratori del
+							Comune che debbano fra un giorno haver presentato negli atti del
+							cardinale Ottobono il privilegio che fece l’imperatore del contado di
+							Luni a favore del vescovo.</emph>
+					</p>
+					<p>Il <term xml:lang="latin">signum tabellionis </term>segue anziché precedere
+						la sottoscrizione notarile.</p>
+
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">LXXXV. P(recepti) cardinalis pro scriptura de
+							Sarçana.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="LXXXV_div">
+				<p xml:id="LXXXV_p_001"> In nomine Domini, amen.<date when="1260-02-09">Die IX°
+						februarii, anno Domini M°CCLX°, indictione IIIa.</date>. Dominus <persName
+						ref="#Ottobonuscard">Octobonus, <orgName>Sancti Adriani</orgName>
+						<roleName>dyaconus cardinalis</roleName></persName>, auditor a domino papa
+					datus cause sive causarum que inter venerabilem patrem episcopum Lunensem, ex
+					una parte, et burgenses, campsores et becarios de <placeName ref="#Sarzana"
+						>Sarzana</placeName> vertuntur, ex altera, precepit <roleName>magistro
+							<persName ref="#RollandusParma">Rollando de <placeName ref="#Parma"
+								>Parma</placeName></persName></roleName> et <persName ref="#Bondies"
+									>Bondiei</persName> , procuratoribus <orgName ref="#Sarzana_comune">communis et universitatis</orgName> <placeName
+						ref="#Sarzana">Sarzane</placeName>, in eius presentia constitutis, presente
+						<note xml:id="LXXXV_n_001" n="a" place="foot">presente: <emph>così nel testo
+							per</emph><term xml:lang="latin">presentibus</term>.</note>
+					<roleName>magistro <persName ref="#FeraudusYspanus">Feraudo
+						Yspano</persName></roleName> et <roleName>magistro <persName
+							ref="#ArditioComite">Arditione de Comite</persName></roleName>, ut cras
+					per totam diem, sub pena excomunicationis, quamdam scripturam sive formam
+					privilegii, in qua continetur quod <persName ref="#Henricus">Henricus,
+							<roleName>olim imperator</roleName></persName>, dedit et concessit
+					episcopo Lunensi comitatum Lunensem, in iudicio debeat exhibere; quam scripturam
+					sive privilegii formam idem <persName ref="#RollandusParma">Rollandus</persName>
+					confessus fuit se habere penes se coram <pb n="202v" xml:id="fol_202v"/> ipso
+					domino cardinale. </p>
+				<p xml:id="LXXXV_p_002">Ego <persName ref="#AnzeleriusMadelbertis_notarius"
+						>Anzelerius de Madelbertis de <placeName ref="#Cremona">Cremona</placeName>,
+							<roleName>domini <note xml:id="LXXXV_n_002" n="b" place="foot"
+									>domini:<emph>corretto su precedente scrittura</emph>.</note>
+							imperatoris notarius</roleName></persName> , predictis interfui eaque
+					scripsi in actis de mandato dicti domini cardinalis et, rogatus, inde feci hoc
+					publicum instrumentum. <ptr target="LXXXV_st_001"/>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

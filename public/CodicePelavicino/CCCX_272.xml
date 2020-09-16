@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCX_272">
+    <front xml:id="CCCX_front">
+
+      <titlePart type="numerazioneNuova">272</titlePart>
+      <titlePart type="numerazioneOrig">CCCX</titlePart>
+
+      <docDate xml:id="CCCX_docDate">
+        <date when="1217-10-24">1217 ottobre 24</date>, <placeName>Ceppata (<emph>in loco dicto
+            Ceppata, ante capannam filie quondam Paganelli de Padule</emph>)</placeName></docDate>
+
+      <div type="regesto" xml:id="CCCX_regesto">
+        <p>Bondie, gastaldo di Marzucco, vescovo di Luni, per volontà di Bernazone figlio di
+          Guglielmo <emph>Pilloti</emph>, concede a Bonaccorso di Lanigra, per 8 anni, metà del
+          podere di <emph>Lorano</emph>, che prima aveva il fu Bonfancello. In cambio Bonaccorso
+          deve tenere per otto anni una delle figlie di Bonfancello, dandole vitto, alloggio e
+          abiti. La transazione costa 40 soldi di imperiali. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 286v., c. CCLXXVIIIv secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 310,
+            p. 289, con la data 14 ottobre.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note><term xml:lang="latin">IX Kalendas novembris</term> corrisponde al 24 ottobre, come
+            già rilevò <ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 22.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCX.
+              Locationis Bonacursi de la Nigra.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCX_div">
+        <p xml:id="CCCX_p_001" n="1"><ptr target="#CCCX_st_001"/> In nomine Domini, amen. <date
+            when="1217-10-24">Anno a nativitate Eius millesimo CCXVII, indictione V, die martis, IX
+            kalendas novembris</date>. <persName ref="#Bondiescast">Bondies,
+              <roleName>castaldio</roleName></persName> domini <persName ref="#MarzuccusEpLuni"
+            >Marçuchi, <roleName>Dei gratia Lunensis episcopi</roleName></persName>, in curia de
+            <placeName ref="#Luni">Luna</placeName>, de voluntate <persName
+            ref="#BernazonusGuilielmini">Bernaçoni</persName>, filii <persName
+            ref="#GuilielminusPilloti">Guilielmini Pilloti</persName>, dedit et concessit in VIII
+          annis <persName ref="#BonacursusLanigra">Bonacurso de <placeName ref="#Lanigra"
+              >Lanigra</placeName></persName>, nominatim, medietatem tocius poderis de <placeName
+            ref="#Lorano">Lorano</placeName> quod fuit quondam <persName ref="#Bonfancellus"
+            >Bonfancelli</persName>, pro eo quod dictus <persName ref="#BonacursusLanigra"
+            >Bonacursus</persName> debebat tenere octo annis unam de filiabus dicti <persName
+            ref="#Bonfancellus">Bonfancelli</persName> et eam inde nutrire, pascere et vestire.
+          Servicium inde habuit dictus <persName ref="#Bondiescast">Bondies</persName> pro curia a
+          dicto <persName ref="#BonacursusLanigra">Bonacurso</persName>, ut dixit et confessus fuit,
+            <measure type="Imperiales" quantity="40" unit="solidus"/>soldorum XL bonorum
+          imperialium, renunciando exceptioni non numerate pecunie.</p>
+        <p xml:id="CCCX_p_002" n="2">Actum in loco dicto <placeName ref="#Ceppata"
+            >Ceppata</placeName>, ante capannam filie quondam <persName ref="#PaganellusPadule"
+            >Paganelli de <placeName ref="#Padule">Padule</placeName></persName>, presentibus
+            <persName ref="#BurgisiusCapagnano">Burgisio de <placeName ref="#Capagnano"
+              >Capagnano</placeName></persName>, <persName ref="#BenencasaArea">Benencasa de
+              <placeName ref="#Ara">Area</placeName></persName>, <persName ref="#LombardusCorfezano"
+            >Lombardo de <placeName ref="#Corfeciano">Corfezano</placeName></persName> et <persName
+            ref="#UgolinusRizola">Ugolino de <placeName ref="#Rizola">Rizola</placeName></persName>,
+          testibus ad hec rogatis.</p>
+        <p xml:id="CCCX_p_003" n="3">Ego <persName ref="#Ugolinusnot">Ugolinus, <roleName>sacri
+              palatii et Lunensis curie notarius</roleName></persName>, hiis interfui et rogatus
+          scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

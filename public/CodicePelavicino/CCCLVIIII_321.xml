@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLVIIII_321">
+    <front xml:id="CCCLVIIII_front">
+
+      <titlePart type="numerazioneNuova">321</titlePart>
+      <titlePart type="numerazioneOrig">CCCLVIIII</titlePart>
+
+      <docDate xml:id="CCCLVIIII_docDate">
+        <date when="1235-02-19">1235 febbraio 19</date>
+        <placeName>Ameglia <term xml:lang="latin"><emph>(Amelie)</emph></term></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLVIIII_regesto">
+        <p>Il vescovo di Luni Guglielmo loca in perpetuo <term xml:lang="latin"> ad homagium</term>
+          a Vezzale del fu Ugone Rosso di Vezzale tutto il podere un tempo di proprietà di Imeldina
+          del fu Tancredi di Miseglia e suo marito Gerardo de la Bella posto in <term
+            xml:lang="latin"> Chisicto</term>. La concessione costa 4 lire di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP cc. 309v.-310r., cc. CCCIv.-CCCIIr. secondo la
+            numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p><ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, p. 342, non riporta il
+            documento perchè di tenore analogo al n. 301 (CCCXXXVIIII). Tuttavia i due testi
+            presentano le seguenti differenze: nel 321 lo scriba prende da copia autentica del
+            notaio Pasqualino, a sua volta derivata da <term xml:lang="latin">mundum</term> del
+            notaio Bonencontro di Soliera ; nel 301 lo scriba prende invece da copia autentica di
+            mano del notaio Engheramo del fu Parente, desunta non da <term xml:lang="latin"
+              >mundum</term>, bensì dalle imbreviature del notaio Bonencontro di Soliera. Differisce
+            anche il patronimico del locatario: Ugo nel 301, Guido nel 302.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno di c. CCCIIr., di mano moderna: <term xml:lang="latin"
+              >Carraria</term>
+            <p>Autentica databile  con incertezza tra il 1268 e il 1272 per la presenza del notaio
+              Pasqualino.</p></note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLVIIII. Locationis per homogium poderis Veçalis condam Guidonis Rubei de
+              Veçali.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLVIIII_div">
+        <p xml:id="CCCLVIIII_p_001" n="1">In Ihesu Christi Dei eterni nomine, amen. <date
+            when="1235">Anno nativitatis Eius M°CCXXXV, indictione VIII, die lune, XI kalendas
+            marcii</date>. Per hoc publicum instrumentum clareat universis quod venerabilis
+            <roleName>dominus</roleName>
+          <persName ref="#GuilEpLuni">Guilielmus, <roleName>Dei gratia Lunensis episcopus
+            </roleName></persName>, suo et episcopatus nomine, per se et successores suos dedit,
+          cessit et locavit per homagium et iure homagii <persName ref="#VeçaleUgonisRubei">Veçali
+            quondam Guidonis Rubei de <placeName ref="#Veçale">Veçale</placeName></persName>,
+          recipienti pro se et heredibus suis, masculis et feminis, ab eo descendentibus, in
+          perpetuum, nominatim totum podere eta tenimentum totamque tenutam et possessionem, quod et
+          quam olim a curia Lunensi habuerunt et tenuerunt <persName ref="#YmeldinaTancredi">Ymelda
+            quondam Tancredi de <placeName ref="#Miselia">Miselia</placeName></persName>, eius vir
+            <persName ref="#GerardusBella">Gerardus de Labella</persName> eiusdem loci seu maiores
+          et predecessores ipsius <persName ref="#YmeldinaTancredi">Ymelde </persName>, sive quod et
+          que olim fuit <persName ref="#YmeldinaTancredi"> Ymeldine</persName> suprascripte et per
+          eam et eius virum suprascriptum habitum et detentum, situm in <placeName ref="#Chisicto"
+            >Chisocto </placeName> et in pertinenciis <placeName ref="#Carrara">Carrarie</placeName>
+          et alibi, quicquid sit et quantumcumque et ubicumque et quocumque decurrit seu poterit
+          exinde aliquid reperiri, tam in plano quam in monte, agrum et cultum,<pb n="310r"
+            xml:id="fol_310r"/>plenum et vacuum, divisim et indivisim, cum accessibus et egressibus,
+          superioribus et inferioribus suis omnique iure conctaque utilitate suprascripto poderi et
+          tenute competentibus et competituris, ad habendum, tenendum et fruendum, iure homagii,
+          sine omni dicti domini episcopi eiusque successorum et cuiuscumque persone contradictione
+          vel molestatione et cum eiusdem domini episcopi et successorum suorum rationabili
+          deffensione ab omni homine et contradicente persona, cum advocato suo et expensis
+          propriis; et si deffendere non poterit, in locis consimilibus restituere, sicut pro
+          tempore magis valuerit sive fuerit melioratum, sub extimatione legitima. Ad que idem
+          dominus episcopus se et suos successores et bona seu fructus Lunensis curie obligavit,
+          dans eidem <persName ref="#VeçaleUgonisRubei">Veçali </persName> licenciam de predictis
+          tenutam intrandi, auctoritate propria. Et interim se, pro eo et eius nomine, constituit
+          possidere, precipiens insuper <persName ref="#Guilielmuscast">Guilielmo,
+              <roleName>castaldo</roleName> suo de <placeName ref="#Carrara"
+            >Carraria</placeName></persName>, ut eundem <persName ref="#VeçaleUgonisRubei"
+            >Veçalem</persName> in corporalem tenutam induceret de predictis. Et teneantur ac
+          debeant dictus <persName ref="#VeçaleUgonisRubei">Veçalis</persName> eiusque heredes ab eo
+          descendentes eidem domino episcopo suisque successoribus et curie Lunensi perpetuo
+          reddere, facere et prestare, annis singulis, omnes illos redditus, condictiones, factiones
+          et usantias, servicia et colta seu coltas quos et quas seu que olim prefata <persName
+            ref="#YmeldinaTancredi">Ymeldina</persName> eiusque maiores exinde curie et domino
+          episcopo Lunensi reddebant, faciebant et prestabant seu reddere, facere et prestare
+          consueverant; alia ei superimposita non fiant. Pro qua locatione fuit confessus idem
+          dominus episcopus se ab eodem <persName ref="#VeçaleUgonisRubei">Veçale</persName>
+          servicium recepisse bonorum <measure type="Imperiales" unit="libra" quantity="4"
+            >imperialium in veritate librarum IIII<note place="foot" n="a" xml:id="CCCLVIIII_n_001"
+                ><emph> segno tachigrafico per</emph>
+              <term xml:lang="latin">et</term>
+              <emph>corretto su precedente scrittura</emph>.</note></measure>, exceptioni non
+          numerate pecunie renunciando.</p>
+        <p xml:id="CCCLVIIII_p_002" n="2">Actum <placeName ref="#Ameglia">Amelie </placeName>,
+          feliciter, stipulatione sollempni, in curia domini episcopi, coram <persName
+            ref="#RollandusVagus">Rollando Vago</persName>, <roleName>nobili </roleName>
+          <persName ref="#SalomonLucanus">Salomone Lucano</persName>, <persName
+            ref="#Guilielmuscast">Guilielmo <roleName>castaldo</roleName> de <placeName
+              ref="#Carrara">Carraria</placeName></persName>, Guilielmo notario de Carraria et
+            <persName ref="#RomeusMorsellere">Romeo Monsellere de <placeName ref="#Sarzana">burgo
+              Sarzane</placeName></persName>, testibus ad hec rogatis. Insuper nobilis <persName
+            ref="#AlbertusGerardi">Albertus <roleName>vicedominus </roleName></persName>, pro se et
+          suis consortibus vicedominis, predictis consensit, confitens se inde recepisse ab eodem
+            <persName ref="#VeçaleUgonisRubei">Veçali </persName>
+          <measure type="Imperiales" unit="solidus" quantity="6">soldos imperialium
+          sex</measure>.</p>
+        <p xml:id="CCCLVIIII_p_003" n="3"><ptr target="#CCCLVIIII_st_001"/>Ego <persName
+            ref="#Bonencontrusnot">Bonencontrus de <placeName ref="#Soliera">Soleria
+            </placeName></persName>, <roleName>imperialis aule et in Lunensi curia notarius
+          </roleName>, interfui hiis et rogatus scripsi.</p>
+      </div>
+      <div xml:id="CCCLVIIII_div2" type="autentica">
+        <p xml:id="CCCLVIIII_p_004" n="4"><ptr target="#CCCLVIIII_st_002"/> Ego <persName
+            ref="#Pasqualinusnot">Pasqualinus, <roleName>sacri palacii
+            notarius</roleName></persName>, autenticum huius exempli vidi et legi et, ut in ipso
+          continebatur, ita in hoc scripsi, nichil addens vel minuens quod mutet sensum vel variet
+          intellectum, signum proprium apponendo<note>autentica del documento n. 321-CCCLVIIII
+            databile  con incertezza tra il 1260 e il 1272 per la presenza del notaio Pasqualino
+              <date notBefore="1268-01-01" notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

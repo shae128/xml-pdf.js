@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXXVI_387">
+    <front xml:id="CCCCXXVI_front">
+
+      <titlePart type="numerazioneNuova">387</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXXVI</titlePart>
+
+      <docDate xml:id="CCCCXXVI_docDate">
+        <date when="1257-01-15">1257 gennaio 15</date>,<placeName> Lucca (<term xml:lang="latin">in
+            quadam domo que dicitur infirmaria Sancti Fridiani</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXXVI_regesto">
+        <p>Vegnante del fu Odolino di Bolano cede al vescovo di Luni Guglielmo, al prezzo di 4 lire
+          e mezza di imperiali, due pezzi di terra situati nel distretto di Bolano, uno in Guerceto
+          e l’altro a Staçone. Vegnante, che teneva tali beni in feudo dalla curia di Luni, li
+          ottiene ora in affitto al censo annuale di uno staio di frumento e due libbre d’olio. Il
+          vescovo paga il dovuto con quello che ha ricavato dalla liberazione di Mercadante del fu
+          Rollandino Peçameçane.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 336r., c. CCXXVIIIr. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref> n. 426,
+            p. 416.</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCCXXVI. Unius starii frumenti et II librarum olei a Vegnante Odilini.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXXVI_div">
+        <p xml:id="CCCCXXVI_p_001" n="1">In nomine Domini, amen. <date when="1257-01-15">Anno a
+            nativitate Eius M°CCLVII, indictione XVa, XV° ianuarii</date>. <persName
+            ref="#VegnansOdolini">Vegnans quondam Odolini de <placeName ref="#Bolano"
+              >Bolano</placeName></persName> fecit finem et refutationem et pactum de non petendo et
+          datum venerabili patri <roleName>domino</roleName>
+          <persName ref="#GuilEpLuni">Guilielmo</persName>, <roleName>Dei gratia Lunensi
+            episcopo</roleName>, recipienti nomine sui episcopatus, de duabus petiis terrarum, cum
+          omnibus super positis et pertinenciis earum, quarum una posita est in pertinenciis
+            <placeName ref="#Bolano">Bolani</placeName>, in loco dicto <placeName ref="#Guerceto"
+            >Guerceto</placeName>, cui coheret superius, inferius et ab uno latere <persName
+            ref="#CarindonetusPrato">Carindonetus de <placeName ref="#Prato"
+            >Prato</placeName></persName> et ab alio heredes quondam <persName
+            ref="#StephanusGuerceto">Stephani de <placeName ref="#Guerceto"
+            >Guerceto</placeName></persName>; alia petia posita est in loco dico <placeName
+            ref="#Stazone">Staçone</placeName>, cui coheret superius via publica, inferius idem
+            <persName ref="#VegnansOdolini">Vegnans</persName>, ab uno latere <persName
+            ref="#ParentinusStaçone">Parentinus de <placeName ref="#Stazone"
+            >Staçone</placeName></persName> et ab alio <persName ref="#PiçolbonusStaçone"
+            >Piçolbonus</persName>, frater eius, quas a Lunensi curia tenebat. Quam finem et
+          refutationem promisit dictus <persName ref="#VegnansOdolini">Vegnans</persName> dicto
+          domino episcopo perpetuo firmam habere et tenere et numquam in aliquo contra venire, de
+          iure vel de facto, et ipsas terras deffendere ab omni contradicente persona, et
+          specialiter de suo dato et facto, sub obligatione bonorum et heredum suorum, sub pena
+            <measure type="imperialium" quantity="40" unit="solidus">LX soldorum bonorum
+            imperialium</measure>, quam dare et solvere promisit suprascripto domino episcopo si
+          contra predicta venerit vel non observaverit et quociens fuerit contraventum, confitendo
+          se recepisse ab ipso domino episcopo, dante nomine predicti episcopatus, pro precio
+          suprascriptarum terrarum aut hemponematorum sive melioramentorum ipsarum, <measure
+            type="imperialium" quantity="4" unit="libra">libras IIIIor bonorum imperialium et
+            dimidiam</measure>, renunciando exceptioni non numerate pecunie: quos denarios receperat
+          idem dominus episcopus de francatione <persName ref="#MercadantusPeçameçane">Mercadantis
+            quondam Rollandini Peçameçane</persName>. Ibidem incontinenti suprascriptus dominus
+          episcopus, precibus et supplicationibus ipsius <persName ref="#VegnansOdolini"
+            >Vegnantis</persName>, dedit et locavit ei suprascriptas terras, cum omnibus super se
+          positis et pertinenciis earum, ita ut ipse <persName ref="#VegnansOdolini"
+            >Vegnans</persName> et sui heredes, ex se descendentes, habeant, teneant et fruantur
+          suprascriptas terras, cum omnibus super se positis et pertinenciis earum, dando et
+          reddendo exinde annuatim curie Lunensi, in curia de <placeName ref="#Bolano"
+            >Bolano</placeName> vel districtu, ubi alii redditus episcopales dantur et consignantur,
+          per totum mensem augusti, starium I frumenti mundi et sicci, ad currens starium Lunensis
+          curie de <placeName ref="#Sarzana">Sarzana</placeName>, et libras duas olei, ad currentem
+          libram curie de <placeName ref="#Sarzana">Sarzana</placeName>, per totum mensem ianuarii,
+          promittendo dictus dominus episcopus dictam locationem suprascripto <persName
+            ref="#VegnansOdolini">Vegnanti</persName>, recipienti pro se suisque heredibus, perpetuo
+          firmam et ratam habere et non contravenire. Et pro predictis omnibus sic attendendis et
+          observandis, ut dictum est, obligaverunt se, dictus dominus episcopus suosque successores
+          et bona episcopatus et dictus <persName ref="#VegnansOdolini">Vegnans</persName> se
+          suosque heredes et omnia sua bona, ad penam <measure type="imperialium" quantity="40"
+            unit="solidus">LX soldorum imperialium</measure>, quam pars que contra predicta venerit
+          vel non observaverit parti fidem servanti solvere teneatur quociens in eam inciderit; et,
+          ea soluta, predicta omnia in suo robore perseverent. Et nichillominus idem <persName
+            ref="#VegnansOdolini">Vegnans </persName>teneatur ex ipsis terris Lunensi curie
+          respondere sicut in omnibus ante presentem contractum facere et respondere tenebatur. </p>
+        <p xml:id="CCCCXXVI_p_002" n="2">Actum <placeName ref="#Lucca">Luce</placeName>, in quadam
+          domo que dicitur infirmaria <orgName ref="#Lucca_S_Frediano">Sancti Fridiani</orgName>,
+          presentibus <roleName>magistro</roleName>
+          <persName ref="#Gerardusarc">Gerardo <roleName>archipresbytero</roleName> de <orgName
+              ref="#Marinasco_S_Stefano"><placeName ref="#Marnasco"
+            >Marnasco</placeName></orgName></persName>, <persName ref="#Iacopinusarc">Iacomino
+              <roleName>archipresbytero</roleName> de <orgName ref="#Ameglia_S_Vincenzo"><placeName
+                ref="#Ameglia">Amelia</placeName></orgName></persName> et <persName
+            ref="#Bonalbergusnot">Bonalbergo <roleName>notario</roleName> de <placeName
+              ref="#Carrara">Carraria</placeName></persName>, testibus ad hec rogatis.</p>
+
+        <p xml:id="CCCCXXVI_p_003" n="3"><ptr target="#CCCCXXVI_st_001"/>Ego <persName
+            ref="#Benedictusnot">Benedictus</persName>, <roleName>imperialis aule
+            notarius</roleName>, hiis interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXXXVI_258">
+    <front xml:id="CCLXXXXVI_front">
+
+      <titlePart type="numerazioneNuova">258</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXXXVI</titlePart>
+
+      <docDate xml:id="CCLXXXXVI_docDate">
+        <date when="1055-05-05">1055 maggio 5</date>, <placeName>Roncaglia (<term xml:lang="latin"
+            >Runcalia</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXXXVI_regesto">
+        <p>Enrico III imperatore definisce la causa vertente tra Guido, vescovo di Luni, e Gandolfo
+          del fu Enrico di Lucca per il possesso della terza parte del castello detto <term
+            xml:lang="latin">Aginulfi</term>. Il vescovo Guido e Azo, giudice e avvocato della
+          chiesa di Luni, sostengono che la terza parte del castello è della chiesa di Luni;
+          Gandolfo lo conferma, dichiarando di non avere su di essa alcun diritto. L’imperatore
+          stabilisce quindi che la terza porzione di quel castello appartenga al vescovo e alla
+          chiesa di Luni.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXXXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 280r.-280v., c. CCLXXIIr.-CCLXXIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 296,
+            pp. 269-271; altre edizioni in <ref target="#MURATORI_1738">MURATORI 1738</ref>, III, n.
+            645; <ref target="#SFORZA_1894">SFORZA 1867</ref>, pp. 317-319; parziale in <ref
+              target="#PODESTÀ_1894">PODESTÀ 1894</ref>, p. 25, in nota; <ref target="#MGH_DD_HIII"
+              >MGH DD HIII</ref>, n. 339, p. 462; regesti: <ref target="#HÜBNER_1893">HÜBNER
+              1893</ref>, n. 1378; <ref target="#BÖHMER_1931">BÖHMER 1931</ref>, V n. 1665; <ref
+              target="#STUMPF_BRENTANO_1865">STUMPF-BRENTANO 1865</ref>, n. 2471</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>SFORZA e LUPO GENTILE indicano erroneamente l’autore in Enrico II, ma in realtà
+            Enrico III detto il Nero assunse il titolo <term xml:lang="latin">tertius rex</term>
+            alla morte del padre il 4 giugno 1039; venne poi incoronato imperatore a Roma il 25
+            dicembre 1046 e da quel momento lo troviamo citato come <term xml:lang="latin">tercius
+              rex, secundus Romanorum imperator augustus</term> (cfr. MGH DD HIII, pp
+            XXII-XXXI).</note>
+          <note>Nel margine superiore, al centro: <term xml:lang="latin">De
+            Sarrevalle</term>.</note>
+
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCLXXXXVI. De castro Aghinolfo.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXXXVI_div">
+
+        <p xml:id="CCLXXXXVI_p_002" n="2">
+          <ptr target="#CCLXXXXVI_st_001"/>Dum in Dei nomine, loco <placeName ref="#Runcalia"
+            >Runcalia</placeName>, in iudicio residebat dominus <persName ref="#HenricusIII"
+            >Henricus <roleName>secundus<note xml:id="CCLXXXXVI_n_001" n="a" place="foot"><term
+                  xml:lang="latin">secundus</term>: <emph>nel testo</emph> sdcs <emph>e segno di
+                  abbreviazione soprastante, con evidente scambio di posto delle lettere</emph> d
+                  <emph>e</emph> c.</note>, serenissimus imperator</roleName></persName>, ad
+          iusticiam faciendam ac<note xml:id="CCLXXXXVI_n_002" n="b" place="foot"><term
+              xml:lang="latin">ac</term>: c <emph>corretta su</emph> t.</note> deliberandam,
+          residentibus cum eo <persName ref="#WuidoarchMediolani">Wuido,
+              <roleName>archiepiscopo</roleName>
+            <placeName ref="#Mediolano">Mediolanense</placeName></persName>, et <persName
+            ref="#AmbrosiusEpBergami">Ambrosio, <roleName>episcopo</roleName>
+            <placeName ref="#Bergamo">Bergamensi</placeName></persName> et <persName
+            ref="#DyonisusepPlacentie">Dyonisio, <roleName>episcopo</roleName>
+            <placeName ref="#Piacenza">Place<supplied reason="omitted"
+            >n</supplied>tino</placeName></persName>, <persName ref="#Bonusfilius"
+            >Bonusfilius</persName>, <persName ref="#Otto">Otto</persName>, <persName
+            ref="#Guibertus">Vuibertus</persName>, <persName ref="#Ubertus">Ubertus</persName>,
+            <persName ref="#AzoBurgundius">Atto Burgundius</persName>, <persName ref="#Vualcausus"
+            >Vualcausus</persName> et <persName ref="#Sembardus">Sembardus</persName>, <persName
+            ref="#Azoansaldus">Azoansaldus</persName>, <persName ref="#IohannesStado">Iohannes
+            Stado</persName>, <roleName>iudices sacri palacii</roleName>, et reliqui plures, ibique
+          in eodem veniens iudicio dominus <persName ref="#GuidoEpLuni2">Vuido, <roleName>Lunensis
+              episcopus</roleName></persName>, una cum <persName ref="#Azoiud">Azone,
+              <roleName>iudice</roleName> et <roleName>advocato</roleName> ipsius
+            ecclesie</persName>, necnon ex alia parte <persName ref="#GandulfusHenrici">Gandulfus,
+            filius quondam Henrici de <placeName ref="#Lucca">Luca</placeName></persName>, et
+          reclamaverunt super ipsum <persName ref="#GandulfusHenrici">Gandulfum</persName> de
+          castello quod dicitur <placeName ref="#CastelloAghinolfi">Aginulfi</placeName>, prope
+          portam qui<note xml:id="CCLXXXXVI_n_003" n="c" place="foot">portam
+              qui: <emph>così nel testo per</emph>
+            portam que; portam
+            <emph>ha la</emph> a <emph>corretta su</emph> u: <emph>forse l’amanuense ha scritto
+              prima</emph>
+            portum
+            <emph>qui e in seguito ha corretto solo</emph>
+            portum.</note> dicitur <placeName ref="#Bertrame"
+            >Bertani</placeName>, de tercia <pb n="280v" xml:id="fol_280v"/> portione ipsius
+          castelli et mo<supplied reason="omitted">n</supplied>te et corte, cum omnibus pertinenciis
+          eorumque <supplied reason="omitted">que</supplied> olim fuerunt <orgName
+            ref="#Luni_S_Maria">sancte Marie Lunensis ecclesie</orgName>. Et dixerunt quod pars
+          predicte ecclesie de iamscripta tercia porcione castri et curtis et omnibus eorum
+          pertinenciis ad proprium investita fuisset et iamscriptus <persName
+            ref="#GandulfusHenrici">Gandulfus</persName> malo ordine di<supplied reason="omitted"
+            >s</supplied>vestisset. Et sic per pugnam probare volebant; et iamscriptus <persName
+            ref="#GandulfusHenrici">Gandulfus</persName> hec deffendere noluit, set per fustem, quem
+          sua tenebat manu, refutavit predictam terciam portionem iamscriptis<note
+            xml:id="CCLXXXXVI_n_004" n="d" place="foot">iamscriptis:
+              <emph>così nel testo per</emph>
+            iamscripti.</note> castelli et curtis et eorum
+          pertinenciis in manibus predicti episcopi et eius advocati. Tunc predictus episcopus et
+          eius advocatus dixerunt: <q rend="pre(«) post(»)">Habemus et tenemus ad proprietatem
+            ipsius episcopii iamscriptam terciam porcionem de iamscriptis castello <supplied
+              reason="omitted">et curte</supplied> et de iamscriptis omnibus rebus. Et si quislibet
+            homo adversus nos exinde aliquid dicere vult, parati sumus cum eo inde ratione standum
+            et legitime finiendum. Et quod plus est, querimus ut dicat iste <persName
+              ref="#GandulfusHenrici">Gandulfus</persName> quod ita de preiamscriptis est: si
+            iamscriptam terciam portionem castelli et ceterarum rerum proprie sunt iamscripte
+            Lunensis ecclesie aut si ipse <persName ref="#GandulfusHenrici">Gandulfus</persName>
+            aliquod scriptum aut firmitatem habet, per quas nobis iamscriptis rebus intencionare
+            posset an non</q>. Cum ipse episcopus et eius advocatus taliter retulissent, ad hec
+          respondit iamscriptus <persName ref="#GandulfusHenrici">Gandulfus</persName>: <q
+            rend="pre(«) post(»)">Vere tercia porcio iamscripti castelli et curtis et eorum
+            pertinenciis propria est iamscripte ecclesie Lunensis et esse debet cum lege. Et mihi ad
+            habendum vel requirendum nichil pertinet nec pertinere debet pro eo quod nullum scriptum
+            nullamque firmitatem vel rationem habeo, per quas intencionare aut contendere possem:
+            set, ut dixi, pars est iamscripta<note xml:id="CCLXXXXVI_n_005" n="e" place="foot"><term
+                type="incerto">iamscripta</term>: <emph>così nel testo per</emph>
+              iamscripte.</note> ecclesie et esse debet cum
+            lege</q>. Et spondit se iamscriptus <persName ref="#GandulfusHenrici"
+            >Gandulfus</persName> et sui heredes ut, si unquam in tempore de iamscripta tercia
+          porcione castelli et curtis et eorum pertinenciis adversum predictam ecclesiam et adversum
+          predictum episcopum et eius advocatum vel successores eorum aut cui ipsi dederint agere
+          aut causare vel removere presumpserint vel per placitum fatigare, per se vel per submissam
+          personam, et taciti exinde omni tempore non permanserint, vel si apparuerint ullum datum
+          aut factum vel quodlibet scriptum quod ipsi exinde in aliam partem fecissent et
+          claruerint, tunc obligavit componere ipse <persName ref="#GandulfusHenrici"
+            >Gandulfus</persName> suique heredes ad partem iamscripte ecclesie penam dupli
+          iamscriptis rebus, sicut pro tempore fuerint meliorate aut valuerint, sub extimatione, in
+          consimilibus locis, et insuper penam <measure quantity="100" unit="libra">auri optimi
+            librarum C</measure>. Et insuper iamscriptus dominus imperator per fustem, quem sua
+          tenebat manu, misit bannum super predictam ecclesiam et episcopum et advocatum eius in
+            <measure quantity="100" unit="libra">libris C auri optimi</measure> ut, si quislibet
+          homo amodo presumpserit de iam dicta tercia portione iamscripti castelli et rebus
+            de<supplied reason="omitted">s</supplied>vestire aut molestare vel contendere aut
+            in<supplied reason="omitted">de</supplied> aliquis subtrahere temptaverit, si ad<note
+            xml:id="CCLXXXXVI_n_006" n="f" place="foot">si ad:
+              <emph>così nel testo, forse per</emph>
+            sciat.</note> se esse compositurus iamscriptas <measure
+            quantity="100" unit="libra">libras C auri</measure>. Propriis actis et manifestacio ut
+          supra facta, rectum eorum iudicum et auditorum paruit esse iudicaverunt, ut iuxta eorum
+          professionem et manifestationem iam dictus episcopus et eius advocatus ad partem
+          iamscripte ecclesie habeant et teneant ad proprium iamdictum castellum et omnibus rebus et
+          ipse <persName ref="#GandulfusHenrici">Gandulfus</persName> et sui heredes maneant exinde
+          omni tempore taciti et contenti. Finita est causa. Et hanc noticiam pro securitate
+          iamscripte ecclesie fieri amonuerunt.</p>
+        <p xml:id="CCLXXXXVI_p_003" n="3">Quidem et ego <persName ref="#Guilielmusnot2">Wilielmus,
+              <roleName>notarius sacri palacii</roleName></persName>, ex iussione iamscripti
+          imperatoris et iudicum, hanc noticiam scripsi.<date when="1055-05-05">Anno ab incarnatione
+            Domini nostri Ihesu Christi millesimo LV°, imperii vero domini secundi Henrici
+            imperatoris augusti anno nono, V die mensis madii, indictione octava</date>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

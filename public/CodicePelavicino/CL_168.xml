@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CL_168">
+    <front xml:id="CL_front">
+
+      <titlePart type="numerazioneNuova">168</titlePart>
+      <titlePart type="numerazioneOrig">CL</titlePart>
+
+      <docDate xml:id="CL_docDate">
+        <date when="1255-05-30">1255 maggio 30</date>, <placeName>Ponzanello (<term xml:lang="latin"
+            >Ponzanelli, in canonica ecclesie</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CL_regesto">
+        <p>Curso di Donnisia del <term xml:lang="latin">castrum</term> di Sarzana e Ferrino del fu
+          Vivaldo, anch’egli di Donnisia, vendono a Guglielmo, vescovo di Luni, i beni di loro
+          proprietà in Ponzanello, e in particolare il fitto di uno staio di frumento che a loro
+          paga Ugolino del fu Lanfranchino per una casa nel luogo detto <term xml:lang="latin"
+            >Ara</term> e per un orto nel luogo detto <term xml:lang="latin">Barci</term>, nonché un
+          pezzo di terra con castagni e bosco nel luogo detto <term xml:lang="latin"
+            >Segalaria</term> o <term xml:lang="latin">Vechieta Suprana</term>.</p>
+      </div>
+
+      <div type="footer" xml:id="CL_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 243r.-243v., cc. CCXXXVr.- CCXXXVv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 150,
+            pp. 186-187.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine interno, di mano moderna: <term xml:lang="latin">In Ponzanelo et
+              districtu</term>.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CL_div">
+        <p xml:id="CL_p_001" n="1">In Dei nomine, amen.<date when="1255-05-30"> Anno a nativitate
+            Eius M°CC°LV°, indictione XIII, III kalendas iunii</date>. Pro precio <measure
+            type="Imperiales" quantity="50" unit="solidus">soldorum L imperialium</measure>, quos
+            <persName ref="#CursusDonnisia">Cursus de Donnisia de <placeName ref="#Sarzanello"
+              >castro Sarzane</placeName></persName> et <persName ref="#FerrinusVivaldi">Ferrinus
+            quondam Vivaldi, similiter de <placeName ref="CursusDonnisia"
+            >Donnisia</placeName></persName> suprascripta, sibi a domino <persName ref="#GuilEpLuni"
+            >Guilielmo, Dei gratia <roleName>Lunensi episcopo</roleName></persName>, solutos esse
+          fuerunt confessi, renunciando exceptioni non numerate pecunie, vendiderunt et tradiderunt
+          eidem domino episcopo, nomine sui episcopatus recipienti, totum et quicquid habent in
+            <placeName ref="#Ponzanello">Ponzanello</placeName> et districtu et pertinenciis eius
+          atque specialiter fictum unius starii frumenti quod reddit eis <persName
+            ref="#UgolinusLanfranchini">Ugolinus quondam Lanfranchini</persName>, videlicet medium
+          starium de domo posita in loco dicto <placeName ref="#Ara">Ara</placeName>, cui coheret
+          domus <persName ref="#BrunaFortini">Brune quondam Fortini</persName>, ab alio casamentum
+            <persName ref="#Gaideferrus">Gaideferri</persName>, superius via publica, inferius terra
+            <persName ref="#UgolinusLanfranchini">Ugolini</persName> predicti, quam habuit in
+          cambium a <persName ref="#BonaventuraOgerini">Bonaventura quondam Ogerini</persName>, et
+          medium starium de quodam orto posito in loco dicto <placeName ref="#Barci"
+            >Barci</placeName>, cui coheret desubtus <persName ref="#BonalbergusOgerini">Bonalbergus
+            quondam Ogerini</persName>, desupra <persName ref="#PalmeriusSavia">Palmerius de
+              <placeName ref="#Savia">Savia</placeName></persName> cum consortibus suis, ab uno
+          latere versus castrum castagnetum via mediante, ab alio latere nemus; item petium unum
+          terre cum castaneis et nemore, positum in loco dicto <placeName ref="#Segalaria"
+            >Segalaria</placeName> sive <placeName ref="#VechietaSuprana">Vechieta
+            Suprana</placeName>, cui coheret desubtus <persName ref="#Bellucius"
+            >Bellucius</persName>, versus <placeName ref="#Bibola">Bibolam</placeName>
+          <persName ref="#IacobinusBoso">Iacobinus de Boso</persName> et <persName
+            ref="#AidansAmelia">Aidante de <placeName ref="#Ameglia">Amelia</placeName></persName>
+          et ex altera parte <pb n="243v" xml:id="fol_243v"/>
+          <persName ref="#VivaldusCapriola">Vivaldus de <placeName ref="#Capriola"
+              >Capriola</placeName></persName> pro uxore sua <persName ref="#Aldisia"
+            >Aldisia</persName>, et si qui alii sunt fines. Et cesserunt eidem domino episcopo,
+          recipienti nomine sui episcopatus, omnia iura et actiones sibi in predictis competencia et
+          competentes et constituerunt se pro eo et eius nomine predicta possidere et quasi. Et
+          fecerunt eum procuratorem et dominum in rem suam, promittendo ipsi domino episcopo,
+          recipienti nomine sui episcopatus, predicta deffendere et exbrigare ab omni contradicente
+          et impediente persona et loco; et, si deffendere et exbrigare non posset et non
+          deffenderet atque exbrigaret, restaurare et salvum cambium ei dare promiserunt et ipsam
+          deffensionem facere suis expensis et dampna reficere et expensas et interesse etiam
+          singulare et conservare eum inde indempnem. Et hanc venditionem et omnia et singula, que
+          in hac carta leguntur, promiserunt ratam habere et non contravenire, obligando suos et
+          heredes et bona, ad penam dupli suprascripte pecunie atque eius tocius quod in questionem
+          veniret, renunciando iuri quo dicitur quod venditio potest rescindi, si sit in ea deceptio
+          ultra dimidiam iusti precii, et omni alii iuri et consuetudini et legum auxilio, quo
+          possent contra predicta vel contra aliquod predictorum venire vel tueri se a predictis seu
+          ab aliquo predictorum, et nominatim a predicta pena que tociens solvatur quociens
+          incidetur in eam; et, ea soluta, predicta semper nichillominus robur obtineant
+          firmitatis.</p>
+        <p xml:id="CL_p_002" n="2">Actum <placeName ref="#Ponzanello">Ponzanelli</placeName>, in
+            <orgName ref="#Ponzanello_S_Martino">canonica ecclesie</orgName>, presentibus <persName
+            ref="#Bonavitapre"><roleName>presbytero</roleName> Bonavita</persName> dicti loci,
+            <persName ref="#Iacopinusarc">Iacobino <roleName>archipresbytero de <placeName
+                ref="#Ameglia"><orgName ref="#Ameglia_S_Vincenzo"
+              >Amelia</orgName></placeName></roleName></persName> atque <persName
+            ref="#ParensPasqualini">Parente quondam Pasqualini</persName>, testibus <supplied
+            reason="omitted">vocatis</supplied> et rogatis.</p>
+        <p xml:id="CL_p_003" n="3"><ptr target="#CL_st_001"/> Ego <persName ref="#Bonalbergusnot"
+            >Bonalbergus, <roleName>domini Frederici invictissimi Romanorum imperatoris
+              notarius</roleName></persName>, hiis interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

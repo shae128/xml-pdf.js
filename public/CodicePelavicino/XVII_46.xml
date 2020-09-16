@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="XVII_46">
+		<front xml:id="XVII_front">
+
+			<titlePart type="numerazioneNuova">46</titlePart>
+			<titlePart type="numerazioneOrig">XVII</titlePart>
+
+			<docDate xml:id="XVII_docDate">
+				<date when="0900-05-24">900 maggio 24</date>, <placeName ref="#Papia"> Pavia (<term
+						xml:lang="latin"> Papie civitate, palatio regio </term> ). </placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="XVII_regesto">
+				<p>Berengario I conferma al vescovo Oldeberto quanto concesso dai suoi predecessori
+					alla chiesa di Luni </p>
+			</div>
+
+			<div type="footer" xml:id="XVII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] cc. 64v.-65v., cc. LVIv.-LVIIv. secondo la numerazione originale.
+					</p>
+				</div>
+
+				<div type="biblio">
+					<p>Regesto<ref target="#BÖHMER_1831">BÖHMER 1831</ref>;<ref
+							target="#DÜMMLER_1871">DÜMMLER 1871</ref>, n. 28, pp. 172-173; <ref
+							target="#SFORZA_1910">SFORZA 1910</ref>, 537, p. 322. </p>
+					<p>Edizione:<ref target="#UGHELLI_1648">UGHELLI 1648</ref>,I, coll.895-896; <ref
+							target="#UGHELLI_1717">UGHELLI 1717</ref>, I, col. 835; <ref
+							target="#HPM_CHARTARUM">HPM CHARTARUM</ref>, II, coll. 14-15;<ref
+							target="#SCHIAPARELLI_1903">SCHIAPARELLI 1903</ref>, XXXI, pp. 93-95;
+							<ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 17, pp.
+						21-23. </p>
+				</div>
+
+				<div type="crit_notes">
+					<note>Come già osservato da Schiaparelli, la data cronica indicata nel documento
+						è errata perché l’indizione III corrisponde all’anno 900 e non all’890 e per
+						il fatto che Liutardo occupò la carica di cancelliere soltanto dopo il marzo
+						900. Il testo è alquanto scorretto a causa di numerosi fraintendimenti da
+						parte del copista. </note>
+					<note>Nel margine esterno di c. 64v., di mano posteriore:
+									<emph><expan>Confirmatio<ex>matio</ex></expan> exemptionum et
+							privilegiorum ecclesie Lunensis a papa Berengario.</emph></note>
+					<note>Le integrazioni si basano in parte sulla lezione di Schiaparelli.</note>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">XVII. Privilegium imperatoris Berengarii.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="XVII_div">
+				<p xml:id="XVII_p_001">In nomine Domini nostri Iesu Christi, amen. <persName
+						ref="#Berengarius_rex">Berengerius<roleName> divina fovente <note
+								xml:id="XVII_n_001" n="a" place="foot">fovente: <emph>così nel testo
+									per</emph> favente.</note> clementia <supplied
+								reason="illeggibile">rex</supplied></roleName></persName><supplied
+						reason="illeggibile">. Si</supplied><note xml:id="XVII_n_002" n="b"
+						place="foot"><emph>Dopo</emph> clementia,<emph>segue all’inizio del rigo
+							successivo uno spazio di mm. 24 lasciato bianco dal
+						copista.</emph></note>petitionibus sacerdototum <note xml:id="XVII_n_003"
+						n="c" place="foot"> sacerdototum: <emph>così nel testo per</emph>
+						sacerdotum.</note> Dei iustis rationabilibus animum nostre pietatis aclomano
+						<note xml:id="XVII_n_004" n="d" place="foot"> aclomano: <emph>così nel testo
+							per</emph> inclinamus<emph>; . segue spazio bianco di mm.
+						24.</emph></note>,<supplied reason="illeggibile">et</supplied>ut oporteat
+					adimplere, sic egimus <note xml:id="XVII_n_005" n="e" place="foot"> egimus:
+							<emph>così nel testo per</emph> agimus.</note>, procul dubio
+					beatitudinem eterne hereditatis adipisci
+					<expan>ne<ex>qua</ex>quam</expan>ambigimus et temporalem honorem facilius
+					obtineri. Quia de re comperiat solertia omnium fidelium <pb n="65r"
+						xml:id="fol_065r"/>sancte <note xml:id="XVII_n_006" n="f" place="foot">
+							sancte:<emph>aggiunto nel margine sinistro da mano
+						posteriore.</emph></note> ecclesie Dei nostrorum, presentium videlicet ac
+					futurorum, quia vir venerabilis <persName ref="#OdelbertusEpi">Odelbertus,
+							<roleName>sancte Lunensis ecclesie episcopus</roleName></persName>, que
+					est in honore sancte Dei genitricis semperque virginis Marie dicta <note
+						xml:id="XVII_n_007" n="g" place="foot"> dicta:<emph>così nel testo
+							per</emph> dicata</note>,ad nostram accedens maiestatem preceptum
+						<roleName>domni <persName ref="#Carolus_imperator_3">Karoli</persName>
+						<supplied reason="omitted">imperatoris</supplied></roleName> auctoritatesque
+					nostrorum predecessorum regum nostris optulit ob<supplied reason="illeggibile"
+						>tu</supplied>entibus , in quibus insertum fuerat qualiter ipsi <note
+						xml:id="XVII_n_008" n="h" place="foot"> dicta:<emph>così nel testo
+							per</emph> dicata</note> memoratam matrem ecclesiam sub sua plenissima
+					defensione atque immunitatis cuitione <note xml:id="XVII_n_009" n="i"
+						place="foot"> cuitione:<emph>così nel testo per</emph> tuitione</note>, cum
+					omnibus rebus sibi pertinentibus, susceperat eamque ex rebus sui imperii
+					sublimare studuerit. Pro firmitatis vero studio nostram petiit excellentiam
+					memoratus <supplied reason="illeggibile">episcopus</supplied>
+					<note xml:id="XVII_n_010" n="j" place="foot"> memoratus:<emph>nel testo segue
+							uno spazio bianco di mm. 25.</emph></note>ut predecessorum nostrorum
+					auctoritates nostras <note xml:id="XVII_n_011" n="k" place="foot">
+							nostras:<emph>così nel testo per</emph> nostra<emph>da concordare
+							con</emph> firmitate</note> roboraremus firmitate. Cuius petitionibus,
+					propter amorem divini cultus et dilectissimi fidelis nostri, aures inclinantes,
+					scilicet memorattatam <note xml:id="XVII_n_012" n="l" place="foot">
+							memorattatam:<emph>così nel testo per</emph>smemorata</note> matrem
+					ecclesiam, una cum sacerdotibus et ecclesiis baptismalibus atque oraculis
+					omnibusque rebus ad eamdem sedem pertinentibus, sub nostra plenissima tuitione
+					atque immunitatis protectione suscipimus, quatenus, in nostra manens defensione,
+					nullus iudex publicus vel quislibel <note xml:id="XVII_n_013" n="m" place="foot"
+						> quislibel:<emph>così nel testo per</emph> quislibet</note> ex iudiciaria
+					potestate infra res aut territoria iuste et legaliter ad eandem sedem
+					respicientia, quas nunc in quocumque possideat loco vel quas divina maiestas
+					augere voluerit, ad causas iudiciario more audiendas vel excuciendas ullo unquam
+					im tenpore ingredi audeat aut fideilusores <note xml:id="XVII_n_014" n="n"
+						place="foot"> fideilusores:<emph>così nel testo per</emph>
+						fideiussores</note> tollendos aut homines super terram ipsius, <supplied
+						reason="omitted">t</supplied>am ingenuos quamque servos, cummanentes
+					distringendos aut paratas <supplied reason="omitted">faciendas</supplied>,
+					mansionaticas aut paravredos excuciendos aut <note xml:id="XVII_n_015" n="o"
+						place="foot"> aut:<emph>nel testo segue</emph> sticum<emph>da espungere
+							perché estraneo al formulario dei diplomi berengariani, cfr.
+							Schiaparelli 1903, n. XXXI.</emph></note>freda <supplied
+						reason="illeggibile">exigenda</supplied>vel ullas redibitiones seu illicitas
+					occassiones requirere presumat; sed, cumque quecumque <note xml:id="XVII_n_016"
+						n="p" place="foot"> cumque quecumque:<emph>così nel testo</emph></note> ad
+					ius nostri fisci exigi potuerit, omnia luminaria ipsius ecclesie deferendas
+						<note xml:id="XVII_n_017" n="q" place="foot"> deferendas:<emph>così nel
+							testo</emph> deferenda</note> sancimus. Decernimus autem ut precepta
+					nostrorum predecessorum regum ac nostra et <note xml:id="XVII_n_018" n="r"
+						place="foot"> et:<emph>corretto in sopralinea su</emph>
+							est<emph>espunto</emph></note> omnia <supplied reason="illeggibile"
+						>instrumenta</supplied><note xml:id="XVII_n_019" n="s" place="foot">
+							omnia:<emph>segue spazio bianco per mm 25.</emph></note> caratarum <note
+						xml:id="XVII_n_020" n="t" place="foot"> caratarum:<emph>così nel testo
+							per</emph> cartarum</note>, ex quibus res <note xml:id="XVII_n_021"
+						n="u" place="foot"> res:<emph>preceduto da una lettera abrasa.</emph></note>
+					est <note xml:id="XVII_n_022" n="v" place="foot"> est:<emph>così nel testo
+							per</emph> et</note> manicipias per diversa loca memorata <note
+						xml:id="XVII_n_023" n="w" place="foot"> memorata:<emph>così nel testo
+							per</emph> memorate</note> sedi actenus delegate fuerunt ac confirmate
+						e<supplied reason="illeggibile">t</supplied>que nunc a rectoribus eius
+					ubicumque possidentur, deinceps per hanc nostram auctoritatem recte atque
+					inconvulse inhibi permaneant. Quin etiam libellos et precarias inlicitasque
+					commutationes iniuste <note xml:id="XVII_n_024" n="x" place="foot">
+							iniuste:<emph>segue</emph> est dona<emph>espunto e </emph>
+							ste<emph>ripetuto</emph></note> ste conatra <note xml:id="XVII_n_025"
+						n="y" place="foot"> conatra:<emph>così nel testo per</emph> contra</note>
+					ecclesiastica dogmata a presulibus sancte Lunensis ecclesie emissas hoc nostre
+					auctoritatis pragmatico infringimus, cassamus atque omnimodis evacuamus, uti
+					amodo nullum unquam in tempore obtinea<supplied reason="omitted">n</supplied>t
+					vigorem, set tanquam non fuerint, penitus cassate atque evacuas <note
+						xml:id="XVII_n_026" n="z" place="foot"> evacuas:<emph>così nel testo
+							per</emph> evacue</note> permaneant, sanctientes ac precipientes ut
+					nullus ex iudiciario ordine iuxta easdem increpationes aliquando iudicium
+					proferat, sed quicumque ex ipsis rebus <supplied reason="omitted">e</supplied>am
+					inrationabiliter aliqua inscriptionis pagina agressus et accipere accintus
+					stacontenatus <note xml:id="XVII_n_027" n="aa" place="foot">
+							stacontenatus:<emph>così nel testo per</emph> sit, condemnatus.</note>
+					perhennis temporibus maneat. De ipsis <supplied reason="illeggibile"
+						>vero</supplied>
+					<note xml:id="XVII_n_028" n="bb" place="foot"> ipsis:<emph>segue spazio bianco
+							per mm. 19.</emph></note> rebus unde conatra <note xml:id="XVII_n_029"
+						n="cc" place="foot"> conatra:<emph>così nel testo per</emph> contra</note>
+					legem sepedicta ecclesia exspoliata videatur, legittima investitura ad eiusdem
+					ecclesie partem ascribimus, ue <note xml:id="XVII_n_030" n="dd" place="foot">
+							ue:<emph>così nel testo per</emph> ut</note> deinceps iure proprietario
+					iuste et legaliter teneat, possideat, ex quibus neglegenter passa est
+						diminoratione.<pb n="65v" xml:id="fol_065v"/> Si quis aut<supplied
+						reason="omitted">em</supplied>contumax est <note xml:id="XVII_n_031" n="ee"
+						place="foot"> est:<emph>così nel testo per</emph> et</note> rebellis huius
+					nostre <supplied reason="omitted">pagine</supplied> ius<supplied
+						reason="omitted">s</supplied>ioni contraire temptaverit, scilicet <note
+						xml:id="XVII_n_032" n="ff" place="foot"> scilicet:<emph>così nel testo
+							per</emph> sciat</note> se compositurum <measure quantity="100"
+						unit="libra">auri optimi libras C</measure>, medietatem palatio <supplied
+						reason="omitted">nostro</supplied> et medietatem iam sepedicte ecclesie
+					Lunensi; et, ut verius credatur ac diligentius omnimodis observetur, manu
+					propria corroboratum anuli nostri impressione subter iussimus insig<supplied
+						reason="omitted">n</supplied>iri. </p>
+				<p xml:id="XVII_p_002">
+					<ptr target="XVII_m_001"/> Signum <ptr target="XVII_m_001"/>
+					<roleName>donni <persName ref="#Berengarius_rex">Berengarii</persName> piissimi
+						regis</roleName>. </p>
+				<p xml:id="XVII_p_003">
+					<persName ref="#Beatus_cancellarius">Beatus</persName>
+					<roleName>cancellarius</roleName> ad vicem <persName
+						ref="#Liutvardus_cancellarius">Liutvardi</persName>
+					<roleName>episcopi archicancellarii</roleName> regovi <note xml:id="XVII_n_033"
+						n="gg" place="foot"> regovi:<emph>così nel testo per</emph> recognovi</note>
+					et subscripsi. <ptr target="XVII_sr_001"/>
+				</p>
+				<p xml:id="XVII_p_004">
+					<date when="0900-05-24">Datum VIIII kalendas iunii, anno incarnationis Domini
+							<note xml:id="XVII_n_034" n="hh" place="foot"> Domini:<emph>nel testo
+								segue espunto:</emph>DCCCXC an.</note> DCCCXC, anno vero donni
+						Berrengarii piissimi regis XII, indictione III.</date>
+				</p>
+				<p xml:id="XVII_p_005"> Actum <placeName ref="Pavia">Papie</placeName> civitate,
+					palatio regio. In Dei nomine feliciter, amen. </p>
+			</div>
+		</body>
+	</text>
+</TEI>

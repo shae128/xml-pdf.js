@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="CCCCXI_372">
+		<front xml:id="CCCCXI_front">
+
+			<titlePart type="numerazioneNuova">372</titlePart>
+			<titlePart type="numerazioneOrig">CCCCXI</titlePart>
+
+			<docDate xml:id="CCCCXI_docDate">
+				<date when="1202-06-09">1202 giugno 9</date>, <placeName>Sarzana (<emph>Sarzani, in
+						apotheca filiorum quondam Villani</emph>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="CCCCXI_regesto">
+				<p>Casavetrano del fu Martinello di Casavetri concede in affitto tre pezzi di terra
+					in Peretolo e in Tiglia ai fratelli Agostino e Rustichello figli del fu Guilicio
+					di Peretolo. Il fitto annuale ammonta a metà delle rendite e 6 denari di
+					imperiali. La concessione costa 12 soldi di imperiali.</p>
+			</div>
+
+			<div type="footer" xml:id="CCCCXI_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] c. 329v., c. CCCXXIv. secondo la numerazione originale</p>
+				</div>
+
+				<div type="biblio">
+					<p> Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n.
+						411</p>
+				</div>
+
+				<div type="crit_notes">
+					<note>Parte del documento è stata letta con l’ausilio della luce di Wood.</note>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">CCCCXI. Locationis terre de Peretulo. </term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="CCCCXI_div">
+
+				<p xml:id="CCCCXI_p_001"><ptr target="#CCCCXI_st_001"/> In Dei nomine, amen. <date
+						when="1202-06-09">Anno a nativitate Eius M°CCII, <supplied reason="omitted"
+							>indictione</supplied> V, die dominico IX mensis iunii.</date> Ego
+						<persName ref="#CasavetranusMartinelli">Casavetranus quondam Martinelli de
+							<placeName ref="#Casavetri">Casavetri</placeName></persName> do et loco
+					vobis <persName ref="#AgustinusGuilincionis">Agustino</persName> et <persName
+						ref="#RusticellusGuilincionis">Rusticello</persName>, fratribus, de loco
+					dicto <placeName ref="#Peretolo">Peretolo</placeName>, filiis quondam
+					Guilicionis, tres petias terre, una quarum est in <placeName ref="#Peretolo"
+						>Peretolo</placeName>, que in parte est ortus et in parte habet<note
+						xml:id="CCCCXI_n_001" n="a" place="foot">
+						<term xml:lang="latin">habet</term>:<emph>corretto su precedente
+							scrittura.</emph></note> vineas et duas arbores castanearum, cui sunt
+					fines et coherencie ab una parte dictorum acquisitorum, ab alia parte <persName
+						ref="#GuidolinusPeretolo">Guidolini de <placeName ref="#Peretolo"
+							>Peretolo</placeName></persName>, superius via publica, inferius
+						<persName ref="#BernardusLucio">Bernardi de <placeName ref="#Lucio"
+							>Lucio</placeName></persName>; secunda est in valle de <placeName
+						ref="#Peretolo">Peretolo</placeName> et est campus, cui sunt fines et
+					coherencie ab una parte dictorum acquisitorum, ab aliis partibus boscus
+					communis; tercia petia est in <placeName ref="#Tillia">Tillia</placeName>, cui
+					sunt fines et coherencie ab una parte iamscriptorum sepedictorum fratrum
+					acquisitorum, ab alia parte <persName ref="#GuidolinusPeretolo">Guidolini de
+							<placeName ref="#Peretolo">Peretolo</placeName></persName>, superius
+					dicti <persName ref="#BernardusLucio">Bernardi de <placeName ref="#Lucio"
+							>Lucio</placeName></persName> et inferius eiusdem <persName
+						ref="#BernardusLucio">Bernardi</persName>, tali pacto ut vos et vestri
+					heredes amodo perpetuo debeatis predictas tres petias terre totas in integrum,
+					cum omnibus superpositis et pertinenciis suis, ad medietatem reddendum et
+					libellario nomine habere, tenere, laborare, frui, meliorare et non peiorare et
+					teneamini ex eis persolvere et dare annuatim medietatem omnium usufructuum
+					temporibus quibus recolliguntur et, infra octavam nativitatis Domini, omni anno
+					futuro, pensionem <measure type="imperiales" unit="denarius" quantity="6"
+						>denariorum VI imperialium</measure> tantum; alia superimposita non fiat.
+					Servicium recepi exinde a vobis bonorum <measure type="imperiales"
+						unit="solidus" quantity="12">imperialium soldos XII</measure> et renunciavi
+					exceptioni non numerate pecunie. Predictam medietatem omnium usufructuum
+					dictarum terrarum, ut dictum est, et iamscriptam pensionem debeatis vos et
+					heredes vestri dare omni anno, sicut superius dictum est, mihi meisque heredibus
+					aut cui dederimus vel habere decreverimus. Tenutam de ipsis terris vobis
+					tradidisse confiteor, promittens per me meosque heredes deffendere eas, cum
+					omnibus superpositis et pertinenciis earum, vobis vestrisque heredibus ab omni
+					contradicente persona cum ratione vel restaurare in bonis meis propriis, que ad
+					hoc obligo, prout tunc valuerit, in arbitrio bonorum hominum, si deffendere non
+					possem ego et heredes mei. Item constituimus ut pensionem <measure
+						unit="solidus" quantity="20">XX soldorum</measure> alteri parti solvere
+					teneatur, rato manente pacto, quicumque nostrum vel nostrorum heredum unquam
+						tollere<note xml:id="CCCCXI_n_002" n="b" place="foot">
+						<term xml:lang="latin">tollere</term>: t <emph>corretto su precedente
+							lettera.</emph></note> vel laxare vel contra hoc, quod superius legitur,
+					in aliquo facere presumpserit.</p>
+				<p xml:id="CCCCXI_p_002">Actum <placeName ref="#Sarzana">Sarzani</placeName>, in
+					apotheca filiorum quondam <persName ref="#Villanus">Villani</persName>,
+					sollempni cum stipulatione. Ibi fuerunt rogati testes <persName
+						ref="#SuscariusTrebiano">Suscarius de <placeName ref="#Trebiano"
+							>Trebiano</placeName></persName>, <persName ref="#AbraciatusPonzano"
+						>Abraciatus de <placeName ref="#Ponzano">Ponzano</placeName></persName> et
+						<persName ref="#DuransValmoro">Durans de <placeName ref="#Valmoro"
+							>Valmoro</placeName></persName> et quidam alii.</p>
+				<p xml:id="CCCCXI_p_003">Ego <persName ref="#Confortusnot">Confortus,
+							<roleName>sacri palacii et Lunensis curie
+					notarius</roleName></persName>, hiis interfui et rogatus scripsi.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXVIII_135">
+    <front xml:id="CXVIII_front">
+
+      <titlePart type="numerazioneNuova">135</titlePart>
+      <titlePart type="numerazioneOrig">CXVIII</titlePart>
+
+      <docDate xml:id="CXVIII_docDate">
+        <date when="1232-08-25">1232 agosto 25</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">castro Sarzane, in camera veteri domini
+          episcopi</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXVIII_regesto">
+        <p>Guglielmo, vescovo di Luni, loca a Guido Biteccio, che riceve come dote di sua nuora
+          Riccadonna, figlia del fu Bonacatto, e anche a nome del marito di lei Fosdenoccio, tutti i
+          beni posseduti da Bonacatto. La locazione costa 100 soldi di imperiali. Guido si impegna
+          ad abitare nel <term xml:lang="latin">castrum</term> di Sarzana e ad esserne castellano
+          fino a che Riccadonna e Fosdenoccio non avranno l’età per essere a loro volta
+          castellani.</p>
+      </div>
+
+      <div type="footer" xml:id="CXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 226v., c. CCXVIIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 118,
+            pp. 152-153.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXVIII_div">
+        <p xml:id="CXVIII_p_001" n="1"><pb n="226v" xml:id="fol_226v"/>In Christi nomine, amen. Anno
+          a nativitate Ipsius <date when="1232-08-25">M°CC°XXXII, indictione V, VIII° kalendas
+            septembris</date>. Venerabilis pater dominus <persName ref="#GuilEpLuni">Guilielmus, Dei
+            gratia <roleName>Lunensis episcopus</roleName></persName>, dedit et locavit <persName
+            ref="#GuidoBiteccio">Guidoni Biteccio</persName>, recipienti nomine <persName
+            ref="#RiccadonnaBonacapti">Riccadonne, filie quondam <persName ref="#Bonacaptus"
+              >Bonacapti</persName></persName>, sponse <persName ref="#FosdenoctusGuidonis"
+              >Fosdenoctii<note place="foot" n="a" xml:id="CXVIII_n_001"><term xml:lang="latin"
+                >Fosdenoctii</term>: s <emph>in sopralinea.</emph></note>, filii ipsius <persName
+              ref="#GuidoBiteccio">Guidonis</persName></persName>, et nomine dotis suprascripte
+            <persName ref="#RiccadonnaBonacapti">Riccado<supplied reason="omitted"
+            >n</supplied>ne</persName> et pro ipso suo filio recipienti, totum et universum podere
+          quondam suprascripti <persName ref="#Bonacaptus">Bonacapti</persName>, ita quidem ut amodo
+          perpetuo suprascriptus <persName ref="#GuidoBiteccio">Guido</persName> pro ipsis <persName
+            ref="#RiccadonnaBonacapti">Riccadonna</persName> et <persName ref="#FosdenoctusGuidonis"
+            >Fosdenoccio</persName> et ipsi <persName ref="#RiccadonnaBonacapti"
+            >Riccadonna</persName> et <persName ref="#FosdenoctusGuidonis">Fosdenoccius</persName>
+          eorumque heredes ex ea legitime descendentes suprascriptum totum podere, ubicumque sit vel
+          decurrat, iaceat vel reperiatur, tam in agris quam cultis, divisim et non divisim, in
+          domibus, capaneis, in villis et castellis seu alias, in integrum, cum omni iure, actione,
+          accessu et regressu, superioribus et inferioribus, et aliis pertinenciis suis, sicut olim
+          per ipsum <persName ref="#Bonacaptus">Bonacaptum</persName> fuit habitum et detentum,
+          habeant, teneant, fruantur et possideant, sine contradictione suprascripti domini episcopi
+          et suorum successorum. Et promisit idem dominus episcopus suprascripto <persName
+            ref="#GuidoBiteccio">Guidoni</persName>, recipienti pro suprascriptis <persName
+            ref="#RiccadonnaBonacapti">Riccadonna</persName> et <persName ref="#FosdenoctusGuidonis"
+            >Fosdenuccio</persName> eorumque heredibus, ut dictum est, in perpetuum suprascriptum
+          podere in toto, sicut superius legitur, rationabiliter deffendere atque exbrigare et
+          auctorizari adversus quamcumque personam et locum ab omni persona et loco; quod, si non
+          faceret vel non posset facere, dabit salvum cambium eis in bonis sui episcopatus loco
+          consimili, sub estimatione bonorum hominum, secundum quod pro tempore valuerit vel fuerit
+          melioratum; et dedit ei licenciam intrandi tenutam, sua auctoritate, de suprascripto
+          podere pro suprascriptis <persName ref="#RiccadonnaBonacapti">Riccadonna</persName> et
+            <persName ref="#FosdenoctusGuidonis">Fosdenuctio</persName>, constituendo se pro eis
+          possidere donec tenutam fuerit apprehensus; et fuit confessus suprascriptus dominus
+          episcopus se recepisse huius dati et locationis a suprascripto <persName
+            ref="#GuidoBiteccio">Guidone</persName>, dante et solvente pro suprascriptis <persName
+            ref="#RiccadonnaBonacapti">Riccadonna</persName> et <persName ref="#FosdenoctusGuidonis"
+            >Fosdenuctio</persName>, <measure type="imperiales" quantity="100" unit="denarius"
+            >soldos C bonorum denariorum imperialium</measure>, renunciando exceptioni non numerate
+          vel non recepte pecunie. Unde promisit ipse dominus episcopus ipsi <persName
+            ref="#GuidoBiteccio">Guidoni</persName>, recipienti pro suprascriptis <persName
+            ref="#RiccadonnaBonacapti">Riccadonna</persName> et <persName ref="#FosdenoctusGuidonis"
+            >Fosdenuctio</persName>, hanc cartam et omnia et singula que in ipsa leguntur perpetuo
+          attendere, observare, facere, adimplere et nullo tempore contravenire, obligando se
+          suosque successores atque fructus episcopatus usque in valorem suprascripti poderis et
+          eius tocius quod in questionem deduceretur. Ipse vero <persName ref="#GuidoBiteccio"
+            >Guido</persName>, obligando se suosque heredes et omnia sua, promisit et convenit
+          suprascripto domino episcopo, recipienti pro se suisque successoribus atque episcopatu,
+          quod stabit et habitabit in <placeName ref="#Sarzanello">castro Sarzane</placeName> et
+          erit inde <roleName>castellanus</roleName> nomine suprascriptorum <persName
+            ref="#RiccadonnaBonacapti">Riccadonne</persName> et <persName ref="#FosdenoctusGuidonis"
+            >Fosdenuccii</persName> quousque ipsi <persName ref="#RiccadonnaBonacapti"
+            >Riccadonna</persName> et <persName ref="#FosdenoctusGuidonis">Fosdenuccius</persName>
+          erunt in etate standi per se, atque ipsi <persName ref="#RiccadonnaBonacapti"
+            >Riccadonna</persName> et <persName ref="#FosdenoctusGuidonis">Fosdenuccius</persName>
+          et ipse <persName ref="#FosdenoctusGuidonis">Fosdenuccius</persName> pro ipsa <persName
+            ref="#RiccadonnaBonacapti">Riccadonna</persName> et eorum heredes in perpetuum erunt
+          castellani et habitabunt in ipso castro pro ipso podere et facient inde et reddent atque
+          prestabunt omnia servicia, redditus, pensiones et ambassariam, que ex ipso vel pro ipso
+          podere dari, reddi vel prestari seu solvi debent et solent; alia superimposita inde non
+            fiant<note place="foot" n="b" xml:id="CXVIII_n_002"><term type="incerto">fiant</term>:
+              <emph>così nel testo</emph>.</note>, salvo iure omnium personarum illud in ipso podere
+          habentium.</p>
+        <p xml:id="CXVIII_p_002" n="2">Actum in <placeName ref="#Sarzanello">castro
+            Sarzane</placeName>, in camera veteri suprascripti domini episcopi, feliciter,
+          presentibus <persName ref="#PaganinusBoni">Paganino quondam Boni</persName>, <persName
+            ref="#BandinetusGuilielmiRubei">Bandineto quondam Guilielmi Rubei</persName>, <persName
+            ref="#GibertinusCoalimi">Gibertino Coalimi</persName> et <persName ref="#Ballionus"
+            >Balliono eius filio</persName>, testibus ad hec vocatis.</p>
+        <p xml:id="CXVIII_p_003" n="3"><ptr target="#CXVIII_st_001"/> Ego <persName
+            ref="#IacopinusTalliavachanot">Iacobinus, qui nominor Talliavacha, <roleName>palacii
+              sacri notarius</roleName></persName>, hiis interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

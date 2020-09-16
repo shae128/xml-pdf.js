@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXVII_478">
+    <front xml:id="DXVII_front">
+
+      <titlePart type="numerazioneNuova">478</titlePart>
+      <titlePart type="numerazioneOrig">DXVII</titlePart>
+
+      <docDate xml:id="DXVII_docDate">
+        <date from="1181-10-17" to="1188-10-17"><supplied>1181-1188</supplied>ottobre 17</date>,
+          <placeName ref="#Sarzanello">Sarzanello</placeName> (<term xml:lang="latin">in palacio
+          castri Sarzane</term>) </docDate>
+
+      <div type="regesto" xml:id="DXVII_regesto">
+
+        <p> Lombardello del fu Peregrino di Burcione cede al vescovo di Luni Pietro la parte che gli
+          spetta nel castello della Brina e nel suo distretto e che detiene in quanto allodio e
+          terza parte del podere del padre; il vescovo gli restituisce tutto in feudo, aggiungendo
+          tre giove di terra nel medesimo luogo. Lombardello giura fedeltà al vescovo contro tutti
+          eccetto contro i marchesi Malaspina e così dovrà fare anche suo figlio.</p>
+
+      </div>
+
+      <div type="footer" xml:id="DXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 384v.-385r., cc. CCCLXXVIv.-CCCLXXVIIr. secondo la numerazione
+            originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressochè integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 517, pp. 561-562</p>
+        </div>
+
+        <div type="crit_notes">
+          <note><p>La data pone qualche problema (Cfr. <ref target="#MAZZINI_1914">MAZZINI
+                1914</ref>, p. 34) in quanto nel 1188 il 17 ottobre cadeva di lunedì e non <term
+                xml:lang="latin">die sabbati</term> e l’indizione romana (usata di solito dal notaio
+              Lombardo) era la VI e non la VII, come indicato nel documento; nel periodo in cui il
+              notaio Lombardo è attestato, il 17 ottobre cadeva di sabato nel 1181 (indizione XIV),
+              1187 (indizione V) e 1192 (indizione X). Tuttavia, se prendiamo come validi i dati
+              dell’indizione e del giorno della settimana, si può ipotizzare due errori di copiatura
+              per l’anno (<term xml:lang="latin">M°C octogesimoIIII</term>, invece che <term
+                xml:lang="latin">M°C octogesimoVIII</term>) e per il giorno (<term xml:lang="latin"
+                >XIII</term> invece che <term xml:lang="latin">XVI kalendas novembris</term>). Nel
+              dubbio proponiamo un arco temporale ampio.</p><p> Nel margine esterno di c. 384v., di
+              mano moderna, la seguente annotazione</p>: <term xml:lang="latin">Brina</term>
+          </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXVII.
+              Donatio quam fecit Lumbardellus de Burçono condam Peregrini domino P(etro), Lunensi
+              episcopo, de parte sua castri Brine et pertinentiarum</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXVII_div">
+        <p xml:id="DXVII_p_001" n="1"> In eterni Dei nomine, amen. Sit notum tam presentibus quam
+          futuris quod <persName ref="#LombardellusPeregrini">Lombardellus de <placeName
+              ref="#Burcione">Burtione</placeName></persName>, <persName ref="#PeregrinusBurtione"
+            >filius quondam Peregrini </persName>, cessit, dedit, transtulit, obtulit et in
+          offersionem et donationem dedit domino <persName ref="#PetrusEpLuni">Petro, <roleName>Dei
+              gratia Lunensi episcopo</roleName></persName>, pro ecclesia Lunensi, et eidem ecclesie
+          Lunensi in manu eiusdem domini episcopi, id est partem quam ipse <persName
+            ref="#LombardellusPeregrini">Lombardellus </persName> habet sive partem que ad ipsum
+          Lombardellum pertinere debet in castro <placeName ref="#Brina"> Brine </placeName> seu de
+          ipso castro <placeName ref="#Brina">Brine </placeName> et in districtu seu confinibus
+          eiusdem castri, quod siquidem est suum alodium sive eius proprietas, quod <pb n="385r"
+            xml:id="fol_385r"/> siquidem sane intelligendum est tercia pars de podere toto quod fuit
+          quondam <persName ref="#PeregrinusBurtione">Peregrini de <placeName ref="#Burcione"
+              >Burtione </placeName>
+          </persName>, genitoris eiusdem <persName ref="#LombardellusPeregrini"
+            >Lombardelli</persName>, in ipso castro <placeName ref="#Brina">Brine </placeName>sive
+          eius districtu vel pertinenciis, et etiam plus, si quid quovis ingenio in eisdem locis
+          pertinet ad ipsum <persName ref="#LombardellusPeregrini">Lombardellum </persName>de suo
+          alodio sive de sua proprietate. Totam ipsam iamscriptam partem <persName
+            ref="#LombardellusPeregrini">Lombardellus</persName> totumque alodium quod ad eum
+          pertinet in eodem castro et pertinenciis in integrum, cum accessibus et regressibus suis,
+          cum superioribus et inferioribus, ipse <persName ref="#LombardellusPeregrini"
+            >Lombardellus</persName> iamscripte ecclesie Lunensi, in manu eiusdem domini episcopi et
+          eidem domino episcopo pro ipsa ecclesia cessit, dedit, transtulit, obtulit et in
+          donationem et offersionem dedit eidem ecclesie in usum, ius et proprietatem, actionibus
+          omnibus exinde traditis atque mandatis, faciendo exinde ipsa ecclesia sive ipse dominus
+          episcopus vel sui successores pro ipsa ecclesia iure proprietario quicquid facere
+          voluerit, sine omni eiusdem <persName ref="#LombardellusPeregrini">Lombardelli</persName>
+          suorumque heredum contradictione. Eodem autem die et loco prefatus dominus episcopus
+          reddidit, dedit et reinvestivit eidem Lombardello in feudum totum quod superius legitur et
+          addidit illi tres iuvas terre iuris episcopii in feudum in<note xml:id="DXVII_n_001" n="a"
+            >in: <emph>corretto su precedente scrittura</emph>.</note> locum dictum<note
+            xml:id="DXVII_n_002" n="b"><emph>Manca l’indicazione del luogo, spazio bianco per mm. 20
+              colmato con tratto orizzontale</emph>.</note> et reinvestivit illum <persName
+            ref="#LombardellusPeregrini">Lombardellum </persName>de suo dericto<note
+            xml:id="DXVII_n_003" n="c">dericto: <emph>così nel testo</emph>.</note> feudo, et ipse
+            <persName ref="#LombardellusPeregrini">Lombardellus </persName> iuravit fidelitatem
+          domino episcopo contra omnes homines, excepto <name type="familia" ref="#MalaspinaFamilia">
+            <roleName>marchionibus</roleName> Malaspine </name>, et filius eiusdem <persName
+            ref="#LombardellusPeregrini">Lombardelli </persName> debebit iurare fidelitatem Lunensi
+          episcopo contra omnes homines et adiuvare retinere comitatum et episcopatum et in sua
+          terra adiuvare contra omnes homines; set, si forte dominus episcopus Lunensis, quod absit,
+          guerram habuerit cum <name type="familia" ref="#MalaspinaFamilia"><roleName>marchionibus </roleName>
+            Malaspine</name>, non teneatur esse cum episcopo ad malefaciendum filiis <name
+              type="familia" ref="#MalaspinaFamilia">Malaspine </name>de honore seu de podere. </p>
+        <p xml:id="DXVII_p_002" n="2">Actum est hoc <date from="1181-10-17" to="1188-10-17">anno M°C
+            octogesimoVIII, indictione VII, die sabbati, qui fuit XVI kalendas novembris </date>, in
+          palacio <placeName ref="#Sarzanello"> castri Sarzane </placeName>.</p>
+        <p xml:id="DXVII_p_003" n="3"># Signa manuum iamscripti domini episcopi et iamscripti
+            <persName ref="#LombardellusPeregrini">Lombardelli </persName>, qui hanc cartulam fieri
+          rogaverunt. # # Signa manuum magistri <persName ref="#Garch"> G. <roleName>Lunensis
+              archipresbyteri</roleName></persName>, <persName ref="#AttoFaucenova">Attonis de
+              <placeName ref="#Faucenova"> Faucenova </placeName></persName>,<persName
+            ref="#AttoRibello"> Attonis de <placeName ref="#Ribello">Ribello</placeName></persName>,
+            <persName ref="#PalmeriusTrebiano">Palmerii de <placeName ref="#Trebiano"
+              >Trebiano</placeName></persName>, <persName ref="#GrecusPalmerii">Greci eiusdem
+            Palmerii filii </persName>, <persName ref="#RibaldusIuvagallo">Ribaldi de <placeName
+              ref="#Zovagallo">Iuvagallo</placeName></persName>, <persName ref="#AldebertusFulcerio"
+            >Aldeberti de Fulcerio</persName>, <persName ref="#HubertinusPorta">Ubertini de la
+              <placeName ref="#Porta">Porta</placeName></persName>, rogatorum testium.</p>
+
+        <p xml:id="DXVII_p_004" n="4">
+          <ptr target="#DXVII_st_001"/> Ego <persName ref="#Lombardusnot">Lombardus</persName>,
+            <roleName>domini imperatoris et Lunensis curie notarius </roleName>, interfui et rogatus
+          hanc cartulam scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

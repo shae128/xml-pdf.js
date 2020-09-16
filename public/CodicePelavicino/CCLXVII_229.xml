@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXVII_229">
+    <front xml:id="CCLXVII_front">
+
+      <titlePart type="numerazioneNuova">229</titlePart>
+      <titlePart type="numerazioneOrig">CCLXVII</titlePart>
+
+      <docDate xml:id="CCLXVII_docDate">
+        <date when="1096-03">1096 marzo</date>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXVII_regesto">
+        <p>Patti stipulati fra Filippo, vescovo di Luni, e gli uomini che abitano nel <term
+            xml:lang="latin">castrum</term> di Monleone. Il vescovo promette di non imporre alcuna
+            <term xml:lang="latin">malam consuetudinem</term> all’interno del distretto del castello
+          e di non immettere alcun castellano se non eletto da quattro uomini della <term
+            xml:lang="latin">villa</term> di Marciano. I danni e le offese che sono attuati entro il
+          distretto devono essere emendati dal colpevole entro trenta giorni dalla notifica, eccetto
+          i reati gravi, quali tradimento, incendio, omicidio e offesa alla persona del vescovo.
+          Infine il vescovo dà agli uomini di Marciano due case entro il castello suddetto e, sia a
+          loro, sia agli abitanti di quest’ultimo, il permesso di cacciare da <term xml:lang="latin"
+            >Pesiola</term> fino a <term xml:lang="latin">Micoria</term>.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 270r.-270v., cc. CCLXIIr.-CCLXIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 267,
+            pp. 246-247.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>La datazione segue il sistema dell’incarnazione, ma è impossibile stabilire se
+            secondo lo stile pisano o fiorentino; nel primo caso il documento sarebbe stato redatto
+            dal 1° al 24 marzo, nel secondo dal 25 al 31 del medesimo mese.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXVII_div">
+        <p xml:id="CCLXVII_p_001" n="1"><date when="1096-03">Anno ab incarnatione Domini nostri
+            Ihesu Christi millesimo nonagesimo sexto, mense marcio, indictione IIIIa</date>. Ego
+            <persName ref="#PhilippusEpLuni2">Philippus, <roleName>episcopus</roleName> episcopii
+            sancte Marie Lunensis ecclesie</persName>, ab hac die in antea promitto omnibus
+          hominibus, qui in <placeName ref="#MonteLeone">castro de Monte Leonis</placeName>
+          castellant vel castellaverint <pb n="270v" xml:id="fol_270v"/> et ibi convenerint et
+          habitaverint, quod nullum malum usum nec malam consuetudinem eis imponam, nec per ullum
+            forstectum<note xml:id="CCLXVII_n_001" n="a" place="foot"><term type="incerto"
+              >Forstectum</term>: <emph>così nel testo forse per forfactum</emph>.</note> quod in
+          alia parte fecerint, malum meritum recipere debent neque de suis personis neque de suo
+          habere neque de sua commendatione, nec ipsi nec eorum heredes nec proheredes, neque per me
+          neque per meos successores, nec per nostros ministros nec per eorum sumitentes personas,
+          per fines et coherencias de <placeName ref="#Cernetorio">Cernetorio</placeName> usque
+            ad<note xml:id="CCLXVII_n_002" n="b" place="foot"><emph>Segue, abrasa e depennata, una
+              parola illeggibile</emph>.</note> pedem de <placeName ref="#MonteOrbulo">Monte
+            Orbulo</placeName> et usque ad <placeName ref="#Betigna">Betignam</placeName> et usque
+          ad rivum qui est ex altera parte castelli; et si evenerit quod infra istas coherencias
+          aliqua offensio facta fuerit alicui de illis, qui inf<supplied reason="omitted"
+            >r</supplied>a iamdictas coherencias habitaverint vel convenerint, postquam
+            requisitum<note xml:id="CCLXVII_n_003" n="c" place="foot"><term type="incerto"
+              >requisitum</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">requisitus</term>.</note> fuerit, infra triginta dies
+          emendaretur. Que omnia, absque omni mea et meorum successorum contradictione, observari
+          volumus, nisi illi qui fuerit in facto aut consilio de traditione castelli aut de aliqua
+          offensione in personam episcopi aut de incendio castelli aut de aliqua traditione infra
+          iamdictas coherencias aut de homicidio alicuius infra easdem coherencias; propter aliam
+          vero causam nullum malum meritum recipere debeat aliquis eorum vel ipsi vel eorum heredes
+          ac proheredes infra iamdictos terminos. Et similiter promitto ego qui supra <persName
+            ref="#PhilippusEpLuni2">Philippus <roleName>episcopus</roleName></persName> quod nec ego
+          nec mei successores aliquem <roleName>castellanum</roleName> in iamdicto castello
+          mittemus, nisi per electionem IIIIor hominum de villa de <placeName ref="#Marciano"
+            >Marciano</placeName><note xml:id="CCLXVII_n_004" n="d" place="foot"><term
+              xml:lang="latin">Marciano</term>: c <emph>corretta su</emph> t.</note>; et similiter
+          spondeo ego qui supra <persName ref="#PhilippusEpLuni2">Philippus
+              <roleName>episcopus</roleName></persName> et mei successores vobis omnibus et vestris
+          heredibus ac proheredibus quod, si hoc non adimpleverimus sicut supra legitur, tunc
+          obligamus componere penam de <measure quantity="100" unit="lire">auro optimo libras
+            C</measure>. Et super hec omnia, si nos vel aliquis de nostris successoribus vel aliquis
+          homo, quicumque sit, aliqua ductus cupiditate aut ira, aliquid de hiis omnibus, que
+          iamscripta sunt, irricipere tentaverit et observare noluerit, sit maledictus et
+          anathematizatus a Deo patre omnipotente et a Beata Maria semper Virgine et a sancto
+          Michaele archangelo cum omni choro angelorum et a beato Petro cum omni choro apostolorum
+          et a beato Stephano cum omni choro martirum et a beato Silvestro cum omni choro
+          confessorum et a beata Agatha cum omni choro virginum et ab omnibus sanctis Dei sit
+          maledictus in civitate, in castello, in platea, in vico et in agro et in omnibus locis
+          ambulando, vigilando, dormiendo et omnia opera sua faciendo; sit maledictus cum Anania et
+          Safira, qui pro furata pecunia consumpti sunt; sit maledictus cum Chore, Dathan et Abyron,
+          quos vivos terra absorbuit. Et ego qui supra <persName ref="#PhilippusEpLuni2">Philippus
+              <roleName>episcopus</roleName></persName> do iamscriptis omnibus hominibus de
+            <placeName ref="#Marciano">Marciano</placeName> duas casas intus iamscripto castro et
+          habere licenciam caciandi ipsi et qui in iamscripto castello habitaverit per finem de
+            <placeName ref="#Pesiola">Pesiola</placeName> usque in <placeName ref="#Micoria"
+            >Micoria</placeName>.</p>
+        <p xml:id="CCLXVII_p_002" n="2">Ego <persName ref="#PhilippusEpLuni2">Philippus
+              <roleName>episcopus</roleName></persName> subscripsi.</p>
+        <p xml:id="CCLXVII_p_003" n="3">Ego <persName ref="#Ugoarc">Ugo
+              <roleName>archidiaconus</roleName></persName> subscripsi.</p>
+        <p xml:id="CCLXVII_p_004" n="4">Ego<note xml:id="CCLXVII_n_005" n="e" place="foot"><term
+              xml:lang="latin">Ego</term><emph>: manca l’indicazione del nome</emph>.</note>
+          Lunensis prepositus subscripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

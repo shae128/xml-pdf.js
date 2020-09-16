@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="XXXVI_65">
+        <front xml:id="XXXVI_front">
+            <titlePart type="numerazioneNuova">65</titlePart>
+            <titlePart type="numerazioneOrig">XXXVI</titlePart>
+            <docDate xml:id="XXXVI_docDate">
+                <date when="1259-06-04">1259 giugno 4</date>, <placeName>Sarzana (<term
+                        xml:lang="latin">Sarzane, in ecclesia Sancte Marie</term>).</placeName>
+            </docDate>
+            <div type="regesto" xml:id="XXXVI_regesto">
+                <p> Il podestà di Sarzana Uberto Catrengnella di Lucca ed il consiglio del medesimo
+                    comune nominano loro procuratore il notaio Simonetto del fu Aldebrandino di
+                    Sarzana, per rappresentarli all’arbitrato del cardinale Ottobono di Sant’Adriano
+                    nella vertenza che li vede opporsi al vescovo di Luni Guglielmo. </p>
+            </div>
+            <div type="footer" xml:id="XXXVI_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] cc. 120r.-120v., cc. CXIIr.-CXIIv. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#PODESTÀ_1893">PODESTA’ 1893</ref>, p.
+                        6.</p>
+                    <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>n. 36,
+                        pp. 51-52.</p>
+                </div>
+                <div type="crit_notes">
+                    <note> Il documento si trova inserto anche nei documenti n. 66-XXXVII e
+                        68-XXXVIIII. </note>
+                    <note> Nel margine interno di c. 120r., di mano moderna: <term xml:lang="latin"
+                            >Compromissum factum per homines communis Sarzane et episcopum Lunensem
+                            in Octobonum cardinalem de omnibus suis diferentiis</term>. </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">XXXVI. Sindicatus de Sarçana.</term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="XXXVI_div">
+                <pb n="120r" xml:id="fol_120r"/>
+                <p xml:id="XXXVI_p_001" n="1"> In nomine Domini, amen. <date when="1259-06-04">Anno
+                        a nativitate Eius millesimo ducentesimo quinquagesimo nono, indictione
+                        secunda, die mercurii, quarto intrantis mensis iunii. </date>
+                    <roleName>Dominus</roleName>
+                    <persName ref="#UbertusCatrengnella">Ubertus Catrengnella</persName> de
+                        <placeName ref="#Lucca">Luca</placeName>, <roleName>potestas</roleName>
+                    <placeName ref="#Sarzana">Sarzane</placeName>, cohadunato consilio <orgName ref="#Sarzana_comune">communis</orgName>
+                        <placeName ref="#Sarzana">Sarzane</placeName> in <orgName
+                        ref="#Sarzana_S_Maria">ecclesia Sancte Marie</orgName>, more solito, per
+                    trinum sonum campane, ad quod consilium interfuerunt infrascripti consiliarii,
+                    videlicet <roleName>dominus</roleName>
+                    <persName ref="#Opecinusiud">Opecinus</persName>
+                    <roleName>iudex</roleName>, <roleName>dominus</roleName>
+                    <persName ref="#Gavarinus">Gavarinus</persName>, <persName ref="#Guicellus_cons"
+                        >Guicellus</persName>, <persName ref="#PosaBendecase">Posa quondam
+                        Bendecase</persName>, <persName ref="#Testafortenot">Testafortis</persName>
+                    <roleName>notarius</roleName>, <persName ref="#HenricusFalcinello">Enricus de
+                            <placeName ref="#Falcinello">Falcinello</placeName></persName>,
+                        <persName ref="#Bontalentus">Bontalentus</persName>, <persName
+                        ref="#GerardinusSavignoni">Gerardinus Savignoni</persName>, <persName
+                        ref="#MartinusRaynerii_cons">Martinus quondam Rainerii</persName>, <persName
+                        ref="#BondiesPetorialis">Bondies Peccuralis</persName>, <persName
+                        ref="#Vita_sartor">Vita</persName>
+                    <roleName>sartor</roleName>, <persName ref="#Lambertus">Lanbertus</persName>,
+                        <persName ref="#Pellerius_cons">Pellerius</persName>, <persName
+                        ref="#Hengeramus_consiliarius">Engeramus</persName>, <persName
+                        ref="#Albertucius_cons">Albertucius</persName>, <persName
+                        ref="#GuilielmusMartini_cons">Guilielmus Martini</persName>, <persName
+                        ref="#Piccolbonus_cons">Piçolbonus</persName>, <persName
+                        ref="#BonaiunctaCorviaco">Bonaiuncta de <placeName ref="#Corviaco"
+                            >Corviaco</placeName></persName>, <persName ref="#Riçardus"
+                        >Ricchardus</persName> atque <persName ref="#Pancerinus_cons"
+                        >Pancerinus</persName>, atque ipsi consiliarii cum eo, nomine atque vice
+                    communis <placeName ref="#Sarzana">Sarzane</placeName> atque universitatis dicti
+                    loci, fecerunt, constituerunt atque creaverunt <persName ref="#Simonetusnot"
+                        >Symonettum</persName>
+                    <roleName>notarium</roleName>
+                    <persName ref="#Simonetusnot">quondam Aldebrandini</persName> de <placeName
+                        ref="#Sarzana">Sarzana</placeName>, presentem atque suscipientem, dicti
+                    communis atque universitatis sindicum, procuratorem et actorem ad
+                    compromittendum in venerabilem patrem <roleName>dominum</roleName>
+                    <persName ref="#Ottobonuscard">Octobonum</persName>, <orgName
+                        ref="#S_Adriano_Foro">Sancti Adriani</orgName>
+                    <roleName>dyaconum cardinalem</roleName>, tanquam in arbitrum atque arbitratorem
+                    atque amicabilem compositorem de omnibus littibus atque discordiis atque
+                    questionibus, quas dictum commune habet cum venerabili patre
+                        <roleName>domino</roleName>
+                    <persName ref="#GuilEpLuni">Guilielmo</persName>, Lunensi episcopo, suo atque
+                        <supplied reason="illeggibile">episcopa</supplied>tus<note place="foot"
+                        n="a" xml:id="XXXVI_n_001"><emph>La pergamena è consunta.</emph></note>
+                    Lunensis nomine, et de quibus pendet questio coram domino papa atque etiam coram
+                    ipso domino cardinale, auttoritate domini pape, atque ad penam et penas
+                    promittendas et stipulandas et ad obligandum ipsum commune et eius bona et ad
+                    recipiendum promissiones, obligationes et stipulationes ab ipso domino episcopo,
+                    pro se et dicto episcopatu, atque ad agendum et deffendendum, opponendum,
+                    replicandum et ad dandum cautiones et fideiussores pro ipso communi de rato
+                    habendo et iudicato solvendo et ad sententiam audiendum atque ad prestandum
+                    iuramentum super ipsis attendendis et observandis in animas eorum; ad
+                    renunciandum beneficio restitutionis in integrum et appellationibus et litteris,
+                    impetratis et impetrandis, atque quod non possint petere ipsum arbitrium reduci
+                    ad arbitrium boni viri, et omnibus aliis iuribus, consuetudinibus, privilegiis,
+                    quibus super hiis se tueri possent, et ad emologandum arbitrium et ad omnia
+                    faciendum que in predictis et circa ea fuerint facienda et que specialis et
+                    verus sindicus et procurator facere potest, promittentes dicta potestas atque
+                    consiliarii se ratos atque firmos habituros totum et quicquid per dictum
+                    sindicum seu procuratorem in predictis et circa ea et quolibet predictorum
+                    factum fuerit, sub ypotheca et obligatione bonorum dicti communis. <pb n="120v"
+                        xml:id="fol_120v"/>
+                </p>
+                <p xml:id="XXXVI_p_002" n="2"> Actum <placeName ref="#Sarzana">Sarzane</placeName>,
+                    in <orgName ref="#Sarzana_S_Maria">ecclesia Sancte Marie</orgName>, presentibus
+                        <persName ref="#Accinus_nuncius">Accino</persName>, <persName
+                        ref="#Bonavita">Bonavita</persName> et <persName ref="#Rubeus_nuncius"
+                        >Rubeo</persName>, <roleName>nunciis et correriis</roleName> dicti communis,
+                    et <persName ref="#MarchexellusBonacapti">Marchexello Bo<supplied
+                            reason="omitted">na</supplied>capti<note place="foot" n="b"
+                            xml:id="XXXVI_n_002">Bo<supplied reason="omitted">na</supplied>capti:
+                                <emph>per integrazione cfr. doc. 66
+                        (XXXVII).</emph></note></persName> de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>, testibus ad hec rogatis. </p>
+                <p xml:id="XXXVI_p_003" n="3">
+                    <ptr target="#XXXVI_st_001"/> Ego <persName ref="#Aldebrandinusnot"
+                        >Aldebrandinus</persName>, domini <persName ref="#RoffinusLomello">Roffini comitis de <placeName ref="#Lomello"
+                            >Lomello</placeName></persName>
+                    <roleName>notarius</roleName>, hiis interfui atque, rogatus, scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

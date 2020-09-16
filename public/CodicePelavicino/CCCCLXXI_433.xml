@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXXI_433">
+    <front xml:id="CCCCLXXI_front">
+
+      <titlePart type="numerazioneNuova">433</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXI</titlePart>
+
+      <docDate xml:id="CCCCLXXI_docDate">
+        <date from="1182-01-07" to="1182-01-08">&lt;1182&gt; gennaio &lt;7 e 8&gt;</date>,
+          <placeName>Sarzana (<term xml:lang="latin">in ecclesia Sancti Basilii, in burgo
+            Sarzane</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXXI_regesto">
+        <p>Dato che Aldeberto di P(ontremoli) e Ri. figlio del fu Guglielmo non si sono presentati a
+          giudizio entro i termini indicati, vengono eletti arbitri Aldeprando vicedomino e Gerardo
+          di Vallecchia. Costoro sentenziano che il vescovo di Luni possa cedere con investitura o
+          livello il bosco <emph>Vinaro</emph> e la corte di Tivegna con il consiglio del castellano
+          di Tivegna, che i 10 soldi per i placiti siano del vescovo, così come i castellani, la
+          giustizia criminale (<term xml:lang="latin"><emph>forestum</emph></term>), i <term
+            xml:lang="latin"><emph>magistri</emph></term> e gli ambasciatori. Lo scario deve
+          ospitare il vescovo per non oltre due giorni e ricevere il vino al tempo della vendemmia
+          dalla caneva del castellano. Il vescovo può reclutare per guerra o guardia gli uomini
+          della corte e raccogliere vettovaglie se conduce un assedio. Il giorno successivo, il
+          vescovo, tramite suoi delegati, prende possesso della tenuta.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXXI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 360v.-361r., cc. CCCLIv.-CCCLIIr., secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 471,
+            pp. 477-479 con data 1202, corretta da <ref target="#MAZZINI_1914">MAZZINI 1914</ref> p.
+            31 al 1212.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>
+            <p>La datazione presenta numerosi problemi, perché non si legge bene e perché è
+              scorretta. Il Lupo Gentile ha letto 1202, ma l’anno contrasta con il P. vescovo citato
+              nel testo, oltre che con l’indizione XV. Per questo motivo il Mazzini ha suggerito il
+              1212, che però risolve solo il problema dell’indizione, non quello dei personaggi
+              citati, né dei giorni della settimana indicati nel corpo del documento. Gli elementi
+              datanti sono: l’anno con indizione XV, tre giorni (20 dicembre, 9 e 10 gennaio)
+              cadenti rispettivamente di domenica, giovedì e venerdì, la presenza del vescovo Pietro
+              e di alcuni personaggi identificabili.</p>
+            <p>Si propone la data del 1182 per i seguenti motivi: finisce con un II e ha una cifra
+              interna non leggibile come C (da qui la lettura proposta MC&lt;LX&gt;XXII). Il <term
+                xml:lang="latin">XIII kalendas ianuarii</term> (20 dicembre 1181) citato nel
+              documento cadeva di domenica; il 9 gennaio invece era di sabato, ma il notaio Prefetto
+              potrebbe aver scritto IX al posto di VII, scambiando le due II finali come una X, il
+              che renderebbe il <term xml:lang="latin">sequenti vero die</term> un venerdì. Il 1182
+              vede in attività non solo il vescovo Pietro, ma anche il notaio Lombardo, redattore
+              della minuta, il vicedomino Aldeprando, il vicedomino Enrico, Parente di Vallecchia e
+              Peldricio di Soliera.</p>
+            <p>La stesura in <term xml:lang="latin">mundum</term> è databile tra il 1214 e il 1220
+              dalla presenza del vescovo Marzucco.</p>
+            <p>La parte iniziale del documento è stata letta con l’ausilio della luce di Wood. Molti
+              nomi di persona sono abbreviati dal copista. Si è preferito non avanzare proposte di
+              scioglimento aleatorie o comunque opinabili. L'integrazione è stata inserita soltanto
+              quando lo scioglimento appare sicuro o assai probabile.</p>
+            <p>Nel margine superiore in posizione centrale: <term xml:lang="latin">De
+                Tivegnia</term>.</p>
+          </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXI. De proprietate Tivegne.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCLXXI_div">
+
+        <p xml:id="CCCCLXXI_p_002" n="2">In nomine Domini nostri Ihesu Christi, amen. <date
+            when="1182-01-07" next="dp2" xml:id="dp1">Anno MC<supplied reason="omitted"
+              >LX</supplied>XXII, indictione XV</date>, in <orgName ref="#Sarzana_S_Basilio"
+            >ecclesia Sancti Basilii</orgName>, in burgo <placeName ref="#Sarzana"
+            >Sarzane</placeName>, <date prev="dp1" xml:id="dp2">IX intrante ianuario</date>. Cum
+            <persName ref="#AldebertusPrimo">Aldebertus de <expan>P<ex>ontremul</ex>o</expan><note
+              place="foot" n="a" xml:id="CCCCLXXI_n_001">Pontremulo: <emph>lettura incerta; cfr.
+                  <ref target="#PAVONI_1987" type="biblio">PAVONI 1987</ref>, p. 33, n.
+              18.</emph></note>, filius condam Ti.</persName> , et <persName ref="#RiGui">Ri.,
+            filius condam Gui.</persName>, aliquociens essent appellati a <persName
+            ref="#PetrusEpLuni"><roleName>domino</roleName>
+            <expan>P<ex>etro</ex></expan>, <roleName>Dei gratia Lunensi
+            episcopo</roleName></persName>, et<note place="foot" n="b" xml:id="CCCCLXXI_n_002"><term
+              xml:lang="latin">et</term>: <emph>così nel testo forse per </emph><term
+              xml:lang="latin">ut</term>. </note> a certo <supplied reason="omitted"
+            >termino</supplied> venirent ad curiam ad se deffendendum de hiis que dominus episcopus
+          eis obiciebat, et cum etiam non venissent, terminis quibusdam sibi datis transactis,
+          tandem venientes ad curiam <placeName ref="#Sarzana">Sarzane</placeName> die dominico, qui
+          fuit <date when="1181-12-20">XIII kalendas ianuarii</date>, quibusdam presentibus, id est
+            <persName ref="#SyfreduciusBu">Syfreducio de <expan>Bu<ex>çano </ex></expan></persName>
+          et <persName ref="#Marabotus">Marabutus de <gap quantity="2" unit="chars"
+              reason="illegible"/></persName>. et <persName ref="#Bovisacan">Bovisa
+              <roleName>canonico</roleName></persName> et <persName ref="#Silcler">Sil.
+              <roleName>clerico</roleName></persName>, <persName ref="#BSarzana">B<gap quantity="4"
+              unit="chars" reason="illegible"/> de <placeName ref="#Sarzana"
+            >Sarzana</placeName></persName> et quibusdam aliis, pares in concordia, de fidelibus
+          curie eligerunt videlicet <persName ref="#Aldeprandusvic1"
+              ><expan>Al<ex>deprandum</ex></expan>
+            <roleName>vicedominum</roleName></persName> et dominus episcopus <persName
+            ref="#GerardusVallecla">Gerardum de <placeName ref="#Vallecchia1"
+            >Valecla</placeName></persName>, in quorum potestate et in quorum manibus per concordiam
+          inter eos se submiserunt cum pignore <measure type="Imperiales" quantity="1000"
+            unit="solidus">M soldorum imperialium</measure> per se et per totam suam domum sive per
+          omnes suos consortes <gap quantity="6" unit="chars" reason="illegible"/>cendo p<gap
+            quantity="2" unit="chars" reason="illegible"/>is ad <gap quantity="6" unit="chars"
+            reason="illegible"/>rem pre<gap quantity="8" unit="chars" reason="illegible"/> parium,
+          excepto <persName ref="#Tedaldus"><expan>Te<ex>daldo</ex></expan></persName>, per se
+          proximas venientes <gap quantity="11" unit="chars" reason="illegible"/> predicti pares
+          eorum vol<gap quantity="8" unit="chars" reason="illegible"/> fixerunt eis terminum secundo
+          die in<gap quantity="1" unit="chars" reason="illegible"/> ex <gap quantity="14"
+            unit="chars" reason="illegible"/> proxime venientis ut venirent apud burgum <placeName
+            ref="#Sarzana">Sarzane</placeName>, parati se deffendere super hiis que dominus
+          episcopus eis obicierit, ut in capitulis continetur que infra leguntur. Que autem <pb
+            n="361r" xml:id="fol_361r"/> capitula dominus episcopus eis presens ibidem obtulit
+          predictis paribus in scriptis, id est prelibatus dominus episcopus dicit quod debet facere
+          investituram et libellum de bosco <placeName ref="#Vinaro">Vinaro</placeName> et de curte
+            <placeName ref="#Tivegna">Tivegnia</placeName> cum consilio de castellano de <placeName
+            ref="#Tivegna">Tivegnia</placeName> si voluerit interesse, et placita <measure
+            type="Imperiales" quantity="10" unit="solidus">X soldorum</measure> et ultra sunt
+          propria episcopi et quod castellani sunt proprii episcopi et dicit quod forestum de
+            <placeName ref="#Tivegna">Tivegna</placeName> est proprium episcopi ad suam voluntatem
+          facere, et dicit quod magistri sunt proprii episcopi et quod proprie<note place="foot"
+            n="c" xml:id="CCCCLXXI_n_003"><term xml:lang="latin">proprie</term>: <emph>così nel
+              testo.</emph></note> habent feudum ex parte episcopi et ambaxiatores sunt proprii
+          episcopi et quod <term ref="#scarius">scarius</term> debet recipere episcopum de illo<note
+            place="foot" n="d" xml:id="CCCCLXXI_n_004"><term xml:lang="latin">illo</term>:
+              <emph>così nel testo per </emph><term xml:lang="latin">illa</term>.</note> curte,
+          quando vadit illuc et non facere ibi moram nisi per duos dies et quod debet habere vinum
+          clarum tempore vindemie de caneva castellani et quod episcopus debet ducere homines de
+          ipsa curte ad sturmum, ad assedium, ad aguaitum; et quando episcopus facit assedium debet
+          per nuncium suum colligere muntones per ipsam curtem et de spallis et de porcata et capita
+          porcorum et clunis capreolarum et alia que poterit ostendere. Et quoniam ad predictum
+          terminum predictus <persName ref="#AldebertusPrimo"
+            ><expan>Al<ex>debertus</ex></expan></persName> et <persName ref="#RiGui">Ri.</persName>
+          non venerint nec aliquis pro ipsis nec etiam aliquo modo contra mandaverint, et etiam
+          ultra terminum eos expectavimus duobus diebus, unde curia fuit valde gravata super hiis
+          que superius leguntur, nos predicti pares, id est <persName ref="#GerardusVallecla"
+                ><expan>Ge<ex>rardus</ex></expan></persName> et <persName ref="#Aldeprandusvic1"
+                ><expan>Al<ex>deprandus</ex></expan></persName> habito consilio a nostris comparibus
+          curie et ab aliis sapientibus et per usum curie talem protulimus sententiam, videlicet
+          quod dominus episcopus habeat a presenti die in antea omnia hec suprascripta, de quibus
+          eis obiciebat que superius leguntur et possideat in pace et quiete et eos in omnibus
+          predictis condempnamus et hoc dicimus per directam sententiam curie, presentibus <persName
+            ref="#GuimarchioMassa">Gui. <roleName>marchione</roleName> de <placeName ref="#Massa"
+              >Massa</placeName></persName>, filio condam <persName ref="#Ge">Ge.</persName>,
+            <persName ref="#GuiMontevia">Gui. de <placeName ref="#Montevia"
+            >Montevia</placeName></persName>, <persName ref="#UgolinusCasti">Ugolino de <placeName
+              ref="#Casti">Casti</placeName></persName>, <persName ref="#SyfreduciusBu">Syfreducio
+            de Bu.</persName>, <persName ref="#ConradusCorvaria">Conrado de <placeName
+              ref="#Corvaia">Corvaria</placeName></persName>, <persName ref="#ParensVallecla"
+            >Parente de <placeName ref="#Vallecchia1">Valecla</placeName></persName>, <persName
+            ref="#UgitoValecla">Ugitone de <placeName ref="#Vallecchia1"
+            >Valecla</placeName></persName>, <persName ref="#GeFauce">Ge.</persName> et <persName
+            ref="#MonFauce">Mon. de <placeName ref="#Fauce">Fauce</placeName></persName>, <persName
+            ref="#Henricusvic">Henrico <roleName>vice<supplied reason="omitted"
+              >domino</supplied></roleName></persName>, <persName ref="#BuldroneBur">Buldrone de
+                <expan>Bur<ex>cione</ex></expan></persName>, <persName ref="#GuiViano">Gui. de
+              <placeName ref="#Viano">Viano</placeName></persName>, <persName ref="#AttolinusGroppo"
+            >Attolino de <placeName ref="#GroppoSP">Groppo Sancti Petri</placeName></persName>,
+            <persName ref="#BonacursusMac">Bonacurso de Mac.</persName>, <persName
+            ref="#LevacastellusVul">Levacastello</persName> et <persName ref="#GeVul">Ge. de
+            Vul.</persName>, <persName ref="#VillanusRainerius">Villano Rainerio</persName>,
+            <persName ref="#CacciusPirasicca">Caccio Pirasicca de <placeName ref="#Sarzana"
+              >Sarzana</placeName></persName>, <persName ref="#Alivetus">Aliveto</persName>,
+            <persName ref="#Bullione">Bullione</persName>, <persName ref="#Balditio"
+            >Baldicione</persName> et <persName ref="#DuransSarzana">Durante de <placeName
+              ref="#Sarzana">Sarzana</placeName></persName>, <persName ref="#GrecusTe">Greco de
+            Te.</persName>, <persName ref="#PeldriciusSoleria">Peldricium<note place="foot" n="e"
+              xml:id="CCCCLXXI_n_005"><term xml:lang="latin">Peldricium</term>: <emph>così nel testo
+                per </emph><term xml:lang="latin">Peldricio</term></note> de <placeName
+              ref="#Soliera">Soleria</placeName></persName>, <persName ref="#GuerisinusRegnano"
+            >Guerisino de <placeName ref="#Regnano">Regnano</placeName></persName>, et<note
+            place="foot" n="f" xml:id="CCCCLXXI_n_006"><term xml:lang="latin">et</term>: <emph>così
+              nel testo forse per </emph><term xml:lang="latin">quod</term>.</note>
+          <persName ref="#Alineus">Alineum</persName> et <persName ref="#LevacastellusVul"
+            >Levacastellum</persName> dederunt qui mitterent dominum episcopum in tenutam.</p>
+
+        <p xml:id="CCCCLXXI_p_003" n="3">Sequenti vero die veneris <persName ref="#LevacastellusVul"
+            >Levacastellus</persName> et <persName ref="#Alineus">Alineus</persName>, sicut de
+          mandato predictorum parium acceperant, venerunt super quodam loco in curte de <placeName
+            ref="#Tivegna">Tivegnia</placeName> qui dicitur <placeName ref="#Posticio"
+            >Posticium</placeName> et <persName ref="#Parensvic">Parentem
+              <roleName>vicedominum</roleName></persName> miserunt in tenutam vice domini episcopi
+          scilicet in quemdam <persName ref="#AzolinusPicenini">Azolinum de <placeName
+              ref="#Posticio">Posticio</placeName>, filio condam Picenini</persName>, et in domum
+          quam habitat in eodem loco quem et ipse <persName ref="#Parensvic">Parens</persName>
+          extraxit de domo et intromisit per dominum episcopum. Et hec tenuta data est domino
+          episcopo per totum illud de quibus agebat contra predictum <persName
+            ref="#AldebertusPrimo"><expan>Al<ex>debertum</ex></expan></persName> et <persName
+            ref="#RiGui">Ri.</persName> et suos consortes, excepto <persName ref="#Tedaldus"
+            >Tedaldo</persName>, sicut superius legitur et sicut in hac carta superius continetur,
+          in testimonio <persName ref="#GuizolusVe">Guizoli de Ve.</persName>, <persName
+            ref="#BonensignaCarraria">Bonensigne de <placeName ref="#Carrara"
+                  ><expan>Car<ex>raria</ex></expan></placeName></persName>, <persName
+            ref="#NicholaFolo">Nichole de <placeName ref="#Folo">Folo</placeName></persName> et
+          aliorum quam plures.</p>
+        <p xml:id="CCCCLXXI_p_004" n="4">
+          <ptr target="#CCCCLXXI_st_001"/>Ego <persName ref="#Prefectusnot">Prefectus,
+              <roleName>domini imperatoris et Lunensis curie notarius</roleName></persName>, hanc
+          cartam quondam a <persName ref="#Lombardusnot">Lombardo
+            <roleName>notario</roleName></persName>, genitore meo, abreviatam et mihi illius
+          contractibus a Lunensi episcopo commendatis et commissis et ut ipsos contractus de
+          auctoritate Lunensis episcopi deberem et possem complere, visa sceda istius contracti,
+          nichil addens nec minuens, bona fide de auctoritate <persName ref="#MarzuccusEpLuni"
+              ><roleName>domini</roleName> Marzucci, <roleName>Lunensis
+            episcopi</roleName></persName>, complevi et scripsi et meo signo signavi.<note>Stesura
+              <emph>in mundum</emph> del documento n. 433-CCCCLXXI databile tra il 1214 e il 1220
+            dall’attestazione del vescovo Marzucco<date notBefore="1214-01-01" notAfter="1220-12-31"
+              cert="high"/></note></p>
+      </div>
+    </body>
+  </text>
+</TEI>

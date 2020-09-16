@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXXXVIII_260">
+    <front xml:id="CCLXXXXVIII_front">
+
+      <titlePart type="numerazioneNuova">260</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXXXVIII</titlePart>
+
+      <docDate xml:id="CCLXXXXVIII_docDate">
+        <date when="1237-03">1237 marzo</date>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXXXVIII_regesto">
+        <p>Statuti di Nicola ed Ortonovo.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXXXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 281v.-282r., cc. CCLXXIIIv.-CCLXXIIIIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 298,
+            pp. 273-275; <ref target="#CONTI_1979-1988">CONTI 1979-1988</ref>, I, doc. XVII, pp.
+            85-88.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel regesto Lupo Gentile data il documento al 1137, ma si tratta di un refuso
+            tipografico: cfr.<ref target="#MAZZINI_1914">Mazzini 1914</ref>, p. 21.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCLXXXXVIII. Cunstitutiones castri de Nicola.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXXXVIII_div">
+        <p xml:id="CCLXXXXVIII_p_001" n="1">In nomine sancte et individue Trinitatis, amen. Hee sunt
+          constitutiones quas <roleName>potestas</roleName> seu <roleName>consules</roleName>, qui
+          pro tempore fuerint in castro de <placeName ref="#Nicola">Nichola</placeName> et <placeName ref="#Ortonovo">Ortonovo</placeName>, iurabunt ad mandatum domini Lunensis
+          episcopi, qui pro tempore fuerit, firmiter et inviolabiliter observare.</p>
+        <p xml:id="CCLXXXXVIII_p_002" n="2">Ad honorem Dei et beate
+            Virginis Marie et domini <persName ref="#GuilEpLuni">Guilielmi, Dei gratia
+                <roleName>Lunensis episcopi</roleName></persName>, eiusque successorum, ego
+          <roleName>potestas</roleName> seu <roleName>consul</roleName> castri de <placeName ref="#Nicola">Nichola</placeName> et
+          <placeName ref="#Ortonovo">Ortonovo</placeName> iuro ad sancta Dei evangelia regere et salvare, bona fide et sine omni fraude,
+            omnes homines de districtu de <placeName ref="#Nicola">Nichole</placeName><note xml:id="CCLXXXXVIII_n_001" n="a" place="foot"
+                ><term type="incerto">Nichole</term>: <emph>così nel testo per</emph>
+              <term xml:lang="latin">Nichola</term>.</note> et <placeName ref="#Ortonovo">Ortonovo</placeName> a kalendis madii usque ad
+            unum annum et, ante meum exitum per VIII dies, de voluntate et consensu, et non aliter,
+            dicti domini episcopi vel eius successoris aut <roleName>castaldionis</roleName>, qui
+            pro tempore fuerit, michi eligam successorem vel successores. Et
+              <roleName>castaldio</roleName> curie sit semper unus ex
+              <roleName>consulibus</roleName>, si <roleName>consules</roleName> electi fuerint; si
+            vero <roleName>potestas</roleName> fuerit, tunc <roleName>castaldio</roleName> cognoscat
+            de omnibus que ad ipsum fuerint delata. Et <roleName>potestas</roleName> iudicet inter
+            eos qui ipsius voluerint subire iudicium, hoc tamen salvo ut, si in quacumque causa
+            fuerit appellatum, ad dominum Lunensem episcopum appellatio referatur, et
+              <roleName>consul</roleName> seu <roleName>potestas</roleName> post appellationem se
+            nullatenus intromittat. Preterea omnia banna que inferius denotantur, sine diminutione
+            aliqua, exigam et tollam, et medietatem inde domino Lunensi episcopo assignabo et dabo
+            et aliam medietatem michi pro <orgName ref="#Nicola_comune">communi</orgName> de <placeName ref="#Nicola">Nichola</placeName> vel pro me, si voluntas fuerit ipsius
+            communis vel maioris partis, retinebo. Excipiuntur ab hac divisione homicide et illi qui
+            membra alicuius mutilabunt vel debilitabunt, proditores domini episcopi vel ipsius
+            castri vel etiam alicuius iuris episcopi et omnes alii proditores, incendiarii, falsarii
+            et heretici, quorum banna ad dominum episcopum tantum pertineant. Quicumque homicidium
+            fecerit de aliquo homine ipsorum castrorum, ubicumque vel de aliquo alio homine infra
+            iuram ipsius castri, perpetuo sit banno suppositus, ut ei nullatenus liceat habitare in
+            dictis castris vel eorum districtibus nisi prius composuerit cum amicis mortui et de
+            voluntate domini episcopi. Mobilia vero omnia homicide ad dominum episcopum pertineant
+            et alias in persona et rebus ad arbitrium domini episcopi puniatur. Item si quis
+            percusserit aliquem hominem ad mutilationem vel debilitationem membri, ad arbitrium
+            domini episcopi puniatur. Si alias sanguinem fecerit sine mutilatione vel debilitatione
+            membri, extimatur opere ipsius percussi quas fecisset tempore egritudinis, et tantumdem,
+            cum expensis medici, restituat leso et bannum <measure type="Imperiales" quantity="10"
+              unit="solidus">X soldorum imperialium</measure>
+            <roleName>potestati</roleName> vel <roleName>consulibus</roleName> et curie solvat; si
+            alias sanguinem fecerit, <measure type="Imperiales" quantity="5" unit="solidus">soldos
+              V</measure> componat. Item si quis dederit alicui alapam, solvat <measure
+              type="Imperiales" quantity="2" unit="solidus">soldos II</measure> et de iniuria
+            satisfaciat ad voluntatem <roleName>potestatis</roleName> vel
+              <roleName>consulum</roleName> et <roleName>castaldionis</roleName>.<pb n="282r"
+              xml:id="fol_282r"/> Si alias aliquo genere armorum percusserit aliquem sine sanguine,
+              <measure type="imperiales" quantity="5" unit="solidus">soldos V</measure> solvat. Hec
+            omnia ita intelliguntur, nisi hoc fecerit se deffendendo vel alias, sicut iura
+            permittunt. Item si quis deieraverit, <measure type="Imperiales" quantity="5"
+              unit="solidus">soldos V solvat</measure>, et non minus faciat quod mandetur; tamen, si
+            infra VIII dies bannum persolverit, non reus periurii postea iudicetur. Item si quis
+            furtum fecerit de <measure type="imperiales" quantity="12" unit="denarius">XII
+              denariis</measure> vel infra, furtum emendet in duplum et bannum trium soldorum
+            solvat. Item si quis furtum fecerit a <measure type="Imperiales" quantity="12"
+              unit="denarius">XII denariis</measure> supra, <measure type="Imperiales" quantity="10"
+              unit="solidus">soldos X</measure> persolvat et furtum emendet in duplum. Item si quis
+            gastum fecerit studiose de <measure type="Imperiales" quantity="12" unit="denarius">XII
+              denariis</measure> vel infra, <measure type="imperiales" quantity="2" unit="solidus"
+              >soldos II</measure> persolvat et dampnum emendet. Si vero quis gastum fecerit a
+              <measure type="Imperiales" quantity="12" unit="denarius">XII denariis</measure> supra,
+            dampnum emendet et pro banno solvat <measure type="Imperiales" quantity="5"
+              unit="solidus">soldos V</measure> et <measure type="Imperiales" quantity="6"
+              unit="denarius">denarios sex</measure> pro libra de dampno dato. Item si quis tenutam
+            alterius sua auctoritate occupaverit, <measure type="imperiales" quantity="5"
+              unit="solidus">soldos V</measure> componat et fructus acceptos emendet arbitrio
+            bonorum hominum, et tenu<supplied reason="omitted">tam</supplied> restituat conquerenti.
+            Item si quis dixerit irato animo <roleName>potestati</roleName> vel
+              <roleName>consuli</roleName>: <q rend="pre(«) post(»)">Mentiris</q>, <measure
+              type="Imperiales" quantity="5" unit="solidus">soldos V</measure> componat. Item si
+            quis dixerit, coram <roleName>consule</roleName> vel <roleName>potestate</roleName>,
+            alicui: <q rend="pre(«) post(»)">Mentiris</q>, irato animo, <measure
+              type="Imperiales" quantity="12" unit="denarius">denarios XII</measure> perdat. Item si
+            quis dixerit <roleName>potestati</roleName> vel <roleName>consuli</roleName> irato
+            animo: <q rend="pre(«) post(»)">Tu es periurus</q>, <measure type="imperiales"
+              quantity="2" unit="solidus">soldos II solvat</measure>. Item si quis dixerit irato
+            animo, coram <roleName>consule</roleName> vel <roleName>potestate</roleName>, alicui:
+              <q rend="pre(«) post(»)">Tu es periurus</q>, <measure type="Imperiales"
+              quantity="12" unit="denarius">XII denarios</measure> solvat. Item si quis
+            improperaverit alicui homicidium vel aliquod aliud maleficium unde pax fuerit facta,
+              <measure type="Imperiales" quantity="40" unit="solidus">soldos XL
+              imperialium</measure> solvat. Item si quis dixerit alicui <q rend="pre(«) post(»)"
+              >Cucurbitam</q><note xml:id="CCLXXXXVIII_n_002" n="b" place="foot"><term
+                type="incerto">Cucurbitam</term>: <emph>così nel testo, probabilmente per</emph>
+              <term xml:lang="latin">Cucurbita</term>.</note> vel aliquod aliud simile verbum, irato
+            animo, <measure type="Imperiales" quantity="3" unit="solidus">soldos III
+              imperialium</measure> solvat. Item si quis procuraverit facere aliquam societatem in
+            dictis castris, <measure type="Imperiales" quantity="5" unit="libra">libras V
+              imperialium</measure> solvat. Item si quis intraverit in aliquam societatem, <measure
+              type="Imperiales" quantity="40" unit="solidus">soldos XL imperialium</measure> solvat.
+            Banna vero que dominus episcopus pro se posuerit vel poni faciet, libere sint sua et ad
+            eum pertineant de predictis quod non possit aliquod demi vel minui aut mutari preter
+            voluntatem et consensum domini episcopi. Item faciam omnem personam, que hab<supplied
+              reason="omitted">it</supplied>et in cinctu<note xml:id="CCLXXXXVIII_n_003" n="c"
+              place="foot"><term xml:lang="latin">cinctu</term>: <emph>la seconda</emph> c
+                <emph>corretta su</emph> e.</note>, murare murum unum, altum de uno ponte, infra
+            tempus mei regiminis; et hoc capitulo super muro cinti faciendo tenentur homines de
+          <placeName ref="#Nicola">Nichola</placeName> tantum. Hec omnia predicta faciam, attendam et observabo bona fide et sine omni
+            fraude ad voluntatem domini episcopi et, si aliquid de voluntate et consensu domini
+            episcopi additum fuerit vel diminutum vel mutatum in hoc breve, de addito et mutato
+            tenear et de diminuto absolvar.</p>
+        <p xml:id="CCLXXXXVIII_p_003" n="3"><c>§</c> Hoc statutum infrascriptum firmatum est ad
+          voluntatem et honorem domini episcopi Lunensis de communi consensu hominum et
+          <roleName>consulum</roleName> et <roleName>consiliariorum</roleName> de <placeName ref="#Nicola">Nichola</placeName> et de
+          <placeName ref="#Ortonovo">Ortonovo</placeName> per ipsorum locorum <roleName>consules</roleName>: videlicet quod terminus
+          <roleName>consulatus</roleName> communis de <placeName ref="#Nicola">Nichola</placeName> et <placeName ref="#Ortonovo">Ortonovo</placeName> sit a kalendis ianuarii
+          usque ad alias kalendas mensis eiusdem. Et <roleName>consules</roleName> dictorum locorum
+          sibi successores, <roleName>consules</roleName> vel <roleName>potestates</roleName> facere
+          et eligere teneantur VIII diebus ante terminum sui consulatus.<date when="1227-03"
+            >Millesimo CCXXXVII, indictione X, de mense martii</date>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

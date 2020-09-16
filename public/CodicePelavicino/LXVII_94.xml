@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="LXVII_94">
+        <front xml:id="LXVII_front">
+
+            <titlePart type="numerazioneNuova">94</titlePart>
+            <titlePart type="numerazioneOrig">LXVII</titlePart>
+
+            <docDate xml:id="LXVII_docDate">
+                <date when="1229-06-24">1229 giugno 24</date>, <placeName>Sarzanello </placeName>
+                    (<term xml:lang="latin">ante ecclesiam Sancti Martini, apud castrum
+                    Sarzane</term>) </docDate>
+
+            <div type="regesto" xml:id="LXVII_regesto">
+                <p>Il vescovo di Luni Guglielmo concede in perpetuo, in feudo onorifico, a Giovanni
+                    del fu Bosone di Portovenere una casa nel borgo di Sarzana, in località
+                    Carcandola. La concessione costa 14 lire di denari imperiali.</p>
+            </div>
+
+            <div type="footer" xml:id="LXVII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] c. 197r., c. CLXXXVIIIIr. secondo la numerazione originale.</p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 67, p. 109</p>
+                </div>
+
+                <div type="crit_notes">
+                    <note> Nel margine interno, di mano moderna: <term xml:lang="latin">locatio
+                            domus facta ab aepiscopo in Sarzana</term>. Nel margine esterno, di mano
+                        moderna: <term xml:lang="latin">curebat per Sarzanam tunc Carcandula</term>.
+                    </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXVII. Carta domui date in feudum Iohani Bosi in
+                            Sarçana, quam modo tenet Vivus. </term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="LXVII_div">
+                <pb n="197r" xml:id="fol_197r"/>
+                <p xml:id="LXVII_p_001" n="1">In Christi nomine, amen. <date when="1229-06-24">Anno
+                        a nativitate Ipsius millesimo CCXXIX°, indictione secunda, octavo kalendas
+                        iulii</date>. Ex hac publica pagina omnibus pateat evidenter quod
+                    venerabilis pater <persName ref="#GuilEpLuni"><roleName>dominus</roleName>
+                        Guilielmus, <roleName>Dei gratia Lunensis episcopus</roleName></persName>,
+                    dedit, concessit et mandavit per se suosque successores, nomine Lunensis
+                    episcopatus, in perpetuum, <persName ref="#IohannesBosonis">Iohanni quondam
+                        Bosonis de <placeName ref="#Portovenere">Portuveneris
+                        </placeName></persName> eiusque heredibus et proheredibus et deinceps, iure
+                    honorifici feudi, unam domum in burgo <placeName ref="#Sarzana"
+                        >Sarzane</placeName>, in loco dicto <placeName ref="#Carcandola"
+                        >Carcandula</placeName>, cui coheret antea platea mercati, retro labitur
+                        <placeName ref="#Carcandola_rivus">Carcandula</placeName>, ab uno latere
+                    domus <persName ref="#RomeaGuilielmi">Romee</persName> et <persName
+                        ref="#GerardinaGuilielmi">Gerardine</persName>, filiarum <note place="foot"
+                        n="a" xml:id="LXVII_n_001">filiarum: a <emph>corretta su precedente</emph>
+                        e</note>quondam <persName ref="#GuilielmusCafazo">Guilielmi de <placeName
+                            ref="#Cafazo">Cafagio</placeName></persName>, ab alio <persName
+                        ref="#Todeschinus">Todescini<note place="foot" n="b" xml:id="LXVII_n_002"
+                            >Todescini: T <emph>corretta su precedente
+                        lettera</emph>.</note></persName>, quam domum eidem iure et titulo feudi ab
+                    episcopio Lunensi tenuit quondam <persName ref="#GerardusAlegrantia">Gerardus
+                        Alegrantia</persName>, ita quidem ut amodo perpetuo suprascriptus <persName
+                        ref="#IohannesBosonis">Iohannes</persName> eiusque heredes et proheredes et
+                    deinceps predictam domum iure predicto habeant, teneant, fruantur, habitent,
+                    possideant et hedificent iuxta statutum inter episcopum Lunensem et burgenses ab
+                    antiquo firmatum cum omni iure feudi et consuetudine Lunensis ecclesie,
+                    superioribus, inferioribus, accessu, regressu et aliis pertinentibus ad ipsam,
+                    sine sua suorumque successorum inquietatione vel molestatione. Promisit insuper
+                    et convenit suprascriptus dominus episcopus per se suosque successores, nomine
+                    Lunensis episcopatus, stipulatione sollempni, ipsi <persName
+                        ref="#IohannesBosonis">Iohanni</persName> eiusque heredibus<note
+                        place="foot" n="c" xml:id="LXVII_n_003">heredibus: d <emph>corretta su
+                            precedente lettera</emph>.</note>, ut dictum est, ipsam domum perpetuo
+                    rationabiliter deffendere et debrigare ab omni contradicente persona et loco;
+                    quod, si non faceret vel nollet seu non posset, promisit dare salvum cambium in
+                    bonis Lunensis episcopatus loco consimili, sub extimatione bonorum hominum,
+                    sicut tunc voluerit<note place="foot" n="d" xml:id="LXVII_n_004">voluerit:
+                            <emph>così nel testo per</emph> valuerit</note> vel fuerit meliorata. Et
+                    ad hec obligavit se suosque successores et fructus episcopatus usque ad valorem
+                    suprascripte domus et infrascripte pene, stipulando ipsi <persName
+                        ref="#IohannesBosonis">Iohanni</persName>, ut dictum est, penam dupli ipsius
+                    domus. Preterea dedit ei licenciam tenutam intrandi suprascripte domus, cum
+                    voluerit, auctoritate sua, et constituit se pro eo et eius nomine precario
+                    possidere quousque tenutam intraverit. Ad huius dati, locationis et concessionis
+                    fortiorem firmitatem confessus fuit prefatus dominus episcopus se recepisse
+                    servicium ab ipso <persName ref="#IohannesBosonis">Iohanne</persName>
+                    <measure type="Imperiales" quantity="14" unit="soldi">libras XIIII denariorum
+                        bonorum imperialium</measure>, renunciando exceptioni non numerate pecunie.
+                    Et idem <persName ref="#IohannesBosonis">Iohannes</persName> eiusque heredes,
+                    proheredes et deinceps ex eadem domo sint fideles et vassalli suprascripti
+                    episcopi, successorum eius et Lunensis episcopatus et faciant fidelitatem exinde
+                    ipsi episcopo atque successoribus eius et episcopatui Lunensi, secundum usum et
+                    consuetudinem feudorum ecclesie Lunensis. </p>
+                <p xml:id="LXVII_p_002" n="2"> Actum ante <orgName
+                        ref="#S_Martino_de_castro_Sarzane">ecclesiam Sancti Martini</orgName>, apud
+                        <placeName ref="#Sarzanello">castrum Sarzane</placeName>, feliciter,
+                    presentibus dominis <persName ref="#SalamoncellusBaratella">Salomoncello
+                        Baratella</persName>, <persName ref="#Guidofrater">Guidone fratre ipsius
+                        domini episcopi, <placeName ref="#Lucca">Lucanis</placeName></persName>
+                    civibus, <persName ref="#AttolinusBandini">Attolino quondam Bandini de
+                            <placeName ref="#Sarzanello">castro Sarzane</placeName>
+                        <roleName>castaldo in curia<note place="foot" n="e" xml:id="LXVII_n_005"
+                                >curia: <emph>corretto su precedente scrittura</emph>. </note>
+                        </roleName><placeName ref="#Sarzana">Sarzane</placeName></persName>,
+                        <persName ref="#CodadorgiusBiancheti">Godargogio quondam
+                        Biancheti</persName> loci eiusdem et aliis pluribus testibus, ad hec
+                    vocatis. </p>
+                <p xml:id="LXVII_p_003" n="3">
+                    <ptr target="LXVII_st_001"/>Ego <persName ref="#GerardetusMontoni">Gerardetus,
+                        qui nominor Montonus, <roleName>palacii sacri
+                    notarius</roleName></persName>, hiis interfui atque rogatus scripsi.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

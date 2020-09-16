@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXL_302">
+    <front xml:id="CCCXL_front">
+
+      <titlePart type="numerazioneNuova">302</titlePart>
+      <titlePart type="numerazioneOrig">CCCXL</titlePart>
+
+      <docDate xml:id="CCCXL_docDate">
+        <date when="1271-06-10">1271 giugno 10</date>, <placeName>&lt;Sarzana&gt; (<emph>ad bancum
+            curie vicarie sub porticu domus domini episcopi Lunensis de
+          Carcandula</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXL_regesto">
+        <p>Il notaio Nicolò di Macone, in sostituzione di Aldebrandino Tagliamelo, vicario della
+          provincia di Lunigiana per conto del vescovo di Luni Guglielmo e del Comune di Lucca, e di
+          Bertolotto Gigli, giudice nel predetto vicariato, entrambi assenti, avendo fatto citare in
+          giudizio Marchesello di Carrara del fu Ventura Batigiati su richiesta del sindaco del
+          vescovo Iacopino Tagliavacca e rendendosi Marchesello contumace, pronuncia sentenza contro
+          quest’ultimo. La lite verteva su un pezzo di vigna posta a Gragnana che il notaio Nicolò
+          assegna al vescovo, a patto che a un anno dalla sentenza Marchesello non si presenti,
+          dimostrando di essere il vero proprietario e paghi le spese processuali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXL_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia [C] CP c. 302v., c. CCLXXXXIIIIv. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 340,
+            pp. 327-328. </p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Luogo di redazione dedotto per analogia da altri documenti simili, ad esempio il n.
+              <ref target="#CXXIIII_141">141</ref></note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCXL.
+              Sententie contra Marchesellum Veture Bance.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXL_div">
+        <p xml:id="CCCXL_p_001" n="1">In Christi nomine, amen. Cum ego <persName
+            ref="#NicholausMaconisnot">Nicholaus Maconis, <roleName>locum tenens
+            domini</roleName></persName>
+          <persName ref="#AldebrandinusTalliamelo">Aldebrandini Talliamelo</persName> pro venerabili
+          patre <persName ref="#GuilEpLuni"><roleName>domino</roleName> Guilielmo, <roleName>Lunensi
+              episcopo</roleName></persName>, et pro <placeName ref="#Lucca">Lucano</placeName>
+          <orgName ref="#Lucca_comune"
+            >communi</orgName> <roleName>vicarii</roleName>
+          <orgName ref="#Lunigiana_provincia">provincie <placeName ref="#Lunigiana"
+              >Lunisiane</placeName></orgName>, et <persName ref="#BertolottusGilii"
+              ><roleName>domini</roleName> Bertholoti Gilii, <roleName>iudicis</roleName></persName>
+          in <orgName ref="#Lunigiana_vicaria">vicariatu</orgName> predicto, pro predictis absentium
+          extra <orgName ref="#Lunigiana_vicaria">vicariam</orgName>, secundum formam constitutionum
+          dicte <orgName ref="#Lunigiana_provincia">provincie</orgName>, ad petitionem <persName
+            ref="#IacopinusTalliavachanot">Iacopini dicti Talliavache, <roleName>notarii</roleName>,
+              <roleName>syndici</roleName> et <roleName>actoris</roleName></persName> venerabilis
+          patris domini <persName ref="#GuilEpLuni">Guilielmi, <roleName>Lunensis
+              episcopi</roleName></persName>, et episcopatus, citari et requiri fecerim per
+            <persName ref="#Cavallinuscorr">Cavallinum</persName>, nostrum
+            <roleName>correrium</roleName>, <persName ref="#MarchesellusVenture">Marchesellum de
+              <placeName ref="#Carrara">Carraria</placeName> quondam Venture Batigiati</persName> ut
+          certa die et termino, iam elapsis, veniret et compareret coram curia rationem facturus et
+          de iure responsurus dicto syndico <note xml:id="CCCXL_n_001" n="a" place="foot"><term
+              xml:lang="latin">syndico</term>: yn <emph>corretto su precedente
+            scrittura.</emph></note> et actori, dicto nomine, alias procederetur contra eum ad
+          sententiam et tenutam pro eo quod dictus syndicus et actor, dicto nomine, intendit petere
+          ab eo, dictus <persName ref="#MarchesellusVenture">Marchesellus</persName> non venit, nec
+          alius pro eo, in termino, nec ante nec post, dicto quidem syndico et actore veniente et
+          legitime comparente et petente procedi contra dictum <persName ref="#MarchesellusVenture"
+            >Marchesellum</persName> ad sententiam et tenutam in una et super una petia terre quam
+          dictus syndicus et actor, dicto nomine, a dicto <persName ref="#MarchesellusVenture"
+            >Marchesello</persName> petere intendit, dicendo eam ad dictum dominum episcopum et
+          episcopatum pertinere iure dominii vel quasi et possessionis vel quasi et que petia terre
+          est vinea in <placeName ref="#Gragnana">Gragnana</placeName>, cui iungitur ab uno latere
+          ipsi heredes <persName ref="#VenturaBatigiati">Venture Batigiati</persName>, ab alio
+          heredes <persName ref="#LealisAra">Lealis de <placeName ref="#Ara"
+            >Ara</placeName></persName>. Unde ego <persName ref="#NicholausMaconisnot"
+            >Nicholaus</persName>, notarius suprascriptus, vices et locum gerens vicarii et iudicis
+          dicte <orgName ref="#Lunigiana_provincia">provincie</orgName>, absentium, visa citatione,
+          relatione et presentatione dicti syndici et actoris, visa etiam contumacia dicti <persName
+            ref="#MarchesellusVenture">Marcheselli</persName> et petitione dicti syndici, qui suo
+          iuramento dixit quod non calumpniose petit, dico et pronuncio dictum syndicum et actorem,
+          syndicatus et actorio nomine pro predictis domino episcopo et episcopatu, esse mittendum,
+          et eum mitti iubeo et precipio, in corporalem possessionem et tenutam predicte petie
+          terre, sive quemvis alium castaldum domini episcopi pro eo, et iubeo quod <persName
+            ref="#Cavallinuscorr">Cavallinus</persName> nuncius seu alter meus nuncius dictum
+          syndicum et actorem de predicta terra, mea auctoritate, vel alium syndicum sive castaldum,
+          in corporalem possessionem inducat, sub tali pacto quod, si dictus <persName
+            ref="#MarchesellusVenture">Marchesellus</persName> ab hodie infra annum unum proxime
+          venientem venerit ad curiam rationem facturus dicto syndico et actori de predicta petia
+          terre, restitutis primo tamen expensis infrascriptis, hec possessio in eum redeat, sicut
+          eam habebat ante hanc investitionem; alias, post annum, dictus syndicus et actor, dicto
+          nomine, et dictus dominus episcopus, vel alius eius nuncius pro eo, efficiatur verus
+          possessor predicte petie terre et salvo iure omnium aliarum personarum. Expense vero sunt
+          hee, videlicet: pro citatione, relatione et presentatione <measure type="Ianuenses"
+            unit="solidus" quantity="7">denarii VII Ianuensium</measure>, et pro hac scriptura
+            <measure type="Ianuenses" unit="solidus" quantity="17">denarii XVII
+          Ianuensium</measure>, et pro carta, cum fiet, <measure type="Ianuenses" unit="solidus"
+            quantity="3">soldi III Ianuensium</measure>, et pro salario advocati <measure
+            type="Ianuenses" unit="solidus" quantity="3">soldi III Ianuensium</measure>, et pro
+          nuncio, qui dabit tenutam, <measure type="Ianuenses" unit="solidus" quantity="12">denarii
+            XII Ianuensium</measure>, pro carta et scripturis, que inde fient,<measure
+            type="Ianuenses" unit="solidus" quantity="18"> denarii XVIII Ianuensium</measure>. </p>
+        <p xml:id="CCCXL_p_002" n="2">Lata et lecta fuit hec sententia sive pronunciatio <placeName
+          ref="#Sarzana">ad bancum curie <orgName ref="#Lunigiana_vicaria">vicarie</orgName>, sub porticu domus domini episcopi
+            Lunensis</placeName> de <placeName ref="#Calcandola">Carcandula</placeName>, presentibus
+            <persName ref="#TiniosusParenti">Tignoso Parentis
+            <roleName>castaldo</roleName></persName> et <roleName>domino</roleName>
+          <persName ref="#Rubeusiud">Rubeo <roleName>iudice</roleName></persName> et
+            <roleName>domino</roleName>
+          <persName ref="#Opiziusiud">Opizo <roleName>iudice</roleName></persName> et <persName
+            ref="#FuscusGuidi">Fusco quondam Guidi</persName>, habitatore <placeName ref="#Sarzana"
+            >Sarzane</placeName>, <date when="1271-06-10">anno Domini millesimo CCLXXI, indictione
+            XIIII, X mensis iunii</date>. </p>
+        <p xml:id="CCCXL_p_003" n="3"><ptr target="#CCCXL_st_001"/>
+          <persName ref="#AlcheriusPagani">Alcherius Pagani, <roleName>imperialis aule iudex et
+              notarius</roleName></persName>, suprascripta omnia, prout in actis curie suprascripte
+          inveni, hic bona fide, scribens ea, meis signo et nomine publicavi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

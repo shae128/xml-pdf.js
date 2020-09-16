@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="DXI_472">
+    <front xml:id="DXI_front">
+
+      <titlePart type="numerazioneNuova">472</titlePart>
+      <titlePart type="numerazioneOrig">DXI</titlePart>
+
+
+      <docDate xml:id="DXI_docDate">
+        <date when="1197-07-15">1197 luglio 15</date>,Marciaso (<term xml:lang="latin">in
+          suprascripto castro de Marciasio</term>) </docDate>
+
+      <div type="regesto" xml:id="DXI_regesto">
+        <p>I conti Masnerio, Marchesello e Salvaggio, figli del <term xml:lang="latin">fu</term>
+          Bonaccorso di Marciaso, dichiarano di tenere in feudo dal vescovo di Luni Gualtiero la
+          terza parte del castello di Marciaso e altri feudi che non sono in grado di elencare. Il
+          vescovo li investe quindi di tali beni e di conseguenza loro gli giurano fedeltà contro
+          tutti eccetto che contro i signori di Fosdinovo, i marchesi di Massa e i marchesi detti
+          Cavalcabò.</p>
+      </div>
+
+      <div type="footer" xml:id="DXI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 380r., c. CCCLXXIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 511, pp. 546,
+            con la data 14 luglio. Bibliografia: <ref target="#FORMENTINI_1950">FORMENTINI
+              1950</ref>; <ref target="#ZOPPI_2013">Zoppi 2013</ref> p. 33 </p>
+        </div>
+
+        <div type="crit_notes">
+          <p>La data cronica recita <term xml:lang="latin">die martis pridie idus iulii</term>, ma
+            il 14 luglio 1197 era lunedì; c’è quindi un <term xml:lang="latin">pridie</term> in più
+            che porta al 15 luglio: cfr. <ref target="#MAZZINI_1914">Mazzini 1914</ref>, p. 34. Il
+            documento è scritto su pergamena precedentemente abrasa, la scrittura sembra essere di
+            altra mano, che ha ripreso con attenzione la scrittura precedente. Questo fatto, unito
+            alla presenza di termini problematici (<term xml:lang="latin">comites</term>), fa
+            pensare a un testo interpolato. Bibliografia: <ref target="#ZOPPI_2013">Zoppi
+            2013</ref>, pp. 33-35. </p>
+          <p>Nel margine esterno, di mano moderna: <term xml:lang="latin">comites</term>; segue
+            altra parola non più leggibile.</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXI.
+              Confessionis feudi tertie partis castri de Marçasio.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXI_div">
+        <p xml:id="DXI_p_001" n="1"><ptr target="DXI_st_001"/> In eterni Dei nomine, amen. <date
+            when="1197-07-15">Anno a nativitate Eius M°C nonagesimo VII, indictione XV, die martis,
+            pridie idus iulii</date>, presentibus testibus infrascriptis. Infrascripti comites
+            <persName ref="#MasneriusMarciasio">Masnerius</persName>, <persName
+            ref="#MarchesellusMarciasio">Marchesellus</persName> et <persName
+            ref="#SalvagiusMarciasio">Salvagius</persName>, filii quondam <persName
+            ref="#BonacursusMazasio">Bonacursi de <placeName ref="#Marciaso"
+            >Marciasio</placeName></persName><note place="foot" n="a" xml:id="DXI_n_001"
+              >Marciasio:<emph>corretto su precedente scrittura</emph></note>, fuerunt confessi
+            <roleName>domino</roleName>
+          <persName ref="#GualEpLuni">Gualterio</persName>, <roleName>Dei gratia venerabili Lunensi
+            episcopo</roleName>, quod tenent ab eo et a curia eius Lunensi per feudum terciam partem
+          castri de <placeName ref="#Marciaso">Marciasio</placeName> et quedam alia feuda, que
+          nesciebant per singula nominare sive determinare; unde idem dominus episcopus investivit
+          eos de ea tercia parte eiusdem castri, quod dixerant se ab eo et a dicta curia sua tenere,
+          et de omnibus aliis feudis que tenent ab eo et tenuerunt maiores eorum ab antecessoribus
+          eius seu a curia suam <note place="foot" n="b" xml:id="DXI_n_002">suam:<emph>così nel
+              testo per</emph> sua</note>. De quibus omnibus feudis iuraverunt ei presentialiter ibi
+          fidelitatem contra omnes homines, exceptis <name type="familia" ref="#FosdenovaFamilia">dominis de
+              <placeName ref="#Fosdinovo">Fosdenova</placeName></name> et exceptis <name
+                type="familia" ref="#MassaFamilia">marchionibus de <placeName ref="#Massa">Massa</placeName></name> et
+          exceptis <persName ref="#Cavalcabovesmar">marchionibus qui dicunt <note place="foot" n="c"
+              xml:id="DXI_n_003">dicunt: <emph>così nel testo</emph>.</note> Calvacaboves</persName>
+          <note place="foot" n="d" xml:id="DXI_n_004">Calvacaboves: <emph>così nel testo per</emph>
+            Cavalcaboves</note>., qui omnes marchiones (supra)dictis<note place="foot" n="e"
+            xml:id="DXI_n_005"><emph>La pergamena è abrasa per lo spazio di 4 caratteri.</emph>
+          </note> excipiuntur tantum. Acta sunt hec in suprascripto castro, in domo predictorum
+          fratrum, sollempni cum stipulatione. Ibi fuerunt rogati testes <persName
+            ref="#Guilielmusarc">Guilielmus <roleName>archipresbyter</roleName> de <orgName
+              ref="#Viano_S_Martino">Viano</orgName></persName>, <persName ref="#RollanduspresAl"
+              ><roleName>presbyter</roleName> Rollandus de <orgName ref="#Alebbio_S_Geminiano"
+              >Alebio</orgName></persName>, <persName ref="#RollanduspresTer"
+              ><roleName>presbyter</roleName> Rollandus de <orgName ref="Bardina_S_Terenzo"><orgName
+                ref="#SanTerenzo">Sancto Terencio</orgName></orgName></persName>, <persName
+            ref="#Copranduspres"><roleName>presbyter</roleName> Coprandus<note place="foot" n="f"
+              xml:id="DXI_n_006"> Coprandus:<emph>lettura incerta</emph></note></persName>,
+            <persName ref="AttoFaucenova">Atto</persName> et <persName ref="GaforiusFaucenova"
+            >Gaforius de <placeName ref="#Fosdinovo">Fosdenova</placeName></persName>, <persName
+            ref="#UgolinusCarraria">Ugolinus</persName> et <persName ref="#GualteroneCarraria"
+            >Gualteronus de <placeName ref="#Carrara">Carraria</placeName></persName>, <persName
+            ref="#Bonacursuscas">Bonacursus <roleName>castaldus</roleName>
+          </persName> de <placeName ref="Sarzana">Sarzana</placeName>, <persName ref="#Bonafides"
+            >Bonafides</persName> et multi alii. Ego <persName ref="#Confortusnot">Confortus,
+              <roleName>sacri palacii et Lunensis curie notarius</roleName></persName>, hiis
+          interfui et rogatus, precepto quoque domini episcopi, hanc cartam scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

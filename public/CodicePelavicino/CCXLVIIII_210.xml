@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXLVIIII_210">
+    <front xml:id="CCXLVIIII_front">
+
+      <titlePart type="numerazioneNuova">210</titlePart>
+      <titlePart type="numerazioneOrig">CCXLVIIII</titlePart>
+
+      <docDate xml:id="CCXLVIIII_docDate">
+        <date when="1210-04-20">1210 aprile 20</date> - <date when="1210-06-13">giugno 13</date>,
+          <placeName>Soliera <emph>(<term xml:lang="latin">in castro
+          Solerie</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXLVIIII_regesto">
+        <p>Il vescovo di Luni Gualtiero loca a Forte e a Bosone, figli del fu Gerardo <term
+            xml:lang="latin">de Picolo</term>, tutto il podere posto in Collecchia, un tempo tenuto
+          da Rodolfino di Vico; i due ricevono in quanto mariti di Richelda e Benencasa, figlie del
+          detto Rodolfino. Il fitto ammonta a 1 staio di frumento e 1 di spelta, ma si stabilisce
+          che Forte e Bosone debbano prestare i medesimi servizi dei locatari del vescovo di
+          Ceserano. L’atto di locazione costa 20 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXLVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] c. 263r., c. CCLVr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 249, pp.
+            231-232.</p>
+        </div>
+
+        <div type="crit_notes">
+          <p>Autentica databile con incertezza tra il 1232 e il 1260 per la presenza contemporanea
+            dei notai Pagano, Bonalbergo e Aiuto.</p>
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXLVIIII_div">
+        <p xml:id="CCXLVIIII_p_001" n="1"><ptr target="#CCXLVIIII_st_001"/>In nomine Domini,
+            amen.<date when="1210-04-20"> Anno a nativitate Eius M°CCX, indictione XIII, die martis,
+            XII kalendas madii</date>. Nos <persName ref="#GualEpLuni">Walterius, <roleName>Dei
+              gratia Lunensis Ecclesie episcopus</roleName></persName>, concedimus et locamus,
+          nomine homagii, tibi <persName ref="#FortisGerardi">Forti quondam Gerardi de <placeName
+              ref="#Piculo">Picolo</placeName></persName>, recipienti pro te et fratre tuo <persName
+            ref="#Bonone">Bonone</persName>, nominatim, totum podere quod habuit et tenuit quondam
+            <persName ref="#RodulfinusVico">Rodulfinus de <placeName ref="#Vico"
+            >Vico</placeName></persName> in <placeName ref="#Collecchia">Colleclo</placeName> et in
+          eius districtu et ubicumque inde est et poterit reperiri, agrum, cultum, plenum et vacuum,
+          divisim et indivisim, eo quod accepturus es in uxorem <persName ref="#RicheldaRodulfini"
+            >Richeldam</persName> et dictus tuus frater <persName ref="#BenencasaRodufini"
+            >Benencasam</persName>, germanas, filias olim dicti <persName ref="#RodulfinusVico"
+            >Rodulfini</persName>, ita ut amodo perpetuo tu et dictus tuus frater vestrique heredes
+          quos ex dictis feminis habueritis, habeatis, teneatis, fruamini et possideatis, meliorando
+          et non peiorando, totum dictum podere, sicut superius legitur, cum accessibus et
+          regressibus suis et omnibus suis pertinenciis in integrum, sine alicuius aliqua
+          contradictione et cum nostra nostrorumque successorum rationabili deffensione ab omni
+          persona vel restauratione facienda in bonis episcopatus in consimili loco, in arbitrio
+          bonorum hominum, prout nunc<note place="foot" n="a" xml:id="CCXLVIIII_n_001"><term
+              type="incerto">nunc</term><emph>: così nel testo per </emph><term xml:lang="latin"
+              >tunc.</term></note> valuerit, si deffendere non possemus. Et exinde teneamini dare et
+          reddere nostre curie omni anno, in mense augusti, certum fictum: starium I frumenti mundi
+          et sicci et I starium spelte ad starium de Soleria tantum; alia superimposita non fiat.
+          Pro hac locatione recepimus a te servicium <measure type="Imperiales" quantity="20"
+            unit="solidus">soldorum XX bonorum imperialium</measure>, unde damus tibi licenciam
+          intrandi inde in tenutam, tua auctoritate.</p>
+        <p xml:id="CCXLVIIII_p_002" n="2">Actum in <placeName ref="#Soliera">castro
+            Solerie</placeName>, sollempniter, ante ecclesiam ipsius loci, presentibus <persName
+            ref="#GerardetusMonteVallese">Gerardeto de <placeName ref="#Montevallese">Monte
+              Vallese</placeName></persName>, <persName ref="#GerardusUlmeto">Gerardo de <placeName
+              ref="#Ulmeto">Ulmeto</placeName></persName>, <persName ref="#BosoTorsella">Boso de
+              <placeName ref="#Torsella">la Torsella</placeName></persName>, <persName
+            ref="#PetrusSerra">Petro de <placeName ref="#Serra">la Serra</placeName></persName> et
+          aliis pluribus testibus ad hec rogatis.</p>
+        <p xml:id="CCXLVIIII_p_003" n="3"><date when="1210-04-13">Eodem anno, die dominico, XIII
+            mensis iunii</date>, in <placeName ref="#Sarzanello">castro Sarzane</placeName>, coram
+            <persName ref="#GerardusBosiFal">Gerardo</persName> et <persName ref="#CarboBottacciFal"
+            >Carbone de <placeName ref="#Falcinello">Falcinello</placeName></persName> et <persName
+            ref="#Mangenuscast">Mançeto <roleName>castaldione</roleName></persName>, testibus,
+          dictus dominus episcopus fuit in concordia cum dicto Forte ut ipse et dictus suus frater
+          pro dicto podere debeant facere suprascripte curie talia servicia qualia faciunt alii
+          affictati de <placeName ref="#Ceserano">Ciserano</placeName>. Presens <persName
+            ref="#ThebaldinusSoleria">Thebaldinus de <placeName ref="#Soliera"
+            >Soleria</placeName></persName> in<note place="foot" n="b" xml:id="CCXLVIIII_n_002"
+              ><term type="incerto">in</term><emph>: così nel testo.</emph></note> hiis
+          suprascriptis assensit, renunciando omni iuri sibi inde competenti. Ego <persName
+            ref="#Ugolinusnot">Ugolinus, <roleName>sacri palacii et Lunensis curie
+              notarius</roleName></persName>, hiis interfui atque rogatus scripsi.</p>
+      </div>
+      <div xml:id="CCXLVIIII_div2" type="autentica">
+        <p xml:id="CCXLVIIII_p_004" n="4"><ptr target="#CCXLVIIII_st_002"/> Ego <persName
+            ref="#Paganusnot">Paganus, <roleName>notarius sacri palacii</roleName></persName>,
+          autenticum huius exempli vidi et legi et quicquid in eo inveni fideliter exemplavi, nichil
+          addens vel minuens quod mutet sensum, nisi forte litteram vel sillabam.</p>
+        <p xml:id="CCXLVIIII_p_005" n="5"><ptr target="#CCXLVIIII_st_003"/> Ego <persName
+            ref="#Bonalbergusnot">Bonalbergus, <roleName>domini Frederici invictissimi Romanorum
+              imperatoris notarius</roleName></persName>, auttentico huius exempli viso et lecto et,
+          cognito quod nichil in uno plus quam in altero continebatur, ideo huic subscripsi.</p>
+        <p xml:id="CCXLVIIII_p_006" n="6"><ptr target="#CCXLVIIII_st_004"/> Ego <persName
+            ref="#Adiutusnot">Adiutus, <roleName>sacri palacii notarius</roleName></persName>,
+          autenticum huius exempli vidi et legi, in quo nichil plus quam in altero continebatur
+          inveni quod mutet sensum, et ideo huic subscripsi <note>Autentica del documento n.
+            210-CCXLVIIII databile tra il 1232 e il 1260 per la presenza contemporanea dei notai
+            Pagano, Bonalbergo e Aiuto<date notBefore="1232-01-01" notAfter="1260-12-31" cert="low"
+            /></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

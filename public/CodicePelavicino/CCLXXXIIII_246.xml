@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXXIIII_246">
+    <front xml:id="CCLXXXIIII_front">
+
+      <titlePart type="numerazioneNuova">246</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXXIIII</titlePart>
+
+      <docDate xml:id="CCLXXXIIII_docDate">
+        <date when="1212-02-18">1212 febbraio 18</date>, <placeName>Sarzana (<term xml:lang="latin"
+            >Sarzane</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXXIIII_regesto">
+        <p>Guglielmo del fu Gerardo di Monzone loca a Retondo di Castelnuovo del fu Gerardino <term
+            xml:lang="latin">de Colle</term>, che riceve per una metà e per l’altra metà a nome di
+          Guglielmo del fu Vidaleto, un podere, un tempo tenuto dal fu Martino <term
+            xml:lang="latin">de Colle</term>, a patto che il podere torni a Gerardino, figlio del fu
+          Martino <term xml:lang="latin">de Colle</term>, quando e se e quando tornerà a reclamarlo.
+          Il fitto è di due staia di frumento l’anno. La locazione sarà fatta confermare a Caracosa,
+          nipote di Guglielmo, appena costei raggiungerà la maggiore età. Se ciò non avverrà, i due
+          locatari daranno a Guglielmo, quale fitto per metà <term xml:lang="latin">pro
+            indiviso</term> del podere, 12 denari di imperiali l’anno. La concessione costa 5 soldi
+          di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXXIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 276r., c. CCLXVIIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 284,
+            p. 259.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il 1212 era anno bisestile, quindi dovrebbe essere 19 febbraio, che però cadeva di
+            domenica e non di sabato. Per essere sabato dovrebbe essere <term xml:lang="latin">XIII
+              kalendas marcii</term>.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCLXXXIIII. Locationis Guilielmi de Moçano Rotundo condam Gerardini et Guilielmo
+              condam Vidalecti pro II stariis frumenti. .</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXXIIII_div">
+        <p xml:id="CCLXXXIIII_p_001" n="1"><ptr target="#CCLXXXIIII_st_001"/> In nomine Domini,
+          amen. <date when="1212-02-18">Anno a nativitate Dei millesimo CCXII, indictione XV, die
+            sabbati, XII kalendas marcii</date>. <persName ref="#GuilielmusGerardi">Guilielmus
+            quondam Gerardi de <placeName ref="#Monzone">Monzone</placeName></persName> locavit,
+          dedit nomine ficti <persName ref="#RetondusGerardini">Retondo de <placeName
+              ref="#Castelnuovo">Castronovo</placeName> quondam Gerardini de <placeName ref="#Colle"
+              >Colle</placeName></persName>, recipienti pro se et suis heredibus, in una medietate,
+          et pro <persName ref="#GuilielmusVidaleti">Guilielmo quondam Vidaleti</persName>, in alia
+          medietate, ita ut quicumque ex ipsis sine herede decederet, alter qui supravixerit illorum
+          in hoc toto pro iamscripto ficto similiter succedat, totum podere et tenutam, quod et quam
+          quondam <persName ref="#MartinusColle">Martinus de <placeName ref="#Colle"
+              >Colle</placeName></persName> habuit et tenuit, ubicumque sit, tam agrum quam cultum,
+          ita quod de cetero perpetuo iamscripti <persName ref="#RetondusGerardini"
+            >Retondus</persName> et <persName ref="#GuilielmusGerardi">Guilielmus</persName>
+          acquisitores et eorum heredes iamscriptum totum podere et tenutam in integrum, cum omni
+          iure et actione et pertinentia sua, agrum et cultum, plenum et vacuum, tam in plano quam
+          in monte, cum omnibus super positis suis, habeant, teneant et fruantur nomine ficti, sine
+          omni contradictione iamscripti <persName ref="#GuilielmusGerardi">Guilielmi</persName>
+          locatoris suorumque heredum et cum sua suorumque heredum deffensione ab omni persona,
+          ratione, aut in consimilibus locis, prout tunc valuerit, restaurare si deffensare non
+          posset, dando exinde iamscripti <persName ref="#RetondusGerardini">Retondus</persName> et
+            <persName ref="#GuilielmusGerardi">Guilielmus</persName> eorumque heredes iamscripto
+            <persName ref="#GuilielmusGerardi">Guilielmo</persName> datori et eius heredibus,
+          annuatim, per mensem augusti, nomine ficti, staria duo frumenti mundi et sicci ad commune
+          starium de Lune<note xml:id="CCLXXXIIII_n_001" n="a" place="foot"><term type="incerto"
+              >Lune</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">Luna</term>.</note> tantum; alia superimposita eis inde non fiat.
+          Tali pacto facta sunt hec omnia ut, si quando <persName ref="#Gerardinus"
+            >Gerardinus</persName>, filius quondam iamscripti <persName ref="#MartinusColle"
+            >Martini</persName>, rediret ad iamscriptum podere rehabendum, libere ipsum podere
+            rehabeat<note xml:id="CCLXXXIIII_n_002" n="b" place="foot"><term xml:lang="latin"
+              >rehabeat</term>: h <emph>scritto su precedente lettera</emph>.</note>, sicut iam
+          dictus <persName ref="#MartinusColle">Martinus</persName> prius habebat, sine aliqua
+          alicuius contradictione. Preterea suprascriptus <persName ref="#GuilielmusGerardi"
+            >Guilielmus</persName> dator promisit hanc dationem <supplied reason="omitted"
+            >et</supplied> locationem facere, per omnia confirmare, sicut supra legitur, nepti sue
+            <persName ref="#Caracosa">Caracose</persName>, cicius que<note xml:id="CCLXXXIIII_n_003"
+            n="c" place="foot"><term type="incerto">que</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">quam</term>.</note> ipsa fuerit in etate; et si ipsa hec omnia
+          non confirmaret vel firma per omnia non haberet, ab inde in antea perpetualiter iamscripti
+            <persName ref="#GuilielmusGerardi">Guilielmus</persName> et <persName
+            ref="#RetondusGerardini">Retondus</persName> acquisitores et eorum heredes medietatem
+          tocius iamscripti poderis pro indiviso, pro illa parte <persName ref="#GuilielmusGerardi"
+            >Guilielmi</persName> datoris, habeant et fruantur nomine libelli ad pensionem solvendam
+          annuatim, per octavam nativitatis Domini, <measure type="Imperiales" quantity="12"
+            unit="denarius">denariorum XII imperialium</measure> tantum. Unde habuit iamscriptus
+            <persName ref="#GuilielmusGerardi">Guilielmus</persName> locator ab iamscriptis
+          acquisitoribus <measure type="Imperiales" quantity="5" unit="solidus">bonorum imperialium
+            soldos V</measure> et constituerunt inter se ut quicumque ex ipsis vel illorum heredibus
+          contra hoc quod superius legitur venerit, tunc persolvat alteri parti, nomine pene,
+            <measure type="Imperiales" quantity="100" unit="solidus">soldos C imperialium</measure>,
+          rato manente pacto.</p>
+        <p xml:id="CCLXXXIIII_p_002" n="2">Actum <placeName ref="#Sarzana">Sarzane</placeName>,
+          sollempniter cum stipulatione, presentibus <persName ref="#RoffinellusMarzano">Roffinello
+            de <placeName ref="#Marzano">Marzano</placeName></persName>, <persName
+            ref="#UgolinusRoselmino">Ugolino de <placeName ref="#Roselmino"
+            >Roselmino</placeName></persName>, <persName ref="#BonaiunctaUbertini">Bonaiuncta
+            quondam Ubertini</persName>, <persName ref="#SygenaldusOrbagnano">Sygenaldo de
+              <placeName ref="#Orbagnanno">Orbagnano</placeName></persName>, testibus ad hec
+          rogatis.</p>
+        <p xml:id="CCLXXXIIII_p_003" n="3">Ego <persName ref="#Prefectusnot">Prefectus,
+              <roleName>domini imperatoris et Lunensis curie notarius</roleName></persName>, hec
+          rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="CCCCXIII_374">
+		<front xml:id="CCCCXIII_front">
+
+			<titlePart type="numerazioneNuova">374</titlePart>
+			<titlePart type="numerazioneOrig">CCCXIII</titlePart>
+
+			<docDate xml:id="CCCCXIII_docDate">
+				<date when="1227-03-14">1227 marzo 14</date>, <placeName>Bolano (<emph>plebem de
+						Bolano</emph>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="CCCCXIII_regesto">
+				<p>Ordinamenti e statuti che gli uomini di Bolano, dietro consiglio e volere del
+					loro podestà Gualdo, hanno stabilito per il bene di Bolano e l’onore del vescovo
+					di Luni. Si stabiliscono le regole per i rapporti coi marchesi
+						<supplied>Malaspina</supplied>, la tutela reciproca degli abitanti,
+					l’assegnazione del consolato e della saltaria, la residenza nel castello, il
+					rispetto del vescovo e del comune, l’elezione e i compiti di 6 capitani e 12
+					consiglieri. Giurano 87 uomini di Bolano.</p>
+			</div>
+
+			<div type="footer" xml:id="CCCCXIII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] cc. 330v.-331r., cc. CCCXXIIv.-CCCXXIIIr. secondo la numerazione
+						originale</p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 413,
+						pp. 404-407; <ref target="#CONTI_1979-1988"/>CONTI 1979-1988, I, pp. 51-54,
+						X.</p>
+				</div>
+
+				<div type="crit_notes">
+					<note>Parte del documento è stata letta con l’ausilio della luce di Wood.</note>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">CCCCXIII. Statuta de Bolano. </term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="CCCCXIII_div">
+				<p xml:id="CCCCXIII_p_001"> In nomine Domini, amen. <date when="1227-03-14">Anno a
+						nativitate Dei M°CCXXVII, indictione XV, die qui fuit XIIII mensis
+						marcii.</date> Sit<note xml:id="CCCCXIII_n_001" n="a" place="foot">
+						<term xml:lang="latin">Sit</term>: s <emph>corretta su precedente lettera
+							abrasa.</emph></note> notum tam presentibus quam futuris hoc scriptum
+					memoriale publicum audituris quod homines de <placeName ref="#Bolano"
+						>Bolano</placeName>, quorum nomina inferius leguntur, ex previsa et cognita
+					utilitate ipsius loci et <orgName ref="#Bolano_comune">communis de <placeName ref="#Bolano"
+					>Bolano</placeName></orgName>, de consilio et voluntate <persName ref="#Gualduspod"
+							>Gualdi<roleName>, potestatis ipsius loci</roleName></persName>
+					presentis, ordinamenta et statuta infrascripta pro bono iamscripti loci et ad
+					Dei et domini Lunensis episcopi honorem fecerunt, et salva fidelitate et
+					dominio, usibus et reverencia et iurisdictione et rationibus Lunensis episcopi
+					et sui nuncii in omnibus, videlicet: quod nullus habitator <placeName
+						ref="#Bolano">Bolani</placeName> et districtus de cetero debeat uti in
+					terris marchionum neque consilium habere vel consuetudinem cum dictis
+					marchionibus neque cum eorum nunciis neque cum eorum hominibus sine parabola
+					domini Lunensis episcopi vel potestatis seu consulum iamscripti loci. Et ipsa
+					potestas seu consules non possi<supplied reason="omitted">n</supplied>t alicui
+					iamscripti loci et districtus parabolam dare sine consensu tocius consilii sui
+					et quicumque de predictis contra hoc fecerit perdat per quamlibet vicem <measure
+						type="imperiales" unit="solidus" quantity="20">soldos XX
+						imperialium</measure>; nec aliquis loci et districtus de cetero teneat
+					aliquod feudum sibi datum vel assignatum a marchionibus vel ab eorum nunciis a
+					duobus annis citra, immo penitus ipsum feudum, sub pena <measure unit="solidus"
+						quantity="100">C soldorum</measure>, relinquat. In hiis vero exceptantur
+					omnes hii qui antiquas possessiones et feuda antiqua habent in terris marchionum
+					ab ipsis marchionibus et ab eorum hominibus.</p>
+				<p xml:id="CCCCXIII_p_002">Item teneantur, sub pena <measure type="imperiales"
+						unit="solidus" quantity="20">XX soldorum imperialium</measure> pro quolibet,
+					omnes homines de districtu <placeName ref="#Bolano">Bolani</placeName> in rebus
+					et personis, infra iuram et extra iuram in omni parte, contra omnes homines et
+					locos adiuvare, preter Lunensem episcopum.</p>
+				<p xml:id="CCCCXIII_p_003">Item teneantur contra omnes personas omnes homines de
+					districtu <placeName ref="#Bolano">Bolani</placeName> adiuvare capitaneos et
+					syndicos vel procuratores, qui pro tempore fuerint pro communi instituti, ad
+					recuperandum res et iura seu pecuniam communis iamscripti loci; et quicumque
+					contra hoc fecerit perdat <measure type="imperiales" unit="solidus"
+						quantity="20">soldos XX imperialium</measure>.</p>
+				<p xml:id="CCCCXIII_p_004">Item statuerunt quod consules vel potestas de <placeName
+						ref="#Bolano">Bolano</placeName>, pro tempore existentes, de cetero dare non
+						debea<supplied reason="omitted">n</supplied>t consulatum nec saltariam set
+					aliquod officium communis ulli persone que illud officium postulaverit et
+					quicumque consul hoc fecerit solvat inde communi <measure type="imperiales"
+						unit="solidus" quantity="40">soldos XL imperialium</measure>, nec postea
+					debeat umquam esse consul.</p>
+				<p xml:id="CCCCXIII_p_005">Item nullus consul unquam possit dare parabolam alicui
+					castellano de <placeName ref="#Bolano">Bolano</placeName> de non habitando per
+					suum annum in castro <placeName ref="#Bolano">Bolani</placeName> et quicumque
+					consul contra hoc fecerit solvat communi <measure type="imperiales"
+						unit="solidus" quantity="20">soldos XX imperialium</measure>, nec magis stet
+					consul.</p>
+				<p xml:id="CCCCXIII_p_006">Item statuerunt quod quicumque de habitatoribus de
+					districtu <placeName ref="#Bolano">Bolani</placeName> fecisset olim contra
+					dominum Lunensem episcopum et contra commune de <placeName ref="#Bolano"
+						>Bolano</placeName> illud vel ea quod vel que videretur aperte domino
+					Lunensi episcopo et communi de <placeName ref="#Bolano">Bolano</placeName> vel
+					quod rationabiliter possit sibi probari quod deberet expelli de districtu
+						<placeName ref="#Bolano">Bolani</placeName> et publicari, quod penitus
+					expellatur et publicetur, nec magis ibi revertetur sine parabola domini episcopi
+					Lunensis.</p>
+				<p xml:id="CCCCXIII_p_007">Eligerunt enim et statuerunt VI capitaneos, qui debeant
+					iurare ad sancta Dei evangelia, per totum tempus potestarie iamscripti <persName
+						ref="#Gualduspod">Gualdi</persName>, petere et litigare, procurare et tueri,
+					bona fide et sine fraude, adversus quamcumque personam et locum, omnia iura et
+					bona communis, et ipsa iura salvare et guardare et non inde aliquid expendere
+						<pb n="331r" xml:id="fol_331r"/> sine parabola potestatis vel consulum, nisi
+					inde expendere<supplied reason="omitted">n</supplied>t occasione petendi vel
+					tuendi seu litigandi; iamscripta iura et ea iura et bona communis, que non
+					poterit diffinire<note xml:id="CCCCXIII_n_002" n="b" place="foot">
+						<term xml:lang="latin">diffinire</term>: dif <emph>aggiunto in sopralinea
+							con segno di richiamo.</emph></note> et recuperare tempore eorumdem
+					capitaneorum et syndicorum officii, ipsi debeant in eorum exitu renunciare aliis
+					sequentibus capitaneis et syndicis et dare eis omnes res que de ipso et pro ipso
+					communi habuerint.</p>
+				<p xml:id="CCCCXIII_p_008">Item statuerunt quod anno hoc presente debeant eligi a
+					predicta potestate XII consiliarii, scilicet in exitu potestarie sue, et
+					consules et saltarii meliores et utiliores cogniti sine fraude, pro bono
+					iamscripti loci, qui debeant facta communis fideliter facere; et sic in antea
+					fiat annuatim.</p>
+				<p xml:id="CCCCXIII_p_009">Et omnia que iamscripta potestas, cum consilio suorum
+					consiliatorum electorum, et que consules vel potestas de <placeName
+						ref="#Bolano">Bolano</placeName> pro tempore existentes, cum consilio eorum
+					consiliatorum electorum pro dicto communi, in hoc addere vel diminuere
+					voluerint, de additis teneantur et de diminutis absolvantur, exceptis<note
+						xml:id="CCCCXIII_n_003" n="c" place="foot">
+						<term xml:lang="latin">exceptis</term>: t <emph>in sopralinea.</emph></note>
+					in omnibus que supra dicta sunt pro domino Lunensi episcopo.</p>
+				<p xml:id="CCCCXIII_p_010">Hec omnia iamscripta omnes infrascripti, quorum nomina
+					inferius leguntur, confessi fuerunt se ad sancta Dei evangelia iurasse attendere
+					et observare, videlicet: <persName ref="#Guiscardus">Guiscardus</persName>,
+						<persName ref="#BenvenutusStazone">Benvenutus de <placeName ref="#Stazone"
+							>Stazone</placeName></persName>, <persName ref="#PaganetusCornilione"
+						>Paganetus de <placeName ref="#Cornilione"
+					>Cornilione</placeName></persName>, <persName ref="#Porcarinus"
+						>Porcarinus</persName>, <persName ref="#Rusticellus">Rusticellus</persName>,
+						<persName ref="#PalmerolusFontana">Palmerolus de <placeName ref="#Fontana"
+							>Fontana</placeName></persName>, <persName ref="#Marabotus"
+						>Marabotus</persName>, <persName ref="#Parens">Parens</persName>, <persName
+						ref="#Salvetus">Salvetus</persName>, <persName ref="#AlbertusValporcara"
+						>Albertus de <placeName ref="#Valporcara">Valporcara</placeName></persName>,
+						<persName ref="#CompagnonusMalliola">Compagnonus de <placeName
+							ref="#Malliola">Malliola</placeName></persName>, <persName ref="#Campus"
+						>Campus</persName>, <persName ref="#Garindonus">Garindonus</persName>,
+						<persName ref="#PaganinusPiazo">Paganinus de <placeName ref="#Piazo"
+							>Piazo</placeName></persName>, <persName ref="#Moretus"
+						>Moretus</persName>, <persName ref="#BonalbergusPrato">Bonalbergus de
+							<placeName ref="#Prato">Prato</placeName></persName>, <persName
+						ref="#UbertinusThufara">Ubertinus de <placeName ref="#Thufara"
+							>Thufara</placeName></persName>, <persName ref="#Nicholosius"
+						>Nicholosius</persName>, <persName ref="#VenturaThufara">Ventura de
+							<placeName ref="#Thufara">Thufara</placeName></persName>, <persName
+						ref="#Bonaiuncta">Bonaiuncta</persName>, <persName ref="#Prodomus"
+							>Prodohomo<note xml:id="CCCCXIII_n_004" n="d" place="foot">
+							<term xml:lang="latin">Prodohomo</term>:<emph>la seconda</emph> o
+								<emph>aggiunta in sopralinea con segno di
+						richiamo.</emph></note></persName>, <persName ref="#OgeriusPropezo">Ogerius
+						de <placeName ref="#Propezo">Propezo</placeName></persName>, <persName
+						ref="#BenvenutusOliveto">Benvenutus de <placeName ref="#Oliveto"
+							>Oliveto</placeName></persName>, <persName ref="#VidalisBusco">Vidalis
+						de <placeName ref="#Busco">Busco</placeName></persName>, <persName
+						ref="#Bonsenior">Bonsenior</persName>, <persName ref="#Mercadellus"
+						>Mercadellus</persName>, <persName ref="#Bonsenior">Bonsenior</persName>,
+						<persName ref="#AlbertusCalvo">Albertus de <placeName ref="#Calvo"
+							>Calvo</placeName></persName>, <persName ref="#Vegnante"
+						>Vegnante</persName>, <persName ref="#BonalbergusCobia">Bonalbergus de
+							<placeName ref="#Cobia">la Cobia</placeName></persName>, <persName
+						ref="#StephanusGuerceto">Stevanus de <placeName ref="#Querceto"
+							>Guerceto</placeName></persName>, <persName ref="#BolanetusCobia"
+						>Bolanetus de <placeName ref="#Cobia">la Cobia</placeName></persName>,
+						<persName ref="#BolgarinusGuerceto">Bolgarinus de <placeName ref="#Querceto"
+							>Guerceto</placeName></persName>, <persName ref="#BonommoOccara">Bonnomo
+						de <placeName ref="#Occara">Occara</placeName></persName>, <persName
+						ref="#BardiranusCornilione">Bardiranus de <placeName ref="#Cornilione"
+							>Cornilione</placeName></persName>, <persName
+						ref="#BonfiliolusCornilione">Bonfiliolus de <placeName ref="#Cornilione"
+							>Cornilione</placeName></persName>, <persName ref="#BolanetusCuna"
+						>Bolanetus de <placeName ref="#Cuna">Cuna</placeName></persName>, <persName
+						ref="#DuransCepparana">Durantus de <placeName ref="#Ceparana"
+							>Cepparana</placeName></persName>, <persName ref="#BastardusValentino"
+						>Bastardus de <placeName ref="#Valentino">Valentino</placeName></persName>,
+						<persName ref="#VivasinusCepparana">Vivasinus de <placeName ref="#Ceparana"
+							>Cepparana</placeName></persName>, <persName ref="#Formentinus"
+						>Formentinus</persName>, <persName ref="#AttolinusMalliola">Attolinus de
+							<placeName ref="#Malliola">Malliola</placeName></persName>, <persName
+						ref="#Brictius">Brictius</persName>, <persName ref="#Fidanzetus"
+						>Fidanzetus</persName>, <persName ref="#MartinusOliveto">Martinus de
+							<placeName ref="#Oliveto">Oliveto</placeName></persName>, <persName
+						ref="#ValentinusCarpeneto">Valentinus de <placeName ref="#Carpeneto"
+							>Carpeneto</placeName></persName>, <persName
+						ref="#VenturentusFontanella">Venturentus de <placeName ref="#Fontanella"
+							>Fontanella</placeName></persName>, <persName ref="#Tedaldinus"
+						>Tedaldinus</persName>, <persName ref="#BonandusButracanca">Bonandus de
+							<placeName ref="#Butracanca">Butracanca</placeName></persName>,
+						<persName ref="#GuerinusCobiata">Guerinus de <placeName ref="#Cobiata"
+							>Cobiata</placeName></persName>, <persName ref="#Foscolinus"
+						>Foscolinus</persName>, <persName ref="#BonafestaDebia">Bonafesta de
+							<placeName ref="#Debia">Debia</placeName></persName>, <persName
+						ref="#Ugolinus">Ugolinus</persName>, <persName ref="#Marabotus"
+						>Marabotus</persName>, <persName ref="#Vivianus">Vivianus</persName>,
+						<persName ref="#Attolinus">Atolinus</persName>, <persName ref="#Prodomus"
+						>Prodohomo</persName>, <persName ref="#FidanciaValporcara">Fidancia de
+							<placeName ref="#Valporcara">Valporcara</placeName></persName>,
+						<persName ref="#MazarasiusRezola">Mazarasius de <placeName ref="#Rezola"
+							>Rezola</placeName></persName>, <persName ref="#TiniosusFontanella"
+						>Tiniosus de <placeName ref="#Fontanella">Fontanella</placeName></persName>,
+						<persName ref="#ValentinusCastegneto">Valentinus de <placeName
+							ref="#Castagneto">Castagneto</placeName></persName>, <persName
+						ref="#Ramundetus">Ramundetus</persName>, <persName
+						ref="#MartinetusValporcara">Martinetus de <placeName ref="#Valporcara"
+							>Valporcara</placeName></persName>, <persName ref="#Pizolbonus"
+						>Pizolbonus</persName>, <persName ref="#VenturaThufara">Ventura de
+							<placeName ref="#Thufara">Tufara</placeName>
+					</persName>, <persName ref="#Marchesellus">Marchesellus</persName>, <persName
+						ref="#GerardinusCobiata">Gerardinus de <placeName ref="#Cobiata"
+							>Cobiata</placeName></persName>, <persName ref="#PaganinusPiazo"
+						>Paganinus de Piazo</persName>, <persName ref="#Fidanzetus"
+						>Fidanzetus</persName>, <persName ref="#AldebertinusBonafide">Aldebertinus
+						de Bonafide</persName>, <persName ref="#Guilielminus"
+						>Guilielminus</persName>, <persName ref="#Aldebertinus"
+						>Aldebertinus</persName>, <persName ref="#OgeriusContebono">Ogerius de
+							<placeName ref="#Contebono">Contebono</placeName></persName>, <persName
+						ref="#Contebonus">Contebonus</persName>, <persName ref="#OgeriusCuna"
+						>Ogerius de <placeName ref="#Cuna">Cuna</placeName></persName>, <persName
+						ref="#StephanetusCepparana">Stephanetus de <placeName ref="#Ceparana"
+							>Cepparana</placeName></persName>, <persName ref="#GerardinusFontana"
+						>Gerardinus de <placeName ref="#Fontana">Fontana</placeName></persName>,
+						<persName ref="#Bernardus">Bernardus</persName>, <persName
+						ref="#Tancredinus">Tancredinus</persName>, <persName ref="#Ferrus"
+						>Ferrus</persName>, <persName ref="#Passador">Passador</persName>, <persName
+						ref="#Opizinus">Opicinus</persName>, <persName ref="#Bonafesta"
+						>Bonafesta</persName>, <persName ref="#BenvenutusTurolo">Benvenutus de
+							<placeName ref="#Turolo">Turolo</placeName></persName>, <persName
+						ref="#GuilielminusFontana">Guilielminus de <placeName ref="#Fontana"
+							>Fontana</placeName></persName>, <persName ref="#Gibertinus"
+						>Gibertinus</persName> et <persName ref="#Corvarinus">Corvarinus</persName>. </p>
+				<p xml:id="CCCCXIII_p_011">Omni anno de cetero potestas vel consules de <placeName
+						ref="#Bolano">Bolano</placeName>, tempore quo intrabunt, hec suprascripta
+					iurent observare et omnibus<note xml:id="CCCCXIII_n_005" n="e" place="foot">
+						<term xml:lang="latin">omnibus</term>:<emph>così nel testo per</emph>
+						omnes</note>, qui sub eis iurabunt, similiter teneantur iurare, attendere et
+					observare.</p>
+				<p xml:id="CCCCXIII_p_012">Actum apud plebem de <placeName ref="#Bolano"
+						>Bolano</placeName>, sollempniter, presentibus <persName
+						ref="#GuilielminusTedesca">Guilielmino de Tedesca</persName>, <persName
+						ref="#OzegnolusSanctoStephano">Ozegnolo<note xml:id="CCCCXIII_n_006" n="f"
+							place="foot">
+							<term xml:lang="latin">Ozegnolo</term>: z <emph>corretta su precedente
+								lettera.</emph></note> de <placeName ref="#Sancto Stephano">Sancto
+							Stephano</placeName></persName>, <persName ref="#AndriolusSantoStephano"
+						>Andriolo de <placeName ref="#Sancto Stephano">Sancto
+						Stephano</placeName></persName>, testibus ad hec rogatis.</p>
+				<p xml:id="CCCCXIII_p_013"><ptr target="#CCCCXIII_st_001"/>Ego <persName
+						ref="#Prefectusnot">Prefectus, <roleName>domini imperatoris et Lunensis
+							curie notarius</roleName></persName>, hiis interfui et rogatus publice
+					scripsi.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

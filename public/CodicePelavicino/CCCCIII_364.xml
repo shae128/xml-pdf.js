@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="CCCCIII_364">
+		<front xml:id="CCCCIII_front">
+
+			<titlePart type="numerazioneNuova">364</titlePart>
+			<titlePart type="numerazioneOrig">CCCCIII</titlePart>
+
+			<docDate xml:id="CCCCIII_docDate">
+				<date when="1283-07-20">1283 luglio 20</date>, <placeName ref="Ameglia">Ameglia
+						(<emph>in castro Amelie, in ecclesia Sancti Vincencii</emph>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="CCCCIII_regesto">
+				<p>Guglielmo Mascardo del fu Alberto vende al vescovo di Luni Enrico alcuni redditi
+					e pensioni nel distretto di Barbazzano per la somma di 150 lire di
+					imperiali.</p>
+			</div>
+
+			<div type="footer" xml:id="CCCCIII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] CP cc. 324r.-325r., cc. CCCXVIr.- CCCXVIIr. secondo la numerazione
+						originale</p>
+				</div>
+
+				<div type="biblio">
+					<p> Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+							1912</ref>, n. 403, pp. 382-384.</p>
+				</div>
+
+				<div type="crit_notes">
+					<note>Nel margine esterno, di mano moderna: <emph>Pro Mascardis</emph></note>
+					<note>La parte finale del documento è stata letta con l’ausilio della luce di
+						Wood.</note>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <emph>CCCCIII.
+							Emptionis a Guilielmo Maschardo de fictis, pensionibus et hominibus in
+							Barbaçano.</emph></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="CCCCIII_div">
+				<p xml:id="CCCCIII_p_001"> In nomine Domini, amen. <date when="1283-07-20">Anno a
+						nativitate Eius M°CC octuagesimo III, indictione XI, die XX iulii.</date>
+					<persName ref="#GuilielmusMascardus">Guilielmus Mascardus, filius quondam
+							<roleName>domini</roleName> Alberti Mascardi de <placeName
+							ref="#Trebiano">Trebiano</placeName><note xml:id="CCCCIII_n_001" n="a"
+							place="foot">
+							<term xml:lang="latin">Mascardi de Trebiano</term>:<emph>nel
+								manoscritto</emph> de Trebiano Mascardi <emph>con segno di richiamo
+								per invertire l’ordine delle parole.</emph></note></persName>, per
+					se suosque heredes vendidit, dedit, tradidit, cessit atque mandavit venerabili
+					patri domino <persName ref="#HenricusEpLuni">Henrico<roleName>, Dei gratia
+							Lunensi episcopo</roleName></persName>, recipienti pro se suisque
+					successoribus, pro episcopatu Lunensi, infrascripta ficta et pensiones, que et
+					quas recipiebat et habere et recipere debebat a personis et locis infrascriptis,
+					cum omni homagio et resedio et villanati<supplied reason="omitted">c</supplied>o
+					eidem <persName ref="#GuilielmusMascardus">Guilielmo</persName> competentibus
+					contra ipsas personas ipsa ficta et pensiones reddere debentes et contra loca
+					unde redduntur et cum aliis omnibus iuribus ad eum quoquo modo spectantibus in
+					eisdem, ut inferius continetur.</p>
+				<p xml:id="CCCCIII_p_002">In primis, videlicet, sex staria frumenti ficti et I
+					congium vini musti ficti, XX imperialium pensionem, quod fictum et pensionem
+					annuatim recipiebat et recipere debebat idem <persName
+						ref="#GuilielmusMascardus">Guilielmus</persName> ab <persName
+						ref="#AlbertusFerri">Alberto quondam Ferri de <placeName ref="#Cala"
+							>Lacala</placeName></persName> de districtu <placeName ref="#Barbazzano"
+						>Barbaçani</placeName> de domo, podere et possessionibus et bonis ipsius
+						<persName ref="#AlbertusFerri">Alberti</persName>, quam et quod et quas idem
+						<persName ref="#AlbertusFerri">Albertus</persName> habet, tenet et possidet
+					in <placeName ref="#Barbazzano">Barbaçano</placeName> et pertinenciis, et
+					specialiter in <placeName ref="#Marlamoça">Marlamoça</placeName> et <placeName
+						ref="#Calasobtana">Calasobtana</placeName> et alibi in pertinenciis
+						<placeName ref="#Barbazzano">Barbaçani</placeName>, ut dictum est.</p>
+				<p xml:id="CCCCIII_p_003">Item starium I frumenti et I congium vini musti ficti,
+					quod annuatim recipiebat et recipere debebat idem <persName
+						ref="#GuilielmusMascardus">Guilielmus</persName> ab <persName
+						ref="#AmicusGerardi">Amico quondam Gerardi de <placeName ref="#Mezana2"
+							>Mezana</placeName></persName> de districtu <placeName ref="#Barbazzano"
+						>Barbaçani</placeName> de domo et possessionibus, quam et quas idem
+						<persName ref="#AmicusGerardi">Amicus</persName> habet, tenet et possidet in
+					predicto loco <placeName ref="#Mezana2">Mezana</placeName>.</p>
+				<p xml:id="CCCCIII_p_004">Item tria staria frumenti, quod annuatim recipiebat et
+					recipere debebat idem <persName ref="#GuilielmusMascardus"
+					>Guilielmus</persName>, nomine ficti, a <persName ref="#BrunaVenuti">Bruna
+						quondam Venuti de <placeName ref="#Panicale">Panicali</placeName></persName>
+					et <persName ref="#BellaSerra">Belle de <placeName ref="#Serra">la
+							Serra</placeName></persName>, olim matris ipsius <persName
+						ref="#BrunaVenuti">Brune</persName>, de districtu <placeName
+						ref="#Barbazzano">Barbaçani</placeName>, et a <persName
+						ref="#FemenellaGerarduccii">Femenella</persName> et <persName
+						ref="#UrsusGerarduccii">Urso</persName>, filiis quondam <persName
+						ref="#GerarducciusSerra">Gerarducii de <placeName ref="#Serra">la
+							Serra</placeName></persName>, olim filii dicte <persName
+						ref="#BellaSerra">Belle</persName>, de domo, podere et possessionibus, quam
+					et quod et quas predicte <persName ref="#BrunaVenuti">Bruna</persName>,
+						<persName ref="#FemenellaGerarduccii">Femenella</persName> et <persName
+						ref="#UrsusGerarduccii">Ursus</persName> habent, tenent et possident in
+					predicto loco <placeName ref="#Serra">Serra</placeName> et pertinenciis ipsius
+					loci et etiam de terris et possessionibus quas <pb n="324v" xml:id="fol_324v"/>
+					habent et possident in plano de <placeName ref="#Ameglia">Amelia</placeName> et
+					alibi, que tenentur ab ipso <persName ref="#GuilielmusMascardus"
+						>Guilielmo</persName>.</p>
+				<p xml:id="CCCCIII_p_005">Item staria tria frumenti, quod annuatim recipiebat et
+					recipere debebat idem <persName ref="#GuilielmusMascardus"
+					>Guilielmus</persName>, nomine ficti, a <persName ref="#PinaRogerini">Pina,
+						filia quondam Rogerini de <placeName ref="#Maretema"
+						>Maretima</placeName></persName>, de casamentis, podere et possessionibus,
+					que, quod et quas dicta <persName ref="#PinaRogerini">Pina</persName> habet,
+					tenet et possidet in loco dicto <placeName ref="#Serra"/>Serra, in pertinenciis
+						<placeName ref="#Barbazzano">Barbaçani</placeName>.</p>
+				<p xml:id="CCCCIII_p_006">Item staria duo frumenti, quod annuatim recipiebat et
+					recipere debebat idem <persName ref="#GuilielmusMascardus"
+					>Guilielmus</persName>, nomine ficti, ab heredibus <persName
+						ref="#RapallusVeraxano">Rapalli</persName> et <persName
+						ref="#GaleardusRapalli">Galeardi, filii sui</persName>, de <placeName
+						ref="#Verazano">Veraxano</placeName> de districtu <placeName
+						ref="#Barbazzano">Barbaçani</placeName>, de domibus, poderibus et
+					possessionibus, quas et que habent, tenent et possident ipsi heredes in
+						<placeName ref="#Verazano">Verazano</placeName> et <placeName ref="#Cala"
+						>Cala</placeName> et <placeName ref="#Serra">la Serra</placeName> et alibi
+					ubicumque in pertinentiis <placeName ref="#Barbazzano">Barbaçani</placeName>.
+					Quod fictum frumenti et vini et quam pensionem dicebat et asserebat idem
+						<persName ref="#GuilielmusMascardus">Guilielmus</persName> se debere
+					recipere annuatim a suprascriptis personis de predictis poderibus et tenutis, ut
+					dictum est.</p>
+				<p xml:id="CCCCIII_p_007">Item vendidit et cessit eidem domino episcopo, recipienti
+					ut dictum est, omne homagium et resedium et omnem villanaticam, ascripticiam,
+					colonariam et quamlibet aliam condictionem et omne dominium et proprietatem,
+					usum et utilitatem, accessum atque regressum et omnia iura, actiones et rationes
+					utiles et directas, reales, personales et mixtas, que et quas idem <persName
+						ref="#GuilielmusMascardus">Guilielmus</persName> habet vel ei competunt,
+					aliqua occasione vel ratione vel modo, in dicto ficto et in dicta pensione et in
+					predictis domibus, casamentis, poderibus, terris et possessionibus, unde dictum
+					fictum redditur, et in personas et contra personas suprascriptas dictum fictum
+					et pensionem solvere debentium<note xml:id="CCCCIII_n_002" n="b" place="foot">
+						<term xml:lang="latin">debentium</term>:<emph>così nel testo per</emph>
+						debentes</note> et contra bona ipsorum et cuiuslibet eorum, faciendo ipsum
+					dominum episcopum de predictis procuratorem et dominum ut in rem suam, ita quod
+					ut, ab hinc in antea, in perpetuum, suprascriptus dominus episcopus suique
+					successores de predictis omnibus et singulis possint agere et experiri, tueri,
+					causari et deffendere et exinde quicquid voluerint facere, sine contradictione
+					dicti <persName ref="#GuilielmusMascardus">Guilielmi Mascardi</persName> eiusque
+					heredum vel alterius persone. Et dedit idem <persName ref="#GuilielmusMascardus"
+						>Guilielmus</persName> licenciam et bailliam eidem domino episcopo intrandi
+					tenutam et possessionem vel quasi de predictis quandocumque voluerit,
+					constituendo se pro eo et eius nomine possidere vel quasi, donec tenutam et
+					possessionem vel quasi fuerit ingressus de predictis. Pro precio cuius
+					vendictionis fuit confessus idem <persName ref="#GuilielmusMascardus"
+						>Guilielmus</persName> se habuisse et recepisse a dicto domino episcopo
+						<measure type="imperiales" unit="lira" quantity="150">libras CL
+						imperialium</measure>, renunciando exceptioni non numerate pecunie et precii
+					integre non habiti et recepti et omni alii iuri et legum auxilio. Et fuit
+					confessus idem <persName ref="#GuilielmusMascardus">Guilielmus</persName> quod
+					predicta vendita valebant plus precio suprascripto; unde totum et quicquid plus
+					valebant donavit eidem domino episcopo, recipienti ut dictum est, titulo pure ac
+					simplicis donationis inter vivos, inrevocabiliter, in perpetuum, renunciando
+					specialiter legi que iuvat deceptos in vendictionibus et in contractibus ultra
+					dimidiam iusti precii. Insuper dictus <persName ref="#GuilielmusMascardus"
+						>Guilielmus</persName> per se suosque heredes promisit et convenit eidem
+					domino episcopo, recipienti pro se suisque successoribus et pro episcopatu
+					Lunensi, predicta omnia et singula vendita non imbrigare vel molestare deinceps,
+					immo deffendere et exbrigare de iure ab omni molestante persona et loco propriis
+					expensis et advocato ipsius <persName ref="#GuilielmusMascardus"
+						>Guilielmi</persName> eiusque heredum. Et si non deffenderet vel non posset
+					deffendere, dabit et teneatur eidem dare salvum cambium de bonis suis in loco
+					consimili eius tocius quod ex predictis evictum fuerit, cum restauratione
+					dampnorum, interesse et expensarum, credendo de dampno, expensis et interesse
+					soli, nudo et simplici verbo ipsius domini episcopi eiusque successorum, sine
+					sacramento et testium vel instrumenti vel alterius probationis honere, remissa
+					eidem domino episcopo eiusque successoribus a suprascripto <persName
+						ref="#GuilielmusMascardus">Guilielmo</persName> necessitate denunciandi, si
+					exinde lis vel questio mota fuerit, eidem domino episcopo vel suis successoribus
+					de predictis vel aliquo predictorum et necessitate appellandi, si sententia lata
+					fuerit contra eum, et necessitate prosequendi appellationem, si appellaverit. Et
+					nichillominus idem dominus episcopus suique successores regressum habeant contra
+					suprascriptum <persName ref="#GuilielmusMascardus">Guilielmum</persName> et eius
+					heredes et bona de deffensione et evictione et omnibus et singulis
+					suprascriptis. Hanc autem vendictionem et omnia et singula suprascripta promisit
+					et convenit dictus <persName ref="#GuilielmusMascardus">Guilielmus</persName>
+					per se suosque heredes dicto domino episcopo, recipienti ut dictum est,
+					attendere et observare et in nullo contra facere vel venire, de iure vel de
+					facto, sub pena <measure type="imperiales" unit="lira" quantity="150">CL
+						librarum imperialium</measure>, quam penam eidem domino episcopo dare et
+					solvere promisit tociens quociens fuerit contraventum et pro quolibet capitulo
+					non observato; et, pena soluta vel non, suprascriptis nichillominus semper
+					firmis manentibus cum eadem pene commissione et obligando ad hec attendenda et
+					observanda se suosque heredes <pb n="325r" xml:id="fol_325r"/> et omnia sua
+					bona, habita et habenda, et renunciando omni iuri et legi quo contra predicta
+					vel aliquod predictorum possit ullo tempore facere vel venire.</p>
+				<p xml:id="CCCCIII_p_008">Actum in <placeName ref="#Ameglia">castro
+						Amelie</placeName>, in <orgName ref="#Ameglia_S_Vincenzo">ecclesia Sancti
+						Vincencii</orgName>, presentibus <persName ref="#IacobusPrato"
+							><roleName>fratre</roleName> Iacobo de <roleName>ordine
+							Minorum</roleName></persName>, <persName ref="#HenrigetusPrato"
+						>Henrigeto <roleName>medico</roleName> de <placeName ref="#Prato"
+							>Prato</placeName></persName>, <roleName>castellano</roleName>
+					<placeName ref="#Ameglia">Amelie</placeName>, <persName ref="#GerardusCornilio"
+							><roleName>presbytero</roleName> Gerardo de <placeName ref="#Cornilio"
+							>Cornilio</placeName></persName>, <roleName>familiare ipsius domini
+						episcopi</roleName>, <persName ref="#BonacursusPetrinot">Bonacurso
+							<roleName>notario</roleName>, filio Petri quondam Gentis de <placeName
+							ref="#Sarzanello">castro Sarzane</placeName></persName>, et <persName
+						ref="#AmicusMartignoni">Amico de <placeName ref="#Barbazzano"
+							>Barbaçano</placeName></persName>, testibus ad hec rogatis.</p>
+				<p xml:id="CCCCIII_p_009"><ptr target="#CCCCIII_st_001"/> Ego <persName
+						ref="#BondiesRubeinot">Bondies, filius domini Rubei de <placeName
+							ref="#Sarzana">Sarzana</placeName>
+						<roleName>iudicis</roleName>, <roleName>sacri palacii notarius</roleName>
+						<roleName>iudexque ordinarius</roleName></persName>, hiis interfui ac
+					rogatus scripsi.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="DXXXVIII_499">
+        <front xml:id="DXXXVIII_front">
+
+            <titlePart type="numerazioneNuova">499</titlePart>
+            <titlePart type="numerazioneOrig">DXXXVIII</titlePart>
+
+            <docDate xml:id="DXXXVIII_docDate">
+                <date when="1202-04-30">1202 aprile 30</date>, <placeName ref="#Sarzanello">
+                    Sarzanello (<term xml:lang="latin">in palacio castri de
+                    Sarzana</term>).</placeName>
+            </docDate>
+
+            <div type="regesto" xml:id="DXXXVIII_regesto">
+                <p>Dato che la pieve di San Cassiano di Saliceto risulta avere poche cappelle
+                    dipendenti, il vescovo di Luni Gualtiero concede al suo arciprete Sarado la
+                    chiesa di S. Alessandro di Pontremoli, ricevuta in permuta dall’abate Baldizio
+                    di Aulla. Il censo è di una libbra di incenso all’anno per la festa del Sangue.
+                </p>
+            </div>
+
+            <div type="footer" xml:id="DXXXVIII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia di copia autentica [C] c. 398v., c. CCCLXXXXv. secondo la numerazione
+                        originale. </p>
+                </div>
+
+
+                <div type="biblio">
+                    <p>Edizione in <ref target="#SFORZA_1904">SFORZA 1904</ref>, II, p. 275; <ref
+                            target="#LUPO_GENTILE_1912">LUPO GENTILE, 1912</ref>, n. 538, pp.
+                        602-603.</p>
+
+                </div>
+
+                <div type="crit_notes">
+                    <note><p>Autentica databile alla metà del XIII secolo. </p>
+                        <p>La festa del preziosissimo Sangue si celebra a Sarzana il lunedì
+                            successivo alla SS. Trinità.</p></note>
+                </div>
+
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">DXXXVIII. Concessio facta de ecclesia Sancti Alexandri
+                            de Puntremulo sub plebe de Saleceto.</term></p>
+                </div>
+
+
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="DXXXVIII_div">
+                <p xml:id="DXXXVIII_p_001" n="1">
+                    <pb n="398v" xml:id="fol_398v"/>
+                    <ptr target="DXXXVIII_st_001"/>In eterni Dei nomine, amen. Anno a nativitate
+                    Eius M°CC secundo, indictione V, die martis, pridie kalendas madii. Quoniam
+                        <orgName ref="#Urceola_S_Cassiano">plebs de <placeName ref="#Saleceto"
+                            >Saliceto</placeName></orgName>, ecclesia honorabilis et populosa,
+                    paucas, et maxime in burgo <placeName ref="#Pontremoli">Pontremuli</placeName>,
+                    videtur habere cappellas, ideoque nos <persName ref="#GualEpLuni"
+                        >Walterius</persName>, <roleName>Dei gratia Lunensis ecclesie
+                        episcopus</roleName>, tibi <persName ref="#Saradus_archipresbyter"
+                        >Sarado</persName>, dilecto in Christo filio,
+                        <roleName>archipresbytero</roleName> dicte plebis <orgName
+                        ref="#Urceola_S_Cassiano">Sancti Cassiani de <placeName ref="#Saleceto"
+                            >Saliceto</placeName></orgName>, nomine ipsius plebis, pro te et
+                    successoribus tuis recipienti, pro anime nostre nostrorumque predecessorum
+                    remedio, damus inrevocabiliter, cedimus et offerimus in perpetuum <orgName
+                        ref="#Pontremoli_S_Alessandro">ecclesiam Sancti Alexandri de <placeName
+                            ref="#Pontremoli">Pontremulo</placeName></orgName>, cum omni iure et
+                    actione et rationibus, quod et quas ex permutatione ab
+                        <roleName>abbate</roleName>
+                    <persName ref="#Balditio_abbas">Balditione</persName> de <orgName
+                        ref="Aulla_S_Caprasio"><placeName ref="#Aulla">Avula</placeName></orgName>
+                    et a fratribus suis nobiscum facta habere cepimus, quatenus tu, prefatus
+                    archipresbyter, et tui successores pro dicta <orgName ref="#Urceola_S_Cassiano"
+                        >ecclesia Sancti Cassiani</orgName> habeatis potestatem prefatam <orgName
+                        ref="#Pontremoli_S_Alessandro">ecclesiam Sancti Alexandri</orgName>
+                    ordinandi et disponendi de ea ad tue plebis utilitatem, salva sedis episcopalis
+                    auctoritate, sine omni nostra nostrorumque successorum contradictione et cum
+                    nostra nostrorumque successorum deffensione ab omni persona, cum ratione. Ita
+                    tamen ut tu et tui successores nobis nostrisque successoribus annuum censum
+                    unius libre incensi in festo Sanguinis exsolvatis. Insuper quoque damus tibi
+                    licenciam intrandi tua auctoritate de ipsa cappella in tenutam, constituentes
+                    nos ipsam tue plebis nomine possidere. Acta sunt hec in palacio castri de
+                        <placeName ref="#Sarzana">Sarzana</placeName>, sollempni cum stipulatione.
+                    Ibi fuerunt rogati testes <persName ref="#Lambertus_iudex">Lambertus</persName>
+                    <roleName>iudex</roleName> de <placeName ref="#Pisa">Pisis</placeName>,
+                        <persName ref="#Nicholausadv">Nicholaus</persName>
+                    <roleName>advocatus Lunensis curie</roleName>, <persName
+                        ref="#SalvagiusMarciasio">Salvagius</persName> de <placeName ref="#Marciaso"
+                        >Marzasio</placeName>, <persName ref="#GuidoCassina">Guido</persName> de
+                        <placeName ref="#Cassina">Cassina</placeName> et <persName
+                        ref="#FornariusMoronti">Fornarius</persName> de <placeName ref="#Pisa"
+                        >Pisis</placeName> filius Moronti. Ego <persName ref="#Confortusnot"
+                        >Confortus</persName>, <roleName>sacri palacii et Lunensis curie
+                        notarius</roleName>, hiis interfui et, mandato domini episcopi prelibati,
+                    hanc cartam scripsi.</p>
+
+                <p xml:id="DXXXVIII_p_002" n="2"><ptr target="DXXXVIII_st_002"/> Ego
+                        <roleName>magister</roleName>
+                    <persName ref="#Bernardusnot2">Bernardus</persName>, <roleName>imperialis aule
+                        notarius</roleName>, autenticum huius exempli vidi, legi, in quo
+                    continebatur ut hic, et ipsum fideliter, preter litteram aut sillabam, sine
+                    diminutione carte tenoris exemplavi.</p>
+
+                <p xml:id="DXXXVIII_p_003" n="3"><ptr target="DXXXVIII_st_003"/> Ego <persName
+                        ref="#Iacopinus_notarius">Iacopinus</persName>, <roleName>sacri palacii
+                        notarius</roleName>, autenticum huius exempli vidi et legi, in quo
+                    continebatur ut hic, et subscripsi.</p>
+
+                <p xml:id="DXXXVIII_p_004" n="4"><ptr target="DXXXVIII_st_004"/> Ego <persName
+                        ref="#Castellanus_notarius2">Castellanus</persName>, <roleName>sacri palacii
+                        notarius</roleName>, autenticum huius exempli vidi, legi, in quo
+                    continebatur ut hic, et subscripsi.</p>
+
+                <p xml:id="DXXXVIII_p_005" n="5"><ptr target="DXXXVIII_st_005"/> Ego <persName
+                        ref="#Guilielmusnot7">Guilielmus</persName>, <roleName>notarius Frederici
+                        imperatoris</roleName>, autenticum huius exempli vidi, legi, in quo
+                    continebatur ut hic, et subscripsi <note> Autentica del documento 499-DXXXVIII
+                        priva di data, presumibilmente della prima metà del XIII secolo. <date
+                            notBefore="1202-04-30" notAfter="1250-12-31" cert="medium"/></note>.
+                </p>
+            </div>
+
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,259 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXXXVIIII_261">
+    <front xml:id="CCLXXXXVIIII_front">
+
+      <titlePart type="numerazioneNuova">261</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXXXVIIII</titlePart>
+
+      <docDate xml:id="CCLXXXXVIIII_docDate">
+        <date when="1259-02-11">1259 febbraio 11</date>, <placeName><emph><term xml:lang="latin">in
+              loco Serravalle, qui olim dicebatur Ceppato</term></emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXXXVIIII_regesto">
+        <p>Guglielmo, vescovo di Luni, col consenso del comune di Nicola o di <term xml:lang="latin"
+            >Ceppato</term>, rappresentato dai sindaci Iacopino del fu Pegolotto e Bonaccorso del fu
+          Burgense, e del comune di Ortonovo, rappresentato dal sindaco Migliore del fu Venuto,
+          oltre che dei consoli e consiglieri rispettivi, ordina di edificare un borgo o terra nuova
+          nel luogo detto <term xml:lang="latin">Ceppata</term>, dove gli abitanti di Nicola e
+          Ortonovo devono andare ad abitare, stando all’interno di un’unica fortificazione, sotto un
+          consolato o un podestà e uno statuto, come uomini di un solo comune. Gli uomini di Nicola
+          possono continuare a tenere il poggio di Nicola pagando annualmente il medesimo fitto di
+          20 staia di frumento e 10 di orzo; ugualmente gli uomini di Ortonovo possono tenere il
+          poggio del castello di Ortonovo, dando alla curia di Luni quanto erano già soliti versare.
+          Tutte le abitazioni che saranno costruite dovranno essere lunghe almeno 20 braccia e
+          larghe almeno 16. Per l’acquisto e la stima dei terreni sono elette tre persone, due di
+          Nicola - Gerardinus <term xml:lang="latin">de Padule</term> e Guilielmus Ugolini di Nicola
+          – e una di Ortonovo – Gerardino. Il vescovo s’impegna a proteggere le due comunità in
+          qualità di conte della provincia a cui spetta la piena giurisdizione.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXXXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP cc. 282r.-283r., cc. CCLXXIIIIr.-CCLXXVr. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. 299, pp. 276-279.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine interno di c. 282r., di mano moderna, una nota illeggibile a causa
+            dell’inchiostro sbiadito. Nel margine esterno di c. 282v., di mano moderna, la seguente
+            annotazione: <emph>staria 20 frumenti et staria 10 ordei.</emph>
+            <p>Autentica del 13 giugno 1272.</p></note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCLXXXXVIIII. Constitutiones de Serravalle, de hominibus Nicole et
+            Ortonovi.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXXXVIIII_div">
+        <p xml:id="CCLXXXXVIIII_p_001" n="1"><ptr target="#CCLXXXXVIIII_st_001"/> In nomine Domini,
+            amen.<date when="1259-12-11"> Anno a nativitate Dei millesimo CCLIX, indictione secunda,
+            die XI mensis februarii</date>. Ad memoriam futuri temporis et ut rei geste posteris
+          noticia plenius habeatur, manifestum sit tam presentibus quam futuris quod venerabilis
+          pater <persName ref="#GuilEpLuni">Guilielmus, <roleName>Dei gratia Lunensis
+            episcopus</roleName></persName>, de voluntate et consensu et beneplacito <orgName ref="#Nicola_comune">communis et
+          hominum</orgName> de <placeName ref="#Nicola">Nichola</placeName> sive de <placeName ref="#Ceppato"
+            >Ceppato</placeName>, vel maioris partis, et <persName ref="#IacobinusPegolotti"
+            >Iacobini quondam Pegolotti</persName>, <roleName>syndici</roleName> ipsius communis
+          superconstituti, ut continebatur in publico instrumento facto manu mei <persName
+            ref="#Bonacursusnot">Bonacursi</persName>
+          <roleName>notarii</roleName> sub <date when="1259-01-25">millesimo CCLIX, indictione
+            secunda, die XXV mensis ianuarii</date>, et <persName ref="#BonacursusBurgensis"
+              >Bonacursus<note place="foot" n="a" xml:id="CCLXXXXVIIII_n_001"><term type="incerto"
+                >Bonacursus</term><emph>: così nel testo per </emph><term xml:lang="latin"
+                >Bonacursi</term></note> quondam Burgensis</persName>, <roleName>syndici</roleName>
+          generalis suprascripti communis, ut dicebat, nec non et communis et hominum de <placeName
+            ref="#Ortonovo">Ortonovo</placeName> vel maioris partis ipsius communis, et <persName
+            ref="#MeliorVenuti">Melioris quondam Venuti<note place="foot" n="b"
+              xml:id="CCLXXXXVIIII_n_002"><term xml:lang="latin">quondam Venuti</term><emph>: nel
+                testo </emph><term xml:lang="latin">Venuti quondam</term>
+              <emph>con segno di richiamo per invertire l’ordine delle parole.</emph></note> de
+              <placeName ref="#Ortonovo">Ortonovo</placeName></persName>,
+            <roleName>syndici</roleName> ipsius communis generalis, ut continebatur in publico
+          instrumento facto manu <persName ref="#Iunctanot">Iuncte
+            <roleName>notarii</roleName></persName>, a me <roleName>notario</roleName> viso et
+          lecto, sub <date when="1258-05-06">anno millesimo CCLVIII, indictione prima, die VI
+            kalendas madii</date>, et ad preces et instanciam ipsorum communium et
+            <roleName>syndicorum</roleName> et <roleName>consulum</roleName> et
+            <roleName>consiliariorum</roleName>, videlicet <persName ref="#BonacursusBurgensis"
+            >Bonacursi</persName> suprascripti et <persName ref="#Bernardinuscons"
+            >Bernardini</persName> et <persName ref="#Albertuscons">Alberti</persName><note
+            place="foot" n="c" xml:id="CCLXXXXVIIII_n_003"><term xml:lang="latin"
+              >Alberti</term><emph>: segue ripetuto </emph><term xml:lang="latin"
+            >Alberti</term></note>, tunc <roleName>consules</roleName><note place="foot" n="d"
+            xml:id="CCLXXXXVIIII_n_004"><term type="incerto">consules</term><emph>: così nel testo
+              per </emph><term xml:lang="latin">consulum</term></note>, et <persName
+            ref="#Ricomannuscons">Ricomanni</persName>, <persName ref="#UgolinusDominice">Ugolini
+            Dominice</persName>, <persName ref="#Iacobinuscons">Iacobini</persName>, <persName
+            ref="#Petruscons">Petri</persName>, <persName ref="#UgolinusYmelde">Ugolini
+            Ymelde</persName>, <persName ref="#PetrusIordani">Petri Iordani</persName>
+          <pb xml:id="fol_282v" n="282v"/>et <persName ref="#MeliorVenuti">Melioris</persName>,
+          eorum <roleName>consiliariorum</roleName>, et ad honorem Dei et gloriose Virginis Marie et
+            ips<supplied reason="omitted">i</supplied>us domini episcopi et episcopatus Lunensis et
+          ad bonum et pacificum statum dictorum communium, scilicet de <placeName ref="#Nicola"
+            >Nichola</placeName> et de <placeName ref="#Ortonovo">Ortonovo</placeName>, mandavit
+          construi et hedificari burgum sive terram unam novam in loco dicto <placeName
+            ref="#Ceppato">Ceppata</placeName>, in quo vel qua simul homines de <placeName
+            ref="#Nicola">Nichola</placeName> et de <placeName ref="#Ortonovo">Ortonovo</placeName>
+          congregari et coadunari debeant, qui modo sunt vel in posterum venient, et ibidem stare et
+          habitare ad invicem sub uno munimine et uno circuitu et sub uno consulatu vel potestate de
+          cetero regantur et vivant et ad unum statutum tanquam homines unius communis et unius
+          terre, ita videlicet quod, ipso burgo seu terra quo<supplied reason="omitted"
+            >modo</supplied>cumque censetur, omnes homines dictorum locorum, scilicet de <placeName
+            ref="#Ortonovo">Ortonovo</placeName> et <placeName ref="#Nicola">Nichola</placeName>,
+          qui nunc ibi habitant vel in posterum habitabunt, ea condictione et modo et forma et pacto
+          in ipso burgo sive terra habitent et habitare debeant quibus habitabant et stabant in
+          castris <placeName ref="#Nicola">Nichole</placeName> et <placeName ref="#Ortonovo"
+            >Ortonovi</placeName> et illos redditus et condictiones et usancias in dicto loco et
+          servicia faciant et prestent quilibet suo domino, quas et que faciebant et prestabant
+            <placeName ref="#Nicola">Nichole</placeName> et <placeName ref="#Ortonovo"
+            >Ortonovi</placeName> quilibet suis dominis et non aliter. Et eandem iurisdictionem
+          habeat et exerceat ipse dominus episcopus et exercere debeat, et successores sui, in dicto
+          loco et in omnes habitantes in eo qui habebat et exercebat hactenus in <placeName
+            ref="#Nicola">Nichola</placeName> et <placeName ref="#Ortonovo">Ortonovo</placeName> et
+          in omnes habitantes in eis et non amplius, quia sic actum est inter eos quod nichil
+          novitas fieret vel fieri deberet et hedificaret vel propter hedificationes ipsius loci a
+          quibus hominibus vel communibus suprascriptis singulariter vel universaliter
+          suprascriptorum locorum. Tali adhuc conventione et pacto interveniente inter ipsum dominum
+          episcopum suprascriptum et homines de <placeName ref="#Nicola">Nichola</placeName> et de
+            <placeName ref="#Ortonovo">Ortonovo</placeName> quod homines de <placeName ref="#Nicola"
+            >Nichola</placeName> libere et quiete habeant et habere debeant podium castri <placeName
+            ref="#Nicola">Nichole</placeName>, videlicet totum id quod datum et concessum fuit eis
+          vel ipsi communi per ipsum dominum episcopum vel predecessores eius in ipso podio, sine
+          contradictione ipsius domini episcopi et successorum eius et modo et forma et pacto quo et
+          qua habebant et tenebant hactenus ante hedificationem dicti loci de <placeName
+            ref="#Ceppato">Ceppato</placeName>. Et commune de <placeName ref="#Nicola"
+            >Nichola</placeName> et homines ipsius castri solvere debeant <placeName ref="#Luni"
+            >curie Lunensi</placeName> ex ipso podio de <placeName ref="#Nicola">Nichola</placeName>
+          illud fictum quod soliti sunt solvere et dare, videlicet XX staria frumenti et staria X
+          ordei annuatim absque commune et hominibus de <placeName ref="#Ortonovo"
+            >Ortonovo</placeName>, et quod homines de <placeName ref="#Ortonovo"
+            >Ortonovo</placeName> similiter libere et quiete et pacifice sine contradictione
+          suprascripti domini episcopi et successorum eius habeant et habere debeant et possidere
+          podium castri <placeName ref="#Ortonovo">Ortonovi</placeName>, sicut habebant et
+          possidebant ante dicti burgi sive terre hedificationem, videlicet totum id quod concessum
+          et datum fuit eis vel ipsi communi per ipsum dominum episcopum et predecessores eius, non
+          obstante hedificatione ipsius loci. Et ipsi homines de <placeName ref="#Ortonovo"
+            >Ortonovo</placeName> similiter et teneantur, absque hominibus de <placeName
+            ref="#Nicola">Nichola</placeName>, dare et solvere <placeName ref="#Luni">curie
+            Lunensi</placeName> ea omnia que soliti sunt et consueverunt dare et solvere de dicto
+          castro de <placeName ref="#Ortonovo">Ortonovo</placeName> et podio ipsi domino episcopo et
+            <placeName ref="#Luni">curie Lunensi</placeName>, id quod consueti sunt tantum. Modus
+          autem hedificandi dictum burgum vel villam sive terram talis est, quia omnes domus que
+          hedificabuntur et fient in ipso vel in ipsa debeant esse equales et longe brachia XXX et
+            brachia<note place="foot" n="e" xml:id="CCLXXXXVIIII_n_005"><term xml:lang="latin"
+              >brachia</term><emph>: corretto su </emph><term type="incerto">brachie</term></note>
+          XVI ample inter godiam, murum, fossatum sive sultum<note place="foot" n="f"
+            xml:id="CCLXXXXVIIII_n_006"><term type="incerto">sultum</term><emph>: così nel testo,
+              probabilmente per </emph><term xml:lang="latin">sulcum</term></note> quod fiet inter
+          unam et aliam, et hoc intelligatur de longitudine quam de latitudine ipsarum; et quodlibet
+          terrenum sive domus acquirat secundum quod per apodissam sibi evenerit vel sibi assignatum
+          fuerit, ita videlicet quod tres homines eligantur, duo de <placeName ref="#Nicola"
+            >Nichola</placeName> et unus de <placeName ref="#Ortonovo">Ortonovo</placeName>,
+          scilicet <persName ref="#GerardinusPadule">Gerardinus de <placeName ref="#Padule"
+              >Padule</placeName></persName>, <persName ref="#GuilEpLuni">Guilielmus Ugolini de
+              <placeName ref="#Nicola">Nichola</placeName></persName> et <persName
+            ref="#GerardinusOrtonovo">Gerardinus de <placeName ref="#Ortonovo"
+            >Ortonovo</placeName></persName>, qui iurent ad sancta Dei evangelia bona fide et sine
+          omni fraude, remoto odio, amore, precio et precibus, qui simul terrenum cuiuslibet domus
+          hedificande extimare debeant et, iuxta eorum extimationem, ille cuius casamentum evenerit,
+          sicut dictum est, per apodissam et non aliter; quia sic actum est quod per apodissam
+          casamenta debeant dari tantum, videlicet dare illi cuius fuerit terrenum quantum fuerit
+          extimatum per eos, et sic fiat de singulis casamentis hedificandis, et ille cuius fuerit
+          terrenum similiter recipere tantum cogatur quantum fuerit extimatum, sicut dictum est, per
+          predictos. Hoc abiecto<note place="foot" n="g" xml:id="CCLXXXXVIIII_n_007"><term
+              type="incerto">abiecto</term><emph>: così nel testo per </emph><term xml:lang="latin"
+              >adiecto</term></note> quod suprascriptus dominus episcopus per se suosque
+          successores, sicut comes <orgName ref="#Lunigiana_provincia">provincie</orgName> et ad quem spectat iurisdictio plena, promisit et
+          convenit stipulatione sollempni dictis comunitatibus et universitatibus dictum locum
+          secundum modum predictum deffendere et exbrigare ab omni contradicente vel molestante
+          persona ad penam <measure type="Lucenses" quantity="200" unit="libra">CC librarum
+            lucensium</measure> solvendam ipsis comunitatibus. Et hec omnia et singula suprascripta
+          sic attendere et observare sibi ad invicem suprascriptus dominus episcopus et suprascripta
+          communia et syndici eorum pro eorum communi promiserunt et convenerunt ad suprascriptam
+          penam suprascripto domino episcopo, quam dare teneatur pars que contravenerit parti
+          predicta servanti;<pb xml:id="fol_283r" n="283r"/>et, ea soluta, predicta robur obtineant
+          perpetue firmitatis, obligando se dominus idem episcopus ad hec attendenda et observanda
+          suosque successores et bona episcopatus et dicti <roleName>syndici</roleName> se et
+          syndicatus nomine dicta communia et singulos de ipsis comunitatibus et eorum heredes et
+          bona omnia, presentia et futura.</p>
+        <p xml:id="CCLXXXXVIIII_p_002" n="2">Actum in loco <placeName ref="#Serravalle"
+            >Serravalle</placeName>, qui olim dicebatur <placeName ref="#Ceppato"
+            >Ceppato</placeName>, ante domum <persName ref="#RicomannusColle">Ricomanni de
+              <placeName ref="#Colle">Colle</placeName></persName>, sollempniter, presentibus domino
+            <persName ref="#GuilEpLuni">Guilielmo, <roleName>Lunensi
+          preposito</roleName></persName>, domino <persName ref="#GetreduciusMalusii">Gerardutio
+            Maluso, <roleName>vicario <placeName ref="#Lunigiana">Lunisiane</placeName> pro <placeName ref="#Lucca">communi
+                Lucano</placeName></roleName></persName>, <roleName>archipresbytero</roleName>
+          <persName ref="#Villiano">Villano</persName>
+          <orgName ref="#Vendaso_S_Paolo">plebis Sancti Paoli</orgName>,
+            <roleName>presbytero</roleName>
+          <persName ref="#Aiutuspres">Aiuto de <placeName ref="#Yliolo">valle
+            Ylioli</placeName></persName>, <roleName>magistro</roleName>
+          <persName ref="#Saladinusarc">Saladino</persName>
+          <roleName>archipresbytero</roleName>
+          <orgName ref="#Viano_S_Martino">plebis de <placeName ref="#Viano"
+            >Viano</placeName></orgName> et pluribus aliis testibus ad hec rogatis.</p>
+        <p xml:id="CCLXXXXVIIII_p_003" n="3">Ego <persName ref="#Bonacursusnot">Bonacursus,
+              <roleName>sacri palatii notarius</roleName></persName>, hiis interfui et rogatus
+          scripsi.</p>
+      </div>
+      <div xml:id="CCLXXXXVIIII_div2" type="autentica">
+        <p xml:id="CCLXXXXVIIII_p_004" n="4"><ptr target="#CCLXXXXVIIII_st_002"/> Ego <persName
+            ref="#Pasqualinusnot">Pasqualinus, <roleName>sacri palatii
+            notarius</roleName></persName>, autenticum huius exempli vidi et legi et, ut in ipso
+          continebatur, ita hic scripsi, nichil addens vel minuens quod mutet sensum vel variet
+          intellectum, mandato et auctoritate mihi dato et data, facto et facta et prestitis a
+            <persName ref="#Bonaiunctaiud">domino Bonaiuncta de <placeName ref="#PodioLucca"
+              >Podio</placeName></persName>, cive <placeName ref="#Lucca"></placeName>Lucano, <roleName>iudice</roleName> et
+          <roleName>assessore</roleName> in <orgName ref="#Lunigiana_provincia">provincia
+            <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre domino <persName ref="#GuilEpLuni">Guilielmo,
+              <roleName>Lunensi episcopo</roleName></persName>, et <placeName ref="#Lucca">Lucano
+            communi</placeName>, tempore vicariatus domini <persName ref="#GuilielmusBrancasicce"
+              >Guilielmi Brancasicce</persName>, civis <placeName ref="#Lucca">Lucani</placeName> et <roleName>vicarii</roleName>
+          <orgName ref="#Lunigiana_provincia">provincie suprascripte</orgName> pro dicto domino episcopo et <placeName ref="#Lucca">Lucano
+            communi</placeName>; quod mandatum et que auctoritas mihi data et factum fuit et
+          prestita a <roleName>iudice</roleName> suprascripto <date when="1272-06-13">anno Domini
+            millesimo CCLXXII, indictione XV, die XIII iunii<note>Autentica del documento n.
+              261-CCLXXXXVIIII</note></date>, in <placeName ref="#Sarzana">Sarzana</placeName>, sub
+          porticu palacii predicti domini episcopi, positi in <placeName ref="#Carcandola"
+            >Carcandula</placeName>, ubi iura redduntur per iudicem suprascriptum, presentibus
+          dominis <persName ref="#RubeusIacominiiud">Rubeo quondam Iacomini</persName> et <persName
+            ref="#OpizusGerardiiud">Opizone Gerardi Lealis</persName>,
+            <roleName>iudicibus</roleName>, <persName ref="#IacopinusTalliavachanot">Talliavacca
+              <roleName>notario de <placeName ref="#Sarzana">castro
+            Sarzane</placeName></roleName></persName> et <persName ref="#AlcheriusPagani">Alcherio
+              Pagani</persName>, cive <placeName ref="#Lucca">Lucano</placeName>, <roleName>vicario</roleName> <orgName ref="#Lunigiana_provincia">suprascripte <supplied
+            reason="omitted">provincie</supplied></orgName> <roleName>notario</roleName>, et aliis pluribus testibus ad hec
+          rogatis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

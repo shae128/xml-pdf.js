@@ -1,0 +1,289 @@
+﻿<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="LXXXXII_109">
+        <front xml:id="LXXXXII_front">
+
+            <titlePart type="numerazioneNuova">109</titlePart>
+            <titlePart type="numerazioneOrig">LXXXXII</titlePart>
+
+            <docDate xml:id="LXXXXII_docDate">
+                <date when="1270-11-21">1270 novembre 21</date>, <placeName>Sarzana (<term
+                        xml:lang="latin">Sarzane, sub porticu dicte domus iuxta plateam
+                        Carcandule</term>)</placeName>
+            </docDate>
+            <div type="regesto" xml:id="LXXXXII_regesto">
+                <p>Riccomo di Bolgarino, vicario nella provincia di Lunigiana, sentenzia nella causa
+                    vertente fra il notaio Iacopino Tagliavacca, che agisce a nome del vescovo di
+                    Luni Guglielmo, e il notaio Buonaparte del fu Cianfardo di Sarzana. L’edificio
+                    fatto da Bonaparte e ora abitato dallo stesso vicario di Lunigiana deve essere
+                    restituito al vescovo, che però deve rimborsare Bonaparte delle spese da lui
+                    sostenute. Bonaparte è assolto da altri oneri riguardanti un’altra casa e una
+                    terra. Il giorno stesso della sentenza Iacopino prende possesso dell’immobile.
+                </p>
+            </div>
+
+            <div type="footer" xml:id="LXXXXII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 206r.-207v., cc. CLXXXXVIIIr.-CLXXXXVIIIIv. secondo la
+                        numerazione originale. </p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 92, pp. 124-125.</p>
+
+                </div>
+                <div type="crit_notes">
+                    <note>
+                        <p>Nel margine interno di c. 206r., di mano moderna: <term xml:lang="latin"
+                                >Sententia ad favorem mense episcopalis et contra illos de
+                                Bonaparte.</term> Nel margine esterno di c. 207v., di altra mano
+                            posteriore: <term xml:lang="latin">pronuntiatio</term>. Nel margine
+                            esterno di c. 207r., sempre di mano posteriore: 1270</p>
+                        <p> Parte del documento è stata letta con l’ausilio della luce di Wood.</p>
+                    </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXXXXII. Domui ubi stat vicarius, que fuit Bonapartis
+                            Çafardi.</term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="LXXXXII_div">
+                <p xml:id="LXXXXII_p_001"> In nomine Domini, amen. Causa vertebatur inter <persName
+                        ref="#IacopinusTalliavachanot">Iacopinum dictum Talliavacca</persName>,
+                        <roleName>notarium</roleName>, <roleName>syndicum et actorem venerabilis
+                        patris domini</roleName>
+                    <persName ref="#GuilEpLuni">Guilielmi</persName>, <roleName>Dei gratia Lunensis
+                        episcopi</roleName>, syndicatus et actorio nomine pro ipso domino episcopo
+                    et episcopatu, ex una parte, et Bonapartem<persName ref="#Bonapartenot"><note
+                            place="foot" n="a" xml:id="LXXXXII_n_001">Bonapartem: <emph>nel testo
+                                con segno generico di abbreviazione sulla prima</emph> a
+                                <emph>cancellato.</emph></note> Cianfardi</persName>
+                    <roleName>notarium</roleName> de <placeName ref="#Sarzana">Sarzana</placeName>,
+                    ex altera, coram nobis <persName ref="#RiccomusBolgarini">Riccomo
+                        Bolgarini</persName>,<roleName> vicario</roleName> in <orgName
+                        ref="#Lunigiana_provincia">provincia <placeName ref="#Luni"
+                            >Lunisiane</placeName></orgName>, que talis erat. Agebat namque dictus
+                        <persName ref="#IacopinusTalliavachanot">Iacopinus</persName> contra dictum
+                        <persName ref="#Bonapartenot">Bonapartem</persName> in hunc modum: videlicet
+                        <persName ref="#IacopinusTalliavachanot">Iacopinus Talliavacha</persName>,
+                        <roleName>notarius</roleName>, syndicus et actor venerabilis patri s domini
+                        <persName ref="#GuilEpLuni">Guilielmi</persName>, <roleName>Lunensis
+                        episcopi</roleName>, syndicatus et actorio nomine pro ipso domino episcopo
+                    et episcopatu, agit contra <persName ref="#Bonapartenot">Bonapartem quondam
+                        Cianfardi</persName> de <placeName ref="#Sarzana">Sarzana</placeName>,
+                    petens dicto nomine ab ipso <persName ref="#Bonapartenot">Bonaparte</persName>
+                    sibi restitui res atque bona omnia infrascripta, videlicet unum casamentum cum
+                    domo et hedificio super ea<note place="foot" n="b" xml:id="LXXXXII_n_002">ea:
+                            <emph>così nel testo.</emph></note> posita et posito, quod casamentum
+                    cum domo et hedificio est in <placeName ref="#Sarzana">Sarzana</placeName>,
+                    iuxta plateam <placeName ref="#Carcandola">Carcandule</placeName>, cui casamento
+                    et domui coheret ab uno latere domus <persName ref="#ParentinellusGualterotti"
+                        >Parentinelli quondam Gualterotti de Mançeto</persName>, ab alio latere
+                    domus <pb n="206v" xml:id="fol_206v"/>
+                    <persName ref="#BonavitaArcula">Bonavite de <placeName ref="#Arcola"
+                            >Arcula</placeName></persName>, antea platea <placeName
+                        ref="#Carcandola">Carcandule</placeName> et retro fovea; item unam aliam
+                    domum, positam iuxta eamdem plateam, cui coheret ab uno latere domus <persName
+                        ref="#Bonaventura">Bonaventure</persName>
+                    <roleName>spadarii</roleName> in parte et in parte heredum <persName
+                        ref="#UgolinusMercadantis">Mercadantis Uguitonis</persName>, ab alio latere
+                    domus <persName ref="#BeatrixBernardi">Beatricis, filie quondam Bernardi
+                            <roleName>ferrarii</roleName></persName>, antea dicta platea, retro via
+                    publica; item unam petiam terre, positam in pertinentiis <placeName
+                        ref="#Sarzana">Sarzane</placeName>, prope glaream <placeName
+                        ref="#Carcandola">Carcandule</placeName>, in loco dicto <placeName
+                        ref="#Curso">Curso</placeName>, cui coheret a tribus partibus via publica,
+                    ab alia parte<note place="foot" n="c" xml:id="LXXXXII_n_003">parte: <emph>manca
+                            l'indicazione.</emph></note>. Que omnia suprascripta dicit dictus
+                    syndicus et actor ad dictum dominum episcopum et episcopatum pertinere iure
+                    dominii vel quasi. Item petit dicto nomine ab ipso <persName ref="#Bonapartenot"
+                        >Bonaparte</persName> sibi restitui omnes fructus atque proventus perceptos
+                    et percipiendos ab ipso <persName ref="#Bonapartenot">Bonaparte</persName> ex
+                    predictis bonis et rebus vel, pro extimatione ipsorum fructuum et proventuum,
+                        <measure type="Ianuenses" quantity="40" unit="libra">libras XL
+                        Ianuensium</measure> sibi dicto nomine dari <supplied reason="omitted"
+                        >et</supplied> solvi; et hec omnia petit dicto nomine omni iure et modo quo
+                    melius potest, omne ius dicti domini episcopi et episcopatus in iudicium
+                    deducendo, salvo iure pluris et alterius petitionis et salvo iure addendi et
+                    mutandi et emendandi et petendi expensas huius litis et advocati. Atque dictus
+                        <persName ref="#Bonapartenot">Bonapars</persName> taliter respondebat,
+                    videlicet <persName ref="#Bonapartenot"> Bonapars</persName> suprascriptus,
+                    tutus pluribus exceptionibus et deffensionibus declinatoriis et dilatoriis atque
+                    perhemptoriis sibi competentibus et competituris atque maxime doli mali et in
+                    factum et petitionis inepte, quas omnes in initio litis opponit et protestatur,
+                    et non confitendo de intentione adverse partis aliquid, negat se de predictis
+                    teneri atque vera esse que ab adversa parte petuntur et ea non vult facere nec
+                    debet que petuntur ab eo, et quia temere et iniuste trahitur ad iudicium, petit
+                    expensas litis et sui advocati. Unde nos <persName ref="#RiccomusBolgarini"
+                        >Riccomus Bolgarini</persName>, <roleName>vicarius</roleName> in<note
+                        place="foot" n="d" xml:id="LXXXXII_n_004">in<emph>: segue, non
+                            depennato</emph>, pro</note>
+                    <orgName ref="#Lunigiana_provincia">provincia <placeName ref="#Lunigiana"
+                            >Lunisiane</placeName></orgName>, visa petitione suprascripti syndici et
+                    responsione dicti <persName ref="#Bonapartenot"> Bonapartis</persName> et visis
+                    positionibus et responsionibus utriusque partis et testibus hinc inde productis
+                    et instrumentis ab utraque parte productis et allegatis et allegationibus ab
+                    utraque parte factis, visa concordia partium super impensis factis per dictum
+                        <persName ref="#Bonapartenot"> Bonapartem</persName> in domo litis, in qua
+                    habitat nunc vicarius, ut dictum est supra, que impense sunt <measure
+                        type="Ianuenses" quantity="40" unit="libra">libre XL Ianuensium</measure>,
+                    ut in actis curie continetur, et visis aliis actis cause et omnibus que videnda
+                    fuerint et habita super hiis plena et diligenti deliberatione, Dei nomine
+                    invocato, talem sententiam in scriptis damus atque proferimus, partibus
+                    presentibus, scilicet presente dicto syndico et etiam domino suprascripto
+                    episcopo et dicto <persName ref="#Bonapartenot"> Bonaparte</persName>, videlicet
+                    quod dictum <persName ref="#Bonapartenot"> Bonapartem</persName> condempnamus ut
+                    restituat et dimittat dicto syndico, pro dicto domino episcopo et episcopatu, et
+                    ipsi domino episcopo, hic presenti, dictam domum in qua habitat vicarius, cui
+                    coheret ab uno latere domus <persName ref="#BonavitaArcula">Bonavite de
+                            <placeName ref="#Arcola">Arcula</placeName></persName>, ab alio domus
+                        <persName ref="#ParentinellusGualterotti">Parentinelli
+                        Gualterotti</persName>, antea platea <placeName ref="#Carcandola"
+                        >Carcandule</placeName> et retro fovea, restitutis tamen primo dicto
+                        <persName ref="#Bonapartenot"> Bonaparti</persName> per dictum dominum
+                    episcopum <pb n="207r" xml:id="fol_207r"/> vel alium pro eo <measure
+                        type="Ianuenses" quantity="40" unit="libra">libris XL Ianuensium</measure>
+                    pro inpensis predictis, factis in dicta domo et melioramento ipsius per ipsum
+                        <persName ref="#Bonapartenot">Bonapartem</persName>. A petitione autem domus
+                    alterius suprascripte in libello petite et terre in libello petite et nominate
+                    et a petitione fructuum et expensarum et aliorum omnium, que in predicto libello
+                    et petitione continentur, dictum <persName ref="#Bonapartenot">
+                        Bonapartem</persName> absolvimus. Lata et recitata fuit hec sententia in
+                        <placeName ref="#Sarzanello">castro Sarzane</placeName>, scilicet in palacio
+                    domini dicti episcopi, presentibus <persName ref="#MercadantusPeçameçane"
+                        >Mercadante Pessomezano</persName>, <persName ref="#VergiliusCerri">Vergilio
+                        Cerri</persName> et <persName ref="#HubertusBaldinotti">Uberto
+                        Baldinotti</persName>, <persName ref="#SengnuciusBonensegne">Sengnucio
+                        Bonensegne</persName>, habitatoribus <placeName ref="#Sarzana"
+                        >Sarzane</placeName>, domino<persName ref="#HenricusFalcinello">
+                        Henrico</persName>
+                    <roleName>iudice</roleName> de <placeName ref="#Falcinello">Falcinello<note
+                            place="foot" n="e" xml:id="LXXXXII_n_005"> Falcinello<emph>: nel
+                                testo</emph> de Falcinello iudice<emph> con segno di richiamo per
+                                invertire l’ordine delle parole.</emph></note></placeName>,
+                        <persName ref="#RanutiusLiene">Ranutio Liene</persName>
+                    <roleName>potestate</roleName>
+                    <placeName ref="#Sarzana">Sarzane</placeName> et <persName ref="#OddoCangnoli"
+                        >Oddone Cangnoli</persName> potestate <placeName ref="#Serravalle"
+                        >Sarzavallis</placeName> et <placeName ref="#CastelnuovoMagra"
+                        >Castrinovi</placeName>, <placeName ref="#Lucca">Lucanis</placeName>
+                    civibus, ad hec testibus, <date when="1270-11-21">anno nativitatis Domini M°CC°
+                        septuagesimo, indictione XIIIIa, XXI° novembris.</date>
+                </p>
+                <p xml:id="LXXXXII_p_002"> Eodem die et loco et coram eisdem testibus, suprascripte
+                    partes, scilicet dominus episcopus et <persName ref="#Bonapartenot"> Bonapars
+                    </persName>suprascripti, approbaverunt et ratificaverunt dictam sententiam et
+                    dominus episcopus predictus dedit et solvit dicto <persName ref="#Bonapartenot">
+                        Bonaparti</persName>, ut dicta<note place="foot" n="f"
+                        xml:id="LXXXXII_n_006">dicta<emph>: così nel testo per</emph> dictus.</note>
+                    <persName ref="#Bonapartenot"> Bonapars</persName> confessus est, <measure
+                        type="Ianuenses" quantity="40" unit="libra">libras XL Ianuensium</measure>,
+                    renuntiando exceptioni non habente<note place="foot" n="g"
+                        xml:id="LXXXXII_n_007">habente<emph>: così nel testo per</emph><term
+                            xml:lang="latin">habite.</term></note> et non numerate pecunie pro
+                    inpensis suprascriptis per dictum <persName ref="#Bonapartenot"> Bonapartem
+                    </persName>in dicta domo, ubi habitat vicarius, ut dictum est, et in
+                    melioramento ipsius, ut <supplied reason="omitted">in</supplied> dicta sententia
+                    continetur. Et ipse <persName ref="#Bonapartenot"> Bonapars</persName> restituit
+                    et dimisit eidem domino episcopo, agenti et recipienti pro suo episcopatu et
+                    nomine et vice ipsius episcopatus, dictam domum, cui coheret ab uno latere domus
+                        <persName ref="#BonavitaArcula">Bonavite de</persName>
+                    <placeName ref="#Arcola">Arcula</placeName>, ab alio domus <persName
+                        ref="ParentinellusGualterotti">Parentinelli Gualterotti</persName>, antea
+                    platea <placeName ref="#Carcandola">Carcandule</placeName> et retro fovea, et ei
+                    fecit exinde finem et refutationem et pactum de non petendo in perpetuum atque
+                    de omni iure et actione quod et quam habebat vel habere poterat in domo et
+                    pertinentiis eius, dando ei licenciam intrandi et accipiendi tenutam et
+                    possessionem corporalem dicte domus quandocumque voluerit, deinceps cum decreto
+                    vel auctoritate dicti vicarii vel sine decreto, prout voluerit. Et dictus
+                    dominus episcopus, pro se et dicto suo episcopatu, fecit ei finem et
+                    refutationem et pactum de non petendo in perpetuum de predicta alia domo, quam
+                    ab eo petebat, et de terra, quam ab eo petebat, de quibus domo et terra facta
+                    est mentio in libello ipso de fructibus et proventibus omnibus perceptis a dicto
+                        <persName ref="#Bonapartenot"> Bonaparte</persName> vel alio pro eo ex domo
+                    predicta, quam restituit, et ex alia domo et terra suprascriptis, atque de omni
+                    et toto eo quod ab eo petere poterat occasione census vel feudi, de quo fit
+                    mentio in instrumento publico, olim facto manu <persName ref="#Confortusnot"
+                        >Conforti</persName>
+                    <roleName>notarii</roleName>, inter dominum <persName ref="#GualEpLuni"
+                        >Gualterium</persName>, <roleName>Lunensem episcopum</roleName>, et
+                        <persName ref="#AlbertusMartiniCyc">Albertum de <placeName ref="#Ceserano"
+                            >Cyzerana</placeName> quondam Martini</persName> et <persName
+                        ref="#BonaiutusMartini">Bonaiutum</persName>, eius filium, salva semper ipsi
+                    domino episcopo et episcopatui domo predicta, quam restituit dictus <persName
+                        ref="#Bonapartenot">Bonapars</persName> suprascripto domino episcopo, ut
+                    superius dictum est, que sit et esse debeat predicti domini et episcopatus et
+                    debeat remanere ipsi domino episcopo et episcopatui, ut ex ea ipse dominus
+                    episcopus et episcopatus atque sui successores faciant quicquid velint, sine
+                    contradictione dicti <persName ref="#Bonapartenot">Bonapartis</persName> vel
+                    eius heredum. <pb n="207v" xml:id="fol_207v"/>
+                </p>
+                <p xml:id="LXXXXII_p_003"> § Insuper vicarius suprascriptus in suprascripto loco,
+                    coram suprascriptis testibus et ea die, precepit <persName ref="#Augustuscorr"
+                        >Augusto</persName>
+                    <roleName>correrio aurie<note place="foot" n="h" xml:id="LXXXXII_n_008"
+                                >aurie:<emph> così nel testo probabilmente per</emph>
+                        curie.</note></roleName> quod dictum dominum episcopum vel alium pro eo
+                    inducat et mittat in corporalem possessionem atque tenutam suprascripte domus
+                    restitute dicto domino episcopo, ut supra continetur. </p>
+                <p xml:id="LXXXXII_p_004"> § Post hec dominus episcopus suprascriptus in
+                    suprascripto loco, coram suprascriptis testibus et ea die, incontinenti, pro se
+                    ipso et suo episcopatu fecit, constituit et creavit suum et dicti episcopatus
+                    syndicum et actorem et certum nuntium <persName ref="#IacopinusTalliavachanot">
+                        Iacopinum</persName> suprascriptum, presentem<note place="foot" n="i"
+                        xml:id="LXXXXII_n_009">presentem<emph>: nel testo</emph>Iacopinum presentem
+                        suprascriptum <emph>con segno di richiamo per invertire l’ordine delle
+                            parole.</emph></note> et suscipientem, ad capiendam possessionem
+                    suprascripte domus per dictum <persName ref="#Bonapartenot">
+                        Bonapartem</persName> restitute dicto <persName
+                        ref="#IacopinusTalliavachanot"> Iacopino</persName> pro dicto domino
+                    episcopo et episcopatu et ipsi domino episcopo atque episcopatui, ut supra
+                    continetur per omnia. </p>
+                <p xml:id="LXXXXII_p_005"> § Qui <persName ref="#Augustuscorr">Augustus</persName>
+                    <roleName>correrius</roleName>, mandato suprascripti vicarii, coram me notario
+                    et testibus infrascriptis et die suprascripta, induxit et misit suprascriptum
+                        <persName ref="#IacopinusTalliavachanot"> Iacopinum</persName>,
+                        <roleName>syndicum, actorem</roleName> et <roleName>certum
+                        nuntium</roleName> suprascripti domini episcopi, in corporalem possessionem
+                    et tenutam suprascripte domus restitute dicto domino episcopo, intrantem in
+                    dictam domum et hostia domus aperiendo atque claudendo, presentibus <persName
+                        ref="#CalandrinusBoniohannis">Calandrino Boniohannis</persName>, <persName
+                        ref="#HubertusBaldinotti">Uberto Baldinotti</persName>, <persName
+                        ref="MercadantusPeçameçane">Mercadente Pessamezano</persName> et <persName
+                        ref="#Iohanninus_correrius">Iohannino</persName>
+                    <roleName>correrio</roleName> curie et aliis, ad hec testibus. </p>
+                <p xml:id="LXXXXII_p_006"> Actum <placeName ref="#Sarzana">Sarzane</placeName>, sub
+                    porticu dicte domus dicto domino episcopo per suprascriptum <persName
+                        ref="#Bonapartenot"> Bonapartem </persName>restitute, ut superius
+                    continetur. </p>
+                <p xml:id="LXXXXII_p_007">
+                    <ptr target="LXXXXII_st_001"/><supplied reason="omitted"> Ego</supplied>
+                    <persName ref="NicholausGerardiniiud">Nicholaus, filius Gerardini
+                        Mercati</persName>, <roleName>imperialis aule iudex et notarius</roleName>
+                    atque nunc in <orgName ref="#Lunigiana_provincia">provincia <placeName
+                            ref="#Lunigiana"/>Lunisiane</orgName>
+                    <roleName>scriba publicus</roleName>, suprascriptis omnibus interfui et causa
+                    memorie hec publice scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

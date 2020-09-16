@@ -1,0 +1,118 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLVI_217">
+    <front xml:id="CCLVI_front">
+
+      <titlePart type="numerazioneNuova">217</titlePart>
+      <titlePart type="numerazioneOrig">CCLVI</titlePart>
+
+      <docDate xml:id="CCLVI_docDate">
+        <date when="1197-11-06">1197 novembre 6</date>, <placeName>Sarzanello (<term
+            xml:lang="latin">apud castrum Sarzani, in camera domini episcopi</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLVI_regesto">
+        <p>Bernardino di Guido di Erberia giura al vescovo di Luni Gualtiero che non violerà né farà
+          violare la strada e non ostacolerà né offenderà alcun tipo di viandante; inoltre si
+          impegna a non ostacolare il vescovo nella costruzione di una fortificazione tra il fiume
+          Isolone e Carrara, tra i monti e il mare. Se Bernardino si troverà coinvolto in una guerra
+          contro i suoi consorti di Fosdinovo, in particolare Atto e Gaforio, il vescovo lo dovrà
+          aiutare fino al raggiungimento della pace.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 265v., c. CCLVIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 256,
+            pp. 236-237.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Dato che il 5 novembre 1197 era mercoledì, la datazione sarà da emendare in <term
+              xml:lang="latin">VI intrante mense novembri</term>, in modo da accordarsi col <term
+              xml:lang="latin">die iovis precedente</term>, come già suggerito da <ref
+              target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 18. Nel margine esterno, di mano
+            moderna: <term xml:lang="latin">ius viarum</term>. </note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLVI_div">
+        <p xml:id="CCLVI_p_001" n="1"><pb n="265v" xml:id="fol_265v"/>In Christi nomine, amen.<date
+            when="1197-11-06"> Anno a nativitate Eius millesimo centesimo nonagesimo VII, indictione
+            XV, die iovis, qui fuit V<note xml:id="CCLVI_n_001" n="a" place="foot">V: <emph>così nel
+                testo</emph>.</note> intrante mense novembri</date>. Scriptum memorie pro futuris
+          temporibus ad memoriam retinendam. <persName ref="#BernardinusGuidonis">Bernardinus,
+            filius Guidonis de <placeName ref="#Erberia">Herberia</placeName></persName>, iuravit,
+          tactis sacrosanctis evangeliis, <persName ref="#GualEpLuni">Gualterio, Dei gratia
+              <roleName>Lunensis ecclesie episcopo</roleName></persName>, quod amplius de cetero,
+          toto tempore vite sue, stratam non violabit nec violari faciet sumittentem personam nec
+          ostendet aliquem clericum vel monachum vel conversum neque peregrinum nec mercatorem in
+          avere vel in personam, nec erit in facto nec in consilio quod aliquibus predictorum
+          offendatur in avere vel in personam. Similiter dictus <persName ref="#BernardinusGuidonis"
+            >Bernardinus</persName> iuravit quod quandocumque predictus episcopus vel successores
+          eius voluerint hedificare castrum seu roccam a flumine <placeName ref="#Oserone"
+            >Oseronis</placeName> usque <placeName ref="#Carrara">Carrariam</placeName>, a sumitate
+          montium usque ad mare, ipse <persName ref="#BernardinusGuidonis">Bernardinus</persName>
+          non imbrigabit nec imbrigari faciet per se nec per aliquam sumittentem personam, nec
+          operam dabit per se nec per aliam personam quod eidem episcopo vel successoribus eius,
+          quomodolibet imbrigetur quandocumque predictus <persName ref="#GualEpLuni"
+            >Gualterius</persName> episcopus vel successores eius in predictis confinibus voluerint
+          castrum seu roccam hedificare. Et si forte, quod Deus advertat, predictus <persName
+            ref="#BernardinusGuidonis">Bernardinus</persName> contra hoc sacramentum veniret,
+          obligavit per se et per suos heredes predicto episcopo suisque successoribus quicquid
+          habet in curte <placeName ref="#Soliera">Solerie</placeName> pro <measure
+            type="Imperiales" quantity="45" unit="libra">libris XLV bonorum imperialium</measure>,
+          ut ipse episcopus habeat et teneat et fruatur per se suosque successores nomine pignoris,
+          sine suprascripti <persName ref="#BernardinusGuidonis">Bernardini</persName> eiusque
+          heredum contradictione, donec ipse episcopus habuerit totos suprascriptos denarios vel
+          eius successores. Atque si forte quam apparentem guerram<note xml:id="CCLVI_n_002" n="b"
+            place="foot">quam apparentem guerram: <emph>così nel testo</emph>.</note> predicto
+            <persName ref="#BernardinusGuidonis">Bernardino</persName> propter hoc apparuerit a suis
+          consortibus de <placeName ref="#Fosdinovo">Fosdenova</placeName>, videlicet ab <persName
+            ref="#Azo">Attone</persName> et <persName ref="#Gaforius">Gaforo</persName>, predictus
+          episcopus debet ipsum adiuvare usque ad factam pacem.</p>
+        <p xml:id="CCLVI_p_002" n="2">Actum est hoc apud <placeName ref="#Sarzanello">castrum
+            Sarzani</placeName>, in camera dicti domini episcopi, feliciter, sub stipulatione
+          subnixa. Ibi fuerunt rogati testes <persName ref="#Guilielmusarc">Guilielmus
+              <roleName>archipresbyter <orgName ref="#Viano_S_Martino">ecclesie de <placeName
+                  ref="#Viano">Viano</placeName></orgName></roleName></persName>, <persName
+            ref="#Petruspres"><roleName>presbyter</roleName> Petrus <orgName ref="#Soliera_S_Maria"
+              >ecclesie de <placeName ref="#Soliera">Soleria</placeName></orgName></persName>,
+            <persName ref="#Bonacursuscas">Bonacursus <roleName>castaldio</roleName></persName>,
+            <persName ref="#OpizusSoleria">Opizo de <placeName ref="#Soliera"
+            >Soleria</placeName></persName>, <persName ref="#Magnetuscas">Mangetus
+              <roleName>castaldio</roleName> de <placeName ref="#Ameglia"
+            >Amelia</placeName></persName>.</p>
+        <p xml:id="CCLVI_p_003" n="3"><ptr target="#CCLVI_st_001"/> Ego <persName
+            ref="#Prefectusnot">Prefectus, <roleName>notarius domini Henrici imperatoris
+              invictissimi</roleName></persName>, hanc cartam scripsi et dedi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

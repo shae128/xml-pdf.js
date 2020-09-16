@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXXII_334">
+    <front xml:id="CCCLXXII_front">
+
+      <titlePart type="numerazioneNuova">334</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXXII</titlePart>
+
+      <docDate xml:id="CCCLXXII_docDate">
+        <date when="1279-01-01">1279 gennaio 1</date>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXXII_regesto">
+        <p>Estratto dal testamento del notaio Bonalbergo del fu Gerardone di <term xml:lang="latin"
+            >castro Sarzane</term>, in cui il testatore dichiara di aver ottenuto da Zugno di
+          Balognano e da Bertoloto di Ameglia oltre che dalla di lui sorella tre staia di frumento
+          ed una libbra d’olio come affitto tramite due documenti, redatti uno dal notaio Bonalbergo
+          di Carrara e l’altro dal notaio Opizo di Serravalle, entrambi a nome del vescovo di Luni e
+          con i suoi soldi; di conseguenza vuole che tali redditi e i diritti connessi siano del
+          vescovo.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXXII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 313r., c. CCCVr. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 372,
+            pp. 353-354.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Parti del documento sono state lette con l’ausilio della luce di Wood.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXXII. Aficti trium stariorum frumenti a quibusdam de Amelia.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXXII_div">
+        <p xml:id="CCCLXXII_p_001" n="1">Inter cetera que continentur in testamento facto per
+            <persName ref="#Bonalbergusnot3">Bonalbergum <roleName>notarium</roleName>, filium
+            quondam Gerardoni de <placeName ref="#Sarzanello">castro Sarzane</placeName></persName>,
+          habitatorem <placeName ref="#Sarzana">Sarzane</placeName>, scripto manu mei infrascripti
+          notarii <date when="1279-01-01">sub anno nativitatis Domini M°CCLXXIX, indictione VII, die
+            primo mensis ianuarii</date>, continetur sic, videlicet: «Item dico et confiteor quod
+          emi a <persName ref="#ZugnusBalognano"> Zugno <supplied reason="omitted">de</supplied>
+            <placeName ref="#Balognano">Balognano</placeName></persName>, <persName
+            ref="#Bertolotus">Bertoloto</persName> et sorore sua, de <placeName ref="#Ameglia"
+            >Amelia</placeName>, staria tria frumenti ficti et libram I olei ficti, de quibus sunt
+          duo instrumenta, I per <persName ref="#Bonalbergusnot">Bonalbergum
+              <roleName>notarium</roleName> de <placeName ref="#Carrara"
+            >Carraria</placeName></persName> et aliud per <persName ref="#OpiçusSeravvallenot"
+            >Opeçum <roleName>notarium</roleName> de <placeName ref="#Serravalle"
+              >Saravalle</placeName></persName>, que dico me emisse pro domino Lunensi episcopo et
+          de eius pecunia, licet instrumenta inde meo nomine facta sint; et volo quod predictum
+          frumentum et oleum et omne ius, quod in eo habeo, libere sint dicti domini episcopi et
+          curie Lunensis. </p>
+        <p xml:id="CCCLXXII_p_002" n="2">Actum <placeName ref="#Sarzana">Sarzane</placeName>, in
+          domo <persName ref="#Simonetusnot">Symoneti <roleName>notarii</roleName></persName>,
+          presentibus <persName ref="#AldeprandinusSymonetinot">Aldebrandino
+              <roleName>notario</roleName>, filio dicti Symoneti</persName>, <persName
+            ref="#GuilielmusMa...">Guilielmo Ma</persName><supplied reason="illeggibile"
+            >[..]</supplied>
+          <note xml:id="CCCLXXII_n_001" n="a" place="foot">Ma[..]: <emph>inchiostro sbiadito, la
+              parola risulta in parte illeggibile.</emph></note>, <persName
+            ref="#SachinusNuveloninot">Sachino <roleName>notario</roleName> filio
+            Nuveloni</persName>, <persName ref="#BernarduciusMaineti">Bernarducio filio
+            Maineti</persName>, <persName ref="#PinusCompagneti">Pino Compagneti</persName>,
+            <persName ref="#ParentinusTodeschie">Parentino Todeschie</persName>, <persName
+            ref="#VitaSicco">Vita Sicco</persName> et <persName ref="#MacionusCastro">Maciono de
+              <placeName ref="#Sarzanello">Castro, habitatoribus Sarzane</placeName></persName>,
+          testibus ad hec rogatis». </p>
+        <p xml:id="CCCLXXII_p_003" n="3"><ptr target="#CCCLXXII_st_001"/> Ego <persName
+            ref="#Borgesellususnot">Borgesellus, <roleName>imperiali auctoritate
+            notarius</roleName></persName>, predicta omnia per me ipsum in dicto testamento scripta,
+          prout ibi inveni, ita hic bona fide scripsi et in publicam formam redegi, signum et nomen
+          proprium apponendo. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

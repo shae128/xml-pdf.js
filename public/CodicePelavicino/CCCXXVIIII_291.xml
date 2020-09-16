@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXXVIIII_291">
+    <front xml:id="CCCXXVIIII_front">
+
+      <titlePart type="numerazioneNuova">291</titlePart>
+      <titlePart type="numerazioneOrig">CCCXXVIIII</titlePart>
+
+      <docDate xml:id="CCCXXVIIII_docDate">
+        <date when="1260-03-13">1260 marzo 13</date>, <placeName>Carrara (<term xml:lang="latin"
+            >Carrarie, in domo quondam magistri Cunçaferri de Marçasio</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXXVIIII_regesto">
+        <p>Guido e Martignono del fu Bonaccorso di Vezzala cedono al vescovo di Luni Guglielmo tutto
+          il podere in Montecchio che un tempo avevano il loro padre e il loro zio Bontempo, e un
+          pezzo di terra posta a Vezzala con casa e vigna. Contestualmente il vescovo loca ai due
+          fratelli la terra con casa e vigna per un fitto annuo di 3 denari di imperiali e tutto il
+          podere al reddito in natura che era corrisposto prima. Guido e Martignono sono tenuti a
+          offrire aiuto come gli altri vassalli e fedeli del vescovo. Per la locazione vengono
+          pagate 9 lire genovesi.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 298r.-298v., cc. CCLXXXXr.-CCLXXXXv. secondo la numerazione
+            originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 329,
+            p. 318-319.</p>
+        </div>
+
+        <div type="crit_notes"> </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCXXVIIII. Locationis facte Guidoni et Martignoni de quodam podere ad pensionem
+              denariorum III et ordei et pullorum et ovarum et aliorum servitiorum. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXXVIIII_div">
+        <p xml:id="CCCXXVIIII_p_001" n="1">In Dei nomine, amen. <date when="1260-03-13">Anno a
+            nativitate Eius millesimo CCLX, indictione III, XIII marcii</date>. <persName
+            ref="#GuidoBonacursi">Guidus</persName> et <persName ref="#MartignonusBonacursi"
+            >Martignonus, fratres, quondam Bonacursi de <placeName ref="#Veçale"
+            >Veçale</placeName></persName>, per se suosque heredes, fecerunt finem et refutationem
+          et pactum de non petendo in perpetuum venerabili patri domino <persName ref="#GuilEpLuni">
+            Guilielmo, <roleName>Dei gratia Lunensi episcopo</roleName></persName>, recipienti pro
+          se suisque successoribus nomine Lunensis episcopatus, de toto et universo podere et
+          possessione quod et que olim habuerunt et tenuerunt <persName ref="#BonacursusVeçale"
+            >Bonacursus</persName>, pater eorum, et <persName ref="#BontempusfraterBonacursi"
+            >Bontempus, frater ipsius Bonacursi</persName>, a curia Lunensi in <placeName
+            ref="#Monteclo"> Montechio</placeName> et eius pertinenciis et de quadam petia terre
+          posita in <placeName ref="#Veçale">Veçale</placeName>, cum domo et vineis et aliis supra
+          se positis et ex parte non vineata, cui coheret superius via publica, inferius fluvius qui
+          venit de <placeName ref="#Torano">Torano</placeName> et ab una parte heredum quondam
+            <persName ref="#Rollandus">Rollandi</persName> et ex alia parte via publica in parte et
+          ex parte, cedendo et dando eidem domino episcopo, recipienti ut dictum est, omnia iura et
+          actiones et rationes, utiles et directas, reales et personales seu mixtas eis in dicto
+          podere et possessione, terra, clausura, vineis et domo et aliis competencia et competentes
+          seu competitura, promittentes ipsam renunciationem, finem et refutationem et pactum
+          perpetuo rata habere et firma tenere et in nullo contravenire, de iure vel de facto, sub
+          pena <measure type="Lucenses" unit="solidus" quantity="100">C soldorum
+          Lucensium</measure>, quam dare et solvere promiserunt ipsi domino episcopo si contra
+          facerent vel venirent, dando eidem domino episcopo licenciam de predictis omnibus in
+          tenutam intrandi, sua auctoritate, quandocumque voluerit, constituendo se pro eo et eius
+          nomine possidere donec in possessionem et tenutam predictorum fuerit introgressus,
+          obligando se ad hec attendenda suosque heredes et bona, renunciando omni iuri et legibus
+          contra hec introductis.</p>
+        <p xml:id="CCCXXVIIII_p_002" n="2">Actum <placeName ref="#Carrara">Carrarie</placeName>, in
+          domo quondam <persName ref="#CumçaferrusMarçasio">
+            <roleName>magistri</roleName> Cunçaferri de <placeName ref="#Marciaso">
+              Marçasio</placeName></persName>, presentibus domino <persName ref="#GerardusCar"
+            >Gerardo de <placeName ref="#Carrara">Carraria</placeName></persName>, <persName
+            ref="#Fredericuscas">Frederico <roleName>castaldione</roleName></persName> suprascripti
+          domini episcopi, <persName ref="#BonacursusVeçale">Bonacurso <roleName>notario </roleName>
+            quondam Bontempi de <placeName ref="#Veçale">Veçale </placeName></persName> et <persName
+            ref="#VenutusBasiadore">Venuto Basiadore de <placeName ref="#Torano"
+            >Torano</placeName></persName> et pluribus aliis testibus, ad hec rogatis.</p>
+        <p xml:id="CCCXXVIIII_p_003" n="3">Ibidem incontinenti et coram eisdem testibus idem dominus
+          episcopus, per se suosque successores nomine Lunensis episcopatus, dedit et locavit
+          suprascriptis <persName ref="#GuidoBonacursi"> Guido</persName> et <persName
+            ref="#MartignonusBonacursi">Martignono </persName> fratribus, recipientibus pro se
+          eorumque heredibus, suprascriptam peciam terre, cum domo, vineis et aliis supra se
+          positis, iuxta quod diffinita est superius et terminata, ad pensionem trium denariorum
+          imperialium, annuatim solvendam curie Lunensi, et totum et universum podere et
+          possessionem superius nominata, ad eas condictiones, usancias et redditus et servicia
+          prestanda et facienda curie Lunensi que de ipso podere dari et reddi et fieri consueverunt
+          et que inferius describentur, ita quod ut amodo perpetuo suprascripti <persName
+            ref="#GuidoBonacursi">Guidus</persName> et <persName ref="#MartignonusBonacursi"
+            >Martignonus</persName> eorumque heredes suprascriptam petiam terre, cum domo, vineis et
+          aliis supra se positis, et suprascriptum podere et possessionem in casis, casamentis,
+          ortis, terris, possessionibus, agris et cultis, plenis et vacuis, in plano et in monte,
+          habeant, teneant, possideant et fruantur sine contradictione ipsius domini episcopi et
+          successorum eius vel alterius persone, dando et reddendo de suprascripta petia terre, cum
+          domo, vineis et aliis supra se positis, omni anno, infra octavam nativitatis Domini, curie
+          Lunensi <measure type="Imperiales" unit="denarius" quantity="3">tres <supplied
+              reason="omitted">denarios</supplied> imperialium</measure> tantum et de predicto
+          podere et possessione ordeum, pullos et ova, que de ipso podere dari et reddi
+          consueverant, et adiutorium pro papa et imperatore tempore oportuno et sicut alii vassalli
+          faciunt pro terra emenda et expignoranda, et quod exinde sint vassalli et fideles ipsius
+          domini episcopi et successorum eius et curie Lunensis. Pro qua locatione fuit confessus
+          suprascriptus dominus episcopus se recepisse et habuisse a suprascriptis fratribus
+          servicium <measure type="Ianuenses" unit="libra" quantity="9"> librarum IX
+            Ianuensium</measure>, renunciando exceptioni non numerate pecunie et non recepte et omni
+          alii iuri et legum auxilio, unde dedit eis licenciam et auctoritatem intrandi in tenutam
+          et possessionem de suprascripta petia terre, cum domo et vineis et aliis supra se positis,
+          et de suprascripto podere et possessione, sua auctoritate, quandocumque voluerint,
+          promittendo idem dominus episcopus per se suosque successores ipsis fratribus,
+          recipientibus pro se eorum<supplied reason="omitted">que</supplied> heredibus,
+          suprascriptam petiam terre, cum domo, vineis et aliis supra se positis, et suprascriptum
+          podere et possessionem iure deffendere et exbrigare ad omni contradicente persona et loco.
+          Et hec omnia et singula sibi ad invicem attendere et observare promiserunt, sub pena
+            <measure type="Lucenses" unit="solidus" quantity="100">C soldorum Lucensium</measure>,
+          quam dare et solvere teneatur pars que contra iverit parti predicta servanti; qua soluta,
+          suprascriptis omnibus et singulis nichillominus manentibus semper firmis, obligando se ad
+          hec attendenda idem dominus episcopus <pb n="298v" xml:id="fol_298v"/> suosque successores
+          et bona episcopatus et suprascripti fratres se suosque heredes et bona, abiectoa insuper
+          tali pacto, quia sic actum est inter ipsum dominum episcopum et ipsos fratres, quod ipsi
+            <persName ref="#GuidoBonacursi">Guidus</persName> et <persName
+            ref="#MartignonusBonacursi">Martignonus</persName> non possint nec debeant habere aliquo
+          tempore recursum contra <persName ref="#BonacursusVeçale"> Bonacursum
+              <roleName>notarium</roleName></persName>, consanguineum eorum, occasione venditionis
+          et obligationis quam fecit idem <persName ref="#BonacursusVeçale">Bonacursus</persName>
+          dictis fratribus de medietate suprascripti poderis seu pater eius <persName
+            ref="#BontempusfraterBonacursi"> Bontempus</persName>.</p>
+        <p xml:id="CCCXXVIIII_p_004" n="4">Actum <placeName ref="#Carrara">Carrarie </placeName>, in
+          domo quondam <persName ref="#CumçaferrusMarçasio"><roleName> magistri</roleName>
+            Cunçaferri de <placeName ref="#Marciaso">Marçasio</placeName></persName>, presentibus
+          domino <persName ref="#GerardusCar">Gerardo de <placeName ref="#Carrara"
+              >Carraria</placeName></persName>, <persName ref="#Fredericuscas">Frederico
+              <roleName>castaldione</roleName></persName> suprascripti domini episcopi, <persName
+            ref="#BonacursusBontempinot">Bonacurso <roleName>notario</roleName> quondam Bontempi de
+              <placeName ref="#Veçale"> Veçale</placeName></persName> et <persName
+            ref="#VenutusBasiadore">Venuto Basiadore de <placeName ref="#Torano"
+            >Torano</placeName></persName> et pluribus aliis testibus ad hec rogatis.</p>
+        <p xml:id="CCCXXVIIII_p_005" n="5"><ptr target="#CCCXXVIIII_st_001"/>Ego <persName
+            ref="#Adiutusnot">Adiutus, <roleName>sacri palatii notarius</roleName></persName>, hiis
+          interfui et de mandato suprascripti domini episcopi hec scripsi et in publicam formam
+          redegi.</p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

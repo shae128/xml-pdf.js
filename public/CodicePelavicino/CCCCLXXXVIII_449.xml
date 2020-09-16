@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXXXVIII_449">
+    <front xml:id="CCCCLXXXVIII_front">
+
+      <titlePart type="numerazioneNuova">449</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXVIII</titlePart>
+
+      <docDate xml:id="CCCCLXXXVIII_docDate">
+        <date when="1039-09-04">1039 novembre 4</date>, <placeName ref="#Luni">Luni</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXXXVIII_regesto">
+        <p>Eriberto, vescovo di Luni, si impegna verso gli uomini di Trebiano a non imporgli alcuna
+          cattiva consuetudine. Non esigerà il fodro. Essi e i loro eredi non risponderanno a
+          Eriberto e ai suoi successori per eventuali misfatti commessi fuori dal castello o a causa
+          di offese commesse che non siano emendate entro trenta giorni, a meno che l’offesa non
+          consista nell’alienare o incendiare il castello o attentare all’incolumità del vescovo. Il
+          vescovo si impegna inoltre a non imporre a Trebiano un podestà o suo ufficiale che agisca
+          a loro danno. Se il vescovo verrà meno alle promesse, oltre a pagare una penale, verrà
+          maledetto e scomunicato.<term xml:lang="latin"/></p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXXXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 368v.-369r., cc. CCCLVIIIIv.-CCCLXr., secondo la numerazione originale.
+          </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#PODESTA_1894">PODESTÀ 1894</ref>, pp. 22-23;
+            Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 488, pp.
+            506-508.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel 1039 correva l’VIII indizione bedana e la VII indizione romana, quindi si
+            presume che qui sia usata la bedana; nel documenti nn. 451-CCCCLXXXX e 458-CCCCLXXXXVII,
+            che citano questo documento, si riporta nel primo l’indizione VIII, nel secondo la IX. </note>
+          <note>Nel margine superiore, al centro: <term xml:lang="latin">De Trebiano</term>.</note>
+          <note>Il testo è alquanto scorretto.</note>
+        </div>
+
+        <div type="appr">
+          <p>Bibliografia: <ref target="#BONATTI_PETACCO_1989">BONATTI PETACCO 1989</ref>; <ref
+              target="#NOBILI_2005">NOBILI 2005</ref>.</p>
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXXVIII. Bona carta de Trebiano.</term></p>
+
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCLXXXVIII_div">
+        <p xml:id="CCCCLXXXVIII_p_001" n="1">
+          <ptr target="#CCCCLXXXVIII_st_001"/><date when="1039-09-04">Anno ab incarnatione Domini
+            nostri Ihesu Christi M°XXXIX, IIII die, mense novembris, indictione VIII</date>. Ego
+            <persName ref="#HeribertusepLuni">Heribertus, <roleName>episcopus episcopio Sancte Marie
+              Lunensis Ecclesie</roleName></persName>, ut ab hac hora in antea promitto vobis ac
+          omnibus hominibus, qui in castro de <placeName ref="#Trebiano">Trebiano</placeName>
+          castellant et ibi conveniunt, nullum malum usum nec mala consuetudine vobis facere non
+          debemus, nec fodro de ipso castello exi<supplied reason="omitted">ge</supplied>re non
+          debemus, nec per nullum forfactum quod in aliam partem factum habeo infra isto castellare
+          malum meritum recipere non debent nec de suis personis ne<supplied reason="omitted"
+            >c</supplied> de avere nec de commendatione, nec ipsis hominibus, nec eorum heredibusa
+          ac proheredibus, nec per ipsum <persName ref="#HeribertusepLuni">Heribertum
+              <roleName>episcopum</roleName></persName>, nec per suos successores, nec per suos
+          ministeriales, nec per suas sumittentes personas. Et si evenerit quod aliquis per se ipsum
+          aut per suos missos quod aliqua offensione ad iamscriptis hominibus facta fuerit et infra
+          XXX dies ostensum fuerit non est emendatum nisi per ipsum castellum fuerit factum quod
+          volebat tradere aut incendere propria persona ipsius episcopi aliqua offensione facere,
+          nam per aliam causam nullum malum meritum recipere non debet nullus de illis hominibus nec
+          eorum heredibus aut proheredibus, qui in ipso castello conveniunt. Et similiter promitto
+          ego qui supra <persName ref="#HeribertusepLuni">Heribertus
+            <roleName>episcopus</roleName></persName> vel mei successores vobis infrascriptorum
+          hominibus vel vestris heredibus quod nulla potestas in ipso castello mittere non debeo,
+          qui vobis cum potestate malum faciat, nisi vestri missi, set per communo consilio, et
+          spondeo ego qui supra <persName ref="#HeribertusepLuni">Heribertus
+              <roleName>episcopus</roleName></persName> vel mei successores vobis iamscriptorum
+          omnibus hominibus vel vestris heredibus ac proheredibus, si hoc non adimpleverimus, sicut
+          supra legitur, tunc obligamus componere penam <measure unit="libra" quantity="100">auri
+            optimi <emph>libras</emph> C</measure> et de <measure unit="libra" quantity="100"
+            >argento similiter <emph>libras</emph> C</measure>. Et insuper hec omnia si nos
+            <supplied reason="omitted">vel</supplied> aliquis de successoribus nostris, aliqua
+          ductus cupiditate aut ira, aliquid de hiis omnibus que iamscripta sunt irrumpere
+          temptaverit et observare noluerit, sit maledictus et anathematizatus a Deo Patre
+          omnipotente et a Beata Maria semper virgine et a sancto Michaele Archangelo cum omni choro
+          angelorum et a sancto Petro principe apostolorum cum omni choro apostolorum et a beato
+          Stephano prothomartire cum omni choro martirum et a beato Martino confessore cum omni
+          choro confessorum et a beata Agatha cum omni choro virginum et ab omnibus sanctis sit
+          maledictus in civitate, in castello, in platea, in vico, amen. Sit maledictus in viis, in
+          semitis et in cymiteriis et in omnibus locis. <pb n="369r" xml:id="fol_369r"/> Sit
+          maledictus ambulando, vigilando, dormiendo et omnia opera sua faciendo, amen. Et sit
+          maledictus et anathematizatus a planta pedis usque ad capillos capitis, amen. Deus meus,
+          pone illos ut rotam et sicut stipulam ante faciem venti, amen, sicut ignis qui comburit
+          silvam et sicut flamma comburens montes, amen. Ita persequeris illos in tempestate tua et
+          in ira tua turbabis eos, Domine, amen. Imple faciem eorum ignominia et querent nomen tuum,
+          Domine, amen. Et sit maledictus sicut Anania et Saphyrab, qui pro furata pecunia consumpti
+          sunt. Mortem subiit et sit maledictus et anathematizatus cum Chore et Dathan et Abyron,
+          quos vivos terra absorbuit; sit maledictus ut Iuda, Domini traditore; sicut lumen aliquo
+          extinguitur, ita nomen eius de libro viventium exting<supplied reason="omitted"
+            >u</supplied>atur. Et si aliquid de suprascriptis contra aliquem fecerit et infra XXX
+          dies, ut per scriptum erit, et emendare noluerit, quia sic in sancta synodo in <placeName
+            ref="#Luni">Lune</placeName> confirmaverit <persName ref="#HeribertusepLuni">Heribertus
+              <roleName>episcopus</roleName></persName> cum suis canonicis et cum suis presbyteris,
+          ut quod istum castellum in consilio et in facto fuerit quod episcopio Lunensis eum perdat
+          aut istud breve irritum sit, omnes iste maledictiones habeat. Et ita omnes dixerunt:
+          «Fiat, fiat, fiat. Amen, amen, amen». Et ibi loco firmaverunt omnes dicti. <persName
+            ref="#HeribertusepLuni">Heribertus <roleName>episcopus</roleName></persName>
+          subscripsit. XP <persName ref="#Bonizoarch">Bonizo
+            <roleName>archidiaconus</roleName></persName> subscripsitc. <persName ref="#Azo">Azo
+              <roleName>prepositus</roleName></persName> subscripsit. <persName ref="#Wilielmuspres"
+            >Willielmus <roleName>presbyter</roleName></persName> subscripsit. <persName
+            ref="#Bonusfam"> Bonus <roleName>familiaris subdyaconus</roleName></persName>
+          subscripsit. <persName ref="#Martinuspres">Martinus
+            <roleName>presbyter</roleName></persName> subscripsit. <persName ref="#Adelbertuspres"
+            >Aldebertus <roleName>presbyter</roleName></persName> subscripsit. Ego <persName
+            ref="#Dodussub">Dodo <roleName>subdyaconus</roleName></persName> subscripsi. <persName
+            ref="#Iohannespres">Iohannes <roleName>presbyter</roleName></persName> subscripsi.
+            <persName ref="#PhilippusEp">Philippus <roleName>episcopus</roleName></persName>
+          subscripsi. <persName ref="#Gerardussac">Gerardus <roleName>sacerdos</roleName></persName>
+          subscripsi. <persName ref="#Gerardussub">Gerardus
+            <roleName>subdyaconus</roleName></persName> subscripsi. Signa manibus <persName
+            ref="#Rodulfus">Rodulfi</persName> et <persName ref="#Adalbert">Aldeberti</persName> seu
+            <persName ref="#Gotefredus">Gotefredi</persName> atque <persName ref="#Teudisius"
+            >Teudisi</persName> et <persName ref="#Conradus">Cunradi</persName> seu <persName
+            ref="#GerardusMatoli">Gerardi quondam Matoli</persName> et <persName ref="#Geizus"
+            >Geizi</persName>, omnes rogati testes. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXXXIII_394">
+    <front xml:id="CCCCXXXIII_front">
+
+      <titlePart type="numerazioneNuova">394</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXXXIII</titlePart>
+
+      <docDate xml:id="CCCCXXXIII_docDate">
+        <date when="1269-06-18">1269 giugno 18</date>, <placeName>Ceparana <emph>(<term
+              xml:lang="latin">Cepparane, in ecclesia Sancti Venantii</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXXXIII_regesto">
+        <p>Parentino del fu Conforto di Montebello cede a Paganino del fu Benedetto di Santo
+          Stefano, castaldo del vescovo di Luini Guglielmo, il podere in Montebello che fu di
+          Perceval del fu Rollandeto di quel luogo, da cui lo aveva comprato. Gli cede inoltre una
+          casa che possiede nel castello di Montebello, il fitto di uno staio di frumento che
+          riceveva da Mazolo di <term xml:lang="latin"><emph>Stadino</emph></term> e tutti gli altri
+          acquisti fatti da lui o da suo fratello Benedetto, che spettano al vescovo.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXXXIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 339v., c. CCXXXIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 433,
+            p. 429.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>
+            <p><emph>Le prime sei righe del documento sembrano essere state riscritte sopra una
+                scrittura antecedente.</emph></p>
+          </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCCXXXIII. Refutationis Parentutii de podere Percivallis.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXXXIII_div">
+        <p xml:id="CCCCXXXIII_p_001" n="1"> In nomine Domini, amen. <date when="1269-06-18">Anno a
+            nativitate Eius M°CCLXIX, indictione XII, die martis, XVIII mensis iunii</date>.
+            <persName ref="#ParentinusConforti">Parentinus quondam Conforti</persName> de <placeName
+            ref="#Montebello">Montebello</placeName> fecit <persName ref="#PaganinusBenedicti"
+            >Paganino quondam Benedicti</persName> de <placeName ref="#Santo_Stefano">Sancto
+            Stephano</placeName>, <roleName>castaldioni</roleName> venerabilis patris domini
+            <persName ref="#GuilEpLuni">Guilielmi</persName>, <roleName>Dei gratia Lunensis
+            episcopi</roleName>, recipienti nomine et vice pro ipso domino episcopo et curia
+          Lunensi, finem et refutationem et etiam pactum de non petendo perpetuo et datum et
+          cessionem de toto et universo podere quod fuit quondam <persName ref="#PercivalRollandeti"
+            >Percavallis quondam Rollandeti</persName> eiusdem loci, de quo emptionem fecerat ab
+          eodem; item de una domo seu casamento quod habet in castro <note place="foot" n="a"
+            xml:id="CCCCXXXIII_n_001"><term xml:lang="latin"> quod habet in castro</term>: <emph>nel
+              testo</emph> quod in castro habet <emph>con segno di richiamo per invertire l’ordine
+              delle parole.</emph>
+          </note>
+          <placeName ref="#Montebello">Montisbelli</placeName>, cui coheret ab uno latere via
+          publica, inferius heredes quondam <persName ref="#Ottonellus">Ottonelli</persName>, a
+          duabus partibus spaldium suprascripti castri; item de stario uno frumenti ficti, quod
+          recipiebat a <persName ref="#MaçolusStadino">Maçolo de <placeName ref="#Stadino"
+              >Stadino</placeName></persName><note place="foot" n="b" xml:id="CCCCXXXIII_n_002"
+              ><term xml:lang="latin"> Stadino</term>: <emph>così nel testo probabilmente per</emph>
+            Stadano.</note>, et de omnibus aliis emptionibus seu cambiis per eum vel olim fratrem
+          suum <persName ref="#PaganinusBenedicti">Benedictum</persName> factis expecta<supplied
+            reason="omitted">n</supplied>tibus seu expectare debentibus ad suprascriptum dominum
+          episcopum et curiam Lunensem aliquo modo vel iure. Et cessit atque mandavit eidem
+            <persName ref="#PaganinusBenedicti">Paganino</persName>, castaldioni suprascripti domini
+          episcopi, recipienti castaldionatus nomine pro ipso domino episcopo et Lunensi curia,
+          omnia iura, dominium, proprietatem, usum et utilitatem, actiones et omnes rationes<note
+            place="foot" n="c" xml:id="CCCCXXXIII_n_003"><term xml:lang="latin">rationes</term>:
+              <emph>corretto su precedente scrittura.</emph></note>, utiles et directas<note
+            place="foot" n="d" xml:id="CCCCXXXIII_n_004">
+            <term xml:lang="latin">et omnes rationes utiles et directas</term>: <emph>nel
+              testo</emph> et rationes utiles et directas omnes <emph> con segno di richiamo per
+              invertire l’ordine delle parole.</emph></note>, reales, personales et mixtas, sibi in
+          dictis podere, domo seu casamento, ficto et omnibus suprascriptis competencia et
+          competituras, ut exinde dictus dominus episcopus et sui successores possint agere,
+          experiri, causari et deffendere adversus quamcumque personam et locum et facere inde
+          quicquid ei placuerit, sine alicuius aliqua contradictione. Et dedit suprascripto
+          castaldioni licenciam intrandi tenutam pro dicto domino episcopo et curia Lunensi de
+          omnibus et singulis suprascriptis, constituendo se pro ipso domino episcopo et curia
+          Lunensi et eius nomine precario possidere vel quasi donec tenutam exinde fuerit
+          apprehensus vel quasi, faciendo eum procuratorem et dominum ut in rem suam. Et promisit et
+          convenit suprascriptus <persName ref="#ParentinusConforti">Parentinus</persName> per se
+          suosque heredes suprascriptum podere et domum seu casamentum et fictum et omnia
+          suprascripta, ut dictum est, non imbrigare vel molestare deinceps, immo perpetuo iure
+          deffendere et exbrigare ab omni molestante persona et loco, suis, ips<supplied
+            reason="omitted">i</supplied>us <persName ref="#ParentinusConforti">Parentini
+          </persName> et eius heredum propriis expensis et advocato. Hanc autem finem et
+          refutationem, pactum, datum et cessionem et omnia suprascripta promisit et convenit
+          perpetuo ratam et rata habere atque tenere et numquam in aliquo contra facere vel venire
+          aliquo modo vel iure, in pena et sub pena <measure type="Imperiales" quantity="10"
+            unit="libra">librarum X Ianuensium</measure>, quam dare et solvere, nomine pene,
+          promisit et convenit suprascripto domino episcopo suisque successoribus tociens quociens
+          fuerit contraventum, in solidum, et pro quolibet capitulo non observato; et, pena soluta
+          vel non, suprascripta omnia et singula nichillominus perpetuo firma consistant, obligando
+          se ad hec suosque heredes et bona et renunciando omni iuri et legibus contra hec
+          introductis. </p>
+        <p xml:id="CCCCXXXIII_p_002" n="2"> Actum <placeName ref="#Ceparana">Cepparane</placeName>,
+          in <orgName type="monasterium_ecclesia" ref="#Ceparana_S_Venanzio">ecclesia Sancti
+            Venantii</orgName>, sollempniter, presentibus <roleName>domino </roleName><persName
+            ref="Odoabbas"> Odone </persName><roleName>abbate de </roleName><placeName
+            ref="#Ceparana"> Cepparana</placeName>, <roleName>dominis</roleName>
+          <persName ref="#Paulusmonacus"> Paulo</persName>
+          <roleName>monacho</roleName>, <persName ref="#GuilielmusMascardus">Guillermo
+            Mascardo</persName>
+          <note place="foot" n="e" xml:id="CCCCXXXIII_n_005"><term xml:lang="latin">
+            Mascardo</term>: <emph>s aggiunto in sopralinea.</emph></note> et <persName
+            ref="#PaganellusVallerano">Paganello de <placeName ref="#Valerano"
+            >Vallerano</placeName></persName>, testibus. </p>
+
+        <p xml:id="CCCCXXXIII_p_004" n="4"><ptr target="#CCCCXXXIII_st_001"/> Ego <persName
+            ref="#DusiusSarznot">Dusius de <placeName ref="#Sarzana">castro
+            Sarzane</placeName></persName>, <roleName>imperialis excellentie notarius</roleName>,
+          hiis omnibus interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

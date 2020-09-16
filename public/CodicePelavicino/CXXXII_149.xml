@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXXXII_149">
+    <front xml:id="CXXXII_front">
+
+      <titlePart type="numerazioneNuova">149</titlePart>
+      <titlePart type="numerazioneOrig">CXXXII</titlePart>
+
+      <docDate xml:id="CXXXII_docDate"> &lt;<date from="1151-09-24" to="1152-03-24">1151 settembre
+          24 - 1152 marzo 24</date>&gt;, <placeName>Sarzanello <emph>(<term xml:lang="latin">in
+              castro Sarzane</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXXXII_regesto">
+        <p>Guido Ringo, figlio di Gerardo <term xml:lang="latin">de Vexana</term>, chiede a livello
+          a Gotifredo, vescovo di Luni, un pezzo di terra <term xml:lang="latin">in Padule</term>.
+          Il fitto annuale ammonta a 2 denari milanesi.</p>
+      </div>
+
+      <div type="footer" xml:id="CXXXII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP c. 232r.- 232v., c. CCXXIIIIr. - CCXXIIIIv. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 132,
+            p. 163.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il documento è pressoché identico al n. 150 - CXXXIII. Pare datato con il sistema
+            dell’incarnazione secondo lo stile fiorentino, perché nel 1151 l’indizione era la XIV e
+            scattava alla XV solo dal 24 settembre, presumendo l’uso dell’indizione cesarea o
+            bedana; da qui la datazione proposta. <p> Il documento è provvisto di due autentiche: in
+              un anno imprecisato, ma collocabile ai primi decenni del Duecento, il notaio Prefetto
+              ha copiato e autenticato; nel 1267 invece il documento viene letto in presenza di
+              Goffredo, giudice e assessore per il comune di Pisa nella provincia di Lunigiana e
+              autenticato dal notaio Pietro di Gente.</p>
+          </note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXXXII_div">
+        <p xml:id="CXXXII_p_001" n="1"><ptr target="#CXXXII_st_001"/> Anno ab incarnatione Domini
+          nostri Ihesu Christi <date when="1151">millesimo CLI°, inditione XV</date>. Peto ego
+            <persName ref="#GuidoRunGer">Guido Ringo, filius Gerardi de <placeName ref="#Vexana"
+              >Vexana</placeName></persName>, una cum meis heredibus, a vobis <persName
+            ref="#GotefredEpLuni">domino Gotefredo <roleName>episcopo</roleName></persName>,
+          libellario nomine, petiam unam de terra in <placeName ref="#Padule">Padule</placeName>,
+          cui coheret ex uno latere terra <persName ref="#Aymericus">Aymerici</persName>, in capite
+          terra <persName ref="#Rusticellus">Rusticelli</persName>, ex alio capite terra <persName
+            ref="#Guiliecio">Guiliecionis</persName>, habere, tenere, laborare, frui, meliorare et
+          non peiorare, atque ad mandatum vestrum veniamus ad legem faciendam et exinde vobis
+          persolvamus per singulos annos, infra octavam nativitatis Domini, fictam pensionem
+            <measure type="Mediolanenses" quantity="2" unit="denarius">denarios duos
+            Mediolanensium</measure> tantum; alia superimposita eis non fiat. Penam inter se
+          posuerunt ut, <supplied reason="omitted">si</supplied> quis ex ipsis aut illorum heredibus
+          omnia non compleverit, qualiter superius legitur, vel si tollere aut relaxare voluerit,
+          tunc componat pars parti fidem servanti argenti soldos viginti atque, post penam solutam,
+          iste libellus in sua permaneat firmitate.</p>
+        <p xml:id="CXXXII_p_002" n="2">Actum in <placeName ref="#Sarzanello">castro
+            Sarzane</placeName>, die dominico, feliciter. Ego <persName ref="#GotefredEpLuni"
+            >Gotefredus <roleName>episcopus</roleName></persName> subscripsi. Signa<note
+            xml:id="CXXXII_n_001" n="a" place="foot"><term xml:lang="latin">Signa</term>: S
+              <emph>corretta su precedente lettera, forse</emph> X.</note> # # # manuum <persName
+            ref="#BaldicioPonz">Baldicionis de <placeName ref="#Ponzanello"
+            >Ponzanello</placeName></persName>, <persName ref="#RustigellusVig">Rusticelli de
+              <placeName ref="#Vignola">Vignola</placeName></persName>, <persName
+            ref="#PizusIordanis">Pizi Iordanis</persName><note place="foot" n="b"
+            xml:id="CXXXII_n_002">
+            <term type="incerto">Iordanis</term><emph>: così nel testo.</emph></note> , rogatorum
+          testium.</p>
+        <p xml:id="CXXXII_p_003" n="3"><ptr target="#CXXXII_st_002"/>Ego <persName
+            ref="#Bonabrocanot">Bonabroca, <roleName>notarius sacri palatii</roleName></persName>,
+          hunc libellum scripsi et complevi</p>
+      </div>
+      <div xml:id="CXXXII_div2" type="autentica">
+        <p xml:id="CXXXII_p_004" n="4"><ptr target="#CXXXII_st_003"/>Ego <persName
+            ref="#Prefectusnot">Prefectus, <roleName>domini imperatoris et Lunensis curie
+              notarius</roleName></persName>, huius exempli auttenticum vidi et legi, in quo nec
+          plus nec minus continebatur quod mutet sensum, set sicut in eo repperi, sic bona fide
+          exemplavi et proprio signo signavi <note>autentica del documento n. 149-CXXXII databile
+            con incertezza agli anni 1198-1222 dalla presenza del notaio Prefetto <date
+              notBefore="1198-01-01" notAfter="1222-12-31" cert="medium"/></note>. </p>
+      </div>
+      <div xml:id="CXXXII_div3" type="autentica">
+        <p>Hoc exemplar lectum et ascultatum fuit ad auttenticum huius exemplaris coram <roleName>domino</roleName><persName
+            ref="#Gotefredusiud"> Gotefredo</persName>, <roleName>iudice</roleName> et
+          <roleName>assessore</roleName> pro <orgName ref="#Pisa_comune">commune</orgName> <placeName ref="#Pisa">Pisano</placeName>
+          in <orgName ref="#Lunigiana_provincia">provincia <placeName ref="#Lunigiana">Lunisiane</placeName></orgName>, suam huic
+          publicationi auctoritatem prestante, anno a nativitate Eius <date when="1267-12-05"
+            >M°CCLXVII°, <pb n="232v" xml:id="fol_232v"/>indictione X, die V° mensis decembris
+              <note>Autentica del documento n. 149-CXXXII</note></date>, in via publica que est
+          iuxta terrenum filiorum quondam <persName ref="#BonaiunctaCer">Bonaiuncte de <placeName
+              ref="#Cervarolo">Cervarolo</placeName></persName>, quod habent extra <placeName
+            ref="#Sarzana">Sarzanam</placeName>, ubi habent capannam eorum, presentibus domino
+            <persName ref="#Rossusiur">Russo <roleName>iurisperito</roleName> de <placeName
+              ref="#Sarzana">Sarzana</placeName></persName> et <persName ref="#Tiniosus"
+            >Tignoso</persName> et <persName ref="#HengeramusParentisnot">Hengramo
+              <roleName>notario</roleName></persName>, fratribus germanis, de <placeName
+            ref="#Sarzanello">castro Sarzane</placeName> et aliis testibus, ad hec rogatis, et
+          absente domino <persName ref="#RaineriusGualteroti">Rainerio Galteroti,
+            <roleName>vicario</roleName> in<orgName ref="#Lunigiana_provincia">eadem
+              provincia</orgName> pro <placeName ref="#Pisa">dicto commune</placeName></persName>,
+          qui presens dicte prestationi non fuit auctoritatis.</p>
+        <p xml:id="CXXXII_p_005" n="5"><ptr target="#CXXXII_st_004"/>Ego <persName
+            ref="#PetrusGentisnot">Petrus, filius quondam Gentis de <placeName ref="#Sarzanello"
+              >castro Sarzane</placeName>, <roleName>notarius sacri palatii</roleName></persName>,
+          ut inveni in hoc exemplo, ita hic per ordinem exemplavi diligenter et coram dicto iudice
+          et assessore presens exemplar legi et iam dictis testibus et tucius publicavi, habita ab
+          eodem auctoritate predicta, ut dictum est, et nullo addito, mutato vel diminuto mutante
+          sensum vel variante intellectum.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

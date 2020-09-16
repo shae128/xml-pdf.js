@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXIIII_475">
+    <front xml:id="DXIIII_front">
+
+      <titlePart type="numerazioneNuova">475</titlePart>
+      <titlePart type="numerazioneOrig">DXIIII</titlePart>
+
+      <docDate xml:id="DXIIII_docDate">
+        <date when="1262-10-02">1262 ottobre 2</date>
+        <placeName ref="#Marciaso">Marciaso(<term xml:lang="latin">Marzasii, in domo heredum quondam
+            Peregrini de domino Salvagio</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="DXIIII_regesto">
+
+        <p> Rollandino, Tedisio e Giliolo del fu Antonio di Marchesello dichiarano di tenere il
+          castello di Marciaso in feudo dal vescovo di Luni Guglielmo, così come lo tenevano i loro
+          antenati a partire dal loro zio Salvagio. Di conseguenza si dichiarano fedeli del vescovo
+          e così fanno anche gli uomini del comune, singolarmente elencati, riuniti dal podestà e
+          dai consoli. </p>
+      </div>
+
+      <div type="footer" xml:id="DXIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 381r-381v., cc. CCCLXXIIIr.-CCCLXXIIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressochè integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 514, pp. 550-551.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno,di mano moderna: <term xml:lang="latin">De Cattaneis</term>
+          </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXIIII.
+              Confesionis feudi castri Marciasii pro parte Rolandini et Gilioli fratrum et filiorum
+              condam Antonii de Marchesello. </term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="DXIIII_div">
+        <p xml:id="DXIIII_001" n="1"> In Dei nomine, amen. <date when="1262-10-02"> Anno a
+            nativitate Eius M°CCLXII, indictione V, II octubris </date>. <roleName>Domini</roleName>
+          <persName ref="#RollandinusAntoni">Rollandinus</persName>, <persName ref="#TedisiusAntoni"
+            >Tedisius</persName> et <persName ref="#GiliolusAntoni">Giliolus</persName>, fratres,
+          filii quondam <persName ref="#AntoniusMarchesello">Antonii de Marchesello</persName>,
+          fuerunt confessi venerabili patri <persName ref="#GuilEpLuni">
+            <roleName>domino</roleName> Guilielmo<roleName>, Dei gratia Lunensi
+            episcopo</roleName></persName>, recipienti nomine sui episcopatus, quod castrum
+            <placeName ref="#Marciaso">Marzasii</placeName> feudum Lunensis episcopatus est et quod
+          ipsum, pro parte eis contingenti, ab episcopatu Lunensi tenent et tenuerunt eorum maiores
+          et antecessores in feudum, et sic audiverunt a patre et antecessoribus orum et maxime a
+          quondam <persName ref="#SalvagiusMarciasio"><roleName>domino</roleName>
+            Salvagio</persName>, patruo eorum, et quod domini de <placeName ref="#Marciaso"
+            >Marçasio</placeName> ipsum sic toto tempore tenuerunt et ipsi sic volunt esse fideles
+          dicti domini episcopi et suorum successorum et episcopatus contra omnes personas et loca,
+          promittentes sollempni stipulatione per se suosque heredes ipsi domino episcopo stare et
+          esse fideles dicti domini episcopi et successorum ipsius et episcopatus in perpetuum
+          contra omnes personas et loca de dicto castro, et servire et parere eidem domino episcopo,
+          recipienti nomine sui episcopatus, tanquam fideles et feudatarii, in omnibus que ad
+          fidelitatem pertinent; et pro hiis omnibus sic attendendis et observandis obligaverunt se
+          et eorum heredes et bona, ad penam <measure quantity="100" unit="solidus">C marcharum
+            argenti</measure>, quam ipsi domino episcopo, recipienti nomine sui episcopatus, solvere
+          promiserunt si contra fidelitatem vel contra predicta vel aliquod predictorum fecerint seu
+          venerint; [et, ea soluta]a vel non, predicta omnia semper nichillominus in sua permaneant
+          firmitate. <gap quantity="16" unit="chars" reason="illegible"/>[ ] dicti castri
+            <placeName ref="#Marciaso">Marçasii</placeName> et <persName ref="#GrandonusBefulchi"
+            >Grandonus quondam Befulchi</persName> et <persName ref="#Ursus">Ursus</persName>
+          quondam <gap quantity="10" unit="chars" reason="illegible"/>[ ] dicti castri cum dicta
+          potestate, consensu <persName ref="#RollandusFerrari">Rollandi Ferrarii</persName>,
+            <persName ref="#Odo"> Oddi</persName> quondamd et <persName ref="#Bellonus"
+            >Belloni</persName> quondam <gap quantity="8" unit="chars" reason="illegible"/>[ ]
+          <orgName ref="#Marciasow_comune">communis</orgName> <placeName ref="#Marciaso">Marçasii</placeName>, consensu etiam dictorum
+          dominorum <persName ref="#TedisiusAntoni">Tedisii</persName>et <persName
+            ref="#GiliolusAntoni">Gilioli</persName> et etiam communis et universitatis dicti
+          castri, ibi more solito per vocem preconis coadunati, et maxime infrascriptorum omnium
+          quorum nomina inferius declarantur, fuerunt confessi nomine dicti communis et
+          universitatis dicto domino episcopo, recipienti nomine sui episcopatus, se esse fideles
+          dicti domini episcopi et episcopatus et quod omni tempore semper subfuerint ipsi domino
+          episcopo et a tempore cuius non exstat memoria sub iurisdictione dicti domini episcopif et
+          episcopatus et maxime <pb n="381v" xml:id="fol_381v"/> iurent sequimentum vicario generali
+          terrarum dicti domini episcopi et potestatum quando generalem vicarium vel potestatem
+          constituit in terris suis et iuraverunt, sicut ceteri iurant de terris dicti domini
+          episcopi, et ipsi vicario et potestati parent ad hostes et cavalcatas, banna et deveta, et
+          ad iura et iusticias et causas coram ipso vicario et potestate prosequenda et in omnibus
+          aliis que ad iurisdictionem pertinent, in omnibus et per omnia, sicut homines terrarum
+          dicti domini episcopi et episcopatus, et sic amodo perpetuo esse volunt et esse et stare
+          promittunt; promittentes dicti potestas et consules, nomine potestarie et consulatus,
+          consensu dictorum consiliariorum et communis et universitatis et omnium et singulorum ibi
+          presentium, dicto domino episcopo, recipienti nomine sui episcopatus, stare fideles
+          perpetuo, ipsi et successores et heredes eorum, dicto domino episcopo et episcopatui
+          contra omnes personas et loca et parere et servire et sequimentum facere dicto domino
+          episcopo pro episcopatu et vicariis et potestatibus constitutis ab ipso domino episcopo in
+          suis terris, in omnibus et per omnia, ut superius sunt declarata, et pro hiis omnibus sic
+          attendendis et observandis obligaverunt se dicti potestas et consules, nomine dicti
+          communis et universitatis, et ipsum commune et universitatem, consensu dictorum
+          consiliariorum et dicti communis et hominum, ibi presentium, ad penam <measure
+            quantity="100" unit="solidus">C marcharum argenti </measure>, quam ipsi domino episcopo,
+          recipienti nomine sui episcopatus, solvere promiserunt, si contra predicta vel contra
+          aliquod predictorum fecerint vel venerint; et, ea soluta vel non, predicta omnia semper
+          nichillominus robur obtineant firmitatis. Nomina eorum de <placeName ref="#Marciaso"
+            >Marzasio</placeName>, qui predictis interfuerunt et omnibus consenserunt, sunt hec:
+            <persName ref="#GuilielmusFracta">Guilielmus de <placeName ref="#LaFracta"
+              >Fracta</placeName></persName>, <persName ref="#UgolinusFracta">Ugolinus</persName>
+          frater eius, <persName ref="#UrsusFracta">Ursus de <placeName ref="#LaFracta">Fracta
+            </placeName></persName>, <persName ref="#GerardellusFracta">Gerardellus</persName>
+          frater eius, <persName ref="#Rodulfinellus">Rodulfinellus</persName>, <persName
+            ref="#BenadueMeliorati">Benadue quondam Meliorati</persName>, <persName
+            ref="#AmicusMeliorati">Amicus</persName> frater eius, <persName ref="#Advenans"
+            >Advenans</persName>, <persName ref="#DavinusAdvenantis">Davinus</persName> filius eius,
+            <persName ref="#BonaventuraCressiano">Bonaventura de <placeName ref="#Cressiano"
+              >Cressiano</placeName></persName>, <persName ref="#Gadangaus">Gadangaus</persName>,
+            <persName ref="#Vivaldus">Vivaldus</persName>, <persName ref="#Columbus"
+            >Columbus</persName>, <persName ref="#UgolinusColumbi">Ugolinus</persName> frater eius,
+            <persName ref="#RuffaldusRollandi">Ruffaldus filius Rollandi</persName>, <persName
+            ref="#GerardusBellomi">Gerardus quondam Bellomi</persName>, <persName
+            ref="#GuililemusBonavite">Guilielmus Bonavite</persName>, <persName
+            ref="#BonaiunctaGuidolini">Bonaiuncta Guidolini</persName>, <persName
+            ref="#IacobinusSanTer">Iacobinus de <placeName ref="#SanTerenzo">Sancto
+              Terencio</placeName></persName>, <persName ref="#BonavitaBonaiuncte">Bonavita quondam
+            Bonaiuncte</persName>, <persName ref="#PeregrinusMaldini">Peregrinus Maldini</persName>,
+            <persName ref="#VivianusBontempi">Vivianus filius Bontempi</persName>, <persName
+            ref="#PetrusSoleria">Petrus de <placeName ref="#Soliera">Soleria</placeName></persName>,
+            <persName ref="#PeregrinusBuoncontis"> Peregrinus quondam Boncontis</persName>,
+            <persName ref="#Bonalbergus"> Bonalbergus</persName>, <persName ref="#Lanfranchinus"
+            >Lanfranchinus</persName>, <persName ref="#PetrusDetesalvis">Petrus
+            Detesalvis</persName>, <persName ref="#FancellusVivaldi">Fancellus Vivaldi</persName>,
+            <persName ref="#BonifaciusRustico">Bonifacius de <placeName ref="#Rustico"
+              >Rustico</placeName></persName>, <persName ref="#Bonastrenna">Bonastrenna</persName>,
+            <persName ref="#GerarducciusGerardi">Gerarducius quondam Gerardi</persName>, <persName
+            ref="#UrsusAmate">Ursus Amate</persName>, <persName ref="#BastardusPochio">Bastardus de
+              <placeName ref="#Pochio">Pochio</placeName></persName>, <persName
+            ref="#VivianusPochio">Vivianus de <placeName ref="#Pochio"
+          >Pochio</placeName></persName>, <persName ref="#BelluncellusSalveti">Belluncellus quondam
+            Salveti</persName>, <persName ref="#DurandusSalveti">Durandus</persName> filius eius,
+            <persName ref="#Marnerius">Marnerius</persName>, <persName ref="#FancellusBonacursi"
+            >Fancellus Bonacursi</persName>, <persName ref="#GerardusCarentionis">Gerardus
+            Carentioni</persName>, <persName ref="#MelioruciusCarentioni"> Meliorucius</persName>
+          frater eius, <persName ref="#PetrusBonacursi">Petrus Bonacursi</persName>, <persName
+            ref="#UrsusGilioli">Ursus Gilioli</persName>, <persName ref="#Salvetus"
+            >Salvetus</persName>, <persName ref="#MartinusGennatolo">Martinus Gennatolo</persName>,
+            <persName ref="#GuiduciusSalveti">Guiducius filius Salveti</persName>, <persName
+            ref="#ValentinusSanPaolo">Valentinus de <placeName ref="#Sancto_Paulo">Sancto
+              Paulo</placeName></persName>, <persName ref="UgolinusBonaiuncte">Ugolinus quondam
+            Bonaiuncte</persName>, <persName ref="#Solvus">Solvus</persName>, <persName
+            ref="#GerardusGuilielmini">Gerardus Guilielmini</persName>, <persName
+            ref="#SymonRodulfini">Symon Rodulfini</persName>, <persName ref="#IacobinusRodulfini"
+            >Iacopinus</persName> frater eius, <persName ref="#UbertinusAttolini">Ubertinus
+            Attolini</persName>, <persName ref="#Bonaiunctamed">Bonaiuncta
+              <roleName>medicus</roleName></persName>, <persName ref="#BlancusGerardi">Blancus
+            Gerardi</persName>, <persName ref="#Bonapars">Bonapars</persName>, <persName
+            ref="#Bontempus">Bontempus</persName>, <persName ref="#GerardusBontempi">Gerardus
+            Bontempi</persName>, <persName ref="#BonfiliolusGerardini">Bonfiliolus quondam
+            Gerardini</persName>, <persName ref="#Belardus">Belardus</persName>, <persName
+            ref="#GerarducciusBerardi">Gerarducius</persName> eius filius et <persName
+            ref="Sabbatinellus">Sabbatinellus</persName>. Et ibidem incontinenti suprascripti
+            <persName ref="#RollandinusAntoni">Rollandinus</persName>, <persName
+            ref="#TedisiusAntoni">Tedisius</persName> et <persName ref="#GiliolusAntoni"
+            >Giliolus</persName>, tanquam feudatarii pro eorum feudo et pro se et eorum heredibus,
+          iuraverunt fidelitatem predicto domino episcopo, recipienti nomine sui episcopatus, et
+          predicta omnia servare in omnibus et singulis suis capitulis, ut superius sunt expressa,
+          contra omnes personas et loca. Et dictus <persName ref="#Rollanduspod">Rollandus
+              <roleName>potestas</roleName></persName> et dicti consules et consiliarii, nomine
+          dicti communis et universitatis, et dictum commune et universitas, pro ipso communi et
+          universitate, et omnes et singuli suprascripti, tam proprio ipsorum nomine quam pro ipso
+          communi, iuraverunt fidelitatem suprascripto domino episcopo, recipienti nomine sui
+          episcopatus, contra omnes personas et loca et servare et attendere predicta omnia et
+          singula, ut sunt superius declarata, in omnibus et singulis suis capitulisg. Actum
+            <placeName ref="#Marciaso">Marzasii</placeName>, in domo heredum quondam <persName
+            ref="#PeregrinusSalvagio">Peregrini de domino Salvagio</persName>, testibus <persName
+            ref="#BonifaciusMassa"><roleName>domino</roleName> Bonifacio de <placeName ref="#Massa"
+              >Massa</placeName></persName>, <persName ref="#SaladinusFosdenova">Saladino de
+              <placeName ref="#Fosdinovo">Fosdenova</placeName></persName>, <persName
+            ref="#PynusVincencii">Pyno quondam Vincencii de <placeName ref="#Carrara"
+              >Carraria</placeName></persName>, <persName ref="#PalmerinusGerardini">Palmerino
+            quondam domini Gerardini de <placeName ref="#Viano">Viano</placeName></persName>,
+            <persName ref="#Iacopinusarc">Iacobino <roleName>archipresbytero</roleName> de
+              <placeName ref="#Ameglia_S_Vincenzo">Amelia</placeName></persName>, <persName
+            ref="#PlebanusCarraria">Plebano</persName> et <persName ref="#BonacursusCarrara"
+            >Bonacurso de <placeName ref="#Carrara">Carraria</placeName></persName>, vocatis, et
+          aliis multis, presentibus et rogatis.</p>
+        <p xml:id="DXIIII_st_002" n="2"><ptr target="#DXIIII_st_001"/> Ego <persName
+            ref="#Bonalbergusnot">Bonalbergus</persName>, <roleName>domini Frederici invictissimi
+            Romanorum imperatoris notarius</roleName>, predictis omnibus interfui et rogatus
+          scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

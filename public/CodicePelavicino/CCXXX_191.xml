@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXXX_191">
+    <front xml:id="CCXXX_front">
+
+      <titlePart type="numerazioneNuova">191</titlePart>
+      <titlePart type="numerazioneOrig">CCXXX</titlePart>
+
+      <docDate xml:id="CCXXX_docDate">
+        <date when="1269-02-12">1269 febbraio 12</date>, <placeName>Sarzanello (<term
+            xml:lang="latin">in castro Sarzane, in camera palacii domini
+          episcopi</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXXX_regesto">
+        <p>I fratelli Isnardo e Alberto, figli del fu Opizo marchese Malaspina, anche a nome degli
+          eredi del loro defunto fratello Bernabò marchese Malaspina, vendono a Guglielmo, vescovo
+          di Luni, quanto possiedono perché un tempo acquisito da Bernabò, anche a nome loro, dagli
+          eredi di Bonifacio di Erberia. Tali beni si trovano a Soliera e, in particolare, a
+          Moncigoli, Collecchia e Ceserano. Il prezzo è di 300 lire in denari genovesi.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXXX_footer">
+
+        <div type="orig_doc">
+          <p>Copia CP cc. 254v.-255r., cc. CCXLVIv.- CCXLVIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. 230, pp. 210-211.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXXX_div">
+        <p xml:id="CCXXX_p_001" n="1"><pb n="254v" xml:id="fol_254v"/>In nomine Domini, amen.<date
+            when="1269-02-12"> Anno a nativitate Eius millesimo ducentesimo sexagesimo IX°,
+          indictione XIIa, XII° die februarii</date>. Post cessiones factas syndico <orgName ref="#Soliera_comune">communis</orgName>
+            <placeName ref="#Soliera">Solerie</placeName> et <placeName ref="#Moncigoli"
+            >Monciculi</placeName> ab infrascriptis marchionibus paulo ante, ut continetur in
+          instrumentis inde factis sive rogatis manu mei <persName ref="#PetrusGualterotinot">Petri
+              <roleName>notarii</roleName></persName> et <persName ref="#Baldinotusnot">Baldinoti
+              <roleName>notarii</roleName></persName> seu alterius notarii, domini <persName
+            ref="#YsnardusMalaspina">Ysnardus</persName> atque <persName ref="#AlbertusMalaspina"
+            >Albertus, fratres, filii quondam domini Opiçoni, marchionis Malaspine</persName>, pro
+          se ipsis et pro filiis et heredibus quondam domini <persName ref="#BernabosMalaspina"
+            >Bernabovis, marchionis Malaspine</persName>, fratris eorum, pro quibus promiserunt de
+          rato habendo et tenendo sub pena infrascripta, vendiderunt, dederunt et tradiderunt
+          venerabili patri domino <persName ref="#GuilEpLuni">Guilielmo, Dei gratia
+              <roleName>Lunensi episcopo</roleName></persName>, agenti et recipienti pro Lunensi
+          episcopatu, totum atque <supplied reason="illeggibile">quicquid</supplied><note
+            xml:id="CCXXX_n_001" n="a" place="foot"><emph>La pergamena è abrasa; l’integrazione è
+              possibile sulla base del doc.</emph> 201 (CCXXXI).</note> ipsi dominus <persName
+            ref="#YsnardusMalaspina">Ysnardus</persName> et <persName ref="#AlbertusMalaspina"
+            >Albertus</persName> et filii et heredes quondam dicti domini <persName
+            ref="#BernabosMalaspina">Bernabovis</persName> vel aliquis eorum habent et habebant et
+          tenent vel possident ipsi vel alia persona pro eis vel ad eos vel aliquem eorum spectat
+          vel spectare posset ex acquisitione<note xml:id="CCXXX_n_002" n="b" place="foot"><term
+              xml:lang="latin">acquisitione</term>: c <emph>aggiunta in sopralinea</emph></note> vel
+          emptione olim facta per dominum <persName ref="#BernabosMalaspina">Bernabovem</persName>
+          vel per dictos fratres suos, pro se ipsis vel pro se et aliis vel pro aliquo ipsorum, a
+          filiis vel heredibus quondam domini <persName ref="#BonifaciusHerberia">Bonifacii de
+              <placeName ref="#Erberia">Herberia</placeName></persName> vel ab eorum tutore vel
+          curatore vel alia persona pro eis vel ab aliis quibuscumque vel quocumque modo acceperint
+          vel habuerint ipsi vel aliquis eorum vel alia pro eis in <placeName ref="#Soliera"
+            >Soleria</placeName> et eius curia et eius pertinenciis, et specialiter in <placeName
+            ref="#Moncigoli">Monciculo</placeName>, <placeName ref="#Collecchia"
+            >Collechio</placeName> et <placeName ref="#Ceserano">Cisirano</placeName> et ipsorum
+          locorum pertinenciis et districtibus, dantes et concedentes ipsi domino episcopo,
+          recipienti ut dictum est, omne dominium, proprietatem, usum et utilitatem atque
+          detentationem atque omnia iura et actiones et rationes, utiles et directas, reales,
+          personales et mixtas, que et quas ipsi domini <persName ref="#YsnardusMalaspina"
+            >Ysnardus</persName> et <persName ref="#AlbertusMalaspina">Albertus</persName> et filii
+          et heredes quondam dicti domini <persName ref="#BernabosMalaspina">Bernabovis</persName>
+          vel aliquis ipsorum habent atque dictus dominus <persName ref="#BernabosMalaspina"
+            >Bernabos</persName> habebat olim et habuit in locis predictis vel aliquo eorum, tam in
+          iurisdictione et dominiis castrorum, fictis, pensionibus et redditibus quam aliis rebus
+          quibuscumque atque iuribus, ita ut ex hiis omnibus et singulis dictus dominus episcopus et
+          eius successores vel cui daret vel committeret possit agere et experiri, tueri, causari et
+          deffendere adversus quamcumque personam et locum et exinde facere quicquid voluerit sine
+          contradictione dictorum marchionum vel alterius cuiuscumque persone, faciendo eum exinde
+          procuratorem et dominum ut in rem suam, vice et nomine Lunensis episcopatus, atque dantes
+          et concedentes eidem domino episcopo licenciam, bailliam et potestatem intrandi et
+          accipiendi tenutam et corporalem possessionem vel quasi de omnibus et singulis
+          suprascriptis quandocumque voluerit per se vel per alium et constituentes se pro eo et
+          eius nomine precario possidere vel quasi donec tenutam et possessionem vel quasi habuerit
+          et acceperit de predictis. Et pro precio omnium predictorum fuerunt confessi predicti
+          marchiones, pro se et dictis filiis et heredibus quondam dicti domini <persName
+            ref="#BernabosMalaspina">Bernabovis</persName>, se habuisse et recepisse et quod
+          habuerunt et receperunt ab ipso domino episcopo <measure type="ianuenses" quantity="300"
+            unit="lire">libras trecentas Ianuensium</measure>, de quo precio se vocaverunt solutos
+          et quietos, renunciando exceptioni non numerate pecunie et precii non habiti et soluti et
+          omni alii exceptioni et legum auxilio atque, si quid predicta plus valebant, donaverunt
+          eidem domino episcopo titulo pure ac simplicis donationis inter vivos, renunciando etiam
+          legi que iuvat deceptos in vendictionibus ultra dimidiam iusti precii<note
+            xml:id="CCXXX_n_003" n="c" place="foot"><term xml:lang="latin">In vendictionibus ultra
+              dimidiam iusti precii</term><emph>: nel testo</emph>
+            <term xml:lang="latin">ultra dimidiam iusti precii in venditionibus</term>
+            <emph>con segno di richiamo per indicare l’inversione delle parole</emph>.</note>.
+          Insuper suprascripti domini <persName ref="#YsnardusMalaspina">Ysnardus</persName> et
+            <persName ref="#AlbertusMalaspina">Albertus</persName>, pro se et dictis filiis et
+          heredibus quondam dicti domini <persName ref="#BernabosMalaspina">Bernabovis</persName>,
+          et uterque eorum in solidum, promiserunt et convenerunt dicto domino episcopo, recipienti
+          vice et nomine Lunensis episcopatus, non imbrigare vel molestare deinceps predicta
+          vendita, data et concessa vel aliquid eorum de iure vel de facto, immo ea omnia deffendere
+          et exbrigare de iure ab omni impediente et molestante vel litigante persona et loco et
+          universitate et collegio propriis expensis et advocato ipsorum marchionum. Et si non
+          deffenderent vel non possent deffendere, teneantur eidem domino episcopo restaurare salvum
+          cambium eius tocius quod evictum vel molestatum fuerit et omne dampnum et expensas, quod
+          vel quas ea occasione haberet vel sustineret, teneantur ei integre restaurare atque
+          resarcire, credendo de dampno, interesse et expensis nudo et simplici verbo eiusdem domini
+          episcopi et eius successorum, sine sacramento et testium vel instrumenti vel alterius
+          probationis honere, remissa ipsi domino episcopo et eius successoribus necessitate
+          denunciandi vel inquirerendi<note xml:id="CCXXX_n_004" n="d" place="foot"><term
+              type="incerto">inquirerendi</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">inquirendi</term>.</note>, si lis vel controversia moveretur
+          eidem vel alii pro eo de predictis vel aliquo predictorum vel eorum occasione ab aliqua
+          persona vel loco, et necessitate prosequendi appellationem, si appellaverit, asserentes et
+          dicentes se nullum datum vel concessionem vel dationem fecisse de predictis vel aliquo
+          predictorum alicui persone vel loco. Hanc autem <pb n="255r" xml:id="fol_255r"/>
+          vendictionem et omnia et singula suprascripta promiserunt predicti marchiones, pro se et
+          dictis filiis et heredibus quondam domini <persName ref="#BernabosMalaspina"
+            >Bernabovis</persName> predicti, habere rata et firma perpetuo et ita facere et curare
+          quod ipsi filii et heredes quondam dicti domini <persName ref="#BernabosMalaspina"
+            >Bernabovis</persName> predicta omnia sic rata et firma habebunt, tenebunt et
+          observabunt et contra non facient nec venient aliquo ingenio sive modo, nec questionem vel
+          controversiam facient vel fieri facient, per se vel per alium, de predictis vel aliquo
+          predictorum adversus predictum dominum episcopum vel eius successores vel cui daret, sub
+          pena trecentarum librarum ianuensium, quam ipsi dominus <persName ref="#YsnardusMalaspina"
+            >Ysnardus</persName> et <persName ref="#AlbertusMalaspina">Albertus</persName>, et
+          utremque eorum in solidum, dare et solvere promiserunt et convenerunt ipsi domino
+          episcopo, recipienti pro se et episcopatu Lunensi, et cui dare vel committere voluerit,
+          tociens quociens per ipsos dominos <persName ref="#YsnardusMalaspina">Ysnardum</persName>
+          et <persName ref="#AlbertusMalaspina">Albertum</persName> et per filios et heredes quondam
+          dicti domini <persName ref="#BernabosMalaspina">Bernabovis</persName> vel per aliquem
+          eorum vel aliquam personam pro eis contra predicta vel aliquod predictorum factum sive
+          ventum fuerit et pro quolibet capitulo non observato; atque, pena soluta vel non,
+          suprascriptis omnibus et singulis ratis et firmis manentibus, cum eadem pene commissione,
+          obligando pro hiis omnibus et singulis se dicti marchiones, et uterque eorum in solidum,
+          et eorum heredes et bona, habita et habenda, atque renunciando omni iuri et legibus contra
+          hec introductis vel introducendis atque specialiter nove constitutioni de duobus reis et
+          epistule <persName ref="#Adrianus">divi Adriani</persName> et omni alii iuris<note
+            xml:id="CCXXX_n_005" n="e" place="foot"><term type="incerto">iuris</term>: <emph>così
+              nel testo per</emph>
+            <term xml:lang="latin">iuri.</term>.</note> et legum auxilio.</p>
+        <p xml:id="CCXXX_p_002" n="2">Actum in <placeName ref="#Sarzanello">castro
+            Sarzane</placeName>, scilicet in camera palacii dicti domini episcopi, sollempniter,
+          presentibus <persName ref="#NormanninusBernanduccisiud">domino Normannino de Luca
+              <roleName>iudice</roleName></persName>, <persName ref="#NicholausFlisco">domino
+            Nicholao de Flisco comite Lavanie</persName>, <persName ref="#PetrusPontremulo">domino
+            Petro de <placeName ref="#Pontremoli">Pontremulo</placeName></persName>, <persName
+            ref="#HenricusFalcinello">dominis Henrico de <placeName ref="#Falcinello"
+              >Falcinello</placeName><roleName> legum doctore</roleName></persName>, <persName
+            ref="#MarinusPlacentia">Marino <roleName>iudice</roleName> de <placeName ref="#Piacenza"
+              >Placentia</placeName></persName>, <persName ref="#Opizinus">Opecino</persName>,
+            <persName ref="#Rubeusiud">Rubeo</persName> et <persName ref="Opizusiud">Opiçone de
+              <placeName ref="#Sarzana">Sarzana</placeName>,
+            <roleName>iudicibus</roleName></persName>, et pluribus aliis testibus ad hec
+          rogatis.</p>
+        <p xml:id="CCXXX_p_003" n="3"><ptr target="#CCXXX_st_001"/> Ego <persName
+            ref="#PetrusGualterotinot">Petrus quondam Gualteroti de <placeName ref="#Soliera"
+              >Soleria</placeName>, <roleName>sacri palacii notarius</roleName></persName>, hiis
+          interfui et rogatus hanc cartam scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

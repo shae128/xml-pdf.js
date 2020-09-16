@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="DXLIIIIbis_506">
+        <front xml:id="_front">
+
+            <titlePart type="numerazioneNuova">506</titlePart>
+            <titlePart type="numerazioneOrig"/>
+
+            <docDate xml:id="DXLIIIIbis_docDate">
+                <date when="1237-06-12">1237 giugno 12</date>, <placeName>Reggio Emilia (<term
+                        xml:lang="latin">Regii, ad canonicam Regiensem</term>)</placeName>
+            </docDate>
+
+            <div type="regesto" xml:id="DXLIIIIbis_regesto">
+                <p>Attone <term xml:lang="latin">de Casellis</term> dichiara al priore del monastero
+                    del Corvo Simone e a Palmerio, sindaco del vescovo di Luni, di voler radunare il
+                    consiglio sulle dichiarazioni fatte dal priore stesso e da Palmerio. Chiede di
+                    avere entro l’indomani mattina, se li hanno, i nomi dei giudici che loro
+                    considerano sospetti. </p>
+            </div>
+
+            <div type="footer" xml:id="DXLIIIIbis_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 402r.- CCCLXXXXIIIIr. secondo la numerazione originale.</p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref> n. 544,
+                        p. 618.</p>
+                </div>
+
+                <div type="appr">
+                    <p/>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="DXLIIIIbis_div">
+                <p xml:id="DXLIIIIbis_p_001" n="1"> In Christi nomine. <date when="1237-06-12">Anno
+                        a nativitate Eius MCCXXXVII, indictione X, die XII intrante iunio.</date>
+                    Coram <persName ref="#GerardusNormandia"><roleName>magistro</roleName> Gerardo
+                        de <placeName ref="#Normandia">Normandia</placeName></persName>, <persName
+                        ref="#AttoCasellis"><roleName>dominus</roleName> Atto de <placeName
+                            ref="#Casellis">Casellis</placeName></persName> dixit <persName
+                        ref="#Symon_prior"><roleName>domino</roleName> Symoni,
+                            <roleName>priori</roleName> de <placeName ref="#Corvo"><orgName
+                                ref="Corvo_S_Croce">Corvo,</orgName></placeName></persName> et
+                        <persName ref="#Palmerius_syndicus">Palmerio,</persName>
+                    <roleName>syndico domini episcopi Lunensis,</roleName> quod vult habere
+                    consilium super ea que dominus prior et <persName ref="#Palmerius_syndicus"
+                        >Palmerius</persName> dixerunt et, si habent aliquos iudices suspectos, dent
+                    ei per scriptos et die mane sint ante eum.</p>
+                <p xml:id="DXLIIIIbis_p_002" n="2"> Actum <placeName ref="#Regio">Regii,</placeName>
+                    feliciter, ad <orgName ref="#Reggio_S_Maria_canonica">canonicam
+                        Regiensem.</orgName>
+                </p>
+                <p xml:id="DXLIIIIbis_p_003" n="3">
+                    <ptr target="DXLIIIIbis_st_001"/> Ego <persName ref="#ArloctusPalude_not"
+                            >Arlottus<note place="foot" n="a" xml:id="DXLIIIIbis_n_001">Arlottus: r
+                                <emph>corretta su</emph> l</note> de <placeName ref="#Padule"
+                            >Palude</placeName>, <roleName>sacri palacii
+                        notarius,</roleName></persName> rogatus scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

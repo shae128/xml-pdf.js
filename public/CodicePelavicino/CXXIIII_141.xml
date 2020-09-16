@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXXIIII_141">
+    <front xml:id="CXXIIII_front">
+
+      <titlePart type="numerazioneNuova">141</titlePart>
+      <titlePart type="numerazioneOrig">CXXIIII</titlePart>
+
+      <docDate xml:id="CXXIIII_docDate">
+        <date when="1269-12-09">1269 dicembre 9</date>, <placeName>&lt;Sarzana&gt; <emph>(<term
+              xml:lang="latin">Sane, ad bancum ubi ius redditur, sub porticu domus Bonapartis
+              notarii</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXXIIII_regesto">
+        <p>Giacomino detto Tagliavacca, notaio, procuratore di Guglielmo, vescovo di Luni, agisce in
+          giudizio contro Vezzosa, figlia del fu Pietro Fiorino, e Bionda, figlia del fu Gilberto, a
+          sua volta figlio di Pietro, per ottenere la restituzione di metà <term xml:lang="latin"
+            >pro indiviso</term> di una terra spettante alla curia di Luni, posta <term
+            xml:lang="latin">in Paternulo</term>. Vezzosa e Bionda dichiarano di non voler andare in
+          giudizio e di rinunciare a detto bene.</p>
+      </div>
+
+      <div type="footer" xml:id="CXXIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia [C] CP cc. 228v.- 229r., c. CCXXv.- CCXXIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 124,
+            pp. 157-158.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il luogo di redazione potrebbe dare adito a dubbi, ma dal documento n. 118 (XCII)
+            del 1270 novembre 21 si ricava che la casa del notaio Buonaparte si trovava
+            effettivamente a Sarzana, vicino a piazza Carcandola. L’atto viene copiato nel Codice
+            con una premessa che racconta la sua precedente presenza nel “libro delle cause” redatto
+            quando Moroello Malaspina era vicario del vescovo Guglielmo in Lunigiana. Esistono solo
+            due atti con queste caratteristiche, il 140-CXXIII e il 141-CXXIIII. Ritenendo poco
+            probabile che il <emph>liber causarum </emph> di Moroello Malaspina contenesse solo due
+            atti o che solo due atti del <emph>liber causarum </emph> siano stati scelti da maestro
+            Egidio per essere copiati nel Codice, pensiamo che egli abbia riprodotto due copie
+            semplici, fatte in data sconosciuta ed estratte appunto dal <emph>liber causarum </emph>
+            del 1269. </note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXXIIII_div">
+        <p xml:id="CXXIIII_p_001" n="1">Continetur in libro causarum facto et composito tempore
+          illustris viri domini<persName ref="#Morruellusvic"> Morrouelli, <roleName>marchionis</roleName> Malaspine</persName>,
+            <roleName>vicarii</roleName> in <orgName ref="#Lunigiana_provincia">provincia
+              <placeName ref="#Lunigiana"> Lunisiane</placeName></orgName> pro venerabili patre domino<persName
+            ref="#GuilEpLuni"> Guilielmo, <roleName>Lunensi episcopo</roleName></persName>,
+          existentibus <persName ref="#NormanninusBernanduccisiud"><roleName>iudice</roleName>
+            domino Normannino de Bernanducciis</persName> et <persName
+            ref="#BaldinotusCaldovillanus">Baldinoto Caldovillani</persName> et <persName
+            ref="#Aliottusnot">Alioto Marroncino de <placeName ref="#Lucca">Luca</placeName>
+            <roleName>notario</roleName></persName> ad dictum officium, in anno nativitatis Domini
+            <date when="1269">M°CCLXVIIII°, indictione XII</date>, inter alia, que in eo
+          continentur, ita videlicet:</p>
+        <div xml:id="CXXIIII_div2" type="quotation">
+        <quote rend="pre(«) post(»)">
+          <p xml:id="CXXIIII_p_002" n="2">
+            <date when="--12-09">Die lune, nono decembris</date>. <persName
+              ref="#IacopinusTalliavachanot">Iacobinus dictus Talliavacha,
+                <roleName>notarius</roleName>, <roleName>syndicus</roleName>, <roleName>actor
+              </roleName>et <roleName>procurator </roleName></persName>venerabilis patris domini
+              <persName ref="#GuilEpLuni">Guilielmi, <roleName>Lunensis
+              episcopi</roleName></persName>, et episcopatus, syndicatus, actorio et procuratorio
+            nomine pro dicto domino episcopo et episcopatu, agit contra <persName
+              ref="#VessosaPetri">Vessosam, filiam quondam <persName ref="#PetrusFlo">Petri de
+                  <placeName ref="#Florino">Florino</placeName></persName></persName>, et <persName
+              ref="#BlondaGiberti">Blondam, filiam quondam Giberti</persName>, olim filius<note
+              place="foot" n="a" xml:id="CXXIIII_n_001">filius<emph>:
+                così nel testo per</emph>
+              filii.</note> ipsius <persName ref="#PetrusFlo"
+              >Petri</persName>, petens dicto nomine ab eis sibi restitui medietatem pro indiviso
+            unius petie terre posite in <placeName ref="#Paternulo">Paternulo</placeName>, cui
+            coheret ab uno latere terra <persName ref="#BonacaptusBra">Bonacapti de <placeName
+                ref="#Brasile">Brasile</placeName></persName>, ab alio <persName
+              ref="#GerardusLealis">Gerardi Lealis</persName>, a capite via publica, a pede
+              <persName ref="#StoppusSarz">Stuppii <roleName>speciarii</roleName> de <placeName
+                ref="#Sarzana">Sarzana</placeName></persName>. Quam medietatem pro indiviso dicte
+            terre dicit ipse syndicus et actor et procurator ad dictum dominum episcopum et
+            episcopatum pertinere iure dominii vel quasi, et hec petit omni iure quo melius potest,
+            salvo omni alio iure dicti domini episcopi et episcopatus, et petit expensas cause et
+            advocati.</p>
+          <p xml:id="CXXIIII_p_003" n="3"><c>§</c> Eodem die, suprascripte <persName
+              ref="#VessosaPetri">Vesosa</persName> atque <persName ref="#BlondaGiberti"
+              >Blunda</persName> dixerunt et responderunt quod nolunt stare in causa cum predicto
+              <roleName>syndico</roleName> vel domino episcopo de terra predicta et nolunt eam
+            deffendere et dederunt licenciam dicto syndico, dicto nomine agenti et recipienti, ut
+            dictam terram et possessionem ipsius accipiat vel accipi faciat per se vel
+              <roleName>castaldionem</roleName> curie quando voluerit, sine contradictione
+            ipsarum.</p>
+          <p xml:id="CXXIIII_p_004" n="4">Actum <placeName ref="#Sarzana">Sane</placeName><note
+              place="foot" n="b" xml:id="CXXIIII_n_002">Sane<emph>: così
+                nel testo per</emph>
+              Sarzane.</note>, ad bancum ubi ius redditur per vicarium
+            et curiam Lunensem, sub porticu domus <persName ref="#Bonapartenot">Bonapartis<note
+                place="foot" n="c" xml:id="CXXIIII_n_003">domus
+                  Bonapartis<emph>: nel testo </emph>
+                Bonapartis domus
+                <emph>con segno di richiamo per invertire l’ordine delle parole.</emph></note>
+              <roleName>notarii</roleName></persName>, anno nativitatis Domini <date
+              when="1269-12-09">MCC <pb n="229r" xml:id="fol_229r"/>LXVIIII°, indictione XIII,
+              suprascripta die</date>. Et predicta fecit predicta <persName ref="#BlondaGiberti"
+              >Blonda</persName> presente et consentiente <persName ref="#AidansSar">Aidante de
+                <placeName ref="#Sarzanello">castro Sarzane</placeName></persName>, avunculo eius,
+            presentibus <persName ref="#Rubeusiud">domino Rosso <roleName>iudice</roleName> de
+                <placeName ref="#Sarzana">Sarzana</placeName></persName> et <persName
+              ref="#IohannesFormichella">Iohanne Formichella</persName> atque <persName
+              ref="#Bonaparte">Bonaparte de <placeName ref="#Porchano">Porchano</placeName>
+              <roleName>cur<supplied reason="omitted">rerio</supplied></roleName></persName> et
+              <persName ref="#VegnutusBianchi">Venuto quondam Bianchi de <placeName
+                ref="#Sarzanello">castro Sarzane</placeName></persName>, testibus.</p>
+          <p xml:id="CXXIIII_p_005" n="5"><ptr target="#CXXIIII_st_001"/><persName
+              ref="#BaldinotusCaldovillanus">Baldinotus Caldovillani de Porticu <placeName
+                ref="#Lucca">civitatis Lucane</placeName>, <roleName>imperii Romanorum
+                iudex</roleName> et suprascripte <orgName ref="#Lunigiana_vicaria">vicarie</orgName> tunc
+                <roleName>scriba</roleName></persName>, predictis interfui et omnia ego subscripsi,
+            meo signo et nomine publicando et confirmando.</p>
+        </quote>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

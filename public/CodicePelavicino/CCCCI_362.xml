@@ -1,0 +1,166 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="CCCCI_362">
+    <front xml:id="CCCCI_front">
+
+      <titlePart type="numerazioneOrig">CCCCI</titlePart>
+      <titlePart type="numerazioneNuova">362</titlePart>
+
+      <docDate xml:id="CCCCI_docDate">
+        <date when="1235-01-07">&lt;1235 gennaio 7&gt; </date> / &lt;<date when="1236-01-07">1236
+          gennaio 7</date>&gt;, <placeName>Marola</placeName> (<term xml:lang="latin">villa
+          Marole</term>) </docDate>
+
+      <div type="regesto" xml:id="CCCCI_regesto">
+        <p> Bonavere del fu Cepello, Paganino del fu Giovanni, Toso di Calesana, consoli di Marola e
+          di Matrono, insieme ad altri cinquanta uomini delle due comunità nominalmente elencati,
+          giurano di obbedire al vescovo di Luni Guglielmo riguardo a quanto erano soliti dare alla
+          chiesa di S. Andrea di Fabiano e che ora devono dare alla chiesa di S. Vito di Marola.
+        </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCI_footer">
+        <div type="orig_doc">
+          <p> Copia [C] CP cc. 323r.-323v., c. CCCXVr.-CCCXVv. secondo la numerazione originale </p>
+        </div>
+        <div type="biblio">
+          <p> Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 401,
+            pp. 380-381 </p>
+        </div>
+
+        <div type="crit_notes">
+          <note> Parte del documento è stata letta con l’ausilio della luce di Wood. </note>
+          <note> La data indicata nel testo - <emph>M°CCXXXVI, indictione VIII, die dominico, VII
+              mense ianuario</emph> – crea qualche problema. Nel 1236 correva la IX e non l’VIII
+            indizione; inoltre il 7 gennaio cadeva di lunedì e non di domenica (da qui la datazione
+            al 6 gennaio di Lupo Gentile). Avrebbe quindi perfettamente senso la correzione già a
+            suo tempo proposta da Mazzini al 1235 gennaio 7 (<ref target="#MAZZINI_1914">MAZZINI
+              1914</ref>, p. 27), se non che il contenuto sembra doversi riferire a un periodo
+            successivo al 1235 giugno 19 (doc. 360-CCCLXXXXVIIII), quando gli uomini di Marola e
+            Matrono ottennero dal vescovo il permesso di edificare o ricostruire la chiesa di San
+            Vito. Da questa incertezza deriva la data proposta. </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <emph>CCCCI. Subietionis et
+              obedientie hominum de Marola.</emph></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div>
+        <p xml:id="CCCCI_p_001">
+          <ptr target="#CCCCI_st_001"/>Ad honorem Dei et beate<note xml:id="CCCCI_n_001" n="a"
+            place="foot"><term xml:lang="lat">beate</term>: <emph>b corretto su precedente
+              scrittura</emph>.</note> Virginis Marie et omnium sanctorum, sub quorum protectione
+          omnes Christi fideles subpositi sunt, <persName ref="#BonavereCepelli">Bonaver quondam
+            Cepelli</persName>, <persName ref="#PaganinusIohannis">Paganinus<note
+              xml:id="CCCCI_n_002" n="b" place="foot"><term xml:lang="lat">Paganinus</term>: P
+                <emph>scritto su rasura</emph>.</note> quondam Iohannis</persName>, <persName
+            ref="#TosusCalesana">Tosus de <placeName ref="#Calesana"
+          >Calesana</placeName></persName>, <roleName>consules</roleName>
+          <note xml:id="CCCCI_n_003" n="c" place="foot"><term xml:lang="lat">consules</term>:
+              <emph>l corretto su precedente scrittura.</emph></note> de <placeName ref="#Marola"
+            >Marola</placeName>, de beneplacita<note xml:id="CCCCI_n_004" n="d" place="foot"><term
+              xml:lang="lat">beneplacita</term>: <emph>così nel testo per</emph><term xml:lang="lat"
+              >beneplacito</term></note> et voluntate eorum et omnium hominum de <placeName
+            ref="#Marola">Marola</placeName> et de <placeName ref="#Matrono">Mathono</placeName>
+          similiter, et omnes, quorum nomina inferius leguntur, iuraverunt, tactis corporaliter
+          evangeliis, obedire precepta domini <persName ref="#GuilEpLuni">Guilielmi, <roleName>Dei
+              gratia Lunensis episcopi</roleName></persName>, absentis<note xml:id="CCCCI_n_005"
+            n="e" place="foot"><term xml:lang="lat">absentis</term>: corretto su precedente <term
+              xml:lang="lat">absens</term></note>, in omni eo quod eis vel hominibus de <placeName
+            ref="#Marola">Marola</placeName> et de <placeName ref="#Matrono">Mathono</placeName> et
+          de eorum consulatu imposuerit, statuerit et ordinaverit de dato quod soliti erant dare
+            <orgName ref="#Fabiano_S_Andrea">ecclesie Sancti Andree de <placeName ref="#Fabiano"
+              >Fabiano</placeName></orgName>, dandi ipsi ecclesie vel ei sublevandi causa dandi
+            <orgName ref="#Marola_S_Vito">ecclesie Sancti Viti de <placeName ref="#Marola"
+              >Marola</placeName></orgName>, addendi ipsi data vel minuendi ad voluntatem dicti
+            <roleName>episcopi Lunensis</roleName>. Nomina consulum supradictorum et omnium aliorum
+          iuratorum sunt ista: <persName ref="#BonavereCepelli"> Bonaver quondam Cepelli</persName>,
+            <persName ref="#PaganinusIohannis"> Paganinus quondam Iohannis</persName>, <persName
+            ref="#TosusCalesana">Tosus de <placeName ref="#Calesana"
+          >Calesana</placeName></persName>, <roleName>consules</roleName>, <persName
+            ref="#FaciusGarmignoni">Facius quondam Garmignoni</persName>, <persName
+            ref="#FestaDeotesalve">Festa filius Detesalve</persName>, <persName ref="#ParensPellini"
+            >Parente quondam Pellini</persName>, <persName ref="#TedaldusPagani">Tedaldus quondam
+            Pagani</persName>, <persName ref="#BaldoinusFaci">Balduinus filius Facii</persName>,
+            <persName ref="#AidansPellini">Aidante quondam Pellini</persName>, <persName
+            ref="#Ruffinus">Ruffinus</persName>, <persName ref="#LaurentiusBona">Laurentius de
+            Bona</persName>, <persName ref="#PaganinusDannacini">Paganinus quondam
+            Dannacini</persName>, <persName ref="#BonensegnaVenutelli">Bonensegna quondam
+            Venutelli</persName>, <persName ref="#Parensmag">Parente
+            <roleName>magister</roleName></persName>, <persName ref="#MichaelPozolo">Michael de
+            Pozolo</persName>, <persName ref="#Iurnis"> Iurnis</persName>, <persName ref="#Coniator"
+            >Coniator</persName>, <supplied reason="illegible">...</supplied>nus, <persName
+            ref="#AmicusAngelerii">Amicus<note xml:id="CCCCI_n_006" n="f" place="foot">Michael de
+              Pozolo-Amicus: <emph>scritto su rasura</emph>.</note> quondam Angelerii</persName>,
+            <persName ref="#LaboransPancie">Laborans quondam Pancie</persName>, <persName
+            ref="#Vitus">Viti de <placeName ref="#Montale">Montale</placeName></persName>, <persName
+            ref="#BenvenutusBorgheri">Benevenutus quondam Borgheri</persName>, <persName
+            ref="#AldonusPetri">Aldonus<note xml:id="CCCCI_n_007" n="g" place="foot">Viti de
+              Montale-Aldonus: <emph>scritto su rasura</emph>.</note> quondam Petri</persName>,
+            <persName ref="#Bonencontrusmag">Bonencontrus <roleName>magister</roleName></persName>,
+            <persName ref="#GallicusMichaelis">Gallicus filius Michaelis</persName>, <persName
+            ref="#PaganinusMainardi">Paganinus quondam Manardi</persName>, <persName
+            ref="#MelioretusRicheti">Melioretus quondam Richeti</persName>, <persName
+            ref="#Segnorinus">Segnorinus</persName>, <persName ref="#DidoCarame">Dido de <placeName
+              ref="#Carame">Carame</placeName></persName>, <persName ref="#FestaPellini">Festa
+            quondam Pellini</persName>, <persName ref="#IunctaMadii">Iuncta filius Madii</persName>,
+            <pb n="323v" xml:id="fol_323v"/>. <persName ref="#MectarellusBernardi">Mectarellus
+            quondam Bernardi</persName>, <persName ref="#Gircus">Gircus</persName>, <persName
+            ref="#Prosperinus">Prosperinus</persName>, <persName ref="#Vitaletus"
+          >Vitalis</persName>, <persName ref="#BonusiohannesMontale">Bonus Iohannes de <placeName
+              ref="#Montale">Montale</placeName></persName>, <persName ref="#DetefeMoreschi">Detefe
+            quondam Moreschi</persName>, <persName ref="#BonavitaGuidonis">Bonavita quondam
+            Guidonis</persName>, <persName ref="#Meliorinus">Meliorinus</persName>, <persName
+            ref="#BonusfancellusPagani">Bonusfancellus quondam Pagani</persName>, <persName
+            ref="#IohanetusMontale">Iohanetus de <placeName ref="#Montale"
+            >Montale</placeName></persName>, <persName ref="#WilielminusRuffus">Wilielminus
+            Ruffus</persName>, <persName ref="#DuransCarame">Durans de <placeName ref="#Carame"
+              >Carame</placeName></persName>, <persName ref="#AcursusPetri">Acursus quondam
+            Petri</persName>, <persName ref="#Henrigetus">Henrigetus</persName>, <persName
+            ref="#GerardusBorgeti">Gerardus quondam Borgeti</persName>, <persName ref="#Grugnus"
+            >Grugnus</persName>, <persName ref="#LaboransBorgeti">Laborans quondam
+            Borgeti</persName>, <persName ref="#CaretusBernardiGerardini">Caretus filius
+            Bernardi</persName>, <persName ref="#Carenutus">Carenutus</persName>, <persName
+            ref="#ArmanninusMichaelis">Armanninus quondam Michaelis</persName>, <persName
+            ref="#GiliensisVivaldi">Giliensis quondam Vivaldi Parre</persName>, <persName
+            ref="#BonusvillanusAnniboni">Bonusvillanus quondam Anniboni</persName>, <persName
+            ref="#ConfortinusDeteaide">Confortinus Deteaide</persName>. Huic fuerunt testes rogati
+            <persName ref="#Nicholosiusnot">Nicholosius <roleName>notarius</roleName></persName>,
+            <persName ref="#BlancusPosa">Blancus de <placeName ref="#Posa"
+            >Posa</placeName></persName>, <persName ref="#BastardusCignano">Bastardus de <placeName
+              ref="#Cignano">Cignano</placeName></persName>. </p>
+
+        <p xml:id="CCCCI_p_002"> Actum villa <placeName ref="#Marola">Marole</placeName>, supra
+          domum filiorum quondam <persName ref="#Vivaldus">Vivaldi</persName>, <date
+            when="1236-01-07">anno dominice nativitatis M°CCXXXVI, indictione VIII, die dominico,
+            VII mense ianuario</date>.</p>
+
+        <p xml:id="CCCCI_p_003">
+          <ptr target="#CCCCI_st_002"/> Ego <persName ref="#IonasPortuvenerisnot">Ionas de
+              <placeName ref="#Portovenere">Portuveneris</placeName></persName>, <roleName>sacri
+            palacii notarius</roleName>, hiis omnibus interfui et, rogatu omnium supra iuratorum, ut
+          supra scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

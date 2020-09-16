@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXXIIII_286">
+    <front xml:id="CCCXXIIII_front">
+
+      <titlePart type="numerazioneNuova">286</titlePart>
+      <titlePart type="numerazioneOrig">CCCXXIIII</titlePart>
+
+      <docDate xml:id="CCCXXIIII_docDate">
+        <date when="1070-03-08">1070 marzo 8</date>, <placeName>Luni (<emph>in caminata domus Sancte
+            Marie, Lunensis ecclesie</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXXIIII_regesto">
+        <p>Uberto di <term type="latin">Boiano</term>, figlio di Pagano, si impegna di fronte a
+          testimoni a non edificare nessun castello sul monte Volpiglione senza la volontà del
+          vescovo di Luni, dando in pegno ogni suo beneficio o feudo che tiene dalla chiesa di Luni
+          e ogni allodio acquisito per eredità dalla madre; Uberto perderà il pegno anche se i figli
+          del fu Zencio di <term type="latin">Boiano</term> non si impegneranno allo stesso modo una
+          volta diventati maggiorenni.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXXIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 295r., c. CCLXXXVIIr. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 324,
+            pp. 313-314. Bibliografia: <ref target="#NOBILI_1992"> NOBILI 1992</ref></p>
+        </div>
+
+        <div type="crit_notes"> </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCXXIIII. Refutationis de Vulpillione non hedificando.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXXIIII_div">
+        <p xml:id="CCCXXIIII_p_001" n="1"><ptr target="#CCCXXIIII_st_001"/><date when="1070-03-08">
+            Die lunis<note place="foot" n="a" xml:id="CCCXXIIII_n_001"><term xml:lang="latin"
+                >lunis</term>: <emph>così nel testo.</emph></note>, qui est VIII° die mensis
+            marcii</date>, <placeName ref="#Luni">in caminata domus Sancte Marie, <placeName
+              ref="#Luni">Lunensis ecclesie</placeName></placeName>, presentia <persName
+            ref="#Iohannesprep2">Iohannis, <roleName>prepositi</roleName> et
+              <roleName>subdyaconi</roleName></persName>, et <persName ref="#Temus">Temi</persName>,
+            <roleName>cantoris </roleName> ipsius ecclesie, atque <persName
+            ref="#PeregrinusGotezonis">Peregrini</persName> et <persName ref="#GuibertusBurcione"
+            >Guiberti, fratrum, filiorum quondam Gotezonis de <placeName ref="#Burcione"
+              >Burzone</placeName></persName>, et <persName ref="#BosusGerardi">Bosonis, filii
+            quondam Gerardi de <placeName ref="#Casine">Casine</placeName></persName>, et <persName
+            ref="#BonfiliusCervaria">Bonifilii de <placeName ref="#Cervaria">Cervaria</placeName>
+          </persName> atque <persName ref="#Rollandus">Rollandi</persName> et <persName
+            ref="#Gerardus">Gerardi</persName> atque <persName ref="#Lanfrancuscler">Lanfranbei<note
+              place="foot" n="b" xml:id="CCCXXIIII_n_002"><term xml:lang="latin">Lanfranbei</term>:
+                <emph>così nel testo</emph>. </note><roleName>clerici</roleName></persName> et
+            <persName ref="#AzoGerardi">Azonis </persName> atque <persName
+            ref="#AlbertusGerardiCarr">Alberti, fratrum, filiorum eiusdem <persName
+              ref="#GerardusCar">Gerardi de <placeName ref="#Carrara"
+              >Carraria</placeName></persName></persName>, et <persName ref="#AlbertusAmelia"
+            >Alberti de <placeName ref="#Ameglia">Amelia</placeName></persName> atque <persName
+            ref="#OdoSarz">Odonis de <placeName ref="#Sarzana">Sarzana</placeName></persName> et
+            <persName ref="#AzoCompagni">Azonis, filii quondam Compagni</persName>, et <persName
+            ref="#UgoAzonis"> Ugonis, filii<note place="foot" n="c" xml:id="CCCXXIIII_n_003"><term
+                xml:lang="latin">filii</term>: <emph>corretto su precedente scrittura</emph>.</note>
+            quondam Azonis</persName>, atque <persName ref="#NuxLune">Nucis de <placeName
+              ref="#Luni">Lune</placeName></persName> seu reliquorum bonorum hominum, quorum nomina
+          subtus leguntur. In iamscriptorum presentia et ceterorum veniens <persName
+            ref="#UbertusBoiano">Ubertus de <placeName ref="#Buiano"> Boiano</placeName>, Pagani
+            filius</persName>, per fustem, quam tenebat sua manu, dedit pignus omne suum beneficium,
+          quod dicitur feudum, quod tenet ex parte iamscripte ecclesie Sancte Marie episcopii
+          Lunensis, ut si amodo aliquo in tempore presumpserit hedificare castellum aliquod in
+          monte, qui vocatur <placeName ref="#Volpilione">Vulpillione</placeName>, vel per se vel
+          per suam submissam personam, sine episcopo ipsius episcopii vel sine sua permissa licencia
+          et voluntate, perdat illud beneficium quod tenet ex parte ipsius ecclesie Lunensis et
+          episcopi et alodium, id est predium, quod ei advenit ex parte sue matris. Et si filii
+          quondam <persName ref="#ZenciusBoiano">Zencii</persName> de eodem loco <placeName
+            ref="#Buiano">Boiano</placeName>, quando ad etatem pervenerint, si non dederint omne
+          eorum beneficium, quod tenent ab episcopo Lunensi et ab iamscripta ecclesia, in eo tenore
+          et in ea condictione quod iamscriptus <persName ref="#UbertusBoiano">Ubertus</persName>
+          dedit omne suum feudum, iamdictus <persName ref="#UbertusBoiano">Ubertus</persName> perdat
+          suum beneficium et alodium, id est predium, supradictum. </p>
+        <p xml:id="CCCXXIIII_p_002" n="2">Factum est hoc anno <date when="1070-03-08">dominice
+            incarnationis millesimo LXX, iamscripto die, indictione VIII</date>, feliciter. Ego
+            <persName ref="#Iohannesprep2">Iohannes prepositus</persName> subscripsi. <persName
+            ref="#Temus">Temus <roleName>cantor</roleName></persName> subscripsi.</p>
+        <p xml:id="CCCXXIIII_p_003" n="3"><ptr target="#CCCXXIIII_st_002"/>Ego <persName
+            ref="#Azoiud">Azo, <roleName>iudex et advocatus ipsius episcopii</roleName></persName>,
+          ibi fui et hec scripsi.</p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

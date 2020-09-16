@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXVI_377">
+    <front xml:id="CCCCXVI_front">
+
+      <titlePart type="numerazioneNuova">377</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXVI</titlePart>
+
+      <docDate xml:id="CCCCXVI_docDate">
+        <date when="1256-06-04">1256 giugno 4</date>, <placeName>Ceparana (<term xml:lang="latin"
+            >Cepparane, ante portam putei</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXVI_regesto">
+        <p>Guglielmino di Castagnetolo e la moglie Avenante cedono a Paganino notaio di Santo
+          Stefano, castaldo del vescovo di Luni Guglielmo, due terre nel distretto di Bolano, in
+            <emph>Busco</emph> e in <emph>Loplo</emph>, per la somma di 20 soldi di imperiali.
+          Guglielmino e Avenante, che prima tenevano tali beni in feudo dalla curia lunense, li
+          ottengono ora in affitto al censo di una libbra d’olio l’anno.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 332r.-332v., cc. CCCXXIIIIr.-CCCXXIIIIv. secondo la numerazione
+            originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>n. 416, p.
+            409</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>L’indizione dovrebbe essere la XIIII e non la XV come già notato da Mazzini 1914, p.
+            28.</note>
+        </div>
+
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCCXVI.
+              Unius libre olei, quod reddit Guilielmus de Castagnetulo.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXVI_div">
+        <p xml:id="CCCCXVI_p_001" n="1">In Dei nomine, amen. <date when="1256-06-04">Anno a
+            nativitate Eius M°CCLVI, indictione XV, IIII iunii</date>. <persName
+            ref="#GuilielminusCastagnetulo">Guilielminus de <placeName ref="#Castagnetulo"
+              >Castagnetulo</placeName></persName> una cum uxore sua <persName ref="#Advenans"
+            >Avenante</persName>, ambo insimul et uterque eorum in solidum, fecerunt finem et
+          refutationem et pactum de non petendo et datum <persName ref="#Paganinusnot">Paganino
+              <roleName>notario de</roleName>
+            <placeName ref="#Santo_Stefano">Sancto Stephano</placeName></persName>,
+            <roleName>castaldioni venerabilis patris domini</roleName>
+          <persName ref="#GuilEpLuni">Guilielmi</persName>, <roleName>Dei Gratia Lunensis
+            episcopi</roleName>, recipienti nomine et vice ipsius domini episcopi et episcopatus, de
+          duabus petiis terrarum, cum omnibus super se positis et pertinenciis suis, positis in
+          districtu <placeName ref="#Bolano">Bolani</placeName>; una quarum est posita in loco dicto
+            <placeName ref="#Busco">Busco</placeName>, cui coheret superius et ab uno latere
+            <persName ref="#PeregrinusBusco">Peregrinus de <placeName ref="#Busco"
+            >Busco</placeName></persName>, inferius <persName ref="#AimericusVivasini">Aimericus
+            quondam Vivasini de <placeName ref="#Castagnetulo">Castagnetulo</placeName></persName>,
+          ab alio latere <persName ref="#Ramundetus">Ramundetus</persName>; alia est posita in loco
+          dicto <placeName ref="#Loplo">Loplo</placeName>, que habet fines superius <persName
+            ref="#PassavansVezano">Passavans de <placeName ref="#Vezzano"
+            >Vezano</placeName></persName>, inferius flumen <placeName ref="#Vara">Vare</placeName>,
+          ab uno latere <persName ref="#BonalbergusCobia">Bonusalbergus de <placeName ref="#Cobia"
+              >Cobia</placeName></persName> cum suis consortibus, ab alio heredes <persName
+            ref="#FerrusBolano">Ferri de <placeName ref="#Bolano">Bolano</placeName></persName>:
+          quam terram a Lunensi curia tenebant in feudum. Quam finem et refutationem promiserunt
+          perpetuo firmam habere et tenere et numquam in aliquo contravenire de iure vel de facto,
+          ipsas terras deffendere vel expedire ab omni contradicente persona, specialiter de suo
+          dato et facto, ad penam <measure type="imperialium" quantity="20" unit="solidus">soldorum
+            XX imperialium</measure>, quam dare et solvere promiserunt dicto <persName
+            ref="#Paganinusnot">Paganino</persName>, recipienti ut dictum est, quociens fuerinta
+          contraventum; confitendo se recepisse ab ipso <persName ref="#Paganinusnot"
+            >Paganino</persName>, dante et solvente nomine predicti domini episcopi et episcopatus,
+          pro melioramento dictarum terrarum <measure type="imperialium" quantity="20"
+            unit="solidus">soldos XX bonorum imperialium</measure>, renunciando exceptioni non
+          numerate pecunie. Ibidem incontinenti predictus <persName ref="#Paganinusnot"
+            >Paganinus</persName>, nomine et vice predicti domini episcopi et episcopatus, dedit et
+          locavit eis dictas terras, ita ut ipsi <persName ref="#GuilielminusCastagnetulo"
+            >Guilielminus</persName> et <persName ref="#Advenans">Advenans</persName>, uxor sua,
+          suique heredes predictam terram habeant, teneant et fruantur cum omnibus super se positis
+          et pertinenciis suis,<pb n="332v" xml:id="fol_332v"/> dando et reddendo exinde annuatim
+          curie Lunensi, in districtu <placeName ref="#Bolano">Bolani</placeName> ubi alii redditus
+          episcopales dantur et consignantur, libram I boni et puri olei nomine ficti, ad currentem
+          libram Lunensis curie de <placeName ref="#Sarzana">Sarzana</placeName>, promittendo dictus
+            <persName ref="#Paganinusnot">Paganinus</persName>, nomine et vice dicti domini episcopi
+          et episcopatus, dictam locationem perpetuo firmam habere et tenere et non contravenire. Et
+          pro predictis omnibus sic attendendis et observandis obligaverunt se et dictus <persName
+            ref="#Paganinusnot">Paganinus</persName> bona episcopatus et predicti iugales se suosque
+          heredes et omnia eorum bona, ad penam <measure type="imperialium" quantity="20"
+            unit="solidus">soldorum XX imperialium</measure>, quam pars non observans parti fidem
+          servanti dare et solvere teneatur et quociens fuerit contraventum; pena soluta, predicta
+          omnia et singula in suo robore perseverent. Et nichillominus teneantur ex ipsis terris in
+          omnibus predicti iugales Lunensi curie respondere sicut ante presentem contractum facere
+          et respondere tenebantur. </p>
+        <p xml:id="CCCCXVI_p_002" n="2">Actum <placeName ref="#Ceparana">Cepparane</placeName>, apud
+          portam putei, presentibus <roleName>domino</roleName>
+          <persName ref="#Iohannesabbas">Iohanne</persName>, <roleName>abbate</roleName> de
+            <placeName ref="#Ceparana">Cepparana</placeName>, <persName ref="#Ugocane"
+            >Ugo</persName>
+          <roleName>canevario ipsius domini abbatis</roleName>, et <persName ref="#Gibertinusscol"
+            >Gibertino</persName>
+          <roleName>scolare</roleName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCCCXVI_p_003" n="3"><ptr target="#CCCCXVI_st_001"/>Ego <persName
+            ref="#Benedictusnot">Benedictus</persName>, <roleName>imperialis aule
+            notarius</roleName>, hiis interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

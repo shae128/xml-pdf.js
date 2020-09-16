@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXXXX_351">
+    <front xml:id="CCCLXXXX_front">
+
+      <titlePart type="numerazioneNuova">351</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXXXX</titlePart>
+
+      <docDate xml:id="CCCLXXXX_docDate">
+        <date when="1195-12-24">1195 dicembre 24</date>,<placeName> Ameglia (<emph>in castro
+            Amelie</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXXXX_regesto">
+        <p>Bonagiunta del fu Ferruccio concede al vescovo Gualtiero mezzo iugero di terra diviso in
+          due pezzi, posto al <term xml:lang="latin">Dremone</term>, in cambio della terra data alla
+          chiesa di Trebiano col consenso dello stesso vescovo. Bonagiunta deve tenere il mezzo
+          iugero come feudo, allo stesso modo in cui teneva la terra data alla chiesa e per questo
+          essere vassallo della curia come lo era prima.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXXXX_footer">
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 320r., c. CCCXIIr. secondo la numerazione originale </p>
+        </div>
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 390,
+            pp. 369-370.</p>
+        </div>
+        <div type="crit_notes">
+          <p/>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXXXX. De quadam terra in Dermone.</term></p>
+        </div>
+      </div>
+
+    </front>
+
+    <body>
+      <div xml:id="CCCLXXXX_div">
+        <p xml:id="CCCLXXXX_p_001">
+          <ptr target="#CCCLXXXX_st_001"/>In Christi nomine. <date when="1195-12-24">Anno M°C
+            nonagesimo V, indictione XIII, die dominico, IX kalendas ianuarii</date>. <persName
+            ref="#BonaiunctaFerrucci">Bonaiuncta quondam Ferrucii</persName> dedit domino <persName
+            ref="#GualEpLuni"> Gualterio,<roleName>Lunensi episcopo</roleName></persName>, per
+          cambium cuiusdam terre quam dedit <orgName ref="#Trebiano_S_Michele" type="ecclesia_plebs"
+            >ecclesie de <placeName ref="#Trebiano">Trebiano</placeName></orgName> consensu eiusdem
+          episcopi, medium iugerum terre positum in duobus locis in lo <placeName ref="#Dremone"
+            >Dremone</placeName>, que dividitur in illis duobus locis cum terra <persName
+            ref="#AlbertusPassarini">Alberti de Passarino de <placeName ref="#Sarzana"
+              >Sarzana</placeName></persName> ita ut idem <persName ref="#BonaiunctaFerrucci"
+            >Bonaiuncta</persName> et sui heredes debeant tenere istud medium iugerum terre pro
+          curia domini Lunensis episcopi nomine feudi, sicut tenebat eam quam, eiusdem episcopi
+          licencia, dedit <persName ref="#BonaiunctaFerrucci">Bonaiuncta</persName>
+          <orgName ref="#Trebiano_S_Michele" type="ecclesia_plebs">ecclesie de <placeName
+              ref="#Trebiano">Trebiano</placeName></orgName>; et de ista sit vassallus curie, ipse
+          et sui erede, sicut erat de illa quam dedit iamscripte ecclesie. </p>
+        <p xml:id="CCCLXXXX_p_002">Actum in <placeName ref="#Ameglia">castro Amelie</placeName>,
+          ante <orgName ref="#Ameglia_S_Vincenzo"> ecclesiam eiusdem castri</orgName> feliciter, sub
+          stipulatione subnixa. Ibi fuerunt vocati testes <persName ref="#Sismunduscan">Sismundus,
+              <roleName>Lunensis custos</roleName></persName>, <persName ref="#GuiterninusTrebiano"
+            >Guiterninus <placeName ref="#Trebiano">Trebiano</placeName></persName> de et <persName
+            ref="#BarletusSarzana">Barletus de <placeName ref="#Sarzana"
+            >Sarzana</placeName></persName>. </p>
+        <p xml:id="CCCLXXXX_p_003">Ego <persName ref="#Confortusnot">Confortus, <roleName>sacri
+              palacii et Lunensis curie notarius</roleName></persName>, interfui et rogatus scripsi
+          et dedi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

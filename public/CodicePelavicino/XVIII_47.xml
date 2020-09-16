@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="XVIII_47">
+		<front xml:id="XVIII_front">
+
+			<titlePart type="numerazioneNuova">47</titlePart>
+			<titlePart type="numerazioneOrig">XVIII</titlePart>
+
+			<docDate xml:id="XVIII_docDate">
+				<date when="0963-05-19">963 maggio 19</date>, <placeName ref="#Montefeltro">
+					Montefeltro (<emph><term xml:lang="latin">in Monte Ferestti, ad Petram Sancti
+							Leonis</term></emph>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="XVIII_regesto">
+				<p>L’imperatore Ottone I conferma al vescovo Adelberto tutti i privilegi concessi
+					dai suoi predecessori alla Chiesa di Luni. </p>
+			</div>
+
+			<div type="footer" xml:id="XVIII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] cc. 65v.-66r., cc. LVIIv.-LVIIIr. secondo la numerazione originale.
+					</p>
+				</div>
+
+				<div type="biblio">
+					<p>Regesti <ref type="biblio" target="#BOHEMER_1831">BÖHMER 1831</ref>, 268;
+							<ref type="biblio" target="#STUMPF_BRENTANO_1865">STUMPF BRENTANO 1865
+						</ref>, 325; <ref type="biblio" target="#SFORZA_1874">SFORZA 1874</ref>p.
+						324, n. 542 </p>
+					<p>Edizioni: <ref type="biblio" target="#UGHELLI_1648">UGHELLI 1648</ref>, I,
+						coll. 897; <ref target="#UGHELLI_1717">UGHELLI 1717</ref>, I, coll. 836-837.
+							<ref type="biblio" target="#SEMERIA_1843">SEMERIA 1843</ref>, pp. 30-31;
+							<ref type="biblio" target="#MGH_DD_KI_HI_OI">MGH KI HI OI</ref>, pp.
+						363-364, doc. 254; <ref type="biblio" target="#SFORZA_1890_1891">SFORZA
+							1890-1891</ref>, pp. 418-419;<ref type="biblio"
+							target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 18, pp. 24-25 </p>
+					<p>Bibliografia: <ref type="biblio" target="#PAVONI_1987">PAVONI 1987</ref></p>
+				</div>
+
+				<div type="crit_notes">
+					<note>
+						<p> Nel margine esterno di c. 65v., di mano moderna:<emph><term
+									xml:lang="latin">Confirmatio imperatoris privilegiorum et iurium
+									Lunensi ecclesie.</term></emph>.Poco più in basso, sempre di
+							mano moderna: <emph><term xml:lang="latin">Massa, Carraria</term></emph>
+						</p>
+						<p> Le integrazioni si sono ispirate all’edizione <ref type="biblio"
+								target="#MGH_DD_KI_HI_OI">MGH KI HI OI</ref>. </p>
+					</note>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">XVIII. Privilegium imperatoris Ottonis.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="XVIII_div">
+				<p xml:id="XVIII_p_001"> In nomine sancte et individue <note xml:id="XVIII_n_001"
+						n="a" place="foot">individue:<emph> nel testo</emph> indue<emph>con</emph>
+						divi <emph>aggiunto in sopralinea da mano posteriore in lettere più
+							minute</emph>.</note> Trinitatis. <persName ref="#Otto_imperator1">Otto
+							<roleName>divina providente clementia imperator
+						augustus</roleName></persName>. <supplied reason="omitted">Si</supplied>
+					sanctis <supplied reason="omitted">ac</supplied> venerabilibus locis collata
+						<supplied reason="omitted">a</supplied> fidelibus <supplied reason="omitted"
+						>nostris</supplied> confirmamus, procul dubio presentis et eterne vite
+					emolumentum adipisci non <supplied reason="omitted"
+					>h</supplied>abemus.Quapropter sancte Dei ecclesie omnium fidelium nostrorumque,
+					presentium ac futurorum, solercia noverit qualiter <persName
+						ref="#AdalbertusEpi">Adelbertus, <roleName>sancte Lunensis ecclesie
+							episcopus</roleName></persName>, nostram aud <note xml:id="XVIII_n_002"
+						n="b" place="foot"> aud:<emph>così nel testo per </emph> adiit</note>
+					celsitudinem, ut pro Dei amore animeque nostre remedio sancte Lunensi ecclesie,
+					cui preest, omnes cortes, plebes, res et familias utriusque sexus <supplied
+						reason="omitted">que</supplied> tam a nostris antecessoribus quam a ceteris
+					fidelibus Deum timentibus per paginam cartarum collata sunt, per nostri precepti
+					paginam comffirmare et corroborare dignaremur. Cuius precibus assensum
+					prebentes, hoc nostrum preceptum fieri iussimus, per quod p<supplied
+						reason="omitted">re</supplied>dicte Lunensi ecclesie omnes cortes, plebes,
+					res et familias utriusque sexus, id est cortem de Lune cum mercatis et
+					pertinentiis suis, cortem de <placeName ref="#Carria">Carria</placeName>, cortem
+					de <placeName ref="#Cliva">Cliva</placeName> cum sua pertinentia, cortem de
+						<placeName ref="#Serviliano">Serviliano</placeName>, cortem de <placeName
+						ref="#Lavaclo">Lavaclo</placeName>, cortem de <placeName ref="#Massa"
+						>Massa</placeName>, cortem <persName ref="#Brunengus">Brunengi</persName>,
+					castrum de <placeName ref="#Ameglia">Amelia</placeName>, <placeName
+						ref="#Iliaulo">Ilaulo</placeName> et <placeName ref="#Sarzanello">castrum de
+						Sarzano</placeName>, cortem de <placeName ref="#Pedegraiano"
+						>Pedegraiano</placeName>, cortem de <placeName ref="#Carrara"
+						>Careria</placeName>
+					<note xml:id="XVIII_n_003" n="c" place="foot"> Careria:<emph>una mano successiva
+							sottolinea</emph> curtem de Careria<emph>con brevi tratti
+							orizzontali</emph>.</note>, cortem de <placeName ref="#Neblone"
+						>Niblone</placeName>, cortem de <placeName ref="#Curvasano"
+						>Curvasano</placeName>, cortes <supplied reason="omitted">et</supplied>
+					districtus de <placeName ref="#Bardano">Bardarano</placeName>, cortes de
+						<placeName ref="#Vechano">Vechano</placeName> cum castro et <placeName
+						ref="#Onitiano">Onitiano</placeName>, cortem de <placeName ref="#Ceparana"
+						>Ceperana</placeName> cum mercato et castro, cortem de <placeName
+						ref="#Cuscugnano">Cuscagnano</placeName>, cortem <note xml:id="XVIII_n_004"
+						n="d" place="foot"> cortem<emph>nel testo</emph>segue, ripetuto ad inizio
+						del rigo successivo, de Baiano</note> de <placeName ref="#Baiano"
+						>Baiano</placeName> et <placeName ref="#Tivegna">Tivenia</placeName>, cortem
+					de <placeName ref="#Bracellis">Bracerio</placeName>, castrum <placeName
+						ref="#Sant_Andrea">Sancti Andree</placeName>, castrum de <placeName
+						ref="#Trebiano">Tribiano</placeName>, <pb n="66r" xml:id="fol_066r"/>cortem
+					de <placeName ref="#Exlato">Exlato</placeName><note xml:id="XVIII_n_005" n="e"
+						place="foot"> exlato:<emph> lettura incerta</emph>.</note> et cortem de
+						<placeName ref="#Porto2">Porto</placeName> cum <orgName type="ecclesia"
+						>ecclesia Sancte Iuliane</orgName>, cortem in <placeName ref="#Piacenza"
+						>Placentia</placeName>, cum omnibus illarum pertinentiis, cum omnibus
+					cortibus, rebus ac familiis ad eam pertinentibus, confirmamus et corroboramus
+						<note xml:id="XVIII_n_006" n="f" place="foot"> corroboramus: c<emph>corretto
+							su</emph>t.</note> , una cum cassis, sediminibus, campis, vineis,
+					pratis, pascuis, silvis, aquis aquarumque decursibus, molendinis, piscationibus,
+					montibus, vallibus, planiciebus, alpibus, servis et ancillis, adosionibus et
+						addi<supplied reason="omitted">ti</supplied>onibus conttisque rebus ac
+					familiis ad predictam ecclesiam Lunensem pertinentibus, ut tam apse <note
+						xml:id="XVIII_n_007" n="g" place="foot"> apse:<emph>: così nel testo
+							per</emph> ipse.</note>
+					<persName ref="#AdalbertusEpi">Adelbertus
+						<roleName>episcopus</roleName></persName> quam successores eius ad ius et
+						<supplied reason="omitted">d</supplied>ominium prefacte ecclesie habeant et
+					teneant firmiterque possideant. Precipientes itaque iubemus ut nullus dux,
+					marchio, comes, vicecomes, sculdascio, gastaldio aut ullus rei publice exactor
+					rei prefacte ecclesie invadere aut potestative ingredi vel mansionaticum facere,
+					teconeum <note xml:id="XVIII_n_008" n="h" place="foot"> teconeum:<emph>: così
+							nel testo per</emph> teloneum.</note> aut ullam publicam <note
+						xml:id="XVIII_n_009" n="i" place="foot"> publicam:<emph>segue espunto</emph>
+						factionem.</note>functionem exigere ex rebus et familiis eiusdem ecclesie
+					presummat. Si quis igitur huius nostri precepti violator extiterit, sciat se
+					compositurum <measure quantity="100" unit="libra">auri C libras
+					cemtum</measure>, medietatem camere nostre et medietatem prefacto Edelberto
+					episcopo suisque successoribus. Quod, ut verius credatur diligentiusque ab
+					omnibus observetur, manu propria roborantes, anuli nostri impressione subter
+					insigniri iussimus. </p>
+				<p xml:id="XVIII_p_002">Signum <roleName>domni <persName ref="#Otto_imperator1"
+							>Ottonis</persName> magni et invi<supplied reason="omitted"
+						>c</supplied>tissimi imp<supplied reason="omitted">er</supplied>atoris
+						augusti</roleName>.<ptr target="XVIII_m_001"/>
+				</p>
+				<p xml:id="XVIII_p_003"><persName ref="#Liugerius_cancellarius">Liugerius
+							<roleName>cancellarius</roleName></persName> ad vicem <persName
+						ref="#Wuido_episcopusMO">Wuidonis <roleName>episcopi et
+							archicancellarii</roleName></persName> recognovi et subscripsi. </p>
+				<p xml:id="XVIII_p_004"><date when="0963-05-19">Datum XIIII kalendas iuni<supplied
+							reason="omitted">i</supplied>, anno dominice incarnationis DCCCCLXIII,
+						indictione VI, inno <note xml:id="XVIII_n_010" n="j" place="foot">
+								inno:<emph>così nel testo per</emph> anno.</note> imperii magni
+						Ottonis imperatoris augusti II</date>. A<supplied reason="omitted"
+						>c</supplied>tum in <placeName ref="#Montefeltro">Monte
+						Ferestti</placeName><note xml:id="XVIII_n_011" n="k" place="foot">
+							Feressti:<emph>così nel testo</emph>.</note>, ad <placeName
+						ref="#Petra_Sancti_Leonis">Petram Sancti Leonis</placeName>. </p>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="CCCCV_366">
+    <front xml:id="CCCCV_front">
+
+      <titlePart type="numerazioneNuova">366</titlePart>
+      <titlePart type="numerazioneOrig">CCCCV</titlePart>
+
+      <docDate xml:id="CCCCV_docDate">
+        <date when="1257-04-10">1257 aprile 10</date>, <placeName>Lucca (<term xml:lang="latin"
+            >Luce, in camera quadam ecclesie Sancti Fridiani Lucensis</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCV_regesto">
+        <p>Il vescovo di Luni Guglielmo concede agli uomini del comune di Santo Stefano di tenere
+          mercato ogni domenica sulla piazza di fronte alla chiesa plebana. Le condizioni stabilite
+          prevedono che il vescovo riceva la curatura del mercato e mantenga la piena giurisdizione
+          in campo civile e criminale; nessuna altra tassa può essere imposta se non dietro sua
+          licenza. Se il mercato annuale di Ceparana capiterà di domenica, il mercato di Santo
+          Stefano dovrà essere sospeso. I sindaci del comune, Alcherotto della fu Credenza ed Enrico
+          di Padivarma, nominati in un atto del notaio Pagano del 1257 marzo 20 che elenca l’intero
+          consiglio del borgo, promettono di osservare quanto stabilito sotto pena di 200 lire di
+          denari lucchesi. Se per caso vi sarà necessità di ampliare la piazza che ospita il
+          mercato, il vescovo si impegna ad acquistare i terreni in cui sorgono eventuali edifici da
+          abbattere, al prezzo stabilito da arbitri.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 325v.-326v., cc. CCCXVIIv.- CCCXVIIIv. secondo la numerazione
+            originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#SFORZA_1890-1891">SFORZA 1890-1891</ref>, p.142 e
+            seguenti e in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 405, pp.
+            385-388.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il titolo della concessione è racchiuso entro una cornice di mano del
+            copista.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCCV.
+              Concessionis fori burgi Sancti Stefani. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCV_div">
+        <p xml:id="CCCCV_p_001" n="1">De <placeName ref="#Santo_Stefano">Sancto
+          Stephano</placeName>, de <placeName ref="#Bolano">Bolano</placeName> et districtu
+            eorumdem<note n="a" place="foot" xml:id="CCCCV_n_001"><term xml:lang="latin"
+              >eorumdem</term>: <emph>il titolo è incorniciato</emph>.</note> In Dei nomine, amen.
+            <date when="1257-04-10">Anno a nativitate eius M°CCLVII, indictione XV, X intrantis
+            aprilis</date>. <roleName>Dominus</roleName>
+          <persName ref="#GuilEpLuni">Guilielmus</persName>, <roleName>Dei gratia Lunensis episcopus
+            et comes</roleName>
+          <orgName ref="#Luni_comitatus">comitatus Lunensis</orgName> et specialiter burgi
+            <placeName ref="#Santo_Stefano"> Sancti Stephani</placeName>, qui est de <orgName
+            ref="#Luni_comitatus">comitatu Lunensi</orgName>, volens utiliter providere ecclesie
+          Lunensi et comitatui et burgo prefato, sue iurisdictioni subiecto, utilitate inspecta
+          episcopatus et comitatus et omnium de episcopatu et comitatu et burgi prefati, voluit,
+          statuit et decrevit quod sua auctoritate fiat et fieri debeat generale forum sive mercatum
+          in burgo prefato, scilicet in platea que est ante plebem, singulis diebus dominicis, vel
+          alibi in territorio dicti burgi, ubi commodius vel utilius videbitur ipsi domino episcopo
+          esse mutandus<note n="b" place="foot" xml:id="CCCCV_n_002">
+            <term xml:lang="latin">mutandus</term>: <emph>così nel testo</emph>.</note> consilio
+          consulum vel rectorum dicti burgi <placeName ref="#Santo_Stefano">Sancti
+            Stephani</placeName>, ita tamen et hoc modo et condictione quod dictus dominus episcopus
+          et sui successores pro episcopatu habeant et habere debeant et possint percipere et
+            habere<note n="c" place="foot" xml:id="CCCCV_n_003"><term xml:lang="latin"
+            >habere</term>: <emph>corretto su precedente scrittura</emph>.</note> curaturam in dicto
+          mercato omnium venalium rerum et iurisdictionem omnium in dicto mercato tam civilium quam
+            criminalium<note n="d" place="foot" xml:id="CCCCV_n_004"><term xml:lang="latin"
+              >criminalium</term>: <emph>corretto su precedente scrittura</emph>.</note> rerum, et
+          dominium per se et omnem aliam personam et locum, que de voluntate et consensu ipsius
+          domini episcopi<note n="e" place="foot" xml:id="CCCCV_n_005"><term xml:lang="latin"
+              >episcopi</term>: <emph>Segue una lettera depennata</emph>.</note>
+          <pb n="326r" xml:id="fol_326r"/> et successorum eius iurisdictionem in dicto loco
+          exerceret. Et quod nullus cambiet in dicta terra vel eius territorio seu finibus vel sit
+          campsor, nisi de licentia ipsius episcopi et eius successorum in die fori; et quod nulla
+          exactio per commune vel privatam qualem<note n="f" place="foot" xml:id="CCCCV_n_006"><term
+              xml:lang="latin">qualem</term>: <emph>segue ripetuto qualem</emph>.</note> qualem
+          personam fiat vel fieri possit, die fori seu mercati, ab aliquo vel aliquibus venientibus
+          vel stantibus seu redeuntibus ad ipsum mercatum seu forum vel ab ipso mercato seu foro,
+          nisi de speciali licencia episcopi prefati vel successorum ipsius. Et quod si forum seu
+          nundine, que fiunt semel annuatim in burgo de <placeName ref="#Ceparana"
+            >Cepparana</placeName>, venerint in die dominico, illa die non fiat nec fieri debeat aut
+          fieri possit generale forum in burgo <placeName ref="#Santo_Stefano">Sancti
+            Stephani</placeName>. Et quod <orgName ref="#S_Stefano_Magra_comune"
+              >commune et homines prefati burgi</orgName> et singuli de ipso burgo
+          teneantur facere et curare ita quod, ad mandatum et requisitionem ipsius episcopi et
+          suorum successorum, suprascripta omnia observentur. Et sic et ex suprascripta causa
+            <persName ref="#AlcherotusCredencie">Alcherotus quondam Credencie</persName> et
+            <persName ref="#HenricusPadulvarmo">Henricus de <placeName ref="#Padulvarmo"
+              >Padulvarmo</placeName></persName>, <roleName>syndici et procuratores dicti
+            burgi</roleName>, pro ipso burgo et universitate<note n="g" place="foot"
+            xml:id="CCCCV_n_007"><term xml:lang="latin">universitate</term>: <emph>uni corretto su
+              precedente scrittura</emph>.</note> et pro omnibus et singulis dicti burgi et pro se
+          ipsis ad hec facienda legitime ordinati, ut continetur publice scriptum manu <persName
+            ref="#Paganusnot">Pagani</persName>
+          <roleName>notarii</roleName>, cuius tenor talis est: «In Christi nomine <date
+            when="1257-03-20">M°CCLVII, indictione XV, die XIII kalendas mensis aprilis<note>Nomina
+              di Alcherotto della fu Credenza ed Enrico di Padivarma a sindaci del comune di Santo
+              Stefano.</note></date>. <persName ref="#GuilielminusAlamanni">Guilielminus quondam
+            Alamanni</persName>, <roleName>consul burgi</roleName>
+          <placeName ref="#Santo_Stefano">Sancti Stephani</placeName> et <roleName>rector
+            universitatis</roleName> ipsius burgi <placeName ref="#Santo_Stefano">Sancti
+            Stephani</placeName>, quod est in comitatu et de<orgName ref="#Luni_comitatus">comitatu
+            Lunensi</orgName>, cum consilio et consensui<note n="h" place="foot"
+            xml:id="CCCCV_n_008"><term xml:lang="latin">consensui</term>: <emph>così nel testo per
+              consensu</emph>.</note> sui et dicti communis et universitatis, consilii et
+          consiliatorum, quorum nomina sunt hec: <persName ref="#UgolinusMercadantis">Ugolinus
+            quondam Mercadantis</persName>, <persName ref="#BalzanusBenedicti">Balçanus quondam
+            Benedicti</persName>, <persName ref="#AndrionusFalcinelli">Andrionus quondam
+            Falcinelli</persName>, <persName ref="#UgolinusBeaca">Ugolinus Beaca</persName>,
+            <persName ref="#Henricus">Henricus</persName>, <persName ref="#IacobusGuidoleti">Iacobus
+            Guidoleti</persName>, et cum consilio et consensu omnium hominum et singulorum dicti
+          communis et universitatis, quorum nomina sunt hec, scilicet <persName ref="#Tonsus">
+            Tonsus</persName>, <persName ref="#BonaventuraPiçolus">Bonaventura Piçolus</persName>,
+            <persName ref="#Viterbet">Viterbet</persName>, <persName ref="#Gerardus"
+            >Gerardus</persName>, <persName ref="#Calesanus">Calesanus</persName>, <persName
+            ref="#Gottus"> Gottus</persName>, <persName ref="#Albergucius">Alberguçus</persName>,
+            <persName ref="#RubaldinusArcula"> Rubaldinus de <placeName ref="#Arcola"
+              >Arcula</placeName></persName>, <persName ref="#Guido">Guido</persName>, <persName
+            ref="#Vivianus">Vivianus</persName>, <persName ref="#Manfredinus"
+          >Manfredinus</persName>, <persName ref="#Vivaldetus"> Vivaldetus</persName>, <persName
+            ref="#HenricusGuilielmi">Henricus Guilielmi</persName>, <persName ref="#Marinus"
+            >Marinus</persName>, <persName ref="#Bonensegna">Bonnesingna</persName>, <persName
+            ref="#Ranocinus">Ranocinus</persName>, <persName ref="#PaganinusFolo"> Paganinus de
+              <placeName ref="#Folo">Folo</placeName></persName>, <persName ref="#Riçardus"
+            >Riçardus</persName>, <persName ref="#Bendecasa">Bendecasa</persName>, <persName
+            ref="#Bonafides">Bonafides</persName>, <persName ref="#Frexonus">Frexonus</persName>,
+            <persName ref="#Fatobonus">Fatobonus</persName>, <persName ref="#Philippus"
+            >Philippus</persName>, <persName ref="#Parentinus">Parentinus</persName>, <persName
+            ref="#Saladinus">Saladinus</persName>, <persName ref="#Bernardinus"
+            >Bernardinus</persName>, <persName ref="#Grossonus">Grossonus</persName>, <persName
+            ref="#Calandrinus">Calendrinus</persName>, <persName ref="#Albertinus"
+            >Albertinus</persName>, <persName ref="#IohannesBonus">Iohannes Bonus</persName>,
+            <persName ref="#Bonafesta">Bonafesta</persName>, <persName ref="#Benvenutus"
+            >Benvenutus</persName>, <persName ref="#Ruvelonus">Ruvelonus</persName>, <persName
+            ref="#FestaRainaldini">Festa Rainaldini</persName>, <persName
+            ref="#UgolinusQuintavallis">Ugolinus Quintavallis</persName>, <persName
+            ref="#Pelavicinus">Pelavicinus</persName>, <persName ref="#Gibertinus"
+            >Gibertinus</persName>, <persName ref="#Ogerinus">Ogerinus</persName>, <persName
+            ref="#Attolinus">Attolinus</persName>, <persName ref="#Bonaminus">Bonaminus</persName>,
+            <persName ref="#Fancellus">Fancellus</persName>, <persName ref="#BenvenutusBonandoni"
+            >Benvenutus Bonandoni</persName>, <persName ref="#Albertinus">Albertinus</persName>,
+            <persName ref="#Palmerius">Palmerius</persName>, <persName ref="#Thomaxus"
+            >Thomaxus</persName>, <persName ref="#Gualterus">Gualterus</persName>, <persName
+            ref="#Tarentinus">Tarentinus</persName>, <persName ref="#Baldoinus"
+          >Baldoinus</persName>, <persName ref="#Deteguarde">Deteguarde</persName>, <persName
+            ref="#Rubaldinus">Rubaldinus</persName>, <persName ref="#Ricobonus"
+          >Ricobonus</persName>, <persName ref="#Parentinus">Parentinus</persName>, <persName
+            ref="#Laçaretus">Laçaretus</persName>, <persName ref="#Cuçetus">Cuçetus</persName>,
+            <persName ref="#Martignonus">Martignonus</persName>, <persName ref="#Percevalle"
+            >Percevalle</persName>, <persName ref="#Cacciaguerra">Caçaguerra</persName>, <persName
+            ref="#Guidarellus">Guidarellus</persName>, <persName ref="#Ugolinus"
+          >Ugolinus</persName>, <persName ref="#Bonvisinus">Bonvisinus</persName>, <persName
+            ref="#Bentevegna">Bentevegna</persName>, <persName ref="#Tedaldetus"
+            >Tedaldetus</persName>, <persName ref="#Iuncta">Iuncta</persName>, <persName
+            ref="#Alcarinus">Alcarinus</persName>, <persName ref="#Rodulfinus"
+          >Rodolfinus</persName>, <persName ref="#Dominicus">Dominicus</persName>, <persName
+            ref="#Bonapars">Bonapars</persName>, <persName ref="#Olivectus">Olivectus</persName>,
+            <persName ref="#Medicus">Medicus</persName>, <persName ref="#IunctaPaoço">Iuncta de
+              <placeName ref="#Paoço">Paoço</placeName></persName>, <persName ref="#Magistrellus"
+            >Magistrellus</persName>, cum plures alii non comparuissent, congregatis ad infrascripta
+          facienda dicto consule et rectore et consilio et universitate et omnibus et singulis dicti
+          communis ad sonum campane et voce preconia ad consilium et parlamentum in
+            <orgName>ecclesia Sancti Stephani</orgName>, more solito, et ipsi consiliarii et
+          universitas et omnes et singuli cum dicto consule et rectore, pro se ipsis et quolibet
+          eorum et cuiusque eorum, proprio et privato nomine et pro dicto communi et universitate,
+          et tam pro se ipsis et quolibet eorum quam pro dicto communi et universitate, hoc publico
+          instrumento fecerunt, constituerunt et creaverunt eorum et cuiusque eorum et dicti
+          communis et universitatis syndicos, actores et procuratores et certos et speciales nuncios
+          et legitimos responsales <persName ref="#AlcherotusCredencie">Alcherotum quondam Credencie
+          </persName>et <persName ref="#HenricusPadulvarmo">Henricum de <placeName ref="#Padulvarmo"
+              >Padulvarmo</placeName></persName>, qui ambo sunt de dicto burgo, et quemlibet eorum
+          in solidum, ita quod occupantis et incipientis non sit pot<supplied reason="omitted"
+            >i</supplied>or condictio et quod unus inceperit alter prosequi possit, presentes et
+          suscipientes, ad supplicandum venerabili patri domino <persName ref="#GuilEpLuni">
+            Guilielmo, <roleName> Dei gratia Lunensi episcopo et comiti comitatus Lunensis
+            </roleName></persName>et specialiter burgi prefati <placeName ref="#Santo_Stefano"
+            >Sancti Stephani</placeName>, qui est in dicto et de dicto<note n="i" place="foot"
+            xml:id="CCCCV_n_009">
+            <term xml:lang="latin">dicto</term>: <emph>o corretta su precedente
+            scrittura</emph>.</note> comitatu, ut placeat ei et dignetur facere et fieri facere, sua
+          auctoritate, generale forum sive mercatum in burgo prefato vel in territorio dicti burgi,
+          prout et sicut et quando ipsi venerabili patri placuerit, cum condictionibus et modis
+          quibus idem pater venerabilis duxerit statuendum, et ad faciendum propterea et ex
+          suprascripta causa ipsi episcopo et cum ipso episcopo et comite, pro se <pb n="326v"
+            xml:id="fol_326v"/> et episcopatu et suis successoribus, omnem contractum et
+          obligationem et promissionem prout dictus dominus episcopus voluerit et ei placuerit, et
+          ad recipiendum ab ipso episcopo omnem gratiam et promissionem et concessionem quam ipse
+          facere voluerit et generaliter ad omnia facienda que ipsi iidem et quisque eorum et dictum
+          commune et universitas, si presentes essent, facere possent et que verus et legitimus
+          procurator et certus nuncius facere potest et posset, dantes eis et cuique eorum liberum
+          et generale mandatum et promittentes sub fide mandati, omni tempore, firmum et ratum
+          habere quicquid per predictos <persName ref="#AlcherotusCredencie">Alcherotum
+          </persName>et <persName ref="#HenricusPadulvarmo">Henricum </persName>vel aliquem eorum
+          factum et procuratum et promissum fuerit. Actum in <orgName>ecclesia</orgName> burgi
+            <placeName ref="#Santo_Stefano">Sancti Stephani</placeName>, presentibus <persName
+            ref="#Guilielminuscan"> Guilielmino, <roleName>canevario
+            archipresbyteri</roleName></persName>, <persName ref="#Rainaldinus">
+            Rainaldino</persName> et <persName ref="#Ugolinussar">Ugolino
+              <roleName>sartore</roleName></persName>, testibus ad hec rogatis. Ego <persName
+            ref="#Paganusnot">Paganinus</persName>, <roleName>notarius sacri palacii</roleName>,
+          hiis interfui et rogatus scripsi». Syndicatorio et procuratorio nomine pro dicto communi
+          et universitate et omnibus et singulis dicti communis et pro quolibet eorum, sollempni
+          interposita stipulatione, promiserunt et convenerunt iamdicto episcopo et comiti, pro se
+          et suis successoribus recipienti vice et nomine episcopatus et comitatus, facere et
+          observare in omnibus et per omnia ut supra continetur, et ipsi episcopo et comiti et suis
+          successoribus, ad eius et eorum requisitionem et mandatum, ad omnia predicta exequenda et
+          facienda parere et subesse et prestare auxilium et favorem, et pro sic observando et
+          faciendo, syndicatorio et procuratorio nomine pro dicto communi et universitate et
+          singulis dicti communis et quolibet eorum, obligaverunt se et dictum commune et
+          universitatem et omnes et singulos dicti communis et universitatis et eorum et cuiusque
+          eorum et dicti communis heredes et bona, presentia et futura, iure pignoris et ypothece,
+          ad penam <measure type="Lucenses" quantity="200" unit="libra">CC librarum denariorum
+            Lucensium</measure>, promissa pena per stipulationem, et que committatur et exigi possit
+          quociens contraventum vel factum fuerit et ita observatum non<note n="l" place="foot"
+            xml:id="CCCCV_n_010"><term xml:lang="latin">non</term>: <emph>aggiunto in sopralinea,
+              con segno di richiamo</emph>.</note> fuerit, ut supra continetur, ratis manentibus
+          suprascriptis, sub eadem pene obligatione et ad penam domini pape et cuiusque dominii sub
+          quo pro tempore fuerint inventi et ab eis petetur, promittendo ibi solvere et satisfacere
+          ubi inventi fuerint et petetur, renunciando privilegio fori et cuique iuri quo se a
+          suprascriptis et de suprascriptis vel aliquo suprascriptorum tueri possent. Que omnia
+          facta sunt et ordinata, salvis in omnibus dominio et iurisdictione ipsius episcopi et
+          comitis et suorum successorum et episcopatus in ipso burgo et de ipso burgo, cum dominus
+          sit et iurisdictionem habeat, ut predicti syndici et procuratores cum ipso episcopo in
+          concordia et confessione fuerint. Actum et pactum est inter prefatum episcopum et dictos
+          syndicos et procuratores predicti burgi, pro dicto burgo et universitate et quolibet de
+          ipsa universitate, quod, si contigerit et oportunum fuerit ampliari plateam prefatam pro
+          foro faciendo et propterea aliqua domus de cuius terreno platea fieret una vel plures,
+          quod prefatus episcopus et sui successores teneantur et debeant emere terrenum talis domus
+          et talium domorum sic destructarum vel destruendarum ab eis quorum esset, dando precium et
+          pro precio statuendo arbitrio boni viri, et sic emere et precium solvere dictis syndicis
+          et procuratoribus, recipientibus eo modo ut promiserunt, cum intersit eorum et dicti
+          communis et universitatis et omnium et singulorum dicti communis, promisit et convenit
+          vice et nomine dicti epscopatus et comitatus, sub penis et obligationibus suprascriptis,
+          promissa pena per stipulationem. Item prefatus episcopus et comes de speciali gratia et
+          benivolencia et largitate ipsius episcopi concessit et dedit in feudum prefatis syndicis,
+          recipientibus vice et nomine prefati communis et universitatis <placeName
+            ref="#Santo_Stefano">Sancti Stephani</placeName>, et ipsi communi et universitati
+          medietatem curature que percipietur in dicto foro et pro dicto foro in mense et de mense
+          madii singulis annis; et sic prefati syndici pro dicto communi et universitate in feudum
+          receperunt predictam medietatem, et de fidelitate teneantur sicut de aliis feudis que
+          tenent ab episcopatu et <orgName ref="#Luni_comitatus">comitatu Lunensi</orgName>.</p>
+
+
+        <p xml:id="CCCCV_p_002" n="2"> Actum <placeName ref="#Lucca">Luce</placeName>, in camera
+          quadam <orgName>ecclesie Sancti Fridiani Lucani</orgName>, testibus
+            <roleName>magistro</roleName>
+          <persName ref="#Gerardusarc">Gerardo <roleName>archipresbytero</roleName> de <placeName
+              ref="#Marnasco">Marnasco</placeName></persName>, <persName ref="#Vivasinuscan">Vivasio
+              <roleName>canonico Lunensi</roleName></persName>, <persName ref="#Iacopinusarc"
+            >Iacobino <roleName>archipresbytero</roleName> de <placeName ref="#Ameglia"
+              >Amelia</placeName></persName>, <persName ref="#Peregrinusnot">Pelegrino filio meo
+            infrascripti <roleName>notarii</roleName>
+          </persName>et <persName ref="#Iannebonusser">Iannebono, <roleName>servitore dicti domini
+              episcopi</roleName></persName>, presentibus et rogatis.</p>
+
+        <p xml:id="CCCCV_p_003" n="3">
+          <ptr target="#CCCCV_st_001"/> Ego <persName ref="#Bonalbergusnot">Bonalbergus,
+              <roleName>domini Frederici invictissimi Romanorum imperatoris
+            notarius</roleName></persName>, hiis interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

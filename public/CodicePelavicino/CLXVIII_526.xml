@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="CLXVIII_526">
+        <front xml:id="CLXVIII_front">
+
+            <titlePart type="numerazioneNuova">526</titlePart>
+            <titlePart type="numerazioneOrig">CLXVIII</titlePart>
+
+            <docDate xml:id="CLXVIII_docDate">
+                <date when="1247-04-07">1247 aprile 7</date>, <placeName><placeName
+                        ref="#Borgonuovo"> Borgonuovo </placeName> (<term xml:lang="latin">in strata
+                        publica iuxta flumen Civiie, apud Burgumnovum</term>)</placeName>
+            </docDate>
+
+
+
+            <div type="regesto" xml:id="CLXVIII_regesto">
+                <p> Attocanino del fu Parente di Terrarossa, col consenso dei fratelli Zapirone,
+                    Domalfollo e Gigliolo, concede secondo l’uso e il diritto feudale, a Gerardino
+                    del fu Attocanino di Bibola, che riceve anche a nome dei fratelli Attolino,
+                    Bomasino, Opizzino e Pietro, sette quarti di frumento <emph><term
+                            xml:lang="latin">pro indiviso</term></emph> di 12 staia complessivi.
+                    Tale fitto era versato dai figli del fu Feretto di Ponzanello, da Prodomino e
+                    Gerardo Zicoli e da altri uomini di Ponzanello relativamente alle tenute di
+                            <emph><term xml:lang="latin">Factorese</term></emph> e <emph><term
+                            xml:lang="latin">Seratreçarie</term></emph> poste nel suo distretto. Il
+                    prezzo della cessione ammonta a quattro lire di imperiali. Acconsente
+                    Donamonica, moglie di Attocanino, rinunciando al suo diritto di ipoteca. </p>
+            </div>
+
+            <div type="footer" xml:id="CLXVIII_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] cc. 413v.-414r., cc. CCCCVv.-CCCCVIr. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p> Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                            1912</ref>, Addenda, n. 23, pp. 675-676. </p>
+                </div>
+
+                <div type="crit_notes">
+                    <p>
+                        <emph>Parte del documento è stata letta con l’ausilio della luce di
+                            Wood.</emph>
+                    </p>
+                </div>
+
+
+                <div type="appr">
+                    <p/>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="CLXVIII_div">
+                <p xml:id="CLXVIII_p_001" n="1">In nomine Domini, amen. <date when="1247-04-07"
+                        >M°CC°XLVII°, indictione V, die dominico, VII mensis aprilis</date>.
+                        <persName ref="#AttocaninusParentis">Attocaninus quondam <persName
+                            ref="#ParensTerrarossa">Parentis de <placeName ref="#Terrarossola">Terra
+                                Rosola</placeName></persName></persName>, de voluntate et consensu
+                        <persName ref="#ÇapironusParentis">Çapironi</persName> atque <persName
+                        ref="#DomafolleTerrarossola">Domalfolli</persName> atque <persName
+                        ref="#GiliolusParentis">Gilioli</persName>, ibi presentium, consentientium
+                    et volentium, dedit et concessit seu locavit, secundum usum et ius feudi
+                    honorifici, <persName ref="#GerardinusAttocanini">Gerardino quondam domini
+                            <persName ref="AttocanisBibola">Attocani<supplied reason="omitted"
+                                >ni</supplied> de <placeName ref="#Bibola"
+                            >Bibola</placeName></persName></persName>, recipienti pro se et
+                    fratribus suis, scilicet pro <persName ref="#AttolinusAttocanini"
+                        >Attolino</persName> et <persName ref="#BomasinusAttocanini"
+                        >Bomasino</persName>, <persName ref="#OpecinusAttocanini">Opecino</persName>
+                    et <persName ref="#PetrusAttocanini">Petro</persName>, septem quartos tritici
+                    pro indiviso ficti de illis XII sextariis tritici que annuatim <persName
+                        ref="#AttocaninusParentis">Attocaninus</persName> predictus et fratres sui
+                    suprascripti consueverant recipere atque recipere debebant, ad sextarium commune
+                    de <placeName ref="#Aulla">Avula</placeName>, pulcrum et siccum et bene
+                    mensuratum a filiis quondam <persName ref="#FerretusPonz">Ferecti</persName> de
+                        <placeName ref="#Ponzanello">Ponzanello</placeName> et a <persName
+                        ref="#Prodominus">Prodomino</persName> et a <persName ref="#GerardusCicoli"
+                        >Gerardo Çicoli</persName> eiusdem loci atque a quibusdam aliis hominibus de
+                    Ponzanello de duabus tenutis positis in pertinenciis eiusdem, una quarum vocatur
+                        <placeName ref="#Factorose">Factorese</placeName> et alia <placeName
+                        ref="#Seratreçari">Seratreçarii</placeName>, ita quidem ut suprascriptus
+                        <persName ref="#GerardinusAttocanini">Gerardinus</persName> amodo perpetuo
+                    suique fratres suprascripti sui et eorum heredibus, masculis et feminis<note
+                        place="foot" n="a" xml:id="CLXVIII_n_001"> heredibus, masculis et
+                            feminis<emph>: così nel testo.</emph></note>, ex eis legitime
+                    descendentes, secundum usum et ius feudi, VII quarta tritici ficti, cum ea parte
+                    ipsarum tenutarum pro indiviso ipsis VII quartis frumenti contingente omnique
+                    actione et regressione, superioribus atque inferioribus et pertinentiis dicti
+                    ficti locati seu concessi atque personis debentibus et ea parte ipsi ficto
+                    contingente, ut supra dictum est, pro indiviso ipsarum tenutarum, habeant,
+                    teneant atque possideant et exinde quicquid voluerint in perpetuum, sine
+                    alicuius aliqua contradictione, secundum usum et ius consimilis feudi. Et fuit
+                    confessus dictus <persName ref="#AttocaninusParentis">Attocaninus</persName> se
+                    ab eis recepisse servicium huius feudi <measure type="Imperiales" quantity="4"
+                        unit="solidus">IIIIor libras imperialium</measure>, renunciando exceptioni
+                    non numerate pecunie. Et promisit dictus <persName ref="#AttocaninusParentis"
+                        >Attocaninus</persName> per se suosque heredes dicto <persName
+                        ref="#GerardinusAttocanini">Gerardino</persName>, recipienti pro se et pro
+                    suprascriptis fratribus suis, ut dictum est, suprascripta VII quarta frumenti
+                    ficti ab omni persona de mundo cum iure deffendere et expedire atque eam partem
+                    ipsarum tenutarum pro indiviso ipsius ficti contingentem et personas ipsum
+                    fictum debentes in toto et parte cum advocato et expensis suis aut salvum
+                    cambium eis dare in consimili loco, sub iusta bonorum hominum extimatione,
+                    secundum quod res valeret aut pro tempore meliorata foret, et restaurare eis,
+                    sub pena dupli, totum dampnum et omnes expensas, dampna, interesse atque etiam
+                    singulare, quoquomodo vel iure seu facto inde habitas seu factas, sub pena
+                        <measure type="Imperiales" quantity="100" unit="solidus">soldorum C bonorum
+                        imperialium </measure> quociens committatur et exigi possit quociens fuerit
+                    contraventum in solidum et pro quolibet capitulo non observato; qua pena, soluta
+                    et non soluta, suprascripta omnia atque singula nichillominus permaneant
+                    incorrupta, obligando se ad hec suosque heredes atque omnia eorum bona presentia
+                    et futura, renunciando omni iuri et condicioni sine causa <pb n="414r"
+                        xml:id="fol_414r"/> vel ex iusta causa et omnibus aliis iuribus,
+                    exceptionibus et deffensionibus pro se suisque heredibus contra hec introductis.
+                    Insuper, nomine recti et honorifici feudi, dedit et tradidit eis omnia iura
+                    omnesque actiones et rationes utiles et directas, reales et personales, mixtas,
+                    et omnes alias in predicto atque pro predicto frumento sibi quoquomodo vel iure
+                    competencia et competentes. Insuper dictus <persName ref="#GerardinusAttocanini"
+                        >Gerardinus</persName> per se et fratres suos predictos et eorum heredes,
+                    masculis et feminis<note place="foot" n="b" xml:id="CLXVIII_n_002"> masculis et
+                            feminis<emph>: così nel testo.</emph></note>, ex eis legitime
+                    descendentes, se fecit et constituit in perpetuum fidelem et vassallum de
+                    suprascriptis omnibus et singulis suprascripti <persName
+                        ref="#AttocaninusParentis">Attocanini</persName> eiusque heredum contra
+                    omnes homines et personas, exceptis suis anterioribus dominis; cui <persName
+                        ref="#GerardinusAttocanini">Gerardino</persName>, recipienti pro se et suis
+                    dictis fratribus, ut dictum est, iuramentum fidelitatis remissum <supplied
+                        reason="omitted">est</supplied> atque quod ad ipsum iuramentum noscitur
+                    aliquatenus pertinere. Ibi presens <persName ref="#Donamonica_uxorActocanini"
+                        >Donamonica, uxor predicti <persName ref="#AttocaninusParentis"
+                            >Actocanini</persName></persName>, omnibus hiis et singulis consensit et
+                    suam parabolam dedit, renunciando omni suo iuri ypotecharum. Et promisit contra
+                    predicta vel aliquod predictorum per se vel per aliquam submissam personam vel
+                    submittendam nullo tempore facere vel venire, sub pena superius memorata
+                    solvenda, ut supra dictum est, obligando se et omnia sua bona. </p>
+                <p xml:id="CLXVIII_p_002" n="2">Actum in strata publica iuxta flumen <placeName
+                        ref="#Civiie">Civiie</placeName>, apud <placeName ref="#Borgonuovo"
+                        >Burgumnovum</placeName>, coram <persName ref="#ArditusBurgonovo">Ardito de
+                            <placeName ref="#Borgonuovo">Burgonovo</placeName></persName> et
+                        <persName ref="#BonavereFurnolo">Bonavere de <placeName ref="#Fornolo2"
+                            >Furnolo</placeName></persName> atque <persName ref="#BonaçutaFurnolo"
+                        >Bonaçuta</persName> et <persName ref="#PaganinusFurnolo">Paganino de
+                            <placeName ref="#Fornolo2">Furnolo</placeName></persName>, testibus ad
+                    hec rogatis. </p>
+                <p xml:id="CLXVIII_p_003" n="3"><ptr target="#CLXVIII_st_001"/>Ego <persName
+                        ref="#ValerianusOlivola_notarius">Valerianus de <placeName ref="#Olivola"
+                            >Olivola</placeName></persName>, <roleName>domini Frederici imperatoris
+                        notarius</roleName>, interfui atque hanc cartam rogatus scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

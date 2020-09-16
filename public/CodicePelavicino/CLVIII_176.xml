@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CLVIII_176">
+    <front xml:id="CLVIII_front">
+
+      <titlePart type="numerazioneNuova">176</titlePart>
+      <titlePart type="numerazioneOrig">CLVIII</titlePart>
+
+      <docDate xml:id="CLVIII_docDate">
+        <date when="1253-08-22">1253 agosto 22</date>, <placeName>Borgonuovo (<term xml:lang="latin"
+            >in districtu Burginovi, in loco dicto Xerbio, in ara quondam heredum domini Domalfolli
+            de Terrarossola</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CLVIII_regesto">
+        <p>Vendita da parte di ignoto e della moglie Villana della quarta parte <term
+            xml:lang="latin">pro indiviso</term> di un fitto annuale di undici staia e mezzo di
+          frumento a Sarda, vedova di Domalfolle <term xml:lang="latin">de Terrarossola</term> e a
+          Corrado di Zapiro <term xml:lang="latin">de Terrarossola</term>, tutore degli eredi di
+          Domalfolle. Sarda e Corrado agiscono a nome di Ottoflore, figlio di Domalfolle. Tale fitto
+          deriva da diversi terreni posti a Ponzanello.</p>
+      </div>
+
+      <div type="footer" xml:id="CLVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [CP] cc. 248r. e v., cc. CCXLr. e v. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. 158, pp. 194-195.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>In calce alla c. 248v., di mano moderna: <term xml:lang="latin">Hic defitiunt
+              quatuor quinterni, qui perpere ablati fuerunt</term>. Un’altra mano ha aggiunto: <term
+              xml:lang="latin">in quibus continebantur instrumenta n° 58, ut colligitur ex rubrica
+              precedente 158 et seguente 217, utcumque cartarum sive foliorum series continuato
+              numero currat. Vide retro carta 201 a t(ergo) in margine. Vide etiam ante carta 401
+              postposita quedam instrum<supplied reason="omitted">enta</supplied></term>. Al centro,
+            in fondo alla carta a indicare la fine del fascicolo: XVI. Un’altra mano ha aggiunto le
+            parole iniziali della carta 249r.: <term xml:lang="latin">non inquietare</term>. Parte
+            del documento è stata letta con l’ausilio della lampada di Wood.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CLVIII_div">
+        <p xml:id="CLVIII_p_001" n="1">In nomine Domini, amen. <date when="1253-08-22">Anno a
+            nativitate Eiusdem M°CC°LIII°, indictione XIa, die vigesimo II° mensis augusti</date>.
+          Actum in districtu <placeName ref="#Borgonuovo">Burginovi</placeName>, in loco dicto
+            <placeName ref="#Xerbio">X(er)bio</placeName>, in ara quondam heredum domini <persName
+            ref="#DomafollusTerrarossola">Domalfolli de <placeName ref="#Terrarossola"
+              >Terrarossola</placeName></persName>, coram <persName ref="#AttocaninusParentis"
+            >Actocannino quondam domini Parentis de <placeName ref="#Terrarossola"
+              >Terrarossola</placeName></persName>, <persName ref="#GordiannusGerardeti">Gordianno
+            quondam Gerardeti</persName> dicti loci et <persName ref="#GiliolusParentis">Giliolo
+            quondam domini Parentis de <placeName ref="#Terrarossola"
+            >Terrarossola</placeName></persName>. Confessus fuit<note place="foot" n="a"
+            xml:id="CLVIII_n_001">Confessus fuit<emph>: manca
+              l’indicazione del venditore</emph>.</note> emptionis titulo recepisse a domina
+            <persName ref="#Sarda">Sarda, relicta quondam suprascripti domini Domalfolli</persName>,
+          et a <persName ref="#ConradusÇapironi">Conrado domini Çapironi de <placeName
+              ref="#Terrarossola">Terrarossola</placeName></persName>, tutore heredum quondam
+          suprascripti domini <persName ref="#DomafollusTerrarossola">Domalfolli</persName>,
+          agentibus et recipientibus nomine et vice <persName ref="#OctoflosDomalfolli">Octofloris,
+            filii et heredis quondam suprascripti domini Domalfolli</persName>, renunciando
+          exceptioni non habiti, non recepti et non soluti precii, vendidit eis, recipientibus
+          nomine atque vice dicti <persName ref="#OctoflosDomalfolli">Octofloris</persName> eiusque
+          heredum seu cui dederit vel commiserit, et ad proprium tradidit quartam partem pro
+          indiviso XI stariorum et dimidii frumenti affictualiter annuatim perpetuo, ad <pb n="248v"
+            xml:id="fol_248v"/> starium de <placeName ref="#Aulla">Avula</placeName>, scilicet III
+          staria minus una scutella de VIIIor<note place="foot" n="b" xml:id="CLVIII_n_002">VIIIor:
+              <emph>così nel testo</emph>.</note> bo(nis) star(iis); quod frumentum, scilicet
+          quartam partem dictorum XI stariorum et dimidii, dixit esse sui iuris, cum omnibus locis,
+          tenutis, terris et possessionibus atque iuribus unde et ex quibus dictum fictum redditur
+          et reddi tenetur; et quod frumentum sive fictum ei redduntur annuatim et reddere tenentur
+          nomine ficti, perpetuo, per mensem augusti, <persName ref="#GuidoAlberti">Guido
+            Alberti</persName>, <persName ref="#Prodominus">Prodominus</persName>, heredes quondam
+            <persName ref="#GerardusCicoli">Gerardi Çicoli</persName>, <persName
+            ref="#BonommusAntognolo">Bonnomo de <placeName ref="#Antognolo"
+            >Antognolo</placeName></persName>, <persName ref="#Venturellus">Venturellus</persName>,
+            <persName ref="#BonaiutusMaiesta">Bonaiutus Maiesta</persName>, <persName
+            ref="#Bellucius">Bellucius</persName>, <persName ref="#GuidoPorta">Guido de <placeName
+              ref="Porta">Porta</placeName></persName>, <persName ref="#VivaldusFerreti">Vivaldus
+            Ferreti</persName>, <persName ref="#PeregrinusCotto">Peregrinus de Cotto</persName>,
+            <persName ref="#AidansSerra">Aidans de <placeName ref="#Serra2"
+            >Serra</placeName></persName>, <persName ref="#CompagnonusMagistri">Compagnonus
+            Magistri</persName>, <persName ref="#Bernardus">Bernardus</persName>, <persName
+            ref="#Bonfiletus">Bonfiletus</persName>, heredes quondam <persName ref="#Grimaldus"
+            >Grimaldi</persName>, <persName ref="#Iacopinusfer">Iacopinus
+              <roleName>ferrarius</roleName></persName> et quidam alii eorum consortes, qui omnes
+          predicti sunt de <placeName ref="#Ponzanello">Ponzanello</placeName>, de quibusdam
+          tenutis, sitis in districtu <placeName ref="#Ponzanello">Ponzanelli</placeName>, in tenuta
+            <placeName ref="#Fatorensis">Fatorensi</placeName> et <supplied reason="omitted"
+            >in</supplied> tenuta <placeName ref="#Bibola">Bibolensi</placeName>, ita ut amodo et
+          deinceps perpetuo suprascriptus emptor eiusque heredes seu cui dederint vel commiserint
+          dictam venditam, una cum accessu et egressu et omni iure ipsi vendite in integrum
+          pertinenti, habeant, teneant, fruantur et possideant et exinde iure proprio quicquid
+          voluerint faciant, sine suprascripti venditoris eiusque heredum contradictione. Et fecit
+          eis dationem de omni iure, ratione et actione sibi competentibus et competituris in
+          predicta vendita pro predicta et eius occasione, et eundem <persName
+            ref="#OctoflosDomalfolli">Octoflorem</persName> inde constituit procuratorem et dominum
+          ut in rem suam propriam, ut agere possit et omnia facere que ipse olim poterat, et dictam
+          venditam se constituit eius nomine precario possidere eisque precepit, stipulantibus ut
+          supra, nomine et vice ipsius <persName ref="#OctoflosDomalfolli">Octofloris</persName>,
+          eorum auctoritate intrent corporaliter in tenutam, renunciando legi iuvanti deceptos in
+          contractibus ultra dimidiam iusti precii; et quod valeret plus dicto precio eis donavit
+          pure, libere et simpliciter inter vivos. Preterea suprascriptus venditor promisit, se
+          suosque heredes obligavit dictam venditam suprascriptis emptoribus, stipulantibus et
+          recipientibus ut supra, ab omni persona atque universitate legitime deffendere,
+          auctorizari et expedire in loco partim et toto cum suo advocato et suis<note place="foot"
+            n="c" xml:id="CLVIII_n_003">et suis: nel testo segue,
+            ripetuto, et suis.</note> expensis propriis; aut, si quod
+          inde evictum fuerit, in duplum restitue<supplied reason="omitted">re</supplied> sicut res
+          pro tempore fuerit meliorata vel magis valuerit, sub iusta extimatione, in loco consimili;
+          omneque dampnum, interesse et expensas, quod et quas dictus emptor fecerit pro predictis
+          vel aliquo predictorum, integraliter resartire<note place="foot" n="d"
+            xml:id="CLVIII_n_004">resartire: <emph>così nel
+              testo</emph>.</note> nec contra predicta vel aliquod predictorum aliquando facere vel
+          venire nec venisse seu fecisse occasione maioris precii vel alia quacumque, sub pena dupli
+          extimationis eius tocius quod in questione deduceretur; qua soluta vel non, suprascripta
+          omnia et singula firma sint et rata cum pena; unde pro evictione et dupla et instrumentis
+          omnibus et singulis attendendis et observandis omnia sua bona mobilia et immobilia,
+          presentia et futura, eis, stipulantibus ut supra, pignori obligavit, que se eiusdem
+            <persName ref="#OctoflosDomalfolli">Octofloris</persName> nomine precario constituit
+          possidere, renunciando l(egi) C(odicis) <cit type="codexGiust">
+            <quote rend="pre(«) post(»)">communia de legatis</quote>
+          </cit>, <cit type="codexGiust">
+            <quote rend="pre(«) post(»)">si duobus</quote>
+          </cit>, <c>§</c>
+          <cit type="codexGiust">
+            <quote rend="pre(«) post(»)">emptor</quote>
+          </cit>, <c>§</c>
+          <cit type="codexGiust">
+            <quote rend="pre(«) post(»)">de evictionibus</quote>
+          </cit>, <cit type="codexGiust">
+            <quote rend="pre(«) post(»)">si fundum</quote>
+          </cit><note place="foot" n="1" xml:id="CLVIII_n_005">Citazioni dal Codice di Giustiniano,
+            in particolare il paragrafo <emph>Emptor</emph>, della
+            constitutio <emph>Si duobus</emph>, Codex <term
+              xml:lang="latin"><emph>Communia de legatis</emph></term>; (Cod., 6.43.3.4) e la
+            constitutio <emph>Si fundum</emph>, Codex <term
+              xml:lang="latin"><emph>De evictionibus</emph></term> (Cod. 8.44.27).</note> et omni
+          alii legum auxilio, quo se posset a predictis deffendere aliquatenus vel tueri. Et insuper
+          domina <persName ref="#Villana">Villanna</persName>, uxor dicti venditoris suprascripte
+          venditionis, suprascripte venditioni consensit et omni suo iuri, quod in ipsa habet seu
+          habitura est, penitus renunciavit, renunciando velleiano senatus consulto et iuri
+          ypothecarum; de dictis iuribus, quod sint et quod dicant, a me notario infrascripto
+            cerciorata<note place="foot" n="e" xml:id="CLVIII_n_006">cerciorata: <emph>segue un segno di richiamo di cui non si trova la
+              corrispondenza nel testo</emph>.</note>.</p>
+        <p xml:id="CLVIII_p_002" n="2"><ptr target="#CLVIII_st_001"/> Ego <persName
+            ref="#Iannonusnot">Iannonus de <placeName ref="#Borgonuovo">Burgonovo</placeName>,
+              <roleName>sacri palatii notarius</roleName></persName>, huic interfui et rogatus
+          scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXXVI_187">
+    <front xml:id="CCXXVI_front">
+
+      <titlePart type="numerazioneNuova">187</titlePart>
+      <titlePart type="numerazioneOrig">CCXXVI</titlePart>
+
+      <docDate xml:id="CCXXVI_docDate">
+        <date when="1078-06-14">1078 giugno 14</date>, <placeName>Sarzanello (<term xml:lang="latin"
+            >in castro Sarzana</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXXVI_regesto">
+        <p>Peregrino di Burcione del fu Gotezo vende a Guido, vescovo di Luni, case e terre site in
+          Soliera, nei luoghi <term xml:lang="latin">Felicta</term>, <term xml:lang="latin"
+            >Colli</term>, <term xml:lang="latin">Pusterla</term>, <term xml:lang="latin"
+            >Branzoli</term>, <term xml:lang="latin">Bardano</term>, <term xml:lang="latin"
+            >Bargi</term>, <term xml:lang="latin">Piculo</term>, <term xml:lang="latin"
+            >Malliano</term>, <term xml:lang="latin">Gnaulo</term>, <term xml:lang="latin">Monte
+            Ciculo</term>, <term xml:lang="latin">Colle Mezaitum</term>, <term xml:lang="latin"
+            >Mezana</term> e <term xml:lang="latin">Botognano</term>, e case e terre fuori del
+          castello della Brina, nei luoghi <term xml:lang="latin">Canale</term>, <term
+            xml:lang="latin">Saletto</term>, <term xml:lang="latin">Sorbolo</term>, <term
+            xml:lang="latin">Castillione</term>, <term xml:lang="latin">Monte Raso</term>, <term
+            xml:lang="latin">Rio de Veste</term>, <term xml:lang="latin">Monte Martili</term>, <term
+            xml:lang="latin">Antoniano</term>, <term xml:lang="latin">a la Noce</term>, <term
+            xml:lang="latin">Palanceta</term>, <term xml:lang="latin">Monte Rossolo</term>, <term
+            xml:lang="latin">Casaliclo</term> e <term xml:lang="latin">Caprione</term>. Il prezzo
+          della vendita è di 20 lire in denari d’argento pavesi.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP, cc. 252v.- c. 253r., cc. CCXLIIIIv.-CCXLVr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p/>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il documento è il medesimo del n. 186 (CCXXV) con alcune varianti nei toponimi;
+            manca in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXXVI_div">
+        <p xml:id="CCXXVI_p_001" n="1"><date when="1078-06-14"> Anno ab incarnatione Domini nostri
+            Ihesu Christi millesimo septuagesimo VIII°, octavo decimo kalendas iulii, indictione
+            prima</date>. Constat me <persName ref="#PeregrinusGotezonis">Peregrinum de Burcione,
+            filium quondam Gotezonis</persName>, qui <supplied reason="omitted"
+            >pro</supplied>fessus<note xml:id="CCXXVI_n_001" n="a" place="foot"><emph>Per
+              l’integrazione cfr. documento precedente</emph>.</note> sum ex natione mea lege vivere
+          Romana, accepisse, sicuti et in presentia testium accepi, a te <persName
+            ref="#GuidoEpLuni2">Guidone, <roleName>Lunensi episcopo</roleName></persName>, argenti
+          denariorum <measure type="Papienses" quantity="20" unit="libra">bonorum Papiensium XX
+            libras</measure>, servit<supplied reason="omitted">i</supplied>um precium pro conctis
+          casis et omnibus rebus illis iuris mei, quas habere et possidere visus sum in curte de
+            <placeName ref="#Soliera">Soleria</placeName>, in locis et in fundis <placeName
+            ref="#Felicta">Felicta</placeName> et in <placeName ref="#Colli">Colli</placeName>, quod
+          regere et laborare videtur per <persName ref="#Gerardusmass">Gerardum
+              <roleName>massarium</roleName></persName> et alium <persName ref="#Gerardus"
+            >Gerardum</persName>, nepotem suum, et in <placeName ref="#Pusterla"
+            >Pustella</placeName>, quod regitur per <persName ref="#Villanusmass">Villanum
+              <roleName>massarium</roleName></persName>, atque in deblo <placeName ref="#Branzoli"
+            >Branzoli</placeName>, quod regitur per <persName ref="#Iohannesmass"
+            >Iohannem</persName> et <persName ref="#Petrusmass">Petrum</persName>
+          <roleName>massarios</roleName>, et in <placeName ref="#Bardano">Bardano</placeName>, quod
+          regitur per filios <persName ref="#Iohannesmass">Iohannis</persName>, et in <placeName
+            ref="#Bargi">Bargi</placeName>, quod regitur per <persName ref="#GuidoPuzolo"
+            >Guidonem</persName> et <persName ref="#VivolusPuzolo">Vivolum de <placeName
+              ref="#Puzolo">Puzolo</placeName></persName> et per <persName ref="#AzoCerroAlto"
+            >Azonem de <placeName ref="#CerroAlto">Cerro Alto</placeName></persName>, atque in
+            <placeName ref="#Piculo">Piculo</placeName>, quod regitur per <persName
+            ref="#GuidoPiculo">Guidonem de eodem loco <placeName ref="#Piculo"
+            >Piculo</placeName></persName>, atque in <placeName ref="#Malliano"
+          >Malliano</placeName>, quod regitur per <persName ref="#Bonizomass">Bonizonem</persName>
+          et <persName ref="#Carbomass">Carbonem</persName>
+          <roleName>massarios</roleName>, atque in <placeName ref="#Gnaulo">Gnaulo</placeName>, quod
+          regitur per <persName ref="#Andreamass">Andream</persName> et <persName
+            ref="#Martinusmass">Martinum</persName>
+          <roleName>massarios</roleName>, atque in <placeName ref="#Moncigoli">Monte
+            Ciculo</placeName>, quod regitur per <persName ref="#Gerarduspres">Gerardum
+              <roleName>presbyterum</roleName></persName>, et in <placeName ref="#ColleMezaitum"
+            >Colle Mezano</placeName>, quod regitur per filios <persName ref="#Carbomass"
+            >Carbonis</persName> et <persName ref="#Maurus">Mauri</persName>, germani, atque in
+            <placeName ref="#Mezana">Mezana</placeName>, quod regitur per <persName
+            ref="#AlbertusAlbini">Albertum et fratres suos, filios Albini</persName>, atque in
+            <placeName ref="#Botognano">Botognano</placeName>, quod regitur per <persName
+            ref="#Bernardusmass">Bernardum <roleName>massarium</roleName></persName>, atque
+          ubicumque de iamdictis casis et rebus iuris mei infra iamscriptam curtem inventum fuerit,
+          omne in ista presente vendictionis cartula permaneat in integrum. Similiter per hanc
+          cartulam et pro iamscripto precio vendo atque trado ego qui supra <persName
+            ref="#PeregrinusGotezonis">Peregri<pb n="253r" xml:id="fol_253r"/>nus</persName> tibi
+          cui supra <persName ref="#GuidoEpLuni2">Guidoni <roleName>episcopo</roleName></persName>
+          omnes casas et res illas iuris mei, quas habere et possidere visus sum per finem de seca
+          de monte de <placeName ref="#Salungnolo">Salungnolo</placeName> usque in mare, omnia foris
+          murum de castro la <placeName ref="#Brina">Brina</placeName>; atque sunt iamscripte case
+          et res in locis <placeName ref="#Canale">Canale</placeName>, <placeName ref="#Saletto"
+            >Saletto</placeName>, <placeName ref="#SorboloSuprano">Sorbolo Suprano</placeName>,
+            <placeName ref="#Castiglione">Castilione</placeName>, donnicato de <placeName
+            ref="#Sorbolo">Sorbolo</placeName>, <placeName ref="#MonteRaso">Monte Raso</placeName>,
+            <placeName ref="#RioVeste">Rio de Veste</placeName>, <placeName ref="#MonteMartili"
+            >Monte Martili</placeName>, <placeName ref="#Antoniano">Antoniano</placeName>, a
+            <placeName ref="#Noce">La Noce</placeName> ubi <placeName ref="#Natara"
+            >Nazara</placeName> dicitur, <placeName ref="#Palanceta">Palanceta</placeName> quod
+          regitur per <persName ref="#Donnellusmass">Donnellum</persName> et <persName
+            ref="#Iocolusmass">Ioculum</persName>
+          <roleName>massarios</roleName>, <placeName ref="#MonteRossolo">Monte Rossolo</placeName>,
+            <placeName ref="#Casaliclo">Casaliclo</placeName>, <placeName ref="#Caprione"
+            >Caprione</placeName> atque ubicumque de iamscriptis casis et rebus iuris mei infra
+          iamscriptas coherencias inventum fuerit, excepto, ut supra, infra murum de castro la
+            <placeName ref="#Brina">Brina</placeName>. Omnia in ista presente cartula vendictionis
+            permanea<supplied reason="omitted">n</supplied>t in integrum. Quas autem iamscriptas
+          omnes casas et res infra iamscriptam curtem de <placeName ref="#Soliera"
+            >Soleria</placeName> et iamscriptas omnes casas et res infra iamdictas coherencias foris
+          murum de iamscripto castro la <placeName ref="#Brina">Brina</placeName>, una cum
+          accessionibus et ingressibus suis seu cum<note xml:id="CCXXVI_n_002" n="b" place="foot"
+              >Cum<emph>: nel testo segue, depennato</emph> in.</note> superioribus atque
+          inferioribus suis, qualiter superius legitur, in integrum ab hac die tibi cui supra
+            <persName ref="#GuidoEpLuni2">Guidoni <roleName>episcopo</roleName></persName>, pro
+          iamscripto precio, vendo, trado, mancipo et nulli alii venditis, donatis, alienatis,
+          obnoxiatis vel traditis nisi tibi, et facias exinde a presenti die tu et successores tui
+          atque cui vos dederitis, iure proprietario nomine, quicquid volueritis, sine omni mea et
+          heredum meorum contradictione. Equidem atque spondeo atque promitto me ego qui supra
+            <persName ref="#PeregrinusGotezonis">Peregrinus</persName>, una cum meis heredibus, tibi
+          cui supra <persName ref="#GuidoEpLuni2">Guidoni <roleName>episcopo</roleName></persName>
+          tuisque successoribus aut cui vos dederitis iamscriptam meam vendictionem, qualiter
+          superius legitur, in integrum ab omni homine deffensare. Quod si deffendere non potuerimus
+          aut si vobis exinde aliquid per quodvis ingenium subtrahere quesierimus, tunc in duplum
+          eandem vendictionem, ut supra legitur, vobis<note xml:id="CCXXVI_n_003" n="c" place="foot"
+              ><term xml:lang="latin">vobis</term>: v <emph>corretta su</emph> n.</note>
+          restituamus, sicut pro tempore fuerit meliorata aut valuerit, sub extimatione, in
+          consimilibus locis; atque nec mihi liceat ullo tempore nolle quod volui, set quod a me
+          semel factum vel quod scriptum est inviolabiliter conservare promitto, cum stipulacione
+          subnixa, atque nichil mihi ex ipso precio dare debes dico.</p>
+        <p xml:id="CCXXVI_p_002" n="2">Actum in <placeName ref="#Sarzanello">castro
+            Sarzana</placeName>, feliciter.</p>
+        <p xml:id="CCXXVI_p_003" n="3">Signum # manuum <persName ref="#OdoBibola">Odonis de
+              <placeName ref="#Bibola">Bibola</placeName></persName> et <persName
+            ref="#OttoRonciliolo">Ottonis de <placeName ref="#Ronciliolo"
+            >Ronciliolo</placeName></persName> et <persName ref="#OdecioYsola">Odetonis de
+              <placeName ref="#Isola">Ysola</placeName></persName> et <persName
+            ref="#GuilielmusGargnano">Guilielmi</persName> et <persName ref="#AttoGargnano">Attonis
+            de <placeName ref="#Gragnano">Gragnano</placeName></persName>, omnium rogatorum
+          testium.</p>
+        <p xml:id="CCXXVI_p_004" n="4"><ptr target="#CCXXVI_st_001"/> Ego <persName
+            ref="#CarusAmicusnot">Carus Amicus, <roleName>notarius sacri
+            palacii</roleName></persName>, scriptor huius cartule vendictionis, rogatus, post
+          traditam complevi et dedi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

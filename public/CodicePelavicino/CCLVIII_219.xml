@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLVIII_219">
+    <front xml:id="CCLVIII_front">
+
+      <titlePart type="numerazioneNuova">219</titlePart>
+      <titlePart type="numerazioneOrig">CCLVIII</titlePart>
+
+      <docDate xml:id="CCLVIII_docDate">
+        <date when="1214-02-26">1214 febbraio 26</date>-<date when="1214-02-27">27</date> e <date
+          when="1197-12-11">11</date>, <placeName>Sarzana (<term xml:lang="latin">in sacristia
+            sancte Marie de Sarzano, in ecclesia sancti Andree de Sarzano</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLVIII_regesto">
+        <p>Marzucco, vescovo di Luni, da una parte ed Enrico Bianco del fu Arduino, Lanfranchino del
+          fu Ugo di Erberia, Bernardino e Palmerino fratelli, figli di Guido di Erberia dall’altra
+          affidano ai <term xml:lang="latin">vicedomini</term> Aldebrando e Gerardo, fratelli, figli
+          del fu Alberto, e a Gerardo del fu Villano, il ruolo di arbitri per comporre la concordia
+          fra di loro. Si costituiscono fideiussori per il vescovo Gerardo <term xml:lang="latin"
+            >vicedominus</term>, Gerardo del fu Villano, Manzeto di Tivegna e Bondie <term
+            xml:lang="latin">de Cirisolo</term> e per l’altra parte il già citato Gerardo e
+          Guglielmo di Gragnana. Il giorno successivo le due parti si impegnano a osservare quanto
+          deciso dagli arbitri, i quali stabiliscono che i <term xml:lang="latin">domini</term> di
+          Erberia debbano concedere al vescovo tutte le fortificazioni che hanno di qua dai monti
+          verso l’episcopato di Luni, in modo che servano il vescovo contro tutti, eccetto che
+          contro loro stessi; che debbano far giurare a tutti i loro uomini di agire militarmente, a
+          loro spese, in appoggio al vescovo quando costui lo richiede; che non possano alienare
+          tali fortificazioni; che debbano ripetere il giuramento ogni cinque anni; che debbano
+          appicare il divieto d’accesso nelle loro terre se il vescovo lo stabilisce nelle sue,
+          anche se tale divieto non si applica a loro stessi e ai loro uomini; che debbano seguire
+          quanto deciso dal vescovo quando i <term xml:lang="latin">treguani</term> sono presenti in
+          Lunigiana; che tutti coloro che erano soliti dare fedeltà ai <term xml:lang="latin"
+            >domini</term> lo facciano ora al vescovo; e infine che i precedenti patti fatti tra
+          loro riguardanti gli alpeggi e i pascoli siano considerati validi da entrambe le parti. Il
+          vescovo e i suoi successori dovranno assicurare la difesa delle terre e dei beni di detti
+            <term xml:lang="latin">domini</term> di qua dai monti verso l’episcopato di Luni come
+          proprio dominio e aiutare l’eventuale recupero di beni perduti; tale impegno deve essere
+          fatto giurare da <term xml:lang="latin">vicedomini</term> e consoli delle terre vescovili
+          e deve essere rispettato dal vescovo e dai suoi successori, fatti salvi gli impegni già
+          presi con i Pontremolesi e con quelli di Cervara.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 266v.- 267r., cc. CCLVIIIv.- CCLVIIII. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Il documento, pressoché identico al n. 203 (CCXXXIII), è assente in <ref
+              target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Parti del testo sono state lette con l’ausilio della lampada di Wood. </note>
+        </div>
+
+        <div type="appr">
+          <p>Bibliografia: <ref target="#NOBILI_2001">NOBILI 2001</ref>.</p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLVIII_div">
+        <p xml:id="CCLVIII_p_001" n="1"><ptr target="#CCLVIII_st_001"/> In nomine Domini, amen.<date
+            when="1214-02-26"> Anno a nativitate Eius millesimo CCXIIII, indictione IIa, die
+            mercurii, IIII kalendas marcii</date>. Dominus <persName ref="#MarzuccusEpLuni"
+            >Marçucus, Dei gratia <roleName>Lunensis episcopus</roleName></persName>, ex una parte,
+          atque <persName ref="#HenricusBlancus">Henricus Blancus quondam Ardoini</persName>,
+            <persName ref="#LanfranchinusHerberia">Lanfranchinus quondam Ugonis de <placeName
+              ref="#Erberia">Herberia</placeName></persName>, <persName ref="#BernardinusGuidonis"
+            >Bernardinus</persName> et <persName ref="#PalmerinusGuidonis">Palmerius</persName>,
+          fratres, filii <persName ref="#GuidoHerb">Guidonis de <placeName ref="#Erberia"
+              >Herberia</placeName></persName>, ex altera, compromiserunt, ad penam <measure
+            quantity="100" unit="solidus">C marcharum argenti</measure> sibi vicissim promissam, in
+          dominum <persName ref="#AldebrandusAlberti">Aldebrandum</persName> et dominum <persName
+            ref="#GerardusAlberti">Gerardum, fratres, <roleName>vicedominos</roleName>, filios
+            quondam Alberti</persName>, item <roleName>vicedomini</roleName>, atque <persName
+            ref="#GerardusVillani">Gerardum quondam Villani</persName>, promittendo, sub iamdicta
+          pena et obligando se suosque successores et heredes et omnia sua bona atque episcopatus
+          Lunensis, attendere, observare et adimplere totum et quicquid predicti <persName
+            ref="#AldebrandusAlberti">Aldebrandus</persName>, <persName ref="#GerardusAlberti"
+            >Gerardus</persName> et <persName ref="#GerardusVillani">Gerardus</persName>, vel duo
+          illorum, communi concordia, dicere de cunça<note xml:id="CCLVIII_n_001" n="a" place="foot"
+              ><term xml:lang="latin">cunça</term>: <emph>così nel testo per cuncta, cfr. doc. 203
+              (CCXXIII)</emph>.</note> concordia, pactis et conventionibus que et quas componere
+          inter eos voluerint et ordinare. Et promiserunt inter se ut quicumque ex ipsis seu eorum
+          successoribus vel heredibus non iure attenderit et observaverit totum et quicquid predicti
+          arbitri ex compromisso componere, ordinare et inter eos arbitrari et laudare voluerint aut
+          compositioni vel ordinationi, arbitrio vel laudamento, que fuerint inter eos facte et
+          facta ab ipsis arbitris, contravenire temptaverit, alteri partium fidem servanti,
+          predictam penam <measure quantity="100" unit="solidus">C marcharum argenti</measure>
+          solvere teneatur. Preterea fideiusserunt pro domino <persName ref="#MarzuccusEpLuni"
+              >Marçu<supplied reason="omitted">c</supplied>o
+            <roleName>episcopo</roleName></persName> in predictis <measure quantity="100"
+            unit="solidus">C marchis argenti</measure>, obligando se suosque heredes et omnia sua
+          bona, <persName ref="#GerardusAlberti">Gerardus
+            <roleName>vicedominus</roleName></persName>, <persName ref="#GerardusVillani">Gerardus
+            quondam Villani</persName>, <persName ref="#MançetusTivenia">Mançetus de <placeName
+              ref="#Tivegna">Tivegnia</placeName></persName> et <persName ref="#BondiesCirisolo"
+            >Bondies de <placeName ref="#Cirisolo">Cirisolo</placeName></persName>, promittentes
+          quod, si contra aliquod predictorum venerit vel fecerit, predictus dominus episcopus
+            solvere<supplied reason="omitted">t</supplied> suprascriptam penam predictis dominis
+            <persName ref="#HenricusBlancus">Blancis</persName>, et renunciantes omni iuri et
+          legibus, constitutionibus, auxiliis atque deffensionibus et precipue iuri constitutionis
+          nove. Pro altera vero parte, eodem modo in omnibus fideiusserunt predicti <persName
+            ref="#GerardusAlberti">Gerardi</persName> et dominus <persName ref="#GuilielmusGragnana"
+            >Guilielmus de <placeName ref="#Gragnana">Gragnana</placeName></persName>.</p>
+        <p xml:id="CCLVIII_p_002" n="2">Actum in sacristia sancte Marie de <placeName ref="#Sarzana"
+            >Sarzano</placeName>, in testimonio <persName ref="#Bonfiliusarc">Bonfilii, Lunensis
+              <roleName>archipresbyteri</roleName></persName>, et domini <persName
+            ref="#GuilielmusGragnana">Guilielmi de Gragnana</persName>, rogatorum testium.</p>
+        <p xml:id="CCLVIII_p_003" n="3"><c>§</c>
+          <date when="1214-02-27">Altera vero die, qui fuit dies iovis, tercius kalendas marcii anni
+            suprascripti</date>, predicti domini <persName ref="#HenricusBlancus">Henricus de
+              <placeName ref="#Erberia">Herberia</placeName></persName>, <persName
+            ref="#LanfranchinusHerberia">Lanfranchinus de <placeName ref="#Erberia"
+              >Herberia</placeName></persName>, <persName ref="#BernardinusGuidonis"
+            >Bernardinus</persName> et <persName ref="#PalmerinusGuidonis">Palmerius</persName>,
+          fratres, filii <persName ref="#GuidoHerb">Guidonis de <placeName ref="#Erberia"
+              >Herberia</placeName></persName>, tactis sacrosantis Evangeliis, iuraverunt attendere
+          et observare et firmum tenere laudamentum sive arbitrium quod inter eos et dominum
+            <persName ref="#MarzuccusEpLuni">Marçucum <roleName>episcopum</roleName></persName>
+          composuerint et ordinaverint predicti arbitri et quod facient illud attendi et observari
+          et firmum teneri ab omnibus consortibus suis et iurare eos idem sacramentum. At vero
+            <persName ref="#Bonfiliusarc">Bonfilius, Lunensis
+            <roleName>archipresbyter</roleName></persName>, vice atque loco ipsius domini episcopi,
+          osculando predictos osculo pacis, promisit nomine ipsius episcopi ad id idem firmum haberi
+          et teneri per ipsum episcopum et ab ipso episcopo. Insuper <persName
+            ref="#GerardusVillani">Gerardus quondam Villani</persName>, prout dixit coram
+          infrascriptis testibus, de predicti episcopi rogatu promisit, obligando se et eius heredes
+          et omnia sua bona ad penam <measure quantity="100" unit="solidus">C marcharum
+            argenti</measure> predictis dominis solvendam, quod faciet ita quod predictus dominus
+          episcopus habebit et tenebit predictorum arbitrium sive laudamentum firmum atque ratum;
+          alioquin promisit predictis dominis solvere constitutam penam <measure quantity="100"
+            unit="solidus">C marcharum argenti</measure> in suis bonis ad hec obligatis et
+          renunciando omni iuri et legibus unde a predicta pena vel ab aliquo predictorum se tueri
+          vel iuvare posset.</p>
+        <p xml:id="CCLVIII_p_004" n="4">Acta sunt hec in ecclesia sancti Andree de <placeName
+            ref="#Sarzana">Sarzano</placeName>, <persName ref="#Falcopre"
+              ><roleName>presbytero</roleName> Falcone</persName>, <persName
+            ref="#GuilielminusBurriani">Guilielmino quondam Burriani</persName>, <persName
+            ref="#GottolusBonensegne">Gottolo quondam Bonensegne</persName> et <persName
+            ref="#BondiesCirisolo">Bondie de <placeName ref="#Cirisolo"
+            >Cirisolo</placeName></persName>, presentibus testibus ad hec rogatis.</p>
+        <p xml:id="CCLVIII_p_005" n="5"><c>§</c> Ad hec vero eodem predicto die iovis, in predicta
+          sacristia sancte Marie de <placeName ref="#Sarzana">Sarzano</placeName>, in testimonio
+          predictorum testium et <persName ref="#MançetusTivenia">Mançetti</persName>, preter
+            <persName ref="#Falcopre"><roleName>presbyterum</roleName> Falconem</persName>,
+          predictus episcopus, osculando predictos dominos osculo pacis, promisit arbitrium sive
+          laudamentum firmum habere et ratum, factum vel faciendum a predictis arbitris. Unde ibi
+          incontinenti, in presencia domini <persName ref="#Bonfiliusarc">Bonfilii Lunensis
+              <roleName>archipresbyteri</roleName></persName>, <persName ref="#GottolusBonensegne"
+            >Gotoli quondam Bonensegne</persName>, <persName ref="#GuilielminusBurriani">Guilielmini
+            quondam Buriani</persName>, <persName ref="#MançetusTivenia">Mançeti de <placeName
+              ref="#Tivegna">Tivenia</placeName></persName> et <persName ref="#BondiesCirisolo"
+            >Bondiei de <placeName ref="#Cirisolo">Cirisolo</placeName></persName>, rogatorum
+          testium, predicti <persName ref="#AldebrandusAlberti">Aldebrandus</persName> et <persName
+            ref="#GerardusAlberti">Gerardus, fratres, filii quondam Alberti vicedomini</persName>,
+          et <persName ref="#GerardusVillani">Gerardus quondam Villani</persName>, arbitri electi ex
+          compromisso ab utraque predicta parte concorditer et communiter, arbitrati sunt et
+          laudaverunt quod predicti domini <persName ref="#HenricusBlancus">Henricus</persName>,
+            <persName ref="#LanfranchinusHerberia">Lanfranchinus</persName>, <persName
+            ref="#BernardinusGuidonis">Bernardinus</persName> et <persName ref="#PalmerinusGuidonis"
+            >Palmerius</persName> et eorum heredes teneantur, sub iamdicta pena <pb n="267r"
+            xml:id="fol_267r"/>
+          <measure quantity="100" unit="solidus">C marcharum argenti</measure>, dare et concedere
+          perpetuo, ab hodie in antea, omnes suas munitiones, menia et castra, que et quas habent ab
+          alpibus citra versus Lunensem episcopatum, predicto Lunensi episcopo et eius successoribus
+          ad faciendum guerram atque pacem omnibus hominibus et contra omnes homines et personas,
+          excepto contra se ipsos, quandocumque voluerit predictus dominus episcopus<note
+            xml:id="CCLVIII_n_002" n="b" place="foot"><term xml:lang="latin">predictus dominus
+              episcopus</term>: <emph>nel testo</emph>
+            <term xml:lang="latin">dominus episcopus predictus</term>
+            <emph>con segno di richiamo ad indicare l’inversione</emph>.</note> vel eius
+          successores. Et quod faciant omnes suos homines iurare pacem et guerram facere omnibus
+          hominibus et contra omnes homines ad voluntatem predicti domini episcopi vel eius
+          successorum et facere hostem et cavalcatam quocumque voluerit idem dominus episcopus vel
+          eius successores, eorum propriis expensis, ad deffensionem terrarum iurisdictionis
+          Lunensis episcopatus et <orgName ref="#Luni_comitatus">comitatus</orgName>. Item teneantur
+          predicti domini et eorum heredes non vendere nec alienare seu infeudare aliquam vel aliqua
+          seu aliquod munitionum, menium vel castrorum de predictis seu aliquam partem eorum alicui
+          vel aliquibus, qui<note xml:id="CCLVIII_n_003" n="c" place="foot"><term xml:lang="latin"
+              >qui</term>: <emph>corretto su</emph>
+            <term xml:lang="latin">quod</term>.</note> facere non teneatur vel teneantur hec
+            eidem<note xml:id="CCLVIII_n_004" n="d" place="foot"><term type="incerto">eidem</term>:
+              <emph>così nel testo per</emph>
+            <term xml:lang="latin">eadem</term>, <emph>cfr. doc. 203 (CCXXXIII)</emph>.</note> in
+          omnibus, ut predicti domini <persName ref="#HenricusBlancus">Blanci</persName>, et
+          observare. Et teneantur predicti domini et eorum heredes renovare et facere renovare
+          sacramenta predicta de V in V annos. Item laudaverunt quod, si quando predictus dominus
+          episcopus vel eius successores voluerint facere devetum in terris suis, hoc idem predicti
+          domini et eorum heredes facere teneantur in suis terris predictis. Et dominus episcopus
+          nec eius successores non debea<supplied reason="omitted">n</supplied>t eis facere devetum,
+          nec suis hominibus. Item, si quando in episcopatu Lunensi invenirentur vel ponerentur
+          treguani, quamcumque viam teneret dominus episcopus vel eius successores, eandem predicti
+          domini et eorum heredes teneant et observent atque eorum homines. Item laudaverunt
+          predicti ut omnes, qui consueverant facere fidelitatem de predictis dominis vel eorum
+          maioribus seu qui habent feudum a Lunensi curia, teneantur ipsi et eorum heredes facere
+          fidelitatem episcopo et eius successoribus. Item laudaverunt quod antiqua pacta et
+          conventiones inter eos facta vel inter suos antecessores de alpibus et pascuis ab utraque
+          parte habeantur firma et rata.</p>
+        <p xml:id="CCLVIII_p_006" n="6"><c>§</c> Ad hec siquidem laudaverunt et arbitrati sunt ut
+          predictus dominus episcopus et eius successores teneantur deffendere et manutenere omnes
+          terras, possessiones et homines predictorum dominorum et eorum heredum, quos et quas
+          habent ab alpibus citra versus Lunensem episcopatum pro posse suo. Et si quas vel quam seu
+          quem vel quos de predictis amiserint, quod Deus advertat, teneantur pro eorum posse
+          recuperare cum eis et facere hoc idem iurare vicedominis suis et cuilibet consulatui
+            <supplied reason="omitted">et</supplied><note xml:id="CCLVIII_n_005" n="e" place="foot"
+              ><emph>Per integrazione cfr. doc. 203 (CCXXXIII)</emph>.</note> cuilibet sue terre et
+          in eorum breve communis emendari et firmari. Insuper predicti arbitri talem penam inter
+          predictos constituerunt ut quicumque ex predictis vel eorum successoribus seu heredibus in
+          aliquo contra venerit vel fecerit aut contra factum fuerit ab aliquo eorum vel suorum
+          successorum seu heredum, tunc perdat, nomine pene, <measure quantity="200" unit="solidus"
+              >marchis<note xml:id="CCLVIII_n_006" n="f" place="foot"><term type="incerto"
+                >marchis</term>: <emph>così nel testo per</emph>
+              <term xml:lang="latin">marchas</term>.</note> argenti CC</measure> et altera pars,
+          fidem observans, habeat et teneat omnia predicta, nomine pene, sine alicuius
+          contradictione. Et hec omnia predicta teneantur dictus episcopus et eius successores
+          attendere et observare, salvis omnibus sacramentis, conventionibus, pactis et capitulis,
+          que et quos et quas habet predictus episcopus cum Pontremulensibus, et dicti domini et
+          eorum heredes, salvis similiter sacramentis, conventionibus, pactis et capitulis, que,
+          quos et quas habent cum illis de <placeName ref="#Cervaria">Cervaria</placeName>.</p>
+        <p xml:id="CCLVIII_p_007" n="7"><ptr target="#CCLVIII_st_002"/> Ego <persName
+            ref="#Benvenutusnot1">Benevenutus, <roleName>domini Ottonis quarti Romanorum imperatoris
+              notarius</roleName></persName>, hiis omnibus interfui et, rogatus a predictis
+          contrahentibus et de precepto predictorum arbitrorum, omnia predicta, qualiter superius
+          leguntur, scripsi et in publicum instrumentum redegi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXXXVIIII_156">
+    <front xml:id="CXXXVIIII_front">
+
+      <titlePart type="numerazioneNuova">156</titlePart>
+      <titlePart type="numerazioneOrig">CXXXVIIII</titlePart>
+
+      <docDate xml:id="CXXXVIIII_docDate">
+        <date when="1260-04-21">1260 aprile 21</date>, <placeName>San Terenzo <emph>(<term
+              xml:lang="latin">in canonica ecclesie sancti Terentii</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXXXVIIII_regesto">
+        <p>Gli uomini di San Terenzo e i loro consoli, Aldebrando del fu <term xml:lang="latin"
+            >Berchus</term> e Iacopino del fu Albertino, giurano obbedienza a Duzio, rettore della
+          chiesa di San Terenzo, procuratore di Guglielmo, vescovo di Luni.</p>
+      </div>
+
+      <div type="footer" xml:id="CXXXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 236r.- 236v., c. CCXXVIIIr.- CCXXVIIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 139,
+            p. 172.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>In calce alla carta, di mano pressoché coeva, seguono le parole iniziali della carta
+            successiva: <emph>de lite</emph>; al centro, in inchiostro rosso, a indicare la fine del
+            fascicolo: <emph>XVus</emph> Larga parte del documento è stata letta con l’ausilio della
+            lampada di Wood.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXXXVIIII_div">
+        <p xml:id="CXXXVIIII_p_001" n="1">In nomine Domini, amen. Omnes et singuli homines
+          infrascripti de villa <placeName ref="#SanTerenzo">sancti Terencii</placeName>, videlicet
+            <persName ref="#CacciaguerraRollandini">Cacciaguerra quondam Rollandini</persName>,
+            <persName ref="#AidansMeliorati">Aidante quondam Meliorati</persName>, <persName
+            ref="#BonaparteBonafidei">Bonaparte quondam Bonafidei</persName>, <persName
+            ref="#BonsengnoreBonaiuncte">Bonsengnore filius Bonaiuncte</persName>, <persName
+            ref="#BonaiunctaMachagnani">Bonaiuncta quondam Machagnagni</persName>, <persName
+            ref="#GromoneRollandini">Gromone quondam Rollandini</persName>, <persName
+            ref="#BonalbergusBonaiuncte">Bo<supplied reason="omitted">n</supplied>albergus filius
+            Bonaiuncte</persName>, <persName ref="#BonaccoltusBenvenuti">Bonaccoltus quondam
+            Benvenuti</persName>, <persName ref="#VenturolusPortonari">Venturolus quondam
+            Portonarii</persName>, <persName ref="#LanfranchinusMeliorati">Lanfranchinus quondam
+            Meliorati</persName>, <persName ref="#VennutusViviani">Vennutus quondam
+            Viviani</persName>, <persName ref="#BonagratiaTedeschi">Bonagratia quondam
+            Thedeschi</persName>, <persName ref="#BonacursusVivelli">Bonacursus quondam
+            Vivelli</persName>,<pb n="236v" xml:id="fol_236v"/><persName ref="#BernardusRollandini"
+            >Bernardus quondam Rollandini</persName>, <persName ref="#VenturaAldeberadi">Ventura
+            filius Aldeberadi</persName>, <persName ref="#GuidoFancelli">Guido filius
+            Fancelli</persName>, <persName ref="#BernardinusFor">Bernardinus de <placeName
+              ref="#Fornoro">Fornoro</placeName></persName>, <persName ref="#ineriusBonaiuti"><gap
+              reason="illegibile"/>inerius<note place="foot" n="a" xml:id="CXXXVIIII_n_001"
+                ><emph>Pergamena abrasa.</emph></note> quondam Bonaiuti</persName>, <persName
+            ref="#ArrigusAldibertini">Arrigus quondam Aldibertini</persName>, <persName
+            ref="#VegnutusBonaiuncte">Vegnutus filius Bonaiuncte</persName>, <persName
+            ref="#Fancellus">Fancellus</persName>, <persName ref="#MelioratusFor">Melioratus de
+              <placeName ref="#Fornoro">Fornoro</placeName></persName>, promiserunt et convenerunt,
+          stipulatione sollempni interveniente, <persName ref="#Dutius"
+              ><roleName>presbytero</roleName> Duzio, <roleName>rectori <orgName type="chiesa"
+                >ecclesie <placeName ref="#SanTerenzo">sancti
+              Terentii</placeName></orgName></roleName></persName>, procuratori venerabilis patris
+            <persName ref="#GuilEpLuni">domini Guillelmi, Dei gratia <roleName>Lunensis
+              episcopi</roleName></persName>, recipienti et agenti vice et nomine ipsius domini
+          episcopi et episcopatus, quod ipsi atque eorum heredes in perpetuum obedient ipsi domino
+          episcopo et successoribus suis in omnibus que ad iurisdictionem pertinent, sicut sibi
+          obediunt et obedire debent honorati vassalli sue iurisdictionis; sic iuraverunt
+          sequimentum ipsius domini episcopi et prestiterunt iuramentum fidelitatis ipsi <persName
+            ref="#Dutius"><roleName>presbytero</roleName> Duzio</persName>, recipienti ut dictum
+          est, et promiserunt atque convenerunt omnia et singula attendere, facere et observare <gap
+            reason="illegibile"/><note place="foot" n="b" xml:id="CXXXVIIII_n_002"><emph>Pergamena
+              abrasa per mm. 25 circa.</emph></note> prout <persName ref="#AldebrandusBrici"
+            >Aldebrandus quondam Berchi</persName> et <persName ref="#IacopinusAlbertini">Iacopinus
+            quondam <supplied reason="omitted">Albertini, con</supplied>sules<note place="foot"
+              n="c" xml:id="CXXXVIIII_n_003"><term type="incerto"/>Albertini consules<emph>:
+                pergamena abrasa; integrazione dal documento precedente.</emph></note> ville
+              <placeName ref="SanTerenzo">sancti Terentii</placeName></persName><note place="foot"
+            n="d" xml:id="CXXXVIIII_n_004"><term xml:lang="latin">ville sancti
+              Terentii</term><emph>: nel testo</emph>
+            <term xml:lang="latin">sancti Terentii ville</term>
+                <emph>con segno di richiamo per indicare l’inversione.</emph></note> pro ipso <orgName ref="#S_Terenzo_comune">communi</orgName> et
+          universitate …<note place="foot" n="e" xml:id="CXXXVIIII_n_005"><emph>Pergamena abrasa per
+              mm. 50.</emph></note> promiserunt, convenerunt et iuraverunt, sicut conti<supplied
+            reason="omitted">netur in carta scripta</supplied><note place="foot" n="f"
+            xml:id="CXXXVIIII_n_006"><emph>Pergamena abrasa.</emph></note> inde manu <persName
+            ref="#Adiutusnot">Aiuti <roleName>notarii</roleName></persName>, cuius anni sunt <date
+            when="1260-04-21"><supplied reason="omitted">millesimo ducentesi</supplied>mo<note
+              place="foot" n="f" xml:id="CXXXVIIII_n_007"><emph>Pergamena abrasa.</emph></note>
+            sexagesimo, indictione tercia, XXI ap<supplied reason="omitted"
+            >rilis</supplied></date><note place="foot" n="f" xml:id="CXXXVIIII_n_008"
+              ><emph>Pergamena abrasa.</emph></note> …<note place="foot" n="g"
+            xml:id="CXXXVIIII_n_009"><emph>Pergamena abrasa per mm. 35.</emph></note> omnia
+          promiserunt attendere et observare atque contra non venire in perpetuum, sub pena <measure
+            type="Lucenses" quantity="100" unit="libra">librarum centum denariorum
+            Lucensium</measure> et, ea soluta vel non, predicta omnia in sua permaneant
+          firmitate.</p>
+        <p xml:id="CXXXVIIII_p_002" n="2">Actum in canonica ecclesie <placeName ref="#SanTerenzo"
+            >sancti Terencii</placeName>, coram <persName ref="#CastellanusGerardini">Castellano
+            quondam Gerardini de <placeName ref="#Viano">Veiano</placeName></persName> et <persName
+            ref="#IacopellusBonvassalli">Iacopello quondam Bonvassalli de S<gap reason="illegibile"
+            />ano</persName><note place="foot" n="f" xml:id="CXXXVIIII_n_010"><emph>Pergamena
+              abrasa.</emph></note> et <persName ref="#UgolinusMarciaso">Ugolino de Marciasio
+            quondam He<gap reason="illegibile"/>i</persName><note place="foot" n="f"
+            xml:id="CXXXVIIII_n_011"><emph>Pergamena abrasa.</emph></note>, testibus ad hec
+          rogatis.</p>
+        <p xml:id="CXXXVIIII_p_003" n="3"> Anno nativitatis Domini <date when="1260-04-21">millesimo
+            ducentesimo sexagesimo, XXI aprilis, indictione <supplied reason="omitted"
+              >III</supplied></date><note place="foot" n="f" xml:id="CXXXVIIII_n_012"
+              ><emph>Pergamena abrasa.</emph></note>.</p>
+        <p xml:id="CXXXVIIII_p_004" n="4"><ptr target="#CXXXVIIII_st_001"/>Ego <persName
+            ref="#Galardusnot">Galardus, <roleName>iudex</roleName> et <roleName>notarius</roleName>
+            et quondam Homod<supplied reason="omitted">ei</supplied>
+            <gap reason="illegibile"/><note place="foot" n="h" xml:id="CXXXVIIII_n_013"
+                ><emph>Inchiostro sbiadito.</emph></note> de <placeName ref="#Lucca"
+              >Luca</placeName></persName> filius, supradictis omnibus interfui et hec omnia, causa
+          memorie publice, descripsi, meo signo et nomine confirmando.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

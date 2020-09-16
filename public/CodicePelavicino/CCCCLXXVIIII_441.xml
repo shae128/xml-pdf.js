@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXXVIIII_441">
+    <front xml:id="CCCCLXXVIIII_front">
+
+      <titlePart type="numerazioneNuova">441</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXVIIII</titlePart>
+
+      <docDate xml:id="CCCCLXXVIIII_docDate">
+        <date when="1252-10-06">1252 ottobre 6</date>, <placeName>Tivegna <emph> (<term
+              xml:lang="latin">prope Tivegniam, in exercitu, in capanna Alberti de
+            Tivegna</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXXVIIII_regesto">
+        <p> Gli Aldeberti, nominalmente Gerardo Calatrono, Martino <term xml:lang="latin">de
+            Stranbo</term>, Aldebrandeto del fu Alberto di Iordano, Gualterino del fu Nozardo,
+          Bonifacio del fu Iordano, Palmerino, Enrico del fu Albertino di Armanno giurano fedeltà al
+          vescovo di Luni Guglielmo riguardo alla custodia del castello di Tivegna e ai redditti e
+          ai diritti detenuti nel castello. Il vescovo elegge castellani per l’anno Martino <term
+            xml:lang="latin">de Stranbo</term> e Palmerino del fu Albertino di Armanno. Gli
+          Adelberti si impegnano inoltre sotto giuramento a non offendere il comune di Pisa o alcun
+          Pisano nel distretto di Tivegna. Guido da Vezzano del fu Ugolino Buttiglione, Calandrino
+          del fu Paganello da Vezzano, Tedisio da Trebiano, Gerardo del fu Gandolfino da Carrara,
+          Guglielmo dei fu Alberto Mascaro, Federico del fu Peregrino da Padule, Parentino del fu
+          Manzeto, Iacopino del fu Alberto di Gandolfino, Guglielmo del fu Damensis della Brina e
+          Guiscardino del fu Martino de Greca da Sarzana si impegnano a pagare al vescovo mille lire
+          di imperiali nel caso che gli Aldeberti non adempiano agli impegni presi e costoro danno
+          licenza ai suddetti fideiussori di ricavare l’ eventuale ammontare della pena eventuale
+          dai loro beni. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 364r.-365r., cc. CCCLVr.-CCCLVIr., secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 479,
+            pp. 490-492.</p>
+        </div>
+
+
+        <div type="crit_notes">
+          <note> L’identificazione del notaio Buonalbergo redattore della minuta in Buonalbergo da
+            Carrara è ipotetica. La stesura in <emph>mundum</emph> è databile con incertezza tra il
+            1262 il 1272 dalla presenza del notaio Pasqualino. </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXVIIII. Iuramentum fidelitatis Aldebertorum.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+
+      <div xml:id="CCCCLXXVIIII_div">
+
+        <p xml:id="CCCCLXXVIIII_p_001" n="1"> In Dei nomine, amen. <date when="1252-10-06">Anno a
+            nativitate Eius M°CCLII, indictione X, VI intrantis octubris</date>. Ex hiis publicis
+          litteris sit omnibus manifestum quod domini <name ref="#AldebertiFamilia_Tivegna"
+            >Aldeberti</name>, videlicet <persName ref="#GerardusCalatronus">Gerardus
+            Calatronus</persName>, <persName ref="#MartinusStranbo">Martinus de Stranbo</persName>,
+            <persName ref="#AldebrandetusAlberti">Aldebrandetus quondam Alberti de
+            Iordano</persName>, <persName ref="#GualterinusNoçardi">Gualterinus quondam
+            Noçardi</persName>, <persName ref="#BonifaciusIordani">Bonifacius quondam
+            Iordani</persName>, <persName ref="#PalmerinusAlbertini">Palmerinus</persName>,
+            <persName ref="#HenricusAlbertini">Henricus quondam domini Albertini de
+            Armanno</persName> iuraverunt fidelitatem venerabili patri <persName ref="#GuilEpLuni"
+              ><roleName>domino</roleName> Guilielmo, <roleName>Dei gratia Lunensi
+              episcopo</roleName></persName>, recipienti nomine sui episcopatus, contra omnes
+          personas et loca de custodia castri <placeName ref="#Tivegna">Tivegne</placeName> et
+          redditibus et aliis que tenent et possident in ipso castro || <pb xml:id="fol_364v"
+            n="364v"/>a Lunensi curia et promiserunt et convenerunt eidem domino episcopo,
+          recipienti nomine sui episcopatus, non vendere vel donare, obligare vel alienare aut
+          distrahere seu permutare castrum <placeName ref="#Tivegna">Tivegne</placeName>, nec etiam
+          custodiam ipsius castri concedere in extraneam personam, preterquam inter consortes eorum,
+          sicuti eis pro consortatico custodia venerit, set ipsum castrum tenere et custodire et
+          guardare ad honorem, servicium et fidelitatem ipsius domini episcopi et suorum successorum
+          et episcopatus Lunensis, et castellanos ipsius terre deffendere et manutenere in omni
+          eorum iure et bona consuetudine et specialiter in ea iurisdictione quam habent et tenent
+          et habuerunt et tenuerunt hactenus a domino Lunensi episcopo et predecessoribus suis; et
+          pro predictis omnibus sic attendendis et observandis obligaverunt se suosque heredes et
+          eorum bona, ad penam <measure type="Imperiales" quantity="1000" unit="solidus">M librarum
+              <note place="foot" n="a" xml:id="CCCCLXXVIIII_n_001"> librarum: <emph>corretto su
+                precedente scrittura</emph>.</note> imperialium</measure>, quam ipsi<note
+            place="foot" n="b" xml:id="CCCCLXXVIIII_n_002"> ipsi: i <emph>finale corretta su</emph>
+            o.</note> domino episcopo, recipienti nomine sui episcopatus, solvere promiserunt, ipsi
+          et quilibet eorum, si contra predicta venerint vel fecerint, vel qui contra predicta
+          venerit vel fecerit ipsas <measure type="Imperiales" quantity="1000" unit="solidus">M
+            libras imperialium</measure> ipsi domino episcopo solvere teneatur et, ea soluta,
+          predicta omnia semper in suo robore perseverent. Et sic predictus dominus episcopus elegit
+          in castellanos pro anno presenti, ad custodiam ipsius castri, <persName
+            ref="#MartinusStranbo">Martinum de Stranbo</persName> et <persName
+            ref="#PalmerinusAlbertini">Palmerinum quondam Albertini de Armanno</persName>; et semper
+          qui castellanus vel castellani erunt dicti castri teneantur facere cauptionem bonam et
+          ydoneam <measure type="Imperiales" quantity="1000" unit="solidus">M librarum
+            imperialium</measure> de non alienando, vendendo, donando vel obligando seu permutando
+          aut distrahendo castrum predictum seu custodiam castri predicti, sub pena et obligatione
+          predicta. Insuper predicti domini <name ref="#AldebertiFamilia_Tivegna">Aldeberti</name>,
+          videlicet <persName ref="#GerardusCalatronus">Gerardus Calatronus</persName>, <persName
+            ref="#MartinusStranbo">Martinus de Stranbo</persName>, <persName
+            ref="#AldebrandetusAlberti">Aldebrandetus quondam Alberti de Iordano</persName>,
+            <persName ref="#GualterinusNoçardi">Gualterinus quondam Nozardi</persName>, <persName
+            ref="#BonifaciusIordani">Bonifacius quondam Iordani</persName>, <persName
+            ref="#PalmerinusAlbertini">Palmerinus</persName> et <persName ref="#HenricusAlbertini"
+            >Henricus quondam domini Albertini de Armanno</persName>, inter alia que venerabili
+          domino, Dei gratia Lunensi episcopo, iuraverunt et preter etiam fidelitatem ipsi domino
+          episcopo prestitam, iuraverunt ad sancta Dei evangelia non offendere <orgName ref="#Pisa_comune">commune <placeName
+            ref="#Pisa">Pisanum</placeName></orgName> nec aliquem Pisanum vel qui nomine censeatur Pisanus in
+            <placeName ref="#Tivegna">Tivegna</placeName>, curia et districtu et forcia, set ipsum
+          commune et omnes et singulos Pisanos et nomine Pisani censentur in ipsa terra et tota eius
+          fortia et districtu recipere, deffendere, salvare, guardare et manutenere, in personis et
+          rebus, ad eorum posse contra omnes personas et loca quousque contratam Lunixiane
+          tenuerint, et, si eam non tenuerint, ad voluntatem domini episcopi Lunensis suprascripti,
+          obligando se et eorum heredes et bona ad penam M librarum imperialium, quam ipsi domino
+          episcopo solvere promiserunt si contra predicta facerent vel venirent; et, ea soluta,
+          predicta semper nichillominus firma et illibata serventur. Ibidem dominus <persName
+            ref="#GuidoUgoliniButtilioni">Guido de <placeName ref="#Vezzano">Vezano</placeName>
+            quondam domini Ugolini Buttilioni</persName>, <persName ref="#CalandrinusPaganelli"
+            >Calandrinus quondam Paganelli de <placeName ref="#Vezzano"
+            >Vezano</placeName></persName>, <persName ref="#TedisiusTrebiano">Tedisius de <placeName
+              ref="#Trebiano">Trebiano</placeName></persName>, <persName ref="#GerardusGandulfini"
+            >Gerardus de <placeName ref="#Carrara">Carraria</placeName> quondam
+            Gandulfini</persName>, <persName ref="#GuilielmusAlberti">Guilielmus quondam domini
+            Alberti Mascardi</persName>, <persName ref="#FredericusPelegriniPal">Fredericus quondam
+            Peregrini de <placeName ref="#Padule">Padule</placeName></persName>, <persName
+            ref="#ParentinusManzeti">Parentinus quondam Manzeti</persName>, <persName
+            ref="#IacopinusAlberti">Iacopinus quondam Alberti de Gandulfino</persName>, <persName
+            ref="#GuilielmusDamensis">Guilielmus quondam Damensis de <placeName ref="#Brina"
+              >Brina</placeName>
+          </persName> et <persName ref="#GuiscardinusMartini">Guicardinus quondam Martini de Greca
+            de <placeName ref="#Sarzana">Sarzana</placeName></persName>, precibus suprascriptorum
+            <persName ref="#GerardusCalatronus">Gerardi Calatroni</persName>, <persName
+            ref="#MartinusStranbo">Martini de Stranbo</persName>, <persName
+            ref="#AldebrandetusAlberti">Aldebrandeti quondam Alberti de Iordano</persName>,
+            <persName ref="#GualterinusNoçardi">Gualterini quondam Nozardi</persName>, <persName
+            ref="#BonifaciusIordani">Bonifacii quondam Iordani</persName>, <persName
+            ref="#PalmerinusAlbertini">Palmerini</persName> et <persName ref="#HenricusAlbertini"
+            >Henrici quondam domini Albertini de Armanno</persName>, promiserunt et convenerunt
+          suprascripto domino episcopo, recipienti nomine sui episcopatus, facere et procurare quod
+          predicti <name ref="#AldebertiFamilia_Tivegna">Aldeberti</name> observabunt, attendent et
+            facient<note place="foot" n="c" xml:id="CCCCLXXVIIII_n_003">quod predicti Aldeberti
+            observabunt, attendent et facient: <emph>nel testo</emph> quod predicti observabunt,
+            attendent et facient Aldeberti <emph> con segno di richiamo per invertire l’ordine delle
+              parole.</emph></note> predicta omnia, ut superius promiserunt; et, si contra factum
+          fuerit seu predicta non servata fuerint, fecerunt et constituerunt se proprios et
+          principales debitores et pagatores apud suprascriptum dominum episcopum de predictis
+            <measure type="Imperiales" quantity="1000" unit="solidus">M libris
+          imperialium</measure>, promittentes ipsi domino episcopo dare et solvere ipsas <measure
+            quantity="1000" unit="solidus">M libras</measure> ei, si predicti <name
+            ref="#AldebertiFamilia_Tivegna">Aldeberti</name> predicta non observaverint, ut dictum
+          est, videlicet quilibet eorum <measure type="Imperiales" quantity="100" unit="solidus">C
+            libras imperialium</measure>, dantes ei licenciam ut sua auctoritate capiat de bonis
+          ipsorum usque in summam predicte quantitatis absque auctoritate alicuius iudicis vel
+          pretoris, promittentes ei reficere omnia dampna et expensas quas faceret vel haberet pro
+          predictis <measure quantity="1000" unit="solidus">M libris</measure> recuperandis et
+          conservare eum indempnem et non || <pb xml:id="fol_365r" n="365r"/> recusare iudicem coram
+          quo inde convenirent, set de ipsa quantitate stare coram quocumque iudice ipsos voluerit
+          idem dominus episcopus convenire et non petere inde libellum nec appellare a sententia
+          inde lata contra eos. Et pro predictis omnibus sic attendendis et observandis obligaverunt
+          se et eorum heredes et bona ipsi domino episcopo, recipienti nomine sui episcopatus,
+          renunciando iuri nove constitutionis et epistule divi Adriani, fori, doli exceptioni et
+          omni alii iuri et consuetudini et legum auxilio, quo vel qua possent contra predicta vel
+          contra aliquod predictorum venire vel tueri se a predictis vel ab aliquo predictorum, et
+          nominatim a predicta <supplied reason="omitted">pena</supplied>, quam tociens ipsi domino
+          episcopo solvere promiserunt quociens in eam inciderint; et, ea soluta, predicta semper
+          nichillominus robur habeant firmitatis. Insuper predicti <name
+            ref="#AldebertiFamilia_Tivegna">Aldeberti</name>, scilicet <persName
+            ref="#GerardusCalatronus">Gerardus Calatronus</persName>, <persName
+            ref="#MartinusStranbo">Martinus de Stranbo</persName>, <persName
+            ref="#AldebrandetusAlberti">Aldebrandetus quondam Alberti de Iordano</persName>,
+            <persName ref="#GualterinusNoçardi">Gualterinus quondam Nozardi</persName>, <persName
+            ref="#BonifaciusIordani">Bonifacius quondam Iordani</persName>, <persName
+            ref="#PalmerinusAlbertini">Palmerinus</persName> et <persName ref="#HenricusAlbertini"
+            >Henricus quondam domini Albertini de Armanno</persName> promiserunt et convenerunt
+          predictis <persName ref="#GuidoUgoliniButtilioni">Guidoni</persName>, <persName
+            ref="#CalandrinusPaganelli">Calandrino</persName>, <persName ref="#TedisiusTrebiano"
+            >Tedisio</persName>, <persName ref="#GerardusGandulfini">Gerardo</persName>, <persName
+            ref="#GuilielmusAlberti">Guilielmo quondam domini Alberti</persName>, <persName
+            ref="#FredericusPelegriniPal">Frederico</persName>, <persName ref="#ParentinusManzeti"
+            >Parentino</persName>, <persName ref="#IacopinusAlberti">Iacopino</persName>, <persName
+            ref="#GuilielmusDamensis">Guilielmo quondam Damensis</persName> et <persName
+            ref="#GuiscardinusMartini">Guicardino</persName> de predicta promissione et obligatione,
+          quam pro eis fecerunt apud suprascriptum dominum episcopum, eos conservare indempnes et
+          omnia dampna et expensas quas ea occasione facerent eis restaurare, dando et concedendo
+          eis licenciam et auctoritatem capiendi de bonis eorum usque in summam predict quantitatis
+          et dampni et expensarum inde habitarum seu factarum, obligando se et eorum heredes et bona
+          eis et eorum heredibus pro predictis omnibus sic attendendis et observandis ad predictam
+          penam et renunciando omni iuri et consuetudini et legum auxilio quo possent contra
+          predicta venire vel tueri se a predictis seu ab aliquo predictorum, et nominatim a
+          predicta pena, quam eis tociens solvere promiserunt quociens in eam inciderint; et, ea
+          soluta, predicta omnia semper robur obtineant firmitatis. Insuper predicti dominus
+          episcopus et <persName ref="#GualterinusNoçardi">Gualterinus</persName> sic pacti sunt
+          quod idem <persName ref="#GualterinusNoçardi">Gualterinus</persName> culpa vel dolo
+          predictorum <name ref="#AldebertiFamilia_Tivegna">Aldebertorum</name> in penam non
+          incidat, nisi ipse contra fecerit seu dolum vel culpam commiserit in predictis. </p>
+
+        <p xml:id="CCCCLXXVIIII_p_002" n="2"> Actum prope <placeName ref="#Tivegna"
+            >Tivegniam</placeName>, in exercitu , in capanna <persName ref="#AldebrandetusAlberti"
+            >Alberti de <placeName ref="#Tivegna">Tivegna</placeName></persName>, testibus <persName
+            ref="#UgolinusCrivano"><roleName>domino</roleName> Ugolino Crivano, <roleName>vicario
+              Lunisiane</roleName></persName>, <persName ref="#BacconoSymonis">Baccono Symonis
+            Bacconi <note place="foot" n="d" xml:id="CCCCLXXVIIII_n_004">Symonis Bacconi: <emph>nel
+                testo</emph> Bacconi Symonis <emph>con segno di richiamo per invertire l’ordine
+                delle parole.</emph></note></persName>, <persName ref="#AlbertusNozardi">Alberto
+            Nozardi</persName> et aliis multis presentibus et rogatis. </p>
+
+        <p xml:id="CCCCLXXVIIII_p_03" n="3">
+          <ptr target="#CCCCLXXVIIII_st_001"/> Ego <persName ref="#Pasqualinusnot">Pasqualinus,
+              <roleName>sacri palacii notarius</roleName></persName>, hanc cartam, abreviatam a
+            <persName ref="#Bonalbergusnot">Bonalbergo <roleName>notario</roleName></persName>, visa
+          eius sceda, ipso presente et eius precibus scripsi et proprio signo signavi <note>Stesura
+              <emph>in mundum</emph> del documento n. 441-CCCCLXXVIIII databile con incertezza tra
+            il 1260 e il 1272 dalla presenza di del notaio Pasqualino <date notBefore="1260-01-01"
+              notAfter="1272-12-31" cert="low"/></note>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

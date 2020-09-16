@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXXV_486">
+    <front xml:id="DXXV_front">
+
+      <titlePart type="numerazioneNuova">486</titlePart>
+      <titlePart type="numerazioneOrig">DXXV</titlePart>
+
+      <docDate xml:id="DXXV_docDate">
+        <date from="1279-02-21" to="1279-12-31">1279 febbraio 21 - dicembre 31</date>
+      </docDate>
+
+      <div type="regesto" xml:id="DXXV_regesto">
+        <p>Elenco dei 22 capifamiglia del comune della Brina redatto quando era vicario di Lunigiana
+          Pietro degli Arrighini di Pontremoli.</p>
+      </div>
+
+      <div type="footer" xml:id="DXXV_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] c. 390r., c. CCCLXXXIIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 525, p. 581.
+          </p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Manca l’indicazione del mese e del giorno, ma la lista è certamente posteriore al 20
+            febbraio (cfr 482-DXXI e 483-DXXII). L’autentica è del 1282.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXXV.
+              Fumantes de Brina dati domino Petro de Henriginis, vicario domini episcopi.
+            </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXXV_div">
+        <p xml:id="DXXV_p_001" n="1">In Dei nomine Eterni amen. Continetur in quodam libro fumantium
+          terrarum <orgName ref="#Lunigiana_vicaria">vicariatus <placeName ref="#Lunigiana"
+            ><expan>Lun<ex>ixiane</ex></expan></placeName></orgName>, facto et composito tempore
+            <roleName>domini</roleName>
+          <persName ref="#PetrusHenrighinis">Petri de Henriginis de <placeName ref="#Pontremoli"
+              >Pontremulo</placeName></persName>, <roleName>vicarii terrarum</roleName> venerabilis
+          patris domini <persName ref="#HenricusEpLuni">Henrici</persName>, <roleName>Dei gratia
+            Lunensis episcopi</roleName>, <date from="1279-02-21" to="1279-12-31">anno Domini
+            M°CCLXXIX, indictione VII</date>, videlicet in principio tituli sive rubrice ipsius, ut
+          inferius denotatur: «Infrascripti sunt fumantes terrarum et universitatum vicariatus
+            <placeName ref="#Lunigiana"><expan>Lun<ex>ixiane</ex></expan></placeName> dati et
+          scripti tempore <roleName>domini</roleName>
+          <persName ref="#PetrusHenrighinis">Petri de Henriginis de <placeName ref="#Pontremoli"
+              >Pontremulo</placeName></persName>, <roleName>vicarii terrarum domini</roleName>
+          <persName ref="#HenricusEpLuni">Henrici</persName>, <roleName>Dei gratia Lunensis
+            episcopi</roleName>, et <roleName>domini</roleName>
+          <persName ref="#EgidiusGualdinis">Egidii de Gualdinis de <placeName ref="#Parma"
+              >Parma</placeName></persName>, <roleName>iudicis et assessoris</roleName> ipsius
+          <orgName ref="#Lunigiana_vicaria">vicariatus</orgName>, <date from="1279-02-21" to="1279-12-31">anno Domini M°CCLXXIX,
+            indictione VII</date>». Item continetur in ipso libro, ut infra: «Infrascripti sunt
+          focolares <orgName ref="#Brina_comune">communis</orgName> de <placeName ref="#Brina">Brina</placeName>: <persName
+            ref="#Iofferrus">Iofferrus</persName>, <persName ref="#Brancalianus"
+            >Brancalianus</persName>, <persName ref="#Guilielmus">Guilielmus</persName>, <persName
+            ref="#Vivaldus">Vivaldus</persName>, <persName ref="#Pontremolinus"
+            >Pontremolinus</persName>, <persName ref="#PruinusCampi">Prohynus</persName> vel
+            <persName ref="#Campolus">Campolus</persName> pater eius, <persName ref="#Bonavere"
+            >Bonaverius</persName>, <persName ref="#Philippus">Philippus</persName>, <persName
+            ref="#VegnutusTedeschi">Vegnutus Tedeschi</persName>, <persName
+            ref="#RusticellusOpecini">Rustichellus Opecini</persName>, <persName ref="#Hengeramus"
+            >Hengheramus</persName>, <persName ref="#Parentinus">Parente</persName>, <persName
+            ref="#Arlotus">Arlotus</persName>, <persName ref="#Avitus">Avitus</persName>, <persName
+            ref="#Benedictus">Benedictus</persName>, <persName ref="#Iacobinellus"
+            >Iacobinellus</persName>, <persName ref="#Aldoinus">Aldovinus</persName>, <persName
+            ref="#Ugolinus">Ugolinus</persName>, <persName ref="#Iustonus">Iustonus</persName>,
+            <persName ref="#VegnutusViavechia">Vegnutus de <placeName ref="#Viavechia"
+              >Viavechia</placeName></persName>, <persName ref="#Bonvillanus"
+          >Bonvillanus</persName>».</p>
+        <div xml:id="DXXV_div2" type="autentica">
+          <p xml:id="DXXV_p_002" n="2"><ptr target="#DXXV_st_001"/> Ego <persName
+              ref="#BonacursusPetrinot">Bonacursus, filius Petri</persName>
+            <roleName>notarii</roleName> de <placeName ref="#Sarzana">castro Sarzane</placeName>,
+            <roleName>notarius sacri palatii</roleName>, prout hec in dicto libro curie <orgName ref="#Lunigiana_vicaria">vicariatus</orgName>
+              <placeName ref="#Lunigiana"><expan>Lun<ex>ixiane</ex></expan></placeName> inveni, ita
+            hic fideliter exemplavi, scripsi, autenticavi et in publicam formam redegi, et hec sic
+            feci de mandato et auctoritate et decreto que mihi dedit et concessit venerabilis pater
+              <roleName>dominus</roleName>
+            <persName ref="#HenricusEpLuni">Henricus</persName>, <roleName>Dei gratia Lunensis
+              episcopus</roleName>, <date when="1282-10-19"> anno Domini M°CCLXXXII, indictione X,
+              die XIX mensis octubris <note>Autentica del documento 486-DXXV.</note></date>, in
+              <placeName ref="#Sarzana">castro Sarzane</placeName>, in camera palatii dicti domini
+            episcopi, presentibus <persName ref="#BondiesRubeinot">Bondie
+                <roleName>notario</roleName>, filio domini Rubei</persName>
+            <roleName>iudicis</roleName> de <placeName ref="#Sarzana">Sarzana</placeName>, et
+              <roleName>domino</roleName>
+            <persName ref="#Ugolinusarc">Ugolino</persName>, <roleName>archipresbytero</roleName>
+            plebis de <placeName ref="#Castello">Castello</placeName>, Lunensis dyocesis, testibus
+            ad hec rogatis. </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

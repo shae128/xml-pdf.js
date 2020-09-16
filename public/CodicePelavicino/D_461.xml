@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="D_461">
+    <front xml:id="D_front">
+
+      <titlePart type="numerazioneNuova">461</titlePart>
+      <titlePart type="numerazioneOrig">D</titlePart>
+
+      <docDate xml:id="D_docDate">
+        <date when="1184-04-04">1184 aprile 4</date>, <placeName>Sarzanello <emph>(in castro
+            Sarzane, in camera palacii domini episcopi)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="D_regesto">
+        <p> Montanino del fu Gaforo di Fosdinovo e suo figlio Gaforo cedono al vescovo di Luni
+          Pietro tutto quanto possiedono nel castello di Fosdinovo, gli giurano fedeltà assieme ai
+          loro castellani e si impegnano a far giurare i loro uomini di Fosdinovo. Contestualmente
+          il vescovo restituisce ai due in feudo tutto quanto appena ricevuto. Se Montanino e
+          Gaforio moriranno senza eredi legittimi sarà del vescovo anche tutto quanto da loro
+          posseduto dalla terra posta sopra la pieve di San Lorenzo fino ad Aulla e al mare, dalle
+          Alpi (Apuane) alla porta Bertrami fino al mare e al fiume Magra seguendo il defluvio delle
+          acque attraverso il luogo detto Canevaria, fino a uno stagno che entra in mare. </p>
+      </div>
+
+      <div type="footer" xml:id="D_footer">
+        <div type="orig_doc">
+          <p>Copia di copia autentica</p>
+          <p>[C] cc. 374&lt;bis&gt;v.-375r., cc. CCCLXVIv.-CCCLXVIIr. secondo la numerazione
+            originale.</p>
+          <div type="biblio">
+            <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n.
+              500, pp. 527-529.</p>
+            <p>Bibliografia: FORMENTINI 1950; ZOPPI 2003; ZOPPI 2013, p. 9 e 23</p>
+            <p>Autentica del notaio Peregrino dell’8 aprile 1269.</p>
+          </div>
+          <div type="crit_notes">
+            <note>
+              <p><emph>Nel margine esterno, di mano moderna</emph>: venditio de Fosdenova venerabili
+                episcopo</p>
+            </note>
+          </div>
+          <div type="appr">
+            <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">D.
+                Venditionis Gaforii et Montanini, dominorum de Fosdenova, de omnibus que habebant in
+                Fosdenova et dominus episcopus reddidit eis in feudum, retinendo in se casamentis,
+                terris et casamentis.</term></p>
+          </div>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="D_div">
+        <p xml:id="D_p_001" n="1">
+          <ptr target="#D_st_001"/> In eterni Dei nomine, amen. Placuit et bona convenit voluntate
+          inter dominum <persName ref="#PetrusEpLuni">Petrum</persName>, <orgName
+            ref="#episcopus Lunensis">Dei gratia venerabilem patrem Lunensem episcopum</orgName>, ab
+          una parte, et <persName ref="#MontaninusFaucenova">Montaninum quondam Gafori</persName> de
+            <placeName ref="#Fosdinovo">Faucenova</placeName> et <persName ref="#GaforiusFaucenova"
+            >Gaforum eiusdem Montanini filium</persName>, ab alia parte, quod idem <persName
+            ref="#MontaninusFaucenova">Montaninus</persName>, una cum filio suo <persName
+            ref="#GaforiusFaucenova">Gaforo</persName>, dederunt, tradiderunt, concesserunt et per
+          cartule investituram firmaverunt Deo et episcopio Sancte Marie Lunensis ecclesie et
+          predicto domino <persName ref="#PetrusEpLuni"><expan>P<ex>etro</ex></expan></persName>,
+            <orgName>Lunensi episcopo</orgName>, pro remissione suorum peccatorum, totum quod habet
+          in castro <placeName ref="#Fosdinovo">Faucenova</placeName> seu in toto podio eiusdem
+          castri, tam in diviso quam in communi, tam in domignone quam in burgis eiusdem castri, in
+          casis, casamentis, turri, muris omnibusque meniis vel municionibus, cum ingressibus et
+          regressibus suis, totum in integrum, et in vassallis seu castellanis, tam quos nunc habent
+          quam quos in antea, Deo propicio, in eodem castro habuerint pro tempore, totum cedunt; et
+          dederunt episcopio Lunensi et predicto domino episcopo, recipienti pro ipso episcopio
+          suisque successoribus, faciendum exinde idem dominus episcopus suique successores iure
+          proprietario pro ipso episcopio in ius et usum proprietatis eiusdem episcopii quicquid
+          facere voluerint, sine omni eiusdem <persName ref="#MontaninusFaucenova"
+            >Montanini</persName> et <persName ref="#GaforiusFaucenova">Gafori</persName> suorumque
+          heredum contradictione, pro animarum suarum redemptione. Ad hec iuraverunt iamscriptam
+          dationem omni tempore firmam tenere et nullo ingenio contra ire et iuraverunt castellanos
+          suos et homines, quos ibi habent vel in antea habebunt, facere iurare quod adiuvabunt
+          retinere eidem domino episcopo et suis successoribus castrum <placeName ref="#Fosdinovo"
+            >Faucenovam</placeName> et quicquid ibi habent et salvare et guardare et personam ipsius
+          domini episcopi et habere et suam masnatam et suos adiutores et omnia ad ipsum pertinencia
+          ibidem infra omnes confines securitatis<note place="foot" n="a" xml:id="D_n_001"
+              ><term>securitatis</term>: ri <emph>aggiunto in sopralinea, con segno di
+              richiamo.</emph></note> eiusdem castri et quod numquam erunt in facto neque in
+          consilio quod infra predictos confines ullam habeat minimantiam<note place="foot" n="b"
+            xml:id="D_n_002"><term>minimantiam</term>: <emph>nel testo</emph> mininnantiam <emph>con
+              il primo tratto di nn espunto e depennato per trasformarlo in</emph> m</note> nec in
+          habere nec in persona nec in honore nec exfortiatum esse contra suam voluntatem studiose
+          seu fraudulenter ita quod esse ei minimantia nec consentire ne quovis ingenio operam dare
+          fraudulenter nec studiose; et, si forte contingerit quod noverint vel sentierint quod
+          aliquis vel aliqua vellet eum offendere in aliquo suprascriptorum, bona fide faciet
+          remanere ad suum posset<note place="foot" n="c" xml:id="D_n_003"><term>posset</term>: così
+            nel testo per posse.</note> ; quod, si facere remanere non posset, scire faciet domino
+          episcopo cicius quam poterit, sine fraude. Item tenebitur unusquisque quod, si forte
+          contingerit quod dominus episcopus amiserit predictum castrum, recuperare tenebuntur
+          adiuvare sine fraude ad suum posse et post recuperatum retinere. De omnibus suprascriptis
+          tenebuntur et predictis<note place="foot" n="d" xml:id="D_n_004"><term>predictis</term>:
+              <emph>così nel testo per</emph> predicti.</note>
+          <persName ref="#MontaninusFaucenova">Montaninus</persName> et <persName
+            ref="#GaforiusFaucenova">Gaforus</persName> et castellani seu homines eorum, tam quos
+          nunc habent quam quos in antea habuerint, contra omnes homines observare et attendere
+          predicto domino episcopo; et predictis<note place="foot" n="e" xml:id="D_n_005"><term>predictis</term>:
+            <emph>così nel testo per</emph> predicti.</note><persName ref="#MontaninusFaucenova"
+            >Montaninus</persName> et <persName ref="#GaforiusFaucenova">Gaforus</persName> tenentur
+          et semper tenebuntur similiter et tenebuntur, sacramento astricti, facere iurare suos
+          homines de <placeName ref="#Fosdinovo">Faucenova</placeName> sic teneri sacramento domino
+          episcopo suisque successoribus pro episcopio Lunensi et de hoc tenentur observare domino
+          episcopo suisque successoribus contra omnes homines. Quicumque vero de predictis
+          hominibus, tam de hiis qui modo sunt quam de hiis qui pro tempore fuerint, qui hoc
+          sacramentum facere comtempserit, dominus episcopus suique successores in ipsum vindictam
+          sumant ipse suique successores, sine omni predicti <persName ref="#MontaninusFaucenova"
+            >Montanini</persName> et <persName ref="#GaforiusFaucenova">Gafori</persName> et suorum
+          heredum contradictione. Et idem <persName ref="#MontaninusFaucenova">Montaninus</persName>
+          et <persName ref="#GaforiusFaucenova">Gaforus</persName> eorumque heredes tenebuntur illum
+          vel illos puniri sine fraude ad suum posse ad mandatum domini episcopi suique successoris
+          vel successorum; et quicumque ex heredibus suprascripti <persName
+            ref="#MontaninusFaucenova">Montanini</persName> et <persName ref="#GaforiusFaucenova"
+            >Gafori</persName> ab illis descendentibus legitimis noluerit facere et securare
+          predicto domino episcopo vel suis successoribus totum quod superius legitur, cadat ab omni
+          iure feudi et cuiuslibet beneficii quod habet ab episcopio Lunensi, postquam super hoc
+          requisitus fuerit. Si vero contingerit quod ipse <persName ref="#MontaninusFaucenova"
+            >Montaninus</persName> et <persName ref="#GaforiusFaucenova">Gaforus</persName> vel
+          eorum heredes decederent sine herede ab eius descendenti legitimo masculo vel femina,
+          totum quod habent et quicquid iuris habent quovis ingenio a <term ref="#iuva">iuva</term>
+          que est super <orgName ref="#Minucciano_S_Lorenzo">plebem Sancti Laurencii</orgName>, que
+          est ut aqua diffluit usque <placeName ref="#Aulla">Avulam</placeName> et usque ad mare et
+          sicut aqua diffluit ab <placeName ref="#Alpes">Alpibus</placeName> usque ad <placeName
+            ref="#PortaBertrami">Portam Bertrami</placeName> usque ad mare et a flumine <placeName
+            ref="#Magra">Macra</placeName> eundo usque ad mare per locum dictum <placeName
+            ref="#Canevaria">Canevariam</placeName> usque ad stagnum, et sicut stagnum intrat mare,
+          tam in monte quam in plano, tam in agro quam in<pb n="375r" xml:id="fol_375r"/>cultu,
+          divisim seu indivisim, tam in hominibus quam in tenutis, totum proveniat in usum et ius
+          proprietatis Lunensis episcopii pro redemptione animarum suarum. Et idem <persName
+            ref="#MontaninusFaucenova">Montaninus</persName> et <persName ref="#GaforiusFaucenova"
+            >Gaforus</persName>
+          <note place="foot" n="f" xml:id="D_n_006"><term>iuravit</term>: <emph>così nel
+              testo.</emph></note> hec omnia firmiter omni tempore observare et in nullo contraire
+          per se nec per suos heredes nec per aliquam submitentem personam et tenentur eodem
+          sacramento non vetare, adire, intrare, habere, retinere dominum episcopum predictum
+          castrum de <placeName ref="#Fosdinovo">Faucenova</placeName> guarnitum nec scaritum et
+          retinere et adiuvare eum infra omnes confines securitatis de <placeName ref="#Fosdinovo"
+            >Faucenova</placeName> in habere et persona et honore et sua <note place="foot" n="g"
+            xml:id="D_n_007"><term>masnata</term>: <emph>nel testo</emph> masnasta <emph>con la
+              prima</emph> s <emph>aggiunta in sopralinea, la seconda</emph> s
+            <emph>espunta.</emph></note> et suis adiutoribus; et, si auferrent castrum, adiuvare et
+          recuperare et recuperatum retinere. Item tenebuntur partiri homines de <placeName
+            ref="#Fosdinovo">Faucenova</placeName> quos habent vel habebunt communes cum aliis
+          consortibus quando dominus episcopus vel eius successor voluerit. Quicumque vero de
+          consortibus suprascripti <persName ref="#MontaninusFaucenova">Montanini</persName> et
+            <persName ref="#GaforiusFaucenova">Gafori</persName> voluerit sacramento teneri domino
+          episcopo infra confines securitatis de <placeName ref="#Fosdinovo">Faucenova</placeName>,
+          sicut tenentur eidem <persName ref="#MontaninusFaucenova">Montanino</persName> et
+            <persName ref="#GaforiusFaucenova">Gaforo</persName>, ipse dominus episcopus teneatur
+          illi sicut et idem <persName ref="#MontaninusFaucenova">Montaninus</persName> et <persName
+            ref="#GaforiusFaucenova">Gaforus</persName> tenentur infra confinem securitatis. Dominus
+          quoque episcopus reddidit in feudum predicto <persName ref="#MontaninusFaucenova"
+            >Montanino</persName> et <persName ref="#GaforiusFaucenova">Gaforo</persName> totum quod
+          ipsi dederant ei, sicut superius legitur, excepta domo quam habitant in eodem castro, que
+          est iuxta casam <persName ref="#GerardusFaucenova">Gerardi</persName> et dividitur cum ea
+          quam idem dominus episcopus retinuit sibi in donico cum plateis circumquaque positis et
+          sibi coherentibus et eidem case pertinentibus et cum ingressu et regressu eiusdem case. </p>
+        <p xml:id="D_p_002" n="2">
+          <date when="1184-04-04">Actum est hoc anno M°C octogesimo IIII, indictione II, die
+            mercurii, qui fuit IIII intrante aprili</date>, in camera domini episcopi, feliciter et
+          cum stipulatione subnixa. # Signa manuum suprascripti <persName ref="#MontaninusFaucenova"
+            >Montanini</persName> et <persName ref="#GaforiusFaucenova">Gafori</persName> et domini
+          episcopi, qui hanc cartulam fieri rogaverunt. # # Signa manuum
+            <roleName>magistri</roleName>
+          <persName ref="#PetrusSismundi">Petri Sismundi</persName>, <persName
+            ref="#GuilielmusBianchi">Guilielmi Blanchi</persName>, <persName ref="#GerardusAmelia"
+            >Gerardi de <placeName ref="#Amelia">Amelia</placeName></persName>, <persName
+            ref="#VenturaPanigaci">Venture quondam Panigacii</persName>, rogatorum testium. </p>
+        <p xml:id="D_p_003" n="3">
+          <ptr target="#D_st_002"/> Ego <persName ref="#Lombardusnot">Lombardus</persName>,
+            <roleName>domini imperatoris et Lunensis curie notarius</roleName>, interfui et rogatus
+          hanc cartulam scripsi. </p>
+        <div type="autentica">
+
+          <p xml:id="D_p_004" n="4">
+            <ptr target="#D_st_003"/> Ego <persName ref="#Peregrinusnot">Peregrinus</persName>,
+              <roleName>summi pontificis auctoritate notarius ac iudex ordinarius<note place="foot"
+                n="h" xml:id="D_n_008"><term>ordinarius</term>: <emph>aggiunto in sopralinea, con
+                  segno di richiamo.</emph></note></roleName>, auctenticum, unde hoc sumptum est,
+            vidi, legi et ascultavi, in presentia domini <persName ref="#NormanninusNormanniud"
+              >Normannini</persName>
+            <roleName>iudicis et locum vicarii</roleName> tenentis in <orgName ref="#Lunigiana_provincia">provincia <placeName
+              ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre domino Guilielmo, <roleName>Dei
+              gratia Lunensi episcopo</roleName>, et nullo addito vel diminuto de verbo ad verbum
+            fideliter exemplavi et eius licencia et mandato in publicam scripturam redegi. Hec omnia
+            acta sunt in <placeName ref="#Sarzanello">castro Sarzane</placeName>, in camera palacii
+            ipsius domini episcopi, presentibus <roleName>domino <persName ref="#Rubeusiud"
+                >Rubeo</persName> iudice</roleName> de <placeName ref="#Sarzana">Sarzana</placeName>
+            et Iacobino <roleName>archipresbytero</roleName> de <placeName ref="#Amelia"
+              >Amelia</placeName>, testibus ad hec vocatis. <date when="1269-04-08"> Anno a
+              nativitate Domini M°CCLXIX, indictione XII, octavo aprilis <note>Autentica del
+                documento n. 461-D.</note></date>
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

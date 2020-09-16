@@ -1,0 +1,1825 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="LIII_80">
+        <front xml:id="LIII_front">
+            <titlePart type="numerazioneNuova">80</titlePart>
+            <titlePart type="numerazioneOrig">LIII</titlePart>
+            <docDate xml:id="LIII_docDate">
+                <date when="1219-03-08">1219 marzo 8</date>, <placeName>Brancaliano (<term
+                        xml:lang="latin">in burgo de Brancaliano, in ecclesia Sancti
+                        Bartholomei</term>).</placeName>
+            </docDate>
+            <div type="regesto" xml:id="LIII_regesto">
+                <p> Bandino dei Gaetani di Pisa emette sentenza riguardo alla lite tra il vescovo di
+                    Luni Marzucco e il comune di Sarzana, rappresentato dai consoli Montonaro del fu
+                    Parisio e Buonincontro di Ameglia. Assalito del fu Tignoso, sindaco del vescovo
+                    Marzucco, aveva chiesto a Masnerio del fu Palmerio, sindaco del comune di
+                    Sarzana, 100 marche d’argento e 200 lire in denari imperiali per non avere
+                    osservato i patti a suo tempo stabiliti con il defunto vescovo Gualtiero e
+                    redatti dal notaio Conforto; aveva inoltre chiesto che fosse restituito quanto
+                    il comune deteneva a titolo di feudo per conto dell’episcopato lunense; 150 lire
+                    in denari imperiali per le spese sostenute per la pacificazione di Trebiano su
+                    un totale di 400 spese dal vescovo; che il comune non imponesse più dazi agli
+                    uomini del vescovo con restituzione del maltolto; che la piazza del mercato
+                    fosse lasciata libera da qualsiasi locazione; che non fosse contrastata
+                    l’attività di appello del vescovo; che fosse versata la <term xml:lang="latin"
+                        >saltaria</term> delle terre e vigne nei luoghi stabiliti e la metà delle
+                    pene indebitamente comminate e riscosse dai consoli o dai rettori del comune;
+                    che non si eleggessero consoli o podestà senza che non giurassero obbedienza al
+                    vescovo, né si nominassero tabellioni se non assegnati dal vescovo; aveva
+                    chiesto infine 50 lire di imperiali per le spese processuali. Da parte sua
+                    Masnerio aveva chiesto ad Assalito 100 marche d’argento in denari imperiali o di
+                    Parma e altre 500 lire in denari imperiali o di Parma o altre monete correnti in
+                    Lunigiana e poi altre 100 lire per danni, ribadendo la non ingerenza del vescovo
+                    nel governo del borgo. Sentite le ragioni delle parti e vista la documentazione
+                    prodotta, Bandino sentenzia a favore del vescovo Marzucco e stabilisce che il
+                    comune e il popolo di Sarzana tengano fede ai patti un tempo sottoscritti col
+                    vescovo Gualtiero. </p>
+            </div>
+            <div type="footer" xml:id="LIII_footer">
+
+                <div type="orig_doc">
+                    <p> Copia di copia autentica [C] cc. 146v.-156v., cc. CXXXVIIIv.-CXXXVIIIv.
+                        secondo la numerazione originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione in <ref target="#PODESTÀ_1893">PODESTÀ 1893</ref>, pp. 77-97.</p>
+                    <p>Regesto in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, p.
+                        89.</p>
+                </div>
+                <div type="crit_notes">
+                    <note> Autentica databile al 1257 per la menzione di Guiscardo di Pietrasanta,
+                        al terzo mandato come podestà di Lucca, e del vescovo di Lucca Enrico. </note>
+                    <note>Nel margine superiore, al centro: <term xml:lang="latin">Exemplum</term>
+                        rubricato e centrale.</note>
+                    <note> Nel margine esterno di c. 146v., di mano moderna: <term xml:lang="latin"
+                            >Compromissum factum ab hominibus Sarzanae et ab episcopo in nobili viro
+                            Bandino Gaetano de omnibus suis controversiis (nobili viro</term>
+                        corretto da altra mano in sopralinea su <term xml:lang="latin">quodam</term>
+                        depennato). </note>
+                    <note> Nel margine esterno di c. 147r., di mano moderna: <term xml:lang="latin"
+                            >Compromissum factum ab hominibus Sarzanae et ab episcopo in nobili viro
+                            Bandino Gaetano de omnibus suis controversiis</term> (<term
+                            xml:lang="latin">nobili viro</term> corretto da altra mano in sopralinea
+                        su <term xml:lang="latin">quodam</term> depennato). </note>
+                    <note> Nel margine esterno di c. 155v., di mano moderna: <emph>sententia lata
+                            per arbitrum partium</emph>
+                    </note>
+                    <note> Nel margine interno di c. 156r., di mano moderna: <term xml:lang="latin"
+                            >condempnatio</term>. Poco più in basso, della stessa mano: <term
+                            xml:lang="latin">absolutio</term>
+                    </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LIII. Sententia Bandini Gaitani inter dominum episcopum
+                            et homines de Sarçana.</term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="LIII_div">
+                <p xml:id="LIII_p_001" n="1">In nomine Patris et Filii et Spiritus Sancti, amen. Ego
+                        <persName ref="#BandinusGaitani">Bandinus Gaetani</persName>,
+                        <roleName>arbiter</roleName> ex compromisso electus a
+                        <roleName>domino</roleName>
+                    <persName ref="#MarzuccusEpLuni">Marzucco</persName>, <roleName>Dei gratia<note
+                            place="foot" n="b" xml:id="LIII_n_002">gratia: <emph>nel testo</emph> ga
+                                <emph>con segno generico di abbreviazione, in un secondo tempo la
+                                stessa mano ha depennato</emph> a <emph>con un tratto orizzontale in
+                                inchiostro rosso e aggiunto un’altra</emph> a <emph>in sopralinea,
+                                sempre in inchiostro rosso.</emph></note> Lunensi
+                        episcopo</roleName>, pro ipso episcopatu, ex una parte, et a <persName
+                        ref="#MontonariusParisii">Muntonario quondam Parisii</persName> et <persName
+                        ref="#BonencontrusAmelia">Bononcontro de <placeName ref="#Ameglia"
+                            >Amelia</placeName></persName>, <roleName>consulibus burgi de</roleName>
+                    <placeName ref="#Sarzana">Sarzana</placeName>, pro <orgName ref="#Sarzana_comune">communi ipsius burgi</orgName>, ex
+                    altera, ad diffiniendas omnes lites et controversias <pb n="147r"
+                        xml:id="fol_147r"/> quas inter se habebant vel habere poterant per rationem
+                    legum et per rationem usus curie in questionibus feodi et aliis que coram me
+                    moveretur ad usum curie pertinentibus, promittentibus vicissim inter se, ad
+                    penam <measure type="Imperiales" quantity="100" unit="libra">librarum centum
+                        imperialium</measure>, rato manente compromisso inter se per stipulationem
+                    promissam, tenere firmum et habere ratum et facere et observare totum et
+                    quicquid de predictis litibus et discordiis dicerem isto modo vel ordinarem aut
+                    diffinirem et contra non venire, nec facere per se vel per alium, ut continetur
+                    in compromisso ante a <persName ref="#Silvesternot">Silvestro</persName>
+                    <roleName>iudice et notario</roleName> rogato, predictas quidem lites et
+                    discordias ad predictam penam per rationem sic diffinio. Siquidem <persName
+                        ref="#AssalitusTiniosi">Assolitus<note place="foot" n="c"
+                            xml:id="LIII_n_003">Assolitus: <emph>così nel testo per</emph>
+                            Assalitus.</note>quondam Tiniosi</persName>,
+                        <roleName>syndicus</roleName>
+                    <roleName>domini</roleName>
+                    <persName ref="#MarzuccusEpLuni">Marzuchi</persName> predicti, <roleName>Dei
+                        gratia Lunensis episcopi</roleName>, et episcopatus Lunensis, pro ipso
+                    domino <persName ref="#MarzuccusEpLuni">Marzucco</persName>
+                    <roleName>episcopo</roleName> et episcopatu, egit contra commune et populum de
+                        <placeName ref="#Sarzana">Sarzana</placeName> et contra <persName
+                        ref="#MasneriusPalmerii">Masnerium quondam Palmerii</persName>,
+                        <roleName>syndicum vel actorem</roleName> burgi de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> et communis et populi eiusdem burgi et pro ipso burgo
+                    et communi et populo, petens ab eodem communi et populo et syndico vel actore
+                    predicti burgi et communis et populi pro ipso burgo et communi et populo et eius
+                    nomine <measure type="Marcharum" quantity="100" unit="denarius">marchas centum
+                        argenti</measure> pro pena et nomine <supplied reason="omitted"
+                        >pene</supplied> et <measure type="Imperiales" quantity="200" unit="libra"
+                        >libras ducentas imperialium</measure> promitentem<note place="foot" n="d"
+                        xml:id="LIII_n_004">promitentem: <emph>così nel testo probabilmente
+                            per</emph> pro mulcta.</note>, ea ratione quia consules et populus et
+                    commune dicti burgi, vel consules, nomine ipsius burgi et communis et populi et
+                    pro ipso, non observaverunt pacta et conventa, que fuerunt inter bone memorie
+                        <persName ref="#GualEpLuni">Gualterium</persName>, <roleName>olim Lunensem
+                        episcopum</roleName>, pro episcopatu, ex una parte, et consules predicti
+                    burgi, pro ipso burgo et communi et populo eiusdem burgi, et etiam ipsum
+                    populum, ex altera, comprehensa in carta scripta atque rogata per <persName
+                        ref="#Confortusnot">Confortum</persName>
+                    <roleName>notarium</roleName>, et quia in ea venerunt et fecerunt et quia
+                    promiserunt dicto episcopo illa pacta et conventa omnia observare et firma et
+                    rata habere et tenere et in nullo contra venire nec facere, et quia sub pena
+                        <measure type="Marcharum" quantity="100" unit="denarius">centum marcharum
+                        argenti</measure> promiserunt dicto episcopo dicta pacta servare et firma
+                    tenere et in nullo contra facere vel venire, et quia tantum interest istius
+                    domini episcopi et episcopatus Lunensis quod predicti consules et populus de
+                        <placeName ref="#Sarzana">Sarzana</placeName> non observaverunt predicta
+                    pacta, et quia contra venerunt et fecerunt quantum suprascriptum est, item, ut
+                    dictum est, petebat <measure type="Imperiales" quantity="200" unit="libra"
+                        >libras ducentas imperialium</measure> pro pena sive banno vel muleta<note
+                        place="foot" n="e" xml:id="LIII_n_005">muleta: <emph>così nel testo
+                            per</emph> mulcta.</note>. Ea ratione quod, cum predicti consules
+                    offendissent dictum episcopum et contra eius rationes et iura multum fecissent,
+                    idem dominus episcopus mandavit eis et precepit, sub pena <measure
+                        type="Imperiales" quantity="200" unit="libra">librarum ducentarum
+                        imperialium</measure> vel plurium, ut iurarent inde precepta sua et eidem
+                    satisfacerent, in quam penam seu bannum ceciderunt, non fecerunt sicut eis<note
+                        place="foot" n="f" xml:id="LIII_n_006">eis: <emph>corretto su</emph> eisdem
+                            <emph>con</emph> dem <emph>depennato.</emph></note> mandavit et
+                    precepit, et quia idem dominus episcopus est iudex et dominus predicti burgi et
+                    consulum et populi eiusdem burgi et iurisdictionem habet super eos, egit etiam,
+                    ut dictum est, de predictis actione, ex stipulatu, et currenti condictione, ex
+                    stipulatu, et currenti condictione generali et condictione et lege et legibus et
+                    ex moribus et consuetudine atque actione in factum subsidiaria, et prescriptis
+                    verbis et iudicum vel arbitri officio predictis egit directis et utilibus. </p>
+                <p xml:id="LIII_p_002" n="2"> Item, ut suprascriptum est, petiit ut omnia que
+                    commune et populus burgi de <placeName ref="#Sarzana">Sarzana</placeName> habuit
+                    vel habebat in feodum a Lunensi episcopo vel episcopatu ei dimittant <pb
+                        n="147v" xml:id="fol_147v"/> et restituant. Ea ratione quia de iure
+                        atque<note place="foot" n="g" xml:id="LIII_n_007">atque: <emph>corretto su
+                            precedente scrittura.</emph></note> consuetudine feodorum predictum
+                    feodum amiserunt, et quia ipsum episcopum graviter offenderunt et honores et
+                    iura predicti domini episcopi et episcopatus diminuerunt et ei auferre et
+                    diminuere pluribus modis conati sunt, et quia plures iniurias dicto episcopo et
+                    episcopatui intulerunt, atque multis modis contra fidelitatem et contra alia
+                    sacramenta specialiter prestita et contra honores et iura episcopi et
+                    episcopatus fecerunt et venerunt, petiit etiam predicta, ut suprascriptum est,
+                    suprascriptis rationibus et ex consuetudine curiarum et feodorum; item, ut
+                    suprascriptum est, petiit <measure type="Imperiales" quantity="150" unit="libra"
+                        >libras centum quinquaginta imperialium</measure> pro parte dicto populo
+                    istius burgi contingente de expensis factis a dicto episcopo pro discordia et
+                    occasione discordie que fuit de facto <placeName ref="#Trebiano"
+                        >Trebbiani</placeName>. Ea ratione quia dictus episcopus expendit, pro bono
+                    et utilitate tocius episcopatus Lunensis et pro discordia sedanda, <measure
+                        type="Imperiales" quantity="400" unit="libra">libras quadrigentas
+                        imperialium</measure>, et quia tantum de predictis expensis isto burgo et
+                    communi et populo contingit, et quia gerendo negocium atque utilitatem tocius
+                    episcopatus Lunensis tantum expensum fuit ab eo quantum suprascriptum est, et
+                    quia homines istius episcopatus consueverunt conferre et dare episcopo Lunensi
+                    ad expensas quas faciebat seu fecit pro negocio seu utilitate comitatus
+                    Lunensis, et quia ipsi in culpa fuerunt et culpam commiserunt, propter quam
+                    discordia fuit et egit de predictis, ut suprascriptum est, actione negociorum
+                    gestorum currenti condictione generali et condictione ex lege et legibus et
+                    moribus, consuetudine curiarum et feodorum in factum subsidiaria et iudicum vel
+                    arbitri officio predicta etiam petiit, salvo iure addendi vel diminuendi et
+                    mutandi. </p>
+                <p xml:id="LIII_p_003" n="3"> Item petiit, ut suprascriptum est, ut commune de
+                        <placeName ref="#Sarzana">Sarzana</placeName> vel aliquis, nomine communis,
+                    non tollat datia<note place="foot" n="h" xml:id="LIII_n_008">datia: <emph>nel
+                            testo con segno generico di abbreviazione superfluo.</emph></note>
+                    hominibus prefati domini episcopi et totum quod abstulerunt reddant. Ea ratione
+                    quia contra voluntatem predicti episcopi tenent suprascriptos homines suos in
+                    burgo de <placeName ref="#Sarzana">Sarzana</placeName> atque contra eius
+                    voluntatem ibi morantur, cum eos ibi tenere et esse non debeant, et proponit
+                    dictus syndicus domini episcopi de istis contra syndicum communis et populi
+                    burgi de <placeName ref="#Sarzana">Sarzana</placeName> pro ipso communi et
+                    populo interdictum uti possidetis et condictionem sine causa vel i<supplied
+                        reason="omitted">u</supplied>sta causa et actione in factum redditam loco
+                    interdictorum et currenti condictionem generalem in factum subsidiariam et
+                    iudicum officium, item prefatus syndicus prefati <roleName>domini</roleName>
+                    <persName ref="#MarzuccusEpLuni">Marzucci</persName> petiit a suprascripto
+                    communi atque populo de <placeName ref="#Sarzana">Sarzana</placeName> et ab
+                    eodem syndico vel actore communis predicti burgi, pro communi et populo predicti
+                    burgi, ut ipse, pro communi et populo predicti burgi, et idem commune et populus
+                    faciant et observent et firma semper et rata haberent et teneant omnia pacta et
+                    conventiones, que et quas consules et consiliarii et homines de <placeName
+                        ref="#Sarzana">Sarzana</placeName>, pro communi et populo eiusdem burgi, et
+                    ipsum commune et populus fecerunt cum predicto <roleName>domino</roleName>
+                    <persName ref="#GualEpLuni">Gualterio</persName>
+                    <roleName>episcopo</roleName> vel cum alio pro eo, ut in carta rogata per
+                        <persName ref="#Confortusnot">Confortum</persName>
+                    <roleName>notarium</roleName> continetur. </p>
+                <p xml:id="LIII_p_004" n="4"> Et etiam petiit a predicto syndico, pro communi
+                    predicti burgi, et ab ipso communi et populo<note place="foot" n="i"
+                        xml:id="LIII_n_009">populo: o <emph>finale corretta su</emph> s.</note>, ut
+                    liberam et expeditam pro prefato episcopo permittant atque patiantur plateam de
+                    mercato libere et sine aliqua contradictione, et ut, si aliquam locationem inde
+                    fecerunt, ut revocent et nichil<note place="foot" n="j" xml:id="LIII_n_0010"
+                        >nichil: <emph>nel testo</emph> nichil <emph>con</emph> h <emph>e</emph> c
+                            <emph>invertite.</emph></note> ulterius ibi faciant. </p>
+                <p xml:id="LIII_p_005" n="5"> Item petiit ab eodem ut si quis iudicatus vel
+                    sententiatus fuerit de aliquo maleficio et <pb n="148r" xml:id="fol_148r"/> ipse
+                    ad curiam domini episcopi appellaverit, ut de appellatione et de aliis ipsum vel
+                    ipsos esse coram prefato episcopo patiantur, et ipsum vel ipsos non gravent, ea
+                    ratione quia predicta ad prefatum episcopatum pertinent et pertinere debent, et
+                    quia prefata platea est episcopatus predicti et ad predictum episcopatum
+                    pertinet et pertinere debet. Ea ratione quia predicti de <placeName
+                        ref="#Sarzana">Sarzana</placeName> sunt de iurisdictione sua et de curia
+                    Lunensis episcopatus et etiam petiit ab eo ut dent vel dari faciant saltariam de
+                    omnibus terris, ubi sunt vinee vel esse consueverunt in omnibus locis et
+                    confinibus, inter predictum <roleName>dominum</roleName>
+                    <persName ref="#MarzuccusEpLuni">Marzucum</persName>
+                    <roleName>episcopum</roleName> et homines de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> designatis, ea ratione quia ius est prefati episcopi et
+                    episcopatus istam saltariam habere debere atque, antea quam vinee ibi essent,
+                    consuetudo est et fuit prefati episcopi ipsum episcopatum habere debere
+                    predictam saltariam, quia equum est et iustum predicta sic dari ipsi, et etiam
+                    de predictis omnibus agit<note place="foot" n="k" xml:id="LIII_n_0011">agit:
+                            <emph>così nel testo.</emph></note> contra prefatum syndicum eiusdem
+                    suprascriptis actoribus supra positis. </p>
+                <p xml:id="LIII_p_006" n="6"> Item petiit ab eodem communi et populo et syndico, ut
+                    suprascriptum est, ut permittant et non impediant ipsum habere medietatem omnium
+                    bannorum que aufferenda<note place="foot" n="l" xml:id="LIII_n_0012">aufferenda:
+                        u <emph>aggiunta in sopralinea.</emph></note> erunt vel aufferentur
+                    hominibus exbannitis a communi predicto vel consulibus sive rectoribus ipsius
+                    communis et etiam ipsam medietatem ipsorum bannorum ipsi solvant vel solvi
+                    faciant et non recipiant vel reconcilient aliquos exbannitos vel aliquem
+                    exbannitorem, nec recipi vel reverti permittant in predictum burgum sine
+                    parabola predicti episcopi et nisi prius soluta fuerit ei medietas tocius banni
+                    vel pecunie solvendi vel solvende a predictis exbannitis vel aliquo eorum; et si
+                    aliter de aliquibus exbannitis vel de aliquo fecerint ut domino episcopo inde
+                    satisfaciant et medietatem tocius pecunie, quam inde receperunt, ipsa reddant,
+                    ea ratione quia ius est consuetudo et fuit predicti episcopi et episcopatus
+                    predicta habere, atque ut ista, sicut petita sunt, ei fiant a communi et populo
+                    istius burgi et a consulibus et rectoribus et hominibus ipsius burgi atque quia
+                    predicta ad eum pertinent, proponit etiam de istis etiam predictum commune et
+                    populum et contra syndicum, pro eodem communi et populo, omnes suprascriptas
+                    actiones. </p>
+                <p xml:id="LIII_p_007" n="7">
+                    <persName ref="#MasneriusPalmerii">Masnerius</persName> predictus,
+                        <roleName>syndicus</roleName> sive actor vel procurator vel responsalis,
+                    dilatoriis initio litis primo oppositis de iure et maxime ex usu curie sive
+                    curiarum non respondendo, nisi unde et pro quibus facta est positio, respondendo
+                    in questionibus legum, secundum legem, et perhemptoriis omnibus atque
+                    compensationibus, si in aliquo appareret debitum, item opponit quod contraria
+                    petit et debet eligere utrum petat res sibi dimitti vel restitui, paratus tantum
+                    dare atque facere, pro predicto communi et universitate, quod debet sive per
+                    cartam vel alio modo, ut consuevit, et non aliter, et habendo et recipiendo, ut
+                    consuevit dictum commune habere atque facere, et non credit seu tenere negat se
+                    teneri et predicta facere. </p>
+                <p xml:id="LIII_p_008" n="8"> Item <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> predictus, <roleName>syndicus et actor</roleName>
+                    <roleName>domini</roleName>
+                    <persName ref="#MarzuccusEpLuni">Marzucci</persName>, <roleName>Lunensis
+                        episcopi</roleName>, pro ipso episcopatu, petiit a communi et populo burgi
+                    de <placeName ref="#Sarzana">Sarzana</placeName> et a <persName
+                        ref="#MasneriusPalmerii">Masnerio</persName>, <roleName>syndico</roleName>
+                    vel actore ipsius burgi et populi et pro ipso communi et populo, ut non habeant
+                    nec teneant pro <roleName>consulibus</roleName> dicti burgi <persName
+                        ref="#MontonariusParisii">Montonarium</persName> et <persName
+                        ref="#BonencontrusAmelia">Bononcontrum</persName> vel aliquem eorum, nec
+                    obediant eis in aliquo, et ut removeant et reiciant eos ab omni officio et
+                    administratione <pb n="148v" xml:id="fol_148v"/> consulatus, in quo de facto
+                    esse videntur, cum ipsi non sint consules nec esse debeant, atque ut deinceps
+                    non eligant, nec eligi faciant, nec habeant vel teneant aliquem consulem vel
+                    potestatem sive pro consule vel potestate dicti burgi, nisi fuerit cum consensu
+                    dicti episcopi, et non habeant nec teneant aliquem tabellionem, nec utantur
+                    officio tabellionis, nisi prius fuerit a dicto episcopo burgensibus assignatus
+                    cum vero fit eius ius predicta vel aliquod eorum facere vel habere, et ut dicti
+                    burgenses et commune et populus dicti burgi permittant et non impediant dictum
+                    episcopum vel eius nuncios recolligere et percipere et habere saltariam de
+                    omnibus terris comprehensis infra confines designatos in carta scripta a
+                        <persName ref="#Prefectusnot">Prefecto</persName>
+                    <roleName>notario</roleName>, quia predicta saltaria et nisi possessio vel quasi
+                    ipsius saltarie est dicti episcopi et episcopatus et ad eum pertinet, atque
+                    omnia predicta dictus <persName ref="#AssalitusTiniosi">Assalitus</persName>
+                    petit, ut dictum est, omnibus actionibus et iuribus et rationibus sibi pro dicto
+                    episcopo et episcopatu et ipsi episcopo competentibus et competituris. </p>
+                <p xml:id="LIII_p_009" n="9">
+                    <persName ref="#MasneriusPalmerii">Masnerius</persName> predictus, syndicus vel
+                    actor vel procurator vel responsalis, dilatoriis initio litis primo oppositis et
+                    de iure et maxime ex usu curie sive curiarum non respondendo, nisi unde et pro
+                    quibus facta est positio, respondendo in questionibus usus curie, secundum usum
+                    curie et curiarum, atque in questionibus legum, secundum legem, et perhemptoriis
+                    omnibus et compensationibus, si in aliquo appareret debitum; item opponit quod
+                    contraria petit et debet eligere utrum petat res sibi dimitti vel restitui,
+                    paratus tantum facere et dare, pro predicto communi et universitate, quod debet
+                    sive per cartam vel alio modo, ut consuetum est, et non aliter, et habendo et
+                    recipiendo, ut consuetum est, dictum commune habere et facere quod non credit
+                    seu teneri negat se teneri atque predicta facere. </p>
+                <p xml:id="LIII_p_010" n="10"> Petiit etiam prefatus <persName
+                        ref="#AssalitusTiniosi">Assalitus</persName>
+                    <measure type="Imperiales" quantity="50" unit="libra">libras quinquaginta
+                        imperialium</measure> pro expensis istis litibus factis. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> predictus respondit quod non
+                    credit se teneri. </p>
+                <p xml:id="LIII_p_011" n="11"> Et contra <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> predictus, pro dicto communi et universitate et populo
+                    pro quibus respondit predictus <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName>, petiit a predicto <persName ref="#AssalitusTiniosi"
+                        >Assalito</persName>, syndico vel actore vel responsale domini episcopi et
+                    episcopatus pro ipso et episcopatu, respondentem<note place="foot" n="m"
+                        xml:id="LIII_n_0013">respondentem: <emph>così nel testo per</emph>
+                        respondente.</note> pro eo, quod non observatum eius<note place="foot" n="n"
+                        xml:id="LIII_n_0014">eius: <emph>errore del copista per</emph> eis.</note>
+                    fuit ut conventitum<note place="foot" n="o" xml:id="LIII_n_0015">conventitum:
+                            <emph>così nel testo per</emph> conventum.</note> vel statu<supplied
+                        reason="omitted">tu</supplied>m fuit seu ordinatum aut pactum vel promissum
+                    et contra factum, <measure type="Marcharum" quantity="100" unit="denarius"
+                        >centum marchas argenti vel imperialium vel parammisiaru<supplied
+                            reason="omitted">m</supplied><note place="foot" n="p"
+                            xml:id="LIII_n_0016">parammisiaru<supplied reason="omitted"
+                            >m</supplied>: <emph>così nel testo per</emph>
+                        parmensium.</note></measure> tantum volentes pro dampno vel interesse aut
+                    pena et pro predictis non observatis. </p>
+                <p xml:id="LIII_p_012" n="12"> Item in alia parte pro dampno tantum seu interesse et
+                    predictis non observatis et in contrafacto <measure type="Imperiales"
+                        quantity="50" unit="libra">libras quingentas imperialium vel
+                        parmensium</measure> tantum valentes seu alias monetas in <placeName
+                        ref="#Lunigiana">Lunisiana</placeName> currentes. </p>
+                <p xml:id="LIII_p_013" n="13"> Item petiit ut observet per omnia de casamentis seu
+                    territoriis vel terrenis dandis et assignandis et faciendis de eis atque de
+                    nemoribus, ut statutum et ordinatum fuit et concessum, de pascuis et de
+                    retinendis hominibus et ad illum verum<note place="foot" n="q"
+                        xml:id="LIII_n_0017">verum: <emph>lettura incerta</emph></note> et de
+                    faciendo ei in sollempnitatibus, ut debet seu consuetum fuit melius et de
+                    promittendo eos habere et facere ut melius consuetum<note place="foot" n="r"
+                        xml:id="LIII_n_0018">consuetum: <emph>così nel testo forse per</emph>
+                        conventum.</note> fuit, atque ut de appellationibus et ripis et aliis se non
+                    intromittant, vel causis quam<note place="foot" n="s" xml:id="LIII_n_0019">quam:
+                        qu <emph>corretto su precedente scrittura.</emph></note> ordinatum fuit, et
+                    eos permittat facere et habere omnia, ut ordinatum seu consuetum vel statutum
+                    fuit, et volendo dare et facere quod debet et quod compensare implus<note
+                        place="foot" n="t" xml:id="LIII_n_0020">implus: <emph>così nel
+                        testo.</emph></note> atque aliis, salvo iure. </p>
+                <p xml:id="LIII_p_014" n="14"> Item petiit ne commune vel consules vel universitatem
+                    vel populum <pb n="149r" xml:id="fol_149r"/> de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> gravet seu molestet in honeste<note place="foot" n="u"
+                        xml:id="LIII_n_0021">honeste: <emph>così nel testo per</emph> hoste.</note>
+                    vel cavalcata vel stare ultra quam ordinatum fuit vel teneat seu compellat stare
+                    vel esse vel ire per se vel per alium; et pro ultra facto gravamine seu pro suo
+                    dampno vel interesse seu expensis, petiit <measure type="Imperiales"
+                        quantity="100" unit="libra">libras centum imperialium vel monetas
+                        dictas</measure> tantum valentes utrumque petendo et<note place="foot" n="v"
+                        xml:id="LIII_n_0022">et: <emph>corretto su precedente
+                        scrittura.</emph></note> tantus altero et sic in aliis similibus supra
+                    petitis addendo quod utrumque petit et tantus altero et hec petiit, salvo iure
+                    addendi et mutandi et minuendi. </p>
+                <p xml:id="LIII_p_015" n="15"> Item petiit ne aliquem dominum seu rectorem vel
+                    potestatem vel consules ponat seu super ponat predicto communi vel populo seu
+                    burgo, generalem seu specialem, sine eorum licencia vel assensu et consensu, cum
+                    ei predicta facere ius non sit, atque cum <persName ref="#Ranucius"
+                        >Ranuccium</persName> proposuerit contra eorum voluntatem et ut non debuit
+                    atque salva eorum ratione et tocius episcopatus, si cum habere non deberint et
+                    quod eis non preiudicet seu preiudicaret <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName>, <roleName>syndicus</roleName> et actor domini
+                        <persName ref="#MarzuccusEpLuni">Marzucci</persName>, <roleName>episcopi
+                        Lunensis</roleName> et episcopatus, salvo si suprascriptus <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> est
+                        <roleName>syndicus</roleName> vel actor suprascripti<note place="foot" n="w"
+                        xml:id="LIII_n_0023">vel actor suprascripti communis: <emph>nel testo</emph>
+                        suprascripti communis vel actor <emph>con segno di richiamo per invertire
+                            l’ordine delle parole.</emph></note> communis et populi, vel esse
+                    potest, obiicit exceptiones omnes sibi competentes pro episcopatu et pro
+                    nominato episcopatui<note place="foot" n="x" xml:id="LIII_n_0024">episcopatui:
+                            <emph>così nel testo per episcopo o, meno probabilmente, per</emph>
+                        episcopatu</note> tam perhemptorias quam dilatorias, atque nominati ex
+                    ineptis petitionibus et inutilibus et ex persona
+                        <expan>con<ex>v</ex>entis</expan> et doli et in factum
+                            <expan>except<ex>ione</ex></expan> opponit hec,
+                        <expan>dic<ex>ens</ex></expan> dicturus et alia plura de iure et facto usque
+                    ad finem cause et cum diversa petat et quasi contraria petat, nisi eligat et
+                    exprimat que ex diversis vel contrariis atque quo iure petit et exprimat quibus,
+                    omnibus salvis negat se teneri pro episcopatu et ipsum episcopatum. At predictus
+                        <persName ref="#AssalitusTiniosi">Assalitus</persName> ad suam intentionem
+                    fundandam has positiones et confessiones enim eius<note place="foot" n="y"
+                        xml:id="LIII_n_0025">eius: <emph>così nel testo per</emph> eis.</note>
+                    factas pro dicto episcopatu induxit. </p>
+                <p xml:id="LIII_p_016" n="16"> Dicit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod Lunensis episcopus pro episcopatu est comes et
+                    iudex castri et burgi de <placeName ref="#Sarzana">Sarzana</placeName> et
+                    quarundam terrarum Lunensis episcopatus pro episcopatu. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> negat episcopum Lunensem esse
+                    comitem vel iudicem pro imperio. </p>
+                <p xml:id="LIII_p_017" n="17"> Item dicit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod Lunensis episcopus habet iurisdictionem in castro
+                    et burgo de <placeName ref="#Sarzana">Sarzana</placeName>, in quibusdam terris
+                    episcopatus. <persName ref="#MasneriusPalmerii">Masnerius</persName> negat ipsum
+                    Lunensem episcopum habere omnem iurisdictionem, set hanc iurisdictionem habet
+                    quod appellatio que fuit a sentenciis lectis a consulibus de Sarzana fuit ad
+                    episcopum. Item si habet aliam iurisdictionem respondit preterea <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> quod cum concordia burgi
+                    potest aptare mensuras et staria<note place="foot" n="z" xml:id="LIII_n_0026"
+                        >staria: <emph>lettura incerta perché la pergamena è completamente
+                            abrasa.</emph></note> et secchias et inde pertinenti dixit se dixisse et
+                    intellexisse tantum mensuras. </p>
+                <p xml:id="LIII_p_018" n="18">
+                    <supplied reason="omitted">Item dicit</supplied>
+                    <persName ref="#AssalitusTiniosi">Assalitus</persName> quod imperator Romanus
+                    concessit Lunensi episcopo antecessori prefati <persName ref="#MarzuccusEpLuni"
+                        >Marzuchi</persName>, <roleName>Lunensis episcopi</roleName>, pro Lunensi
+                    ecclesia, ut esset comes et iudex castri et burgi de Sarzana et quarundam
+                    aliarum terrarum episcopatus. <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> negat de burgo. </p>
+                <p xml:id="LIII_p_019" n="19"> Item dicit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod episcopus Lunensis habet talem iurisdictionem in
+                    castro et burgo de <placeName ref="#Sarzana">Sarzana</placeName> quod quicumque
+                    vult venire ad episcopum Lunensem<note place="foot" n="aa" xml:id="LIII_n_0027"
+                        >enim eius-ad episcopum Lunensem: <emph>il testo sembra essere stato abraso
+                            e riscritto da altra mano.</emph></note> atque facere querimoniam de
+                    quocunque de burgo de <placeName ref="#Sarzana">Sarzana</placeName>, episcopus
+                    est iudex ipsius et cognoscit et diffinit et delegat, secundum voluntatem suam.
+                        <persName ref="#MasneriusPalmerii">Masnerius</persName> negat ipsum esse
+                    iudicem atque confitetur quod si volunt conqueri episcopo, conqueruntur
+                    episcopo, et si volunt conqueri consulibus conqueruntur, et de eis cognoscit
+                    episcopus et diffinit cum apud eum conqueruntur, et diffiniunt consules cum eis
+                    sit querimonia; omittit causas episcopus si volunt litigantes. Item
+                        interrogat<supplied reason="omitted">us</supplied> si contra voluntatem
+                    partis iudicium rei committit episcopus et postea respondit quod contra
+                    voluntatem partis amittit<note place="foot" n="bb" xml:id="LIII_n_0028">amittit:
+                            <emph>nel testo</emph> admittit <emph>con</emph> a <emph>corretto su
+                            segno di</emph> com <emph>e</emph> d <emph>espunto.</emph></note>. </p>
+                <p xml:id="LIII_p_020" n="20"> Item dicit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod homines burgi de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>, <pb n="149v" xml:id="fol_149v"/> cum dominus <persName
+                        ref="#MarzuccusEpLuni">Marzuccus</persName> fuit factus Lunensis episcopus,
+                    receperunt ipsum pro domino et fecerunt ipsi sacramentum fidelitatis et
+                    nominatim in sacramento fidelitatis fuit iuratum quod, si episcopus amitteret
+                    comitatum vel episcopatum, quod iuvarent ipsum recuperare atque recuperatum
+                    manutenere. <persName ref="#MasneriusPalmerii">Masnerius</persName>
+                    <supplied reason="omitted">respondit</supplied> quod recepit ipsum <persName
+                        ref="#MarzuccusEpLuni">Marzuccum</persName> pro domino quia erat episcopus
+                    et fuit et confitetur quod iuraverunt ei manutenere comitatum, si illum
+                    haberent. </p>
+                <p xml:id="LIII_p_021" n="21"> Item, interrogatus <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> si iuramentum fidelitatis fuit factum sine
+                    suprascripta condictione, respondit: «confitetur». </p>
+                <p xml:id="LIII_p_022" n="22"> Item dicit quod, postquam fuit dominus <persName
+                        ref="#MarzuccusEpLuni">Marzuccus</persName> Lunensis episcopus, fuit
+                    discordia inter quosdam homines de burgo et illi iuraverunt stare sub eo, sub
+                    eius mandatis, sicut sub iudice ordinario. Respondit quod iuraverunt de pace sub
+                    eo, sicut sub iudice ordinario. </p>
+                <p xml:id="LIII_p_023" n="23"> Item dicit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod in serentia<note place="foot" n="cc"
+                        xml:id="LIII_n_0029">serentia: <emph>così nel testo per</emph>
+                        sententia.</note> vel laudamento, quam vel quod dedit episcopus Lunensis
+                    inter <persName ref="#Aldeprandusvic2"
+                            ><expan>A<ex>l</ex>de<ex>brandu</ex>m</expan></persName>
+                    <roleName>visdominum</roleName> et <persName ref="#HubertusParentis">Hubertum
+                        Parentis</persName>, pronunciavit ipse et dixit quod homines terrarum ipsius
+                    episcopi deberent iurare esse pro illa parte que sententiam tenent<note
+                        place="foot" n="dd" xml:id="LIII_n_0030">tenent: <emph>così nel testo
+                            per</emph> tenet.</note> contra illam partem que contra sententiam
+                    veniret vel faceret, et hoc sacramentum fecerunt homines burgi. Predictus
+                        <persName ref="#MasneriusPalmerii">Masnerius</persName> respondit quod
+                    homines burgi de <placeName ref="#Sarzana">Sarzana</placeName> iuraverunt
+                    predictum sacramentum quod cum discordia male veniebat, quia partiti erant inter
+                    se de discordia suprascripta et per consilium hominum de <placeName
+                        ref="#Sarzana">Sarzana</placeName>, quod negat <persName
+                        ref="#AssalitusTiniosi">Assalitus</persName> quod idcirco fecissent. </p>
+                <p xml:id="LIII_p_024" n="24"> Item dicit quod homines de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> in predicto iuramento iuraverunt tenere inter se firmam
+                    predictam sententiam et ordinamenta que in<note place="foot" n="ee"
+                        xml:id="LIII_n_0031">in: <emph>corretto su precedente
+                        scrittura.</emph></note> ipsa erant et contra non venire et quod in ipsa
+                    sententia continebatur de solvendis <measure type="Imperiales" quantity="12"
+                        unit="denarius">denariis XIIcim</measure> per focum ab hominibus terrarum
+                    ipsius, et quod ipsos <measure type="Imperiales" quantity="12" unit="denarius"
+                        >XIIcim denarios</measure> solvere omnes homines de <placeName
+                        ref="#Sarzana">Sarzana</placeName> vel maior pars eorum. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> predictus respondit quod
+                    credit inde sicut in cartis inde factis de iuramentis et de aliis continetur et
+                    non aliter; atque postea dixit quod iuraverunt pacem tenere firmam et esse
+                    contra eum qui contra ipsam veniret. Negat quod iuraverunt sententiam firmam
+                    tenere et confitetur quod solverunt maior pars hominum de <placeName
+                        ref="#Sarzana">Sarzana</placeName>
+                    <measure type="Imperiales" quantity="12" unit="denarius">denarios XII</measure>
+                    per focum pro anathemate quod fecit episcopus. </p>
+                <p xml:id="LIII_p_025" n="25"> Item dicit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod episcopus Lunensis, antecessor
+                        <roleName>domini</roleName>
+                    <persName ref="#MarzuccusEpLuni">Marzucci</persName>, concessit hominibus
+                        burgi<note place="foot" n="ff" xml:id="LIII_n_0032">burgi: <emph>nel
+                            testo</emph> de Sarzana burgi <emph>con segno di richiamo per invertire
+                            l’ordine delle parole.</emph></note> de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> uti querimoniis que fierent de hominibus burgi
+                    consulibus ipsius burgi, post litem indeceptam<note place="foot" n="gg"
+                        xml:id="LIII_n_0033">indeceptam: de <emph>aggiunto in sopralinea con segno
+                            di richiamo.</emph></note> possent inde cognoscere et diffinire.
+                        <persName ref="#MasneriusPalmerii">Masnerius</persName> negat concessionem
+                    inde factam fuisse, set confitetur contra concordiam fuisse inter homines burgi
+                    et episcopum ut illi qui vellent conqueri consulibus quod possent similiter
+                    conqueri; et ita dicit optentum esse ab annis centum atque ab eo tempore quo
+                    fuit optentum et cetera nisi ex concessione facta ab episcopo. </p>
+                <p xml:id="LIII_p_026" n="26"> Item dicit quod, quando debebat fieri translatio
+                    ecclesie Lunensis ad burgum de <placeName ref="#Sarzana">Sarzana</placeName>,
+                    pacta et conventa fuerunt inter <persName ref="#GualEpLuni"
+                        >Gualterium</persName>, <roleName>episcopum Lunensem</roleName>, pro ipso
+                    episcopatu, ex una parte, et commune hominum burgi de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> atque ipsos homines, ex altera, de consulibus in ipso
+                    burgo eligendis et de placitis et de bannis et de devetis et aliis pluribus.
+                        <persName ref="#MasneriusPalmerii">Masnerius</persName> negat pacta et
+                    conventiones intervenisse inter commune burgi et episcopum, set dicit inter
+                    quosdam homines de burgo et prefatum <roleName>episcopum</roleName>
+                    <persName ref="#GualEpLuni">Gualterium</persName> fuisse ordinamentum de
+                    devectis faciendis cum ipso in concordia et de consulibus faciendis, <pb
+                        n="150r" xml:id="fol_150r"/> ut fecerunt antiquitus, et de placitis
+                    similiter, ut antiquitus, et de bannis similiter, ut antiquitus. </p>
+                <p xml:id="LIII_p_027" n="27"> Item dicit quod pacta et conventa, que fuerunt inter
+                    homines de burgo de <placeName ref="#Sarzana">Sarzana</placeName> et prefatum
+                        <persName ref="#GualEpLuni">Gualterium</persName>
+                    <roleName>episcopum</roleName>, fuerunt firmata et promissa sub pena <measure
+                        type="Marcharum" quantity="100" unit="denarius">centum marcharum
+                        argenti</measure>. <persName ref="#MasneriusPalmerii">Masnerius</persName>
+                    negat pro communi vel<note place="foot" n="hh" xml:id="LIII_n_0034">vel:
+                            <emph>segue abraso e depennato</emph> pro.</note> aliquibus pro communi
+                    vel ab aliis pacta firmata sub pena predicta que fuerit promissa episcopo. </p>
+                <p xml:id="LIII_p_028" n="28"> Item dicit quod hoc ius, scilicet ut consules non
+                    eliguntur in burgo de <placeName ref="#Sarzana">Sarzana</placeName> sine
+                    consensu et assensu episcopi Lunensis et successorum eius, si illud habet vel
+                    habere debet pro honore et utilitate episcopatus valet episcopo vel episcopatui
+                        <measure type="Imperiales" quantity="1000" unit="libra">libras mille
+                        imperialium</measure>. <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod episcopus habeat vel habere debeat ius predictum
+                    negat, set dicit homines burgi habere ius faciendi consules, set non aliquem
+                    nisi sit vassallus episcopi, et, si haberet<note place="foot" n="ii"
+                        xml:id="LIII_n_0035">haberet: <emph>segue depennato</emph> ius.</note>
+                    episcopatus ius predictum, credit quod valeret episcopatui usque in soldos
+                    centum imperialium. </p>
+                <p xml:id="LIII_p_029" n="29"> Dicit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod a viginti annis hucusque modo homines et commune
+                    de burgo de Sarzana consueti sunt habere consiliarios. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> respondit quod credit quod
+                    habuerunt iam sunt anni LXta et plus. </p>
+                <p xml:id="LIII_p_030" n="30"> Dicit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod homines de dicto burgo pro communi istius burgi
+                    venerunt vel miserunt ad dictum episcopum omni anno postquam ipse fuit
+                    episcopus, quando debebant mutari consules de burgo, antequam novos consules
+                    haberent, atque dicebant ei: «Tales consules habere volumus», petentes inde
+                    consensum eius. <persName ref="#MasneriusPalmerii">Masnerius</persName> negat in
+                    totum. </p>
+                <p xml:id="LIII_p_031" n="31"> Dicit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod cum <persName ref="#Petrus">Petro<note
+                            place="foot" n="jj" xml:id="LIII_n_0036">Petro: <emph>così nel testo
+                                per</emph> Petrus</note></persName> vel alius pro communi de burgo
+                    de <placeName ref="#Sarzana">Sarzana</placeName> nominasset atque petisset a
+                    suprascripto episcopo quod volebat ut suprascriptus esset consul de <placeName
+                        ref="#Sarzana">Sarzana</placeName>, ipse episcopus dixit quod non placebat
+                    ei et sic non fuit consul suprascriptus, set <persName ref="#GerardusVillani"
+                        >Gerardus Villani</persName>; negat predicta omnia, set quod <persName
+                        ref="#GerardusVillani">Gerardus</persName> fuerit consul confitetur. </p>
+                <p xml:id="LIII_p_032" n="32"> Dicit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod quando debebant mutari consules in burgo de
+                        <placeName ref="#Sarzana">Sarzana</placeName>, antequam sciretur publice
+                    quis deberet esse consul, aliqui homines de dicto burgo vel aliquis pro communi
+                    dicti burgi venerunt ad episcopum suprascriptum, petentes ab eo assensum de
+                    consulibus quos habere volunt, dicentes ipsi: «Tales consules habere volumus».
+                        <persName ref="#MasneriusPalmerii">Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_033" n="33"> Dicit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod consuetudo est in villis et locis terrarum
+                    Lunensis episcopi quod non ponuntur in hiis consules sine consensu episcopi vel
+                    eius nuncii, et non aliter; negat quod de omnibus ita sit<note place="foot"
+                        n="kk" xml:id="LIII_n_0037">ita sit: <emph>nel testo</emph> sit ita
+                            <emph>con segno di richiamo per invertire l’ordine delle
+                        parole.</emph></note>, set confitetur de castro de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>, homines de isto castro, cum consilio suprascripti
+                    episcopi, fuerunt consules, et idem confitetur de <placeName ref="#Carrara"
+                        >Carrara</placeName> et de <placeName ref="#Castelnuovo">Castello
+                        Novo</placeName>; negat et de villis ante positionem predicti castri; et
+                    idem dicit de <placeName ref="#Bolano">Bolano</placeName> et de <placeName
+                        ref="#Confeccino">Confeccino</placeName> et de <placeName ref="#Nizola"
+                        >Nicola</placeName> et de <placeName ref="#Santo_Stefano">Sancto
+                            Stephano<note place="foot" n="ll" xml:id="LIII_n_0038">Stephano: h
+                                <emph>corretto su precedente scrittura.</emph></note></placeName>. </p>
+                <p xml:id="LIII_p_034" n="34"> Item dicit quod quicumque est castaldio Lunensis
+                    episcopi in castro de <placeName ref="#Sarzana">Sarzana</placeName>, est consul
+                    ipsius castri et idem dicit de eo qui est castaldio <placeName
+                        ref="#Castelnuovo">Castelli Novi</placeName> et de <placeName
+                        ref="#Confeccino">Confeccino</placeName> et de <placeName ref="#Nizola"
+                        >Nichola</placeName>; confitetur de castro de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>, de aliis negat. </p>
+                <p xml:id="LIII_p_035" n="35"> Item dicit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod in hoc presenti anno homines de burgo de
+                        <placeName ref="#Sarzana">Sarzana</placeName> elegerunt consules in predicto
+                    burgo sine consensu suprascripti episcopi et etiam ipso contradicente.
+                    Confitetur <persName ref="#MasneriusPalmerii">Masnerius</persName> quod sine
+                    consensu episcopi suprascripti fuerunt electi et, sicut consueverunt, fuerunt
+                    electi, set postquam fuerunt electi placuit episcopo; quod <persName
+                        ref="#AssalitusTiniosi">Assalitus</persName> negat et <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> negat contradictionem. </p>
+                <p xml:id="LIII_p_036" n="36"> Item dicit quod post electionem prohibuit eis
+                    episcopus ne intromittant se de consulatu. <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_037" n="37"> Item dicit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod consules et homines burgi tenuerunt homines
+                        episcopi<note place="foot" n="mm" xml:id="LIII_n_0039">homines episcopi:
+                            <emph>aggiunto nel margine esterno in carattere più
+                        ridotto.</emph></note> atque eo contradicente et nominatim <persName
+                        ref="#RustichellusCitadine">Rustichellum Citadine</persName>. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> negat et confitetur <pb
+                        n="150v" xml:id="fol_150v"/> quod <persName ref="#RustichellusCitadine"
+                        >Rustichellus</persName> est homo suprascripti episcopi, set negat quod
+                    fuerit detentus contra voluntatem suprascripti episcopi. Item dicit <persName
+                        ref="#AssalitusTiniosi">Assalitus</persName> quod homines de <placeName
+                        ref="#Sarzana">Sarzana</placeName> pro communi dicti burgi abstulerunt
+                    datium hominibus episcopi suprascripti, postquam episcopus dixit eis ne ipsos
+                        tenere<supplied reason="omitted">n</supplied>t et eos iurare fecerunt
+                    sacramentum communis. <persName ref="#MasneriusPalmerii">Masnerius</persName>
+                    negat. </p>
+                <p xml:id="LIII_p_038" n="38"> Item dicit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod, postquam dictus episcopus fuit hoc anno delatus
+                    infirmus de <placeName ref="#Sarzana">Sarzana</placeName> in lecto <placeName
+                        ref="#Pisa">Pisa</placeName> fecerunt illi, qui pro communi de <placeName
+                        ref="#Sarzana">Sarzana</placeName> erant, iurare homines suos qui habitant
+                    in burgo sacramentum communis et abstulerunt eis datium vel prestanciam.
+                        <persName ref="#MasneriusPalmerii">Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_039" n="39"> Item dicit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod postquam dictus episcopus prohibuit consulibus
+                    dicti burgi vel alicui consulum ne imbrigaret se de facto mercati, fecerunt ibi
+                    causas. <persName ref="#MasneriusPalmerii">Masnerius</persName> negat quod
+                    fecerit causas, ut consuetum est; confitetur quod fecerunt contra prohibitionem
+                    episcopi; negat et si prohibitio facta fuit de facto et non de iure. </p>
+                <p xml:id="LIII_p_040" n="40"> Item ponit et dicit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod homines burgi de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> vel maior pars iuraverunt antecessori
+                        <roleName>domini</roleName>
+                    <persName ref="#MarzuccusEpLuni">Marzucci</persName>, <roleName>Lunensis
+                        episcopi</roleName>, non esse in consilio vel facto quod admitterent<note
+                        place="foot" n="oo" xml:id="LIII_n_0040">admitterent: d <emph>aggiunta in
+                            sopralinea dalla stessa mano.</emph></note> episcopatum vel comitatum
+                    Lunensem et, si admitterent, adiuvare eos manutenere. Respondit ut supra,
+                    excepto quod eorum fuit initio quod iuraverunt si comitatum haberent quod
+                    tenerentur, sin autem non. </p>
+                <p xml:id="LIII_p_041" n="41"> Item dicit quod <roleName>dominus</roleName>
+                    <persName ref="#MarzuccusEpLuni">Marzuccus</persName>, <roleName>Lunensis
+                        episcopus</roleName>, et eius antecessores dederunt et dare consueverunt
+                    more homines burgi de <placeName ref="#Sarzana">Sarzana</placeName> pupillis et
+                    aliis minoribus de ipso burgo et quod emancipationes suprascripte<note
+                        place="foot" n="pp" xml:id="LIII_n_0041">suprascripte: <emph>corretto su
+                            precedente scrittura.</emph></note> seu per eum et eos. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> confitetur quod si viderit
+                        cartulas<note place="foot" n="qq" xml:id="LIII_n_0042">cartulas: s
+                            <emph>finale corretta su precedente lettera.</emph></note> de facto
+                        <supplied reason="omitted">et</supplied> de iure, aliter negat. </p>
+                <p xml:id="LIII_p_042" n="42"> Item quod, pro querimoniis ante ipsum et eius
+                    antecessores factis, dedit ipse dominus episcopus et dederunt eius antecessores
+                    et dare consueverunt tenutas seu miserunt vel mitti fecerunt in possessionem
+                    actores contra eos qui, citati, non veniebant ante ipsum et eius antecessores.
+                    Respondit ut supra, si viderit cartas de facto confitetur de iure, et aliter
+                    negat. </p>
+                <p xml:id="LIII_p_043" n="43"> Item quod imposuerunt<note place="foot" n="rr"
+                        xml:id="LIII_n_0043">imposuerunt: <emph>così nel testo per</emph>
+                        imposuit.</note> idem episcopus et imposuerunt eius antecessores et imponere
+                    consueverunt ipse et eius antecessores in dicto burgo banna et devecta quod ab
+                    eis de burgo, quin bannum vel devecta<note place="foot" n="ss"
+                        xml:id="LIII_n_0044">devecta: <emph>nel manoscritto con segno generico di
+                            abbreviazione superfluo.</emph></note> inciderunt, aufferri fecit ipse
+                    atque eius antecessores fecerunt et aufferri facere consueverunt penam sive
+                    bannum. <persName ref="#MasneriusPalmerii">Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_044" n="44"> Item quod in dicto burgo idem episcopus et eius
+                    antecessores posuerunt vel poni fecerunt et poni facere consueverunt mensuras
+                    blave, vini<note place="foot" n="tt" xml:id="LIII_n_0045">vini: v <emph>corretta
+                            su precedente scrittura.</emph></note> et pannorum et olei et pondera
+                    atque si qui vel si quis de burgo invenirentur vel inveniretur non habere rectas
+                    mensuras et recta pondera, frangebantur a nunciis dicti episcopi, pro eo, et a
+                    nunciis antecessorum eius, pro ipsis, ille mensure que non inveniebantur recte
+                    et recta et penam tollebant predicti nuncii, pro dicto episcopo et eius
+                        antecessorum<note place="foot" n="uu" xml:id="LIII_n_0046">antecessorum:
+                            <emph>così nel testo per</emph> antecessoribus</note>, qui malas
+                    mensuras vel mala pondera habere inveniebantur. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_045" n="45"> Item quod nuncii dicti episcopi et nuncii
+                    antecessorum eius, pro eis, ceperunt et capere consueverunt in dicto burgo
+                    latrones, fures, tricatores, paltones et falsarios atque inde vindictam facere
+                    et, si capiuntur ab aliis, mittuntur ad curiam episcopi ut inde fiat iusticia.
+                        <persName ref="#MasneriusPalmerii">Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_046" n="46"> Item quod vidue et puelle de dicto burgo, que cum
+                    poderibus maritabantur vel maritari debebant, sunt maritate cum consensu et
+                    licencia dicti episcopi atque eius antecessorum vel antecessoris et non sine
+                    eius vel eorum licencia, exceptis a quodam tempore illis mulieribus que erant in
+                    domibus filiorum quondam <persName ref="#GerardusVillani">Villani</persName>.
+                        <persName ref="#MasneriusPalmerii">Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_047" n="47"> Item quod homines burgi predicti per commune burgi et
+                    pro ipso communi fecerunt hostem et cavalcatam pro antecessoribus dicti episcopi
+                    et facere consueverunt, quando alie terre episcopi Lunensis seu Lunensis
+                    ecclesie <pb n="151r" xml:id="fol_151r"/> hostem et cavalcatam faciebant.
+                        <persName ref="#MasneriusPalmerii">Masnerius</persName> negat, nisi ut actum
+                    et pactum fuit usque ad certos dies et loca. </p>
+                <p xml:id="LIII_p_048" n="48"> Item quod consules anni proxime preteriti, vel
+                    aliquis eorum, verberaverunt vel verberavit nuncium eiusdem episcopi et in
+                    mercato faciebant causas contra interdictum eius et retinebant homines suos in
+                    burgo contra eius voluntatem et homines, qui intraverant super poderibus
+                    episcopatus sine voluntate episcopi, non eiciebant de burgo cum idem episcopus
+                    illos homines pro nunciis<note place="foot" n="vv" xml:id="LIII_n_0047">nunciis:
+                        iis <emph>corretto su precedente scrittura.</emph></note> teneret, et cum
+                    dominus episcopus supradictus precepisset vel precipiendo misisset, sub debito
+                    fidelitatis, quod de predictis ei satisfacerent et ut predicta non facerent
+                    atque ipsi nichil inde fecissent, mandavit, sub pena vel banno <measure
+                        type="Imperiales" quantity="200" unit="libra">librarum ducentarum
+                        imperialium</measure>, ut venirent ante eum stare mandatis eius de
+                    predictis, et, cum non venissent, iterum mandavit eis, sub simili pena vel
+                    banno, ut ante eum venirent iuraturi, ut supra scriptum est, nec venerunt.
+                        <persName ref="#MasneriusPalmerii">Masnerius</persName> negat, excepto quod
+                    confitetur quod in mercato placitat consul de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> et placitare debet et causas et iusticias facere; item
+                    quod guerra sive discordia que inter <persName ref="#Ubertus_visdominus"
+                        >Hubertum</persName>
+                    <roleName>visdominum</roleName> et suos consortes, ex una parte, erat et dominum
+                    episcopum atque eius successores, ex altera, erat grande dampnum et detrimentum
+                    vel esse poterat terrarum episcopatus Lunensis et honoris ipsarum terrarum.
+                        <persName ref="#MasneriusPalmerii">Masnerius</persName> negat et dicit
+                    episcopum potuisse facere rem amisisse et ante et postea. </p>
+                <p xml:id="LIII_p_049" n="49"> Item quod pax et concordia, quam inde fecit vel fecit
+                    fieri dictus episcopus, fuit et est utilitas hominum et terrarum Lunensis
+                    episcopatus. <persName ref="#MasneriusPalmerii">Masnerius</persName> negat, immo
+                    dicit commune habere dampnum quia homines inde solverunt pecuniam eorum. </p>
+                <p xml:id="LIII_p_050" n="50"> Item quod pro discordia predicta et pro pace et
+                    concordia inde facienda vel occasione dicte discordie et pacis, dictus episcopus
+                    fecit vel fieri fecit expensas. <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_051" n="51"> Item quod dictus episcopus, pro expensis predicte
+                    discordie et pactis, vel eorum occasione, inter ea que dedit et dare tenetur pro
+                    sorte et usuris <expan>expendend<ex>um</ex></expan> et dare tenetur libras
+                    quatringentas imperialium. <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_052" n="52"> Item quod <persName ref="#Aldeprandusvic2"
+                                ><expan>A<ex>ldebrand</ex>us</expan></persName> predictus vel eius
+                    adiutores secure veniebant in burgum de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>, set <persName ref="#HubertusParentis"
+                        >Hubertus</persName> vel eius adiutores non audebant in burgum venire vel
+                    secure ibi stare. <persName ref="#MasneriusPalmerii">Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_053" n="53"> Item quod homines dicti burgi omnes <supplied
+                        reason="omitted">vel</supplied> pars eorum iuraverunt firma tenere et
+                    observare conventiones atque pacta que fuerunt facta inter <persName
+                        ref="#GualEpLuni">Gualterium</persName>, <roleName>episcopum
+                        Lunensem</roleName>, ex una parte, et homines dicti burgi, ex altera, pro
+                    translatione ecclesie Lunensis facienda ad dictum burgum vel eius occasione.
+                        <persName ref="#MasneriusPalmerii">Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_054" n="54"> Item quod commune dicti burgi vel consules et
+                    consiliarii ipsius burgi, pro communi burgi, usi sunt postea illis pactis et
+                    conventionibus. <persName ref="#MasneriusPalmerii">Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_055" n="55"> Item quod dicti burgenses iuraverunt societatem quam
+                    episcopus Lunensis seu Lunensis ecclesia fecit cum <placeName ref="#Pontremoli"
+                        >Pontremulensibus</placeName> et societatem quam episcopus Lunensis fecit
+                    cum <name type="familia" ref="#BlanciHerberiaFamilia">Blancis</name>, sicut iuraverunt homines
+                    aliarum terrarum. <persName ref="#MasneriusPalmerii">sMasnerius</persName>
+                    negat, excepto quod iuraverunt cum <placeName ref="#Pontremoli"
+                        >Pontremulensibus</placeName>, sicut <placeName ref="#Pontremoli"
+                        >Pontremulenses</placeName> iuraverunt eius societatem. </p>
+                <p xml:id="LIII_p_056" n="56"> Item quod est consuetudo civitatum atque aliarum
+                    terrarum, que sunt in <placeName ref="#Tuscia">Tuscia</placeName> et in
+                        <placeName ref="#LombardiaR">Lumbardia</placeName>, quod domini seu rectores
+                    earum vel illi qui presunt eis imponunt et imponere consueverunt hominibus
+                    ipsarum civitatum et terrarum bannum vel penam, si non faciunt ea que precipiunt
+                    ut fiant, vel si fierent ea que precipiunt nec fiant. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> negat, nisi ius habeatur<note
+                        place="foot" n="ww" xml:id="LIII_n_0048">habeatur: <emph>così nel testo
+                            per</emph> habeant.</note> civitates vel persone predicte vel faciant vi
+                    sacramenti, et si ius habent et ostendetur per cartas vel testes qui hoc
+                    facerent confitetur, et aliter negat. </p>
+                <p xml:id="LIII_p_057" n="57"> Item quod est consuetudo in predictis locis quod si
+                    ab aliquo vel aliquibus<note place="foot" n="xx" xml:id="LIII_n_0049">aliquibus:
+                        bus <emph>corretto su precedente scrittura.</emph></note> fieret contra
+                    preceptum dominorum sive rectorum vel eorum qui potestatem habent in eis sub
+                    banno <pb n="151v" xml:id="fol_151v"/> vel pena factum quod auferetur et auferri
+                    consuevit eis bannum vel pena. Respondit ut supra in proxima responsione. </p>
+                <p xml:id="LIII_p_058" n="58"> Item quod antecessores dicti episcopi vel aliqui seu
+                    aliquis, ex concessione imperatoris, fuerunt comites vel fuit comes terrarum
+                    Lunensis comitatus seu terrarum que per se Lunensis episcopus possidet vel
+                    tenet. <persName ref="#MasneriusPalmerii">Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_059" n="59"> Item quod commune dicti burgi habet in feodum ab
+                    episcopo vel episcopatu Lunensi medietatem successionis advenarum et medietatem
+                    denariorum qui dantur a venditoribus salis, scilicet <measure type="Imperiales"
+                        quantity="6" unit="denarius">denarios sex</measure> pro modico<note
+                        place="foot" n="yy" xml:id="LIII_n_0050">modico: <emph>così nel testo
+                            per</emph> modio.</note>, tunc <expan>med<ex>ietatem</ex></expan>
+                    <expan>pot<ex>est</ex></expan> que aufferentur atque aufferri consuevit pro pena
+                    malefactoribus in burgo maleficia committentibus, et usum nemorum et pascuorum
+                    et denarios de pedagio de feodo. <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> negat, nisi viderit cartam quod concorditer habeat de
+                    predictis medietatem burgus et medietatem episcopus confitetur. </p>
+                <p xml:id="LIII_p_060" n="60"> Item quod <persName ref="#SimonetusTerria">Symonettum
+                        de</persName>
+                    <placeName ref="#Terria">Terria</placeName> est homo villanus episcopi Lunensis
+                    vel episcopatus et quod consules vel potestas dicti burgi burgensem receperunt
+                    eum in dicto burgo et eum iurare fecerunt sacramentum communis atque datium vel
+                    prestantiam ei abstulerunt quod teneant contra voluntatem episcopi. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> negat quod sit homo Lunensis
+                    episcopatus si castobit<note place="foot" n="zz" xml:id="LIII_n_0051">castobit:
+                            <emph>così nel testo per</emph> constabit.</note> sibi per testes vel
+                        cartis<note place="foot" n="aaa" xml:id="LIII_n_0052">cartis: <emph>così nel
+                            testo per</emph> cartas.</note> confitetur, aliter negat. </p>
+                <p xml:id="LIII_p_061" n="61"> Item quod mercatum quod fit in platea <placeName
+                        ref="#Carcandola">Carca<supplied reason="omitted"
+                        >n</supplied>dule</placeName> est episcopi Lunensis et esse consuevit.
+                        <persName ref="#MasneriusPalmerii">Masnerius</persName> negat, immo dicit
+                    esse burgi et hominum, et tenuerunt ipsum a longissimo tempore et etiam ex
+                    concessione imperatoris. </p>
+                <p xml:id="LIII_p_062" n="62"> Item quod consules vel potestas dicti burgi<note
+                        place="foot" n="bbb" xml:id="LIII_n_0053">vel potestas dicti burgi:
+                            <emph>nel testo</emph> dicti burgi vel potestas <emph>con segno di
+                            richiamo per invertire l’ordine delle parole.</emph></note>, qui tunc
+                    erant, dederunt vel concesserunt quibusdam, titulo locationis, quedam loca in
+                    dicta platea ad domos faciendas; confitetur <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod locaverunt burgensibus domos in suprascripta
+                    platea eorum iure. </p>
+                <p xml:id="LIII_p_063" n="63"> Item ponit quod burgus de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> est una de melioribus terris que sunt in Lunensi
+                    comitatu. Negat de comitatu <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName>, confitetur tantum et dicit esse unam de melioribus
+                    episcopatus et non habent nisi unam partem. </p>
+                <p xml:id="LIII_p_064" n="64"> Item ponit quod dictus episcopus mandavit consulibus
+                    dicti burgi et burgensibus, sub debito fidelitatis, ut res ablatas <placeName
+                        ref="#Pontremoli">Pontremulensibus</placeName> ab hominibus de <placeName
+                        ref="#Fosdinovo">Fosdenova</placeName> quantum res ablate valuntes<note
+                        place="foot" n="ccc" xml:id="LIII_n_0054">valuntes: <emph>così nel testo
+                            per</emph> valutent.</note>, quod non fecerunt. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_065" n="65"> Item quod burgenses omnes vel maior pars eorum
+                    iuraverunt salvare et deffendere omnes venientes homines ad mercatum de
+                        <placeName ref="#Sarzana">Sarzana</placeName>, in personis et rebus, ab hiis
+                    qui vellent eis offendere vel res eorum aufferre, exceptis malefactoribus.
+                        <persName ref="#MasneriusPalmerii">Masnerius</persName> negat quod iurassent
+                    episcopo et credit quod iuraverunt sicut in constituto de <placeName
+                        ref="#Sarzana">Sarzana</placeName> continetur, aliter negat. </p>
+                <p xml:id="LIII_p_066" n="66"> Item iuraverunt salvare atque deffendere <placeName
+                        ref="#Pontremoli">Pontremulenses</placeName> in personis et rebus. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> negat quod pro episcopo
+                    iuraverint, set iuraverunt compagniam cum <placeName ref="#Pontremoli"
+                        >Pontremulensibus</placeName> et <placeName ref="#Pontremoli"
+                        >Pontremulenses</placeName> cum eis, ut in cartis inde factis continetur,
+                    aliter negat. </p>
+                <p xml:id="LIII_p_067" n="67"> Item quod <persName ref="#GerardusVillani">Gerardus
+                        Villani</persName> cuidam de <placeName ref="#Pontremoli"
+                        >Pontremulo</placeName>, qui veniebat ad mercatum <placeName ref="#Sarzana"
+                        >Sarzane</placeName>, abstulit denarios vel alias res, et cum commune de
+                        <placeName ref="#Pontremoli">Pontremulo</placeName> vel predictus <placeName
+                        ref="#Pontremoli">Pontremulensis</placeName> repetivit a communi dicti burgi
+                    ut redderet vel reddi faceret predicta, que ablata fuerunt, non sunt reddita.
+                        <persName ref="#MasneriusPalmerii">Masnerius</persName> respondit quia non
+                    solvebant <persName ref="#GerardusVillani">Gerardo</persName> a <placeName
+                        ref="#Pontremoli">Pontremulensibus</placeName> quod ei debebant ex parabola
+                    potestatis <placeName ref="#Pontremoli">Pontremuli</placeName> accepit <persName
+                        ref="#GerardusVillani">Gerardus</persName> de rebus <placeName
+                        ref="#Pontremoli">Pontremulensibus</placeName>, set quod venissent ad
+                    mercatum non credit, set quod requisiverit commune de <placeName
+                        ref="#Pontremoli">Pontremulo</placeName> non credit. </p>
+                <p xml:id="LIII_p_068" n="68"> Item ponit consuetudo esse in civitatibus et aliis
+                    terris <placeName ref="#Tuscia">Tuscie</placeName> et <placeName
+                        ref="#LombardiaR">Lumbardie</placeName> quod si expensa<note place="foot"
+                        n="ddd" xml:id="LIII_n_0055">expensa: <emph>corretto su precedente
+                            scrittura.</emph></note> fuerit pro utilitate ipsarum civitatum et
+                    terrarum quod ipse expense solvuntur vel redduntur de communi ipsarum terrarum.
+                        <pb n="152r" xml:id="fol_152r"/>
+                    <persName ref="#MasneriusPalmerii">Masnerius</persName> respondit: «non pertinet
+                    ad causam» et si videbit respondendum negat, nisi eis ius sit. </p>
+                <p xml:id="LIII_p_069" n="69"> Item quod omnes burgenses predicti burgi vel maior
+                    pars eorum iuraverunt obedire et conservare omnia precepta domini episcopi, cum
+                    non haberent tunc potestas vel consul, vel concordaverunt. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> negat, dictum suum confitetur
+                    tantum et dicit quod, cum essent in discordia burgenses ne concordaverint de
+                    consulibus vel potestate, in hac discordia elegerunt dominum episcopum in
+                    rectorem eorum, donec dictorum voluntate potestatem haberent, et solverunt ei
+                    feodum et fecerunt ut facere consueverunt. </p>
+                <p xml:id="LIII_p_070" n="70"> Item quod dictus episcopus publice precepit vel
+                    precipiendo mandavit ne aliquis predictorum burgensium sumeret arma pro parte
+                        <persName ref="#GerardusVillani">Gerardi quondam Villani</persName> vel pro
+                    parte <persName ref="#Marabotinus_potestas">Marabottini</persName> et lealiter
+                    non offendunt se ad invicem. Confitetur <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> tunc temporis istius cunctant<note place="foot"
+                        n="eee" xml:id="LIII_n_0056">cunctant: <emph>così nel testo per</emph>
+                        cunctat.</note> eorum potestatem, aliter negat. </p>
+                <p xml:id="LIII_p_071" n="71"> Item quod postea burgenses dicti sumpserunt arma et
+                    armaverunt se pro predictis partibus vel aliquo eorum comportaverunt arma ad
+                    domos predictarum partium vel alicuius eorum. Negat <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName>. </p>
+                <p xml:id="LIII_p_072" n="72"> Item ponit quod burgenses omnes<note place="foot"
+                        n="fff" xml:id="LIII_n_0057">omnes: <emph>aggiunto in sopralinea con segno
+                            di richiamo.</emph></note> vel maior pars eorum iuraverunt pro facto
+                    pacis composite a predicto domino episcopo item <persName ref="#GerardusVillani"
+                            >Gerardus<note place="foot" n="ggg" xml:id="LIII_n_0058">item Gerardus:
+                                <emph>così nel testo per</emph> inter Gerardum.</note> quondam
+                        Villani </persName> et alios qui ex eius parte erant, ex una parte, atque
+                        <persName ref="#Marabotinus_potestas">Maraboccinum</persName> et eos qui ex
+                    eius parte erant, ex altera, quod si aliqua pars frangeret dictam pacem quod
+                    essent cum illa parte cui pax fracta esset, et eam iurarent bona fide vel
+                    iuraverunt tenere firmam predictam sententiam vel pronunciationem dicte pacis et
+                    omnia que in ipsa contine<supplied reason="omitted">n</supplied>tur, vel
+                    iuraverunt observare inde precepta et statuta eius. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> respondit quos<note
+                        place="foot" n="hhh" xml:id="LIII_n_0059">quos: <emph>così nel testo
+                            per</emph> quod.</note> erant eorum burgenses; <persName
+                        ref="#GerardusVillani">Gerardus Villani</persName> et <persName
+                        ref="#Marabotinus_potestas">Maraboccinus</persName> fecerunt cum domino
+                    episcopo fieri inde pacem et iuraverunt burgenses facere eos iurare, tenere bona
+                    fide, sine fraude, et tenere pacem <persName ref="#GerardusVillani">Gerardi
+                        Villani</persName> et <persName ref="#Marabotinus_potestas"
+                        >Marabottini</persName> qui iuraverunt esse pro eo qui teneret pacem et
+                    contra frangentem esse. <persName ref="#MasneriusPalmerii">Masnerius</persName>
+                    negat, alia negat. </p>
+                <p xml:id="LIII_p_073" n="73"> Item quod postea <persName ref="#GerardusVillani"
+                        >Gerardus quondam Villani</persName> et illi, qui ex eius parte erant,
+                    offenderunt <persName ref="#Marabotinus_potestas">Marabottinum</persName> et
+                    illos qui ex eius parte erant. <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_074" n="74"> Item ponit quod consules terrarum Lunensis episcopi
+                    habent ab eodem episcopo ex concessione quod possint cognoscere et diffinire
+                    causas. <persName ref="#MasneriusPalmerii">Masnerius</persName> negat quod ab eo
+                    habeant, immo habuerunt causas et fecerunt ex quo burgum fuit que coram eis
+                    incipiuntur. </p>
+                <p xml:id="LIII_p_075" n="75"> Item ponit quod <persName ref="#RustichellusCitadine"
+                        >Rustichellus de Citadina</persName> et <persName ref="#VitalisPinta"
+                        >Vitalis Pinta</persName> et <persName ref="#BenvenutusCastellani"
+                        >Benvenutus quondam Castellani</persName> et filii quondam <persName
+                        ref="#Characunchus">Characunchi</persName> et <persName
+                        ref="#RollandinusMontecello">Rollandinus de <placeName ref="#Montexello"
+                            >Montexello</placeName></persName> et filius quondam <persName
+                        ref="#Parloncius">Parloncii</persName> sunt homines et villani Lunensis
+                    episcopi et habitant in burgo <placeName ref="#Sarzana">Sarzane</placeName>, et
+                    consules burgi <placeName ref="#Sarzana">Sarzane</placeName> abstulerunt vel
+                    aufferri fecerunt eis datiam vel prestanciam. Respondit <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> atque negat ut de <persName
+                        ref="#SimonetusTerria">Symoneto</persName>. </p>
+                <p xml:id="LIII_p_076" n="76"> Item ponit quod castaldiones vel nuncii Lunensis
+                    episcopi ponunt et ponere consueverunt saltarios in confinibus designatis in
+                    carta scripta a <persName ref="#Prefectusnot">Prefecto</persName>
+                    <roleName>notario</roleName> et colligunt et colligere consueverunt saltariam in
+                    predictis finibus seu locis; de confinibus carte iste negat, set de confinibus
+                    consuetis negat dictum eius, confitetur tantum quod et depresentat eos
+                    consulibus burgi vel potestate et coram eis iurant de confinibus consuetis et
+                    aliter negat. </p>
+                <p xml:id="LIII_p_077" n="77"> Item quod saltariam predictorum locorum, scilicet et
+                    qui sunt infra predictos confines, est Lunensis episcopi et episcopatus pro ipso
+                    Lunensi episcopo et episcopatu est possessa et habita <pb n="152v"
+                        xml:id="fol_152v"/> et detenta per annos triginta et quadraginta et plures.
+                    Negat <persName ref="#MasneriusPalmerii">Masnerius</persName>, ut supra. </p>
+                <p xml:id="LIII_p_078" n="78"> Item ponit quod populus et homines de <placeName
+                        ref="#Sarzana">Sarzana</placeName> servaverunt et servare consueverunt
+                    statuta vel ordinamenta que facta fuerunt a <persName ref="#GualEpLuni"
+                        >Gualterio</persName>, <roleName>olim Lunensi episcopo</roleName>, in curia
+                    fidelium Lunensis curie publice convocata super iusticiis et rationibus et super
+                    aliis rebus, videlicet de <measure type="Imperiales" quantity="4"
+                        unit="denarius">quatuor denariis</measure> dandis pro querimonia ab actore
+                    et de datia solvenda pro ipsa controversia solvunt <measure type="Imperiales"
+                        quantity="16" unit="denarius">denarios sexdecim</measure> pro quolibet<note
+                        place="foot" n="iii" xml:id="LIII_n_0060">quolibet: <emph>così nel testo
+                            per</emph> qualibet.</note> libra et de antefacto mulierum et de aliis
+                    rebus; negat dictum eius, confitetur tamen et dicit quod ordinamenta que fecit
+                    eorum consilio et voluntate atque cum eius burgensibus servant, et aliter negat. </p>
+                <p xml:id="LIII_p_079" n="79"> Item ponit quod consuetudo est et fuit in burgo
+                        <placeName ref="#Sarzana">Sarzane</placeName> quod medietas bannorum et
+                    penarum, que aufferuntur vel aufferri consueverunt ab homicidis de dicto burgo,
+                    est et esse debet curie Lunensis episcopi. Respondit ut supra de
+                            <expan>adve<ex>nis</ex></expan>. </p>
+                <p xml:id="LIII_p_080" n="80"> Item ponit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod publica fama et consentientis<note place="foot"
+                        n="jjj" xml:id="LIII_n_0061">consentientis: <emph>così nel testo per</emph>
+                        consuetudo.</note> est et publicum est et fuit in <placeName
+                        ref="#Lunigiana">Lusciana<note place="foot" n="kkk" xml:id="LIII_n_0062"
+                            >Lusciana: <emph>così nel testo.</emph></note></placeName> ab annis
+                    triginta et quadraginta et pluribus quod episcopus Lunensis, qui pro tempore
+                        fuit<note place="foot" n="lll" xml:id="LIII_n_0063">fuit: <emph>segue</emph>
+                        et <emph>pleonastico, non depennato.</emph></note>, est comes Lunensis et
+                    specialiter castri et burgi <placeName ref="#Sarzana">Sarzane</placeName> et
+                    aliarum terrarum episcopi Lunensis. <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_081" n="81"> Item quod episcopus vel castaldio seu nuncius mittit
+                    et ponit pedagerios, de quo commune de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> habet quosdam denarios pro compera vel dono vel pro
+                    feodo. <persName ref="#MasneriusPalmerii">Masnerius</persName> negat de eorum
+                    parte, immo habet burgum pedagenum<note place="foot" n="mmm"
+                        xml:id="LIII_n_0064">pedagenum: <emph>così nel testo per</emph>
+                        pedagerium.</note> pro eorum parte vel commune, set pedagerius est de burgo. </p>
+                <p xml:id="LIII_p_082" n="82"> Item ponit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod in burgo <placeName ref="#Sarzana"
+                        >Sarzane</placeName> non debet esse aliquis consul vel potestas, nisi sit
+                    fidelis episcopi Lunensis, et si aliquando aliquis non fideliter eligi, iurat
+                    prius sacramentum fidelitatis episcopi antequam possit esse consul vel potestas.
+                        <persName ref="#MasneriusPalmerii">Masnerius</persName> negat ut supra. </p>
+                <p xml:id="LIII_p_083" n="83"> Item quod <roleName>dominus</roleName>
+                    <persName ref="#MarzuccusEpLuni">Marzuccus</persName>, <roleName>Lunensis
+                        episcopus</roleName>, fecit iurare sacramentum regiminis burgi, computando
+                    eius sacramentum <persName ref="#Aldeprandusvic2"
+                                ><expan>A<ex>l</ex>de<ex>brand</ex>um</expan></persName>
+                    <roleName>visdominum</roleName> et <persName ref="#Roncinetus"
+                        >Roncinetum</persName> et <persName ref="#Petrus">Petrum</persName>
+                    sacramentum fidelitatis sue cum non essent fideles, et <persName
+                        ref="#PetrusBinamontis">Petrus Binamontis</persName> de <placeName
+                        ref="#Pontremoli">Pontremulo</placeName>, qui fuit potestas dicti burgi, cum
+                        vocarent<note place="foot" n="nnn" xml:id="LIII_n_0065">vocarent: <emph>così
+                            nel testo per</emph> vacaret.</note> Lunensis episcopatus, iuravit
+                    sacramentum fidelitatis episcopi, cum non esset fidelis. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> confitetur quod <persName
+                        ref="#Petrus">Petrus</persName> et <persName ref="#Roncinetus"
+                        >Roncinetus</persName> et <persName ref="#PetrusBinamontis">Petrus
+                        Binamontis</persName> iuraverunt fidelitatem episcopo quilibet eorum in suo
+                    anno quantum mutaret officium, et aliter et alia negat. </p>
+                <p xml:id="LIII_p_084" n="84"> Item quod <persName ref="#Aldeprandusvic2"
+                        >Isdebrandus</persName> et <persName ref="#Roncinetus"
+                        >Roncinettus</persName> et <persName ref="#Petrus">Petrus</persName> fuerunt
+                    electi potestates dicti burgi cum consilio <supplied reason="omitted"
+                        >et</supplied> cum consensu predicti episcopi, et idem episcopus misit
+                        <persName ref="#Roncinetus">Roncinetto</persName> et <persName ref="#Petrus"
+                        >Petro</persName> litteras suas, quando electi fuerunt, atque postea duxit
+                    eos ad burgum pro potestate. <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> respondit quod negat, immo consules elegerunt;
+                    confitetur tantum et dicit quod post electionem dixerunt episcopo et rogaverunt
+                    eum ut honoraret eum quia nobilis civis erat et posset inde habere magnum
+                    honorem, alia item negat. </p>
+                <p xml:id="LIII_p_085" n="85">
+                    <supplied reason="omitted">Item</supplied> quod <persName
+                        ref="#HubertusParentis">Hubertus Parentis</persName> fuit electus in
+                    potestatem dicti burgi cum consilio prefati episcopi. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_086" n="86"> Item quod <persName ref="#AlbertusGuilielma">Albertus
+                        domine Guilielme</persName> fuit electus consul de dicto burgo; quia non
+                    placuit episcopo <persName ref="#GualEpLuni">Gualterio</persName>, non fuit
+                    consul. <persName ref="#MasneriusPalmerii">Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_087" n="87"> Item quod, cum burgenses ivissent in hostem cum
+                    episcopo <persName ref="#GualEpLuni">Gualterio</persName> pro guerra quam
+                    habebat cum marchionibus, quia steterunt ibi plus tribus diebus, habuerunt ab
+                    eodem episcopo <measure type="Imperiales" quantity="30" unit="libra">libras
+                        triginta imperialum</measure> hoc modo quod pro ipsis habuerunt <pb n="153r"
+                        xml:id="fol_153r"/> ab episcopo introitum mercati, ut de ipso mercato
+                    solverent sibi predictas <measure type="Imperiales" quantity="30" unit="libra"
+                        >libras triginta</measure>. <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod episcopus promitteret eis et deberet dare pro eo
+                    quod steterant ultra tres dies <measure type="Imperiales" quantity="30"
+                        unit="libra">libras triginta</measure> et plus confitetur; quod dederit eas,
+                    si viderit cartam vel testes, aliter atque alia negat, excepto si de medietate
+                    salis quam habet episcopus aliquis promisit eis ut habeat pro parte episcopatus
+                    pro predictis denariis respondit. </p>
+                <p xml:id="LIII_p_088" n="88"> Item quod, cum commune burgi et burgenses pro communi
+                    peterent ab episcopo <persName ref="#GualEpLuni">Gualterio</persName> ut faceret
+                    eis de casamentis secundum pacta comprehensa in carta scripta per <persName
+                        ref="#Confortusnot">Confortum</persName> notarium, episcopus respondit quod
+                    volebat et paratus erat facere; super hoc electi fuerunt, secundum formam
+                    predicte carte, tres homines ab utraque parte. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> confitetur quod burgenses
+                    dixerunt episcopo quod faceret eis quod debet et ut actum erat inter eos et
+                    inquisiverunt episcopum quod episcopus faceret vel paratus esset facere.
+                        <persName ref="#MasneriusPalmerii">Masnerius</persName> negat, immo per eum
+                    remansit ante per ipsos et ipsi parati fuerunt recipere et facere ea occasione
+                    quod deberent, aliter et alia negat. </p>
+                <p xml:id="LIII_p_089" n="89"> Item ponit de presenti episcopo, scilicet quod pro
+                    utraque parte fuerunt electi homines quod<note place="foot" n="ooo"
+                        xml:id="LIII_n_0066">quod: <emph>così nel testo, probabilmente per</emph>
+                        pro.</note> facto casamentorum, sicut in dicta carta continetur. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_090" n="90"> Item ponit quod commune predicti burgi et burgenses
+                    pro communi, secundum formam predicte carte, renovaverunt sacramenta de pactis
+                            <expan>cun<ex>ctis</ex></expan><note place="foot" n="ppp"
+                        xml:id="LIII_n_0067">cun(ctis): <emph>lettura incerta.</emph></note> ibi
+                    comprehensis. <persName ref="#MasneriusPalmerii">Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_091" n="91"> Item quod, ante translationem que facta fuit de
+                    ecclesia de <placeName ref="#Luni">Luna</placeName> ad burgum <placeName
+                        ref="#Sarzana">Sarzane</placeName>, veniebant burgenses die sancti Stephani
+                    et die lune pasche resurrexionis Domini ad curiam episcopi quocumque venire
+                    volebant, arbitrio suo vel arbitrio consulum, nec erat mos impositus de numero
+                    eorum qui venire debebant, set postea venerunt tantum homines centum pro communi
+                    burgi. Item post translationem predictam receperunt a castaldiore<note
+                        place="foot" n="qqq" xml:id="LIII_n_0068">castaldiore: <emph>così nel testo
+                            per</emph> castaldione.</note> vel nuncio episcopi predicti burgenses
+                    mensuras pannorum, blave et vini et libras et pondera. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_092" n="92"> Item post<supplied reason="omitted">ea</supplied>
+                    predictum lucrum proveniens de bannis et devectis duplicaverunt burgenses cum
+                    nunciis vel nuncio episcopi Lunensis. <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> negat, nisi usum fuit inter eos. </p>
+                <p xml:id="LIII_p_093" n="93"> Item quod post<supplied reason="omitted"
+                        >ea</supplied> predictum mercatum, quod fiebat in <placeName
+                        ref="#Carcandola">Carcandula</placeName>, cum consilio episcopi et consulum
+                    burgi fuit mutatum ut fieret ex alio capite burgi, ubi est hospitale, et fuit
+                    ibi factum per plures vices. <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_094" n="94"> Item ponit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod episcopi Lunenses, excepto presente Lunensi
+                    episcopo, fecerunt et facere consueverunt fidelitatem imperatoris Romanorum qui
+                    pro tempore erat. <persName ref="#MasneriusPalmerii">Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_095" n="95"> Item quod predicti episcopi receperunt imperatores,
+                    quando in <placeName ref="#Lunigiana">Lunisiana</placeName> venerunt, homines de
+                    burgo contulerunt et dederunt episcopo Lunensi pecuniam vel alias res. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> negat quod pro illis de
+                        <placeName ref="#Sarzana">Sarzana</placeName> faciat, immo <placeName
+                        ref="#Sarzana">Sarzanenses</placeName> faciunt pro se et recipiunt
+                    imperatorem et eius nuncios voluntate imperii. </p>
+                <p xml:id="LIII_p_096" n="96"> Item ponit quod curatura vel dirictura bestiarum et
+                    canistrorum et scutellarum et naporum et crivellorum et cipollarum in mercato
+                    sunt <expan>am<ex>endan</ex>d<ex>e</ex></expan> et de banca cambiatorum <measure
+                        type="Imperiales" quantity="4" unit="denarius">denarios IIII</measure> vel
+                        <measure type="Imperiales" quantity="6" unit="denarius">sex</measure> et de
+                    carnibus sicchis in eis<note place="foot" n="rrr" xml:id="LIII_n_0069"
+                            ><emph>Segue parola di difficile lettura.</emph></note> ***** et per
+                    ramum olive per singulam somam <measure type="Imperiales" quantity="1"
+                        unit="denarius">soldum unum</measure> et per singulum starium blade quam
+                    emit ille <placeName ref="#Portovenere">Portus Venerius</placeName> videlicet de
+                    riveria <measure type="Imperiales" quantity="1" unit="denarius">imperialem
+                        unum</measure>, et de uno quoque corio bovis quod venditur in mercato de
+                        <placeName ref="#Sarzana">Sarzana</placeName> est episcopi Lunensis et ad
+                    eum pertinet, et quod castaldi vel nuncii Lunensis episcopi, pro ipso, colligunt
+                    atque exigere vel colligi et exigi faciunt predictam curaturam vel diricturam
+                        <pb n="153v" xml:id="fol_153v"/> et ita facere consueverunt. <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> negat. </p>
+                <p xml:id="LIII_p_097" n="97"> Item ponit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod omnes burgenses vel maior pars eorum iuraverunt
+                    et iurare consueverunt custodire et salvare omnes rationes episcopi Lunensis et
+                    episcopatus. Respondit quod iurant fidelitatem et guardare et salvare
+                    episcopatum et comitatum et ex dicto advocati sui addiderunt postea comitatum. </p>
+                <p xml:id="LIII_p_098" n="98"> Et insuper publica instrumenta mihi ostenderunt, unum
+                    quorum erat rogatum per <persName ref="#Confortusnot">Confortum</persName>
+                    <roleName>notarium</roleName> de pactionibus et conventionibus factis inter
+                        <roleName>episcopum</roleName>
+                    <persName ref="#GualEpLuni">Gualterium</persName>, <roleName>tunc Lunensem
+                        episcopum</roleName>, cum burgensibus de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>, pro communi de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>; alia etiam instrumenta publica mihi ostenderunt per
+                    que sibi banna vel pena burgensibus imponere, ut iudici et domino, licere
+                    dicebat, et quod obedirent ei burgenses ut domino, iurando quasdam paces et
+                    securitates firmas tenere ut de pace composita ab <roleName>episcopo</roleName>
+                    <persName ref="#GualEpLuni">Gualterio</persName> inter <persName ref="#Villanus"
+                        >Villanum</persName> et quosdam alios, ex una parte, et <persName
+                        ref="#Bollione_consul">Bullionem</persName> et alios quosdam, ex<note
+                        place="foot" n="sss" xml:id="LIII_n_0070">ex: <emph>segue depennato con
+                            inchiostro rosso</emph> altera.</note> alia, continetur ut<note
+                        place="foot" n="ttt" xml:id="LIII_n_0071">continetur ut: <emph>così nel
+                            testo probabilmente</emph> ut continetur <supplied reason="omitted"
+                            >in</supplied>.</note>
+                    <supplied reason="omitted">in</supplied> instrumento scripto per <persName
+                        ref="#Confortusnot">Confortum</persName>
+                    <roleName>notarium</roleName>; item de pace a <roleName>domino</roleName>
+                    <persName ref="#MarzuccusEpLuni">Marzucco</persName>
+                    <roleName>episcopo</roleName> composita inter <persName ref="#GerardusVillani"
+                        >Gerardum Villani </persName> et <persName ref="#Marabotinus_potestas"
+                        >Marabottinum</persName> et <persName ref="#Legalis">Legalem</persName> et
+                    eorum partem, ut de ea continetur in instrumento a <persName ref="#Prefectusnot"
+                        >Prefecto </persName>
+                    <roleName>notario</roleName>
+                    <supplied reason="omitted">scripto</supplied>; item de pace ab eodem composita
+                    inter <persName ref="#Aldeprandusvic2"
+                        ><expan>A<ex>ldebrandu</ex>m</expan></persName>
+                    <roleName>vi<supplied reason="omitted">s</supplied>dominum</roleName> et
+                        <persName ref="#HubertusParentis">Hubertum Parentis</persName> ut apparet
+                    per instrumentum scriptum ab <persName ref="#Ugolinusnot">Ugolino</persName>
+                    <roleName>notario</roleName>; item de societate facta inter
+                        <roleName>episcopum</roleName>
+                    <persName ref="#GualEpLuni">Gualterium</persName> atque <placeName
+                        ref="#Pontremoli">Pontremulenses</placeName>, ut apparet in instrumento a
+                        <persName ref="#Castellanus_notarius">Castellano</persName>
+                    <roleName>notario</roleName> rogato; item de securitate facta inter
+                        <roleName>episcopum</roleName>
+                    <persName ref="#GualEpLuni">Gualterium</persName> et consules mercatorum
+                        <placeName ref="#Luca">Luce</placeName>, ut in instrumento scripto per
+                        <persName ref="#Lombardusnot">Lumbardum</persName>
+                    <roleName>notarium</roleName> continetur; item aliud instrumentum pro se
+                    induxerunt, rogatum a <persName ref="#Benvenutusnot1">Benvenuto</persName>
+                    <roleName>notario</roleName>, quo continebatur <persName ref="#GualEpLuni"
+                        >Gualterium</persName>
+                    <roleName>episcopum</roleName> concessisse <persName ref="#GerardusVillani"
+                        >Gerardo Villani</persName> et sociis, consulibus burgi, quod tempore
+                    consulatus ipsorum possent de querimeniis<note place="foot" n="uuu"
+                        xml:id="LIII_n_0072">querimeniis: <emph>così nel testo per</emph>
+                        querimoniis.</note> eis factis cognoscere quamvis ante litem contestatam ad
+                    episcopum fieret appellatio; item aliud instrumentum scriptum a <persName
+                        ref="#Lombardusnot">Lumbardo</persName> quo continebatur <persName
+                        ref="#GualEpLuni">Gualterium</persName>, <roleName>episcopum
+                        Lunensem</roleName>, ex laudamento inde dato concessisse in feodo
+                    burgensibus medietatem penarum vel p<supplied reason="omitted">e</supplied>cunie
+                    tollende a malefactoribus; aliud similiter confectum ab <persName
+                        ref="#AldebrandinusSala_notarius"><expan>Ald<ex>ebrand</ex>o</expan> de
+                            <placeName ref="#Sala">Sala</placeName></persName>, quo continebatur
+                        <persName ref="#GualEpLuni">Gualterium</persName>
+                    <roleName>episcopum</roleName> ex laudamento concessisse burgensibus in feodo
+                    medietatem successionum advenarum sine testamento atque liberis
+                        deocedentium<note place="foot" n="vvv" xml:id="LIII_n_0073">deocedentium:
+                            <emph>così nel testo per</emph> decedentium.</note>; aliud erat de
+                    saltaria ab episcopo percipienda, sicut continetur in instrumento scripto a
+                        <persName ref="#Prefectusnot">Prefecto</persName> suprascripto et <persName
+                        ref="#Guilielmusnot7">Guilielmo</persName>
+                    <roleName>notario</roleName> rogato; aliud erat per <persName
+                        ref="#Prefectusnot">Prefectum</persName>
+                    <roleName>notarium</roleName> de nemoribus et pascuis ad opus bestiarum
+                    burgensium ab <roleName>episcopo</roleName>
+                    <persName ref="#GualEpLuni">Gualterio</persName> concessis; aliud, rogatum per
+                        <persName ref="#Philippusnot">Philippum</persName>
+                    <roleName>notarium</roleName>, quo continebatur <persName ref="#Petrus_potestas"
+                        >Petrum</persName>, <roleName>tunc potestatem</roleName> burgi de <placeName
+                        ref="#Sarzana">Sarzana</placeName>, promisisse <roleName>domino</roleName>
+                    <persName ref="#MarzuccusEpLuni">Marzucco</persName>
+                    <roleName>episcopo</roleName> pro debito quo dictus episcopus tenebatur donare
+                        <measure type="Soldos" quantity="1000" unit="denarius">soldos
+                        mille</measure> et alios <measure type="Soldos" quantity="1000"
+                        unit="denarius">soldos mille</measure> mutuare; aliud erat de iuramento quod
+                    fecerunt burgenses <roleName>episcopo</roleName>
+                    <persName ref="#GotefredEpLuni2">Gottifredo</persName> de usibus et rationibus
+                    prefacto episcopo non impediendis et alia in isto instrumento comprehensa; aliud
+                    vero rogatum per <persName ref="#Benvenutusnot1">Benvenutum</persName>
+                    <roleName>notarium</roleName> de arbitris a <persName ref="#MarzuccusEpLuni"
+                        >Marzucco</persName>, <roleName>Lunensi episcopo</roleName>, et communi
+                    burgi electis super controversiis et interpretationibus faciendis super
+                    pactionibus et conventionibus que continentur in instrumento publico pro utroque
+                    confecto; aliud est instrumentum confectum a <persName ref="#Bartholomeusnot"
+                        >Bartholomeo</persName>
+                    <roleName>notario</roleName> quo continebatur de actionibus inter <persName
+                        ref="#PipEpLuni">Pipinum</persName>
+                    <roleName>episcopum</roleName> et burgenses factis in transmutatione burgi in
+                    loco dicto <placeName ref="#Asiano">Aserano<note place="foot" n="www"
+                            xml:id="LIII_n_0074">Aserano: <emph>così nel testo per</emph>
+                            Asiano.</note></placeName>; privilegia scilicet
+                        <roleName>imperatoris</roleName>
+                    <persName ref="#FredericusimperatorII">Frederici</persName> et <persName
+                        ref="#HenricusVI">Henrici</persName>
+                    <roleName>regis</roleName> induxerunt, qualiter episcopus Lunensis bona et
+                    nominatim instrumenta ad eum<note place="foot" n="xxx" xml:id="LIII_n_0075">eum:
+                            <emph>così nel testo per</emph> suum.</note> episcopatum <pb n="154r"
+                        xml:id="fol_154r"/> pertinentia in protectione sua suscepit, scilicet
+                    comitatum Lunensem cum tholomeo<note place="foot" n="yyy" xml:id="LIII_n_0076"
+                        >tholomeo: <emph>così nel testo per</emph> theloneo.</note>, mercato,
+                    pedagio, iusticie<note place="foot" n="zzz" xml:id="LIII_n_0077">iusticie:
+                            <emph>così nel testo per</emph> iusticia.</note> et guidatico et burgum
+                    de <placeName ref="#sarzana">Sarzana</placeName> et iusticiam et bannum atque
+                    mercatum et devectum; privilegia etiam <persName ref="#Ludovicus_rex"
+                        >Lodovici</persName> et <persName ref="#Otto_imperator3">Ottonis</persName>
+                    <roleName>imperatorum</roleName> de confirmatione<note place="foot" n="aaaa"
+                        xml:id="LIII_n_0078">confirmatione: <emph>corretto su precedente
+                            scrittura.</emph></note> iurium Lunensis episcopatus. Brevia etiam
+                    terrarum episcopatus Lunensis et testes a se datos induxit, quibus de intentione
+                    sua sufficienter fore probatum et ipsos sibi condempnandos allegabit. </p>
+                <p xml:id="LIII_p_099" n="99">
+                    <persName ref="#MasneriusPalmerii">Masnerius</persName> predictus predicta
+                    nichil contra predictum suum commune de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> facere dicebat et ad sue cause deffensionem et burgi
+                    suprascripti hec pro se induxit. Ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> predictus quod illi de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> habuerunt consules et potestates iam sunt anni centum
+                    et plus et semper. Respondit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod non credit. </p>
+                <p xml:id="LIII_p_100" n="100"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> predictus quod illi de burgo elegerunt consules et
+                    potestates semper a predictis temporibus et iuraverunt consulatum et potestariam
+                    semper et populus eis. Respondit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName> quod non credit; interrogatus eodem modo de temporibus
+                    infra, predictum terminum respondit. </p>
+                <p xml:id="LIII_p_101" n="101"> Item ponit quod consules et potestates pro tempore
+                    deffenderunt, tenuerunt et iusticiaverunt mercatum de <placeName
+                        ref="#Carcandola">Carcandula</placeName> et habuerunt semper, quod non
+                    credit <persName ref="#AssalitusTiniosi">Assalitus</persName>, set de tempore
+                    infra, suprascriptum tempus respondit. </p>
+                <p xml:id="LIII_p_102" n="102"> Item ponit quod consules pro tempore, cum episcopis
+                    qui fuerunt pro tempore, posuerunt mensuras stariorum et secchiarum; quod non
+                    credit <persName ref="#AssalitusTiniosi">Assalitus</persName>. </p>
+                <p xml:id="LIII_p_103" n="103"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod consules et potestates pro tempore posuerunt
+                    banna atque mulctas illis de burgo et exegerunt ab eis et fecerunt placita et
+                    causas inter burgenses et forenses et habuerunt datiam omnem et exegerunt pro
+                    sua voluntate et de omnibus reclamis de uno quoque <measure type="Imperiales"
+                        quantity="4" unit="denarius">denarios IIIIor</measure> et pro sua voluntate,
+                    quod non credit <persName ref="#AssalitusTiniosi">Assalitus</persName>, de
+                    minori tempore respondit. </p>
+                <p xml:id="LIII_p_104" n="104"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod consules et potestates predicte a predictis
+                    temporibus diffidaverunt omnes qui offenderunt mercatum, vel venientes sive
+                    redeuntes occasione mercati usque hodie satisfecerunt ad voluntatem consulum, et
+                    ei qui offensus fuit emendatum in quo fuit offensum. Respondit <persName
+                        ref="#AssalitusTiniosi">Assalitus</persName> quod non credit, set de centum
+                    annis dubitat. </p>
+                <p xml:id="LIII_p_105" n="105"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod omnes causas et reclamationes a predictis
+                    temporibus fecerunt consules et receperunt de mercato et in mercato de stantibus
+                    in mercato et venientibus et redeuntibus. Respondit <persName
+                        ref="#AssalitusTiniosi">Assalitus</persName> quod non credit, de minori
+                    tempore respondit. </p>
+                <p xml:id="LIII_p_106" n="106"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod presens episcopus us<supplied reason="omitted"
+                        >q</supplied>ue hodie non induxit consulibus vel potestatibus esse et stare
+                    in consulatibus et potestariis de <placeName ref="#Sarzana">Sarzana</placeName>
+                    et cum eis us<supplied reason="omitted">q</supplied>ue hodie fecit facta
+                    episcopatus ex quo ipse fuit episcopus; et sic fecit <persName ref="#GualEpLuni"
+                        >Gualterius</persName>
+                    <roleName>episcopus</roleName> usque vixit, dum <persName ref="#RollandusEpLuni"
+                        >Orlandus de <placeName ref="#Baccinaa">Baccinaa</placeName></persName><note
+                        place="foot" n="bbbb" xml:id="LIII_n_0079">Baccinaa: <emph>così nel
+                            testo.</emph></note>
+                    <roleName>episcopus</roleName> et <persName ref="#PetrusEpLuni">Petrus
+                        Ciconia</persName>
+                    <roleName>episcopus</roleName> et <persName ref="#PipEpLuni">Pipinus</persName>
+                    et alii ante eos, et non contradixerunt eos habere mercatum in <placeName
+                        ref="#Carcandola">Carcandula</placeName> et mittere staria atque secchias
+                    et, omnibus suprascriptis scientibus episcopis, fecerunt consules et potestates
+                    predicta et posuerunt berlinam in mercato et usque hodie habent eam et in ea
+                    posuerunt homines et etiam homines suspendi fecerunt ad fulcam<note place="foot"
+                        n="cccc" xml:id="LIII_n_0080">fulcam: <emph>così nel testo per</emph>
+                        furcam.</note> predicti consules et potestates et etiam homines fecerunt
+                    incendi atque scotari in mercato et alibi. Respondit <persName
+                        ref="#AssalitusTiniosi">Assalitus</persName> quod quedam facta episcopatus
+                    predicti fecerunt cum consulibus vel potestatibus hominum de <placeName
+                        ref="#Sarzana">Sarzana<note place="foot" n="dddd" xml:id="LIII_n_0081"
+                            >hominum de Sarzana: <emph>nel testo</emph> de Sarzana hominum <emph>con
+                                segno di richiamo per invertire l’ordine delle
+                        parole.</emph></note></placeName>, alia predicta non credit. </p>
+                <p xml:id="LIII_p_107" n="107"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod dicti consules et potestates fecerunt homines
+                    cecari et manus truncari; quod non credit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName>. </p>
+                <p xml:id="LIII_p_108" n="108"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod nominati vocaverunt homines de burgo <pb n="154v"
+                        xml:id="fol_154v"/> in potestatem <persName ref="#Aldeprandusvic2"
+                                ><expan>A<ex>l</ex>d<ex>ebrandu</ex>m</expan></persName>
+                    <roleName>vi<supplied reason="omitted">s</supplied>dominum</roleName> et ei
+                    solverunt feodum et ipsum duxerunt sive menaverunt <placeName ref="#Sarzana"
+                        >Sarzane</placeName>. Idem ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> de <persName ref="#PetrusBinamontis">Petro Binamontis
+                        de</persName>
+                    <placeName ref="#Pontremoli">Pontremulo</placeName>. Idem ponit <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> de potestatibus burgi de
+                        <placeName ref="#Sarzana">Sarzana</placeName>, silicet de <persName
+                        ref="#Bollione_consul">Bullione</persName>, <persName ref="#GerardusVillani"
+                            >Girardo<note place="foot" n="eeee" xml:id="LIII_n_0082">Girardo: i
+                                <emph>aggiunta in sopralinea.</emph></note> Villani</persName> per
+                    duos annos quod <persName ref="#ÇacariasBiloio">Çacharias de <placeName
+                            ref="#Biloio">Biloio</placeName></persName>; non credit <persName
+                        ref="#AssalitusTiniosi">Assalitus</persName> sine voluntate episcopi, set si
+                    vocaverunt vel duxerunt aut feodum dederunt respondit. </p>
+                <p xml:id="LIII_p_109" n="109"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod consules et potestates burgi de <placeName
+                        ref="#Sarzana">Sarzana</placeName>, qui fuerunt pro tempore, habuerunt
+                    tabelliones, scilicet <persName ref="#Benvenutusnot1">Benvenutum</persName> et
+                        <persName ref="#Prefectusnot">Prefectum</persName> atque <persName
+                        ref="#Aicardus">Aicardum</persName>, <persName ref="#Lombardusnot"
+                        >Lumbardum</persName>, <persName ref="#Bartholomeusnot"
+                        >Bartholomeum</persName>, <persName ref="#Guilielmus_medicus"
+                        >Guilielmum</persName>
+                    <roleName>medicum</roleName> pro factis burgi et fecerunt facta burgensium cum
+                    eis et hec, sciente et non contradicente <roleName>domino</roleName>
+                    <persName ref="#MarzuccusEpLuni">Marzucco</persName>
+                    <roleName>episcopo</roleName>, ex quo fuit episcopus, fecerunt, atque scientibus
+                    et etiam non contradicentibus predictis episcopis predecessoribus suis, et usi
+                    sunt predicti episcopi cum predictis notariis et fecerunt fieri facta
+                    episcopatus, stantibus predictis notariis ad servicium communis. Respondit
+                        <persName ref="#AssalitusTiniosi">Assalitus</persName> quod non credit de
+                    antecessoribus presentis episcopi sine consensu eorum; de presente episcopo
+                    credit usque ad tempus quo scivit de hoc facto ratione postea non credit. </p>
+                <p xml:id="LIII_p_110" n="110"> Item dicit et ponit <persName
+                        ref="#MasneriusPalmerii">Masnerius</persName> quod homines burgi de
+                        <placeName ref="#Sarzana">Sarzana</placeName> acquisiverunt mercatum ab
+                    imperatore <persName ref="#FredericusimperatorII">Frederico</persName> atque pro
+                    eo habuerunt et us<supplied reason="omitted">q</supplied>ue hodie habent, cum
+                    primo in burgo non fuerit mercatum, nec haberent, quod non credit <persName
+                        ref="#AssalitusTiniosi">Assalitus</persName>. </p>
+                <p xml:id="LIII_p_111" n="111"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> predictus quod consules et potestates burgi predicti
+                    de <placeName ref="#Sarzana">Sarzana</placeName> fecerunt poni furcas in
+                    confinibus burgi, ubi eis placuit, et ceperunt malefactores et miserunt in
+                    prisionem et fecerunt eos custodiri; quod non credit <persName
+                        ref="#AssalitusTiniosi">Assalitus</persName>. </p>
+                <p xml:id="LIII_p_112" n="112"> Item ponit <persName ref="#MasneriusPalmerii"
+                            >Masnerius<note place="foot" n="fff" xml:id="LIII_n_0083">Masnerius:
+                                <emph>la prima s aggiunta in sopralinea.</emph></note></persName>
+                    quod populus burgi de <placeName ref="#Sarzana">Sarzana</placeName>
+                        consueverunt<note place="foot" n="gggg" xml:id="LIII_n_0084">consueverunt:
+                            <emph>così nel testo.</emph></note> habere totum avere advenarum
+                    decedentium et penam de homicidiis totam; quod non credit <persName
+                        ref="#AssalitusTiniosi">Assalitus</persName>. </p>
+                <p xml:id="LIII_p_113" n="113"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod commune de burgo de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> recolligi fecit pedagium de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> et tolli de quolibet modio salis, quod venditur
+                        <placeName ref="#Sarzana">Sarzane</placeName> vel venit <placeName
+                        ref="#Sarzana">Sarzane</placeName>, <measure type="Imperiales" quantity="6"
+                        unit="denarius">denarios sex imperialium</measure> de <measure
+                        type="Imperiales" quantity="6" unit="denarius">sex denariis</measure> in
+                    modio salis quod habuit eos ab episcopo et pro eo ideo recolligunt. Credit de
+                    pedagio, non credit nisi de eo quod est compera vel ex dono habuit, ait, ab
+                    episcopo in feodum. </p>
+                <p xml:id="LIII_p_114" n="114"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod castrum de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> in quantum muris circumdatum est seu vallatum et podium
+                    est de proprietate sancte Marie et episcopatus et quod habet in eo podio
+                    episcopus. Credit <persName ref="#AssalitusTiniosi">Assalitus</persName> quod
+                    est de proprietate et quod est de comitatu et iurisdictione ab imperatore
+                    concessis. </p>
+                <p xml:id="LIII_p_115" n="115"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod episcopus et <orgName ref="#Sarzana_S_Maria"
+                        >ecclesia sancte Marie</orgName> in <placeName ref="#Carrara"
+                            >Carrar<supplied reason="omitted">i</supplied>a</placeName> sit de tota
+                    curte de <placeName ref="#Luni">Lune</placeName>, et nominatim de castris
+                        <placeName ref="#Bracellis">Bracelli</placeName> et <placeName
+                        ref="#Michese">Michese</placeName> et <placeName ref="#Confeccino"
+                        >Confecciani</placeName> et de <placeName ref="#Ameglia">Amelia</placeName>
+                    et eius curte et de <placeName ref="#Ponzanello">Ponsanello</placeName> et de
+                        <placeName ref="#Pulica">Pulica</placeName> et de eo quod habet in
+                        <placeName ref="#Soliera">Soleria</placeName> et de burgo <placeName
+                        ref="#Santo_Stefano">sancti Stephani</placeName> atque de <placeName
+                        ref="#Bolano">Bolano</placeName> et eius curte. <persName
+                        ref="#AssalitusTiniosi">Assalitus</persName> respondit ut supra. </p>
+                <p xml:id="LIII_p_116" n="116"> Item <supplied reason="omitted">ponit <persName
+                            ref="#MasneriusPalmerii">Masnerius</persName></supplied> quod commune
+                    burgi de <placeName ref="#Sarzana">Sarzana</placeName> ponit saltarios seu
+                    guardianos in pratis et vineis, pro voluntate eorum, et aufferunt inde banna et
+                    non vindemiat aliquis de predictis vineis, nec facit secari in pratis predictis,
+                    sine licencia consulum vel potestatum burgi de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>; quod non credit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName>. </p>
+                <p xml:id="LIII_p_117" n="117"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod consules et potestates burgi de <placeName
+                        ref="#Sarzana">Sarzana</placeName> a predictis temporibus usque modo ponunt
+                    et posuerunt banda de pratis, vineis, ortis et campis, pro voluntate sua, et qui
+                    contrafecit tollunt ei bandum pro voluntate sua; quod negat <persName
+                        ref="#AssalitusTiniosi">Assalitus</persName>. </p>
+                <p xml:id="LIII_p_118" n="118"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod <orgName ref="#Luni_marca">marcha de <placeName
+                            ref="#Luni">Luna</placeName></orgName> est <orgName
+                        ref="#Malaspina_marca">march<supplied reason="omitted">ionat</supplied>us de
+                                <name type="familia" ref="#MalaspinaFamilia">Malaspina</name> et de <placeName
+                            ref="#Massa">Massa</placeName></orgName> et suorum consortum et alius
+                    comitatus vel <pb n="155r" xml:id="fol_155r"/> marcha non est in <placeName
+                        ref="#Lunigiana">Lusciana<note place="foot" n="hhhh" xml:id="LIII_n_0085"
+                            >Lusciana: <emph>così nel testo.</emph></note></placeName>; negat
+                        <persName ref="#AssalitusTiniosi">Assalitus</persName>. </p>
+                <p xml:id="LIII_p_119" n="119"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod pacta vel conventiones facta burgensibus ab
+                    episcopis Lunensibus usque hodie non fuerunt servata ab episcopis, et nominatim
+                    a presente episcopo, nec de casamentis, neque aliis rebus seu terrenis, unde
+                    ponit <persName ref="#MasneriusPalmerii">Masnerius</persName> atque dicit quod
+                    est burgensium dampnum <measure type="Imperiales" quantity="300" unit="libra"
+                        >librarum trecentarum imperialium</measure> et plus de casamentis. Respondit
+                        <persName ref="#AssalitusTiniosi">Assalitus</persName> quod non credit, de
+                    aliis non respondit, nisi determinetur. </p>
+                <p xml:id="LIII_p_120" n="120"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod de ripa et de nemoribus, de pascuis et erba
+                        incondenda<note place="foot" n="iiii" xml:id="LIII_n_0086">incondenda:
+                            <emph>così nel testo forse per</emph> incidenda.</note> et copertura
+                    capannarum et domorum et de cervascinis sive <term ref="#colochius"
+                            >colochii<supplied reason="omitted">s</supplied></term> et facibus non
+                    fuit observatum ab episcopis ut conventum<note place="foot" n="jjjj"
+                        xml:id="LIII_n_0087">conventum: <emph>corretto su precedente
+                            scrittura.</emph></note> fuit burgensibus, unde ponit et dicit esse
+                    dampnum burgensibus <measure type="Imperiales" quantity="300" unit="libra"
+                        >librarum trecentarum imperialium</measure> et plus; etiam in omnibus
+                    predictis ponit <persName ref="#MasneriusPalmerii">Masnerius</persName> tantum
+                    proficuum eos habuisse<note place="foot" n="kkkk" xml:id="LIII_n_0088">eos
+                        habuisse: <emph>nel testo</emph> habuisse eos <emph>con segno di richiamo
+                            per invertire l’ordine delle parole.</emph></note> si observatum esset
+                    conventum et tantum dampnum esse quod non fuit observatum et nichil inde ideo
+                    habuerunt. <persName ref="#AssalitusTiniosi">Assalitus</persName> negat
+                    predicta. </p>
+                <p xml:id="LIII_p_121" n="121"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod pena fuit inter episcopos et burgenses apposita
+                        <measure type="Marcharum" quantity="100" unit="denarius">centum marcharum
+                        argenti</measure> super predictis et infrascriptis pactis. Non respondit
+                        <persName ref="#AssalitusTiniosi">Assalitus</persName>, non determinetur in
+                    quo contracto vel facto. </p>
+                <p xml:id="LIII_p_122" n="122"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod de vineis quas faciunt burgenses de campis seu
+                    agrestibus predictas vineas atque etiam prata, scientibus episcopis et eorum
+                    nunciis et non contradicentibus; quod non credit <persName
+                        ref="#AssalitusTiniosi">Assalitus</persName>. </p>
+                <p xml:id="LIII_p_123" n="123"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod in diebus Natalis Domini, sancti Stephani et lune
+                    Pasche consueverunt, ad voluntatem consulum vel potestatis burgensium, ire
+                    centum homines quos volunt eligere et habere comestionem ad suam voluntatem et
+                    habere bailliam panis, vini et companatici, et recipere et habere honorifice
+                    comestionem, sicut etiam actum fuit optentum usque modo inter episcopos et
+                    burgenses. Confitetur <persName ref="#AssalitusTiniosi">Assalitus</persName>
+                    quod predicti homines consueverunt habere comestionem in predictis diebus quando
+                    presens est Lunensis episcopus et habere bailliam panis et vini et
+                        companitici<note place="foot" n="llll" xml:id="LIII_n_0089">companitici:
+                            <emph>così nel testo per</emph> companatici.</note> ad primam mensam
+                    predicte curie, quando dictus episcopus comedit. </p>
+                <p xml:id="LIII_p_124" n="124"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod pro predictis non observatis dampnum est pro
+                    retentis <measure type="Imperiales" quantity="200" unit="libra">ducentas libras
+                        imperialium</measure> atque plus et per <measure type="Imperiales"
+                        quantity="500" unit="libra">quingentas libras imperialium</measure> nollent
+                    predictum honorem et proficuum perdere et tantum esse dampnum eorum si ita
+                    perderent; quod non credit <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName>. </p>
+                <p xml:id="LIII_p_125" n="125"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod episcopi pro tempore duxerunt burgenses et eos
+                    tenuerunt in hostem ultra conventum, nec observatum <supplied reason="omitted"
+                        >fuit</supplied> quod convenerunt. Non respondit <persName
+                        ref="#AssalitusTiniosi">Assalitus</persName> ad predicta, nisi determinetur
+                    conventum. </p>
+                <p xml:id="LIII_p_126" n="126"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod dampnum eorum est <measure type="Imperiales"
+                        quantity="500" unit="libra">librarum quingentarum imperialium</measure> et
+                    plus, si olim conveniret in antea et non observarunt conventum esset eorum
+                    dampnum <measure type="Imperiales" quantity="5000" unit="libra">librarum quinque
+                        milia imperialium</measure> et in aliis substractis<note place="foot"
+                        n="mmmm" xml:id="LIII_n_0090">substractis: s <emph>aggiunto in
+                            sopralinea.</emph></note>, si non observarentur ut actum et conventum
+                    est dampnum esset eorum <measure type="Imperiales" quantity="2000" unit="libra"
+                        >duo milia librarum imperialium</measure>. Non respondit <persName
+                        ref="#AssalitusTiniosi">Assalitus</persName>, nisi determinetur. </p>
+                <p xml:id="LIII_p_127" n="127"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod consules et potestates qui sunt per tempora
+                    faciunt predas atque tenutas super eos de quibus fit reclamatio et coniurant de
+                    solvendo ut imponunt. <persName ref="#AssalitusTiniosi">Assalitus</persName>
+                    dicit quod ex concessione episcopi Lunensis hoc faciunt, aliter negat. </p>
+                <p xml:id="LIII_p_128" n="128"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName>, Xma die mensis septembris, presentibus domino
+                        <persName ref="#Bernardus"><expan>B<ex>ern</ex>a<ex>r</ex>do</expan><note
+                            place="foot" n="nnnn" xml:id="LIII_n_0091">presentibus domino
+                                    <expan>B<ex>ern</ex>a<ex>r</ex>do</expan>: <emph>così nel
+                                testo.</emph></note></persName>, dixit in curia episcopi quod
+                    burgenses habebant consules et potestates, set pro voluntate episcopi. <persName
+                        ref="#AssalitusTiniosi">Assalitus</persName> negat quod in iure hoc dixerit,
+                    set confitetur se dixisse quod pro voluntate episcopi habebant consules et
+                    potestates. </p>
+                <p xml:id="LIII_p_129" n="129"> Item ponit <persName ref="#MasneriusPalmerii"
+                        >Masnerius</persName> quod consules de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> et potestas et consilium eorum, seu cum consilio,
+                    casamenta de platea de mercato locaverunt, consueverunt locare <pb n="155v"
+                        xml:id="fol_155v"/> usque hodie. <persName ref="#AssalitusTiniosi"
+                        >Assalitus</persName>, qui non credit, confitetur de duabus, de quibus fuit
+                    reclamatio ut faceret ea destrui. De aliis non credit. </p>
+                <p xml:id="LIII_p_130" n="130"> Et insuper publica instrumenta mihi ostendit, unum
+                    quorum erat pactionum et conventionum habitarum inter
+                        <roleName>episcopum</roleName>
+                    <persName ref="#GualEpLuni">Gualterium</persName> et burgenses, scriptum
+                        <supplied reason="omitted">et</supplied> rogatum a <persName
+                        ref="#Confortusnot">Conforto</persName>
+                    <roleName>notario</roleName>; aliud erat rogatum per <persName
+                        ref="#Prefectusnot">Prefectum</persName>
+                    <roleName>notarium</roleName>, quo continebatur <persName ref="#GualEpLuni"
+                        >Gualterium</persName>, <roleName>episcopum Lunensem</roleName>, concessisse
+                    communi burgi de <placeName ref="#Sarzana">Sarzana</placeName> iure feodi ut
+                    possent uti nemoribus, pro sua voluntate, et pascuis ad usum bestiarum; aliud
+                    vero, rogatum per <persName ref="#Lombardusnot">Lumbardum</persName>
+                    <roleName>notarium</roleName>, qualiter <persName ref="#PetrusEpLuni"
+                        >Petrus</persName>
+                    <roleName>episcopus</roleName> dedit et gratis concessit et firmavit communi
+                    burgi de <placeName ref="#Sarzana">Sarzana</placeName> denarios tres de decem et
+                    octo denarios de pedagio somarum quod in dicto burgo percipitur; aliud scriptum
+                    per <persName ref="#Rodulfusnot">Rodulfum</persName>
+                    <roleName>notarium</roleName> de usibus et rationibus episcopi, quos habet et
+                    habere debet in burgo <placeName ref="#Sarzana">Sarzane</placeName>; aliud per
+                        <persName ref="#Rodulfusnot">eundem</persName>
+                    <roleName>notarium</roleName> rogatum pro se induxit quo continebatur <persName
+                        ref="#AndreaEpLuni">Andream</persName><roleName/>, promisisse communi burgi
+                    infra certos confines non facere aliquod impedimentum alicui de persona vel
+                    avere sine convicta culpa. Privilegium etiam <roleName>imperatoris</roleName>
+                    <persName ref="#FredericusimperatorII">Frederici</persName> pro se induxit, quo
+                    mercatum sollempnem qualibet die<note place="foot" n="oooo" xml:id="LIII_n_0092"
+                        >die: <emph>nel testo</emph> dies <emph>con</emph> s finale espunta.</note>
+                    salbati burgensibus concessit in Lunensi litore nec in flumine Macre pedaticum
+                    vel aliquod datium tribuant et ut nullus ex convicinis eorum in nemoribus seu
+                    silvis quibus uti consueverunt aliquid iniuste aufferre presumat et qualiter
+                    ipsum burgum, sicut in speciali imperii camera, in protectione suscepit. Testes
+                    etiam a se datos coram me produxit, quibus omnibus se a petitione suprascripti
+                    syndici episcopi ad solvendum fore narrabat sibi condempnandum proponebat. </p>
+                <p xml:id="LIII_p_131" n="131"> Unde ego predictus arbiter, visis confessionibus et
+                    instrumentis suprascriptis et testium dictis ab utraque parte productorum
+                    diligenter consideratis, auditis etiam et plenius intellectis allegationibus
+                    partium, habito etiam consilio peritorum, secundum ea que coram me proposita
+                    sunt et allegata, cum constet mihi Lunensem episcopum comitem et iudicem esse
+                    Lunensis episcopatus et comitatus et constet etiam mihi, ex confessionibus vel
+                        positionibus<note place="foot" n="pppp" xml:id="LIII_n_0093">positionibus:
+                            <emph>segue depennato</emph> supradictis.</note> istis et ex dictis
+                    testium, commune burgi suprascripti contra plures ex pactionibus fecisse, que in
+                    carta <persName ref="#Confortusnot">Conforti</persName>
+                    <roleName>notarii</roleName> inter <persName ref="#GualEpLuni"
+                        >Gualterium</persName>, <roleName>Lunensem episcopum</roleName>, pro
+                    episcopatu et commune burgi suprascripti <expan>in<ex>i</ex>cios</expan><note
+                        place="foot" n="qqqq" xml:id="LIII_n_0094"><expan>in<ex>i</ex>cios</expan>:
+                            <emph>così nel testo, forse per</emph> inicio.</note> fuisse continetur,
+                    delato a me iuramento <expan>i<ex>am</ex>scripto</expan>
+                    <persName ref="#AssalitusTiniosi">Assalito</persName>,
+                        <roleName>syndico</roleName> istius Lunensis episcopi et episcopatus<note
+                        place="foot" n="rrrr" xml:id="LIII_n_0095">episcopatus: <emph>segue
+                            depennato</emph> de.</note>, pro declaratione summe extimationis
+                    interesse ab eo petiti et expensarum litis et prestito iuramento ab eo super
+                    dicti episcopi et suam animam, data ei inde parabola iurandi super animam suam
+                        <supplied reason="omitted">et</supplied> dicti episcopi coram me arbitro
+                    iamscripto sub quo idem episcopus atque syndicus, facta a me prius taxatione
+                    ante iuramenti dilationem, dixerunt interesse episcopatus suprascripti pacta
+                    contra que burgenses venerunt observata fuisse in <measure type="Imperiales"
+                        quantity="200" unit="libra">libris ducentis imperialium</measure> et
+                    expensas litium predictarum esse <measure type="Imperiales" quantity="40"
+                        unit="libra">librarum quadraginta</measure> per que imperiales
+                        suprascriptam<note place="foot" n="ssss" xml:id="LIII_n_0096">suprascriptam:
+                            <emph>così nel testo per</emph> suprascriptum.</note>
+                    <persName ref="#MasneriusPalmerii">Masnerium</persName>, syndicum burgi de
+                        <placeName ref="#Sarzana">Sarzana</placeName>, pro ipso communi, in <measure
+                        type="Imperiales" quantity="150" unit="libra">libris centum et quinquaginta
+                        imperialium</measure> pro interesse pro pactis suprascriptis non observatis,
+                    ut commune et populus dicti burgi faciat et observet et firma semper et rata
+                    habeat pacta atque conventiones que continentur in carta <persName
+                        ref="#Confortusnot">Conforti</persName>
+                    <roleName>notarii</roleName> facta fuisse inter <roleName>dominum</roleName>
+                    <persName ref="#GualEpLuni">Gualterium</persName>, <roleName>tunc Lunensem
+                        episcopum</roleName>, pro ipso episcopatu et <persName
+                        ref="#Caruncius_consul">Caruncium</persName>, <roleName>consulem</roleName>
+                    burgi suprascripti, pro se <supplied reason="omitted">et</supplied>
+                    <persName ref="#Bonrognosus_con">Bonrognoso</persName>, <roleName>socio
+                        suo</roleName>, burgensium de communi burgi consilio ad facienda cum
+                    predicto <roleName>episcopo</roleName>
+                    <persName ref="#GualEpLuni">Gualterio</persName> pacta electos preter quam in
+                    hiis que in feodum communi burgi a Lunensibus episcopis concessa fuerunt, ut
+                    inferius describetur, atque ut commune et populus dicti burgi dimittat
+                    suprascripto <persName ref="#AssalitusTiniosi">Assalito</persName>,
+                        <roleName>syndico</roleName> Lunensis episcopatus, pro ipso episcopatu <pb
+                        n="156r" xml:id="fol_156r"/> et ipsi episcopatui concessa dicto communi in
+                    feodum a Lunensibus episcopis, scilicet usum nemorum et pascuorum atque
+                    medietatem successionum advenarum sine heredibus et ab intestato in burgo
+                        deoccidentium<note place="foot" n="tttt" xml:id="LIII_n_0097">deoccidentium:
+                            <emph>così nel testo per</emph> decedentium.</note> et medietatem
+                    penarum a malefactoribus vel in falsa mensura repertorum extorquende vel
+                    exigende; et ut permittant prefato episcopo pro episcopatu Lunensi et patiantur
+                    liberam et expeditam habere plateam mercati et ut locationes, quas inde hucusque
+                    fecerunt, revocent, nec infinitum aliquem inde faciant; et ut si quis, decetero
+                    de maleficio a communi burgi sententiatus, ad Lunensem episcopum appellaverit,
+                    coram eodem ipsum de appellatione esse patiantur, et ut ipsum inde non gravent;
+                    et ut permittant et non impediant dictum episcopum pro episcopatu suprascripto
+                    habere medietatem omnium bannorum que decetero aufferenda erunt ab exbannitis a
+                    communi predicto, et ut ipsam medietatem eis solvant vel solvi faciant, nec
+                    reconcilient nec recipiant aliquem exbannitorum a suprascripto communi, sine
+                    Lunensis episcopi licencia; et ut episcopum Lunensem, pro episcopatu, et eius
+                    nuncios, pro eo, saltariam bladarum de viginti mensuris unam et de viginti
+                        manis<note place="foot" n="uuuu" xml:id="LIII_n_0098">manis: <emph>così nel
+                            testo per</emph> minis.</note> grani unam de omnibus terris positis in
+                    planu burgi et, nominatim, de terris comprehensis in suprascripta carta a
+                        <persName ref="#Prefectusnot">Prefecto</persName>
+                    <roleName>notario</roleName> scripta et rogata per <persName
+                        ref="#Guilielmusnot7">Guilielmum</persName>
+                    <roleName>notarium</roleName>, exceptis de predictis vineis et pratis et donicis
+                    burgensium percipere et habere permittant et non impediant, et ut deinceps non
+                    eligant vel eligi faciant nec habeant vel teneant aliquem pro consule vel
+                    potestate dicti burgi, nisi electus fuerit cum consensu Lunensis episcopi; nec
+                    etiam teneant vel habeant aliquem tabellionem, nisi eius<note place="foot"
+                        n="vvvv" xml:id="LIII_n_0099">eius: <emph>così nel testo per</emph>
+                        eis.</note> fuerit a Lunensi episcopo assignatus; et ut non habeant nec
+                    teneant pro <roleName>consulibus</roleName> dicti burgi <persName
+                        ref="#MontonariusParisii">Montonarium</persName> et <persName
+                        ref="#BononcontrusMelia">Bononcontrum</persName>, nec eis consulibus
+                    obediant, et ut ab officio consulatus eos ammoveant; et in libris triginta
+                    imperialium pro expensis litium prefato <persName ref="#AssalitusTiniosi"
+                        >Assalito</persName>, <roleName>syndico</roleName> Lunensis episcopi et
+                    episcopatus, pro ipso episcopo et episcopatu, ad suprascriptam penam condempno.
+                    Ab aliis vero a suprascripto <persName ref="#AssalitusTiniosi"
+                        >Assalito</persName>
+                    <roleName>syndico</roleName> pro Lunensi episcopo et episcopatu petitis,
+                    suprascriptum <persName ref="#MasneriusPalmerii">Masnerium</persName>,
+                        <roleName>syndicum</roleName> burgi de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> pro predicto communi, et ipsum commune a suprascripta
+                    pena absolvo. </p>
+                <p xml:id="LIII_p_132" n="132"> Et eundem <persName ref="#AssalitusTiniosi"
+                        >Assalitum</persName>
+                    <roleName>syndicum</roleName> Lunensis episcopi et episcopatus, pro ipso
+                    episcopo et episcopatu, ut observet per omnia de casamentis et territoriis et
+                    terrenis dandis et assignandis burgensibus burgi suprascripti et de retinendis
+                    in comestione centum hominibus de burgo suprascripto preter personas consulum,
+                    quando episcopus celebrat curiam vel presens fuerit in die sollempnitatis sancti
+                    Stephani et sequen<supplied reason="omitted">ti</supplied>s diei post pascha
+                    resurrectionis Domini, in quibus diebus habeant bailliam panis et vini et
+                        companitici<note place="foot" n="wwww" xml:id="LIII_n_0100">companitici:
+                            <emph>così nel testo per</emph> companatici.</note> ad primam mensam, et
+                    de appellationibus non admittendis post litem et coram consulibus burgi
+                    contestatam ad sententiam ab eis latam, atque de ripis non aufferendis hominibus
+                    burgi suprascripti in portu vel ripa <placeName ref="#Ameglia"
+                        >Amelie</placeName>, nec de mercimoniis vel lignis per portum <placeName
+                        ref="#Ameglia">Amelie</placeName> sive per ripam vel flumen transportandis;
+                    et ne commune vel populum burgi suprascripti in hoste vel cavalcata gravet ire
+                    ultra episcopatum Lunensem in propriis expensis vel esse vel stare ultra tres
+                    dies et noctes, sicut per omnia de prefatis pactionibus et capitulis in carta
+                        <persName ref="#Confortusnot">Conforti</persName>
+                    <roleName>notarii</roleName> a burgensibus producta continetur. Prefato
+                        <persName ref="#MasneriusPalmerii">Masnerio</persName>,
+                        <roleName>syndico</roleName> communis burgi suprascripti, pro ipso communi,
+                    et ipsi communi <pb n="156v" xml:id="fol_156v"/> ad suprascriptam penam
+                    condempno; ab aliis a suprascripto <persName ref="#MasneriusPalmerii"
+                        >Masnerio</persName>, <roleName>syndico</roleName> burgi, pro predicto
+                    communi, petitis atque prefatum <persName ref="#AssalitusTiniosi"
+                        >Assalitum</persName>, <roleName>syndicum</roleName> suprascripti Lunensis
+                    episcopi et episcopatus, et pro iamdicto episcopo et episcopatu, a dicta pena
+                    absolvo et libero. </p>
+                <p xml:id="LIII_p_133" n="133"> Datas, recitatas in burgo de <placeName
+                        ref="#Brancaliano">Brancaliano</placeName>, in <orgName
+                        ref="#Brancaliano_S_Bartolomeo">ecclesia sancti Bartholomei</orgName> de
+                        <placeName ref="#Brancaliano">Brancaliano</placeName>, presentibus <persName
+                        ref="#ArloctusPalude_not">Arlocto</persName>
+                    <roleName>iurisperito</roleName> et <persName ref="#Riccomus_iurisperitus"
+                        >Riccomo</persName>
+                    <roleName>iurisperito</roleName> atque <persName ref="#BonacursusGavi">Bonacurso
+                        Gavi</persName> et <persName ref="#HormannusOlandini">Hormanno filio
+                        Olandini de <placeName ref="#Porcari">Porcario</placeName></persName> et
+                        <persName ref="#LucreriusHormanni">Lucrerio quondam Hormanni
+                        Paganelli</persName> et <persName ref="#GerardusVallecla">Gerardo de
+                            <placeName ref="#Vallecchia1">Vallechia</placeName></persName> et
+                        <persName ref="#HormannusVallechia">Hormanno </persName>de <placeName
+                        ref="#Vallecchia1">Vallechia</placeName> et <persName ref="#ParensCorvaria"
+                        >Parente de <placeName ref="#Corvaia">Corvaria</placeName></persName> atque
+                        <roleName>presbytero</roleName>
+                    <persName ref="#Mercadante_presbyter">Mercatante</persName> et <persName
+                        ref="#Thederichus_clericus">Thedericho</persName>
+                    <roleName>clerico</roleName> et <persName ref="#GerardusVillani">Gerardo
+                        Villani</persName> et <persName ref="#Legalis">Legale</persName> et
+                        <persName ref="#Marabotinus">Maraboccino</persName> et <persName
+                        ref="#Arciolus">Arciolo</persName> et aliis pluribus et presentibus
+                    suprascripto <persName ref="#MasneriusPalmerii">Masnerio</persName> et <persName
+                        ref="#BonencontrusAmelia">Bononcontro</persName> suprascripto. Dominice vero
+                    incarnationis anno millesimo ducentesimo nono decimo, indictione septima, octavo
+                    idus martii. Hoc debet scribi in tribus locis suprascripte carte: primo usus
+                    curie secundum usum curie atque curiarum et in questionibus, secundo ex
+                    concessione imperatoris, tertio in burgo de Sarzana qui<note place="foot"
+                        n="xxxx" xml:id="LIII_n_0101">qui: <emph>così nel testo per</emph>
+                        ubi.</note> recolligit et recolligere consuevit pedagium<note place="foot"
+                        n="yyyy" xml:id="LIII_n_0102">Hoc debet-pedagium: <emph>aggiunto in un
+                            secondo tempo dalla stessa mano, in caratteri più ridotti, dopo la data
+                            cronica e topica.</emph></note>. </p>
+                <p xml:id="LIII_p_134" n="134">
+                    <ptr target="#LIII_st_001"/> Ego <persName ref="#AgnellusBlanci_notarius"
+                        >Agnellus</persName>, filius quondam Blanci de embulo <placeName
+                        ref="#Sancto_Xisto">sancti Xisti</placeName>, <roleName>imperialis aule
+                        notarius et domini Ottonis, serenissimi Romanorum imperatoris, iudex
+                        ordinarius</roleName>, hanc sententiam a suprascripto Bandino coram me data,
+                    sua parabola et mandato, scripsi et firmavi. </p>
+            </div>
+            <div xml:id="LIII_div2" type="autentica">
+                <p xml:id="LIII_p_135" n="135">
+                    <ptr target="#LIII_st_002"/>
+                    <persName ref="#RanuciusRonchinelli_notarius">Ranutius, filius
+                        Ronchinelli</persName>, <roleName>sacri palacii iudex et
+                    notarius</roleName>, auctenticum illud unde hoc sumptum est exemplum vidi et
+                    legi atque diligenter auscultavi et de mandato et licencia mihi facto et data a
+                        <roleName>domino</roleName>
+                    <persName ref="#HenricusEpLucca">Henrico</persName>, <roleName>Dei gratia
+                            <placeName ref="#Lucca">Lucano</placeName> episcopo</roleName>, et etiam
+                    a <roleName>domino</roleName>
+                    <persName ref="#GuiscardusPietrasanta">Guiscardo de</persName>
+                    <placeName ref="#Pietrasanta">Petra Sancta</placeName>, <roleName>tercia vice
+                            <placeName ref="#Lucca">Lucano</placeName> potestate</roleName>, ut
+                    continetur publice scriptum manu <persName ref="#GuidoCaldovillani_notarius"
+                        >Guidonis Caldovillani de <placeName ref="#Porticu"
+                        >Porticu</placeName></persName>
+                    <roleName>notarii</roleName>, hic ego de verbo ad verbum, nichil addito vel
+                    diminuto, scripsi et fideliter exemplavi, meis signo et nomine confirmando. </p>
+                <p xml:id="LIII_p_136" n="136">
+                    <ptr target="#LIII_st_003"/>
+                    <persName ref="#RochiscianusPagani_notarius">Rocchiscianus Pagani</persName>,
+                        <roleName>sacri palacii iudex et notarius</roleName>, auctenticum illud unde
+                    hoc sumptum est exemplum vidi et legi et diligenter cum suprascripto <persName
+                        ref="#RanuciusRonchinelli_notarius">Ranutio</persName> et infrascripto
+                        <persName ref="#GerardusBuçolini_notarius">Gerardo</persName>
+                    <roleName>notariis</roleName> ascultavi et de mandato atque licencia mihi facto
+                    et data a <roleName>domino</roleName>
+                    <persName ref="#HenricusEpLucca">Henrico</persName>, <roleName>Dei gratia
+                            <placeName ref="#Lucca">Lucano</placeName> episcopo</roleName>, et etiam
+                    a <roleName>domino</roleName>
+                    <persName ref="#GuiscardusPietrasanta">Guiscardo de <placeName
+                            ref="#Pietrasanta">Petra Sancta</placeName></persName>, <roleName>tercia
+                        vice Lucano potestate</roleName>, ut continetur publice scriptum <pb
+                        n="157r" xml:id="fol_157r"/> manu suprascripti <persName
+                        ref="#GuidoCaldovillani_notarius">Guidonis Caldovillani</persName>
+                    <roleName>notarii</roleName>, hic ego subscripsi, meo signo et nomine
+                    confirmando. </p>
+                <p xml:id="LIII_p_137" n="137">
+                    <ptr target="#LIII_st_004"/> Ego <persName ref="#GerardusBuçolini_notarius"
+                        >Gerardus quondam Uberti Buçolini</persName>, <roleName>imperialis aule
+                        iudex et notarius</roleName>, auctenticum illud unde hoc sumptum est
+                    exemplum vidi atque legi et diligenter cum suprascriptis <persName
+                        ref="#RanuciusRonchinelli_notarius">Ranutio</persName> et <persName
+                        ref="#RochiscianusPagani_notarius">Rocchisciano</persName>
+                    <roleName>notariis</roleName> ascultavi et de mandato et licencia mihi facto a
+                        <roleName>domino</roleName>
+                    <persName ref="#HenricusEpLucca">Henrico</persName>, <roleName>Dei gratia
+                            <placeName ref="#Lucca">Lucano</placeName> episcopo</roleName>, et etiam
+                    a <roleName>domino</roleName>
+                    <persName ref="#GuiscardusPietrasanta">Guiscardo de <placeName
+                            ref="#Pietrasanta">Petra Sancta</placeName></persName>, <roleName>tercia
+                        vice Lucano potestate</roleName>, ut continentur publice scriptum manu
+                    suprascripti <persName ref="#GuidoCaldovillani_notarius">Guidonis
+                        Caldovillani</persName>
+                    <roleName>notarii</roleName>, hic ego subscripsi, meo signo et nomine
+                        confirmando.<note>Autentica del documento 80-LIII databile al <date
+                            from="1257-01-01" to="1257-12-31" cert="high"> 1257 </date> dal terzo
+                        mandato del podestà Guiscardo di Pietrasanta. </note>. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

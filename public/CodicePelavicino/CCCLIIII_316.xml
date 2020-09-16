@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLIIII_316">
+    <front xml:id="CCCLIIII_front">
+
+      <titlePart type="numerazioneNuova">316</titlePart>
+      <titlePart type="numerazioneOrig">CCCLIIIIor</titlePart>
+
+      <docDate xml:id="CCCLIIII_docDate">
+        <date when="1151-12-03">1151 dicembre 3</date>, <placeName>Ameglia (<emph>prope castellum
+            Melie, iuxta fluvium qui dicitur Magra</emph>) </placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLIIII_regesto">
+        <p>Memoria della cessione da parte del vescovo di Luni Gotifredo alla chiesa di San Frediano
+          di Lucca della chiesa e pieve di Sant'Andrea di Carrara con tutte le sue pertinenze, in
+          particolare le cappelle, l'ospedale di Monte Forca con le sue cappelle, l'ospedale di San
+          Leonardo <emph>de Padule</emph>, varie terre e la villa di Plaula col suo distretto. Tutti
+          gli uomini che abitano nelle terre della pieve sono liberi dalla giurisdizione del vescovo
+          e dei suoi successori.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP c. 308v., c. CCCv. secondo la numerazione originale </p>
+          <p>Copia cartacea [D] Archivio Capitolare di Sarzana X/150a.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizioni: <ref target="#PENNOTTO_1623">Pennotto 1623</ref>, p. 734; <ref
+              target="#UGHELLI_1644">Ughelli 1644</ref>, I, 845; <ref target="#LUPO_GENTILE_1912"
+              >Lupo Gentile 1912</ref>, n. 354, p. 339. Il Pennotto non trascrive il documento dal
+            Codice, ma una copia autentica del 1346 da lui consultata a Roma; tale copia presentava
+            i testimoni e la sottoscrizione notarile che corrispondono a quelli del codice con poche
+            varianti garfiche: <term xml:lang="latin">Haec acta sunt praesentia <persName
+                ref="#Oliveriuspres">Oliverii, <roleName>divina gratia presbyteri</roleName>, et
+                  <roleName>Capellani supradicti Episcopi</roleName></persName>, et <persName
+                ref="#VeltroGuilielmiCorvaria">Veltri de <placeName ref="#Corvaia"
+                  >Corvaria</placeName> quondam Guilielmi</persName>, <persName
+                ref="#GenetiusRolandi">Genetij quondam Rolandi</persName>, <persName
+                ref="#UrdicioArcardi">Urdicioni quondam Arcardi</persName>, <persName
+                ref="#GuidoRolandi">Guidi</persName>, et <persName ref="#GuilielmusRolandi"
+                >Guilielmi Germanorum quondam Rolandi</persName>, <persName ref="#IustusGuidi">Iusti
+                quondam Guidi</persName>. <date when="1151-12-03">Anno Dominicae Incarnationis
+                millesimo centesimo quinquagesimo primo, 3. Nonas Decembris, Indictione 15</date>.
+              Supradicti homines ibi fuere. <persName ref="#Henricusnot">Henricus <roleName>Notarius
+                  Domini Imperatoris</roleName></persName> his interfuit, et per comandamentum
+              praedicti <persName ref="#GotefredEpLuni"><roleName>Episcopi</roleName>
+                Gotefredi</persName> memoria causa descripsit</term>. Questa l’autentica: «<term
+              xml:lang="latin">Authenticum originale praedictae donationis cum originali
+              confirmationis factae per <persName ref="#EugeniuspontifexIII">Eugenium</persName> III
+              fuit productum <placeName ref="#Lucca">Lucae</placeName> in Curia Episcopali coram
+              Domino Vicario in spiritualibus Reverendiss. D. <persName ref="#GuilEpLuccaII"
+                >Guilielmi Episcopi</persName> Lucensis anno Domini 1346. Indictione 14. die 16.
+              mensis Ianuari, per D. <persName ref="#IohannesPisis">Ioannem de <placeName
+                  ref="#Pisa">Pisis</placeName>
+                <roleName>Priorem</roleName></persName> claustralem <roleName>Capituli &amp;
+                Conventus S. Frigdiani</roleName>, &amp; autoritate praedicti D. Vicarij exemplatum,
+              productum, &amp; collationatum cum dicto originali, cum subscriptione Notariorum,
+              videlicet <persName ref="#IohannesFranciscinot">Ioannis quondam Francisci de
+                Flammis</persName>, <persName ref="#Bettusnot">Betti filij Ser Castilionis quondam
+                Betti de <placeName>Correlia</placeName></persName>, civium Lucensium, &amp;
+                <persName ref="#Iacopusnot">Iacobi Finuccij de <placeName ref="#San_Miniato">Sancto
+                  Miniate</placeName>
+                <roleName>publicorum Imperiali autoritate Notariorum</roleName></persName>, &amp;
+              per eundem <persName ref="#Martroniscan">Martronis, <roleName>canonicum
+                  Lucensem</roleName></persName> subscriptum, cum decreti interpositione, sigilli
+              appositione, caeterisque solemnitatibus opportunis ad fidem in iudicio faciendam,
+              cuius exemplum servatur <placeName ref="#Roma">Romae</placeName> in Archivo
+              Pacis</term>». Ughelli deriva da Pennotto.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Secondo Ubaldo Mazzini (<ref target="#MAZZINI_1914">Mazzini 1914</ref>, p. 22)
+            l’indizione non corrisponderebbe all’anno; in realtà la datazione pare espressa in stile
+            fiorentino con indizione bedana. Il documento è pressoché identico al doc. 288-CCCXXVI,
+            rispetto al quale è comunque più completo per la presenza dell’elenco dei testimoni e
+            delle sottoscrizioni notarili. Nel margine esterno, di mano moderna:
+              <emph>Carraria</emph>. <p>Autentica databile  con incertezza tra il 1268 e il 1272 per
+              la presenza del notaio Pasqualino.</p>
+          </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLIIII. Concessionis plebis Carrarie Sancto Frediano de Luca.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLIIII_div">
+        <p xml:id="CCCLIIII_p_001" n="1">Exemplum <ptr target="#CCCLIIII_st_001"/> In Christi
+          nomine. Breve recordationis qualibet <note xml:id="CCCLIIII_n_001" n="a" place="foot"
+              ><term xml:lang="latin">qualibet</term>: così nel testo per qualiter</note>
+          <placeName>prope castellum Melie</placeName>, iuxta <placeName ref="#Magra">fluvium qui
+            dicitur Magra</placeName>, <supplied reason="omitted">in</supplied> presentia bonorum
+          hominum, quorum nomina subter leguntur, <persName ref="#GotefredEpLuni">Gotefredus,
+              <roleName>Dei gratia Lunensis civitatis episcopus</roleName></persName>, dedit et
+          supposuit <orgName ref="#Carrara_S_Andrea">ecclesiam et plebem Sancti Andree</orgName> de
+          loco <placeName ref="#Carrara">Carrara</placeName>
+          <orgName ref="#Lucca_S_Frediano">ecclesie et canonice et rectoribus Sancti
+            Fridiani</orgName>, cum cappellis suis, cum <orgName ref="#Monte_Forca_hospitalis"
+            >hospitali</orgName>
+          <placeName ref="#MonteFurca">Montis Furculi</placeName> et cum cappellis suis, videlicet
+            <orgName ref="#Monte_Forca_S_Sisto">Sancti Syxti</orgName> et Sancti Brancacii, et cum
+          omnibus suis pertinenciis et cum <orgName ref="#Padule_S_Leonardo">hospitali Sancti
+            Leonardi de <placeName ref="#Padule">Padule</placeName></orgName>, cum omnibus suis
+          pertinenciis, cum XX iugis terre in eodem padule et cum duobus iugis terre in loco
+            <placeName ref="#Lavadarium">Lavandario</placeName> et cum sex iugis terre in loco
+            <placeName ref="#Broilo">Broilo</placeName> et cum cafaio, quod est iuxta plebem, et cum
+          terra que est iuxta plebem, que fuit feudum <persName ref="#Filimannus"
+            >Filimanni</persName>, cum villa que dicitur <placeName ref="#Plaula"
+          >Plaula</placeName>, cum omni suo iure et placito et districto et collecta et cum iure
+          piscandi in omnibus aquis que sunt in eius terris et districto. Item concessit ut omnes
+          homines modo habitantes in terris predicte plebis aut qui in antea venerint ad habitandum
+          de alia terra in terra suprascripte plebis vel qui veneri<supplied reason="omitted"
+            >n</supplied>t de terris suprascripti episcopi, cum eius consensu vel suorum
+          successorum, ad habitandum in terris suprascripte plebis, quas modo aut in antea habuerit,
+          sint liberi et absoluti a iurisdictione predicti episcopi vel suorum successorum. Et
+          insuper suprascriptus <persName ref="#GotefredEpLuni">Gotefredus
+              <roleName>episcopus</roleName></persName> promisit observare omnia suprascripta per se
+          et suos successores rectoribus suprascripte <orgName ref="#Lucca_S_Frediano">ecclesie et
+            canonice Sancti Fridiani</orgName>, ad penam <measure quantity="100" unit="libra"
+            >librarum C optimi argenti</measure>. </p>
+        <p xml:id="CCCLIIII_p_002" n="2">Hec acta sunt presencia <persName ref="#Oliveriuspres"
+            >Uliveri, <roleName>divina gratia presbyteri et cappellani suprascripti
+              episcopi</roleName></persName>, et <persName ref="#VeltroGuilielmiCorvaria">Veltri de
+              <placeName ref="#Corvaia">Corvaria</placeName> quondam Guilielmi</persName>, <persName
+            ref="#GenoeseRolandi">Genoesi quondam Rollandi</persName>, <persName
+            ref="#ArdicioAicardi">Ardicioni quondam Aicardi</persName>, <persName
+            ref="#GuidoRolandi">Guidi</persName> et <persName ref="#GuilielmusRolandi">Guilielmi,
+            germanorum, quondam Rollandi</persName>, <persName ref="#FuscusGuidi">Fuschi quondam
+            Guidi</persName>. <date when="1151-12-03">Anno dominice incarnationis M°CLI, tercio
+            nonas decembris, indictione XV</date>. Iamscripti homines ibi fuerunt.</p>
+        <p xml:id="CCCLIIII_p_003" n="3"><ptr target="#CCCLIIII_st_002"/>
+          <persName ref="#Henricusnot2">Henricus, <roleName>notarius domini
+            imperatoris</roleName></persName>, hiis interfui per commandamentum predicti episcopi
+            <persName ref="#GotefredEpLuni">Gotefredi</persName>, memorie causa descripsi.</p>
+      </div>
+      <div xml:id="CCCLIIII_div2" type="autentica">
+        <p xml:id="CCCLIIII_p_004" n="4"><ptr target="#CCCLIIII_st_003"/> Ego <persName
+            ref="#Pasqualinusnot">Pasqualinus, <roleName>sacri palacii
+            notarius</roleName></persName>, huius exempli vidi et legi exemplum et, ut in ipso
+          continebatur, ita in hoc scripsi, nil addens vel minuens quod mutet sensum vel variet
+          intellectum, preter litteram vel titulum, signum proprium apponendo<note>autentica del
+            documento n. 316-CCCLIIII databile con incertezza tra il 1260 e il 1272 per la presenza
+            del notaio Pasqualino <date notBefore="1268-01-01" notAfter="1272-12-31" cert="medium"
+            /></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

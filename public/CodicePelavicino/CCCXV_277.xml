@@ -1,0 +1,321 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXV_277">
+    <front xml:id="CCCXV_front">
+
+      <titlePart type="numerazioneNuova">277</titlePart>
+      <titlePart type="numerazioneOrig">CCCXV</titlePart>
+
+      <docDate xml:id="CCCXV_docDate">
+        <date when="1255-09-09">1255 settembre 9</date>, <placeName>Ponzanello (<emph>Ponçanelli, in
+            ecclesia</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXV_regesto">
+        <p>Il canonico lucchese Gualterotto si reca da Guglielmo, vescovo di Luni, con una lettera
+          del vescovo di Lucca Guercio dell’8 settembre 1255. In tale missiva il prelato lucchese
+          chiede a Gualterotto di adempiere a quanto richiesto da papa Alessando IV in una lettera
+          del 12 aprile precedente. In quest’ultima il pontefice segnalava i debiti contratti dal
+          vescovo di Luni a causa della prigionia subita ad opera di Federico II e chiedeva che egli
+          fosse autorizzato, sotto controllo, a liberare i suoi servi (<term xml:lang="latin"
+            >rustici sive villani</term>). Visto il documento, il capitolo di Luni consente al
+          vescovo la liberazione di otto servi nominati singolarmente. Il prelato lunense libera
+          quindi Baldanza di Torano del fu Micheletto in cambio di 12 lire di imperiali, che vengono
+          immediatamente riversate a Gualterotto al fine di pagare i debiti della chiesa di Luni e
+          usate a beneficio, se vi sono rimanenze, della Chiesa di Luni. Baldanza viene poi
+          investito feudalmente del suo podere e diventa quindi un fedele del vescovo.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 289v.-291r., c. CCLXXXIv.-CCLXXXIIIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 315, pp.
+            300-303.</p>
+          <p>Bibliografia: <ref target="#NOBILI_2009">NOBILI 2009</ref>.</p>
+        </div>
+
+        <div type="crit_notes"> </div>
+
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCXV.
+              Liberationis Baldantie de Torano et fidelitatis.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXV_div">
+        <p xml:id="CCCXV_p_001" n="1">In Dei nomine, amen. <date when="1255-09-09">Anno a nativitate
+            Eius millesimo CCLV, indictione XIII, IX intrantis septembris</date>. Dominus <persName
+            ref="#Gualterotusncan">Gualterotus, <roleName>Lucanus canonicus</roleName></persName>,
+          accedens ad presentiam venerabilis patris domini <persName ref="#GuilEpLuni">Guilielmi,
+              <roleName>Dei gratia Lunensis episcopi</roleName></persName>, de mandato venerabilis
+          patris domini <persName ref="#GuerciusepiLuc">Guercii, <roleName>Lucani
+              episcopi</roleName></persName>, prout de ipso mandato continebatur in litteris ipsius
+          domini episcopi Lucani, quarum tenor talis erat: </p>
+      </div>
+      <div xml:id="CCCXV_div2" type="quotation">
+        <quote rend="pre(«) post(»)">
+          <persName ref="#GuerciusepiLuc">Guertius, <roleName>miseratione divina episcopus
+              Lucanus</roleName><note xml:id="CCCXV_n_001" n="a" place="foot">episcopus Lucanus:
+                <emph>nel testo</emph> Lucanus episcopus <emph>con segno di richiamo per invertire
+                l’ordine delle parole</emph>.</note></persName>, dilecto filio <persName
+            ref="#Gualterotusncan">Gualteroto, <roleName>canonico Lucano</roleName></persName>,
+          salutem et apostolicam benedictionem. Scripsit nobis dominus papa in hec verba: </quote>
+      </div>
+      <div xml:id="CCCXV_div3" type="quotation">
+        <quote rend="pre(') post(')">
+          <persName ref="#AlexanderpontifexIV">Alexander <roleName>episcopus, servus servorum
+              Dei</roleName></persName>, venerabili fratri episcopo Lucano salutem et apostolicam
+          benedictionem. Ex parte venerabilis fratris nostri Lunensis episcopi fuit nobis humiliter
+          supplicatum ut, cum occasione vexationum quas ante sue captionis tempora quondam <persName
+            ref="#Fredericus_imperator_II">Fredericus, olim <roleName>Romanorum
+            imperator</roleName></persName>, ipsum sustinere cogebat et etiam dum ab ipso <persName
+            ref="#Fredericus_imperator_II">Frederico</persName> in vinculis teneretur ac aliis de
+          causis non modicam acceperit mutuum sub usuris et sine usuris pecunie quantitatem qua,
+          nisi celerius persolvatur creditoribus, bona Lunensis ecclesie deglutarentur<note
+            xml:id="CCCXV_n_002" n="b" place="foot">deglutarentur: <emph>lettura
+            proposta</emph>.</note> voragine usurarum, dandi libertatem seu franchisiam rusticis
+          sive villanis ipsius ecclesie<note xml:id="CCCXV_n_003" n="c" place="foot">ecclesie:
+              <emph>la prima</emph> e <emph>corretta su</emph> x.</note> pro exhoneratione debitorum
+          huiusmodi sibi liberam facultatem concedere curaremus. <pb n="290r" xml:id="fol_290r"/>
+          Nos itaque, de tue circumspectionis industria plenam in Domino fiduciam obtinentes,
+          fraternitati tue, ad instar felicis recordationis <persName ref="#InnocentiuspontifexIV"
+            >Innocentii <roleName>pape</roleName></persName>, predecessoris nostri, per apostolica
+          scripta mandamus quatinus, proposite necessitatis sive utilitatis causa diligenter
+          inspecta, eidem episcopo id agendi capituli sui vel maioris partis ad hoc accedente
+          consensu, auctoritate nostra, prout expedire videris, licenciam largiaris, attentius
+          provisurus quod pecunia ex liberatione percipienda huiusmodi per manus tuas in solutionem
+          debitorum ipsorum et residuum, si quod ex ea forte fuerit, in ipsius Ecclesie utilitatem
+          sub tuo testimonio totaliter convertatur. Datum <placeName ref="#Napoli"
+            >Neapoli</placeName>, <date when="1255-04-12">II idus aprilis, pontificatus nostri anno
+              primo<note>Lettera di papa Alessandro IV al vescovo di Lucca
+          Guercio.</note></date>.</quote>
+      </div>
+
+      <div xml:id="CCCXV_div4" type="quotation">
+        <quote rend="pre(«) post(»)"> Volentes mandatum domini pape fideliter adimplere, mandamus
+          tibi quatinus ad venerabilem patrem dominum episcopum et discretos viros <supplied
+            reason="omitted">et</supplied> capitulum Lunense personaliter accedas et ea, que in
+          predictis litteris continentur, studeas fideliter adimplere et de omnibus suprascriptis
+          facies fieri publica instrumenta et ea nobis in tuo reditu debeas consignare. Datum Luce,
+            <date when="1255-09-08">anno Domini millesimo CCLV, VI idus septembris, indictione
+              XIIII<note>Lettera del vescovo di Lucca Guercio al canonico lucchese
+              Gualterotto.</note><note xml:id="CCCXV_n_004" n="d" place="foot">XIIII: <emph>così nel
+                testo per</emph> XIII.</note></date>. Que erant sigillate sigillo cereo
+            precedenti<note xml:id="CCCXV_n_005" n="e" place="foot">precedenti: <emph>così nel testo
+              per</emph> pendenti.</note>, in quo erat scuplta<note xml:id="CCCXV_n_006" n="f"
+            place="foot">scuplta: <emph>così nel testo per</emph> sculpta.</note> ymago episcopi
+          tenentis in manu sinistra pastoralem cum litteris sigillo circumscriptis, que sic
+          legebantur: † Sigillum <persName ref="#GuerciusepiLuc">Guertii <roleName>episcopi
+              Lucani</roleName></persName>. </quote>
+      </div>
+      <div xml:id="CCCXV_div5">
+        <p> Et viso intrumento, sicut Lunense capitulum consensit et licenciam dedit ipsi domino
+          episcopo Lunensi dandi libertatem seu franchisiam villanis seu rusticis infrascriptis,
+          facto per manum meam <persName ref="#Bonalbergusnot">Bonalbergi
+              <roleName>notarii</roleName></persName>, cuius tenor talis est: </p>
+      </div>
+
+      <div xml:id="CCCXV_div6" type="quotation">
+        <quote rend="pre(«) post(»)">In Dei nomine, amen. <date when="1255-04-08">Anno a nativitate
+            Eius millesimo CCLV, indictione XIII, VIII intrantis septembris</date>. Lunense
+          capitulum, videlicet <persName ref="#Guilielmusprep">Guilielmus
+              <roleName>prepositus</roleName></persName>, <persName ref="#Guelfusarc">Guelfus
+              <roleName>archidiaconus</roleName></persName>, <persName ref="#Guilielmuscan"
+            >Guilielmus <roleName>archipresbyter</roleName></persName>, <persName ref="#Ubalduscan"
+            >Ubaldus <roleName>custos</roleName></persName>, <persName ref="#Antoniuscan"
+            >Antonius</persName> et <persName ref="#Albertuspres">Albertus
+              <roleName>presbyteri</roleName></persName>, <persName ref="#Canoruscan"
+            >Canorus</persName> et <persName ref="#Rollandinuscan">Rollandinus, <roleName>canonici
+              Lunenses</roleName></persName>, pro Lunensi capitulo, et idem <persName
+            ref="#Rollandinuscan">Rollandinus</persName> pro <persName ref="#Vivasinuscan">Vivasio,
+              <roleName>cumcanonico</roleName></persName> eorum, habita licencia ab ipso Vivasio id
+          agendi, coram me notario heri apud <placeName ref="#Ponzanello">Ponçanellum</placeName>,
+            presente<note xml:id="CCCXV_n_007" n="g" place="foot">presente: <emph>così nel testo
+              per</emph> presentibus.</note> domino <persName ref="#GuilEpLuni">Guilielmo,
+              <roleName>Dei gratia Lunensi episcopo</roleName></persName>, <persName
+            ref="#Bonavitapre"><roleName>presbytero</roleName> Bonavita</persName> et <persName
+            ref="#Iacopinusarc">Iacopino <roleName>archipresbytero</roleName></persName> de
+            <placeName ref="#Amelia"><orgName ref="#Ameglia_S_Vincenzo"
+          >Amelia</orgName></placeName>, omnes, ut dictum est, cognita necessitate et etiam
+          utilitate episcopatus, licenciam concesserunt et consentiunt quod dominus episcopus
+          libertatem et franchisiam concedit<note xml:id="CCCXV_n_008" n="h" place="foot">concedit:
+              <emph>così nel testo</emph>.</note>
+          <persName ref="#BaldanzaMicheletti">Baldancie de <placeName ref="#Torano"
+              >Torano</placeName> quondam Michilleti</persName>, <persName
+            ref="#IunctarellusGerardi">Iunctarello quondam Gerardi Cacciarute de <placeName
+              ref="#Torano">Torano</placeName></persName>, <persName ref="#BenesiaMaccangnano"
+            >Benesie dicto Maccangnano</persName> et <persName ref="#GuilielmusBonacursi">Guilielmo
+            quondam Bonacursi Tascacincte de <placeName ref="#Sorgnano"
+            >Sorgnano</placeName></persName>, <persName ref="#VenturaColle">Venture de <placeName
+              ref="#ColleGragnana">Colle de Gragnana</placeName></persName>, <persName
+            ref="#Bonommiecalz">Bonommie <roleName>calçolario</roleName> de plebe <placeName
+              ref="#Carrara">Carrarie</placeName></persName>, <persName ref="#VenturaBellomi">enture
+            quondam Bellomi</persName>V de <placeName ref="#Codena">Codena</placeName> et <persName
+            ref="#VenutusBelluti">Venuto filio Bellutii</persName> de <placeName ref="#Moneta"
+            >Moneta</placeName>, et ipsi liberationi seu franchisie suam prestant auctoritatem,
+          servata forma litterarum domini pape super ipsa liberatione et franchisia facienda. Actum
+            <placeName ref="#Sarzana">Sarzane</placeName>, in <orgName ref="#Sarzana_S_Maria"
+            >ecclesia Sancte Marie</orgName>, testibus <persName ref="#Iacobinuspres"
+              ><roleName>presbytero</roleName> Iacobino, ipsius <roleName>capituli
+              capellano</roleName></persName>, domino <persName ref="#GerardusCar">Gerardo de
+              <placeName ref="#Carrara">Carraria</placeName></persName> et <persName
+            ref="#Opizuspres"><roleName>presbytero</roleName> Opiçone</persName>, qui moratur
+          Selvaricie, presentibus et rogatis. Incontinenti et cum eisdem testibus dominus <persName
+            ref="#Tursaccus_canonicus">Tursaccus</persName>, <roleName>Lunensis
+          canonicus</roleName>, licenciam concessit et consentit predictis liberationibus et
+          franchisiis faciendis de predictis hominibus et in ipsis suam prestat auctoritatem in
+          omnibus et per omnia, ut suprascriptum capitulum fecit. Actum in camera suprascripti
+          domini <persName ref="#Tursaccus_canonicus">Tursachi</persName>, ubi iacebat infirmus,
+          inspecta etiam necessitate et utilitate Lunensis episcopatus, pro ipso domino Lucano
+          episcopo, in hac parte domini pape delegato et auctoritate eiusdem, licentiam largitus est
+          et largitur eidem domino episcopo<note xml:id="CCCXV_n_009" n="i" place="foot">eidem
+            domino episcopo: <emph>nel testo</emph> domino episcopo eidem <emph>con segno di
+              richiamo per invertire l’ordine delle parole</emph>.</note> Lunensi dandi libertatem
+          seu franchisiam villanis sive rusticis suprascriptis. Qui suprascriptus dominus episcopus
+          ibidem, ex licencia et consensu et auctoritate predictis, nomine sui episcopatus liberavit
+          et absolvit <persName ref="#BaldanzaMicheletti">Baldanciam de <placeName ref="#Torano"
+              >Torano</placeName></persName> predictum quondam Micheleti ab omni villanatico et
+          villanatica condictione et ab omni homagio et resedio et ab omni servitute glebe cum solo
+          et gleba, in quo sive in qua residet vel residere debebat ipse <persName
+            ref="#BaldanzaMicheletti">Baldantia</persName> vel pater vel antecessores ipsius, et ab
+          omni genere et specie servitutis et ab omni condictione ascripticia et colonaria et ab
+          omni detencione colonarie et ascripticie condictione et a condictione censitorum et
+          censibus ascriptorum et ab omni condictione, qualiscumque esset, sive originaria vel
+            servitus<note xml:id="CCCXV_n_010" n="l" place="foot">servitus: <emph>così nel testo per</emph>
+            servitutis.</note> glebe vel colonaria seu censita vel
+          ascripticia, manencia, arimania, inquilina vel alia qualiscumque esset, si que erant
+          predicte vel alique predictorum quibus teneretur vel astrictus aut subnixus seu ascriptus
+            <pb n="290v" xml:id="fol_290v"/> aut detentus vel obligatus sive suppositus seu
+          submissus esset vel esse deberet ipse <persName ref="#BaldanzaMicheletti"
+            >Baldancia</persName> alicui condictioni pro aliqua condictione sive predicto domino
+          episcopo pro episcopatu vel ipsi episcopatui sive aliquibus terris vel possessionibus
+          suprascripti domini episcopi et episcopatus aut alicui alii pro ipso domino episcopo et
+          episcopatu pro aliquo, remittendo eidem <persName ref="#BaldanzaMicheletti"
+            >Baldancie</persName> coltam, maltoltum, prestanciam et omnes redditus, condictiones,
+          factiones, usantias et servicia villanatica que ipsi domino episcopo dare, reddere et
+          facere tenebatur, ita quod ut ipse <persName ref="#BaldanzaMicheletti"
+            >Baldancia</persName> et sui heredes omnisque progenies, que ab eo descendit vel
+          descensura est, amodo perpetuo sint liberi et absoluti ab omnibus predictis et singulis
+          predictorum et liceat eis et cuilibet eorum arbitrio suo ire quocumque voluerit et manere
+          ubicumque maluerit et facere in omnibus et per omnia quicquid eis placuerit tamquam
+          civibus Romanis et vere liberis, ingenuis et absolutis personis et non suppositis vel
+          astrictis alicui solo vel glebe aut alicui condictioni pro aliqua condictione seu
+          detentione pro aliqua obligatione. Ad quorum omnium confirmationem confessus fuit
+          suprascriptus dominus episcopus pro episcopatu se recepisse ab ipso <persName
+            ref="#BaldanzaMicheletti">Baldantia</persName>, merito predicte liberationis, <measure
+            type="Imperiales" quantity="12" unit="libra">libras XII imperialium</measure>,
+          renunciando exceptioni non numerate pecunie, quos denarios idem dominus episcopus ibidem
+          dedit dicto domino <persName ref="#Gualterotusncan">Gualteroto</persName>, dandos et
+          convertendos in solutionem debitorum quibus Lunensis ecclesia pregravatur et residuum, si
+          quod fuerit, in utilitatem Lunensis ecclesie convertendo. Ad hec ipse idem dominus
+          episcopus, suo et episcopatus nomine, fecit finem et refutationem et pactum de non petendo
+          suprascripto <persName ref="#BaldanzaMicheletti">Baldantie</persName> de omni iure et
+          actione reali, personali et mixta quo vel qua posset agere aliquando ipse dominus
+          episcopus vel aliqua persona pro eo et episcopatu contra ipsum Baldanciam vel contra eius
+          heredes seu contra aliquem vel aliquos de progenie ipsorum, qui iam descenderant vel
+          descensuri essent ab eis, de predictis vel de aliquibus predictorum aut eorum sive
+          alicuius eorum occasione aut petere posset vel extorquere seu exigere aliquid ab eis vel
+          ab aliquo eorum aliquo modo ipse vel successores sui, ita quod ut non debeant nec
+          teneantur ipsi vel aliquis eorum servire in aliquo vel facere seu exhibere vel prestare
+          aliquid aliquo modo ipsi domino episcopo vel suis successoribus aut episcopatui seu alicui
+          pro ipso domino episcopo et episcopatu. Insuper promisit eidem <persName
+            ref="#BaldanzaMicheletti">Baldancie</persName>, sollempni stipulatione, per se suosque
+          successores, nomine sui episcopatus, hanc liberationem et absolutionem et omnia et singula
+          suprascripta rata habere perpetuo et numquam contravenire in aliquo et conservare eum et
+          suos heredes de predictis indempnes, obligando se suosque successores et bona et redditus
+          et proventus episcopatus, sub pena dupli suprascripte pecunie, quam ipsi <persName
+            ref="#BaldanzaMicheletti">Baldancie</persName>, nomine sui episcopatus, solvere promisit
+          quociens in eam inciderit; et, ea soluta, predicta omnia nichillominus semper in suo
+          robore perseverent. Ibidem suprascriptus Baldancia fecit finem et refutationem et pactum
+          de non petendo et datum suprascripto domino episcopo, recipienti nomine sui episcopatus,
+          de toto podere, maseo<note xml:id="CCCXV_n_011" n="m" place="foot">maseo: s <emph>corretta su precedente lettera</emph>.</note> et bonis suis,
+          promittendo eidem domino episcopo, recipienti nomine sui episcopatus, predictam finem et
+          refutationem et omnia et singula suprascripta rata habere et numquam contravenire.
+          Predictam vero finem et refutationem et pactum de non petendo et datum fecit suprascriptus
+            <persName ref="#BaldanzaMicheletti">Baldancia</persName> pro eo quod idem dominus
+          episcopus predictum podere, maseum et bona debet ei, recipienti pro se et suis heredibus,
+          in feudum concedere; et pro predictis omnibus sic attendendis et observandis obligavit se
+          dictus <persName ref="#BaldanzaMicheletti">Baldancia</persName> et suos heredes et bona ad
+          penam dupli suprascripte pecunie, quam eidem domino episcopo solvere teneatur ipse et
+          heredes sui si contra fecerint vel venerint; et, ea soluta, predicta omnia semper
+          nichillominus firma et illibata serventur. Suprascriptus vero dominus episcopus, previsa
+          utilitate sui episcopatus, nomine ipsius episcopatus dedit et concessit suprascripto
+            <persName ref="#BaldanzaMicheletti">Baldancie</persName>, recipienti pro se suisque
+          heredibus et proheredibus, totum podere, maseum et bona predicta nomine recti et
+          honorifici feudi, ita quidem ut ipse <persName ref="#BaldanzaMicheletti"
+            >Baldancia</persName> et sui heredes et proheredes, descendentes ex eo, habeant, teneant
+          et fruantur suprascriptum podere, maseum et bona predicta, cum omnibus pertinenciis suis,
+          nomine recti et honorifici feudi, <pb n="291r" xml:id="fol_291r"/> masculi et femine;
+          masculis tamen deficientibus, femine succedant, set si successio in feminam aliquo tempore
+          devenerit, qui eam in uxorem acceperit non prius possessionem bonorum ipsius uxoris
+          ingredi audeat quam concordaverit de podere, maseo et bonis predictis cum domino episcopo,
+          qui pro tempore fuerit, nec audeat de bonis ipsis aliquid occupare nisi de licencia et
+          auctoritate episcopi, qui pro tempore fuerit. Preterea statuerunt inter se ut in perpetuum
+          suprascriptus <persName ref="#BaldanzaMicheletti">Baldancia</persName> et sui heredes, ut
+          dictum est, sint honoribiles<note xml:id="CCCXV_n_012" n="n" place="foot">honoribiles: <emph>così nel testo per</emph>
+            honorabiles.</note> fideles et vassalli suprascripti
+          domini episcopi et suorum successorum et episcopatus contra omnes personas et loca; set,
+          si forte aliquando ipse <persName ref="#BaldanzaMicheletti">Baldantia</persName> vel sui
+          heredes absque herede decesserit, ad locamentum et dislocamentum, ad masiamentum et
+          dismasiamentum ad ipsum dominum episcopum et suos successores libere pertineat de podere,
+          maseo et bonis predictis. Idem vero dominus episcopus, nomine sui episcopatus, promisit
+          sollempni stipulatione ipsi <persName ref="#BaldanzaMicheletti">Baldancie</persName>,
+          recipienti pro se et suis heredibus, ut dictum est, dictum feudum deffendere et exbrigare
+          ab omni contradicente et impediente persona et loco et, si deffendere et exbrigare non
+          posset et non deffenderet et exbrigaret, restaurare et salvum cambium inde ei dare; et sic
+          ibidem suprascriptus <persName ref="#BaldanzaMicheletti">Baldantia</persName> iuravit ad
+          sancta Dei evangelia, pro se et suis heredibus, fidelitatem predicto domino episcopo,
+          recipienti pro se et successoribus suis, contra omnes personas et loca, unde idem dominus
+          episcopus ipsum <persName ref="#BaldanzaMicheletti">Baldanciam</persName>, recipientem pro
+          se et suis heredibus, ut dictum est, de ipso feudo manualiter investivit, pacis osculum
+          sibi ad invicem exhibentes.</quote>
+      </div>
+      <div xml:id="CCCXV_div7">
+        <p xml:id="CCCXV_p_002" n="2">Actum <placeName ref="#Ponzanello">Ponçanelli</placeName>, in
+          ecclesia, testibus presbytero <persName ref="#Adiutuscap">Adiuto <roleName>ipsius domini
+              episcopi capellano</roleName></persName>, Iacobino
+            <roleName>archipresbytero</roleName> de <placeName ref="#Amelia">Amelia</placeName>,
+            <persName ref="#Fredericuscas">Frederico <roleName>castaldione</roleName> de <placeName
+              ref="#Carrara">Carraria</placeName></persName>, <persName ref="#BelluciusMoneta"
+            >Bellutio de <placeName ref="#Moneta">Moneta</placeName></persName>, <persName
+            ref="#Malanesesen">Melanese <roleName>ipsius domini episcopi
+            senescalco</roleName></persName> et multis aliis, presentibus et rogatis.</p>
+        <p xml:id="CCCXV_p_003" n="3"><ptr target="#CCCXV_st_001"/> Ego <persName ref="#Henricusnot"
+            >Henricus de <placeName ref="#Sarzanello">castro Sarzane</placeName>, <roleName>sacri
+              palacii notarius</roleName></persName>, hanc cartam a Bonalbergo notario abreviatam,
+          visa sceda eius, ipso presente, precibus eius scripsi et in publicam formam redegi et meo
+          signo et nomine roboravi.</p>
+        <p xml:id="CCCXV_p_004" n="4"><ptr target="#CCCXV_st_002"/> Ego <persName
+            ref="#Bonalbergusnot">Bonalbergus, <roleName>domini Frederici invictissimi Romanorum
+              imperatoris notarius</roleName></persName>, hanc cartam rogavi seu abreviavi et eam
+          reduci feci per <persName ref="#Henricusnot">Henricum
+            <roleName>notarium</roleName></persName> in publicam formam, set ad maiorem firmitatem
+          subscripsi et apposui proprium signum et nomen. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

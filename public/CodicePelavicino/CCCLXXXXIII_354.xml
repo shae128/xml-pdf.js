@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXXXXIII_354">
+    <front xml:id="CCCLXXXXIII_front">
+      <titlePart type="numerazioneNuova">354</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXXXXIII</titlePart>
+
+      <docDate xml:id="CCCLXXXXIII_docDate">
+        <date when="1226-01-31"> 1226 gennaio 31</date>, <placeName>Sarzana (<emph>in burgo Sarzani,
+            in camera domini Bonaiuncte, Lunensis ecclesie archipresbyteri</emph>) </placeName>
+      </docDate>
+      <div type="regesto" xml:id="CCCLXXXXIII_regesto">
+        <p>Buttafava, vescovo di Luni, investe a titolo di feudo Faime del fu Sinibaldo di Prato e
+          sua moglie Matilde, figlia del fu Pagano di Balognano, di metà del podere che fu di Pagano
+          e del di lui figlio Vivaldo. La concessione costa 50 soldi di imperiali. Faime e suo
+          figlio Pagano prestano giuramento di fedeltà al vescovo.</p>
+      </div>
+      <div type="footer" xml:id="CCCLXXXXIII_footer">
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 320v., c. CCCXIIv. secondo la numerazione originale</p>
+        </div>
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 393,
+            pp. 372-373</p>
+        </div>
+        <div type="crit_notes">
+          <note> Parte del documento è stata letta con l’ausilio della luce di Wood In calce alla
+            carta, di mano moderna, la seguente annotazione riferita alle prime parole del fascicolo
+            successivo: <emph>In nomine Domini, amen</emph>. Un’altra mano ha aggiunto: <emph>el
+              septimo</emph>
+          </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXXXXIII. Locationis medietatis poderis Pagani de Balognano.</term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCLXXXXIII_div">
+
+        <p xml:id="CCCLXXXXIII_p_001">
+          <ptr target="#CCCLXXXXIII_st_001"/> In nomine Domini, amen. <date when="1226-01-31">Anno a
+            nativitate Eius M°CCXXVI, indictione XIIII, die sabbati, pridie kalendas
+            februarii</date>. Ex hiis publicis litteris, tam presentibus quam futuris, evidenter
+          pateat universis quod <roleName>dominus</roleName>
+          <persName ref="#ButtafavaEpLuni">Butafaba</persName>, Dei gratia <roleName>Lunensis
+            episcopus</roleName>, investivit nomine recti et honorifici feudi <persName
+            ref="#FaimeSinibaldi">Faime quondam Sinibaldi de <placeName ref="#Prato"
+              >Prato</placeName></persName>, recipientem pro se et <persName ref="#MateldaPagani"
+            >Matilda, uxore sua, filia quondam Pagani de <placeName ref="#Balognano"
+              >Balognano</placeName></persName>, et pro eorum heredibus ex eis descendentibus, salvo
+          iure omni cuiusque hominis et persone, nominatim de medietate poderis quondam dicti
+            <persName ref="#PaganusBalognano">Pagani</persName>, que medietas <note
+            xml:id="CCCLXXXXIII_n_001" n="a" place="foot"><term xml:lang="lat">que</term>
+            <term xml:lang="lat">medietas</term>: <emph>scritto su rasura</emph>.</note> fuit
+          quondam <persName ref="#VivaldusPagani">Vivaldi</persName>, filii olim dicti <persName
+            ref="#PaganusBalognano">Pagani</persName>, ubicumque sit et de ea reperiri poterit, in
+          plano et in monte, cum terris agris et cultis, plenis et vacuis, villanis et vassallis et
+          rebus aliis universis, ita ut deinceps perpetuo, nomine recti et honorifici feudi, dicti
+            <persName ref="#FaimeSinibaldi">Faime</persName> et <persName ref="#MateldaPagani"
+            >Matilda</persName>, iugales, et eorum heredes ex eis descendentes totam predictam
+          medietatem iamscripti poderis, ut dictum est, habeant et teneant et ex eis, una cum
+          accessibus et regressibus suis et cum omnibus in se et super se et infra se habentibus et
+          cum omnibus suis pertinenciis in integrum, faciant, secundum ius feudi, quicquid facere
+          voluerint, sine alicuius aliqua contradictione. Et confessus fuit predictus dominus
+          episcopus se recepisse et habere pro hac investitura feudi a predicto <persName
+            ref="#FaimeSinibaldi">Faime</persName>, dante pro se et dicta uxore sua, <measure
+            type="imperiales" unit="soldos" quantity="50">soldos L imperialium</measure>,
+          renunciando exceptioni non numerate pecunie; unde tenutam quam inde dictos iugales habere
+          confessus est, eis confirmavit. Predictus vero <persName ref="#FaimeSinibaldi"
+            >Faime</persName> et <persName ref="#PaganusMatelde">Paganus</persName>, eius et
+          predicte <persName ref="#PaganusMatelde">Matelde filius</persName>, secundum formam
+          fidelitatis sibi diccatam, predicto episcopo contra omnes homines et personas fidelitatem
+          prestiterunt pariter et iuramentum.</p>
+
+        <p xml:id="CCCLXXXXIII_p_002"> Acta sunt hec in <placeName ref="#Sarzana">Sarzani
+            burgo</placeName>, in camera <roleName>domini</roleName>
+          <persName ref="#Bonaiunctaarc">Bonaiuncte</persName>, <roleName>Lunensis ecclesie
+            archipresbyteri</roleName>, presentibus <persName ref="#IacopinusBernardi">Iacopino
+            filio quondam Bernardi</persName>, <persName ref="#ButafavaArcula">Butafaba de
+              <placeName ref="#Arcula">Arcula</placeName></persName>, <persName
+            ref="#GuilielmusBastardi">Guilielmo, filio quondam Bastardi de Guilielmo Blanco de
+              <placeName ref="#Vezano">Vezano</placeName></persName>, <persName
+            ref="#RollandinusTorselli">Rollandino filio quondam Torselli</persName> et <persName
+            ref="#OliveriusMilliacia">Oliverio de <placeName ref="#Miliaciola"
+            >Milliacia</placeName></persName>, testibus ad hec rogatis.</p>
+
+        <p xml:id="CCCLXXXXIII_p_003"> Ego <persName ref="#Benvenutusnot1">Benvenutus</persName>,
+            <roleName>domini Ottonis quarti Romanorum imperatoris notarius</roleName>, predictis
+          omnibus interfui rogatus et, de mandato predicti domini episcopi, predicta omnia scripsi
+          et in publicam formam redegi. </p>
+      </div>
+
+    </body>
+  </text>
+</TEI>

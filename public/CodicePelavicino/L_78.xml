@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="\schema\tei_cp.rng" type="application\xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+
+    <text xml:id="L_78">
+        <front xml:id="L_front">
+
+            <titlePart type="numerazioneNuova">78</titlePart>
+            <titlePart type="numerazioneOrig">L</titlePart>
+
+            <docDate xml:id="L_docDate">
+                <date when="1124-10-18">1124 ottobre 18</date>, <placeName>&lt;Lucca&gt;</placeName>
+                    (<term xml:lang="latin">in ecclesia Sancti Alexandri</term>) </docDate>
+
+            <div type="regesto" xml:id="L_regesto">
+                <p> I consoli del Comune di Lucca, riuniti nella chiesa di Sant’Alessandro insieme
+                    ad altri sapienti della città, sentenziano in causa vertente fra il vescovo di
+                    Luni Andrea e i marchesi Malaspina per il possesso del monte Caprione. Sentite
+                    le ragioni delle parti stabiliscono che, essendo il poggio in comune, i
+                    Malaspina non possano costruirvi un castello o altro e che il vescovo debba dare
+                    loro 6000 soldi in moneta lucchese a titolo di risarcimento per i danni inferti.
+                    Ogni edificio eventualmente costruito da entrambe le parti dovrà essere
+                    distrutto. </p>
+            </div>
+
+            <div type="footer" xml:id="L_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 139v.-142r., cc. CXXXIv.-CXXXIIIIr. secondo la numerazione
+                        originale.</p>
+                </div>
+
+                <div type="biblio">
+                    <p> Edizione in: <ref target="#UGHELLI_1717">UGHELLI 1717</ref>, 1, 841; <ref
+                            target="#MURATORI_1717">MURATORI 1717</ref>, cap. XVII, pp. 154-157;
+                            <ref target="#LÜNIG_1725">LÜNIG 1725</ref>, II, 247; <ref
+                            target="#HPM_CHARTARUM">HPM CHARTARUM</ref>, I, 204; <ref
+                            target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 50, pp. 72-78;
+                            <ref target="#CONTI_1979-1988">CONTI 1978-1988</ref>, I, p. 11; brani in
+                            <ref target="#PODESTÀ_1894">PODESTÀ 1894</ref>, p. 31. </p>
+                </div>
+
+                <div type="crit_notes">
+                    <note>
+                        <p> Nel margine esterno, di mano moderna: <emph><term xml:lang="latin">Pax
+                                    inter episcopum et marchiones de Mallaspina</term></emph>. Di
+                            altra mano, coeva alla precedente: <emph><term xml:lang="latin">Andreas
+                                    episcopus Lunensis. Nel margine esterno di c. 140v., di mano
+                                    moderna: Philippus episcopus Lunensis</term></emph> Nel margine
+                            interno di c. 141v., di mano moderna: <emph><term xml:lang="latin"
+                                    >1124</term></emph> In fondo a c. 140v., di mano posteriore, le
+                            prime parole del fascicolo successivo: <emph><term xml:lang="latin">ex
+                                    omni ordine</term></emph>
+                        </p>
+                    </note>
+                </div>
+
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">L. De podio Caprionis.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="L_div">
+                <p xml:id="L_p_001" n="1"> In nomine Domini. Omnium civitatum homines, maxime
+                    principalium, omnia civiliter atque honeste agere oportet et decet. Est enim
+                    civitas conversatio populi assidua ad iure vivendum collecti. Gloriosa igitur
+                    civitas <placeName ref="#Lucca">Luca</placeName>, multis dignitatibus decorata
+                    atque super universam <placeName ref="#Tuscia">Tuscie</placeName> marchiam caput
+                    ab exordio constituta, quoniam <persName ref="#AndreaEpLuni">Andream,
+                            <roleName>venerabilem Lunensem episcopum</roleName></persName>, ac
+                    homines de episcopatu necnon nobilissimos atque prudentissimos <persName
+                        ref="#AlbertusMalaspina4">Malaspinam</persName> et <persName
+                        ref="#WilielmusFranciscus">Wili<supplied reason="omitted">e</supplied>lmum
+                        Franciscum, <roleName>marchiones</roleName></persName>, in suam cum gaudio
+                    receperat amiciciam, audiens vereque cognoscens quod inter predicti episcopi
+                    exercitum predictosque marchiones eorumque milites bellum factum est iterumque
+                    ab utraque parte fieri preparabatur, suos ad illos cicius legatos direxit, qui
+                    monerent atque suaderent utrique suprascripte parti ut ipsam civitatem veram
+                    illorum amicam advenirent. Contristabatur enim universa suprascripta civitas de
+                    eorum discordia atque inter illos pacem facere desiderabat. Ipsi vero, exaudita
+                    legatione, <pb n="140r" xml:id="fol_140r"/> statim ipsam civitatem advenerunt.
+                    Convenerunt itaque ad <orgName ref="#S_Alessandro_Lucca">ecclesiam Sancti
+                        Alexandri</orgName>, sexaginta fere predicte civitatis consules multique
+                    alii cum eis eiusdem civitatis ex omni ordine sapientes homines et, utriusque
+                    suprascripte partis discordiam audire volentes illamque ab ipsis repellere atque
+                    ipsos ad pacem reducere desiderantes, interrogaverunt suprascriptam utramque
+                    partem, sicut prius hiisdem civilibus<note place="foot" n="a" xml:id="L_n_001"
+                        >civilibus: <emph>così nel testo per</emph> civibus.</note> obsides
+                    dederant, si super eorum iam enarrata discordia illos arbitros eligere eorumque
+                    arbitrio atque sentencie stare vellent. Responderunt itaque predicti episcopus
+                    predictique marchiones: <q rend="pre(«) post(»)">amdictam nostram causam vestro arbitrio
+                    committimus atque super illa vos arbitros eligimus</q>. Repromisit itaque
+                    iamdictus <persName ref="#AndreaEpLuni">Andrea
+                        <roleName>episcopus</roleName></persName> predictis marchionibus, sub pena
+                        <measure type="Imperiales" quantity="100" unit="solidus">centum librarum
+                        auri optimi</measure>, predictorum consulum de iam enarrata discordia
+                        <supplied reason="omitted">de</supplied> arbitrio qui protulerint stare
+                    atque se suosque successores semper observare. Repromiserunt etiam suprascripti
+                    marchiones suprascripto episcopo, sub pena <measure type="Imperiales"
+                        quantity="100" unit="solidus">centum librarum auri optimi</measure>,
+                    predictorum consulum de eadem discordia de arbitrio qui protulerint stare atque
+                    se suosque heredes semper observare. Hiis autem ita peractis, <persName
+                        ref="#WilielmusApulia">Wilielmus de <placeName ref="#Apulia"
+                            >Apulia</placeName></persName> surrexit et, ut iam dixerat, pro
+                    suprascriptis marchionibus de predicto episcopo arbitris electis ita conquestus
+                    est: <q rend="pre(«) post(»)">Audiat me, queso, universus consulatus ceterique eidem boni homines
+                    assidentes. Quoniam istis adinstantibus marchionibus cum suis militibus per suam
+                    terram ad quemdam suum pogium ire placuerat qui est in monte qui vocatur
+                        <placeName ref="#Caprione">Caprione</placeName>, ad hedificandum super eum
+                    castrum, venit eis obviam iuxta predictum montem ad expugnandos et vi
+                    repellendos illos, predicti episcopi armatus exercitus magnumque dampnum in
+                    hominum et caballorum occisione eis intulit. Marchiones vero, cum suis viriliter
+                    resistendo, pogium ipsum tandem ascenderunt et, in quantum poterant, invicto
+                    predicto exercitu, hedificare ceperunt. Unde, quia predictus episcopus cum suo
+                    exercitu iniuste nec antea, sicut decet episcopum, marchiones inquisierat,
+                    iamdictum dampnum eis fecit atque multa mala eis intulit, quatinus episcopus
+                    illa emendet rogo vos iudicare</q>. Ex adverso autem predictus episcopus
+                    respondit: <q rend="pre(«) post(»)">Scio et verum est quia egemet<note place="foot" n="b"
+                        xml:id="L_n_002">egemet: <emph>così nel testo per</emph> egomet</note>
+                    inquisivi et rogavi illum <persName ref="#WilielmusFranciscus">Wilielmum
+                            <roleName>marchionem</roleName></persName>, qui mihi fidelitatem
+                    iuraverat, quatinus numquam vel pro se vel cum <persName
+                        ref="#AlbertusMalaspina4">Malaspina</persName> predictum pogium causa
+                        castelli hedificandi ascenderet, dicens: <q rend="pre(') post(')">Si feceris, ita recipio tanquam
+                    si abstraxeris fegatum de corpore meo. Scio namque quoniam causa minuendi et
+                    fere episcopatum meum destruendi hoc facturi estis</q></q>. <persName
+                        ref="#AlbertusMalaspina4">Malaspinam</persName> vero, quia meus inimicus,
+                    nec in presentiarum erat, non inquisivi&quot;. Addidit autem ad hec <persName
+                        ref="MaginardusPontremulo">Maginardus de <placeName ref="#Pontremoli"
+                            >Pontremulo</placeName></persName>, ita dicens: <q rend="pre(«) post(»)">Audite et <pb
+                        n="140v" xml:id="fol_140v"/> intelligite, consules prudentissimi, nec more
+                    nec legibus iniuriam vel dampnum factum marchionibus emendare debet episcopus;
+                    palam enim in armata ad dampnum et iniuriam predicti episcopi eiusque
+                    episcopatus detrimentum predictum pogium, non eorum proprium, immo in quo
+                    maximam partem episcopus habebat, hedificare veniebant. Unde moribus et legibus
+                    vim vi repellere potuit nec quicquam de iniuria vel dampno marchionibus facto
+                    episcopus debet emendare</q>. Interrogavit autem suprascriptus <persName
+                        ref="#WilielmusApulia">Wilielmus de <placeName ref="#Apulia"
+                            >Apulia</placeName></persName>: <q rend="pre(«) post(»)">Dicito quam habet partem episcopus
+                    in predicto pogio?</q>. <persName ref="MaginardusPontremulo"
+                        >Maginardus</persName> respondit: <q rend="pre(«) post(»)"><persName ref="#PhilippusEp"
+                            ><roleName>Episcopus</roleName>enim Philippus</persName> emit partem
+                    quam <persName ref="#Fulcus_marchio"><roleName>marchio</roleName>
+                        Fulco</persName> habebat in eo et habet partem de <persName
+                        ref="#OpizzoMalnipote">Malnevothe</persName>, quam iudicavit cum aliis
+                    pluribus suis rebus ecclesie et episcopatui Sancte Marie, et partem <persName
+                        ref="#ObertusPelavicinus"><roleName>marchionis</roleName>
+                        Pelavicini</persName> per donationem, qui hic adest</q>. Respondit
+                        <persName ref="#WilielmusApulia">Wilielmus de <placeName ref="#Apulia"
+                            >Apulia</placeName></persName>: <q rend="pre(«) post(»)">Quia nulli alii ecclesie de
+                        iudicato<note place="foot" n="c" xml:id="L_n_003">iudicato: <emph>segue
+                            depennato con inchiostro rosso</emph> quod scit</note> quod fecit
+                        <persName ref="#OpizzoMalnipote">Malnevothe</persName> iusticiam fecimus,
+                    neque tibi faciemus. Quod enim ecclesie Sancte Marie Lunensi vel aliis ecclesiis
+                    aut episcopatibus de <placeName ref="#LombardiaR">Longobardide</placeName><note
+                        place="foot" n="d" xml:id="L_n_004">Longobardide: <emph>così nel testo
+                            per</emph> Longobardie.</note> iudicavit, hodio<note place="foot" n="e"
+                        xml:id="L_n_005">hodio: d <emph>corretto su</emph> cl.</note> fratris et ut
+                    demens fecit. <persName ref="#ObertusPelavicinus">Pelavicinus</persName> vero
+                    aut <persName ref="#Fulcus_marchio">Fulco
+                        <roleName>marchiones</roleName></persName> nullas in predicto pogio partes
+                    alicui dare potuerunt. Mons ille namque atque coloni in eo et circa eum
+                    residentes, in quo predictus<note place="foot" n="f" xml:id="L_n_006">predictus:
+                            <emph>nel testo con la prima asta della</emph> u <emph>allungata verso
+                            l’alto</emph>.</note> pogius est, ita divisi fuerunt: medietatem namque
+                    per certa et divisa loca receperunt ad se communiter proavus <persName
+                        ref="#ObertusPelavicinus">Pelavicini</persName> et proavus <persName
+                        ref="#GuilielmusFrancischi">Wilielmi Francisci</persName>; aliam vero
+                    medietatem similiter per certa et divisa loca receperunt ad se communiter
+                    proavus <persName ref="#AlbertusMalaspina4">Malaspine</persName> atque avus
+                        <persName ref="#AdalbertusAttho_marchio">Atthonis
+                            <roleName>marchionis</roleName></persName>, in quam partem sine dubio
+                    predictus pogius totus venit et fuit. Postea vero suprascriptus proavus
+                        <persName ref="#AlbertusMalaspina4">Malaspine</persName> et avus <persName
+                        ref="#AdalbertusAttho_marchio">Athonis</persName> inter se diviserunt suam
+                    partem et predictus pogius in partem tantum proavi <persName
+                        ref="#AlbertusMalaspina4">Malaspine</persName> venit atque fuit</q>.
+                    Interrogaverunt autem predicti consules ipsum <persName ref="#WilielmusApulia"
+                        >Wilielmum</persName> si ea que dixerat approbare poterat. Respondit:
+                    <q rend="pre(«) post(»)">Faciam, si potero; interim tamen cognoscere volo si ea que dixit <persName
+                        ref="#MaginardusPontremulo">Maginardus</persName> de suprascriptarum partium
+                    acquisitione vera sint</q>. </p>
+                <p xml:id="L_p_002" n="2"> Datis igitur competentibus dilationibus quatinus predicti
+                    marchiones, quocumque modo possent, predictum pogium eorum esse proprium
+                    approbarent atque, sicut supra dictum est, ita divisum fuisse notificarent,
+                    episcopus autem similiter, quocumque modo posset, approbaret quam in predicto
+                    pogio partem predicta ecclesia haberet, sexta feria igitur veniente predicti
+                    consules in predicta <orgName ref="#S_Alessandro_Lucca">ecclesiam Sancti
+                        Alexandri</orgName>, cum multis <pb n="141r" xml:id="fol_141r"/> ex omni
+                    ordine predicte civitatis sapientibus, rursum convenerunt. Advenerunt autem apud
+                    illos predicti marchiones et predictus episcopus, dicentes et ostendentes
+                    qualiter ea, pro quibus dilationes petierant, approbare possent. Legit itaque
+                        <persName ref="#MaginardusPontremulo">Maginardus, <roleName>episcopi
+                            advocatus</roleName></persName>, instrumentum publice et legitime
+                    confectum quo apparuit <persName ref="#AlbertusRuffusmarchio">Albertum
+                        Rufum</persName> et patrem eius, <roleName>marchiones</roleName>, id est
+                    patrem et avum predicti <persName ref="#WilielmusFranciscus"
+                    >Wilielmi</persName>, partem que eis in predicto pogio competebat predicte
+                    ecclesie Sancte Marie, pro suorum peccatorum remedio, preteritis iam XXXVIIII
+                    annis obtulisse atque dedisse. Respondit itaque <persName
+                        ref="#WilielmusFranciscus">Wiliemus <roleName>marchio</roleName></persName>:
+                    <q rend="pre(«) post(»)">Numquam ego hec amplius audivi vel scivi</q>. Addidit autem et <persName
+                        ref="#WilielmusApulia">Wiliemus de <placeName ref="#Apulia"
+                            >Apulia</placeName></persName>: <q rend="pre(«) post(»)">Dixi, iterum dico: quoniam nec
+                    predictus <persName ref="#AlbertusRuffusmarchio">Albertus Rufus</persName> nec
+                    pater eius ullam in predicto pogio habuere portionem, predictus namque pogius,
+                    antequam ipsi nascerentur, venit in partem et fuit proprius totus abavi istius
+                        <persName ref="#AlbertusMalaspina4">Malaspine</persName> nec iste <persName
+                        ref="#WilielmusFranciscus">Wiliemus <roleName>marchio</roleName></persName>
+                    partem, nisi ex moderno dato istius <persName ref="#AlbertusMalaspina4"
+                        >Malaspine</persName> in predicto pogio habet</q>. Hec autem ut
+                    approbaret, quinque ante predictos arbitros homines ut testes adduxit. Ipsi
+                    vero, diligenter interrogati, unanimiter dixerunt predictam divisionem ante
+                    tempus suorum avorum, ut audierant, factam esse neque aliter, nisi ex auditu,
+                    sciebant. Unum autem viderant et sciebant a retro tempore plus quam triginta
+                    annis, ex auditu vero a centum annis, inter predictum
+                        <roleName>marchionem</roleName>
+                    <persName ref="#AlbertusMalaspina4">Malaspinam</persName> suosque parentes
+                    predictum pogium per suos colonos possessum fuisse. Ex adverso vero, ex parte
+                    predicti episcopi, plures testes venerunt, qui, diligenter interrogati,
+                    unanimiter dixerunt: <q rend="pre(«) post(»)">Nos et vidimus et scimus quia predictus pogius totus
+                    a quadraginta fere annis retro et plus ab hominibus suis per predictam ecclesiam
+                    Sancte Marie possessus fuit</q>. Predictus preterea <persName
+                        ref="#ObertusPelavicinus">Pelavicinus</persName> asserebat quartam partem
+                    predicti pogii, sicut fuit avi et patris sui, illam se dedisse pro communi
+                    predicto episcopo atque nullam divisionem factam esse de predicto pogio atque
+                    ita paratus erat deffendere. </p>
+                <p xml:id="L_p_003" n="3"> Omnibus itaque suprascriptis et aliis multis rationibus
+                    diligenter auditis, quoniam predictus episcopus predictique marchiones
+                    suprascriptam causam nobis, non tantum secundum leges et iura iudicaturis, set
+                    si aliter placeret, commiserunt, huiusmodi super predicta querimonia et causa
+                    sententiam proferimus. Medietatem igitur predicti pogii predicte ecclesie Sancte
+                    Marie, secundum que audivimus et cognovimus, iudicamus atque, invito predicte
+                    ecclesie episcopo, in predicto pogio, quia communis est, predictis marchionibus
+                    castellum facere aut aliquod hedificare nos iudicando interdicimus. Volumus
+                    insuper firmiterque precipimus, quoniam episcopi benigniores laicis quam laici
+                    episcopis, ut mala remaneant, esse debent, pro hiis que contra marchiones facta
+                    sunt det eis predictus episcopus <measure type="Lucensis" quantity="1000"
+                        unit="solidus">soldos mille expendibiles <pb n="141v" xml:id="fol_141v"
+                        />Lucensis monete</measure>, quos ipsi dividant, ut eis placuerit, inter se,
+                    medietatem usque ad proximum festum sancti Andree, aliam medietatem usque ad
+                    proximam nativitatem Christi. Iubemus insuper ut predicti marchiones faciant
+                    repromissionem predicto episcopo quod amodo nec ipsi nec eorum heredes nec eorum
+                    submissa persona medietatem predicti pogii predicto episcopo suisque
+                    successoribus contendere vel contradicere aut aliquam molestiam facere habeant
+                    nec aliquod hedificium in predicto pogio sine voluntate predicti episcopi
+                    suorumque successorum facere habeant. Et, si ita non observaverint, sint
+                    composituri suprascripto episcopo suisque successoribus penam <measure
+                        type="Imperiales" quantity="100" unit="solidus">auri optimi libras
+                        centum</measure> atque omni tempore ipsa promissio sit stabilis. Item
+                    iubemus ut suprascriptus episcopus similiter repromittat suprascriptis
+                    marchionibus sub predicta pena. Precipimus igitur ut predicti marchiones
+                    hominesque sui suprascriptum pogium relinquant atque hedificium omne castelli
+                    causa in eo factum vel ab hominibus marchionum, si eis placuerit, vel ab
+                    hominibus predicti episcopi destruatur. Volumus insuper atque iubemus ut ante
+                    nos de omnibus, que pro hac causa inter episcopum et marchiones facta sunt, sit
+                    finis atque pax inter eos et, nomine pacis, ad invicem se osculentur. Hec autem
+                    suprascripta sententia a predictis consulibus, sic<supplied reason="omitted"
+                        >ut</supplied> supra dictum est, a prenominatis partibus arbitris electis
+                    recognita atque confirmata, ex eorum communi consensu atque mandato a <persName
+                        ref="#Gregorius_legisperitus">Gregorio
+                        <roleName>legisperito</roleName></persName> atque predicte rei arbitro,
+                    ordinatim et ceteris consulibus et arbitris assidentibus, presente atque
+                    audiente suprascripto <persName ref="#AndreaEpLuni">Andrea
+                            <roleName>episcopo</roleName></persName> episcopo cum multis suis
+                    fidelibus, necnon presentibus atque audientibus suprascripto <persName
+                        ref="#WilielmusFranciscus">Wiliemus</persName> atque <persName
+                        ref="#AlbertusMalaspina4">Malaspine
+                        <roleName>marchionibus</roleName></persName> cum multis suis fidelibus, in
+                    predicta <orgName ref="#S_Alessandro_Lucca">ecclesiam Sancti Alexandri</orgName>
+                    lecta atque data fuit, <date when="1124-10-18">anno vero incarnationis Domini
+                        nostri Iesu Christi millesimo centesimo vigesimo quarto, quinto decimo
+                        kalendas novembris, indictione tercia</date> Hiis autem interfuit <persName
+                        ref="#ObertusPelavicinus">Pelavicinus
+                        <roleName>marchio</roleName></persName>, <persName ref="#UgolinusSete">Ugo
+                        filius Sete<note place="foot" n="g" xml:id="L_n_007">Sete: <emph>lettura
+                                incerta a causa dell’inchiostro sbiadito</emph>.</note></persName>,
+                        <persName ref="#GerardusErimundi">Gerardus filius bone memorie
+                        Erimundi</persName>, <persName ref="#RollandusMecho">Rollandus
+                        Mecho</persName>, <persName ref="#Lombardus">Lambardus</persName>, <persName
+                        ref="#TebrimusFilittiera">Tebrimus de <placeName ref="#Feleteria"
+                            >Filittiera</placeName></persName>, <persName ref="#MonachusBagnone"
+                        >Monachus de <placeName ref="#Bagnone">Bagnone</placeName></persName>,
+                        <persName ref="#GaforiusFaucenova">Gaforus de <placeName ref="#Fosdinovo"
+                                >Foldenova<note place="foot" n="h" xml:id="L_n_008">Foldenova:
+                                    <emph>così nel testo per</emph>
+                        Fosdenova.</note></placeName></persName>, <persName ref="#UbertusCastagno"
+                        >Ubertus Castagno</persName>, <persName ref="#ManaseusSerthana">Manaseus de
+                            <placeName ref="#Serthana">Serthana</placeName></persName>, <persName
+                        ref="#MalaboccaTrebiano">Malabocca de <placeName ref="#Trebiano"
+                            >Trebiano</placeName></persName>, <persName ref="#MaginardusPontremulo"
+                        >Maginardus <roleName>predicti episcopi advocatus</roleName></persName>,
+                        <persName ref="#Aldeprandus_prepositus">Aldebrandus <roleName>predicte
+                            ecclesie Sancte Marie prepositus</roleName></persName>: hii vero omnes
+                    cum multis aliis erant cum predicto episcopo. Cum marchionibus vero erant
+                        <persName ref="#ArmanninusGerardi">Armaninus</persName> et <persName
+                        ref="#UgolinusGerardi_Lav">Ugolinus</persName>, filii comitis Gerardi de
+                        <placeName ref="#Lavania">Lavangna</placeName>, <persName
+                        ref="#Sigibaldus_generMalaspine">Sigibaldus gener Malaspine</persName>,
+                        <persName ref="#IohannesTertona">Iohannes de <placeName ref="#Terdona"
+                            >Tertona</placeName></persName>, <persName ref="#UgoFrallini">Ugo filius
+                        Frallini</persName>, <persName ref="#UgitiusFralini">Ugiccione filius
+                        Fralini</persName>, <persName ref="#GregoriusBuzano">Gregorius de <placeName
+                            ref="#Buiano">Boiano</placeName></persName>, <persName
+                        ref="#WitelmusArcola">Witelmus de <placeName ref="#Arcola">Arcule<note
+                                place="foot" n="i" xml:id="L_n_009">Arcule: <emph>così nel
+                                    testo</emph>.</note></placeName></persName>, <persName
+                        ref="#WilielmusApulia">Wilielmus de <placeName ref="#Apulia"
+                            >Apulia</placeName></persName>, <persName ref="#RollandinusRollandi"
+                        >Rollandinus filius Rollandi</persName>. De nostris vero civibus aderant
+                        <persName ref="#WilielmusCorneti">Wilielmus filius Conetti</persName>,
+                        <persName ref="#SalomonSalomonis">Salomon filius <pb n="142r"
+                            xml:id="fol_142r"/>Salomonis</persName>, <persName ref="#FalcoPetronis"
+                        >Falcone filius Petronis</persName>, <persName ref="#AlbertinusFasiolus"
+                        >Albertinus Fasiolus filius Gerardi</persName>, <persName
+                        ref="#VateronusUgi">Valterone filius Ugi</persName>, <persName
+                        ref="#AltelminusSMartino">Altelminus de <placeName ref="#Sancto_Martino"
+                            >Sancto Martino</placeName></persName>, <persName ref="#WidoFralini"
+                        >Wido filius bone memorie Fralini</persName>, <persName
+                        ref="#Tancredus_missus">Tancredus <roleName>missus domini
+                            imperatoris</roleName></persName>. </p>
+                <p xml:id="L_p_004" n="4">
+                    <persName ref="#Leo_iudex">Leo, <roleName>gratia Dei ab Henrico Romanorum
+                            imperatore Cesare Augusto iudex constitutus et predicte cause arbiter
+                            electus</roleName></persName>, predictam sententiam confirmando
+                    subscripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

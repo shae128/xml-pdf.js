@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="XLIII_71">
+        <front xml:id="XLIII_front">
+            <titlePart type="numerazioneNuova">71</titlePart>
+            <titlePart type="numerazioneOrig">LXIII</titlePart>
+            <docDate xml:id="XLIII_docDate">
+                <date when="1203-11-11">1203 novembre 11</date>, <placeName> Sarzanello(<term
+                        xml:lang="latin">in porticu palatii castri de Sarzana</term>).</placeName>
+            </docDate>
+            <div type="regesto" xml:id="XLIII_regesto">
+                <p> Il vescovo di Luni Gualtiero rinuncia al tributo (<emph>colta</emph>) dovutagli
+                    dagli uomini di Paternulo in cambio della corresponsione da parte loro del fitto
+                    annuale di 22 staia di frumento oltre ai redditi annui che erano soliti dare in
+                    natura e in denaro, elencati in dettaglio. La concessione costa 50 soldi di
+                    imperiali. </p>
+            </div>
+            <div type="footer" xml:id="XLIII_footer">
+
+                <div type="orig_doc">
+                    <p> Copia di copia autentica [C] cc. 132v.-133r., cc. CXXIIIIv.-CXXVr. secondo
+                        la numerazione originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 43, pp. 63-64.</p>
+                </div>
+                <div type="crit_notes">
+                    <note> L’autentica dei notai Testaforte - attivo nel 1255 -, Gerardetto Montone
+                        – attivo tra 1226 e 1239 - e Iacopino Tagliavacca – attivo dal 1231 al 1271
+                        - è databile intorno alla metà del XIII secolo, comunque prima del 1271,
+                        anno in cui Gerardetto Montone risulta defunto. </note>
+                    <note>
+                        <emph>Nel margine esterno di c. 132v., di mano moderna</emph>: Affictus
+                        facti ab episcopo </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">XLIII. Carta illorum de Paternulo.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="XLIII_div">
+                <pb n="132v" xml:id="fol_132v"/>
+                <p xml:id="XLIII_p_001" n="1"> In nomine Domini, amen. <date when="1203-11-11">Anno
+                        a nativitate Eius millesimo ducentesimo tercio, indictione VI, die martis,
+                        XI intrante novembre</date>. Cum hominibus de <placeName ref="#Paternulo"
+                            >Patternulo<note place="foot" n="a" xml:id="XLIII_n_001"
+                                >Patternulo:<emph>a corretto su precedente
+                        lettera.</emph></note></placeName>, qui leguntur inferius, grave<supplied
+                        reason="omitted">m</supplied> coltam dare Lunensis episcopi curie, cuius
+                    homines sunt, videretur, placuit <roleName>domino</roleName><persName
+                        ref="#GualEpLuni">Walterio</persName>, <roleName>Dei gratia Lunensi
+                        episcopo</roleName>, affictare eos, pro se et successoribus suis, hoc modo,
+                    videlicet ut de cetero non debeant ipsi vel eorum heredes dare coltam nec
+                    maltollectum dicto domino episcopo nec successoribus eius neque alicui persone
+                    pro eo, quia fecit eis inde finem et refutationem et pactum de non petendo, sed
+                    debeant remanere et esse residentes dicte curie, sicut consueverant esse, atque
+                    debeant dare antiquos redditus ipsi curie, qui sunt tales quales inferius
+                    describuntur, et, loco colte et maltollecti, quod et quam eis remisit et
+                    condonavit, teneantur dare et solvere suprascripte curie annuatim, per totum
+                    mensem augusti, afficti nomine, staria viginti duo frumenti mundi et sicci et
+                    mensurati ad commune starium de <placeName ref="#Sarzana">Sarzana</placeName> et
+                    adducti in granarium dicte curie apud <placeName ref="#Sarzana">castrum
+                        Sarzani</placeName> atque debeant servire ipsi curie, sicut debent illi de
+                        <placeName ref="#Sarzana">castro Sarzani</placeName> qui sunt affictati,
+                    scilicet pro coavercia<note place="foot" n="b" xml:id="XLIII_n_002"
+                            >coavercia:<emph>così nel testo per</emph> coacerva</note> terre,
+                    excepto quod non debeant facere ullum attractum. Alia superimposita non fiat
+                    atque in nullo alio debeant gravari. Isti sunt illi quos dominus episcopus
+                    affictavit: <persName ref="#PaganellusGerardi">Paganellus, gener qondam Gerardi
+                        de <placeName ref="#Ordeno">Ordeno</placeName></persName>, recipiens pro se
+                    et pro <persName ref="#DuransGerardi">Durante, genero similiter ipsius
+                        Gerardi</persName>, atque pro uxoribus suis, que fuerunt filie quondam dicti
+                        <persName ref="#GerardusOrdeno">Gerardi</persName>; atque debent isti dare
+                    de afficto quinque staria et de antiquis servitiis <measure type="Imperiales"
+                        quantity="9" unit="solidus">denarios VIIII imperialium</measure>, pro
+                    guaita, et duas gallinas et duos pollastros et rasum starium ordei. Item
+                        <persName ref="#GuilielmusPescetti">Guilielmus quondam Pescetti</persName>,
+                    recipiens pro se et pro fratre suo <persName ref="#RustegoPescetti"
+                        >Rustigone</persName> atque pro <persName ref="#RecordatusBontempi"
+                        >Recordato, nepote suo, filio quondam Bontempi</persName>, fratris sui;
+                    atque isti debent dare de afficto tria staria et de antiquis servitiis <measure
+                        type="Denarios" quantity="4" unit="denarius">denarios IIIIor</measure>, pro
+                    guaita, atque unam gallinam et unum pullastrum et terciam partem unius starii de
+                    ordeo. Item <persName ref="#StrinatusGerardi">Strinatus quondam Gerardi de la
+                            <placeName ref="#Capanna">Capanna</placeName></persName>, recipiens pro
+                    se et pro <persName ref="#BonaiutusAlbertini">Bonaiuto, consorte suo, filio
+                        quondam Albertini Çoppi</persName>; et debent isti dare de afficto staria
+                    IIIIor et de antiquis servitiis <measure type="Denarios" quantity="8"
+                        unit="denarius">denarios VIII</measure><note place="foot" n="c"
+                        xml:id="XLIII_n_003">VIII:<emph>corretto su precedente
+                        scrittura.</emph></note> pro guaita, et tres gallinas et duas partes unius
+                    starii de ordeo. Item <persName ref="#OliveriusClausurella">Oliverius de
+                            <placeName ref="#Clausurella">Clausurella</placeName>, gener quondam
+                        Mocii de <placeName ref="#Paternulo">Paternulo</placeName></persName>,
+                    recipiens pro se et pro uxore sua <persName ref="#RiccheldaMocii"
+                        >Ricchelda</persName>; atque debent dare de afficto tria staria et de
+                    antiquis servitiis <measure type="Denarios" quantity="6" unit="denarius"
+                        >denarios VI</measure>, pro guaita, et unam gallinam et unum pullastrum et
+                    medium starium ordei. Item <persName ref="#IunctaMattolini">Iuncta de <placeName
+                            ref="#Paternulo">Paternulo</placeName> quondam Mattolini de <placeName
+                            ref="#Montale">Montale</placeName></persName> et <persName
+                        ref="#RustiginusIuncte">Rustiginus</persName>, nepos suus, et debent dare de
+                    afficto isti duo, quisque per medium, quatuor staria atque de antiquis <pb
+                        n="133r" xml:id="fol_133r"/> servitiis tres pullos et <measure
+                        type="Denarios" quantity="12" unit="denarius">denarios XII</measure> , pro
+                    guaita, et unum starium ordei. Item <persName ref="#MartinusCapanna">Martinus de
+                            <placeName ref="#Capanna">Capanna</placeName></persName>, recipiens pro
+                    se et pro <persName ref="#BosusMartini">Boso</persName>, fratre suo, et pro
+                        <persName ref="#LombardiaBuratelli">Lombardia</persName>, sua <term
+                        ref="#confratissa">confratissa</term>, <persName ref="#LombardiaBuratelli"
+                        >filia quondam Burattelli</persName>, et pro <persName
+                        ref="#PonccanellusBuratelli">Ponccanello<note place="foot" n="d"
+                            xml:id="XLIII_n_004">Ponccanello:<emph>così nel testo.</emph></note>,
+                        fratre eiusdem Lombardie</persName>: atque debent isti dare <persName
+                        ref="#MartinusCapanna">Martinus</persName> et <persName ref="#BosusMartini"
+                        >Bosus</persName>, pro medietate, et <persName ref="#LombardiaBuratelli"
+                        >Lombardia</persName> et <persName ref="#PonccanellusBuratelli"
+                        >Poncanellus</persName>, pro alia medietate, de afficto tria staria et de
+                    servitiis antiquis duas gallinas atque duos pullastros et <measure
+                        type="Denarios" quantity="8" unit="denarius">denarios VIII</measure>, pro
+                    guaita, et unum starium ordei. Pro hac affictatione fuit confessus dominus
+                    episcopus se recipissee ab eis bonorum imperialium <measure type="Imperiales"
+                        quantity="50" unit="solidus">soldos quinquaginta</measure>, renunciando
+                    exceptioni non numerate pecunie. Hec omnia fecerunt et stipulati sunt atque
+                    promiserunt sibi ad invicem dominus episcopus, pro se et successoribus suis,
+                    atque predicti homines qui ibi aderant, pro se et pro aliis qui ibi non aderant,
+                    et pro suis atque eorum heredibus, perpetuo rata habere, attendere et observare
+                    et in nullo contra venire; alioquin solvere pars parti fidem servanti vel cui
+                    commiserit <measure type="Imperiales" quantity="1000" unit="solidus">soldos
+                        mille imperialium</measure> nomine pene, rato manente pacto post pene
+                    solutionem. </p>
+                <p xml:id="XLIII_p_002" n="2"> Actum in porticu palatii <placeName ref="#Sarzana"
+                        >castri de Sarzana</placeName>, sollempniter, cum stipulatione. Ibi fuerunt
+                    rogati testes <persName ref="#Nicholausadv">Nicholaus</persName>
+                    <roleName>advocatus domini episcopi</roleName>, <persName ref="#Bonacursuscas"
+                        >Bonacursus</persName>
+                    <roleName>castaldus dicte curie de Sarzana</roleName>, <persName
+                        ref="#Bonattiolus_canevarius">Bonattiolus</persName>
+                    <roleName>canevarius eiusdem curie</roleName> atque <persName ref="#Trampullius"
+                        >Trampullius</persName>. Ego <persName ref="#Confortusnot"
+                        >Confortus</persName>, <roleName>sacri palacii et Lunensis curie
+                        notarius</roleName>, interfui rogatus et scripsi. </p>
+            </div>
+            <div xml:id="XLIII_div2" type="autentica">
+                <p xml:id="XLIII_p_003" n="3">
+                    <ptr target="XLIII_st_001"/> Ego <persName ref="#Testafortenot"
+                        >Testafortis</persName>, <roleName>Imperii Sacri notarius</roleName>,
+                    auttenticum huius exempli vidi diligenter et legi, et, ut in ipso continebatur,
+                    in hoc scripsi, nichil addens vel minuens quod sensum mutet vel variet
+                    intellectum, excepto tabellionis signo, quod depungere nesciebam. </p>
+                <p xml:id="XLIII_p_004" n="4">
+                    <ptr target="XLIII_st_002"/> Ego <persName ref="#GerardetusMontoni">Gerardettus,
+                        qui nominor Montonus</persName>, <roleName>palacii sacri iudex et
+                        notarius</roleName>, huius auctenticum vidi et legi, ideo huic sub<supplied
+                        reason="omitted">scripsi</supplied><note place="foot" n="f"
+                        xml:id="XLIII_n_005">huic scripsi:<emph>corretto su precedente
+                            scrittura.</emph></note>. </p>
+                <p xml:id="XLIII_p_005" n="5">
+                    <ptr target="XLIII_st_003"/> Ego <persName ref="#IacopinusTalliavachanot"
+                        >Iacopinus, qui nominor Talliavactea</persName>, <roleName>palacii sacri
+                        notarius</roleName>, auttenticum huius exempli vidi et legi et, cognito quod
+                    erant unius tenoris, huic subscripsi.<note>Autentica del documento 71-XLIII
+                        databile intorno alla metà del XIII secolo <date notBefore="1226-01-01"
+                            notAfter="1270-12-31" cert="low"/></note></p>
+            </div>
+        </body>
+    </text>
+</TEI>

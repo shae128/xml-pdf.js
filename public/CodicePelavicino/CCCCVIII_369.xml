@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCVIII_369">
+    <front xml:id="CCCCVIII_front">
+
+      <titlePart type="numerazioneNuova">369</titlePart>
+      <titlePart type="numerazioneOrig">CCCCVIII</titlePart>
+
+      <docDate xml:id="CCCCVIII_docDate">
+        <date when="1255-01-29"> &lt;1255&gt; gennaio 29</date>, <placeName>Sarzana (<term
+            xml:lang="latin">Sarzane, subter porticum Bonaiuti</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCVIII_regesto">
+        <p>Giacomo di Cromago, arbitro eletto tra Beldie, vedova di Bonavia, e il procuratore del
+          vescovo di Luni Bonalbergo di Carrara, stabilisce che il vescovo ottenga il terreno e la
+          casa su cui Beldie vantava diritti dotali in cambio di 10 lire di imperiali, che
+          Bonalbergo deve saldare entro trenta giorni.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 328v.-329r., cc. CCCXXv.-CCCXXIr. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 408,
+            p. 397. </p>
+          <p>Nel 1251 correva la IX indizione e non la XIII. Perché corresse la XIII bisogna pensare
+            al 1255 come fa <ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 27; Bonalbergo di
+            Carrara, se identificabile con il notaio omonimo, è attestato dal 1253 al 1257.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Parte del documento è stata letta con l’ausilio della luce di Wood.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCCVIII. Sententie cuiusdam casamenti et hedificii. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCVIII_div">
+        <p xml:id="CCCCVIII_p_001" n="1"> In Christi nomine. Ego <persName ref="#IacopusCromago"
+            >Iacobus de <placeName ref="#Cromago">Cromago</placeName></persName>,
+            <roleName>arbiter</roleName> et arbitrator electus inter <persName ref="#BeldiesBonavie"
+            >Beldiem, relictam quondam Bonavie</persName>, ex una parte, et <persName
+            ref="#BonalbergusCarrarasyn">Bonalbergum de <placeName ref="#Carrara"
+              >Carraria</placeName></persName>, <roleName>syndicum venerabilis Lunensis
+            episcopi</roleName>, ex alia, pro episcopatu<note n="a" place="foot"
+            xml:id="CCCCVIII_n_001">
+            <term xml:lang="latin">episcopatu</term>: <emph>nel manoscritto expatu con segno
+              generico di abbreviazione</emph>.</note> , nomine vel occasione dotis quas<note n="b"
+            place="foot" xml:id="CCCCVIII_n_002"><term xml:lang="latin">quas</term>: <emph> così nel
+              testo</emph>.</note> ipsa petebat supra domum seu hedificium, que quondam fuerunt
+          suprascripti <persName ref="#BeldiesBonavie">Bonavie</persName>, visis rationibus
+          utriusque partis, habito consilio sapientium, Dei nomine invocato, pronuncio et
+          amicabiliter componendo precipio partibus presentibus, quia videlicet ipsum <persName
+            ref="#BonalbergusCarrarasyn">Bonalbergum</persName>, nomine syndicatus, pro iamscripto
+          domino episcopo et episcopatu in solvendo <measure type="imperialium" quantity="10"
+            unit="libra"> X libras imperialium</measure> hinc ad XXX dies pro predictis eidem
+            <persName ref="#BeldiesBonavie">Beldiei</persName> condempno, terrenum et hedificium
+          dicte domus eidem <persName ref="#BonalbergusCarrarasyn"> Bonalbergo</persName>
+          <roleName>syndico</roleName>, pro dicto domino episcopo <pb n="329r" xml:id="fol_329r"/>
+          et episcopatu, adiudicando; et hec precipio observari, sub pena in compromisso contempta.
+          Actum <placeName ref="#Sarzana">Sarzane</placeName>, subter porticum <persName
+            ref="#BonaiunctaBonaiutinot">Bonaiuti</persName>, <date when="1251-02-04">dominice
+            quidem nativitatis anno M°CCLI, indictione XIII, IIII kalendas februarii</date>.
+          Interfuerunt testes <persName ref="#Prefectusnot3">Prefectus</persName>
+          <roleName>notarius</roleName>, <persName ref="#Philippus">Philippus</persName>
+          <roleName>notarius</roleName>, <persName ref="#Rubeusnot">Rubeus</persName>
+          <roleName>notarius</roleName> et <persName ref="#ParensPasqualini">Parens
+            Pasqualini</persName>.</p>
+        <p xml:id="CCCCVIII_p_002" n="2"><ptr target="#CCCCVIII_st_001"/> Ego <persName
+            ref="#Iacobinusnot">Iacobinus</persName>, <roleName>domini Frederici imperatoris
+            notarius</roleName>, hec rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

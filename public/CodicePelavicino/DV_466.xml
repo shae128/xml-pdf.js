@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DV_466">
+    <front xml:id="DV_front">
+
+      <titlePart type="numerazioneNuova">466</titlePart>
+      <titlePart type="numerazioneOrig">DV</titlePart>
+
+      <docDate xml:id="DV_docDate">
+        <date when="1255-03-31">1255 marzo 31</date>, <placeName ref="#Ponzanello">Ponzanello (<term
+              xml:lang="latin">in ecclesia nova de Ponzanello</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="DV_regesto">
+        <p> Gerardo Frumento del fu Gerardo di Fosdinovo vende al vescovo di Luni Guglielmo tre
+          staia e tre quarti di frumento che teneva in feudo dalla curia di Luni per otto lire di
+          imperiali. Il feudo era composto da uno staio e mezzo dato annualmente dal comune di
+          Pulica, parte del fitto di 12 staia che il comune dava ai signori di Fosdinovo; mezzo
+          staio dato dagli eredi di Sinibaldo di Pulica; uno staio dato da Rustichino di Benetto di
+          Castelnuovo e tre quarti da Bona Porretana. </p>
+      </div>
+
+      <div type="footer" xml:id="DV_footer">
+        <div type="orig_doc">
+          <p>Copia [C] cc. 377r.-377v., cc. CCCLXVIIIIr.-CCCLXVIIIIv. secondo la numerazione
+            originale. </p>
+        </div>
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 505,
+            pp. 536-537, con data 29 marzo.</p>
+          <p>Bibliografia: <ref target="#ZOPPI_2013">ZOPPI 2013</ref>, p. 8.</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DV.
+              Emptionis stariorum IIII frumenti, ficti a Gerardo Frumenti in Pulica.</term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="DV_div">
+        <p xml:id="DV_p_001" n="1"> In Dei nomine, amen. <date when="1255-03-31">Anno a nativitate
+            Eius M°CCLV, indictione XIII, II kalendas aprilis</date>. <persName
+            ref="#GerardusFrumentus">Gerardus Frumentus quondam G. de <placeName ref="#Fosdinovo"
+              >Fosdenova</placeName></persName> per se suosque heredes vendidit, dedit et tradidit
+          venerabili patri <roleName>domino <persName ref="#GuilEpLuni">Guilielmo</persName>, Dei
+            gratia Lunensi episcopo</roleName>, recipienti pro se suisque successoribus et nomine
+          episcopatus et cui dederit vel commiserit, staria IIII or frumenti minus uno quarto, quod
+          in feudum a Lunensi curia detinebat, sicut idem dominus <persName ref="#GerardusFrumentus"
+            >Gerardus</persName> coram ipso domino episcopo et me <persName ref="#Adiutusnot">Adiuto
+              <roleName>notario</roleName></persName> fatebatur, quorum starium I et dimidium
+          recipiebat annuatim nomine ficti a <orgName ref="#Pulica_comune">communi</orgName> de <placeName ref="#Pulica">Pulica</placeName>
+          pro parte sua de XII stariis frumenti, quod commune de <placeName ref="#Pulica"
+            >Pulica</placeName> dabat et reddebat dominis de <placeName ref="#Fosdinovo"
+            >Fosdenova</placeName>, et medium starium quod recipiebat annuatim ab heredibus quondam
+            <persName ref="#SibaldusPulica">Sibaldi de <placeName ref="#Pulica"
+            >Pulica</placeName></persName> de una petia terre posite, immo silve <placeName
+            ref="#Sancto_Martino">Sancti Martini</placeName>, et I starium quod recipiebat a
+            <persName ref="#RustichinusCastroNovo">Rustichino de Benetto de <placeName
+              ref="Castronovo">Castronovo</placeName></persName> de quadam tenuta, et tres quartos
+          quos recipiebat a <persName ref="#BonaPorretana">Bona Porretana</persName> de quadam
+          tenuta, que est in loco dicto <placeName ref="#Marçano">Marçano</placeName>, cum omni iure
+          soli et personarum illud fictum solvere debentium. Et dedit, cessit atque mandavit eidem
+          domino episcopo, recipienti ut dictum est, omne dominium, proprietatem, usum et utilitatem
+          et omnia iura, actiones et rationes utiles et directas, reales, personales seu mixtas et
+          omnes alias que et quas habet vel ei competunt in dicto ficto et in terris unde solvuntur
+          et in persona et contra personam et contra bona suprascriptorum, videlicet communis de
+            <placeName ref="#Pulica">Pulica</placeName> et heredum quondam <persName
+            ref="#SibaldusPulica">Sibaldi</persName> et <persName ref="#RustichinusCastroNovo"
+            >Rustichini</persName> et <persName ref="#BonaPorretana">Bone Porretane</persName>,
+          ipsum fictum solvere debentium et occasione dicti ficti vel terrarum unde solvitur,
+          faciendo ipsum dominum episcopum procuratorem et dominum ut in rem suam, ita ut ex hiis
+          omnibus idem dominus episcopus suique successores et cui dederint vel commiserint possint
+          agere et experiri, tueri, causari et deffendere, suo proprio nomine directo et utilitate,
+          adversus quamcumque personam et locum et inde facere quicquid voluerit sine contradictione
+          dicti domini Gerardi Frumenti eiusque heredum vel alterius persone, dando eidem domino
+          episcopo licenciam ut sua auctoritate ingrediatur et accipiat corporalem tenutam et
+          possessionem de dictis IIII or stariis frumenti minus uno quarto quandocumque voluerit,
+          constituendo se pro eo et eius nomine possidere donec possessionem acceperit de dictis
+          IIII or stariis frumenti minus uno quarto, sicut dictum est. Pro precio cuius frumenti
+          habuit et recepit idem dominus <persName ref="#GerardusFrumentus">Gerardus</persName> ab
+          ipso domino episcopo <measure type="imperiales" quantity="8" unit="libra">libras VIII
+            imperialium</measure> coram me <persName ref="#Adiutusnot">Adiuto
+              <roleName>notario</roleName></persName> et testibus infrascriptis, renunciando
+          exceptioni non numerate pecunie et non recepte et omni alii iuri et legum auxilio. Et fuit
+          confessus suprascriptus dominus <persName ref="#GerardusFrumentus">Gerardus</persName>
+          quod suprascripta venditio plus valebat precio suprascripto, unde totum et quicquid plus
+          valebat eidem domino episcopo donavit titulo pure ac simplicis donationis inter vivos.
+          Insuper promisit suprascriptus dominus <persName ref="#GerardusFrumentus"
+            >Gerardus</persName> per se suosque heredes et convenit dicto domino episcopo,
+          recipienti ut dictum est, dictum frumentum non imbrigare vel molestare deinceps, immo
+          ipsum iure deffendere et exbrigare ab omni contradicente persona et loco; quod, si non
+          faceret vel non posset, salvum cambium inde dare promisit. Hanc autem vendictionem et
+          omnia que in hac carta leguntur suprascriptus dominus <persName ref="#GerardusFrumentus"
+            >Gerardus</persName> per se suosque heredes promisit et convenit suprascripto domino
+          episcopo, recipienti ut dictum est, facere et observare et in nullo contravenire, de iure
+          vel de facto, sub pena <measure type="imperiales" quantity="100" unit="solidus">C soldorum
+            imperialium</measure>, quam dare et solvere promisit eidem domino episcopo tociens
+          quociens fuerit contraventum et pro quolibet capitulo non observato; qua soluta,
+          suprascriptis omnibus et singulis nichillominus semper firmis, obligando se suosque
+          heredes et omnia sua bona, renunciando omni iuri et legibus contra hec introductis. <pb
+            n="377v" xml:id="fol_377v"/></p>
+        <p xml:id="DV_p_002" n="2"> Actum in <orgName ref="#Ponzanello_S_Martino">ecclesia nova de
+              <placeName ref="#Ponzanello">Ponzanello</placeName></orgName>, presentibus <persName
+            ref="#Iacopinusarc">Iacobino</persName>
+          <roleName>archipresbytero</roleName> de <placeName ref="#Ameglia">Amelia</placeName>,
+            <roleName>presbytero</roleName>
+          <persName ref="#Bonavitapre">Bonavita</persName>
+          <roleName>rectore</roleName>
+          <orgName ref="#Ponzanello_S_Martino">ecclesie de <placeName ref="#Ponzanello"
+              >Ponzanello</placeName></orgName>, <persName ref="#VenutusDonati">Venuto quondam
+            Donati de <placeName ref="#Fosdinovo">Fosdenova</placeName></persName>, <persName
+            ref="#CeciusLucca">Cetio</persName> et <persName ref="#BonaiunctaPesticio">Bonaiuncta
+            dicto Pestiçio</persName>, <placeName ref="#Lucca">Lucanis</placeName>, testibus ad hec
+          rogatis. </p>
+        <p xml:id="DV_p_003" n="3">
+          <ptr target="#DV_st_001"/>Ego <persName ref="#Adiutusnot">Adiutus, <roleName>sacri palacii
+              notarius</roleName></persName>, hiis interfui et de mandato suprascripti domini
+          episcopi scripsi hoc instrumentum et complevi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXXVIIII_490">
+    <front xml:id="DXXVIIII_front">
+
+      <titlePart type="numerazioneNuova">490</titlePart>
+      <titlePart type="numerazioneOrig">DXXVIIII</titlePart>
+
+      <docDate xml:id="DXXVIIII_docDate">
+        <date when="1206-07-22">1206 luglio 22</date>, <placeName>Santo Stefano Magra (<term
+            xml:lang="latin">burgo de Sancto Stephano, intus plebem ipsius burgi</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="DXXVIIII_regesto">
+        <p>Il console di Lucca Tancredi Onesto, arbitro eletto insieme ai suoi soci Glandone
+          Maloditi, Tegrimo de Podio, Genovese Alioti e Opizzo Nordili per risolvere le controversie
+          sorte fra il vescovo di Luni Gualtiero e i marchesi Guglielmo e Corrado Malaspina, emana
+          la sua sentenza con il consiglio dei giurisperiti Ildebrandino Malpigli di Lucca e
+          Guglielmo. Ordina a entrambe le parti di mantenere la strada sicura per ciascun viandante,
+          in particolare per gli abitanti di Lucca e del suo distretto. Stabilisce inoltre che il
+          vescovo restituisca ai marchesi, che ricevono anche a nome degli eredi di Alberto
+          Malaspina, i castelli di Giovagallo e di Calice, assolvendo contestualmente gli uomini dei
+          due castelli da ogni obbligo di fedeltà nei suoi confronti. I Malaspina, tuttavia, si
+          devono impegnare a non danneggiare in alcun modo gli uomini di Giovagallo e Calice che
+          avevano fatto società col vescovo o gli avevano prestato aiuto. Il vescovo è inoltre
+          tenuto, il giorno seguente, a inviare un messaggero, insieme a un nunzio dei marchesi, a
+          Calice e a Giovagallo che annunci il contenuto della sentenza. Su altre questioni e su
+          eventuali ambiguità che potrebbero sorgere, Tancredi Onesto si riserva di deliberare in
+          futuro. Il giorno stesso il vescovo di Luni restituisce i due castelli ai Marchesi e
+          assolve gli uomini delle due località da ogni fedeltà nei suoi confronti.</p>
+      </div>
+
+      <div type="footer" xml:id="DXXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 393v.-394v., cc. CCCLXXXVv.-CCCLXXXVIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 529,
+            pp. 589-592.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine superiore, al centro: <term xml:lang="latin">De Giovagallo et
+              Caliso</term></note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >DXXVIIII. Sententia data inter dominum episcopum Lunensem et marchiones Malaspine
+              super castris de Iuvagallo et Calesa et aliis.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXXVIIII_div">
+        <p xml:id="DXXVIIII_p_001" n="1">
+          <ptr target="#DXXVIIII_st_001"/> In nomine Patris et Filii et Spiritus Sancti, amen. Cum
+            <roleName>dominus</roleName>
+          <persName ref="#GualEpLuni">Gualterius</persName>, <roleName>Dei gratia Lunensis Ecclesie
+            episcopus</roleName><note place="foot" n="a" xml:id="DXXVIIII_n_001">Nel testo
+              <emph>episcopus Ecclesie</emph> con segno di richiamo per invertire l’ordine delle
+            parole.</note>, et <roleName>marchiones</roleName>
+          <name type="familia" ref="#MalaspinaFamilia">Malaspine</name>, scilicet <persName
+            ref="#GuililemusMalaspina">Guilielmus</persName> et <persName ref="#ConradusMalaspina"
+            >Corradus</persName>, teneantur sacramento mihi <persName ref="#TancredusLucanusiur"
+            >Tancredo Honeste</persName>, <roleName>Dei gratia Lucano consuli</roleName>, et meis
+          sociis <roleName>consulibus</roleName>, scilicet <persName ref="#GlandonusMaloditi"
+            >Glandoni Maloditi</persName> et <persName ref="#TegrimusPodio">Tegrimo de <placeName
+              ref="#Podio">Podio</placeName></persName> et <persName ref="#GenoveseAlioti">Genovesi
+            Alioti</persName> et <persName ref="#OpichoNordili">Opicho Nordili</persName>, omnia mea
+          meorumque sociorum de facto strate perpetuo et pro facto strate et de omnibus aliis
+          observare et adimplere precepta, ideo ego <persName ref="#TancredusLucanusiur"
+            >Tancredus</persName> predictus, deliberans cum predictis meis omnibus sociis
+          consulibus, facta cum eis concordia et cum eorum consilio et ordinamento et voluntate
+          firma et cum consilio et ordinamento <persName ref="#IldebrandinusMalpilii">Ildebrandini
+            Malpilii <placeName ref="#Lucca">Lucani</placeName></persName> et <persName
+            ref="#Guilielmus_iurisperitus">Guilielmi</persName>
+          <roleName>iurisperiti</roleName>, vobis <roleName>domino</roleName> predicto <persName
+            ref="#GualEpLuni">Gualterio</persName>, <roleName>Lunensi episcopo</roleName>, et vobis
+            <persName ref="#GuililemusMalaspina">Guilielmo</persName> et <persName
+            ref="#ConradusMalaspina">Corrado</persName>, <roleName>marchionibus</roleName>
+          <name type="familia" ref="#MalaspinaFamilia">Malaspine</name>, pro me et predictis meis sociis
+          consulibus, nomine sacramenti quo mihi et eis tenemini, precipio ut firmam pacem et
+          perpetuam et penitus incorruptam inter vos, per vos et vestros adiutatores omnes, teneatis
+          et teneri perpetuo faciatis. Et precipio insuper vobis predicto episcopo et marchionibus,
+          nomine sacramenti, ut salvetis et custodiatis et <pb n="394r" xml:id="fol_394r"/>
+          deffendatis stratam et omnes et singulos homines et personas transeuntes vel redeuntes seu
+          stantes per stratam vel prope stratam, cum rebus vel sine rebus, et ut non permittatis
+          offendi stratam vel homines seu personas transeuntes et redeuntes per stratam vel stantes
+          in strata, cum rebus et sine rebus. Et precipio vobis predictis episcopo et marchionibus,
+          nomine sacramenti, ut si aliqua persona vel persone vestre fortie vel districtus
+          offenderint vel offenderit aliquem hominem vel personam per stratam vel prope stratam
+          euntem vel redeuntem seu stantem, cum rebus vel sine rebus, incontinenti, bona fide, sine
+          fraude, faciatis offensam emendari illi vel illis cui vel quibus illa offensa illata esset
+          in persona vel avere. Itaque precipio, nomine sacramenti, vobis suprascriptis Lunensi
+          episcopo et marchionibus Malaspine ut specialiter et principaliter, toto tempore vite
+          vestre, omnes et singulos homines et personas <placeName ref="#Lucca">Lucane</placeName>
+          civitatis et burgorum et suburgorum eius et <placeName ref="#Lucca">Lucani</placeName>
+          districtus et eorum avere et res salvetis et deffendatis et salvari et deffendi faciatis
+          ubique per totam vestram fortiam et districtum. Et ut ista omnia, que dicta sunt, teneatis
+          perpetuo et observetis et adimpleatis, pro me et pro predictis meis sociis consulibus,
+          vobis suprascriptis episcopo et marchionibus, nomine sacramenti quo tenemini precipio. Et
+          cum de litibus et discordiis et repetitionibus, que inter vos vertuntur vel verti possint,
+          sit a vobis facta compromissio in me <persName ref="#TancredusLucanusiur">Tancredum
+            Honeste</persName> et meos socios consules, pro vobis et vestris partibus adiutatoribus,
+          prout continetur in cartula scripta manu <persName ref="#Ubertus_not">Uberti</persName>,
+            <roleName>notarii et publici</roleName>
+          <placeName ref="#Lucca">Lucane</placeName>
+          <roleName>civitatis cancellarii</roleName>, et vos, <roleName>domine</roleName>
+          <persName ref="#GuililemusMalaspina">Guilielme, <roleName>marchio</roleName>
+            Malaspine</persName>, pro vobis et vestro germano <persName ref="#ConradusMalaspina"
+            >Corrado</persName> et procuratorio nomine pro filiis seu filiabus quondam <persName
+            ref="#AlbertusMalaspina1">Alberti Malaspine</persName>, antedicto
+            <roleName>domino</roleName>
+          <persName ref="#GualEpLuni">Gualterio</persName>, <roleName>Dei gratia Lunensi
+            episcopo</roleName>, recipiente<note place="foot" n="b" xml:id="DXXVIIII_n_002"
+            >recipiente: <emph>così nel testo per</emph> recipienti.</note> pro se et Lunensi
+          episcopatu et tota sua parte, peti iussetis ut restitueret vobis possessionem castri de
+            <placeName ref="#Zovagallo">Giovagallo</placeName>, cum suis pertinenciis, et castri de
+            <placeName ref="#Calisi">Calisi</placeName>, cum suis pertinenciis, et vos, predicte
+          domine episcope, respondissetis quod non teneamini possessionem suprascriptorum castrorum,
+          cum eorum pertinenciis, restituere ipsis marchionibus, ideo ego predictus <persName
+            ref="#TancredusLucanusiur">Tancredus</persName>, <placeName ref="#Lucca"
+            >Lucanus</placeName>
+          <roleName>consul</roleName>, inquisita et cognita penitus veritate de predictis castris et
+          eorum pertinenciis, cum consilio et voluntate et acordamento et concordia predictorum
+            <persName ref="#GlandonusMaloditi">Glandonis Maloditi</persName> et <persName
+            ref="#GenoveseAlioti">Genovesi Alioti</persName> et <persName ref="#TegrimusPodio"
+            >Tegrimi de <placeName ref="#PodioLucca">Podio</placeName></persName> et <persName
+            ref="#OpichoNordili">Opichi Nordili</persName>, meorum sociorum, <roleName>Lucanorum
+            consulum</roleName>, scilicet in quantum pertinet ad petitionem et requisitionem seu
+          controversiam castri de <placeName ref="#Zovagallo">Giovagallo,</placeName> cum suis
+          pertinenciis, et castri de <placeName ref="#Calisi">Calisi</placeName>, cum suis
+          pertinenciis, sic per laudamentum diffinio, dicens: «In Dei patris nomine, amen. Ego
+          predictus <persName ref="#TancredusLucanusiur">Tancredus Honeste</persName>, <placeName
+            ref="#Lucca">Lucanus</placeName>
+          <roleName>consul</roleName>, habito consilio <persName ref="#IldebrandinusMalpilii"
+            >Ildeprandi Malpilii <placeName ref="#Lucca">Lucani</placeName></persName> et <persName
+            ref="#Guilielmus_iurisperitus">Guilielmi</persName>
+          <roleName>iurisperiti</roleName>, assessoris mei, statuo, ordino et atque per arbitrium
+          diffinio et laudo ut vos predictus <roleName>dominus</roleName>
+          <persName ref="#GualEpLuni">Gualterius</persName>, <roleName>Lunensis
+          episcopus</roleName>, pro vobis et Lunensi episcopatu et pro vestra parte, incontinenti
+          restituatis possessionem castri de Giovagallo, cum suis pertinenciis, et castri de Calise,
+          cum suis pertinenciis omnibus, <persName ref="#GuililemusMalaspina">Guilielmo</persName>
+          et <persName ref="#ConradusMalaspina">Corrado</persName>
+          <roleName>marchionibus</roleName>
+          <name type="familia" ref="#MalaspinaFamilia">Malaspine</name>, recipientibus ipsam restitutionem pro se
+          ipsis et filiis seu filiabus quondam <persName ref="#AlbertusMalaspina1">Alberti
+            Malaspine</persName>, et istam restitutionem faciatis hoc modo: quod vos predictus
+          dominus episcopus dicatis marchionibus prenominatis, in presentia <persName
+            ref="#Ubertus_not">Uberti</persName>
+          <roleName>notarii et <placeName ref="#Lucca">Lucani</placeName> <orgName ref="#Lucca_comune">communis</orgName> cancellarii</roleName>, “Ego <persName
+            ref="#GualEpLuni">Gualterius</persName>, <roleName>Lunensis episcopus</roleName>, pro me
+          et Lunensi episcopatu restituo vobis marchionibus suprascriptis possessionem
+          suprascriptorum duorum castrorum, cum eorum pertinenciis, pro me et Lunensi episcopatu, et
+          dico ut habeatis et possideatis suprascripta duo castra et eorum pertinencias sine mea
+          meorumque hominum adiutatorum contradictione”. Et sic ego <persName
+            ref="#TancredusLucanusiur">Tancredus</persName>, <placeName ref="#Lucca"
+            >Lucanus</placeName>
+          <roleName>consul</roleName>, pro me et meis sociis consulibus, condempno vos<note
+            place="foot" n="c" xml:id="DXXVIIII_n_003">vos: <emph>segue</emph> vos <emph>ripetuto
+              nel rigo sottostante</emph>.</note>
+          <roleName>dominum</roleName>
+          <persName ref="#GualEpLuni">Gualterium</persName>, <roleName>Lunensem
+          episcopum</roleName>, pro vobis et vestro episcopatu, ut sic faciatis et restituatis
+          possessionem suprascriptorum duorum castrorum, cum eorum pertinenciis, predictis
+          marchionibus, ut per omnia suprascriptum est. Et etiam per sacramentum precipio ego
+            <persName ref="#TancredusLucanusiur">Tancredus</persName>, pro me et meis sociis
+          consulibus, vobis sepedicto <persName ref="#GualEpLuni">Gualterio</persName>,
+            <roleName>Dei gratia Lunensi episcopo</roleName>, pro vobis et vestra parte, et sic
+          faciatis restitutionem et restituatis, ut dictum est et sicut supra continetur. Et insuper
+          precipio vobis predicto episcopo, per sacramentum quo mihi et sociis meis tenemini, ut
+          incontinenti liberes et absolvas<note place="foot" n="d" xml:id="DXXVIIII_n_004">liberes
+            et absolvas: <emph>così nel testo per</emph> liberetis et absolvatis.</note> omnes
+          homines suprascriptorum duorum castrorum <pb n="394v" xml:id="fol_394v"/>ab omni ligamine
+          seu societate vel vinculo societatis seu iuramenti, quo vobis vel alicui pro vobis
+          tenentur, ut libere possint obedire et servire dictis marchionibus, sine vestra et
+          vestrorum hominum et adiutatorum contradictione. Item ego suprascriptus <persName
+            ref="#TancredusLucanusiur">Tancredus</persName> cum consilio et voluntate et acordamento
+          suprascriptorum meorum sociorum consulum et <persName ref="#IldebrandinusMalpilii"
+            >Ildebrandini Malpilii</persName> et <persName ref="#Guilielmus_iurisperitus"
+            >Guilielmi</persName>
+          <roleName>iurisperiti</roleName>, laudo, pronuncio et statuo et precipio nomine sacramenti
+          vobis Lunensi episcopo ut non detis nec faciatis aliquod auxilium per vos vel per alium
+          aut alios nec fieri aut dari permittatis hominibus de <placeName ref="#Zovagallo"
+            >Giovagallo</placeName> vel hominibus de <placeName ref="#Calisi">Calisi</placeName>
+          contra predictos marchiones quin predictam restitutionem seu laudamentum vel arbitrium
+          observent, sicut supra per omnia et per singula continetur. Et laudo et pronuncio et
+          precipio vobis predicto episcopo, nomine sacramenti, ut non imbrigetis nec imbrigari
+          faciatis, per vos vel per alios homines vestri districtus, predictis marchionibus predicta
+          duo castra vel aliquod eorum vel homines predictorum castrorum vel eorum pertinencias,
+          habere, tenere et possidere. Et e converso ego <persName ref="#TancredusLucanusiur"
+            >Tancredus</persName>, <roleName>gratia Dei<note place="foot" n="e"
+              xml:id="DXXVIIII_n_005">gratia Dei: <emph>nel testo</emph> Dei gratia <emph>con segno
+                di richiamo per invertire l’ordine delle parole</emph>.</note> predictus</roleName>
+          <placeName ref="#Lucca">Luce</placeName>
+          <roleName>consul</roleName>, pro me et sociis meis maioribus, <placeName ref="#Lucca"
+            >Lucanis</placeName> consulibus, facta cum eis concordia, precipio per sacramentum, quo
+          mihi et eis tenemini, vobis <persName ref="#GuililemusMalaspina">Guilielmo</persName> et
+            <persName ref="#ConradusMalaspina">Corrado</persName>, marchionibus <name
+              type="familia" ref="#MalaspinaFamilia">Malaspine</name>, pro vobis et nepotibus vestris, filiis seu
+          filiabus quondam <persName ref="#AlbertusMalaspina1">Alberti Malaspine</persName>, ut
+          neque per vos neque per alium aut alios ullo modo vel ullo tempore offendatis neque
+          aliquam offensam faciatis vel fieri faciatis seu fieri permittatis in personis vel rebus
+          seu avere vel in supraposita aliqua hominibus de <placeName ref="#Zovagallo"
+            >Giovagallo</placeName> et de <placeName ref="#Calisi">Calisi</placeName>, vel alicui
+          eorum, pro eo quod fecerint societatem cum predicto episcopo vel ei vel parti eius
+          prestiterint aliquod auxilium; et alias questiones omnes seu controversias et petitiones
+          utriusque partis ad diffiniendum reservo mihi et sociis meis consulibus et meis
+          successoribus et successori, consulibus et potestati et cui vel quibus committere
+          voluerimus vel illi voluerint. Verum si aliqua dubitatio vel ambiguitas emergeret in
+          predictis vel aliquo predictorum, ego <persName ref="#TancredusLucanusiur"
+            >Tancredus</persName> mihi et sociis meis et meis successoribus et successoribus
+          consulibus et potestatibus, interpretandum et exponendum et distinguendum reservo, ut
+          possimus et illi suo tempore possint reactare et reinformare et interpretari secundum quod
+          nobis aut nostris successoribus melius videbitur vel cui nos consules vel nostri
+          successores commiserimus seu commiserint. Et precipio ego <persName
+            ref="#TancredusLucanusiur">Tancredus</persName>, pro me et meis sociis consulibus, vobis
+          predicto episcopo et marchionibus ut nullam malam iniuriam in persona vel avere aut aliquo
+          reddatis seu reddi faciatis alicui persone vel personis que tempore guerre cum vobis
+          predicto episcopo aut cum vobis predictis marchionibus tenuerunt vel qui<note place="foot"
+            n="f" xml:id="DXXVIIII_n_006">qui: <emph>così nel testo per</emph> que <emph>da
+              riferirsi a persone</emph>.</note> alicui parti aliquod auxilium prebuerunt. Et
+          precipio, pro me et predictis sociis meis consulibus, vobis predicto episcopo, per
+          sacramentum, ut per totam diem crastinam unum vestrum nuncium convenientem cum nuntio
+          marchionum vel cum ipsis marchionibus mittatis ad <placeName ref="#Calisi"
+            >Calise</placeName> et <placeName ref="#Zovagallo">Giovagallum</placeName>, qui nuntius
+          vester eis denuntiet quod predictis marchionibus, pro te et tua parte, restituistis
+          possessionem ipsorum duorum castrorum et omnes et singulos homines de ipsis castris et
+          eorum pertinenciis ab omni ligamine sacramenti et societatis liberastis et liberatis». </p>
+        <p xml:id="DXXVIIII_p_002" n="2">Acta sunt predicta omnia et statuta et prolata a
+          suprascripto <persName ref="#TancredusLucanusiur">Tancredo</persName>, <placeName
+            ref="#Lucca">Lucano</placeName>
+          <roleName>consule</roleName>, prout supra per omnia et per singula et per unumquodque
+          capitulum supra continentur, in burgo de <placeName ref="#Santo_Stefano">Sancto
+            Stephano</placeName>, intus plebem ipsius burgi, cuius vocabulum est <orgName
+            ref="#S_Stefano_Magra">Sanctus Stephanus</orgName>, presentibus
+            <roleName>domino</roleName>
+          <persName ref="#GuililemusMonferrato">Guilielmo</persName>
+          <roleName>marchione</roleName>
+          <placeName ref="#Montisferrato">Montisferrati</placeName> et <persName ref="#AlbertusGavi"
+            >Alberto</persName>
+          <roleName>marchione</roleName> de <placeName ref="#Gavi">Gavi</placeName> et <persName
+            ref="#GuilielmusVechano">Guilielmo de <placeName ref="#Vezzano"
+            >Vechano</placeName></persName> et <persName ref="#OrlandusBortione">Orlando de
+              <placeName ref="#Burcione">Bortione</placeName></persName> et <persName
+            ref="#RanucciusAlbertini">Ranuccio Albertini</persName> et <persName ref="#Porosassus"
+            >Porosassi</persName>, civibus <placeName ref="#Lucca">Lucanis</placeName>, et <persName
+            ref="#BandinusGaitani">Bandino Gaytani</persName> et <persName ref="#Iordanus_iudex"
+            >Iordano</persName> et <persName ref="#Lambertus_iudex">Lamberto</persName>,
+            <roleName>iudicibus</roleName>
+          <placeName ref="#Pisa">Pisane</placeName> civitatis, et <persName ref="#UgolinusPorcari"
+            >Ugolino Paganelli de <placeName ref="#Porcari">Porcari</placeName></persName> et aliis
+          multis et astante etiam multitudine populorum. <date when="1206-07-22">Anno a nativitate
+            Domini M°CCVI, XI kalendas augusti, indictione IX</date>.</p>
+        <p xml:id="DXXVIIII_p_003" n="3">Preterea clare debet omnibus et manifeste constare quod
+          eadem die et in eodem loco et coram suprascriptis testibus omnibus et in presentia mei,
+            <persName ref="#Ubertus_not">Uberti</persName>
+          <roleName>notarii</roleName> et <placeName ref="#Lucca">Lucani</placeName>
+          <roleName>communis publici cancellarii</roleName>, et incontinenti predictus
+            <roleName>dominus</roleName>
+          <persName ref="#GualEpLuni">Gualterius</persName>, <roleName>Lunensis Ecclesie
+            episcopus</roleName>, investiendo predictos marchiones, scilicet <persName
+            ref="#GuililemusMalaspina">Guilielmum</persName> et <persName ref="#ConradusMalaspina"
+            >Corradum</persName>, per baculum seu virgam, quem seu quam in suis manibus detinebat,
+          restitutionem fecit eisdem marchionibus suprascriptorum duorum castrorum et eorum
+          pertinenciarum, dicendo omnia illa verba et in ea forma que pro restitutione facienda
+          supra continentur; et omnes homines suprascriptorum duorum castrorum publice ab omni
+          ligamine sacramenti et societatis et ab omni vinculo, quo ei tenebantur vel alii pro eo,
+          liberavit et absolvit. </p>
+        <p xml:id="DXXVIIII_p_004" n="4">
+          <ptr target="#DXXVIIII_st_002"/>
+          <persName ref="#Ubertus_not">Ubertus</persName>, <roleName>sacri palacii iudex et notarius
+            et <placeName ref="#Lucca">Lucani</placeName> communis publicus cancellarius</roleName>,
+          predictis omnibus interfui et hec omnia, parabola et precepto suprascripti
+            <roleName>domini</roleName>
+          <persName ref="#TancredusLucanusiur">Tancredi</persName>, <placeName ref="#Lucca"
+            >Lucani</placeName>
+          <roleName>consulis</roleName>, publice descripsi et sollempniter confirmavi, ut rei
+          veritas ulla temporis volutione non valeat ocultari, set clara fiet et aperta omnibus eam
+          scire volentibus in perpetuum per hec scripta publica continentia plenariam veritatem.
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

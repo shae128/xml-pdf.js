@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXX_432">
+    <front xml:id="CCCCLXX_front">
+
+      <titlePart type="numerazioneNuova">432</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXX</titlePart>
+
+      <docDate xml:id="CCCCLXX_docDate">
+        <date when="1240-06-26">1240 giugno 26</date>, <placeName>Santo Stefano Magra <emph>(<term
+              xml:lang="latin">ante ecclesiam Sancti Stephani</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXX_regesto">
+        <p>Il vescovo di Luni Guglielmo loca a Conforto del fu Bernardo di Tivegna, che riceve in
+          dote per suo figlio Albertino, il podere un tempo appartenuto a Fidancia di Valporcara e
+          ora di Rosa, figlia di Fidancia e moglie di Albertino. Il fitto è quello consueto. La
+          transazione costa 100 soldi imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 360r.-360v., cc. CCCLIr.-CCCLIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 470,
+            p. 477.</p>
+        </div>
+
+        <div type="crit_notes">
+          <p/>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXX. Locationis suprascripto Comforto de podere de Valporcata.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCLXX_div">
+        <p xml:id="CCCCLXX_p_001" n="1">In nomine Domini, amen. <date when="1240-06-26">Anno
+            dominice nativitatis M°CCXL, indictione XIII, die martis, VI kalendas iulii</date>. In
+          presentia infrascriptorum testium venerabilis pater dominus <persName ref="#GuilEpLuni"
+            >Guilielmus, <roleName>divina paciencia Lunensis episcopus</roleName></persName>, suo et
+          episcopatus Lunensis nomine, dedit et locavit nomine locationis perpetue <persName
+            ref="#ConfortusBernardi">Conforto quondam Bernardi de <placeName ref="#Tivegnia"
+              >Tivegnia</placeName></persName>, recipienti in dote pro filio suo <persName
+            ref="#AlbertinusConfortiTiv">Albertino</persName>, ibidem presente, podere totum quod
+          olim fuit <persName ref="#FidanciaValporcara">Fidancie de <placeName ref="#Valporcara"
+              >Valporcaria</placeName></persName> et nunc est <persName ref="#RosaFidancie">Rose,
+            filie quondam dicte Fidancie, uxoris dicti Albertini</persName>, quantum et quale sit
+          illud totum et ubicumque sit et <pb n="360v" xml:id="fol_360v"/> decurrat et inveniri
+          possit, in domibus et vasibus<note place="foot" n="a" xml:id="CCCCLXX_n_001"><term
+              xml:lang="latin">ivasibus</term>: <emph>così nel testo.</emph></note>, terris, vineis,
+          arboribus, agris, cultis, gherbidis vel pascuis, salvaticis et prat<supplied
+            reason="omitted">i</supplied>vis, in plano et monte et valle, diviso et indiviso,
+          ubicumque de bonis olim dicte <persName ref="#FidanciaValporcara">Fidancie</persName>, tam
+          de mobilibus quam de immobilibus, posset aliquid aliquatenus alicubi reperiri, ita
+          videlicet quod dictus <persName ref="#ConfortusBernardi">Confortus</persName>, nomine
+          dotis pro ipso <persName ref="#AlbertinusConfortiTiv">Albertino</persName>, filio suo, et
+          ipse <persName ref="#AlbertinusConfortiTiv">Albertinus</persName>, cum heredibus ex se et
+          dicta <persName ref="#RosaFidancie">Rosa</persName> descendentibus, dictum podere habeant,
+          teneant, possideant et fruantur, cum accessibus, finibus et egressibus, superioribus et
+          inferioribus, et omnibus iuribus et pertinentiis, in integrum, sine alicuius aliqua
+          contradictione. Quod podere dictus dominus episcopus nomine dicti <persName
+            ref="#ConfortusBernardi">Conforti</persName>, ut supra recipientis, constituit se
+          possidere ea contemplatione donec in possessionem intraverit corporalem, in<note
+            place="foot" n="b" xml:id="CCCCLXX_n_002">n: <emph>corretto su precedente scrittura
+              abrasa.</emph></note> qua intrandi licenciam ei sua auctoritate omnimoda tradidit. Et
+          promisit dictus dominus episcopus eidem <persName ref="#ConfortusBernardi"
+            >Conforto</persName>, ut supra recipienti, obligando se suosque successores, predictum
+          podere in toto et in parte ab omni homine cum ratione deffendere et disbrigare suis
+          advocato, pignoribus et expensis, in iudicio et extra, remissa necessitate denunciandi;
+          quod, si facere noluerit aut nequiverit, eidem <persName ref="#AlbertinusConfortiTiv"
+            >Albertino</persName> et suis heredibus salvum cambium dare, sicut res pro tempore
+          fuerit meliorata aut magis valuerit, sub extimatione, in consimili loco. Pro hac locatione
+          et servicio huius locationis fuit confessus dictus dominus episcopus se accepisse a dicto
+            <persName ref="#ConfortusBernardi">Conforto</persName>
+          <measure type="Imperiales" quantity="100" unit="soldi">soldos C imperialium</measure>,
+          renunciando exceptioni non numerate pecunie et recepte et omni alii exceptioni et legum
+          auxilio, quod eum deberet iuvare et dicto acquisitori nocere. Unde dictus <persName
+            ref="#ConfortusBernardi">Confortus</persName> et ipse <persName
+            ref="#AlbertinusConfortiTiv">Albertinus</persName>, cum heredibus ex se<note
+            place="foot" n="c" xml:id="CCCCLXX_n_003"><term xml:lang="latin">cum heredibus ex
+              se</term>: <emph>nel testo </emph><term xml:lang="latin">cum ex se heredibus</term>
+            <emph> con segno di richiamo per invertire l’ordine delle parole.</emph></note> et dicta
+            <persName ref="#RosaFidancie">Rosa</persName> descendentibus, teneantur dictum podere
+          laborare, procurare, meliorare et non deteriorare, et dare et reddere eidem domino
+          episcopo et suis successoribus aut cui commiserit, annuatim, omnes redditus, condictiones
+          et usus qui de ipso podere reddi solebant; alia super imposita eis minime fiat. Penam vero
+          inter se posuerunt ut, si quis ex ipsis aut <supplied reason="omitted">aliquis</supplied>
+          heredum vel successorum suorum unquam retollere vel laxare voluerit et quod superius
+          legitur non observaverit, componat pars parti fidem servanti, nomine pene, <measure
+            type="Imperiales" quantity="40" unit="soldi">soldos XL imperialium</measure>; qua
+          soluta, libellus semper in sua permaneat firmitate. </p>
+        <p xml:id="CCCCLXX_p_002" n="2">Actum, cum stipulatione, <orgName ref="#S_Stefano_Magra"
+            >ante ecclesiam <placeName ref="#Santo_Stefano">Sancti Stephani</placeName></orgName>,
+          presentibus <persName ref="#GerardusclerSS"><roleName>presbytero</roleName> Gerardo
+              <roleName>clerico</roleName></persName> eiusdem ecclesie et <persName
+            ref="#Valerianuspres"><roleName>presbytero</roleName> Valeriano de <placeName
+              ref="#Bibola"><orgName ref="#Bibola_S_Bartolomeo"
+            >Bibola</orgName></placeName></persName> et <persName ref="#SalomonLucanus">Salomone de
+              <placeName ref="#Lucca">Luca</placeName></persName> et <persName
+            ref="#MontezellusÇegnuli">Montezello quondam Çegnuli</persName> et <persName
+            ref="#RollandetusBonaldi">Rollandeto quondam Bonaldi de <placeName ref="#Montebello"
+              >Montebello</placeName></persName>, testibus rogatis.</p>
+        <p xml:id="CCCCLXX_p_003" n="3"><ptr target="#CCCCLXX_st_001"/> Ego <persName
+            ref="#IacopinusMartininot">Iacobinus, filius Martini Rose, <roleName>imperatoris aule
+              notarius</roleName></persName>, hiis interfui et hanc cartam rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

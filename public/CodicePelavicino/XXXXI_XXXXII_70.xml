@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="XLI_XLII_70">
+        <front xml:id="XLI_XLII_front">
+
+            <titlePart type="numerazioneNuova">70</titlePart>
+            <titlePart type="numerazioneOrig">XLI_XLII</titlePart>
+            <docDate xml:id="XLI_XLII_docDate">
+                <date from="1287-08-09" to="1289-09-24"> &lt;1287 agosto 9 - 1289 settembre
+                    24&gt;</date>
+            </docDate>
+
+            <div type="regesto" xml:id="XLI_XLII_regesto">
+                <p> Trascizione <emph>Liber consiliorum atque consiliatorum</emph> del comune di
+                    Sarzana, composto nel 1287, di due delibere fatte in data 8 agosto su mandato di
+                    Vernuzio, vicario di Aquilante, potestà di Sarzana, e per volontà del consiglio,
+                    radunato nella chiesa di Sant’Andrea. Nella prima vengono deposti i consiglieri
+                    e i funzionari del comune eletti senza l’intervento di Enrico, vescovo di Luni,
+                    o di un suo rappresentante e si procede a una nuova elezione. Nella seconda
+                    viene revocata e cassata una gabella imposta dal comune di Sarzana, così come
+                    vengono deposti i funzionari incaricati della riscossione, fatta eccezione per
+                    quando si riferisce agli arretrati. </p>
+            </div>
+            <div type="footer" xml:id="XLI_XLII_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] c. 132r., c. CXXIIIIr. secondo la numerazione originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale <ref target="#PODESTÀ_1894">PODESTÀ 1894</ref>, p. 94; <ref
+                            target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 41 e 43, p. 62 e
+                        63.</p>
+                </div>
+                <div type="crit_notes">
+                    <note>La data <term xml:lang="latin">post quem</term> è ricavata dal testo;
+                            l'<term xml:lang="latin">l’ante quem</term> è invece data dalla fine
+                        dell’attività del copista maestro Egidio. </note>
+                </div>
+
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">XLI. Casationis officialium de Sarçana. XLII.
+                            Casationis gabelle quam inceperant burgenses Sarçane. </term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="XLI_XLII_div">
+                <pb n="132r" xml:id="fol_132r"/>
+                <p xml:id="XLI_XLII_p_001" n="1"> In nomine Domini, amen. Continetur in libro
+                    consiliorum atque consiliariorum <orgName ref="#Sarzana_comune">communis</orgName> <placeName ref="#Sarzana">Sarzane</placeName>, facto et composito <date
+                        when="1287-08-09">sub anno nativitatis Domini millesimo ducentesimo
+                        octuagesimo septimo, indictione XV</date>, ita, videlicet: «<date
+                        when="1287-08-09">Die VIII mensis augusti</date> de mandato <persName
+                        ref="#Vernutius_vicarius">Vernutii, <roleName>vicarii
+                        domini</roleName></persName>
+                    <persName ref="#Aquilante_potestas">Aquilantis, <roleName>potestatis</roleName>
+                        <placeName ref="#Sarzana">Sarzane</placeName>,</persName> et voluntate
+                    tocius consilii existentis et coadunati in ecclesia Sancti Andree, sic<supplied
+                        reason="omitted">ut</supplied> cassati fuerunt omnes consiliarii atque
+                    officiales communis <placeName ref="#Sarzana">Sarzane</placeName>, ad quorum
+                    omnium electionem debeat vel sit solitus interesse venerabilis pater
+                        <roleName>dominus</roleName>
+                    <persName ref="#HenricusEpLuni">Henricus</persName>, <roleName>Lunensis
+                        episcopus</roleName> vel alius de eius mandato et quod de cetero de consilio
+                    et de eorum officiis se non intromittant atque quod de novo eligantur
+                    consiliarii et alii officiales». Et hec facta fuerunt, presentibus
+                        <roleName>domino fratre</roleName>
+                    <persName ref="#Guilielmus_frater">Guilielmo</persName>,
+                        <roleName>fratre</roleName>
+                    <persName ref="#Franciscusfrater">Francisco <roleName>de ordine Fratrum
+                            Minorum</roleName></persName> atque <roleName>domino</roleName>
+                    <persName ref="#Canoruscan">Canoro</persName>
+                    <roleName>Lunensi archidiacono</roleName>, testibus ad hec rogatis. In eodem
+                    libro et eodem die et loco et coram dictis testibus continetur ita, videlicet:
+                    «Congregato parlamento communis Sarzane per trinum sonum campane, more solito,
+                    in ecclesia Sancti Andree de <placeName ref="#Sarzana">Sarzana</placeName>, de
+                    mandato <persName ref="#Vernutius_vicarius">Vernutii, <roleName>vicarii
+                            domini</roleName></persName>
+                    <persName ref="#Aquilante_potestas">Aquilantis, <roleName>potestatis</roleName>
+                        <placeName ref="#Sarzana">Sarzane</placeName>,</persName> et voluntate dicti
+                    parlamenti communis quam gabellam dictum commune et hominum dicte terre, cassa
+                    atque irritata et revocata est gabella cum eius officialibus qui recolligebant
+                    eam, quam gabellam dictum commune <placeName ref="#Sarzana">Sarzane</placeName>
+                    et homines dicte terre fecerant et statuerant in <placeName ref="#Sarzana"
+                        >Sarzana</placeName>, salvo quod omnes illi qui habebant seu debebant
+                    aliquid solvere ab hodie retro de dicta gabella, aliqua occasione vel modo,
+                    debeant et teneantur solvere, sicut ordinatum erat, in manibus recollectorum,
+                    qui inventi fuerunt ad illud officium faciendum». </p>
+                <p xml:id="XLI_XLII_p_002" n="2">
+                    <ptr target="XLI_XLII_st_001"/> Ego <persName ref="#GuelfusBonapartis_notarius"
+                        >Guelfus</persName>, <roleName>sacri palacii notarius ac iudex ordinarius et
+                        tunc scriba publicus dicti communis</roleName>
+                    <placeName ref="#Sarzana">Sarzane</placeName>, hiis omnibus interfui et, ut in
+                    dicto libro inveni, ita hic fideliter publicavi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

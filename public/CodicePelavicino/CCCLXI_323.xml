@@ -1,0 +1,186 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXI_323">
+    <front xml:id="CCCLXI_front">
+
+      <titlePart type="numerazioneNuova">323</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXI</titlePart>
+
+      <docDate xml:id="CCCLXI_docDate">
+        <date when="1189-01-15">1189 gennaio 15</date> - <date when="1189-03-20">marzo 20</date>
+        <placeName>Ameglia<term xml:lang="latin"><emph> (in castro Amelia, in camera domini
+              episcopi)</emph></term></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXI_regesto">
+        <p>L’abate di San Venanzio di Ceparana Romano dona a Paolo, ministro dell’ospedale di Santa
+          Croce della Foce d’Arno, la chiesa di San Maurizio, sita alla foce del fiume Magra, con
+          tutte le sue pertinenze. Paolo e i suoi successori sono tenuti a dare all’abbazia di
+          Ceparana, ogni anno, 3 soldi di denari imperiali e due libbre di incenso.</p>
+
+      </div>
+
+      <div type="footer" xml:id="CCCLXI_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP c. 310v., c. CCCIIv. secondo la numerazione
+            originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 361, pp. 344-345.</p>
+          <p>Bibliografia: <ref target="#AMBROSI_1992">AMBROSI 1992</ref></p>
+        </div>
+
+        <div type="crit_notes">
+          <note><p>Nel 1189 il 16 di gennaio non era <term xml:lang="latin">die dominico</term>, ma
+              lunedì; inoltre il 16 non è intrante ma <term xml:lang="latin">exeunte</term>; quindi
+              il giorno esatto doveva essere il 15: cfr. <ref target="#MAZZINI_1914">MAZZINI
+                1914</ref>, p. 24. </p>
+            <p>Nel margine superiore, in posizione centrale <term xml:lang="latin">De Sancto
+                Mauricio</term>. Nel margine esterno, di mano moderna: <term xml:lang="latin">Abbas
+                de Caparana cessit ecclesiam Sancti Mauritii hospitali Sancte †, vide instrumenta
+                sequentia infra</term>. Poco più sotto, di altra mano: <term xml:lang="latin"
+                >monasterium Sancte Crucis de Corvo </term>.</p>
+            <p> Autentica databile con incertezza nel quinto decennio del XIII secolo dalla presenza
+              del notaio Ranieri Sassi di Ripa d'Arno, attestato in un documento del 1242 (<ref
+                target="#VIVOLI_1842" type="biblio">VIVOLI 1842</ref> pp. 299-301).</p>
+            <p>Parti del documento sono state lette con l’ausilio della luce di Wood.</p>
+          </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCLXI.
+              De concessione Sancti Mauritii per abbatem de Cepparana Sancte Crucis de Ripa
+              Arni.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXI_div">
+
+        <p xml:id="CCCLXI_p_002" n="2">In eterni Dei nomine, amen. <date when="1189"> Anno ab
+            incarnatione Eius millesimo C octuagesimo IX, indictione VII</date>, in <placeName
+            ref="#Ameglia">castro Amelia<note place="foot" n="a" xml:id="CCCLXI_n_001"><term
+                xml:lang="latin">Amelia</term>: <emph>così nel testo</emph>.</note></placeName>, in
+          camera domini episcopi, <date when="1189-01-15">die dominico, qui fuit XVI intrante mense
+            ianuario</date>, in presentia, assensu et confirmatione <persName ref="#PetrusEpLuni"
+              ><roleName> domini</roleName> Petri, <roleName>Dei gratia venerabilis Lunensis
+              episcopi</roleName></persName>. <persName ref="#Romanusabbas"><roleName>
+              Donnus</roleName> Romanus, <roleName>eadem gratia venerabilis abbas <placeName
+                ref="#Ceparana">Cepparane</placeName></roleName></persName>, mallens <orgName
+            ref="#Luni_S_Maurizio">ecclesiam Sancti Mauricii</orgName> sitam iuxta <placeName
+            ref="#Magra"> faucem Macre</placeName>, que suo monasterio subdita erat, a servis Dei
+          foveri, manuteneri et ministrari, recolens tam sibi quam suis nunc et posterum honestius
+          fore quam, sicut quondam fuerat, persistere ipsam <orgName type="chiesa"
+            >ecclesiam</orgName> ad honorem Dei et <orgName ref="#Pisa_S_Croce_FoceArno"
+            >hospitalis</orgName> vivifice semperque invincibiliter <orgName type="chiesa"
+            >Sanctissime Crucis</orgName>, siti iuxta faucem <placeName ref="#Arno"
+            >Sarni</placeName>, in manu <persName ref="#Paulusfrater">Pauli, in Christo
+                <roleName>fratris<note place="foot" n="b" xml:id="CCCLXI_n_002"><term
+                  xml:lang="latin">fratris</term>: <emph>corretto su precedente
+                scrittura</emph>.</note> ministri eiusdem hospitalis</roleName></persName>, ipse
+          prefatus <roleName>donnus abbas</roleName>
+          <placeName ref="#Ceparana">Cepparane</placeName> cessit<note place="foot" n="c"
+            xml:id="CCCLXI_n_003"><term xml:lang="latin">cessit</term>: <emph>scritto prima
+              di</emph>
+            <term xml:lang="latin">ipse prefatus donnus abbas Cepparane </term>
+            <emph>con segno di richiamo</emph>.</note>, dedit, transtulit, donavit atque mandavit
+          ipsam prelibatam ecclesiam <orgName ref="#Luni_S_Maurizio">Sancti Mauricii</orgName>, cum
+          omnibus suis terris, tenutis quibus <supplied reason="omitted">cum</supplied>que
+          pertinenciis et cum omni iure et actione, quod ipsa <orgName ref="#Luni_S_Maurizio"
+            >ecclesia de Sancto Mauricio</orgName> sive cum omni iure et actione, quod vel quam
+          iamscripta <orgName ref="#Luni_S_Maurizio">ecclesia <placeName ref="#Ceparana"
+              >Cepparane</placeName></orgName> habere quovis ingenio videtur super ipsa vel pro ipsa
+            <orgName type="chiesa">ecclesia Sancti Mauricii </orgName> videtur totum in integrum,
+          dedit et transtulit predicto <orgName ref="#Pisa_S_Croce_FoceArno">hospitali de <placeName
+              ref="#Arno">fauce Arni</placeName>
+          </orgName>, nichil eidem <orgName type="monastero">monasterio</orgName> ex illa <orgName
+            type="chiesa">ecclesia</orgName> retento, set actionibus omnibus traditis atque
+          mandatis, ut a presenti die in antea, in perpetuum, ipsam <orgName ref="#Luni_S_Maurizio"
+            >ecclesiam de Sancto Mauricio</orgName> ipsum hospitale habeat, teneat, fruatur et ipse
+          predictus hospitalis, videlicet <persName ref="#Paulusfrater">Paulus</persName> suique
+          successores, pro ipso iamscripto hospitali, faciant pro ipso hospitali libere et absolute
+          quicquid facere voluerint, sine omni eiusdem abbatis suorumque successorum contradictione,
+          salva tamen dyocesani episcopi canonica iusticia et debita reverencia. Ad iudicium autem
+          huius concessionis et condonationis ipse prenominatus <persName ref="#Paulusfrater">
+            Paulus</persName> eiusque successores pro ipsa <orgName ref="#Luni_S_Maurizio"> ecclesia
+            de Sancto Mauricio</orgName> in singulis annis, in perpetuum, predicte <orgName
+            type="chiesa">ecclesie <placeName ref="#Ceparana">Cepparane</placeName></orgName>, in
+          die sollempnitatis beati Venancii, <measure type="Imperiales" unit="denarius" quantity="3"
+            >soldos III denariorum bonorum imperialium</measure> et incensi libras duas censualiter
+          reddant in predictam <orgName ref="#Ceparana_S_Venanzio">ecclesiam beati
+            Venancii</orgName> ipseque <persName ref="#Paulusfrater">Paulus</persName>, per se
+          suosque successores, predictum censum persolvere promisit.</p>
+        <p xml:id="CCCLXI_p_003" n="3">Signa manuum iamscripti domini episcopi et iamscripti donni
+          abbatis et iamscripti fratris <persName ref="#Paulusfrater">Pauli
+              <roleName>hospitalarii</roleName></persName>, qui hanc cartulam fieri rogaverunt.</p>
+        <p xml:id="CCCLXI_p_004" n="4"><supplied reason="omitted">>Signa</supplied> manuum <persName
+            ref="#Sismunduscan">Sismundi <roleName>Lunensis canonici et
+            custodis</roleName></persName>, <persName ref="#Opichus_canonicus">Opichonis de
+              <placeName ref="#Vernaccio">Vernatio</placeName>
+            <roleName>Lunensis canonici</roleName></persName>, <roleName>presbyteri <persName
+              ref="#Fasianuspres">Fasiani</persName> plebani de <placeName ref="#Ameglia">
+              Amelia</placeName></roleName>, <persName ref="#ParensVallecla">Parentis de <placeName
+              ref="#Vallecchia1">Vallecla</placeName></persName>, <persName
+            ref="#AttolinusIustamontis">Attolini quondam Iuxtamontis</persName>, <persName
+            ref="#VenturaSarzana">Venture de <placeName ref="#Sarzana"
+            >Sarzana</placeName></persName>, <persName ref="#Magnetuscas">Magneti de <placeName
+              ref="#Ameglia">Amelia</placeName></persName>, rogatorum testium.</p>
+        <p xml:id="CCCLXI_p_005" n="5"><date when="1189-03-14">Die vero martis, qui fuit XIIII
+            intrante mense marcio proxime subsequente</date>, in claustro <placeName ref="#Ceparana"
+            >Cepparane</placeName>, assenserunt et rogantes subscribi iusserunt infrascripti
+          fratres, scilicet <persName ref="#Bartholomeuspres"><roleName> donnus</roleName>
+            Bartholomeus, <roleName>presbyter et monacus</roleName></persName>, <persName
+            ref="#Rollandusdiac2"><roleName>donnus</roleName> Rollandus, <roleName>dyaconus et
+              monacus</roleName></persName>, <persName ref="#Ieronimusdom"
+              ><roleName>donnus</roleName> Ieronimus</persName>, <persName ref="#Guilielmuspres"
+              ><roleName>presbyter</roleName> Guilielmus</persName>, <persName ref="#Gerarduscler"
+            >Gerardus <roleName>clericus</roleName></persName>.</p>
+        <p xml:id="CCCLXI_p_006" n="6"><date when="1189-03-20">Eodem quoque mense, die lune, qui
+            fuit XIII kalendas aprilis, in eodem loco</date>, <persName ref="#Benedictusdom"
+              ><roleName>donnus</roleName> Benedictus</persName> et <persName ref="#Martinuspres"
+              ><roleName>presbyter</roleName> Martinus </persName> prebuerunt assensum et se
+          subscribi rogaverunt.</p>
+        <p xml:id="CCCLXI_p_007" n="7"><ptr target="#CCCLXI_st_001"/>Ego <persName
+            ref="#Lombardusnot">Lombardus, <roleName>domini imperatoris et Lunensis curie
+              notarius</roleName></persName>, omnibus hiis interfui et rogatus hanc cartam
+          scripsi.</p>
+      </div>
+      <div xml:id="CCCLXI_div2" type="autentica">
+        <p xml:id="CCCLXI_p_008" n="8"><ptr target="#CCCLXI_st_002"/>Ego <persName
+            ref="#RaineriusSassinot">Rainerius, filius quondam Sassi de <placeName ref="#RipaArni">
+              Ripa Arni</placeName>, <roleName>domini Henrici serenissimi Romanorum imperatoris
+              iudex et notarius</roleName></persName>, autenticum huius vidi et legi et fideliter
+          exemplavi.</p>
+        <p xml:id="CCCLXI_p_009" n="9"><ptr target="#CCCLXI_st_003"/>Ego <persName
+            ref="#VenturaOratorionot">Ventura de <placeName ref="#Oratorio">Oratorio</placeName>,
+              <roleName>domini Frederici Romanorum imperatoris notarius et postea excellentissimi
+              Henrici imperatoris iudex</roleName></persName>, autenticum huius vidi et legi ideoque
+          huic subscripsi.<note>Autentica del documento n. 323-CCCLXI databile con incertezza nel
+            quinto decennio del XIII secolo dalla presenza del notaio Ranieri Sassi di Ripa d'Arno,
+            attestato in un documento del 1242 (<ref target="#VIVOLI_1842" type="biblio">VIVOLI
+              1842</ref> pp. 299-301) <date notBefore="1240-01-01" notAfter="1249-12-31" cert="low"
+            /></note></p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="CCCCXX_381">
+    <front xml:id="CCCCXX_front">
+
+      <titlePart type="numerazioneNuova">381</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXX</titlePart>
+
+      <docDate xml:id="CCCCXX_docDate">
+        <date when="1257-02-17">1257 febbraio 17</date>, <placeName>Santo Stefano Magra</placeName>
+          (<emph>in burgo Sancti Stephani, in domo Gualterii quondam Pipioni eiusdem loci</emph>) </docDate>
+
+      <div type="regesto" xml:id="CCCCXX_regesto">
+        <p>I fratelli Bonamico e Bonavero del fu Viviano di Bolano cedono a Paganino notaio di Santo
+          Stefano, castaldo del vescovo di Luni Guglielmo, al prezzo di 42 soldi di imperiali, tre
+          pezzi di terra posti in Bolano, in <emph>Rioimi</emph>. Bonamico e Bonavero, che prima
+          tenevano tali beni in feudo dalla curia di Luni, li ottengono ora in affitto al censo di
+          uno staio di frumento.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 333v.-334r., cc. CCCXXVv.-CCCXXVIr. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE-1912">LUPO GENTILE 1912</ref>, n. 420,
+            p. 412</p>
+        </div>
+
+        <div type="crit_notes">
+          <p>Una parte del documento è stata letta con l’ausilio della luce di Wood.</p>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCCXX.
+              Unius starii frumenti, quod reddit Bonanutius et Bonavere.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXX_div">
+        <p xml:id="CCCCXX_p_001">In nomine Domini, amen. <date when="1257-02-17">Anno a nativitate
+            Eius M°CCLVII, indictione XV, XVII februarii.</date>
+          <persName ref="#BonamicusViviani">Bonamicus</persName> et <persName ref="#BonavereViviani"
+            >Bonaverus, fratres, quondam Viviani de <placeName ref="#Bolano"
+            >Bolano</placeName></persName> fecerunt finem et refutationem et pactum de non petendo
+          et datum <persName ref="#Paganinusnot">Paganino <roleName>notario</roleName> de <placeName
+              ref="#Santo_Stefano">Sancto Stephano</placeName></persName>, castaldioni venerabilis
+          patris domini <persName ref="#GuilEpLuni">Guilielmi, <roleName>Dei gratia Lunensis
+              episcopi</roleName></persName>, recipienti nomine predicti domini episcopi et
+          episcopatus, de petiis tribus terrarum, cum omnibus super se positis, sitis in districtu
+            <placeName ref="#Bolano">Bolani</placeName>, in loco dicto <placeName ref="#Riomi"
+            >Rioimi</placeName>, <supplied reason="omitted">uni<note xml:id="CCCCXX_n_001" n="a"
+              place="foot"><term xml:lang="latin">uni</term>: <emph>Per l’integrazione cfr. docc.
+                382 (CCCCXXI) e 385 (CCCCXXIIII).</emph></note></supplied> a quarum coheret superius
+            <persName ref="#CarindonusPrato">Carindonus de <placeName ref="#Prato"
+            >Prato</placeName></persName> cum suis consortibus, inferius <persName
+            ref="#AbbatinusPrato">Abbatinus</persName> eiusdem loci, ab uno latere <persName
+            ref="#Guercecanus">Guercecanus</persName> et <persName ref="#Savignonus"
+            >Savignonus</persName>, ab alio heredes <persName ref="#StephanusGuerceto">Stephani de
+              <placeName ref="#Guerceto">Guerceto</placeName></persName>; secunde petie coheret
+          superius <persName ref="#Bontalentus">Bontalentus</persName>, inferius et ab uno latere
+          via publica, ab alio latere predicti heredes <persName ref="#StephanusGuerceto"
+              >Stephani<note xml:id="CCCCXX_n_002" n="b" place="foot">
+              <term xml:lang="latin">Stephani</term>: <term xml:lang="latin">quas</term>: <emph>è
+                stato omesso il terzo pezzo di terreno.</emph></note></persName>: quas terras a
+          Lunensi curia tenebant<note xml:id="CCCCXX_n_003" n="b" place="foot">
+            <term xml:lang="latin">Stephani</term>: <term xml:lang="latin">quas</term>: <emph>è
+              stato omesso il terzo pezzo di terreno.</emph></note>. Quam finem et refutationem
+          promiserunt predicti fratres predicto <persName ref="#Paganinusnot">Paganino</persName>,
+          recipienti ut dictum est, perpetuo firmam habere et tenere et numquam in aliquo
+          contravenire de iure vel de facto, sub pena <measure type="imperiales" unit="solidus"
+            quantity="20">XX soldorum imperialium</measure>, quam dare et solvere promiserunt
+          suprascripto <persName ref="#Paganinusnot">Paganino</persName>, recipienti ut dictum est,
+          si contra predicta venerint seu non observaverint, quociens <pb n="334r" xml:id="fol_334r"
+          /> fuerit contraventum, confitendo se recepisse ab ipso <persName ref="#Paganinusnot"
+            >Paganino</persName>, dante et solvente nomine predicti episcopi et episcopatus, pro
+          precio suprascriptarum terrarum aut melioramentorum sive hemponematarum ipsarum, <measure
+            type="imperiales" unit="solidus" quantity="42">soldos XLII bonorum
+          imperialium</measure>, renunciando exceptioni non numerate pecunie. Ibidem incontinenti
+          suprascriptus <persName ref="#Paganinusnot">Paganinus</persName>, nomine et vice predicti
+          domini episcopi et episcopatus, dedit et locavit predictis fratribus suprascriptas terras,
+          cum omnibus super positis et pertinenciis earum, dando et reddendo exinde annuatim curie
+          Lunensi, in curia de <placeName ref="#Bolano">Bolano</placeName> vel districtu, ubi alii
+          redditus episcopales dantur et consignantur, per totum<note xml:id="CCCCXX_n_004" n="c"
+            place="foot">
+            <emph>Dopo la parola <term xml:lang="latin">totum</term>, la pergamena presenta un foro
+              antecedente alla scrittura.</emph></note> mensem augusti, nomine ficti,starium I
+          frumenti, ad currens starium communis de <placeName ref="#Bolano">Bolano</placeName>,
+          promittendo dictus <persName ref="#Paganinusnot">Paganinus</persName> pro ipso domino
+          episcopo et episcopatu predictis fratribus, recipientibus pro se suisque heredibus, dictam
+          locationem perpetuo ratam et firmam habere et tenere et non contravenire.Et pro predictis
+          omnibus sic attendendis et observandis obligaverunt se, predictus <persName
+            ref="#Paganinusnot">Paganinus</persName> bona episcopatus et predicti fratres se suosque
+          heredes et omnia eorum bona, ad penam <measure type="imperiales" unit="solidus"
+            quantity="20">XX soldorum imperialium</measure>, quam pars que contra predicta venerit
+          vel non observaverit parti fidem servanti dare et solvere teneatur quociens in eam
+          inciderit; et, ea soluta, predicta omnia in suo robore perseverent. Et nichillominus
+          predicti <persName ref="#BonamicusViviani">Bonamicus</persName> et <persName
+            ref="#BonavereViviani">Bonaverus</persName> et eorum heredes teneantur ex ipsis terris
+          Lunensi curie respondere sicut in omnibus ante presentem contractum facere et respondere
+          tenebantur.</p>
+        <p xml:id="CCCCXX_p_002">Actum in burgo <placeName ref="#Santo_Stefano">Sancti
+            Stephani</placeName>, in domo <persName ref="#GualteriusPipioni">Gualterii quondam
+            Pipioni</persName> eiusdem loci, presentibus ipso <persName ref="#GualteriusPipioni"
+            >Gualterio</persName>, <persName ref="#ManfredinusBonefacii">Manfredino quondam
+              Bonafacii<note xml:id="CCCCXX_n_005" n="d" place="foot"><term xml:lang="latin"
+                >Bonafacii</term>: <emph>così nel testo</emph></note></persName>, <persName
+            ref="#HenricusPadulvarmo">Henrico de <placeName ref="#Padulvarmo"
+            >Padulvarmo</placeName></persName> et <persName ref="#Nuvelonusfer">Nuvelono
+              <roleName>ferario</roleName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCCCXX_p_003"><ptr target="#CCCCXX_st_001"/>Ego <persName ref="#Benedictusnot"
+            >Benedictus, <roleName>imperialis aule notarius</roleName></persName>, hiis interfui et
+          rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

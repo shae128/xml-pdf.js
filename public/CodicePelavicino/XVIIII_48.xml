@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="XVIIII_48">
+		<front xml:id="XVIIII_front">
+
+			<titlePart type="numerazioneNuova">48</titlePart>
+			<titlePart type="numerazioneOrig">XVIIII</titlePart>
+
+			<docDate xml:id="XVIIII_docDate">
+				<date when="0981-07-18">981 luglio 18</date>, <placeName ref="#Campo_Circi">
+					<supplied reason="omitted">Campo Circi </supplied>(<emph><term xml:lang="latin"
+							>in campo Circi</term></emph>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="XVIIII_regesto">
+				<p>Ottone III concede l’immunità alla chiesa di Luni e conferma al vescovo
+					Gotefredo, chiese, luoghi e beni e le decime di 6 luoghi che il vescovo
+					Gualcherio aveva rivendicato in giudizio contro l’abate di Bobbio. Richiede
+					inoltre che sia fatta un indagine sui beni ingiustamente sottratti alla chiesa
+					di Luni. </p>
+			</div>
+
+			<div type="footer" xml:id="XVIIII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] cc. 66r.-67r., cc. LVIIv.-LVIIIr. secondo la numerazione
+						originale.</p>
+				</div>
+
+				<div type="biblio">
+					<p>Regesti <ref type="biblio" target="#BOHEMER_1831">BÖHMER 1831</ref>, 580;
+							<ref type="biblio" target="#STUMPF_BRENTANO_1865">STUMPF BRENTANO 1865
+						</ref>, 797. </p>
+					<p>Edizioni in: <ref type="biblio" target="#UGHELLI_1648">UGHELLI 1648</ref>, 1
+						, col. 898; <ref target="#UGHELLI_1717">UGHELLI 1717</ref>, I, col. 837;
+							<ref type="biblio" target="#MGH_DD_OII">MGH DD OII</ref>, n. 253; <ref
+							type="biblio" target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n.
+						19, pp. 26-28. </p>
+					<p>Bibliografia: <ref type="biblio" target="#PAVONI_1987">PAVONI 1987</ref></p>
+				</div>
+
+				<div type="crit_notes">
+					<note>
+						<p> Nel margine esterno di c. 66v., di mano moderna: <term xml:lang="latin"
+								>Ameliae castrum episcopi</term>
+						</p>
+					</note>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">XVIIII. Privilegium imperatoris Octonis.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="XVIIII_div">
+				<p xml:id="XVIIII_p_001">In nomine sancte et individue trinitatis. <persName
+						ref="#Otto_imperator2">Otto, <roleName>divina favente clementia imperator
+							augustus</roleName></persName>. </p>
+				<p xml:id="XVIIII_p_002">Si petitionibus fidelium nostrorum iustis et rationabilibus
+					divini cultus amore favemus et neccessariis proclamationibus aures pietatis
+					nostre accommodamus, et apud Deum veniam promereri et nostri impererii <note
+						xml:id="XVIIII_n_001" n="a" place="foot"> impererii: <emph>così nel testo
+							per</emph> imperii.</note> vires non ambigimus roborari. Quapropter
+					omnium sancte Dei ecclesie nostrorumque, presentium scilicet ac futurorum,
+					comperiat industria, quia <note xml:id="XVIIII_n_002" n="b" place="foot">
+						industria quia:<emph>sottolineato con puntini</emph>.</note>
+					<persName ref="#GotefredEpLuni">Gottefredus, <roleName>sancte Lunensis ecclesie
+							episcopus</roleName></persName>, ad nostram noticiam venit proclamatio
+						<note xml:id="XVIIII_n_003" n="c" place="foot"> proclamatio:<emph>così nel
+							testo per</emph> proclamando.</note> de pluribus sue ecclesie iniustis
+					oppressionibus a seculari et publica potestate temere illatis, ita ut, cumtempto
+					amore et timore Dei et abiecta a predecessoribus nostris interdicta,
+					districtiones in servos et ancillas <pb n="66v" xml:id="fol_066v"/> faciunt
+						<note xml:id="XVIIII_n_004" n="d" place="foot"> faciunt:<emph>così nel testo
+							per</emph> faciant.</note> ertinentes ad eandem ecclesiam, tributa ab
+					eis, angarias et opera, census et donaria exigant: quod Deo odibile certissime
+					credimus, quia tales violentias apud Christianos non debere fieri procul dubio
+					scimus. Ideoque omnium fidelium nostrorum, tam religiosorum episcoporum quam
+						devo<supplied reason="omitted">to</supplied>rum comitum, notia <note
+						xml:id="XVIIII_n_005" n="e" place="foot">notia:<emph>così nel testo,
+							nell’edizione su MGH è corretto con </emph> noverit industria.</note> ,
+					predictas superstitiones et inportunas violentias, quas quidam nefario ausu res
+					eiusdem ecclesie invadendo committunt, funditus ab hodierno die et deinceps a
+					sancta Lunensi ecclesia abolendas et extirpandas modis omnibus deliberamus.
+					Statuimus ut in sancta Lunensi ecclesia nullus comes vel dux seu quelibet
+					iudiciarie potestatis persona, tam in civitate quam im plebibus, necnon seu in
+					titulis aliisque ecclesiis ac domibus sive rusticis posseroribus <note
+						xml:id="XVIIII_n_006" n="f" place="foot"> posseroribus:<emph>così nel testo
+							per</emph> possessionibus.</note> ad eam<supplied reason="omitted"
+						>dem</supplied> sanctam ecclesiam pertinentibus, placida tenere massarios et
+					collonos, liberos et servos, distringere, pignorare, angariare, census et
+					redibitiones et donaria aliqua exigere presumat, sed concti homines residentes
+					supra predictas res sancte Lunensis ecclesie, quos legalis coactio exigat
+					querere ad placitum, per patronum seu advocatum suum ad placita ducantur, ut
+					legalis diffinitio finem imponat. Hec iam in omnibus liberis et herimanis,
+					prefate ecclesie filiis, et in eatlem <note xml:id="XVIIII_n_007" n="g"
+						place="foot"> eatlem:<emph>così nel testo per</emph> eadem.</note> diocesi
+					commanentibus massariis et collonis observari omnimodis iubemus, videlicet ut ab
+					eis nec donaria aut redibitiones nec pignorationes vel iniuste districtiones
+					exigantur, verum uniuscuiusque legalis censura exigantur ut a patrono suo
+					unusquisque ad placitum deducatur <note xml:id="XVIIII_n_008" n="h" place="foot"
+						> deducatur:<emph>così nel testo per</emph> ducatur.</note> , ne
+					pignorationis occassio aditum rapine predatoribus in aliquo prestet. Insuper
+					etiam concedimus, comfirmamus et corroboramus et omnino transfundimus <supplied
+						reason="omitted">per</supplied>cartarum paginam, quam pre ceteris Deum
+					timentibus collata sunt predicte ecclesie quam diligentissima perquisitione et
+					veterum preceptorum antiqua attestatione ex parte regni nostri eidem prefate
+					ecclesie pertinere et per plurima annorum curricula ab ea detineri cognovimus.
+					Comfirmamus etiam in <orgName type="comitatus">comitatu Parmense</orgName>
+					corticellam, que dicitur <placeName ref="#Linari">Linariclum</placeName>, et
+						<orgName ref="#Variano_S_Giorgio" type="ecclesia">ecclesia<supplied
+							reason="omitted">m</supplied>Sancti Georgii</orgName> positam in loco
+					qui dicitur <placeName ref="#Variano">Variano</placeName>,cum pertinentiis suis,
+					atque <orgName ref="#Carrellia_S_Terenzo" type="ecclesia">ecclesiam Sancti
+						Terentii</orgName>in loco qui dicitur <placeName ref="#Carrellia"
+						>Carrellia</placeName> et aliam ecclesiam, que sita est in loco qui dicitur
+						<placeName ref="#Vuipilia">Vuipilia</placeName>, cum suis pertinentiis,
+					mercatum etiam im <orgName ref="#Urceola_S_Cassiano" type="ecclesia_plebs">plebe
+						Sancti Cassiani</orgName> et aliud <orgName ref="#S_Stefano_Magra"
+						type="plebs_ecclesia">in plebe Sancti Stephani</orgName>, necnon et omnes
+					plebes et cortes, <placeName ref="#Ameglia">Ameliam</placeName> videlicet cum
+					castello et curte, una cum omnibus rebus mobilibus et inmobilibus, servis et
+					ancillis, collonis et collonabus, aldiis et aldiabus, cum venationibus et
+					piscationibus, infra ipsius episcopatum terram habentibus et confluentibus,
+					nominative etiam <placeName ref="#Campilia">Campilia</placeName> cum piscatione
+					et venatione sua. Volumus etiam ut per liberos homines inquisitio facta sit de
+					rebus predicte ecclesie, que ab ea iniuste abstracte sunt; quod infra XL et
+					XXXta annos tenuit, teneat investituram et in antea. Preterea confirmamus
+					decimam VI villarum: <placeName ref="#Vuiffula">Vuiffula</placeName>, <placeName
+						ref="#Pontunla">Pontunla</placeName> , <placeName ref="#Vale_Burdulasca"
+						>Vale Burdulasca</placeName>, <placeName ref="#Tenirano"
+						>Tenirano</placeName>
+					<note xml:id="XVIIII_n_009" n="i" place="foot">Tenirano:<emph>lettura
+							incerta</emph>.</note> et <placeName ref="#Rupinalia"
+						>Rupinalia</placeName>, <placeName ref="#Caustello">Caustello</placeName>,
+					quam <persName ref="#GalcheriusEpLuni"/>Gualcherius, <pb n="67r"
+						xml:id="fol_067r"/><roleName>sancte Lunensis ecclesie <supplied
+							reason="omitted">episcopus</supplied></roleName>, super <persName
+						ref="#Guinebaldus_abbas">Guinebaldum</persName>, <roleName>Bobiensem
+						abbatem</roleName>, <supplied reason="omitted">in</supplied>presentia
+						<persName ref="#Carolus_imperator_3">Karoli
+						<roleName>imperatoris</roleName></persName> et legatorum sancte sedis
+					apostolice, per iudicium vicit <note xml:id="XVIIII_n_010" n="j" place="foot">
+							vicit:<emph>così nel testo</emph>.</note> Et ut hec nostre <note
+						xml:id="XVIIII_n_011" n="k" place="foot"> nostre:<emph>così nel testo
+							per</emph> nostra.</note> imperialis institutio ac promulgata auctoritas
+					nostrumque confirmationis preceptum proprium robur obtineat, iubemus ut si quis
+					contra hec que in hac pagina continentur in aliquo agere convictus fuerit,
+						<measure quantity="100" unit="libras">C libras auri optimi</measure>
+					componere cogatur, medietatem camere nostre et medietatem pontifici sancte
+					Lunensis ecclesie, qui pro tempore fuerit. Et, ut verius credatur diligentiusque
+					ab omnibus im posterum observetur, manus illud nostre inscriptione annotavimus
+					et anulo nostro subter insigniri iussimus. </p>
+				<p xml:id="XVIIII_p_003">Signum <roleName>domni <persName ref="#Otto_imperator2"
+							>Ottonis</persName>, sereni<ptr target="XVIIII_m_001"/>ssimi invitissimi
+						imperatoris a<supplied reason="omitted">u</supplied>gusti</roleName>. </p>
+				<p xml:id="XVIIII_p_004"><persName ref="#Iohannes_cancellarius">Iohannes
+							<roleName>cancellarius ad vicem</roleName></persName>
+					<persName ref="#Petrus_episcopus_archicancellarius">Petri <roleName>episcopi et
+							archicancellarii</roleName></persName> recognovi <note
+						xml:id="XVIIII_n_012" n="l" place="foot"> recognovi: co<emph>aggiunto in
+							sopralinea.</emph>.</note>et scripsi. </p>
+				<p xml:id="XVIIII_p_005"><date when="0981-07-18">Datum XV kalendas augusti, anno
+						dominice incarnationis DCCCCLXXXI, anno regni donni Ottonis secundi XXI,
+						imperii autem eius XIIIImo, indictione VIIIIa</date>. Actum in <placeName
+						ref="#Campo_Circi">Campo Circi</placeName>, feliciter. Amen, amen. </p>
+			</div>
+		</body>
+	</text>
+</TEI>

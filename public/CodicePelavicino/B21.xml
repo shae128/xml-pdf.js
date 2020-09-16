@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="B21">
+        <front xml:id="B21_front">
+
+            <titlePart type="numerazioneNuova">21</titlePart>
+            <titlePart type="numerazioneOrig"/>
+
+            <docDate xml:id="B21_docDate"><date when="1276-10-16">1276 ottobre 16</date>, <placeName
+                    ref="#Veçale">presso Vezzala (<term xml:lang="latin">apud
+                    Veçale</term>)</placeName></docDate>
+
+            <div type="regesto" xml:id="B21_regesto">
+                <p>Ricostruzione della condizione dei nobili de Bozano e di Porcari, vassalli della
+                    curia di Luni a partire da tale Tedalasio, vassallo, visconte, sindaco,
+                    procuratore, gastaldo e amministratore della curia. Tedalasio ebbe tre figlie,
+                    una andata in moglie a uno dei nobili di Porcari e una ai nobili di Bozano. I
+                    membri di tali famiglie, quindi, si devono considerare vassalli della curia; in
+                    particolare Ugolino e Paganello da Porcari e Gerardo Canichia, quest’ultimo
+                    capitano della guerra sotto il vescovo Guglielmo.</p>
+            </div>
+            <div type="footer" xml:id="B21_footer">
+                <div type="orig_doc">
+                    <p>Copia [C] c. 42r., c. XXXIIIIr. secondo la numerazione originale. </p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione in <ref type="biblio" target="#LUPO_GENTILE_1912"> LUPO GENTILE
+                            1912</ref>, Addenda, n. 13, pp. 655-656.</p>
+                </div>
+                <div type="crit_notes">
+                    <p/>
+                </div>
+                <div type="appr"> </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="B21_div">
+                <pb n="42r" xml:id="fol_042r"/>
+                <p xml:id="B21_p_001"> Factum <name type="familia" ref="#BozanoFamilia">nobilium de
+                            <placeName ref="#Buçano">Buçano</placeName></name> et <name
+                        type="familia" ref="#PorcariFamilia">de <placeName ref="#Porcari"
+                            >Porcari</placeName></name> tale est, prout a fidedignis, senioribus et
+                    antiquis intelleximus nos <persName ref="#HenricusEpLuni">Henricus,
+                            <roleName>Lunensis episcopus</roleName></persName>, et fama publica de
+                    hoc est, videlicet quod sunt fideles et vassalli Lunensis curie ea ratione quia
+                    dicitur publice quod fuit quidam nomine <persName ref="#Tedalasius"
+                        >Tedalasius</persName>, qui fuerat <roleName>vicecomes, syndicus, procurator
+                        et castaldio et negociatorum gestor </roleName>curie Lunensis et ratione sui
+                    officii multa acquisivit et erat homo magne industrie et fame, de quo
+                    superfuerunt tres filie, quarum una ex devotione obtulit se et sua Lunensi
+                    curie, alia nupta fuit cuidam nobili de dictis <name type="familia"
+                        ref="#PorcariFamilia">Porcariensibus</name> et alia cuidam nobili de
+                    predictis <name type="familia" ref="#BozanoFamilia">Buçanensibus</name>. Qui
+                        <persName ref="#Tedalasius">Tedalasius</persName> erat fidelis et vassallus
+                    dicte curie et quicquid habebat et tenebat et acquisiverat, habebat et tenebat a
+                    Lunensi curia in feudo. Et illi nobiles <name type="familia"
+                        ref="#PorcariFamilia">Porcarienses</name> et <name type="familia"
+                        ref="#BozanoFamilia">Buçanenses</name>, ratione dictarum uxorum suarum et
+                    pro earum poderibus datis in dotem eis, sunt et debent esse fideles et vassalli
+                    Lunensis curie et sic successive omnes <name type="familia"
+                        ref="#PorcariFamilia">Porcarienses</name> et <name type="familia"
+                        ref="#BozanoFamilia">Bucanenses</name>, qui habent possessiones in <orgName
+                        ref="#Luni_comitatus">comitatu Lunensi</orgName>, sunt et debent esse
+                    fideles Lunensis curie et servierunt Lunensi curie tanquam fideles usque ad hec
+                    tempora, et maxime <roleName>domini</roleName>
+                    <persName ref="#Tedalasius">Ugolinus</persName> et <persName
+                        ref="#PaganellusPorcari">Paganellus de <placeName ref="#Porcari"
+                            >Porcari</placeName></persName> et <persName ref="#GerardusCanichia"
+                        >Gerardus Canichia</persName>; et postea dominus <persName
+                        ref="#GuidusCanichia">Guido Canichia</persName> fuit electus per bone
+                    memorie <roleName>dominum</roleName>
+                    <persName ref="#GuilEpLuni">Guilielmum, <roleName>Lunensem
+                        episcopum</roleName></persName>, in capitaneum guerre terrarum dicti domini
+                    episcopi tanquam fidelem et vassallum Lunensis curie et non tanquam civem
+                    Lucanum et hoc idem <persName ref="#GuidusCanichia">Guido</persName> asseruit et
+                        <roleName>domini</roleName>
+                    <persName ref="#GuiliemusBuçano">Guilielmus</persName> et <persName
+                        ref="#BonacursusBuiano">Bonacursus</persName> de <placeName ref="#Buçano"
+                        >Buçano</placeName> et <persName ref="#Lanfranchinus"
+                        >Lanfranchinus</persName> et <persName ref="#Albertus">Albertus</persName>
+                    et <persName ref="#Salvucius">Salvucius</persName> et multi alii.</p>
+                <p xml:id="B21_p_002">Actum apud <placeName ref="#Veçale">Veçale</placeName>,
+                    presentibus <persName ref="#Bonalbergusnot">Bonalbergo de <placeName
+                            ref="#Carrara">Carraria</placeName>
+                        <roleName>notario</roleName></persName> et <persName ref="#Peregrinusnot"
+                        >Peregrino</persName>, eius filio, et <persName ref="#TiniosusParenti"
+                        >Tignoso quondam Parentis de <placeName ref="#Sarzanello">castro
+                            Sarzane</placeName></persName> et <persName ref="#Ventura_ferrarius"
+                        >Ventura <roleName>ferrario</roleName></persName>, <date when="1276-10-16"
+                        >M°CCLXXVI, inditione IIII, XVI octubris</date>. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

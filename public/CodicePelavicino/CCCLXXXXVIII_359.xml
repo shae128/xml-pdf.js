@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="CCCLXXXXVIII_359">
+    <front xml:id="CCCLXXXXVIII_front">
+
+
+      <titlePart type="numerazioneNuova">359</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXXXXVIII</titlePart>
+
+      <docDate xml:id="CCCLXXXXVIII_docDate">
+        <date when="1271-08-12">1271 agosto 12</date>, <placeName ref="#Monceto">Monceto (<emph>in
+            domo ecclesie Sancti Michelis de Trebiano, posite in loco dicto
+          Monceto</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXXXXVIII_regesto">
+        <p>Gigliolo del fu Alberto vicedomino di Trebiano vende a suo fratello Guglielmo detto
+          Mascardo l’ottava parte della giurisdizione e del distretto castrense e del territorio
+          della curia di Trebiano e tutti gli altri suoi diritti nella curia e territorio di
+          Trebiano, Lerici e San Terenzo e in altro luogo nella provincia di Lunigiana. Il prezzo è
+          di 800 lire genovesi. La vendita viene fatta col consenso del preposto di Luni Guglielmo,
+          zio di Gigliolo, e del vicedomino di Trebiano Aldebrando.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXXXXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP cc. 322r.-322v., cc. CCCXIIIIr.- CCCXIIIIv. secondo la
+            numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p> Edizione parziale in <ref target="#LUPO_GENTILE_1912">M. Lupo Gentile</ref> ,
+              <emph>Regesto</emph> cit., n. 398, pp. 377-378.</p>
+        </div>
+        <div type="crit_notes">
+          <note> L’indizione è la XIV e non la XIII, a meno che non sia stata usata l’indizione
+            genovese; corretto già da <ref target="#MAZZINI_1914">Mazzini 1914</ref>, p. 26. Nel
+            margine esterno, di mano moderna: <emph>Pro Mascardis</emph>. L’autentica è del
+            1283.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXXXXVIII. Venditionis Gilioli Mascardi facte Guilielmo Maschardo de tota sua
+              parte. </term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCLXXXXVIII_div">
+        <pb n="322r" xml:id="fol_322r"/>
+        <p xml:id="CCCLXXXXVIII_p_001">
+          <ptr target="#CCCLXXXXVIII_st_001"/>In nomine Domini, amen. <date when="1271-08-12">Anno a
+            nativitate Eius M°CCLXXI, indictione XIII, die mercurii, XII mensis augusti</date>.
+            <persName ref="#GiliolusAlberti">Giliolus, filius quondam Alberti
+              <roleName>vicedomini</roleName> de <placeName ref="#Trebiano">Trebiano</placeName>, </persName>
+          <persName ref="#GuilielmusAlberti">Guilielmo dicto Mansca<add place="inline">r</add>do,
+            fratri suo et filio dicti domini Alberti<note xml:id="CCCLXXXXVIII_n_01" n="a"
+              place="footer">Alberti: lb corretto su precedente scrittura.</note></persName>,
+          recipienti pro se suisque heredibus et cui dederit vel commiserit, octavam partem pro
+          indiviso tocius iurisdictionis et meri et mixti imperii districtus castri et territorii
+          curie <placeName ref="#Trebiano">Trebiani</placeName> et omne et totum id quod percipitur
+          et habetur et habere debet, aliquo pacto, iure vel modo, in pecunia vel rei, singulis
+          annis, et<note xml:id="CCCLXXXXVIII_n_02" n="b" place="footer">et: così nel testo per
+            a</note>   <orgName ref="#Genova_comune">communi <placeName ref="#Ianua">Ianue</placeName></orgName> occasione partis eum
+          contingentis de dicta iurisdictione, et omnes suas terras, possessiones, tenutas, podere,
+          domos et hedificia et casamenta, villanos manentes et residentes, colonos perpetuos,
+          horigenarios, censitos et ascripticios et inquilinos, cuiuscumque generis sint, et
+          vassallos seu fideles, tam iurisdictionis quam specialium feudorum, et omnia alia sua
+          iura, tam incorporalia quam corporalia, que et quas et quos habet et habere usus est
+            solitus<note xml:id="CCCLXXXXVIII_n_03" n="c" place="footer">solitus: aggiunto in
+            sopralinea con segno di richiamo.</note> in curia et territorio <placeName
+            ref="#Trebiano">Trebiani</placeName>, <placeName ref="#Ylice">Ylicis</placeName> et
+            <placeName ref="#SanTerenzo2">Sancti Terencii</placeName> et in quocumque alio loco,
+          curia et districtu, in <orgName ref="#Lunigiana_provincia">provincia <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> vel
+          alibi, videlicet in plano, montibus, agro, domestico et silvestro<note
+            xml:id="CCCLXXXXVIII_n_04" n="d" place="footer">silvestro: così nel testo, volgarismo
+            per silvestre</note>, molendinis et pascuis, prescriptis et non prescriptis, possessis
+          et non possessis, cum excessibus et regressibus, superioribus et inferioribus, usu,
+          proprietate, utilitate ac dominio et usufructu, competentibus et spectantibus ad predictam
+          iurisdictionem. Et dedit, cessit atque mandavit dictus venditor predicto emptori,
+          recipienti ut dictum est, omnia iura et actiones, utiles et directas, reales, personales
+          ac mixtas, eidem competentes et competitura<note xml:id="CCCLXXXXVIII_n_05" n="e"
+            place="footer">competitura: nel manoscritto competituras con s finale, non necessaria,
+            aggiunta da mano moderna. Probabilmente si tratta della stessa mano che ha aggiunto nel
+            margine Pro Mascardis</note> in predictis venditis et quolibet predictorum, ita quod ut
+          ex hiis omnibus et singulis predictis emptor possit agere, tueri, causari ac deffendere
+          contra quamcumque personam et locum, universitatem et collegium, propriis expensis et
+          advocato predicti venditoris. Insuper predictus venditor dedit et concessit predicto
+          emptori, recipienti ut dictum est, liberam licenciam et plenam potestatem intrandi et
+          accipiendi tenutam et corporalem possessionem vel quasi de predictis venditis et quolibet
+          eorum, eius suorumque heredum auctoritate propria sine iudiciali auctoritate et pensione
+          alicuius iuris vel capituli <placeName ref="#Ianua">Ianue</placeName> constituendo se pro
+          eo interim et eius nomine precario possidere vel quasi donec de predictis et quolibet
+          predictorum acceperit et habuerit corporalem possessionem vel quasi. Pro precio cuius
+          venditionis dictus <persName ref="#GiliolusAlberti">Giliolus</persName> fuit confessus se
+          habuisse et recepisse a predicto <persName ref="#GuilielmusAlberti">Guilielmo</persName>
+          emptore libras octingentas Ianuensium, renunciando exceptioni non numerate pecunie et
+          precii non habiti et soluti et omni alii iuri et legum auxilio. Et fuit confessus dictus
+          venditor quod predicta vendita valebant plus precio suprascripto; unde totum et quicquid
+          plus valebant et valent suprascripto precio supradictus venditor donavit predicto emptori
+          iure simplicis donationis inrevocabiliter inter vivos, renunciando legi que iuvat deceptos
+          in contractibus ultra dimidiam iusti precii. Insuper predictus venditor per se suosque
+          heredes promisit predicto emptori, recipienti ut dictum est, predicta vendita et quodlibet
+          predictorum non impedire vel<note xml:id="CCCLXXXXVIII_n_06" n="f" place="footer">vel:
+            corretto su precedente scrittura.</note> molestare, de iure vel de facto, immo
+          deffendere et expedire a qualibet persona et loco, collegio seu universitate, tali pacto
+          apposito inter eos quod, si lis vel questio moveretur vel fieret predicto emptori,
+          recipienti ut dictum est, de predictis venditis vel aliquo venditorum vel de eorum
+          possessione vel detentatione<note xml:id="CCCLXXXXVIII_n_07" n="g" place="footer"
+            >detentatione: così nel testo per detentione</note>, non ten<add place="inline"
+          >e</add>atur denunciare et, si denunciaverit, non teneatur prosequi causam appellationis
+          et nichil habeat regressum de evictione, et totum et quicquid evictum fuerit de predictis
+          venditis vel aliquo predictorum promisit dictus venditor restaurare et salvum cambium inde
+          dare et restituere dicto emptori in consimili loco, secundum quod predicta vendita vel
+          aliquid venditorum essent meliorata pro tempore. Et promisit etiam dictus venditor
+            reficere<note xml:id="CCCLXXXXVIII_n_08" n="h" place="footer">reficere: corretto su
+            restituere</note> dicto emptori omnia dampna et expensas et interesse que et quos dictus
+          emptor sustineret vel haberet occasione predicta vel aliquo predictorum, credendo et
+          stando soli nudo et simplici verbo predicti emptoris eiusque heredum de dampnis et
+          expensis et interesse, sine alicuius honere probationis, testium vel instrumenti seu
+          iuramenti. Hanc autem vendictionem et omnia <pb n="322v" xml:id="fol_322v"/> et singula
+          suprascripta predictus venditor promisit predicto emptori, recipienti ut dictum est,
+          perpetuo ratas et rata habere et firmas et firma tenere et nullo tempore contra facere vel
+          venire, de iure vel de facto, sub pena librarum octingentarum ianuensium, quam dare et
+          solvere promisit dictus venditor emptori predicto, recipienti ut dictum est, tociens
+          quociens fuerit contraventum et pro quolibet capitulo non observato; et, pena soluta vel
+          non, suprascriptis omnibus nichilominus semper firmis manentibus, obligando ad hec
+          attendenda et observanda se suosque heredes et omnia sua <add place="inline">bona</add>
+          mobilia et immobilia, habita et habenda, et renunciando omni iuri et legibus quibus contra
+          predicta vel aliquod predictorum posset ullo tempore facere vel quibus posset se tueri a
+          predictis vel aliquo predictorum. Et hec omnia et singula iuravit dictus <persName
+            ref="#GiliolusAlberti">Giliolus</persName> ad sancta Dei Evangelia, corporaliter tacto
+          libro, perpetuo observare et non contra facere vel venire in aliquo, sub dicta pena et
+          obligatione. Et suprascripta omnia et singula fecit dictus <persName
+            ref="#GiliolusAlberti">Giliolus</persName> auctoritate, consensu et voluntate domini
+            <persName ref="#Guilielmusprep">Guilielmi<roleName>, Lunensis
+            prepositi</roleName></persName>, avunculi sui, et <persName ref="#GerardusTrebiano"
+            >Gerardi quondam domini Aldebrandi<roleName>, vicedomini de <placeName ref="#Trebiano"
+                >Trebiano</placeName>. </roleName></persName>
+        </p>
+        <p xml:id="CCCLXXXXVIII_p_002"> Actum in domo <orgName ref="#Trebiano_S_Michele">ecclesie
+            Sancti Michaelis de <placeName ref="#Trebiano">Trebiano</placeName></orgName>, posite in
+          loco dicto <placeName ref="#Monceto">Monceto</placeName>, presentibus <persName
+            ref="#GerardusHenrici">Gerardo quondam domini Henrici de <placeName ref="#Trebiano"
+              >Trebiano</placeName></persName>, <persName ref="#GuilielmusCanuto">Guilielmo dicto
+            Canuto quondam Bordoni</persName> et<roleName> presbytero</roleName><persName
+            ref="#Nicholauspres"> Nicholao<roleName>, cappellano <orgName ref="#Trebiano_S_Michele"
+                >plebis Sancti Michelis de <placeName ref="#Trebiano"
+              >Trebiano</placeName></orgName></roleName></persName>, testibus ad hec rogatis. </p>
+        <p xml:id="CCCLXXXXVIII_p_003"> Ego <persName ref="#Simonetusnot">Symonetus,<roleName> sacri
+              palacii notarius</roleName></persName>, hiis interfui et rogatus scripsi. </p>
+      </div>
+
+      <div xml:id="CCCLXXXXVIII_div2" type="autentica">
+        <p xml:id="CCCLXXXXVIII_p_004"><ptr target="#CCCLXXXXVIII_st_002"/> Ego <persName
+            ref="#BonacursusPetrinot">Bonacursus, filius Petri <roleName>notarii de <placeName
+                ref="#Sarzanello">castro Sarzane</placeName></roleName></persName>,
+            <roleName>notarius sacri palacii</roleName>, hanc cartam ad autenticum scriptum<note
+            xml:id="CCCLXXXXVIII_n_09" n="i" place="footer">ad autenticum scriptum: così nel
+            testo.</note> manu suprascripti <persName ref="#Simonetusnot">Symoneti<roleName>
+              notarii</roleName></persName>, scripsi et exemplavi de mandato et voluntate
+          venerabilis patris domini <persName ref="#HenricusEpLuni">Henrici<roleName>, Dei gratia
+              Lunensis episcopi</roleName></persName>
+          <date when="1283-07-21">, anno Domini M°CCLXXXIII, indictione XI, die XXI iulii
+              <note>Autentica del documento n. 359-CCCLXXXXVIII.</note></date>, in sala palacii
+          dicti domini episcopi de <placeName ref="#Ameglia">Amelia</placeName>, presentibus
+            <persName ref="#HenrigetusPrato">Henrigeto de <placeName ref="#Prato">Prato</placeName>
+            <roleName>castellano de <placeName ref="#Ameglia"
+            >Amelie</placeName></roleName></persName> et <roleName>domino <persName
+              ref="#BernardinusGragnano"> Bernardino de <placeName ref="#Gragnano"
+                >Gragnano</placeName></persName></roleName>, testibus ad hec rogatis, nichil addens
+          vel minuens quod sensum mutet vel variet intellectum. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

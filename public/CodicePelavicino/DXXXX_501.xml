@@ -1,0 +1,350 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXXXX_501">
+    <front xml:id="DXXXX_front">
+
+      <titlePart type="numerazioneNuova">501</titlePart>
+      <titlePart type="numerazioneOrig">DXXXX</titlePart>
+
+      <docDate xml:id="DXXXX_docDate">
+        <date when="1202-05-12">1202 maggio 12</date>, <placeName ref="#Sarzana"> Sarzana (<term
+            xml:lang="latin">apud Sarzanam, in canonica ecclesie Sancti Andree de Sarzana
+          </term>).</placeName>
+        <date when="1201-05-31">1201 maggio 31</date>, <placeName ref="#Aulla"> Aulla (<term
+            xml:lang="latin">Avule, in claustro monasterii de Avula </term>).</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="DXXXX_regesto">
+        <p>Truffa e Ubaldo, arbitri eletti dal vescovo di Luni Gualtiero e da Alberto, Guglielmo e
+          Corrado marchesi Malaspina, definiscono lo spazio entro cui vescovo e marchesi si devono
+          rispettare vicendevolmente pur mantenendo validi i giuramenti fatti al papa,
+          all’imperatore, ai Pontremolesi e ai consorti di Vezzano, ossia Paganello di Porcari,
+          Guglielmo Bianco, Bernazone, Lamberto; il vescovo mantiene validi anche i giuramenti
+          prestati ai Lucchesi. Il vescovo non deve ricevere fedeltà contro i marchesi e deve
+          sciogliere dall’impegno eventuali vassalli presi negli ultimi 10 anni; allo stesso modo
+          devono agire i marchesi. Il vescovo deve ricevere la metà dell’ acquisto che i marchesi
+          fecero dai marchesi d’Este nelle curie e distretti di Vezzano, Carpena, Follo, Valeriano,
+          Beverino, Polverara, Vesigna, Ponzano, Rivalta e Madrognano, in cambio di 155 lire in
+          buoni denari imperiali. La vendita deve essere fatta entro la festa di S. Pietro (29
+          giugno), con garanzia data dai marchesi Guglielmo e Alberto di tutto ciò che possiedono ad
+          Arcola e a Ponzano. Segue poi il testo del giuramento che devono pronunciare i signori di
+          Montemagno, Bozzano, Vallecchia, Corvaria, Castello Truffa, Bibola, Burcione, oltre che i
+          consoli, <term xml:lang="latin">milites</term> e popolo di Carrara, borgo e castello di
+          Sarzana, Trebiano, Arcola, Santo Stefano, Bolano, Caprigliola, Fosdinovo, Falcinello,
+          Aulla, i signori e il popolo di Giovagallo, Calesa, Moregnano, Trisiana, Villafranca,
+          Filattiera, Mulazzo, il popolo e i <term xml:lang="latin">milites</term> di Pontremoli, i
+          signori di Groppo San Pietro, di Bagnone, signori e popolo della Verrucola, signori di
+          Gragnana e quelli detti Bianchi. </p>
+      </div>
+
+      <div type="footer" xml:id="DXXXX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 399v.-400v., cc. CCCLXXXXIv.-CCCLXXXXIIv. secondo la numerazione
+            originale. </p>
+        </div>
+
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#SFORZA_1904">Sforza 1904</ref>, II, p. 276; <ref
+              target="#LUPO_GENTILE_1912">LUPO GENTILE, 1912</ref>, n. 540, pp. 606-612.
+            Bibliografia. <ref target="#PETTI_BALBI_1978">PETTI BALBI 1978</ref>.</p>
+
+        </div>
+
+        <div type="crit_notes">
+          <note><p>Nel margine esterno di c. 399v., di mano moderna: <term xml:lang="latin">Quedam
+                concordia domini episcopi cum quodam marchione.</term> Nel margine esterno di c.
+              400v., di mano moderna: <term xml:lang="latin">1202</term></p></note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXXXX.
+              Sententia data per Turfam et alios inter episcopum et marchiones super iuribus et
+              rationibus et aliis pluribus spectantibus ad ipsas partes.</term></p>
+        </div>
+      </div>
+    </front>
+
+
+    <body>
+
+      <div xml:id="DXXXX_div">
+        <p xml:id="DXXXX_p_001" n="1">
+          <ptr target="DXXXX_st_001"/> In nomine Domini Dei eterni, amen. Hec est concordia et
+          societas inter dominum <persName ref="#GualEpLuni">Walterium</persName>, <roleName>Dei
+            gratia Lunensem episcopum</roleName>, et <persName ref="#AlbertusMalaspina1"
+            >Albertum</persName>, <persName ref="#GuililemusMalaspina">Guilielmum</persName> et
+            <persName ref="#ConradusMalaspina">Conradum, <roleName>marchiones</roleName>
+            Malaspine</persName>, quam concordiam <note place="foot" n="a" xml:id="DXXXX_n_001"
+            >concordiam: <emph>così nel testo per</emph> concordia.</note> et societatem <persName
+            ref="#TruffaCastello">Truffa</persName> et <persName ref="#Hubaldus_arbiter"
+            >Hubaldus</persName>
+          <roleName>arbitri</roleName> ad hoc electi, concorditer composuerunt et inter predictos
+          dominum episcopum et marchiones observari perpetuo, prout inferius legitur, firmiter
+          preceperunt. Hii sunt confines infra quos de hiis, que dicentur inferius, teneantur,
+          videlicet a <placeName ref="#PonteStrata">Ponte de Strata</placeName>, comprehendendo
+          curiam <placeName ref="#Corvaia">Corvarie</placeName> et <placeName ref="#Vallecchia1"
+            >Valecle</placeName>, usque ad montem qui dicitur <placeName ref="#Iuva"
+            >Iuva</placeName>, et ab eo monte usque ad summitatem <placeName ref="#Alpes"
+            >Alpium</placeName>, eundo per summitates <placeName ref="#Alpes">Alpium</placeName>
+          usque ad <placeName ref="#Cisa">Cisam</placeName>; et inde comprehendendo totum districtum
+            <placeName ref="#Pontremoli">Pontremuli</placeName> et <placeName ref="#Mulazo"
+            >Mulazi</placeName> et <placeName ref="#Zovagallo">Zovagalli</placeName> et <placeName
+            ref="#Calisi">Calese</placeName> et eundo usque ad <placeName ref="#Padulvarmo"
+            >Padulvarmum</placeName> et inde eundo usque ad <placeName ref="#Carpena"
+            >Carpenam</placeName>, comprehendendo totam curiam et districtum <placeName
+            ref="#Carpena">Carpene</placeName>, <placeName ref="#Vezzano">Vezani</placeName>,
+            <placeName ref="#Folo">Foli</placeName>, <placeName ref="#Valerano"
+          >Valerani</placeName>, <placeName ref="#Bevelino">Bevelini</placeName>, <placeName
+            ref="#Vesigna">Vesigne</placeName> et <placeName ref="#Polverara">Pulverare</placeName>;
+          et inde eundo per maris litora usque subter <placeName ref="#Brancaliano"
+            >Brancalianum</placeName> et inde usque ad <placeName ref="#Ponte_Strata">Pontem de
+            Strata</placeName>, quod est in capite <placeName ref="#Brancaliano"
+            >Brancaliani</placeName>. Infra istos confines teneatur dominus episcopus adiuvare et
+          salvare predictos marchiones, in personis et rebus, et eorum homines et res de eorum
+          rationibus et possessionibus, quas habent nunc et tenent et possident, ipsi vel alia
+          persona pro eis, vel acquirent in antea iure, bona fide et sine omni fraude, toto tempore
+          vite sue, contra omnes homines, excepto domino papa et imperatore et sacramento, quod
+          fecit <placeName ref="#Pontremoli">Pontremulensibus</placeName> et <persName
+            ref="#PaganellusPorcara">Paganello</persName> de <placeName ref="#Porcaria"
+            >Porcaria</placeName> et <persName ref="#GuilielmusBlanco">Guilielmo Blanco</persName>
+          et <persName ref="#BernazonusVezano">Bernazoni</persName> et <persName
+            ref="#LambertusVezano">Lamberto</persName> et <persName ref="#BosoVezano"
+            >Bosoni</persName> de societate quam cum eis fecerat, sicut in carta manu notarii facta
+          inde continetur, et excepto sacramento quo tenetur Lucensibus idem episcopus. Ipsi vero
+          marchiones adiuvare et salvare teneantur prefatum dominum episcopum, toto tempore vite
+          eius, infra predictos confines, in persona et rebus, et eius homines et res, bona fide et
+          sine omni fraude, de eius rationibus et possessionibus, quas habet et tenet nunc et
+          possidet pro episcopatu vel <orgName ref="#Luni_comitatus">comitatu</orgName>, ipse vel
+          alia persona pro eo, vel acquiret in antea iure, contra omnes homines, excepto domino papa
+          et imperatore et excepto sacramento, quod fecerint <placeName ref="#Pontremoli"
+            >Pontremulensibus</placeName>, antequam fecerint sacramentum in camera <placeName
+            ref="#Sarazana">castri de Sarzana</placeName> de hac concordia et societate complenda,
+          quod sacramentum fecerunt dictis <persName ref="#TruffaCastello">Truffe</persName> et
+            <persName ref="#Hubaldus_arbiter">Hubaldo</persName>, et exceptis predictis <persName
+            ref="#Vezanenses">Vexanensibus</persName>, qui superius nominati sunt, scilicet
+            <persName ref="#PaganellusPorcara">Paganello </persName> de <placeName ref="#Porcaria"
+            >Porcaria</placeName>, <persName ref="#GuilielmusBlanco">Guilielmo Blanco</persName>,
+            <persName ref="#BernazonusVezano">Bernazone</persName>, <persName ref="#LambertusVezano"
+            >Lamberto</persName> et <persName ref="#BosoVezano">Bosone</persName>. Quicquid habet et
+          tenet et possidet nunc dominus episcopus, vel alia persona pro eo, pro episcopatu vel
+            <orgName ref="Luni_comitatus">comitatu</orgName>, non debeant ei vel eius successoribus
+          unquam imbrigare, molestare nec petere dicti marchiones vel eorum heredes, sub pena
+            <measure type="Imperiales" quantity="200" unit="solidus">CC marcharum argenti</measure>
+          solvenda ei vel eius successoribus, si contra venirent, rato manente pacto post pene
+          solutionem. Quicquid dicti marchiones habent nunc, tenent et possident, vel alia persona
+          pro eis, non debeat dominus episcopus vel sui successores unquam imbrigare, molestare vel
+          petere <pb n="400r" xml:id="fol_400r"/> eis vel eorum heredes, sub pena <measure
+            type="Imperiales" quantity="200" unit="solidus">CC marcharum argenti</measure> solvenda
+          eis vel eorum heredibus, si contra venirnet dominus episcopus vel sui successores, rato
+          manente pacto post pene solutionem. Dominus episcopus non debeat recipere fidelitatem
+          contra marchiones ab aliquo, qui sit vel debeat esse eorum vassallus contra eum; et si
+          quam ita recepit fidelitatem a X annis citra, illam dimittat et relaxet, nec de cetero sic
+          ullam recipiat. Marchiones non debeant de cetero recipere fidelitatem contra episcopum ab
+          aliquo, qui sit vel debeat esse suus vaxallus contra eos; et si quam ita receperint a X
+          annis citra, illam dimittant et relaxent. Si vero a X annis retro habuit aliquos vassallos
+          episcopatus, habeat eos de cetero et teneat libere, sine marchionum contradictione. Et
+          marchiones similiter habeant et teneant libere vassallos quos a X annis retro receperunt,
+          sine ulla episcopi contradictione. Dominus episcopus debeat habere et tenere cum suis
+          successoribus de cetero in perpetuum mediam comperam seu accatum, quod ipsi marchiones
+          fecerunt a <name type="familia" ref="#EstensiFamilia"><roleName>march</roleName>ionibus de <placeName
+              ref="#Este">Esti</placeName></name>, in curia et districtu <placeName ref="#Vezzano"
+            >Vezani</placeName>, <placeName ref="#Carpena">Carpene</placeName>, <placeName
+            ref="#Folo">Foli</placeName>, <placeName ref="#Valerano">Valerani</placeName>,
+            <placeName ref="#Bevelino">Bevelini</placeName>, <placeName ref="#Polverara"
+            >Pulverare</placeName>, <placeName ref="#Vesigna">Vesigne</placeName>, <placeName
+            ref="#Ponzano">Ponzani</placeName>, <placeName ref="#Rivalta">Rivalte</placeName> et
+            <placeName ref="#Madrognano">Madrognani</placeName>, et debeant ei inde facere fieri
+          cartam in laude sui sapientis et dare ei inde dominium et tenutam et dominus episcopus
+          debeat eis inde dare <measure type="Imperiales" quantity="155" unit="solidus">libras CLV
+            bonorum imperialium</measure>. Et, si ulla discordia oriretur inter eos, teneantur inde
+          stare arbitrio et mandatis dictorum <persName ref="#TruffaCastello">Truffe</persName> et
+            <persName ref="#Hubaldus_arbiter">Hubaldi</persName> vel aliorum, quos ad hoc eligerent
+          in concordiama vel quos <persName ref="#TruffaCastello">Truffa</persName> et <persName
+            ref="#Hubaldus_arbiter">Hubaldus</persName> in concordia eligerent, si ipsi non
+          concordarent se inde vel si ipsi <persName ref="#TruffaCastello">Truffa</persName> et
+            <persName ref="#Hubaldus_arbiter">Hubaldus</persName> nollent semper esse arbitri. Hec
+          omnia observentur in vita dicti domini episcopi. Si vero successor eius voluerit similiter
+          iurare et promittere marchionibus et marchiones teneantur ei, dum vixerit, sicut isti
+          domino episcopo tenentur et sub eodem sacramento et pena per omnia observare, marchiones
+          faciant fieri domino episcopo contractum venditionis in laude sui sapientis, ut dictum
+          est, et in dicto et voluntate ipsius sui sapientis, de medietate compare vel accati, quod
+          ipsi marchiones fecerunt a marchionibus de Esti in toto podere quod tenent <persName
+            ref="#Vezanenses">domini de <placeName ref="#Vezzano">Vezano</placeName></persName>; et
+          specialiter <persName ref="#GuililemusMalaspina">Guilielmus</persName>
+          <roleName>marchio</roleName> faciat, pro se et <roleName>domino</roleName>
+          <persName ref="#AlbertusMalaspina1">Alberto</persName> et <persName
+            ref="#ConradusMalaspina">Conrado</persName>, vendictiones, ut dictum est, et teneatur
+          facere quod <roleName>dominus</roleName>
+          <persName ref="#AlbertusMalaspina1">Albertus</persName> et <persName
+            ref="#ConradusMalaspina">Conradus</persName> faciant hanc eandem vendictionem et
+          confirmationem in dicto et laude sapientis domini episcopi, hinc ad festum Sancti Petri et
+          antea, si poterint. Et <persName ref="#GuililemusMalaspina">Guilielmus</persName>
+          <roleName>marchio</roleName>, pro se et <roleName>domino</roleName>
+          <persName ref="#AlbertusMalaspina1">Alberto</persName> obligando, dationem faciat domino
+          episcopo, nomine sui episcopatus recipienti, de toto hoc quod habent in <placeName
+            ref="#Arcola">Arcula</placeName> et in <placeName ref="#Ponzano">Ponzano</placeName> et
+          in districtibus eorum, eo pacto ut, si hec omnia non observarentur ab ipsis omnibus
+          marchionibus, quod statim, ex quo aliquis eorum veniret contra, liceat domino episcopo
+          ingredi possessionem de hiis que ei dat et obligat et habere et tenere et frui iure
+          proprio in perpetuum, sine eorum et cuiusque persone contradictione. Et constituit se et
+            <roleName>dominum</roleName>
+          <persName ref="#AlbertusMalaspina1">Albertum</persName>, nomine dicti episcopatus, hoc
+          totum quod habent in <placeName ref="#Arcola">Arcula</placeName> et <placeName
+            ref="#Ponzano">Ponzano</placeName> possidere, quousque dominus episcopus tenutam inde
+          ingressus fuerit corporalem. Iuratores sic iurabunt: «Ego talis et talis iuro super
+          sanctis evangeliis quod dabo operam et fortiam, bona fide et sine omni fraude, toto
+          tempore quod dominus episcopus et marchiones teneant firmam et ratam toto tempore vite
+          istius domini episcopi et eius successorum, si hanc eandem concordiam et societatem
+          iurabunt et confirmabunt, istam concordiam et societatem que legitur in hac carta et omnia
+          que in hac carta leguntur. Et, si quis eorum in aliquo contra veniret et non emendaret
+          infra duos menses sine fraude vel antea, si poterit, bona fide, postquam requisitus esset
+          tantum ab arbitris vel ab illo contra quem non observarentur hec omnia, quod adiuvabo inde
+          illum, cui hec non observarentur, ad suum velle, et guerram et omne malum ad posse sine
+          fraude faciam inde illi, qui contra hoc faceret et non emendaret ad voluntatem arbitrorum,
+          qui inter eos essent constituti ad eorum discordias concordandas, vel etiam, arbitris
+          deficientibus, ad voluntatem illius contra quem factum esset aliquod contrarium vel
+          offensio vel cui non observarentur pacta». Hec debeant iurare <name
+            type="familia" ref="#MontemagnoFamilia">domini de <placeName ref="#Monte_Magno">Monte
+              Magno</placeName></name>, <name type="familia" ref="#BozanoFamilia">de <placeName ref="#Buçano"
+                >Bozano</placeName></name>, <name type="familia" ref="#CorvariaVallecchiaFamilia">de <placeName
+                  ref="#Vallecchia1">Valecla</placeName></name>, <name type="familia" ref="#CorvariaVallecchiaFamilia"
+                    >de <placeName ref="#Corvaia">Corvaria</placeName></name>, <name type="familia" ref="#CastelloFamilia"
+            >de <placeName ref="#Castello">Castello</placeName></name>
+          <persName ref="#TruffaCastello">Truffa</persName> et frater eius, consules, milites et
+          populus de <placeName ref="#Carrara">Carraria</placeName> et de burgo et castro <placeName
+            ref="#Sarzana">Sarzani</placeName> et de <placeName ref="#Trebiano">Tribiano</placeName>
+          et de <placeName ref="#Arcola">Arcula</placeName>, de burgo <placeName
+            ref="#Santo_Stefano">Sancti Stephani</placeName>, de <placeName ref="#Bolano"
+            >Bolano</placeName>, de <placeName ref="#Caprigliola">Caprilola</placeName> et de
+            <placeName ref="#Fosdinovo">Fosdenova</placeName> et de <placeName ref="#Falcinello"
+              >Falcinello</placeName>, <name type="familia" ref="#BibolaFamilia">domini de <placeName ref="#Bibola"
+                >Bibola</placeName></name> et <name type="familia" ref="#BurcioneFamilia">de <placeName
+              ref="#Burcione">Burcione</placeName></name>, populus <placeName ref="#Aulla"
+                >Avule</placeName>, <name type="familia" ref="#GiovagalloFamilia">domini</name> et populus de
+            <placeName ref="#Zovagallo">Zovagallo</placeName>, de <placeName ref="#Calisi"
+              >Calesa</placeName> et de tota <name type="familia" ref="#MoregnanoFamilia">domo de <placeName
+              ref="#Moregnano">Moregnano</placeName></name>, de <placeName ref="#Tresana"
+            >Trisiana</placeName>, de <placeName ref="#Villafranca">Villafranca</placeName>, de
+            <placeName ref="#Feleteria">Feleteria</placeName>, de <placeName ref="#Mulazo"
+            >Mulazo</placeName>, populus et milites de <placeName ref="#Pontremoli"
+              >Pontremulo</placeName>, <name type="familia" ref="#Groppo_Sancti_PetriFamilia">domini de <placeName
+              ref="#GroppoSP">Groppo Sancti Petri</placeName></name>, de <placeName ref="#Bagnone"
+                >Bagnone</placeName>, <name type="familia" ref="#VerucolaFamilia">domini</name> et <pb n="400v"
+            xml:id="fol_400v"/> populus de <placeName ref="#VerrucolaBosi">Verucula</placeName>,
+          <name type="familia" ref="#GragnanaFamilia">domini de <placeName ref="#Gragnana"
+            >Gragnana</placeName></name> et <name type="familia" ref="#BlanciHerberiaFamilia">domini qui dicuntur
+            Blanci</name>. Dominus episcopus et marchiones faciant fieri hec sacramenta ad posse,
+          sine fraude. Venditio et confirmatio <roleName>domini</roleName>
+          <persName ref="#AlbertusMalaspina1">Alberti</persName> et <persName
+            ref="#ConradusMalaspina">Conradi</persName> et sacramenta iuratorum debeant fieri hinc
+          ad festum proximum Sancti Petri et antea, sine fraude, quam cito fieri potest. De
+          sacramentis iuratorum et de illis quos sine fraude intelligas, non possent dominus
+          episcopus et marchiones facere <note place="foot" n="b" xml:id="DXXXX_n_002">facere: fa
+              <emph>corretto su precedente scrittura</emph>.</note> iurare, possint eis <persName
+            ref="#TruffaCastello">Truffa</persName> et <persName ref="#Hubaldus_arbiter"
+            >Hubaldus</persName> dare terminum et terminos quos voluerint. De compera, cuius
+          medietatem dant domino episcopo teneantur dominus episcopus et marchiones se ad invicem
+          adiuvare, nemine exceptato, et consortaticum debeant se inde iuvare ad invicem contra
+          omnes homines, per se et successores et heredes suos, videlicet se ad invicem, in omnibus
+          terris de ipsa compara vel accato, contra omnes homines adiuvare et manutenere in personis
+          et rebus et unus non debeat ibi alium in personis vel avere aliquo modo exfortiare, sed
+          personas et avere et res sibi debeant et teneantur ad invicem perpetuo, in omnibus terris
+          de ipsa compera, contra omnes homines adiuvare et manutenere. Et iuratores teneantur
+          adiuvare dominum episcopum et marchiones de facto predicte compere; et, si unus vellet
+          inde alium vel alios exfortiare, adiuvare illum vel illos, quem vel quos alia pars vellet
+          inde exfortiare et cui vel quibus consortaticum non attenderetur et observaretur et, si
+          quando episcopatus careret pastore, omnes iuratores qui iurabunt, teneantur se ad invicem
+          dominare. Et sic iurent homines episcopi et marchionum, qui iurabunt. Quicquid <persName
+            ref="#TruffaCastello">Truffa</persName> et <persName ref="#Hubaldus_arbiter"
+            >Hubaldus</persName> addiderint in concordiam, teneantur dominus episcopus et marchiones
+          observare. Hec omnia preceperunt et arbitrati sunt <persName ref="#TruffaCastello"
+            >Truffa</persName> et <persName ref="#Hubaldus_arbiter">Hubaldus</persName>,
+          precipientes ut dominus episcopus et dicti marchiones, sub debito sacramenti quo eis
+          tenentur et sub pena <measure type="Imperiales" quantity="200" unit="solidus">CC marcharum
+            argenti</measure> solvenda parti fidem servanti, rato manente pacto, hec omnia rata
+          habeant, attendant et observent et in nullo veniant contra; et ita confessi sunt et
+          stipulati sunt dominus episcopus et Guilielmus marchio pro se et
+            <roleName>domino</roleName>
+          <persName ref="#AlbertusMalaspina1">Alberto</persName> et <persName
+            ref="#ConradusMalaspina">Conrado</persName>, promittentes sibi ad invicem, sub predicta
+          pena, hec omnia rata habere et numquam contravenire et confessi sunt se ita iurasse. Ita
+          arbitrati sunt et preceperunt <persName ref="#TruffaCastello">Truffa</persName> et
+            <persName ref="#Hubaldus_arbiter">Hubaldus</persName> et stipulati et confessi sunt
+          dominus episcopus et <persName ref="#GuililemusMalaspina">Guilielmus</persName>
+          <roleName>marchio</roleName>, pro se et dicto domino <persName ref="#AlbertusMalaspina1"
+            >Alberto</persName> et <persName ref="#ConradusMalaspina">Conrado</persName>
+          <roleName>marchionibus</roleName>. <date when="1202-05-12">Anno a nativitate Domini
+            M°CCII, indictione V, die dominico, XII intrante mense madii</date>, apud <placeName
+            ref="#Sarzana">Sarzanam</placeName>, in <orgName ref="#Sarzana_S_Andrea">canonica
+            ecclesie Sancti Andree de</orgName>
+          <placeName ref="#Sarzana">Sarzana</placeName>, in presentia <persName
+            ref="#BullioneSarzana">Bullionis</persName>, <persName ref="#Borgarinus"
+            >Borgarini</persName>, <persName ref="#RollandusBurcione">Rollandi</persName> de
+            <placeName ref="#Burcione">Burtione</placeName>, <persName ref="#IacopinusTurricella"
+            >Iacopini</persName> de <placeName ref="#Turricella">Turricella</placeName>, <persName
+            ref="#BonrognosiBiliolo">Bonrognosi</persName> de <placeName ref="#Bigliolo"
+            >Biliolo</placeName>, <persName ref="#RollandusClerico">Rollandi de Clerico</persName>,
+            <persName ref="#Nicholausadv">Nicholai</persName>
+          <roleName>advocati domini episcopi</roleName>, <persName ref="#CurtisCastroSarzane"
+            >Curti</persName> et <persName ref="#CampusCastroSarzane">Campi</persName> de <placeName
+            ref="#Sarzana">castro Sarzani</placeName> et <persName ref="#BonacursusBonaventura"
+            >Bonacursi de Bonaventura</persName> et aliorum multorum rogatorum testium. Hoc
+          sacramentum iuratorum iuraverunt <persName ref="#Ubaldus">Hubaldus</persName>, <persName
+            ref="#Aldeprandus">Aldeprandus</persName> et <persName ref="#Gerardusvic"
+            >Gerardus</persName>
+          <roleName>vicedominus</roleName>, <persName ref="#Balzanus">Balzanus</persName>, <persName
+            ref="#Bandinuns">Bandinus</persName>, <persName ref="#Bonencontrus"
+            >Bonencontrus</persName>, <persName ref="#Recordatus">Recordatus</persName>, <persName
+            ref="#Truffa">Truffa</persName>, <persName ref="#RollandusBurcione">Rollandus</persName>
+          de <placeName ref="#Burcione">Burtione</placeName>, <persName ref="#IacopinusTurricella"
+            >Iacopinus</persName> de <placeName ref="#Turricella">Turricella</placeName> et
+            <persName ref="#BernardinusHerberia">Bernardinus</persName> de <placeName ref="#Erberia"
+            >Herberia</placeName>. <date when="1201-05-31">Eodem anno et mense, pridie kalendas
+            iunii</date>. <placeName ref="#Aulla">Avule</placeName>, in claustro <orgName
+            ref="#Aulla_S_Caprasio">monasterii de <placeName ref="#Aulla"
+            >Avula</placeName></orgName>, in testimonio <roleName>episcopi</roleName> de <placeName
+            ref="#Brugnato">Brugnati</placeName> nomine <persName ref="#SigebaldusEpBrunìgnati"
+            >Sygebaldi</persName>, <persName ref="#Arditio_prepositus">Arditionis</persName>
+          <roleName>Lunensis prepositi</roleName> et aliorum multorum rogatorum testium, <persName
+            ref="#GuidoVal">Guidonis de <placeName ref="#Vallecchia1"
+          >Valecla</placeName></persName>, <persName ref="#AttoFaucenova">Attonis</persName> de
+            <placeName ref="#Fosdinovo">Fosdenova</placeName>, <persName ref="#RollandusBurcione"
+            >Rollandi</persName> de <placeName ref="#Burcione">Burtione</placeName>, <persName
+            ref="#FedericusBurtione">Friderici</persName> fratris eius, <persName ref="#Gerardusvic"
+            >Gerardi</persName>
+          <roleName>vicedomini</roleName>, <persName ref="#Nicholausadv">Nicholai</persName>
+          <roleName>advocati domini Lunensis episcopi</roleName>. <persName ref="#ConradusMalaspina"
+            >Conradus</persName>
+          <roleName>marchio</roleName> iuravit sicut iuraverant et promisit sicut promiserant
+            <roleName>dominus</roleName>
+          <persName ref="#AlbertusMalaspina1">Albertus</persName> et <persName
+            ref="#GuililemusMalaspina">Guilielmus</persName>
+          <roleName>marchiones domino</roleName>
+          <persName ref="#GualEpLuni">Walterio</persName>, <roleName>Dei gratia Lunensi
+            episcopo</roleName>, de concordia et societate eorum et de arbitrio dictorum arbitrorum
+          observando et de omnibus factis que sunt inter ipsum dominum episcopum et ipsos
+          marchiones, sicut ipsi marchiones iuraverant, per omnia et in omnibus et sub eadem pena.
+          Ego <persName ref="#Confortusnot">Confortus</persName>, <roleName>sacri palacii et
+            Lunensis curie notarius</roleName>, hiis omnibus interfui et rogatus hec omnia scripsi
+          et autenticavi et proprio signo signavi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

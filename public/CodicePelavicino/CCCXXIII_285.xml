@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXXIII_285">
+    <front xml:id="CCCXXIII_front">
+
+      <titlePart type="numerazioneNuova">285</titlePart>
+      <titlePart type="numerazioneOrig">CCCXXIII</titlePart>
+
+      <docDate xml:id="CCCXXIII_docDate">
+        <date when="1270-03-15">1270 marzo 15</date>, <placeName>Sarzana (<emph>Sarzane, sub porticu
+            domus quondam Bonaiuti de Ciçerano</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXXIII_regesto">
+        <p>Iacopino detto Tagliavacca, sindaco del vescovo di Luni Guglielmo, si reca da Riccomo
+          Bolgarini di Lucca, vicario nella provincia di Lunigiana per il vescovo e il comune di
+          Lucca, e da Bonagiunta de Podio, giudice e assessore nella medesima provincia, ed espone
+          la sentenza data da Lanfredo del fu Bonacorso Lanfredi di Lucca, un tempo anch’egli
+          vicario, contro Iacopuccio del fu Alberto di Carrara riguardo a due mulini, uno presso e
+          uno entro Carrara. Il sindaco del vescovo dichiara che è trascorso l’anno di tempo
+          concesso a Iacopuccio per pagare quanto dovuto e chiede quindi che sia data esecuzione
+          alla sentenza. Il vicario Riccomo e il giudice e assessore Bonagiunta assegnano quindi la
+          disponibilità piena dei beni suddetti al vescovo.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXXIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 294v.-295r., cc. CCLXXXVIv.-CCLXXXVIIr. secondo la numerazione
+            originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 323,
+            pp. 312-313.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <term xml:lang="latin">Carraria</term>.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCXXIII. Item decreti molendinorum Iacopucii.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXXIII_div">
+        <p xml:id="CCCXXIII_p_001" n="1">In Christi nomine, amen. Veniens <persName
+            ref="#IacopinusTalliavachanot">Iacopinus notarius dictus Talliavacca</persName>,
+            <roleName> syndicus</roleName> et <roleName>actor</roleName> venerabilis patris domini
+            <persName ref="#GuilEpLuni">Guilielmi, <roleName>Lunensis
+          episcopi</roleName></persName>, ante presentiam nostram <persName ref="#RiccomusBolgarini"
+            >Riccomi Bolgarini i de <placeName ref="#Lucca">Luca</placeName></persName>,
+            <roleName>vicarii</roleName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+              ref="#Lunigiana">Lunisiane</placeName></orgName> pro eodem domino episcopo et <placeName ref="#Lucca">Lucano</placeName>
+          <orgName ref="#Lucca_comune"
+            >communi</orgName>, et <persName ref="#Bonaiunctaiud">Bonaiuncta de <placeName ref="#PodioLucca"
+              >Podio</placeName></persName>, <roleName>iudex</roleName> et <roleName>assessor<note
+              place="foot" n="b" xml:id="CCCXXIII_n_001"><term xml:lang="latin">ante presentiam-
+                assessor</term>: <emph>così nel testo</emph>.</note></roleName> in eadem <orgName
+            ref="#Lunigiana_provincia">provincia</orgName> pro ipso domino episcopo et eodem
+            <placeName ref="#Lucca">Lucano</placeName> communi, exposuit coram nobis quod quedam
+          sententia contumacie et tenuta fuit olim pronunciata et lata<note>sentenza del vicario
+            Lanfredo di Bonacorso Lanfredi di Lucca del<ref target="#CCCXXII_284" type="doc">7
+              settembre 1268 </ref>
+            <date when="1268-09-07" cert="high"/>
+          </note> per <roleName>dominum</roleName>
+          <persName ref="#LanfredusLuca">Lanfredum quondam domini Bonacursi Lanfredi de <placeName
+              ref="#Lucca">Luca</placeName></persName>, olim vicarium in dicta <orgName
+            ref="#Lunigiana_provincia">provincia</orgName> pro ipso domino episcopo, et ex decreto
+          et auctoritate ipsius vicarii, contra <persName ref="#IacopuciusAlberti">Iacopucium de
+              <placeName ref="#Carrara"> Carraria</placeName> quondam domini Alberti</persName> pro
+          dicto domino episcopo et pro ipso eius syndico et actore pro eo de uno molendino posito in
+          pertinenciis <placeName ref="#Carrara">Carrarie</placeName> et de redditibus ipsius
+          molendini et de pertinenciis et iuribus et apparatibus ipsius molendini, quod est ad locum
+          dictum ad molendinum de <placeName ref="#Guercia">Guercia</placeName>, cui coheret ex una
+          parte via publica, ab alio molendinum <persName ref="#Durans">Durantis</persName>, ab alio
+          flumen <placeName ref="#Carrara">Carrarie</placeName> et si aliter et melius per latera et
+          capita poterit reperiri; item ab<note place="foot" n="c" xml:id="CCCXXIII_n_002"><term
+              xml:lang="latin">ab</term>: <emph>così nel testo, probabilmente per</emph>
+            <term xml:lang="latin">de</term>.</note>alio molendino, pro parte que contingebat dictum
+            <persName ref="#IacopuciusAlberti">Iacopucium</persName> in ipso molendino, posito apud
+          plebem <placeName ref="#Carrara">Carrarie</placeName>, subtus canonicam ipsius plebis, cui
+          coheret ab una parte canonica sive terrenum dicte ecclesie, ab alia flumen. Exposuit etiam
+          quod terminus unius anni, qui statutus et ordinatus fuit in dicta sententia dicto
+            <persName ref="#IacopuciusAlberti">Iacopucio</persName> ad recuperandum dictam tenutam,
+          restituendo expensas, est elapsus, ut ex forma dicte sententie et decreti apparet, unde
+          postulat dictus syndicus et actor a nobis in predictis, secundum decretum, interponi et
+          sibi, nomine et vice dicti domini episcopi, et ipsi domino episcopo dicta molendina et
+          iura ipsorum molendinorum, cum pertinenciis eorum, ex secundo decreto adiudicari et
+          assignari et confirmari, cum post dictum terminum unius anni, qui constitutus fuit dicto
+            <persName ref="#IacopuciusAlberti">Iacopucio </persName> ad recuperandum dictam tenutam,
+          fuerit de mandato nostri iudicis suprascripti publice gridatum et proclamatum per
+            <persName ref="#Cavallinuscorr">Cavallinum</persName>, correrium curie, in <placeName
+            ref="#Carrara">Carraria</placeName> et specialiter in platea plebis et etiam ante domum
+          dicti <persName ref="#IacopuciusAlberti">Iacopucii</persName>, in qua habitabat et
+          habitare solebat; quod, si ipse <persName ref="#IacopuciusAlberti">Iacopucius</persName>
+          vel alius pro eo vel alia quecumque persona, aliqua occasione vel ratione, vellet
+          contradicere secundo decreto quod fieri petebat dictus syndicus et actor in predictis vel
+          hiis que circa erant, veniret coram nobis vicario vel iudice certo termino constituto pro
+          omnibus et perhemptorie ad contradicendum et ostendendum de iure suo; alioquin postea
+          procederetur ad interpositionem secundi decreti et alia facienda que de iure possent vel
+            debe<supplied reason="omitted">n</supplied>t, ad postulationem dicti syndici vel
+          actoris. Unde nos vicarius et iudex suprascripti, visa forma et tenore sententie et
+          decreti suprascripte et suprascripti, pronunciate et pronunciati per dictum dominum
+            <persName ref="#LanfredusBonacursi">Lanfredum</persName>, et viso termino unius anni,
+          qui constitutus fuit ad recuperandum dictam tenutam, qui elapsus est, et visa dicta grida
+          et proclamatione in actis scripta, facta per dictum <persName ref="#Cavallinuscorr"
+            >Cavallinum</persName> correrium in <placeName ref="#Carrara">Carraria</placeName>,
+          scilicet in locis superius nominatis, infra terminum cuius gride vel etiam postea dictus
+            <persName ref="#IacopuciusAlberti">Iacopucius</persName> vel alius pro eo vel aliquis
+          alius non venit ad contradicendum, diu post terminum expectatum, <pb n="295r"
+            xml:id="fol_295r"/> pronunciamus in scriptis secundum decretum interponendum et ipsum
+          interponimus in predictis et ipsa molendina et iura ipsorum molendinorum, cum omnibus suis
+          apparatibus et pertinenciis, esse ex secundo decreto adiudicanda, assignanda et
+          confirmanda, et ea adiudicamus, assignamus et confirmamus, ex secundo decreto nostro,
+          suprascripto syndico et actori pro dicto domino episcopo et ipsi domino episcopo et
+          episcopatui, ita ut de cetero ex eis faciat dictus dominus episcopus et eius successores
+          quicquid voluerint, sine contradictione dicti <persName ref="#IacopuciusAlberti">
+            Iacopucii</persName> vel eius heredum, tanquam de rebus ipsius domini episcopi et
+          episcopatus.</p>
+        <p xml:id="CCCXXIII_p_002" n="2">Actum <placeName ref="#Sarzana">Sarzane</placeName>, sub
+          porticu domus quondam <persName ref="#BonaiutusCiçerano">Bonaiuti de <placeName
+              ref="#Ceserano">Ciçerano</placeName></persName>, ubi iura pro ipsa curia redduntur,
+          presentibus <persName ref="#Cavallinuscorr">Cavallino</persName> et <persName
+            ref="#Iuxtamonscorr">Iustamonte, <roleName>correriis curie</roleName></persName>, et
+          domino <persName ref="#Rubeusiud">Rubeo <roleName>iudice</roleName> de <placeName
+              ref="#Sarzana">Sarzana</placeName></persName> et <roleName>aliis testibus</roleName>
+          ad hec. <date when="1270-03-15">Anno nativitatis Domini millesimo CCLXX, indictione XIII,
+            die sabbati, XV marcii</date>.</p>
+        <p xml:id="CCCXXIII_p_003" n="3"><ptr target="#CCCXXIII_st_001"/><persName
+            ref="#NicholausGerardiniiud">Nicholaus, filius Gerardini Mercati</persName>,
+            <roleName>imperialis aule iudex et notarius et dicte curie scriba publicus</roleName>
+          pro dicto <roleName>venerabili patre</roleName> domino <persName ref="#GuilEpLuni"
+            >Guilielmo, <roleName>Lunensi episcopo</roleName></persName>, et <placeName ref="#Lucca"
+            >Lucano communi</placeName>, suprascriptis omnibus interfui et, causa memorie, in
+          publicam formam redegi.</p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

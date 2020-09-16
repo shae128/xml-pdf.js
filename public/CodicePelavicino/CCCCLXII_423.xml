@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXII_423">
+    <front xml:id="CCCCLXII_front">
+
+      <titlePart type="numerazioneNuova">423</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXII</titlePart>
+
+      <docDate xml:id="CCCCLXII_docDate">
+        <date when="1203-05-13">1203 maggio 13</date>, <placeName>Rossola (<term xml:lang="latin">in
+            loco qui dicitur Rossola, iuxta flumen Macre</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXII_regesto">
+        <p> Rollando di Burcione, Guglielmo di Gragnano e Gerardo vicedomino, arbitri eletti per le
+          controversie vertenti tra il vescovo di Luni Gualterio e i marchesi Malaspina Guglielmo,
+          Corrado e Alberto da una parte e i signori di Vezzano dall’altra, riguardo ai beni già
+          spettanti ai marchesi d’Este e passati al vescovo e ai marchesi, di cui vescovo e marchesi
+          volevano infeudare i signori di Vezzano e che costoro contestavano, così sentenziano: i
+          signori di Vezzano prestino giuramento di fedeltà al vescovo e a i marchesi, non valido
+          tuttavia nel caso che vescovo e marchesi vogliano danneggiare Portovenere; vescovo e
+          marchesi abbiano la terza parte dell’<term xml:lang="latin">argenteria</term> e tutte le
+          albergarie; le femmine dei Vezzano possano ereditare beni e diritti come i maschi; i
+          Vezzano debbano consegnare a vescovo e marchesi le fortificazioni dei detti beni pronte
+          per la guerra, ma conservino i dongioni; se sorgeranno liti tra loro, vescovo e marchesi
+          dovranno fare da arbitri; in caso di attacco da parte del vescovo i Vezzano siano difesi
+          dai marchesi e viceversa. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 357v., c. CCCXLVIIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#MURATORI_1773">MURATORI 1773</ref>, I, cap. XIX, pp. 181-182.
+              <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 462, p. 470 138-141.
+            Bibliografia: <ref target="#PETTI_BALBI_1978">PETTI BALBI 1978, pp. 38-41</ref></p>
+        </div>
+
+        <div type="crit_notes">
+          <note>In calce alla carta, di mano moderna, la seguente annotazione per indicare la fine
+            del fascicolo: <term xml:lang="latin">in Dei omnipotentis nomine: el nono</term>.
+          </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <emph>CCCCXLII. Concessionis et
+              donationis Ugolini Buctilioni et Rolandini quondam domini Guilielmi Blanchi de eorum
+              parte Veçani.</emph></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCLXII_div">
+        <pb n="357v" xml:id="fol_357v"/>
+        <p xml:id="CCCCLXII_p_001" n="1">
+          <ptr target="#CCCCLXII_st_001"/> In nomine Domini, amen. <date when="1203-05-13">Anno a
+            nativitate Eius M°CCIII, indictione VI, die martis, XIII mensis madii.</date> Nos
+            <persName ref="#RollandusBurcione">Rollandus de <placeName ref="#Burcione"
+              >Burçone</placeName>
+          </persName> et <persName ref="#GuilielmusGargnano">Guilielmus de <placeName
+              ref="#Gragnana">Gragnana</placeName>
+          </persName> et <persName ref="#Gerardusvic">Gerardus <roleName>vicedominus</roleName>
+            <roleName>arbitri electi</roleName>
+          </persName> de omnibus rebus et controversiis que vertebantur inter dominum <persName
+            ref="#GualEpLuni">
+            <roleName>venerabilem Lunensem episcopum</roleName>, </persName> et <persName
+            ref="#GuilielmusGargnano">Guilielmum <roleName>marchiones</roleName>
+          </persName> et <persName ref="#ConradusMalaspina">Curadum <roleName>marchiones</roleName>
+          </persName> de <persName ref="#ConradusMalaspina">Malaspina</persName>, pro se et domino
+            <persName ref="#AlbertusMalaspina1">Alberto</persName> eorum patruo, ex una parte,
+          necnon et ex alia dominos de <placeName ref="#Vezzano">Vezano</placeName>, videlicet
+            <persName ref="#UgolinusPaganello"> Ugolinum de Paganello <roleName>potestatem
+              dominorum</roleName> de <placeName ref="#Vezzano">Vezano</placeName>, </persName>
+          <persName ref="#GuidoDonna">Guidonem de Donna</persName>, <persName ref="#BaldoinusVezano"
+            >Balduinum</persName>, <persName ref="#BernazonusVezano">Bernazonem</persName>,
+            <persName ref="#UgolinusMatelda">Ugolinum de donna Matelda</persName>
+          <persName ref="#AldoinusVezano">Aldoinum Paganelli</persName>, Ser (<note place="foot"
+            n="a" xml:id="CCCCLXII_n_001">Ser: <emph>così nel testo, con segno di
+              abbreviazione</emph></note>), <persName ref="#ComesArdiccioni">Comitem quondam
+            Ardicionis</persName>, <persName ref="#TalliaferrusVezano">Talliaferrum</persName>,
+            <persName ref="#LambertusVezano">Lambertum</persName>, <persName ref="#PaganellusVezano"
+            >Paganellum</persName>, <persName ref="#RanucinusValentini">Ranucinum quondam
+            Valentini</persName>, <persName ref="#BalzanusCarpena">Balzanum de <placeName
+              ref="#Carpena">Carpena</placeName>
+          </persName> et <persName ref="#BosoVezano">Bosum</persName>, occasione possessionum et
+          poderis que fuerunt marchionum de <placeName ref="#Este">Esti</placeName>, quas et quod
+          predicti dominus episcopus et marchiones ab eis petebant, asserentes quod ipse
+          possessiones et podere erant sibi aperte et volebant dictos dominos de <placeName
+            ref="#Vezzano">Vezano</placeName> investire de eorum recto feudo, quod dicti domini de
+            <placeName ref="#Vezzano">Vezano</placeName> infitiebantur, sic concorditer per
+          sententiam, ut inferius legitur, diffinimus, laudamus et inter eos statuimus, scilicet
+          quod dicti domini de <placeName ref="#Vezzano">Vezano</placeName> faciant et facere
+          debeant prescriptis domino episcopo et marchionibus de iamdictis possessionibus et podere
+          contra omnes homines et personas fidelitatem, excepto quod, si dicti domini episcopus et
+          marchiones voluerint offendere <placeName ref="#Portovenere">Portum Veneris</placeName> ad
+          deffendendum. Item quod dicti dominus episcopus et marchiones habeant de argenteria (<note
+            place="foot" n="b" xml:id="CCCCLXII_n_002">argenteria: <emph>così nel testo
+              probabilmente per </emph> argentaria [cfr. PETTI BALBI p. 66, nota 227]</note>)
+          terciam partem tantum et dicti domini de <placeName ref="#Vezzano">Vezano</placeName> duas
+          partes et quod femine de domo dominorum de <placeName ref="#Vezzano">Vezano</placeName>
+          succedant in dictis possessionibus, ut masculi, et quod sepedicti domini de <placeName
+            ref="#Vezzano">Vezano</placeName> debeant dare prefatis domino episcopo et marchionibus
+          vel eorum certis nunciis omnia castra de predictis possessionibus et podere guarnita et
+          scarita, ad faciendum guerram et pacem cui vel quibus voluerint, eo tamen salvo quod ipsi
+          domini de <placeName ref="#Vezzano">Vezano</placeName> habeant semper in eorum potestate
+          turres et cimas et fortitudines de ipsis castris; item quod ipsi domini de <placeName
+            ref="#Vezzano">Vezano</placeName> debeant dare prelibatis domino episcopo et
+          marchionibus vel eorum certis nunciis omnes albergarias, que debentur de ipsis
+          possessionibus et podere; item, si contingerit quod ipsi domini de <placeName
+            ref="#Vezzano">Vezano</placeName> habuerint litem seu discordiam ad invicem et unus ex
+          eis vel omnes voluerint cognoscere de ipsa lite sub domino episcopo et marchionibus, quod
+          ipsi episcopus et marchiones debeant eos constringere ad rationem faciendum et ipsi domini
+          de <placeName ref="#Vezzano">Vezano</placeName>, qui litem habuerint insimul, teneantur
+          eis domino episcopo et marchionibus vel cui seu quibus commiserint ipsam causam
+          cognoscendum in omnibus de ipsa causa obedire; item quod dictus dominus episcopus et
+          marchiones habeant suam rationem in suprascriptis possessionibus et podere. Rursus si
+          evenerit, quod absit, quod dicti marchiones offenderint ipsos dominos de <placeName
+            ref="#Vezzano">Vezano</placeName> de predictis possessionibus et podere vel malum eis de
+          ipsis fecerint, prefatus dominus episcopus teneatur eos usque ad finem adiuvare; et, si
+          idem dominus episcopus eosdem dominos de <placeName ref="#Vezzano">Vezano</placeName> de
+          predictis possessionibus et podere offenderit vel malum eis inde fecerit, dicti marchiones
+          teneantur eos adiuvare. Et omnia superius dicta dictis domino episcopo et marchionibus et
+          dominis predictis de <placeName ref="#Vezzano">Vezano</placeName> precipimus, sub debito
+          sacramenti, quo vobis tenentur, et sub pena <measure quantity="200" unit="solidus">CC
+            marcharum puri et optimi argenti</measure>, quam sibi vicissim pro predictis attendendis
+          promiserunt quod perpetuo attendant, observent et in nullo contravenire debeant. </p>
+        <p xml:id="CCCCLXII_p_002" n="2"> Acta sunt hec in loco qui dicitur <placeName
+            ref="#Rossola">Rossola</placeName>, iuxta <placeName ref="#Magra">flumen
+            Macre</placeName>, presentibus <persName ref="#PaganellusPorcara">Paganello de
+              <placeName ref="#Porcaria">Porcaria</placeName>, <roleName>domino</roleName>
+          </persName>
+          <persName ref="#RollandusGragnana">Rollando de <placeName ref="#Gragnana"
+              >Gragnana</placeName>, </persName>
+          <persName ref="#GuidoVal">Guidone de <placeName ref="#Vallecchia2">Vallecla</placeName>, </persName>
+          <persName ref="#BaldinotusVallecla">Baldinoto de <placeName ref="#Vallecchia2"
+              >Vallecla</placeName>, </persName>
+          <persName ref="#PaganellusPorcara">Paganello de <placeName ref="#Porcaria"
+              >Porcaria</placeName>
+            <roleName>domino</roleName>
+          </persName>
+          <persName ref="#UbaldusParente">Ubaldo quondam Parentis</persName>
+          <persName ref="#BonifaciusRubeus">Bonifatio Rubeo de <placeName ref="#Castello"
+              >Castello</placeName>
+          </persName>
+          <persName ref="#AldebrandusAlberti">Aldeprando <roleName>vicedomino</roleName>,
+          </persName> testibus, et multis aliis. Unde tres carte uno tenore sunt scripte. </p>
+        <p xml:id="CCCCLXII_p_003" n="3">
+          <ptr target="#CCCCLXII_st_002"/> Ego <persName ref="#Nicholausnot"> Nicholaus,
+              <roleName>notarius sacri palacii</roleName></persName>, hiis, de mandato predictorum
+          arbitrorum interfui et subscripsi. Ego <persName ref="#Ugolinusnot"> Ugolinus,
+              <roleName>sacri palacii notarius</roleName>, </persName> hanc cartam, de mandato
+          predicti <persName ref="#Nicholausnot"> Nicholai</persName>, scripsi et proprio signo
+          signavi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

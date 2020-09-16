@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Title</title>
+      </titleStmt>
+      <publicationStmt>
+        <p>Publication Information</p>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Information about the source</p>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXXXXV_356">
+    <front xml:id="CCCLXXXXV_front">
+      <titlePart type="numerazioneNuova">356</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXXXXV</titlePart>
+
+      <docDate xml:id="CCCLXXXXV_docDate">
+        <date when="1235-02-02">1235 febbraio 2</date>
+        <placeName>Ameglia</placeName> (<emph>in curia Amelie</emph>) </docDate>
+
+      <div type="regesto" xml:id="CCCLXXXXV_regesto">
+        <p>Guglielmo, vescovo di Luni, loca ad omaggio a Rollando del fu Guglielmo di Valdonica che
+          riceve anche a nome deglla moglie Agnesia, figlia del fu Iacopino, tutto il podere posto
+          nella curia di Ameglia, che un tempo fu di Bresciano, fratello di Agnese, e che Agnese ha
+          ricevuto per dote. La concessione costa 40 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXXXXV_footer">
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 321r.-321v., cc. CCCXIIIr.-CCCXIIIv. secondo la numerazione originale
+          </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 395, p. 374</p>
+        </div>
+
+        <div type="crit_notes">
+          <p>Stesura <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla presenza di
+            Bonagiunta de Podio di Lucca.</p>
+          <p>Parte del documento è stata letta con l’ausilio della luce di Wood.</p>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXXXXV. Locationis per homagium Rolando Guillelmi de Valdonica</term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCLXXXXV_div">
+        <p xml:id="CCCLXXXXV_001"> In Dei nomine, amen. <date when="1235-02-02">Anno M°CCXXXV,
+            indictione VIII, die veneris, II mensis intrantis februarii</date>, in curia <placeName
+            ref="#Ameglia">Amelie</placeName>, coram <roleName>domino</roleName>
+          <persName ref="#AttolinusCacti">Attolino quondam Caccii</persName> de <placeName
+            ref="#Sarzane">burgo Sarzane</placeName> et eius filio <persName
+            ref="#HengeramusAttolini">Hengheramo</persName> et <roleName>domino</roleName>
+          <persName ref="#SalomonLucanus">Salomone Lucano</persName> et aliis pluribus testibus.
+          Venerabilis <persName ref="#GuilEpLuni">Guilielmus, Dei gratia <roleName>Lunensis
+              episcopus</roleName></persName>, per se et suos successores dedit, cessit atque
+          locavit per homagium <persName ref="#RollandusGuillelmi">Rollando quondam Guilielmi de
+              <placeName ref="#Valdonica">Valdonega</placeName></persName>, recipienti pro se et
+          uxore sua <persName ref="#AgnesiaIacopini">Agnesia, filia quondam Iacopini</persName>, et
+          eorum heredibus ab eis descendentibus, in perpetuum, nomine dotis seu pro dote, nominatim
+          totum podere, tenutam et possessionem quod et que olim <add place="inline">fuit</add>
+          <persName ref="#BrescianusIacopini">Bresciani, fratris dicte Agnesie</persName>, situm in
+          curia <placeName ref="#Ameglia">Amelie</placeName>, in <placeName ref="#Balognano"
+            >Balognano</placeName> et alibi, quicquid sit et quantumcumque set<note
+            xml:id="CCCLXXXXV_n_001" place="foot">
+            <term xml:lang="lat">set</term>: <emph>così nel testo per</emph>
+            <term xml:lang="lat">sit</term></note>, ubicumque et quocumque decurrit, in plano et in
+          monte, agrum et cultum, plenum et vacuum, divisum et indivisum, cum accessibus et
+          regressibus suis, superioribus et inferioribus, promittens super predictis legitimam
+          deffensionem, suis expensis et suo advo<add place="inline">cato</add>, et, si non poterit
+          deffendere, promisit in loco consimili restituere per <measure type="Imperiales"
+            unit="solidus" quantity="40">XL soldos imperialium</measure>, quos inde ab eo servicium,
+          ut confessus fuit, recepit, renunciando exceptioni non numerate pecunie et servicii non
+          habiti et soluti, reddendo et faciendo curie <placeName ref="Luni">Lunensi</placeName>
+          omnes usancias, servicia et redditus illos quos exinde facere consuevit vel fecit
+            <persName ref="#BrescianusIacopini">Brexanus suprascriptus</persName>; alia
+          superimposita non fiat. Ambe partes, inter se sibi vicissim stipulantes, attendere
+          perpetuo promiserunt, per se et suos successores <roleName>dominus episcopus</roleName> et
+          suos heredes et eius uxorem dictus <persName ref="#RollandusGuillelmi"
+            >Rollandus</persName>, ad penam <measure type="Imperiales" unit="solidus" quantity="40"
+            >XL soldorum imperialium</measure>; et, ea soluta, rato manente pacto. </p>
+
+      </div>
+      <div xml:id="CCCLXXXXV_div2" type="mundum">
+        <p xml:id="CCCLXXXXV_002">
+          <ptr target="#CCCLXXXXV_st_001"/> Ego <persName ref="#HengeramusParentisnot">Hengheramus
+            quondam Parentis de <placeName ref="#Sarzanello">castro Sarzane</placeName></persName>,
+            <roleName>palacii sacri notarius</roleName>, hanc cartam olim <pb n="321v"
+            xml:id="fol_321v"/> a <persName ref="#Bonencontrusnot">Bonencontro de <placeName
+              ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et autenticavi et
+          in publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+            <roleName>domino</roleName>
+          <persName ref="#Bonaiunctaiud">Bonaiuncta de <placeName ref="#PodioLucca">Podio de
+            Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+              ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre
+            <roleName>domino</roleName>
+          <persName ref="#GuilEpLuni">Guilielmo, <roleName>Lunensi episcopo</roleName>, et
+            <orgName ref="#Lucca_comune"><placeName ref="#Lucca">Lucano</placeName> communi</orgName></persName>, de qua auctoritate
+          constat per instrumentum publicum factum manu <persName ref="#Alcheriusnot">Alcherii
+              <roleName>notarii</roleName> de <placeName ref="#Lucca">Luca</placeName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 356-CCCLXXXXV databile tra il 1270 e
+            il 1272 dalla presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>. </p>
+      </div>
+
+    </body>
+  </text>
+</TEI>

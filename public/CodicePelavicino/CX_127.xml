@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CX_127">
+    <front xml:id="CX_front">
+
+      <titlePart type="numerazioneNuova">127</titlePart>
+      <titlePart type="numerazioneOrig">CX</titlePart>
+
+      <docDate xml:id="CX_docDate">
+        <date when="1235-05-29">1235 maggio 29</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in cassaro castri Sarzane</term>)</emph>.</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CX_regesto">
+        <p><term xml:lang="latin"/>Guglielmo, vescovo di Luni, loca in perpetuo a Dato del fu Guido
+            <term xml:lang="latin">de Montedarmo</term> un pezzo di terra, sito <term
+            xml:lang="latin">in Padule</term>, in località detta a <term xml:lang="latin"
+            >Margubio</term>, dietro corresponsione annuale di 2 &lt;denari&gt; di imperiali entro
+          il mese di gennaio.</p>
+      </div>
+
+      <div type="footer" xml:id="CX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 222v.- 223r., cc. CCXIIIIv.- CCXVr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 110,
+            p. 147.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>
+            <p>Stesura <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla presenza di
+              Bonagiunta de Podio di Lucca.</p> Nel margine esterno, di mano moderna: <emph>Livello
+              di terra di una giova loco detto al Padule in Margubio.</emph></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CX_div">
+        <p xml:id="CX_p_001" n="1">In Dei nomine, amen.<date when="1235-05-29">M°CC°XXXV, indictione
+            VIII, die martis, IIII° kalendas iunii</date>. In <placeName ref="#Sarzanello">cassaro
+            castri Sarzane</placeName>, coram <persName ref="#Peregrinusarc">Peregrino
+              <roleName>archipresbytero de <placeName ref="#Soliera"
+            >Soleria</placeName></roleName></persName>, <persName ref="#ParensPasqualini">Parente
+            quondam Pasqualini <roleName>castaldione</roleName></persName>, <persName
+            ref="#Codargollius">Codargollio</persName> et pluribus aliis testibus ad hec rogatis.
+          Venerabilis <persName ref="#GuilEpLuni">Guillermus, Dei gratia <roleName>Lunensis
+              episcopus</roleName></persName>, suo nomine et episcopatus, per se et successores suos
+          dedit, cessit et locavit <persName ref="#DatusGuidonis">Dato quondam Guidonis de
+              <placeName ref="#Montedarmo">Montedarmo</placeName></persName> et eius heredibus ab eo
+          descendentibus legitime, in perpetuum, unum iugerum terre site in <placeName ref="#Padule"
+            >Padule</placeName>, in loco dicto a <placeName ref="#Margubio">Margubio</placeName>,
+          cui sunt fines a tribus partibus terra curie, que non est locata adhuc, et ab una parte
+          heredes quondam <persName ref="#PaganellusZaccagni">Paganelli Çaccangni</persName>, cum
+          accessibus et cetera, promittens legitimam deffensionem et su<supplied reason="omitted"
+            >m</supplied>ptus omnes reficere, et potestatem inde tenutam intrandi ei dedit et se
+          eius nomine constituit possidere, reddendo omni anno <placeName ref="#Luni">curie
+            Lunensi</placeName> et cui dederit, per <pb n="223r" xml:id="fol_223r"/>mensem ianuarii,
+          fictam pensionem duos imperialium tantum; alia superimposta non fiat. Ambe partes, inter
+          se vicissim stipulantes, attendere et observare promiserunt, sub pena <measure
+            type="imperiales" quantity="10" unit="solidus">soldorum X imperialium</measure> solvenda
+          parti pactum fide servanti et cetera; et, ea soluta, rato pacto manente.</p>
+      </div>
+      <div xml:id="CX_div2" type="mundum">
+        <p xml:id="CX_p_002" n="2"><ptr target="#CX_st_001"/> Ego <persName ref="#Henricusnot"
+            >Henricus de <placeName ref="#Sarzanello">castro Sarzane</placeName>, <roleName>sacri
+              palatii notarius</roleName></persName>, hanc cartam olim a <persName
+            ref="#Bonencontrusnot">Bonencontro de <placeName ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et auttenticavi et
+          in publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+            <persName ref="#Bonaiunctaiud"><roleName>domino</roleName> Bonaiuncta de <placeName
+              ref="#PodioLucca">Podio de Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+                ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre
+          domino Lunensi episcopo et <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName>, de qua
+          auctoritate et decreto constat per instrumentum publicum factum manu <persName
+            ref="#Alcheriusnot">Alcherii <roleName>notarii</roleName> de <placeName ref="#Lucca"
+              >Luca</placeName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 127-CX databile tra il 1270 e il
+            1272 dalla presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

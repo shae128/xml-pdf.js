@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXXV_142">
+    <front xml:id="CXXV_front">
+
+      <titlePart type="numerazioneNuova">142</titlePart>
+      <titlePart type="numerazioneOrig">CXXV</titlePart>
+
+      <docDate xml:id="CXXV_docDate">
+        <date when="1234-11-26">1234 novembre 26</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in curia castri Sarzane</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXXV_regesto">
+        <p>Guglielmo, vescovo di Luni, loca a Paganello del fu Bernardo <term xml:lang="latin">de
+            Valmori</term>, che riceve a nome di sua moglie Francesca della fu Bonefatta <term
+            xml:lang="latin">de Paterno</term>, un podere, che un tempo teneva dalla curia lunense
+          Amico di Zugnaco, marito di Bonefatta, sito nei confini del castrum di <term
+            xml:lang="latin">Sarzane</term> e <term xml:lang="latin">in Paterno</term>. La locazione
+          costa 12 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CXXV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 229r., c. CCXXIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 125,
+            p. 158.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>L’indizione coincide, ma il 26 novembre 1234 era martedì e non domenica. <p>Stesura
+                <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla presenza di Bonagiunta
+              de Podio di Lucca.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXXV_div">
+        <p xml:id="CXXV_p_001" n="1">In Dei nomine amen.<date when="1234-11-26">M°CCXXXIIII,
+            indictione VII, die dominico, VI kalendas decembris</date>. In <placeName
+            ref="#Sarzanello">curia castri Sarzane</placeName>, coram <persName
+            ref="#ParensPasqualini">Parente q<supplied reason="omitted">u</supplied>ondam Pasqualini
+              <roleName>castaldione</roleName></persName>, <persName ref="#SalomonLucanus">domino
+            Salomone Lucano</persName>, <persName ref="#PetrusCapagno">Petro de <placeName
+              ref="#Capagno">Capagno</placeName></persName>, <persName ref="#Belleronus"
+              ><roleName>magistro</roleName> Bellerono</persName> et <persName
+            ref="#BonacaptuscastSarz">Bonacapto de <placeName ref="#Sarzanello">castro
+              Sarzane</placeName></persName>, testibus rogatis. Venerabilis <persName
+            ref="#GuilEpLuni">Guilielmus, Dei gratia <roleName>Lunensis
+            episcopus</roleName></persName>, per se et suos successores dedit et cessit et locavit
+            <persName ref="#PaganellusBernardi">Paganello quondam Bernardi de <placeName
+              ref="#Valmori">Valmori</placeName></persName>, recipienti pro se et uxore sua
+            <persName ref="#FrancescaBonefacte">Francesca, filia quondam <persName
+              ref="#BonefactePater">Bonefacte de <placeName ref="#Paternulo"
+              >Paterno</placeName></persName></persName>, et filiis et filiabus ab eis
+          descendentibus, in perpetuum, totum podere, tenutam atque tenimentum et possessionem, quod
+          et quam olim a curia habebat et tenebat sive habuit atque tenuit vel habere et tenere
+            fuit<note place="foot" n="a" xml:id="CXXV_n_001"><term type="incerto">fuit</term><emph>:
+              così nel testo.</emph></note>
+          <persName ref="#AmicusZug">Amicus de <placeName ref="#Zugnaco"
+            >Çugnaco</placeName></persName> pro dicta <persName ref="#BonefactePater"
+            >Bonafante</persName><note place="foot" n="b" xml:id="CXXV_n_002"><term type="incerto"
+              >Bonafante</term><emph>: così nel testo a citazione probabilmente di</emph>
+            <term xml:lang="latin">Bonefacta de Paterno</term></note>, uxore sua, situm in
+          confinibus <placeName ref="#Sarzanello">castri Sarzane</placeName> et in <placeName
+            ref="#Paternulo">Paterno</placeName> et etiam alibi, quicquid sit et quantumcumque et
+          ubicumque et quocumque decurrit vel inveniri poterit, agrum et cultum, plenum et vacuum,
+          divisum et indivisum, cum accessibus et regressibus suis et cetera, ad habendum,
+          laborandum, meliorandum et non deteriorandum, sine omni dicti domini episcopi et suorum
+          successorum et cuiuscumque persone contradictione, pro <measure type="Imperiales"
+            quantity="12" unit="solidus">soldis XII imperialium</measure>, quos confessus fuit se
+          inde ab eo servicium in veritate accepisse, renunciando exceptioni et cetera, stando idem
+            <persName ref="#PaganellusBernardi">Paganellus</persName> atque eius heredes, quos ex ea
+          habuit, exinde homines curie et confitendo se hominem esse curie et solvendo et prestando
+          curie omnes illos redditus, condictiones, factiones et usantias, que<note place="foot"
+            n="c" xml:id="CXXV_n_003"><term type="incerto">que</term><emph>: così nel
+            testo.</emph></note> et quas exinde vel proinde solvere vel prestari<note place="foot"
+            n="e" xml:id="CXXV_n_005"><term type="incerto">prestari</term><emph>: così nel
+              testo.</emph></note> Lunensi curie consuevit huc usque vel solvi debetur, et promisit
+          quoque et iuravit ipsos redditus et condictiones sic facere curie ut alii tenentur facere
+          de suprascripto masio vel de consimilibus et cetera.</p>
+      </div>
+      <div xml:id="CXXV_div2" type="mundum">
+        <p xml:id="CXXV_p_002" n="2"><ptr target="#CXXV_st_001"/> Ego <persName
+            ref="#HengeramusParentisnot">Hengherramus quondam Parentis de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName>, <roleName>palacii sacri
+              notarius</roleName></persName>, hanc cartam olim a <persName ref="#Bonencontrusnot"
+            >Bonencontro de <placeName ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et auttenticavi et
+          in publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+          domino <persName ref="#Bonaiunctaiud"><roleName>domino</roleName> Bonaiuncta de <placeName
+            ref="#PodioLucca">Podio de Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+              ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre
+          domino Lunensi episcopo et <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName>, de qua
+            auctoritate<note place="foot" n="e" xml:id="CXXV_n_006"><term type="incerto"
+              >auctoritate</term><emph>: così nel testo segue espunto</emph>
+            <term xml:lang="latin">et decreto</term></note> constat per instrumentum publicum factum
+          manu <persName ref="#Alcheriusnot">Alcherii <roleName>notarii</roleName> de <placeName
+              ref="#Lucca">Luca</placeName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 142-CXXV databile tra il 1270 e il
+            1272 dalla presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

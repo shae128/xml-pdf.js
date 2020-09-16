@@ -1,0 +1,196 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXXXXI_502">
+    <front xml:id="DXXXXI_front">
+
+      <titlePart type="numerazioneNuova">502</titlePart>
+      <titlePart type="numerazioneOrig">DXXXXI</titlePart>
+
+      <docDate xml:id="DXXXXI_docDate">
+        <date when="1186-11-12">1186 novembre 12</date>, <placeName ref="#Sarzana"> Sarzanello
+            (<term xml:lang="latin">in palatio castri Sarzane</term>).</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="DXXXXi_regesto">
+        <p>Il vescovo di Luni Pietro concede all’abate e al capitolo di S. Michele d’Orticaria la
+          località e la chiesa di Santa Croce del Corvo, istituita dal vescovo Pipino e ora priva di
+          persone, al censo simbolico di un massamutino l’anno da versare in occasione della
+          celebrazione del ritrovamento della Santa Croce (3 maggio). L’abate potrà raccogliere la
+          decima solo dalle terre che gli sono state assegnate al momento dell’istituzione e da
+          quelle acquisite in seguito; la cura spirituale deve essere limitata al personale
+          religioso e laico della chiesa ma i monaci possono accogliere le puerpere in chiesa per il
+          rito della purificazione; si può dare sepoltura a pellegrini e viandanti solo se giunti in
+          punto di morte e dando un terzo dei beni eventualmente ricevuti all’arciprete di Ameglia,
+          entro la cui parrocchia la chiesa si trova. Se per caso un malato decidesse di farsi
+          monaco e poi farsi seppellire in Santa Croce, questo gli sia lecito a patto che riceva
+          prima la penitenza dal prete della sua parrocchia: metà di tutti i suoi beni dati in
+          testamento devono essere versati a tale parrocchia, un terzo dei beni mobili se guarisce e
+          a sua libera volontà se invece si fa monaco da sano. La chiesa è esentata dalle tasse sul
+          pascolo, la raccolta di erba, lo sfruttamento del bosco e la caccia. </p>
+      </div>
+
+      <div type="footer" xml:id="DXXXXI_footer">
+
+        <div type="orig_doc">
+          <p>Copia autentica [C] cc. 400v.-401r., cc. CCCLXXXXIIv.-CCCLXXXXIIIr. secondo la
+            numerazione originale.</p>
+        </div>
+
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#PODESTÀ_1894">Podestà 1894</ref>, pp. 121-123; <ref
+              target="#LUPO_GENTILE_1912">LUPO GENTILE, 1912</ref>, n. 541, pp. 612-615.</p>
+
+        </div>
+
+        <div type="crit_notes">
+          <note>
+            <p>Autentica non facilmente databile, probabilmente da ascriversi alla seconda metà del
+              XIII secolo. Il termine <term xml:lang="latin">parochia/parrochia</term> e suoi
+              derivati dovrebbero essere riferiti alla pieve.</p>
+            <p>Nel margine superiore, al centro: <term xml:lang="latin">De Sancta Cruce</term></p>
+            <p>Nel margine esterno, di mano moderna: <term xml:lang="latin">Corvo</term></p></note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">LXXXVII.
+              Sententia de medietate bannorum concessa in feudum burgensibus.</term></p>
+        </div>
+      </div>
+    </front>
+
+
+    <body>
+      <div xml:id="DXXXXI_div">
+        <p xml:id="DXXXXI_p_001" n="1">
+          <persName ref="#PetrusEpLuni">Petrus</persName>, <roleName>Dei gratia Sancte Lunensis
+            Ecclesie</roleName> minister humilis, karissimis in Christo fratribus abbati et universo
+          capitulo <orgName ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis de <placeName
+              ref="#Orticaria">Orticaria</placeName></orgName>, in perpetuum. Pontificalis officii
+          dignitas exigit extirpare vicia et plantare virtutes ut in agro Dominice sationis tribuli
+          et spine deficiant et frumenti ubertate crescente possit in Domino gloriari, qui solus
+          bonis dat operibus incrementum. Quia igitur, peccatis exigentibus, Lunensis episcopatus
+          multa ob religiosarum personarum paupertatem laborat, quendam locum solitarium, qui
+          dicitur <placeName ref="#Corvo">Corvus</placeName>, cum ecclesia eiusdem loci <orgName
+            ref="#Corvo_S_Croce">Sancte Crucis</orgName> religioni, sicut creditur aptum, a bone
+          memorie <persName ref="#PipEpLuni">Pipino</persName>
+          <roleName>predecessore nostro</roleName> institutum et personarum defectu iam fere penitus
+          anullatum, vobis et per vos ecclesie vobis commisse ad habendum et utendum et presertim in
+          religione, Domino adiuvante, et honestate in habitu monasticho iugiter conservandum,
+          absolute et libere damus atque concedimus cum omnibus que iuste nunc possidet mobilibus
+          vel immobilibus vel in antea, prestante Domino, canonice portitis<note place="foot" n="a"
+            xml:id="DXXXXI_n_001">portitis: <emph>così nel testo per</emph> poteritis. </note>
+          adipisci, ita ut vos vestrique successores liberam habeatis potestatem monachos ibidem
+          collocare vel removere, priores vel maiores, quos vestro arbitrio dignos iudicaveritis,
+          instituere atque deponere, reservata tamen nobis in eodem loco <pb n="401r"
+            xml:id="fol_401r"/> nostrisque successoribus in spiritualibus episcopalis officii
+          dignitate. Pro temporalibus vero nichil aliud preter massamutinum unum census nomine,
+          singulis annis, in inventione Sancte Crucis, nobis nostrisque successoribus persolvetis.
+          Verum, quoniam decime tocius Lunensis episcopatus certis sunt locis et personis assignate,
+          ut omnis litigandi servis Dei occasio auferatur, exceptis terris illis que a predecessore
+          nostro et nobis eidem loco de voluntate fratrum et canonicorum nostrorum concesse sunt et
+          assignate, de terris aliis, quas sive manibus propriis vel etiam sumptibus colueritis, eis
+          quibus persolvi debent et consueverant, sine contradictione aliqua persolvetis. Et quoniam
+          locus ipse et ecclesia solitaria esse debet et nullum parrochum habere, fratribus et
+          conversis et familiaribus vestris dumtaxat, qui in cotidiano victu vobiscum fuerint,
+          spiritualia ministrabitis; alienis vero parrochianis vobis non licet capsellam nec
+          penitenciam publicam dare; mulierem quoque enixam in purificatione recipietis. De advenis
+          etiam et peregrinis, preter voluntatem archypresbyteri de <placeName ref="#Ameglia"
+            >Amelia</placeName>, in cuius <orgName ref="#Ameglia_S_Vincenzo">parrochia</orgName>
+          locus ipse situs est, si ad vos aliquem declinare contigerit, vos ullatenus intromitetis
+          quatenus ad penitenciam publicam et sepulturam, nisi in mortis articulo fuerit
+          constitutus; et tunc, si ibi sepultus fuerit, terciam partem omnium rerum, que per ipsum
+          ad vos devenerint, predicto archipresbytero persolvetis. Porro si aliquis, in infirmitate
+          positus, devotionis intuitu monastichum habitum recipere voluerit vel in conversum se in
+          eodem loco dederit et se apud vos deliberavit sepeliri, accepta prius penitencia a
+          presbytero de cuius parrochia est, liceat vobis ipsum sine cuiusquam contradictione
+          recipere, ita quidem quod medietatem tocius testamenti, quod fecerit, rerum mobilium vel
+          immobilium, ecclesie vel sacerdoti de cuius parrochia fuerit in integrum et sine molestia
+          persolvetis; redactis in summam omnibus que vobis et ecclesie sue forte reliquerit, fiat
+          iamdicta divisio: sic enim a beatissimo Leone papa in decreto relatum est auribus nostris
+          dignoscitur institutum. Quod, si forte de infirmitate illa evaserit, ecclesia, cuius
+          parrochianus extitit, de rebus mobilibus que ipse testatus est terciam partem habeat; et
+          nulla divisio de rebus immobilibus iudicatis fiat. Si vero quispiam, in sanitate positus,
+          ad conversionem ad vos venerit, liberam habeatis facultatem ipsum recipiendi, facto tamen
+          prius testamento, secundum quod Deus sibi inspiraverit, ecclesie cuius parrochianus
+          extiterat. Preterea in herbatico sive pascatico ultra LX animalia, aut in cachia vel
+          boscatico seu in aliis obventionibus, in mari vel terra, de quibus epscopalis curia
+          utilitatem percipere consuevit, nullam vobis, preter voluntatem episcopi, concedimus
+          facultatem. Ut autem hec nostra concessio sive donatio, quemadmodum superius continetur,
+          firmiter debeat ab utraque parte et inviolabiliter observari, non obstante aliquo
+          privilegio vobis adhuc indulto vel in posterum nisi de voluntate Lunensis episcopi
+          indulgendo, sub pena <measure type="Imperiales" quantity="100" unit="solidus">C librarum
+            argenti</measure> statuimus observandam et sigilli nostri impressione decrevimus
+          roborare, ita quidem quod, si a nostra parte scienter fuerit violata, nisi requisiti
+          congrue emendaverimus, predictam penam solvamus; si autem scienter a vestra et a nobis
+          requisiti rationabiliter satisfacere nolueritis, penam iamdictam solvatis. Hoc itaque
+          privilegio firmiter constituto, sub anathematis pena santtimus<note place="foot" n="b"
+            xml:id="DXXXXI_n_002">santtimus: <emph>così nel testo </emph></note> ac constituimus ut
+          nullus nostrorum successorum vel quisquam hominum, aliqua presumptionis audacia, super hac
+          nostra largitione predictum monasterium valeat aliquibus perturbationibus propulsare vel
+          fatigare molestiis.</p>
+        <p xml:id="DXXXXI_p_002" n="2">Actum est <date when="1186-11-12">anno M°C octogesimo VI,
+            indictione V, in palatio <placeName ref="#Sarzana">castri Sarzane</placeName>, die
+            mercurii, qui fuit XII intrantis mensis novembris.</date> # Signa manuum suprascripti
+          domini episcopi, qui hanc cartulam fieri rogavit<note place="foot" n="c"
+            xml:id="DXXXXI_n_003">rogavit: r <emph>>corretta su</emph> c</note>. † Ego <persName
+            ref="#PetrusEpLuni">Petrus</persName>, <roleName>Dei gratia sancte Lunensis Ecclesie
+            minister humilis</roleName>, hanc donationis et constitutionis cartulam fieri iussi et
+          manu propria in ea subscripsi. Ego <persName ref="#Guilielmuscan">Guilielmus</persName>
+          <roleName>Lunensis archipresbyter</roleName> subscripsi. Ego <persName ref="#Rodulfusarc"
+            >Rodulfus</persName>
+          <roleName>archidyaconus</roleName> subscripsi.</p>
+        <p xml:id="DXXXXI_p_003" n="3">
+          <ptr target="#DXXXXI_st_001"/> # # Signa manuum <persName ref="#Rodulfusarc"
+            >Rodulfi</persName>
+          <roleName>archidyaconi</roleName>, <persName ref="#Gibertinus_dyaconus"
+            >Gibertini</persName>
+          <roleName>dyaconi Lunensis episcopi</roleName>, <persName ref="#Albertusvic"
+            >Alberti</persName>
+          <roleName>vicedomini</roleName>, <persName ref="#Ventura_ses">Venture</persName>
+          <roleName>sescalci domini episcopi</roleName>, <persName ref="#RollandusSalomone">Rollandi
+            de Salomone</persName> et <persName ref="#GibertinusMabilia">Gibertini de
+            Mabilia</persName>
+          <roleName>consulum</roleName> de <placeName ref="#Sarzana">Sarzana</placeName>, rogatorum
+          testium. </p>
+        <p xml:id="DXXXXI_p_004" n="4">Ego <persName ref="#Lombardusnot">Lombardus</persName>,
+            <roleName>domini imperatoris et Lunensis curie notarius</roleName>, interfui et rogatus
+          hanc cartulam scripsi. </p>
+      </div>
+      <div xml:id="DXXXXI_div1" type="autentica">
+        <p xml:id="DXXXXI_p_005" n="5"><ptr target="#DXXXXI_st_002"/> Ego <persName
+            ref="#IohannesBonacciani_notarius">Iohannes, filius quondam Bonacciani</persName> de
+            <placeName ref="#Vico2">Vico</placeName>, <roleName>domini Frederici Romanorum
+            imperatoris iudex et notarius</roleName>, autenticum huius vidi et legi et ipsum de
+          verbo ad verbum fideliter exemplavi. </p>
+        <p xml:id="DXXXXI_p_006" n="6"><ptr target="DXXXXI_st_003"/> Ego <persName
+            ref="#Ildeinus_notarius">Ildeinus, filius Iohannis</persName> de <placeName
+            ref="#Navachio">Navachio</placeName>, <roleName>domini Frederici Romanorum imperatoris
+            notarius</roleName>, autenticum huius vidi et legi ideoque huic fideliter subscripsi. </p>
+        <p xml:id="DXXXXI_p_007" n="7"><ptr target="DXXXXI_st_004"/> Ego <persName
+            ref="#BartholomeusBonacursi">Bartholomeus, Bonacursi filius</persName>, <roleName>domini
+            Frederici, Dei gratia Romanorum imperatoris notarius</roleName>, autenticum huius vidi
+          et legi ideoque huic fideliter subscripsi et meum signum apposui. <note> Autentica del
+            documento 502-DXXXXI priva di data, presumibilmente della seconda metà del XIII secolo
+            per la presenza del notaio Giovanni del fu Bonacciano. <date notBefore="1250-01-10"
+              notAfter="1299-12-31" cert="low"/></note>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

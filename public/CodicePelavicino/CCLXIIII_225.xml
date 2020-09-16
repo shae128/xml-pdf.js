@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXIIII_225">
+    <front xml:id="CCLXIIII_front">
+
+      <titlePart type="numerazioneNuova">225</titlePart>
+      <titlePart type="numerazioneOrig">CCLXIIII</titlePart>
+
+      <docDate xml:id="CCLXIIII_docDate">
+        <date when="1202-12-03">1202 dicembre 3</date>, <placeName>Sarzanello (<term
+            xml:lang="latin">in palacio castri Sarzane</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXIIII_regesto">
+        <p>Ugolino di Marzeno giura fedeltà a Gualtiero, vescovo di Luni contro tutti gli uomini
+          eccetto che contro Guglielmino, marchese di Massa, e suo figlio Guido e Lanfranco di
+          Erberia, ai quali aveva giurato fedeltà. Dato che Guglielmino, Guido e Lanfranco non
+          avevano dato a Ugolino il feudo promesso, era possibile che Ugolino potesse non
+          eccettuarli dall’impegno col vescovo. Nell’incertezza si stabilisce tuttavia che se
+          Ugolino è legato a loro, essi devono essere eccettuati, in caso contrario no. Ugolino si
+          impegna a far giurare la fedeltà, se riesce, anche tutti i suoi consorti, che, per il
+          podere di Marzeno, erano uomini del monastero di Aulla. Ugolino e consorti devono dare al
+          vescovo, annualmente una libbra di pepe e quattro formaggi, ma se i consorti non
+          concordano l’impegno per Ugolino è solo di una libbra di pepe. Per tale fedeltà e reddito
+          il vescovo si impegna a tutelare Ugolino e consorti come suoi vassalli.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 268v., c. CCLXv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 264,
+            pp. 243-244.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il documento è privo di sottoscrizione notarile.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXIIII_div">
+        <p xml:id="CCLXIIII_p_001" n="001">In Dei nomine, amen.<date when="1202-12-03"> Anno a
+            nativitate Eius MCCII°, indictione V, die martis, tercio intrante decembri</date>,
+          presentibus testibus infrascriptis.<persName ref="#UgolinusMarzeno">Ugolinus de <placeName
+              ref="#Marzeno">Marzeno</placeName></persName> fecit tale pactum cum domino <persName
+            ref="#GualEpLuni">Walterio, Dei gratia <roleName>Lunensi episcopo</roleName></persName>,
+          quod iuravit ei fidelitatem contra omnes homines, set excepit inde <persName
+            ref="#GuilielminusMassa">Guilielminum, marchionem de <placeName ref="#Massa"
+              >Massa</placeName></persName>, et filium eius <persName ref="#GuidoGerardiHerb"
+            >Guidonem</persName> et <persName ref="#LanfrancusHerberia">Lanfrancum de <placeName
+              ref="#Erberia">Herberia</placeName></persName>, quibus iuraverat fidelitatem; set quia
+          non dederunt ei promissum feudum, dicebant ibi quod non tenebatur eis; tamen excepit eos
+          tali pacto quod, si tenetur eis, sint inde excepti, sin autem non. Et heredes ipsius
+            <persName ref="#UgolinusMarzeno">Ugolini</persName> debeant contra omnes homines
+          similiter iurare fidelitatem dicto domino episcopo et successoribus eius; et promisit ipse
+            <persName ref="#UgolinusMarzeno">Ugolinus</persName> facere, si poterit, quod omnes sui
+          consortes, qui pro podere de <placeName ref="#Marzeno">Marzeno</placeName> erant homines
+            <orgName ref="Aulla_S_Caprasio">monasterii de <placeName ref="#Aulla"
+            >Avula</placeName></orgName>, iurent fidelitatem similiter ipsi domino episcopo et
+          successoribus eius; et, si poterit consortes suos ad hoc concordare, debeat ipse cum
+          omnibus dictis suis consortibus dare annuatim ipsi domino episcopo et successoribus eius,
+          infra octavam nativitatis Domini, libram I piperis et IIIIor caseos tantum; si vero dictos
+          suos consortes ad hoc nequiverit concordare, ipse tamen cum suis heredibus libram I
+          piperis tantum annuatim, in dicto termino, dare domino episcopo et eius successoribus
+          teneatur. Et pro hac fidelitate et redditu dominus episcopus et successores sui teneantur
+          deffendere et manutenere eumdem <persName ref="#UgolinusMarzeno">Ugolinum</persName> et
+          suos heredes, in personis et rebus, et dictos eius consortes, si voluerint ad hoc
+          concordare, se et eorum heredes similiter, ubicumque, sicut suos vassallos et fideles, et
+          nominatim in omnibus suis terris. Et sic ei promiserunt.</p>
+        <p xml:id="CCLXIIII_p_002" n="002">Actum in palacio <placeName ref="#Sarzanello">castri
+            Sarzane</placeName>, sollempniter, cum stipulatione. Ibi fuerunt rogati testes <persName
+            ref="#BonaiunctaMonti">Bonaiuncta de Monti <roleName>dyaconus</roleName></persName>,
+            <persName ref="#Bonacursuscas">Bonacursus <roleName>castaldus</roleName></persName>,
+            <persName ref="#ArmanninusTrebiano">Armanninus de <placeName ref="#Trebiano"
+              >Trebiano</placeName></persName> et <persName ref="#GerardetusRossus">Gerardetus
+            Rossus <roleName><term ref="#scarius">escarius</term></roleName></persName>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

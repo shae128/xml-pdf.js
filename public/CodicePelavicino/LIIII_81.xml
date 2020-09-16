@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="LIIII_81">
+        <front xml:id="LIIII_front">
+
+            <titlePart type="numerazioneNuova">81</titlePart>
+            <titlePart type="numerazioneOrig">LIIII</titlePart>
+
+            <docDate xml:id="LIIII_docDate">
+                <date when="1219-04-28">1219 aprile 28</date> - <date when="1219-05-01">1219 maggio
+                    1</date>, <placeName>Sarzana</placeName> (<term xml:lang="latin">in ecclesia
+                    Sancte Marie de Sarzano; Sarzani, in domo et ante domum Urceoli; in ecclesia
+                    Sancte Marie</term>) </docDate>
+
+            <div type="regesto" xml:id="LIIII_regesto">
+                <p>Marabotino podestà di Sarzana e diversi altri uomini di Sarzana, esplicitamente
+                    elencati, giurano di osservare i patti stipulati fra alcuni burgensi di Sarzana
+                    e il defunto vescovo Gualtiero secondo quanto risulta dall’atto rogato dal
+                    notaio Conforto.</p>
+            </div>
+
+            <div type="footer" xml:id="LIIII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 157r.-158r., cc. CXXXXVIIIIr.-CLr. secondo la numerazione
+                        originale.</p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 54, pp. 89-90, con la data maggio 1.</p>
+                </div>
+
+                <div type="crit_notes">
+                    <note>
+                        <p>Nel testo Lupo Gentile omette il giorno, in realtà presente nel
+                            documento. Vengono così a cadere le osservazioni di <ref
+                                target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 10.</p>
+                        <p>Nel margine esterno di c. 157r. la seguente annotazione di mano moderna:
+                                <term xml:lang="latin">Iuramentum observantie omnium pactorum inter
+                                Sarzanenses et episcopum</term>.</p>
+                    </note>
+                </div>
+
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LIIII. Iuraverunt homines de Sarçana actendere et
+                            observare pacta que continentur in carta manu notarii Conforti.
+                        </term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="LIIII_div">
+                <p xml:id="LIIII_p_001" n="1"> In nomine Domini, amen. Tactis sacrosanctis
+                    evangeliis, iuraverunt omnes atque singuli, quorum nomina inferius leguntur,
+                    attendere et observare atque firma et pacta<note place="foot" n="a"
+                        xml:id="LIIII_n_001">pacta: <emph>così nel testo per</emph> rata.</note>
+                    habere atque tenere et non contravenire omnia pacta et conventiones et
+                        eorum<note place="foot" n="b" xml:id="LIIII_n_002">eorum: <emph>così nel
+                            testo, probabilmente per </emph>omnia et.</note> singula, que
+                    continentur in carta per manum Conforti notarii facta et que a quibusdam
+                    burgensibus <placeName ref="#Sazana">Sarzani</placeName>, cum bone et felicis
+                    memorie <persName ref="#GalcheriusEpLuni"><roleName>domino</roleName> Walterio,
+                            <roleName>Lunensi episcopo</roleName></persName>, sunt ordinata et
+                    facta, sicut per predictam cartam patet et liquet, exceptis hiis que remiserit,
+                    si qua vel quas de predictis pactis et conventionibus remiserit, dominus Dei
+                    gratia venerabilis Lunensis episcopus per se vel per alium pro eo. Nomina
+                    iuratorum sunt hec: <persName ref="#Marabotinus_potestas">Marabotinus <placeName
+                            ref="#Sarzana">Sarzani</placeName>
+                        <roleName>potestas</roleName></persName>, <persName ref="#GerardusVillani"
+                        >Gerardus Villani</persName>
+                    <persName ref="#Masnerius">Masnerius</persName>, <persName
+                        ref="#GrimaldettusAlberti">Grimaldettus Alberti</persName>, <persName
+                        ref="#PhilippusIoffredi">Philippus Ioffredi</persName>, <persName
+                        ref="#Portonarius">Portonarius</persName>, <persName
+                        ref="#Buldroncinus_Bulgarini">Buldroncinus filius Bulgarini</persName>,
+                        <persName ref="#Schiavus">Schiavus</persName>, <persName
+                        ref="#BonencontrusAmelia">Bonencontrus de <placeName ref="#Ameglia"
+                            >Amelia</placeName></persName>, <persName ref="#AttolinusCacti"
+                        >Attolinus Cacii</persName>, <persName ref="#Çanfardus"
+                    >Çanfardus</persName>, <persName ref="#RollandinusTorselli">Rollandinus
+                        Torselli</persName>, <persName ref="#Raulis">Raulis</persName>, <persName
+                        ref="#Salvanus">Salvanus</persName>, <persName ref="#Prefectusnot">Prefectus
+                            <roleName>notarius</roleName></persName>, <persName ref="#Guilicionus"
+                        >Guilcionus</persName>, <persName ref="#Benenatus">Benenatus</persName>,
+                        <persName ref="#Detaiutus">Detaiutus</persName>, <persName
+                        ref="#Bonacursus_casarolus">Bonacursus
+                        <roleName>casarolus</roleName></persName>, <persName ref="#Simonetusnot"
+                        >Symonetus</persName>, <persName ref="#Raimundus_becarius">Raymundus
+                            <roleName>becarius</roleName></persName>, <persName ref="#Çovellus"
+                        >Çovellus</persName>, <persName ref="#Henricus_spatarius">Henricus
+                            <roleName>spartarius</roleName></persName>, <persName
+                        ref="#Salamon_merçadrus">Salamon <roleName>merçadrus</roleName></persName>,
+                        <persName ref="#BonensegnaForbitoris">Bonensegna Forbitoris</persName>,
+                        <persName ref="#Bellomus_calçolarius">Bellomus
+                            <roleName>calçolarius</roleName></persName>, <persName ref="#Ançelus"
+                        >Ançelus</persName>, <persName ref="#BonusCastagnoli">Bonus filius
+                        Castagnoli</persName>, <persName ref="#Albertus_cunçator">Albertus
+                            <roleName>cunçator</roleName></persName>, <persName
+                        ref="#PalmeriusPetri">Palmerius Petri de Davino</persName>, <persName
+                        ref="#BonacursetrusProva">Bonacursettus de <placeName ref="#Prova"
+                            >Prova</placeName></persName>, <persName ref="#Bonaposa"
+                        >Bonaposa</persName>, <persName ref="#Compagnetus">Compagnetus</persName>,
+                        <persName ref="#Iohannes_spatarius">Iohannes
+                        <roleName>spartarius</roleName></persName>, <persName ref="#Garletus"
+                        >Garletus</persName>, <persName ref="#GuidoPenticus">Guido
+                        Penticus</persName>, <persName ref="#PetrusFeleteria">Petrus de <placeName
+                            ref="#Feleteria">Felet<supplied reason="illegible">eria</supplied><note
+                                place="foot" n="c" xml:id="LIIII_n_003">Feleteria: <emph>la parte
+                                    finale della parola è di lettura incerta a causa dell’inchiostro
+                                    sbiadito</emph>.</note></placeName></persName>, <persName
+                        ref="#Mannus_calçolarius">Mannus
+                    <roleName>calçolarius</roleName></persName>, <persName ref="#Ronçaninus"
+                        >Ronçaninus</persName>, <persName ref="#MartinusPennatus">Martinus
+                        Pennatus</persName>, <persName ref="#Rollandinus_albergator">Rollandinus
+                            <roleName>albergator</roleName></persName>, <persName
+                        ref="#GerardinusScocia">Gerardinus Scocia</persName>, <persName
+                        ref="#PiçolbonusAlberto">Piçolbonus de Alberto
+                            <roleName>corbellario</roleName></persName>, <persName
+                        ref="#Malguarçonus">Malguarçonus</persName>, <persName ref="#Brisacul"
+                        >Brisacul</persName>, <persName ref="#Paganinus_calçolarius">Paganinus
+                            <roleName>calçolarius</roleName></persName>, <persName
+                        ref="#AlbertinusBonensengna">Albertinus de Bonensengna Vitalis de
+                        Donadeo</persName>, <persName ref="#Laurentius">Laurentius</persName>,
+                        <persName ref="#UgolinusTregnana">Ugolinus de <placeName ref="#Tregnana"
+                            >Tregnana</placeName></persName>, <persName ref="#GuidoValerano">Guido
+                        de <placeName ref="#Valerano">Vallerano</placeName></persName>, <persName
+                        ref="#Bonensegna_pelliçarius">Bonensegna pelliçarius</persName>, <persName
+                        ref="#GerardinusRubeus">Gerardinus Rubeus</persName>, <persName
+                        ref="#Martinus_magister">Martinus <roleName>magister</roleName></persName>,
+                        <pb n="157v" xml:id="fol_157v"/>
+                    <persName ref="#VitalisForti">Vitalis de Forti</persName>, <persName
+                        ref="#Passanus">Passanus</persName>, <persName ref="#Amatus"
+                        >Amatus</persName>, <persName ref="#ArmanninusMarrocca">Armanninus de
+                        Marrocca</persName>, <persName ref="#Rabitellus">Rabitellus</persName>,
+                        <persName ref="#AcorsettusRogerio">Acorsettus de Rogerio</persName>,
+                        <persName ref="#Compagnonus_barberius">Compagnonun
+                            <roleName>barberius</roleName></persName>, <persName ref="#Salvettus"
+                        >Salvettus</persName>, <persName ref="#BonencontrusPonçano">Bonencontrus de
+                            <placeName ref="#Ponzano">Ponçano</placeName></persName>, <persName
+                        ref="#Lanfranchinus_becarius">Lanfranchinus
+                        <roleName>becarius</roleName></persName>, <persName ref="#RayneriusYlice"
+                        >Raynerius de <placeName ref="#Ylice">Ylice</placeName></persName>,
+                        <persName ref="#BonaiunctaBeagua">Bonaiuncta Beagua</persName>, <persName
+                        ref="#Bernarducius">Bernarducius</persName>, <persName
+                        ref="#BenvenutusBeagua">Benvenutus Beagua</persName>, <persName
+                        ref="#BonacursusCancio">Bonacursus de Cancio</persName>, <persName
+                        ref="#AcorsettusBallanelli">Acorsettus Ballanelli</persName>, <persName
+                        ref="#BastardusGuerrini">Bastardus Guerrini</persName>, <persName
+                        ref="#Galterius_merçadrus">Galterius
+                        <roleName>merçadrus</roleName></persName>, <persName
+                        ref="#MarchesellusDiliana">Marchesellus de Diliana</persName>, <persName
+                        ref="#Stephanus">Stephanus</persName>, <persName ref="#VitaTosa">Vita de
+                            <placeName ref="#Tosa">la Tosa</placeName></persName>, <persName
+                        ref="#Falconetus">Falconetus</persName>, <persName ref="#BenvenutusIuncta"
+                        >Benvenutus de Iuncta</persName>, <persName ref="#GuilielmusPiançabollicus"
+                        >Guilielmus Piançabollicus</persName>, <persName ref="#ThodescusChiausura"
+                        >Thodescus de <placeName ref="#Chiausura">Chiausura</placeName></persName>,
+                        <persName ref="#AlbertinusSoleano">Albertinus de <placeName ref="#Soleano"
+                            >Soleano</placeName></persName>, <persName ref="#Bonifacius_becarius"
+                        >Bonifacius <roleName>becarius</roleName></persName>, <persName
+                        ref="#OddoChiausura">Oddo de Chiausura</persName>, <persName ref="#Augustus"
+                        >Augustus</persName>, <persName ref="#Albericus">Albericus</persName>,
+                        <persName ref="#GerardinusPonçano">Gerardinus de <placeName ref="#Ponzano"
+                            >Ponçano</placeName></persName>, <persName ref="#Busetinus"
+                        >Busetinus</persName>, <persName ref="#CharidoeChiausura">Charidoe de
+                            <placeName ref="#Chiausura">Chiausura</placeName></persName>, <persName
+                        ref="#RodulfinusCisirano">Rodulfinus de <placeName ref="#Ceserano"
+                            >Cisirano</placeName></persName>, <persName ref="#AcorsettusChiausura"
+                        >Acorsettus de <placeName ref="#Chiausura">Chiausura</placeName></persName>
+                    <persName ref="#GerardinusPalanca">Gerardinus Palanca</persName>, <persName
+                        ref="#Petrus_pelliçarius">Petrus
+                    <roleName>pelliçarius</roleName></persName>, <persName ref="#Vivasinus_becarius"
+                        >Vivasinus <roleName>becarius</roleName></persName>, <persName
+                        ref="#LanfranchinusChiausura">Lanfranchinus de <placeName ref="#Chiausura"
+                            >Chiausura</placeName></persName>, <persName ref="#Iuncta_ferrarius"
+                        >Iuncta <roleName>ferrarius</roleName></persName>, <persName
+                        ref="#Chastaçoleis">Chastaçoleis</persName>, <persName
+                        ref="#BonacercusPelliçione">Bonacercus de Pelliçione</persName>, <persName
+                        ref="#Guilielmus_çavaterius">Guilielmus
+                        <roleName>çavaterius</roleName></persName>, <persName ref="#BondiesSalsiça"
+                        >Bondies Salsiça</persName>, <persName ref="#Russettus"
+                    >Russettus</persName>, <persName ref="#Pallucus">Pallucus</persName>, <persName
+                        ref="#DonaiutusCorveto">Donaiutus de <placeName ref="#Corveto"
+                            >Corveto</placeName></persName>, <persName ref="#VitaSalvecta">Vita de
+                        Salvecta</persName>, <persName ref="#Philippetus">Philippetus</persName>,
+                        <persName ref="#Conradus_testor">Conradus
+                        <roleName>testor</roleName></persName>, <persName ref="#HenricusThucius"
+                        >Henricus Thucius</persName>, <persName ref="#PerinusPocolina">Perinus de
+                        Pocolina</persName>, <persName ref="#Guiçolus_becarius">Guiçolus
+                            <roleName>becarius</roleName></persName>, <persName
+                        ref="#Vivasinus_ferrarius">Vivasinus
+                        <roleName>ferrarius</roleName></persName>, <persName
+                        ref="#Guilielmetus_calçolarius">Guilielmetus
+                            <roleName>calçolarius</roleName></persName>, <persName
+                        ref="#PetrusRubeus">Petrus Rubeus</persName>, <persName ref="#Çugnus"
+                        >Çugnus</persName><note place="foot" n="d" xml:id="LIIII_n_004">Çugnus:
+                            <emph>nel testo</emph> Çuginus<emph> con</emph> i
+                        <emph>espunta</emph>.</note>, <persName ref="#AcorsettusRubertino"
+                            >Acorsetus<note place="foot" n="e" xml:id="LIIII_n_005"><emph>Segue
+                                spazio bianco per mm. 18, riempito da un tratto
+                            orizzontale</emph>.</note> de Rubertino</persName>, <persName
+                        ref="#Çucus">Çuccus</persName>, <persName ref="#AlbertusScocia">Albertus
+                        Scocia</persName>, <persName ref="#UgolinusPennati">Ugolinus
+                        Pennati</persName>, <persName ref="#RollandinusMontecello">Rollandinus de
+                            <placeName ref="#Montecello">Monticello</placeName></persName>,
+                        <persName ref="#Philippinus">Philippinus</persName>, <persName
+                        ref="#Riccomannus">Riccomannus</persName>, <persName
+                        ref="#RainaldusPontremulo">Raynaldus de <placeName ref="#Pontremoli"
+                            >Pontremulo</placeName></persName>, <persName ref="#Guidocopa">Guido de
+                        la <placeName ref="#Copa">Copa</placeName></persName>, <persName
+                        ref="#Riçardus">Riçardus</persName>, <persName ref="#Fornasensis"
+                        >Fornasensis</persName>, <persName ref="#Albertinus_arcarius">Albertinus
+                            <roleName>arcarius</roleName></persName>, <roleName>magister</roleName>
+                    <persName ref="#Armannusmagister ">Armannus</persName>, <persName
+                        ref="#RollandusCarentana">Rollandus de <placeName ref="#Carentana"
+                            >Carentana</placeName></persName>, <persName
+                        ref="#Albertus_corbellarius">Albertus
+                        <roleName>corbellarius</roleName></persName>. <persName ref="#Çeninettus"
+                        >Çeninettus</persName><note place="foot" n="f" xml:id="LIIII_n_006"
+                        >Çeninettus: <emph>lettura incerta a causa dell’inchiostro
+                        sbiadito</emph>.</note>, <persName ref="#GuilielmusBari">Guilielmus de
+                            <placeName ref="#Bari">Bari</placeName></persName>, <persName
+                        ref="#Petrus_becarius">Petrus <roleName>becarius</roleName></persName>,
+                        <persName ref="#PiçolbonusBallanelli">Piçolbonus Ballanelli</persName>,
+                        <persName ref="#Suttiamorbus">Suttiamorbus<note place="foot" n="g"
+                            xml:id="LIIII_n_007">Suttiamorbus: <emph>lettura incerta a causa
+                                dell’inchiostro sbiadito</emph>.</note></persName>, <persName
+                        ref="#Botroncinus">Botroncinus</persName>, <persName
+                        ref="#CompagnonusChiausura">Compagnonus de <placeName ref="#Chiausura"
+                            >Chiausura</placeName></persName>, <persName ref="#Mattagnanus"
+                        >Mattagnanus</persName>, <persName ref="#MercadantusPiçola">Mercadantus de
+                            <placeName ref="#Piçola">Piçola</placeName></persName>, <persName
+                        ref="#IacopinusGuilielmo">Iacopinus de Guilielmo</persName>, <persName
+                        ref="#Borgognonus">Borgognonus</persName>, <persName
+                        ref="#Bondies_merçadrus">Bondies <roleName>merçadrus</roleName></persName>,
+                        <persName ref="#Iordanus">Iordanus</persName>, <persName
+                        ref="#BernardusÇallara">Bernardus Çallara</persName>, <persName
+                        ref="#GuilielmusGalardo">Guilielmus de Galardo</persName>, <persName
+                        ref="#Bonaventura_merçadrus">Bonaventura
+                        <roleName>merçadrus</roleName></persName>, <persName
+                        ref="#HenricusCalaydrinis">Henricus Calaydrinis</persName>, <persName
+                        ref="#MartiusDonnaGrica">Martinus<note place="foot" n="h"
+                            xml:id="LIIII_n_008">Martinus: <emph>corretto su precedente
+                                scrittura</emph>.</note> de Donna Grica</persName>, <persName
+                        ref="#DatusGuilielmotto">Datus de Guilielmotto</persName>
+                    <persName ref="#BonafidesMolinarii">Bonafides Molinarii</persName>, <persName
+                        ref="#Realis">Realis</persName>, <persName ref="#ParentinusMarçetti"
+                        >Parentinus Marçetti</persName>, <persName ref="#Cardinalis"
+                        >Cardinalis</persName>, <persName ref="#CompagnonusBeccais">Compagnonus
+                        Beccais</persName>, <persName ref="#VitaletusCapanello">Vittalettus de
+                            <placeName ref="#Capanello">Capanello</placeName></persName>, <persName
+                        ref="#RomeusBolano">Romeus de <placeName ref="#Bolano"
+                        >Bolano</placeName></persName>, <persName ref="#RostichinusVivalda"
+                        >Rusticinus de la Vivalda</persName>, <persName
+                        ref="#Guilielmus_bascacerius">Guilielmus
+                        <roleName>bascacerius</roleName></persName>, <persName
+                        ref="#GuidetusMaçaburlus">Guidettus Maçaburlus</persName>, <persName
+                        ref="#Perucius_sartor">Perucius <roleName>sartor</roleName></persName>,
+                        <persName ref="#Vivianusnot">Vivaldus
+                        <roleName>notarius</roleName></persName>, <persName ref="#AdornetusProva"
+                        >Adornetus de <placeName ref="#Prova">Prova</placeName></persName>,
+                        <persName ref="#Pectoralis">Pectoralis</persName>, <persName
+                        ref="#Gibernus_ferrarius">Gibernus
+                    <roleName>ferrarius</roleName></persName>, <persName ref="#Rodulfus_calçolarius"
+                        >Rodulfus <roleName>calçolarius</roleName></persName>, <persName
+                        ref="#Guilielmotus_becarius">Guilielmotus
+                        <roleName>becarius</roleName></persName>, <persName ref="#DatusDurante"
+                        >Datus de Durante Provinciali</persName>, <persName ref="#BenvenutusMinuta"
+                        >Benvenutus de Minuta</persName>, <persName ref="#Sarçanellus"
+                        >Sarçanellus</persName>, <persName ref="#BonencontrusRosa">Bonencontrus de
+                        la Rosa</persName>, <persName ref="#IohannesCapanello">Iohannes de
+                            <placeName ref="#Capanello">Capanello</placeName></persName>, <persName
+                        ref="#Alcarinus">Alcarinus</persName>, <persName ref="#VivaldusBaldicione"
+                        >Vivaldus de Baldicione</persName>, <persName ref="#BellonusCastronovo"
+                        >Bellonus de <placeName ref="#PoçioCastronovo"
+                        >Castronovo</placeName></persName>, <persName ref="#Salvonus"
+                        >Salvonus</persName>, <persName ref="#Aldebrandinus_petentarius"
+                        >Aldebrandinus <roleName>petentarius</roleName></persName> et <persName
+                        ref="#Iustamons_petentarius">Iustamons
+                        <roleName>petentarius</roleName></persName>. Hii omnes iuraverunt publice in
+                    contione, in <orgName ref="#S_Maria_Sarzan">ecclesia Sancte Marie de <placeName
+                            ref="#Sarzana">Sarzano</placeName></orgName>, <date when="1219-04-28"
+                        >anno a nativitate Domini millesimo CCXVIIII, indictione VII, die dominico,
+                        IIII kalendas madii</date>. </p>
+                <p xml:id="LIIII_p_002" n="2"> Postea vero, quasi incontinenti, <placeName
+                        ref="#Sarzana">Sarzani</placeName>, in domo et ante domum <pb n="158r"
+                        xml:id="fol_158r"/>
+                    <persName ref="#Urceolus">Urceoli</persName>, eodem modo in omnibus iuraverunt
+                        <persName ref="#Detesalve_calçolarius">Detesalve
+                            <roleName>calçolarius</roleName></persName>, <persName ref="#Melanus"
+                        >Melanus</persName>, <persName ref="#Bonaiutus_topparius">Bonaiutus
+                            <roleName>topparius</roleName></persName>, <persName ref="#Taliamanduca"
+                        >Taliamanduca</persName>, <persName ref="#Ferretus">Ferretus</persName>,
+                        <persName ref="#Çuffettus">Çuffettus</persName>, <persName
+                        ref="#BonacatrusGuidonePentito">Bonacatrus de Guidone Pentito</persName>,
+                        <persName ref="#NicholesusÇuprano">Nicholesus de <placeName ref="#Çuprano"
+                            >Çuprano</placeName></persName>, <persName ref="#CancellariusBonvillano"
+                        >Cancellarius de Bonvillano</persName>, <persName ref="#ConfortusBordone"
+                        >Confortus de <placeName ref="#Bordone">Bordone</placeName></persName>,
+                        <persName ref="#UbertinusYlice">Ubertinus de <placeName ref="#Ylice"
+                            >Ylice</placeName></persName>, <persName ref="#Albertacius"
+                        >Albertacius</persName>, <persName ref="#PiçolusBonçaimo">Piçolus de
+                        Bonçaimo</persName>, <persName ref="#Guidonus">Guidonus</persName>,
+                        <persName ref="#BonvisinusPasquali">Bonvicinus de Pasquali</persName>,
+                        <persName ref="#Guçolus_ferrarius">Guçolus
+                        <roleName>ferrarius</roleName></persName>, <persName
+                        ref="#OliveriusÇanfurno">Oliverius de <placeName ref="#Çanfurno"
+                            >Çanfurno</placeName></persName>, <persName ref="#BenedictusMorsellera"
+                        >Benedictus de <placeName ref="#Morsellera"
+                        >Morsellera</placeName></persName>, <persName ref="#CastellanusCastellione"
+                        >Castallanus de <placeName ref="#Castellione"
+                        >Castellione</placeName></persName>, <persName ref="#GaforetusValmoro"
+                        >Gafforettus de <placeName ref="#Valmoro">Valmoro</placeName></persName>,
+                        <persName ref="#UgucionusCisirano">Ugucionus de <placeName ref="#Ceserano"
+                            >Cisirano</placeName></persName>, <persName ref="#RanocinusLombardo"
+                        >Ranocinus de Lombardo</persName>, <persName ref="#RogerinusAdvocati"
+                        >Rogerinus Advocati</persName>, <persName ref="#SoldanusBibolio">Soldanus de
+                            <placeName ref="#Bibolio">Bibolio</placeName></persName>, <persName
+                        ref="#Gerardacius">Gerardacius</persName>, <persName ref="#IacobusBonaposa"
+                        >Iacopus de Bonaposa</persName>, <persName ref="#PetrusVexa">Petrus
+                            <placeName ref="#Vexa">Vexa</placeName></persName>, <persName
+                        ref="#RognosusBibolio">Rongnosus de <placeName ref="#Bibolio"
+                            >Bibolio</placeName></persName>, <persName ref="#MartinusDeo">Martinus
+                        de Deo</persName>, <persName ref="#SerdonusGerardino_castaldo">Serdonus de
+                        Gerardino <roleName>castaldo</roleName></persName>, <persName
+                        ref="#Bena_sartor">Bene <roleName>sartor</roleName></persName>, <persName
+                        ref="#Rubinus_barberius">Rubinus <roleName>barberius</roleName></persName>,
+                        <persName ref="#Cremonensis">Cremonensis</persName>, <persName
+                        ref="#Guilielmetus_SanctoStephano">Guilielmetus de Sancto
+                        Stephano</persName>, <persName ref="#VitaBostengino">Vita de
+                        Bostengino</persName>, <persName ref="#Iuncta_calderarius">Iuncta
+                            <roleName>calderarius</roleName></persName>, <persName ref="#Marcus"
+                        >Martius</persName>. </p>
+                <p xml:id="LIIII_p_003" n="3">
+                    <date when="1919-04-30">Die quidem martis, pridie kalendas madii anni
+                        predicti</date> iuraverunt hii: <persName ref="#BastardusGuilielmiBlanci"
+                        >Bastardus qondam Guilielmi Blanci</persName>, <persName
+                        ref="#BastardusMallianelli">Bastardus Mallianelli</persName>, <persName
+                        ref="#BondiesCirisolo">Bondies Crisoli</persName>, <persName
+                        ref="#BonaiunctaCer">Bonaiuncta Cervarolus</persName>, <persName
+                        ref="#Oddolinus_calçolarius">Oddolinus
+                        <roleName>calçolarius</roleName></persName> et <persName
+                        ref="#RusticellusBonvillano">Rusticellus de Bonvillano</persName>. </p>
+                <p xml:id="LIIII_p_004" n="4"> Postea vero publice in contione, in ecclesia
+                    predicta, <date when="1919-05-01">die mercurii primo mensis madii anni
+                        predicti</date>, iuraverunt <persName ref="#BonaventurettaTreguana"
+                        >Bonaventuretta de la Treguana</persName>, <persName ref="#Miliarinus"
+                        >Miliarinus</persName>, <persName ref="#Bericus">Bericus</persName>,
+                        <persName ref="#Dominicus_calçolarius">Dominicus
+                            <roleName>calçolarius</roleName></persName>, <persName
+                        ref="#BonaiutusCurrente">Bonaiutus de Currente</persName>, <persName
+                        ref="#HenrigetusAvola">Henrigettus de <placeName ref="#Avola"
+                            >Avola</placeName></persName>, <persName ref="#BonfancellusSenesia"
+                        >Bonfacellus de <placeName ref="#Senesia">Senesia</placeName></persName>,
+                        <persName ref="#MartinusMarracha">Martinus de <placeName ref="#Marracha"
+                            >Marracha</placeName></persName>, <persName ref="#MartinusBondie"
+                        >Martinus de Bondie</persName>, <persName ref="#BonaventuraGagarusco"
+                        >Bonaventura de <placeName ref="#Gagarusco"
+                    >Gagarusco</placeName></persName>, <persName ref="#Binellus_ferrarius">Binellus
+                        ferrarius</persName>, <persName ref="#Rapulinus">Rapulinus</persName>,
+                        <persName ref="#Ubaldus_calçolarius">Ubaldus
+                            <roleName>calçolarius</roleName></persName>, <persName
+                        ref="#Martinus_cultellerius">Martinus <roleName>cultellerius</roleName><note
+                            place="foot" n="i" xml:id="LIIII_n_009">cultellerius: <emph>corretto
+                                su</emph> cailtellerius.</note></persName>, <persName
+                        ref="#VivaldusBella">Vivaldus de la Bella</persName>, <persName
+                        ref="#GuidoForte">Guido de Forte</persName>, <persName ref="#GuidoBoso"
+                        >Guido de Boso</persName>, <persName ref="#UgolinusPaganino">Ugolinus de
+                        Paganino</persName>, <persName ref="#Valentinus_ferrarius">Valentinus
+                            <roleName>ferrarius</roleName></persName>, <persName ref="#Çanfurnus"
+                        >Çanfurnus</persName>, <persName ref="#AlbertusBoe">Albertus Boe</persName>,
+                        <persName ref="#Albertinus_murator">Albertinus
+                        <roleName>murator</roleName></persName>, <persName ref="#Credentia"
+                        >Credentia</persName>, <persName ref="#AicardinusBurataFarina">Aicardinus
+                        Burata Farina</persName>, <persName ref="#Bonomellus_calçolarius">Bonomellus
+                            <roleName>calçolarius</roleName></persName> et <persName
+                        ref="#ConradinusPotençana">Cunradinus de <placeName ref="#Podentiana"
+                            >Potençana</placeName></persName>. </p>
+                <p xml:id="LIIII_p_005" n="5">
+                    <ptr target="#LIIII_st_001"/> Ego <persName ref="#Benvenutusnot1">Benevenutus,
+                            <roleName>domini Ottonis quarti Romanorum imperatoris
+                            notarius</roleName></persName>, hiis interfui atque de mandato atque
+                    conmissione <persName ref="#MarzuccusEpLuni"><roleName>domini</roleName>
+                        Marzucci <roleName>Dei gratia Lunensis episcopi</roleName></persName>, atque
+                    vice atque nomine ipsius, predicta sacramenta recepi et scripsi et proprio signo
+                    notavi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

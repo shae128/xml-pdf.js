@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXLII_160">
+    <front xml:id="CXLII_front">
+
+      <titlePart type="numerazioneNuova">160</titlePart>
+      <titlePart type="numerazioneOrig">CXLII</titlePart>
+
+      <docDate xml:id="CXLII_docDate">
+        <date when="1259-08-17">1259 agosto 17</date>, <placeName>Ponzanello (<term xml:lang="latin"
+            >in ecclesia de Ponzanello</term>)</placeName>.</docDate>
+
+      <div type="regesto" xml:id="CXLII_regesto">
+        <p>Il vescovo di Luni Guglielmo, in accordo coi consoli del comune di Ponzanello, Aidante
+          del fu Gondeto e Savarisio, e di concerto con i consiglieri del medesimo comune
+          nominalmente elencati, aggiunge alcuni capitoli agli statuti di Ponzanello del 1233 (cfr.
+          doc. N - CXLI). Tali aggiunte riguardano la raccolta dei frutti caduti dagli alberi, la
+          copertura delle abitazioni, i compiti dei saltari. Si
+          stabilisce inoltre la copiatura della parte del testo degli statuti precedenti che risulta
+          poco leggibile e si accolgono le aggiunte già apportate nel 1236, che impegnavano gli
+          uomini di Ponzanello a osservare i patti siglati con gli Actocani di Bibola sulla
+          questione dei mulini e dei folloni.</p>
+      </div>
+
+      <div type="footer" xml:id="CXLII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] cc. 239v.- 240r., cc. CCXXXIv.- CCXXXIIr. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 142, pp.
+            178-180; <ref target="#CONTI_1979-1988">CONTI 1979-1988</ref>, I, n. XXIV, pp.
+            111-114.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno di c. 239v., di mano moderna: <term xml:lang="latin">Adicio
+              statutorum de Ponzanelo</term>. <p>Autentica del 16 dicembre 1267.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CXLII_div">
+        <p xml:id="CXLII_p_001" n="1">In Dei nomine, amen.<date when="1259-08-17"> Anno a nativitate
+            Eius M°CCLVIIII, indictione II, XVII augusti</date>. Venerabilis pater dominus <persName
+            ref="#GuilEpLuni">Guilielmus, Dei gratia <roleName>Lunensis
+            episcopus</roleName></persName>, de consensu et voluntate <persName ref="#AidansGondeti"
+            >Aidantis quondam Gondeti</persName> et <persName ref="#Savarisius">Savarisii,
+              <roleName>consulum</roleName></persName> tunc temporis de <placeName ref="#Ponzanello"
+            >Ponzanello</placeName>, et consiliariorum eorum, videlicet <persName
+            ref="#Belluciuscons">Bellucii</persName>, <persName ref="#UgolinusLanfranchini">Ugolini
+            quondam Lanfranchini</persName>, <persName ref="#VivaldusPonz">Vivaldi</persName> et
+            <persName ref="#Compagnonus">Compagnoni</persName>, statuit et ordinavit statutum
+          infrascriptum perpetuo valiturum, et addidit statuto communia, ad quod iurant ipsi
+          consules et homines de <placeName ref="#Ponzanello">Ponzanello</placeName> omni anno et
+          quod factum fuit olim de voluntate ipsius domini episcopi, sicut apparet per publicum
+          instrumentum factum olim per manum <persName ref="#Bonencontrusnot">Bonencontri
+              <roleName>notarii</roleName> de <placeName ref="#Soliera"
+            >Soleria</placeName></persName>, currente <date when="1233">M°CCXXXIII, indictione
+            VI</date><note place="foot" n="a" xml:id="CXLII_n_001"><term type="incerto">indictione
+              VI</term>: così nel testo.</note>
+          <note place="foot" n="b" xml:id="CXLII_n_002"><term xml:lang="latin">VI</term>
+            <emph> corretto su</emph>
+            <term xml:lang="latin">III</term>.</note>, a me <persName ref="#Adiutusnot">Adiuto
+              <roleName>notario</roleName></persName> visum et lectum, quod videlicet si rami
+          castanearum alicuius in districtu <placeName ref="#Ponzanello">Ponzanelli</placeName>
+          pependerint super terram alterius, castanee que ceciderint de ipsis ramis bona fide et
+          sine fraude communiter colligantur ab illo cuius est arbor et ab illo cuius fuerit terra
+          super quam cadunt castanee; et, collecte sic communiter, per medium dividantur, ut
+          videlicet medietas sit illius cuius est castaneum et alia medietas sit cuius est terrenum
+          super quod ceciderint castanee. Hoc idem fiat de quercis<note place="foot" n="c"
+            xml:id="CXLII_n_003">così nel testo</note> seu de quercubus. De ficubus autem sic
+          statuit: quod ille, cuius est arbor, colligat ficus quas colligere potest, stando super
+          ipsa arbore, de ramis qui pendent super alterius terram, et ille, cuius est terra,
+          colligat quod colligere potest, stando super terra sua, manibus, sine uncino vel alio
+          aminiculo; de ipsis ramis qui pendent super alterius terram, fiat communis divisio, ita
+          quod medietas sit illius cuius est terra et alia cuius fuerit arbor. Hoc idem fiat de
+          olivis, quod dictum est, de pomis atque piris. Quicumque vero contra predicta vel aliquod
+          predictorum fecerit perdat pro banno <measure type="imperiales" quantity="2"
+            unit="solidus">soldos II imperialium</measure> atque restituat dampnum. Item statuit
+          quod quicumque voluerit cooperire domum suam de plaustis in <placeName ref="#Ponzanello"
+            >Ponzanello</placeName>, sive in loco qui dicitur <placeName ref="#SerraPon"
+            >Serra</placeName>, sive in loco qui dicitur <placeName ref="Ara">Ara</placeName>, seu
+          in loco qui dicitur <placeName ref="#Colla">Colla</placeName>, teneatur quilibet de
+            <placeName ref="#Ponzanello">Ponzanello</placeName> et districtu, qui asinum habuerit,
+          portare gratis ei qui sic domum suam cooperire voluerit, ut dictum est, tres somas
+          convenientes a <placeName ref="#Sarzana">Sarzana</placeName> supra versus <placeName
+            ref="#Ponzanello">Ponzanellum</placeName> et a <placeName ref="#Fosdinovo"
+            >Fosdenova</placeName> et <placeName ref="#Pulica">Pulica</placeName> et a <placeName
+            ref="#Bardano">Bardano</placeName> et a loco qui dicitur <placeName ref="#Succisa"
+            >Succisa</placeName>, supra <placeName ref="#Ponzano">Ponzanum</placeName>; et hoc
+          teneatur facere ad requisitionem eius qui domum suam cooperire voluerit infra octo dies,
+          ad bannum et penam <measure type="Imperiales" quantity="12" unit="solidus">XII
+            imperialium</measure>; quod bannum ita dividant sicut alia que in statuto communis
+          reperiuntur. Item statuit quod saltarii qui singulis annis electi fuerint ad custodiendum
+          vineas, ficus et ceteros fructus atque bladas, cum ad custodiam iverint predictorum
+          fructuum, scilicet tempore quo fuerint ficus et uve, non debeant comedere de ficubus et
+          uvis aliorum nec vineas intrare aliorum tunc causa comedendi, set de suis propriis, nec
+          domum suam ficus vel uvas de vineis et ficulneis alienis deportare; et hoc idem
+          intelligatur de pomis et piris atque ceteris fructibus et frugibus. Qui vero contra hoc
+          fecerint vel reperti fuerint facere <pb n="240r" xml:id="fol_240r"/> perdant pro banno id
+          quod alii, qui non sunt saltarii, perderent, si vineam aliorum intrarent vel contra
+          aliquod faceret<note place="foot" n="d" xml:id="CXLII_n_004"><term type="incerto"
+              >Faceret</term>: così nel testo per <term xml:lang="latin">facerent</term>.</note>
+          predictorum; quod bannum sic dividant ut supra dictum est. Item statuit et ordinavit, de
+          voluntate et consensu predictorum, quod quedam alia capitula que sunt scripta in carta
+          statuti <orgName ref="#Ponzanello_comune">communis</orgName> de <placeName ref="#Ponzanello">Ponzanello</placeName>, que sunt quasi
+          deleta et vix<note place="foot" n="e" xml:id="CXLII_n_005"><term xml:lang="latin"
+              >Vix</term><emph>: corretto su precedente scrittura.</emph></note> possunt legi,
+          ponerentur in istis et scriberentur; que quidem talia sunt et sic incipiunt: <quote
+            rend="pre(«) post(»)">et huic constitutioni, de consilio et voluntate consulum et
+            communis de <placeName ref="Ponzanello">Ponzanello</placeName> et licencia et
+            auctoritate domini episcopi, ut dictum est ut carbonaria castri de <placeName
+              ref="#Ponzanello">Ponzanello</placeName> per circuitum sit XXX brachia, et nullus
+            audeat occupare de ipsa, sub pena <measure type="Imperiales" quantity="40"
+              unit="solidus">XL soldorum</measure></quote>. Item <date when="1236-01-07">anno a
+            nativitate Domini M°CCXXXVI, indictione VIIII, VII mensis intrantis ianuarii</date>,
+          huic statuto additum est, de licencia et speciali mandato venerabilis <persName
+            ref="#GuilEpLuni">Guilielmi, Dei gratia <roleName>Lunensis
+            episcopi</roleName></persName>, et <persName ref="#FolbertusPonz">Folberti,
+              <roleName>consulis de <placeName ref="#Ponzanello"
+            >Ponzanello</placeName></roleName></persName>, et <persName ref="#GerardusCarbonis"
+            >Gerardi Carboni</persName> et <persName ref="#Bonensegnacons">Bonensingne</persName>,
+            <roleName>consiliariorum</roleName> presentium, et <persName ref="#Vivalduscon"
+              >Vivaldo<note place="foot" n="f" xml:id="CXLII_n_006"><term type="incerto"
+                >Vivaldo</term><emph>: così nel testo per</emph><term xml:lang="latin"
+                >Vivaldi</term>.</note>
+            <roleName>consulis</roleName></persName> consilio et voluntate, cuius negocium episcopi
+          prefati gerebant, ut dixerunt, quod videlicet quilibet de <placeName ref="#Ponzanello"
+            >Ponzanello</placeName>, mares et mulieres omnes, qui iurati fuerint, teneantur
+          sacramento observare et facere omnia pacta et conventiones que sunt inter ipsum commune de
+          <placeName ref="#Ponzanello">Ponzanello</placeName> et <name type="familia" ref="#ActocaniFamilia"
+            >nobiles Actocanes de <placeName ref="#Bibola">Bibola</placeName></name> super facto
+          molendinorum atque fullonum, sicut continet publicum instrumentum factum manu <persName
+            ref="#IacopinusTalliavachanot">Iacobini dicti Talliavache
+            <roleName>notarii</roleName></persName>, inde confectum, et solvere penam que in ipso
+          instrumento continetur, si quis contra fecerit, et eligere omni anno duos capitaneos
+          teneantur supra predictis; atque quod <supplied reason="omitted">si</supplied> unus consul
+          preceperit super facto molendinorum et fullonum alius consul adimplere valeat.</p>
+        <p xml:id="CXLII_p_002" n="2">Acta sunt in <orgName ref="#Ponzanello_S_Martino">ecclesia de
+              <placeName ref="#Ponzanello">Ponzanello</placeName></orgName>, presentibus <persName
+            ref="#Saladinusarc"><roleName>magistro</roleName> Saladino
+              <roleName>archipresbytero</roleName> de Viano</persName>, <persName
+            ref="#Iacopinusarc">Iacobino <roleName>archipresbytero</roleName> de <placeName
+              ref="#Ameglia"><orgName ref="#Ameglia_S_Vincenzo"
+            >Amelia</orgName></placeName></persName>, <persName ref="#Melanesesen">Melanese
+              <roleName>siniscalco</roleName></persName>
+          <persName ref="#GuilEpLuni">suprascripti domini <roleName>episcopi</roleName></persName>
+          et Cecio, civibus Lucanis et familiaribus dicti domini episcopi, testibus ad hec
+          rogatis.</p>
+        <p xml:id="CXLII_p_003" n="3"><ptr target="#CXLII_st_001"/> Ego <persName ref="#Adiutusnot"
+            >Adiutus, <roleName>sacri palatii notarius</roleName></persName>, hiis interfui et de
+          mandato suprascripti domini episcopi hec scripsi et precibus et rogatu <persName
+            ref="#AidansGondeti">Aidantis</persName> et <persName ref="#Savarisius">Savarisii,
+              <roleName>consulum</roleName></persName>, in publicam formam redegi.</p>
+      </div>
+      <div xml:id="CXLII_div2" type="autentica">
+        <p xml:id="CXLII_p_004" n="4"><ptr target="#CXLII_st_002"/> Ego <persName
+            ref="#Peregrinusnot">Peregrinus, <roleName>summi pontificis auctoritate
+              notarius</roleName> ac <roleName>iudex ordinarius</roleName></persName>, auttenticum
+          huius exempli vidi, legi et ascultavi diligenter, presentibus <persName ref="#Renanusfra"
+            >fratre Renano de ordine Fratrum Predicatorum</persName>, <persName ref="#Albertuscan"
+              ><roleName>magistro</roleName> Alberto <roleName>Lunensi
+            canonico</roleName></persName>, <persName ref="#Iacopinusarc">Iacobino
+              <roleName>archipresbytero</roleName> de <placeName ref="#Ameglia"
+            >Amelia</placeName></persName> et <persName ref="#PetrusSolerianot">Petro
+              <roleName>notario</roleName> de <placeName ref="#Soliera"
+            >Soleria</placeName></persName>, testibus ad hec rogatis, atque de mandato venerabilis
+          patris domini <persName ref="#GuilEpLuni">Guilielmi, Dei gratia <roleName>Lunensis
+              episcopi</roleName></persName>, et de ipsius auctoritate mihi concessa, in presencia
+          predictorum testium, in <orgName type="chiesa">ecclesia de <placeName ref="#Ponzanello"
+              >Ponzanello</placeName></orgName>, fideliter exemplavi, signum proprium apponendo, nil
+          addens vel minuens quod mutet sensum vel variet intellectum, <date when="1267-12-16"> Anno
+            a nativitate Domini M°CCLXVII, indictione X, XVI decembris <note>autentica del documento
+              n. 160-CXLII</note></date>.</p>
+        <p xml:id="CXLII_p_005" n="5"><ptr target="#CXLII_st_003"/> Ego <persName
+            ref="#PetrusGualterotinot">Petrus quondam Gualteroti de <placeName ref="#Soliera"
+              >Soleria</placeName></persName>, <roleName>sacri palatii notarius</roleName>,
+          auttenticum huius exempli vidi, legi et diligenter ascultavi cum predicto <persName
+            ref="#Peregrinusnot">Peregrino <roleName>notario</roleName></persName>, in presentia
+          suprascriptorum testium, in quo continebatur ut in isto legitur exemplo et, rogatus, me
+          subscripsi, signum proprium apponendo.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,240 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="XL_69">
+        <front xml:id="XL_front">
+            <titlePart type="numerazioneNuova">69</titlePart>
+            <titlePart type="numerazioneOrig">XL</titlePart>
+            <docDate xml:id="XL_docDate">
+                <date when="1276-02-14">1276 febbraio 14</date>, <placeName>Viterbo (<term
+                        xml:lang="latin">Viterbii, in domo Gerardi Gerbini</term>).</placeName>
+            </docDate>
+            <div type="regesto" xml:id="XL_regesto">
+                <p> Il cardinale Ottobono, eletto nel dicembre precedente arbitro dalle parti in
+                    causa in questione vertente fra il vescovo Enrico e il capitolo di Luni, emette
+                    sentenza: la collazione di arcidiaconato e prepositura, se vancanti, spetta al
+                    vescovo, mentre quella di archipresbiterato e custodia pertiene al capitolo; la
+                    prima prebenda vacante sia del vescovo e le due seguenti del capitolo e poi di
+                    nuovo in successione. </p>
+            </div>
+            <div type="footer" xml:id="XL_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] cc. 130v.-131v, cc. CXXIIv.-CXXIIIv. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>n. 40, pp. 61-62.</p>
+                    <p>Una copia semplice cartacea di mano moderna, ricavata dal codice Pelavicino,
+                        è conservata nell’Archivio Capitolare di Sarzana, cfr. <ref
+                            target="#FREGGIA_1989">FREGGIA 1989</ref>, p. 2, A/7.</p>
+                </div>
+                <div type="crit_notes">
+                    <note> All’interno del testo è inserto il documento di nomina del cardinale
+                        Ottobono quale arbitro tra le parti, redatto a Sarzana, nella chiesa di
+                        Santa Maria, il 1275 dicembre 14. </note>
+                    <note> Nel margine interno di c. 130v., di mano moderna: <emph>Compromissum
+                            canonicorum et episcopi in Ottobonum cardinalem</emph>. Nel margine
+                        esterno della medesima carta, di mano poco posteriore al testo:
+                            <emph>Quomodo debent conferri canonicatus</emph>. Poco più in basso, di
+                        mano posteriore: 1275. Un’altra mano ancora più tarda ha aggiunto: <emph>et
+                            ad quos spectat</emph>. Nel margine interno di c. 131r., ancora di altra
+                        mano: <emph>pronuntiatio</emph>. </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">XL. Sentencia domini cardilalis inter dominum episcopum
+                            et Lunense capitulum.</term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="XL_div">
+                <p xml:id="XL_p_001" n="1"> Universis presentes litteras inspecturis et publicum
+                    documentum, <persName ref="#Ottobonuscard">Ottobonus</persName>,
+                        <roleName>miseratione divina</roleName>
+                    <orgName ref="#S_Adriano_Foro">Sancti Adryani</orgName>
+                    <roleName>dyaconus cardinalis</roleName>, ad perpetuam rei memoriam. Dum inter
+                        <roleName>venerabilem patrem</roleName>
+                    <persName ref="#HenricusEpLuni">Henricum</persName>, <roleName>Lunensem
+                        episcopum</roleName>, ex una parte, et capitulum Lunense, ex altera, super
+                    collatione dignitatum, prebendarum et canonicatu<supplied reason="omitted"
+                        >u</supplied>m eiusdem ecclesie exorta fuerit<note place="foot" n="a"
+                        xml:id="XL_n_001">fuerit: <emph>corretto su precedente
+                        scrittura.</emph></note> materia questionis, pari voto compromiserunt partes
+                    eedem in nos <persName ref="#Ottobonuscard">Ottobonum</persName>, <orgName
+                        ref="#S_Adriano_Foro">Sancti Adryani</orgName>
+                    <roleName>dyaconum cardinalem</roleName>, prout infrascripti forma innuit
+                    compromissi, cuius tenor, a nobis visus et lectus de verbo ad verbum, talis est:
+                    «In nomine Domini amen. <date when="1275-12-14">Anno Eius millesimo ducentesimo
+                        septuagesimo quinto, indictione tercia, die XIIII mensis decembris<note>Il
+                            vescovo di Luni Enrico e i canonici di Luni nominano il cardinale
+                            Ottobono quale arbitro per decidere sulle loro
+                        controversie.</note></date> Cum questio et discordia iam sit exorta et ab
+                    hinc antea nasci et esse posset inter venerabilem patrem
+                        <roleName>dominum</roleName>
+                    <persName ref="#HenricusEpLuni">Henricum</persName>, <roleName>Lunensem
+                        episcopum</roleName>, suo et episcopatus nomine, ex una parte, et capitulum
+                    Lunense, ex altera, super electionibus tam dignitatum, videlicet prepositure,
+                    archidiaconatus, archipresbyteratus et custodie, quam canonicorum faciendis in
+                    ecclesia Lunensi, suprascriptus venerabilis pater dominus episcopus Lunensis,
+                    pro se et nomine episcopatus Lunensis<note place="foot" n="b" xml:id="XL_n_002"
+                        >nomine episcopatus Lunensis: <emph>nel testo</emph> episcopatus Lunensis
+                        nomine <emph>con segno di richiamo per invertire l’ordine delle
+                            parole.</emph></note>, ex una parte, et capitulum Lunense predictum,
+                    videlicet domini <persName ref="#Bertoluscan">Bertolus</persName>
+                    <roleName>custos</roleName>, <persName ref="#Canoruscan">Canorus</persName>,
+                        <persName ref="#GuilielmusLavania">Guilielmus de <placeName ref="#Lavania"
+                            >Lavania</placeName></persName>, <persName
+                        ref="#IohannesCornilia_canonicus">Iohannes de <placeName ref="#Corniglia"
+                            >Cornilia</placeName></persName>, <persName ref="#Peregrinuscan"
+                        >Peregrinus</persName>, <persName ref="#Iacobinus_canonicus"
+                        >Iacobinus</persName> atque <persName ref="#Thomasinus_canonicus"
+                        >Thomasinus</persName>, <roleName>canonici Lunenses</roleName>, per se
+                    suosque successores, ex altera, de predicta questione et discordia miserunt et
+                    compromiserunt se in venerabilem patrem <roleName>dominum</roleName>
+                    <persName ref="#Ottobonuscard">Ottobonum</persName>
+                    <orgName ref="#S_Adriano_Foro">Sancti Adryani</orgName>
+                    <roleName>dyaconum cardinalem</roleName>, absentem, tanquam in arbitrum et
+                    arbitratorem atque amicabilem compositorem, dantes eidem plenam bailiam et
+                    potestatem predictam questionem et discordiam terminandi, arbitrandi,
+                    diffiniendi et sententiandi, per rationem, per arbitrium et per amicabilem
+                    compositionem et <pb n="131r" xml:id="fol_131r"/> quomodocumque et
+                    qualitercumque voluerit, libello oblato et non oblato, lite contestata atque non
+                    contestata, iuris ordine servato et non servato, die feriata et non feriata,
+                    sedendo, stando et eundo, presentibus partibus et absentibus, una presente atque
+                    altera absente, citatis et non citatis, et quomodocumque et qualitercumque
+                    voluerit et ei placuerit, ita quod ab eius sententia et arbitrio non possit
+                    recurri ad arbitrium boni viri, licet esset iniqu<supplied reason="omitted"
+                        >u</supplied>m vel iniqua, quod absit, promittentes dicte partes sibi ad
+                    invicem habere ratum et firmum et attendere, facere et observare et in nullo
+                    contra facere vel venire, de iure vel de facto, totum et quicquid per
+                        predictum<note place="foot" n="c" xml:id="XL_n_003">predictum: pre
+                            <emph>aggiunto in sopralinea.</emph></note> dominum cardinalem dictum,
+                    sententiatum, arbitratum et preceptum fuerit de predictis et super predictis et
+                    eorum occasione, sub pena <measure type="Marcharum" quantity="100" unit="soldi"
+                        >centum marcharum argenti</measure>. Quam penam sibi ad invicem dare et
+                    solvere promiserunt tociens quociens contra venirent vel facerent seu fuerit
+                    contra ventum vel factum et pro quolibet capitulo non observato et, pena soluta
+                    vel non, suprascriptis omnibus et singulis nichillominus firmis semper
+                    manentibus et nichillominus arbitrio et sententia dicti domini cardinalis ratis
+                    manentibus. Obligaverunt ad hec attendenda et observanda dicte partes se sibi ad
+                    invicem suosque successores et omnia bona episcopatus et ecclesie Lunensis,
+                    habita et habenda, et renunciaverunt omni iuri et legibus, civilibus et
+                    ecclesiasticis, contra hec introductis et introducendis, et specialiter iuri quo
+                    dicitur quod, si sententia vel arbitrium arbitrorum vel arbitratorum vel
+                    amicabilium compositorum sit iniqua vel iniusta seu iniqu<supplied
+                        reason="omitted">u</supplied>m vel iniustum, quod absit, quod possit exinde
+                    recurri ad arbitrium boni viri. Actum <placeName ref="#Sarzana"
+                        >Sarzane</placeName>, in Dei Christiana <orgName ref="#Sarzana_S_Maria"
+                            >ecclesie<note place="foot" n="d" xml:id="XL_n_004">In Dei Christiana
+                            ecclesie: <emph>così nel testo, probabilmente per errore di lettura da
+                                parte dello scriba. L’autore della copia conservata nell’Archivio
+                                Capitolare di Sarzana non riesce a decifrare il testo e lascia uno
+                                spazio bianco in corrispondenza della data topica.</emph></note>
+                        Sancte Marie<note place="foot" n="e" xml:id="XL_n_005">ecclesie Sancte
+                            Marie: <emph>nel testo</emph> Sancte Marie ecclesie <emph>con segno di
+                                richiamo per invertire l’ordine delle
+                        parole.</emph></note></orgName>, presentibus <roleName>domino</roleName>
+                    <persName ref="#Antonius_canonicusMed">Antonio</persName>
+                    <roleName>canonico</roleName>
+                    <orgName ref="#S_Maria_Nascente_Milano"><placeName ref="#Mediolano"
+                            >Medyolanensi</placeName></orgName> et <roleName>domino</roleName>
+                    <persName ref="#Odoabbas">Oddone</persName>
+                    <roleName>abbate</roleName> de <orgName ref="#Ceparana_S_Venanzio"><placeName
+                            ref="#Ceparana">Ceperana</placeName></orgName>, testibus ad hec rogatis.
+                    Ego <persName ref="#Aldebrandinusnot">Aldebrandinus</persName>,
+                        <roleName>domini</roleName>
+                    <persName ref="#RoffinusLomello">Roffini</persName>
+                    <roleName>comitis</roleName> de <placeName ref="#Lomello">Lomello</placeName>
+                    <roleName>notarius</roleName>, hiis interfui atque rogatus scripsi». </p>
+                <p xml:id="XL_p_002" n="2"> Nos igitur, qui tranquillitatem et statum pacificum
+                    Lunensis ecclesie plenis desideriis affectamus inter episcopum et capitulum,
+                    amorem atque caritatem semper fovere volentes et omnem scintillam rancoris et
+                    queque ab ipsis scandala removere, visis, auditis et intellectis rationibus,
+                    iuribus, instrumentis, usibus et consuetudinibus et <supplied
+                        reason="illeggibile">eis que partes</supplied> ipse, tam de iure quam de
+                    consuetudine, dicere, allegare et proponere voluerunt, laudamus, diffinimus,
+                    arbitramur, sententiamus et ordinamus quod collatio archidiaconatus et
+                    prepositure, quandocumque dignitates ipsas vacare contingerit, spectet et
+                    spectare debeat ad episcopum Lunensem, qui pro tempore fuerit, easque conferre
+                    possit absque capituli predicti requisitione, quandocumque, cuicumque et
+                    quomodocumque voluerit, pro sue libito voluntatis. Item laudamus, diffinimus,
+                    arbitramur, sententiamus et ordinamus quod archipresbyteratus et custodia et si
+                    que alie sunt dignitates in eadem ecclesia, <supplied reason="illeggibile"
+                        >quando</supplied>cumque <pb n="131v" xml:id="fol_131v"/> vacaverint,
+                    spectent et spectare debeant ad collationem capituli supradicti, ita quod
+                    capitulum, sine ulla episcopi requisitione, dignitates easdem conferre
+                    quibuscumque voluerit valeat, prout ipsi capitulo videbitur expedire. Preterea
+                    laudamus, diffinimus, arbitramur, sententiamus et ordinamus quod prima prebenda
+                    cum canonicatu que vacaverit in eadem ecclesia spectet semper ad collationem
+                    predicti episcopi, qui pro tempore fuerit, et quod due prebende cum
+                    canonicatibus quas immediate post ipsam primam vacare contingerit, spectent ad
+                    collationem dicti capituli, et sic deinceps imperpetuum episcopus unam primam
+                    prebendam vacantem, absque requisitione capituli, et capitulum duas immediate
+                    vacantes, absque requisitione episcopi, conferre valeant quomodocumque,
+                    qualitercumque et cuicumque voluerint pro sue beneplacito voluntatis. Predicta
+                    quidem, sic ut dictum est, laudamus, diffinimus, arbitramur et sententiamus ac
+                    ordinamus atque, sub pena in compromisso apposita, mandamus totaliter observari,
+                    potestatem declarandi predicta, si quid dubietatis vel obscuritatis occurreret,
+                    nobis, quandocumque oportuerit, reservantes. In cuius rei efficax testimonium
+                    presens scriptum sigilli nostri pendentis munimine fecimus roborari et in
+                    publicam formam redigi per notarium infrascriptum. </p>
+                <p xml:id="XL_p_003" n="3"> Hec acta sunt <placeName ref="#Viterbo"
+                        >Viterbii</placeName> in domo <persName ref="#GerardusGerbini">Gerardi
+                        Gerbini</persName>, in qua idem dominus cardinalis hospitabatur, <date
+                        when="1276-02-14">anno Domini millesimo ducentesimo septuagesimo sexto,
+                        indictione IIII, die quartadecima februarii</date>, tempore
+                        <roleName>domini</roleName>
+                    <persName ref="#InnocentiuspontifexV">Innocentii <roleName>pape</roleName>
+                        V</persName>, <date when="1276-02-14">pontificatus sui anno primo</date>,
+                    presentibus venerabili viro <roleName>domino</roleName>
+                    <persName ref="#PercivalLavania">Percevallo</persName> de <placeName
+                        ref="#Lavania">Lavania</placeName>
+                    <roleName>domini pape capellano et subdyacono</roleName>,
+                        <roleName>donno</roleName>
+                    <persName ref="#Ventura_abbas">Ventura</persName>
+                    <roleName>abbate</roleName>
+                    <orgName ref="#Spineta_S_Trinita">monasterii Sancte Trinitatis de
+                        Spineta</orgName>, <placeName ref="#Chiusi">Clusine</placeName>
+                    <orgName ref="#Chiusi_diocesis">dyocesis</orgName>,
+                        <roleName>presbytero</roleName>
+                    <persName ref="#Iohannes_canonicusIan">Iohanne</persName>
+                    <roleName>canonico</roleName>
+                    <placeName ref="#Ianua">Ianuensi</placeName>, <roleName>domino</roleName>
+                    <persName ref="#RollandinusVez">Rollandino de <placeName ref="#Vezzano"
+                            >Vezano</placeName></persName>
+                    <roleName>milite</roleName>, <persName ref="#GerardusHenriciFal">Gerardo quondam
+                        domini Henrici de <placeName ref="#Falcinello"
+                        >Falcinello</placeName></persName> atque <persName
+                        ref="#AldebrandinusRicciardi">Aldebrandino filio Ricciardi de <placeName
+                            ref="#Sarzana">Sarzana</placeName></persName>, testibus ad hec rogatis. </p>
+                <p xml:id="XL_p_004" n="4">
+                    <ptr target="#XL_st_001"/> Ego <persName ref="#BonamoreCorelia_not">Bonamore de
+                            <placeName ref="#Coreglia">Corelia</placeName></persName>, <orgName
+                        ref="#Lucca_diocesis">Lucane dyocesis</orgName>, <roleName>publicatus<note
+                            place="foot" n="i" xml:id="XL_n_009">publicatus: <emph>così nel testo
+                                per </emph>publicus</note> imperiali auctoritate
+                    notarius</roleName>, predictis interfui et ea omnia et singula, de mandato dicti
+                    domini cardinalis, scripsi et publicavi meoque signo signavi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

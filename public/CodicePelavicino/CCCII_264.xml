@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCII_264">
+    <front xml:id="CCCII_front">
+
+      <titlePart type="numerazioneNuova">264</titlePart>
+      <titlePart type="numerazioneOrig">CCCII</titlePart>
+
+      <docDate xml:id="CCCII_docDate">
+        <date when="1283-09-12">1283 settembre 12</date>, <placeName>nella pianure presso Luni
+            (<term xml:lang="latin">in plano de Luna</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCII_regesto">
+        <p>Inchiesta promossa dal vescovo di Luni Enrico da Fucecchio riguardo alle terre poste nel
+          luogo detto <term xml:lang="latin">Aguto</term> detto <term xml:lang="latin">circhio de
+            Luna </term>(l’anfiteatro) verso il mare, oggetto di contesa da parte degli uomini di
+          Castelnuovo, Serravalle, Avenza e Carrara. Segue determinazione delle rispettive
+          pertinenze fatta da sei buoni uomini.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 284r.- 284v., cc. CCLXXVIr.- CCLXXVIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 302,
+            p. 281-182.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <term xml:lang="latin">De divixione terrarum
+              in circhio <placeName ref="#Luni">Lune</placeName></term>. </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCII.
+              Inquisitio facta de Aguto sive circulo de Luna.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCII_div">
+        <p xml:id="CCCII_p_001" n="1"> In Dei eterni nomine, amen. <date when="1283-09-12">Anno a
+            nativitate eius millesimo CC octuagesimo tercio, indictione XI, die XII mensis
+            septembris</date>. Inquisitio facta per nos <persName ref="#HenricusEpLuni"
+            >Henricum</persName>, <roleName>Dei gratia Lunensem episcopum</roleName>, super eo quod
+          homines de <placeName ref="#Castelnuovo">Castronovo</placeName>, de <placeName
+            ref="#Serravalle">Serravalle</placeName>, de <placeName ref="#Avenza"
+            >Aventia</placeName> et <placeName ref="#Carrara">Carraria</placeName> dicebant quod
+          habebant certas terras in loco dicto <placeName ref="#Aguto">Aguto</placeName> sive <term
+            ref="#circulus">circhio</term> de <placeName ref="#Luni">Luna</placeName> versus mare,
+          de quibus erat magna contentio inter eos. Et etiam nos nomine Lunensis episcopatus, quam
+          discordiam volentes sedare, incepimus eam inquirere per homines antiquos et etiam
+          fidedignos et etiam per instrumenta, citatis omnibus die predicta quorum interest ad
+          videndum dictam inquisitionem, et quicumque dicta die non venerit super hoc de cetero non
+          audietur, set applicabitur Lunensi curie terra predicta. Et primo circa unum iugerum terre
+          a strata versus mare usque ad muros civitatis <placeName ref="#Luni">Lune</placeName>
+          heredum <persName ref="#PetrusAdalaxie">Petri Adalaxie de <placeName ref="#Serravalle"
+              >Sarravalle</placeName></persName> et, iuxta ipsos heredes, circa medium iugerum terre
+            <persName ref="#GuilielmusVicino">Guilielmi de <placeName ref="#Vicino"
+              >Vicino</placeName></persName>, et iuxta illam <persName ref="#GuilielmusVicino"
+            >Guilielmi</persName> circa medium iugerum <persName ref="#FuscusBerte">Fuschi Berte de
+              <placeName ref="#CastelnuovoMagra">Castronovo</placeName></persName>, et iuxta illam
+            <persName ref="#GuilielmusVicino">Guilielmi</persName> unum iugerum terre que est
+            <persName ref="#GavarrusCastronovo">Gavarri</persName> et fratrum de <placeName
+            ref="#CastelnuovoMagra">Castronovo</placeName> et iuxta illam <persName
+            ref="#GavarrusCastronovo">Gavarri</persName> et fratrum unum iugerum terre que est
+            <persName ref="#VivianusBoniçi">Viviani Boniçi</persName> et <persName
+            ref="#GuilielmusFerri">Guilielmi Ferri de <placeName ref="#Ortonovo"
+              >Ortonovo</placeName></persName>, habitatorum <placeName ref="#Serravalle"
+            >Sarravallis</placeName>, qui sunt homines curie, et iuxta illam <persName
+            ref="#VivianusBoniçi">Viviani</persName> et <persName ref="#GuilielmusFerri"
+            >Guilielmi</persName> predictorum circa unum iugerum terre que est <persName
+            ref="#BellomusTorano">Bellomi</persName> et <persName ref="#RodulfusTorano">Rodulfi de
+              <placeName ref="#Torano">Torano</placeName></persName> usque ad <placeName
+            ref="#Terrachium">Terrachium</placeName>, et iuxta illam <persName ref="#BellomusTorano"
+            >Bellomi</persName> et <persName ref="#RodulfusTorano">Rodulfi</persName> circa medium
+          iugerum terre que est <persName ref="#GuilielmusPisani">Guilielmi Pisani de <placeName
+              ref="#PonteCarrara"> Ponte de Carraria</placeName></persName>, et iuxta illam
+            <persName ref="#GuilielmusPisani">Guilielmi</persName> terra, que est per latus iuxta
+          stratam circa tria iugera terre, que est hominum de <placeName ref="#Serravalle"
+            >Sarravalle</placeName>, videlicet <persName ref="#PetrusIordani">Iordani</persName>,
+            <persName ref="#BlancusUgolini">Blanci quondam Ugolini</persName> et eorum consortum de
+          la parte et protenditur usque ad fossatum, scilicet versus mare et iuxta terram <persName
+            ref="#PetrusIordani">Iordani</persName> et <persName ref="#BlancusUgolini"
+            >Blanci</persName> terra heredum <persName ref="#Bernazonus">Bernazoni</persName><note
+            place="foot" n="a" xml:id="CCCII_n_001"><term xml:lang="latin">Bernazoni</term>:
+              <emph>nel testo Bernanazoni con <term>na</term> ripetuto</emph>.</note> que est circa
+          unum quarterium, et iuxta terram heredum dictorum terra heredum <persName
+            ref="#ArgunnitosusMoneta">Argunnitosi de <placeName ref="#Moneta"
+            >Moneta</placeName></persName> que est circa unum iugerum, et iuxta terram dictorum
+          heredum <persName ref="#ArgunnitosusMoneta">Argunnitosi</persName> terra <persName
+            ref="#BonafidesFonti">Bonafidei de <placeName ref="#Fonti">Fonti</placeName></persName>
+          que est circa medium iugerum, et iuxta illam <persName ref="#BonafidesFonti"
+            >Bonafidei</persName> terra heredum <persName ref="#GiovagallusFonti">Çiovagalli de
+              <placeName ref="#Fonti">Fonti</placeName></persName> que est terra circa medium
+          iugerum, et iuxta illam heredum <persName ref="#GiovagallusFonti">Çiovagali</persName>
+          terra heredum <persName ref="#GuilielmusCornachie"> Guilielmi Cornachie</persName> que est
+          circa medium quarterium, et iuxta illam heredum <persName ref="#GuilielmusCornachie"
+            >Guilielmi</persName> terra heredum <persName ref="#GuilielminusMoneta">Guilielmini de
+              <placeName ref="#Moneta">Moneta</placeName></persName> que est circa medium
+          quarterium, et iuxta illam <persName ref="#GuilielminusMoneta">Guilielmini</persName>
+          terra heredum <persName ref="#DamianusCamua">Damiani de <placeName ref="#Camua"
+              >Camua</placeName></persName> que est medium quarterium, et iuxta illam heredum
+            <persName ref="#DamianusCamua">Damiani</persName> terra heredum dicti <persName
+            ref="#DamianusCamua">Damiani</persName> que est circa unum iugerum, et iuxta illam
+          dictorum heredum <persName ref="#DamianusCamua">Damiani</persName> terra heredum <persName
+            ref="#PhilippuciusSarzana">Philippucii de <placeName ref="#Sarzana"
+            >Sarzana</placeName></persName> que est circa duo iugera, et iuxta illam heredum
+            <persName ref="#PhilippuciusSarzana">Philippucii</persName> terra <persName
+            ref="#FerrusDolcebeneMonteserino"> Ferri et fratrum quondam Dulcebene de <placeName
+              ref="#Monteserino">Monteserino</placeName></persName> que est circa tria iugera, et
+          iuxta illam <persName ref="#FerrusDolcebeneMonteserino">Ferri</persName> et fratrum terra
+            <persName ref="#MelioratusMoneta">Meliorati de <placeName ref="#Moneta"
+              >Moneta</placeName></persName> et consortum suorum, hominum curie Lunensis, que est
+          circa duo iugera, et iuxta illam <persName ref="#MelioratusMoneta">Meliorati</persName> et
+          consortum suorum terra <persName ref="#AstexanusTorano">Astexani</persName> et fratris sui
+          de <placeName ref="#Torano">Torano</placeName> que est circa medium iuger, et iuxta illam
+            <persName ref="#AstexanusTorano">Astexani</persName> et fratris terra heredum <persName
+            ref="#LombardusAventia">Lumbardi de <placeName ref="#Avenza"
+            >Aventia</placeName></persName> que est circa unum quarterium, et iuxta illam heredum
+            <persName ref="#LombardusAventia">Lumbardi</persName> terra curie Lunensis, que nunquam
+          fuit laborata; versus <placeName ref="#Treponçum">Treponçum</placeName> usque ad fossam
+          respondentem usque ad angulum civitatis domus canonicorum, et in illo medio, iuxta terram
+          heredum <persName ref="#PhilippuciusSarzana">Philippucii</persName> usque ad fossatum
+            <placeName ref="#Arena"> Arene</placeName>, que numquam fuit seminata nec arata, est
+          terra curie Lunensis usque ad mare, et iuxta dictam terram in illo medio terra <persName
+            ref="#Gedaldus">Gedaldi</persName>, quam emit a <persName ref="#GuilielmusCornachie"
+            >Guilielmo Corvachie</persName>, que est circa medium iugerum, et iuxta terram <persName
+            ref="#Gedaldus">Gedaldi</persName> terra illorum de <persName ref="#Spinelli"
+            >Spinellis</persName> que est circa unum iugerum usque ad dictum fossatum, et iuxta
+          illam <persName ref="#Spinelli">Spinellorum</persName> terra heredum <persName
+            ref="#DominicusPeraboche">Dominici Peraboche</persName>, que est circa medium iugerum,
+          videlicet <persName ref="#OradinusBellomi">Oradini quondam Belloni</persName> et <persName
+            ref="#LucanusBonacursi">Lucani</persName> et fratrum <pb n="284v" xml:id="fol_284v"/>
+          quondam Bonacursi et <persName ref="#VenturaGandolfini">Venture</persName> et fratris
+          quondam Gandolfini, et circa unum quarterium, iuxta eandem terram predictorum, et iuxta
+            <placeName ref="#Terrachium">Torrachium</placeName> medium quarterium, cui est ab uno
+          latere, videlicet desuper, versus stratam, <persName ref="#BellomusTosabechi">Bellomi
+            Tosabechi</persName> de Torano et a pede <persName ref="#FerrusDolcebene">Ferri
+            Dulcebene de <placeName ref="#Viciale">Veçiali</placeName></persName>, ab uno latere
+            <persName ref="#GuilielminusFerri">Guilielmini Ferri de <placeName ref="#Ortonovo"
+              >Ortonovo</placeName></persName> et ab alio heredum quondam <persName ref="#Lingus"
+            >Linghi de <placeName ref="#Torano">Torano</placeName></persName>. Hiis omnibus
+          terminatis, prout dictum est superius, per homines fidedignos et antiquos versus stratam
+          deinde versus mare, electi fuerunt sex boni viri antiqui et fidedigni ut dictas terras
+          singularium hominum versus mare diffinirent, iuramento eorum, hoc modo, videlicet a tribus
+          petris iuxta muros civitatis <placeName ref="#Luni">Lune</placeName>, recta linea veniendo
+          versus <placeName ref="#Avenza">Aventiam</placeName> sive <placeName ref="#Treponçum"
+            >Treponçum</placeName>, dicti homines, videlicet <persName ref="#VersusGordiani">Versus
+            quondam Gordiani de <placeName ref="#PoçioCastronovo">Castronovo</placeName></persName>,
+            <persName ref="#MelioreAiuti">Meliore quondam Aiuti de <placeName ref="#Serravalle"
+              >Serravalle</placeName></persName>, <persName ref="#BellomusCyte">Bellomus
+            Cyte</persName>, <persName ref="#BonaiunctaLuna">Bonaiuncta de <placeName ref="#Luni"
+              >Luna</placeName></persName> et <persName ref="#DominicusSerravalle">Dominicus de
+              <placeName ref="#Serravalle">Serravalle</placeName></persName> et <persName
+            ref="#FerrusAventia">Ferrus de <placeName ref="#Avenza">Aventia</placeName></persName>
+          diffinierunt, statuerunt et declaraverunt, iuramento eorum, ut vocetur omnis materia
+          questionis de cetero: a dictis tribus petris recta linea veniendo versus <placeName
+            ref="#Avenza">Aventiam</placeName>, ut dictum est, usque ad angulum terre <persName
+            ref="#MelioratusMoneta">Meliorati de <placeName ref="#Moneta"
+            >Moneta</placeName></persName>, ad fossatum, quod vadit versus mare et versus stratam,
+          sit hominum singularium, qui ostendent se habere ius in hiis terris, per testes vel
+          publicum instrumentum, versus dictam stratam; et a dictis tribus petris, veniendo recta
+          linea usque ad angulum terre dicti <persName ref="#MelioratusMoneta">Meliorati</persName>
+          versus mare, sit curie Lunensis. Et dixerunt idem quod ultra dictum angulum versus
+            <placeName ref="#Avenza">Aventiam</placeName>, eundo superius et inferius versus mare,
+          quod numquam viderunt laborare et ideo debent esse Lunensis curie et sunt, nisi aliquis
+          ostenderit se ius habere in eis. </p>
+        <p xml:id="CCCII_p_002" n="2"> Actum in plano de <placeName ref="#Luni">Luna</placeName>, in
+          terra <persName ref="#MelioratusMoneta">Meliorati</persName> suprascripti de <placeName
+            ref="#Moneta">Moneta</placeName>, presentibus <roleName>presbytero</roleName>
+          <persName ref="#Conraduspres">Conrado ecclesie de <placeName ref="#Serravalle"
+              >Serravalle</placeName></persName>, <persName ref="#OradinusBellomi">Oradino quondam
+            Bellomi de <placeName ref="#Fonti">Fonci</placeName></persName> et <persName
+            ref="#Simon">Symone quondam Iuncte de <placeName ref="#Santo_Stefano">Sancto
+              Stephano</placeName></persName> et <persName ref="#ParentinusGuilielmi">Parentino
+            quondam Guilielmini de <placeName ref="#Serravalle">Serravalle</placeName></persName>,
+          testibus ad hec rogatis.</p>
+        <p xml:id="CCCII_p_003" n="3"><ptr target="#CCCII_st_001"/> Ego <persName
+            ref="#BonacursusPetrinot">Bonacursus, filius Petri <roleName>notarii</roleName> de
+              <placeName ref="#Sarzanello">castro Sarzane</placeName></persName>, <roleName>notarius
+            sacri palacii</roleName>, hiis omnibus interfui et rogatus scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

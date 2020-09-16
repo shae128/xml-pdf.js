@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="DLVIbis_520">
+        <front xml:id="DLVIbis_front">
+
+            <titlePart type="numerazioneNuova">520</titlePart>
+            <titlePart type="numerazioneOrig"/>
+
+            <docDate xml:id="DLVIbis_docDate">
+                <date from="1289-09-24" to="1289-12-31">&#60;post 1289 settembre 24&#62;</date>,
+                    <placeName ref="#Sarzanello">Sarzanello</placeName> (<term xml:lang="latin">in
+                    castro Sarzane Lunensis dyocesis</term>) </docDate>
+
+            <div type="regesto" xml:id="DLVIbis_regesto">
+                <p>Il vescovo di Luni Enrico affida a maestro Egidio di Bligny-sur-Ouche, della
+                    diocesi di Autun, il compito di trascrivere nel codice i documenti che attestano
+                    i diritti dell’episcopato e comitato di Luni. Egidio dichiara di aver adempiuto
+                    al compito tra il 24 settembre 1288 e il 24 settembre 1289. </p>
+            </div>
+
+            <div type="footer" xml:id="DLVIbis_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] c. 408v., c. CCCCv. secondo la numerazione originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p> Edizione <ref target="#PODESTÀ_1894">PODESTÀ 1895,</ref> pp. 9-10. Manca in
+                            <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912.</ref>
+                    </p>
+                </div>
+
+                <div type="crit_notes">
+                    <note>
+                        <p> Il testo è privo di data cronica e topica; venne scritto poco dopo la
+                            fine del lavoro di trascrizione fatto dallo stesso Egidio, conclusosi
+                            entro il 1289 con indizione seconda, il che significa entro il 24
+                            settembre; il luogo di redazione dovrebbe essere il medesimo in cui
+                            Egidio condusse la sua opera di trascrizione, ossia il <term
+                                xml:lang="latin">castrum Sarzane</term>. </p>
+                    </note>
+                </div>
+
+
+                <div type="appr">
+                    <p> Una mano posteriore ha sottolineato la parte di testo dove compare il nome
+                        dello scriba <term xml:lang="latin">magister Egidius</term>. Nel margine
+                        interno, di mano moderna: <term xml:lang="latin">ut supra pag. 40
+                            nota</term>
+                    </p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="DLVIbis_div">
+                <p> In nomine Sancte et Individue Trinitatis. Venerabilis pater
+                        <roleName>dominus</roleName>
+                    <persName ref="#HenricusEpLuni">Henricus</persName>, <roleName>Dei gratia
+                        episcopus Lunensis et comes</roleName>, considerans memoriam hominum brevem
+                    et labilem et eorum mentes diversis voluntatibus occupari quam plurimum, ad
+                    honorem et reverentiam omnipotentis Dei et beatissime Virginis matris eius,
+                    cuius presidio <orgName ref="#Luni_comitatus"> Lunensis episcopatus et
+                        comitatus</orgName> feliciter gubernentur, et ad honorem omnium sanctorum et
+                    sanctarum eorum et ad conservationem iurium dictorum episcopatus et <orgName
+                        ref="#Luni_comitatus">comitatus Lunensis</orgName> ecclesie, proposuit,
+                    voluit, disposuit et mandavit ad eternam rei memoriam omnia et singula
+                    suprascripta per me <roleName>magistrum</roleName>
+                    <persName ref="#EgidiusBligny">Egidium</persName> de <placeName
+                        ref="#Beligneio_super_Oscharam">Beligneio super Oscharam</placeName>,
+                        <orgName ref="#Autun_diocesi">dyocesis <placeName ref="#Eduensis"
+                            >Eduensis</placeName></orgName>, familiarem eiusdem, in volumine
+                    presenti debere conscribi. Et ideo ego magister <persName ref="#EgidiusBligny"
+                        >Egidius</persName> suprascriptus omnia et singula instrumenta et iura
+                    predicta ut in originalibus repperi hic fideliter exemplavi, nil addens, minuens
+                    vel immutans quod sensum mutet vel variet intellectum. Hec autem <date
+                        from="1288-09-24" to="1289-09-24"> incepi anno nativitatis Domini M° CC°
+                        octuagesimo VIII°, indictione secunda</date>, in <placeName ref="#Sarzana"
+                        >castro Sarzane</placeName> Lunensis dyocesis, et ibidem ipsa perfeci anno
+                    nativitatis Eiusdem M° CC° octogesimo IX°, indictione secunda. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

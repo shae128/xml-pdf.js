@@ -1,0 +1,262 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="LXVI_93">
+        <front xml:id="LXVI_front">
+
+            <titlePart type="numerazioneNuova">93</titlePart>
+            <titlePart type="numerazioneOrig">LXVI</titlePart>
+
+            <docDate xml:id="LXVI_docDate">
+                <date when="1255-05-16">1255 maggio 16</date>, <placeName>Ponzanello</placeName>
+                <emph>(<term xml:lang="latin">Poncenelli, in ecclesia nova</term>)</emph>
+            </docDate>
+
+            <div type="regesto" xml:id="LXVI_regesto">
+                <p>Il notaio Mompeslerio del fu Martino di Greca di Sarzana, curatore dei minori
+                    Calandrino e Beatrice del fu Bongiovanni di Grimaldeto di Sarzana, vende al
+                    vescovo Guglielmo le cinque staia di frumento con diritti annessi, che i
+                    medesimi minori ricevono annualmente, a titolo di affitto, da Virgilio del fu
+                    Galgano e da Adorneto del fu Bordone di Sarzana per un mulino posto nel luogo
+                    detto Guerria. Tale fitto era stato dato loro dal vescovo in cambio di un
+                    terreno a Sarzana nel luogo detto borgo degli Arcolesi. Le 11 libbre di denari
+                    imperiali pagate dal vescovo vengono destinate da Mompeslerio alla dote di
+                    Beatrice.</p>
+            </div>
+
+            <div type="footer" xml:id="LXVI_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 195v.-196v., cc. CLXXXVIIv.-CLXXXVIIIv. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 66, pp. 108-109.</p>
+                </div>
+
+                <div type="crit_notes">
+                    <note> Nel documento è inserto il testo della procura rilasciata il giorno
+                        precedente a favore di Mompeslerio del fu Martino <term xml:lang="latin">de
+                            Greca</term> di Sarzana. Nel margine interno di c. 196r., di mano
+                        posteriore: <term xml:lang="latin">venditio</term>. Un’altra mano, sempre in
+                        età moderna, ha aggiunto <term xml:lang="latin">facta ab episcopo de
+                            quodam</term>. </note>
+                </div>
+
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXVI. Sicut afictum dicti molendini fuit aquisitum a
+                            tutore Calandrini, scilicet frumenti staria V, cui datum fuit dictum
+                            fictum in canbium pro tereno in burgo Arcule.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="LXVI_div">
+                <pb n="195v" xml:id="fol_195v"/>
+                <p xml:id="LXVI_p_001" n="1"> In Dei nomine, amen. <date when="1255-05-16">Anno a
+                        nativitate Eius millesimo CCL°V°, indictione XIIIa, XVI° die intrantis
+                        maii</date>. <persName ref="#MonpesleriusMartini_notarius">Monpeslerius
+                            <roleName>notarius</roleName> quondam Martini de Greca de <placeName
+                            ref="#Sarzana">Sarzana</placeName></persName>, curator <persName
+                        ref="#CalandrinusBoniohannis">Calandrini</persName> et <persName
+                        ref="#BeatrixBoniohannis">Beatricis quondam Bonioanis de Grimaldetto de
+                            <placeName ref="#Sarzana">Sarzana</placeName></persName>, sicut apparet
+                    per publicum instrumentum factum manu <persName ref="#Testafortenot">Testafortis
+                            <roleName>notarii</roleName> de <placeName ref="#Sarzana"
+                            >Sarzana</placeName></persName>, tenor cuius talis est: </p>
+
+                <p xml:id="LXVI_p_002" n="2"> <quote>In nomine Domini, amen. <date when="1255-05-15"
+                        >Anno a nativitate Eius M°CCLV°, indictione XIIIa, XV intrantis maii
+                            <note>Procura di Calandrino e Beatrice del fu Buongiovanni al notaio
+                            Mompeslerio del fu Martino di Greca di Sarzana</note></date><note
+                        place="foot" n="a" xml:id="LXVI_n_001">M°CCLV°: L <emph>corretto su
+                            precedente scrittura</emph>.</note>. <persName
+                        ref="#CalandrinusBoniohannis">Calandrinus</persName> et <persName
+                        ref="#BeatrixBoniohannis">Beatrix quondam Bonioanis de Grimaldetto de
+                            <placeName ref="#Sarzana">Sarzana</placeName></persName>, venientes ante
+                    presentiam <persName ref="#Rubeusiud"><roleName>domini</roleName> Rubei</persName>,
+                    <roleName>iudicis et assessoris</roleName> <orgName ref="#Sarzana_comune">communis</orgName> de <placeName
+                                ref="Sarzana">Sarzane</placeName> et <roleName>vicarii</roleName> <roleName>domini</roleName> <persName
+                                    ref="#SygeriusSassecta">Sygerii de
+                            <placeName ref="#Sassecta">Sassecta</placeName></persName>, <roleName>potestatis
+                            communis</roleName> eiusdem, petierunt sibi dari et concedi
+                    in curatorem ad infrascripta <persName ref="#MonpesleriusMartini_notarius"
+                        >Monpeslerium quondam Martini de Greca de <placeName ref="#Sarzana"
+                            >Sarzana</placeName></persName>, presentem, ad causas omnes et singulas,
+                    quas habent vel habebunt vel habere possent cum aliquibus personis vel locis vel
+                    alique persone vel aliqua loca cum eis aliqua occasione, ratione vel iure, facto
+                    vel modo, ad compromittendum per arbitrium vel amicabilem compositionem, ad
+                    agendum, petendum et respondendum, excipiendum et replicandum, de calumpnia
+                    iurandum, positiones et interrogationes faciendum, positionibus et
+                    interrogationibus respondendum, testes et instrumenta introducendum, sententias,
+                    arbitrium, lauda et amicabiles compositiones audiendum, adprobandum,
+                    ratificandum et emologandum, appellandum sententias, arbitria et amicabiles
+                    compositiones nullas et nullam dicendum et ab eis ad <supplied reason="omitted"
+                        >arbitrium</supplied> boni viri vel iudicis recurrendum, et causas
+                    appellationum nullitatum et recursus ad arbitrium boni viri vel iudicis
+                    prosequendum, si opus fuerit vel ei utile visum fuerit, et ad paciscendum et
+                    transigendum et ad vendendum de bonis eorum usque in quantitatem <measure
+                        type="Imperiales" quantity="60" unit="solidus">librarum LX
+                        imperialium</measure> vel plurium occasione dotis ipsius <persName
+                        ref="#BeatrixBoniohannis">Beatricis</persName>, que est <measure
+                        type="Imperiales" quantity="50" unit="solidus">libre L
+                    imperialium</measure>, solvende <persName ref="#MartinusRaynerii">Martino
+                        quondam Raynerii de <placeName ref="#Putella">Putella</placeName></persName>
+                    , viro suo, vel alii persone pro eo vel occasione debitorum preteritorum,
+                    presentium, futurorum vel alimentorum ipsorum minorum vel eris alieni solvendi
+                    vel alia aliqua iuxta<note place="foot" n="b" xml:id="LXVI_n_002">iuxta:
+                            <emph>così nel testo per</emph> iusta.</note> occasione, et ad
+                    compromittendum pro eis et eorum nomine de evitione rerum ab eo venditarum vel
+                    alienandarum pro eis et eorum nomine, et ad penam atque penas, dampna, expensas
+                    et interesse dare et solvere et restituere, pro eis et eorum vice et nomine
+                    promittendo et eos et eorum heredes et bona obligando, et omnia et singula
+                    faciendum que in predictis vel aliquo eorum vel circa ea vel aliquod eorum
+                    necessarium vel utiliter de iure seu de consuetudine fuerint facienda. Qui
+                    iudex, assessor et vicarius, pro tribunali sedens in loco in quo iura redduntur
+                    et reddi consueverunt pro communi <placeName ref="#Sarzana">Sarzane</placeName>,
+                    dictum <persName ref="#MonpesleriusMartini_notarius">Monpeslerium</persName>
+                    curatorem in predictis <persName ref="#CalandrinusBoniohannis"
+                        >Calandrino</persName> et <persName ref="#BeatrixBoniohannis"
+                        >Beatrici</persName> ad predicta omnia et singula curatorem concessit et
+                    dedit, dicendo ei <q>Esto predictorum minorum curator</q>. Qui <persName
+                        ref="#MonpesleriusMartini_notarius">Monpeslerius</persName> curator
+                    promisit, obligando se et <pb n="196r" xml:id="fol_196r"/> suos heredes et bona
+                    sua omnia, atque etiam ad sancta Dei evangelia iuravit, corporaliter tacto
+                    libro, ipsis <persName ref="#BeatrixBoniohannis">Beatrici</persName> et
+                        <persName ref="#CalandrinusBoniohannis">Calandrino</persName> et mihi
+                        <persName ref="#Testafortenot">Testaforti
+                        <roleName>notario</roleName></persName> , pro eorum vice et nomine
+                    stipulanti, utilia ipsorum minorum in predictis et circa predicta faciet et
+                    inutilia pretermittet, preterquam in confitendo veritatem vel quod crediderit
+                    vel exterminaverit per calumpnie iuramentum. Dato fideiussore sub eo <persName
+                        ref="#PercivalGuilielmini">Persevalle quondam Guilielmini de <placeName
+                            ref="#Portovenere">Portonario</placeName> de <placeName ref="#Sarzana"
+                            >Sarzana</placeName></persName>, qui eius precibus atque mandato,
+                    obligando se et suos heredes et omnia sua bona, promisit iamdictis minoribus et
+                    etiam mihi notario suprascripto, pro eis et eorum vice et nomine stipulanti, ita
+                    se facturum et curaturum quod dictus <persName
+                        ref="#MonpesleriusMartini_notarius">Monpeslerius</persName> curator faciet,
+                    attendet et observabit omnia et singula predicta que promisit et ut promisit et
+                    debet, renuncians beneficio nove constitutionis de fideiussoribus. Actum
+                        <placeName ref="#Sarzana">Sarzane</placeName>, sub porticu communis ipsius,
+                    ubi iura redduntur pro ipso communi, sollempniter, presentibus <persName
+                        ref="#Simonetusnot">Symoneto <roleName>notario</roleName></persName>,
+                        <persName ref="#GuilielmusMartini">Guilielmo filio Martini
+                    Bullii</persName>, <persName ref="#AdelbertinusOlive">Aldebertino Olive de
+                            <placeName ref="#Sarzana">Sarzana</placeName></persName> et <persName
+                        ref="#GualterinusTiniosi">Gualterino quondam Tiniosi de <placeName
+                            ref="#Arcola">Arcula</placeName></persName>, testibus ad hec
+                    rogatis,</quote> </p>
+                <p xml:id="LXVI_p_003" n="3"> Curatorio nomine pro eis<note place="foot" n="c"
+                        xml:id="LXVI_n_003">nomine pro eis: <emph>nel testo</emph> pro eis nomine
+                            <emph>con segno di richiamo per invertire l’ordine delle
+                        parole</emph>.</note> et eorum nomine et vice vendidit, dedit et tradidit
+                    venerabili patri <persName ref="#GuilEpLuni"><roleName>domino</roleName>
+                        Guilielmo, <roleName>Dei gratia Lunensi episcopo</roleName></persName>,
+                    recipienti pro se suisque successoribus et nomine episcopatus, V staria
+                    frumenti, cum omni iure soli et personarum illud fictum solvere debentium, quod
+                    ipsi <persName ref="#CalandrinusBoniohannis">Calandrinus</persName> et <persName
+                        ref="#BeatrixBoniohannis">Beatrix quondam Bonioanis de <placeName
+                            ref="#Sarzana">Sarzana</placeName></persName> recipiunt et recipere
+                    debent annuatim, nomine ficti, a <persName ref="#VirgiliusGalgani">Virgilio
+                        quondam Galgani</persName> atque ab <persName ref="#AdornetusBordoni"
+                        >Adorneto qondam Bordoni de <placeName ref="#Sarzana"
+                        >Sarzana</placeName></persName> de quodam molendino posito in loco dicto:
+                        <placeName ref="#Guerria">Guerria</placeName>; quod frumentum idem dominus
+                    episcopus ipsis minoribus vel aliis pro eis olim dederat nomine cambii seu
+                    permutationis cuiusdam terreni positi in burgo de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>, in loco dicto <placeName ref="#burgo_Arculensium"
+                        >Burgo Arculensium</placeName>. Et dedit, tradidit, cessit atque mandavit
+                    eidem domino episcopo, recipienti ut dictum est, omne dominium, proprietatem,
+                    usum atque utilitatem et omnia iura, actiones et rationes utiles et directas,
+                    reales, personales seu mixtas, et omnes alias que et quas habent vel eis
+                    competunt in dicto ficto et in terreno et molendino, unde solvuntur, et in
+                    personas et contra personas et contra bona dictorum <persName
+                        ref="#VirgiliusGalgani">Virgilii</persName> et <persName
+                        ref="#AdornetusBordoni">Adorneti</persName> , dictum fictum solvere
+                    debentium, et occasione dicti ficti, terreni vel molendini, unde redduntur,
+                    faciendo ipsum dominum episcopum procuratorem et dominum in rem suam de hiis,
+                    ita ut ex hiis omnibus et singulis ipse dominus episcopus suique successores
+                    possint agere et experiri, causari, tueri atque deffendere suo proprio nomine
+                    directo et utiliter adversus quamcumque personam et locum et exinde facere
+                    quicquid voluerit sine contradictione suprascripti curatoris seu ipsorum minorum
+                    vel alterius persone, dando eidem domino episcopo licenciam ut sua auctoritate
+                    de predicto ficto tenutam et possessionem ingrediatur vel quasi quandocumque <pb
+                        n="196v" xml:id="fol_196v"/> voluerit, constituendo se idem curator, nomine
+                    dictorum minorum, pro eo et eius nomine possidere vel quasi donec possessionem
+                    vel quasi fuerit introgressus. Pro precio cuius ficti sive frumenti fuit
+                    confessus suprascriptus curator se recepisse et habuisse a dicto domino episcopo
+                        <measure type="Imperiales" quantity="11" unit="solidus">libras XI
+                        imperialium </measure> pro ipsis minoribus, renuntiando exceptioni non
+                    numerate pecunie et precii integre non habiti et soluti et omni alii iuri et
+                    legum auxilio. Et fuit confessus quod suprascripta venditio plus valebat
+                    suprascripto precio, unde totum et quicquid plus valebat eidem domino episcopo
+                    donavit titulo pure ac simpliciter<note place="foot" n="d" xml:id="LXVI_n_004"
+                        >simpliciter: <emph>così nel testo per</emph> simplicis.</note> donationis
+                    inter vivos, et renunciavit specialiter illi legi que iuvat deceptos in
+                    venditionibus ultra dimidiam iusti precii. Quos denarios suprascriptus <persName
+                        ref="#MonpesleriusMartini_notarius">Monpeslerius </persName> promisit et
+                    convenit ipsi domino episcopo dare et solvere in solutionem dotis predicte
+                        <persName ref="#BeatrixBoniohannis">Beatrici</persName>, occasione cuius
+                    dotis presentem venditionem faciebat, ut dicebat. Insuper suprascriptus curator,
+                    nomine predictorum minorum, promisit et convenit eidem domino episcopo,
+                    recipienti ut dictum est, dictum frumentum non inbrigare vel molestare deinceps,
+                    immo ipsum deffendere iure ab omni contradicente<note place="foot" n="e"
+                        xml:id="LXVI_n_005">contradicente: d <emph>corretta su precedente
+                            scrittura</emph>.</note> persona et loco et specialiter ab omni
+                    concessione vel dato, que vel quod per ipsum <persName
+                        ref="#MonpesleriusMartini_notarius">Monpeslerium </persName> seu per ipsos
+                    minores seu per aliquam aliam personam pro eis alicui facta fuisset ab eo
+                    tempore citra quo ipsum frumentum atque cambium habuerunt; quod, si non faceret
+                    vel non posset, salvum cambium inde promisit. Hanc autem venditionem et omnia
+                    que in hac carta leguntur, suprascriptus curator, nomine predictorum minorum,
+                    promisit et convenit suprascripto domino episcopo, recipienti ut dictum est,
+                    facere et observare atque in nullo umquam contravenire de iure vel de facto, sub
+                    pena <measure type="Imperiales" quantity="100" unit="solidus">soldorum C
+                        imperialium</measure>, quam dare et solvere promisit ipsi domino episcopo
+                    tociens quociens fuerit contraventum et pro quolibet capitulo non observato; qua
+                    soluta, suprascriptis omnibus et singulis nichillominus semper firmis, obligando
+                    se et dictos minores et eorum et sua bona, renuntiando omni iuri et legibus
+                    contra hec introductis. Insuper dictus <persName ref="#CalandrinusBoniohannis"
+                        >Calandrinus </persName> iuravit corporaliter predictam venditionem et omnia
+                    suprascripta ratam et rata habere, attendere et observare atque numquam in
+                    aliquo contravenire, de iure vel de facto, ratione minoris etatis vel doli seu
+                    deceptionis vel in integrum restitutionis vel alia quacumque occasione vel
+                    modo.</p>
+                <p xml:id="LXVI_p_004" n="4"> Actum <placeName ref="#Ponzanello"
+                        >Poncenelli</placeName>, in <orgName ref="#Ponzanello_S_Martino">ecclesia
+                        nova</orgName>, presentibus <persName ref="#Iacopinusarc">Iacomino
+                            <roleName>archipresbytero</roleName> de <placeName ref="#Ameglia"
+                            >Amelia</placeName></persName>, <persName ref="#PetrusGualterotinot"
+                        >Petro <roleName>notario</roleName> filio Gualterotti de <placeName
+                            ref="#Soliera">Soleria</placeName></persName> et <persName
+                        ref="#CyciusLuca">Cycio de <placeName ref="#Lucca"
+                        >Luca</placeName></persName>, testibus ad hec rogatis. </p>
+                <p xml:id="LXVI_p_005" n="5">
+                    <ptr target="LXVI_st_001"/> Ego <persName ref="#Adiutusnot">Adiutus,
+                            <roleName>sacri palatii notarius</roleName></persName>, hiis interfui
+                    atque, de mandato suprascripti domini episcopi, scripsi et complevi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXVIII_179">
+    <front xml:id="CCXVIII_front">
+
+      <titlePart type="numerazioneNuova">179</titlePart>
+      <titlePart type="numerazioneOrig">CCXVIII</titlePart>
+
+      <docDate xml:id="CCXVIII_docDate">
+        <date when="1236-05-25">1255 maggio 25</date>, <placeName>Castelnuovo (<term
+            xml:lang="latin">in Castro Novo, in domo Bonacursi quondam Carandi</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXVIII_regesto">
+        <p>Guglielmo del fu Dainense di Burcione cede a Bonaccorso di <term type="latin"
+            >Buiano</term> un fitto annuale di due staia e mezzo di frumento per la somma di 6 lire
+          di imperiali, fitto che allo stesso Bonaccorso pagano i suoi villani, Guglielmo, Sabatino
+          e Domenico di Castagnetolo, figli ed eredi del fu Pietro di Caprigliola e che Bonaccorso
+          aveva riconosciuto a Guglielmo a titolo di pegno. Contestualmente Bonaccorso cede a
+          Guglielmo, vescovo di Luni, i suddetti villani e il fitto da loro dovuto per la somma di 8
+          lire di imperiali. Acconsente alla vendita Sibilia, moglie di Bonaccorso.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 249v.-250r., cc. CCXLIv.- CCXLIIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 218,
+            pp. 196-197.</p>
+          <p>Bibliografia: <ref target="#NOBILI_1992">NOBILI 1992</ref></p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXVIII_div">
+        <p xml:id="CCXVIII_p_001" n="1">
+          <pb n="249v" xml:id="fol_249v"/>In Dei nomine, amen.<date when="1255-05-25"> Anno a
+            nativitate eius M°CC°LV°, indictione XIII, VIII kalendas iunii</date>.<persName
+            ref="#GuilielmusDainensis"> Guilielmus quondam Dainensis de <placeName ref="#Burcione"
+              >Burçone</placeName></persName> fecit finem et refutationem, restitutionem et
+          remissionem et pactum de non petendo et datum domino <persName ref="#BonacursusBuiano"
+            >Bonacurso de <placeName ref="#Buiano">Buiano</placeName></persName> de quodam ficto,
+          quod est annuatim duo staria frumenti et dimidium, que ipsi domino <persName
+            ref="#BonacursusBuiano">Bonacurso</persName> solvit<note xml:id="CCXVIII_n_001" n="a"
+            place="foot"><term type="incerto">solvit</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">solvunt</term></note>, nomine ficti, filii et heredes quondam
+            <persName ref="#PetrusCapriliola">Petri de <placeName ref="#Caprigliola"
+              >Capriliola</placeName></persName>, villani sui, quod fictum dictus dominus <persName
+            ref="#BonacursusBuiano">Bonacursus</persName> ipsi <persName ref="#GuilielmusDainensis"
+            >Dainensi</persName> pignori obligaverat seu quocumque alio modo sibi dederat vel
+          concesserat, cedendo sibi omnia iura que habebat in dicto ficto et solo pro quo redditur
+          atque personis reddentium, confitendo se recepisse ab ipso domino <persName
+            ref="#BonacursusBuiano">Bonacurso</persName>, pro predictis fine et refutatione et
+          aliis, <measure type="Imperiales" quantity="6" unit="libra">libras VI
+            imperialium</measure>, renunciando exceptioni non numerate pecunie et precii integre non
+          habiti et soluti et omni alii iuri et legum auxilio, promittendo dictam finem et
+          refutationem <supplied reason="omitted">et</supplied> predicta omnia rata habere et non
+          contravenire, obligando sese suosque heredes et bona ad penam dupli suprascripte pecunie
+          et eius tocius quod in questionem veniret; qua soluta, predicta omnia in suo robore
+          perseverent. Qui suprascriptus dominus <persName ref="#BonacursusBuiano"
+            >Bonacursus</persName> per se suosque heredes, ibidem presente et consentiente
+          suprascripto <persName ref="#GuilielmusDainensis">Guilielmo</persName>, vendidit, dedit et
+          tradidit <persName ref="#Nicholetuscastro">Nicholeto de <placeName ref="#Sarzanello"
+              >castro Sarzane</placeName></persName>, castaldioni venerabilis patris domini
+            <persName ref="#GuilEpLuni">Guilielmi, Dei gratia <roleName>Lunensis
+            episcopi</roleName></persName>, recipienti nomine et vice ipsius domini episcopi et
+          episcopatus, suprascriptos filios et heredes quondam <persName ref="#PetrusCapriliola"
+            >Petri de <placeName ref="#Caprigliola">Capriliola</placeName></persName>, villanos
+          suos, videlicet <persName ref="#GuilielmusDainensis">Guilielmum</persName>, <persName
+            ref="#Sabbatinus">Sabbatinum</persName> et <persName ref="#DominicusCastagnetulo"
+            >Dominicum de <placeName ref="#Castagnetulo">Castagnetulo</placeName></persName>, cum
+          suprascriptis duobus stariis frumenti et dimidio quod annuatim, nomine ficti, recipiebat
+          ab eis et cum homagio et resedio et cum omnibus aliis redditibus et serviciis que in ipsis
+          habebat. Et dedit, cessit, tradidit atque mandavit eidem <persName ref="#Nicholetuscastro"
+            >Nicholeto</persName>, recipienti nomine et vice dicti domini episcopi et episcopatus,
+          ut dictum est, omne dominium, proprietatem, usum et utilitatem, accessum et regressum,
+          actiones et rationes, utiles et directas, reales, personales seu mixtas sibi competentes
+          et competencia seu competitura in dictis filiis et heredibus quondam dicti <persName
+            ref="#PetrusCapriliola">Petri de <placeName ref="#Caprigliola"
+            >Caprilliola</placeName></persName>, villani sui, et duobus stariis frumenti et dimidio
+          et in aliis redditibus et serviciis et eorum occasione, faciendo eumdem <persName
+            ref="#Nicholetuscastro">Nicholetum</persName>, recipientem ut dictum est, de hiis
+          procuratorem et dominum ut in rem suprascripti episcopi et episcopatus Lunensis, ita ut ex
+          hiis omnibus atque singulis ipse <persName ref="#Nicholetuscastro">Nicholetus</persName>,
+          vice et nomine ipsius domini episcopi et episcopatus et cui commissum fuerit nomine et
+          vice episcopatus et ipsius domini episcopi, possint agere et experiri, tueri, causari et
+          deffendere suo proprio nomine directo et utilitate adversus quamcumque personam et locum
+          et inde facere quicquid voluerint, sine contradictione dicti domini <persName
+            ref="#BonacursusBuiano">Bonacursi</persName> vel alterius persone, dando eidem <persName
+            ref="#Nicholetuscastro">Nicholeto</persName>, recipienti ut dictum est, licenciam ut sua
+          auctoritate ingrediatur et accipiat corporalem tenutam et possessionem, quandocumque
+          voluerit, de predictis, constituendo se pro eo et eius nomine possidere donec corporalem
+          tenutam et possessionem de predictis fuerit introgressus. Pro precio quorum habuit atque
+          recepit idem dominus Bonacursus a suprascripto Nicholeto, dante atque solvente pro
+          suprascripto domino episcopo et episcopatu, <measure type="Imperiales" quantity="8"
+            unit="libra">libras VIII imperialium</measure> coram me <persName ref="#Adiutusnot"
+            >Adiuto <roleName>notario</roleName></persName> et testibus infrascriptis, renunciando
+          exceptioni non numerate pecunie et non recepte et omni alii iuri et legum auxilio. Et fuit
+          confessus idem dominus <persName ref="#BonacursusBuiano">Bonacursus</persName> quod
+          suprascripta venditio valebat plus suprascripto precio, unde totum et quicquid plus
+          valebat eidem <persName ref="#Nicholetuscastro">Nicholeto</persName>, recipienti ut dictum
+          est, donavit titulo pure ac simplicis donationis inter vivos, et renunciavit specialiter
+          illi legi que iuvat deceptos in vendictionibus<note xml:id="CCXVIII_n_002" n="b"
+            place="foot"><term xml:lang="latin">vendict</term>: <emph>corretto su precedente
+              scrittura</emph>.</note> ultra dimidiam iusti precii. Insuper dominus <persName
+            ref="#BonacursusBuiano">Bonacursus</persName> predictus per se suosque heredes promisit
+          et convenit dicto <persName ref="#Nicholetuscastro">Nicholeto</persName>, recipienti pro
+          suprascripto domino episcopo suisque successoribus et episcopatu, dictos filios et heredes
+          quondam <persName ref="#PetrusCapriliola">Petri</persName> suprascripti <supplied
+            reason="omitted">et</supplied> predicta omnia et singula non imbrigare vel molestare
+          deinceps, immo eos deffendere et predicta omnia cum omnibus eorum pertinenciis iure
+          deffendere et exbrigare ab omni contradicente et molestante persona et loco, eiusdem
+          domini <persName ref="#BonacursusBuiano">Bonacursi</persName> eiusque heredum propriis
+          expensis; quod si non faceret vel non posset, teneatur et debeat salvum cambium inde dare
+          in bonis suis in arbitrio bonorum hominum, et omne dampnum et expensas et interesse etiam
+          singulare, quod vel quas ipse <persName ref="#Nicholetuscastro">Nicholetus</persName> seu
+          dominus episcopus aut successores eius ea occasione habuerint vel sustinuerint, teneantur
+          restaurare, credendo de dampno et expensis soli, nudo et simplici verbo ipsius <persName
+            ref="#Nicholetuscastro">Nicholeti</persName> aut domini episcopi vel successorum eius,
+          confitendo etiam quod omnia predicta a Lunensi curia detinebat in feudo. Hanc autem
+          vendictionem et omnia et singula que in hac carta leguntur suprascriptus dominus <persName
+            ref="#BonacursusBuiano">Bonacursus</persName> per se suosque heredes promisit et
+          convenit suprascripto <persName ref="#Nicholetuscastro">Nicholeto</persName>, recipienti
+          ut dictum est, attendere, facere et observare et in nullo contravenire de iure vel de
+          facto, sub pena <measure type="Imperiales" quantity="100" unit="solidus">C soldorum
+            imperialium</measure>, quam dare et solvere promisit eidem <persName
+            ref="#Nicholetuscastro">Nicholeto</persName>
+          <pb n="250r" xml:id="fol_250r"/> pro suprascripto domino episcopo suisque successoribus
+          tociens quociens fuerit contraventum atque pro quolibet capitulo non observato; et, pena
+          soluta, suprascriptis omnibus et singulis<note xml:id="CCXVIII_n_003" n="c" place="foot"
+              ><term xml:lang="latin">singulis</term>: <term xml:lang="latin">lis</term>
+            <emph>corretto su</emph>
+            <term xml:lang="latin">iis</term></note> nichillominus semper firmis, obligando ad hec
+          attendenda se suosque heredes, omnia sua bona<note xml:id="CCXVIII_n_004" n="d"
+            place="foot"><term xml:lang="latin">bona</term>: b <emph>corretta su precedente
+              scrittura</emph>.</note>, renunciando omni iuri et legibus quibus contra predicta vel
+          aliquod predictorum posset ullo tempore facere vel venire. Insuper domina <persName
+            ref="#Sibilia">Sibilia, uxor suprascripti domini Bonacursi</persName>, cerciorata primo
+          de iure suo a me <persName ref="Adiutusnot">Adiuto <roleName>notario</roleName></persName>
+          coram testibus infrascriptis, scilicet dotis et donationis, pignoris et ypothece, dicte
+          vendictioni et omnibus suprascriptis atque singulis expresse et sponte consensit et ea
+          omnia approbavit et confirmavit, et promisit suprascripto <persName
+            ref="#Nicholetuscastro">Nicholeto</persName> predictam vendictionem et omnia
+          suprascripta perpetuo rata habere et firma tenere et numquam in aliquo contravenire, de
+          iure vel de facto, sub dicta pena, quam dare et solvere promisit si contra faceret vel
+          veniret, obligando se suosque heredes et bona et renunciando iuri dotis et donationis et
+          pignoris et<note xml:id="CCXVIII_n_005" n="e" place="foot"><term xml:lang="latin"
+              >et</term>: <emph>nel testo segno tachigrafico per</emph>
+            <term xml:lang="latin">et</term>
+            <emph>aggiunto in sopralinea</emph>.</note> ypothece et omni alii iuri et legibus, novis
+          et veteribus, contra hec introductis.</p>
+        <p xml:id="CCXVIII_p_002" n="2">Actum in <placeName ref="#CastelnuovoMagra">Castro
+            Novo</placeName>, in domo <persName ref="#BonacursusCarandi">Bonacursi quondam
+            Carandi</persName> eiusdem loci, presentibus <persName ref="#CosaCançii">Cosa quondam
+            Cançii de <placeName ref="#CastelnuovoMagra">Castro Novo</placeName></persName>,
+            <persName ref="#LaçarellusCalderoni">Laçarello quondam Calderoni</persName> eiusdem loci
+          et <persName ref="#IacopusCuradi">Iacopo quondam Curadi<note xml:id="CCXVIII_n_006" n="f"
+              place="foot"><term xml:lang="latin">Curadi</term>: <emph>così nel testo</emph>.</note>
+            de <placeName ref="#Brina">Brina</placeName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCXVIII_p_003" n="3"><ptr target="#CCXVIII_st_001"/> Ego <persName
+            ref="#Adiutusnot">Adiutus, <roleName>sacri palacii notarius</roleName></persName>, hiis
+          interfui et de mandato suprascripti domini episcopi scripsi atque complevi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

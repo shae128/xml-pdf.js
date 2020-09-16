@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="C_117">
+        <front xml:id="C_front">
+
+            <titlePart type="numerazioneNuova">117</titlePart>
+            <titlePart type="numerazioneOrig">C</titlePart>
+
+            <docDate xml:id="C_docDate">
+                <date when="1285-02-12">1285 febbraio 12</date>, <placeName><placeName
+                        ref="#Sarzana">Sarzana</placeName>
+                    <emph>(<term xml:lang="latin">in ecclesia Sancti Francisci Fratrum Minorum de
+                            Sarzana</term>)</emph></placeName>
+            </docDate>
+
+            <div type="regesto" xml:id="C_regesto">
+                <p>Mannoca del fu Bonaccorso de Prova di Sarzana, alla presenza del notaio
+                    Gasparino, suo procuratore, rilascia quietanza a Vivo di Licciana, abitante a
+                    Sarzana, per la somma di 84 fiorini d’oro ricevuta in due soluzioni: prima 40
+                    lire in denari lucchesi del valore di 20 fiorini e poi i restanti 64 fiorini.
+                    Contestualmente Mannoca assolve da ogni debito Vivo di Licciana e il vescovo di
+                    Luni Enrico, di cui Vivo si era costituito fideiussore insieme a Lando di
+                    Gualterono di Lucca. </p>
+            </div>
+
+            <div type="footer" xml:id="C_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C], cc. 213v.-214r., cc. CCVv.-CCVIr. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 100, p. 131.</p>
+                </div>
+
+                <div type="crit_notes">
+                    <p>All’interno dell’atto si fa riferimento al documento 116-LXXXXVIIII.</p>
+                </div>
+
+
+                <div type="appr">
+                    <p/>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="C_div">
+                <p> In nomine Domini, amen. <date when="1285-02-12">Anno a nativitate Eius
+                        M°CCLXXXV°, indictione XIIIa, die XII februarii</date>. <persName
+                        ref="#MannochaBonacursi">Mannocha quondam Bonacursi de <placeName
+                            ref="#Prova">Prova</placeName> de <placeName ref="#Sarzana"
+                            >Sarzana</placeName></persName>, presente <persName
+                        ref="#GasparinusSarzananot">Gasparino</persName>
+                    <roleName>notario</roleName>, eius procuratore, vocavit se quietam et solutam
+                        <pb n="214r" xml:id="fol_214r"/> a <persName ref="#VivusLiçana">Vivo de
+                            <placeName ref="#Liçana">Liçana</placeName></persName>, habitatore
+                        <placeName ref="#Sarzana">Sarzane</placeName>, de <measure type="Florinus"
+                        quantity="84" unit="solidus">LXXXIIII florinis aureis</measure>, de quibus
+                    denariis dictus <persName ref="#GasparinusSarzananot">Gasparinus</persName>
+                    habuit et recepit a dicto <persName ref="#VivusLiçana">Vivo</persName>
+                    <measure quantity="40" unit="libra">libras XL Lucensium</measure> pro <measure
+                        type="Florinus" quantity="20" unit="solidus">XX florinis aureis</measure>,
+                    prout contineri dicebant ipsi <persName ref="#GasparinusSarzananot"
+                        >Gasparinus</persName> atque <persName ref="#VivusLiçana">Vivus</persName>
+                    in publico instrumento facto sive rogato manu <persName
+                        ref="#IohannesBontalentinot">Iohannis <roleName>notarii</roleName>, filii
+                        Bontalenti</persName>, et residuum ipsorum denariorum, scilicet <measure
+                        type="Florinus" quantity="64" unit="solidus">LXIIII florinos
+                        aureos</measure>, habuit atque recepit ipsa <persName
+                        ref="#MannochaBonacursi">Mannocha</persName> ab ipso <persName
+                        ref="#VivusLiçana">Vivo</persName> coram me notario et testibus
+                    infrascriptis, renuntiando exceptioni non numerate pecunie et florinorum non
+                    habitorum et receptorum et omni alii iuri et legum auxilio, et de quibus dicitur
+                    dictus <persName ref="#VivusLiçana">Vivus</persName> et <persName
+                        ref="#LandusGualteroni">Landus Gualteroni</persName> de <placeName
+                        ref="#Lucca">Luca</placeName> se constituerant proprios et principales
+                    fideiussores, pacatores et debitores apud <persName ref="#GasparinusSarzananot"
+                        >Gasparinum</persName> suprascriptum, procuratorem dicte <persName
+                        ref="#MannochaBonacursi">Mannoche<note place="foot" n="a" xml:id="C_n_001"
+                            >Mannoche: h<emph> corretto su precedente
+                        scrittura.</emph></note></persName> et stipulantem et recipientem pro dicta
+                        <persName ref="#MannochaBonacursi">Mannocha</persName>, precibus venerabilis
+                    patris <roleName>domini</roleName>
+                    <persName ref="#HenricusEpLuni">Henrici, <roleName>Dei gratia Lunensis
+                            episcopi</roleName></persName>, prout continetur in publico instrumento
+                    facto per me <persName ref="#BondiesRubeinot">Bondiem
+                            <roleName>notarium</roleName></persName>. Unde ipsa <persName
+                        ref="#MannochaBonacursi">Mannocha</persName> absolvit et liberavit ipsum
+                        <persName ref="#VivusLiçana">Vivum</persName>, recipientem pro se et
+                    predictis domino episcopo et <persName ref="#LandusGualteroni">Lando</persName>,
+                    et etiam ipsos dominum episcopum atque <persName ref="#LandusGualteroni"
+                        >Landum</persName> atque etiam ipsum <persName ref="#GasparinusSarzananot"
+                            >Gasparinum<note place="foot" n="b" xml:id="C_n_002">atque etiam ipsum
+                                Gasparinum<emph>: nel testo scritto quattro righe sopra, con segni
+                                di richiamo.</emph></note></persName> ab omnibus denariis
+                    suprascriptis et ab omni et toto eo quod occasione ipsius debiti atque
+                    denariorum petere et exigere posset. Et de predicto debito et denariis fecit
+                    eidem <persName ref="#VivusLiçana">Vivo</persName>, recipienti ut dictum est,
+                    finem et refutationem et pactum de non petendo in perpetuum de dicto debito et
+                    denariis a predictis <persName ref="#VivusLiçana">Vivo</persName> et domino
+                    episcopo et <persName ref="#LandusGualteroni">Lando</persName>, et hec sic
+                    attendere et observare promisit ipsa <persName ref="#MannochaBonacursi"
+                        >Mannocha</persName> et in nullo contravenire, sub pena <measure
+                        type="Florinus" quantity="84" unit="solidus">LXXXIIII florinorum
+                        aureorum</measure>, quam penam eidem <persName ref="#VivusLiçana"
+                        >Vivo</persName> dare et solvere promisit tociens quotiens fuerit
+                    contraventum et pro quolibet capitulo non observato; et, pena soluta vel non,
+                    ratis manentibus suprascriptis cum eadem pene commissione, obligando ad hec
+                    attendenda et observanda se dicta <persName ref="#MannochaBonacursi"
+                        >Mannocha</persName> suosque heredes et omnia sua bona, habita atque
+                    habenda, et renuntiando omni iuri et legibus contra hec introductis. Actum in
+                        <orgName ref="#Sarzana_S_Francesco">ecclesia Sancti Francisci Fratrum
+                        Minorum de <placeName ref="#Sarzana">Sarzana</placeName></orgName>,
+                    presentibus <roleName>fratribus</roleName>
+                    <persName ref="#PrefectusPonçano">Prefecto de <placeName ref="#Ponzano"
+                            >Ponçano</placeName></persName>, <persName ref="#BonifaciusPontremulo"
+                        >Bonifacio de <placeName ref="#Pontremoli"
+                    >Pontremulo</placeName></persName>, <persName ref="#AgnellusPoçobonizo">Angnello
+                        de <placeName ref="#Poçobonizo">Poçobonizo</placeName></persName>, <persName
+                        ref="#AldebrandinusFlorentia">Aldebrandino de <placeName ref="#Florencia"
+                            >Florentia</placeName></persName> atque <persName ref="#IacominusSenis"
+                        >Iacomino de <placeName ref="#Senis">Senis</placeName></persName>, testibus
+                    ad hec rogatis.</p>
+                <p xml:id="C_p_001" n="1">
+                    <ptr target="#C_st_001"/> Ego <persName ref="#BondiesRubeinot">Bondies, filius
+                        domini Rubei de <placeName ref="#Sarzana">Sarzana</placeName>
+                        iudicis</persName>, <roleName>sacri palatii notarius iudexque
+                        ordinarius</roleName>, hiis interfui atque rogatus scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXXX_147">
+    <front xml:id="CXXX_front">
+
+      <titlePart type="numerazioneNuova">147</titlePart>
+      <titlePart type="numerazioneOrig">CXXX</titlePart>
+
+      <docDate xml:id="CXXX_docDate">
+        <date when="1233-02-08">1233 febbraio 8</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in curia castri Sarzane</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXXX_regesto">
+        <p>Guglielmo, vescovo di Luni, loca a Villano del fu Pontonetto <term xml:lang="latin">de
+            Poreto, habitator castri de monte Iohanne</term>, che riceve anche a nome di suo
+          fratello Durante, due pezzi di terra sul detto monte. Il fitto ammonta a 1 &lt;denaro&gt;
+          imperiale.</p>
+      </div>
+
+      <div type="footer" xml:id="CXXX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 231r.- 231v., cc. CCXXIIIr.- CCXXIIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">M. LUPO GENTILE 1912</ref>, n.
+            130, pp. 161-162.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>L’8 febbraio 1233 era un lunedì, non un martedì. <p>Stesura <emph>in mundum</emph>
+              databile tra il 1270 e il 1272 dalla presenza di Bonagiunta de Podio di
+            Lucca.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXXX_div">
+        <p xml:id="CXXX_p_001" n="1">In Dei nomine, amen. <date when="1233-02-07">M°CC°XXXIII,
+            indictione VI, die martis, VIII intrantis februarii</date>. Coram domino <persName
+            ref="#UrsolusBur">Urçolo de <placeName ref="#Burcione">Burçono</placeName></persName>,
+            <persName ref="#CarboBottacciFal">domino Carbono de <placeName ref="#Falcinello"
+                >Fa<supplied reason="omitted">l</supplied>cinello</placeName></persName>, <persName
+            ref="#ParensPasqualini">Parente <roleName>castaldione</roleName> de <placeName
+              ref="#Sarzana">Sarzana</placeName></persName>, in <placeName ref="#Sarzanello">curia
+            castri Sarzane</placeName>. Venerabilis <persName ref="#GuilEpLuni">Guilielmus, Dei
+            gratia <roleName>Lunensis episcopi</roleName></persName>, per se et suos successores
+          dedit, cessit atque locavit <persName ref="#VillanusPor">Villano quondam Pontonetti de
+              <placeName ref="#Porreto">Poreto</placeName></persName>, habitatore<note place="foot"
+            n="a" xml:id="CXXX_n_001">
+            <term type="incerto">habitatore</term><emph>: così nel testo.</emph></note> castri de
+            <placeName ref="#MonteIanni">monte Iohanne</placeName><note place="foot" n="b"
+            xml:id="CXXX_n_002">
+            <term xml:lang="latnin">Iohanne</term><emph>: corretto su precedente
+            scrittura.</emph></note>, recipienti pro se et fratre suo<pb n="231v" xml:id="fol_231v"
+            /><persName ref="#DuransPor">Durante</persName> et suis heredibus, in perpetuum, duas
+          petias terre posite in pocçio de <placeName ref="#MonteIanni">monte Çoanne</placeName>,
+          cui petie sunt fines a pede canalis, superius terra eiusdem curie Lunensis, ab una parte
+            <persName ref="#GiuntaSer">Çunta<note place="foot" n="c" xml:id="CXXX_n_003"><term
+                xml:lang="latnin">Çunta</term><emph>: nel testo con segno generico di abbreviazione
+                superfluo.</emph></note> de <placeName ref="#Serra">la Serra</placeName></persName>
+          et ab alio <persName ref="#VegnutusCorro">Vegnutus Corroçatus</persName>; alii sunt fines
+          superius fossa castri, a pede terra predicta curie et ab aliis lateribus suprascripti
+            <persName ref="#GiuntaSer">Çunta</persName> et <persName ref="#VegnutusCorro"
+            >Vegnutus</persName>, cum accessibus atque regressibus suis, promittens legitimam
+          deffensionem et sumptus omnes reficere. Et potestatem tenutam inde intrandi ei dedit, se
+          pro eo constituendo interim possidere, et exinde promisit Lunensi curie solvere annuatim
+          unum imperialium pro pensione, alia superimposita non fiat, infra octavam nativitatis
+          Domini. Ambe partes, sub pena <measure type="Imperiales" quantity="10" unit="solidus">X
+            soldorum imperialium</measure>, sibi ad invicem stipulantes, attendere promiserunt in
+          perpetuum, obligando ad hec attendendum se et suos successores dominus episcopus et se et
+          suos heredes suprascriptus <persName ref="#VillanusPor">Villanus</persName>; et, ea
+          soluta, rato semper manente pacto.</p>
+      </div>
+      <div xml:id="CXXX_div2" type="mundum">
+        <p xml:id="CXXX_p_002" n="2"><ptr target="#CXXX_st_001"/> Ego <persName
+            ref="#HengeramusParentisnot">Hengeramus quondam Parentis de <placeName ref="#Sarzanello"
+              >castro Sarzane</placeName>, <roleName>palatii sacri notarius</roleName></persName>,
+          hanc cartam olim a <persName ref="#Bonencontrusnot">Bonencontro de <placeName
+              ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et auttenticavi et
+          in publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+            <persName ref="#Bonaiunctaiud"><roleName>domino</roleName> Bonaiuncta de <placeName
+              ref="#PodioLucca">Podio de Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+                ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre
+          domino <persName ref="#GuilEpLuni">Guilielmo, <roleName>Lunensi
+            episcopo</roleName></persName>, de qua auctoritate constat per instrumentum publicum
+          factum manu <persName ref="#Alcheriusnot">Alcherii <roleName>notarii</roleName> de
+              <placeName ref="#Lucca">Luca</placeName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 147-CXXX databile tra il 1270 e il
+            1272 dalla presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXXX_252">
+    <front xml:id="CCLXXXX_front">
+
+      <titlePart type="numerazioneNuova">252</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXXX</titlePart>
+
+      <docDate xml:id="CCLXXXX_docDate">
+        <date when="1255-06-05">1255 giugno 5</date>, <placeName>Sarzana (<term xml:lang="latin"
+            >Sarzane, ante apothecam Piçolboni et Bondiei Petoralis</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXXX_regesto">
+        <p>Enrico del fu Enrico di Trebiano vende a Nicoletto del fu Ugolino Bianco di Soliera,
+          procuratore e gastaldo del vescovo di Luni Guglielmo, un fitto di tre quarti di frumento
+          che il venditore riceve annualmente dalle figlie di Verdilia di Castelnuovo e un fitto di
+          mezzo congio di mosto che gli viene dato ogni anno dal figlio di Castagnola di
+          Castelnuovo. I fitti sono venduti assieme a tutti i diritti inerenti i terreni e le
+          proprietà da essi gravati per il prezzo di 55 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXXX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 278r.-278v., cc. CCLXXr.-CCLXXv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 290,
+            p. 264.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCLXXXX.
+              Emptionis trium stariorum frumenti ficti a domino Henrico de Tribiano a filiabus
+              Verdilie et medium congium musti et cum homagio et residio de toto podere.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXXX_div">
+        <p xml:id="CCLXXXX_p_001" n="1">In nomine Domini, amen.<date when="1255-06-05">Anno a
+            nativitate Eius millesimo CCLV, indictione XIII, die V intrantis iunii</date>. Dominus
+            <persName ref="#HenricusHenrici">Henricus quondam domini Henrici,
+              <roleName>vicedom(ini)</roleName> de <placeName ref="#Trebiano"
+            >Trebiano</placeName></persName>, per se suosque heredes dedit in perpetuum, tradidit et
+          vendidit <persName ref="#NicholetusUgolini">Nicholeto quondam Ugolini Blanci de <placeName
+              ref="#Soliera">Soleria</placeName></persName>, <roleName>procuratori</roleName> et
+            <roleName>castaldioni</roleName> domini <persName ref="#GuilEpLuni">Guilielmi,
+              <roleName>Lunensis episcopi</roleName></persName>, et ipsius episcopatus procuratorio
+          et castaldionatu nomine, recipienti vice et nomine ipsius domini episcopi et episcopatus
+          Lunensis et successorum eius et cui dare vel committere voluerit aliquo modo vel iure,
+          quartos tres frumenti ficti, cum omni iure soli, pro quo redditur, et cum homagio et
+          resedio, et personarum illud reddere debentium, quod annuatim recipere debebat et
+          recipiebat, infra mensem augusti et ad quartum <placeName ref="#Castelnuovo"
+            >Castrinovi</placeName> mensurati, a filiabus <persName ref="#VerdiliaCastronovo"
+            >Verdilie de <placeName ref="#Castelnuovo">Castronovo</placeName></persName> de omni et
+          toto eo quod habent, tenent <pb n="278v" xml:id="fol_278v"/> et possident in <placeName
+            ref="#Castelnuovo">Castronovo</placeName>, districtu et pertinentiis et alibi, et medium
+          congium vini musti, cum omni iure soli, pro quo redditur, et personarum illud reddere
+          debencium, et cum omni homagio et resedio, pro quo redditur, quod annuatim recipiebat et
+          recipere debebat, infra mensem septembris et mensuratum ad commune congium <placeName
+            ref="#Castelnuovo">Castrinovi</placeName>, a filio <persName
+            ref="#CastangnolaCastronovo">Castangnole de <placeName ref="#Castelnuovo"
+              >Castronovo</placeName></persName> de omni et toto eo quod habet et tenet in
+            <placeName ref="#Castelnuovo">Castronovo</placeName>, districtu et pertinentiis et
+          alibi. Et dedit, tradidit, cessit atque mandavit eidem emptori, recipienti dicto nomine,
+          omnia iura, dominium, proprietatem, usum et utilitatem, amasiamentum et dismasiamentum,
+          accessum et regressum, superiora et inferiora, actiones et rationes omnes, utiles et
+          directas, reales, personales seu mixtas sibi in dicto toto ficto vendito terreno, unde
+          datur, et personis reddere debentibus et omnibus suprascriptis competentia et competentes,
+          ut exinde agant et experiantur contra quamcumque personam et locum, et faciant inde
+          quicquid sibi placuerint<note xml:id="CCLXXXX_n_001" n="a" place="foot"><term
+              type="incerto">placuerint</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">placuerit</term>.</note>, sine alicuius aliqua contradictione,
+          remissa necessitate denunciandi sibi, finito precio cuius venditionis suprascriptus
+          dominus <persName ref="#HenricusHenrici">Henricus</persName>, coram me notario et testibus
+          infrascriptis, habuit et recepit a dicto <persName ref="#NicholetusUgolini"
+            >Nicholeto</persName>, dante vice et nomine suprascripto pro suprascripto domino
+          episcopo et episcopatu, bonorum denariorum <measure type="Imperiales" quantity="55"
+            unit="solidus">imperialium soldos LV</measure>; et fuit confessus quod plus valebat,
+          unde totum et quicquid plus valebat, dedit et donavit eidem
+            <roleName>procuratori</roleName>, recipienti dicto nomine, inrevocabiliter pure ac
+          simplicis donationis titulo inter vivos. Et fecit et constituit eum
+            <roleName>procuratorem</roleName> et dominum ut in rem suam et dedit eidem emptori,
+          recipienti dicto nomine, ut dictum est, licenciam intrandi tenutam de dictis terra et
+          ficto et omnibus, auctoritate sua, quando voluerit, constituendo<note
+            xml:id="CCLXXXX_n_002" n="b" place="foot"><term xml:lang="latin">constituendo</term>: do
+              <emph>in sopralinea</emph>.</note> se pro eo et eius nomine precario possidere donec
+          tenutam vel quasi fuerit apprehensus. Promisit insuper et convenit dictus venditor per se
+          suosque heredes eidem emptori, recipienti vice et nomine pro dicto domino episcopo et
+          episcopatu Lunensi et successoribus suis et cui dederit vel commiserit, totum dictum
+          fictum venditum et terrenum, unde datur, et personas reddere debentes, cum omnibus
+          suprascriptis in toto et parte iure deffendere et exbrigare ab omni molestante persona et
+          loco; quod, si non faceret vel non posset, dabit inde salvum cambium in bonis suis loco
+          consimili, sub extimatione et arbitrio boni viri, qualis tunc fuerit res evicta, et
+          reficiet insuper dampna omnia et expensas et interesse etiam singulare, inde quoquomodo
+          habitas seu factas. Hanc vendictionem et omnia et singula que in hac carta leguntur omni
+          tempore attendere et perpetuo observare promisit dictus venditor, sub pena <measure
+            type="Imperiales" quantity="55" unit="solidus">soldorum LV imperalium</measure>, quam
+          eidem procuratori, stipulanti, agenti et recipienti dicto nomine ut dictum est, dare et
+          solvere convenit et promisit quociens in aliquo futuro<note xml:id="CCLXXXX_n_003" n="c"
+            place="foot"><term type="incerto">futuro</term>: <emph>così nel testo, probabilmente
+              per</emph>
+            <term xml:lang="latin">fuerit</term>.</note> contraventum et pro quolibet capitulo non
+          observato; qua soluta, suprascripta omnia nichillominus perpetuo maneant incorrupta; et ad
+          hec attendenda et perpetuo observanda obligavit se dictus venditor suosque heredes et
+          omnia sua bona mobilia et immobilia, habita et habenda, renunciando omni iuri et legibus,
+          pari quo dicetur<note xml:id="CCLXXXX_n_004" n="d" place="foot"><term type="incerto">pari
+              quo dicetur</term>: <emph>così nel testo, probabilmente per</emph>
+            <term xml:lang="latin">iuri quo dicitur</term>.<emph>Cfr. il formulario del documento
+              precedente</emph>.</note> quod sors et pena simul peti non possunt et quod si fuerit
+          in continentibus<note xml:id="CCLXXXX_n_005" n="e" place="foot"><term type="incerto">in
+              continentibus</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">in contractibus</term>.<emph>Cfr. il formulario del documento
+              precedente</emph>.</note> deceptio ultra dimidiam, possit rescindi et <supplied
+            reason="omitted">iuri</supplied> fori et doli, domicilii, contractus et omnibus aliis
+          iuribus et auxilio contra hec introductis.</p>
+        <p xml:id="CCLXXXX_p_002" n="2">Actum <placeName ref="#Sarzana">Sarzane</placeName>, ante
+          apothecam <persName ref="#PiçolbonusUgolini">Piçolboni</persName> et <persName
+            ref="#BondiesPetorialis">Bondiei Petorialis</persName><note xml:id="CCLXXXX_n_006" n="f"
+            place="foot"><term xml:lang="latin">Petorialis</term>: to <emph>aggiunto in
+              sopralinea</emph>.</note>, sollempniter, presentibus <persName
+            ref="#PiçolbonusUgolini">Piçolbono</persName>, <persName ref="#HenricusFalcinello"
+            >Henrico de <placeName ref="#Falcinello">Falcinello</placeName>
+            <roleName>notario</roleName></persName><note xml:id="CCLXXXX_n_007" n="g" place="foot"
+              ><term xml:lang="latin">notario</term>: <emph>aggiunto in sopralinea</emph>.</note>,
+            <persName ref="#RomeusLazarelli">Romeo Lazarelli de <placeName ref="#Castelnuovo"
+              >Castronovo</placeName></persName>, <persName ref="#ParensPasqualini">Parente
+            Pasqualini de <placeName ref="#Sarzanello">castro Sarzane</placeName></persName> et
+            <persName ref="#BonaiunctaPesticio">Bonaiuncta Pesticio de <placeName ref="#Lucca"
+              >Luca</placeName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCLXXXX_p_003" n="3"><ptr target="#CCLXXXX_st_001"/> Ego <persName
+            ref="#Testafortenot">Testafortis, <roleName>imperii sacri iudex et
+            notarius</roleName></persName>, interfui rogatus et scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

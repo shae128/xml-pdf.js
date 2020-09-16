@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXIII_424">
+    <front xml:id="CCCCLXIII_front">
+
+      <titlePart type="numerazioneNuova">424</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXIII</titlePart>
+
+      <docDate xml:id="CCCCLXIII_docDate">
+        <date when="1237-08-01">1237 agosto 1</date>, <placeName>Sarzanello (<term xml:lang="latin"
+            >in palatio domini episcopi apud castrum Sarzane</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXIII_regesto">
+        <p>Il vescovo di Luni Guglielmo chiede a Ramondino di Vezzano e ai fratelli Ugolino
+          Buttilione e Rollando che mostrino i documenti pubblici che contengono le convenzioni e i
+          patti che sono stati stipulati tra i loro avi e i predecessori di Guglielmo. Il vescovo
+          dichiara di essere pronto a osservare quanto contenuto in questi patti e chiede a loro di
+          fare altrettanto. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 358r., c. CCCXLVIIIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 463,
+            pp. 470-471.</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXIII. Requisitionis facte dominis de Veçano.</term></p>
+        </div>
+      </div>
+
+    </front>
+
+    <body>
+      <div xml:id="CCCCLXIII_div">
+        <pb n="358r" xml:id="fol_358r"/>
+        <p xml:id="CCCCLXIII_p_001" n="1">
+          <ptr target="#CCCCLXIII_st_001"/> In Dei omnipotentis<note place="foot" n="a"
+            xml:id="CCCCLXIII_n_001">omnipotentis: po <emph>corretto su precedente
+            scrittura</emph></note> nomine, amen. Venerabilis pater dominus <persName
+            ref="#GuilEpLuni"> Guilielmus <roleName>Dei gratia Lunensis episcopus, </roleName>
+          </persName> publice in curia generali requisivit <persName ref="#RaimundinusVezano"
+            >Ramondinum de <placeName ref="#Vezzano">Vezano</placeName>
+          </persName> et <persName ref="#UgolinusBuctilione">Ugolinum</persName> et <persName
+            ref="#RollandinusGuilielmiBlanci">Rollandum Butilionis,</persName>
+          <note place="foot" n="b" xml:id="CCCCLXIII_n_002">Ugolinum et Rollandum Butilionis:
+              <emph>così nel testo, probabilmente per</emph> Ugolinum Buctilionum et Rollandum. Cfr.
+            i documenti nn. 398-CCCCXXXVII, 403-CCCCXXXXII. </note> germanos, pro se ipsis et
+          omnibus aliis eorum consortibus, ut per instrumentum publicum vel alio modo, ut ius
+          postulat, ostendant ei et specificent et declarent illa pacta et conventiones, que et quas
+          et quanta<note place="foot" n="c" xml:id="CCCCLXIII_n_003">quanta: a <emph>finale corretta
+              su precedente scrittura.</emph></note> ipse dominus episcopus eis facere et observare
+          tenetur vel debeat de iure et de quibus et pro quibus et quorum occasione ipsa pacta facta
+          esse dicebant suprascripti consortes inter eos et eorum maiores et antecessores ipsius
+          episcopi, dicens et protestans ipse dominus episcopus, pro episcopatu, se velle et paratum
+          esse facere et observare eis totum et quicquid per ipsa pacta de iure facere et observare
+          debet. Et e converso, suo et episcopatus nomine, inquisivit<note place="foot" n="d"
+            xml:id="CCCCLXIII_n_004">inquisivit: v <emph>corretto su precedente
+            scrittura</emph></note> eosdem pro se ipsis et eorum consortibus ut faciant et observent
+          sibi, pro episcopatu et episcopatui, omnes pactiones et conventiones, pacta et
+          fidelitates, que et quas<note place="foot" n="e" xml:id="CCCCLXIII_n_005">
+            <emph>Nel testo segue, abraso, in evidentemente superfluo</emph></note> et quantas
+          facere tenentur et debent Lunensi curie ipsi et eorum maiores de quibuscumque vel pro
+          quibuscumque factis vel rebus, ipsa pacta et conventiones et quecumque alia habita sint
+          inter ipsos et episcopos Lunenses per publica instrumenta vel alio modo vel iure. </p>
+
+        <p xml:id="CCCCLXIII_p_002" n="2"> Hec acta sunt in palatio suprascripti domini episcopi
+          apud <placeName ref="#Sarzanello">castrum Sarzane</placeName>, presentibus <persName
+            ref="#IacopinusBonvisi">Iacobino Bonvisini</persName>, <persName
+            ref="#SalamoncellusBaratella">Salamoncello Baractelle</persName>, <persName
+            ref="#UbertusCiurius">Uberto Ciurio</persName> et <persName ref="#BurnetusCampori"
+            >Burneto Campori</persName> et <persName ref="#ParentinusManzeti">Parentino
+            Manceti</persName> et aliis quam pluribus ad hec rogatis testibus. <date
+            when="1237-08-01">Anno nativitatis Domini M°CCXXXVII, ipsa die kalendis augusti,
+            indictione X.</date>
+        </p>
+        <p xml:id="CCCCLXIII_p_003" n="3">
+          <ptr target="#CCCCLXIII_st_002"/> Ego <persName ref="#Bonapaxnot">Bonapax<note
+              place="foot" n="f" xml:id="CCCCLXIII_n_006">Bonapax: <emph>nel testo</emph>
+                Bonapars<emph> con</emph> pars<emph> espunto e</emph> pax<emph> aggiunto di seguito
+                dalla stessa mano</emph>.</note>, <roleName>Romani imperii iudex ordinarius et
+              notarius, </roleName>
+          </persName> omnibus suprascriptis interfui et rogatus hec omnia in publicam scripturam
+          redegi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

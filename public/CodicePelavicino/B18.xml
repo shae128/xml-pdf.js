@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="B18">
+        <front xml:id="B18_front">
+
+            <titlePart type="numerazioneNuova">18</titlePart>
+            <titlePart type="numerazioneOrig"/>
+
+            <docDate xml:id="B18_docDate">
+                <date from="1273-04-25" to="1273-12-24">1273 &lt;aprile 25 - dicembre 24&gt;</date>
+            </docDate>
+
+            <div type="regesto" xml:id="B18_regesto">
+                <p>Indagine promossa dal vescovo di Luni Enrico sulle consuetudini e i diritti dei
+                    gastaldi, degli scari e dei saltari in carica nei castelli e nei villaggi della
+                    diocesi di Luni. </p>
+            </div>
+            <div type="footer" xml:id="B18_footer">
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 41r.-41v., cc. XXXIIIr.-XXXIIIv. secondo la numerazione
+                        originale. </p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione in <ref type="biblio" target="#LUPO_GENTILE_1912"> LUPO GENTILE
+                            1912</ref>, Addenda, nn. 10-11, pp. 652-654. Lupo Gentile considera come
+                        documenti a sé stanti il testo a c. 41r. e il testo a c. 41v. In realtà si
+                        tratta di un unico documento.</p>
+                </div>
+                <div type="crit_notes">
+                    <p>Nel margine interno di c. 41r., di mano moderna: <term xml:lang="latin"
+                            >castra episcopatus</term>. Nel margine esterno della medesima carta è
+                        presente un segno di richiamo a forma di croce, che rimanda alla carta
+                        successiva. </p>
+                    <p>Nonostante quanto enunciato nella parte iniziale del documento, il testo non
+                        parla di saltari, ma solo di gastaldi e scari; quindi forse il documento è
+                        mutilo. </p>
+                    <p>La data espressa dal documento indica solo l’anno - 1273 - che va ristretto
+                        al periodo che va dalla consacrazione di Enrico a vescovo all’ultimo giorno
+                        dell’anno secondo lo stile della Natività.</p>
+                </div>
+                <div type="appr"> </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="B18_div">
+
+                <p xml:id="B18_p_001"> In Dei nomine, amen. <date from="1273-04-25" to="1273-12-24"
+                        >Anno Domini M°CC°LXXIII°</date>. Nos <persName ref="#HenricusEpLuni"
+                        >Henricus, <roleName>miseratione divina Lunensis
+                        episcopus</roleName></persName>, inquisitionem fecimus et fieri fecimus a
+                    maioribus et antiquioribus hominibus episcopatus nostri de consuetudinibus et
+                    iuribus castaldionum, scariorum et saltariorum omnium castrorum et villarum
+                    episcopatus nostri Lunensis. </p>
+                <p xml:id="B18_p_002"> In primis invenimus quod castaldio <placeName
+                        ref="#Sarzanello">castri Sarzane</placeName> debet suum officium exercere in
+                    burgo <placeName ref="#Sarzana">Sarzane</placeName> et territorio ipsius et in
+                        <placeName ref="#Sarzanello">castro Sarzane</placeName> et eius territorio
+                    et in <placeName ref="#Fosdinovo">Fosdenova</placeName>
+                    <expan>p<ex>reter</ex></expan> curia ips<supplied>i</supplied>us, <placeName
+                        ref="#Pulica">Pulica</placeName>, <placeName ref="#SanTerenzo">Sancto
+                        Terentio</placeName>, <placeName ref="#Ponzanello">Ponçanello</placeName> et
+                    eius districtu, <placeName ref="#Falcinello">Falcinello</placeName> et
+                        <placeName ref="#Brina">Brina</placeName> et eorum districtibus et
+                    territoriis, in quibus omnibus debet facere colligi fictum et alios redditus et
+                    proventus curie Lunensis et facere deferri ad <placeName ref="#Sarzanello"
+                        >castrum Sarzane</placeName> vel ad alium locum, iuxta voluntatem domini
+                    episcopi, et debet habere ab episcopo victum et vestitum sicut alii familiares,
+                    pro se uno guarterone et uno equo, ita quod guarteronem episcopus non induit, et
+                    debet habere de qualibet libra quando episcopus investit aliquem de aliquo
+                    podere ab illo qui investituram recipit <measure type="imperiales" quantity="2"
+                        unit="soldus" ana="#tax">duos soldos imperialium</measure> et nichil aliud;
+                    et ipse debet facere omnia servicia curie et fieri facere cum iussione episcopi
+                    sive sine iussione et debet interesse omnibus condempnationibus dictorum
+                    castrorum et villarum quociens fiunt et episcopus aliquam partem de dictis
+                    condempnationibus sibi dat si vult de gratia speciali et hoc dicimus quod debet
+                    interesse dictis condempnationibus in locis predictis nisi statutum vel
+                    specialis consuetudo repugnet. Et ipse castaldio est immunis ab omnibus
+                    impositionibus exercituum et custodiis, si episcopo placet. </p>
+                <pb n="41v" xml:id="fol_041v"/>
+                <p xml:id="B18_p_003">Scarius <placeName ref="#Sarzanello">castri
+                        Sarzane</placeName> debet precipere saltariis in colligendo blado, vino et
+                    feno et aliis que debent facere ipsi saltarii et ire cum eis, si potest, ad
+                    requisitionem seu iussionem castaldionis, si castaldio fuerit ab episcopo
+                    deputatus ut omnia diligenter et fideliter faciant, et ipse debet clavem capane
+                    quamdiu bladum trituratur tenere et servare et alios redditus colligere in
+                        <placeName ref="#Sarzanello">castro</placeName> et burgo <placeName
+                        ref="#Sarzana">Sarzane</placeName> et precipere curaturam <placeName
+                        ref="#Sarzana">Sarzane</placeName> si eis ab episcopo vel castaldione
+                    precipitur et alia omnia servicia curie facere. Et debet comedere in curia
+                    quando sibi placet et debet habere I tunicam et I escapum de albasio in hyeme et
+                    in estate I garnellum et nichil aliud nisi quod immunis est ab exercitu,
+                    custodia et omnibus aliis factoribus <orgName ref="#Sarzanello_comune">comunis <placeName ref="#Sarzanello">castri
+                        Sarzane</placeName></orgName>, secundum quod episcopus voluerit et videbitur expedire
+                    et sibi placuerit, et debet habere de qualibet libra investiture cuiuslibet
+                    poderis ab illo cui fit investitura <measure type="Ianuenses" quantity="12"
+                        unit="denarius" ana="#tax">XII denarios Ianuensium</measure> et si contingat
+                    quod aliquid de blado vel aliis rebus in capanna positis amittatur, tenetur
+                    restituere de proprio illius qui amiserit dummodo de amissione constet si claves
+                    custodierit et non per violenciam sublatum fuerit. Et debet facere ligari
+                    vegetes in vindemiis et alia vasa et debet interesse cum ligantur et alia facere
+                    per totum annum que sibi ab episcopo vel castaldione precipiuntur. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

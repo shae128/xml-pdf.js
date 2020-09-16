@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="LXII_89">
+        <front xml:id="LXII_front">
+
+            <titlePart type="numerazioneNuova">89</titlePart>
+            <titlePart type="numerazioneOrig">LXII</titlePart>
+
+            <docDate xml:id="LXII_docDate">
+                <date when="1199-11-30">1199 novembre 30</date>, <placeName>Sarzana (<term
+                        xml:lang="latin">in ecclesia Sancti Bartholomei hospitalis de
+                    Sarzana</term>)</placeName>
+            </docDate>
+
+            <div type="regesto" xml:id="LXII_regesto">
+                <p>Il vescovo di Luni Gualtiero e i consoli di Sarzana Bottone, Bollione e Bastardo
+                    si affidano all’arbitrato di Gaetano di Burgundio, Guido di Gerardo, Truffa de
+                    Castello e Alberto di Parente per la questione tra loro vertente circa la
+                    destinazione dei beni degli stranieri abitanti nel borgo di Sarzana deceduti
+                    senza testamento. Gli arbitri sentenziano che tali beni siano divisi a metà tra
+                    il vescovo e i consoli e che questi ultimi detengano la loro metà a titolo di
+                    feudo. Il vescovo di conseguenza investe immediatamente i consoli della predetta
+                    metà dei beni. </p>
+            </div>
+
+            <div type="footer" xml:id="LXII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 191r.-191v,, c. CLXXXIIIr.-CLXXXIIIv. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 62, pp. 98-99.</p>
+                </div>
+
+                <div type="crit_notes">
+                    <note>
+                        <p>Nel margine interno di c. 191r., di mano moderna: <term xml:lang="latin">
+                                Compromissum factum ab episcopo et ab hominibus Sarzana ad sedandas
+                                illorum differentias</term>
+                        </p>
+                        <p> Nel margine esterno di c. 191v., di mano moderna: <term xml:lang="latin"
+                                >sententia dicti compromissi </term>
+                        </p>
+                    </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXII. Sententia arbitrum de hereditate avenarum inter
+                            dominum episcopum et burgenses.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="LXII_div">
+                <p xml:id="LXII_p_001" n="1"> In nomine domini Dei viventis in secula, amen. Cum lis
+                    et discordia atque controversia verteretur inter <persName
+                        ref="#GalcheriusEpLuni"><roleName>dominum episcopum Lunensem Dei
+                            gratia</roleName> Gualterium</persName>, pro se et episcopatu, ab una
+                    parte, et <persName ref="#Bottonius_consul">Bottonem</persName> et <persName
+                        ref="#Bullione">Bollionem</persName> et <persName ref="#Bastardus_consul"
+                        >Bastardum, <roleName>consules burgi de</roleName>
+                            <placeName ref="#Sarzana">Sarzana</placeName></persName>, pro <orgName ref="#Sarzana_comune">commune ipsius
+                    burgi</orgName>, ab altera parte, elegerunt in <persName ref="#GaetanusBurgondii"
+                            ><roleName>arbitros</roleName> Guaytanum Borgondii</persName> et
+                        <persName ref="#GuidoGerardi">Guidonem Gerardi</persName> et <persName
+                        ref="#TruffaCastello">Truffam de <placeName ref="#Castello"
+                            >Castello</placeName></persName> atque <persName ref="#AlbertusParentis"
+                        >Albertum Parentis</persName> et in eos compromiserunt. Et predictus dominus
+                    episcopus se suosque successores pro episcopatu obligavit et iamscripti consules
+                    se suosque successores pro commune et universitate burgi obligaverunt firmum et
+                    ratum habere atque tenere omni tempore quicquid predicti arbitri
+                        laudaverint<note place="foot" n="a" xml:id="LXII_n_001">laudaverint: i
+                            <emph>corretta su precedente scrittura</emph>.</note> seu composuerint
+                    vel dixerint de lite et discordia seu controversia infra posita, que inter eos
+                    vertebatur, sub pena domini apostolici atque domini imperatoris et imperii, et
+                    quicumque eorum contra fecerit alteri parti stipulanti penam <measure
+                        type="Imperiales" quantity="100" unit="soldi">C marcarum optimi
+                        argenti</measure> sub eisdem penis solvere promisit. Que lis talis erat:
+                    dicebat dominus episcopus successionem et bona advenum habitancium et eorum
+                    descendentium, qui nunc sunt vel in antea fuerint in burgo de <placeName
+                        ref="#Sarzana">Sarzana</placeName> et in eius districtu et pertinenciis, ad
+                    se tanquam ad dominum et comitem pertinere <pb n="191v" xml:id="fol_191v"/> et
+                    ea bona de iure ratione districtus et <orgName ref="Luni_comitatus"
+                        >comitatus</orgName> et iurisdictionis percipere et occupare debere et
+                    posse; quod iamdicti consules pro commune ipsius burgi negabant et dicebant ad
+                    se et ad commune ipsius burgi pertinere et ex antiquissimo tempore ipsi et eorum
+                    anticessores habuisse huiusmodi successiones et bona percepisse atque sic in
+                    antea huiusmodi bona debere habere et percipere seu occupare allegabant et
+                    dicebant atque ut dominus episcopus sic eos eorumque successores pro commune
+                    ipsius burgi habere et percipere seu occupare permittere debere<supplied
+                        reason="omitted">t</supplied> asserebant. Ad hec iamdicti arbitri, causa
+                    diligenti cura inspecta, taliter per laudamentum finierunt dicentes: &#171;In
+                    Dei nomine, amen. <note place="foot" n="b" xml:id="LXII_n_002">In Dei nomine,
+                        amen: <emph>scritto tra</emph> laudamentum<emph> e</emph> finierunt
+                            <emph>per evidente errore del copista</emph>.</note>. Nos iamdicti
+                    arbitri taliter ex concordia et bono pacis dicimus et laudamus quatinus omnia
+                    bona predictorum advenum seu advenarum, qui nunc sunt vel in antea fuerint
+                    habitatores predicti<note place="foot" n="c" xml:id="LXII_n_003">predicti: pre
+                            <emph>aggiunto in sopralinea, con segno di richiamo</emph>.</note> burgi
+                    vel eius districtus seu pertinenciarum, et eorum descendentium, morientium sine
+                    testamento aut legitimis successoribus, comuniter habeant et percipiant, dominus
+                    episcopus scilicet et sui successores, pro episcopatu, pro medietate atque
+                    predicti consules eorumque successores et prosuccessores, pro commune ipsius
+                    burgi, pro alia medietate, quam medietatem consules et commune habeant et
+                    teneant atque recognoscant per feudum ab episcopo et episcopatu, non tamen quod
+                    aliquis consulum pro hiis specialiter fidelitatem facere cogatur; et ut ambe
+                    partes sic per omnia firmum et ratum atque incorruptum habeant, teneant et
+                    observent deinceps omni tempore, alterum alteri ex laudamento condempnamus ad
+                    iamscriptam penam. Et hec dicimus, salvo iure domini episcopi et consuetudine et
+                    aliorum dominorum et burgensium, quod vel quam habent seu habuerint in suis
+                    villanis, qui in predicto loco venerunt vel venerint ad habitandum&#187; Quo
+                    laudamento, ut dictum est, facto, tam dominus episcopus quam iamscripti consules
+                    omnes dixerunt: &#8220;Omologo, placet&#8221;. </p>
+                <p xml:id="LXII_p_002" n="2"> Hec omnia acta sunt in <orgName
+                        ref="#Sarzana_S_Bartolomeo">ecclesia Sancti Bartholomei hospitalis de
+                            <placeName ref="#Sarzana">Sarzana</placeName></orgName>, <supplied
+                        reason="omitted">in</supplied> presentia <persName ref="#Giordanus_magister"
+                            ><roleName>magistri</roleName> Giordani</persName> et <persName
+                        ref="#LambertusGuidonisGalli">Lamberti quondam Guidonis Galli</persName> et
+                        <persName ref="#UrbiccianusLuca_iudex">Urbicciani
+                            <roleName>iudicis</roleName> de <placeName ref="#Lucca"
+                        >Luca</placeName></persName> et <persName ref="#BonaiunctaLuca_iudex"
+                            >Bonegi<supplied reason="omitted">u</supplied>ncte <roleName>iudicis
+                        </roleName> de <placeName ref="#Lucca">Luca</placeName></persName> et
+                        <persName ref="#NoradinusGragnano">Noradini de <placeName ref="#Gragnano"
+                            >Gragnano</placeName></persName> et <persName ref="#BoldioneSarzana"
+                        >Boldionis</persName> et <persName ref="#BolgarinusSarzana"
+                        >Bolgarini</persName> et <persName ref="#AvoguadrusSarzana"
+                        >Avoguadri</persName> et aliorum multorum de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>, <date when="1199-11-30">anno a nativitate Domini
+                        millesimo centesimo nonagesimo nono, pridie kalendas decembris, indictione
+                            <note place="foot" n="a" xml:id="LXII_n_004">III</note></date>. Et
+                    incontinenti dominus episcopus ibidem et in presentia eorumdem investivit
+                    prenominatos consules de <placeName ref="#Sarzana">Sarzana</placeName> pro
+                    consulatu et communi seu universitate ipsius burgi per feudum de predicta
+                    medietate bonorum predictorum advenarum, ut dictum est, decedentium. </p>
+                <p xml:id="LXII_p_003" n="3">
+                    <ptr target="LXII_st_001"/> Ego <persName ref="#AldebrandusSala_notarius"
+                        >Aldebrandus de <placeName ref="#Sala">Sala</placeName>, <roleName>domini
+                            Frederici Romanorum imperatoris notarius ac donni imperatoris Henrici
+                            iudex ordinarius</roleName></persName>, hiis omnibus interfui et hec ad
+                    memoriam inter eos habendam, precepto iamscriptorum arbitrorum, publicis
+                    litteris descripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

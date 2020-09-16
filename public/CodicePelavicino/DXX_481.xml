@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXX_481">
+    <front xml:id="DXX_front">
+
+      <titlePart type="numerazioneNuova">481</titlePart>
+      <titlePart type="numerazioneOrig">DXX</titlePart>
+
+      <docDate xml:id="DXX_docDate">
+        <date when="1279-02-19">1279 febbraio 19 </date>, <placeName>Sarzana (<term
+            xml:lang="latin">in castro Sarzane, in palacio predicti domini episcopi
+          </term>)></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="DXX_regesto">
+
+        <p> Bertolotto e Parente del fu Rollandino di Stadano donano al vescovo di Luni Enrico una
+          delle ventiquattro parti loro spettanti del castello della Brina e della sua
+          giurisdizione. </p>
+
+      </div>
+
+      <div type="footer" xml:id="DXX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 385v.-386r., cc. CCCLXXVIIv.-CCCLXXVIIIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+
+          <p>Edizione pressochè integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 520, pp. 564-566</p>
+
+        </div>
+
+        <div type="crit_notes">
+          <note> Parte del documento è stata letta con l’ausilio della luce di Wood. </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXX.
+              Donatio quam Bertolottus et Parens, filii condam Rollandi de Stadano, fecerunt domino
+              episcopo Lunensi de eorum parte castri Brine et pertinentiarum eius.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXX_div">
+        <p xml:id="DXX_p_001" n="1"> In Domini nomine, amen. <date when="1279-02-19">Anno a
+            nativitate Eius M°CCLXXIX, indictione VII, die XIX februarii</date>. <persName
+            ref="#BertolotusRollandini">Bertholotus </persName> et <persName ref="#ParensRollandini"
+            >Parens, fratres, filii quondam <expan>Roll<ex>andini</ex></expan> de <placeName
+              ref="#Stadano">Stadano </placeName></persName>, per se suosque heredes, pro omnibus
+          suis suorumque parentibus et in remissionem<note xml:id="DXX_n_001" n="a" place="foot"
+            >remissionem: <emph>così nel testo per</emph> remissione.</note> peccatorum suorum,
+          dederunt, obtulerunt et cesserunt nomine offersionis et donationis inrevocabiliter inter
+          vivos venerabili patri <persName ref="#HenricusEpLuni">
+            <roleName>domino </roleName> Henrico,<roleName> Dei gratia Lunensi episcopo
+            </roleName></persName>, recipienti pro se suisque successoribus et nomine Lunensis
+          ecclesie sive episcopatus, de XXIIII partibus unam castri de <placeName ref="#Brina">Brina
+          </placeName>et tocius iurisdictionis et dominii dicti castri et districtus et
+          pertinenciarum ipsius, quam partem habebant et habere debebant et consueverant, ut
+          dicebant, ipsi et eorum maiores; et dederunt, tradiderunt, cesserunt atque mandaverunt
+          eidem domino episcopo, recipienti ut dictum est, omne dominium, proprietatem, usum et
+          utilitatem et omnia iura, actiones et rationes utiles et directas, reales, personales et
+          mixtas et omnes alias eis competentes et competencia seu competitura in dicto castro
+            <placeName ref="#Brina">Brine </placeName> et podio ipsius castri et iurisdictione,
+          dominio, potestaria et hominibus dicti castri et villarum ipsius et aliis quibuscumque
+          rebus et iuribus, quas et que habent vel habere debent quoquo modo vel iure in dicto
+          castro, villis et districtu et pertinenciis ipsius, faciendo eundem dominum episcopum
+          deinceps de predictis omnibus et singulis, nomine Lunensis ecclesie <pb n="386r"
+            xml:id="fol_386r"/> et suo, procuratorem et dominum ut in rem suam, ita ut ex hiis
+          omnibus et singulis possit agere et experiri, tueri, causari et deffendere, suo et
+          Lunensis ecclesie nomine directo et utiliter adversus quamcumque personam et locum et
+          exinde facere quicquid voluerit, sine contradictione dictorum fratrum vel alterius
+          persone. Et dederunt eidem domino episcopo licentiam intrandi inde tenutam et possessionem
+          corporalem vel quasi per se vel per alium, sua propria auctoritate, quandocumque voluerit,
+          constituentes se pro eo et eius nomine possidere vel quasi donec tenutam et possessionem
+          vel quasi habuerit et acceperit de predictis. Insuper dicti <persName
+            ref="#BertolotusRollandini">Bertholotus </persName> et <persName ref="#ParensRollandini"
+            >Parens</persName>, per se suosque heredes, promiserunt et convenerunt eidem domino
+          episcopo, recipienti pro se suisque successoribus et nomine Lunensis episcopatus, predicta
+          omnia non imbrigare vel molestare deinceps, immo dictam offersionem et donationem et omnia
+          et singula suprascripta ratam seu rata habere et tenere et numquam in aliquo contra facere
+          vel venire, de iure vel de facto, sub pena <measure type="imperiales" quantity="10"
+            unit="libra">X librarum imperialium </measure>, quam penam eidem domino episcopo et suis
+          successoribus dare et solvere promiserunt tociens quociens contra facerent vel venirent et
+          quolibet capitulo non observato; et, pena soluta vel non, suprascriptis omnibus et
+          singulis nichillominus semper firmis et ratis manentibus cum eadem pene commissione,
+          obligando ad hec attendenda dicti fratres eidem domino episcopo se suosque heredes et
+          omnia eorum bona habita et habenda et renunciando omni iuri et legibus contra hec
+          introductis et specialiter legi que dicit donationem posse revocari propter ingratitudinem
+          vel alio modo.</p>
+        <p xml:id="DXX_p_002" n="2">Actum in <placeName ref="#Sarzanello">castro Sarzane
+          </placeName>, in palacio predicti domini episcopi, presentibus <persName
+            ref="#Bertoluscan">
+            <roleName>domino </roleName> Bertolo <roleName>canonico Lunensi </roleName>
+          </persName>, <persName ref="#GuilielmusSanctiAngeli">
+            <roleName>domino </roleName>Guilielmo Sancti Angeli de <placeName ref="#Auximo"
+              >Auximo</placeName>
+          </persName>, <persName ref="#GualterotusFordenova">Gualteroto de <placeName
+              ref="#Fosdinovo">Fordenova</placeName><note xml:id="DXX_n_002" n="b" place="foot"
+              >Fordenova: <emph>così nel testo</emph>.</note>
+          </persName> et <persName ref="#AngelinusLevantonot">Angelino de <placeName ref="#Levanto">
+              Levanto </placeName>
+            <roleName>notario</roleName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="DXX_p_003" n="3">
+          <ptr target="#DXX_st_001"/> Ego <persName ref="#PetrusGualterotinot">Petrus quondam
+            Gualteroti de <placeName ref="#Soliera">Soleria</placeName></persName>, <roleName>sacri
+            palacii notarius</roleName>, hiis interfui et rogatus scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

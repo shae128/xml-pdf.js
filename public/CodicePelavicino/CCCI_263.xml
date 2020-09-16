@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCI_263">
+    <front xml:id="CCCI_front">
+
+      <titlePart type="numerazioneNuova">263</titlePart>
+      <titlePart type="numerazioneOrig">CCCI</titlePart>
+
+      <docDate xml:id="CCCI_docDate">
+        <date from="1180" to="1250">&lt;fine XII - prima metà del XIII secolo&gt;</date>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCI_regesto">
+        <p>Redditi dovuti alla curia Lunense.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 283v.-284r., c. CCLXXVv.- CCLXXVIr. secondo la numerazione
+            originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 301,
+            p. 281, soltanto le prime tre voci dell’elenco.</p>
+        </div>
+        <div type="crit_notes">
+          <note>Il documento è privo di data cronica e topica, oltre che di sottoscrizione notarile.
+            Si tratta probabilmente di un brano estrapolato da un più ampio elenco ricognitivo di
+            beni e redditi della curia lunense nella zona di Castelnuovo Magra. Un nominativo,
+            Sigenaldo de Orbagnano, è presente come testimone in un documento del 1212 (CP
+            246)</note>
+        </div>
+
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCI.
+              Redditus.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCI_div">
+        <p xml:id="CCCI_p_001" n="1">Redditus: <persName ref="#Richelda">Richelda</persName> I
+          starium ordei et <measure unit="denarius" quantity="1">denarium I</measure> pro
+          mariskalco; inter filium <persName ref="#Timpus">Timpi</persName> et filium quondam
+            <persName ref="#MarchesinusColinezolo"> Marchesini de <placeName ref="#Colinezolo"
+              >Colinezolo</placeName></persName> I starium ordei et <measure unit="denarius"
+            quantity="1">I denarium</measure> de mariskalco; inter <persName
+            ref="#SygenaldusOrbagnano">Sygenaldum</persName> et <persName ref="#BondiesOrbagnano"
+            >Bondiem de <placeName ref="#Orbagnanno">Orbagnano</placeName></persName> et filiam
+            <persName ref="#GrillusOrbagnano">Grilli<note place="foot" n="a" xml:id="CCCI_n_001">r
+                <emph>aggiunta in sopralinea con segno di richiamo</emph>.</note> de <placeName
+              ref="#Orbagnanno">Orbagnano</placeName></persName> I starium ordei de duobus annis et
+            <measure unit="denarius" quantity="1">denarium</measure> de mariskalco; casa <persName
+            ref="#MartinellusRobiano">Martinelli de <placeName ref="#Robbiano"
+            >Robiano</placeName></persName> I starium ordei et <measure unit="denarius" quantity="1"
+            >denarium</measure> de mariskalco; inter filiam <persName ref="#AldebrandetusGuidolini"
+            >Guidolini</persName>
+          <note place="foot" n="b" xml:id="CCCI_n_002"><term xml:lang="latin">Guidolini</term>:
+              <emph>corretto su</emph>
+            <term xml:lang="latin">Guidolinum</term></note> et <persName ref="#AmbrosinusOrbagnano"
+              >Ambrosini<note place="foot" n="c" xml:id="CCCI_n_003"><term type="incerto"
+                >Ambrosini</term>: <emph>così nel testo</emph>.</note> de <placeName
+              ref="#Orbagnanno">Orbagnano</placeName></persName> et <persName
+            ref="#AlbertinusOrbagnano">Albertinum de <placeName ref="#Orbagnanno"
+              >Orbagnano</placeName></persName> et <persName ref="#PugnetusOrbagnano">Pugnetum de
+              <placeName ref="#Orbagnanno">Orbagnano</placeName></persName> I starium ordei et
+            <measure unit="denarius" quantity="1">denarium</measure> de mariskalco. </p>
+        <p xml:id="CCCI_p_002" n="2">
+          <c>§</c> Casa <persName ref="#MartinellusOrbagnano">Martinelli</persName> et <persName
+            ref="#PetrusOrbagnano">Petri de <placeName ref="#Orbagnanno"
+            >Orbagnano</placeName></persName> I starium ordei intra duos annos et <measure
+            unit="denarius" quantity="1">denarium</measure>de mariskalco; <persName
+            ref="#TholomeusFonticlo">Tholomeus de <placeName ref="#Fonticlo"
+            >Fonticlo</placeName></persName> intra duos annos medium starium ordei et <measure
+            unit="denarius" quantity="0.5">denarium medium</measure> de mariscalco pro quodam podere
+          de <placeName ref="#Orbagnanno">Orbagnano</placeName>; domina <persName
+            ref="#SibiliaMansi ">Sibilia quondam Mansi</persName> tantumdem quantum dictus <persName
+            ref="#Tholomeus">Tholomeus</persName> pro quodam podere de <placeName ref="#Orbagnanno"
+            >Orbagnano</placeName>; filii <persName ref="#PiliusSusano">Pilii de <placeName
+              ref="#Susano">Susano</placeName></persName> medium starium ordei et <measure
+            unit="denarius" quantity="1">denarium</measure> de mariskalco; <persName
+            ref="#FusculusSusano">Fusculus de <placeName ref="#Susano">Susano</placeName></persName>
+          idem sicut filii <persName ref="#PiliusSusano">Pilii</persName>, exceptis predictis
+          denariis II<note place="foot" n="d" xml:id="CCCI_n_004"><term type="incerto">predictis
+              denariis II</term>: <emph>così nel testo</emph>.</note>; casa <persName
+            ref="#MontecellusCapagnano">Montecelli de <placeName ref="#Capagnano"
+              >Capagnano</placeName></persName> I starium ordei et <measure unit="denarius"
+            quantity="1">denarium</measure> de mariskalco; casa de <placeName ref="#Solario"
+            >Solario</placeName> I starium ordei et <measure unit="denarius" quantity="1"
+            >denarium</measure> pro mariskalco; filii <persName ref="#PoletusPolo">Poleti de
+              <placeName ref="#Polo">Polo</placeName></persName> duas partes unius starii ordei et
+            <measure unit="denarius" quantity="1">denarium</measure> de mariscalco pro parte starii
+          ordei.</p>
+        <p xml:id="CCCI_p_003" n="3"><c>§</c> De podere <placeName ref="#Castellano"
+            >Castellano</placeName> medium starium ordei et <measure unit="denarius" quantity="0.5"
+            >medium denarium</measure> de mariskalco.</p>
+        <p xml:id="CCCI_p_004" n="4"><c>§</c> Ad <placeName ref="#Cazano">Cazanum</placeName>
+          <persName ref="#MartinellusAra">Mart<supplied reason="omitted">i</supplied>nellus de
+              <placeName ref="#Ara">Ara</placeName></persName> octavam partem unius starii ordei et
+          partem de <measure unit="denarius" quantity="2">duobus denariis</measure> de mariskalco,
+          pro ratione mensure ordei, et ambassiatas factas; <persName ref="#BrisiolusAra">Brisiolus
+            de <placeName ref="#Ara">Ara</placeName></persName> I starium ordei et <measure
+            unit="denarius" quantity="1">denarium</measure> de mariscalco; casa de <placeName
+            ref="#Assento">Assento</placeName> II staria ordei et <measure unit="denarius"
+            quantity="2">denarios II</measure> pro mariscalco; casa de <placeName ref="#Caneva"
+            >Caneva</placeName> in IIIIor annis semel medium starium ordei et <measure
+            unit="denarius" quantity="1">denarium</measure> de mariscalco; filius <persName
+            ref="#GuidolinusPretelli">Guidolini Pretelli de <placeName ref="#Cazano"
+              >Cazano</placeName></persName> octavam partem unius starii ordei et <measure
+            unit="denarius" quantity="1">denarium</measure> pro mariscalco; <persName
+            ref="#BonfiliusMorechello">Bonfilius de <placeName ref="#Morechello"
+              >Morechello</placeName></persName>, consors illius <persName ref="#GuidolinusPretelli"
+            >Guidolini</persName>, similiter; casa <persName ref="#Caprionus">Caprioni</persName>
+          cum suis consortibus medium starium ordei et <measure unit="denarius" quantity="0.5"
+            >medium denarium</measure> pro mariscalco; casa <persName ref="#Burnengi">Burnengorum de
+              <placeName ref="#Cazano">Cazano</placeName></persName> in duobus annis semel medium
+          starium ordei et annuatim, in alia parte, octavam partem unius starii ordei et <measure
+            unit="denarius" quantity="1">denarium</measure> pro mariscalco, pro ratione idem
+            secundum<note place="foot" n="e" xml:id="CCCI_n_005"><term xml:lang="latin"
+              >secundum</term>: d <emph>corretto su</emph> b</note> hoc pro quolibet stario
+          universaliter datur <measure unit="denarius" quantity="1">I denarium</measure>; casa de li
+            <persName ref="#Albizi">Albizi de <placeName ref="#Cazano">Cazano</placeName></persName>
+          medium starium ordei et <measure unit="denarius" quantity="1">denarium</measure> de
+          mariscalco et in alia parte, inter omnes <persName ref="#Albizi">Albizos</persName> et
+          iamscriptum <persName ref="#BrisiolusAra">Brisinum</persName>, I starium ordei et <measure
+            unit="denarius" quantity="1">denarium</measure> de mariscalco, et hoc semel de quarto in
+          quarto anno; <persName ref="#GuilielminusClarella">Guilielminus de <placeName
+              ref="#Clarella">Clarella</placeName></persName> quartum unius starii ordei et <measure
+            unit="denarius" quantity="1">denarium</measure> de mariscalco; ad Padule, inter omnes, I
+          starium ordei et <measure unit="denarius" quantity="1">denarium</measure> de mariscalco,
+          set <persName ref="#Tancredus">Tancredus</persName> reddit partem istius condictionis et
+          in alia parte idem <persName ref="#Tancredus">Tancredus</persName> cum <persName
+            ref="#YlioloYliolo">Yliolo de <placeName ref="#Yliolo">Yliolo</placeName></persName> et
+            <persName ref="#PillotusOrtonovo">Pilloto</persName> et <persName ref="#BosusOrtonovo"
+            >Bosone de <placeName ref="#Ortonovo">Ortonovo</placeName></persName> I starium ordei et
+            <measure unit="denarius" quantity="1">denarium</measure> de mariscalco; resedium de
+            <placeName ref="#Corsetula">Corsetula</placeName> cum podere de <placeName
+            ref="#Campodonico">Campodonico</placeName> II staria ordei in duobus annis continuis, et
+          in tercio remanet; filii <persName ref="#FuscolusYliolo">Fuscoli de <placeName
+              ref="#Yliolo">Yliolo</placeName></persName> quartum unius starii ordei et <measure
+            unit="denarius" quantity="0.25">quartum de denario</measure> de mariscalco; <persName
+            ref="#BonfiliusCruce">Bonfilius</persName> et <persName ref="#BonensegnaCruce"
+            >Bonensigna</persName> et <persName ref="#AlbertusCruce">Albertus de <placeName
+              ref="#Cruce">Cruce</placeName></persName> annuatim staria II ordei et <measure
+            unit="denarius" quantity="2">denarios II</measure> pro mariscalco; <persName
+            ref="#Cichignolus">Cichignolus<note place="foot" n="f" xml:id="CCCI_n_006"><term
+                xml:lang="latin">Cichignolus</term>: h <emph>aggiunto in
+            sopralinea</emph>.</note></persName> cum suo consorte medium starium ordei et <measure
+            unit="denarius" quantity="0.5">medium denarium</measure> pro mariscalco; filius
+            <persName ref="#Turchius">Turchi</persName> pro podere de <placeName ref="#Pizone"
+            >Pizone</placeName> medium starium ordei et <measure unit="denarius" quantity="0.5"
+            >medium denarium</measure> pro mariscalco; podere de <placeName ref="#AquaFredola">Aqua
+            Fredola</placeName> I starium ordei et <measure unit="denarius" quantity="1"
+            >denarium</measure> de mariscalco; <persName ref="#GerardinusMandrola">Gerardinus de
+              <placeName ref="#Mandrola">Mandrola</placeName></persName> de quarto in quarto anno II
+          staria ordei et <measure unit="denarius" quantity="1">II denarios</measure> pro
+          mariscalco. Et sciendum est quod homines illorum de <placeName ref="#Porcaria"
+            >Porcaria</placeName> redduntur<note place="foot" n="g" xml:id="CCCI_n_007"><term
+              type="incerto">redduntur</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">reddunt</term>.</note>
+          <measure unit="denarius">denarios</measure> de mariscalco, et dicitur et creditur quod
+          ipsi debent reddere ordeum; filii <persName ref="#GregoriusBuzano">Gregorii de <placeName
+              ref="#Buçano">Buzano</placeName></persName>, eo quia est dismasiata, reddi
+            debe<supplied reason="omitted">n</supplied>t curie medium starium ordei et <measure
+            unit="denarius" quantity="0.5">medium denarium</measure> de mariscalco; item <persName
+            ref="#AlbertusGuilielmini">Albertus quondam Guilielmini de <placeName ref="#Luni"
+              >Lune</placeName></persName> II staria ordei et <measure unit="denarius" quantity="1"
+            >denarium</measure> de mariscalco; <persName ref="#BruniconusGerardini">Bruniconus
+            quondam Gerardini Labromeci</persName> et <persName ref="#FruminellusPitetus"
+              >Fruminellus<note place="foot" n="h" xml:id="CCCI_n_008"><term xml:lang="latin"
+                >Fruminellus</term>: r <emph>aggiunto in sopralinea</emph>.</note> Pitetus quondam
+            Pugneti</persName> et <persName ref="#VicialeUgolini">Viciale quondam Ugolini de
+              <placeName ref="VenturaPlace">Ventura</placeName></persName> et <persName
+            ref="#MartinusPodio">Martinus de lo Podio</persName> et <persName
+            ref="#VitalisfraterMartini">Vitalis</persName>, frater eius, et <persName
+            ref="#MercadantusArmannini">Mercadantus quondam Armannini</persName> et quondam
+            <persName ref="#Riccolus">Riccolus</persName>, inter omnes istos, debent reddere
+          annuatim medium starium ordei ad antiqum; <persName ref="#PhilippusViciale">Philippus de
+              <placeName ref="#Viciale">Viciale</placeName></persName> et <persName
+            ref="#RafiolusGuidonis">Rafiolus quondam Guidonis Calmangarii</persName> et <persName
+            ref="#IohannesBithazano">Iohannes de <placeName ref="#Bithazano"
+            >Bithazano</placeName></persName> annuatim quartam partem unius starii ordei <pb
+            n="284r" xml:id="fol_284r"/> ad antiqum; inter <persName ref="#AlbertellusPignoto"
+            >Albertellum de <placeName ref="#Pignoto">Pignoto</placeName></persName> et <persName
+            ref="#MartinusPera">Martinum de <placeName ref="#Pera">Pera</placeName></persName> et
+            <persName ref="#TestaCarrarie">Testam de plano Carrarie</persName> et <persName
+            ref="#GerardusPannesa">Gerardum de <placeName ref="#Pannesa"
+            >Pannesa</placeName></persName> annuatim quartam partem unius starii ad antiqum.</p>
+        <p xml:id="CCCI_p_005" n="5"><c>§</c> Inter omnes illos de <placeName ref="#Ortonovo"
+              >Ortonovo<note place="foot" n="i" xml:id="CCCI_n_009"><emph>Nel margine esterno, di
+                mano moderna:</emph>
+              <term xml:lang="latin">Commune Hortonovi</term>.</note></placeName> annuatim I starium
+          et dimidium ordei et in alia parte, de quarto in quarto anno, II staria ordei et <measure
+            unit="denarius" quantity="1">denarium</measure> pro marescalco.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

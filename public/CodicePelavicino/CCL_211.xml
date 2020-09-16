@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCL_211">
+    <front xml:id="CCL_front">
+
+      <titlePart type="numerazioneNuova">211</titlePart>
+      <titlePart type="numerazioneOrig">CCL</titlePart>
+
+      <docDate xml:id="CCL_docDate">
+        <date when="1231-09-05">1231 settembre 5</date>, <placeName>Ceserano (<term xml:lang="latin"
+            >in ecclesia de Cisirano</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCL_regesto">
+        <p>Guglielmo, vescovo di Luni, loca a Rollando, figlio di Ugolino <term xml:lang="latin">de
+            Valcava</term>, suo uomo e villano, che riceve a nome suo, degli eredi e del padre
+          assente, il <term xml:lang="latin">masio de Valcava</term>. Il fitto annuale ammonta a 1
+          sestario di frumento e 1 sestario di spelta. Rollando e i suoi eredi sono esentati da
+          tutti gli obblighi inerenti la condizione di villano eccetto il fitto, l’<term
+            xml:lang="latin">homagium</term> e il <term xml:lang="latin">resedium</term> che il
+          vescovo si riserva. La transazione costa 15 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCL_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] cc. 263r.-263v., cc. CCLVr.-CCLVv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 250, pp.
+            232-233.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Lupo Gentile data il documento al 6 settembre, ma come osservò già <ref
+              type="biblio" target="#MAZZINI_1914">MAZZINI 1914</ref> (p. 17), il 6 settembre 1231
+            cadeva di sabato; quindi sarà <term xml:lang="latin">V intrante mense septembri e non
+              VI</term>. <p>Autentica databile con incertezza tra il 1232 e il 1260 per la presenza
+              contemporanea dei notai Pagano, Bonalbergo e Aiuto.</p>
+          </note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCL_div">
+        <p xml:id="CCL_p_001" n="1"><ptr target="#CCL_st_001"/> In nomine Domini, amen.<date
+            when="1231-09-06"> Anno a nativitate Eius M°CCXXXI, indictione IIIIa, die veneris,
+              VI<note xml:id="CCL_n_001" n="a" place="foot"><term type="incerto">VI</term>:
+                <emph>così nel testo</emph>.</note> intrante mense septembri</date>. Dominus
+            <persName ref="#GuilEpLuni">Guilielmus, divina paciencia venerabilis <roleName>Lunensis
+              episcopus, previsa utilitate sui et ipsius episcopatus, affictavit <persName
+                ref="#RollandusUgoliniVal">Rollandum, filium Ugolini de <placeName ref="#Valcava"
+                  >Valcava</placeName></persName>, quem dicebat suum hominem
+            et</roleName></persName> villanum esse de masio et pro masio de <placeName
+            ref="#Valcava">Valcava</placeName>, recipientem pro se et suis heredibus, masculis et
+          feminis, et pro patre suo predicto et absente et ipsius heredibus aliis, ita ut ipse
+            <persName ref="#RollandusUgoliniVal">Rollandus</persName> et heredes ipsius debeant et
+          teneantur persolvere curie domini Lunensis episcopi annuatim, per mensem augusti, I
+          sextarium frumenti mundi et sicci et I sextarium spelte munde et sicce, ad commune starium
+          de <placeName ref="#Soliera">Soleria</placeName> mensurati, atque apud <placeName
+            ref="#Soliera">Soleriam</placeName>, in granarium domini episcopi, debeant illud fictum
+          deferre. Et ipse dominus episcopus per se et suos successores <pb n="263v"
+            xml:id="fol_263v"/> eidem <persName ref="#RollandusUgoliniVal">Rollando</persName>,
+          recipienti pro se et suis heredibus et pro patre suo prenominato, absente, et aliis suis
+          heredibus, omnes alias condictiones, factiones, usantias, servicia, redditus, dona,
+          coltas, malecollecta, angarias et perangarias atque universas condictiones et factiones
+          villanaticas et singularia remisit, perdonavit et condonavit et <supplied reason="omitted"
+            >ab</supplied> aliis omnibus suprascriptis et singulis villanaticis condictionibus
+          dictum <persName ref="#RollandusUgoliniVal">Rollandum</persName> et suos heredes, masculos
+          et feminas, et patrem suum, absentem, et alios suos heredes omnemque progeniem ab eis
+          descendentem inrevocabiliter fecit penitus liberos et absolutos. Et predictas omnes
+          condictiones et factiones, que et quas actenus ipse <persName ref="#RollandusUgoliniVal"
+            >Rollandus</persName><note xml:id="CCL_n_002" n="b" place="foot"><term xml:lang="latin"
+              >actenus ipse Rollandus</term>: <emph>nel testo</emph>
+            <term xml:lang="latin">ipse Rollandus actenus</term>
+            <emph>con segno di richiamo per invertire l’ordine delle parole</emph>.</note> et pater
+          eius predictis vel suis<note xml:id="CCL_n_003" n="c" place="foot"><term type="incerto"
+              >predictis vel suis</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">predictus vel sui</term>.</note> maiores dicto domino episcopo
+          vel suis antecessoribus seu curie domini Lunensis episcopi vel suo nuncio quoquomodo vel
+          iure facere debebant et tenebantur seu faciebant, dabant vel reddebant seu facere, dare
+          sive reddere solebant aut debebant, eidem <persName ref="#RollandusUgoliniVal"
+            >Rollando</persName>, recipienti pro se et suis heredibus, masculis et feminis, habitis
+          et habendis, et pro patre suo predicto, absente, et ipsius heredibus omnique progeniei ab
+          eis descendentibus, idem dominus episcopus, per se et suos successores, concessit,
+          remisit, perdonavit atque condonavit, excepto ficto prenominato et homagio et resedio in
+          se retento, pro quibus omnibus confirmandis fuit confessus iamdictus dominus episcopus se
+          servicium ab eo recepisse bonorum <measure type="Imperiales" quantity="15" unit="solidus"
+            >imperialium soldorum XV</measure> atque exceptioni non numerate pecunie renunciavit.
+          Item promisit dominus episcopus, per se suosque successores, eidem <persName
+            ref="#RollandusUgolini">Rollando</persName>, recipienti pro se et patre absente et eorum
+          omnibus heredibus, ut superius dictum est, quicquid in hac carta legitur, sub pena
+            <measure type="Imperiales" quantity="100" unit="solidus">C soldorum
+            imperialium</measure>, perpetuo firmum et ratum habere et tenere et numquam contra
+          predicta venire vel facere aliqua occasione vel exceptione, aliquo modo seu aliquo
+          tempore. Et ipse <persName ref="#RollandusUgolini">Rollandus</persName> promisit ei,
+          stipulanti pro se et suis successoribus, per se et suos heredes atque per patrem suum
+          predictum, absentem, et ipsius heredes alios, sub eadem pena, suprascripta omnia in
+          perpetuum firma tenere, attendere et observare et in nullo contravenire. Que pena
+          persolvatur parti fidem servanti; qua soluta, non minus hec carta in sua permaneat
+          firmitate.</p>
+        <p xml:id="CCL_p_002" n="2">Actum in <orgName ref="#Ceserano_S_Bartolomeo">ecclesia de
+              <placeName ref="#Ceserano">Cisirano</placeName></orgName>, cum stipulatione sollempni,
+          coram domino <persName ref="#Peregrinusarc">Peregrino <roleName>archipresbytero</roleName>
+            de <placeName ref="#Soliera">Soleria</placeName></persName>, <persName
+            ref="#RollandusfrPeregrini">Rollando</persName> et <persName
+            ref="#GualterotusfrPeregrini">Gualteroto</persName>, fratribus ipsius
+            <roleName>archipresbyteri</roleName>, <persName ref="#Bonencontrusnot">Bonencontro
+              <roleName>notario</roleName> de <placeName ref="#Soliera"
+            >Soleria</placeName></persName>, <persName ref="#ArmannusIovello">Armanno de <placeName
+              ref="#Iovello">Iovello</placeName></persName> et <persName ref="#BonaventuraIovello"
+            >Bonaventura</persName> eiusdem loci et pluribus aliis testibus ad hec rogatis.</p>
+        <p xml:id="CCL_p_003" n="3">Ego <persName ref="#Attolinusnot2">Attolinus, <roleName>sacri
+              palacii notarius</roleName></persName>, hiis omnibus interfui atque rogatus
+          scripsi.</p>
+      </div>
+      <div xml:id="CCL_div2" type="autentica">
+        <p xml:id="CCL_p_004" n="4"><ptr target="#CCL_st_002"/> Ego <persName ref="#Paganusnot"
+            >Paganus, <roleName>notarius sacri palacii</roleName></persName>, autenticum huius
+          exempli vidi et legi et quicquid in eo inveni fideliter exemplavi, nichil addens vel
+          minuens quod mutet sensum, nisi forte litteram vel sillabam.</p>
+        <p xml:id="CCL_p_005" n="5"><ptr target="#CCL_st_003"/> Ego <persName ref="#Bonalbergusnot"
+            >Bonalbergus, <roleName>domini Frederici invictissimi Romanorum imperatoris
+              notarius</roleName></persName>, huius exempli auttentico viso et lecto et, cognito
+          quod nichil in uno plus quam in altero continebatur quod mutet sensum, et ideo huic
+          subscripsi.</p>
+        <p xml:id="CCL_p_006" n="6"><ptr target="#CCL_st_004"/> Ego <persName ref="#Adiutusnot"
+            >Adiutus, <roleName>sacri palatii notarius</roleName></persName>, autentico huius
+          exempli viso et lecto et, cognito quod nichil in uno plus quam in altero continebatur quod
+          mutaret sensum, atque ideo huic subscripsi, signum proprium apponendo<note>Autentica del
+            documento n. 211-CCL databile tra il 1232 e il 1260 per la presenza del notaio
+              Aiuto<date notBefore="1232-01-01" notAfter="1260-12-31" cert="low"/>.</note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

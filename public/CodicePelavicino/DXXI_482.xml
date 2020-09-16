@@ -1,0 +1,217 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXXI_482">
+    <front xml:id="DXXI_front">
+
+      <titlePart type="numerazioneNuova">482</titlePart>
+      <titlePart type="numerazioneOrig">DXXI</titlePart>
+
+      <docDate xml:id="DXXI_docDate">
+        <date when="1279-02-20">1279 febbraio 20</date> e <date when="1279-02-21">21</date>,
+          <placeName>Sarzanello (<term xml:lang="latin">in castro Sarzane, in palacio domini
+            Lunensis episcopi </term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="DXXI_regesto">
+
+        <p>Avito del fu Ciserano, console del comune della Brina, i consiglieri Pontremolino del fu
+          Mercadante, Rustichello del fu Bernardo, Calandrino del fu Pagano e Engheramo del fu
+          Bonaiuto e alcuni uomini della Brina giurano di obbedire ai mandati del vescovo di Luni
+          Enrico. Dichiarano di non avere doveri nei confronti della custodia dei castelli della
+          vicaria di Lunigiana e di poter eleggere consoli, podestà e rettori anche senza il
+          consenso del vescovo. Quest’ultimo si impegna a tutelare la comunità della Brina dal fodro
+          di 26 denari che si paga ai vicari dell’impero e che è o sarà chiesto nella vicaria di
+          Tuscia o di Lunigiana, ma chiede agli uomini della comunità di non giurare obbedienza ad
+          altro dominio o giurisdizione. </p>
+
+      </div>
+
+      <div type="footer" xml:id="DXXI_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] cc. 386r.-386v., cc. CCCLXXVIIIr.-CCCLXXVIIIv. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 521, pp.
+            566-569. </p>
+
+        </div>
+
+        <div type="crit_notes">
+          <note> Autentica di poco posteriore al 1279, dato che il notaio redattore Pietro, padre
+            del notaio autenticatore Paleologo, è ancora in vita. </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXXI.
+              Iuramentum quod fecerunt consules, consiliarii et homines de Brina de sequendo et
+              obediendo mandatis domini Lunensis episcopi et eius offitialium.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXXI_div">
+        <p xml:id="DXXI_p_001" n="1"> In nomine Domini, amen. <date when="1279-02-20">Anno a
+            nativitate Eius M°CCLXXIX, indictione VII, die XX mensis februarii</date>. <persName
+              ref="#AvitusCiserani">Avitus quondam Ciserani</persName>, <roleName>consul <orgName ref="#Brina_comune">communis</orgName> et
+            universitatis et hominum de </roleName>
+          <placeName ref="#Brina"> Brina</placeName>, pro se, suo nomine et consulatus nomine, pro
+          ipso communi et universitate et hominibus de <placeName ref="#Brina">Brina</placeName>,
+          existens ante presentiam venerabilis patris <persName ref="#HenricusEpLuni">
+            <roleName>domini</roleName> Henrici, <roleName>Dei gratia Lunensis
+            episcopi</roleName></persName>, iuravit sequimentum et mandata suprascripti domini
+          Lunensis episcopi et sui vicarii et eius officialium secundum modum et formam
+          infrascriptum et infrascriptam, et <persName ref="#PontremulinusMercadantis">Pontremulinus
+            quondam Mercadantis</persName>, <persName ref="#RustigellusBernardis">Rustigellus
+            quondam Bernardi</persName>, <persName ref="#CalandrinusPagani">Calandrinus quondam
+            Pagani</persName> et <persName ref="#HengeramusBonaiuti">Hengerame quondam
+            Bonaiuti</persName>, <roleName> consiliarii dicti communis et universitatis et
+            hominum</roleName> dicti loci, pro se et suo nomine et pro ipso communi et universitate
+          et hominibus dicti loci, iuraverunt simili modo et forma sequimentum et mandata ipsius
+          domini Lunensis episcopi et eius vicarii et suorum officialium secundum modum et formam
+          infrascriptum et infrascriptam; et simili modo et forma iuraverunt infrascripti homines de
+            <placeName ref="#Brina">Brina</placeName>, videlicet <persName ref="#IustonusUgolini"
+            >Iustonus quondam Ugolini de <placeName ref="#Ceparana">Ceprena</placeName><note
+              place="foot" n="a" xml:id="DXXI_n_001">Ceprena: <emph>nel testo</emph> Cepreana<emph>,
+                con la prima a depennata, forse per</emph> Ceparana.</note>
+          </persName>, <persName ref="#IacopinusRavascherii">Iacopinus Ravascherii </persName> et
+            <persName ref="#BenedictusCancellerii">Benedictus quondam Cancellerii</persName>,
+          videlicet quod ipsi consul et consiliarii et homines de <placeName ref="#Brina">Brina
+          </placeName> superius nominati et alii homines dicti communis et universitatis vel ipsa
+          universitas non teneantur domino dicto Lunensi episcopo vel eius vicario vel <orgName ref="#Lunigiana_vicaria">vicarie</orgName> vel
+          hominibus sive universitatibus <orgName ref="#Lunigiana_vicaria">vicarie</orgName> <placeName ref="#Lunigiana"
+              ><expan>Lun<ex>ixiane</ex></expan></placeName> vel pro ipso domino Lunensi episcopo
+          vel universitate <orgName ref="#Lunigiana_vicaria">vicarie</orgName> <placeName ref="#Lunigiana"
+            ><expan>Lun<ex>ixiane</ex></expan></placeName> dare vel facere aliquod in custodia vel
+          pro custodia castrorum que pro ipso domino vel episcopatu Lunensi vel pro communitatibus
+          vel universitatibus <orgName ref="#Lunigiana_vicaria">vicarie</orgName> predicte custodiuntur vel custodientur, nisi eorum voluntate
+          solvere vellent, et etiam quod possint eligere potestates seu consules vel rectores et
+          officiales in dicto loco, sicut facere consueverant, etiam sine consensu et licentia
+          ipsius domini episcopi et hominum episcopatus <placeName ref="#Lunigiana"
+          >Lunixiane</placeName>, et ita etiam quod dominus episcopus suprascriptus teneatur
+          deffendere dictum commune et universitatem et homines de <placeName ref="#Brina"
+            >Brina</placeName> a <measure type="imperiales" quantity="26" unit="denarius">XXVI
+            denariis</measure> frodi <note place="foot" n="b" xml:id="DXXI_n_002">frodi<emph>: nel
+              testo per </emph>fodri.</note> imperii, qui solvuntur et solvi consueverant vicariis
+          imperii seu vicariis <placeName ref="#Tuscia">Tuscie</placeName>, qui pro ipso imperio vel
+          pro Romana ecclesia vel pro<persName ref="#Carolusrex">
+            <roleName>domino rege</roleName> Karolo </persName> constituuntur vel ponentur <pb
+              n="386v" xml:id="fol_386v"/> vel constituentur in <orgName ref="#Lunigiana_vicaria">vicaria</orgName> <placeName ref="#Tuscia"
+            >Tuscie</placeName> vel <placeName ref="#Lunigiana"><expan>Lun<ex>ixiane</ex></expan>
+            </placeName> vel in partibus <placeName ref="#Lunigiana"><expan>Lun<ex>ixiane</ex></expan></placeName>, sicut
+          deffendet et sicut deffendentur alii homines terrarum suarum; et sic attendere et
+          observare voluit, dixit et promisit ipse dominus episcopus pro se ipso et pro communi et
+          universitate et hominibus de <placeName ref="#Brina">Brina</placeName>, qui sunt et erunt,
+          ad mandata et sequimenum ipsius domini episcopi Lunensis et eius vicarii. Hec autem omnia
+          et singula suprascripta ordinata, firmata et promissa sunt pro suprascripto domino Lunensi
+          episcopo et suo episcopatu, ex una parte, et pro suprascripto consule, consiliariis et
+          aliis hominibus suprascriptis de <placeName ref="#Brina">Brina </placeName> pro se ipsis
+          et communi et universitate et aliis hominibus de <placeName ref="#Brina"
+          >Brina</placeName>, ex altera.</p>
+        <p xml:id="DXXI_p_002" n="2">Actum in <placeName ref="#Sarzanello">castro
+            Sarzane</placeName>, in palacio suprascripti domini Lunensis episcopi, sollempniter,
+          presentibus <persName ref="#Rubeusiud">
+            <roleName>domino</roleName> Rubeo <roleName>iudice</roleName></persName>, <persName
+            ref="#Bertoluscan">
+            <roleName>domino </roleName>Bertolo <roleName>Lunensi custode et
+            canonico</roleName></persName>, <persName ref="#RicardusAldebrandeti">Riçardo quondam
+            Aldebrandeti</persName>, <persName ref="#BertolusBaldinoti">Bertolo quondam
+            Baldinoti</persName>, <persName ref="#RayneriusBonaiuncte">Raynerio quondam Bonaiuncte
+            de Cervarolis</persName>, <persName ref="#FluscusFerini">Flusco Ferini</persName>,
+            <persName ref="#AlbertusBenvenuti">Alberto quondam Benvenuti de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName></persName> et <persName
+            ref="#SaladinusFosdenova">Saladino de <placeName ref="#Fosdinovo"
+            >Fosdenova</placeName></persName>, testibus.</p>
+        <p xml:id="DXXI_p_003" n="3">Ibidem incontinenti et eisdem testibus presentibus
+          suprascriptis, venerabilis pater dominus <persName ref="#HenricusEpLuni">Henricus,
+              <roleName>Dei gratia suprascriptus Lunensis episcopus </roleName></persName>, precepit
+          suprascriptis consuli et consiliariis et aliis hominibus suprascriptis de <placeName
+            ref="#Brina">Brina</placeName> pro se ipsis et eorum communi, sub pena et banno eis et
+          cuilibet eorum et dicto communi, arbitrio dicti domini Lunensis episcopi, auferendi<note
+            place="foot" n="c" xml:id="DXXI_n_003">auferendi<emph>: così nel testo per
+              </emph>auferenda<emph> da concordarsi con </emph>pena.</note>, quod de cetero non
+          facient aliquod iuramentum seu sequimentum obedientie nec compagnie vel iure nec obedient
+          seu se submittant vel supponant dominio vel sub dominio vel iurisdictione alicuius, nec
+          sint in consilio vel assensu seu consensu nec ordinamento<note place="foot" n="d"
+            xml:id="DXXI_n_004">
+            <term xml:lang="latin"> ordinamento: m</term><emph> corretta su precedente
+              scrittura.</emph></note> vel tractatu quod alius consul nec alii homines de <placeName
+            ref="#Brina">Brina </placeName> iurent sub aliqua alia persona, preterquam sub dicto
+          domino Lunensi episcopo et eius vicario, et quod non faciant sequimentum vel obedientiam
+          alicuius, nisi tantum ipsius domini Lunensis episcopi et eius vicarii, et quod de cetero
+          non intendant seu pateant alicui alteri persone, preterquam dicto domino Lunensi episcopo
+          et eius vicario, sine consensu et licencia speciali suprascripti domini Lunensis
+          episcopi.</p>
+        <p xml:id="DXXI_p_004" n="4">
+          <date when="1279-02-20"> Eodem anno et indictione, die XX primo mensis februarii </date>,
+          et eodem loco, <persName ref="#BrancalianusBernochi">Brancalianus quondam Bernochi de
+              <placeName ref="#Brina">Brina</placeName></persName> simili modo et forma et
+          intentione iuravit sequimentum et mandata dicti domini Lunensis episcopi et eius vicarii,
+          ut iuraverunt alii suprascripti de <placeName ref="#Brina">Brina</placeName> qui non sunt
+          officiales, presentibus <persName ref="#GerardusHenriciFal">Gerardo quondam <persName
+              ref="#HenricusFalcinello">
+              <roleName>domini </roleName> Henrici de <placeName ref="#Falcinello"
+                >Falcinello</placeName></persName></persName>, <persName ref="#AlbertusBenvenuti"
+            >Alberto Benvenuti</persName> suprascripto et <persName ref="#BoninusSarzana">Bonino de
+              <placeName ref="#Sarzana">Sarzana</placeName></persName>, testibus; cui <persName
+            ref="#BrancalianusBernochi">Brancaliano </persName>suprascriptus dominus Lunensis
+          episcopus precepit sub dicta pena, simili modo, forma et tenore, ut fecit suprascriptis
+          consuli et consiliariis et aliis de <placeName ref="#Brina">Brina </placeName>
+          suprascriptis. <date when="1279-02-20">Eodem die et loco</date> et presentibus testibus
+          suprascriptis, eodem die et loco, <persName ref="#CampusBonacaptinot">Campus
+              <roleName>notarius</roleName></persName> quondam <persName ref="#BonacaptusBrina"
+            >Bonacapti de <placeName ref="#Brina">Brina</placeName></persName>, simili modo, forma
+          et intentione, iuravit mandamenta et sequimentum suprascripti domini Lunensis episcopi et
+          sui vicarii, ut fecerunt suprascripti consul et consiliarii et alii suprascripti de
+            <placeName ref="#Brina">Brina</placeName>, cui preceptum est per suprascriptum dominum
+          Lunensem episcopum sub dicta pena in omnibus et per omnia, ut precepit suprascriptis
+          consuli et consiliariis et aliis suprascriptis de <placeName ref="#Brina">Brina
+          </placeName>, presentibus <persName ref="#Canoruscan">
+            <roleName>domino</roleName> Canorio <roleName>Lunensi canonico</roleName></persName>,
+            <persName ref="#DusiusSarznot">Dusio <roleName>notario</roleName></persName>, <persName
+            ref="#SachinusGualdi"> Sachino quondam <roleName>domini </roleName> Gualdi</persName> et
+          aliis pluribus testibus ad hec rogatis.</p>
+      </div>
+      <div type="autentica">
+        <p xml:id="DXXI_p_005" n="5">
+          <ptr target="#DXXI_st_001"/> Ego <persName ref="#PalealogusPetrinot">Palealogus, filius
+              <persName ref="#Petrusnot3">Petri <roleName>notarii</roleName> de <placeName
+                ref="#Sarzanello">castro Sarzane</placeName></persName></persName>, <roleName>
+            notarius </roleName>, (rogatus) a <persName ref="#AldebrandinusAdvocatis">
+            <roleName>domino</roleName> Aldebrando <roleName>comite </roleName> de Advocatis de
+              <placeName ref="#Lucca">Luca</placeName></persName>, prout hec omnia suprascripta
+          inveni in actis <persName ref="#Petrusnot3">Petri suprascripti
+              <roleName>notarii</roleName></persName>, ita hic fideliter scripsi de auctoritate et
+          mandato mihi datis et concessis a venerabili domino <persName ref="#HenricusEpLuni"
+            >Henrico, <roleName>Dei gratia Lunensi episcopo</roleName></persName>, sicut ipsis
+          auctoritate et mandato continetur in carta abreviata manu <persName ref="#BondiesRubeinot"
+            >Bondiei <roleName>notarii</roleName></persName>, eius familiaris, nichil addens vel
+          minuens quod sensum mutet vel variet intellectum. <note>Autentica del documento n.
+            482-DXXI di poco posteriore al 1279 dato che il notaio redattore Pietro, padre del
+            notaio autenticatore Paleologo è ancora in vita. <date notBefore="1279-02-21"
+              notAfter="1285-12-31" cert="medium"/>
+          </note>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

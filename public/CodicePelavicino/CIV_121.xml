@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CIV_121">
+    <front xml:id="CIV_front">
+
+      <titlePart type="numerazioneNuova">121</titlePart>
+      <titlePart type="numerazioneOrig">CIV</titlePart>
+
+      <docDate xml:id="CIV_docDate">
+        <date when="1222-05-15">1222 maggio 15</date>, <placeName><term xml:lang="latin">in castro
+            Sarzane</term></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CIV_regesto">
+        <p>Noradino, vescovo di Luni, loca a Ugolino Marzolo, che riceve anche per sua moglie
+          Mellodia e suo cognato Polleto, e a Bozo, figlio del fu Raimondino Marchodoro, metà per
+          ciascuno <term xml:lang="latin">pro indiviso</term>, tutto il podere un tempo gestito da
+          tale Casolino per la curia vescovile nel <term xml:lang="latin">castrum</term> di Sarzana
+          o altrove. L’affitto è di uno staio di frumento all’anno, mutato rispetto al precedente
+          fitto di erbe per il cavallo del vescovo. Il prelato riceve per questa investitura 40
+          soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CIV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 219v.-220r., cc. CCXIv.–CCXIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in: <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 104,
+            pp. 141-142.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note> Nel margine esterno, di mano moderna: <emph>Locatione di servitù</emph>.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+
+      </div>
+
+    </front>
+    <body>
+      <div xml:id="CIV_div">
+        <p xml:id="CIV_p_001" n="1">In nomine Domini, amen.<date when="1222-05-15"> Anno a
+            nativitate Dei M°CC°XX°II, indictione X, die dominica, XV mensis madii</date>. Dominus
+            <persName ref="#NorandEpLuni">Noradinus, Dei gratia Lunensis episcopus</persName>, per
+          se et suos successores in perpetuum locavit et dedit <persName ref="#UgolinusMarzolus"
+            >Ugolino Marzolo</persName>, recipienti pro se et uxore sua <persName ref="#Mellodia"
+            >Mellodia</persName> et pro <persName ref="#Polletus">Polleto</persName>, fratre
+          suprascripte <persName ref="#Mellodia">Mellodie</persName>, et pro illorum heredibus, in
+          una medietate pro indiviso, et <persName ref="#BozusRaimundini">Bozo, filio quondam
+            Raimundini Marchodoro</persName>, atque suis heredibus, in alia medietate pro indiviso,
+          suprascripto est<note n="a" place="foot" xml:id="CIV_n_001"><term type="incerto"
+              >suprascripto est</term>: <emph>così nel testo.</emph></note>, totum podere et tenutam
+          quod et quam habebat et tenebat <persName ref="#Casolinus">Casolinus</persName> per curiam
+          suprascripti domini episcopi et per antecessores ipsius domini episcopi, ubicumque sit, in
+            <placeName ref="#Sarzanello">castro Sarzane</placeName> et in eius pertinenciis vel
+          alibi ubicumque inde scit, tam agrum quam agram et tam in plano quam in monte, ita quod
+          amodo perpetuo suprascriptus <persName ref="#UgolinusMarzolus">Ugolinus</persName> et
+          dicta <persName ref="#Mellodia">sua uxor</persName> cum suprascripto <persName
+            ref="#Polletus">Poleto</persName> illorumque heredes, in una medietate pro indiviso,
+          atque suprascriptus <persName ref="#BozusRaimundini">Bozius</persName><note n="b"
+            place="foot" xml:id="CIV_n_002"><term xml:lang="latin">Bozius</term>: <emph>nel
+              testo</emph>
+            <term xml:lang="latin">Bonus</term>
+            <emph>con il primo tratto di n corretto in z</emph></note> suique<note n="c"
+            place="foot" xml:id="CIV_n_003"><term xml:lang="latin">suique</term>: s <emph>corretta
+              su precedente lettera.</emph>
+          </note> heredes, in alia medietate pro indiviso, suprascriptum podere totum et tenutam in
+          integrum, cum omni iure et actione et pertinentia sua, habeant, teneant et fruantur atque
+          possideant cum casis, terris, vineis, campis, pratis, agresticis et domesticis, ubicumque
+          sit, tam in castro quam extra castrum, cum omni iure et actione atque pertinentiis suis
+          omnibus vel superpositis suis, habeant, teneant et fruantur nomine ficti et nomine
+          homagii, sicut illud habebat et tenebat per predictam curiam dictus <persName
+            ref="#Casolinus">Casolinus</persName>, atque cum omnibus hiis pactis et condictionibus
+          quibus idem <persName ref="#Casolinus">Casolinus</persName> illud podere tenebat et
+          habebat, excepto tantum quod debent dare omni anno, nomine ficti, suprascripte curie unum
+          starium frumenti, per <date when="--08">mensem augusti</date>, mundi et sicci, ad commune
+          starium curie tantum, pro herbis sibi et eorum heredibus, quas ex eo podere dictus
+            <persName ref="#Casolinus">Casolinus</persName> faciebat et facere solitus erat omni
+          anno pro equo domini episcopi, de qua factione <pb n="220r" xml:id="fol_220r"/>
+          suprascriptarum herbarum suprascriptus dominus episcopus per se et suos successores in
+          perpetuum suprascriptis acquisitionibus<note n="d" place="foot" xml:id="CIV_n_004"><term
+              type="incerto">acquisitionibus</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">acquisitoribus</term></note> atque illorum heredibus fecit finem
+          et refutationem et dationem et pactum de non petendo pro suprascripto ficto, sine omni
+          contradictione suprascripti domini episcopi et suorum successorum et cum sua suorumque
+          successorum deffensione ab omni persona, ratione aut consimilibus locis, prout tunc
+          valuerit, sub arbitrio bonorum hominum, restaurare, si deffensare non posset, dando ex
+          ipso podere iam dicti acquisitores et illorum heredes suprascripto domino episcopo et suis
+          successoribus et sue curie omni anno, nomine ficti, unum starium frumenti mundi et sicci,
+          ad commune starium curie, per <date when="--08">mensem augusti</date>, pro istis herbis in
+          perpetuum sibi remissis tantum, et in usu faciendo omnes alias debitas et consuetas
+          condictiones et debita servicia que inde fieri solent, exceptis predictis herbis tantum;
+          alia superimposita inter eos inde non fiat. Unde hinc<note n="e" place="foot"
+            xml:id="CIV_n_005"><term type="incerto">hinc</term>: <emph>così nel testo, probabilmente
+              per</emph>
+            <term xml:lang="latin">habuit</term></note> suprascriptus dominus episcopus a
+          suprascriptis acquisitionibus<note n="f" place="foot" xml:id="CIV_n_006"><term
+              type="incerto">acquisitionibus</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">acquisitoribus</term></note> bonorum imperialium pro investitura
+            <measure type="Imperiales" quantity="40" unit="solidus">soldos XL</measure>, renuntiando
+          exceptioni non numerate pecunie. Et constituerunt inter se ut quicumque ex ipsis vel
+          illorum heredibus seu successoribus suis contra hoc quod superius legitur venerit, tunc
+          persolvat alteri parti, nomine pene, fidem servanti <measure type="Imperiales"
+            quantity="40" unit="solidus">soldos XL imperialium</measure>, rato manente pacto.</p>
+        <p xml:id="CIV_p_002" n="2">Actum in <placeName ref="#Sarzanello">curia castri
+            Sarzane</placeName>, cum stipulatione, presentibus <persName ref="#Soldanus"
+            >Soldano</persName> fratre suprascripti domini episcopi, <persName
+            ref="#RogerinusAdvocati">Rogerino quondam <roleName>Advocati</roleName></persName>,
+            <persName ref="#Attolinuscast">Attolino</persName>
+          <roleName>castaldo</roleName>, <persName ref="#AlbertusPassarini">Alberto quondam
+            Passarini</persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CIV_p_003" n="3"><ptr target="#CIIII_st_001"/>Ego <persName ref="#Prefectusnot"
+            >Prefectus, <roleName>domini imperatoris et Lunensis curie
+            notarius</roleName></persName>, hec rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,156 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXXVIII_389">
+    <front xml:id="CCCCXXVIII_front">
+
+      <titlePart type="numerazioneNuova">389</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXXVIII</titlePart>
+
+      <docDate xml:id="CCCCXXVIII_docDate">
+        <date when="1266-08-22">1266 agosto 22</date>, <placeName>Albiano (<term xml:lang="latin"
+            >sub porticu ecclesie Sancti Martini de Albiano</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXXVIII_regesto">
+        <p>Mazolo e Pietro, consoli del comune di Albiano, e i consiglieri Adorneto del fu
+          Paganuccio, Maruffo e Guardavilla, giurano a Paganino, castaldo del vescovo di Luni
+          Guglielmo, di osservare quanto è stato stipulato fra il vescovo stesso e Ferro di Cordula,
+          loro sindaco. Con loro giurano altri 29 uomini di Albiano.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 337r.-337v., cc. CCCXXVIIIIr.-CCCXXVIIIIv. secondo la numerazione
+            originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref> n. 428,
+            pp. 421-422, con la data 1256.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>A differenza di quanto afferma <ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p.
+            29, l’anno è da correggersi in 1266, come si ricava dai documenti 388 e 390.</note>
+        </div>
+
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCCXXVIII. Sicut homines de Albiano iurarunt attendere in suprascripta carta
+              contempta.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXXVIII_div">
+        <p xml:id="CCCCXXVIII_p_001" n="1">In nomine Domini, amen. <date when="1266-08-10">Anno a
+            nativitate Eius M°CCL <supplied reason="omitted">X</supplied>VI, indictione IX, die X
+            exeunte augusto</date>. <persName ref="#Maçoluscon">Maçolus</persName> et <persName
+              ref="#Petrusconsul">Petrus, <roleName>consules</roleName> <orgName ref="#Albiano_comune">communis seu universitatis</orgName> de
+              <placeName ref="#Albiano">Albiano</placeName></persName>, <persName
+            ref="#AdornetusPaganucii">Adornetus quondam Paganucii</persName>, <persName
+            ref="#Maruffuscons">Maruffus</persName> et <persName ref="#Guardavillacons"
+            >Guardavilla</persName>, consiliarii ipsorum et dicti communis, nomine ipsius
+          universitatis, et singuli pro se ipsis et omnes et singuli infrascripti, congregati ad
+          sonum campane et per preconem ad parlamentum, similiter singuli pro se ipsis et
+          universaliter omnes pro ipso communi iuraverunt, tactis sacrosanctis evangeliis, et
+          promiserunt, nomine dicti communis et singuli et pro se ipsis et eorum heredibus,
+            <persName ref="#Paganinusnot">Paganino</persName>, <roleName>castaldioni venerabilis
+            patris domini</roleName>
+          <persName ref="#GuilEpLuni">Guilielmi</persName>, <roleName>Dei gratia Lunensis
+            episcopi</roleName>, recipienti et stipulanti nomine et vice ipsius domini episcopi et
+          episcopatus Lunensis, quod habebunt ratum et firmum et attendent, facient, observabunt et
+          confitentur in perpetuum totum et quicquid actum, ordinatum et stipulatum est et
+          continetur in carta r<supplied reason="omitted">o</supplied>gata et facta per manum
+            <persName ref="#GualardusLucanot">Gualardi <roleName>notarii</roleName><note n="a"
+              place="foot" xml:id="CCCCXXVIII_n_001">
+              <term xml:lang="latin">per manum Gualardi notarii</term>: <emph>nel testo per Gualardi
+                notarii manum con segno di richiamo per invertire l’ordine delle
+              parole.</emph>.</note> de <placeName ref="#Lucca"> Luca</placeName></persName>, inter
+          predictum dominum episcopum, pro se et episcopatu Lunensi, et <persName
+            ref="#FerrusCordula">Ferrum de <placeName ref="#Cordula">Cordula</placeName></persName>,
+            <roleName>syndicum dicte universitatis</roleName>
+          <pb n="337v" xml:id="fol_337v"/> et dictorum hominum de <placeName ref="#Albiano"
+            >Albiano</placeName>, syndicatus nomine pro eis, sicut de syndicatu ipsius apparet per
+          instrumentum publicum factum manu <persName ref="#Iacobinusnot">Iacobini</persName>
+          <roleName>notarii</roleName> in <date when="1266-06-13">anno a nativitate Domini
+              M°CCL<supplied reason="omitted">X</supplied>VI°, indictione XIII<note n="b"
+              place="foot" xml:id="CCCCXXVIII_n_002">
+              <term xml:lang="latin">XIII</term>: <emph>corretto su precedente scrittura. Dovrebbe
+                essere indizione IX.</emph>.</note>, XIII iunii</date>, presentibus <persName
+            ref="#OctonellusValentini">Octonello quondam Valentini Grassi</persName>, <persName
+            ref="#ConfortusPodenzana"> Conforto de <placeName ref="#Podentiana"
+              >Podenzana</placeName></persName> et pluribus aliis, et contra non venient, sub pena
+            <measure type="argentum" quantity="50" unit="marca">L marcharum argenti</measure>. Quam
+          penam eidem domino episcopo seu ipsi <persName ref="#Paganinusnot">Paganino</persName>,
+          recipienti nomine ipsius domini episcopi et episcopatus, dare et solvere promiserunt
+          tociens quociens contra facerent vel venirent et pro quolibet capitulo non observato; et,
+          pena soluta vel non, ea omnia et singula robur obtineant firmitatis, obligantes ad hec
+          attendenda et observanda se suosque heredes et omnia eorum bona presentia et futura.
+          Nomina <supplied reason="omitted">eorum</supplied> autem qui iuraverunt et promiserunt, ut
+          supra scriptum est, hec sunt: <persName ref="#ParensAlbiano">Parens de <placeName
+              ref="#Albiano">Albiano</placeName></persName>, <persName ref="#Aldebertinus"
+            >Audebertinus</persName>, <persName ref="#AnerellusMercadantis">Anerellus
+            Mercadantis</persName>
+          <note n="c" place="foot" xml:id="CCCCXXVIII_n_003">
+            <term xml:lang="latin">Mercadantis</term>: <emph>corretto su precedente
+              scrittura.</emph>.</note>, <persName ref="#Consilius">Consilius</persName>, <persName
+            ref="#Macagnanus">Macagnanus</persName>, <persName ref="#Bonavita">Bonavita</persName>,
+            <persName ref="#Bonacaptus">Bonacactus</persName>, <persName ref="#Ferrus"
+            >Ferrus</persName>, <persName ref="#Bonacursus">Bonacursus</persName>, <persName
+            ref="#Morenus">Morenus</persName>, <persName ref="#Herarigus">Herarigus</persName>,
+            <persName ref="#Martignonus">Martignonus</persName>, <persName
+            ref="#AdornetusMartignoni"> Adornetus Martignoni</persName>, <persName
+            ref="#Bontalentus">Bontalentus</persName>, <persName ref="#Meserellus"
+            >Meserellus</persName>, <persName ref="#Rustiginus">Rustiginus</persName>, <persName
+            ref="#Guaçolinus">Guaçolinus</persName>, <persName ref="#Albianinus"
+            >Albianinus</persName>, <persName ref="#Venutus">Vegnutus Guiçoniani</persName>,
+            <persName ref="#BenvenutusPizole"> Benevenutus Pizole</persName>, <persName
+            ref="#AvenansRanucinus">Advenans Ranuncinus</persName>, <persName ref="#Foschosellus"
+            >Foschosellus</persName>, <persName ref="#PaganinusCordula">Paganinus de <placeName
+              ref="#Cordula">Cordula</placeName></persName>, <persName ref="#Iacopus"
+            >Iachopus</persName>, <persName ref="#AttolinusCordula">Attolinus de <placeName
+              ref="#Cordula">Cordula</placeName></persName>, <persName ref="#Carindonellus"
+            >Carindonellus</persName>, <persName ref="#Vivaldetus">Vivaldetus de <placeName
+              ref="#Stipeto">Stipeto</placeName></persName>, <persName ref="#Venturellus"
+            >Venturellus Petri</persName>, <persName ref="#Guiderellus">Guiderellus</persName>. </p>
+        <p xml:id="CCCCXXVIII_p_002" n="2">Acta sunt hec sub porticu <orgName
+            ref="#Albiano_S_Martino">ecclesie Sancti Martini de <placeName ref="#Albiano"
+              >Albiano</placeName></orgName>, presentibus <persName ref="#ParsPonzano">Parte
+              <roleName>correrio</roleName> de <placeName ref="#Ponzano"
+            >Ponzano</placeName></persName>, <persName ref="#BonavereDebio">Bonavere de <placeName
+              ref="#Debia">Debio</placeName> de districtu <placeName ref="#Bolano"
+              >Bolani</placeName></persName>, <persName ref="#BonvisinusSStephano">Bonvisino de
+              <placeName ref="#Santo_Stefano">Sancto Stephano</placeName></persName>, <persName
+            ref="#BonaparteBurzono">Bonaparte de <placeName ref="#Burcione"
+            >Burzono</placeName></persName>, ad hec testibus rogatis.</p>
+
+        <p xml:id="CCCCXXVIII_p_003" n="3"><ptr target="#CCCCXXVIII_st_001"/>Ego <persName
+            ref="#Benvenutusnot3">Benvenutus</persName>, <roleName>notarius</roleName> auctoritate
+            <roleName>domini</roleName>
+          <persName ref="#MachinardusPanico">Machinardi <roleName>comitis</roleName> de <placeName
+              ref="#Panico">Panicho</placeName></persName>, hiis omnibus interfui et hanc cartam
+          rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

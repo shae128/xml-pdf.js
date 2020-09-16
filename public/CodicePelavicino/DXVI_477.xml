@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXVI_477">
+    <front xml:id="DXVI_front">
+
+      <titlePart type="numerazioneNuova">477</titlePart>
+      <titlePart type="numerazioneOrig">DXVI</titlePart>
+
+      <docDate xml:id="DXVI_docDate">
+        <date when="1160-01-26">1160 gennaio 26</date>, <placeName>Carrara</placeName> (<term
+          xml:lang="latin">loco Carrarie</term>) </docDate>
+
+      <div type="regesto" xml:id="DXVI_regesto">
+        <p>I signori di Burcione e di Bozano cedono al vescovo di Luni A. il poggio di Castiglione
+          che si trova al di sotto della Brina e lo ricevono da lui in forma di feudo, divenendo
+          quindi suoi vassalli. I signori suddetti devono edificare sul poggio una fortificazione e
+          fare una torre, a cui il vescovo deve contribuire pagando metà dei materiali da
+          costruzione, la fornace, i maestri d’opera, il taglio delle pietre e la muratura. Il
+          vescovo dovrà avere la proprietà di metà torre e una propria casa al suo piano terreno; le
+          spese di custodia saranno divise a metà. Il vescovo dovrà inoltre avere suoi castellani,
+          sia rustici sia curiali. Seguono gli impegni di fedeltà al vescovo di signori e
+          castellani.</p>
+      </div>
+
+      <div type="footer" xml:id="DXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] cc. 384r.-384v., cc. CCCLXXVIr.-CCCLXXVIv. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 516, pp.
+            558-560.</p>
+          <p>Bibliografia: <ref target="#NOBILI_1992">NOBILI 1992</ref></p>
+
+        </div>
+
+        <div type="crit_notes">
+          <note>Il nome del vescovo è indicato con la sola iniziale <ref target="#PODESTÀ_1895">A.
+              PODESTÀ 1895</ref>, p. 43, afferma che si tratta di Andrea (II), citato anche nel doc.
+            232- CCLXX 3 aprile 1164. Tuttavia, mentre in quest’ultimo documento il nome Andrea è
+            scritto per esteso, non si hanno elementi per attribuire al medesimo vescovo anche
+            l’atto del 1160 e nulla vieta che si tratti del predecessore Alberto.</note>
+          <note>Nel margine superiore, al centro: <term xml:lang="latin">De Brina</term>.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXVI.
+              Datio et donatio facte per dominos de Buçono et de Boçano domino A., episcopo Lunensi,
+              de podio quod dicitur Castellone, quod est de subtus Brinam et edifficationis castri
+              ibidem cum aliis certis conditionibus.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXVI_div">
+        <p xml:id="DXVI_p_001" n="1">
+          <ptr target="#DXVI_st_001"/><date when="1160-01-26">Anno Dominice incarnationis M°CLX,
+            indictione VIII, mense ianuario.</date> In presentia bonorum hominum, quorum nomina
+          subter leguntur, placuit et bona voluntate convenitur inter <persName ref="#A.EpLuni"
+            >A.</persName>, <roleName>Dei gratia Lunensem episcopum</roleName>, et <name
+              type="familia" ref="#BurcioneFamilia">dominos de <placeName ref="#Burcione">Burzone</placeName></name>
+          et <name type="familia" ref="#BozanoFamilia">illos qui de <placeName ref="#Buçano"
+            >Bozano</placeName></name> dicuntur quod ipsi <name type="familia" ref="#BurcioneFamilia">domini de
+              <placeName ref="#Burcione">Burzone</placeName></name> et <name type="familia" ref="#BozanoFamilia">de
+              <placeName ref="#Buçano">Bozano</placeName></name> dant quoddam podium quod dicitur
+            <placeName ref="#Castiglione">Castellone</placeName>, quod est desubter <placeName
+            ref="#Brina">Brinam</placeName> et quod habent pro alodio, iamscripto domino episcopo
+          suisque successoribus ad proprium, ut sit suum et suorum successorum, iure proprio, infra
+          confines, sicuti case in concordia ambarum partium posite fuerint. Et si ecclesia Lunensis
+          aliquid habet ibi, nullo modo dat eis dominus episcopus, set dat eis in iure feudi quod
+          ipsi dant sibi pro alodio, et unusquisque eorum debet sibi iurare fidelitatem<note
+            xml:id="DXVI_n_001" n="a">fidelitatem: <emph>nel testo segue</emph> et
+              <emph>pleonastico</emph>.</note> episcopo, qui pro tempore fuerit, de veteri feudo et
+          de novo castello contra omnes homines. Et predicti <name type="familia" ref="#BurcioneFamilia">seniores
+            de <placeName ref="#Burcione">Burzone</placeName></name> et <name type="familia" ref="#BozanoFamilia"
+            >de <placeName ref="#Buçano">Bozano</placeName></name> debent hedificare castrum in
+          predicto podio et debent facere turrim et dominus episcopus debet dare medietatem
+          victualium in petris atrahendis et in sabulo et in calce, et in fornace facienda
+          medietatem victualium et magisterii solvere magistris, et in petris incidendis et turri
+          muranda medietatem victualium et magisterii solvere magistris. Dominus episcopus debet
+          habere ad pedem turris propriam domum, in qua debet habitare, si velit, et medietas turris
+          sit domini episcopi et suorum successorum, et custodiri debet turris impensis uniusque
+          partis per medietatem, et dominus episcopus debet habere ibi castellanos suos, tam
+          rusticos <pb n="384v" xml:id="fol_384v"/> quam curiales, de ipsis quos habet in ipsis
+          locis aut qui habent aliquid ibi de suo, et de aliis XII, preter istos, ad servicium
+          castellani, qui debent esse sub districtu domini episcopi, sicuti alii castellani quos
+          habet in suis castellis. Domini et castellani debent iurare non vetare guarnitum nec
+          scaritum ipsum castrum predicto domino episcopo suisque successoribus et non debent ibi
+          tenere inimicum nec recipere studiose; et postquam cognoverint aliquem esse suum inimicum,
+          vel episcopi<note xml:id="DXVI_n_002" n="b">episcopi: <emph>così nel testo per</emph>
+            episcopus.</note> aliquo modo eis interdixerit, non debent tenere ibi, et si postea
+          inventus fuerit, debent eum adiuvare ut eum capiat et non debent deffendere, et debent
+          servire et offendere cui vult, exceptis ipsis <name type="familia" ref="#BurcioneFamilia">dominis de
+              <placeName ref="#Burcione">Burzone</placeName></name>; et ipsi non debent esse in
+          consilio nec in facto, per se nec per alios vel per aliquod ingenium, ut ipse episcopus,
+          idem eius successores, amittant castrum; et, si amiserit, debent adiuvare recuperare et
+          recuperatum tenere predicto modo ad suum posse, sine fraude et malo ingenio. Et si aliquis
+          nollet predictum iusiurandum facere, non debet ullam rationem in ipso castro habere nec
+          facultatem aliquid ibi faciendi, nisi fecerit iusiurandum a die qua requisitum fuerit
+          usque ad LX dies: eius pars ad dominum episcopum adveniat et, si exinde vellet facere
+          guerram, ipsi debent adiuvare dominum episcopum. Et dominus episcopus non debet esse facto
+          vel consilio ut amittant ipsum castrum; et, si amiserint, debet adiuvare recuperare et
+          recuperatum tenere suprascripto modo, bona fide, sine fraude; et <name
+            type="familia" ref="#BurcioneFamilia">ipsi de <placeName ref="#Burcione">Burzone</placeName></name> et
+          <name type="familia" ref="#BozanoFamilia">de <placeName ref="#Buçano">Bozano</placeName></name> non
+          debent vendere, in feudum dare, donare, alienare ipsum castrum nec commutare, nisi
+          episcopo qui pro tempore fuerit, et dominus episcopus non debet dare, alienare, commutare
+          ipsum castrum alicui sine communi consilio <name type="familia" ref="#BurcioneFamilia">dominorum de
+            <placeName ref="#Burcione">Burzone</placeName></name> et <name type="familia" ref="#BozanoFamilia"
+            >dominorum de <placeName ref="#Buçano">Bozano</placeName></name>. Et si, propter
+          hedificationem ipsius castri aut propter servicium quod episcopo exinde faciant,
+            guerram<note xml:id="DXVI_n_003" n="c">guerram: <emph>così nel testo per</emph>
+            guerra.</note> eis apparuerit, dominus episcopus debet eos adiuvare, bona fide, sine
+          fraude; et si, propter hedificationem ipsius castri, domino episcopo guerra apparuerit,
+          <name type="familia" ref="#BurcioneFamilia">ipsi de <placeName ref="#Burcione"
+            >Burzone</placeName></name> et <name type="familia" ref="#BozanoFamilia"><placeName ref="#Buçano"
+              >Bozano</placeName></name> principaliter debent facere guerram suis expensis, bona
+          fide, sine fraude, usque quo faciant pacem cum domino episcopo; et si <name
+            type="familia" ref="#BurcioneFamilia">casa de <placeName ref="#Burcione">Burzone</placeName></name> vel
+          <name type="familia" ref="#BozanoFamilia">casa de <placeName ref="#Buçano">Bozano</placeName></name>
+          mortua fuerit sine herede, pars illius case que mortua fuerit sine herede deveniat ad
+          dominum episcopum. Domini et filii eorum iurabunt custodiam castri a XIIII annis supra et
+          omnes castellani predicto modo predecessorum cuiusque dominorum; filii eorum fidelitatem
+          iurent domino episcopo predicto modo. Castellani domini episcopi si offenderint ipsos<note
+            xml:id="DXVI_n_004" n="d">ipsos: <emph>corretto su</emph> ipsosque.</note> dominos et
+          emendare noluerint per episcopum aut per consules ipsius loci, non teneantur ipsis; si
+          castellani ipsorum dominorum offenderint dominum episcopum et emendare noluerint per ipsos
+          aut per consules, episcopus ad voluntatem suam vindictam capiat. Et si aliquis de hiis
+          omnibus, qui sunt aut futuri erunt, traditionem castri fecerit, nec ipse nec eius heres
+          aliquo tempore habeat ibi rationem. Hec omnia observabunt, iurabunt attendere ipsi et
+          eorum successores, bona fide, sine fraude. Huius rei <persName ref="#Aldeprandusvic1"
+            >Ildeprandus</persName>
+          <roleName>vicedominus</roleName>, <persName ref="#ServusdeiSarzana">Servusdei
+            de</persName>
+          <placeName ref="#Sarzana">Sarzana</placeName>, <persName ref="#Guirinus"
+            >Guirinus</persName>, <persName ref="#Salamon">Salomon</persName>, <persName
+            ref="#CagnolusTrebiano">Cagnolus</persName> de <placeName ref="#Trebiano"
+            >Trebiano</placeName>, <persName ref="#VeltusCorvaria">Veltus</persName> de <placeName
+            ref="#Corvaia">Corvaria</placeName>, <persName ref="#DavellusBozano">Davellus de
+              <placeName ref="#Buçano">Bozano</placeName></persName>, <persName ref="#UgoCorvaria"
+            >Ugo</persName> de <placeName ref="#Corvaia">Corvaria</placeName>, <persName
+            ref="#Gerardus">Gerardus</persName>, <persName ref="#Rubeus">Rubeus</persName>,
+            <persName ref="#Guilielmus">Guilielmus</persName>, <persName ref="#Burgundius"
+            >Burgundio</persName>, <persName ref="#ArmanninusCarraria">Armanninus</persName> de
+            <placeName ref="#Carrara">Carraria</placeName>, <persName ref="#Iordanus"
+            >Iordanus</persName> et <persName ref="#GuidoCarraria">Guidonis</persName><note
+            xml:id="DXVI_n_005" n="e">Guidonis: <emph>così nel testo</emph>.</note> de <placeName
+            ref="#Carrara">Carraria</placeName> extiterunt rogati testes. </p>
+        <p xml:id="DXVI_p_002" n="2">Actum loco <placeName ref="#Carrara">Carrarie</placeName>,
+            <date when="1160-01-26">VII kalendas februarii, die iovis</date>, feliciter.</p>
+        <p xml:id="DXVI_p_003" n="3">
+          <ptr target="#DXVI_st_002"/>Ego <persName ref="#Bonabrocanot">Bonabrocha</persName>,
+            <roleName>notarius sacri palacii</roleName>, rogatus scripsi et dedi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

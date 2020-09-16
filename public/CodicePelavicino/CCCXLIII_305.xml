@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="CCCXLIII_305">
+		<front xml:id="CCCXLIII_front">
+
+			<titlePart type="numerazioneNuova">305</titlePart>
+			<titlePart type="numerazioneOrig">CCCXLIII</titlePart>
+
+			<docDate xml:id="CCCXLIII_docDate">
+				<date when="1146-03-09">1146 marzo 9</date>, <placeName>Luni
+					(<emph>Lune</emph>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="CCCXLIII_regesto">
+				<p>Giovanni di San Martino, Lambertuccio, Signoreto e Bosolino chiedono a Gerardino
+					di Lorano di avere a livello una casa posta in Torano al fitto di 4 denari
+					milanesi. Metà della casa è assegnata a Giovanni di San Martino. </p>
+			</div>
+
+			<div type="footer" xml:id="CCCXLIII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] CP c. 304v., c. CCLXXXXVIv. secondo la numerazione originale </p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+							1912</ref>, n. 343, p. 330.</p>
+				</div>
+
+				<div type="crit_notes">
+					<note>Il giorno é quasi certamente il nove del mese, che cadeva di sabato,
+						tralasciato dal copista per la presenza di due IX vicini, il primo indicante
+						l’indizione e il secondo – omesso - il giorno del mese. Si veda <ref
+							target="#MAZZINI_1914">Mazzini 1914</ref>, p. 23.</note>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">CCCXLIII. Locationis cuiusdam domus in
+						Tivegna.</term></p>
+				</div>
+			</div>
+		</front>
+		<body>
+			<div xml:id="CCCXLIII_div">
+				<pb n="304v" xml:id="fol_304v"/>
+				<p xml:id="CCCXLIII_p_001"><ptr target="#CCCXLIII_st_001"/>
+					<date when="1146-03-09">Anno ab incarnatione Domini nostri Ihesu Christi
+						millesimo centesimo XLVI, indictione IX, <supplied reason="omitted"
+							>IX</supplied> mensis marcii</date>. Petimus nos, <persName
+						ref="#IohannesSMartino">Iohannes de <placeName ref="#Sancto_Martino">Sancto
+							Martino</placeName></persName> et <persName ref="#Lambertucius"
+						>Lambertucius</persName>, <persName ref="#Segnoretus2">Segnoretus</persName>
+					et <persName ref="#Bosulinus">Bosolinus</persName>, una cum nostris heredibus, a
+					te <persName ref="#GerardinusLoran">Gerardino de <placeName ref="#Lorano"
+							>Loran</placeName></persName>, libellario nomine, habere, tenere,
+					laborare, frui, meliorare et non peiorare, id est casam I, que esse videtur in
+						<placeName ref="#Torano">Toranno</placeName>
+					<note xml:id="CCCXLIII_n_001" n="a" place="foot">
+						<term xml:lang="latin">Toranno</term>:<emph>così nel testo.</emph></note>,
+					et coheret ei ex uno latere casa <persName ref="#Baldolinus"
+						>Baldolini</persName> et, ex alio, casa <persName ref="#Romanellus"
+						>Romanelli</persName> et, ex alio, casa <persName ref="#Losius"
+						>Losii</persName>. Et exinde omnia <note xml:id="CCCXLIII_n_002" n="b"
+						place="foot">
+						<term xml:lang="latin">omnia</term>:<emph>così nel testo per</emph>
+						<term xml:lang="latin">omnes</term></note> vero solvamus tibi certam
+					pensionem <measure type="Mediolanenses" unit="denarius" quantity="4">IIII
+						denariorum Mediolanensium</measure> tantum; alia super imposita nobis non
+					fiat. Penam vero inter se constituerunt <measure type="Medionalenses"
+						unit="solidus" quantity="20">XX soldorum</measure>, si quis eorum non iure
+					voluerit tollere aut laxare; et, post penam solutam, iste libellus in sua maneat
+					firmitate. </p>
+				<p xml:id="CCCXLIII_p_002">Actum est hoc <placeName ref="#Luni">Lune</placeName>,
+					die sabbati, feliciter. Et medietatem istius case debet habere <persName
+						ref="#IohannesSMartino">Iohannes</persName> iamscriptus. # <persName
+						ref="#Vitalis">Vitalis</persName>, <persName ref="#Rogerius"
+						>Rogerius</persName>, <persName ref="#Oliverius">Oliver</persName> rogati
+					sunt testes. </p>
+				<p xml:id="CCCXLIII_p_003"><ptr target="#CCCXLIII_st_002"/> Ego <persName
+						ref="#Petrusiud">Petrus</persName>, <roleName>iudex domini
+						imperatoris</roleName>, hunc libellum scripsi et complevi. </p>
+			</div>
+		</body>
+	</text>
+</TEI>

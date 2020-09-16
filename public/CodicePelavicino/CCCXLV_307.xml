@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="CCCXLV_307">
+		<front xml:id="CCCXLV_front">
+
+			<titlePart type="numerazioneNuova">307</titlePart>
+			<titlePart type="numerazioneOrig">CCCXLV</titlePart>
+
+			<docDate xml:id="CCCXLV_docDate">
+				<date when="1215-07-23">1215 luglio 23</date>, <placeName>Luni (<emph>in foro de
+						Luna</emph>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="CCCXLV_regesto">
+				<p>Bondies, gastaldo del vescovo di Luni Marzucco, concede a livello ad Ugolino del
+					fu Armannino una terra posta in <emph>Bollesene</emph> al fitto annuale di 4
+					denari di imperiali. La transazione costa 5 soldi di imperiali. </p>
+			</div>
+
+			<div type="footer" xml:id="CCCXLV_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] CP cc. 304v.-305r., cc. CCLXXXXVIv.-CCLXXXXVIIr. secondo la
+						numerazione originale </p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+						1912</ref>, n. 345, p. 332. </p>
+				</div>
+
+				<div type="crit_notes">
+					<p><emph>Parte del documento è stata letta con l’ausilio della luce di
+							Wood.</emph></p>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">CCCXLV. Pensionis denariorum IIIIor, quos reddit
+							Ugolinus Armanini.</term></p>
+				</div>
+			</div>
+		</front>
+		<body>
+			<div xml:id="CCCXLV_div">
+				<p xml:id="CCCXLV_p_001"><ptr target="#CCCXLV_st_001"/>In nomine Domini, amen. <date
+						when="1215-07-23">Anno a nativitate Eius millesimo CCXV, indictione III, die
+						iovis, X kalendas augusti.</date> Ego <persName ref="#Bondiescast">Bondies,
+							<roleName>castaldio</roleName></persName> domini <persName
+						ref="#MarzuccusEpLuni">Marçuci, <roleName>Dei gratia Lunensis
+							episcopi</roleName></persName>, in curia <placeName ref="#Luni">de
+						Luna</placeName>, eius vice et nomine, do et loco per libellum vobis
+						<persName ref="#UgolinusArmannini">Ugolino quondam Armannini</persName>, in
+					vobis et in vestris heredibus, nominatim, I <term ref="#iuva">iuvam</term> terre
+					in <placeName ref="#Bollesene">Bollesene</placeName> sitam, cui coheret ab uno
+					capite terra domini episcopi, ab alio <persName ref="#GrecusGallitia">Greci de
+						donna Gallicia</persName>, superius <persName ref="#AlbertinusCastronovo"
+						>Albertini <placeName ref="#Castelnuovo">de
+						Castronovo</placeName></persName> et filiorum <persName
+						ref="#MontaninusSproliano">Muntanini de <placeName ref="#Sporliano"
+							>Sporliano</placeName></persName>, inferius <persName
+						ref="#MelioreRoncio">Melioris de <placeName ref="#Roncio"
+						>Roncio</placeName></persName> et terra domini episcopi, que iamscripte
+					terre tenentur per episcopum, ita ut amodo perpetuo, nomine libelli, vos
+					vestrique heredes habeatis, teneatis, fruamini et possideatis totam dictam
+					terram cum accessibus et regressibus suis et omnibus suis pertinentiis in
+					integrum, sine alicuius aliqua contradictione et cum rationabili deffensione
+					dicti domini episcopi eiusque successorum vel restauratione facienda in bonis
+					curie in consimili loco, in arbitrio bonorum hominum, prout tunc valuerit, si
+					deffendere non possent. Et exinde teneamini dare et reddere dicte curie vel cui
+					pro curia commissum fuerit, omni anno, infra octavam nativitatis Domini, fictam
+					pensionem <measure type="Imperiales" unit="denarius" quantity="4">denariorum
+						IIII imperialium</measure> tantum; alia superimposita non fiat pro hac
+					locatione. Recepi a vobis libellaticum <measure type="Imperiales" unit="solidus"
+						quantity="5">bonorum imperialium soldos V</measure>; unde do vobis licenciam
+					intrandi inde in tenutam, vestra auctoritate; et constituo vobiscum ut quicumque
+					nostrum <pb n="305r" xml:id="fol_305r"/> vel nostrorum heredum aut successorum
+					unquam dictam terram tollere vel laxare aut contra venire voluerit alteri parti,
+					fidem servanti, penam <measure type="Imperiales" unit="solidus" quantity="20">XX
+						soldorum imperialium</measure> solvat, rato manente pacto. Actum in foro de
+						<placeName ref="#Luni">Luna</placeName>, sollempniter, presentibus <persName
+						ref="#AlbertinusRossa">Albertino de donna Rossa</persName>, <persName
+						ref="#SalvetusPetrognano">Salveto de <placeName ref="#Petrognano"
+							>Petrognano</placeName></persName> et <persName
+						ref="#AlbertusGandulphini">Alberto de Gandolfino</persName>, testibus ad hec
+					rogatis. </p>
+				<p xml:id="CCCXLV_p_002">Ego <persName ref="#Ugolinusnot">Ugolinus, <roleName>sacri
+							palacii et Lunensis curie notarius</roleName></persName>, hiis interfui
+					et rogatus scripsi. </p>
+			</div>
+		</body>
+	</text>
+</TEI>

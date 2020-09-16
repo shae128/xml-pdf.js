@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXLI_402">
+    <front xml:id="CCCCXLI_front">
+
+      <titlePart type="numerazioneNuova">402</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXLI</titlePart>
+
+      <docDate xml:id="CCCCXLI_docDate">
+        <date when="0950-01">950 gennaio</date>, <placeName>Marinasco <emph>(<term xml:lang="latin"
+              >ad plebe Sancti Stephani in Marnasco</term>)</emph>
+        </placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXLI_regesto">
+        <p>Ildeberto di Isola figlio del fu Adalberto chiede al vescovo di Luni Adalberto un
+          terreno, già tenuto a livello, nel luogo detto <term xml:lang="latin"><emph>Monte de
+              Gruppina</emph></term>, dove Ildeberto aveva fatto costruire un castello; chiede poi
+          altri beni nei luoghi detti Isola, <term xml:lang="latin"><emph>Felicta</emph></term>,
+            <term xml:lang="latin"><emph>Marciano</emph></term>, <term xml:lang="latin"
+              ><emph>Sustiliano</emph></term>, anch’essi già tenuti dal padre Adalberto a diverso
+          titolo. Ildeberto deve al vescovo ogni anno un censo di 2 soldi.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXLI_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] cc. 345v.-346r., cc. CCCXXXVIIv.-CCCXXXVIIIr. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in: <ref target="#PODESTÀ_1894">PODESTA 1895</ref>, pp. 16-17; <ref
+              target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 441, pp. 447-449. </p>
+        </div>
+
+        <div type="crit_notes">
+          <note> Il testo è alquanto scorretto. Il documento è datato al 19° anno di regno di
+            Lotario II “dopo l’arrivo in Italia”: il riferimento dovrebbe essere al 931, quando Ugo
+            di Provenza, incoronato a Pavia nel 926, associò il figlio Lotario ancora infante al
+            regno. L’anno, 950, corrisponde con l’indizione. Il Podestà leggendo <term
+              xml:lang="latin"><emph>Regnante donno nostro Lotario rex, postquam in Italia ceperat
+                anno IX, X die mensis ianuarii, indictione VIII</emph></term>, indica invece come
+            anno di redazione il 939, che però non corrisponde all’indizione. Correzione già
+            apportata dal Lupo Gentile. </note>
+        </div>
+
+        <div type="appr">
+          <p> Bibliografia: <ref target="#POLONIO_2002">POLONIO 2002</ref>, pp. 183-184 </p>
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCCXLI.
+              Sicut castrum de Ysola teneatur in feudum a Lunensi ecclesia et debet exinde anuatim
+              soldos II pensionis. </term></p>
+
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXLI_div">
+        <p xml:id="CCCCXLI_p_001" n="1"> In nomine Domini Dei et Salvatoris nostri Ihesu Christi.
+            <date when="0950-01" next="dd2" xml:id="dd1">Regnantes donno nostro</date>
+          <persName ref="#Lotariusrex">Lotario</persName>
+          <roleName>rex</roleName>, <date when="0950-01" prev="dd1" xml:id="dd2">postquam in
+              <placeName ref="Italia">Italia</placeName> cepit<note xml:id="CCCCXLI_n_001" n="a"
+              place="foot"><term xml:lang="latin"> in Italia cepit</term>: <emph>nel testo
+              </emph>cepit in Italia <emph>con segno di richiamo per invertire l’ordine delle
+                parole.</emph></note> anno nono decimo, menses ianuarii, indictione VIII</date> ff.
+            Peto<note xml:id="CCCCXLI_n_002" n="b" place="foot">
+            <term xml:lang="latin"> Peto</term>: <emph>precede </emph>ss <emph>con segno di
+              abbreviazione tipico per </emph> s(ub)s(crispsi) <emph>o </emph>s(upra)s(criptus),
+              <emph>probabile errore di lettura del copista impossibile da spiegare e
+              ricostruire.</emph></note> ego <persName ref="#IldebertusAdalberti">Ildeberto
+            de</persName>
+          <placeName ref="#Isola2">Isula</placeName>, <roleName>filio bone memorie
+            Adalbert</roleName>, una cum filiis filiorum meorum vel illorum heredibus ad vobis
+          donnus <persName ref="#AdalbertusEpi">Adalbertus</persName>, <roleName>venerabilis
+            episcopus Sancte Marie Lunensis ecclesie</roleName>, id est una pecia de terra de parte
+          Sancte Marie Lunensis ecclesie, in loco ubi dicitur <placeName ref="#MonteGruppina">Monte
+            de Gruppina</placeName>, ubi ego castellum feci et hedificavi et est ipsa petia de terra
+          per designatas locas, de una parte per via publica per ipso monte et de alia parte per via
+          de <placeName ref="#Sancto_Martino">Sancto Martino</placeName> et da<note
+            xml:id="CCCCXLI_n_003" n="c" place="foot"><term xml:lang="latin"> da</term>: <emph>così
+              nel testo per </emph> de</note> tercia parte per fine mea ipsius et de consortis meis
+          infra ipsa finis; et designatas locas ipsa superscripta terra et cum ipso castello super
+          se habentes et cum omnia super se habentes peto ad vobis sicut ego modo et iam antea ad
+          manu mea tenui per libellum de parte superscripta Ecclesia vestra in integrum; simul peto
+          ad vobis res de parte superscripta ecclesia vestra in loco ubi dicitur <placeName
+            ref="#Isola2">Isula</placeName> et <placeName ref="#Felicta">Felicta</placeName> et in
+            <placeName ref="#Marciano2">Marciano</placeName> et in <placeName ref="#Sustiliano"
+            >Sustiliano</placeName> seu per aliis locis, ubicumque de ipsa res inventas fuerint , in
+          monte et in plano, omnia quam ego aut ienitor meo <persName ref="#Adalbert"
+            >Adalbertu</persName> ad manum nostram tenuimus per quamlibet ingenium de parte
+          superscripta ecclesia vestra Beate Sancte Marie, cum casis, ortis, vineis, pometis,
+          arboribus, olivetis, uvertietis, castanietis glandiferis, ameneclariis, salictibus,
+          campis, pascuis, agrum et cultum, plenum et vacuum, divisum et indivisum, ut dixi, omnia
+          vel ex omnibus ubi de ipsa rex est pertinentes et cum omnia super se habentes. Peto ad
+          vobis in integrum ipsa superscripta rex et superscripto castello tenendum et frugendum et
+          privato nomine usufructuandum et de ipsa rex et castello, si oportuno fuerit, avantea vos
+          lege facere debeamus et exinde persolvere debeam, ego <persName ref="#IldebertusAdalberti"
+            >Ildebertu</persName> vel meis heredibus, vobis donni <persName ref="#AdalbertusEpi"
+            >Adalberti</persName>
+          <roleName>episcopi</roleName> vel ad vestris successoribus censu vero per omnes annos pro
+            suprascripta<note xml:id="CCCCXLI_n_004" n="d" place="foot">
+            <term xml:lang="latin"> suprascripta</term>: supra <emph>corretto su </emph>super</note>
+          rex et castello vos aut a misso vestro qui infra loco preordinatus fuerit aut super
+          altario Beate Sancte Marie ponatur ficta pensione <measure type="soldi" quantity="2"
+            >soldos II</measure>. Et de hec omnia, si aliquid minime compleverimus ad dandum vel
+          persolvendum, de quod superius legitur, tunc componam ego <persName ref="#Adalbert"
+            >Adalbertu</persName> vel meis heredibus <roleName>donni</roleName>
+          <persName ref="#AdalbertusEpi">Adalberti</persName>
+          <roleName>episcopi</roleName> vel ad vestris successoribus <measure type="soldi"
+            quantity="100">soldos C</measure>, et ego <persName ref="#AdalbertusEpi"
+            >Adalbertus</persName>
+          <roleName>episcopus</roleName> ita similiter me repromicto vel meis successoribus tibi
+            <persName ref="#IldebertusAdalberti">Ildeberti</persName> vel ad filiis filiorum tuorum
+          vel ad illorum heredibus si vobis aliqua superimposita fecerimus aut ipsa superscripta rex
+          aut castello retollere vel subtrahere quesierimus per quamlibet ingenium, sicut superius
+          legitur, <pb n="346r" xml:id="fol_346r"/>tunc <measure type="soldi" quantity="100">soldos
+            C</measure> et ipsi libellu, post pena soluta, firmi et stabile et in suo robore
+          permaneat. Unde duo libelli uno tinore scripti sunt, unus alterius tradiderunt. </p>
+
+        <p xml:id="CCCCXLI_p_002" n="2"> Actu ad <orgName type="plebs_ecclesia"
+            ref="#Marinasco_S_Stefano">plebe Sancti Stephani in Marnasco</orgName>. &#8224; Signo
+          manibus <persName ref="#IldebertusAdalberti">Ildeberti</persName> petitori, qui hunc
+          libello fieri rogavit. &#8224; Ego <persName ref="#Berulfusarc">Berulfo</persName>
+          <roleName>archipresbyter</roleName> subscripsi. &#8224; Ego <persName ref="#Lambertusarc"
+            >Lambertus</persName>
+          <roleName>archidiaconus</roleName> subscripsi. &#8224; Ego <persName ref="#Anselmuspres"
+            >Anselmus</persName>, <roleName>presbyter et cantor</roleName>, subscripsi. &#8224; Ego
+            <persName ref="#Sigefredus">Sigefredus</persName> rogatus subscripsi. &#8224; Signo
+          manibus <persName ref="#GerardusAventia">Geraldi de <placeName ref="#Avenza"
+              >Aventia</placeName></persName> et <persName ref="#ArnulfusSilveradi">Arnulfo, filio
+            bone memorie Silveradi</persName>, et <persName ref="#SuppusMontecclo">Suppu
+            de</persName>
+          <placeName ref="#Monteclo">Montecclo</placeName> et <persName ref="#IohannesIldeprandi"
+            >Iohannis, filio bone memorie Ildeprandi</persName>. &#8224; Ego <persName
+            ref="#Gerardusadv">Geraldo</persName>, <roleName>advocatus Sancte Marie Lunensis
+            Ecclesie</roleName>, consensi. </p>
+
+        <p xml:id="CCCCXLI_p_003" n="3"> Quod scripsi ego <persName ref="#Tenprandusnot"
+            >Tenprando</persName>, <roleName>notarius rogatus sacri palacii</roleName>, post tradito
+          fuit, complevit et dedit. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

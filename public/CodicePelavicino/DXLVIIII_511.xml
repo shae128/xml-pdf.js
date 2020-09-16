@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="DXLVIIII_511">
+    <front xml:id="DXLVIIII_front">
+      <titlePart type="numerazioneNuova">511</titlePart>
+      <titlePart type="numerazioneOrig">DXLVIIII</titlePart>
+
+      <docDate xml:id="DXLVIIII_docDate">
+        <date when="1240-05-05">1240 maggio 5</date>, <placeName> San Gimignano (<term
+            xml:lang="latin">in claustro plebis Sancti Geminiani</term>)</placeName>
+      </docDate>
+      <div type="regesto" xml:id="DXLVIIII_regesto">
+        <p>Gerardo, procuratore di Guglielmo, vescovo di Luni, propone a Beringerio preposito di San
+          Gimignano che la definizione della causa vertente tra l’abate di San Michele di Orticara e
+          la curia Lunense sul monastero di S. Croce del Corvo sia affidata ad altri e non a lui.
+        </p>
+      </div>
+      <div type="footer" xml:id="DXLVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 403v., c. CCCLXXXXVv. secondo la numerazione originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 549, pp. 624-625.</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >DXLVIIII. Item appellatio super eisdem.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXLVIIII_div">
+        <p xml:id="DXLVIIII_p_001" n="1">In Dei nomine, amen. <date when="1240-05-05">Anno Domini
+            MCCXL, indictione XIII, III nonas madii.</date>
+          <persName ref="#Gerardusmag">Gerardus</persName>, <roleName>procurator domini episcopi
+            Lunensis</roleName>, procuratorio nomine pro eo, coram vobis, domine preposite <orgName
+            ref="#SanGimignano_S_Maria_Assunta">Sancti Geminiani</orgName>, non derogando aliis
+          iuribus et appellationibus domini episcopi excipiendo, proponit quod iurisdictio cause que
+          vertitur inter ipsum dominum episcopum, ex una parte, et abbatem et <orgName
+            ref="Pisa_S_Michele_Orticaria">conventum Sancti Michaelis de</orgName>
+          <placeName ref="#Orticaria">Orticaria</placeName>, ex altera, super <orgName
+            ref="#Corvo_S_Croce">monasterio Sancte Crucis de </orgName><placeName ref="#Corvo"
+            >Corvo</placeName>, non rediit ad vos nec ad vos pertinet, quia appellatum fuit a nobis
+          ex parte episcopi ad dominum papam et causa ipsius appellationis a domino papa certis
+          iudicibus est commissa nec stetit per ipsum episcopum nec per <persName
+            ref="#Paulus_canonicus">Paulum</persName>, <roleName>canonicum</roleName>
+          <placeName ref="#Lucca">Lucanum</placeName>, iudicem ipsius appellationis pro parte sua
+          quod non fuit in ipsa causa processum, sed pocius per partem adversam et per iudicem eius
+          et quia etiam annus appellationis non est elapsus, que omnia probabit secundo loco et
+          tempore, et ideo contra ipsum dominum episcopum, cuius est procurator, in aliquo procedere
+          non debetis; quod, si processeritis in aliquo contra eum et ne procedatis in aliquo contra
+          eum, non derogando aliis appellationibus et iuribus episcopi, sedem apostolicam appellat
+          procuratorio nomine pro ipso domino episcopo et se et ipsum et omnia iura ipsius domini
+          pape protectioni supponit.</p>
+        <p xml:id="DXLVIIII_p_002" n="2">Actum est in claustro <orgName
+            ref="#SanGimignano_S_Maria_Assunta">plebis <placeName ref="#San_Gimignano">Sancti
+              Geminiani</placeName></orgName>, coram <persName ref="#CambiusMichelis_not">Cambio
+              <roleName>notario</roleName> quondam Michaelis</persName> et <persName
+            ref="#GuiciardusGuiciardi_not">Guiciardo quondam Guiciardi</persName>, testibus ad hec
+          vocatis.</p>
+        <p xml:id="DXLVIIII_p_003" n="3">
+          <ptr target="DXLVIIII_st_001"/>Ego <persName ref="#PalmeriusPellarii_notarius">Palmerius,
+            quondam Pellarii filius</persName>, <roleName>auctoritate imperiali notarius</roleName>,
+          predictis omnibus interfui et rogatus in publicum redegi. </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

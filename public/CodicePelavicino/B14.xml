@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="B14">
+        <front xml:id="B14_front">
+
+            <titlePart type="numerazioneNuova">14</titlePart>
+            <titlePart type="numerazioneOrig"/>
+
+            <docDate xml:id="B14_docDate">
+                <date when="1277-08-08">1277 agosto 8</date>
+            </docDate>
+
+            <div type="regesto" xml:id="B14_regesto">
+                <p>Indagine promossa dal vescovo di Luni Enrico riguardante il pedaggio che si
+                    raccoglieva nel porto o foce di San Maurizio, ad Ameglia e nel suo distretto.
+                </p>
+            </div>
+            <div type="footer" xml:id="B14_footer">
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 39r.-39v., cc. XXXIr.-XXXIv. secondo la numerazione originale.
+                    </p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione: <ref type="biblio" target="#LUPO_GENTILE_1912"> LUPO GENTILE
+                            1912</ref>, Addenda, n. 6, pp. 646-648.</p>
+                </div>
+                <div type="crit_notes">
+                    <p>In testa al documento, di mano non troppo posteriore, in carattere più
+                        minuto: <term xml:lang="latin">Pedagium Amelie</term>. Nel margine interno
+                        di c. 39r., di mano posteriore: <term xml:lang="latin"
+                                    ><expan>p<ex>edagium</ex></expan> Amelie</term>. Nel margine
+                        esterno, di altra mano moderna: <term xml:lang="latin">Amelia</term>.</p>
+                </div>
+                <div type="appr"> </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="B14_div">
+
+                <p xml:id="B14_p_001">In Dei nomine Amen. <date when="1277-08-08">Anno a nativitate
+                        Domini M°CC°LXXVII°, inditione V, die VIII augusti</date>. Inquisitio facta
+                    per <roleName>venerabilem patrem dominum</roleName>
+                    <persName ref="#HenricusEpLuni">Henrichum, <roleName>miseratione divina Lunensem
+                            episcopum</roleName></persName>, ab antiquioribus et fidedignis super
+                    facto ripe et pedagii quod colligi consuevit in portu seu fuce <placeName
+                        ref="Sancto_Mauricio">Sancti Mauricii</placeName>, <placeName ref="Ameglia"
+                        >Amelie</placeName> et districtus. Invenit quod de ligno salem deferente, de
+                    qualibet mina a venditore <measure quantity="2" unit="denarius" ana="#tax">duos
+                        denarios</measure> et <measure quantity="2" unit="denarius" ana="#tax"
+                        >duos</measure> ab emptore et de quolibet centanario salis minas duas. Item
+                        <supplied reason="illegible">de mina</supplied> frumenti <measure
+                        quantity="3" unit="denarius" ana="#tax">denarii III</measure> ab emptore et
+                        <measure quantity="3" unit="denarius" ana="#tax">III</measure> a venditore
+                    solvantur et mine due frumenti pro centanario et de quolibet alio blado, pro
+                    qualibet mina, <measure quantity="2" unit="denarius" ana="#tax">denarii
+                        II</measure> ab emptore et <measure quantity="2" unit="denarius" ana="#tax"
+                        >duo</measure> a venditore solvantur et pro centanario <supplied
+                        reason="illegible">cuiuslibet</supplied>bladi mine II. Item pro quolibet
+                    corpore ligni, si fuerit duorum arborum, <measure type="Ianuenses" quantity="18"
+                        unit="denarius" ana="#tax">denarii XVIII Ianuensium</measure>, et si fuerit
+                    unius arboris <measure quantity="12" unit="denarius" ana="#tax">denarii
+                        XII</measure> et pro quolibet <supplied reason="illegible">…</supplied>
+                    <measure quantity="1" unit="denarius" ana="#tax">denarius<note place="foot"
+                            n="a" xml:id="B14_n_001">denarius: <emph>aggiunto in
+                            sopralinea</emph>.</note> I</measure> excepto patrono et famulo ligni et
+                    si applicuerit ad <supplied reason="illegible">…</supplied> pro paxone <measure
+                        quantity="4" unit="denarius" ana="#tax">denarii IIII</measure>. Item de
+                    quolibet pondere casei <measure type="Ianuenses" quantity="18" unit="denarius"
+                        ana="#tax">denarii XVIII Ianuensium</measure> pro ripa et curatura et pro
+                    quolibet fillo casei denarius I et pro centanario fillorum casei duo filli casei
+                    seu pro centum caseis duo casei. Item pro qualibet soma muli, <supplied
+                        reason="illegible">si</supplied>fuerit pignolatorum, pannorum de lana,
+                    coriorum, bumbecii, cere, pannorum subtilium de lino, <measure type="Ianuenses"
+                        quantity="18" unit="denarius" ana="#tax">denarii XVIII Ianuensium</measure>.
+                    Si vero fuerit lota lana <measure quantity="18" unit="denarius" ana="#tax"
+                        >denarii XVIII</measure> soma bodronorum sive || <pb n="39v"
+                        xml:id="fol_039v"/> plumbi, ferri, açarii, borracii, albaxii seu armorum vel
+                    de blancha sive mellis vel hiis similia de qualibet soma <measure
+                        type="Ianuenses" quantity="12" unit="denarius" ana="#tax">denarii XII
+                        Ianuensium</measure> pro ripa et curatura. Item de quolibet centanario
+                    ceparum, aleorum, ollarum, urceorum, muiolorum, parapsidis, incisorum,
+                    cocleariorum et aliorum quorumlibet vasorum de lignamine, vitro et terra seu
+                    cuiuscumque rei fuerit pro quolibet centanario <measure type="Ianuenses"
+                        quantity="4" unit="denarius" ana="#tax">denarii IIII Ianuensium</measure> et
+                    IIIIor quorumlibet predictorum vasorum et IIIIor reste aleorum et ceparum et
+                    similium. Item de qualibet mezona carnis salse <measure type="Ianuenses"
+                        quantity="1.5" unit="denarius" ana="#tax">denarium I ½ Ianuensium</measure>
+                    et due libre pro centanario et tantumdem de lardo. De soma olei <measure
+                        type="Ianuenses" quantity="12" unit="denarius" ana="#tax">denarii XII
+                        Ianuensium</measure> et pro centanario librarum olei libre II et qualibet
+                    paleta seu panne assungie <measure quantity="0.5" unit="denarius" ana="#tax"
+                        >denarius ½</measure> et pro centanario II palete sive pannes. Item de equo
+                        <measure quantity="6" unit="denarius" ana="#tax">denarii VI</measure> et de
+                    bove <measure quantity="4" unit="denarius" ana="#tax">denarii IIII</measure> et
+                    de asino <measure quantity="3" unit="denarius" ana="#tax">denarii III</measure>
+                    et de porco <measure quantity="2" unit="denarius" ana="#tax">denarii
+                        II</measure> et de ove <measure quantity="1" unit="denarius" ana="#tax"
+                        >denarius I</measure> et pro quolibet centanario piastrarum <measure
+                        quantity="6" unit="denarius" ana="#tax">denarii VI</measure> et de barcha
+                    caricata piastrarum <measure type="Ianuenses" quantity="5" unit="soldus"
+                        ana="#tax">soldi V Ianuensium</measure> et eodem modo de ligno caricato
+                    lignorum minutorum si fuerit unius arboris <measure quantity="5" unit="soldus"
+                        ana="#tax">soldi V</measure>, si II arborum <measure quantity="10"
+                        unit="soldus" ana="#tax">soldi X</measure>; et si fuerint ligna grossa et
+                    fuerit unius arboris <measure quantity="8" unit="soldus" ana="#tax">soldi
+                        VIII</measure>, si duorum arborum <measure quantity="12" unit="soldus"
+                        ana="#tax">soldi XII</measure> et de quolibet arbore navis <measure
+                        quantity="20" unit="soldus" ana="#tax">soldi XX</measure> et de timone
+                        <measure quantity="10" unit="soldus" ana="#tax">soldi X</measure> et de
+                    antena <measure quantity="10" unit="soldus" ana="#tax">soldi X</measure> et de
+                    arbore taride et galee <measure quantity="10" unit="soldus" ana="#tax">soldi
+                        X</measure>, de timone <measure quantity="10" unit="soldus" ana="#tax">soldi
+                        V</measure>, de antena <measure quantity="5" unit="soldus" ana="#tax">soldi
+                        V</measure>, de quolibet remulo galearum <measure quantity="4"
+                        unit="denarius" ana="#tax">denarii IIII</measure>. De arbore minoris ligni
+                    soldi II, de antena <measure quantity="12" unit="denarius" ana="#tax">denarii
+                        XII</measure>, de timone <measure quantity="12" unit="denarius" ana="#tax"
+                        >denarii XII</measure>, de remulo <measure quantity="2" unit="denarius"
+                        ana="#tax">denarii II</measure>, de trabe <measure quantity="6"
+                        unit="denarius" ana="#tax">denarii VI</measure>, de petio ligni mediocris
+                        <measure quantity="1" unit="denarius" ana="#tax">denarius I</measure>, de
+                    quolibet alio petio ligni <measure quantity="0.5" unit="denarius" ana="#tax"
+                        >denarius ½</measure>, de tabulis minutis de qualibet duodena <measure
+                        quantity="6" unit="denarius" ana="#tax">denarii VI</measure> et pro
+                    centanario tabularum due tabule. Et hoc idem intelligatur de alio lignamine
+                    minuto et grosso. De concio vini <measure quantity="4" unit="denarius"
+                        ana="#tax">denarii IIII</measure> et pro centanario concia duo. De aliis non
+                    estimatis solvatur secundum iustam extimationem eorum. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

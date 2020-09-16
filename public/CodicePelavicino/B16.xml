@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="B16">
+        <front xml:id="B16_front">
+
+            <titlePart type="numerazioneNuova">16</titlePart>
+            <titlePart type="numerazioneOrig"/>
+
+            <docDate xml:id="B16_docDate">
+                <date from="1273-04-25" to="1273-12-24">1273 &lt;aprile 25 - dicembre 24&gt;</date>
+            </docDate>
+
+            <div type="regesto" xml:id="B16_regesto">
+                <p>Indagine promossa dal vescovo di Luni Enrico riguardante il cerimoniale per
+                    l’insediamento del vescovo di Luni. </p>
+            </div>
+            <div type="footer" xml:id="B16_footer">
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 40r.-40v., cc. XXXIIr.-XXXIIv. secondo la numerazione
+                        originale. </p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione: <ref type="biblio" target="#PODESTÀ_1894">PODESTÀ 1894 </ref>, nota
+                        1, pp. 111-112; <ref type="biblio" target="#LUPO_GENTILE_1912"> LUPO GENTILE
+                            1912</ref>, Addenda, n. 9, pp. 651-652.</p>
+                    <p>Una copia cartacea [D] di mano del notaio <term xml:lang="latin">Sigismondo
+                            Pecinus</term>, estratta dal Codice Pelavicino in data 21 novembre 1631,
+                        è conservata nell’Archivio Capitolare di Sarzana, A/6, si veda <ref
+                            type="biblio" target="#FREGGIA_1989">FREGGIA 1989</ref>, p. 1.</p>
+                </div>
+                <div type="crit_notes">
+                    <p>Nel margine esterno di c. 40r., di mano posteriore: <term xml:lang="latin"
+                            >Ingressus episcopi Lunensis. Ceremonie quibus utebantur episcopi
+                            Lunenses in primo ingresso in curia</term>. Nel margine interno della
+                        medesima c. 40r., di mano moderna: <term xml:lang="latin">Cerimoniale nella
+                            venuta de vescovi</term>. Nel margine esterno di c. 40v., di mano
+                        moderna: <term xml:lang="latin">Carraria</term>.</p>
+                </div>
+                <div type="appr"> </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="B16_div">
+
+                <p xml:id="B16_p_001">In Dei nomine amen. <date from="1273-04-25" to="1273-12-24"
+                        >Anno Domini M°CC°LXXIII°</date>. Nos <persName ref="#HenricusEpLuni">
+                        Henricus, <roleName>miseratione divina Lunensis
+                        episcopus</roleName></persName>, inquisita veritate a senioribus et a
+                    maioribus et aliis de capitulo nostro Lunensi necnon a quibusdam aliis
+                    antiquioribus fidelibus episcopatus, invenimus quod in primo adventu episcopi si
+                    de <placeName ref="#Pietrasanta">Petrasancta</placeName> venerit, statim cum
+                    transiverit pontem debent descendere de equo et facere orationem flexis genibus
+                    versus orientem, secundum quod Dominus sibi ministrabit, et reascendere ipsum
+                    equm vel alium et venire signando usque ad <orgName ref="#Luni_S_Maria"
+                        >ecclesiam de <placeName ref="#Luni">Luna</placeName></orgName>. Et cum
+                    transiverit fluvium ante <orgName ref="#Luni_S_Maria">ecclesiam <placeName
+                            ref="#Luni">Lune</placeName></orgName>, <name type="familia"
+                        ref="#BriaviaFamilia">domini de <placeName ref="#Briavia"
+                            >Briavia</placeName></name>, <orgName ref="#Lucca_diocesis">Lucane
+                        dyocesis</orgName>, debent habere equm quem equitat, pro quo faciunt
+                    fidelitatem episcopum et sunt eius vassalli; et, si vult, episcopus potest ipsum
+                    equm equitare usque ad <orgName ref="#Luni_S_Maria"><placeName ref="#Luni"
+                            >Lune</placeName> ecclesiam </orgName>et illi debent usque illuc
+                    episcopum adestrare pedes eius. Et in foribus ecclesie debet recipi
+                    processionaliter a canonicis et clero et debet incathedrari a preposito,
+                    archidiacono et aliis canonicis in cathedra retro altare et ibi aliquantulum
+                    requiescere, si placet, et debet orationem<note place="foot" n="a"
+                        xml:id="B16_n_001">orationem: <emph>corretto su precedente
+                        scrittura</emph>.</note> beate Virginis ibi dicere et benedictionem populo
+                    dare et postmodum ascendere alium equm et venire usque <placeName ref="#Sarzana"
+                        >Sarzanam</placeName> et ibi processionaliter recipi et venire usque ad
+                        <orgName ref="#Sarzana_S_Basilio">ecclesiam Sancti Basilii</orgName> et in
+                    cathedra retro altare debet <pb n="40v" xml:id="fol_040v"/> ab ipsis canonicis
+                    iterum poni et debet se discalciare et induere super pellicium et capam de
+                    serico cum baculo et mittra et ire pedes cum processione usque ad <orgName
+                        ref="#Sarzana_S_Andrea">ecclesiam Sancti Andree</orgName> et dicere ibi
+                    orationem de beato Andrea et populo dare benedictionem et postmodum redire eodem
+                    modo ad <orgName ref="#Sarzana_S_Basilio">ecclesiam Sancti Basilii</orgName> et
+                    ibi dicere orationem de Sancto Basilio vel aliam congruentem et dare populo
+                    benedictionem et, exutus pontificalibus et <expan>calciat<ex>ibus</ex></expan>,
+                    si vult, potest festum suum tenere et curiam apud <placeName ref="#Sarzana"
+                        >Sarzanam</placeName> vel in <placeName ref="#Sarzanello">castro
+                        Sarzane</placeName>. Et postmodum, aliquot diebus transactis, potest
+                    recipere iuramentum fidelitatis et sequimenti ab omnibus hominibus de <placeName
+                        ref="#Sarzana">Sarzana</placeName> et aliorum castrorum et villarum ipsius
+                    et postmodum alio die potest et debet recipere iuramenta ab omnibus vassallis
+                    uno die certo et loco vel in diversis et debet facere scribi de qua re sunt
+                    vassalli et quale servicium facere debent, alioquin non tenetur eos recipere,
+                    nisi velint, et postmodum visitare suum episcopatum. Et ante fores <orgName
+                        ref="#Luni_S_Maria">ecclesie <placeName ref="#Luni"
+                            >Lune</placeName></orgName> debet quidam<note place="foot" n="b"
+                                xml:id="B16_n_002">quidam: da <emph>corretto su precedente scrittura</emph>. </note> de <placeName ref="#Carrara"
+                        >Carraria</placeName> nomine <persName ref="#GuilielmusSpinelli">Guilielmus
+                        Spinelli</persName> habere calcaria, pro quibus debet iurare fidelitatem et
+                    esse vassallus episcopi. Et equm<note place="foot" n="c"
+                        xml:id="B16_n_003">equm: <emph>così nel testo per</emph> equus.</note> quem equitat usque ad <orgName
+                        ref="#Sarzana_S_Basilio">ecclesiam Sancti Basilii</orgName> debet esse
+                    canonicorum Lunensis ecclesie; et si contingeret quod civitas <placeName
+                        ref="#Luni">Lune</placeName> reficeretur, divina gratia favente, omnia ista
+                    predicta deberet ibi facere, in qua civitate habet totum dominium temporale et
+                    spirituale, merum et mixtum imperium et omnimodam iurisditionem omnium causarum
+                    civilium, criminalium et spiritualium et omnia banna, furta, forefacta et
+                    homicidia et alia crimina punire debet secundum legitimas sanctiones canonicas
+                    et civiles. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXV_132">
+    <front xml:id="CXV_front">
+
+      <titlePart type="numerazioneNuova">132</titlePart>
+      <titlePart type="numerazioneOrig">CXV</titlePart>
+
+      <docDate xml:id="CXV_docDate">
+        <date when="1269-08-21">1269 agosto 21</date>, <placeName>Sarzana <emph>(<term
+              xml:lang="latin">ad bancum, ubi ius redditur, in domo Bonapartis notarii de
+              Sarzana</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXV_regesto">
+        <p>Giacomino detto Tagliavacca, notaio, procuratore di Guglielmo, vescovo di Luni, agisce in
+          giudizio contro Gerardetto del fu Dimando <term xml:lang="latin">de castro Sarzane</term>
+          per ottenere la restituzione di quattro pezzi di terra spettanti alla curia di Luni, posti
+          nei luoghi detti <term xml:lang="latin">Nava</term>, <term xml:lang="latin"
+            >Schiaretulo</term>, <term xml:lang="latin">Bicarro</term> e <term xml:lang="latin"
+            >Bostiola</term>. Gerardeto dichiara di fronte al giudice Normannino, vicario di
+          Guglielmo nella provincia di Lunigiana, di non voler andare in giudizio e di rinunciare a
+          detti beni.</p>
+      </div>
+
+      <div type="footer" xml:id="CXV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 225r., c. CCXVIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 115,
+            p. 150.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <emph>Terreno in Nave</emph>. Riguardi al
+            luogo di redazione dal documento n. 118 (XCII) del 1270 novembre 21 si ricava che la
+            casa del notaio Buonaparte si trovava a Sarzana vicino a piazza Carcandola. Larga parte
+            del documento è stata letta con l’ausilio della lampada di Wood.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXV_div">
+        <p xml:id="CXV_p_001" n="1"><pb n="225r" xml:id="fol_225r"/>In Christi nomine, amen.
+            <persName ref="#IacopinusTalliavachanot">Iacopinus, qui dicitur Talliavacha,
+              <roleName>notarius</roleName>, <roleName>syndicus</roleName> atque
+              <roleName>actor</roleName></persName> venerabilis patris domini <persName
+            ref="#GuilEpLuni">Guilielmi, <roleName>Lunensis episcopi</roleName></persName>,
+          syndicatus et actorio nomine pro ipso domino episcopo, agit contra <persName
+            ref="#GerardetusDimandi">Gerardetum quondam Dimandi de <placeName ref="#Sarzanello"
+              >castro Sarzane</placeName></persName>, petens ab eo unam petiam terre positam in loco
+          dicto <placeName ref="#Nave">Nava</placeName>, cui coheret a pede terra <persName
+            ref="#BondiesCharistoli">Bondiei quondam Charistoli de <placeName ref="#Sarzanello"
+              >castro Sarzane</placeName></persName>, a capite <persName ref="#VitalisOliverii"
+            >Vitalis quondam<note place="foot" n="a" xml:id="CXV_n_001"><term xml:lang="latin"
+                >Vitalis quondam</term>: <emph>nel testo</emph>
+              <term xml:lang="latin">quondam Vitalis</term>
+              <emph>con segno di richiamo per invertire l’ordine delle parole.</emph>
+            </note> Oliverii</persName>, ab uno latere heredum <persName ref="#GerardusBeaigue"
+            >Gerardi Beaigue de <placeName ref="#Sarzanello">eodem loco</placeName></persName>, ab
+          alio <persName ref="#GuastapaneGerardoni">Guastapanis quondam Gerardoni</persName> in
+          parte et in parte <persName ref="#GuitholinusSchivane">Guitholini Schivane de <placeName
+              ref="#Sarzanello">eodem loco</placeName></persName>; item unam petiam terre sitam in
+          loco dicto <placeName ref="#Schiaretulo">Schiaretulo</placeName>, atque est ei ab uno
+          latere terra suprascripti <persName ref="#GuastapaneGerardoni">Guastapanis</persName>, ab
+          alio <persName ref="#RolandetusGerardi">Rolandeti de <placeName ref="#Fosdinovo"
+              >Fosdenova</placeName> quondam Gerardi</persName>, a pede via publica, a capite terra
+            <persName ref="#UbertinusRio">Ubertini de <placeName ref="#Rio"
+            >Rio</placeName></persName>; item unam petiam terre sitam in loco dicto <placeName
+            ref="#Bicarro">Bicarro</placeName>, atque est ei a capite terra suprascripti <persName
+            ref="#GerardetusDimandi">Gerardeti</persName>, que olim fuit <persName
+            ref="#AldibrandusOliverii">Aldibrandi quondam Oliverii de <placeName ref="#Sarzanello"
+              >eodem loco</placeName></persName>, a pede terra quondam suprascripti <persName
+            ref="#GerardusBeaigue">Gerardi Beaigue</persName>, ab uno latere <placeName
+            ref="#Mandria">canalis de Mandria</placeName>, ab alio heredum <persName
+            ref="#AttolinusFrandaloni">Attolini Frandalonis</persName>; item unam petiam terre sitam
+          subtus <placeName ref="#fontanaRomana">fontanam Romanam</placeName>, in loco dicto
+            <placeName ref="#Bostiola">Bostiola</placeName>, et coheret ei ab uno latere
+          suprascripti <persName ref="#GuastapaneGerardoni">Guastapanis</persName> in parte et in
+          parte <persName ref="#RolandinusGuilielmiFolo">Rolandini quondam Guilielmi de <placeName
+              ref="#Folo">Folo</placeName></persName>, ab alio heredum <persName
+            ref="#ParensUpecini">Parentis quondam Upecini de <placeName ref="#Sarzanello">castro
+              Sarzane</placeName></persName>, a capite <persName ref="#CastillioBondineti"
+            >Castillioni quondam Bondineti de <placeName ref="#Sarzanello">eodem
+            loco</placeName></persName>, a pede heredum <persName ref="#RossusFos">Rossi de
+              <placeName ref="#Fosdinovo">Fosdenova</placeName></persName>. Quas suprascriptas
+          IIIIor petias terre dicit idem <roleName>syndicus</roleName> et
+          <roleName>actor</roleName>, syndicatus et actorio nomine pro ipso domino episcopo, ad
+          dictum dominum episcopum atque episcopatum pertinere iure dominii directi vel utilis vel
+          quasi. Et hoc petit omni iure quo melius potest, salvo omni alio iure ipsius domini
+          episcopi et episcopatus, et petit expensas litis et advocati. Qui <persName
+            ref="#GerardetusDimandi">Gerardetus</persName> dixit et protestatus fuit coram domino
+            <persName ref="#NormanninusBernanduccisiud">Normannino</persName>, <roleName>iudice</roleName> et
+              <roleName>locum vicarii</roleName> tenente in <orgName ref="#Lunigiana_provincia">provincia
+                <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre domino <persName
+            ref="#GuilEpLuni">Guilielmo, <roleName>Lunensi episcopo</roleName></persName>, quod de
+          suprascriptis terris non intendit nec vult causam facere nec intendit eam deffendere, set
+          liti cedit in totum. Presentibus <persName ref="#Borgesetusnot">Borgeseto
+              <roleName>notario</roleName> de <placeName ref="#Sarzana"
+            >Sarzana</placeName></persName> et <persName ref="#IohannesFormichella">Iohanne
+            Formichella de <placeName ref="#Lucca">Luca</placeName></persName>, ad bancum ubi ius
+          redditur, in domo <persName ref="#Bonapartenot">Bonapartis <roleName>notarii</roleName> de
+              <placeName ref="#Sarzana">Sarzana</placeName></persName>. Unde soprascriptus
+            <roleName>iudex</roleName>, auditis predictis ab ipso <persName ref="#GerardetusDimandi"
+            >Gerardeto</persName>, dedit licenciam dicto <roleName>syndico</roleName> seu
+            <roleName>actori</roleName> intrandi in possessionem dictarum terrarum corporaliter
+          voluntate dicti <persName ref="#GerardetusDimandi">Gerardeti</persName>. Suprascripto
+          loco, anno et die atque coram suprascriptis testibus; anno nativitatis Domini <date
+            when="1269-08-21">millesimo ducentesimo LXVIIII°, XXI° augusti, indictione
+          XIIa</date>.</p>
+        <p xml:id="CXV_p_002" n="2"><ptr target="#CXV_st_001"/>
+          <persName ref="#Aliottusnot">Aliottus Marrontinus, <roleName>notarius</roleName> et dicte
+            curie <roleName>scriba</roleName></persName>, suprascriptis interfui et hec scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="LXXXXV_112">
+        <front xml:id="LXXXXV_front">
+
+            <titlePart type="numerazioneNuova">112</titlePart>
+            <titlePart type="numerazioneOrig">LXXXXV</titlePart>
+
+            <docDate xml:id="LXXXXV_docDate">
+                <date when="1282-12-27">1282 dicembre 27</date>, <placeName>Ameglia (<emph>Amelie,
+                        in camera palacii domini episcopi</emph>)</placeName>
+            </docDate>
+            <div type="regesto" xml:id="LXXXXV_regesto">
+                <p>Il vescovo di Luni Enrico, in considerazione della povertà dell’arcidiaconato di
+                    Luni, annette al medesimo la pieve di Arcola, col consenso dell’ariciprete di
+                    Arcola Canoro </p>
+            </div>
+
+            <div type="footer" xml:id="LXXXXV_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] c. 209v., c. CCIv. secondo la numerazione originale. </p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione parziale in Lupo Gentile 1912, n. 95, p. 127, con la data 1283.</p>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXXXXV. Archidiaconatus Lunensis, sicut plebs de Arcula
+                            fuit sibi unita et anecta. </term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="LXXXXV_div">
+                <pb n="209v" xml:id="fol_209v"/>
+                <p xml:id="LXXXXV_p_001"> In Dei eterni nomine, amen. <date when="1282-12-27">Anno a
+                        nativitate Eius M°CC° octuagesimo tercio, indictione XIa, die XXVII° mensis
+                        decembris.</date> Venerabilis pater <roleName>dominus</roleName>
+                    <placeName ref="#HenricusEpLuni">Henricus</placeName>, <roleName>Dei gratia
+                        Lunensis episcopus</roleName>, considerata utilitate Lunensis ecclesie et
+                    specialiter archidiaconatus, qui nimis tenuis et exilis ita quod <note
+                        place="foot" n="a" xml:id="LXXXXV_n_001">de:<emph>segue, non depennato,
+                        </emph>bet.</note> redditibus ipsius archidiaconatus non potest
+                    archidiaconus decenter vivere nec exercere officium archidiaconatus, sicut
+                    decet, propter inopiam quam patitur in redditibus, <orgName
+                        ref="#Arcola_S_Stefano_Margherita">plebem de</orgName>
+                    <placeName ref="#Arcola">Arcula</placeName> ipsi archidiaconatui unit et
+                    annectit de consensu et voluntate <roleName>domini</roleName>
+                    <persName ref="#Canoruscan">Canori</persName>,
+                        <roleName>archipresbyteri</roleName> dicte <orgName
+                        ref="#Arcola_S_Stefano_Margherita">plebis de</orgName>
+                    <placeName ref="#Arcola">Arcula</placeName>, ita ut perpetuo quicumque fuerit
+                    archidiaconus habeat dictam plebem statim unitam et annectam cum dignitate
+                    ipsius archidiaconatus, cum adhectus fuerit, tamquam unitam et coniunctam
+                    perpetuo archidiaconatui suprascripto, ut superius est expressum. </p>
+                <p xml:id="LXXXXV_p_002"> Actum <placeName ref="#Ameglia">Amelie</placeName>, in
+                    camera palacii dicti domini episcopi, presentibus <roleName>domino</roleName>
+                    <persName ref="#Thomasiusabb">Thomasio</persName>
+                    <roleName>abbate</roleName>
+                    <orgName ref="#Aulla_S_Caprasio">monasterii</orgName> de <placeName ref="#Aulla"
+                        >Avula</placeName>, <roleName>dominis</roleName>
+                    <persName ref="#Theobaldus_canonicus">Thebaldo</persName> et <persName
+                        ref="#Peregrinuscan">Pelegrino</persName>, <roleName>Lunensibus
+                        canonicis</roleName>, testibus ad hec rogatis. </p>
+                <p xml:id="LXXXXV_p_003">
+                    <ptr target="LXXXXV_st_001"/> Ego <persName ref="#BonacursusPetrinot"
+                        >Bonacursus, filius Petri</persName>
+                    <roleName>notarii</roleName> de <placeName ref="#Sarzanello">castro
+                        Sarzane</placeName>, <roleName>notarius sacri palatii</roleName>, hiis
+                    omnibus interfui et rogatus scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

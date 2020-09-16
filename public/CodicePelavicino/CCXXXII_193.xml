@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXXXII_193">
+    <front xml:id="CCXXXII_front">
+
+      <titlePart type="numerazioneNuova">193</titlePart>
+      <titlePart type="numerazioneOrig">CCXXXII</titlePart>
+
+      <docDate xml:id="CCXXXII_docDate">
+        <date when="1269-02-13">1269 febbraio 13</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in castro Sarzane, in palacio domini
+          episcopi</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXXXII_regesto">
+        <p>I marchesi Isnardo e Alberto Malaspina, figli del fu Opizo, su richiesta del vescovo di
+          Luni Guglielmo e del prete Dusio, rettore della chiesa della <term xml:lang="latin"
+            >villa</term> di San Terenzo, dichiarano per sé e a nome degli eredi del loro fratello
+          Bernabò, di non avere nessun diritto sulla <term xml:lang="latin">villa</term> di San
+          Terenzo, né sugli uomini, né sulle sue pertinenze. Inoltre si impegnano a restaurare il
+            <term xml:lang="latin">castrum</term> e i <term xml:lang="latin">castra</term> di
+          Regnano alle condizioni precedenti la guerra tra i marchesi e il vescovo. Cedono inoltre
+          al vescovo ogni possesso e diritto che avevano nel <term xml:lang="latin">castrum</term>
+          di Bibola e nelle sue pertinenze, dandogli il diritto di entrare a sua volontà.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXXXII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 255v., c. CCXLVIIv. secondo la numerazione originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. 232, pp. 212-213.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <emph>Refutatio sancti Terentii</emph></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXXXII_div">
+        <p xml:id="CCXXXII_p_001" n="1">In nomine Domini, amen. Anno a nativitate Eius <date
+            when="1269-02-13">M°CC°LXIX°, indictione XIIa, XIII° die februarii</date>. Domini
+            <persName ref="#YsnardusMalaspina">Ysnardus</persName> et <persName
+            ref="#AlbertusMalaspina">Albertus, marchiones Malaspine, filii quondam domini
+            Opiçonis</persName>, fuerunt confessi, ad postulationem venerabilis patris domini
+            <persName ref="#GuilEpLuni">Guilielmi, Dei gratia <roleName>Lunensis
+            episcopi</roleName></persName>, et <persName ref="#Dutius"
+              ><roleName>presbyteri</roleName> Dusii , <roleName>rectoris <orgName
+                ref="#San_Terenzo">ecclesie ville <placeName ref="#SanTerenzo">sancti
+                  Terencii</placeName></orgName></roleName></persName>, quod ipsi marchiones non
+          habent aliquam rationem sive ius in <placeName ref="#SanTerenzo">villa sancti
+            Terencii</placeName> vel in hominibus et pertinenciis <placeName ref="#SanTerenzo"
+            >ipsius ville</placeName>, ipsi nec heredes quondam domini <persName
+            ref="#BernabosMalaspina">Bernabovis</persName>, et eam possessionem vel detentationem,
+          quam habent inde ipsi vel alia persona pro eis, refutaverunt et dimiserunt in totum
+            <persName ref="#Dutius"><roleName>presbytero</roleName> Dusio</persName>, ipsius
+          ecclesie rectori, pro ipsa ecclesia et ipsi ecclesie, pro iure quod ipsa ecclesia habet et
+          habere debet in <placeName ref="#SanTerenzo">ipsa villa</placeName> et in hominibus atque
+          pertinenciis <placeName ref="#SanTerenzo">ipsius ville</placeName>, et dicto domino
+          episcopo pro episcopatu, pro eo iure quod ipse dominus episcopus et episcopatus habet et
+          habere debet in <placeName ref="#SanTerenzo">ipsa villa</placeName> et hominibus ipsius
+          ville et pertinenciis, promittentes eisdem domino episcopo et presbytero, pro dicto
+          episcopatu et ecclesia, <placeName ref="#SanTerenzo">ipsam villam</placeName> vel homines
+          ipsius ville non imbrigare seu molestare deinceps. Item, ad postulationem dicti domini
+          episcopi, dixerunt et voluerunt dicti marchiones quod castrum et <placeName ref="#Regnano"
+            >castra Regnani</placeName> et homines ipsius castri et castrorum restituantur atque
+          reducantur et sint in eo statu in quo erant prius, antequam guerra inciperetur inter
+          dictum dominum episcopum et ipsos marchiones. Item de facto <placeName ref="#Bibola"
+            >Bibole</placeName> et eius curie et districtus omnem possessionem, detentationem et
+          rationem, quam in <placeName ref="#Bibola">castro Bibole</placeName> atque pertinenciis
+          ipsi vel alia persona pro eis habuerunt vel habebant, ipsi marchiones vel filii et heredes
+          quondam domini <persName ref="#BernabosMalaspina">Bernabovis</persName> dederunt et
+          refutaverunt, pro se et eisdem filiis et heredibus dicti domini <persName
+            ref="#BernabosMalaspina">Bernabovis</persName>, domino episcopo predicto pro se et
+          episcopatu, dantes sibi bailliam intrandi tenutam in dictum castrum per se vel per alium,
+          quando voluerit idem dominus episcopus.</p>
+        <p xml:id="CCXXXII_p_002" n="2">Actum in <placeName ref="#Sarzanello">castro
+            Sarzane</placeName>, in palacio dicti domini episcopi, presentibus donno <persName
+            ref="#Benedictusabb">Benedicto <roleName>abbate de <placeName ref="#Aulla"
+                >Avula</placeName></roleName></persName>, domino <persName ref="#PetrusPontremulo"
+            >Petro de <placeName ref="#Pontremoli">Pontremulo</placeName></persName>, dominis
+            <persName ref="#NormanninusBernanduccisiud">Normannino de Bernarduciis de <placeName
+              ref="#Lucca">Luca</placeName></persName>, <persName ref="#Rubeusiud">Rubeo</persName>
+          atque <persName ref="#Opecnusiud">Opeçino</persName>, <roleName>iudicibus</roleName>, de
+            <placeName ref="#Sarzana">Sarzana</placeName> et domino <persName
+            ref="#HenricusFalcinello">Henrico de <placeName ref="#Falcinello"
+            >Falcinello</placeName></persName>, <roleName>doctore legum</roleName>, et aliis
+          pluribus testibus ad hec rogatis.</p>
+        <p xml:id="CCXXXII_p_003" n="3"><ptr target="#CCXXXII_st_001"/>Ego <persName
+            ref="#PetrusGualterotinot">Petrus quondam Gualteroti de <placeName ref="#Soliera"
+              >Soleria</placeName>, <roleName>sacri palacii notarius</roleName></persName>, hiis
+          interfui et rogatus hanc cartam scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

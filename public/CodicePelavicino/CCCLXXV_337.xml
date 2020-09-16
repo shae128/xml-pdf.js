@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXXV_337">
+    <front xml:id="CCCLXXV_front">
+
+      <titlePart type="numerazioneNuova">337</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXXV</titlePart>
+
+      <docDate xml:id="CCCLXXV_docDate">
+        <date notBefore="1199" notAfter="1250">&lt;fine XII – primi decenni XIII secolo&gt;</date>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXXV_regesto">
+        <p>Elenco dei tributi dovuti dagli abitanti di Barbazzano al vescovo di Luni.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXXV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 314v.-315v., cc. CCCVIv.-CCCVIIr. secondo la numerazione originale
+          </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 375,
+            pp. 356-357. </p>
+        </div>
+
+        <div type="crit_notes">
+          <note>La datazione deriva dalla presenza di alcuni nomi in documenti datati, in
+            particolare Ventura da Balognano (1197); Guglielmo castaldo (1235); Bonacorso castaldo
+            (1197-1203)</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCLXXV.
+              Scriptum in papiro de redditubus de Barbaçano.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXXV_div">
+        <p xml:id="CCCLXXV_p_001" n="1">Homines de Barbaçano debent ferre dominum episcopum usque
+            <placeName ref="#Roma">Romam<note xml:id="CCCLXXV_n_001" n="a" place="foot"><term
+                xml:lang="latin">Romam</term>: o <emph>corretto su</emph> a</note></placeName> cum
+          lignis et usque <placeName ref="#Ianua">Ianuam</placeName> et usque <placeName ref="#Pisa"
+            >Pisas</placeName> et etiam nuncios suos, si vellet mittere. Qui sunt <persName
+            ref="#GuilielmusMezana">Guilielmus de <placeName ref="#Mezana"
+            >Mezana</placeName></persName>, <persName ref="#SpinellusBaldicioni">filii
+            Baldicioni</persName>, <persName ref="#Mantignonus">Mantignonus</persName>, <persName
+            ref="#Banicus">Banicus</persName>, <persName ref="#AlbertusValleStephani">Albertus de
+              <placeName ref="#Valle_Stephani">Valle Stephani</placeName></persName>, <persName
+            ref="#Dolcebonus">filius Dulceboni</persName>, <persName ref="#Ricobaldus">filia
+            Ricobaldi</persName>, <persName ref="#MercadellusBenvenuti">Mercadellus filius
+            Benvenuti</persName> et quedam consanguinee eius, sive <persName ref="#Bonacaptus"
+            >Bonacattus</persName>, qui est maritus unius; pro podere de <placeName
+            ref="#Valle_Stephani">Valle Stephani</placeName>: <measure unit="denarius" quantity="6"
+            >denarios VI</measure> pro agnellatico<note xml:id="CCCLXXV_n_002" n="b" place="foot"
+              ><term xml:lang="latin">agnellatico</term>: <emph>la prima</emph> a <emph>corretta su
+              precedente scrittura.</emph></note> et I gallinam in carlasciate et I polastrum in
+          Sancta Maria de medio augusto et I giunicatam<note xml:id="CCCLXXV_n_003" n="c"
+            place="foot"><term xml:lang="latin">giunicatam</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">giuncatam</term></note> et caseum I secatoribus et operam vie in
+          foresto et I operam ad trahendum fenum et I ad portandum, I ad ligandum, I ad vindemiandum
+          et I ad treblandum et ad omne servicium <placeName ref="#Ameglia">castri
+            Amelie</placeName>, quod fit per  <orgName ref="#Ameglia_comune">commune</orgName>. Et iidem pro masio de <placeName
+            ref="#Valpata">Valpata</placeName> debent eadem, excepto filio <persName
+            ref="#Dolcebonus">Dulceboni</persName>, non consors illius. </p>
+        <p xml:id="CCCLXXV_p_002" n="2"><persName ref="#Boniovannus">Boniovannus</persName>,
+            <persName ref="#Iuncta">Iuncta</persName>, <persName ref="#IohanninusPiciolo">Iohanninus
+            de <placeName ref="#Piculo">Piciolo</placeName></persName>, <persName
+            ref="#GuilielmusMarcucio">Guilielmus de Marcucio</persName>, <persName ref="#Guidobonus"
+            >Guidobonus</persName>, <persName ref="#Rugelettus">Rugelettus</persName> pro masio de
+            <placeName ref="#Cafilectata">Cafilectata</placeName> debent <supplied reason="omitted"
+            >quantum</supplied> suprascripti de <placeName ref="#Valle_Stephani">Valle
+            Stephani</placeName>. </p>
+        <p xml:id="CCCLXXV_p_003" n="3">Filii Beotisalvi<note xml:id="CCCLXXV_n_004" n="d"
+            place="foot"><term xml:lang="latin">Beotisalvi</term>: <emph>così nel
+            testo.</emph></note>, filii <persName ref="#Cottivechia">Cottivechie</persName>, pro
+          masio de <placeName ref="#Concula">Concula</placeName>, <persName ref="#OliveriusCala"
+            >Oliverius de <placeName ref="#Cala">la Cala</placeName></persName>, <persName
+            ref="#VenturaBaloganano">Ventura de <placeName ref="#Balognano"
+            >Balognano</placeName></persName>, <persName ref="#GuilielmusSarrevallo">Guilielmus de
+              <placeName ref="#Serravalle">Sarrevallo</placeName></persName>, <persName
+            ref="#Gerardetus">filii Gerardeti</persName>, <persName ref="#BonaventuraRoasia"
+            >Bonaventura de <placeName ref="#Roasia">Roasia</placeName></persName> debent omnia
+          sicut illi de <placeName ref="#Valle_Stephani">Valle Stephani</placeName>. <persName
+            ref="#CancellariusMercadus">Cancellerius Mercadus de donna Roasia</persName>, <persName
+            ref="#MercadusBonnannus">Mercadus Bonnannus</persName>, <persName ref="#Bonalbergus"
+            >Bonalbergus</persName>, <persName ref="#BonvalligusNobilino">Bonvalligus de donno
+            Nobilino</persName> et frater eius, pro podere de <placeName ref="#Voldano"
+            >Voldano</placeName>, debent omnia similiter, et pro segatura <measure unit="denarius"
+            quantity="3">denarios III</measure> et <measure unit="denarius" quantity="18">XVIII
+            denarios</measure> pro pensione in uno anno et <measure unit="denarius" quantity="9"
+            >VIIII</measure> in alio. </p>
+        <p xml:id="CCCLXXV_p_004" n="4"><persName ref="#Berizus">Berizus</persName>, <persName
+            ref="#Baroccus">Baroccus</persName>, <persName ref="#Buconcus">Buconcus</persName> et
+            <persName ref="#GrimaldusfrBuconci">frater eius Grimaldus</persName>, <persName
+            ref="#OliveriusBlarono">Oliverius de Blarono</persName>, pro masio de <placeName
+            ref="#Sorbolo">Sorbolo</placeName>: <measure unit="denarius" quantity="6">denarios
+            VI</measure> pro agnellatico<note xml:id="CCCLXXV_n_005" n="e" place="foot"><term
+              xml:lang="latin">agnellatico</term>: n <emph>aggiunta in sopralinea, la</emph> a
+              <emph>iniziale sembra corretta su precedente scrittura.</emph></note> et I gallinam et
+          I pollastrum in Sancta Maria et I amescere et operas consuetas I<note
+            xml:id="CCCLXXV_n_006" n="f" place="foot"><term xml:lang="latin">I</term>: <emph>così
+              nel testo, forse per segno tachigrafico di</emph> et</note>, singulis diebus operam I
+          et omni die dominico, quando dominus episcopus ibi fuerit, fascem I lignorum. </p>
+        <p xml:id="CCCLXXV_p_005" n="5">Palmeria, pro medietate poderis de <placeName
+            ref="#Frederciana">Frederciana</placeName>: <measure unit="denarius" quantity="3"
+            >denarios III</measure>
+          <supplied reason="omitted">pro</supplied> agnellatico et <measure unit="denarius"
+            quantity="0.5">dimidium</measure> amiscere et inter duos annos unam gastam<note
+            xml:id="CCCLXXV_n_007" n="g" place="foot"><term xml:lang="latin">gastam</term>:
+              <emph>così nel testo, forse per</emph> gallinam</note> in carlasciate et I pollastrum
+          in Sancta Maria et VI ebdomadas de guaita et ligna ad furnum, omni ebdomada duobus diebus;
+          aliam medietatem habet <persName ref="#Giliolusdom"><roleName>dominus</roleName>
+            Giliolus</persName>. <persName ref="#AlbertoldaCertiola">Albertolda<note
+              xml:id="CCCLXXV_n_008" n="h" place="foot"><term xml:lang="latin">Albertolda</term>:
+                <emph>lettura incerta</emph></note> de <placeName ref="#Cortiola"
+              >Certiola</placeName></persName> et consortes eius pro podere quod habent in
+            <placeName ref="#Ameglia">Amelia</placeName>: I amescere in anno et singulis mensibus
+          VIII operas, pro quibus solvuntur in festo Sancti Martini <measure type="imperiales"
+            unit="solidus" quantity="17">soldi XVII imperialium</measure>. </p>
+        <p xml:id="CCCLXXV_p_006" n="6">Masium de <placeName ref="#Rivo">Rivo</placeName>, quod
+          habent <persName ref="#ArduinusGuideti">Arduinus</persName>, <persName
+            ref="#Guilielmuscast">Guiliemus <roleName>castaldio</roleName></persName> et
+          consanguineus ips<supplied reason="omitted">i</supplied>us <persName
+            ref="#ArduinusGuideti">Arduini et <pb n="315r" xml:id="fol_315r"/> filii quondam
+            Guideti</persName>: XVIII septimanas singulis annis et I<note xml:id="CCCLXXV_n_009"
+            n="i" place="foot"><term xml:lang="latin">I</term>: <emph>corretto su precedente
+              scrittura.</emph></note> operam ad putandum vineam et II operas ad vindemiandum et
+          tres septimanas guaite pro eodem masio, et fuit olim <persName ref="#Guidolinus"
+              >Guidolini<note xml:id="CCCLXXV_n_0010" n="l" place="foot"><term xml:lang="latin"
+                >Guidolini</term>: lini <emph>corretto su precedente
+            scrittura.</emph></note></persName> et <persName ref="#Molinarius">Molinarii<note
+              xml:id="CCCLXXV_n_0011" n="m" place="foot"><term xml:lang="latin">Molinarii</term>:
+              rii <emph>corretto su precedente scrittura</emph></note></persName>, qui faciebant
+          etiam VI septimanas guaite pro alio podere quod habebant <placeName ref="#Ameglia"
+            >Amelie</placeName>, quod habe<supplied reason="omitted">n</supplied>t domina <persName
+            ref="#Maria">Maria</persName> et omnes de <placeName ref="#Nizola">Nizola</placeName>.
+            <persName ref="#ParentinusManzeti">Parentinus</persName> et fratres quondam <persName
+            ref="#Manzetus">Manzeti</persName> pro podere quod fuit quondam <persName
+            ref="#Gaforetidus">Gaforetidi</persName> et <persName ref="#RicolusTrebiano">Ricoli de
+              <placeName ref="#Trebiano">Trebiano</placeName></persName>, pro medietate, et filiorum
+            <persName ref="#Rangone">Rangonis</persName> et <persName ref="#GibertinusPorencario"
+            >Gibertinus de <placeName ref="#Porencario">Porencario</placeName></persName>, pro alia
+          medietate: <measure unit="denarius" quantity="3">denarios III</measure> pro segatura et
+          lectum I, cacciam, castellaniam et guaitam. </p>
+        <p xml:id="CCCLXXV_p_007" n="7"><c>§</c>
+          <persName ref="#Manzetinus">Manzetinus</persName> et <persName ref="#ArduinusGuideti"
+            >filii Guideti</persName>, pro sua medietate, pro podere quod fuit filiorum <persName
+            ref="#Foscolus">Foscoli</persName> et <persName ref="#Corsus">Corsi</persName> et
+            <persName ref="#Manzetus">Manzeti</persName>, domina <persName ref="#Maria"
+            >Maria</persName>, pro medietate: <measure unit="denarius" quantity="3">denarios
+            III</measure> pro segatura et I lectum, cacciam, castellaniam et guaitam. </p>
+        <p xml:id="CCCLXXV_p_008" n="8"><persName ref="#VenturaBaloganano">Ventura de <placeName
+              ref="#Balognano">Balognano</placeName></persName>, filii <persName ref="#Gerardetus"
+            >Gerardeti</persName>, filii <persName ref="#CerrusBalano">Cerri de <placeName
+              ref="#Balano">Balano</placeName></persName> et filii <persName ref="#Nicholetus"
+            >Nicholeti</persName> pro podere <persName ref="#GuilielminusRivo">Guilielmini de
+              <placeName ref="#Rivo">Rivo</placeName></persName> et filiorum <persName
+            ref="#Balognanus">Balognani</persName>: <measure unit="denarius" quantity="3">denarios
+            III</measure> pro segatura et I lectum, cacciam, castellaniam et guaitam. Summa dicte
+          segature: <measure unit="solidus" quantity="3">soldi III et <measure unit="denarius"
+              quantity="8.5">denarii VIII ½</measure></measure>. </p>
+        <p xml:id="CCCLXXV_p_009" n="9"><c>§</c>
+          <persName ref="#Berizus">Berizus</persName>, <persName ref="#Benvenutus">Benv<supplied
+              reason="omitted">enutus</supplied></persName>, <persName ref="#MercadellusVia"
+            >Mercadellus della <placeName ref="#Via">Via</placeName></persName>, <persName
+            ref="#Manzetinus">Manzetinus</persName> et <persName ref="#ArduinusGuideti">filii
+            Guideti</persName>, pro podere cocarie <persName ref="#Valentinus">Valentini</persName>,
+          et <persName ref="#Bercalitius">Bercalitio</persName> et <persName ref="#Opizinus"
+            >Opizinus</persName>, germani, pro <persName ref="#Prebosus">Preboso</persName>: I
+          lectum et caccio<note xml:id="CCCLXXV_n_0012" n="n" place="foot"><term xml:lang="latin"
+              >caccio</term>: <emph>così nel testo.</emph></note>. </p>
+        <p xml:id="CCCLXXV_p_0010" n="10"><persName ref="#AndreciusCaciaguerra">Andrecius
+            Caciaguerra</persName> et filii <persName ref="#Marrucius">Marrucii</persName>,
+            <persName ref="#MarchesinusGibertini">Marchesinus filius Gibertini</persName>, <persName
+            ref="#OliveriusTesi">Oliverius nepos eius, filius quondam Tesi</persName>, de masio de
+            <placeName ref="#Cala">Cala</placeName>: <measure unit="denarius" quantity="6">denarios
+            VI</measure> pro agnellatico et I gallinam in carlasciate et I pollastrum et
+            giunitatam<note xml:id="CCCLXXV_n_0013" n="o" place="foot"><term xml:lang="latin"
+              >giunitatam</term>: <emph>così nel testo, probabilmente per</emph> giuncatam</note> in
+          Sancta Maria de medio augusto et balneum aque marine cum herbis et I operam ad viam de
+          foresto et unam iovatam boum et I operam ad fenum et ad omne servicium castri <placeName
+            ref="#Ameglia">Amelie</placeName>, quod fit per commune, sive fornelli, sive muri, sive
+          fossati, sive sepis et ad sepem caccion porcorum et boatariam et placitum, bannum et
+          districtum et albergariam et escaticum et I caseum in segatura prati. </p>
+        <p xml:id="CCCLXXV_p_0011" n="11">Masium de Varazano et de la Crosa et de <placeName
+            ref="#Serra">la Serra</placeName> omnia faciunt sicut masium de <placeName ref="#Cala"
+            >la Cala</placeName>. </p>
+        <p xml:id="CCCLXXV_p_0012" n="12">Homines de Varazano sunt infrascripti: <persName
+            ref="#Montaninus">Montaninus</persName> et <persName ref="#Rippellus"
+            >Rippellus</persName>, <persName ref="#Masnerius">Masnerius</persName>, <persName
+            ref="#IohannesLombardus">Iohannes Lombardus</persName>, <persName ref="#Laborante"
+            >filius Laborantis</persName> et <persName ref="#Balianus">Balianus</persName>,
+            <persName ref="#Bellacrosa">Bellacrosa</persName>, <persName ref="#Iohanninus"
+            >Iohanninus</persName>, <persName ref="#Piscialaqua">Piscialaqua</persName>, <persName
+            ref="#Caraita">Caraita</persName>, <persName ref="#Papa">Pape</persName> filius<note
+            xml:id="CCCLXXV_n_0014" n="p" place="foot"><term xml:lang="latin">filius</term>:
+              <emph>aggiunto in sopralinea.</emph></note>, <persName ref="#Bonvillanus"
+              >Bonvillanus<note xml:id="CCCLXXV_n_0015" n="q" place="foot"><term xml:lang="latin"
+                >Bonvillanus</term>: Bonv <emph>corretto su precedente
+            scrittura.</emph></note></persName> et filii <persName ref="#Galletus"
+            >Galleti</persName> pro medietate <persName ref="#Guidobonus">Guidoboni</persName>,
+            <persName ref="#Bellaserra">Bellaserra</persName>, filius <persName ref="#Gibertinus"
+            >Gibertini</persName>, filii donne <persName ref="#Richelda">Richalde<note
+              xml:id="CCCLXXV_n_0016" n="r" place="foot"><term xml:lang="latin">Richalde</term>:
+                <emph>nel manoscritto segue espunto e depennato:</emph> de</note></persName>,
+            <persName ref="#Bonafesta">Bonafesta</persName> et fratres, filii <persName
+            ref="#Bonavita">Bonavite</persName>, <supplied reason="omitted">filius</supplied> 
+            <persName ref="#Ubaldettus">Ubaldetti</persName>, filius <persName ref="#Nigrus"
+            >Nigri</persName>. </p>
+        <p xml:id="CCCLXXV_p_0013" n="13">Masium de <placeName ref="#Valdonica"
+            >Valdonica</placeName>, quod tenent <persName ref="#Cancellerius"
+            >Cancellarius</persName>, <persName ref="#MercadusRose">Mercadus filius Rose</persName>,
+            <persName ref="#Guido">Guido</persName>, <persName ref="#Conradus">Conradus</persName>,
+            <persName ref="#Bonvillanus">Bonvillanus</persName> et fratres, <persName
+            ref="#Oliverius">Oliverius</persName> et fratres et <persName ref="#Molioretus"
+            >Molioretus</persName> reddit domino episcopo <measure unit="denarius" quantity="18"
+            >denarios XVIII</measure>, in uno anno, imperialium et in alio <measure unit="denarius"
+            quantity="9">VIIII</measure> et III de segatura et <measure unit="denarius" quantity="6"
+            >VI denarios</measure> pro agnellatico. </p>
+        <p xml:id="CCCLXXV_p_0014" n="14">Pro podere de <placeName ref="#Balognano"
+            >Balognano</placeName>, quod tenet <persName ref="#BonaiunctaSummoFonti">Bonaiuça de
+              <placeName ref="#SummoFonti">Summo Fonti</placeName></persName>, solvit domino
+          episcopo annuatim <measure unit="solidus" quantity="3">soldos III minus <measure
+              unit="denarius" quantity="1">denario I</measure></measure>. <persName
+            ref="#VenturaBaloganano">Ventura de <placeName ref="#Balognano"
+            >Balognano</placeName></persName> et filii <persName ref="#Paganus">Pagani</persName> de
+          podere quod fuit <persName ref="#Guilielminus">Guilielmini</persName> et <persName
+            ref="#Giofredus">Giofredi</persName>: <measure unit="denarius" quantity="9">denarios
+            IX</measure> in uno anno et in alio <measure unit="denarius" quantity="6">VI</measure>.
+          De podere quod fuit <persName ref="#IordanusBalognanus">Iordani de <placeName
+              ref="#Balognano">Balognano</placeName></persName>, solvit <persName ref="#Albertonus"
+            >Albertonus</persName> pro <persName ref="#Conagettinus">Conagettino</persName> et
+          filius <persName ref="#Guidetus">Guideti</persName> solvit pensionem <measure
+            unit="denarius" quantity="15">denariorum XV</measure>. </p>
+        <p xml:id="CCCLXXV_p_0015" n="15">Iuncta et filius <persName ref="#RamundinusGerardini"
+            >Ramundini Gerardini</persName> et fratres eius, de podere quod fuit <persName
+            ref="#Guiconis">Guiconis</persName>, et <persName ref="#SafaronePicialboni">Safarone
+            Picialboni</persName> et filii <persName ref="#Musus">Musi</persName>: <measure
+            unit="denarius" quantity="3">denarios III</measure>, singuli denarii singulariter<note
+            xml:id="CCCLXXV_n_0017" n="s" place="foot"><term xml:lang="latin">singuli denarii
+              singulariter</term>: <emph>così nel testo.</emph></note>, et omnes reddunt <measure
+            unit="denarius" quantity="3">denarios III</measure> pro segatura. </p>
+        <p xml:id="CCCLXXV_p_0016" n="16">Filii domine <persName ref="#Giliola">Giliole</persName>
+          pro maso <persName ref="#Ingelese">Ingelese</persName>: <measure unit="denarius"
+            quantity="6">denarios VI</measure> annuatim in festo Sancti Vincentii et pro segatura
+            <measure unit="denarius" quantity="1.5">denarios I ½</measure> et lectum I, cacciam,
+          castellaniam et guaitam. Summa pensionis istius in uno anno <measure unit="solidus"
+            quantity="6">soldi VI et <measure unit="denarius" quantity="5">denarii
+            V</measure></measure>, in alio <measure unit="solidus" quantity="5">soldi V et <measure
+              unit="denarius" quantity="2">denarii II</measure></measure>. </p>
+        <p xml:id="CCCLXXV_p_0017" n="17"><persName ref="#Fromundinus">Fromundinus</persName> et
+            <persName ref="#Dalfinetus">Dalfinetus</persName> et <persName ref="#Machetus"
+            >Machetus</persName> pro masio <persName ref="#BonensegnaQuaragiota">Bonensegne de
+              <placeName ref="#Quaragiota">Quaragiota</placeName></persName>: <measure
+            unit="denarius" quantity="3">denarios III</measure> pro segatura et <persName
+            ref="#Guilielminus">Guilielminus</persName> I lectum. Pro masio de <placeName
+            ref="#Ameglia">Amelia</placeName>
+          <measure unit="denarius" quantity="3">denarios III</measure> solvit <persName
+            ref="#Guilielmus">Guilielmus</persName> pro segatura et I lectum. Pro masio de
+            <placeName ref="#Sansile">Sansile</placeName> solvit <persName ref="#Guilielminus"
+            >Guilielminus</persName>
+          <measure unit="denarius" quantity="3">denarios III</measure> pro segatura et I lectum. </p>
+        <p xml:id="CCCLXXV_p_0018" n="18"><persName ref="#Bonfivilla">Bonfivilla</persName>,
+            <persName ref="#Martinonus">Martinonus</persName>, <persName ref="#Beliana"
+            >Beliana</persName>, pro masio de <placeName ref="#Platula">Platula</placeName> et de
+            <placeName ref="#Coliusciola">Coliusciola<note xml:id="CCCLXXV_n_0018" n="t"
+              place="foot"><term xml:lang="latin">Coliusciola</term>: <emph>lettura incerta a causa
+                dell’inchiostro sbiadito.</emph></note></placeName>, quod fuit <persName
+            ref="#Piciolbonusarch">Piciolboni <roleName>archipresbyteri</roleName></persName>,
+            <persName ref="#Natalicius">Natalicii</persName> et <persName ref="#Peradellus"
+            >Peradelli</persName> et <persName ref="#Guidolinus">Guidolini</persName>, pro segatura:
+            <measure unit="denarius" quantity="3">denarios III</measure> et I lectum. </p>
+        <p xml:id="CCCLXXV_p_0019" n="19">Filii <persName ref="#Simon">Symonis</persName> et filii
+            <persName ref="#Odo">Odi</persName> pro masio de <placeName ref="#Finili"
+            >Finili</placeName>, pro segatura, <measure unit="denarius" quantity="3">denarios
+            III</measure>, quod masium fuit <persName ref="#Borgetus">Borgeti</persName> et
+            <persName ref="#MartinusBecone">Martini Becone</persName>. </p>
+        <p xml:id="CCCLXXV_p_0020" n="20"><persName ref="#ParentinusManzeti">Parentinus</persName>,
+            <persName ref="#Gualterotus">Gualterotus</persName> et <persName ref="#Burgensis"
+            >Borgesius</persName>, germani, pro masio <persName ref="#EgalinusFerrata">Egalini de la
+              <placeName ref="#Ferrata">Ferrata</placeName></persName>: <measure unit="denarius"
+            quantity="3">denarios III</measure> pro segatura et I lectum, cacciam, castellaniam et
+          guaitam. </p>
+        <p xml:id="CCCLXXV_p_0021" n="21"><persName ref="#Bonavere">Bonavere</persName> pro masio
+            <persName ref="#GerardinusPoncisione">Gerardini de <placeName ref="#Poncisione"
+              >Poncisione</placeName></persName>: <measure unit="denarius" quantity="3">denarios
+            III</measure> pro segatura et I lectum, guaitam, cacciam et castellaniam. <pb n="315v"
+            xml:id="fol_315v"/>
+          <persName ref="#Mercadantus">Mercadantus</persName> et <persName ref="#Gualterone"
+            >Gualteronus</persName> et <persName ref="#Bonafides">Bonafe</persName> pro podere quod
+          fuit vicedominorum, quod tenebant <persName ref="#GuilicionellusScoriso">Guilicionellus de
+              <placeName ref="#Scoriso">Scoriso</placeName></persName> et <persName ref="#Manzetus"
+            >Manzetus</persName> et <persName ref="#Rustiginus">Rustiginus</persName> magister:
+            <measure unit="denarius" quantity="3">denarios III</measure> pro segatura et I lectum,
+          cacciam, castellaniam, guaitam. Filia <persName ref="#Bonacursuscas">Bonacursi
+              <roleName>castaldi</roleName></persName> pro tenuta <persName ref="#Trebaldinus"
+            >Trebaldini</persName>
+          <measure unit="denarius" quantity="3">denarios III</measure> pro segatura, quam tenet
+            in<note xml:id="CCCLXXV_n_0019" n="u" place="foot"><term xml:lang="latin">in</term>:
+              <emph>corretto su precedente scrittura.</emph></note>
+          <placeName ref="#MonteRossolo">Monte Rossolo</placeName> et alibi et I lectum, cacciam,
+          castellaniam et guaitam. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

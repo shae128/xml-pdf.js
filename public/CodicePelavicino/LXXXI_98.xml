@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="LXXXI_98">
+        <front xml:id="LXXXI_front">
+
+            <titlePart type="numerazioneNuova">98</titlePart>
+            <titlePart type="numerazioneOrig">LXXXI</titlePart>
+
+            <docDate xml:id="LXXXI_docDate">
+                <date when="1277-05-13">1277 maggio 13</date>, <placeName>Viterbo</placeName>
+                <emph>(<term xml:lang="latin">Viterbii, in domo Rainerii dicti loci</term>)</emph>
+            </docDate>
+
+            <div type="regesto" xml:id="LXXXI_regesto">
+                <p>Il vescovo di Luni Enrico, trovandosi presso la curia romana, nomina procuratori
+                    Mezzolombardo, pievano della pieve di Monsagrati e Bardo di Poggibonsi, entrambi
+                    dimoranti presso la curia romana per quanto assenti, per essere rappresentato
+                    nelle controversie legali con le comunità di Sarzana, di Genova o qualunque
+                    altra comunità.</p>
+            </div>
+
+            <div type="footer" xml:id="LXXXI_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] c. 200r., c. CLXXXXIIr. secondo la numerazione originale.</p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 81, p. 113.</p>
+                </div>
+
+                <div type="crit_notes">
+                    <note> Parte del documento è stata letta con l’ausilio della luce di Wood. Nel
+                        margine esterno, di mano moderna: <term xml:lang="latin">Procura fatta dal
+                            vescovo Henrico per le liti che vertevano in Roma con il Comune di
+                            Genova e Sarzana</term>
+                    </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXXXI. Procurationis domini episcopi in curia
+                            Romana.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="LXXXI_div">
+                <p xml:id="LXXXI_p_001" n="1">
+                    <pb n="200r" xml:id="fol_200r"/> In nomine Domini, amen. Omnibus hoc publicum
+                        instrumentum<note place="foot" n="a" xml:id="LXXXI_n_001">publicum
+                        instrumentum: <emph>nel testo</emph> instrumentum publicum <emph>con segno
+                            di richiamo per invertire l’ordine delle parole</emph>.</note>
+                    intuentibus sit publice manifestum quod nos <persName ref="#HenricusEpLuni"
+                        >Henricus, <roleName>miseratione divina Lunensis
+                        episcopus</roleName></persName>, in <orgName ref="#Roma_curia_Romana">Romana
+                        curia</orgName> existentes, facimus, constituimus et ordinamus dominum
+                        <persName ref="#Mezolumbardus_plebanus">Mezolumbardum,
+                            <roleName>plebanum</roleName>
+                        <orgName ref="#S_Giovanni_Monsagrati">plebis de <placeName
+                                ref="#Mostesegradi">Mostesegradi</placeName></orgName>,
+                                <orgName><placeName ref="#Lucca">Lucane</placeName>
+                            dyocesis</orgName></persName>, et <persName ref="#BardusPodioBonizi"
+                        >Bardum de <placeName ref="#Poçobonizo">Podio Bonizi</placeName>, in
+                                <orgName><placeName ref="#Roma"> Romana</placeName>
+                        curia</orgName></persName> commorantes, licet absentes, nostros et Lunensis
+                    ecclesie procuratores, syndicos et deffensores, ambos insimul et quemlibet eorum
+                    in solidum, ita quod occupantis non sit potior condito, in omnibus causis,
+                    litibus, negociis que vel quas habemus vel habere speramus cum <orgName ref="#Sarzana_comune">communi et
+                    hominibus</orgName> de <placeName ref="#Sarzana">Sarzana</placeName> et cum communi et
+                    hominibus <placeName ref="#Ianua">Ianue</placeName> et cum quacumque alia
+                    civitate, communitate, universitate, collegio, loco, capitulo et singulari
+                    persona coram summo pontifice vel coram auditore sive auditoribus datis vel
+                    dandis seu quocumque alio iudice, ecclesiastico vel seculari, ad agendum,
+                    deffendendum, excipiendum, libellum et libellos dandum et recipiendum, litem
+                    contestandum et ad iurandum de calumpnia et de veritate dicenda et ad prestandum
+                        cuilibet<note place="foot" n="b" xml:id="LXXXI_n_002">cuilibet: <emph>così
+                            nel testo per</emph> cuiuslibet.</note> alterius generis iuramenti<note
+                        place="foot" n="c" xml:id="LXXXI_n_003">iuramenti: <emph>così nel testo
+                            per</emph> iuramentum.</note> in animam nostram et ad testes
+                    producendum, instrumenta et alias probationes, sentencias audiendum et
+                    appellandum, si necesse fuerit<note place="foot" n="d" xml:id="LXXXI_n_004"
+                        >fuerit: <emph>corretto su precedente scrittura</emph>.</note>, simul et
+                    pluries et appellationem atque appellationes prosequendum et ad opponendum
+                    crimina et defe<supplied reason="omitted">ct</supplied>us et ad petendum
+                    beneficium restitutionis in integrum et ad omnia alia et singula faciendum que
+                    veri et legitimi procuratores et syndici facere possunt et que nos ipsi facere
+                    possemus, si presentes essemus, et que merita causarum requirunt; dantes eis et
+                    cuilibet eorum nichillominus licenciam et potestatem unum et plures procuratores
+                    constituendi seu sustituendi et nos illum vel illos constituimus quem vel quos
+                    predicti vel alter ipsorum duxerint constituendum sive sustituendum,
+                    promittentes insuper nos habere ratum et firmum et tenere quicquid per predictos
+                    procuratores vel alterum ipsorum et sustitutum seu sustitutos ab eis vel altero
+                    ipsorum factum, gestum seu procuratum fuerit, et volentes predictos nostros
+                    procuratores et sustitutos seu sustitutum ab eis relevare ab omni honere
+                    satisdationis promittimus tibi <persName ref="#IngiffredusBongiorni">Inghifredo,
+                            <roleName>notario</roleName></persName> infrascripto, stipulanti nomine
+                    et vice quorum interest vel interesse posset, sub ypotheca bonorum nostrorum et
+                    ecclesie nostre, iudicatum solvi. </p>
+                <p xml:id="LXXXI_p_002" n="2"> Actum <placeName ref="#Viterbo">Viterbi</placeName>,
+                    in domo <persName ref="#RaineriusViterbo">Ranierii</persName> dicti loci, in qua
+                    moratur suprascriptus dominus episcopus, coram <persName ref="#AlbertusGrendola"
+                            ><roleName>magistro</roleName> Alberto de <placeName ref="#Grendola"
+                                >Grendula<note place="foot" n="e" xml:id="LXXXI_n_005">Grendula:
+                                    <emph>lettura incerta</emph>.</note></placeName>,
+                            <roleName>domini pape scriptore</roleName></persName>, et <persName
+                        ref="#SymonSardi">et Symone quondam domini Sardi de Henricinis de <placeName
+                            ref="#Pontremoli">Pontremulo</placeName></persName>, Lunensis dyocesis,
+                    et <persName ref="#CursusSanctoGiminiano"><roleName>magistro</roleName> Curso de
+                            <placeName ref="#San_Gimignano">Sancto Giminiano</placeName></persName>,
+                    testibus rogatis. <date when="1277-05-13">Anno nativitatis Domini M°CC
+                        septuagesimo VII°, tercio decimo maii, indictione Va, pontificatus domini
+                            <persName ref="#IohannespontifexXXI">Iohannis pape XXI</persName> anno
+                        primo</date>. </p>
+                <p xml:id="LXXXI_p_003" n="3">
+                    <ptr target="LXXXI_st_001"/>
+                    <supplied reason="omitted">Ego</supplied>
+                    <persName ref="#IngiffredusBongiorni_notarius">Ingiffredus Bongiorni de
+                            <placeName ref="#Lucca">Luca</placeName>, <roleName>imperiali
+                            auctoritate iudex et notarius</roleName></persName>, predictis omnibus
+                    interfui et rogatus publice descripsi et meo signo et nomine publicavi; et ad
+                    maiorem firmitatem fecimus presens publicum instrumentum nostri sigilli munimine
+                    roboratum. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="XVI_45">
+		<front xml:id="XVI_front">
+
+			<titlePart type="numerazioneNuova">45</titlePart>
+			<titlePart type="numerazioneOrig">XVI</titlePart>
+
+			<docDate xml:id="XVI_docDate">
+				<date when="1179-04-25"> 1179 aprile 25 </date>, <placeName ref="#Laterano">
+					Laterano (<term xml:lang="latin"> Laterani </term> ). </placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="XVI_regesto">
+				<p>Alessandro III papa conferma al vescovo di Luni Pietro la sentenza già emessa dal
+					pontefice Lucio II a favore del vescovo Gotifredo riguardo la soggezione alla
+					sua autorità del monastero di San Caprasio di Aulla. </p>
+			</div>
+
+			<div type="footer" xml:id="XVI_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] cc. 63v.-64v., cc. LVv.-LVIv. secondo la numerazione originale</p>
+				</div>
+
+				<div type="biblio">
+					<p>Regesto<ref target="#TARGIONI_TOZZETTI_1779">TARGIONI TOZZETTI 1779 </ref>,
+						XI 169-179; <ref target="#SEMERIA_1843">SEMERIA 1843</ref>, II 42; <ref
+							target="#JAFFÉ_1885">JAFFÉ 1885 </ref>, 13399; <ref
+							target="#DESIMONI_1888">DESIMONI 1888</ref>,198;<ref target="#KEHR_1914"
+							>KEHR 1914</ref>, p. 380 </p>
+					<p>Edizione:<ref target="#UGHELLI_1648">UGHELLI 1648</ref>, I, coll. 911-913;
+							<ref target="#UGHELLI_1717">UGHELLI 1717</ref>, I, col. coll. 847-848);
+							<ref target="#PODESTÀ_1894"> PODESTÀ 1894</ref>, pp. 55-58 (parziale);
+							<ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 16, pp.
+						19-21. </p>
+				</div>
+
+				<div type="crit_notes">
+					<note>Nel margine esterno di c. 63v., di mano moderna: <term xml:lang="latin"
+							>Confirmatio Alexandri pape abbatiae de Avula, que subiacet
+							episcopo</term>; nel margine esterno di c. 64r., preceduta da una <term
+							xml:lang="latin"> manicula </term>, la seguente annotazione di mano
+							moderna:<term xml:lang="latin">Nota: <expan>con<ex>secravit</ex></expan>
+							abatiam de Avula.</term>
+					</note>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">XVI. † Privilegium pape Alexandrii de abbatia de Avula.
+						</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="XVI_div">
+				<p xml:id="XVI_p_001">
+					<persName ref="#AlexanderpontifexIII">Alexander <roleName>episcopus, servus
+							servorum Dei</roleName></persName>, venerabili fratri <persName
+						ref="#PetrusEpLuni">Petro, <roleName>Lunensis ecclesie
+						episcopo</roleName></persName>, eiusque successoribus canonice
+					substitudiendis <note xml:id="XVI_n_001" n="a" place="foot"> substitudiendis:
+							<emph>così nel testo per</emph> substituendis.</note> in perpetuum. Cum
+						<hi>universis</hi>
+					<note xml:id="XVI_n_002" n="b" place="foot"> universis: <emph>così nel testo per
+						</emph> universa.</note>, que a predecessoribus nostris Romanis pontificibus
+						docisse<note xml:id="XVI_n_003" n="c" place="foot"> docisse: <emph>così nel
+							testo per </emph> decise.</note>sunt et scripti munimine roborate,
+					nostra quoque debent auctoritate firmari ut recidivum im posterum pati non
+					possit a sede apostolica controversia iam sopita, eapropter venerabilis in
+					Christo frater, <persName ref="#PetrusEpLuni">Petre<roleName>
+							episcope</roleName></persName>, sententiam a predecessore nostro felicis
+					memorie <persName ref="#LuciusII_papa">Lucio</persName>
+					<roleName>papa </roleName>super controversia que inter predecessorem tuum bone
+					memorie <persName ref="#GotefredEpLuni2">Gotefredum, <roleName>Lunensem
+							episcopum</roleName></persName>, et monachos <orgName
+						ref="#Aulla_S_Caprasio" type="monasterium">Sancti Caprasii </orgName>
+					<placeName ref="#Aulla">Avulensis </placeName>de <pb n="64r" xml:id="fol_064r"
+					/>subiectione eiusdem abbatie atque benedictione abbatis et consecratione
+					monasterii promulgata est, auctoritate apostolica confirmamus et ratam et
+					incomvulsam <note xml:id="XVI_n_004" n="d" place="foot"> incomvulsam:
+							in<emph>aggiunto nel margine esterno</emph>.</note>perpetuis temporibus
+					decernimus permanere. Que utique talis noscitur extitisse <note
+						xml:id="XVI_n_005" n="e" place="foot"> extitisse
+							<emph>secondo</emph>ti<emph> aggiunto in sopralinea da mano
+							moderna.</emph></note>. Monachi siquidem <orgName
+						ref="#Aulla_S_Caprasio" type="monasterium">Sancti Capprasii</orgName> de
+						<placeName ref="#Aulla">Avula</placeName>
+					<roleName> electum</roleName> suum bone memorie <persName
+						ref="#Celestinus_abbas">Celestino </persName> presentaverunt et, occasione
+					cuiusdam privilegii quod a felicis recordationis papa Innocentio noviter
+					adquisierant, ipsum ab eo in abbatem instanter postulaverunt. Quod tu audiens,
+					frater episcope, in eiusdem predecessoris nostri presentia asseruisti
+					monasterium ipsum Lunensi ecclesie et tibi subiectum hactenus extitisse et
+					abbates qui decesserant per predecessorem tuum <persName ref="#PhilippusEpLuni3"
+						>Philipum</persName>, qui gravi corporis infirmitate depressus episcopale
+					officium explere non poterat, a <persName ref="#BernardusEpParma">
+						Bernardo</persName>, tunc <roleName>Parmensi episcopo</roleName>, benedictum
+					et monasterium ipsum consecratum esse. Quod, quia<supplied reason="omitted"
+						>i</supplied>idem monachi denegabant et tu ad agendum super hoc imparatus
+					veneras, idem predecessor noster electum ipsum benedicere noluit, sed tam tibi
+					quam eisdem monachis diem preficit, ut tunc utraque pars apostolice <supplied
+						reason="omitted">sedis</supplied> se conspectui presentarent <note
+						xml:id="XVI_n_006" n="f" place="foot"> presentarent:<emph>così nel testo
+							per</emph> presentaret</note>et iustitiam suam per ydoneos testes sive
+					per autentica instrumenta ostenderet. Iterum vero eodem predecessore nostro,
+					sicut Domino placuit, viam universe carnis ingresso<note xml:id="XVI_n_007"
+						n="g" place="foot"> ingresso: o<emph>corretto su precedente
+						lettera</emph></note>, nos qui, licet indigni, Domino disponente, sibi
+					sucessimus, cum statuto termino utraque pars nostro se conspectui presentasset,
+					causam ipsam hinc inde diligenter audivimus et per fratres nostros studiosse
+						<note xml:id="XVI_n_008" n="h" place="foot"> studiosse:<emph>così nel testo
+							per</emph> studiose</note>examinavimus. Monachi siquidem nec <note
+						xml:id="XVI_n_009" n="i" place="foot"> nec:<emph>aggiunto nel margine
+							esterno con segno di richiamo.</emph></note>hec scripta nec testimonia
+					nec aliud quod ratione subnixum foret, nisi prefactum privilegium, pretendebant.
+					Tu vero, frater episcope, duos nobis testes ydoneos, archipresbyteros <orgName
+						ref="#Berceto_S_Moderanno">Sancti Moderani <placeName ref="#Berceto">de
+							Berceto</placeName></orgName>, <persName
+						ref="#Sechelinus_archipresbyter">Sechelinum</persName> nomine, et abbatem
+						<orgName ref="#Ceparana_S_Venanzio" type="monasterium_ecclesia"
+						>Cepperane</orgName>eodem nomine nuncupatum, nobis representasti, iurare
+					paratos quod prefatus <persName ref="#BernardusEpParma"
+								><expan>B<ex>ernardus</ex></expan></persName>, <placeName
+						ref="#Parma">Parmensis </placeName>
+					<roleName>episcopus</roleName>, rogante et post<supplied reason="omitted"
+						>ul</supplied>ante <persName ref="#PhilippusEpLuni3">Philipo<roleName>,
+							Lunensi episcopo</roleName></persName>,monasterium ipsum consecraverit
+					et abbatem benedixerit. Habito itaque fratrum nostrorum consilio, iuramentum
+					eorum recepimus atque benedictionem abbatis et consecrationem monasterii tibi
+					tuisque successoribus et ecclesie Lunensi adiudicavimus et cetera que idem
+						<persName ref="#PhilippusEpLuni3">Philipus</persName> et alii predecessores
+					tui in eodem monasterio habuisse noscuntur. Si vero ipsi monachi quolibel <note
+						xml:id="XVI_n_010" n="j" place="foot"> quolibel:<emph> così nel testo per
+						</emph> quolibet</note> tempore libertatem suam per alia autentica
+					privilegia vel alias evidentes rationes ostendere potera<supplied
+						reason="omitted">n</supplied>t, silentium ei non imponimus. Apostolica
+					igitur autoritate statuimus ut nulli decetero liceat te vel successores tuos
+					super hac ipsius diiudicatione temere inquietare seu quamlibel <note
+						xml:id="XVI_n_011" n="k" place="foot"> quamlibel:<emph> così nel testo per
+						</emph> quamlibet</note>molestiam vel iniuriam irrogare. De benedictione
+					sane abbatis prefati loci quam ei, dum <placeName ref="#Venetia"
+						>Venetie</placeName> essemus, impendimus et de privilegio eidem indulto
+					nullum tibi et ecclesie <supplied reason="omitted">tue</supplied>im posterum
+					volumus preiudicium provenire. Si quis autem huius predecessoris nostri
+					diiudicationis et nostre confirmationis paginam sciens, contra eam venire temp
+						<pb n="64v" xml:id="fol_064v"/>taverit, secundo terciove commonitus, nisi
+					presumptione sua digna satisfatione correxerit, potestatis et honoris<note
+						xml:id="XVI_n_012" n="l" place="foot"> honoris:<emph>segue una lettera non
+							depennata.</emph></note> sui periculum paciatur. Observantibus autem sit
+					pax domini nostri Iesu Christi, quatinus et hic fructum bone actionis <note
+						xml:id="XVI_n_013" n="m" place="foot"> actionis:<emph>nel testo una lettera
+							abrasa tra</emph>i<emph>ed</emph>o</note>percipiant et apud districtum
+					iudicem premia eterne pacis inveniant. Amen, amen, amen. </p>
+				<p xml:id="XVI_p_002">
+					<ptr target="XVI_r_001"/>Ego <persName ref="#AlexanderpontifexIII"
+						>Alexander</persName>,<roleName> catholice ecclesie episcopus</roleName>,
+					subscripsi. <ptr target="XVI_bn_001"/>
+				</p>
+				<p xml:id="XVI_p_003"> Ego <persName ref="#Hubaldus_episcopus">Hubaldus</persName>,
+						<placeName ref="#Ostia">Hostiensis</placeName>
+					<roleName>episcopus</roleName>, subscripsi. </p>
+				<p xml:id="XVI_p_004"> Ego <persName ref="#Sadiac_cardinalis">Sadiac</persName>,
+						<roleName>cardinalis</roleName>
+					<orgName ref="#Roma_S_Maria_Cosmedin" type="ecclesia">Sancte Marie in
+						Cosmidyn</orgName>, subscripsi. </p>
+				<p xml:id="XVI_p_005"> Ego <persName ref="#Arditio_cardinalis">Arditio</persName>,
+						<roleName>diaconus cardinalis</roleName>
+					<orgName ref="#Roma_S_Teodoro">Sancti Theodori</orgName>, subscripsi. </p>
+				<p xml:id="XVI_p_006"> Ego <persName ref="#Laborans_cardinalis">Laborans</persName>,
+						<roleName>diaconus cardinalis</roleName>
+					<orgName ref="#Roma_S_Maria_in_Portico_Octaviae">Sancte Marie in
+						Porticu</orgName>, subscripsi. </p>
+				<p xml:id="XVI_p_007"> Ego <persName ref="#Rainerius_cardinalis2"
+						>Rainerius</persName>, <roleName>diaconus cardinalis</roleName>
+					<orgName ref="#Roma_S_Giorgio_Velabro" type="ecclesia">Sancti Georgii ad Vellum
+						Aureum</orgName>, subscripsi. </p>
+				<p xml:id="XVI_p_008"> Ego <persName ref="#Bratianus_cardinalis">Bratianus<note
+							xml:id="XVI_n_014" n="n" place="foot"> Bratianus:<emph>così nel testo
+								probabilmente per</emph>i<emph>ed</emph>
+					Gratianus</note></persName>, <roleName>diaconus cardinalis</roleName>
+					<orgName ref="#Roma_SS_Cosma_Damiano" type="basilica">Sanctorum Cosme et
+						Damiani</orgName>, subscripsi.</p>
+				<p xml:id="XVI_p_009">
+					<supplied reason="omitted">Ego</supplied>
+					<persName ref="#Iohannes_cardinalis4">Iohannas</persName><note
+						xml:id="XVI_n_015" n="o" place="foot"> Iohannas:<emph>così nel
+						testo</emph></note>, <roleName>diaconus cardinalis</roleName>
+					<orgName ref="#Roma_S_Angelo_Pescheria" type="ecclesia">Sancti Angeli</orgName>,
+					subscripsi. </p>
+				<p xml:id="XVI_p_010"> Ego <persName ref="#Raynerius_cardinalis"
+						>Raynerius</persName>, <roleName>diaconus cardinalis</roleName>
+					<orgName ref="#Roma_S_Adriano_Foro" type="ecclesia">Sancti Adriani</orgName>,
+					subscripsi. </p>
+				<p xml:id="XVI_p_011"> Ego <persName ref="#Matheus_cardinalis1">Matheus</persName>,
+						<orgName ref="#Roma_S_Maria_Nuova">Sancte Marie Nove</orgName>
+					<roleName>diaconus cardinalis</roleName>, subscripsi. </p>
+				<p xml:id="XVI_p_012"> Ego <persName ref="#Bernardus_cardinalis"
+						>Bernardus</persName>, <roleName>diaconus cardinalis</roleName>
+					<orgName ref="#Roma_S_Nicola_Carcere">Sancti Nicolai in Carcere
+						Tulliano</orgName>, subscripsi. </p>
+				<p xml:id="XVI_p_013"> Ego <persName ref="#Iohannes_cardinalis1"
+					>Iohannes</persName>, <roleName>presbyter cardinalis</roleName>
+					<orgName ref="#Roma_S_Giovanni_Paolo">Sanctorum Iohannis et Pauli tituli
+						Pamachii</orgName>, subscripsi. </p>
+				<p xml:id="XVI_p_014"> Ego <persName ref="#Iohannes_cardinalis2"
+					>Iohannes</persName>, <roleName>presbyter cardinalis</roleName> tituli <orgName
+						ref="#Roma_S_Anastasia">Sancte Anastasie</orgName>, subscripsi. </p>
+				<p xml:id="XVI_p_015"> Ego <persName ref="#Iohannes_cardinalis3"
+					>Iohannes</persName>, <roleName>presbyter cardinalis</roleName> tituli <orgName
+						ref="#Roma_S_Marco">Sancti Martii</orgName>, subscripsi. </p>
+				<p xml:id="XVI_p_016"> Ego <persName ref="#Teodinus_cardinalis">Teodinus</persName>,
+						<roleName>presbyter cardinalis</roleName>
+					<orgName ref="#Roma_S_Vitale">Sancti Vitalis tituli Vestine</orgName>,
+					subscripsi. </p>
+				<p xml:id="XVI_p_017"> Ego <persName ref="#Petrus_cardinalis2">Petrus</persName>,
+						<roleName>presbyter cardinalis</roleName> tituli <orgName
+						ref="#Roma_S_Susanna">Sancte Susane</orgName>, subscripsi. </p>
+				<p xml:id="XVI_p_018"> Ego <persName ref="#Petrus_cardinalis3">Petrus</persName>,
+						<roleName>presbyter cardinalis</roleName> tituli <orgName
+						ref="#Roma_S_Crisogono">Sancti Brisogoni</orgName><note xml:id="XVI_n_016"
+						n="p" place="foot"> Brisogoni:<emph>così nel testo per </emph>
+						Crisogoni</note>, subscripsi. </p>
+				<p xml:id="XVI_p_019"> Ego <persName ref="#Cintheus_cardinalis">Cintheus</persName>,
+						<roleName>presbyter cardinalis</roleName> tituli <orgName
+						ref="#Roma_S_Cecilia_Trastevere" type="basilica">Sancte Cecilie</orgName>,
+					subscripsi. </p>
+				<p xml:id="XVI_p_020"> Ego <persName ref="#Hugo_episcopus">Hugo</persName>,
+						<roleName>presbyter cardinalis</roleName> tituli <orgName
+						ref="#Roma_S_Clemente_Laterano" type="basilica">Sancti Clementis</orgName>,
+					subscripsi. </p>
+				<p xml:id="XVI_p_021"> Ego <persName ref="#Arduinus_cardinalis">Arduinus</persName>,
+						<roleName>presbyter cardinalis</roleName> tituli <orgName
+						ref="#Roma_S_Croce">Sancte Crucis in Ierusalem</orgName>, subscripsi. </p>
+				<p xml:id="XVI_p_022"> Ego <persName ref="#Matheus_cardinalis2">Matheus</persName>,
+						<roleName>presbyter cardinalis</roleName>
+					<orgName ref="#Roma_S_Marcello">Sancti Marcelli</orgName>, subscripsi. </p>
+				<p xml:id="XVI_p_023"> Datum <placeName ref="#Laterano">Laterani</placeName>, per
+					manum <persName ref="#Albertus_cardinalis">Alberti</persName>, <roleName>Sancte
+						Romane Ecclesie presbyteri cardinalis et cancellarii</roleName>, <date
+						when="1179-04-25">VII kalendas maii, indictione XII, incarnationis dominice
+						anno M°C°LXX°VIIII°, pontificatus vero domini Alexandri pape III anno eius
+						XX°. </date>
+				</p>
+				<p xml:id="XVI_p_024"> </p>
+			</div>
+		</body>
+	</text>
+</TEI>

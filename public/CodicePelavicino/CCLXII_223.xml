@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXII_223">
+    <front xml:id="CCLXII_front">
+
+      <titlePart type="numerazioneNuova">223</titlePart>
+      <titlePart type="numerazioneOrig">CCLXII</titlePart>
+
+      <docDate xml:id="CCLXII_docDate">
+        <date when="1180-12-06">1180 dicembre 6</date>, <placeName>Soliera (<term xml:lang="latin"
+            >apud castrum Solerie, in canonica</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXII_regesto">
+        <p>Rodolfo di Ponzano, Veido e Lanfranco di Erberia restituiscono a Pietro, vescovo di Luni,
+          il pegno della <term xml:lang="latin">curia</term> di Soliera, che il vescovo stesso aveva
+          dato loro in cambio di denaro.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 268v., c. CCLXv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 262,
+            p. 241.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il 6 dicembre cadeva di sabato nel 1180. Quest’anno però rientrava nel ciclo
+            indizionale XIV, e non XIII, seguendo lo stile fiorentino dell’incarnazione. Rimandendo
+            quindi saldi sull’anno, due sono le ipotesi formulabili sulla datazione: o è stata usata
+            l’indizione genovese, che contava un’unità in meno rispetto alla bedana, ma che a Genova
+            era usata di norma in abbinamento con lo stile della natività, oppure il copista ha
+            tralasciato un’asticella al numero dell’indizione, che era in realtà la XIIII nella
+            perrgamena originale.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXII_div">
+        <p xml:id="CCLXII_p_001" n="1">
+          <pb n="268v" xml:id="fol_268v"/>In presentia testium, quorum nomina hic sunt <supplied
+            reason="omitted">et</supplied> subter leguntur. <persName ref="#RodulfusPonzano"
+            >Rodulfus de <placeName ref="#Ponzano">Panzano</placeName></persName><note
+            xml:id="CCLXII_n_001" n="a" place="foot"><term type="incerto">Panzano</term>: <emph>così
+              nel testo, forse per</emph>
+            <term xml:lang="latin">Ponzano</term>.</note>, <persName ref="#Veido">Veido</persName>
+          et <persName ref="#LanfrancusHerberia">Lanfrancus de <placeName ref="#Erberia"
+              >Herberia</placeName></persName> fecerunt finem et refutationem in manibus domini
+            <persName ref="#PetrusEpLuni">Petri, Dei gratia venerabilis <roleName>Lunensis
+              episcopi</roleName></persName>, de pignore tocius curie de <placeName ref="#Soliera"
+            >Soleria</placeName> quod a <persName ref="#PipEpLuni">Pipino, quondam
+              <roleName>episcopo</roleName> prefati episcopatus</persName>, pro denariis eorum
+          acommodatis receperunt. Quod autem suprascriptum pignus ab hac die in antea nos iamdicti
+            <persName ref="#RodulfusPonzano">Rodulfus</persName>, <persName ref="#Veido"
+            >Veido</persName> et <persName ref="#LanfrancusHerberia">Lanfrancus</persName> non
+          molestabimur nec cambimur<note xml:id="CCLXII_n_002" n="b" place="foot"><term
+              xml:lang="latin">molestabimur nec cambimur</term>: <emph>così nel testo</emph>.</note>
+          aliquo modo, et quod semel voluimus vel fecimus semper inviolabiliter conservare
+          promittimus, sub stipulatione subnixa.</p>
+        <p xml:id="CCLXII_p_002" n="2">Actum apud <placeName ref="#Soliera">castrum
+            Solerie</placeName>, in canonica, feliciter, <date when="1180-12-06">anno dominice
+            incarnationis MC octuagesimo, in nativitate sancti Nicholai, qui est die sabbati,
+            indictione XIII</date>.</p>
+        <p xml:id="CCLXII_p_003" n="3"># # # Signa manuum suprascriptorum <persName
+            ref="#RodulfusPonzano">Rodulfi</persName>, <persName ref="#LanfrancusHerberia"
+            >Lanfranci</persName>, <persName ref="#Veido">Veidonis</persName>, qui hanc cartam fieri
+          rogaverunt. <persName ref="#WuilielmusAlbus">Wilielmus Albus de <placeName ref="#Vezzano"
+              >Vezano</placeName></persName>, <persName ref="#BonfiliusarcSol">donnus Bonfilius
+              <roleName>archipresbyter de <placeName ref="#Soliera"
+            >Soleria</placeName></roleName></persName>, <persName ref="#PilusRicii">Pilus
+            Ricii</persName>, <persName ref="#GerardinusMontione">Gerardinus de Montione</persName>,
+            <persName ref="#Verrinus">Verrinus</persName>, <persName ref="#Caccius"
+            >Caccius</persName>, <persName ref="#VenturaSarzana">Ventura de <placeName
+              ref="#Sarzana">Sarzana</placeName></persName>, rogati testes, interfuerunt.</p>
+        <p xml:id="CCLXII_p_004" n="4"><ptr target="#CCLXII_st_001"/> Ego <persName
+            ref="#Albertusnot">Albertus, <roleName>notarius</roleName> imperatoris Frederici
+            invictissimi</persName>, hanc cartam refutationis scripsi, postea complevi et dedi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

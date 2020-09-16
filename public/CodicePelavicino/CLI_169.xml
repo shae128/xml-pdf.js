@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CLI_169">
+    <front xml:id="CLI_front">
+
+      <titlePart type="numerazioneNuova">169</titlePart>
+      <titlePart type="numerazioneOrig">CLI</titlePart>
+
+      <docDate xml:id="CLI_docDate">
+        <date when="1236-04-12">1236 aprile 12</date>, <placeName> Sarzanello <emph>(<term
+              xml:lang="latin">in curia Lunensi</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CLI_regesto">
+        <p>Guglielmo, vescovo di Luni, investe Bonensegna, che fu <term xml:lang="latin">de
+            Villiano</term>, di tutto il podere che Imelda, sua moglie, aveva a titolo di dote e che
+          un tempo Domenico di Ponzanello, suo suocero, teneva dalla curia di Luni. Sono salvi i
+          diritti dei figli avuti da Imelda nel precedente matrimonio. Il prezzo della transazione
+          ammonta a 10 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CLI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [CP] c. 243v., c. CCXXXVv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 151,
+            p. 187.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il luogo di redazione dell’atto è dedotto dalla localizzazione della <emph>curia
+              Lunensis</emph>, posta <emph>in castro Sarzane</emph>, come attestato in numerosi
+              atti.<p>Stesura <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla presenza
+              di Bonagiunta de Podio di Lucca.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CLI_div">
+        <p xml:id="CLI_p_001" n="1">In Dei nomine, amen.<date when="1236-04-12">M°CC°XXXVI°,
+            indictione IXa, die sabbati, XII intrantis mensis aprilis</date>, in <placeName
+            ref="#Sarzanello">curia Lunensi</placeName>, coram <persName ref="#RollandusVagus"
+            >Rollando Vago</persName>, <persName ref="#Ricandusnot">Ricando
+              <roleName>notario</roleName></persName>, <persName ref="#AidansPonz">Aidanto de
+              <placeName ref="#Ponzanello">Ponzanello</placeName></persName>, <persName
+            ref="#UbertusZurri">Uberto Çurri Lucano</persName> et pluribus aliis rogatis testibus.
+          Venerabilis <persName ref="#GuilEpLuni">Guilielmus, Dei gratia <roleName>Lunensis
+              episcopus</roleName></persName>, suo et episcopatus nomine, nomine<note place="foot"
+            n="a" xml:id="CLI_n_001"><term type="incerto">nomine – dicti</term>: <emph>così nel
+              testo. Lo scriba ha probabilmente omesso di trascrivere la riga del documento
+              originale in cui si dichiarava l’azione del vescovo e si nominava per la prima volta
+              Boninsegna.</emph></note> dotis pro <persName ref="#Ymelda">Ymelda quondam <persName
+              ref="#DominicusPonzanello">Dominici</persName>, uxore dicti <persName
+              ref="#BonensegnaVilliano">Bonensegne, qui fuit de <placeName ref="#Villiano"
+                >Villiano</placeName></persName></persName>, totum podere et tenutam atque
+          possessionem <persName ref="#Ymelda">Ymelde</persName> suprascripte et quondam <persName
+            ref="#DominicusPonzanello">Dominici, patris sui de <placeName ref="#Ponzanello"
+              >Ponzanello</placeName></persName>, salvo iure filiorum quos ipsa habuit de <persName
+            ref="#Todeschinus">Todeschino</persName>, olim viro suo, eo iure et usu quo olim
+            <persName ref="#DominicusPonzanello">Dominicus, pater dicte <persName ref="#Ymelda"
+              >Ymelde</persName></persName>, a Lunensi curia habebat, faciendo et prestando Lunensi
+          curie omnes illos redditus, condictiones et servicia seu usantias que exinde reddi et
+          prestari consueverant tantum, quicquid sit et cetera, pro X soldis imperialium, quos
+          confessus fuit se inde a <persName ref="#BonensegnaVilliano">Bonensegna</persName>
+          servicium recepisse, et sic ipsum <persName ref="#BonensegnaVilliano"
+            >Bonensegnam</persName> investivit de podere predicto.</p>
+      </div>
+      <div xml:id="CLI_div2" type="mundum">
+        <p xml:id="CLI_p_002" n="2"><ptr target="#CLI_st_001"/>Ego <persName
+            ref="#HengeramusParentisnot">Hengherramus quondam Parentis de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName>, <roleName>palatii sacri
+              notarius</roleName></persName>, hanc cartam olim a <persName ref="#Bonencontrusnot"
+            >Bonencontro <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in
+          eius sceda et in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et
+          auttenticavi et in publicam formam redegi, auctoritate et decreto super hiis michi
+          prestita et concesso a <persName ref="#Bonaiunctaiud"><roleName>domino</roleName>
+            Bonaiuncta de <placeName ref="#PodioLucca">Podio de Luca</placeName></persName>,
+            <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia
+              <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre domino <persName
+            ref="#GuilEpLuni">Guilielmo, <roleName>Lunensi episcopo</roleName></persName>, et
+          <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName>, de qua auctoritate constat per
+          instrumentum publicum factum manu <persName ref="#Alcheriusnot">Alcherii
+              <roleName>notarii</roleName> de <placeName ref="#Lucca">Luca</placeName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 169-CLI databile tra il 1270 e il
+            1272 dalla presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

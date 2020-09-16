@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="XLIIII_72">
+        <front xml:id="XLIIII_front">
+            <titlePart type="numerazioneNuova">72</titlePart>
+            <titlePart type="numerazioneOrig">XLIIII</titlePart>
+            <docDate xml:id="XLIIII_docDate">
+                <date when="1230-09-03">1230 settembre 3</date>, <placeName>Sarzana (<term
+                        xml:lang="latin">in loco Sarzane</term>).</placeName>
+            </docDate>
+            <div type="regesto" xml:id="XLIIII_regesto">
+                <p> Il vescovo di Luni Guglielmo e i procuratori del comune di Sarzana Boldroncino,
+                    Prefetto e Romeo, eletti da Bellebono vicario di Guido podestà di Sarzana,
+                    dettano le condizioni cui devono sottostare gli uomini di Arcola che si
+                    intendono trasferirsi a Sarzana. In particolare si stabilisce che ciascuno debba
+                    ricevere dal vescovo un casamento lungo più di 30 bracci e largo più di
+                    quattordici e che il comune debba approntare lo spazio necessario per la
+                    costruzione. Ai nuovi abitanti non devono essere richiesti oneri per i 6 anni
+                    successivi, eccetto che quanto attiene alla difesa e alla guerra; sono tenuti
+                    tuttavia a lavorare o contribuire finanziariamente per sostenere i lavori.
+                    Devono inoltre risiedere a Sarzana per più di cinque mesi all’anno, pena la
+                    perdita della dimora. </p>
+            </div>
+            <div type="footer" xml:id="XLIIII_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] cc. 133v.-134r., cc. CXXVv.-CXXVIr. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizioni in <ref target="#HPM_CHARTARUM">HPM CHARTARUM</ref>, II, pp.
+                        1371-1373; <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 44,
+                        p. 65; <ref target="#CONTI_1979-1988">CONTI 1978-1988</ref>,I, doc. XI, pp.
+                        57-58***</p>
+                </div>
+                <div type="crit_notes">
+                    <note> Il documento è pressoché identico al n. 75-XLVII. Mancano tuttavia
+                        sottoscrizione notarile, i testimoni e la ricezione del giuramento di
+                        fedeltà; la data topica è inoltre generica. Queste e altre piccole
+                        variazioni fanno ipotizzare la derivazione da un diverso antigrafo. </note>
+                    <note> Parte del testo è stata letta con l’ausilio della luce di Wood. </note>
+                    <note> Nel margine esterno di c. 133v., di mano moderna: <emph>Pacta inter
+                            Sarzanenses et episcopum.</emph> A c. 134r. la pergamena presenta nella
+                        parte mediana un foro anteriore alla scrittura, che non intacca il testo.
+                    </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">XLIIII. Illorum de Arcula, burgensium
+                        Sarçane.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="XLIIII_div">
+                <pb n="133v" xml:id="fol_133v"/>
+                <p xml:id="XLIIII_p_001" n="1"> In nomine sancte et individue Trinitatis, amen.
+                    Scriptum memoriale de cetero valiturum tale est et huiusmodi quod, cum
+                        <roleName>dominus</roleName>
+                    <persName ref="#GuilEpLuni">Guilielmus</persName>, <roleName>divina patiencia
+                        Lunensis episcopus</roleName>, cum <persName ref="#Boldroncinus_gestor"
+                        >Boldroncino</persName>, <persName ref="#Prefectus_gestor"
+                        >Prefecto</persName> atque <persName ref="#Romeus_gestor">Romeo</persName>,
+                    <roleName>gestoribus et procuratoribus</roleName> <orgName ref="#Sarzana_comune">communis</orgName>, <placeName
+                        ref="#Sarzana">Sarzane</placeName>, a <persName ref="#Bellebonus"
+                        >Bellebono</persName>, vicario <roleName>domini</roleName>
+                    <persName ref="#Guido_potestas">Guidonis</persName>
+                    <roleName>potestatis</roleName>
+                    <placeName ref="#Sarzana">Sarzane</placeName>, atque a consilio ipsius loci
+                    electis super facto casamentorum et burgensium venientium <placeName
+                        ref="#Sarzana">Sarzanam</placeName> ad habitandum, ordinassent, statuerunt
+                    et pronunciaverunt predicti procuratores, auctoritate quam habent in consilio
+                    predicti loci <placeName ref="#Sarzana">Sarzane</placeName>, predicto consilio
+                    presente, ut omnibus personis, que <placeName ref="#Sarzana"
+                        >Sarzanum</placeName> venerunt<note place="foot" n="a" xml:id="XLIIII_n_001"
+                            >venerunt:<emph>così nel testo per</emph> venerint, <emph>cfr. doc.
+                            75-XLVII.</emph></note> ad habitandum, atque specialiter illis de
+                        <placeName ref="#Arcola">Arcula</placeName>, que similiter ibi venerint,
+                        debeant<note place="foot" n="b" xml:id="XLIIII_n_002">ut omnibus
+                        personis-debeant: <emph>così nel testo, cfr. doc. 75-XLVII.</emph></note> ex
+                    dato domini predicti episcopi habere, quilibet eorum, casamentum longum de
+                    triginta brachiis et amplum de quatuordecim, et ante ambas rugas sit amplum
+                    carubium de tresdecim brachiis. Que casamenta debeant dari et locari a domino
+                    Lunensi episcopo inter burgum atque castrum, iuxta foveas burgi, tantam<note
+                        place="foot" n="c" xml:id="XLIIII_n_003">tantam: <emph>così nel testo per
+                            tantum, cfr. doc. 75-XLVII.</emph></note> per longitudinem, iuxta ipsas
+                    foveas, quantum protenduntur fovee burgi ab angulo subcario<note place="foot"
+                        n="d" xml:id="XLIIII_n_004">subcario: <emph>così nel testo, probabile errore
+                            di lettura da parte dello scriba per</emph>subtano, <emph>cfr. doc.
+                            75-XLVII.</emph></note> de burgo, scilicet superius ab illa parte castri
+                    usque ad plateam fori <placeName ref="#Carcandola">Carcandule</placeName>; et
+                    alia ruga similiter fiat pro eis versus faciem predicte prime ruge carubio
+                    suprascripto seu via mediante, iuxta tenorem et pactionem publici instrumenti
+                    facti per manum <persName ref="#Confortus">Conforti</persName>
+                    <roleName>notarii</roleName>, ita ut suprascriptum commune vel hii, qui pro
+                    communi sunt electi, erruere et explanare debeant foveas novas, que sunt in
+                    fronte casamenti <persName ref="#Datusiur">Dati</persName>
+                    <roleName>iudicis</roleName>, usque ad expletam mensuram suprascriptorum
+                    casamentorum et erruere casas, que sunt in fronte suprascripti carubii seu vie,
+                    que fiunt ibi usque ad plateam <placeName ref="#Carcandola"
+                        >Carcamdule</placeName>, et insuper erruere casas de clausura<note
+                        place="foot" n="e" xml:id="XLIIII_n_005">clausura: <emph>lettura incerta a
+                            causa dell’inchiostro sbiadito, cfr. doc. 75-XLVII.</emph></note>, que
+                    invenientur in fronte eiusdem vie. Tamen illi, quibus e<supplied
+                        reason="omitted">rruen</supplied>tur eorum case modo predicto, ibi magis
+                    proxime, scilicet in cursu eodem ubi fient alia casamenta, <supplied
+                        reason="omitted">casas eorum ad</supplied> predictam mensuram<note
+                        place="foot" n="f" xml:id="XLIIII_n_006">casas eorum ad predictam mensuram:
+                            <emph>nel testo</emph> casas ad predictam eorum mensuram <emph>con segno
+                            di richiamo per invertire l’ordine delle parole.</emph></note> possint
+                    facere, si non fuerit ille <supplied reason="omitted">qui admiserit
+                        suum</supplied> casamentum in <placeName ref="#Carcandola"
+                        >Carcandula</placeName>, cui dominus episcopus debeat <supplied
+                        reason="omitted">pro duabus partibus emendare</supplied>, et illi, qui iuxta
+                    ipsum casamentum fuerint, pro tercia parte similiter <supplied reason="omitted"
+                        >emendent</supplied>. Burgenses vero seu habitatores <placeName
+                        ref="#Sarzana">Sarzane</placeName> non habentes casas proprias in loco
+                        <placeName ref="#Sarzana">Sarzane</placeName>, si habent terrenum seu ortum
+                    infra suprascriptum circuitum atque ipsi ibi voluerint facere eorum casas, ibi
+                    possint facere, si voluerint: et hoc ad terminum illum qui statutus fuerit
+                    suprascriptis burgensibus de <placeName ref="#Arcola">Arcula</placeName> pro
+                    eorum casamentis faciendis. Insuper supradictum commune debeat remittere ipsis
+                    venientibus de <placeName ref="#Arcola">Arcula</placeName> operas, collectas et
+                    factiones et prestancias, quas alii burgenses facient de cetero pro communi
+                    usque ad sex annos proximos expletos, exceptis guaitis, hostibus et
+                        calvalcatis<note place="foot" n="g" xml:id="XLIIII_n_007">calvalcatis:
+                            <emph>così nel testo per </emph>cavalcatis</note> pro communi faciendis.
+                    Item debeat suprascriptum commune, receptis ab eis sacramentis pro ipso communi
+                    coram potestate, facere fieri ita quod per quemlibet fumum <placeName
+                        ref="#Sarzana">Sarzane</placeName>, qui asinum vel somerium habent , unam
+                    operam pro eorum <pb n="134r" xml:id="fol_134r"/>hedificiis eorum casamentorum
+                    adducendis, per quamlibet ebdomadam debeat dare<note place="foot" n="h"
+                        xml:id="XLIIII_n_008">Item-debeat dare: <emph>così nel testo.</emph></note>.
+                    Qui vero habent boves seu asinos similiter dent unam operam; et qui non
+                        habueri<supplied reason="omitted">n</supplied>t boves seu asinos faciant
+                    dari et dent denarios IIIIor imperialium in qualibet ebdomada, scilicet illa die
+                    qua alii burgenses sui vicini pro dictis hedificiis adducendis ad<supplied
+                        reason="omitted">h</supplied>ibunt, usque quo fuerint predicta hedificia ad
+                    predictum locum <placeName ref="#Sarzana">Sarzane</placeName> deducta. Qui
+                    denarii deveniant ad manus <persName ref="#GerardinusManno">Gerardini de
+                        Manno</persName>, quos ipse debeat dare in suprascripto opere faciendo. Hec
+                    enim opera fiant, ut dictum est, nisi quando iusto impedimento remaneat<note
+                        place="foot" n="l" xml:id="XLIIII_n_009">remaneat: <emph>nel testo</emph> a
+                            <emph>aggiunto in sopralinea su precedente segno generico di
+                            abbreviazione depennato.</emph></note>. Et ex hoc vult dictum commune
+                    quod predicta casamenta a predictis de <placeName ref="#Arcola"
+                        >Arcula</placeName> debeant fieri et hedificari et habitari usque per totum
+                    mensem aprilis proxime et antea, si poterint, et postea perpetuo ipsi et eorum
+                    descendentes teneantur habitare ipsa casamenta seu locum per se atque eorum
+                    heredes; atque, si quis eorum vel eorum heredes steterit quod non habitaverit
+                    suprascriptum locum seu casamentum per quinque menses completos per annum, quod
+                    ab inde in antea suprascriptum suum casamentum cum hedif<supplied
+                        reason="omitted">iciis cadat</supplied> in ius et proprietatem domini
+                    Lunensis episcopi et predicti communis. Item suprascriptum commune debeat facere
+                    suprascriptis burgensibus de <placeName ref="#Arcola">Arcula</placeName> et
+                    omnibus de <placeName ref="#Sarzana">Sarzana</placeName> viam et carubium bonum
+                    atque largum, per quem possint ire et uti, scilicet per angulum subtanum
+                    predicte fovee de <placeName ref="#Carcandola">Carcandula</placeName>, qui
+                    angulus est in fronte casamenti Dati iudicis seu fovearum communis, que sunt
+                    iuxta furnum et cymiterium <orgName ref="#Sarzana_S_Andrea">Sancti
+                        Andree</orgName>. Portam et carubium debeat facere predictum commune bonum
+                    et largum hinc inde, per quem possint ire et uti omnes homines inde transeuntes
+                    ad <placeName ref="#StrataRomea">stratam Romeam</placeName> suprascripti burgi.
+                    Omnia vero, que superius leguntur, pro suprascripto communi data sunt et
+                    concessa atque promissa hominibus de <placeName ref="#Arcola">Arcula</placeName>
+                    venientibus <placeName ref="#Sarzana">Sarzanum</placeName> habitatum, modo
+                    predicto, in consilio dicti burgi a <persName ref="#Bellebonus"
+                        >Bellebono</persName>, <roleName>vicario</roleName> predicto, et <persName
+                        ref="#Boldroncinus_gestor">Boldroncino</persName>, <persName
+                        ref="#Prefectus_gestor">Prefecto</persName> et <persName
+                        ref="#Romeus_gestor">Romeo</persName>, <roleName>gestoribus</roleName> et
+                        <roleName>procuratoribus</roleName> suprascripti communis super predictis
+                    negociis, auctoritate quam habent, consensu et assensu predicti consilii
+                    presentis <supplied reason="omitted">et</supplied> consiliariorum ipsius loci,
+                        faciendis<note place="foot" n="m" xml:id="XLIIII_n_010"><emph>Dopo faciendis
+                            spazio di tre righe.</emph></note>. </p>
+                <p xml:id="XLIIII_p_002" n="2"> Acta sunt hec in predicto loco <placeName
+                        ref="#Sarzana">Sarzane</placeName>
+                    <date when="1230-09-03">anno a nativitate Dei millesimo ducentesimo XXX,
+                        indictione tercia, die qui fuit tercio intrantis mensis septembris</date>.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

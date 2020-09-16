@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXLIbis_159">
+    <front xml:id="CXLIbis_front">
+
+      <titlePart type="numerazioneNuova">159</titlePart>
+      <titlePart type="numerazioneOrig">manca</titlePart>
+
+      <docDate xml:id="CXLIbis_docDate">
+        <date when="1267-11-30">1267 novembre 30</date>, <placeName>Ponzanello (<term
+            xml:lang="latin">ante portam castri de Ponzanello, iuxta murum subtanum, in publico
+            parlamento</term>)</placeName>.</docDate>
+
+      <div type="regesto" xml:id="CXLIbis_regesto">
+        <p>I consoli di Ponzanello, Amico del fu Gerardino e Ottonello, figlio di Ponzanino del fu
+          Folberto, giurano gli statuti un tempo concordati tra il vescovo di Luni Guglielmo e gli
+          uomini del luogo.</p>
+      </div>
+
+      <div type="footer" xml:id="CXLIbis_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 239r.- 239v., c. CCXXXIr.- CCXXXIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912bis">LUPO GENTILE 1912</ref>, n. 141 bis, p.
+            178.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine interno di c. 239r., di mano moderna: <term xml:lang="latin"
+              >Ponzanelo</term>. Il documento non è numerato. Parte del testo è stata letta con
+            l’ausilio della lampada di Wood.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CXLIbis_div">
+        <p xml:id="CXLIbis_p_001" n="1">In Dei nomine, amen.<date when="1267-11-30"> Anno a
+            nativitate Eius M°CCLXVII, indictione X, ultimo novembris</date>. <persName
+            ref="#AmicusGerardini">Amicus quondam Gerardini</persName> et <persName
+            ref="#OctonellusFloberti">Octonellus, natus Ponçanini quondam Folberti</persName>,
+          electi <roleName>consules</roleName> de voluntate et expresso consensu venerabilis patris
+          domini <persName ref="#GuilEpLuni">Guilielmi, Dei gratia <roleName>Lunensis
+            episcopi</roleName></persName>, <orgName ref="#Ponzanello_comune">communis et universitatis</orgName> de <placeName
+            ref="#Ponzanello">Ponzanello</placeName>, de licencia dicte universitatis, ibidem
+          presentis, iuraverunt ad sancta Dei Evangelia attendere et observare statuta olim facta
+          inter ipsum dominum episcopum et predictum commune de <placeName ref="#Ponzanello"
+            >Ponzanello</placeName> et ipsa observari et attendi facere hominibus dicte terre toto
+          tempore ipsorum consulatus; et ipsi homines omnes hoc idem iuraverunt ut dictum est.</p>
+        <p xml:id="CXLIbis_p_002" n="2">Actum ante portam <placeName ref="#Ponzanello">castri de
+            Ponzanello</placeName>, iuxta murum subtanum, in publico parlamento more solito ibidem
+          coadunato, presentibus etiam <persName ref="#Melanese">Melanese</persName> et <persName
+            ref="#BonaiunctaPesticio">Bonaiuncta dicto Pisticio</persName> et <persName
+            ref="#IacominusSol">Iacomino de <placeName ref="#Soliera"
+          >Soleria</placeName></persName>, testibus ad hec rogatis.</p>
+        <pb n="239v" xml:id="fol_239v"/>
+        <p xml:id="CXLIbis_p_003" n="3"><ptr target="#CXLIbis_st_001"/> Ego <persName
+            ref="#Peregrinusnot">Peregrinus, <roleName>summi pontificis auctoritate notarius ac
+              iudex ordinarius</roleName></persName>, hiis omnibus interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

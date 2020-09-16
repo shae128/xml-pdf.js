@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXXXV_346">
+    <front xml:id="CCCLXXXV_front">
+
+      <titlePart type="numerazioneNuova">346</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXVXXXV</titlePart>
+
+      <docDate xml:id="CCCLXXXV_docDate">
+        <date when="1223-04-15">1223 aprile 15</date>, <placeName>Sarzana (<term xml:lang="latin">in
+            burgo Sarzane, in domo quondam Philippini</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXXXV_regesto">
+        <p>Il giudice Iacopino di Norandino sentenzia nella causa vertente tra Bonavita <term
+            xml:lang="latin">de Balognano</term>, figlio del fu Giovanni, da una parte e Bernardo di
+          Sommovigo con la moglie Romea del fu Gerardino di Sorbo dall’altra. L’oggetto della causa
+          è un podere gestito per conto del vescovo ora da Bonfante di Ameglia, ma prima da
+          Giovanni, padre di Bonavita, e detto del fu Gerardino Bifolco e del fu Nuvolone,
+          all’interno del manso di Balognano. Il giudice, essendo contumaci i coniugi Bernardo e
+          Romea, assegna il podere a Bonavita, a meno che i detti coniugi non paghino le spese
+          processuali entro un anno e un giorno.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXXXV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 318r.-318v., cc. CCCXr.-CCCXv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 385,
+            pp. 364-365.</p>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXXXIIII. Sententie pro Bonavita in Balognano.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXXXV_div">
+        <p xml:id="CCCLXXXV_p_001" n="1"> In nomine Domini, amen. Causa erat inter <persName
+            ref="#BonavitaBalognano">Bonavitam de <placeName ref="#Balognano">Balognano</placeName>,
+            filium quondam Iohannis</persName>, ex una parte, et <persName
+            ref="#BernardusSummo_Vico">Bernardum de <placeName ref="#SummoVico">Summo
+              Vico</placeName></persName> et suam uxorem <persName ref="#RomeaGerardini">Romeam,
+            filiam quondam Gerardini de <placeName ref="#Nuvelonus">Sorbo</placeName></persName>, ex
+          alia, que talis erat. Petebat namque iamscriptus <persName ref="#BonavitaBalognano"
+            >Bonavita</persName> a predictis <persName ref="#BernardusSummo_Vico"
+            >Bernardo</persName> et eius uxore et a quolibet eorum, in solidum, restitutionem
+          possessionis cuiusdam poderis et tenute, quod et quam tenebat et habebat per dominum
+          episcopum Lunensem et suam curiam quidam nomine <persName ref="#BonfanteAmelia">Bonfante
+            de <placeName ref="#Ameglia">Amelia</placeName></persName> et quod et que fuit de podere
+          et tenuta quod et quam per iamscriptam curiam habuit et tenuit quondam iamscriptus
+            <persName ref="#Iohannes">Iohannes</persName>, quod et que dicebatur quondam <persName
+            ref="#GerardinusBifulci">Gerardini Bifulci</persName> et quondam <persName
+            ref="#Nuvelonus">Nuveloni</persName> podere, quod fuit de masio de <placeName
+            ref="#Balognano">Balognano</placeName>; et petit ipsum podere et tenutam, <supplied
+            reason="omitted">cum</supplied> omni iure sibi competenti. Ad reclamationem ipsius,
+            <persName ref="#IacopinusNorandiniiud">Iacopinus domini Noradini, <roleName>Dei gratia
+              Lunensis curie iudex</roleName></persName>, dictum <persName
+            ref="#BernardusSummo_Vico">Bernardum</persName> sepe et sepius perhemptorie citavit et
+          citari fecit; et quia nec ipse nec alius pro eo venire voluit responsurus, ideoque ego
+          dictus Iacopinus, iudex predicte curie, iamdictum <persName ref="#BernardusSummo_Vico"
+            >Bernardum</persName> et suam uxorem, tanquam contumaces <pb n="318v" xml:id="fol_318v"
+          /> et respondere nolentes, in predicto podere et possessione condempno et pronuncio ipsum
+            <persName ref="#BonavitaBalognano">Bonaiunctam<note xml:id="CCCLXXXV_n_001" n="a"
+              place="foot"><term xml:lang="latin">Bonaiunctam</term>:<emph>così nel testo per</emph>
+              <term xml:lang="latin">Bonavitam</term></note></persName> in possessionem dicti
+          poderis et possessionis mittendum, et mitto, ita tamen quod, si infra annum et diem
+          venerit responsurus, audiatur, restaurendo<note xml:id="CCCLXXXV_n_002" n="b" place="foot"
+              ><term xml:lang="latin">restaurendo</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">restaurando</term></note> prius expensas, que tales sunt:
+          scilicet pro datia <measure type="Imperiales" quantity="7" unit="solidus">soldi VII
+            imperialium</measure> et pro cartula <measure type="Imperiales" quantity="12"
+            unit="denarius">denarii XII</measure>.</p>
+        <p xml:id="CCCLXXXV_p_002" n="2">Actum in <placeName ref="#Sarzana">burgo
+            Sarzane</placeName>, in domo quondam <persName ref="#PhilippuciusSarzana"
+            >Philippini</persName>, sollempniter, anno a nativitate Dei <date when="1223-04-15"
+            >M°CCXXIII, indictione XI, die sabbati, XV mensis aprilis</date>, presentibus <persName
+            ref="#HenricusGuerini">Henrico quondam Guerini</persName>, <persName ref="#Confortusnot"
+            >Conforto <roleName>notario</roleName></persName>, <persName ref="#CorsusBalognano"
+            >Corso de <placeName ref="#Balognano">Balognano</placeName></persName>, testibus ad hec
+          rogatis.</p>
+        <p xml:id="CCCLXXXV_p_003" n="3"><ptr target="#CCCLXXXV_st_001"/> Ego <persName
+            ref="#Prefectusnot">Prefectus, <roleName>domini imperatoris et Lunensis curie
+              notarius</roleName></persName>, hanc cartulam scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

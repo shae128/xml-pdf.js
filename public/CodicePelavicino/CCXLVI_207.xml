@@ -1,0 +1,292 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXLVI_207">
+    <front xml:id="CCXLVI_front">
+
+      <titlePart type="numerazioneNuova">207</titlePart>
+      <titlePart type="numerazioneOrig">CCXLVI</titlePart>
+
+      <docDate xml:id="CCXLVI_docDate">
+        <date when="1278-03-16">1278 marzo 16</date>, <placeName><emph><term xml:lang="latin">in
+              plano Arcinasie, in pertinenciis Collechie</term></emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXLVI_regesto">
+        <p>Dopo le concessioni fatte al sindaco del comune di Soliera e Moncigoli dai marchesi
+          Isnardo e Alberto, figli di Opizone Malaspina a loro nome e a nome degli eredi del
+          marchese Bernabò Malaspina, di considerare valida la vendita al vescovo di Luni Guglielmo
+          di quanto possedevano in Soliera, Moncigoli, Collecchio e Ciserano, il marchese Francesco
+          Malaspina, figlio di Bernabò, maggiore di 14 o 15 anni, conferma tale vendita al vescovo
+          Enrico, nelle mani del vicario Bertolo e del sindaco Lando del fu Gerardino de Gualterono
+          di Lucca. La conferma riguarda anche il castello e la località di Bibola. Per tale
+          concessione Francesco Malaspina riceve dai rappresentanti del vescovo 125 lire genovesi in
+          denari grossi tornesi.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXLVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 261r.-262r., cc. CCLIIIr.-CCLIIIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 246, pp.
+            227-228.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Parti del documento sono state lette con l’ausilio della lampada di Wood.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXLVI_div">
+        <p xml:id="CCXLVI_p_001" n="1"><pb xml:id="fol_261r" n="261r"/>In nomine Domini, amen.<date
+            when="1278-03-16"> Anno a nativitate Eius millesimo CC°LXXVIII°, indictione VIa, die
+            XVI° marcii</date>. Cum, post concessiones factas olim syndico communis <placeName
+            ref="#Soliera">Solerie</placeName> et <placeName ref="#Moncigoli">Monciculi</placeName>
+          ab infrascriptis marchionibus, de quibus <supplied reason="omitted"
+          >con</supplied>cessionibus continetur in instrumento seu instrumentis inde facto vel
+          factis sive rogatis manu mei <persName ref="#PetrusGualterotinot">Petri</persName>,
+            <roleName>notarii</roleName> infrascripti, seu alterius notarii, domini <persName
+            ref="#YsnardusMalaspina">Ysnardus</persName> et <persName ref="#AlbertusMalaspina"
+            >Albertus, fratres, filii quondam domini Opiçonis marchionis Malaspine</persName>, pro
+          se ipsis et pro filiis et heredibus quondam domini <persName ref="#BernabosMalaspina"
+            >Bernabovis marchionis Malaspine</persName>, fratris eorum, pro quibus promiserunt de
+          rato habendo, vendidissent, dedissent et tradidissent venerabili patri domino <persName
+            ref="#GuilEpLuni">Guilielmo, <roleName>Dei gratia olim Lunensi
+            episcopo</roleName></persName>, agenti et recipienti pro Lunensi episcopatu, totum et
+          quicquid ipsi domini <persName ref="#YsnardusMalaspina">Ysnardus</persName> atque
+            <persName ref="#AlbertusMalaspina">Albertus</persName> et filii et heredes quondam dicti
+          domini <persName ref="#BernabosMalaspina">Bernabovis</persName> vel aliquis eorum
+          habebant, tenebant vel possidebant, ipsi vel alia persona pro eis, vel ad eos seu ad
+          aliquem eorum spectabat vel spectare poterat ex acquisitione olim facta per dictum dominum
+            <persName ref="#BernabosMalaspina">Bernabovem</persName> vel per dictos fratres suos,
+          pro se ipsis vel pro se et aliis vel aliquo ipsorum, a filiis vel heredibus quondam domini
+            <persName ref="#BonifaciusHerberia">Bonifacii de <placeName ref="#Erberia"
+              >Herberia</placeName></persName> vel ab eorum tutore vel curatore vel alia persona pro
+          eis vel ab aliis quibuscumque vel quocumque modo acceperint vel habuerint, ipsi vel
+          aliquis eorum vel alia persona pro eis, in <placeName ref="#Soliera">Soleria</placeName>
+          et eius curia atque eius pertinenciis, et specialiter in <placeName ref="#Moncigoli"
+            >Monciculo</placeName>, <placeName ref="#Collecchia">Collechio</placeName>, <placeName
+            ref="#Ceserano">Cisirano</placeName> et ipsorum locorum pertinenciis et districtibus,
+          dantes et concedentes ipsi domino episcopo, recipienti ut dictum est, omne dominium et
+          proprietatem et omnia iura que ipsi domini <persName ref="#YsnardusMalaspina"
+            >Ysnardus</persName> et <persName ref="#AlbertusMalaspina">Albertus</persName> atque
+          filii et heredes quondam dicti domini <persName ref="#BernabosMalaspina"
+            >Bernabovis</persName> vel aliquis ipsorum habebant et dictus dominus <persName
+            ref="#BernabosMalaspina">Bernabos</persName> olim habebat et habuit in locis predictis
+          vel aliquo eorum tam in iurisdictione et dominiis castrorum, fictis, pensionibus et
+          redditibus, quam aliis quibuscumque rebus et iuribus, pro precio trecentarum librarum
+          ianuensium, sicut de dicta vendictione et cessione et omnibus suprascriptis continetur et
+          apparet in publica carta sive sceda facta sive rogata per me <persName
+            ref="#PetrusGualterotinot">Petrum</persName>, <roleName>notarium</roleName>
+          infrascriptum, nunc dominus <persName ref="#FranciscusMalaspina">Franciscus marchio
+            Malaspina</persName>, filius quondam domini <persName ref="#BernabosMalaspina"
+            >Bernabovis</persName> predicti et heres et successor ipsius domini <persName
+            ref="#BernabosMalaspina">Bernabovis</persName>, ut dicebat, ad postulationem domini
+            <persName ref="#Bertoluscan">Bertuli</persName>, <roleName>Lunensis canonici</roleName>,
+          nunc <roleName>vicarii</roleName>, ut dicebat, venerabilis patris domini <persName
+            ref="#HenricusEpLuni">Henrici, <roleName>Dei gratia Lunensis
+            episcopi</roleName></persName><note place="foot" n="a" xml:id="CCXLVI_n_001"><term
+              xml:lang="latin">Dei gratia Lunensis episcopi</term><emph>: nel testo </emph><term
+              xml:lang="latin">Lunensis episcopi Dei gratia</term><emph>con segno di richiamo per
+              invertire l’ordine delle parole.</emph></note>, successoris dicti domini <persName
+            ref="#GuilEpLuni">Guilielmi olim <roleName>Lunensis episcopi</roleName></persName>, et
+            <persName ref="#LandusGerardini">Landi quondam Gerardini de Gualterono de <placeName
+              ref="#Lucca">Luca</placeName></persName>, <roleName>syndici</roleName> et
+            <roleName>actoris</roleName>, ut dicebat, dicti domini <persName ref="#HenricusEpLuni"
+            >Henrici, <roleName>Lunensis episcopi</roleName></persName>, hec agentium et
+          recipiencium nomine et vice dicti domini et episcopatus et pro ipso domino episcopo et
+          episcopatu, ratificavit et confirmavit et confirmat et approbat dictam vendictionem et
+          cessionem factam dicto domino <persName ref="#GuilEpLuni">Guilielmo, <roleName>Lunensi
+              episcopo</roleName></persName>, de predictis a suprascriptis domino <persName
+            ref="#YsnardusMalaspina">Ysnardo</persName> et <persName ref="#AlbertusMalaspina"
+            >Alberto</persName> et omnia et singula que in dicta carta sive sceda continentur,
+          promittens idem dominus <persName ref="#FranciscusMalaspina">Franciscus</persName>, per se
+          suosque heredes, dictis <persName ref="#Bertoluscan">Bertulo
+            <roleName>vicario</roleName></persName> et <persName ref="#LandusGerardini">Lando
+              <roleName>syndico</roleName> et <roleName>actori</roleName></persName> dicti domini
+          episcopi atque cuilibet eorum, agentibus et recipientibus pro dicto domino episcopo et
+          episcopatu, dictam vendictionem et concessionem et omnia et singula suprascripta et omnia
+          et singula que in dicta carta sive sceda continentur habere ratam et rata perpetuo et in
+          nullo contra facere vel venire nec questionem de cetero vel controversiam aliquam, de iure
+          vel de facto, in iudicio vel extra iudicium, facere vel movere, per se vel per alium, de
+          predictis venditis et cessis vel eorum occasione adversus predictum dominum episcopum vel
+          eius successores vel adversus dicta loca <placeName ref="#Soliera">Solerie</placeName>,
+            <placeName ref="#Moncigoli">Monciculi</placeName>, <placeName ref="#Collecchia"
+            >Collechie</placeName> et <placeName ref="#Ceserano">Cisirani</placeName> vel
+          universitates, homines vel personas ipsorum locorum vel eorum bona, set ea omnia vendita
+          et cessa et confirmata de cetero libere et quiete dimittere dicto domino episcopo et suis
+          successoribus in perpetuum. Et etiam suprascriptus dominus <persName
+            ref="#FranciscusMalaspina">Franciscus</persName>, per se suosque heredes, fecit dictis
+          domino <persName ref="#Bertoluscan">Bertulo</persName>, <roleName>vicario</roleName>
+          suprascripto, et <persName ref="#LandusGerardini">Lando</persName>,
+            <roleName>syndico</roleName> atque <roleName>actori</roleName> dicti domini episcopi,
+          agentibus et recipientibus pro dicto domino episcopo et episcopatu et pro suis
+          successoribus, finem et refutationem et pactum de non petendo in perpetuum et etiam datum
+          et concessionem de omnibus iuribus, actionibus et rationibus, que et quas ipse dominus
+          Franciscus habebat et dictus dominus <persName ref="#BernabosMalaspina"
+            >Bernabos</persName>, pater eius, olim habuit et habebat in predictis rebus et iuribus.
+          Que vendita et cessa fuerunt per dictos dominos <persName ref="#YsnardusMalaspina"
+            >Ysnardum</persName><note place="foot" n="b" xml:id="CCXLVI_n_002"><term
+              xml:lang="latin">Ysnardum</term><emph>: corretto su </emph><term type="incerto"
+              >Ysnardus</term></note> et <persName ref="#AlbertusMalaspina">Albertum</persName>,
+          marchiones, dicto domino <persName ref="#GuilEpLuni">Guilielmo, <roleName>Lunensi
+              episcopo</roleName></persName>, ut superius dictum est, ita ut ex predictis omnibus et
+          eorum occasione dictus dominus episcopus et sui successores possint agere et experiri,
+          tueri, causari et deffendere adversus quamlibet personam et locum et exinde facere
+          quicquid voluerint tanquam de rebus et possessionibus ad supradictum episcopum et
+          episcopatum pertinentibus et pertinere debentibus, sine contradictione dicti domini
+            <persName ref="#FranciscusMalaspina">Francisci</persName> vel eius heredum vel alterius
+          cuiuscumque persone vel loci, atque omnem possessionem et tenutam, quam de predictis
+          habebat vel unquam habuit ipse dictus dominus <persName ref="#BernabosMalaspina"
+            >Bernabos</persName>, <pb xml:id="fol_261v" n="261v"/>pater eius, de predictis vel
+          aliquo predictorum refutavit atque dedit atque concessit dictis domino <persName
+            ref="#Bertoluscan">Bertulo</persName> atque <persName ref="#LandusGerardini"
+            >Lando</persName>, recipientibus nomine domini episcopi suprascripti, dans eis licentiam
+          intrandi et accipiendi ipsam tenutam et possessionem, quandocumque voluerint ipsi vel
+          dictus dominus episcopus vel alius pro eo. Et insuper dictus dominus <persName
+            ref="#FranciscusMalaspina">Franciscus</persName> per se suosque heredes fecit datum et
+          concessionem suprascriptis domino <persName ref="#Bertoluscan">Bertulo
+              <roleName>vicario</roleName></persName> et <persName ref="#LandusGerardini"
+            >Lando</persName>, <roleName>syndico</roleName> et <roleName>actori</roleName> predicto,
+          agentibus et recipientibus pro dicto domino episcopo et pro qualibet persona et loco et
+          locis cui vel quibus ipse dominus episcopus dare vel concedere vellet, omnia alia iura et
+          rationes que et quas ipse dominus <persName ref="#FranciscusMalaspina"
+            >Franciscus</persName> habebat et habere debebat et dictus dominus <persName
+            ref="#BernabosMalaspina">Bernabos</persName> olim habuit et habere debebat ex dato et
+          concessione et concessionibus facta et factas per cartam vel cartas, factam vel factas per
+          quemcumque notarium sive notarios vel scribam pro menda sive restauramento vel
+          satisfactione vel ex causa vel titulo donationis vel alio modo dicto domino <persName
+            ref="#BernabosMalaspina">Bernabovi</persName>, patri quondam dicti domini <persName
+            ref="#FranciscusMalaspina">Francisci</persName>, a communibus atque universitatibus et
+          hominibus dictorum locorum <placeName ref="#Soliera">Solerie</placeName> et <placeName
+            ref="#Moncigoli">Monciculi</placeName> et castri sive loci <placeName ref="#Bibola"
+            >Bibole</placeName><note place="foot" n="c" xml:id="CCXLVI_n_003"><term xml:lang="latin"
+              >castri sive loci Bibole</term><emph>: scritto su rasura.</emph></note> vel eorum
+          syndicis vel actoribus pro eis vel ex alia quacumque causa vel ratione vel modo in dictis
+          locis et castris <placeName ref="#Soliera">Solerie</placeName>, <placeName
+            ref="#Moncigoli">Monciculi</placeName> et pertinenciis et districtibus ipsorum locorum
+          et in iurisdictionibus et boscis vel nemoribus, aquis et aquamlibus<note place="foot"
+            n="d" xml:id="CCXLVI_n_004"><term type="incerto">aquamlibus</term><emph>: così nel
+              testo, probabilmente per </emph><term xml:lang="latin">aqueductibus</term></note>
+          atque molendinis et pascuis et aliis quibuscumque rebus, ita ut ex predictis omnibus et
+          singulis dictus dominus episcopus atque cui ipse daret vel committeret vel committere
+          voluerit, possit facere quicquid velit sine contradictione dicti domini <persName
+            ref="#FranciscusMalaspina">Francisci</persName> vel eius heredum seu alterius persone,
+          atque omnem possessionem et tenutam vel quasi, quam dictus <persName
+            ref="#FranciscusMalaspina">Franciscus</persName> vel alius pro eo habet vel habebat vel
+          habuit vel dictus dominus <persName ref="#BernabosMalaspina">Bernabos</persName>, pater
+          eius, unquam habuit de predictis vel aliquo predictorum, refutavit et dedit atque
+          concessit dictis domino Bertolo et Lando, recipientibus nomine domini episcopi
+          suprascripti, ita ut integre omnia iura que quacumque occasione vel modo pertinebant ad
+          dictum dominum <persName ref="#FranciscusMalaspina">Franciscum</persName> vel ad dictum
+          dominum <persName ref="#BernabosMalaspina">Bernabovem</persName>, quondam patrem eius, in
+          predictis omnibus et singulis locis <placeName ref="#Soliera">Solerie</placeName>,
+            <placeName ref="#Moncigoli">Monciculi</placeName>, <placeName ref="#Collecchia"
+            >Collechie</placeName>, <placeName ref="#Ceserano">Cisirani</placeName> et <placeName
+            ref="#Bibola">Bibole</placeName> et in pertinenciis ipsorum locorum, in
+          iurisdictionibus, villanis et vassallis et feudis, ancillis et servis ipsorum locorum de
+          cetero pertineant et pertinere debeant ad dominum episcopum suprascriptum, ita ut ex hiis
+          omnibus et singulis ipse dominus episcopus possit facere quicquid velit et ingredi possit
+          tenutam et possessionem corporalem quandocumque voluerit, sua auctoritate, ipse dominus
+          episcopus vel alius pro eo. Et pro dicta confirmatione et ratificatione, concessione, fine
+          et refutatione et refutationibus, dato et datis et cessionibus et omnibus suprascriptis
+          habuit et recepit idem dominus Franciscus a predictis domino <persName ref="#Bertoluscan"
+            >Bertolo</persName> et <persName ref="#LandusGerardini">Lando</persName>, dantibus et
+          solventibus pro dicto domino episcopo, <measure type="Ianuenses" quantity="125"
+            unit="libra">libras CXXV ianuensium</measure>, in denariis turonensibus grossis, dictam
+          quantitatem capientibus atque valentibus, ut dicebant, coram me
+            <roleName>notario</roleName> et testibus infrascriptis, de quibus denariis se quietum et
+          solutum vocavit ab eis, renunciando exceptioni non numerate pecunie et omni alii
+          exceptioni et legum auxilio, confitendo et asserendo dictus dominus <persName
+            ref="#FranciscusMalaspina">Franciscus</persName> quod predicta vendita, cessa et
+          refutata et data valebant et valent plus precio et quantitate predictorum denariorum, unde
+          totum et quicquid plus valebant eisdem domino <persName ref="#Bertoluscan"
+            >Bertolo</persName> et <persName ref="#LandusGerardini">Lando</persName>, recipientibus
+          pro dicto domino episcopo, donavit titulo pure ac simplicis donationis inrevocabiliter
+          inter vivos et renunciavit specialiter illi legi que iuvat deceptos in contractibus ultra
+          dimidiam iusti precii. Insuper dictus dominus <persName ref="#FranciscusMalaspina"
+            >Franciscus</persName> per se suosque heredes promisit et convenit dictis domino
+            <persName ref="#Bertoluscan">Bertolo</persName> et <persName ref="#LandusGerardini"
+            >Lando</persName>, recipientibus ut dictum est, predicta omnia vendita et cessa, data et
+          refutata non imbrigare vel molestare deinceps, immo ea omnia dicto domino episcopo et suis
+          successoribus deffendere et exbrigare suis propriis expensis atque advocato; et si non
+          deffenderet vel non posset deffendere, salvum cambium ei inde dare, secundum quod res
+          evicta tunc valuerit vel meliorata fuerit, sub extimatione et arbitrio boni viri. Item
+          dixit et asseruit idem dominus <persName ref="#FranciscusMalaspina">Franciscus</persName>
+          quod de predictis vel aliquo predictorum numquam alicui vel aliquibus fecit vendictionem
+          seu alienationem vel donationem, datum vel concessionem, in toto vel in parte aliqua:
+          quod, si fecisset, promisit predictis domino <persName ref="#Bertoluscan"
+            >Bertolo</persName> et <persName ref="#LandusGerardini">Lando</persName>, agentibus et
+          recipientibus pro dicto domino episcopo, dictum dominum episcopum et suos successores
+          exinde conservare indempnem seu indempnes et totum et quicquid de predictis vendidisset,
+          alienasset vel donavisset seu dedisset expedire suis expensis et advocato, atque omne
+          dampnum, interesse et expensas, quod vel quas ea occasione haberet vel sustineret, ei
+          integre resarcire promisit, credendo de dampno, interesse et expensis soli, nudo atque
+          simplici verbo ipsius domini episcopi et successorum eius,<pb xml:id="fol_262r" n="262r"
+          />sine iuramento atque testium vel instrumenti seu alterius probationis honere. Hec autem
+          omnia atque singula, que in hac carta leguntur suprascriptus dominus <persName
+            ref="#FranciscusMalaspina">Franciscus</persName> per se suosque heredes promisit et
+          convenit dictis domino <persName ref="#Bertoluscan">Bertolo</persName>
+          <roleName>vicario</roleName> et <persName ref="#LandusGerardini">Lando</persName>
+          <roleName>syndico</roleName> attendere, facere et observare et numquam in aliquo contra
+          facere vel venire, de iure vel de facto, sub pena <measure type="ianuenses" quantity="50"
+            unit="libra">L librarum ianuensium</measure>, quam penam eidem domino <supplied
+            reason="omitted">episcopo</supplied> et suis successoribus dare et solvere teneatur; et
+          promisit tociens quociens fuerit contraventum atque pro quolibet capitulo non observato
+          et, pena soluta vel non, suprascriptis omnibus et singulis nichillominus semper firmis et
+          ratis manentibus, cum eadem pene commissione, obligando ad hec attendenda et observanda se
+          idem dominus <persName ref="#FranciscusMalaspina">Franciscus</persName> suosque heredes et
+          omnia sua bona, mobilia et immobilia, habita et habenda, et renunciando omni iuri et
+          legibus contra hec introductis vel quibus a predictis vel aliquo predictorum se tueri vel
+          iuvare posset, et nominatim a dicta pena. Insuper dictus dominus <persName
+            ref="#FranciscusMalaspina">Franciscus</persName>, dicens et asserens se esse maiorem
+          XIIII et etiam XV annorum, iuravit corporaliter predictam ratificationem et confirmationem
+          et finem et refutationem et datum et data et cessionem et cessiones et omnia atque singula
+          suprascripta habere ratam et ratas et rata et firma tenere perpetuo et numquam in aliquo
+          contra facere vel venire, de iure vel de facto, nec ea rescindere vel retractare ratione
+          vel occasione minoris etatis vel minoris precii vel doli vel deceptionis ultra dimidiam
+          iusti precii vel alterius deceptionis vel occasione beneficii restitutionis in integrum
+          vel ratione iuris communis vel alia quacumque ratione vel occasione vel modo.</p>
+        <p xml:id="CCXLVI_p_002" n="2">Actum in plano <placeName ref="#Arcinasia"
+            >Arcinasie</placeName>, in pertinenciis <placeName ref="#Collecchia"
+            >Collechie</placeName>, in quadam petia terre <persName ref="#CagonusCollechio">Cagoni
+            de <placeName ref="#Collecchia">Collechio</placeName></persName>, presentibus <persName
+            ref="#SaladinusSaladini">Saladino quondam domini Saladini de <placeName ref="#Fosdinovo"
+              >Fosdenova</placeName></persName>, <persName ref="#PetrusLamusca">Petro de Lamusca de
+              <placeName ref="#Soliera">Soleria</placeName></persName>, <persName
+            ref="#OpizusBastardus">Opiçone dicto Bastardo de <placeName ref="#Olivola"
+              >Olivola</placeName></persName> et <persName ref="#PalmerinusÇanni">Palmerino de
+              <placeName ref="#Aulla">Avula</placeName> quondam Çanni</persName>, testibus ad hec
+          rogatis.</p>
+        <p xml:id="CCXLVI_p_003" n="3"><ptr target="#CCXLVI_st_001"/> Ego <persName
+            ref="#PetrusGualterotinot">Petrus quondam Gualteroti de <placeName ref="#Soliera"
+              >Soleria</placeName></persName>, <roleName>sacri palacii notarius</roleName>, hiis
+          interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

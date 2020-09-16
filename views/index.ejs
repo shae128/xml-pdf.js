@@ -1,0 +1,28 @@
+<html lang="en">
+<%- include("./partials/head.ejs") %>
+
+<body>
+  <%- include("./partials/nav.ejs") %>
+
+  <div class="blogs content">
+
+    <h2>Select Document:</h2>
+    <form action="">
+      <select name="files" id="files">
+        <% if (filesName.length > 0) { %>
+          <% filesName.forEach(file => { %>
+            <option value=<%= file %>><%= file %></option>
+          <% }) %>
+        <% } else { %>
+            <p>There are no file to display...</p>
+        <% } %>
+ 
+      </select>
+      <br><br>
+      <input type="submit" value="Submit">
+    </form>
+   
+  </div>
+  <%- include("./partials/footer.ejs") %>
+</body>
+</html>

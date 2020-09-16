@@ -1,0 +1,299 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="CCCCLXXXV_CCCCLXXXVI_447">
+    <front xml:id="CCCCLXXXV_CCCCLXXXVI_front">
+
+      <titlePart type="numerazioneNuova">447</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXV e CCCCLXXXVI</titlePart>
+
+      <docDate xml:id="CCCCLXXXV_CCCCLXXXVI_docDate">
+        <date when="1254-11-17">1254 novembre 17</date>, <placeName>Napoli <emph> (<term
+              xml:lang="latin">Neapoli</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXXXV_CCCCLXXXVI_regesto">
+        <p>Papa Innocenzo IV conferma a suo nipote Niccolò Fieschi, conte di Lavagna, la concessione
+          in feudo a lui fatta dal vescovo di Luni Guglielmo dei castelli di Tivegna, Castiglione,
+          Bracelli e del borgo di Padivarma insieme ai beni un tempo tenuti in feudo da donna
+          Matilde a Carpena, Vesigna, Follo, Valeriano e Vezzano; investitura costata a Niccolò 40
+          lire di imperiali. Nella lettera di conferma sono inseriti i documenti dell’investitura
+          fatta a Capua il 24 ottobre 1254 da Iacopo, canonico di Santo Stefano Magra, nunzio e
+          procuratore del vescovo Guglielmo, e la procura fatta dallo stesso Guglielmo a Iacopo il 4
+          ottobre 1254 a Ponzanello. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXXXV_CCCCLXXXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 367r .-368r., cc. CCCLVIIIr.-CCCLVIIIIr., secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#PODESTÀ_1894">PODESTA 1894</ref>, pp. 83-84; <ref
+              target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, nn. 485-486, pp. 500-504, con la
+            data 1254 ottobre 24, che è in realtà solo la data del primo dei due atti inserti. La
+            parte finale del documento, ossia la procura del vescovo di Luni Guglielmo a favore di
+            Iacopo, canonico della pieve di Santo Stefano, è stata considerata da Lupo Gentile come
+            un documento a se stante (<ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n.
+            486), anche perché ha nel codice una numerazione distinta: in realtà si tratta di un
+            secondo atto inserto .</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>
+            <p>Parte del documento è stata letta con l’ausilio della luce di Wood.</p>
+            <p>Nella parte inferiore di c. 367v., in corrispondenza della sest'ultima e quint'ultima
+              riga, è presente un foro preesistente alla scrittura .</p>
+          </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >IIIIcLXXXV. Licterarum domini pape pro domino Nicholao. IIIIcLXXXVI. Procurationis
+              domini episcopi pro quibusdam castris dandis domino Nicholao </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+
+      <div xml:id="CCCCLXXXV_CCCCLXXXVI_div">
+
+        <p xml:id="CCCCLXXXV_CCCCLXXXVI_p_001" n="1"> Innocentius episcopus, servus servorum Dei,
+          dilecto filio <roleName>nobili viro</roleName>
+          <persName ref="#NicholausFlisco">Nicholao de Flisco</persName>,
+            <roleName>comiti</roleName>
+          <placeName ref="#Lavagna">Lavanie</placeName>, <roleName>nepoti nostro</roleName>, salutem
+          et apostolicam benedictionem. Peticio tua nobis exibita continebat quod
+            <roleName>presbyter Iacobus, canonicus plebis Sancti Stephani Lunensis dyocesis, nuncius
+            et procurator</roleName> venerabilis <roleName>fratris nostri</roleName>
+          <persName ref="#GuilEpLuni">Guilielmi</persName>, <roleName>Lunensis episcopi</roleName>,
+          habens ad hec speciale mandatum, procuratorio nomine dicti episcopi et episcopatus
+          Lunensis tibi tuisque heredibus, nomine recti et honorifici feudi, tanquam paterni, aviti
+          et antiqui, <placeName ref="#Tivegna">Tivegne</placeName>, <placeName
+            ref="#CastiglionediVarese">Castellioni</placeName> et <placeName ref="#Bracellis"
+            >Bracelli</placeName> castra et burgum <placeName ref="#Padulvarmo"
+            >Padulvalmi</placeName>, ad ipsum episcopatum Lunensem spectancia, cum omnibus iuribus,
+          honoribus et pertinenciis suis, dedit et propria auctoritate concessit. Dictus quoque
+          procurator, procuratorio nomine dicti episcopi et episcopatus Lunensis, totum quod
+            <roleName>nobilis mulier</roleName>
+          <persName ref="#Mateldadom">Matilda</persName> in feudum ab ecclesia Lunensi tenere
+          consuevit vel debuit, vel quilibet alius pro ea vel ab ea tenebat vel tenere debebat, in
+            <placeName ref="#Carpena">Carpena</placeName>, <placeName ref="#Vesigna"
+            >Vesigna</placeName>, <placeName ref="#Folo">Folo</placeName> et <placeName
+            ref="#Valerano">Vallerano</placeName> sive in <placeName ref="#Vezzano"
+            >Vezano</placeName> vel ubicumque de ipso feudo in Lunensi vel Ianuensi diocesi poterit
+          reperiri, tibi similiter dedit ac concessit et de hiis omnibus te per quemdam baculum
+          investivit, ita tamen quod tu et heredes tui dictum episcopum et successores eius cum suis
+          sequacibus, qui non sint inimici tui vel heredum tuorum, teneamini recipere in locis ad
+          faciendum guerram inimicis Lunensis ecclesie ac ipsius ecclesie bona deffendere ac tueri.
+          Pro cuius feudi concessione ac investitura idem procurator, pro parte ipsius episcopi,
+          confessus fuit se a te <measure type="imperiales" quantity="40" unit="solidus">XL libras
+            bonorum denariorum imperialium</measure> recepisse, renuncians exceptioni non numerate
+          pecunie habite ac recepte et omni iuris et <supplied reason="omitted">legum</supplied>
+          auxilio et promittens se, nomine ipsius episcopi, dictam pecuniam in utilitatem Lunensis
+          episcopatus fideliter esset conversuram. Tu vero dicto procuratori, recipienti nomine
+          dicti episcopi, pro hiis omnibus tibi datis atque concessis fidelitatem iurasti, sicut
+          erat in capitulo et forma fidelitatis expressum: quod, si te vel tuos heredes premissa vel
+          aliquod premissorum non observare contingeret, propter hoc a iure feudi non cadatis, set
+          nichillominus teneamini ad observationem omnium predictorum, prout in instrumento publico
+          inde confecto plenius continetur. || <pb xml:id="fol_367v" n="367v"/> Nos itaque, tuis
+          precibus inclinati, donationem, concessionem et investituram <note place="foot" n="a"
+            xml:id="CCCCLXXXV_CCCCLXXXVI_n_001">investituram: <emph>investi corretto su precedente
+              scrittura.</emph></note> huiusmodi, quas nobis constitit provide factas, ratas
+          habentes et gratas, ac volentes ne in posterum, allegatione lesionis ipsius ecclesie vel
+          quavis alia, possint ab aliquo<note place="foot" n="b" xml:id="CCCCLXXXV_CCCCLXXXVI_n_002"
+            >aliquo: <emph>corretto su precedente scrittura.</emph></note> impugnari, ipsas
+          auctoritate apostolica confirmamus et presentis scripti<note place="foot" n="c"
+            xml:id="CCCCLXXXV_CCCCLXXXVI_n_003">scripti: <emph>segue depennato ed espunto co, con
+              segno generico di abbreviazione.</emph></note> patrocinio communimus, defectum, si
+          quis extitit in premissis, ex eo maxime quod Lunense capitulum hiis non consensit ad
+          presens aut occasione<note place="foot" n="d" xml:id="CCCCLXXXV_CCCCLXXXVI_n_004"
+            >occasione: <emph>segue</emph> ipsius <emph>depennato.</emph></note> procurationis
+          ipsius canonici vel quacumque alia, supplentes de plenitudine potestatis. Tenorem autem
+          instrumenti predicti de verbo ad verbum presentibus inseri fecimus ad cautelam, qui talis
+          est: « ‘In nomine Domini, amen. <date when="1254-10-24">1254 ottobre 24 <note> Iacopo,
+              canonico di Santo Stefano Magra, nunzio e procuratore del vescovo Guglielmo investe
+              Niccolò Fieschi conte di Lavagna dei castelli di Tivegna, Castiglione, Bracelli e del
+              borgo di Padivarma insieme ai beni un tempo tenuti in feudo da donna Matilde a
+              Carpena, Vesigna, Follo, Valeriano e Vezzano.</note> Anno a nativitate ipsius
+            M°CCLIIII, indictione XIII, IX kalendas novembris</date>, in civitate <placeName
+            ref="#Capua">Capuana</placeName>, in domo <persName ref="#PhilippusGeorgii">Philippi
+            Georgii</persName>, presentibus venerabili patr <roleName>domino</roleName>
+          <persName ref="#Ottobonuscard">Ottobono</persName>
+          <orgName ref="#Roma_S_Adriano_Foro">Sancti Adriani</orgName>
+          <roleName>dyacono cardinali</roleName>, <roleName>nobili viro domino</roleName>
+          <persName ref="#AlbertusFieschi">Alberto de Flisco</persName>, <placeName ref="#Lavagna"
+            >Lavanie</placeName>
+          <roleName>comite</roleName>, <roleName>domino</roleName>
+          <persName ref="#SimonCamilla">Symone de Camilla</persName>, cive <placeName ref="#Ianua"
+            >Ianuensi</placeName>, <roleName>domino</roleName>
+          <persName ref="#AlbertusAccarii">Alberto Accarii</persName> de <placeName ref="#Parma"
+            >Parma</placeName>, <persName ref="#Franciscusnot">Francisco</persName>
+          <roleName>notario</roleName> de Clavaro et <persName ref="#GuidoSeptemcler">Guidone dicto
+            Septem</persName>, <roleName>clerico predicti domini cardinalis</roleName>, testibus ad
+          omnia infrascripta vocatis. <roleName>Presbyter</roleName>
+          <persName ref="#Iacopuscan">Iacobus</persName>, <roleName>canonicus</roleName>
+          <orgName ref="#S_Stefano_Magra">plebis de <placeName ref="#Santo_Stefano">Sancto
+              Stephano</placeName></orgName>, Lunensis dyocesis, nuncius et procurator venerabilis
+          patris <roleName>domini</roleName>
+          <persName ref="#GuilEpLuni">Guilielmi</persName>, <roleName>Lunensis episcopi</roleName>,
+          habens ad hoc speciale mandatum, sicut continetur in instrumento facto per <persName
+            ref="#Adiutusnot">Adiutum <roleName>notarium</roleName></persName> et ipsius episcopi
+          sigillo munito, cuius tenor inferius est insertus, procuratorio nomine dicti episcopi et
+          episcopatus Lunensis, nomine recti et honorifici feudi, tanquam paterni, aviti et antiqui,
+          dedit, tradidit et concessit nobili viro <roleName>domino</roleName>
+          <persName ref="#NicholausFlisco">Nicholao de Flisco</persName>,
+            <roleName>comiti</roleName>
+          <placeName ref="#Lavagna">Lavanie</placeName>, in se ac in suos heredes, masculos et
+          feminas, <placeName ref="#Tivegna">Tivegne</placeName>, <placeName
+            ref="#CastiglionediVarese">Castellioni</placeName> et <placeName ref="#Bracellis"
+            >Bracelli</placeName> castra et burgum <placeName ref="#Padulvarmo"
+            >Padulvalmi</placeName> ad ipsum episcopum et episcopatum Lunensem spectancia, cum toto
+          eo quod idem episcopus et ecclesia Lunensis habet et tenet vel habebat et tenebat vel pro
+          ipso episcopo seu ipsa ecclesia habebatur et tenebatur vel tenetur vel habetur vel debet
+          teneri et haberi in castris et burgo predictis et eorum pertinenciis et districtu et in
+            <note place="foot" n="e" xml:id="CCCCLXXXV_CCCCLXXXVI_n_005">et in: <emph>corretto su
+              precedente scrittura.</emph></note> iuribus, domibus, iurisdictionibus, vassallis,
+          villanis, redditibus, annuis prestationibus, piscationibus, venationibus, molendinis,
+          aquis, nemoribus, pascuis, possessionibus et quibuslibet aliis rebus quocumque nomine
+          nuncupentur. Simili modo dedit, tradidit et concessit dictus procurator, procuratorio
+          nomine ipsius episcopi et episcopatus Lunensis, eidem comiti totum id quod nobilis mulier
+            <roleName>domina</roleName>
+          <persName ref="#Mateldadom">Matilda</persName> in feudum ab episcopo et episcopatu Lunensi
+          tenebat seu tenere consuevit vel debuit in <placeName ref="#Carpena">Carpena</placeName>,
+            <placeName ref="#Vesigna">Vesigna</placeName>, <placeName ref="#Folo">Folo</placeName>
+          et <placeName ref="#Valerano">Vallerano</placeName> sive <placeName ref="#Vezzano"
+            >Vezano</placeName> vel ubicumque de ipso feudo <supplied reason="omitted">in</supplied>
+          Lunensi vel Ianuensi dyocesi poterit reperiri, et ipsum comitem in se et suos heredes,
+          masculos et feminas, procuratorio nomine dicti episcopi et episcopatus Lunensis de
+          suprascriptis omnibus per quemdam baculum corporaliter et presentialiter investivit, ita
+          tamen quod dictus comes et eius heredes sive succedentes ipsi comiti vel eius heredibus in
+          dicto feudo ipsum dominum episcopum et eius successores cum suis sequacibus, qui non sint
+          inimici ipsius comitis vel heredum eius seu succedentium ei vel suis heredibus in dicto
+          feudo, recipere ad faciendum guerram cum hominibus in locis predictis, ab eodem
+          procuratore sibi concessis, inimicis Lunensis ecclesie ac iuvare recuperare iura et bona
+          Lunensis episcopatus et ea, que possidet vel recuperabit, deffendere et manutenere et
+          guerram et devetum propriis expensis ipsorum hominum per totum episcopatum Lunensem
+          persecutoribus Lunensis ecclesie facere, necnon <note place="foot" n="f"
+            xml:id="CCCCLXXXV_CCCCLXXXVI_n_006">necnon: c <emph>aggiunto in
+            sopralinea.</emph></note> eidem domino episcopo, qui nunc est, et ei, qui pro tempore
+          fuerit, cum exercitum fecerit pro Romana ecclesia vel pro imperatore vel suos milites aut
+          pedites miserit pro dictis exercitibus faciendis, auxilium impendere teneantur. Pro cuius
+          feudi datione, concessione et investitura predictus procurator, procuratorio nomine dicti
+          episcopi et episcopatus Lunensis, confessus fuit se habuisse et recepisse a predicto
+          comite <measure type="imperiales" quantity="40" unit="solidus">libras XL bonorum
+            denariorum imperialium</measure>, renunciando exceptioni non numerate, habite et recepte
+          pecunie et omni alii <supplied reason="omitted">iuri</supplied> et legum auxilio et nomine
+          ipsius episcopi promittendo dictam pecuniam in utilitatem Lunensis episcopatus fideliter
+          exhibere. Qui <roleName>dominus</roleName>
+          <persName ref="#NicholausFlisco">Nicholaus</persName>, <roleName>comes</roleName>
+          <placeName ref="#Lavagna">Lavanie</placeName>, eidem procuratori, recipienti nomine dicti
+          episcopi et episcopatus Lunensis, pro omnibus sibi concessis et datis, fidelitatem
+          iuravit, tactis sacrosanctis Evangeliis, prout in fidelitatis capitulo continetur. Hoc
+          acto expresse quod, si dictum comitem vel eius heredes seu succedentes ei vel suis
+          heredibus in dicto feudo predicta vel aliquod predictorum aliquando non observare
+          contingeret, propter hoc non cadant a iure feudi suprascripti, set nichillominus teneantur
+          ad observationem omnium premissorum’. Tenor instrumenti procurationis dicti presbyteri
+          talis est <note place="foot" n="g" xml:id="CCCCLXXXV_CCCCLXXXVI_n_007"><emph>Il documento
+              qui inserto è stato erroneamente considerato da Lupo Gentile un documento a se stante,
+              contrassegnato con il numero 486.</emph></note> : || <pb xml:id="fol_368r" n="368r"/>
+          ‘In Dei nomine, amen. <note> Il vescovo di Luni Guglielmo rende Iacopo, canonico di Santo
+            Stefano Magra, nunzio e procuratore.</note>
+          <date when="1254-10-04">Anno a nativitate Eius M°CCLIIII, indictione XII, quarto
+            octubris</date>. Venerabilis pater <roleName>dominus</roleName>
+          <persName ref="#GuilEpLuni">Guilielmus</persName>, <roleName>Dei gratia Lunensis
+            episcopus</roleName>, fecit et constituit suum et episcopatus Lunensis actorem,
+          procuratorem et certum nuncium <roleName>presbyterum</roleName>
+          <persName ref="#Iacopuscan">Iacobum</persName>, <roleName>canonicum</roleName>
+          <orgName ref="#S_Stefano_Magra">plebis Sancti Stephani</orgName>, ad concedendum pleno ac
+          perpetuo feudi iure <roleName>domino</roleName>
+          <persName ref="#NicholausFlisco">Nicholao de Flisco</persName>,
+            <roleName>comiti</roleName>
+          <placeName ref="#Lavagna">Lavanie</placeName>, domini pape nepoti, ac suis heredibus
+            <placeName ref="#Tivegna">Tivegne</placeName>, <placeName ref="#CastiglionediVarese"
+            >Castellioni</placeName> et <placeName ref="#Bracellis">Bracelli</placeName> castra,
+          burgum de <placeName ref="#Padulvarmo">Padulvarmo</placeName>, cum eorum curiis<note
+            place="foot" n="h" xml:id="CCCCLXXXV_CCCCLXXXVI_n_008">curiis: cu <emph>corretto su
+              precedente scrittura.</emph></note> et pertinenciis que olim pro parte nobiles
+          Aldeberti et pro parte altera quidam alii ab ecclesia Lunensi tenebant in feudum, et
+          redditus, vassallos, villanos, iurisdictionem et iura et cetera omnia que in demanium seu
+          proprium curia Lunensis detinebat ibidem, salvo quod ipse nobilis et eius heredes
+          teneantur ipsum dominum episcopum et eius successores recipere <note place="foot" n="i"
+            xml:id="CCCCLXXXV_CCCCLXXXVI_n_009">recipere: cipere <emph>corretto su precedente
+              scrittura.</emph></note> cum suis sequacibus, qui non sint inimici ipsius nobilis et
+          heredum eius, ad faciendum guerram cum hominibus dictorum locorum inimicis Lunensis
+          ecclesie et curie, et quod ipse nobilis et sui heredes, cum hominibus dictorum locorum,
+          iuvare teneantur ipsum dominum episcopum et eius successores recuperare iura et bona
+          Lunensis episcopatus et ea, que possidet vel recuperabit, deffendere et manutenere et
+          facere guerram et devetum per totum episcopatum Lunensem in ipsorum hominum propriis
+          expensis, et quod iuvabunt ipsum dominum episcopum et successores suos cum exercitum
+          fecerit pro Romana ecclesia vel pro imperatore vel suos milites aut pedites miserit pro
+          dictis exercitibus faciendis, et ad investiendum ipsum nobilem de predictis, sicut domini
+          fideles seu vassallos investire consueverant, et ad investiendum eundem nobilem de toto eo
+          podere quod olim <roleName>nobilis domina</roleName>
+          <persName ref="#Mateldadom">Matilda</persName> a Lunensi curia tenebat in feudum sive in
+            <placeName ref="#Carpena">Carpena</placeName> sive in <placeName ref="#Vezzano"
+            >Vezano</placeName> vel in quocumque loco episcopatus Lunensis de ipso feudo poterit
+          inveniri et ad recipiendum ab ipso nobili de predictis fidelitatis et homagii solitum
+          iuramentum; et <supplied reason="omitted">ad</supplied> recipiendum recompensationem pro
+          hiis que habebat in demanium seu proprium Lunensis curia <supplied reason="omitted"
+            >in</supplied>
+          <placeName ref="#Tivegna">Tivegna</placeName>, <placeName ref="#CastiglionediVarese"
+            >Castelliono</placeName>, <placeName ref="#Bracellis">Bracelli</placeName> et <placeName
+            ref="#Padulvarmo">Padulvarmo</placeName> et ad stipulandum sollempniter et faciendum et
+          recipiendum omnia et singula que pro premissis et singulis premissorum viderit expedire,
+          etiam ad certam penam, promittens idem dominus episcopus, suo et episcopatus nomine, omnia
+          et singula habere firma et rata que dictus presbyter Iacobus de premissis et pro premissis
+          fecerit vel legitimus procurator vel actor seu nuncius facere potest vel debet, sub
+          ypotheca et obligatione bonorum episcopatus. Actum in <orgName ref="#Ponzanello_S_Martino"
+            >ecclesia nova de <placeName ref="#Ponzanello">Ponzanello</placeName></orgName>,
+          presentibus <persName ref="#Iacopinusarc">Iacopino</persName>
+          <roleName>archipresbytero</roleName>
+          <orgName ref="#Ameglia_S_Vincenzo">plebis de <placeName ref="#Ameglia"
+            >Amelia</placeName></orgName>, <roleName>presbytero</roleName>
+          <persName ref="#Bonavitapre">Bonavita</persName>
+          <roleName>rectore</roleName>
+          <orgName ref="#Ponzanello_S_Martino">ecclesie predicte de <placeName ref="#Ponzanello"
+              >Ponzanello</placeName></orgName> et <persName ref="#BonaiunctaPesticio">Bonaiuncta
+            dicto Pesticio</persName> de <placeName ref="#Lucca">Luca</placeName>, testibus ad hec
+          rogatis’. </p>
+
+        <p xml:id="CCCCLXXXV_CCCCLXXXVI_p_002" n="2"> Ego <persName ref="#GisfredinusVezanonot"
+            >Gisfredinus de <placeName ref="#Vezzano">Veçano</placeName>, imperiali aule
+            notarius</persName>, predictis omnibus factis a procuratore et comite suprascriptis
+          interfui et rogatus scripsi duo instrumenta, uno tenore confecta, tenorem instrumenti
+          procurationis, quod sigillatum vidi, sigillo eiusdem episcopi inserendo, fideliter in
+          eisdem ac meo signo et nomine confirmando». </p>
+
+        <p xml:id="CCCCLXXXV_CCCCLXXXVI_p_003" n="3"> Nulli ergo omnino hominum liceat hanc paginam
+          nostre confirmationis et supplectionis infringere vel ei ausu temerario contraire. Si quis
+          autem hoc attemptare presumpserit, indignationem omnipotentis Dei et beatorum Petri et
+          Pauli, apostolorum Eius, se noverit incursurum. </p>
+
+        <p xml:id="CCCCLXXXV_CCCCLXXXVI_p_004" n="4"> Datum <placeName ref="#Napoli"
+            >Neapoli</placeName>, <date when="1254-11-17">XV kalendas decembris, pontificatus nostri
+            anno XII°.</date>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

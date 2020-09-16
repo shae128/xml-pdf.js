@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DVIII_469">
+    <front xml:id="DVIII_front">
+
+      <titlePart type="numerazioneNuova">469</titlePart>
+      <titlePart type="numerazioneOrig">DVIII</titlePart>
+
+      <docDate xml:id="DVIII_docDate">
+        <date when="1181-02-07">1181 febbraio 7</date>, <placeName ref="#Sarzana"
+          >Sarzana</placeName> (<term xml:lang="latin">apud Sarzanam, in Carcandula</term>) </docDate>
+
+      <div type="regesto" xml:id="DVIII_regesto">
+        <p>Di fronte al gastaldo del vescovo di Luni Ventura, Bellando del fu Bonomulo di Arcola da
+          una parte e Vitaletto e Albertinello del fu Ziculo della Serra dall’altra, stipulano patti
+          per la raccolta e il trasporto della legna alla curia lunense. Vitaletto e Albertinello
+          sostituiscono Bellando nel compito in cambio di 20 &lt;soldi&gt; di denari imperiali e
+          della pensione annua che Bellando deve loro.</p>
+      </div>
+
+      <div type="footer" xml:id="DVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 378v., cc. CCCLXXv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 508,
+            pp. 540-541.</p>
+        </div>
+
+        <div type="crit_notes"> </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DVIII.
+              De circulis deferendis ad curiam.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DVIII_div">
+        <p xml:id="DVIII_p_001" n="1"><ptr target="DVIII_st_001"/>
+          <date when="1181-02-07">Anno Dominice incarnationis M°C octogesimo primo, indictione
+            XIIII, die sabbati, qui fuit VII intrante februario.</date> Factum est apud <placeName
+            ref="#Sarzana">Sarzanam</placeName>, in <placeName ref="#Carcandola"
+            >Carcandula</placeName>, in manu <persName ref="#Venturacast">Venture</persName>
+          <roleName>castaldionis</roleName> curie domini episcopi, inter <persName
+            ref="#BellandusBonomuli">Bellandum</persName> de <placeName ref="#Arcola"
+            >Arcula</placeName>, filium quondam Bonomuli de <placeName ref="#Serra"
+            >Serra</placeName>, ab una parte, et hos duos germanos, id est <persName
+            ref="#VitaletusZiculi">Vitaletus</persName> et <persName ref="#AlbertinellusZiculi"
+            >Albertinellus</persName>, filii quondam Ziculi de <placeName ref="#Serra"
+            >Serra</placeName>, ab alia, de <term ref="#circulus">circulis</term> et lignaminibus
+          que ipsi eorum predecessores curie episcopii facere, dare et deferre consueverant
+          condictionaliter qui ipsi predicti germani, id est <persName ref="#VitaletusZiculi"
+            >Vitaletus</persName> et <persName ref="#AlbertinellusZiculi">Albertinellus</persName>,
+          per se suosque heredes promiserunt et se obligaverunt facturos ad mandatum curie a
+          presenti die in antea pro parte ipsius <persName ref="#BellandusBonomuli"
+            >Bellandi</persName> suorumque heredum. Et exinde ipsi predicti germani acceperunt ab
+          ipso <persName ref="#BellandusBonomuli">Bellando</persName>, finito precio, <measure
+            type="Imperiales" quantity="20" unit="solidus">denariorum bonorum imperialium soldos
+            XX</measure> et pensionem annualem infra octavam Domini nativitatis, (quos) debent ipsi
+          eorumque heredes habere ab ipso <persName ref="#BellandusBonomuli">Bellando</persName>
+          suisque heredibus. # Signa manuum iamscriptorum germanorum et iamscripti <persName
+            ref="#BellandusBonomuli">Bellandi</persName>, qui hoc scriptum publicum fieri
+          rogaverunt. # # Signa manuum <persName ref="#AndrionusGiberti">Andrionis</persName> filii
+          Giberti de <placeName ref="#Burcione">Burtione</placeName>, <persName
+            ref="#NobilinuscastroSar">Nobilini</persName> de castro <placeName ref="#Sarzana"
+            >Sarzana</placeName>, <persName ref="#GerardinusFurtonis">Gerardini Furtonis</persName>,
+            <persName ref="#RamundinusGerardi">Ramundini</persName> filii quondam Gerardi de
+            <placeName ref="#Alferolo">Alferolo</placeName>, rogatorum testium. Ego <persName
+            ref="#Lombardusnot">Lombardus</persName>, <roleName>notarius imperatoris et Lunensis
+            curie</roleName>, rogatus, hoc instrumentum publicum scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

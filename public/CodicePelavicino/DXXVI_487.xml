@@ -1,0 +1,554 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="DXXVI_487">
+        <front xml:id="DXXVI_front">
+
+
+            <titlePart type="numerazioneNuova">487</titlePart>
+            <titlePart type="numerazioneOrig">DXXVI</titlePart>
+
+            <docDate xml:id="DXXVI_docDate">
+                <date from="1281-05-09" to="1281-12-31" precision="medium">&lt;1281 maggio 9 - 1281
+                    dicembre 31&gt; circa</date>
+            </docDate>
+
+            <div type="regesto" xml:id="DXXVI_regesto">
+                <p>Il vescovo di Luni Enrico elenca i propri diritti sul castello della Brina.</p>
+            </div>
+
+            <div type="footer" xml:id="DXXVI_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 390v.-392r., cc. CCCLXXXIIv.-CCCLXXXIIIIr. secondo la
+                        numerazione originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>
+                        n. 526, pp. 582-584.</p>
+                    <p>Bibliografia: <ref target="#NOBILI_1992">NOBILI 1992</ref></p>
+                </div>
+
+                <div type="crit_notes">
+                    <note>
+                        <p> Il documento è privo di data e di sottoscrizione notarile, probabilmente
+                            anche non concluso. Il primo atto citato è identificabile con quello
+                            riportato al n. 480-DXVIIII del 18 febbraio del 1279; l'ultimo invece la
+                            sentenza di Gerardo vescovo di Sabina dell'8 maggio 1281 (485-DXXIIII).
+                            Si ritiene di conseguenza che questa memoria sia di poco posteriore alla
+                            sentenza stessa, concordando con quanto sostenuto dal <ref
+                                target="#NOBILI_1992">NOBILI 1992</ref>, p. 459, nota 15 e non
+                            concordando con il <ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p.
+                            35, che la collocava tra i due estremi cronologici segnalati.</p>
+                        <p> Il documento presenta innumerevoli allegazioni tratte dal <emph>Corpus
+                                Iuris Civilis</emph> e da altre norme del diritto, suggerite in
+                            nota, in particolare dal <emph>Digesto</emph> (Dig.), <emph>Codex</emph>
+                            (C.), <emph>Novellae Iustiniani</emph> (Nov.),
+                                <emph>Institutiones</emph> (I), <emph>Epitome Iuliani</emph> (EI),
+                                <emph>Authenticum</emph> (Auth.), <emph>Liber Extra</emph> (X),
+                                <emph>Decretum Gratiani</emph> (Decr.) e <emph>Libri Feudorum</emph>
+                            (L.F.). Si ringrazia Luca Loschiavo e Mario Montorzi per l’aiuto fornito
+                            al loro riconoscimento. </p>
+                    </note>
+
+                </div>
+
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">DXXVI. Alegationes et iura et dicta sapientum super eo
+                            quod castrum de Brina et eius pertinentie sint domini episcopi et
+                            ecclesia Lunensis..</term></p>
+                </div>
+
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="DXXVI_div">
+                <pb n="390v" xml:id="fol_390v"/>
+                <p xml:id="DXXVI_p_001" n="1"> Ista sunt iura et rationes que et quas venerabilis
+                    pater <persName ref="#Henricus"><roleName>dominus</roleName> Henricus,
+                            <roleName>Dei gratia Lunensis episcopus</roleName></persName>, pro suo
+                    episcopatu sive ecclesia Lunensi, dicit se habere et habere debere in castro
+                        <placeName ref="#Brina">Brine</placeName> et pertinenciis ipsius castri quo
+                    ad possessionem ipsius et eius pertinenciis et iurisdictionem et proprietatem
+                    ipsius castri. </p>
+                <p xml:id="DXXVI_p_002" n="2">
+                    <c>§</c> Primo quia patet per publicum instrumentum factum manu <persName
+                        ref="#Petrusnot3">Petri <roleName>notarii</roleName>
+                        <placeName ref="#Soliera">de Soleria</placeName>, </persName> qualiter ipse
+                    episcopus per syndicum et actorem suum ad hec specialiter quantum <note
+                        place="foot" n="a" xml:id="DXXVI_n_001">quantum: <emph>così nel
+                            testo.</emph></note> intravit corporaliter in possessionem et usus fuit
+                    possessione dicti castri et iuridictionis ipsius, nomine ipsius episcopi et
+                    episcopatus et eorum que ad iurisdictionem pertinent, et etiam in possessionem
+                    montis sive podii qui dicitur <placeName ref="#Castiglione"
+                        >Castillione</placeName> subtus <placeName ref="#Brina">Brinam</placeName>
+                    et propter hoc dicit se esse restituendum ad dictam possessionem predictorum,
+                    qua possessione <persName ref="#Morruellusvic"><roleName>dominus</roleName>
+                        Monroellus</persName> et sui ipsum dominum episcopum spoliavit. </p>
+                <p xml:id="DXXVI_p_003" n="3">Item dicit idem episcopus alia ratione esse
+                    restituendum ad possessionem dicti castri et podii cum eorum pertinenciis et
+                    omnia debent reduci ad eum statum in quo erant ante tempus guerre seu discordie
+                    orte inter eum et <persName ref="#Morruellusvic"><roleName>dominus</roleName>
+                        Monroellus</persName> auctoritate et virtute sententie late sive arbitrii
+                    prolati a venerabili patre <persName ref="#GerardusepSabinensis"
+                            ><roleName>domino</roleName> Gerardo,
+                        <roleName>episcopo</roleName></persName>
+                    <orgName ref="#Sabina_diocesiSabina_diocesi"><placeName ref="#Sabina1"
+                            >Sabinensi,</placeName></orgName> quod arbitrium a partibus extitit
+                    approbatum et emologatum, prout hec plene in ipso arbitrio sive sententia omnia
+                    continentur. Et ideo petit et dicit dictum castrum eidem esse restituendum in eo
+                    statu in quo erat ante tempus mote discordie et omnia demolici <note
+                        place="foot" n="b" xml:id="DXXVI_n_002">demolici: <emph>così nel testo
+                            per</emph> demoliri.</note> et reduci ad statum illum in quo erant ante
+                    tempus mote discordie. </p>
+                <p xml:id="DXXVI_p_004" n="4">Item dicit alia ratione dictum castrum et homines
+                    ipsius castri esse restituendos eidem episcopo nomine sui episcopatus quo ad
+                    <orgName ref="#Lunigiana_vicaria">vicariam</orgName> et iurisdictionem ipsius episcopi et sue curie et suorum vicariorum ex
+                    eo quod ex voluntate et consensu hominum ipsius loci et ex pactis et
+                    conventionibus et promissionibus factis inter ipsum dominum episcopum, ex una
+                    parte, et homines ipsius loci, ex altera, et ex iuramentis sequimenti et
+                    preceptorum factis ab ipsis hominibus ipsi episcopo et suo vicario seu vicariis
+                    et curie ipsius, prout hec plene continentur in instrumento sive instrumentis
+                    publicis rogatis manu <persName ref="#Petrusnot3">Petri <roleName>notarii
+                            de</roleName>
+                        <placeName ref="#Sarzana">castro Sarzane</placeName></persName> et completis
+                    per <persName ref="#PalealogusPetrinot">Palialogum</persName> et <persName
+                        ref="#BonacursusPetrinot">Bonacursum,
+                        <roleName>notarios,</roleName></persName>
+                    <persName ref="#Petrusnot3">filios ipsius Petri</persName> et in actis curie
+                    ipsius episcopi et suorum vicariorum, de quorum usu et possessione vel quasi
+                    ipsius <orgName ref="#Lunigiana_vicaria">vicarie</orgName> et iurisdictionis apparet per ipsa instrumenta et acta et
+                    scripturas et maxime a tempore <persName ref="#PetrusPontremulo"
+                            ><roleName>domini</roleName> Petri <roleName>de</roleName>
+                        <placeName ref="#Pontremoli">Pontremulo,</placeName></persName>
+                        <roleName>olim vicarii</roleName> <orgName ref="#Lunigiana_vicaria">vicarie suprascripte</orgName> pro ipso
+                    domino episcopo. </p>
+                <p xml:id="DXXVI_p_005" n="5"><c>§</c> Item quo ad proprietatem dicit idem episcopus
+                    ad ipsum, nomine sui episcopatus et Lunensis ecclesie, dictum podium de
+                        <placeName ref="#Castiglione">Castilione</placeName> debere pertinere et
+                    pertinet ex concessione olim facta exinde suo predecessori, prout continetur in
+                    instrumento facto manu manu <persName ref="#Bonabrocanot">Bonabroche
+                        <roleName>notarii</roleName></persName> de <name type="familia" ref="#BurcioneFamilia">dominis de <placeName ref="#Burcione"
+                            >Burzione</placeName></name> et <name type="familia" ref="#BozanoFamilia">de <placeName ref="#Buçano"
+                            >Burzono</placeName></name> et, propter hec, ipsum podium et omnia
+                    que ad ipsum podium pertinent debet pertinere ad ipsum episcopum, nomine sui
+                    episcopatus. </p>
+                <p xml:id="DXXVI_p_006" n="6"><c>§</c> Item dicit idem episcopus quo ad proprietatem
+                    terciam partem dicti castri cum eius pertinenciis ad ipsum pertinere et
+                    pertinere debere ex dato et concessione facta olim predecessori ipsius episcopi
+                    a <persName ref="#LombardellusPeregrini">Lombardello de <placeName
+                            ref="#Burcione">Burzone</placeName></persName> quam ibi habebat ex
+                    successione suorum maiorum, qui ibidem dictam terciam partem <note place="foot"
+                        n="c" xml:id="DXXVI_n_003"> dictam terciam partem: <emph>nel testo</emph>
+                        terciam partem dictam<emph> con segno di richiamo per invertire l’ordine
+                            delle parole</emph>.</note> in dicto castro habebant. Et dictus
+                        <persName ref="#LombardellusPeregrini">Lombardellus</persName> in feudum
+                    dictam terciam partem tenebat a Lunensi episcopo, prout in instrumento facto
+                    manu <persName ref="#Lombardusnot">Lombardii
+                        <roleName>notarii</roleName></persName> continetur. </p>
+                <p xml:id="DXXVI_p_007" n="7"><c>§</c> Item dicit idem episcopus dictum castrum cum
+                    eius pertinenciis pro alia quarta parte ad ipsum pertinere nomine sue ecclesie
+                    ex concessione et confirmatione imperiali, prout in privilegio imperiali plenius
+                    continetur. Et ita patet quod idem episcopus quantum ad possessionem et
+                    proprietatem debet restitui ad dictum castrum et podium et iurisdictionem et
+                    alia suprascripta, non obstante emptione seu emptionibus factis per <persName
+                        ref="#Morruellusvic"><roleName>dominum</roleName> Monroellum</persName> cum
+                    illi qui vendiderunt, videlicet pro parte illa quam <persName
+                        ref="#GuililemusBrina">Guilielmus Tignosus de <placeName ref="#Brina">Brina
+                        </placeName></persName> habebat in ipso castro <placeName ref="#Brina"
+                        >Brine</placeName> cum ipse <persName ref="#GuililemusBrina"
+                        >Guilielmus</persName> illam partem quam habebat <supplied reason="omitted"
+                        >et</supplied> habuit ex successione <persName ref="#PeregrinusBurtione"
+                        >Peregrini patris Lombardelli</persName> predicti. Qui <persName
+                        ref="#Lombardellus">Lombardellus</persName> in feudum tenebat a Lunensi
+                    ecclesia, ut dictum est, et sic venditio quantum ad partem illam et alias partes
+                    venditas ipsi domino <persName ref="#Morruellusvic">Monroello</persName>
+                    <note place="foot" n="d" xml:id="DXXVI_n_004">venditas ipsi domino Monroello:
+                            <emph>nel testo</emph> ipsi domino Monroello venditas <emph>con segno di
+                            richiamo per invertire l’ordine delle parole.</emph></note> ab illis qui
+                    descenderunt ab ipso <persName ref="#Lombardellus">Lombardello</persName> de
+                    iure nulla fuit, cum dicta tercia pars fuerit feudalis, ut dictum est, et super
+                    hiis viderantur <note place="foot" n="e" xml:id="DXXVI_n_005">viderantur:
+                            <emph>così nel testo.</emph></note> diligentissime allegationes et
+                    rationes allegate pro parte ipsius episcopi et ita dicta tercia pars pro
+                    indiviso dicti castri pertinere debet ad ipsum episcopum ex dicta concessione;
+                    et alia quarta pars pro indiviso similiter ex concessione imperiali, prout
+                    dictum est, non obstantibus emptionibus suprascriptis. </p>
+                <p xml:id="DXXVI_p_008" n="8"><c>§</c> Et ut plene pateat vobis de predictis,
+                    dividitur castrum predictum Brine in tres partes, quarum una vocatur pars
+                        <name type="familia" ref="#PeregriniFamilia">Peregrinorum,</name> alia <name type="familia"
+                            ref="#BurcioneFamilia">Burzanorum,</name> tercia <name type="familia"  ref="#UbertisFamilia"
+                                >Ubertorum</name>, et in illa tercia parte <name ref="#PeregriniFamilia"
+                        >Peregrinorum</name> maxime idem episcopus habet et habere debet
+                    proprietatem et possessionem ipsius, in qua dicitur quod <persName
+                        ref="#Morruellusvic"><roleName>dominus</roleName> Monroellus</persName>
+                    emerit; in aliis duabus partibus debet habere idem episcopus quartam partem pro
+                    indiviso, ex concessione imperiali, et specialiter in illa tercia parte
+                        <persName ref="#Uberti">Ubertorum</persName> dicit idem episcopus se ius
+                    habere ex donatione et concessione sibi facta a filiis et heredibus quondam
+                        <persName ref="#RollandinusStadano">Rollandini de <placeName ref="#Stadano"
+                            >Stadano</placeName></persName>, prout in instrumento inde rogato manu
+                        <persName ref="#Petrusnot3">Petri <roleName>notarii</roleName></persName>
+                    continetur. </p>
+                <p xml:id="DXXVI_p_009" n="9">Questio talis est que vertitur inter venerabilem
+                    patrem <persName ref="#Henricus"><roleName>dominum</roleName> Henricum,
+                            <roleName>Dei gratia Lunensem episcopum,</roleName></persName> pro suo
+                    episcopatu, ex una parte, et <persName ref="#Morruellusvic"
+                            ><roleName>dominum</roleName> Monroellum,</persName>
+                    <persName ref="#GuililemusMalaspina"><roleName>marchionem</roleName>
+                        Malaspine,</persName> pro se et fratribus et nepotibus suis, ex altera,
+                    occasione <placeName ref="#Brina">Brine</placeName> et occasione districtus et
+                    iurisdictionis et hominum ipsius loci, videlicet quia dictus dominus episcopus
+                    dicit quod iurisdictio ipsius loci et districtus et homines ipsius pertinent et
+                    debent pertinere ad ipsum dominum episcopum pro suo episcopatu et ad <orgName ref="#Lunigiana_vicaria">vicariam</orgName>
+                    suam et sue curie et sui vicarii debent esse homines ipsius loci et debet poni
+                    et reponi, ut dicit, in possessionem ipsius loci et ipsius iurisdictionis et
+                    <orgName ref="#Lunigiana_vicaria">vicar<supplied reason="omitted">i</supplied>e</orgName> et montis sive podii qui
+                    dicitur <placeName ref="#Castiglione">Castilione</placeName>, in qua possessione
+                    dicit se fuisse et stetisse et suos vicarios, et officiales pro eorum, pro sua
+                    curia et super hiis introducit quedam <pb n="391r" xml:id="fol_391r"/> sua
+                    instrumenta, privilegia, iura et allegationes. </p>
+                <p xml:id="DXXVI_p_010" n="10">Ex adverso autem dicunt dictus <persName
+                        ref="#Morruellusvic"><roleName>dominus</roleName> Monroellus</persName> et
+                    fratres et nepotes eius quod ipsa iurisdictio et ipse locus et eius districtus
+                    et homines non pertinet nec pertinent nec pertinere debent ad ipsum episcopum
+                    vel episcopatum quo ad possessionem nec quo ad proprietatem vel ad dominium nec
+                    ad <orgName ref="#Lunigiana_vicaria">vicariam</orgName> nec ad alia quoquo modo, nec etiam mons sive locus qui dicitur
+                        <placeName ref="#Castiglione">Castilione</placeName>, qui est subtus
+                        <placeName ref="#Brina">Brinam</placeName>, et quod homines ipsius loci non
+                    debent esse sub ipso domino episcopo vel sub eius vicario vel officialibus quo
+                    ad <orgName ref="#Lunigiana_vicaria">vicariam</orgName> vel dominium vel proprietatem vel districtum nec alio modo, immo
+                    dicunt proprietatem, dominium et possessionem dictorum castri et loci,
+                    iurisdictionis et hominum et districtus et dicti montis sive podii, qui dicitur
+                        <placeName ref="#Castiglione">Castilione</placeName>, tempore dictarum
+                    emptionum et etiam a dicto tempore retro et dicunt <orgName ref="#Lunigiana_vicaria">vicariam</orgName> ipsius loci solo
+                    modo ad imperatorem spectare vel ad vicarios ipsius et hactenus spectant, ut
+                    dicunt et super hiis introducunt dicti marchiones eorum instrumenta, iura et
+                    allegationes, que diffitetur dictus dominus episcopus dicendo quod illi qui
+                    dicuntur fecisse dictas vendictiones non habebant dictam iuridictionem et quod
+                    dominium vel iurisditio vel districtus vel possessio ipsius iurisdictionis non
+                    pertinebant ad eos qui ipsas vendictiones fecisse dicuntur nec pertinere
+                    debebant et sic dicit quod ipse venditiones non preiudicant ipsi domino episcopo
+                    vel episcopatui non preiudicare debent in aliquo nec in possessione vel dominio
+                    ipsius vel in aliquo alio; et si dicti nobiles qui dicuntur dictas venditiones
+                    fecisse aliquid habebant vel hactenus habuerunt in dicto loco vel in dicto podio
+                    sive monte vel appareret eos habuisse, dicit dominus episcopus quod illud quod
+                    habuissent vel appareret eos habuisse in ipso loco tenebant et tenere debebant
+                    ab eo et pro eo, quod negant marchiones predicti dicendo quod dicti nobiles a
+                    quibus emptiones fecerunt et de quibus facta est superius mentio, nichil ex
+                    dictis emptionibus tenebant a dicto domino episcopo nec sub eius iurisdictione
+                    sive dominio numquam fuerunt nec esse debebant quantum ad ea que continentur in
+                    emptionibus suprascriptis. Unde vos sapientes, qui super hiis consilium sive
+                    pronunciationem dare vel facere debetis, visis rationibus et instrumentis et
+                    allegationibus utriusque partis, quod iustum fuerit iudicare, que iura debent
+                    summatim videri. </p>
+                <p xml:id="DXXVI_p_011" n="11"><c>§</c> Cum dominus episcopus fuerit in possessione
+                    et a marchione sit inde spoliatus, ante omnia est restituendus in possessione et
+                    antequam de proprietate aliqua cognoscatur cum questio spoliationis sit
+                    privilegiata et hoc tam iure canonico quam civili ut C. <quote
+                        rend="pre(') post(')">De donationibus inter virum. Si maritus</quote>
+                    <note place="foot" n="f" xml:id="DXXVI_n_006">C. 5.16.10.</note> , et <quote
+                        rend="pre(') post(')">Quorum bonorum</quote> lex <quote
+                        rend="pre(') post(')">Si</quote>
+                    <note place="foot" n="g" xml:id="DXXVI_n_007">C. 8.2.2.</note> et ff. <quote
+                        rend="pre(') post(')">Ad legem Iuliam de vi publica. Qui cetu</quote>
+                    <note place="foot" n="h" xml:id="DXXVI_n_008">Dig. 48.6.5.</note> C. I. extra
+                        <quote rend="pre(') post(')">De ordi<supplied reason="omitted">ne</supplied>
+                        cognitionum</quote>
+                    <note place="foot" n="i" xml:id="DXXVI_n_009">X. 2.10.1.</note> C. ultra, et
+                        <quote rend="pre(') post(')">De restitutionibus spoliatione</quote>, C.
+                        <quote rend="pre(') post(')">In litteris</quote> et C. <quote
+                        rend="pre(') post(')">Item</quote>
+                    <note place="foot" n="j" xml:id="DXXVI_n_010">X. 2.13.5 e 6.</note>. Et quod, in
+                    possessione fuerit, patet per publica instrumenta, per quorum unum apparet
+                    syndicum domini episcopi possessionem dicti castri apprehendisse, ex quo constat
+                    possessionem quesitam cum possessio in facto consistat et si de facto sit
+                    adprehensa, acquiritur ut ff. “De acquirenda possessione” lex I <c>§</c>
+                    <quote rend="pre(') post(')">Si vir uxori</quote>
+                    <note place="foot" n="k" xml:id="DXXVI_n_011">Dig. 41, 2, 1, 4. </note> et
+                        <quote rend="pre(') post(')">Quorum bona</quote>
+                    <note place="foot" n="l" xml:id="DXXVI_n_12">Dig. 43.2.1.</note> lex I et per
+                    aliud constat de iuramento hominum <placeName ref="#Brina">Brine</placeName>
+                    facto episcopo et eius vicario per quod apparent signa possessionis atque
+                    dominii ut C. <quote rend="pre(') post(')">De liberali causa</quote> lex <quote
+                        rend="pre(') post(')">Iubemus</quote>
+                    <note place="foot" n="m" xml:id="DXXVI_n_013">C. 7.16.41</note> et ff. <quote
+                        rend="pre(') post(')">De officio pre</quote>
+                    <quote rend="pre(') post(')">Barbarius</quote>
+                    <note place="foot" n="n" xml:id="DXXVI_n_014">Dig. 1.14.3.</note>. Insuper de
+                    proprietate castri <placeName ref="#Brina">Brine</placeName> apparet per publica
+                    documenta quibus quidam nobiles de <placeName ref="#Burcione">Burtione
+                    </placeName> et de <placeName ref="#Buçano">Bozano</placeName> donaverunt certas
+                    partes in castro <placeName ref="#Brina">Brine</placeName> et totum montem
+                        <placeName ref="#Castiglione">Castilionis</placeName> ex quibus sequitur
+                    quod, si erant domini, transtulerunt dominium aliam iustam causam prescribentis,
+                    ut ff. <quote rend="pre(') post(')">De contrahenda emptione.
+                        Clavibus</quote><note place="foot" n="o" xml:id="DXXVI_n_015">Dig. 18, 1,
+                        74.</note>. Item publicianam, que proprietatem respicit et competit cum ex
+                    iusto titulo res transferrent, ut hic fuit titulus <quote rend="pre(') post(')"
+                        >Pro donato</quote>
+                    <note place="foot" n="p" xml:id="DXXVI_n_016">Dig. 41, 6, 0.</note> ut ff.
+                        <quote rend="pre(') post(')">De Publiciana</quote> lex I cum sequentibus
+                        <note place="foot" n="q" xml:id="DXXVI_n_017">Dig. 6.2.1 e seguenti.</note>
+                    et lex cum questione <c>§</c>
+                    <quote rend="pre(') post(')">Publiciana</quote><note place="foot" n="r"
+                        xml:id="DXXVI_n_018">Dig. 6.2.7.6.</note>. </p>
+                <p xml:id="DXXVI_p_012" n="12">Insuper hoc evidencius ostenditur quia predicti
+                    nobiles receperunt castrum et montem in feudum a dicto domino episcopo ex quo
+                    contractu in episcopum incontinenti fuit translata possessio et dominium ut ff.
+                        <quote rend="pre(') post(')">De acquirenda possessione Qui bona fide</quote>
+                    <note place="foot" n="s" xml:id="DXXVI_n_019">Dig. 41.2.19.</note>. Item
+                    confitetur postea dominus episcopus in possessionem fuerit presumitur ex
+                    precedenti capitulo et titulo possedisse ut ff. <quote rend="pre(') post(')">De
+                        rei vendicatione</quote> lex <quote rend="pre(') post(')">Quedam</quote>
+                    <note place="foot" n="t" xml:id="DXXVI_n_020">Dig. 6.1.77.</note> et C. <quote
+                        rend="pre(') post(')">De acquirenda possessione</quote>
+                    <note place="foot" n="u" xml:id="DXXVI_n_021">Dig. 41.2.0.</note>
+                    <quote rend="pre(') post(')">Minus instruatur</quote>
+                    <note place="foot" n="v" xml:id="DXXVI_n_022"> C. 7.32.2; nel testo instruatur
+                        al posto di instructus.</note>. Ex quibus constat dominum episcopum debere
+                    rei vendicatione<supplied reason="omitted">m</supplied> utilem vel directam et
+                    predicta vera sunt, non obstante vendictionibus factis marchionibus a quibusdam
+                    nobilibus qui nullum ius in dicto castro habebant nec habere probantur, unde
+                    vendendo iura episcopi nullatenus potuerunt. Cum quilibet rem alienam possit
+                    vendere ut ff. <quote rend="pre(') post(')">De contrahen<supplied
+                            reason="omitted">da</supplied> emptione</quote>
+                    <quote rend="pre(') post(')">Rem alienam</quote>
+                    <note place="foot" n="w" xml:id="DXXVI_n_023">Dig. 18.1.28.</note> non tantum
+                    domino preiudicatur in aliquo nisi fiat eo consentiente vel mandante ut ff.
+                        <quote rend="pre(') post(')">De rei vendi<supplied reason="omitted"
+                            >catione</supplied> si quis sub hac lege</quote>
+                    <note place="foot" n="x" xml:id="DXXVI_n_024">Dig. 6.1.41.</note> C. <quote
+                        rend="pre(') post(')">De rebus alien<supplied reason="omitted">is</supplied>
+                        non alie<supplied reason="omitted">nandis</supplied></quote>
+                    <note place="foot" n="y" xml:id="DXXVI_n_025">C. 4.51.</note> quasi per totum
+                    legitur. </p>
+                <p xml:id="DXXVI_p_013" n="13">Item instrumentis antiquis donationum in antiquis
+                    factis maxime est credendum ut memoria hominum antiqua tenere non possit ut ff.
+                        <quote rend="pre(') post(')">De probationibus</quote>
+                    <note place="foot" n="z" xml:id="DXXVI_n_026">C. 4.19.</note> lex <quote
+                        rend="pre(') post(')">Census et monumenta</quote>
+                    <note place="foot" n="aa" xml:id="DXXVI_n_027">Dig. 22.3.10.</note> et extra
+                        <quote rend="pre(') post(')">De prescriptionibus</quote> C. <quote
+                        rend="pre(') post(')">Ad audienciam</quote>
+                    <note place="foot" n="bb" xml:id="DXXVI_n_028">X. 2.26.13.</note> et <quote
+                        rend="pre(') post(')">Finium regundorum</quote> in finalibus <note
+                        place="foot" n="cc" xml:id="DXXVI_n_029"> Dig. 10.1.12-13.</note>. Et quod
+                    memoria hec tenere non possit probatur ff. <quote rend="pre(') post(')">De
+                        acquirenda possessione. Peregre</quote>
+                    <note place="foot" n="dd" xml:id="DXXVI_n_030">Dig. 41.2.44.</note> et “<quote
+                        rend="pre(') post(')">De probationibus</quote>
+                    <quote rend="pre(') post(')">Si arbiter</quote>
+                    <note place="foot" n="ee" xml:id="DXXVI_n_031">Dig. 22.3.28.</note> et melius in
+                    authenticum <quote rend="pre(') post(')">Constitutio hec innovat constitutionem
+                        que loquitur de prescriptione centum annorum</quote>
+                    <note place="foot" n="ff" xml:id="DXXVI_n_032"> Auth. 106 (Coll. VI.7) = Nov.
+                        111.</note>
+                    <pb n="391v" xml:id="fol_391v"/> et non obstante confessione quondam domini
+                    Guilielmi, episcopi Lunensis, et promissione facta de non impediendo homines de
+                    Brina a duobus annis in antea, quia prelatus non potuit confiteri in preiudicium
+                    ecclesie neque promittere de non requirendo eos post duos annos, quia non potuit
+                    ecclesie sue preiudicare, maxime sine consensu capituli, quia tunc prelatus et
+                    tutor habentur loco domini cum bene administrant non cum ecclesiam spoliant ut
+                    ff. <quote rend="pre(') post(')">Pro emptore. Qui fundus</quote>, <c>§</c>
+                        “<quote rend="pre(') post(')">Si tutor</quote>
+                    <note place="foot" n="gg" xml:id="DXXVI_n_033">Dig. 41.4.7.3.</note> , extra
+                        <quote rend="pre(') post(')">De transacionibus</quote> C. II <note
+                        place="foot" n="hh" xml:id="DXXVI_n_034">X. 1.36.2</note> nec delictum
+                    prelati redundat in dampnum ecclesie ut C <quote rend="pre(') post(')">De
+                        sacrosanctis</quote> et <quote rend="pre(') post(')">Iubemus nullam</quote>
+                    <note place="foot" n="ii" xml:id="DXXVI_n_035">C. 1.2.10.</note> et XVII <note
+                        place="foot" n="jj" xml:id="DXXVI_n_036">XVII: <emph>così nel testo
+                            probabilmente per</emph> XVI. </note> questio VI C <quote
+                        rend="pre(') post(')">Si episcopum</quote>
+                    <note place="foot" n="kk" xml:id="DXXVI_n_037">Decr. C.16.q.6c.2(3).</note>. </p>
+                <p xml:id="DXXVI_p_014" n="14">Item talis confessio extra iudicium non preiudicat ut
+                    C <quote rend="pre(') post(')">De liberali causa</quote>
+                    <quote rend="pre(') post(')">Nec si volens</quote> et lex <quote
+                        rend="pre(') post(')">Parentes</quote> et lex <quote rend="pre(') post(')"
+                        >Interrogatam</quote> et lex <quote rend="pre(') post(')">Iubemus</quote>
+                    <note place="foot" n="ll" xml:id="DXXVI_n_038">C. 7.16.6, 22, 24 e 41.</note>.
+                    Ad que facit privilegium imperatoris de concessione seu confirmatione quarte
+                    partis castri de <placeName ref="#Brina">Brina</placeName> qui omnia regagalia
+                        <note place="foot" n="mm" xml:id="DXXVI_n_039">regagalia: <emph>così nel
+                            testo per </emph>regalia.</note> et fiscalia et patrimonialia potest
+                    concedere et donare ut C <quote rend="pre(') post(')">De quadrienni
+                        prescriptione. Bene a Zenone</quote>
+                    <note place="foot" n="nn" xml:id="DXXVI_n_040"> C. 7.37.3.</note>. Cum sit
+                    dominus omnium et omnia possit ad quod est C. <quote rend="pre(') post(')">De
+                        donatione inter virum</quote> lex penultima <note place="foot" n="oo"
+                        xml:id="DXXVI_n_041">C. 5.16.26.</note> et C. <quote rend="pre(') post(')"
+                        >De bonis quia libellum</quote> lex penultima <note place="foot" n="pp"
+                        xml:id="DXXVI_n_042">C. 6.61.</note>. Nam in principe donatarum rerum
+                    immisitas est optima mensura et ideo in eius donatione, insinuatione et non
+                    exigitur ut in authenticum <quote rend="pre(') post(')">De non alie<supplied
+                            reason="omitted">nandis</supplied></quote>
+                    <note place="foot" n="qq" xml:id="DXXVI_n_043">Auth. 7.2.1 (Coll. II.1) = Nov.
+                        7.2.1.</note> aut per <c>§</c>
+                    <quote rend="pre(') post(')">Si<supplied reason="omitted"
+                        >ni</supplied>mus</quote>
+                    <note place="foot" n="rr" xml:id="DXXVI_n_044"> Nov. 7.2</note> et eius
+                    confirmatio pro concessione cedit quoniam qui confirmat, dat ut ff. <quote
+                        rend="pre(') post(')">De adocione</quote>
+                    <note place="foot" n="ss" xml:id="DXXVI_n_045">C. 8.47(48).4.</note> lex
+                    adocionis non iure de pactis legitimis et tangitur <quote rend="pre(') post(')"
+                        >De iurisdictione</quote> omnium III lex <quote rend="pre(') post(')">Et
+                        quia</quote>
+                    <note place="foot" n="tt" xml:id="DXXVI_n_046">Dig. 2.1.6.</note> vel saltim
+                    negari non posset quod non precederet titulus quia ex iusto errore usucapio et
+                    prescriptio sequitur sine iusto titulo ut ff. <quote rend="pre(') post(')">De
+                        usurpationibus. Celsus</quote>
+                    <note place="foot" n="uu" xml:id="DXXVI_n_047"> Dig. 41.3.27.</note>. Insuper
+                    post quod legitime et ex iusto titulo dominus episcopus habuit iurisdictionem
+                    predictam a populo castri de <placeName ref="#Brina">Brina</placeName>, qui
+                    populus iuravit mandata domini episcopi et eius et sui vicarii sequimenta et
+                    alia in instrumenta comprehensa. Qui populus, sicut quilibet alius populus et
+                    universitas, habet iurisdictionem sue terre s ue universitatis ut in authenticum
+                        <quote rend="pre(') post(')">De deffensoribus civitatibus</quote> in
+                    <c>§</c> <quote  rend="pre(') post(')">Interim</quote> <note place="foot" n="vv" xml:id="DXXVI_n_048">Aut. 15.1
+                        (Coll. III.2) = Nov. 15.1.</note> et ff. <quote  rend="pre(') post(')">De curatoribus</quote> <note place="foot"
+                        n="ww" xml:id="DXXVI_n_049">Dig. 27.10.</note> et curatoribus datis ab hiis
+                    ubi absunt et <quote  rend="pre(') post(')">De mandatis</quote> lege ultima <note place="foot" n="xx"
+                        xml:id="DXXVI_n_050">C. 1.15.2.</note> et non expresse ff. <note
+                        place="foot" n="yy" xml:id="DXXVI_n_051">ff.: <emph>così nel testo forse
+                            per</emph> De.</note><quote  rend="pre(') post(')">Officio magistri militum</quote> <note place="foot"
+                        n="zz" xml:id="DXXVI_n_052">C. 1. 29.</note> lex imperium. Ita iuridictionem
+                    quam habebat potuit domino episcopo consentire et concedere sic et Romanus
+                    populus omnem suum imperium et potestatem in principem transtulit ut ff. <quote  rend="pre(') post(')">De
+                    origine iuris</quote> <note place="foot" n="aaa" xml:id="DXXVI_n_053">Dig.
+                        1.2.2.11.</note> lex II <c>§</c> <quote  rend="pre(') post(')">Novissime</quote> et <quote  rend="pre(') post(')">De constitutionibus
+                    principum</quote> VI <note place="foot" n="bbb" xml:id="DXXVI_n_054">Dig.
+                    1.4.6.</note>. </p>
+                <p xml:id="DXXVI_p_015" n="15"><c>§</c> In primis quod in iudicio possessorio
+                    dominus episcopus debeat obtinere non videtur ullatenens dubitandum aut ei
+                    dicemus quod episcopus possidet per vassallum seu vassallos et si vassallus aut
+                    vassalli alienent et tradant, intervertere videntur possessionem et illa
+                    interversio privat dominum possessione naturali et civili sicut deiecto et immo
+                    domino spoliato subvenerit seu subveniret debet pro recuperando possessione per
+                    interdictum unde vi vel per condicione ex lege ut ff. <quote  rend="pre(') post(')">De vi et vi armata</quote> lex
+                    <quote  rend="pre(') post(')">Colonus</quote> et lex <quote  rend="pre(') post(')">Cum fundum</quote> <note place="foot" n="ccc" xml:id="DXXVI_n_055"
+                        >Dig. 43.16.12 e 18.</note> et C. “De acquirenda possessione” lex II <note
+                        place="foot" n="eee" xml:id="DXXVI_n_056">II: C. 7.32.2. <emph>La
+                            prima</emph> I <emph>corretta su precedente</emph> f.</note> si
+                    succurritur et iudicio recuperande possessionis igitur restitui debet, nullo
+                    contradicente, abstante ut C. <quote  rend="pre(') post(')">Ad legem Iuliam de vi publica</quote> lex <quote  rend="pre(') post(')">Si quis a se
+                    fundum</quote> <note place="foot" n="fff" xml:id="DXXVI_n_057"> C. 9.12.7.</note> ubi
+                    ad aliqua possessione privatus ante omnia restitui debet ad possessionem quam
+                    extitit spoliatus ut supra <quote  rend="pre(') post(')">De prescriptione XXX in XXX</quote> in b. <note
+                        place="foot" n="ggg" xml:id="DXXVI_n_058">b.: <emph>così nel testo forse
+                            per</emph> lex.</note>, <quote  rend="pre(') post(')">Si quis emptionis</quote> <note place="foot" n="hhh"
+                                xml:id="DXXVI_n_059"> C. 7.39.8.</note> vero set hac super illa et C <quote  rend="pre(') post(')">Si per
+                    vim vel alio modo</quote> lex I <note place="foot" n="iii" xml:id="DXXVI_n_060">C.
+                        8.5.1.</note> , et <quote  rend="pre(') post(')">De agriculis et censitis. Si coloni</quote> <note place="foot"
+                        n="jjj" xml:id="DXXVI_n_061">C. 11.48(47).14.</note> cum multis similibus.
+                    Si autem dicamus quod dominus possidet per se civiliter et vassallus per se
+                    naturaliter quod dicitur esse verius ad similitudinem fructuarii et proprietarii
+                    ut lex naturaliter et lex possessio quoque ff. <quote  rend="pre(') post(')">De acquirenda possessione</quote> <note
+                        place="foot" n="kkk" xml:id="DXXVI_n_062">Dig. 41.2.</note> et solet dici et
+                    notari in est C <note place="foot" n="lll" xml:id="DXXVI_n_063">C: <emph> così
+                        nel testo probabilmente per </emph>ff.</note> <quote  rend="pre(') post(')">De acquirenda
+                            possessione</quote> lex III <c>§</c> <quote  rend="pre(') post(')">E contrario</quote> <note place="foot" n="mmm"
+                        xml:id="DXXVI_n_064">Dig. 41.2.3.5.</note> et C. <note place="foot" n="nnn"
+                        xml:id="DXXVI_n_065">C: <emph> così nel testo probabilmente per
+                        </emph>ff.</note> <quote  rend="pre(') post(')">Commodati</quote> si ut certo <c>§</c> <quote  rend="pre(') post(')">Si duobus vehiculum</quote>
+                        <note place="foot" n="ooo" xml:id="DXXVI_n_066">Dig. 13.6.5.15.</note> . Et
+                    tunc traditio vassalli non privat dominum possessione civili sicut nec eiusdem
+                    vassalli detencio, armata ff. <quote  rend="pre(') post(')">De vi et vi armata</quote> lex III <c>§</c> <quote  rend="pre(') post(')">Unde vi</quote> et
+                        <c>§</c> sequenti <note place="foot" n="ppp" xml:id="DXXVI_n_067">Dig.
+                        43.16.3.13 e 14.</note> et tunc dominus <note place="foot" n="qqq"
+                        xml:id="DXXVI_n_068">tunc dominus: <emph>nel testo </emph>dominus tunc
+                            <emph>con segno di richiamo per invertire l'ordine delle
+                        parole</emph></note> pro civili possessione, quam retinet, et sibi turbari
+                    per retentionem naturalis proponere potest interdictum uti possessioni et, eo
+                    proposito, restitutionem naturalis possessionis consequetur ut notari solet et
+                    colligi manifeste ff. <quote  rend="pre(') post(')">De acquirenda possessione</quote> clam possidere <c>§</c> <quote  rend="pre(') post(')">Qui
+                    ad nundinas</quote> <note place="foot" n="rrr" xml:id="DXXVI_n_069">Dig.
+                        41.2.6.1.</note> maxime cum in lege dicant quod feudum a vassallo alienatum
+                    ipso iure desinat pertinere ad vassallum alienantem et libere vel sine aliqua
+                    contradictione feudum ad dominum reverti debeat ut <quote  rend="pre(') post(')">de prohibita feudorum
+                        alienatione per Fridericum</quote> circa principium et <c>§</c> <quote  rend="pre(') post(')">Callidis</quote> <note
+                        place="foot" n="sss" xml:id="DXXVI_n_070">L.F. 2.55. circa pr. e 1.</note>
+                    ubi a parte cavetur quod si quis ab aliquo feudum tenens ipsum feudum vendere
+                    vel alienare presumat, feudum amittat et ad dominum libere revertatur, post
+                    igitur et nulli debet evenire in dubium quod Lunensis <supplied reason="omitted"
+                        >episcopus</supplied> in possessorio iudicio debet huius potior et
+                    possessionem ipsam merito obtinere. Quo datum in petitorio iudicio idem
+                    episcopus possessione obtenta debeat esse potior, potest cuilibet manifeste. Nam
+                    si ille vel illi a quo vel quibus <persName ref="#Morruellusvic"
+                            ><roleName>dominus</roleName> Monroellus</persName> vel alter emisse
+                    dicitur dictum castrum vel eius aliquam portionem tenebant in feudum a Lunensi
+                    ecclesia totum vel etiam partem feudi in quamquam alienaverint, statim id quod
+                    alienatum dicetur vel constat libere et absolute feudum ad dominum sine eius
+                    voluntate alienatum dicitur, reverti debet <pb n="392r" xml:id="fol_392r"/>
+                    emptore feudi esse solum venditorem, si bona fide emit ad precium regressum
+                    habente ut hoc a parte cavetur prius allegato titulo <quote  rend="pre(') post(')">de prohibita feudorum
+                    alienatione per Fridericum <note place="foot" n="ttt" xml:id="DXXVI_n_071"
+                        >Fridericum: probabilmente feudum nel testo</note>” et <c>§</c> “Callidis
+                    insuper machinationibus</quote> <note place="foot" n="uuu" xml:id="DXXVI_n_072">L.F.
+                        2.55. circa pr. e 1.</note> et cetera et <c>§</c> precedenti et <quote  rend="pre(') post(')">de vassallo
+                    qui contra constitutionem Lotharii</quote> <note place="foot" n="vvv"
+                        xml:id="DXXVI_n_073">L.F. 2.38.</note> feudo alienato C. I. cum similibus
+                    cum igitur illi a quibus dominus emptor emisse dicitur in feudum a Lunensi
+                    episcopo tenebant et sine Lunensis episcopi licencia alienasse dicantur merito
+                    ad Lunensem ecclesiam dictum feudum libere reverti debet et sibi adiudicari de
+                    iure ut patet liquide per iura superius allegata. </p>
+                <p xml:id="DXXVI_p_016" n="16"><c>§</c>
+                    <persName ref="#PeregrinusBurtione">Peregrinus de <placeName ref="#Burcione"
+                                >Bu<supplied reason="omitted"
+                        >r</supplied>zono</placeName></persName> fuit prior <persName
+                        ref="#RollandusBurcione"><roleName>domini</roleName> Rollandi</persName> et
+                    ex ipso <persName ref="#RollandusBurcione"><roleName>domino</roleName>
+                        Rollando</persName> exivit <persName ref="#Peregrina"
+                            ><roleName>domina</roleName> Peregrina</persName> et ex <persName
+                        ref="#Peregrina">Peregrina</persName> exiverunt <persName
+                        ref="#BonifaciusVallecchia"><roleName>dominus</roleName> Bonifacius de
+                            <placeName ref="#Vallecchia1">Vallechia</placeName></persName> et alii
+                    et ex <persName ref="#BonifaciusVallecchia"><roleName>domino</roleName>
+                        Bonifacio</persName> exivit <persName ref="#RollandusBonifacii"
+                            ><roleName>dominus</roleName> Rollandus</persName> et alii et quidem
+                    nomine <persName ref="#Polaster">Polaster</persName> fuit pater <persName
+                        ref="#DainensePolastri">Danensis</persName> et <persName
+                        ref="#DainensePolastri">Danensis</persName> fuit pater <persName
+                        ref="#GuilielmusDainensis">Guilielmi</persName>, qui omnes exiverunt de
+                    dicto <persName ref="#PeregrinusBurtione">Peregrino</persName>. <persName
+                        ref="#LombardellusPeregrini">Lombardellus</persName> fuit filius dicti
+                        <persName ref="#PeregrinusBurtione">Peregrini</persName>, ex <persName
+                        ref="#LombardellusPeregrini">Lombardello</persName> exivit dominus <persName
+                        ref="#OddoBurcione">Odo</persName> et ex <persName ref="#OddoBurcione"
+                        >Odone</persName> exivit <persName ref="#BonifaciusOdonis"
+                        >Bonifacius</persName> et ex <persName ref="#GuibertusBonifacii">Bonifacio
+                        Guibertus</persName> et abbas de <orgName ref="#Ceparana_S_Venanzio"
+                            ><placeName ref="#Ceparana">Cepparana</placeName></orgName>. Et omnes
+                    isti habent tercium virum in <placeName ref="#Brina">Brina</placeName>, in qua
+                        <persName ref="#Morruellusvic"><roleName>dominus</roleName>
+                        Monroellus</persName> emit et dictum tercium totum devenit ad <persName
+                        ref="#LombardellusPeregrini">Lombardellum</persName>, qui fecit donationem
+                    ecclesie Lunensi, prout in instrumento continetur. Et aliud tercium est de
+                        <name ref="#UbertisFamilia">Ubertis</name> et aliud tercium est de
+                    <persName ref="#BurcioneFamilia">Bonanensibus<note place="foot" n="www"
+                            xml:id="DXXVI_n_074">Bonanensibus: <emph>così nel testo probabilmente
+                                per</emph> Borzanensibus</note></persName>. </p>
+            </div>
+        </body>
+
+    </text>
+</TEI>

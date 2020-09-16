@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXV_327">
+    <front xml:id="CCCLXV_front">
+
+      <titlePart type="numerazioneNuova">327</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXV</titlePart>
+
+      <docDate xml:id="CCCLXV_docDate">
+        <date when="1209-08-04">1209 agosto 4</date>, <placeName>Sarzana<term xml:lang="latin"
+              ><emph> (Sarzane, in ecclesia Sancte Marie)</emph></term></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXV_regesto">
+        <p>Il vescovo Gualtiero concede a Dato, rettore della chiesa di San Maurizio, un pezzo di
+          terra posto presso la chiesa stessa.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 311v., c. CCCIIIv. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 365, pp. 347.</p>
+          <p>Bibliografia: <ref target="#AMBROSI_1992">AMBROSI 1992</ref></p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Il 5 agosto del 1209 cadeva di mercoledì, quindi <term xml:lang="latin">die
+              martis</term> sarà il 4 dello stato stesso mese: cfr. <ref target="#MAZZINI_1914"
+              >MAZZINI 1914</ref>, p. 24.</note>
+          <note>Nel margine esterno, di mano moderna: <term xml:lang="latin">Sancte Crucis de
+              Corvo</term></note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCLXV.
+              Sancti Mauritii. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXV_div">
+        <p xml:id="CCCLXV_p_001" n="1"><ptr target="#CCCLXV_st_001"/>In nomine Domini, amen. <date
+            when="1209-08-04">Anno a nativitate Eius M°CC nono, indictione XII, die martis, V<note
+              place="foot" n="a" xml:id="CCCLXV_n_001"><term xml:lang="latin">V</term>: <emph>così
+                nel testo</emph>.</note> intrante augusto</date>. Nos <persName ref="#GualEpLuni"
+            >Walterius, <roleName>Dei gratia Lunensis Ecclesie episcopus</roleName></persName>,
+          damus, tradimus et offerimus, pro remedio et salute anime nostre et animarum nostrorum
+          successorum, tibi <persName ref="#Datusrect"><supplied reason="omitted">Dato</supplied>,
+              <roleName>rectori et ministro <orgName ref="#Luni_S_Maurizio">ecclesie Sancti
+                Mauricii</orgName></roleName></persName>, pro ipsa ecclesia recipienti, nominatim I
+          integram petiam terre sitam apud <orgName ref="#Luni_S_Maurizio"> Sanctum
+            Mauricium</orgName>, sicuti trahit versus plaçam, cui coheret undique terra nostra <note
+            place="foot" n="b" xml:id="CCCLXV_n_002"><term xml:lang="latin">cui coheret undique
+              terra nostra</term>: <emph>aggiunto in calce al documento, prima dell’</emph><term
+              xml:lang="latin">actum</term>, <emph>senza segno di richiamo</emph>.</note>, vinea et
+          ortus <orgName ref="#Luni_S_Maurizio">Sancti Mauricii</orgName>, retentis in nobis XL
+          brachiis de plaça ex parte maris. Hanc predictam petiam terre damus et offerimus tibi
+          iamscripto <persName ref="#Datusrect">Dato</persName>, recipienti pro ipsa ecclesia, cum
+          omni iure et actione nobis inde competenti, ut amodo perpetuo tota dicta terra ad dictam
+          ecclesiam proprietario iure pertineat et tu tuique successores faciatis inde, pro
+          utilitate ipsius ecclesie, quicquid vobis placuerit, cum omni iure et actione, dominio,
+          proprietate et usu atque utilitate et cum accessibus et regressibus suis et omnibus suis
+          pertinenciis, in integrum, sine alicuius aliqua contradictione et cum nostra nostrorumque
+          successorum rationabili deffensione ab omni persona vel restauratione facienda in
+          consimili loco, in arbitrio bonorum hominum, prout tunc valuerit, si deffendere non
+          possemus. Insuper damus, cedimus et mandamus tibi, pro iamscripta ecclesia, omnia iura et
+          actiones nobis inde aliquo modo vel iure competencia et facimus te procuratorem in rem
+          ecclesie iamscripte, dantes tibi licenciam intrandi inde in tenutam, tua auctoritate. </p>
+        <p xml:id="CCCLXV_p_002" n="2">Actum <placeName ref="#Sarzana">Sarzane</placeName>, in
+            <orgName ref="#Sarzana_S_Maria">ecclesia Sancte Marie</orgName>, sollempniter,
+          presentibus <persName ref="#TancredusLucanusiur">Tancredo <roleName>iurisperito <placeName
+                ref="#Lucca"> Lucano</placeName></roleName></persName>, <persName
+            ref="#AldebrandusAlberti"> Aldeprando</persName> et <persName ref="#GerardusAlberti"
+            >Gerardo <roleName>vicedominis</roleName></persName>, <persName ref="#BellonusHelena"
+            >Bellone de Helena</persName> et <persName ref="#Mançetuscast">Mançeto
+              <roleName>castaldo</roleName></persName>, testibus ad hec rogatis. </p>
+        <p xml:id="CCCLXV_p_003" n="3">Ego <persName ref="#Ugolinusnot">Ugolinus, <roleName>sacri
+              palacii notarius et Lunensis curie</roleName></persName>, hiis interfui et rogatus
+          scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

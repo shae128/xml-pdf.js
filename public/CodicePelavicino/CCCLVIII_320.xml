@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLVIII_320">
+    <front xml:id="CCCLVIII_front">
+
+      <titlePart type="numerazioneNuova">320</titlePart>
+      <titlePart type="numerazioneOrig">CCCLVIII</titlePart>
+
+      <docDate xml:id="CCCLVIII_docDate">
+        <date when="1232-11-30">1232 novembre 30</date>
+        <placeName>Carrara <term xml:lang="latin"><emph> (Carrarie, in
+          platea)</emph></term></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLVIII_regesto">
+        <p>Peregrino, gastaldo del vescovo di Luni Guglielmo, Leone di Buto, gastaldo del marchese
+          di Massa Andrea, Giunta del fu Cerro di Beriola, gastaldo di Corrado Corsi, Calvino,
+          gastaldo di Lambertuccio <term xml:lang="latin">de Illano Pontis</term> e di Guglielmo
+          Corsi, e Avito di San Vitale, gastaldo del marchese Sardo, concedono a livello due giove
+          di terra in Planello de Casalina ai fratelli Simonetto e Bianco del fu Sabbatino di
+          Apiola, che ricevono anche a nome dei propri fratelli Aprile e Pietro. Le terre sono
+          incolte e boschive e appartengono per una metà <term xml:lang="latin">pro indiviso</term>
+          al vescovo e per l’altra metà ai marchesi di Massa. La pensione annua è di 8 denari di
+          imperiali, 4 al vescovo e 4 ai marchesi; per la transazione sono pagati 16 soldi di
+          imperiali, anche in questo caso suddivisi equamente tra vescovo e marchesi.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 309v., c. CCCIv. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 358, p.
+            342.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <term xml:lang="latin"> Carraria</term>; più
+            sotto, sempre della stessa mano: <term xml:lang="latin">marchio de Massa</term></note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLVIII. Pensionis quam reddunt heredes Symonecti de Aventia.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLVIII_div">
+        <pb n="309v" xml:id="fol_309v"/>
+        <p xml:id="CCCLVIII_p_001" n="1">In nomine Domini, amen. <date when="1232-11-30"> Anno a
+            nativitate Eius M°CCXXXII, indictione V, die martis, II kalendas decembris </date>. Ego
+            <persName ref="#PeregrinusCarr">Peregrinus, <roleName>castaldus domini <persName
+                ref="#GuilEpLuni">Guilielmi</persName></roleName>, <roleName>Dei gratia Lunensis
+              episcopi</roleName>, in curia de <placeName ref="#Carrara">Carraria</placeName> de
+              <placeName ref="#Supraluna">supra Lune</placeName></persName>, nomine pro dicto
+          episcopo et sui episcopatus ex illa auctoritate quam habeo ab eo faciendi locationes
+          terrarum predictarum suarum curiarum, in una medietate pro indiviso, et nos <persName
+            ref="#LeonusButo">Leonus de <placeName ref="#Buto">Buto</placeName></persName>,
+            <roleName>castaldus domini <persName ref="#Andreamarchio">Andree</persName></roleName>,
+            <roleName>marchionis de <placeName ref="#Massa">Massa</placeName></roleName>, et
+            <persName ref="#IunctaCerri">Iuncta quondam Cerri de <placeName ref="#Beriola"
+              >Beriola</placeName></persName>, <roleName> castaldus domini <persName
+              ref="#CurradusCorsus">Curradi Corsi</persName></roleName>, et <persName
+            ref="#Calvinuscas">Calvinus, <roleName>castaldus domini <persName
+                ref="#LambertucciusIllano">Lambertucii de <placeName ref="#IllanoPontis">Illano
+                  Pontis</placeName></persName> et <persName ref="#GuilielmusCorsus">Guilielmi
+                Corsi</persName></roleName></persName>, et <persName ref="#AvitusSVitali">Avitus de
+              <placeName ref="#San_Vitale"> Sancto Vitali</placeName></persName>,
+            <roleName>castaldus curie marchionis <persName ref="#Sardusmarchio"
+            >Sardi</persName></roleName>, in alia medietate pro indiviso, insimul, concorditer,
+          damus et locamus per libellum tibi <persName ref="#SimonetusSabrini">Symoneto</persName>
+          et <persName ref="#BlancusSabrini">Blanco</persName> quondam <persName
+            ref="#SabbatinusDonne">Sabbatini de <placeName ref="#Apiola"
+            >Apiola</placeName></persName>, recipientibus pro vobis et fratribus vestris <persName
+            ref="#AprileSabrini">Aprile</persName> et <persName ref="#PetrusSabrini"
+            >Petro</persName> et pro vestris et eorum heredibus, et si unus vestrum obiret sine
+          herede qui supervixerit defuncto succedat, nominatim duas <term ref="#iuva">iuvas</term>
+          terre agre, quod est<note place="foot" n="a" xml:id="CCCLVIII_n_001"><term
+              xml:lang="latin">quod est</term>: <emph> ripetuto nel testo.</emph></note> boscum,
+          sitas in <placeName ref="#Planello_Casalina">Planello de Casalina</placeName>, cui coheret
+          desuper et desubter et ab utraque<note place="foot" n="b" xml:id="CCCLVIII_n_002">
+            <term xml:lang="latin">utraque</term>: <emph>così nel testo.</emph></note> lateribus
+          terra et boscum pro medietate curie domini suprascripti Lunensis episcopi et alia
+          medietate suprascriptarum curiarum marchionum de <placeName ref="#Massa"
+          >Massa</placeName>, ita ut amodo perpetuo nomine libelli vos et fratres vestri predicti
+          vestrorumque heredes<note place="foot" n="c" xml:id="CCCLVIII_n_003"><term
+              xml:lang="latin">vestrorumque heredum</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">vestrique heredes</term> .</note> habeatis, teneatis, fruamini et
+          possideatis totam dictam terram, cum accessibus et regressibus suis et omnibus suis
+          pertinenciis, in integrum, sine alicuius aliqua contradictione et cum nostra nostrorumque
+          successorum rationabili deffensione ab omni persona et loco vel restauratione facienda
+          supra bona suprascripti domini episcopi et eius curie de <placeName ref="#Carrara"
+            >Carraria</placeName>, que ad hoc obligo pro medietate ego suprascriptus <persName
+            ref="#PeregrinusCarr"> Peregrinus<note place="foot" n="d" xml:id="CCCLVIII_n_004"><term
+                xml:lang="latin">ego suprascriptus Peregrinus</term>: <emph>aggiunto prima
+                dell’</emph><term xml:lang="latin">actum</term>
+              <emph>con segno di richiamo. </emph></note></persName> et alia medietate supra bona
+          suprascriptarum curiarum marchionis de <placeName ref="#Massa">Massa</placeName>, quas nos
+          suprascripti locatores obligamus in consimili loco, in arbitrio bonorum hominum, prout
+          tunc valuerit, si rationabiliter deffendere non possemus. Et vos vestrique fratres et
+          heredes, ut dictum est superius, exinde amodo in perpetuum teneamini dare et reddere pro
+          medietate tenute suprascripte curie Lunensis episcopi vel eius castaldo de <placeName
+            ref="#Carrara">Carraria</placeName>, omni anno, infra octavam nativitatis Domini,
+          pensionem <measure type="Imperiales" unit="denarius" quantity="4"> denariorum IIII
+            imperialium</measure> tantum, et <measure type="Imperiales" unit="denarius" quantity="4"
+            >denarios alios IIII imperialium </measure> alie suprascripte curie dictorum marchionum
+          de <placeName ref="#Massa">Massa</placeName> vel eorum castaldo tantum; alia super
+          imposita non fiat. Unde damus vobis licenciam inde in tenutam intrandi vestra auctoritate
+          quandocumque volueritis. Et confitemur nos recepisse servicium a vobis, pro libellatico,
+            <measure type="Imperiales" unit="solidus" quantity="16"> soldos XVI
+            imperialium</measure>, videlicet <measure type="Imperiales" unit="solidus" quantity="8"
+            >soldos VIII</measure>
+          <persName ref="#PeregrinusCarr">Peregrino <roleName>castaldo</roleName></persName> pro
+          curia Lunensis episcopi et alios <measure type="Imperiales" unit="solidus" quantity="8"
+            >soldos VIII</measure> pluribus castaldis pro curiis suprascriptorum marchionum,
+          renunciando exceptioni non habiti et recepti servicii. Et constituimus nos vobiscum ut
+          quicumque nostrum vel nostrorum heredum vel successorum unquam dictam terram tollere vel
+          laxare aut contra id quod superius legitur venire voluerint alteri parti, fidem servanti,
+          penam <measure type="Imperiales" unit="solidus" quantity="40">XL soldorum
+            imperialium</measure> solvat, rato manente pacto.</p>
+        <p xml:id="CCCLVIII_p_002" n="2">Actum <placeName ref="#Carrara">Carrarie</placeName>, in
+          platea, presentibus <persName ref="#AiutusLune">Aiuto de <placeName ref="#Luni">Lune<note
+                place="foot" n="e" xml:id="CCCLVIII_n_005">
+                <term xml:lang="latin">Lune</term>: <emph>così nel testo</emph>.</note>
+            </placeName></persName> et <persName ref="#BonaoraVeçale">Bonaora de <placeName
+              ref="#Veçale">Veçale</placeName></persName> et <persName ref="#BonaventuraMonte"
+            >Bonaventura de <placeName ref="#Monte">Monte</placeName></persName>, testibus ad hec
+          rogatis.</p>
+        <p xml:id="CCCLVIII_p_003" n="3"><ptr target="#CCCLVIII_st_001"/>Ego <persName
+            ref="#Guilielmusnot">Guilielmus, <roleName>notarius sacri palacii</roleName></persName>,
+          hiis omnibus interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

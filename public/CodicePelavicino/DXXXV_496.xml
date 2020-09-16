@@ -1,0 +1,142 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="DXXXV_496">
+        <front xml:id="DXXXV_front">
+            <titlePart type="numerazioneNuova">496</titlePart>
+            <titlePart type="numerazioneOrig">DXXXV</titlePart>
+            <docDate xml:id="DXXXV_docDate">
+                <date when="1187-02-26">1187 febbraio 26</date>, <placeName>Aulla e Bigliolo (<term
+                        xml:lang="latin">Avule, in claustro ecclesie Sancte Marie et beati Caprasii
+                        - in castro Biliolo</term>)</placeName>
+            </docDate>
+            <div type="regesto" xml:id="DXXXV_regesto">
+                <p>Teodisio del fu Maginuccio di Bigliolo vende all’abate Iacopo, che riceve a nome
+                    della chiesa di Santa Maria e del beato Caprasio di Aulla, ciò che possiede
+                    nella località detta <term xml:lang="latin">Clauso de mercato subtano</term> e
+                    nella pezza detta un tempo Cuscugnano, grazie alla moglie Regalis figlia di
+                    Monaco di Aulla. Il prezzo è di 8 lire e mezzo di denari buoni imperiali. La
+                    vendita è confermata nel medesimo giorno da Regalis, moglie di Teodisio.</p>
+            </div>
+            <div type="biblio">
+                <p>Copia [C] cc. 397r.-397v., cc. CCCLXXXVIIIIr.- CCCLXXXVIIIIv. secondo la
+                    numerazione originale.</p>
+                <p>Edizione in<ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 535, pp.
+                    598-599.</p>
+            </div>
+            <div type="appr">
+                <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+                        >DXXXV. Venditio facta per Tedisium de Biliolo, filium condam Magnitucii,
+                        episcopo Lunensi de Crauso de mercato subtano et de Cusongnano.</term></p>
+            </div>
+        </front>
+        <body>
+            <div xml:id="DXXXV_div">
+                <p xml:id="DXXXV_p_001">
+                    <ptr target="#DXXXV_st_001"/> In eterni Dei nomine, amen. <date
+                        when="1187-02-26">Anno ab eius incarnatione M°C° octogesimo VII, indictione
+                        V, die iovis, qui fuit IIII kalendas martii</date>. In presentia testium,
+                    quorum nomina inferius scripta habentur, <persName ref="#TedisiusMaginuccii"
+                        >Teudisius</persName> de <placeName ref="#Bigliolo">Biliolo</placeName>,
+                        <surname ref="#TedisiusMaginuccii">filius quondam Maginuccii</surname>, qui
+                    confessus est vivere lege romana, cessit, dedit, transtulit et vendidit, finito
+                    precio denariorum bonorum imperialium, ecclesie <orgName ref="#Aulla_S_Caprasio"
+                        >Sancte Marie et Beati Caprasii</orgName>, site in locum dictum <placeName
+                        ref="#Aulla">Avula</placeName>, in manu <roleName>domni</roleName>
+                    <persName ref="#Iacopus_abbas">Iacobi</persName>, <roleName>Dei gratia eiusdem
+                        ecclesie venerabilis abbatis</roleName>, suorumque fratrum et monachorum, id
+                    est quicquid habet in loco dictum <placeName ref="#Clausum">Clausum</placeName>
+                    de mercato subtano et in petia<note place="foot" n="a" xml:id="DXXXV_n_001"
+                        >habet-in petia: <emph>scritto su precedente scrittura abrasa</emph>.</note>
+                    dicta quondam <pb n="397v" xml:id="fol_397v"/>
+                    <placeName ref="#Cuscugnano">Cuscugnani</placeName>, quod videlicet idem
+                        <persName ref="#TedisiusMaginuccii">Teudisius</persName> visus est habere
+                    pro domina <persName ref="#regalisMonachi">Regali, sua coniuge, que quondam fuit
+                        filia Monachi de</persName>
+                    <placeName ref="#Aulla">Avula</placeName>, quod scilicet est in hiis
+                    coherenciis: coheret ab uno latere terra filii quondam <persName
+                        ref="#Zanforninus">Zanfornini</persName>, ab alio latere terra <persName
+                        ref="#GarsionisAvula">Garsionis de <placeName ref="#Aulla"
+                        >Avula</placeName></persName> et <persName ref="#GuilielmusGarsionis"
+                        >Guilielmi</persName> sui nepotis, ab uno capite terra quondam <persName
+                        ref="#Bonencontrus">Bonencontri</persName>, ab una parte terra <persName
+                        ref="#Philippus">Philippi</persName>, quam etiam ipse habuit per eundem
+                        <persName ref="#TedisiusMaginuccii">Teudisium</persName> et eius coniugem
+                    prenominatam; et predicta petia <placeName ref="#Cuscugnano"
+                        >Cuscugnani</placeName> est continua cum alia et decurrit versus flumen
+                        <placeName type="river" ref="#Magra">Macram</placeName>, huius autem petie
+                        <placeName ref="#Cuscugnano">Cuscugnane</placeName> est ab uno latere podium
+                        <placeName ref="#CastiglioneAlb">Castilionis</placeName>, ab alia parte
+                    terra filiorum quondam <persName ref="#Amigoctus">Amigocti</persName>. Has autem
+                    terras totas in integrum, cum accessibus et regressibus suis, cum superioribus
+                    et inferioribus et cum omnibus adiacenciis seu pertinenciis earum, predictus
+                        <persName ref="#TedisiusMaginuccii">Teudisius</persName> dedit et vendidit
+                    predicte ecclesie precio finito denariorum bonorum imperialium librarum VIII et
+                    medium deditque omne ius et actiones et omne dominium ut a presenti die in
+                    antea, in perpetuum, ipsa ecclesia sive pars eiusdem ecclesie sive cui dederit
+                    exinde faciant iure proprietario quicquid facere voluerint, sine omni eiusdem
+                        <persName ref="#TedisiusMaginuccii">Teudisii</persName> suorumque heredum
+                    contradictione. Hanc autem vendictionem nulli alii traditam, venditam,
+                    obnoxiatam, alienatam idem <persName ref="#TedisiusMaginuccii"
+                        >Teudisius</persName> promisit per se suosque heredes, sub pena dupli, ab
+                    omni contradicente persona rationabiliter deffensare per stipulationem; quod, si
+                    deffensare non posset, restaurare promisit per stipulationem in extimatione
+                    bonorum pro temporis melioratione; et si hec venditio valuerit plus predicto
+                    precio, totum in donationem dedit. </p>
+                <p xml:id="DXXXV_p_002"> Actum est hoc in claustro predicte ecclesie, feliciter. #
+                        Signa<note place="foot" n="b" xml:id="DXXXV_n_002">Signa:<emph> così nel
+                            testo per </emph>Signum.</note> manuum predicti <persName
+                        ref="#TedisiusMaginuccii">Teudisii</persName>, qui hanc cartulam
+                    vendictionis et proprietatis fieri rogavit. # # Signa manuum <persName
+                        ref="#AifredusPontremulo">Aifredi de <placeName ref="#Pontremoli"
+                            >Pontremulo</placeName></persName>, <persName ref="#PassavansBurtione"
+                        >Passavante de <placeName ref="#Burcione">Burtione</placeName></persName>,
+                        <persName ref="#PassavansCuscugnano">Passavante de <placeName
+                            ref="#Cuscugnano">Cuscugnano</placeName></persName>, <persName
+                        ref="#GrecusAvula">Greci de <placeName ref="#Aulla"
+                        >Avula</placeName></persName>, <persName ref="#VestitellusCampoIohannis"
+                        >Vestitelli de <placeName ref="#CampoIohannis">Campo
+                        Iohannis</placeName></persName>, <persName ref="#AldeprandinusGreco"
+                        >Aldeprandini de Greco</persName>, <persName ref="#Albertus"
+                        >Alberti</persName> de imo burgo, <persName ref="#Gregorius"
+                        >Gregorii</persName>, rogatorum testium. </p>
+
+                <p xml:id="DXXXV_p_003"> Eodem autem die, in castro <placeName ref="#Bigliolo"
+                        >Biliolo</placeName>, predicta domina <persName ref="#RegalisMonachi"
+                        >Regalis</persName>, coniunx eiusdem <persName ref="#TedisiusMaginuccii"
+                        >Teudisii</persName>, hanc vendictionem laudavit, assensit et confirmavit et
+                    per se suosque heredes promisit per stipulationem observandam et nullo modo
+                    unquam, per se neque per aliam submissam personam, contraibit nec imbrigari
+                    fatiet, set firmam, ratam et inviolabilem iuravit super sancta Dei Evangelia
+                    attendere et observare, presentibus testibus vocatis predicto <persName
+                        ref="#AldeprandinusGreco">Aldeprandino</persName>, <persName
+                        ref="#PassamunteGerardi">Passamunte quondam Gerardi Nigri</persName>,
+                        <persName ref="#IacopinusTigrimino">Iacopino de Tigrimino</persName>; et
+                        utraque<note place="foot" n="c" xml:id="DXXXV_n_003">utraque:<emph> così nel
+                            testo per </emph>utrique.</note> iugales dederunt eundem <persName
+                        ref="#AldeprandinusGreco">Aldeprandinum</persName> ut mittat predictam
+                    ecclesiam in tenutam. </p>
+                <p xml:id="DXXXV_p_004">
+                    <ptr target="#DXXXV_st_002"/> Ego <persName ref="#Lombardusnot"
+                        >Lombardus</persName>, <roleName>domini imperatoris et Lunensis curie
+                        notarius</roleName>, hiis omnibus interfui et rogatus hanc cartulam
+                    vendictionis et proprietatis scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXIII_325">
+    <front xml:id="CCCLXIII_front">
+
+      <titlePart type="numerazioneNuova">325</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXIII</titlePart>
+
+      <docDate xml:id="CCCLXIII_docDate">
+        <date when="1197-01-02">1197 gennaio 2</date>, <placeName>Luni<term xml:lang="latin"><emph>
+              (apud Lunam, in foro)</emph></term></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXIII_regesto">
+        <p>Malabranca del fu Tignoso di Petrognano, alla presenza di suo fratello Guido, loca a
+          livello al prete Ranieri di San Maurizio, che riceve a nome della sua chiesa, un pezzo di
+          terra presso la chiesa stessa. Il fitto annuale di 1 denaro di imperiali viene aggiudicato
+          da Malabranca alla chiesa per la salvezza della sua anima. La transazione costa 12 soldi
+          di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 311r., c. CCCIIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 363, pp. 346.</p>
+          <p>Bibliografia: <ref target="#AMBROSI_1992">AMBROSI 1992</ref></p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <term xml:lang="latin">Sancte Crucis de
+              Corvo</term></note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXIII. Sancti Mauritii.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXIII_div">
+        <p xml:id="CCCLXIII_p_001" n="1">In Christi nomine, amen. <date when="1197-01-02">Anno a
+            nativitate Eius M°C nonagesimo VII, indictione XV, die iovis, II intrante
+            ianuario</date>. <persName ref="#MalabrancaTiniosi">Malabranca de <placeName
+              ref="#Petrognano">Petrognano </placeName> quondam Tiniosi</persName>, <persName
+            ref="#GuidoTiniosi">Guidone</persName> germano suo presente et promittente per se et
+          suos heredes firmum et ratum habere hoc et tenere, locavit et dedit cuidam <persName
+            ref="#Reineriuspres"><roleName>presbytero </roleName> Rainerio de <placeName
+              ref="#Luni_S_Maurizio">Sancto Mauricio</placeName></persName>, recipienti vice et
+          nomine ipsius ecclesie et pro ipsa ecclesia, pro se et suis successoribus, petiam I terre
+          prope eandem <orgName ref="#Luni_S_Maurizio">ecclesiam Sancti Mauricii</orgName>, que est
+          sui iuris, cui coheret ab una parte ortus eiusdem ecclesie, ab alia parte boscus, a capite
+          sunt vinee dicte ecclesie, a pede est flumen <placeName ref="#Magra">Macre</placeName>,
+          ita ut dicta ecclesia et ipse presbyter pro ea et sui successores debeant de cetero in
+          perpetuum, libellario nomine, habere, tenere, frui, meliorare et non peiorare iamscriptam
+          terram totam, in integrum, cum omni iure et pertinenciis eius; et denarium I imperialium,
+          quem debent inde reddere annuatim, congruo tempore, pensionis tantum, adiudicavit
+            <persName ref="#MalabrancaTiniosi"> Malabranca</persName> iamscripte ecclesie pro
+          remedio anime sue; alia super imposita non fiat. Pro hac vero locatione fuit confessus
+          iamscriptus <persName ref="#MalabrancaTiniosi">Malabranca </persName> se recepisse
+          servicium sive libellaticum a predicto presbytero pro dicta ecclesia <measure
+            type="Imperiales" unit="solidus" quantity="12">bonorum imperialium soldos XII</measure>;
+          et si plus valet illa terra, pro anime sue mercede ecclesie iamscripte donavit illud quod
+          plus valet, promittendo per se et suos heredes iamscripto presbytero, recipienti pro se et
+          successoribus suis pro iamscripta ecclesia, iamdictam terram totam, in integrum, cum omni
+          commodo et utilitate sua, ab omni contradicente persona rationabiliter deffendere vel
+          restaurare prout tunc valuerit, sub extimatione bonorum hominum, obligando se et sua bona,
+          si deffendere non posset. Item dedit ei licenciam ut, auctoritate prenominate ecclesie,
+          intraret de iamscripta terra in corporalem tenutam. Penam vero inter se posuerunt ut, si
+          quis ex ipsis aut ex heredibus locatoris vel successoribus sacerdotis tollere vel laxare
+          voluerit vel complere et attendere, ut superius legitur, noluerit, tunc componat pars
+          parti fidem servanti <measure type="Imperiales" unit="solidus" quantity="20">soldos XX
+            imperialium</measure> et, pena soluta, iste libellus non minus in sua permaneat
+          firmitate.</p>
+        <p xml:id="CCCLXIII_p_002" n="2">Actum est hoc apud <placeName ref="#Luni">Lunam
+          </placeName>, in foro, feliciter, sub stipulatione subnixa. Ibi fuerunt rogati testes
+            <persName ref="#Guidoarch">Guido <roleName>Lunensis
+          archipresbyter</roleName></persName>, <persName ref="#Sismunduscan">Sismundus
+              <roleName>custos</roleName></persName> et <persName ref="#Gerardetusdiac">Gerardetus
+              <roleName>dyaconus</roleName></persName>.</p>
+        <p xml:id="CCCLXIII_p_003" n="3"><ptr target="#CCCLXIII_st_001"/>Ego <persName
+            ref="#Confortusnot">Confortus, <roleName>sacri palacii et Lunensis curie
+              notarius</roleName></persName>, hiis interfui et rogatus hunc libellum rogavi et
+          scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

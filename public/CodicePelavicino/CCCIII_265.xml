@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCIII_265">
+    <front xml:id="CCCIII_front">
+
+      <titlePart type="numerazioneNuova">265</titlePart>
+      <titlePart type="numerazioneOrig">CCCIII</titlePart>
+
+      <docDate xml:id="CCCIII_docDate">
+        <date from="1141-09-24" to="1141-09-30">1141 settembre 24-30</date>, <placeName
+          ref="#Sarzanello">Sarzanello (<term xml:lang="latin">in castro Sarzana</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCIII_regesto">
+        <p>Itta, figlia del fu Caro Amico di Sarzana, chiede a Gotifredo, vescovo di Luni, di poter
+          affittare un pezzo di terra edificata nel borgo di Sarzana confinante con la strada Romea.
+          Il fitto è di 12 denari.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 284v., c. CCLXXVIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 303, p. 283.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>L'indizione quinta consente di restringere i giorni di redazione dal 24 al 30
+            settembre. A fine carta sulla destra segnatura di mano moderna indicante la fine del
+            fascicolo con l’incipit del fascicolo seguente: <emph>In Dei nomine, el sexto</emph>.
+          </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCIII.
+              Denariorum XII pensionis de quadam domo in Sarçana locata Itre.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCIII_div">
+        <p xml:id="CCCIII_p_001" n="1">In nomine Domini Ihesu Christi Dei eterni. <date
+            when="1141-09">Anno ab incarnatione Eius millesimo CXLI, mense septembris, indictione
+            V</date>. Peto ego <persName ref="#IttaCariAmici">Itta, filia quondam Cari Amici de
+              <placeName ref="#Sarzana">Sarzana</placeName></persName>, una cum filiis meis, sive
+          masculis sive feminis, et illorum heredibus a vobis domino <persName ref="#GotefredEpLuni"
+            >Gotefredo</persName>, <roleName>Lunensi episcopo</roleName>, et vestris successoribus,
+          id est unam petiam terre, cum casa super habente, que esse videtur in burgo <placeName
+            ref="#Sarzana">Sarzana</placeName><note place="foot" n="a" xml:id="CCCIII_n_001"><term
+              xml:lang="latin">Sarzana</term>: <emph>così nel testo</emph>.</note>. Coherentias
+          habet de uno latere casa filiorum quondam <persName ref="#RamanenseusSarzana">Ramanensei
+            de <placeName ref="#Sarzana">Sarzana</placeName></persName>, de alio latere casa
+            <persName ref="#GalimarusSarzana">Galimari de <placeName ref="#Sarzana"
+              >Sarzana</placeName></persName>, de uno capite <placeName ref="#Romea_st">strata
+            Romea</placeName>, de alio usque in fossatum de burgo. Hanc autem suprascriptam petiam
+          terre, cum casa super se habente, in integrum habere, tenere, laborare, frui et meliorare;
+          et exinde vobis persolvamus omni anno, infra octavam nativitatis Domini, fictam pensiomen
+            <measure quantity="12" unit="denarius"> denariorum XII</measure> tantum; alia
+          superimposita eist fiat. </p>
+        <p xml:id="CCCIII_p_002" n="2"> Actum <placeName ref="#Sarzanello">castro
+            Sarzana</placeName>
+          <note place="foot" n="a" xml:id="CCCIII_n_002"><term xml:lang="latin">Sarzana</term>:
+              <emph>così nel testo</emph>.</note>, sub pena <measure quantity="100" unit="solidus">
+            C soldorum</measure>, si quis eorum retollere aut laxare voluerit. Ego <persName
+            ref="#GotefredEpLuni">Gotefredo</persName>
+          <roleName>episcopus</roleName> subscripsi. Iamscripta petitrix hunc libellum me <persName
+            ref="#Rodulfusnot">Rodulfum</persName>, <roleName>domini imperatoris
+          notarium</roleName>, scribere rogavit. <persName ref="#GerardusRursus">Gerardus
+            Rursus</persName> et <persName ref="#Guilielmus">Guilielmus</persName> frater suus,
+            <persName ref="#GregoriusBuzano">Gregorius de <placeName ref="#Buçano"
+              >Bozano</placeName>
+          </persName> et <persName ref="#GerardusSerra">Gerardus de <placeName ref="#Serra">la
+              Serra</placeName></persName>, rogati testes, interfuerunt. </p>
+        <p xml:id="CCCIII_p_003" n="3">
+          <ptr target="#CCCIII_st_001"/>Ego <persName ref="#Rodulfusnot">Rodulfus</persName>,
+            <roleName>domini imperatoris notarius</roleName>, post traditum complevi et dedi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

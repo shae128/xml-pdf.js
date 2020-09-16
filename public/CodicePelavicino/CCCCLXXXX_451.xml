@@ -1,0 +1,199 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="451(CCCCLXXXX).xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXXXX_451">
+    <front xml:id="CCCCLXXXX_front">
+      <titlePart type="numerazioneNuova">451</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXX</titlePart>
+      <docDate xml:id="CCCCLXXXX_docDate">
+        <date when="1285-02-09">1285 febbraio 9</date>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXXXX_regesto">
+        <p>Il vescovo di Luni Enrico presenta ai capitani del comune di Genova alcuni atti
+          comprovanti i diritti dell’episcopato lunense sul castello di Trebiano.<term
+            xml:lang="latin"/>
+        </p>
+      </div>
+      <div type="footer" xml:id="CCCCLXXXX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 369r.-369v., cc. CCCLXr.-CCCLXv., secondo la numerazione originale. </p>
+        </div>
+        <div type="biblio">
+          <p>Edizione in <ref target="#PODESTÀ_1984">PODESTÀ 1894</ref>, pp. 105-103 e segg.; <ref
+              target="#LUPO_GENTITLE_1912">LUPO GENTILE 1912</ref>, n. 490, pp. 509-512. </p>
+        </div>
+        <div type="crit_notes">
+          <note>In questo documento, analogo per contenuto al n. 458-CCCCLXXXXVII, sono citati
+            diversi atti, le cui date devono essere a volte rettificate. Nel margine esterno di c.
+            369r., di mano moderna, la seguente annotazione: <term xml:lang="latin">Quod est
+              precedens sub rubrica 488</term>. In calce a c. 369v., di mano posteriore, le prime
+            parole del fascicolo successivo: <term xml:lang="latin">In Christi nomine amen: el
+              decimo</term>. </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXXX. Licterarum missarum capitaneis Ianue a domino episcopo.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCLXXXX_div">
+        <p xml:id="CCCCLXXXX_p_001" n="1"> Nobilibus et magnificis viris dominis <persName
+            ref="#ObertusSpinula">Oberto Spinule</persName> et <persName ref="#ObertusDoria">Oberto
+              Aurie</persName>, <roleName>capitaneis <orgName ref="#Genova_comune"
+                >communis</orgName> et populi</roleName>
+          <placeName ref="#Ianua">Ianue</placeName>, <persName ref="#HenricusEpLuni"
+            >Henricus</persName>, <roleName>miseratione divina Lunensis episcopus</roleName> ,
+          salutat in Domino. Scripsistis nobis quod vobis deberemus mittere iura nostra que
+          habebamus in castro <placeName ref="#Trebiano">Trebiani</placeName>: ecce quod mittimus
+          vobis sumarie iura nostra, prout in privilegiis et instrumentis publicis inter alia
+          continentur publicata, ut inferius continetur. </p>
+
+        <p xml:id="CCCCLXXXX_p_002" n="2"> Primo instrumentum factum <date when="1039-11-04"> anno
+            ab incarnatione Domini MXXXIX, IIII die novembris, indictione VIII <note> Il vescovo di
+              Luni Eriberto si impegna verso gli uomini di Trebiano a non imporgli alcuna cattiva
+              consuetudine. Cfr. doc. 449-CCCCLXXXVIII. .</note></date> , in quo, inter alia,
+          continetur <pb xml:id="fol_369v" n="369v"/> quod <persName ref="#HeribertusepLuni"
+            >Heribertus</persName>, <roleName>episcopus Lunensis</roleName>, promisit quod nullam
+          potestatem daret hominibus de <placeName ref="#Trebiano">Trebiano</placeName> qui<note
+            n="a" place="foot" xml:id="CCCCLXXXX_01"> qui:<emph>così nel testo per </emph>
+            que</note> malum faceret ipsis hominibus et quod tulit sententiam excomunicationis et
+          maledictionis in civitate <placeName ref="#Luni">Lune</placeName>, in sancta synodo, in
+          omnes illos, de consensu omnium canonicorum et presbyterorum ibidem presentium, qui in
+          castro <placeName ref="#Trebiano">Trebiani</placeName> consilio vel facto essent quando
+          episcopus Lunensis castrum <placeName ref="#Trebiano">Trebiani</placeName> perderet. </p>
+
+
+        <p xml:id="CCCCLXXXX_p_003" n="3"> Item in alio instrumento facto manu <persName
+            ref="#GuilielmusRusticinot">Guilielmi quondam Rustici</persName> sub <date
+            when="1218-12-24"> anno MCCXVIII, indictione VII, VIII kalendas marcii <note> Sentenza
+              di Bandino Gaetani sulle liti relative a Trebiano. Si riferisce al doc.
+              454-CCCCLXXXXIII in cui l’indizione è la VI. Il nome del vescovo Gualtiero non fu
+              scritto per distrazione al posto di Marzucco, vescovo nel 1218, come ipotizzato da
+              Lupo Gentile 1912, p. 510, ma così porta l’originale dell’atto, dove si dice che
+              l’arbitro era stato eletto fin dal tempo del vescovo Gualtiero</note></date>, in quo,
+          inter alia, continetur quod dominus <persName ref="#GualEpLuni">Gualterius,
+              <roleName>Lunensis episcopus</roleName></persName>, pro ipso episcopatu, ex una parte,
+          et <persName ref="#GerardusTrebiano">Gerardus <roleName>vicedominus</roleName> de
+              <placeName ref="#Trebiano">Trebiano</placeName></persName>, pro communi et pro <note
+            n="b" place="foot" xml:id="CCCCLXXXX_02">pro: <emph>corretto su precedente
+              scrittura</emph>
+          </note>suis consortibus, ex altera, super pluribus discordiis dicti castri de <placeName
+            ref="#Trebiano">Trebiano</placeName>, in <roleName>dominum</roleName>
+          <persName ref="#BandinusGaitani">Bandinum Guaytonum</persName>
+          <note n="c" place="foot" xml:id="CCCCLXXXX_03">
+            <emph>Nel margine esterno, di altra mano, la seguente annotazione:</emph> Bandinus
+            Gaytanus, iurisperitus, Pisanus nobilis </note> tanquam in arbitrum compromiserunt: qui
+            <persName ref="#GerardusTrebiano">Gerardus<roleName> vicedominus</roleName></persName>
+          et testes producti ex parte ipsorum dominorum de <placeName ref="#Trebiano"
+            >Trebiano</placeName> fuerunt confessi quod episcopus Lunensis est comes et episcopus et
+          quod ipse <persName ref="#GerardusTrebiano">Gerardus</persName> cum suis consortibus
+          tenent <placeName ref="#Trebiano">Trebianum</placeName> a <orgName ref="#Luni_comitatus"
+            >comitatu Lunensi</orgName> et quod episcopus habet fodrum in districtu <placeName
+            ref="#Trebiano">Trebiani</placeName>. Item in alio instrumento facto manu <persName
+            ref="#Constanciusnot">Constancii</persName> de <placeName ref="#Trebiano"
+            >Trebiano</placeName>
+          <roleName>notarii</roleName>
+          <date when="1196-02-05"> anno a nativitate Domini MC <note n="d" place="foot"
+              xml:id="CCCCLXXXX_04">MC: <emph>nel testo</emph>MCC<emph>con la prima</emph>
+                C<emph>abrasa</emph></note> nonagesimo VI, indictione XIIII, die lune, IIII intrante
+            februario <note> Alcuni castellani di Trebiano testimoniano sui beni ricevuti in feudo
+              dalla curia Lunense in Trebiano. Si riferisce al doc. 452-CCCCLXXXXI, il giorno deve
+              essere corretto in V per corrispondere a lunedì; il rogatore non era il notaio
+              Costanzo, semplice teste, ma Conforto.</note></date>, in quo, inter alia, continetur
+          quod <persName ref="#Galletus">Gualetus</persName>, <persName ref="#Bonaiuncta"
+            >Bonaiuncta</persName>, <persName ref="#Bonaventura">Bonaventura</persName>, <persName
+            ref="#Botogra">Botogra</persName>
+          <note n="e" place="foot" xml:id="CCCCLXXXX_05">Gualetus, Bonaiuncta, Bonaventura,
+              Botogra:<emph>(452- CCCCLXXXXI) testimoniano Galleto, Bonagiunta di Ferruccio,
+              Guiternino, Biagni e Attolino, non vi è traccia di un Bonaventura né di un Botogra
+              anche se sono nominati </emph>illi de Botra</note>et plures alii consortes de
+            <placeName ref="#Trebiano">Trebiano</placeName>, in dicto instrumento contenti, fuerunt
+          confessi se tenere quicquid habent in castro <placeName ref="#Trebiano"
+            >Trebiani</placeName> et eius districtu a Lunensi curia in feudum. </p>
+        <p xml:id="CCCCLXXXX_p_004" n="4"> Item aliud instrumentum factum manu <persName
+            ref="#MarcusUgonisnot">Marcii <roleName>notarii</roleName></persName>, <persName
+            ref="#UgolinusCasine">filii Ugonis de <placeName ref="#Casine">Cassina</placeName>
+          </persName>, sub<date when="1218-07-25"> anno dominice incarnationis MCCXVIII, indictione
+            V, VII kalendas augusti <note> I signori di Trebiano eleggono arbitro per le loro
+              controversie il legato apostolico Ugolino vescovo di Ostia.</note></date> , quod,
+          inter alia, continet quod, cum discordia esset inter dominos de <placeName ref="#Trebiano"
+            >Trebiano</placeName> super castro de<placeName ref="#Trebiano">Trebiano</placeName> et
+          iurisdictione et honore ipsius, compromiserunt in venerabilem patrem <roleName>dominum </roleName>
+          <persName ref="#UgolinusOstiensiscard">Ugonem</persName>, <roleName>miseratione
+            divina</roleName>
+          <placeName ref="#Ostiensis">Ostiensem</placeName> et <placeName ref="#Veletrensis"
+            >Veletrensem</placeName>
+          <roleName>episcopum, Apostolice Sedis legatum,</roleName> qui, inter alia, tulit talem
+          sententiam arbitralem quod <persName ref="#AldebrandusTrebiano">Aldebrandus</persName> et
+          nepotes eius et sui consortes ipsum castrum <placeName ref="#Trebiano"
+            >Trebiani</placeName> et districtum ipsius, cum omni iure et pertinenciis suis, per
+          ecclesiam Lunensem libere possideant et quiete, sicut hactenus habuisse, tenuisse et
+          possidisse noscuntur. </p>
+        <p xml:id="CCCCLXXXX_p_005" n="5"> Item in alio instrumento facto manu <persName
+            ref="#Bonalbergusnot">Bonalbergi</persName>
+          <roleName>notarii</roleName> de <placeName ref="#Carrara">Carraria</placeName> sub <date
+            when="1259-10-27"> anno M°CCLIX, indictione secunda, VI kalendas novembris <note> Guido
+              Malaparte di Vallechia dona alla curia Lunense alcune terre a Trebiano in testamento.
+              Si riferisce al doc. . 456-CCCCLXXXXV</note></date>, in quo, inter alia, continetur
+          quod <roleName>dominus</roleName>
+          <persName ref="#GuidoMalaparsAlberti">Guido, dictus Malaparas <note n="f" place="foot"
+              xml:id="CCCCLXXXX_06">Malaparas: <emph>così nel testo per </emph>Malapars<emph>, cfr.
+                docc. 456-CCCCLXXXXV e 458-CCCCLXXXXVII.</emph>
+            </note>, quondam domini Alberti de <placeName ref="#Valegia"
+            >Valegia</placeName></persName>, volens de rebus suis disponere dum est sanus, inter
+          alia ita voluit, disposuit et ordinavit, in ultima voluntate, quod de bonis que habet in
+            <placeName ref="#Trebiano">Trebiani</placeName> districtu et pertinenciis, quod
+          quantumcumque de heredibus suis ea habuerit, ipsa omnia habeat, teneat et recognoscat ab
+          episcopo et episcopatu Lunensi in feudum et de ipsis iuraverit fidelitatem domino Lunensi
+          episcopo, quia sic ipse a Lunensi episcopo et episcopatu tenebat; et <placeName
+            ref="#Trebiano">Trebianum</placeName> cum districtu et pertinenciis feudum est
+          episcopatus Lunensis, sicut a suis antecessoribus intellexit. </p>
+        <p xml:id="CCCCLXXXX_p_006"> Item continetur in privilegiis Romanorum imperatorum et regum,
+          et specialiter <persName ref="#Conradusimp">Conradi</persName>, <persName
+            ref="#Otto_imperator3">Ottonis</persName>, <persName ref="#Fredericus_imperator_I"
+            >Frederici</persName> et multorum aliorum <roleName>imperatorum et regum</roleName>,
+          quod <placeName ref="#Trebiano">castrum Trebiani</placeName> cum fodro et pertinenciis
+          ipsius castri spectat ad Lunensem episcopatum et comitatum per donationem et
+          confirmationem predictorum imperatorum et regum de ipso castro et pertinenciis Lunensi
+          episcopatui factam, sub diversis annis et indictionibus factis, prout in ipsis privilegiis
+          continetur. Et etiam possumus probare, si necesse esset, per plures testes et fidedignos
+          quod dictum castrum <placeName ref="#Trebiano">Trebiani</placeName>, cum fodro et
+          pertinenciis suis, tenetur et teneri debet a Lunensi episcopatu in feudum et de hoc est
+          fama publica et vox in partibus Lunisiane. </p>
+        <p xml:id="CCCCLXXXX_p_007" n="7"><ptr target="#CCCCLXXXX_st_001"/> Ego <persName
+            ref="#Levantinus">Levantinus</persName> de <placeName ref="#Levanto"
+          >Levanto</placeName>, <roleName>imperiali auctoritate notarius</roleName>, inter cetera
+          que continebantur in predictis instrumentis et privilegiis, predicta audivi contineri et
+          legi et hic scripsi et publicavi, meum nomen et signum proprium apponendo, de mandato et
+          auctoritate mihi concessa per venerabilem patrem dominum <persName ref="#HenricusEpLuni"
+            >Henricum, <roleName>Dei gratia Lunensem episcopum</roleName></persName>. <date
+            when="1285-02-09">Anno Domini MCCLXXXV, indictione XIII, die IX februarii</date>,
+          presentibus <persName ref="#GasparinusSarzananot">Gasparino <roleName>notario</roleName>
+            de <placeName ref="#Sarzana">Sarzana</placeName></persName>, <persName
+            ref="#BonacursusMathei">Bonacurso Mathei</persName> de <placeName ref="#Sarzana">eodem
+            loco</placeName> et <persName ref="#IohannesBontalentinot">Iohanne Bontalenti
+              <roleName>notario</roleName> de <placeName ref="#Sarzana"
+            >Sarzana</placeName></persName>. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

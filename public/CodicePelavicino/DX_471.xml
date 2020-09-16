@@ -1,0 +1,179 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DX_471">
+    <front xml:id="DX_front">
+
+      <titlePart type="numerazioneNuova">471</titlePart>
+      <titlePart type="numerazioneOrig">DX</titlePart>
+
+      <docDate xml:id="DX_docDate">
+        <date when="1231-04-01">1231 aprile 1</date>
+      </docDate>
+
+      <div type="regesto" xml:id="DX_regesto">
+
+        <p> Il vescovo di Luni Guglielmo e i nobili di Fosdinovo – Pietro del fu Bernardino di
+          Erberia, i fratelli Saladino e Guglielmo, Rochezano e Girardo del fu Guglielmo di
+          Fosdinovo - , stipulano una convenzione per la giurisdizione del castello denominato Monte
+          Giovanni. Il vescovo, seguendo la sentenza del notaio Conforto e di Lanfranchino di
+          Erberia, concede in feudo ai nobili di Fosdinovo metà <term xml:lang="latin">pro indiviso
+          </term> della giurisdizione del castello. L’accordo prevede tuttavia che siano fedeli ai
+          nobili di Fosdinovo gli uomini che abitano e abiteranno nella parte orientale verso
+          l’Oserone e al vescovo quelli che abitano e abiteranno nella parte che guarda verso la
+          strada Romea. Il vescovo e i nobili di Fosdinovo devono inoltre eleggere in maniera
+          concorde un podestà di Monte Giovanni, oppure eleggerne uno ciascuno, in modo che possano
+          governare insieme in maniera concorde. </p>
+
+      </div>
+
+      <div type="footer" xml:id="DX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 379r.-380r., cc. CCCLXXIr.-CCCLXXIIr. secondo la numerazione
+            originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressochè integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 510, pp. 542-545.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Parte del documento è stata letta con l’ausilio della lampada di Wood.La parte
+            finale è illeggibile, neppure con l’ausilio della lampada di Wood. La carta è raschiata
+            e reca macchie di umidità.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DX.
+              Pactorum de Monteçagni inter dominum episcopum et dominos de Fosdenova. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DX_div">
+        <p xml:id="DX_p_001" n="1"><ptr target="#DX_st_001"/> In nomine Domini, amen. <date
+            when="1231-04-01"> Anno a nativitate Eius M°CCXXXI, indictione IIII, die martis, primo
+            die mensis aprilis</date>, presentibus testibus infrascriptis. § Cum occasione litis et
+          discordie que fuerat inter <roleName>venerabilem</roleName>
+          <persName ref="#GuilEpLuni">Guilielmum, <roleName>Dei gratia Lunensem
+            episcopum</roleName></persName>, et episcopatum, ex una parte, et <roleName>viros
+            nobiles</roleName>, videlicet <persName ref="#PetrusBernardiniHerberia">Petrum quondam
+              <roleName>domini </roleName> Bernardini de <placeName ref="#Erberia"
+              >Herberia</placeName></persName>, <persName ref="#SaladinusFosdenova"
+            >Saladinum</persName> et <persName ref="#GuilielmusFosdenova">Guilielmum</persName>,
+          germanos, et eorum fratres, et <persName ref="#RochexanusGuilielmi">Rochexanum</persName>
+          et <persName ref="#GirardusGuilielmi">Girardum quondam Guilielmi de <placeName
+              ref="#Fosdinovo">Fosdenova</placeName></persName>, ex alia, pro reformatione pacis ac
+          concordie, idem <persName ref="#GuilEpLuni">
+            <roleName>venerabilis </roleName>Guilielmus <roleName> episcopus </roleName></persName>,
+          pro se et episcopatu, prefatis nobilibus de <placeName ref="#Fosdinovo"> Fosdenova
+          </placeName> medietatem pro indiviso iurisdictionis castri quod dicitur <placeName
+            ref="#MonteIanni">Mons Iohannes </placeName>, recipientibus pro se suisque heredibus, in
+          perpetuum concesserit in feudum, secundum tenorem sententie late inter ipsos per <persName
+            ref="#Confortusnot">Confortum <roleName>notarium</roleName></persName> seu <persName
+            ref="#LanfranchinusHerberia"><roleName>virum nobilem</roleName> Lanfranchinum de
+              <placeName ref="#Erberia">Herberia </placeName></persName>vel alios. Iamdictus dominus
+          episcopus, per se et suos successores et episcopatum Lunensem, et prenominati nobiles de
+            <placeName ref="#Fosdinovo">Fosdenova</placeName>, per se et eorum fratres et heredes
+          absentes, videlicet <persName ref="#PetrusBernardiniHerberia">Petrus de <placeName
+              ref="#Erberia">Herberia</placeName></persName>, <persName ref="#SaladinusFosdenova">
+            Saladinus </persName> et <persName ref="#GuilielmusFosdenova">Guilielmus </persName>,
+          germani, ac <persName ref="#RochexanusGuilielmi">Rochexanus</persName> pro se et <persName
+            ref="#GirardusGuilielmi">Gerardo </persName> fratre suo, absente, concordia et unanimi
+          voluntate, eandem iurisdictionem <pb n="379v" xml:id="fol_379v"/> dicti castri de
+            <placeName ref="#MonteIanni">Monte Iohanne</placeName> taliter diviserunt: quod
+          videlicet dicti domini ac nobiles de <placeName ref="#Fosdinovo">Fosdenova</placeName>,
+          pro se ac suis fratribus et heredibus recipientes, iure recti et honorifici feudi in
+          perpetuum habeant, teneant et possideant integram iurisdictionem, sicut veri domini, in
+          universos homines qui habitant et qui habitaverint in perpetuum ex illa parte contracte
+          seu ruge versus <placeName ref="#Oserone">Oseronem</placeName>, que est ex parte orientis,
+          pro diviso, ac in casamenta et terrenum quod et que sunt ex parte illa suprascripta seu
+          prenominata; et omnes homines qui habitant et qui habitaverint in ea contracta seu ruga
+          memorata, pro casamentis et terreno illius contracte, que ipsi domini de <placeName
+            ref="#Fosdinovo">Fosdenova</placeName> tenent ab ipso domino episcopo et episcopatu in
+          feudum, fidelitatem facere teneantur contra omnes homines prefatis nobilibus de <placeName
+            ref="#Fosdinovo"> Fosdenova </placeName> ac <persName ref="#PetrusBernardiniHerberia"
+            >Petro de <placeName ref="#Erberia">Herberia</placeName></persName> et eorum heredibus
+          in perpetuum, et que ad iurisdictionem pertinent obedire ipsi et eorum heredes in
+          perpetuum. Simili modo dictus dominus episcopus, pro se et episcopatu, habeat, teneat et
+          possideat integram iurisdictionem, tanquam verus dominus, omnium hominum qui habitant et
+          habitaverint in perpetuum in contracta alia que respicit versus <placeName ref="#Romea_st"
+            >stratam Romeam</placeName>; et habitatores illius contracte seu ruge pro casamentis et
+          ceteris, que tenent ab ipso iure feudi, fidelitatem contra omnes eidem domino episcopo et
+          suis successoribus facere teneantur, et que ad iurisdictionem pertinent obedire ipsi et
+          eorum heredes in perpetuum. Talibus appositis condictionibus et pactis, quod ipsi domini
+          de <placeName ref="#Fosdinovo">Fosdenova</placeName> de illa parte quam ipsi habent in
+          ipso castro, ipsi et eorum heredes, in perpetuum sint vassalli et fideles episcopi
+          iamdicti suorumque successorum in perpetuum, et de hoc fidelitatem facient, sicut de
+          ceteris que ab episcopatu tenent. Et promisit suprascriptus dominus episcopus et se
+          suosque successores obligavit ac fructus omnes episcopatus, presentes et futuros, dictis
+          dominis de <placeName ref="#Fosdinovo">Fosdenova </placeName>, recipientibus pro se
+          suisque fratribus et eorum heredibus, in perpetuum, iamdictam medietatem tocius prefati
+          loci et castri ac iurisdictionis, sicut superius continetur, nomine et vice episcopatus
+          semper iure deffendere et exbrigare ab omni homine et contradicente persona et loco, in
+          parte et toto, cum advocato suo et expensis suis, seu restaurare et salvum cambium inde
+          dare in loco consimili, prout tunc valuerint aut meliorata fuerint omnia predicta vel
+          quodlibet eorum, sub iusta bonorum hominum extimatione. Preterea et quod dominus episcopus
+          et domini prenominati de <placeName ref="#Fosdinovo">Fosdenova</placeName> vel communiter
+          eligant et concordent I potestatem, que homines de <placeName ref="#MonteIanni">Monte
+            Iohanne </placeName> communiter regat, vel dominus episcopus unum eligat de suis
+          partibusb vassallis seu de aliis, quemcumque voluerit, et domini de <placeName
+            ref="#Fosdinovo">Fosdenova</placeName> unum de suis vassallis partitis loci eiusdem sive
+          de aliis unum, quemcumque voluerint, qui non sit de ipso loco, qui regant et regere
+          communiter iurent omnes homines dicti castri bona fide. Et dominus episcopus et nobiles de
+            <placeName ref="#Fosdinovo">Fosdenova</placeName> non debent exfortiare vel vim aliquam
+          inferre hominibus dicti castri infra ipsius castri iuram, excepto quod dominus possit
+          facere sibi serviri a suo homine speciali, secundum quod homines serviunt suis dominis. Et
+          hoc de fortia specialiter, interveniente stipulatione sollempni, observare sibi ad invicem
+          promiserunt, ad penam <measure type="Imperiales" quantity="1000" unit="solidus"> M
+            soldorum imperialium </measure>; et de illa melioratione hominum que nunc est in parte
+          nobilium de <placeName ref="#Fosdinovo">Fosdenova</placeName>, recompensatio fiat domino
+          episcopo pro episcopatu in eo quod minus est in ea parte domini episcopi, et dominis seu
+          nobilibus de <placeName ref="#Fosdinovo">Fosdenova </placeName> fiat recompensatio in ipso
+          castro eius partis casamenti domini episcopi, que est in parte ipsorum dominorum de
+            <placeName ref="#Fosdinovo">Fosdenova</placeName>; et dominus episcopus habeat pro se,
+          sicut accepit, integrum casamentum. Adiaceruntc etiam quod, tanquam consortes de ipso
+          castro, dictus dominus episcopus et iamdicti nobiles ad invicem teneantur et una pars
+          alteram exfortiare non debeat aut possit, set ipsum castrum debeant integrum conservare
+          secundum divisionem superius assignatam. Suprascripta omnia et singula suprascriptus
+          dominus episcopus, pro se et suis successoribus et pro Lunensi episcopatu, in perpetuum,
+          et dicti nobiles de <placeName ref="#Fosdinovo">Fosdenova</placeName> ac <persName
+            ref="#PetrusBernardiniHerberia">Petrus de <placeName ref="#Erberia"
+            >Herberia</placeName></persName>, pro se suisque filiis et heredibus, et specialiter
+          suprascripti <persName ref="#SaladinusFosdenova">Saladinus</persName> et <persName
+            ref="#GuilielmusFosdenova">Guilielmus</persName> ac <persName ref="#RochexanusGuilielmi"
+            >Rochexanus</persName>, pro se et eorum fratribus, qui non erant presentes, promiserunt
+          sibi ad invicem et obligaverunt attendere, observare et facere bona fide et sine fraude et
+          nullo ingenio vel dolo contravenire ullo unquam tempore, ad penam <measure
+            type="Imperiales" quantity="100" unit="libra">C librarum imperialium</measure>,
+          interveniente stipulatione sollempni, <pb n="380r" xml:id="fol_380r"/> ita quod, pena
+          soluta, omnia et singula premissorum in suo robore perseverent et quod pena ipsa sub
+          quocumque iudice peti possit [iuri] seu privilegio et [legum] auxilio quod contra hoc
+          facere possit. Et ad hec dictus dominus episcopus se et suos [successores] <supplied
+            quantity="30" unit="chars" reason="illegible">[ ] </supplied>fructus obligavit presentes
+          etiam <supplied quantity="11" unit="lines" reason="illegible">[ ]</supplied> Ego <persName
+            ref="#Bonalbergusnot5"> Bonalbergus </persName>, <roleName>imperialis aule notarius
+            </roleName>, hiis interfui omnibus et rogatus scripsi et plura <supplied reason="illegible">instrumenta</supplied> uno eodemque
+          tenore inde fieri est preceptus. <persName ref="#Bonalbergusnot4"> Bonalbergus
+              <roleName>notarius</roleName></persName> fecit cartam sententie inter predictos. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

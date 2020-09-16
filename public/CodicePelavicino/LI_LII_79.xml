@@ -1,0 +1,887 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="LI_LII_79">
+        <front xml:id="LI_LII_front">
+            <titlePart type="numerazioneNuova">79</titlePart>
+            <titlePart type="numerazioneOrig">LI e LII</titlePart>
+            <docDate xml:id="LI_LII_docDate">
+                <date when="1278-09-03">1278 settembre 3</date>, <placeName>Sarzana (<term
+                        xml:lang="latin">Sarzane, in claustro canonice ecclesie Sancte
+                    Marie</term>).</placeName>
+            </docDate>
+            <div type="regesto" xml:id="LI_LII_regesto">
+                <p> Gli uomini di Sarzana, esplicitamente elencati, riunitisi in pubblico parlamento
+                    alla presenza del vescovo di Luni Enrico, eleggono il notaio Simonetto come loro
+                    rappresentante affinché giuri di stare ai precetti del vescovo stesso e del
+                    vescovo di Brugrato Filippo, delegato del papa, riguardo all’interdetto e alla
+                    scomunica emessa contro di loro al tempo dei vicari di Lunigiana Enrico, dottore
+                    in legge, e Filippo Riccardi di Lucca, dal 1276 al 1278. Contestualmente il
+                    vescovo di Luni assolve dalla scomunica Simonetto come rappresentante del
+                    comune. </p>
+            </div>
+            <div type="footer" xml:id="LI_LII_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] cc. 142r.-146v., cc. CXXXIIIIr.- CXXXVIIIv. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Notizia e trascrizione di alcune righe in <ref target="#PODESTA_1894">PODESTÀ
+                            1894</ref>, pp. 96-97.</p>
+                    <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>n. 51 e
+                        52, pp. 78-88.</p>
+                </div>
+                <div type="crit_notes">
+                    <note> Nel codice il documento ha due numerazioni distinte LI e LII per le
+                        rispettive parti, qui unificate. </note>
+                    <note> Nel margine esterno di c. 142r., di mano moderna: <emph>Mandatum procure
+                            factum ad hominibus de Sarzana pro obtinenda absolutione
+                            excomunicationis.</emph> Nel margine esterno di c. 145r., di mano
+                        moderna: <emph>Iuramentum fidelitatis hominum Sarzanae factum episcopo et
+                            absolutio ab excomunicationibus incursis.</emph>
+                    </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LI. Iuramentum hominum de Sarçana per sindicum et
+                            homines ipsius terre. LII. Absolutio excomunicationis ipsorum.
+                        </term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="LI_LII_div">
+                <p xml:id="LI_LII_p_001" n="1"> In nomine Domini, amen. <date when="1278-09-03">Anno
+                        a nativitate Eius millesimo CC septuagesimo octavo, indictione sexta, die
+                        tercio mensis septembris</date>. Infrascripti homines de <placeName
+                        ref="#Sarzana">Sarzana</placeName>, congregati in publico parlamento
+                    <orgName ref="#Sarzana_comune">communis et universitatis</orgName> et hominum <placeName ref="#Sarzana"
+                        >Sarzane</placeName>, coadunato more solito voce preconia et per sonum
+                    campane, pro ipso communi et universitate atque pro hominibus de <placeName
+                        ref="#Sarzana">Sarzana</placeName> in claustro <orgName
+                        ref="#Sarzana_S_Maria">ecclesie Sancte Marie de</orgName>
+                    <placeName ref="#Sarzana">Sarzana</placeName> de mandato et auctoritate atque
+                    decreto venerabilis patris <roleName>domini</roleName>
+                    <persName ref="#HenricusEpLuni">Henrici</persName>, <roleName>Dei gratia
+                        Lunensis episcopi</roleName>, ibi presentis et consentientis, et etiam ipsi
+                    homines infrascripti et quilibet ipsorum, pro se et suo proprio nomine et
+                    principaliter et singulariter, fecerunt et constituerunt <persName
+                        ref="#Simonetusnot">Symonetum</persName>
+                    <roleName>notarium</roleName> de <placeName ref="#Sarzana">Sarzana</placeName>,
+                    presentem et suscipientem, syndicum, actorem atque procuratorem dicti communis
+                    et universitatis et omnium hominum et personarum de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> et ipsorum hominum infrascriptorum et cuiuslibet
+                    ipsorum ad infrascripta omnia facienda<note place="foot" n="a"
+                        xml:id="LI_LII_n_001">omnia facienda: <emph>nel testo</emph> facienda omnia
+                            <emph>con segno di richiamo per invertire l’ordine delle
+                        parole.</emph></note> et exercenda pro ipso communi et universitate et
+                    omnibus hominibus et personis de <placeName ref="#Sarzana">Sarzana</placeName>
+                    et pro ipsis singularibus hominibus inferius nominatis, videlicet ad iurandum,
+                    pro ipsis hominibus inferius nominatis et pro quolibet ipsorum et pro dicto
+                    communi et universitate et omnibus hominibus et personis de <placeName
+                        ref="#Sarzana">Sarzana</placeName> et super animam et in animam ipsorum
+                    hominum et dicti communis et universitatis ipsius loci, stare et obedire
+                    mandatis sive preceptis <roleName>venerabilis patris domini</roleName>
+                    <persName ref="#HenricusEpLuni">Henrici</persName>, <roleName>Lunensis
+                        episcopi</roleName>, et <roleName>domini</roleName>
+                    <persName ref="#PhilippusEpBrug">Philippi</persName>, <placeName ref="#Brugnato"
+                            >Beugnatensis<note place="foot" n="b" xml:id="LI_LII_n_002"
+                            >Beugnatensis: <emph>così nel testo.</emph></note></placeName>
+                    <roleName>episcopi</roleName>, <roleName>domini pape iudicis delegati</roleName>
+                    vel executoris delegati sive subdelegati vel executoris vel ordinati vel
+                    conmissi vel committendi sive delegandi sive subdelegandi vel ordinandi dicti
+                    domini episcopi <placeName ref="#Brugnato">Beugnatensis<note place="foot" n="c"
+                            xml:id="LI_LII_n_003">Beugnatensis: <emph>così nel
+                        testo.</emph></note></placeName>, secundum formam ecclesie, occasione
+                    interdicti et excommunicationis facti vel facte vel pronunciate sive promulgate
+                    per dictum dominum Lunensem episcopum, vel<pb n="142v" xml:id="fol_142v"/>alium
+                    pro eo vel eius, mandato, et per dictum dominum episcopum <placeName
+                        ref="#Brugnato">Beugnatensem<note place="foot" n="d" xml:id="LI_LII_n_004"
+                            >Beugnatensem: <emph>così nel testo per
+                        </emph>Brugnatensem</note></placeName> vel alium pro eo vel eius mandato,
+                    vel per eorum vel alicuius eorum delegatum vel subdelegatum vel executorem
+                    contra ipsos infrascriptos homines de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> vel contra aliquem vel aliquos ipsorum et contra dictum
+                    commune et universitatem et omnes homines et personas de <placeName
+                        ref="#Sarzana">Sarzana</placeName>, vel aliquem vel aliquos ipsorum, et
+                    contra rectores et capitaneos et officiales ipsius loci vel ipsius communis vel
+                    hominum, vel contra aliquem vel aliquos ipsorum capitaneorum vel rectorum vel
+                    officialium, vel contra homines vel personas que sunt vel fuerunt obedientes seu
+                    parentes eisdem vel contra aliquem vel aliquos ipsorum hominum obedientium
+                    eisdem, occasione aliquorum mandatorum seu rescriptorum vel litterarum domini
+                    pape vel dictorum dominorum episcoporum vel alterius eorum vel aliorum pro eis
+                    vel ex eorum vel alterius eorum delegatione, mandato vel commissione vel
+                    occasione contumacie vel inobediencie vel occasione doane salis vel occasione
+                    officialium <placeName ref="#Sarzana">Sarzana</placeName> vel alia quacumque
+                    occasione vel modo. Et ad petendum et recipiendum, pro ipsis hominibus
+                    infrascriptis atque pro quolibet eorum et pro dicto communi et universitate et
+                    pro omnibus hominibus et personis de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> et pro quolibet eorum, absolutionem de quolibet
+                    interdicto et excommunicatione, facto sive facta vel imposita actenus contra
+                    ipsos homines infrascriptos vel aliquem eorum vel contra dictum commune et
+                    universitatem vel contra aliquos homines vel rectores vel officiales ipsius loci
+                    per dictos dominos episcopos vel alterum eorum, vel per alium vel alios pro eis
+                    vel altero eorum, vel per eorum vel alterius eorum ad hec delegatum vel
+                    subdelegatum vel delegatos vel subdelegatos. Item ad recipiendum, pro ipsis
+                    hominibus inferius nominatis et pro quolibet ipsorum et etiam pro dicto communi
+                    et universitate et pro omnibus hominibus et personis de <placeName
+                        ref="#Sarzana">Sarzana</placeName> Sarzana et pro quolibet et qualibet
+                    earum, remissionem, absolutionem et liberationem a dicto venerabili patre
+                        <roleName>domino</roleName>
+                    <persName ref="#HenricusEpLuni">Henrico</persName>, <roleName>Lunensi
+                        episcopo</roleName>, de offensionibus et iniuriis omnibus et singulis,
+                    factis vel illatis per ipsos homines infrascriptos vel per aliquem vel aliquos
+                    ipsorum, vel per dictum commune vel universitatem vel rectores vel capitaneos
+                    vel officiales ipsius communis, vel per aliquos homines vel personas ipsius
+                    universitatis vel loci predicti <placeName ref="#Sarzana">Sarzane</placeName>,
+                    contra dictum dominum episcopum vel contra eius vicarium vel vicarios vel
+                    officiales, quacumque occasione vel modo, in <placeName ref="#Sarzana"
+                        >Sarzana</placeName> et extra <placeName ref="#Sarzana">Sarzanam</placeName>
+                    alicubi, scilicet tempore <orgName ref="#Lunigiana_vicaria">vicarie</orgName> <roleName>domini</roleName>
+                    <persName ref="#Henricus_doctor">Henrico</persName>
+                    <roleName>doctoris legum, vicarii venerabilis patris domini</roleName>
+                    <persName ref="#HenricusEpLuni">Henrici</persName>
+                    <roleName>Lunensis episcopi</roleName>, <roleName>domini</roleName>
+                    <persName ref="#PhilippusRiccardi">Philippi Riccardi de <placeName ref="#Lucca"
+                            >Luca</placeName></persName>, qui fuerunt olim
+                        <roleName>vicarii</roleName> ipsius domini episcopi vel pro ipso domino
+                    episcopo et ab ipso tempore circa in <placeName ref="#Lunigiana"
+                        >Lunexana</placeName> in anno currenti<note place="foot" n="e"
+                        xml:id="LI_LII_n_005">currenti: i <emph>finale corretta su </emph>e</note>,
+                        <date from="1276-01-01" to="1278-09-03"> millesimo CC septuagesimo sexto,
+                        indictione IIII<note>Vicariato in Lunigiana di Enrico, dottore in legge, e
+                            Filippo Riccardi di Lucca</note></date>, vel ab ipso tempore dicti
+                    vicarii citra usque ad diem hodiernum<note place="foot" n="f"
+                        xml:id="LI_LII_n_006">circa: <emph>così nel testo per </emph>citra, <emph>si
+                            veda doc. 79 (LII), c. 146r. </emph></note> ; et etiam ab omnibus et de
+                    omnibus et singulis bannis et condempnationibus atque publicationibus bonorum,
+                    factis vel pronunciatis seu promulgatis <pb n="143r" xml:id="fol_143r"/> tempore
+                    dicti <roleName>domini</roleName>
+                    <persName ref="#PhilippusRiccardi">Philippi</persName>, <roleName>olim vicarii
+                        ipsius domini episcopi</roleName> in <placeName ref="#Lunigiana"
+                        >Lunexana</placeName>, et ab ipso tempore citra per dictum dominum episcopum
+                    vel per eius vicarium, suprascriptum <roleName>dominum</roleName>
+                    <persName ref="#PhilippusRiccardi">Philippum</persName>, vel eius iudicem vel
+                    curiam vel alium vicarium vel vicarios vel rectores vel officiales dicti domini
+                    episcopi, contra ipsos homines infrascriptos vel aliquem eorum vel contra dictum
+                    commune et universitatem et omnes homines de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> vel contra aliquem vel aliquos ipsorum, quacumque
+                    occasione vel modo, cum carta vel sine carta, vel in scriptis vel sine scriptis.
+                    Et ad faciendum cassari omnes sententias et pronunciationes interdictorum et
+                    excommunicationum et privationis mercati sive fori et feudorum et privatione
+                    tabellionatus, latas sive promulgatas <placeName ref="#Sarzana"
+                        >Sarzane</placeName> per predictos episcopos vel alterum eorum, vel eorum
+                    vel alterius eorum vicarium vel vicarios vel iudices vel officiales vel
+                    delegatos vel subdelegatos; et etiam omnia banna et condempnationes et
+                    processus, factos et facta contra ipsos homines infrascriptos vel aliquem seu
+                    aliquos ipsorum, vel contra dictum commune et universitatem vel capitaneos vel
+                    rectores vel officiales vel aliquem ipsius loci, quacumque occasione vel modo,
+                    et specialiter occasione itineris, quod commune et homines <placeName
+                        ref="#Sarzana">Sarzane</placeName> fecerunt pro sale <orgName
+                        ref="#Luni_S_Maurizio">ad Sanctum Mauricium</orgName> Mauricium vel alio per
+                    predictum dominum episcopum vel per eius vicarium vel vicarios vel officiales;
+                    atque ad alia omnia et singula recipiendum et faciendum pro ipsis hominibus
+                    infrascriptis et pro quolibet eorum et pro dicto communi et universitate et pro
+                    omnibus et singulis hominibus et personis ipsius loci, que fuerunt facienda vel
+                    que fuerunt utilia vel necessaria in predictis vel aliquo predictorum vel eorum
+                    occasione, promittentes ipsi homines infrascripti, scilicet quilibet ipsorum,
+                    pro se et suo nomine et etiam pro dicto communi et universitate et pro omnibus
+                    hominibus et personis dicti loci et pro quolibet ipsorum, se ratum et firmum
+                    habiturum et attendere et observare totum et quicquid per dictum syndicum,
+                    actorem et procuratorem factum fuerit in predictis et circa predicta et
+                    quodlibet eorum, sub obligatione bonorum ipsorum hominum et dicti communis atque
+                    universitatis. </p>
+                <p xml:id="LI_LII_p_002" n="2"> Homines autem de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>, congregati in dicto parlamento ad predicta facienda et
+                    qui predicta fecerunt, ut dicta sunt supra, sunt isti, scilicet: <persName
+                        ref="#MuciusMercadantis">Mucius quondam <roleName>domini</roleName>
+                        Mercadantis</persName>, <persName ref="#RollandinusMercadantis">Rollandinus
+                        Mercadantis</persName>, <persName ref="#CeteusStupii">Ceteus
+                        Stupii</persName>, <persName ref="#ParentinusStupii">Parentinus
+                        Stupii</persName>, <persName ref="#Stupius">Stupius</persName>, <persName
+                        ref="#IohannesBonalbergi">Iohannes Bonalbergi</persName>, <persName
+                        ref="#RayneriusLumbardi">Raynerius Lumbardi</persName>, <persName
+                        ref="#VitaUgolini">Vita Ugolini</persName>, <persName
+                        ref="#Roberticius_notarius">Roberticius</persName>
+                    <roleName>notarius</roleName>, <persName ref="#LealisSala">Lealis de <placeName
+                            ref="#Sala">Sala</placeName></persName>, <persName ref="#BondiesBandini"
+                        >Bondies Bandini</persName>, <roleName>magister</roleName>
+                    <persName ref="#Albertus_magister">Albertus</persName>, <persName
+                        ref="#NuciusUgolini">Nucius Ugolini</persName>, <persName
+                        ref="#Aleardus_sartor">Aleardus </persName>
+                    <roleName>sartor</roleName>, <persName ref="#VitaLumbardi">Vita
+                        Lumbardi</persName>, <persName ref="#RauledettiLumbardi">Rauledetti
+                        Lumbardi</persName><note place="foot" n="g" xml:id="LI_LII_n_007"
+                        >Rauledetti: <emph>così nel testo.</emph></note>, <persName
+                        ref="#OppecinusAmelia">Oppecinus de <placeName ref="#Ameglia"
+                            >Amelia</placeName></persName>, <persName ref="#BaldoinusViviani"
+                        >Baldoinus Viviani</persName>, <persName ref="#FedericusGualterini"
+                        >Fredericus Gualterini</persName>, <persName ref="#PetrusViviani">Petrus
+                        Viviani</persName>, <persName ref="#BonacursusFortioris">Bonacorsus
+                        Fortioris</persName>, <persName ref="#ParsPonzano">Pars de <placeName
+                            ref="#Ponzano">Punçano</placeName></persName>, <persName
+                        ref="#GuidoFlorentia">Guido de <placeName ref="#Firenze"
+                            >Florentia</placeName></persName>, <persName ref="#Passavallis"
+                        >Passavallis</persName>, <persName ref="#BertusBaldinotti">Bertus
+                        Baldinotti</persName>, <persName ref="#PetrusPose">Petrus Pose</persName>,
+                        <persName ref="#FedericusCompagnoni">Fredericus Compagnoni</persName>,
+                        <persName ref="#Ogerius_pettenarius">Ogerius</persName>
+                    <roleName>pettenarius</roleName>
+                    <pb n="143v" xml:id="fol_143v"/>
+                    <persName ref="#GuilielmuciusMartini">Guilielmucius</persName>
+                    <roleName>magistri</roleName> Martini, <persName ref="#TalavaciusGordiani"
+                        >Talavacius Gordiani</persName>, <roleName>magister</roleName>
+                    <persName ref="#Benvenutus_magister">Benvenutus</persName>, <persName
+                        ref="#Gervasinus">Gervasinus</persName>, <persName
+                        ref="#PontonariusGervasini">Pontonarius eius filius</persName>
+                    <persName ref="#CandusPontonarii">Candus filius dicti Pontonarii</persName>,
+                        <persName ref="#AlbertusCassani">Albertus <roleName>magistri</roleName>
+                        Cassani</persName>, <persName ref="#GasparinusSaporis">Gasparinus
+                        Saporis</persName>, <persName ref="#Iuncta_ferrarius">Iuncta</persName>
+                    <roleName>ferrarius</roleName>, <persName ref="#GuilielmusRipa">Guilielmus de
+                            <placeName ref="#Ripa">Ripa</placeName></persName>, <persName
+                        ref="#LeoMercadantis">Leo Mercadantis</persName>, <persName
+                        ref="#VanellusBaldoini">Vanellus Baldoini</persName>, <persName
+                        ref="#FrancescusBaldoini">Francescus Baldoini</persName>, <persName
+                        ref="#GuilielmusGaforetti">Guilielmus Gaforetti</persName>, <persName
+                        ref="#PetrusDurate">Petrus Durate</persName>, <persName
+                        ref="#IunctaRobertini">Iuncta Robertini</persName>, <persName
+                        ref="#OppecinusCarentie">Oppecinus Carentie</persName>, <persName
+                        ref="#RampogninusBergucius">Rampogninus Bergucius</persName>, <persName
+                        ref="#AdornellusPaganini">Adornellus Paganini</persName>, <persName
+                        ref="#PaganinusVino">Paganinus de <placeName ref="#Vino"
+                        >Vino</placeName></persName>, <persName ref="#FolcerinusBaldinotti"
+                        >Folcerinus Baldinotti</persName>, <persName ref="#Schera_sartor"
+                        >Schera</persName>
+                    <roleName>sartor</roleName>, <persName ref="#Bondies_caxarolus"
+                        >Bondies</persName>
+                    <roleName>caxarolus</roleName>, <persName ref="#Biginottus"
+                        >Biginottus</persName>, <persName ref="#GerardellusOcelli">Gerardellus
+                        Ocelli</persName>, <persName ref="#Martinus_caxarolus">Martinus</persName>
+                    <roleName>caxarolus</roleName>, <persName ref="#Rollandus_caxarolus"
+                        >Rollandus</persName>
+                    <roleName>caxarolus</roleName>, <persName ref="#Ubaldettus"
+                        >Ubaldettus</persName>, <persName ref="#PetrusUbaldetti">Petrus
+                        Ubaldetti</persName>, <persName ref="#Poliomus">Poliomus</persName>,
+                        <persName ref="#BertholottusPallerono">Bertholottus de <placeName
+                            ref="#Pallerono">Pallerono</placeName></persName>, <persName
+                        ref="#ConpagnuciusGuidonis">Conpagnucius Guidonis</persName>, <persName
+                        ref="#FuscusGuidonis">Fuscus Guidonis</persName>, <persName
+                        ref="#BondiesGuilielmini">Bondies Guilielmini</persName>, <persName
+                        ref="#GuilielminusBondie">Guilielminus eius pater</persName>, <persName
+                        ref="#DinottusAmelia">Dinottus de <placeName ref="#Ameglia"
+                            >Amelia</placeName></persName>, <persName ref="#Magnucius_pelliçarius"
+                        >Magnucius</persName>
+                    <roleName>pelliçarius</roleName>, <persName ref="#RollandinusBoccacius"
+                        >Rollandinus Boccacius</persName>, <persName ref="#ParentinusPalmerii"
+                        >Parentinus Palmerii</persName>, <persName ref="#BosasMercadantis">Bosas
+                        Mercadantis</persName>, <persName ref="#BertinusRuncinetti">Bertinus
+                        Runcinetti</persName>, <persName ref="#Cantellinus">Cantellinus</persName>,
+                        <persName ref="#VitaPetri">Vita Petri de</persName>
+                    <placeName ref="#Bibola">Bibola</placeName>, <persName
+                        ref="#AldeprandinusSachetti">Aldebrandinus Sachetti</persName>, <persName
+                        ref="#PetrusPiçolboni">Petrus Piçolboni</persName>, <persName
+                        ref="#RayneriusBuroni">Raynerius Buroni</persName>, <persName
+                        ref="#SymonGerardi">Symon Gerardi</persName>, <persName
+                        ref="#Sansonus_vinarolus">Sansonus</persName>
+                    <roleName>vinarolus</roleName>, <persName ref="#HenriguciusGaiardi">Henrigutius
+                        Galeardi</persName>, <persName ref="#RaineriusCompegnetti">Rainerius
+                        Compegnetti</persName>, <persName ref="#GasparinusSarzananot"
+                        >Gasparinus</persName>
+                    <roleName>notarius</roleName>, <persName ref="#Simonnot">Symon</persName>
+                    <roleName>notarius</roleName>, <persName ref="#BeccusLucardini">Beccus
+                        Lucardini</persName>, <persName ref="#VitaSicco">Vita Siccus</persName>,
+                        <persName ref="#PetrusAlbertacii">Petrus Albertacii</persName>, <persName
+                        ref="#VitaPeveronus">Vita Peveronus</persName>, <persName
+                        ref="#PuciusGuitelli">Pucius Guitelli</persName>, <persName
+                        ref="#IacopinusAudoini">Iacopinus Audoini</persName>, <persName
+                        ref="#FioressePedevache">Fioresse Pedevache</persName>, <persName
+                        ref="#FedericusAccini">Fredericus Accini</persName>, <persName
+                        ref="#PhilippinusSacheti">Philippinus Sacheti</persName>, <persName
+                        ref="#IacobusManetti">Iacopus Manetti</persName>, <persName
+                        ref="#BernarduciusManetti">Bernarducius Manetti</persName>, <persName
+                        ref="#Mercadellus_beccarius">Mercadellus</persName>
+                    <roleName>beccarius</roleName>, <persName ref="#Compegnettus"
+                        >Compegnettus</persName>, <persName ref="#PinusCompagneti">Pinus
+                        Compegnetti</persName>, <persName ref="#VitaGrassus">Vita
+                    Grassus</persName>, <persName ref="#AccolinusBosatis">Accolinus
+                        Bosatis</persName>, <persName ref="#VivaldusAlberti">Vivaldus
+                        Alberti</persName>, <persName ref="#Peracius">Peracius</persName>, <persName
+                        ref="#MartinusIacopi">Martinus Iacopi</persName>, <persName
+                        ref="#BonacursusPiçolboni">Bonacursus Piçolboni</persName>,
+                        <roleName>magister </roleName>
+                    <persName ref="#Clarus_magister">Clarus</persName>, <persName
+                        ref="#PetrusUgacii">Petrus Ugacii</persName>, <persName ref="#PuciusBondiei"
+                        >Pucius quondam Bondiei</persName>, <persName ref="#Pax_ferrarius"
+                        >Pax</persName>
+                    <roleName>ferrarius</roleName>, <persName ref="#Guidetus_tintor"
+                        >Guidettus</persName>
+                    <roleName>tintor</roleName>, <persName ref="#GuiduciusAlbertini">Guiducius
+                        Albertini</persName>, <persName ref="#UgolinusPiçolboni">Ugolinus
+                        Piçolboni</persName>, <persName ref="#BonagratiaPalmerini">Bonagratia
+                        Palmerini</persName>, <persName ref="#IunctaBaldinotti">Iuncta
+                        Baldinotti</persName>, <persName ref="#ParteRobischii">Parte
+                        Robischii</persName>, <persName ref="#BacconusAbraçatoris">Bacconus
+                        Abraçatoris</persName>, <persName ref="#MuciusIacopi">Mucius
+                        Iacopi</persName>, <persName ref="#PuciusAlbertini">Pucius
+                        Albertini</persName>, <persName ref="#Durans_ferrarius">Durans</persName>
+                    <roleName>ferrarius</roleName>, <persName ref="#PetrusSachetti">Petrus
+                        Sachetti</persName>, <persName ref="#TedaldusReceveri">Tedaldus
+                        Receveri</persName>, <persName ref="#MuciusFormentini">Mucius
+                        Formentini</persName>, <persName ref="#PetrusIacopi">Petrus
+                        Iacopi</persName>, <persName ref="#GerardinusPorreto">Gerardinus
+                        de</persName>
+                    <placeName ref="#Porreto">Porreto</placeName>, <persName ref="#PinusMusche"
+                        >Pinus Musche</persName>, <persName ref="#AlbertuciusMercadelli">Albertucius
+                        Mercadelli</persName>, <persName ref="#Aldebrandinusnot"
+                        >Aldebrandinus</persName>
+                    <roleName>notarius</roleName>, <persName ref="#MercaduciusAbraçatoris"
+                        >Mercaducius Abraçatoris</persName>, <persName ref="#Accinus"
+                        >Accinus</persName>, <persName ref="#FredericusÇambardi">Fredericus
+                        Çambardi</persName>, <persName ref="#OradinusMaçoni">Oradinus
+                        Maçoni</persName>, <persName ref="#AudoinusGiberte">Audoinus
+                        Giberte</persName>, <persName ref="#Martinus_tintor">Martinus</persName>
+                    <roleName>tintor</roleName>, <persName ref="#GuelfusBonapartis">Guelfus
+                        Bonapartis</persName>, <persName ref="#GerardusGuilieçoni">Gerardus
+                        Guilieçoni</persName>, <persName ref="#GuilielmusCorveti">Guilielmus
+                        Corvetti</persName>, <persName ref="#PetrusCorvetti">Petrus
+                        Corvetti</persName>, <persName ref="#PresavallisIohannini">Presavallis
+                        Iohannini</persName>, <persName ref="#CalandrusGasparini">Calandrus
+                        Gasparini</persName>, <persName ref="#Bonapartenot">Bonapars</persName>
+                    <roleName>notarius</roleName>, <persName ref="#Venutus_veturalis"
+                        >Venutus</persName>
+                    <roleName>veturalis</roleName>, <persName ref="#MasseusAlbertini">Masseus
+                        Albertini</persName>, <persName ref="#CartenutusAlberracii">Cartenutus
+                        Alberracii</persName>, <persName ref="#GuilielmuciusAccolini">Guilielmucius
+                        Accolini</persName>, <persName ref="#Fornarinus_vecturalis"
+                        >Fornarinus</persName>
+                    <roleName>vecturalis</roleName>, <persName ref="#MartinusPose">Martinus
+                        Pose</persName>, <persName ref="#ManoellusHengerami">Manoellus
+                        Hengerami</persName>, <persName ref="#OppecinellusHengerami">Oppecinellus
+                        Hengerami</persName>, <persName ref="#Blancus_copertor">Blancus</persName>
+                    <roleName>copertor</roleName>, <persName ref="#CastilionusAlberracii"
+                        >Castilionus Alberracii</persName>, <persName ref="#Bonavita_fornarius"
+                        >Bonavita</persName>
+                    <roleName>fornarius</roleName>, <persName ref="#GerardusLupande">Gerardus
+                        Lupande</persName>, <persName ref="#AverinusGeri">Averinus Geri</persName>,
+                        <persName ref="#BertholomeusBonaventure">Bertholomeus
+                    Bonaventure</persName>, <persName ref="#UgolinusMercadantis">Ugolinus
+                        Mercadantis</persName>, <persName ref="#Bernardonus">Bernardonus</persName>,
+                        <persName ref="#CorsellusAidantis">Corsellus Aidantis</persName>, <persName
+                        ref="#Aldebrandinus">Aldebrandinus</persName>, <persName ref="#Mercadantus"
+                        >Mercadans</persName>, <persName ref="#Rollandinus_ferrarius"
+                        >Rollandinus</persName>
+                    <roleName>ferrarius</roleName>, <persName ref="#Gremonus">Gremonus</persName>,
+                        <persName ref="#Detaiutus">Detaide</persName>, <persName ref="#Pelegrinus"
+                        >Pelegrinus</persName>, <persName ref="#PuciusUbertini">Pucius
+                        Ubertini</persName>, <persName ref="#Ubertinus_ferrarius"
+                        >Ubertinus</persName>
+                    <roleName>ferrarius</roleName>, <persName ref="#BonavereArcula">Bonavere de
+                            <placeName ref="#Arcola">Arcula</placeName></persName>, <persName
+                        ref="#IohannesBontalenti">Iohannes Bontalenti</persName>,<pb n="144r"
+                        xml:id="fol_144r"/>
+                    <persName ref="#GuilielmusParentini">Guilielmus Parentini</persName>, <persName
+                        ref="#BondiellusRubei">Bondiellus <roleName>domini</roleName>
+                        Rubei</persName>, <persName ref="#AlbertusBardini">Albertus
+                        Bardini</persName>, <persName ref="#Tranchedinus">Tranchedinus</persName>,
+                        <roleName>dominus</roleName>
+                    <persName ref="#Russus_dominus">Rubeus</persName>, <persName
+                        ref="#Franceschinus">Franceschinus</persName>, <persName ref="#Arduinus"
+                        >Ardoinus</persName>, <persName ref="#Pasqualinus">Pasqualinus</persName>,
+                        <persName ref="#Bontalentus">Bontalentus</persName>, <persName
+                        ref="#BondiesVenuti">Bondies Venuti</persName>, <persName
+                        ref="#CursusIuncte">Cursus filius Iuncte</persName>, <persName
+                        ref="#IunctaSarzana_notarius">Iuncta</persName>
+                    <roleName>notarius</roleName>, <persName ref="#Corsinus_spadarius"
+                        >Corsinus</persName>
+                    <roleName>spadarius</roleName>, <persName ref="#RayneriusGevaroli">Raynerius
+                        Gevaroli</persName>, <persName ref="#Baldinottus">Baldinottus</persName>,
+                        <roleName>dominus</roleName>
+                    <persName ref="#Gualteronus_dominus">Gualteronus</persName>, <persName
+                        ref="#VirgiliusGalgani">Virgilius Galgani</persName>, <persName
+                        ref="#AdornetusBordoni">Adornetus Bordoni</persName>, <persName
+                        ref="#Bonaventura_spadarius">Bonaventura</persName>
+                    <roleName>spadarius</roleName>, <persName ref="#CetthusOradine">Cetthus
+                            <roleName>domine</roleName> Oradine</persName>, <persName
+                        ref="#GerardusHenrici_domini">Gerardus <roleName>domini</roleName>
+                        Henrici</persName>, <persName ref="#ParentuciusGualteroti">Parentucius
+                        Gualteroti</persName>, <persName ref="#GuilielmusSardi">Guilielmus quondam
+                        Sardi</persName>, <persName ref="#Petrinus_pectenarius">Petrinus</persName>
+                    <roleName>pectenarius</roleName>, <persName ref="#AlbertusIacopi">Albertus
+                        Iacopi</persName>, <persName ref="#CalandrinusMadrognano">Calandrinus de
+                            <placeName ref="#Madrognano">Madrognano</placeName></persName>,
+                        <persName ref="#FiliolusRaynerii">Filiolus Raynerii</persName>, <persName
+                        ref="#Rollandinus_caxarolus">Rollandinus</persName>
+                    <roleName>caxarolus</roleName>, <persName ref="#CalandruciusGuilielmi"
+                        >Calandrucius Guilielmi</persName>, <persName ref="#IohannesNichole"
+                        >Iohannes Nichole</persName>, <persName ref="#BonacursusMassei">Bonacursus
+                        Massei</persName>, <persName ref="#BandinusFosdenova">Bandinus de <placeName
+                            ref="#Fosdinovo">Fosdenova</placeName></persName>, <persName
+                        ref="#RusticellusPasqualini">Rusticellus Pasqualini</persName>, <persName
+                        ref="#PuciusRuncinetti">Pucius Runcinetti</persName>, <persName
+                        ref="#MercaduciusBernardoni">Mercaducius Bernardoni</persName>, <persName
+                        ref="#Paganinus_fornarius">Paganinus</persName>
+                    <roleName>fornarius</roleName>, <persName ref="#Folchetus_ferrarius"
+                        >Folchetus</persName>
+                    <roleName>ferrarius</roleName>, <persName ref="#Martinus_ferrarius"
+                        >Martinus</persName>
+                    <roleName>ferrarius</roleName>, <persName ref="#Riccomannus_vinarolus"
+                        >Riccomannus</persName>
+                    <roleName>vinarolus</roleName>, <persName ref="#GuilielminusMonte">Guilielminus
+                        de <placeName ref="#Monte">Monte</placeName></persName>, <persName
+                        ref="#IohannesMercadantis">Iohannes Mercadantis</persName>, <persName
+                        ref="#Segnucius">Segnucius</persName>, <persName ref="#DuransDetaiuti"
+                        >Durans Detaiuti</persName>, <persName ref="#BoniohannesVivaldi">Boniohannes
+                        Vivaldi</persName>, <persName ref="#PuciusGremoni">Pucius
+                    Gremoni</persName>, <persName ref="#OctonusVenuti">Octonus Venuti</persName>,
+                        <persName ref="#Ventrigius">Ventrigius</persName>, <persName
+                        ref="#Bonafides">Bonafides</persName>, <persName ref="#Venudettus"
+                        >Venudettus</persName>, <persName ref="#RobertinusAlberti">Robertinus
+                        Alberti</persName>, <persName ref="#Fredericus">Fredericus</persName>,
+                        <persName ref="#ParentuciusGuerrisii">Parentucius Guerrisii</persName>,
+                        <persName ref="#PuciusVivaldi">Pucius Vivaldi</persName>, <persName
+                        ref="#BenguciusAccolini">Bengucius Accolini</persName>, <persName
+                        ref="#GuilielmusDetaiuti">Guilielmus Detaiuti</persName>, <persName
+                        ref="#RollandinusVivaldi">Rollandinus Vivaldi</persName>, <persName
+                        ref="#Marzuchius">Marzuchius</persName>, <persName ref="#LemusFolcerii"
+                        >Lemus Folcerii</persName>, <persName ref="#RiçardusGuilielmi">Riçardus
+                        Guilielmi</persName>, <persName ref="#IohannesRaynerii">Iohannes
+                        Raynerii</persName>, <persName ref="#CorsellusCalvi">Corsellus
+                        Calvi</persName>, <persName ref="#Cellus_uvetarius">Cellus</persName>
+                    <roleName>uvetarius</roleName>, <persName ref="#CorsellusBaldinotti">Corsellus
+                        Baldinotti</persName>, <persName ref="#FaciusGuilielmi">Facius
+                        Guilielmi</persName>, <persName ref="#GuilielmusFolo">Guilielmus de
+                            <placeName ref="#Folo">Folo</placeName></persName>, <persName
+                        ref="#Legerius">Legerius</persName>, <roleName>magister</roleName>
+                    <persName ref="#Boniohannes_magister">Boniohannes</persName>, <persName
+                        ref="#PuciusBontalenti">Pucius Bontalenti</persName>, <persName
+                        ref="#AlbertusUbertini">Albertus Ubertini</persName>
+                    <roleName>ferrarius</roleName>, <persName ref="#PuciusBernardini">Pucius
+                        Bernardini</persName>, <persName ref="#BondiesVitalis">Bondies
+                        Vitalis</persName>, <persName ref="#BonavitaTranchedi">Bonavita
+                        Tranchedi</persName>, <persName ref="#NuciusGuilielmini">Nucius
+                        Guilielmini</persName>, <persName ref="#BastardusBontalenti">Bastardus
+                        Bontalenti</persName>, <persName ref="#PorcellinusAlberti">Porcellinus
+                        Alberti</persName>, <persName ref="#GaccusBandini">Gaccus
+                    Bandini</persName>, <persName ref="#AdornetusBontalenti">Adornetus
+                        Bontalenti</persName>, <persName ref="#Bontalentus">Bontalentus</persName>,
+                        <persName ref="#PetrusUbaldetti">Petrus Ubaldetti</persName>, <persName
+                        ref="#PuciusAidantis">Pucius Aidantis</persName>, <persName
+                        ref="#OradinusRaicis">Oradinus Raicis</persName>, <persName
+                        ref="#GerardusSasalbo">Gerardus de Sasalbo</persName>, <persName
+                        ref="#Paininus_sartor">Paininus</persName>
+                    <roleName>sartor</roleName>, <persName ref="#Iacopus_caxarius"
+                        >Iacopus</persName>
+                    <roleName>caxarius</roleName>, <persName ref="#Franciscus_ferrarius"
+                        >Franciscus</persName>
+                    <roleName>ferrarius</roleName>, <persName ref="#CambiusMercadantis">Cambius
+                        Mercadantis</persName>, <persName ref="#GuelfusGremoni">Guelfus
+                        Gremoni</persName>, <persName ref="#PuciusMercadantis">Pucius
+                        Mercadantis</persName>, <persName ref="#GuilielmusBonensigne">Guilielmus
+                        Bonensigne</persName>, <roleName>magister</roleName>
+                    <persName ref="#Tuesus_magister">Tuesus</persName>, <persName
+                        ref="#GuilielmusVenuti">Guilielmus Venuti</persName>, <persName
+                        ref="#Luschettus_corarius">Luschettus</persName>
+                    <roleName>corarius</roleName>, <persName ref="#Bernardus_barberius"
+                        >Bernardus</persName>
+                    <roleName>barberius</roleName>, <persName ref="#BernarduciusBernardoni"
+                        >Benarducius Bernardoni</persName>, <persName ref="#TurchusVeçano">Turchus
+                        de</persName>
+                    <placeName ref="#Vezzano">Veçano</placeName>, <persName
+                        ref="#Bernochus_barberius">Bernochus</persName>
+                    <roleName>barberius</roleName>, <persName ref="#TedaldusTurchi">Tedaldus frater
+                        Turchi</persName>, <persName ref="#Iacopinus_notarius2">Iacopinus</persName>
+                    <roleName>notarius</roleName>, <persName ref="#Moraminus">Moraminus</persName>,
+                        <persName ref="#RollandinusMercadantis">Rollandinus Mercadantis</persName>,
+                        <persName ref="#BondiesBendecase">Bondies Bendecase</persName>, <persName
+                        ref="#Alverius">Alverius</persName>, <persName ref="#IunctarellusPereto"
+                        >Iunctarellus de <placeName ref="#Peretolo">Pereto</placeName></persName>,
+                        <persName ref="#Fuschus_becarius">Fuschus</persName>
+                    <roleName>becarius</roleName>, <persName ref="#GuilielminusBenedicti"
+                        >Guilielminus Benedicti</persName>, <persName ref="#Guadagninus"
+                        >Guadagninus</persName>, <persName ref="#Riccusborsarius">Riccus</persName>
+                    <roleName>borsarius</roleName>, <persName ref="#Vernus">Vernus</persName>,
+                        <persName ref="#GuilielmuciusMolinarii">Guilielmucius Molinarii</persName>,
+                        <persName ref="#Marsilius">Marsilius</persName>, <persName ref="#Boveronus"
+                        >Boveronus</persName>, <persName ref="#VivaldusÇucano">Vivaldus
+                        de</persName>
+                    <placeName ref="#Giuccano">Çucano</placeName>, <persName ref="#RomeusBaldinotti"
+                        >Romeus Baldinotti</persName>, <persName ref="#Fredericus_becarius"
+                        >Fredericus</persName>
+                    <roleName>becarius</roleName>, <persName ref="#VenturellusVesinelli">Venturellus
+                        Vesinelli</persName>, <persName ref="#BenedictusCancellini">Benedictus
+                        Cancellini</persName>, <persName ref="#CastelionusBrina">Castelionus de
+                            <placeName ref="#Brina">Brina</placeName></persName>, <persName
+                        ref="#GuilielmusVitaleti">Guilielmus Vitaletti</persName>, <persName
+                        ref="#PaxLucardini">Pax Lucardini</persName>, <persName
+                        ref="#PalmeriusGerardini">Palmerius Gerardini</persName>, <persName
+                        ref="#Riçardus">Ricçardus</persName>, <persName ref="#AldebranduciusRicardi"
+                        >Aldebranducius suus filius</persName>, <persName ref="#FaciusBallini"
+                        >Facius Ballini</persName>, <persName ref="#Lambertus_doctor">Lambertus suus
+                        frater</persName>
+                    <roleName>doctor</roleName>, <persName ref="#IacopinusLumbardus">Iacopinus
+                        Lumbardus</persName>, <persName ref="#Cuntrus_magister">Cuntrus</persName>
+                    <roleName>magister</roleName>, <persName ref="#BenadusBernaçoni">Benadus
+                        Bernaçoni</persName>, <persName ref="#Durans_corarius">Durans</persName>
+                    <roleName>corarius</roleName>, <persName ref="#Sarçanellus_becarius"
+                        >Sarçanellus</persName>
+                    <roleName>becarius</roleName>, <persName ref="#RollandusBastardi">Rollandus
+                        Bastardi</persName>, <persName ref="#BastardusGervasini">Bastardus
+                        Gervasini</persName>, <persName ref="#BoniohannesManetti">Boniohannes
+                        Manetti</persName>, <persName ref="#BondiesPagadossi">Bondies
+                        Pagadossi</persName>, <persName ref="#AmatusBondiei">Amatus
+                        Bondiei</persName>, <persName ref="#IohannesBonapartis">Iohannes
+                        Bonapartis</persName>, <persName ref="#VenturuciusSabbatini">Venturucius
+                        Sabbatini</persName>, <persName ref="#CasinusBulioni">Casinus
+                        Bulioni</persName>, <persName ref="#VitaAccursi">Vita Accursi</persName>,
+                        <persName ref="#TedaldusBonapartis">Tedaldus Bonapartis</persName>,
+                        <persName ref="#VenutusPunçano">Venutus de</persName>
+                    <placeName ref="#Ponzano">Punçano</placeName>,<pb n="144v" xml:id="fol_144v"/>
+                    <persName ref="#Manettus_calçolarius">Manettus</persName>
+                    <roleName>calçolarius</roleName>, <persName ref="#VegnutusÇardini">Venutus gener
+                        Çardini</persName>, <persName ref="#BaldinotusArcula">Baldinottus de
+                            <placeName ref="#Arcola">Arcula</placeName></persName>, <persName
+                        ref="#Carucius_ferrarius">Carucius</persName>
+                    <roleName>ferrarius</roleName>, <persName ref="#FestaPunçanello">Festa de
+                            <placeName ref="#Ponzanello">Punçanello</placeName></persName>,
+                        <persName ref="#PuciusValdegrane">Pucius Valdegrane</persName>, <persName
+                        ref="#AldebertinusOlive">Aldebertinus Olive</persName>, <persName
+                        ref="#AntoniusGerardi">Antonius</persName>
+                    <roleName>domini</roleName>
+                    <persName ref="#AntoniusGerardi">Gerardi</persName>, <persName
+                        ref="#Philippucius_sartor">Philippucius</persName>
+                    <roleName>sartor</roleName>, <persName ref="#Facius_fornarius">Facius</persName>
+                    <roleName>fornarius</roleName>, <persName ref="#Lombardellus_veturalis"
+                        >Lumbardellus</persName>
+                    <roleName>veturalis</roleName>, <persName ref="#VivianusMercadorus">Vivianus
+                        Mercadorus</persName>, <persName ref="#Lombardellus_becarius"
+                        >Lumbardellus</persName>
+                    <roleName>becarius</roleName>, <persName ref="#MinellusAlverii">Minellus
+                        Alverii</persName>, <persName ref="#DominicusRollandini">Dominicus
+                        Rollandini</persName>, <persName ref="#Festa_ferrarius">Festa</persName>
+                    <roleName>ferrarius</roleName>, <persName ref="#Vesutus_ferrarius"
+                        >Vesutus</persName>
+                    <roleName>ferrarius</roleName>, <persName ref="#NuvelonusFosdenova">Nuvellonus
+                        de</persName>
+                    <placeName ref="#Fosdinovo">Fosdenova</placeName>, <persName
+                        ref="#PaganinusNavilie">Paganinus Navilie</persName>, <persName
+                        ref="#BernardusGerardiLealis">Bernardus Gerardi Lealis</persName>, <persName
+                        ref="#PinusRichelde">Pinus Richelde</persName>, <persName ref="#Bedonus"
+                        >Bedonus</persName>, <persName ref="#IunctaMangiatoris">Iuncta
+                        Mangiatoris</persName>, <persName ref="#DominicusBoniohannis">Dominicus
+                        Boniohannis</persName>, <persName ref="#Guidettinus_becarius"
+                        >Guidettinus</persName>
+                    <roleName>becarius</roleName>, <persName ref="#CalandrinusBoniohannis"
+                        >Calandrinus Boniohannis</persName>, <persName ref="#BondeellusAmati"
+                        >Bondeellus Amati</persName>, <persName ref="#Runcinettus"
+                        >Runcinettus</persName>, <persName ref="#Passavans_sartor"
+                        >Passavans</persName>
+                    <roleName>sartor</roleName>, <persName ref="#ParentuciusRose">Parentucius
+                        Rose</persName>, <persName ref="#VitaDulcis">Vita Dulcis</persName>,
+                        <persName ref="#Comunale">Comunale</persName>, <persName
+                        ref="#AlbertuciusRobichii">Albertucius Robichii</persName>, <persName
+                        ref="#Boniohannes_becarius">Boniohannes</persName>
+                    <roleName>becarius</roleName>, <persName ref="#ParentinusTodeschine">Parentinus
+                        Todeschine</persName>, <persName ref="#ContrusGualdi">Contrus
+                        Gualdi</persName>, <persName ref="#Barbaçanus">Barbaçanus</persName>,
+                        <persName ref="#Paganellus_piscator">Paganellus</persName>
+                    <roleName>piscator</roleName>, <persName ref="#Pactucius">Pactucius</persName>,
+                        <persName ref="#GualterotusAmantis">Gualterottus Amantis</persName>,
+                        <persName ref="#MercaduciusSarzanelli">Mercaducius Sarzanelli</persName>,
+                        <persName ref="#AndriolusConfaloni">Andriolus Confaloni</persName>,
+                        <persName ref="#Parens_corarius">Parens</persName>
+                    <roleName>corarius</roleName>, <persName ref="#Spagnolus">Spagnolus</persName>,
+                        <persName ref="#SymonIuncte">Symon Iuncte</persName>, <persName
+                        ref="#VenudettusBondiei">Venudettus Bondiei</persName>, <persName
+                        ref="#GualvanusÇucano">Gualvanus de <placeName ref="#Giuccano"
+                            >Çucano</placeName></persName>, <persName ref="#BoniohannesMercadorus"
+                        >Boniohannes Mercadorus</persName>, <persName ref="#UgolinusFancelli"
+                        >Ugolinus Fancelli</persName>, <persName ref="#VitaBudellettus">Vita
+                        Budellettus</persName>, <persName ref="#GuilielmuciusBonapartis"
+                        >Guilielmucius Bonapartis</persName>, <persName ref="#MarcheseClausura"
+                        >Marchese de <placeName ref="#Clausura">Clausura</placeName></persName>,
+                        <persName ref="#IunctaMercadorus">Iuncta Mercadorus</persName>, <persName
+                        ref="#AlbertuciusCastilioni">Albertucius Castilioni</persName>, <persName
+                        ref="#IohanninusBranchetti">Iohanninus Branchetti</persName> et <persName
+                        ref="#Sansonus">Sansonus</persName>. Et predicta sic facta et firmata
+                    fuerunt, post factam suspensionem interdicti et excommunicationis, per dictum
+                    dominum episcopum atque per <roleName>dominum</roleName>
+                    <persName ref="#Guilielmus_prepositus">Guilielmum</persName>, <roleName>Lunensem
+                        prepositum</roleName>, atque <roleName>dominum</roleName>
+                    <persName ref="#GuilielmusCodeponte_arc">Guilielmum</persName>,
+                        <roleName>archipresbyterum</roleName>
+                    <orgName ref="#Codiponte_SS_Cornelio_Cipriano">plebis de</orgName>
+                    <placeName ref="#Codiponte">Codeponte</placeName>, ex commissione et delegatione
+                    facta eisdem preposito et archipresbytero a dicto domino episcopo <placeName
+                        ref="#Brugnato">Brugnatensi</placeName>, de qua suspensione continebant<note
+                        place="foot" n="h" xml:id="LI_LII_n_008">continebant: <emph>così nel testo
+                            per </emph>continebatur.</note> in carta sive sceda vel scriptura
+                    publica, facta per <persName ref="#Borgesellususnot">Borgesellum</persName>
+                    <roleName>notarium</roleName> hodie, ante hoc instrumentum. Lecto et recitato
+                    tenore et forma dicte suspensionis et dicte carte sive scede vel scripture
+                    publice per dictum <persName ref="#Borgesellususnot">Borgesellum</persName>
+                    <roleName>notarium</roleName>, mandato dicti domini episcopi Lunensis et
+                    dictorum dominorum prepositi et archipresbyteri, in presentia ipsorum et hominum
+                    suprascriptorum de <placeName ref="#Sarzana">Sarzana</placeName> congregatorum
+                    in parlamento predicto. Et de commissione atque delegatione eis facta a dicto
+                    domino episcopo <placeName ref="#Brugnato">Brugnatensi</placeName> continebatur
+                    in litteris eis missis<note place="foot" n="i" xml:id="LI_LII_n_009">missis:
+                            <emph>la seconda</emph> i <emph>correta su</emph> a</note> ex parte
+                    dicti domini episcopi <placeName ref="#Brugnato">Brugnatensis</placeName>,
+                    sigillatis sigillo ipsius domini episcopi, quarum tenor talis erat: «<persName
+                        ref="#PhilippusEpBrug">Philippus</persName>, miseratione divina <placeName
+                        ref="#Brugnato">Brugnatensis</placeName> episcopus, domini pape iudex
+                    delegatus, providis atque discretis viris <roleName>dominis</roleName>
+                    <persName ref="#GuilielmusCodeponte_arc">Guilielmo</persName>, <roleName>Lunensi
+                        preposito et <orgName ref="#Codiponte_SS_Cornelio_Cipriano"
+                            >archipresbytero</orgName> de</roleName>
+                    <placeName ref="#Codiponte">Codeponte</placeName>, salutem in Domino. Cum
+                    receperimus litteras ex parte venerabilis fratris<note place="foot" n="j"
+                        xml:id="LI_LII_n_010">fratris: <emph>seguono tre lettere abrase e depennate
+                            con due linee orizzontali in inchiostro rosso.</emph></note> nostri
+                    domini episcopi Lunensis, continentes quod commune et homines de <placeName
+                        ref="#Sarzana">Sarzana</placeName> libere et absolute ad sua et ecclesie sue
+                    redierunt mandata, mandamus vobis et cuilibet vestrum in solidum quatinus,
+                    auctoritate nostra, predictos commune et homines de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> a vinculo excommunicationis et interdicti et alias
+                    quascumque personas per nos alligatas absolvere debeatis. Et hec commissio
+                    valeat quousque eam duxerimus revocandam. Datum <placeName ref="#Brugnato"
+                        >Brugnati</placeName>, IIIa mensis septembris». Actum <pb n="145r"
+                        xml:id="fol_145r"/>
+                    <placeName ref="#Sarzana">Sarzane</placeName>, in claustro <orgName
+                        ref="#Sarzana_S_Maria">canonice ecclesie Sancte Marie</orgName>,
+                        existente<note place="foot" n="k" xml:id="LI_LII_n_011">existente:
+                            <emph>così nel testo per </emph>existentibus</note> tunc dicto domino
+                    episcopo et dictis preposito et archipresbytero et dicto syndico et procuratore
+                    et me, Petro notario, et testibus infrascriptis super porticum dicti claustri,
+                    que porticus est versus occidentem, et existentibus dictis hominibus de
+                        <placeName ref="#Sarzana">Sarzana</placeName>, congregatis in dicto
+                    parlamento, partim super ipsa porticu et partim in terreno atque solo ipsius
+                    claustri, presentibus <roleName>dominis</roleName>
+                    <persName ref="#Guelfusarc">Guelfo</persName>
+                    <roleName>Lunensi archidiacono</roleName>, <persName ref="#Bertoluscan"
+                        >Bertulo</persName>
+                    <roleName>Lunensi custode</roleName>, <persName
+                        ref="#TebaldusFusichio_canonicus">Tebaldo</persName> de <placeName
+                        ref="#Fusichio">Fusichio</placeName>
+                    <roleName>Lunensi canonico</roleName>, <roleName>presbytero</roleName>
+                    <persName ref="#Baldus_presbyter">Baldo</persName>
+                    <roleName>capellano</roleName> ipsius capituli et presbyteris <persName
+                        ref="#Iacobinus_canonicus">Iacopino</persName> et <persName
+                        ref="#Ugo_capellanus">Ugone</persName>, <roleName>capellanis</roleName>
+                    Lunensis capituli, testibus ad hec rogatis. </p>
+                <p xml:id="LI_LII_p_003" n="3">
+                    <ptr target="LI_LII_st_001"/> Ego <persName ref="#Petrusnot5">Petrus</persName>,
+                        <roleName>imperiali auctoritate notarius</roleName>, hiis omnibus interfui
+                    atque, rogatus, scripsi. </p>
+                <p xml:id="LI_LII_p_004" n="4">
+                    <date when="1278-09-03">Eodem anno, indictione, die atque loco</date> atque
+                    coram eisdem testibus suprascriptis ad hec rogatis, in suprascripto parlamento
+                    dicte universitatis et hominum suprascriptorum eo congregatorum, suprascriptus
+                        <persName ref="#Simonetusnot">Symonettus</persName>
+                    <roleName>notarius</roleName> de <placeName ref="#Sarzana">Sarzana</placeName>,
+                    syndicus et procurator constitutus a dicta universitate et a dictis hominibus de
+                        <placeName ref="#Sarzana">Sarzana</placeName>, nomine et vice dicti communis
+                    atque universitatis et hominum et personarum <placeName ref="#Sarzana"
+                        >Sarzana</placeName> et etiam pro se ipsis et quolibet ipso rum, proprio
+                    nomine et principale<note place="foot" n="l" xml:id="LI_LII_n_012">principalem:
+                            <emph>così nel testo.</emph></note> et cuiuslibet ipsorum, de voluntate
+                    et consensu atque mandato dicte universitatis et hominum suprascriptorum,
+                    syndicatus et procuratorio nomine pro dicto communi et universitate et hominibus
+                    et personis de <placeName ref="#Sarzana">Sarzana</placeName> et pro dictis
+                    hominibus et pro quolibet eorum singulariter et principaliter, et etiam pro se
+                    et eorum nomine, super suam, ipsius syndici et procuratoris animam et etiam
+                    super animam dicti communis et universitatis atque hominum suprascriptorum et
+                    cuiuslibet ipsorum corporaliter iuravit, secundum formam ecclesie, stare et
+                    obedire mandatis sive preceptis sancte ecclesie et predicti domini Lunensis
+                    episcopi et dictorum <roleName>dominorum</roleName>
+                    <persName ref="#Guilielmus_prepositus">Guilielmi</persName>
+                    <roleName>prepositi</roleName> et <persName ref="#GuilielmusCodeponte_arc"
+                        >Guilielmi</persName>
+                    <roleName>archipresbyteri</roleName> pro dicto domino episcopo <placeName
+                        ref="#Brugnato">Brug<supplied reason="omitted"
+                        >n</supplied>atensi</placeName>, domini pape iudicis delegati<note
+                        place="foot" n="m" xml:id="LI_LII_n_013">iudicis delegati: <emph>così nel
+                            testo per</emph> iudice delegato</note>, et ipsius domini episcopi
+                        <placeName ref="#Brugnato">Brug<supplied reason="omitted"
+                        >n</supplied>atensis</placeName>, ex delegatione et commissione facta ab
+                    ipso domino episcopo <placeName ref="#Brugnato">Brug<supplied reason="omitted"
+                            >n</supplied>atensi</placeName> dictis domino preposito et
+                    archipresbytero, de <pb n="145v" xml:id="fol_145v"/> qua delegatione et
+                    commissione continebatur in dictis litteris domini episcopi <placeName
+                        ref="#Brugnato">Brug<supplied reason="omitted"
+                        >n</supplied>atensis</placeName>, occasione excommunicationis et
+                    excommunicationum et interdictorum facti vel facte vel pronunciate sive
+                    promulgate vel factarum sive promulgatarum per dictum dominum episcopum Lunensem
+                    vel per alium pro eo vel eius mandato vel per dictum dominum episcopum
+                        <placeName ref="#Brugnato">Brug<supplied reason="omitted"
+                        >n</supplied>atensem</placeName> vel alium pro eo vel eius mandato vel per
+                    eorumdem episcoporum vel alterius eorum delegatum vel subdelegatum vel
+                    executorem contra suprascriptos homines de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> vel contra aliquem vel aliquos eorum et contra dictum
+                    commune et universitatem et omnes homines et personas <placeName ref="#Sarzana"
+                        >Sarzana</placeName> vel aliquem vel aliquos eorum atque contra rectores et
+                    capitaneos et officiales ipsius loci vel ipsius communis vel hominum vel contra
+                    aliquem vel aliquos ipsorum capitaneorum vel rectorum vel officialium, et contra
+                    homines et personas que sunt vel fuerunt obedientes seu parentes eisdem vel
+                    contra aliquem vel aliquos ipsorum hominum obedientium eisdem occasione
+                    mandatorum seu rescriptorum vel litterarum domini pape vel dictorum dominorum
+                    episcoporum vel alterius eorum vel aliorum pro eis vel ex eorum vel alterius
+                    eorum delegatione vel commissione vel mandato vel occasione contumacie vel
+                    inobediencie vel occasione doane salis vel occasione officialium <placeName
+                        ref="#Sarzana">Sarzana</placeName> vel alia quacumque occasione vel modo,
+                    petente ipso syndico et procuratore humiliter, syndicatus et procuratorio nomine
+                    pro predictis omnibus hominibus et singulis suprascriptis et pro dicta
+                    universitate atque communi et hominibus omnibus et personis de <placeName
+                        ref="#Sarzana">Sarzana</placeName>, absolutionem de predictis. Unde ipse
+                    dominus episcopus, pro se et suo episcopatu, et dicti
+                        <roleName>domini</roleName>
+                    <persName ref="#Guilielmus_prepositus">Guilielmus</persName>
+                    <roleName>prepositus</roleName> et <persName ref="#GuilielmusCodeponte_arc"
+                        >Guilielmus</persName>
+                    <roleName>archipresbyter</roleName>, ex delegatione et commissione eis facta a
+                    dicto domino episcopo <placeName ref="#Brugnato">Brug<supplied reason="omitted"
+                            >n</supplied>atensi</placeName>, recepto iuramento predicto a dicto
+                    syndico et procuratore secundum formam ecclesie, ut dictum est supra,
+                    absolverunt dictum syndicum et procuratorem, syndicatus et procuratorio nomine
+                    pro dictis hominibus, omnibus et singulis, superius nominatis et pro dicto
+                    communi et universitate et hominibus atque personis omnibus de <placeName
+                        ref="#Sarzana">Sarzana</placeName> et etiam pro se et suo nomine et etiam
+                    ipsum locum et terram <placeName ref="#Sarzana">Sarzane</placeName> et etiam
+                    ipsos homines superius nominatos, presentes et existentes in dicto parlamento in
+                    loco predicto, agentes et recipientes pro se ipsis et pro quolibet ipsorum
+                    singulariter et principaliter et pro toto communi et universitate et hominibus
+                    et personis omnibus de <placeName ref="#Sarzana">Sarzana</placeName>, et ipsum
+                    commune et universitatem et homines et eorum rectores, capitaneos atque
+                    officiales, presentes et preteritos, ab interdicto et excommunicatione et
+                    interdictis et excommunicationibus omnibus et singulis, facto et illato vel
+                    illatis et impositis et factis vel pronunciatis vel promulgatis occasione et
+                    occasionibus superius nominatis et specificatis et alia quacumque occasione vel
+                    modo per dictos dominos episcopos vel alterum eorum vel alium vel alios pro eis
+                    vel eorum vel alterius eorum mandato vel per eorum vel alterius eorum delegatum
+                    vel delegatos vel subdelegatum vel subdelegatos vel executorem vel executores
+                    contra ipsum commune vel contra dictos homines de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> superius nominatos vel aliquem vel aliquos eorum atque
+                    contra rectores, capitaneos et officiales ipsius communis vel hominum vel contra
+                    aliquem vel aliquos ipsorum capitaneorum vel rectorum vel officialium et contra
+                    homines vel personas, qui et que sunt vel fuerunt obedientes eisdem, atque que
+                    et quas<note place="foot" n="n" xml:id="LI_LII_n_014">que et quas: <emph>così
+                            nel testo per</emph> qui et que</note><pb n="146r" xml:id="fol_146r"/>
+                    inciderunt vel incurrerunt, occasionibus suprascriptis vel aliqua earum;
+                    interdictum et excommunicationem et excommunicationes et sententias et
+                    pronunciationes et scripturas inde factas cassaverunt atque cassas et irritas
+                    esse dixerunt et voluerunt atque iusserunt. Et insuper dictus venerabilis pater
+                        <roleName>dominus</roleName>
+                    <persName ref="#HenricusEpLuni">Henricus</persName>, <roleName>Lunensis
+                        episcopus</roleName>, per se suosque successores, absolvit et liberavit
+                    dictum syndicum et procuratorem, agentem et recipientem syndicatus et
+                    procuratorio nomine pro dictis hominibus omnibus et personis nominatis et pro
+                    quolibet ipsorum et etiam pro dicto communi et universitate et omnibus et
+                    singulis hominibus et personis de <placeName ref="#Sarzana">Sarzana</placeName>,
+                    atque etiam ipsos homines superius nominatos, ibi presentes et existentes in
+                    dicto parlamento, agentes et recipientes pro se ipsis et quolibet ipsorum et pro
+                    dicto communi et universitate et hominibus et personis de <placeName
+                        ref="#Sarzana">Sarzana</placeName>, et ipsum commune et universitatem et
+                    homines et personas de <placeName ref="#Sarzana">Sarzana</placeName> atque
+                    quemlibet et quamlibet eorum et earum ab omnibus et singulis iniuriis et
+                    offensionibus, factis vel illatis per homines suprascriptos vel per aliquem vel
+                    aliquos eorum vel per dictum commune vel universitatem vel rectores vel
+                    capitaneos vel officiales ipsius communis vel aliquem vel aliquos ipsius
+                    universitatis vel ipsius loci <placeName ref="#Sarzana">Sarzane</placeName>
+                    contra dictum dominum episcopum Lunensem vel contra eius vicarium vel vicarios
+                    vel officiales quacumque occasione vel modo, in <placeName ref="#Sarzana"
+                        >Sarzana</placeName> et extra <placeName ref="#Sarzana">Sarzanam</placeName>
+                    alicubi, scilicet olim tempore <orgName ref="#Lunigiana_vicaria">vicarie</orgName> suprascripti <roleName>domini</roleName>
+                    <persName ref="#Henricus_doctor">Henrici</persName>
+                    <roleName>legum doctoris</roleName>, <roleName>vicarii</roleName>
+                    <placeName ref="#Lunigiana">Lunexane</placeName> pro dicto venerabili patre
+                        <roleName>domino</roleName>
+                    <persName ref="#HenricusEpLuni">Henrico</persName>, <roleName>Lunensi
+                        episcopo</roleName>, et tempore <orgName ref="#Lunigiana_vicaria">vicarie</orgName> <roleName>domini</roleName>
+                    <persName ref="#PhilippusRiccardi">Philippi Riçardi de <placeName ref="#Lucca"
+                            >Luca</placeName></persName>, qui <roleName>domini</roleName>
+                    <persName ref="#Henricus_doctor">Henricus</persName> et <persName
+                        ref="#PhilippusRiccardi">Philippus</persName> fuerunt olim
+                        <roleName>vicarii</roleName> ipsius domini episcopi vel pro ipso domino
+                    episcopo in <placeName ref="#Lunigiana">Lunexana</placeName>, scilicet in anno
+                    currente <date from="1276-01-01" to="1278-09-03"> in anno currente a nativitate
+                        Domini millesimo CC septuagesimo sexto, indictione IIIIa<note> Enrico,
+                            dottore in legge, e Filippo Riccardi di Lucca sono vicari in
+                            Lunigiana.</note></date>, vel ipso tempore dicti vicarii atque
+                    vicariorum citra usque ad diem hodiernum, et etiam ab omnibus et singulis bannis
+                    et condempnationibus et publicationibus bonorum, factis vel pronunciatis tempore
+                    dictorum vicariorum vel alterius eorum et ab ipso tempore citra per dictum
+                    dominum episcopum Lunensem vel eius vicarium suprascriptum,
+                        <roleName>dominum</roleName>
+                    <persName ref="#PhilippusRiccardi">Philippum</persName> vel eius iudicem vel
+                    curiam vel per alium vicarium vel vicarios vel rectores vel officiales ipsius
+                    domini episcopi contra ipsos homines suprascriptos vel aliquem eorum vel contra
+                    dictum commune et universitatem et omnes homines <placeName ref="#Sarzana"
+                        >Sarzane</placeName> vel contra aliquem vel aliquos ipsorum, quacumque
+                    occasione vel modo, cum carta vel sine carta, vel in scriptis vel sine scriptis.
+                    Et de predictis omnibus et singulis remissionem atque perdonationem fecit dictus
+                    dominus Lunensis episcopus, per se et suos successores et pro suo episcopatu,
+                    imperpetuum, dicto syndico et procuratori domino nomine<note place="foot" n="o"
+                        xml:id="LI_LII_n_015">domino nomine: <emph>così nel testo.</emph></note>,
+                    recipienti nomine hominum predictorum et dicti communis et universitatis, et
+                    ipsis hominibus suprascriptis, ibi presentibus et recipientibus pro se et ipsa
+                    universitate, et omnibus hominibus et personis de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>, cassans et irritans et cassas et vanas et irritas esse
+                    volens sententias et pronuntiationes condempnationum et bannorum et ipsa banna
+                    et condempnationes et processus omnes atque singulos et privationes mercati sive
+                    fori <placeName ref="#Sarzana">Sarzane</placeName> et feudorum et privationes
+                    tabellionatus, latas sive promulgatas per ipsum dominum Lunensem episcopum vel
+                    eius vicarium vel vicarios vel rectores vel iudices vel officiales vel <pb
+                        n="146v" xml:id="fol_146v"/> delegatos vel subdelegatos in tempore
+                    suprascripto et ab ipso tempore citra et contra dictos homines superius
+                    nominatos vel contra aliquem vel aliquos eorum vel contra dictum commune vel
+                    universitatem vel capitaneos vel rectores vel officiales vel aliquem ipsius
+                    loci, quacumque occasione vel modo et specialem<note place="foot" n="p"
+                        xml:id="LI_LII_n_016">specialem: <emph>così nel testo per
+                        </emph>specialiter</note> occasione itineris quod commune et homines
+                        <placeName ref="#Sarzana">Sarzane</placeName> fecerunt pro sale ad <orgName
+                        ref="#Luni_S_Maurizio">Sanctum Mauricium</orgName> vel alibi. Preterea
+                    dictus venerabilis pater dominus Lunensis episcopus cassavit, annullavit et
+                    irritavit atque revocavit et cassum et irritum esse voluit et dixit, in predicto
+                    parlamento publico et coram suprascriptis hominibus de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> in dicto parlamento congregatis et coram testibus
+                    suprascriptis, totum et quicquid per ipsos de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> vel per aliquem vel aliquos homines ipsius loci vel per
+                    alium vel alios pro ipso communi actenus statutum vel ordinatum est vel fuit
+                    contra iura atque rationes dicti domini episcopi et episcopatus et contra
+                    libertatem et statum ipsius ecclesie vel episcopi Lunensis vel in dampnum vel in
+                    preiudicium vel diminutionem iurium ipsius episcopi et episcopatus et ecclesie
+                    Lunensis occasione doane salis vel officialium vel capitaneorum vel rectorum vel
+                    aliqua alia occasione vel modo. Et hanc cassationem et annullationem et
+                    irritationem atque revocationem fecit consensu et voluntate dicti syndici, hec
+                    agentis et consentientis voluntate et consensu dicte universitatis hominum
+                    predictorum et ipsorum hominum, ibidem congregatorum, et etiam ipse syndicus,
+                    pro dicto communi et universitate et hominibus dicti loci et consensu et
+                    voluntate ipsorum hominum, ibi congregatorum, et ipsi homines cum eo, pro se et
+                    dicto communi et universitate, dictam cassationem, irritationem et cassationem
+                    fecerunt. </p>
+                <p xml:id="LI_LII_p_005" n="5">
+                    <ptr target="LI_LII_st_002"/> Ego <persName ref="#Petrusnot5">Petrus</persName>,
+                        <roleName>imperiali auctoritate notarius</roleName>, hiis omnibus interfui
+                    atque, rogatus, scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

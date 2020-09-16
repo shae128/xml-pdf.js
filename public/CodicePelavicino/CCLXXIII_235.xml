@@ -1,0 +1,174 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXIII_235">
+    <front xml:id="CCLXXIII_front">
+
+      <titlePart type="numerazioneNuova">235</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXIII</titlePart>
+
+      <docDate xml:id="CCLXXIII_docDate">
+        <date when="1244-12-21">1244 dicembre 21</date>, <placeName>Avenza (<term xml:lang="latin"
+            >Avencie, in domo Guilielmi notarii</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXIII_regesto">
+        <p>Alberto del fu Ubaldo vende a Parente del fu Pasqualino di Sarzanello, al prezzo di 20
+          denari di imperiali, la sua villana Feminella, figlia del fu Amato di Orbagnano, insieme
+          alla metà del podere che fu del suddetto Amato, posto nel distretto di Castelnuovo. Vende
+          inoltre anche un suo villano di nome Boso di Castelnuovo, che tiene il podere un tempo
+          tenuto dal fu Riccardello di Castelnuovo e dai figli del fu Bonifacio di Castelnuovo,
+          sempre suoi villani, posto anch’esso nel distretto di Castelnuovo.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 272v., c. CCLXIIIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref> n. 273,
+            p. 252.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <term xml:lang="latin">De la vendita di una
+              femina</term>. Parte del documento è stata letta con l’ausilio della lampada di
+            Wood.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXIII_div">
+        <p xml:id="CCLXXIII_p_001" n="1">
+          <pb n="272v" xml:id="fol_272v"/>In nomine Domini, amen.<date when="1244-12-21"> Anno a
+            nativitate Eius millesimo CCXLIIII, indictione II, die mercurii, XII kalendas
+            ianuarii</date>. Pro precio <measure type="Imperiales" quantity="20" unit="libra"
+            >librarum XX bonorum denariorum imperialium</measure>, quas <persName
+            ref="#AlbertusUbaldiParente">Albertus quondam Ubaldi</persName> recepit et sibi numerate
+          fuerunt, coram me <persName ref="#Guilielmusnot">Guilielmo
+            <roleName>notario</roleName></persName> et testibus infrascriptis, a <persName
+            ref="#ParensPasqualini">Parente quondam Pasqualini de <placeName ref="#Sarzanello"
+              >castro Sarzane</placeName></persName> et confessus fuit se recepisse et habuisse,
+          renunciando exceptioni non numerate pecunie et precii non soluti, vendidit et tradidit
+          suprascriptus <persName ref="#AlbertusUbaldiParente">Albertus</persName> suprascripto
+            <persName ref="#ParensPasqualini">Parenti</persName>
+          <persName ref="#FeminellaAmati">Feminellam</persName>, filiam quondam <persName
+            ref="#AmatusOrbagnano">Amati de <placeName ref="#Orbagnanno"
+            >Orbagnano</placeName></persName>, cum medietate tocius tenute, poderis et possessionis
+          et rebus mobilibus et immobilibus quod<note xml:id="CCLXXIII_n_001" n="a" place="foot"
+              ><term type="incerto">quod</term>: <emph>così nel testo, probabilmente per</emph>
+            <term xml:lang="latin">pro</term>.</note> indiviso, que sunt et fuerunt quondam
+          suprascripti <persName ref="#AmatusOrbagnano">Amati</persName>, quam dicebat suprascriptus
+            <persName ref="#AlbertusUbaldiParente">Albertus</persName> dictam <persName
+            ref="#FeminellaAmati">Feminellam</persName> suam esse villanam ex (n)acione in villanam
+          et resistentem<note xml:id="CCLXXIII_n_002" n="b" place="foot"><term type="incerto"
+              >resistentem</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">residentem</term>, <emph>cfr. doc. 245 (CCLXXIIII)</emph>.</note>
+          suprascripti <persName ref="#ParensPasqualini">Parentis</persName>, cum omni eo et toto
+          quos et quas<note xml:id="CCLXXIII_n_003" n="c" place="foot"><term type="incerto">quos et
+              quas</term>: <emph>così nel testo</emph>.</note> habet dicta <persName
+            ref="#FeminellaAmati">Feminella</persName> vel ad eam pertinet quoquo modo vel iure in
+            <placeName ref="#Castelnuovo">Castello Novo</placeName> et in eius confinibus et
+            districtus<note xml:id="CCLXXIII_n_004" n="d" place="foot"><term type="incerto"
+              >districtus</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">districtu</term>.</note> vel alibi. Item vendidit et tradidit ei
+            <persName ref="#BosusCastelloNovo">Bosum de <placeName ref="#Castelnuovo">Castello
+              Novo</placeName></persName>, villanum suum, qui tenet et possidet podere, possessiones
+          et tenutam, que et quas<note xml:id="CCLXXIII_n_005" n="e" place="foot"><term
+              type="incerto">que et quas</term>: <emph>così nel testo</emph>.</note> fuerunt habite
+          et detente per quondam <persName ref="#RicardellusCastelloNovo">Ricardellum de <placeName
+              ref="#Castelnuovo">Castello Novo</placeName></persName>, et filii omnes<note
+            xml:id="CCLXXIII_n_006" n="f" place="foot"><term type="incerto">filii omnes</term>:
+              <emph>così nel testo</emph>.</note> quondam <persName ref="#BonefaciusCastelloNovo"
+            >Bonefacii de <placeName ref="#Castelnuovo">Castello Novo</placeName></persName>,
+          villani suprascripti <persName ref="#AlbertusUbaldiParente">Alberti</persName>, in
+          villanis et residentibus suprascripti <persName ref="#ParensPasqualini"
+            >Parentis</persName>, cum eo et toto quod habe<supplied reason="omitted">n</supplied>t,
+          tenent et possident in rebus mobilibus et immobilibus in <placeName ref="#Castelnuovo"
+            >Castello Novo</placeName> et in eius confinibus et districtusd vel alibi et cum eorum
+          amasamento et di<supplied reason="omitted">s</supplied>masamento, tam domos quam terras et
+          vineas et arbores et omnes eorum redditus et introitus et obventiones et perceptiones et
+          iura. Item cessit ei omnia iura et actiones utiles et directas, reales, personales et
+          mixtas, quas <supplied reason="illegibile">habet</supplied><note xml:id="CCLXXIII_n_007"
+            n="g" place="foot"><term xml:lang="latin">[habet]</term>: <emph>parola illeggibile nel
+              testo, integrata seguendo il senso del discorso</emph>.</note> vel sibi competunt in
+          predictis vel pro predictis et in omnibus eorum et earum rebus mobilibus et immobilibus
+          pro aliqua ratione, occasione vel modo. Et predicta omnia et singula predictorum se
+          constituit possidere et quasi pro suprascripto <persName ref="#ParensPasqualini"
+            >Parente</persName>, et in predictis omnibus et singulis eum fecit et constituit
+          procuratorem et dominum in rem suam, et confessus fuit suprascriptus <persName
+            ref="#AlbertusUbaldiParente">Albertus</persName> quod predicta plus valebant
+          suprascripto precio, unde totum et quicquid plus valebant titulo donationis
+          inrevocabiliter inter vivos ei donavit, et renunciavit quod non possit dicere se deceptum
+          ultra dimidiam iusti precii vel in aliqua quantitate. Et promisit suprascriptus <persName
+            ref="#AlbertusUbaldiParente">Albertus</persName> suprascripto <persName
+            ref="#ParensPasqualini">Parenti</persName> per sollempnem stipulationem sub pena dupli
+          eius quod esset evictum vel non disbrigatum et omnia et singula suprascripta ei deffendere
+          et exbrigare suis expensis et advocato ab omni contradicente, impediente, molestante vel
+          imbrigante persona et loco, et reficere ei omnia et singula dampna et expensas, que
+          propterea quod ventum vel factum esset contra predictam promissionem pateretur vel
+          faceretur, et remisit ei necessitatem denunciandi ei deffensionem si aliquam de predictis
+          peterentur vel evincerentur ab ipso <persName ref="#ParensPasqualini">Parente</persName>
+          vel ab eius heredibus; et promisit et convenit per stipulationem, sub dicta pena et
+          obligatione, de evictione et de dupla et de <supplied reason="omitted"
+            >[damp]</supplied>nis<note xml:id="CCLXXIII_n_008" n="h" place="foot"><term
+              xml:lang="latin">[damp];nis</term> : <emph>parte della parola
+            illeggibile</emph>.</note> et expensis simplici verbo ipsius <persName
+            ref="#ParensPasqualini">Parentis</persName> credere, sine ullo alio probationis honere.
+          Et predicta omnia et singula predictorum promisit et convenit suprascriptus <persName
+            ref="#AlbertusUbaldiParente">Albertus</persName> suprascripto <persName
+            ref="#ParensPasqualini">Parenti</persName> per stipulationem <supplied reason="omitted"
+            >sollempnem</supplied><note xml:id="CCLXXIII_n_009" n="i" place="foot"><term
+              xml:lang="latin"><supplied reason="omitted">sollempnem</supplied></term>: <emph>per
+              integrazione cfr. doc. 245 (CCLXXIIII)</emph>.</note> rata habere, observare et facere
+          ei et eius heredibus et proheredibus et deinceps descendentibus et collateralibus aut cui
+          dederint et in nullo contravenire, obligando se suosque heredes et sua bona, sub pena
+          dupli suprascripte pecunie et eius tocius quod in questione veniret, renunciando omni fori
+          exceptioni et mali, fraudis et in factum omnique alii iuri et consuetudinis auxilio, quo
+          posset contra predicta vel contra aliquod predictorum venire vel tueri se a predictis seu
+          ab aliquo predictorum, et nominatim a predicta pena, que tociens solvatur quociens in eam
+          incidetur; et, ea soluta vel non, ratis omnibus et singulis suprascriptis atque
+          firmis.</p>
+        <p xml:id="CCLXXIII_p_002" n="2">Actum <placeName ref="#Avenza">Avencie</placeName>, in domo
+          mea <persName ref="#Guilielmusnot">Guilielmi <roleName>notarii</roleName></persName>,
+          presentibus domino <persName ref="#BonacursusLevacastelli">Bonacurso quondam Levacastelli
+            de <placeName ref="#Buçano">Buçano</placeName></persName> et <persName
+            ref="#UgolinusGualteronis">Ugolino quondam Gualteronis de <placeName ref="#Petrognano"
+              >Petrognano</placeName></persName> et <persName ref="#LanfranchinusAlbertini"
+            >Lanfranchino quondam Albertini de <placeName ref="#Levacastello"
+              >Levacastello</placeName></persName> et <persName ref="#VeltroGuilielmi">Veltro
+            quondam Guilielmi de donna Hemma</persName> et <persName ref="#AlbertusParentini"
+            >Alberto quondam Parentini de <placeName ref="#Sarzanello">claustro<note
+                xml:id="CCLXXIII_n_010" n="l" place="foot"><term type="incerto">claustro</term>:
+                  <emph>così nel testo per</emph>
+                <term xml:lang="latin">castro</term>.</note> Sarzane</placeName></persName>,
+          testibus ad hec rogatis.</p>
+        <p xml:id="CCLXXIII_p_003" n="3"><ptr target="#CCLXXIII_st_001"/> Ego <persName
+            ref="#Guilielmusnot">Guilielmus, <roleName>notarius sacri palacii</roleName></persName>,
+          hiis omnibus interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="LXXXXVII_114">
+        <front xml:id="LXXXXVII_front">
+
+            <titlePart type="numerazioneNuova">114</titlePart>
+            <titlePart type="numerazioneOrig">LXXXXVII</titlePart>
+
+            <docDate xml:id="LXXXXVII_docDate">
+                <date when="1228-09-24">1228 settembre 24</date>, <placeName>Ameglia (<emph>Amelie,
+                        in sala palacii domini episcop</emph>i)</placeName>
+            </docDate>
+            <div type="regesto" xml:id="LXXXXVII_regesto">
+                <p>Il vescovo di Luni Guglielmo e ai membri del Capitolo - Bonagiunta arciprete,
+                    Gualterotto arcidiacono, Opizo custode, Ubaldo cantore, Alberto, Grasso pievano
+                    di Massa, Guido di Vico, Guirisio, Pietro, Guilielmo, Guido Pisano, Vernazio
+                    arciprete di Offiano, Antonio, Tursacco, Manno, Ugolino, Grasso e Gerardino,
+                    stabiliscono concordemente che nella chiesa di Luni i canonici siano 14 e che di
+                    questi 6 siano sacerdoti compreso l’arciprete, 4 diaconi compreso l’arcidiacono
+                    e 4 suddiaconi. Si stabiliscono inoltre norme per il comportamenti dei canonici
+                    e la distribuzione delle prebende.</p>
+            </div>
+
+            <div type="footer" xml:id="LXXXXVII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia di copia autentica [C] cc. 210r.-210v., cc. CCIIr.-CCIIv. secondo la
+                        numerazione originale. </p>
+                    <p>Originale [A] nell'Archivio Capitolare di Sarzana, A/3</p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione parziale in <ref type="biblio" target="#LUPO_GENTILE_1912">LUPO
+                            GENTILE 1912</ref>, n. 97, pp. 128-129.</p>
+                </div>
+                <div type="crit_notes">
+
+                    <note><p>Nel margine esterno, di mano moderna: <term xml:lang="latin">Istud
+                                decretum est conforme statuto capitulari preterquam quod non adsunt
+                                nisi duodecim canonici et archidiaconi</term>. Seguono altre parole
+                            illeggibili a causa dell'inchiostro sbiadito. </p>
+                        <p> L’autentica del notaio Bartolomeo Fulcerio è del 14 febbraio 1259. </p>
+                    </note>
+                </div>
+
+            </div>
+        </front>
+        <body>
+            <div xml:id="LXXXXVII_div">
+                <pb n="210r" xml:id="fol_210r"/>
+                <p xml:id="LXXXXVII_p_001"> In Dei nomine, amen. <date when="1228-09-24">Anno a
+                        nativitate Eius M°CCXXVIII°, indictione prima, VIII° kalendas
+                        octobris.</date>
+                    <roleName>Venerabilis pater </roleName><persName ref="#GuilEpLuni"
+                        >Guilielmus</persName>, <roleName>Dei gratia Lunensis episcopus</roleName>,
+                    et capitulum Lunense, videlicet <persName ref="#Bonaiunctaarc"
+                        >Bonaiuncta</persName>
+                    <roleName>archipresbyter</roleName>, <persName ref="#Gualterotus_archidiaconus"
+                        >Gualterotus</persName>
+                    <roleName>archidiaconus</roleName>, <persName ref="#Oppizuscus">Opizo</persName>
+                    <roleName>custos</roleName>, <persName ref="#Ubalduscan">Hubaldus</persName>
+                    <roleName>cantor</roleName>, <persName ref="#Albertuscan">Albertus</persName>,
+                        <persName ref="#Grassus_canonicus_Pisa">Grassus</persName>
+                    <roleName>plebanus</roleName> de <placeName ref="#Massa">Massa</placeName>,
+                        <persName ref="#GuidoVico">Guido de <placeName ref="#Vico"
+                        >Vico</placeName></persName>, <persName ref="#Guirisiuscan"
+                        >Guirisius</persName>, <roleName>presbyter</roleName>
+                    <persName ref="#Petrus_presbyter_canonicus">Petrus</persName>, <persName
+                        ref="#Guilielmus_canonicus">Guilielmus</persName>, <persName
+                        ref="#GuidoPisanus_canonicus">Guido Pisanus</persName>, <persName
+                        ref="#Vernaciusarc">Vernatius</persName>
+                    <roleName>archipresbyter</roleName> de <placeName ref="#Rofiano"
+                        >Offiano</placeName>, <persName ref="#Antoniuscan">Antonius</persName>,
+                        <persName ref="#Tursaccus_canonicus">Tursaccus <note place="foot" n="a"
+                            xml:id="LXXXXVII_n_001"><term xml:lang="latin">Tursaccus</term>:T<emph>
+                                corretto su precedente scrittura.</emph></note></persName>,
+                        <roleName>magister</roleName>
+                    <persName ref="#Mannus_canonicus">Mannus</persName>, <persName
+                        ref="#Ugolinuscan">Ugolinus</persName>, <persName ref="#Grassuscan"
+                        >Grassus</persName> et <persName ref="#Gerardinus_canonicus"
+                        >Gerardinus</persName>, pensatis Lunensis ecclesie facultatibus, communiter
+                    statuerunt ut eadem ecclesia XIIII canonicorum numero sit contenta, ita
+                    videlicet ut, cedentibus vel decedentibus canonicis, qui nunc sunt, nullus
+                    sustituatur eisdem, donec pervenerint ad numerum pretaxatum. Ex ipsis preterea
+                    XIIII canonicis, VI sint sacerdotes, cum ipso archipresbytero, et IIIIor
+                    dyaconi, cum archidiacono, et IIIIor subdyaconi; et ordinis decedentis alius
+                    eligatur et non prius in canonicum recipiatur vel beneficium percipiat quam in
+                    eodem sit ordine constitutus. Tales vero si absentes fuerint, nisi forte in
+                    episcopi servitio vel capituli commorentur aut infirmitate inevitabili
+                    pregraventur vel secundum tenorem constitutionis Honorii de licencia episcopi et
+                    capituli studuerint in theologica facultate, prebendam non habeant aut aliquid
+                    de communi, nisi cibum cum pro parte temporis voluerint residere; presentes
+                    autem intelligimus quod IX mensibus fuerint residentes. Communis autem mensa
+                    numquam separetur, sed semper vivant in communi. Ad hec iuret quilibet
+                    canonicus, ante institutionem sui, predicta omnia observare firmiter et nullo
+                    tempore consentire quod dictus numerus augmentetur vel recipiatur aliquis ultra
+                    numerum pretaxatum, nisi adeo ipsius ecclesie facultates excrescerent, quod
+                    merito exigerent statutum numerum augmentari. Ibidem suprascripto domino
+                    episcopo eis precipiente, sicut umquam potuit, iuraverunt omnes, de mandato
+                    ipsius, auctoritate sedis apostolice semper salva. Preterea prebende decedentium
+                    usque ad dictum numerum residentibus acrescant et in hoc casu residentes
+                    intelligentur qui VIII mensibus fuerint presentes; plus etiam presentes quam
+                    absentes percipiant pro captia et annonam. Qui autem presentes fuerint, si ad
+                    matutinum non surrexerint, teneantur non recipere vel accipere pro se vel
+                    scutifero nec alii dare panem prandii; redimant tamen moram si in prima gloria
+                    primi psalmi maioris matutini intersint et in introitu misse ac vesperis
+                    maioribus prime glorie primi psalmi. Quicumque autem in missa vel vesperis non
+                    fuerint, cene panem amittant, nisi legitimo impedimento sit impeditus vel
+                    fecerit sibi minui, et tunc habeat tres dies et pro potione VIII dies, vel nisi
+                    equitaverit per unam dietam, et hoc sub pena excomunicationis, quam ipso facto
+                        <note place="foot" n="b" xml:id="LXXXXVII_n_002"><term xml:lang="latin"
+                            >incurrat</term>:<emph>così nel testo, con errori di concordanza tra
+                            soggetto e verbo.</emph></note>. Presentes autem in hoc casu
+                    intelligantur qui in burgo vel ortis sunt et preter hoc absentes; in nativitate
+                    Domini, in Resurrectione, in festo Sanguinis et Adsumpssione beate Virginis
+                    teneantur cathedralem ecclesiam visitare et divinis officiis interesse; <pb
+                        n="210v" xml:id="fol_210v"/> alioquin prebendam pensionis amittant in totum
+                    vel pro parte si in aliqua dictarum sollempnitatum non venerint; quartam autem
+                    partem sollempnitatis cuilibet assignarunt. Hec non preiudicent, quousque
+                    pervenerint ad numerum pretaxatum, illis qui in scolis morabuntur, exceptis
+                    oblationibus quas non percipient nisi residentes. Prefatus vero episcopus
+                    promisit in verbo veritatis non dare vel eligere vel cogere ad eligendum
+                    capitulum vel aliquem de capitulo aliquem canonicum, donec pervenerint ad
+                    prefatum numerum nec postea ultra numerum pretaxatum, sub pena centum marcarum
+                    argenti dictam penam capitulo stipulanti, ut capitulum et quilibet de capitulo
+                    possit eam exigere, et sub pena domini pape, obligando se suosque successores et
+                    redditus sui episcopatus. </p>
+                <p xml:id="LXXXXVII_p_002">
+                    <ptr target="#LXXXXVII_st_001"/> Actum <placeName ref="#Sarzana"
+                        >Sarzani</placeName>, in <orgName ref="#Sarzana_S_Maria">sacrist<supplied
+                            reason="omitted">i</supplied>a maioris ecclesie</orgName>, testibus
+                        <roleName>presbytero</roleName>
+                    <persName ref="#BellusYliolo_presbyter">Bello</persName> de <placeName
+                        ref="Yliolo">Yliolo</placeName>, <roleName>presbytero</roleName>
+                    <persName ref="#Albertuscan">Aberto</persName><note place="foot" n="c"
+                        xml:id="LXXXXVII_n_003"><term xml:lang="latin">Aberto</term>:<emph>così nel
+                            testo.</emph></note>
+                    <roleName>capellano canonico</roleName> et <persName ref="#Burgensis_sacrista"
+                        >Burgense</persName> tunc <roleName>sacrista</roleName>, presentibus et
+                    rogatis. </p>
+                <p xml:id="LXXXXVII_p_003"> Ego <persName ref="#Bonalbergusnot"
+                        >Bonalbergus</persName>,<roleName> domini Frederici invictissimi Romanorum
+                        imperatoris notarius</roleName>, hanc cartam a <persName ref="#Confortusnot"
+                        >Conforto</persName>
+                    <roleName>notario</roleName>, magistro meo, abreviatam seu rogatam, ipso
+                    presente et mandante, scripsi, signum proprium apponendo. </p>
+                <p xml:id="LXXXXVII_p_004">
+                    <ptr target="#LXXXXVII_st_002"/>
+                    <supplied reason="omitted">Ego</supplied><persName
+                        ref="#BartholomeusFulcerii_notarius">Bartholomeus Fulcerii</persName>,
+                    <roleName>notarius curie</roleName> <orgName ref="#Lunigiana_vicaria">vicarie</orgName>
+                    <placeName ref="#Lunigiana">Lunisiane</placeName>, auttenticum huius exemplaris vidi
+                    et legi et, ut in ipso continebatur, in hoc scripsi, nichil addens vel minuens
+                    seu mutans quod mutet sensum vel variet intellectum, preter litteram vel
+                    sillabam, que ibi sit plus minusve, et ipso lecto et diligenter ascultato coram
+                        <roleName>domino</roleName>
+                    <persName ref="#GetreduciusMalusii">Gerardutio Malusi</persName>,
+                        <roleName>vicario</roleName> in <placeName ref="Lunigiana">Lunisiana</placeName>
+                    pro <placeName ref="#Lucca">Lucano</placeName> communi et
+                        pro<roleName>domino</roleName>
+                    <persName ref="#GuilEpLuni">Guilielmo</persName>, <roleName>Lunensi
+                        episcopo</roleName>, et testibus infrascriptis. Ipse idem dominus vicarius,
+                    pro tribunali sedens, suam auctoritatem atque decretum huic publicacioni
+                    prestitit atque dedit in <date when="1259-02-14">anno nativitatis Domini
+                        M°CCLIX°, indictione secunda, XVI° kalendas martii</date>. Actum in
+                        <placeName ref="#Sarzanello">castro Sarzane</placeName>, in domo filiorum
+                    quondam <persName ref="#ParensPasqualini">Parentis de Pasqualino</persName>, ubi
+                    iura redduntur pro suprascripto vicario. Testes, qui interfuerunt huic
+                    pubblicationi, fuerunt <persName ref="#IacopinusTalliavachanot">Iacopinus,
+                            <roleName>notarius</roleName> prenomine Talliavacha</persName> et
+                        <persName ref="#Pasqualinusnot">Pasqualinus</persName>
+                    <roleName>notarius</roleName> de <placeName ref="#Sarzanello">castro
+                        Sarzane</placeName> et <persName ref="#Vivaldus_currerius"
+                        >Vivaldus</persName>
+                    <roleName>currerius</roleName> curie suprascripte. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

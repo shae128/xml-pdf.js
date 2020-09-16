@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXLIII_504">
+    <front xml:id="DXLIII_front">
+      <titlePart type="numerazioneNuova">504</titlePart>
+      <titlePart type="numerazioneOrig">DXLIII</titlePart>
+
+      <docDate xml:id="DXLIII_docDate">
+        <date when="1237-06-12">1237 giugno 12</date>, <placeName>Reggio Emilia (<term
+            xml:lang="latin">Regii, ad canonicam Regiensem</term>)</placeName>
+      </docDate>
+      <div type="regesto" xml:id="DXLIII_regesto">
+        <p>Guglielmo, sindaco del monastero di Santa Croce del Corvo, dichiara a Atto, subdelegato
+          del delegato del papa, vescovo di Tortona, Pietro, di essere pronto procedere sulla
+          questione che lo vede opporsi a Palmerio, sindaco del vescovo di Luni, e chiede che venga
+          chiamato direttamente il vescovo di Luni, facendolo giurare di dire la verità. Al medesimo
+          impegno è disposto a sottoporsi Simone, priore del monastero.</p>
+      </div>
+      <div type="footer" xml:id="DXLIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 401v., c. CCCLXXXXIIIv. secondo la numerazione originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 543, pp.
+            617-618</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXLIII.
+              Protestatio quedam facta episcopo Lunensi per simdicum de Corvo super cartis
+              quibusdam.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXLIII_div">
+        <p xml:id="DXLIII_p_001" n="1">In Christi nomine. <date when="1237-06-12">Anno a nativitate
+            Eius M°CCXXXVII, indictione X, die XII intrante iunio</date>. Coram
+            <roleName>domino</roleName>
+          <persName ref="#Philippus_canonicus">Philippo</persName>
+          <roleName>canonico</roleName>
+          <orgName ref="#Reggio_S_Maria_canonica">Regiensi</orgName>, et <roleName>domino</roleName>
+          <persName ref="#BernabeusRetildis">Bernabeo de Retildis</persName> et
+            <roleName>magistro</roleName>
+          <persName ref="#GerardusNormandia">Gerardo de <placeName ref="#Normandia"
+              >Normandia</placeName></persName> et <roleName>domino</roleName>
+          <persName ref="#IohannesFrarara">Iohanne de<placeName ref="#Frarara">
+            Frarara</placeName></persName><note place="foot" n="a" xml:id="DXLIII_n_001">Frarara:
+              <emph>così nel testo, forse per</emph> Ferrara.</note> et <roleName>domino</roleName>
+          <persName ref="#Henricus_canonicus">Henrico</persName>, <roleName>canonico</roleName>
+          <orgName ref="#S_Iacopo">ecclesie Sancti Iacopi</orgName>, et <roleName>domino</roleName>
+          <persName ref="#Alexius_sacerdos">Alexio</persName>, <roleName>sacerdote</roleName>
+          <orgName ref="#S_Michele">ecclesie Sancti Michaelis</orgName>, rogatis testibus,
+            <roleName>dominus</roleName>
+          <persName ref="#Guilielmus_syndicus">Guilielmus</persName>
+          <roleName>syndicus</roleName>
+          <orgName ref="#Corvo_S_Croce">monasterii Sancte Crucis de Corvo</orgName>, syndicatus
+          nomine pro ipso monasterio, coram vobis <roleName>domino</roleName>
+          <persName ref="#AttoCasellis">Attone</persName>, <roleName>subdelegato domini</roleName>,
+            <persName ref="#PetrusFesso">Petri</persName> nunc <roleName>episcopi</roleName>
+          <placeName ref="#Terdona">Terdonensis</placeName>, domini pape delegati, protestatur et
+          dicit quod, salva appellatione coram vobis facta super acattis coram prioribus <orgName
+            ref="#Lucca_S_Maria_Forisportam">Sancte Marie fori Porte</orgName> et <orgName
+            ref="#Lucca_S_Alessandro">Sancti Alexandri</orgName>
+          <placeName ref="#Lucca">Lucanie</placeName> qua dictus syndicus dixit et protestatus fuit
+          et etiam nunc dicit et protestatur de iure non valuisse nec valere debere, paratus est
+          procedere super principali questione que coram vobis vertitur inter <persName
+            ref="#Palmerius_syndicus">Palmerium</persName>, <roleName>syndicum domini episcopi
+            Lunensis</roleName>, syndicatus nomine pro episcopatu, et ipsum episcopum, ex una parte,
+          et predictum <persName ref="#Guilielmus_syndicus">Guilielmum</persName>, ex altera, petens
+          a vobis ut ex officio predicte subdelegationis vobis commisse faciatis predictum episcopum
+          coram vobis comparere, facturum sacramentum veritatis dicende in dicta causa et sub vobis
+          responsurum pactionibus quas predictus predicto episcopo facere est paratus; et hec dicit
+          salva omni racione monasterii. Item protestatur <roleName>dominus</roleName>
+          <persName ref="#Symon_prior">Symon</persName>, <roleName>prior</roleName> dicti
+          monasterii, quod paratus est iurare cum domino episcopo dicto sub vobis de veritate
+          dicenda; et petunt ambo et protestantur quod debeatis revocare et pronunciare non valere
+          ea que acta sunt coram dictis prioribus quia non debet valere de iure syndicus. <note
+            place="foot" n="b" xml:id="DXLIII_n_002">de iure syndicus: <emph>così nel testo.</emph>
+          </note></p>
+        <p xml:id="DXLIII_p_002" n="2">Actum <placeName ref="#Regio">Regii</placeName>, feliciter,
+          ad <orgName ref="#Reggio_S_Maria_canonica">canonicam Regiensem</orgName>. </p>
+        <p xml:id="DXLIII_p_003" n="3"><ptr target="DXLIII_st_001"/> Ego <persName
+            ref="#ArloctusPalude_not">Arloctus de <placeName ref="#Padule"
+            >Palude</placeName></persName>, <roleName>sacri palacii notarius</roleName>, rogatus
+          scripsi.</p>
+      </div>
+    </body>
+
+
+
+  </text>
+
+</TEI>

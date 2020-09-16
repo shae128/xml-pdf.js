@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="LVIII_85">
+        <front xml:id="LVIII_front">
+
+            <titlePart type="numerazioneNuova">85</titlePart>
+            <titlePart type="numerazioneOrig">LVIII</titlePart>
+
+            <docDate xml:id="LVIII_docDate">
+                <date when="1254-07-29">1254 luglio 29</date>, <placeName>Pisa</placeName> (<term
+                    xml:lang="latin">Pisis, in domo hospitalis Sancti Pauli de Ripa Arni</term>) </docDate>
+
+            <div type="regesto" xml:id="LVIII_regesto">
+                <p>Il vescovo di Luni Guglielmo nomina Gerardo, arciprete di Marnasco, procuratore
+                    per concedere in feudo a Nicolò Fieschi, conte di Lavagna e nipote del papa, i
+                    castelli di Tivegna, Castiglione, Bracelli e il borgo di Padivarma e il podere
+                    che un tempo la nobildonna Matilde teneva in feudo a Carpena e a Vezzano. </p>
+            </div>
+
+            <div type="footer" xml:id="LVIII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 161r.-161v, cc. CLIIIr.-CLIIIv. secondo la numerazione
+                        originale.</p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 58, pp. 95-96.</p>
+                </div>
+
+                <div type="crit_notes">
+                    <note>
+                        <p>Nel margine esterno di c. 161r., di mano moderna: <emph>(<term
+                                    xml:lang="latin">In favorem illorum de Flisco</term></emph></p>
+                    </note>
+                </div>
+
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LVIII. Procuratio ad dandum in feudum domino Nicolao de
+                            Tivegna et aliis terris. </term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="LVIII_div">
+                <p xml:id="LVIII_p_001" n="1"> In Dei nomine, amen. <date when="1254-07-29">Anno a
+                        nativitate Eius millesimo CCLIIII, indictione XIIa, quarto kalendas
+                        augusti</date>. Venerabilis pater dominus <persName ref="#GuilEpLuni"
+                        >Guilielmus, <roleName>Dei gratia Lunensis episcopus</roleName></persName>,
+                    fecit et constituit suum et episcopatus actorem, procuratorem et certum nuntium
+                        <persName ref="#Gerardusarc"><roleName>magistrum</roleName> Gerardum,
+                            <roleName>archipresbyterum de</roleName>
+                        <placeName ref="#Marnasco"><orgName ref="#Marinasco_S_Stefano"
+                                >Marnasco</orgName></placeName></persName>, ad concedendum pleno ac
+                    perpetuo feudi iure <persName ref="#NicholausFlisco"><roleName>domino</roleName>
+                        Nicholosio de Flisco, <roleName>comiti </roleName><placeName ref="#Lavania"
+                            >Lavanie</placeName></persName>, domini pape nepoti, ac suis heredibus
+                        <placeName ref="#Tivegna">Tivegne</placeName>, <placeName
+                        ref="#CastiglionediVarese">Castilioni</placeName> et <placeName
+                        ref="#Bracellis">Bracelli</placeName> castra atque burgum de <placeName
+                        ref="#Padulvarmo">Padulvarmo</placeName>, cum eorum curiis et pertinentiis,
+                        <pb n="161v" xml:id="fol_161v"/> que olim pro parte <persName
+                        ref="#Adalbertus_nobilis"><roleName>nobilis</roleName>Aldeberti</persName>
+                    et, pro parte altera, quidam alii ab ecclesia Lunensi tenebant in feudum, atque
+                    redditus, vassallos, villanos, iurisdictionem et iura atque cetera omnia que in
+                    demanium seu proprium curia Lunensis detinebat<note place="foot" n="a"
+                        xml:id="LVIII_n_001">detinebat: ti <emph>aggiunto in
+                        sopralinea</emph>.</note> ibidem, salvo quod ipse nobilis et eius heredes
+                    teneantur recipere ipsum dominum episcopum et eius successores cum suis
+                    sequacibus, qui non sint inimici ipsius nobilis et heredum eius, ad faciendum
+                    guerram cum hominibus dictorum locorum inimicis Lunensis curie; et quod ipse
+                    nobilis et sui heredes, cum hominibus dictorum locorum, iuvare teneantur ipsum
+                    dominum episcopum et eius successores recuperare iura et bona Lunensis
+                    episcopatus atque ea que possidet vel recuperabit deffendere atque manutenere et
+                    facere guerram et devetum per totum episcopatum Lunensem in ipsorum hominum
+                    propriis expensis; et quod iuvabunt ipsum dominum episcopum et successores suos
+                    cum exercitum fecerit pro Romana ecclesia vel pro imperatore vel suos milites
+                    aut pedites miserit pro dictis exercitibus faciendis; et ad investiendum ipsum
+                    nobilem de predictis, sicut domini fideles seu vassallos investire consueverunt,
+                    et ad investiendum eumdem nobilem de toto eo podere quod olim nobilis <persName
+                        ref="#Mateldadom"><roleName>domina</roleName> Matelda</persName> a Lunensi
+                    curia tenebat in feudum, sive in <placeName ref="#Carpena">Carpena</placeName>
+                    sive in <placeName ref="#Vezzano">Vexano</placeName> vel in quocumque loco
+                    episcopatus Lunensis de ipso feudo poterit inveniri, et ad recipiendum ab ipso
+                    nobili de predictis fidelitatis et homagii solitum iuramentum; et ad recipiendum
+                    recompensationem pro hiis que habebat in demanium seu proprium curia Lunensis in
+                        <placeName ref="#Tivegna">Tivegna</placeName>, <placeName
+                        ref="#CastiglionediVarese">Castiliono</placeName>, <placeName
+                        ref="#Bracellis">Bracelli</placeName> et <placeName ref="#Padulvarmo"
+                        >Padulvarmo</placeName>; et ad stipulandum sollempniter et faciendum et
+                    recipiendum omnia et singula que pro premissis et singulis premissorum viderit
+                    expedire, etiam ad certam penam, promittens idem dominus episcopus, suo et
+                    episcopatus nomine, omnia et singula habere firma et rata que dictus <persName
+                        ref="#Gerardusarc"><roleName>magister</roleName> Gerardus</persName> de
+                    premissis et pro premissis fecerit vel legitimus procurator vel actor seu
+                    nuntius facere potest vel debet, sub ypotheca et obligatione bonorum
+                    episcopatus. </p>
+                <p xml:id="LVIII_p_002" n="2">
+                    <ptr target="LVIII_st_001"/><note place="foot" n="b" xml:id="LVIII_n_002"
+                            ><emph>Il</emph> signum tabellionis <emph>è posto prima
+                            dell’</emph>actum<emph> anziché prima della sottoscrizione
+                            notarile</emph>.</note> Actum <placeName ref="#Pisa">Pisis</placeName>,
+                    in domo <orgName ref="#Pisa_S_Paolo_RipaArno">hospitalis Sancti Pauli de
+                            <placeName ref="#RipaArni">Ripa Arni</placeName></orgName>, testibus
+                        <persName ref="#Adiutuscap"><roleName>presbytero </roleName>Adiuto
+                            <roleName>dicti domini episcopi capellano</roleName></persName>,
+                        <persName ref="#FredericusPadule_castaldus">Federico de la <placeName
+                            ref="#Padule">Padule</placeName>
+                        <roleName>domini episcopi castaldione</roleName></persName> et <persName
+                        ref="#Pasqualinusnot">pasqualino <roleName>notario</roleName></persName>,
+                    presentibus et rogatis. </p>
+                <p xml:id="LVIII_p_003" n="3"> Ego <persName ref="#Bonalbergusnot"
+                        >Bonalbergus, <roleName>domini Frederici invictissimi Romanorum imperatoris
+                            notarius</roleName></persName>, hiis interfui atque mandata predicti
+                    domini episcopi scripsi atque publicavi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

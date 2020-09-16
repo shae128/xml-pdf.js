@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXXI_243">
+    <front xml:id="CCLXXXI_front">
+
+      <titlePart type="numerazioneNuova">243</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXXI</titlePart>
+
+      <docDate xml:id="CCLXXXI_docDate">
+        <date when="1265-05-31">1265 maggio 31</date>, <placeName>Castelnuovo (<term
+            xml:lang="latin">in Castronovo, in domo Ravanelli</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXXI_regesto">
+        <p>Iacopino del fu Curadeto di Tivegna, abitante di Castelnuovo, vende a Salvetto del fu
+          Pietro de Porreto, anche lui di Castelnuovo, che riceve anche a nome di sua moglie
+          Allegranza, un pezzo di terra posto nel luogo detto <term xml:lang="latin">Aqua
+            Vivola</term>. Il prezzo è di 40 soldi in denari genovesi.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXXI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 275r., c. CCLXVIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 281,
+            p. 257.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Lupo Gentile data erroneamente il documento al 30 maggio, come già notato da <ref
+              type="biblio" target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 20. Parte del documento è
+            stata letta con l’ausilio della lampada di Wood.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCLXXXI.
+              Venditionis unius petie terre, quam fecit Iacopinus de Tivegna Salvecto de
+              Castronovo.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXXI_div">
+        <p xml:id="CCLXXXI_p_001" n="1">In nomine Domini, amen.<date when="1265-05-31">Anno a
+            nativitate Ipsius millesimo CCLXV, indictione VIII, die ultimo madii</date>.<persName
+            ref="#IacopinusCuradeti">Iacopinus, habitator <placeName ref="Castelnuovo"
+              >Castrinovi</placeName>, quondam Curadeti de <placeName ref="#Tivegna"
+              >Tivegna</placeName></persName>, habuit et recepit coram me <persName
+            ref="#Attolinusnot">Attolino <roleName>notario</roleName></persName> et testibus
+          infrascriptis <measure type="Ianuenses" quantity="40" unit="denarius">soldos XL bonorum
+            denariorum Ianuensium</measure> a <persName ref="SalvettusCastronovo">Salvetto</persName> de
+              <placeName ref="#Castelnuovo">Castronovo</placeName> scilicet quondam
+            <persName ref="#PetrusPorreto">Petri de <placeName ref="#Porreto"
+            >Porreto</placeName></persName>, dante et solvente pro se et <persName ref="#Alegrança"
+            >Alegrança</persName>, uxore sua, renunciando exceptioni non numerate pecunie et omni
+          alii iuri et legum auxilio, precio quorum dictus <persName ref="#IacopinusCuradeti"
+            >Iacopinus</persName> per se suosque heredes dedit, tradidit et vendidit in perpetuum
+          eidem <persName ref="SalvettusCastronovo">Salveto</persName>, recipienti pro se et
+          suprascripta <persName ref="#Alegrança">Alegrança</persName>, uxore sua, et eorum
+          heredibus et cui commiserit aliquo modo vel iure petiam I terre, sui iuris, cum vineis,
+          ficubus et olivis super se positis, in loco dicto Aqua Vivola, quantacumque sit, infra has
+          coherencias, cui est ab uno latere <persName ref="#CosaCançii">Cose quondam
+            Cancii</persName>, ab alio <persName ref="#Lanfranchinuscal">Lanfranchini
+              <roleName>calçolarii</roleName></persName> in parte et in parte <persName
+            ref="#Albertinusmag">Albertini <roleName>magistri</roleName></persName>, superius
+            <persName ref="#IacopuciusPiçofridus">Iacopucii dicti Piçofridi</persName>, inferius
+            <persName ref="#FestaVenture">Feste quondam Venture</persName>. Et dedit ei licentiam
+          intrandi inde in ten(utam), auctoritate sua, quandocumque sibi placuerit, constituendo se
+          pro eo et eius nomine precario possidere donec tenutam fuerit apprehensus, et dedit,
+          cessit atque mandavit eidem emptori, recipienti ut dictum est, iura omnia, dominium,
+          proprietatem, usum et utilitatem, accessus et regressus, superiora et inferiora, actiones
+          et rationes omnes, utiles et directas, reales et personales seu mixtas, sibi in dicta
+          terra competentia et competentes, et fecit et constituit ipsum emptorem procuratorem et
+          dominum ut in rem suam et si predicta terra valet plus vel in futuro valebit, donavit
+          eidem emptori titulo pure ac simplicis donationis inrevocabiliter inter vivos. Promisit
+          insuper et convenit dictus venditor per se suosque heredes predicto emptori, recipienti ut
+          dictum est, suprascriptam terram cum omnibus et singulis suprascriptis in toto et parte
+          iure in perpetuum deffendere et exbrigare ab omni molestante persona et loco, cum advocato
+          et expensiis propriis suprascripti venditoris eiusque heredum; alioquin dabit ei inde
+          salvum cambium in bonis suis loco consimili, sub extimatione, qualiter tunc fuerit et
+          arbitrio boni viri, et reficere insuper dampna omnia et expensas et interesse etiam
+          singulare, aliquo modo inde habitas seu factas, credendo et stando de dampno et expensis
+          soli, nudo et simplici verbo absque iuramento testium vel instrumenti seu alterius honere
+          probationis, sub pena et in pena dupli suprascripti precii, quam dictus venditor per se
+          suosque heredes dare et solvere promisit et convenit dicto emptori, recipienti ut dictum
+          est, quociens fuerit contraventum, in solidum et pro quolibet capitulo non observato; et,
+          pena soluta vel non, suprascripta omnia et singula cum omnibus et singulis suprascriptis
+          omni tempore duraturis <supplied reason="omitted">nichillominus in suo robore
+            perseverent</supplied><note xml:id="CCLXXXI_n_001" n="a" place="foot"><emph>La proposta
+              di integrazione è basata sui documenti precedenti, come il n. 245-CCLXXIIII). Altra
+              possibile integrazione</emph>
+            <supplied reason="omitted">in sua permaneant firmitate</supplied>, <emph>cfr. n.
+              241-CCLXX</emph>.</note>, obligando se ad hec suosque<note xml:id="CCLXXXI_n_002"
+            n="b" place="foot"><term xml:lang="latin">suosque</term>: <emph>la seconda</emph> s
+              <emph>aggiunta in sopralinea</emph>.</note> heredes et omnia eius bona habita et
+          habenda et renunciando omni <supplied reason="omitted">iuri</supplied> et legibus contra
+          hec introductis, et specialiter legi que iuvat deceptos ultra dimidiam iusti precii.</p>
+        <p xml:id="CCLXXXI_p_002" n="2">Actum in <placeName ref="#Castelnuovo"
+            >Castronovo</placeName>, in domo <persName ref="#Ravanellus">Ravanelli</persName>,
+          sollemniter, presentibus <persName ref="#UrsusDurantis">Urso quondam Durantis</persName>,
+            <persName ref="#GerardinusGuilielmoti">Gerardino quondam Guilielmoti de <placeName
+              ref="#Viano">Viano</placeName></persName> et <persName ref="#AicardellusVenture"
+            >Aicardello quondam Venture Brag(eri)</persName>, testibus ad hec rogatis. Preterea
+            <persName ref="#Albanensis">Albanensis</persName>, uxor suprascripti venditoris,
+          cerciorata de iure suo secundum senatusconsultum Velleianum per me<note
+            xml:id="CCLXXXI_n_003" n="c" place="foot"><term xml:lang="latin">me</term>:
+              <emph>aggiunto in sopralinea con segno di richiamo</emph>.</note>
+          <roleName>notarium</roleName>, non choacta ab aliquo publice vel privatim, sicut coram me
+          notario fatebatur et testibus suprascriptis, hiis omnibus et singulis consensit et
+          promisit observare sub pena predicta, obligando se ad hec et renunciando omni suo iuri
+          dotis, donationis, pignoris, ypothece et legis Iulie auxilio iuris meri et omnibus aliis
+          exceptionibus contra hec introductis.</p>
+        <p xml:id="CCLXXXI_p_003" n="3"><ptr target="#CCLXXXI_st_001"/> Ego <persName
+            ref="#Attolinusnot">Attolinus, <roleName>palacii sacri notarius</roleName></persName>,
+          hiis omnibus interfui, rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

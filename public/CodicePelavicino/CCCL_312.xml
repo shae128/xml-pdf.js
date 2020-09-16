@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCL_312">
+    <front xml:id="CCCL_front">
+
+      <titlePart type="numerazioneNuova">312</titlePart>
+      <titlePart type="numerazioneOrig">CCCL</titlePart>
+
+      <docDate xml:id="CCCL_docDate">
+        <date when="1140-11"><supplied reason="omitted">1140 o <date when="1141-11"
+            >1141</date></supplied> novembre</date>, <placeName>Sarzana (<emph>burgo
+          Sarzana</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCL_regesto">
+        <p>Giovannino del fu Alberto di San Martino chiede a Pastore, preposito della Chiesa di
+          Luni, tre pezzi di terra in Riolo e Avenza al fitto annuo di 12 denari milanesi.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCL_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 307r., c. CCLXXXXVIIIIr. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">Lupo Gentile 1912</ref>, n. 350, p. 336;
+              <ref target="#SFORZA_1890-1891">Sforza 1890-1891</ref>, vol. VI, parte II, p. 130, n.
+            2; entrambi accettano come data il 1141 anche se l’indizione 4a unita allo stile
+            dell’incarnazione fa propendere per l’uso del computo pisano; purtroppo il numero
+            dell’indizione non si legge chiaramente: preferiamo quindi lasciare ampia la forbice
+            della datazione.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Inchiostro sbiadito, largo ricorso alla luce di Wood.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCL.
+              Pensionis Iohanini de Sancto Martino.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCL_div">
+        <p xml:id="CCCL_p_001" n="1"><ptr target="#CCCL_st_001"/>In nomine Domini nostri Ihesu
+          Christi Dei eterni. <date when="1141-11">Anno ab incarnatione Eius millesimo CXLI, mense
+            novembris, indictione <supplied reason="illeggibile">[IIII]</supplied></date>. Peto ego
+            <persName ref="#IohanninusAlberti">Iohanninus de <placeName ref="#Santo Martino"> Sancto
+              Martino</placeName>, filius quondam Alberti</persName>, una cum meis heredibus, a
+          vobis domino <persName ref="#Pastorprep">Pastore, <roleName>preposito Lunensis
+              ecclesie</roleName>
+          </persName>, et a vestris successoribus, id est tres petias terre iuris ipsius ecclesie,
+          quarum prima est in <placeName ref="#Riolo">Riolo</placeName>, et est I iuga, coheret ei
+          de uno latere terra de canonica, desubter <placeName ref="#Pratesiana"
+            >Pratesiana</placeName>; secunda et tercia petiola sunt in <placeName ref="#Avenza"
+            >Laventia</placeName>, coheret ad primam de una parte strata Romea, de secunda et tercia
+          parte terra illorum de <placeName ref="#Padule">la Padule</placeName>; coheret ad alteram
+          de uno latere via carrarecia, de alio terra <persName ref="#IulitaSarz">Iulite de
+              <placeName ref="#Sarzana">Sarzana</placeName></persName>, de tercio latere <placeName
+            ref="#Romea_st">strata Romea</placeName>; has autem iamscriptas tres petias terre in
+          integrum habere, tenere, laborare, frui et meliorare. Et exinde vobis persolvamus, omni
+          anno, fictum pensionis <measure type="Mediolanenses" unit="denarius" quantity="12"
+            >denariorum Mediolanensium XII</measure> tantum; alia superimposita eis non fiat.</p>
+        <p xml:id="CCCL_p_002" n="2">Actum burgo <placeName ref="#Sarzana">Sarzana</placeName>, sub
+          pena <measure unit="solidus" quantity="10">XX soldorum</measure>, si quis eorum retollere
+          aut laxare voluerit. Ego <persName ref="#Pastorprep">Pastor
+              <roleName>prepositus</roleName></persName> subscripsi. Iamscriptus petitor hunc
+          libellum me <persName ref="#Rodulfusnot">Rodulfum, <roleName>domini imperatoris
+              notarium</roleName></persName>, scribere rogavit. <persName ref="#VitalisTorano"
+            >Vitalis de <placeName ref="#Torano"> Torano</placeName></persName>, <persName
+            ref="#BonzannisLune">Bonzanne de <roleName>Lune <note xml:id="CCCL_n_001" n="a"
+                place="foot"><term xml:lang="latin">Lune</term>: <emph>così nel
+              testo</emph>.</note></roleName></persName>, <persName ref="#IohannesRicio">Iohannes
+            Ricio de <placeName ref="#Sorgnano">Sorgnano</placeName></persName> et <persName
+            ref="#PaganuciusPadule">Paganucius</persName> et <persName ref="#UgolinusPadule"
+            >Ugolinus de <placeName ref="#Padule">Padule</placeName></persName>, rogati testes,
+          interfuerunt.</p>
+        <p xml:id="CCCL_p_003" n="3"><ptr target="#CCCL_st_002"/>Ego <persName ref="#Rodulfusnot"
+            >Rodulfus, <roleName>domini imperatoris notarius</roleName></persName>, post traditam
+          complevi et dedi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

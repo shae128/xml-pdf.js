@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="IV_33">
+    <front xml:id="IV_front">
+
+      <titlePart type="numerazioneNuova">33</titlePart>
+      <titlePart type="numerazioneOrig">IV</titlePart>
+
+      <docDate xml:id="IV_docDate">
+        <date when="1217-03-04">1217 marzo 4</date>, <placeName ref="#Laterano"> Laterano (<term
+            xml:lang="latin">Laterani</term>) </placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="IV_regesto">
+        <p>Il papa Onorio III, ricordando quanto già fatto da Innocenzo III, conferma la concessione
+          del monastero di Aulla al vescovo di Luni Marzucco. </p>
+      </div>
+
+      <div type="footer" xml:id="IV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 60r.-61r., cc. LIIr.-LIIIr. secondo la numerazione originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Regesto: <ref type="biblio" target="#POTTHAST_1874_1875">POTTHAST 1874-1875</ref>, I,
+            p. 482; <ref type="biblio" target="#PRESSUTTI_1888">Pressutti 1888</ref>, I, n. 363, p.
+            102; </p>
+          <p>Edizione in <ref type="biblio" target="#UGHELLI_1644">UGHELLI 1644</ref>, col. 919-920;
+              <ref type="biblio" target="#UGHELLI_1717">UGHELLI 1717</ref>, col. 852; <ref
+              type="biblio" target="#LUPO_GENTILE_1912"> LUPO GENTILE 1912</ref>, n. 4, pp. 8-9, con
+            data 1216. </p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Come già corretto dal <ref type="biblio" target="#MAZZINI_1914">Mazzini 1914</ref>,
+            p. 5. il marzo del primo anno di pontificato di Onorio III cadeva nel 1217; è usato lo
+            stile fiorentino dell’incarnazione.</note>
+          <note>Nel margine esterno di c. 60r., di mano moderna: <term xml:lang="latin">Subiectio
+              abbatis de Avula episcopo Lunensi ab Honorio</term>. Subito sotto, di mano del 1667,
+            un’annotazione illeggibile.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIII.
+              Privilegium pape Honorii concessum episcopo Marçucho de monasterio de
+            Avula.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="IV_div">
+        <p xml:id="IV_p_001">
+          <persName ref="#Honorius_pontifexIII">Honorius<roleName> episcopus, servus servorum
+              Dei</roleName></persName>, venerabili fratri <persName ref="#MarzuccusEpLuni">Marzuco,
+              <roleName>Lunensi episcopo</roleName></persName>, eiusque successoribus canonice
+          substituendis in perpetuum. Ampla divino munere manus apostolice sedis hos humiliat, hos
+          exaltat, hiis superflua subtrahit, aliis necessaria subministrat. Ipsa et enim, tanquam
+          mater omnium generalis, cum personarum merita et temporis et loci qualitatem attendat, hos
+          honorat <note xml:id="IV_n_01" place="foot" n="a">honorat: or<emph>corretto su precedente
+              scrittura</emph>.</note> , immo sepius honorem oneribus et onus honore conpensans et
+          onerat honoratos et oneratos honorat. Hac siquidem ratione felicis memorie <persName
+            ref="#InnocentiuspontifexIII">Innocentius <roleName> papa</roleName></persName>,
+          predecessor noster, inductus, specialem gratiam, quam ad personam bone memorie <persName
+            ref="#GualEpLuni">Galterii <roleName> Lunensis episcopi</roleName></persName>, suis
+          exigentibus meritis et propter ipsum ad ecclesiam Lunensem gerebat, attendens ac volens
+          ipsius ecclesie utilitati consulere, de comuni fratrum consilio, <orgName>monasterium
+              <placeName ref="#Aulla">Avulense</placeName></orgName> , quod ad iurisditionem sedis
+          apostolice pertinebat, cum pertinentiis suis prefacto episcopo, et per ipsum ecclesie
+          Lunensi, concessit, confirmavit suique scripti privilegio conmunivit; unde nobis,
+          venerabilis in Christo frater episcope, humiliter supplicasti ut concessionem ipsam
+          apostolico dignaremur munim<supplied reason="omitted">in</supplied>e roborare. Nos igitur,
+          precibus tuis benignum impertientes assensum et concessionem ipsam gratam habentes et
+          ratam, illam auctoritate apostolica confirmamus et presentis scripti privilegio
+            com<supplied reason="omitted">m</supplied>unimus. Et quia speramus quod ipsi prodesse
+          magis desideres quam preesse, volumus ut, honorem, quem tibi super hoc exibemus,
+          attendens, onus et provisionem ipsius monasterii taliter exequaris quod in temporalibus et
+          spiritualibus per tuum studium, auctore Domino, reformetur, nec tu aut successores tui
+          privilegium amittere mereamini, si concessa vobis abusi fueritis potestate. Decernimus
+          ergo ut nulli omnino hominum liceat prefactam ecclesiam Lunensem temere perturbare aut
+          eius possessiones auferre vel ablatas retinere, minuere seu quibus<supplied
+            reason="illeggibile">libet</supplied><note xml:id="IV_n_02" place="foot" n="b"
+            >quibuslibet: <emph>abrasione della pergamena. </emph>.</note> vexationibus fatigare,
+          sed omnia integra conserventur eorum pro quorum gubernatione et sustentatione concessa
+          sunt usibus omnimodis profutura, salva sedis Apostolice auctoritate. Si qua igitur in
+          futurum ecclesiastica <pb n="60v" xml:id="fol_060v"/> secularisve persona, hanc nostre
+          confirmationis paginam sciens, contra eam temere venire temptaverit, secundo terciove
+          commomita, nisi reatum suum congrua satisfactione correxerit, potestatis honorisque sui
+          careat dignitate reamque se divino iuditio existere de perpetrata iniquitate cognoscat et
+          a sacratissimo corpore ac sanguine Dei et domini redemptoris nostri Ihesu Christi aliena
+          fiat atque in extremo examine districte ultioni subiaceat. Conctis autem eidem loco sua
+          iura servantibus sit pax Domini nostri Ihesu Christi, quatinus et hic fructum bone
+          actionis percipiant et adpud <note xml:id="IV_n_03" place="foot" n="c">adpud: <emph>così
+              nel testo per</emph>apud.</note> districtum iudicem premia eterna <note
+            xml:id="IV_n_04" place="foot" n="d">eterna: <emph>così nel testo per</emph>
+            eterne.</note> pacis inveniant. Amen, amen, amen. </p>
+        <p xml:id="IV_p_002">
+          <ptr target="#IV_r_001"/>Ego <persName ref="#Honorius_pontifexIII">Honorius<roleName>,
+              catholice <note xml:id="IV_n_05" place="foot" n="e"> catholice: a<emph>corretto
+                  su</emph> h <emph>abrasa</emph></note> Ecclesie episcopus,
+            subscripsi.</roleName></persName><ptr target="#IV_bn_001"/>
+        </p>
+        <p xml:id="IV_p_003"> Ego <persName ref="#Nicholaus_episcopus">Nich<supplied
+              reason="omitted">ol</supplied>aus <placeName ref="#Tùscolo"
+              >Tusculanus</placeName><roleName> episcopus</roleName></persName>, subscripsi. </p>
+        <p xml:id="IV_p_004"> Ego <persName ref="#Guido_episcopus">Guido, <placeName ref="#Preneste"
+              >Prenestinus</placeName>
+            <roleName> episcopus</roleName></persName>, subscripsi. </p>
+        <p xml:id="IV_p_005"> Ego <persName ref="#UgolinusOstiensiscard">Hugo, <placeName
+              ref="#Ostia">Ostiensis</placeName> et <placeName ref="#Velletri"
+              >Velletrensis</placeName>
+            <roleName> episcopus</roleName></persName>, subscripsi. </p>
+        <p xml:id="IV_p_006"> Ego <persName ref="#Pelagius_episcopus">Pelagius, <placeName
+              ref="#Albano2">Albanensis</placeName>
+            <roleName> episcopus</roleName></persName>, subscripsi. </p>
+        <p xml:id="IV_p_007"> Ego <persName ref="#Guido_cardinalis2">Guido, <orgName
+              ref="#Roma_S_Nicola_Carcere" type="ecclesia_diaconia">Sancti Nicholai in Carcere
+              Tulliano</orgName>
+            <roleName> diaconus cardinalis</roleName></persName>, subscripsi. </p>
+        <p xml:id="IV_p_008"> Ego <persName ref="#Octavianus_cardinalis">Octavianus, <orgName
+              ref="#Roma_SS_Sergio_Bacco" type="chiesa_diaconia">Sanctorum Sergii et Bachi</orgName>
+            <roleName> diaconus cardinalis</roleName></persName>, subscripsi. </p>
+        <p xml:id="IV_p_009"> Ego <persName ref="#Gregorius_cardinalis5">Gregorius, <orgName
+              ref="#Roma_S_Teodoro" type="diaconia_ecclesia">Sancti Theodori</orgName>
+            <roleName> diaconus cardinalis</roleName></persName>, subscripsi. </p>
+        <p xml:id="IV_p_010"> Ego <persName ref="#Raynerius_cardinalis3">Raynerius, <orgName
+              ref="#Roma_S_Maria_Cosmedin" type="ecclesia">Sancte Marie in Cosmidin</orgName>
+            <roleName> diaconus cardinalis</roleName></persName>, subscripsi. </p>
+        <p xml:id="IV_p_011"> Ego <persName ref="#Romanus_cardinalis">Romanus, <orgName
+              ref="#Roma_S_Angelo_Pescheria" type="ecclesia_diaconia">Sancti Angeli</orgName>
+            <roleName> diaconus cardinalis</roleName></persName>, subscripsi. </p>
+        <p xml:id="IV_p_012"> Ego <persName ref="#Stephanus_cardinalis">Stephanus, <orgName
+              ref="#Roma_S_Adriano_Foro" type="ecclesia_diaconia">Sancti <supplied
+                reason="illeggibile">Adriani</supplied></orgName>
+            <roleName>
+              <supplied reason="illeggibile">diaconus</supplied>
+              <note xml:id="IV_n_06" place="foot" n="f">Adriani diaconus:<emph> lettura incerta a
+                  causa di abrasione nella pergamena.</emph></note>
+          cardinalis</roleName></persName>, subscripsi. </p>
+        <p xml:id="IV_p_013"> Ego <persName ref="#Aldebrandinus_cardinalis">A<supplied
+              reason="illeggibile">ldebrandi</supplied>n<supplied reason="illeggibile">us,
+              </supplied><orgName ref="#Roma_S_Eustachio" type="ecclesia_diaconia"><supplied
+                reason="illeggibile">Sancti</supplied>
+              <note xml:id="IV_n_07" place="foot" n="g"><emph>abrasione nella pergamena,
+                  integrazione possibile attraverso la trascrizione seicentesca di
+                Ughelli.</emph></note>Eustachi</orgName>
+            <roleName> diaconus cardinalis</roleName></persName>, subscripsi. </p>
+        <p xml:id="IV_p_014"> Ego <persName ref="#Cinthus_cardinalis">Cinthus, tituli <orgName
+              ref="#Roma_S_Lorenzo_Lucina" type="ecclesia_titulus_presbiteriale">Sancti Laurentii in
+              Lucina</orgName>
+            <roleName> presbyter cardinalis</roleName></persName>, subscripsi. </p>
+        <p xml:id="IV_p_015"> Ego <persName ref="#Leo_cardinalis">Leo, tituli <orgName
+              ref="#Roma_S_Croce" type="ecclesia_titulus_presbiteriale">Sancte Crucis in
+              Iherusalem</orgName>
+            <roleName> presbyter cardinalis</roleName></persName>, subscripsi. </p>
+        <p xml:id="IV_p_016"> Ego <persName ref="#Petrus_cardinalis5">Petrus, <orgName
+              ref="#Roma_S_Pudenziana" type="basilica">Sancte Pudentiane tituli Pastoris</orgName>
+            <roleName> presbyter cardinalis</roleName></persName>, subscripsi. </p>
+        <p xml:id="IV_p_017"> Ego <persName ref="#Robertus_cardinalis">Robertus, tituli <orgName
+              ref="#Roma_S_Stefano_Celio" type="basilica">Sancti Stephani in Celio
+              Monte</orgName><roleName> presbyter cardinalis</roleName></persName>, subscripsi. </p>
+        <p xml:id="IV_p_018"> Ego <persName ref="#Gregorius_cardinalis4">Gregorius, tituli <orgName
+              ref="#Roma_S_Anastasia" type="ecclesia_titulus_presbiteriale">Sancte
+              Anastasie</orgName>
+            <roleName> presbyter cardinalis</roleName></persName>, subscripsi. </p>
+        <p xml:id="IV_p_019"> Ego <persName ref="#Thomas_cardinalis">Thomas, tituli <orgName
+              ref="#Roma_S_Sabina" type="titulus_presbiteriale">Sancte Sabine</orgName>
+            <roleName> presbyter cardinalis</roleName></persName>, subscripsi. </p>
+        <p xml:id="IV_p_020"> Ego <persName ref="#Petrus_cardinalis4">Petrus, tituli <orgName
+              ref="#Roma_S_Lorenzo_Damaso" type="titulus_presbiteriale">Sancti Laurentii in
+              Damasio</orgName>
+            <roleName> presbyter cardinalis</roleName></persName>, subscripsi. </p>
+        <p xml:id="IV_p_021"> Ego <persName ref="#Iohannes_cardinalis5">Iohannes, tituli <orgName
+              ref="#Roma_S_Prassede" type="basilica">Sancte Paraxedis</orgName>
+            <note xml:id="IV_n_08" place="foot" n="h">Paraxedis: <emph>così nel testo</emph>.</note>
+            <roleName> presbyter cardinalis</roleName></persName>, subscripsi <pb n="61r"
+            xml:id="fol_061r"/>
+        </p>
+        <p xml:id="IV_p_022"> Datum <placeName ref="#Laterano">Laterani</placeName>, per manum
+            <persName ref="#Raynerius_vicecancellarius">Raynerii, <roleName>Sancte Romane Ecclesie
+              vicecancellarii</roleName></persName>, <date when="1217-03-04">IIII nonas martii,
+            indictione V, incarnationis dominice anno M°CC°XVI<supplied reason="omitted"
+              >I°</supplied>, pontificatus domni vero Honorii pape III anno primo.</date>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

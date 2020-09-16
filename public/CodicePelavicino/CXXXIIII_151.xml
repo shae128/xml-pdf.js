@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXXXIIII_151">
+    <front xml:id="CXXXIIII_front">
+
+      <titlePart type="numerazioneNuova">151</titlePart>
+      <titlePart type="numerazioneOrig">CXXXIIII</titlePart>
+
+      <docDate xml:id="CXXXIIII_docDate">
+        <date when="1230-10-03">1230 ottobre 3</date> e <date when="1230-10-06">6</date> - <date
+          when="1230-11-02">novembre 2</date>, <placeName>Sarzanello <emph>(<term xml:lang="latin"
+              >apud castrum Sarzane</term>)</emph>, Falcinello <emph>(<term xml:lang="latin">in
+              castro Falcinelli</term>)</emph>, Sarzana <emph>(<term xml:lang="latin">in dormitorio
+              canonice Sarzane</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXXXIIII_regesto">
+        <p>I signori di Falcinello danno a Guglielmo, vescovo di Luni, le loro porzioni del castello
+          di Falcinello. La cessione è fatta nelle seguenti proporzioni: per una metà <term
+            xml:lang="latin">pro indiviso</term> Carbone del fu Bottaccio e suo nipote Lombardello
+          del fu Guglielmo, Gerardo fratello di Carbono, Albertino e Tancredino fratelli, figli del
+          fu Bernardo, che era fratello di Carbono e Gerardo; per un sesto Guido di Gerardo di
+          Tancredino per sé e per suo fratello Tancredino; per un sesto Gibertino del fu Coda Giudeo
+          per sé e per il fratello Rollandino e per la moglie. In cambio il vescovo cede loro la
+          terza parte del pedaggio che si esigeva presso Sarzana e che spettava alla curia.
+          Immediatamente dopo il vescovo concede in feudo quanto appena ricevuto da detti signori,
+          che diventano suoi vassalli e devono inoltre giurare obbedienza ai podestà delle terre del
+          vescovo. I signori di Falcinello devono annualmente, entro il 25 ottobre, scegliere un
+          rettore a Falcinello, che sarà confermato dal vescovo. La metà di tutti i proventi della
+          signoria, che i rettori e i conti delle terre solitamente raccolgono, deve essere
+          consegnata al vescovo, a cui si può ricorrere per le cause giudiziare e che comunque si
+          riserva l’appello. Sono fatti salvi i diritti ottenuti dai castellani di Falcinello
+          riguardo al consolato. Tre giorni dopo la cessione e l’investitura giurano l’osservanza di
+          quanto stabilito anche Rollandino del fu Coda Giudeo, sua moglie Tedoria e Armannina
+          moglie di Gibertino, Agnesa moglie di Gerardo, un’altra Agnesa, madre di Lombardello, la
+          moglie di Guido, Cantillina moglie di Bullione, Frandina moglie di Albertino e Verde
+          moglie di Tancredino. Il vescovo prende infine possesso materiale dei beni tramite il suo
+          visdomino, Alberto del fu Gerardo, e il capitolo della chiesa di Luni approva.</p>
+      </div>
+
+      <div type="footer" xml:id="CXXXIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 233r.- 234r., c. CCXXVr.- CCXXVIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. 134, pp. 163-167.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>A destra dell'invocazione: <term xml:lang="latin">De Falcinello</term> in inchiostro
+            rosso. Nel margine interno, di mano moderna: <term xml:lang="latin">Bona in</term>, con
+              <emph>B</emph> corretta su <emph>b</emph>; di altra mano e con inchiostro diverso:
+              <term xml:lang="latin">Falcinelo</term>. Parte del documento, specie in fondo a c.
+            233r., è stata letta con l’ausilio della lampada di Wood.</note>
+        </div>
+
+        <div type="appr">
+          <p>Bibliografia: PAVONI 1999, pp. 145-147; GENTILE 2000, pp. 15-16.</p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXXXIIII_div">
+        <pb n="233r" xml:id="fol_233r"/>
+        <p xml:id="CXXXIIII_p_002" n="2">In Christi nomine, amen. Anno a nativitate Ipsius <date
+            when="1230-10-03">M°CCXXX, indictione III, tercio intrantis octobris</date>. Isti
+            <roleName>domini de <placeName ref="#Falcinello">Falcinello</placeName></roleName>, qui
+          leguntur inferius, dederunt, obtulerunt et concesserunt pro animarum suarum suorumque
+          parentum remedio domino <persName ref="#GuilEpLuni">Guilielmo, Dei gratia venerabili
+              <roleName>Lunensi episcopo</roleName></persName>, recipienti nomine sui episcopatus,
+          inrevocabiliter, totas portiones infrascriptas <placeName ref="#Falcinello">castri de
+            Falcinello</placeName> et eius curie et districtus, quas omnes dicebant sui iuris esse,
+          cum omni honore et iurisdictione atque etiam cum turribus, domibus, hedificiis, hominibus,
+          tam vassallis quam villanis, terris cultis et incultis, nemoribus, pascuis, aquis,
+          molendinis, piscationibus, venationibus, aucupationibus, supra et infra positis, et
+          pertinenciis suis omnibus, videlicet <persName ref="#CarboBottacciFal">Carbonus quondam
+            Bottacii</persName> et <persName ref="#LombardellusGuilielmiFal">Lombardellus, eius
+            nepos, filius quondam Guilielmi</persName> sui filii, auctoritate <persName
+            ref="#CarboBottacciFal">suprascripti Carboni</persName>, avi et legitimi administratoris
+          sui, et <persName ref="#GerardusBottacciFal">Gerardus, frater ipsius <persName
+              ref="#CarboBottacciFal">Carboni</persName></persName>, et <persName
+            ref="#AlbertinusBernardiFal">Albertinus</persName> et <persName
+            ref="#TancredinusBernardiFal">Tancredinus</persName>, fratres, filii quondam Bernardi
+          fratris ipsorum <persName ref="#CarboBottacciFal">Carboni</persName> et <persName
+            ref="#GerardusBottacciFal">Gerardi</persName>, medietatem, partim pro diviso et partim
+          pro indiviso, atque <persName ref="#GuidoGerardiFal">Guido, filius Gerardi de
+            Tancredino</persName>, pro se et fratre suo <persName ref="#TancredinusGerardiFal"
+            >Tancredino</persName>, eius negocium gerendo, medietatem pro indiviso tercie partis
+            alterius<note place="foot" n="a" xml:id="CXXXIIII_n_001"><term xml:lang="latin">tercie
+              partis alterius</term><emph>: nel testo</emph>
+            <term xml:lang="latin">alterius tercie partis</term>
+            <emph>con segno di richiamo per invertire l’ordine delle parole.</emph></note>
+          medietatis, et <persName ref="#GibertinusCodeFal">Gibertinus quondam Code
+          Iudei</persName>, pro se et fratre suo <persName ref="#RollandinusCodeFal"
+            >Rollandino</persName> et pro sua eiusque uxore, negocium eorum gerendo, medietatem pro
+          indiviso alterius tercie eiusdem medietatis. Que omnes portiones simul iuncte sunt due
+          tercie, pro indiviso, tocius suprascripti castri et omnium predictorum. Preterea dederunt,
+          cesserunt et mandaverunt eidem domino episcopo, nomine suprascripti episcopatus
+          recipienti, omnia iura et actiones sibi et cuilibet eorum competencia atque competentes in
+          rem aut in personam vel mixte in predictis seu pro predictis vel eorum sive alicuius eorum
+          occasione. Et fecerunt atque constituerunt eum procuratorem et dominum in rem suam et
+          constituerunt se pro eo atque eius nomine suprascripta omnia et eorum singula possidere et
+          quasi. Et promiserunt eidem simpla evictione omnium atque cuiusque predictorum et ea omnia
+          et eorum quelibet deffendere et disbrigare suis expensis et reficere dampna de et expensas
+          et interesse etiam singulare. Pro merito vero suprascriptorum que data, oblata sunt et
+          concessa, ut supra legitur, dedit et tradidit eis suprascriptus dominus episcopus, nomine
+          suprascripti episcopatus, scilicet cuilibet eorum, pro ea rata pro qua ei predictum datum
+          et predictam oblationem atque concessionem fecerunt, terciam partem pro indiviso cuiusdam
+          sui pedagii, quod apud <placeName ref="#Sarzana">Sarzanam</placeName> colligitur, quod est
+            <measure type="Imperiales" quantity="10" unit="denarius">denarii X imperialium</measure>
+          in qualibet soma, quam terciam <supplied reason="omitted">partem</supplied> dicebat iuris
+          suprascripti episcopatus esse. Et cessit atque mandavit eis omnia iura et actiones sibi
+          vel suprascripto episcopatui competencia et competentes in rem aut in personam vel mixte
+          in suprascripto sive pro suprascripta tercia parte suprascripti pedagii vel eius
+          occasione. Et fecit atque constituit eos et eorum quemlibet procuratorem in rem suam et
+          constituit se pro eis et eorum nomine ipsam terciam partem suprascripti pedagii possidere
+          et quasi. Insuper dedit et cum investitura concessit suprascriptis <persName
+            ref="#CarboBottacciFal">Carbono</persName>, <persName ref="#LombardellusGuilielmiFal"
+            >Lombardello</persName>, <persName ref="#GerardusBottacciFal">Gerardo</persName>,
+            <persName ref="#AlbertinusBernardiFal">Albertino</persName> et <persName
+            ref="#TancredinusBernardiFal">Tancredino</persName>, recipientibus pro se suisque
+          heredibus, et <persName ref="#GuidoGerardiFal">Guidoni</persName>, recipienti pro se et
+            <persName ref="#TancredinusGerardiFal">Tancredino</persName>, suo fratre, et suis et
+          eius heredibus, et <persName ref="#Gibertinus">Gibertino</persName>, recipienti pro se et
+          suprascripto suo fratre et sua et eius uxoribus suisque et eorum heredibus, nomine recti
+          et honorifici feudi, omne et totum illud quod ei dederunt, obtulerunt et concesserunt, ut
+          dictum est, ita quod ipsi et eorum heredes perpetuo debeant inde esse eius et suorum
+          successorum et suprascripti episcopatus vassalli contra omnes homines; et sic ibidem
+          iuraverunt ei inde fidelitatem omnes predicti, qui fuerant ibi presentes. Deinde promisit
+          eis de simpla evictione omnium et cuiusque predictorum et ea omnia atque eorum quelibet
+          deffendere et disbrigare suis expensis et reficere dampna et expensas<pb n="233v"
+            xml:id="fol_233v"/>atque interesse etiam singulare. Et cessit et mandavit eis omnia iura
+          et actiones sibi vel suo episcopatui competencia et competentes in suprascriptis vel pro
+          predictis vel eorum seu alicuius eorum occasione. Et fecit atque constituit eos et
+          quemlibet eorum procuratorem in rem suam. Et constituit se pro eis et eorum nomine
+          suprascripta omnia possidere et quasi. Et sic actum est inter eos, quod ipsi
+            <roleName>domini de <placeName ref="#Falcinello">Falcinello</placeName></roleName> omnes
+          et sui heredes atque eorum homines debeant iurare sacramentum obedientie et sequele
+          potestatis terrarum suprascripti domini episcopi eiusque successorum vel sui episcopatus,
+          sicut alii homines ipsarum terrarum, hoc excepto quod non teneantur ei aliquod feudum aut
+          aliquid pro feudo dare, set dominus episcopus eis debeat tamen aliunde, undecumque sibi
+          placuerit, providere. Ipsi namque domini vel maior pars eorum debeant amodo perpetuo,
+          annuatim, infra VIII dies ante kalendas novembris, eligere de se ipsis
+            <roleName>rectorem</roleName> in <placeName ref="#Falcinello">Falcinello</placeName> pro
+          portionibus que eos contingerent in consortatico suo, qui per annum debeat regere ipsum
+          officium ad suprascripti domini episcopi ac episcopatus et eorum honorem atque
+          salvamentum, et quem elegerint domino episcopo denunciare, cuius electi semper ad dominum
+          episcopum et successores suos et ad episcopatum confirmatio et infirmatio pertineat. Ex
+          tunc autem electio rectoris suprascripti libere perveniat ad dominum episcopum et
+          episcopatum Lunensem. Medietas vero bannorum et eorum omnium que de datia, placitis,
+          offensionibus atque etiam pro omnibus et singulis que pro iurisdictionibus pervenire
+          solent atque debent rectoribus et comitatibus terrarum, sive de eis agatur in <placeName
+            ref="#Falcinello">curia Falcinelli</placeName> sive coram domino episcopo vel eius
+          vicario, quantum pro suprascriptis portionibus contingentibus suprascriptis dominis in
+          suprascripto castro atque in predictis datis, oblatis et concessis, libere sit
+          suprascripti domini episcopi et successorum eius et suprascripti episcopatus et ad eos
+          pervenire debeat semper. Et quicumque de predictis dominis vel eorum hominibus, sive actor
+          sit sive reus, voluerit esse de causa aliqua sub examine domini episcopi, debeat inde
+          dominus episcopus cognoscere per se vel alium, prout ei placuerit. Appellationes quoque
+          omnes, et ante litem et post litem contestatem<note place="foot" n="b"
+            xml:id="CXXXIIII_n_002"><term type="incerto">contestatem</term>
+            <emph>: così nel testo.</emph></note> et ante et post sententiam, libere ad dominum
+          episcopum et episcopatum eius pertineant. Verumptamen, sive causa sit coram domino
+          episcopo sive coram eius advocato seu etiam coram aliquo suo delegato, aliquis
+          suprascriptorum dominorum vel eorum heredum non debeat ibi aliquid persolvere<note
+            place="foot" n="c" xml:id="CXXXIIII_n_003"><term xml:lang="latin">persolvere</term>: per
+              <emph>aggiunto in un secondo tempo.</emph></note> pro datia. Reliqua nempe que ad
+          iurisdictionem pertineant, si qua<note place="foot" n="d" xml:id="CXXXIIII_n_004"><term
+              type="incerto">qua</term>
+            <emph>: così nel testo.</emph></note> sunt que non sint superius memorata, pertineant
+          libere ad dominum episcopum et ad successores suos atque etiam ad suprascriptum
+          episcopatum. Hec autem omnia facta sunt eo pacto et condictione incontinenti apposita ut
+          non liceat suprascripto domino episcopo vel alicui ex successoribus suis neque alicui pro
+          suprascripto episcopatu predicta vel aliquod predictorum alicui persone vel loco dare vel
+          obligare sive etiam aliquo<note place="foot" n="e" xml:id="CXXXIIII_n_005"><term
+              xml:lang="latin">etiam aliquo</term><emph>: nel testo</emph>
+            <term xml:lang="latin">aliquo etiam</term>
+            <emph>con segno di richiamo per invertire l’ordine delle parole.</emph></note> modo
+          alienare vel distrahere, set ea omnia et singula semper debeat in suo et episcopatus
+          dominico retinere; et similiter facta sunt salvo iure quod castellani de Falcinello de
+          iure evincerent in consulatu sive super consulatu de <placeName ref="#Falcinello"
+            >Falcinello</placeName>, sub pena <measure quantity="100" unit="solidus">C marcharum
+            boni et optimi argenti</measure>. Hec omnia et singula sibi ad invicem promiserunt
+          perpetuo attendere, observare, facere et numquam contravenire, quam penam, stipulatione
+          sollempni, solvere teneantur tociens quociens fuerit contraventum. Et ad hec obligavit se
+          suprascriptus dominus episcopus suosque successores et fructus sui episcopatus, et dicti
+          domini se suosque heredes et bona sua.</p>
+        <p xml:id="CXXXIIII_p_003" n="3">Actum in camera suprascripti episcopi, apud <placeName
+            ref="#Sarzanello">castrum Sarzane</placeName>, sollempniter, presentibus <persName
+            ref="#Oncomus"><roleName>magistro</roleName> Oncomo, <roleName>Lunensi
+              canonico</roleName></persName>, <persName ref="#ConfortusFosnot">Conforto
+              <roleName>notario de <placeName ref="#Fosdinovo"
+            >Fosdenova</placeName></roleName></persName>, <persName ref="#Datusiur">Dato
+              <roleName>iudice</roleName></persName> filio eius, <persName
+            ref="#SalamoncellusBaratella">Salamoncello Baratella</persName>, <persName
+            ref="#AldebrandinusMalanaca">Aldebrandino Malanaca</persName> et <persName
+            ref="#StoppusAlberti">Stuppio, filio Alberti corbellarii</persName>, testibus ad hec
+          vocatis.</p>
+        <p xml:id="CXXXIIII_p_004" n="4"><date when="1230-10-06">Eodem anno et indictione, VI°
+            intrantis octobris</date>, in <placeName ref="#Falcinello">castro Falcinelli</placeName>
+          suprascripti, ante domum infrascriptorum fratrum, <persName ref="#RollandinusCodeFal"
+            >Rollandinus quondam Code Iudei</persName>, in omnibus et per omnia de sua et pro sua
+            <pb n="234r" xml:id="fol_234r"/>parte suprascripti castri et omnium suprascriptorum,
+          fecit, dedit, cessit et iuravit et promisit suprascripto domino episcopo ut suprascriptus
+          frater eius promiserat et fecerat; et idem dominus episcopus fecit. Eodem quoque die, in
+          domo <persName ref="#CarboBottacciFal">Carboni</persName> suprascripti atque consortum,
+            <persName ref="#TedoriaFal">domina Tedoria uxor <persName ref="#RollandinusCodeFal"
+              >Rollandini</persName></persName>, <persName ref="#ArmanninaFal">Armannina uxor
+              <persName ref="#Gibertinus">Gibertini</persName></persName>, <persName
+            ref="#AgnesiaFalGer">Agnesia uxor <persName ref="#GerardusBottacciFal"
+              >Gerardi</persName></persName> et alia <persName ref="#AgnesiaFalGuid">Agnesia mater
+              <persName ref="#LombardellusGuilielmiFal">Lombardelli</persName>, ita uxor <persName
+              ref="#GuidoGerardiFal">Guidonis</persName></persName>, <persName ref="#CantillinaFal"
+            >Cantillina uxor Bullionis</persName><note place="foot" n="f" xml:id="CXXXIIII_n_006"
+              ><term type="incerto">Bullionis</term>
+            <emph>: così nel testo, si nota tuttavia che non è stato nominato prima alcun Bullione,
+              né si trova questo antroponimo tra i numerosi membri della consorteria attestati nei
+              documenti nn. 161-CXXXV, 162-CXXXVI, 163-CXXXVII); data la posizione nella sequenza
+              delle consorti si ritiene probabile trattarsi della moglie di Carbono.</emph></note>,
+          de suis certiorate iuribus, sponte suprascriptis omnibus et singulis consenserunt,
+          parabolam dederunt et ratum habere et numquam contravenire suprascripto domino episcopo,
+          stipulanti pro suprascripto episcopatu, promiserunt. Hiis ita peractis, suprascriptus
+          dominus episcopus, pro se et suprascripto episcopatu, auctoritate sua, pro corporali
+          possessione omniumque singulorum suprascriptorum accepit, manibus propriis, angulos et
+          portas domorum suprascriptorum dominorum et turrium, mittens virum nobilem <persName
+            ref="#AlbertusGerardi">Albertum quondam Gerardi, <roleName>vicedominum</roleName>
+            suum</persName>, super utramque turrim suprascripti castri, qui posuit et firmavit super
+          eas pro suprascripto domino episcopo et episcopatu vexillum beate Marie semper Virginis
+          gloriose. Demum ante domum <persName ref="#AlbertinusBernardiFal">Albertini</persName>
+          atque fratris suprascriptorum, in <placeName ref="#Falcinello">suprascripto
+            castro</placeName>, domine <persName ref="#FrandinaFal">Frandina uxor suprascripti
+              <persName ref="#AlbertinusBernardiFal">Albertini</persName></persName> et <persName
+            ref="#ViridisFal">Viridis uxor <persName ref="#TancredinusBernardiFal"
+              >Tancredini</persName></persName> sponte suprascriptis omnibus et singulis
+          consenserunt ut alie domine prius fecerant, presentibus <persName ref="#VeltroCast">Veltre
+            de <placeName ref="#CastelloAghinolfi">castello Aginulfi</placeName></persName>,
+            <persName ref="#UgolinusVal">Ugolino de <placeName ref="#Vallecchia1"
+              >Valechia</placeName></persName>, <persName ref="#AldebrandinusVeltri">Aldebrandino
+            Veltri de <placeName ref="#Corvaia">Corvaria</placeName></persName>, <persName
+            ref="#BoniornusLuc">Boniorno de <placeName ref="#Lucca">Luca</placeName></persName>,
+            <persName ref="#AttolinusCacti">Attolino Cactii de <placeName ref="#Sarzana"
+              >Sarzana</placeName></persName>, <persName ref="#Guidofrater">Guidone fratre <persName
+              ref="#GuilEpLuni">dicti episcopi</persName></persName>, <persName ref="#Datusiur">Dato
+              <roleName>iudice</roleName> suprascripto</persName>, <persName ref="#GerardetusCar"
+              >Gerardeto<note place="foot" n="g" xml:id="CXXXIIII_n_007"><term xml:lang="latin"
+                >Gerardeto</term><emph>: nel testo</emph>
+              <term type="incerto">Gerardeito</term>. </note> de <placeName ref="#Carrara"
+              >Carraria</placeName></persName> et <persName ref="#VillanusAlioti">Villano
+            Alioti</persName>, testibus ad hec vocatis.</p>
+        <p xml:id="CXXXIIII_p_005" n="5">Eisdem presentibus et <date when="1230-10-06">eodem
+            die</date>, <persName ref="#TancredinusBernardiFal">Tancredinus</persName> suprascriptus
+          consensiit omnibus suprascriptis et de sua et pro sua parte fecit et iuravit suprascripto
+          domino episcopo sicut per fratrem suum promissum fuerat pro eodem.</p>
+        <p xml:id="CXXXIIII_p_006" n="6"><date when="1230-11-02">Eodem etiam anno et indictione, II°
+            intrantis novembris</date>, in dormitorio canonice <placeName ref="#Sarzana"
+            >Sarzane</placeName>, presentibus <persName ref="#Albertuspres"
+              ><roleName>presbytero</roleName> Alberto</persName>, <persName ref="#VillanusAlioti"
+            >Villano suprascripto</persName>, <persName ref="#RollandinusMonteclaro">Rollandino de
+            Monteclaro</persName> et <persName ref="#StoppusAlberti">Stoppio
+          suprascripto</persName>, testibus vocatis ad hec, suprascriptis omnibus et singulis per
+          omnia et in omnibus consenserunt et approbaverunt atque laudaverunt ea omnia et singula
+          Lunense capitulum, videlicet <persName ref="#Bonaiunctapresb">domini Bonaiuncta
+              <roleName>archipresbyter</roleName></persName>, <persName ref="#Oppizuscus">Oppizo
+              <roleName>custos</roleName></persName>, <persName ref="#Ubalduscan">Hubaldus
+              <roleName>cantor</roleName></persName>, <persName ref="#Vernaciusarc">Vernacius
+              <roleName>archipresbyter</roleName> de <placeName ref="Offiano"
+            >Offiano</placeName></persName>, <persName ref="#AntoniusTursaccus">Antonius
+            Tursaccus</persName>, <persName ref="#Rollanduscan">Rollandus</persName> et <persName
+            ref="#Albertuscan">Albertus, <roleName>canonici</roleName></persName>.</p>
+        <p xml:id="CXXXIIII_p_007" n="7"><ptr target="#CXXXIIII_st_001"/> Ego <persName
+            ref="#GerardetusMontoni">Gerardetus qui nominor Muntonus, <roleName>palacii sacri
+              notarius</roleName></persName>, hiis omnibus interfui et rogatus scripsi duo
+          instrumenta, uno tenore confecta.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

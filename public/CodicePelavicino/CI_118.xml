@@ -1,0 +1,359 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CI_118">
+    <front xml:id="CI_front">
+
+      <titlePart type="numerazioneNuova">118</titlePart>
+      <titlePart type="numerazioneOrig">CI</titlePart>
+
+      <docDate xml:id="CI_docDate">
+        <date when="1212-04-02">1212 aprile 2</date>-<date when="1212-04-03">3</date>,
+          <placeName>Sarzanello <emph>(<term xml:lang="latin">in palatio castri de
+            Sarzana</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CI_regesto">
+        <p>Il vescovo di Luni Gualtiero, col consiglio di Gerardo visdomino del fu Alberto, conferma
+          e rinnova agli <term xml:lang="latin">operarii</term> della corte di Sarzana -
+          nominalmente elencati - alcune concessioni fatte dai suoi predecessori Alberto e Pipino.
+          Nella concessione precedente, fatta dal vescovo Pipino e redatta dal notaio Bartolomeo, si
+          stabiliva che nessuno fosse costretto a ricevere le tasse relative alla <term
+            xml:lang="latin">caneva</term>, alla <term xml:lang="latin">castaldia</term> e alla
+            <term xml:lang="latin">iscaria</term>, a meno che non lo desiderasse e a patto che uno
+          di loro fosse una volta all’anno <term xml:lang="latin">iscarius</term>, ricevendone in
+          cambio un feudo. I diritti di <term xml:lang="latin">placitum</term>, <term
+            xml:lang="latin">districtum</term>, <term xml:lang="latin">offensiones</term> e <term
+            xml:lang="latin">amasiamenta</term> rimanevano del vescovo e gli <term xml:lang="latin"
+            >operarii</term> erano tenuti a dare venti moggi di frumento all’anno alla <term
+            xml:lang="latin">caneva</term> o al granaio e cento congi di vino al palmento e lavorare
+          le <term xml:lang="latin">bradie</term> e il <term xml:lang="latin">cafadium</term>, dando
+          metà dei frutti alla curia e consegnandoli alla <term xml:lang="latin">caneva</term>. Il
+          vescovo doveva dare agli <term xml:lang="latin">operarii</term> gli animali in soccida e,
+          nel caso non avesse bestie, doveva concedere solo la terza parte delle <term
+            xml:lang="latin">bradie</term>, col patto che, se ne facevano le stoppie, dovevano
+          consegnarne la terza parte. Gli <term xml:lang="latin">operarii</term> dovevano inoltre
+          portare il fieno del prato al fienile, mangiando due volte al giorno pane di frumento,
+          vino e formaggio, e dovevano prendere pane e vino, carne, granaglie e biade dalle corti di
+          Soliera, Bolano, Carrara, Luni per portarle a Sarzana o ad Ameglia, mangiando una volta al
+          giorno. In casi peculiari dovevano fare questa raccolta per tutta la diocesi e, nel caso
+          fossero fatte richieste alle comunità, anch’esse dovevano parteciparvi.</p>
+        <p>A differenza del patto precedente Gualtiero stabilisce che gli obblighi relativi al fieno
+          e al recupero di beni dalle corti sopra elencate vengano meno. Il pagamento annuale viene
+          modificato in ventitre moggi, calcolando venti staia per moggio alla misura corrente dello
+          staio, da consegnarsi nel mese di agosto; i congi di vino rimangono cento, ma alla misura
+          corrente del congio. Se qualche straniero si insedia nel podere di un <term
+            xml:lang="latin">operario</term> deve giurare di dare al vescovo quanto dovuto e di
+          abitare nel <term xml:lang="latin">castrum</term> di Sarzana. Per la conferma del patto il
+          vescovo riceve un pagamento di venti lire di imperiali, a seguito del quale libera dal
+          pignoramento la <term xml:lang="latin">curia</term> di Bolano, che era stata presa a pegno
+          da <term xml:lang="latin">Iuncta de Vallerano</term>.</p>
+      </div>
+
+      <div type="footer" xml:id="CI_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP c. 214v. - 216r., c. CCVIv.- CCVIIIr. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in: <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. 101, pp. 132-134.</p>
+
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <emph>Obligazione che gli operari di Sarzana
+              debbano pagare ogni anno venti moggi di grano mondi e cento condi</emph>
+              (<emph>condi</emph> corretto su precedente scrittura) <term xml:lang="latin">di vino
+              al vescovo lunese pro tempore.</term> Un’altra mano ha aggiunto: <emph>È equivoco di
+              chi non ha ben capito.</emph>
+            <p>Autentica databile con incertezza tra il 3 aprile 1212 e 1237, ultima data in cui è
+              attestato il notaio Bonencontro di Soliera</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CI_div">
+        <pb n="214v" xml:id="fol_214v"/>
+        <p xml:id="CI_p_001" n="1">De <placeName ref="#Sarzanello">castro Sarzane</placeName><note
+            place="foot" n="a" xml:id="CI_n_001"><term xml:lang="latin">De castro Sarzane</term>
+            <emph>in inchiostro rosso.</emph></note>.</p>
+        <p xml:id="CI_p_002" n="2"><ptr target="#CI_st_001"/> In eterni Dei nomine, amen.
+          Quemadmodum in instrumento publico manu <persName ref="#Bartholomeusnot">Bartholomei
+              <roleName>notarii</roleName></persName> confecto <note>Nel corso del suo episcopato,
+            il vescovo Pipino rinnova il patto con gli <emph>operarii</emph> della corte di Sarzana
+            già stipulato dal vescovo Alberto <date notBefore="1170-08-01" notAfter="1176-02-28"
+              cert="medium"/>
+          </note>, quod ego <persName ref="#Confortusnot">Confortus
+            <roleName>notarius</roleName></persName> vidi et legi, continebatur, dominus <persName
+            ref="#PipEpLuni">Pipinus, Dei gratia olim <roleName>Lunensis
+            episcopus</roleName></persName>, renovellavit, fecit et firmavit per se et successores
+          suos, consilio curie, tale pactum et talem constitutionem quale et qualem fecerat
+            <note>Nel corso del suo episcopato il vescovo Alberto stipula un patto con gli
+              <emph>operarii</emph> della corte di Sarzana <date notBefore="1156-03-13"
+              notAfter="1160-01-26" cert="medium"/></note> dominus <persName ref="#AlbertusEpLuni"
+            >Albertus, bone memorie Lunensis <roleName>episcopus</roleName></persName>, predecessor
+          suus, cum operariis omnibus de <placeName ref="#Sarzana">curte Sarzanei <note place="foot"
+              n="b" xml:id="CI_n_002"><term type="incerto">Sarzanei</term>: <emph>così nel
+                testo.</emph></note></placeName>. Uterque enim eorum, velut in eodem instrumento
+          legebatur, condonavit et remisit per se et suos successores omnibus suprascriptis
+          operariis dona et opera atque quod nullus eorum cogatur ad canevam recipiendam nec ad
+          castaldiam neque ad <term ref="#iscaria">iscariam</term>, nisi per voluntatem, excepto
+          quod omni anno debet unus eorum esse <term ref="#scarius">iscarius</term>, si fuerit
+          voluntas episcopi, et debet suum feudum habere. Placita, districta, offensiones,
+          amasiamenta omnia retinuerunt in se et successores suos predicti domini episcopi et pro
+          suprascripto pacto et conventione debent suprascripti operarii omni anno dare viginti
+          modia frumenti mundi et deferre usque ad canevam vel ad granarium et centum congia vini ad
+          palmentum et deferre usque in canevam et debent laborare bradias et cafadium et reddere
+          medietatem curie et portare usque in canevam. Et episcopus debet eis dare bestias ad
+          socerandum et ipsi debent socerare; et, si non habuerint bestias ad socerandum, non debent
+          dare nisi terciam partem bradiarum, et si restopplaverint, terciam partem reddere debent;
+          fenum de prato debent portare ad fenile et debent bis in die comedere panem frumenti et
+          vinum, caseum, et episcopus debet facere coadunare fenum in prato; et alios attractus
+          debent facere, scilicet panem et vinum, carnes et annonam et fruges, de <placeName
+            ref="#Soliera">curte de Soleria</placeName>, de <placeName ref="#Bolano">curte de
+            Bolano</placeName>, de curte de <placeName ref="#Carrara">Carraria</placeName>, de
+            <placeName ref="#Luni">curte de Luna</placeName> ad <placeName ref="#Sarzana"
+            >Sarzanam</placeName> vel ad <placeName ref="#Ameglia">Ameliam</placeName>, et semel in
+          die comedere. Pro facto pape vel imperatoris vel cardinalis vel cancellarii debent facere
+          attractus, si opus fuerit, per totum episcopatum; si pro facto pape vel imperatoris vel
+          guerre alii homines communiter dederint, atque ipsi dare debent. Cum autem hec omnia
+          suprascripta in predicto instrumento continerentur:</p>
+        <p xml:id="CI_p_003" n="3"><c>§</c> Nos <persName ref="#GualEpLuni">Gualterius, Dei gratia
+              <roleName>Lunensis episcopus</roleName></persName>, consilio <persName
+            ref="#GerardusAlberti">Gerardi, <roleName>vicedomini</roleName> nostri, quondam Alberti
+            vicedomini</persName>, nobiscum presentis, renovamus, facimus et confirmamus <pb
+            n="215r" xml:id="fol_215r"/> predicta pacta et conventiones et constitutiones, addendo
+          tamen et minuendo et mutando seu commutando quedam ex ipsis, prout dicetur inferius, pro
+          bono et utilitate atque melioramento nostri episcopatus et nostre curie. Et hanc
+          renovationem atque confirmationem et commutationem et hec omnia que infra leguntur,
+          facimus infrascriptis et cum infrascriptis operariis, recipientibus pro se et omnibus
+          aliis <roleName>operariis de <placeName ref="#Sarzana">curte
+            Sarzane</placeName></roleName> et suo et eorum nomine per nos et nostros successores.
+          Quorum <roleName>operariorum</roleName> nomina sunt hec: <persName
+            ref="#VernaciusGuilielmi">Vernacius quondam Guilielmi de Cantio</persName>, <persName
+            ref="#RamundinusGuidonis">Ramundinus quondam Guidonis de Opizo</persName>, <persName
+            ref="#BonavereMacognani">Bonavere quondam Macognani</persName>, <persName
+            ref="#CompagnonusBertoloto">Compagnonus de Bertoloto</persName>, <persName
+            ref="#FormentinusRafanini">Formentinus quondam Rafanini</persName>, <persName
+            ref="#RiciusBottocii">Ricius quondam Bottocii de <placeName ref="#Oliveto"
+              >Oliveto</placeName></persName>, <persName ref="#SabbatinusAlbertacii">Sabbatinus
+            quondam Albertacii</persName>, <persName ref="#VitalisBoneti">V<supplied
+              reason="omitted">i</supplied>talis quondam Boneti</persName>, <persName
+            ref="#BaldinotusPulica">Baldinotus de <placeName ref="#Pulica"
+            >Pulica</placeName></persName>, <persName ref="#Compagnusop">Compagnus</persName>,
+            <persName ref="#SarzanensisGandolfi">Sarzanensis quondam Gandolfi</persName>, <persName
+            ref="#RamondinusFormentini">Ramondinus quondam Formentini de <placeName ref="#Cortiola"
+              >Corciola</placeName></persName>, <persName ref="#ThodescusBonizi">Thodescus quondam
+            Bonizi</persName>, <persName ref="#MartinusGuerini">Martinus quondam Guerini</persName>,
+            <persName ref="#SimonetusGerardini">Symonetus quondam Gerardini de <placeName
+              ref="#Terria">Terriola</placeName></persName>, <persName ref="#GerardinusBettotii"
+            >Gerardinus quondam Bettotii</persName>, <persName ref="#BonencontrusOttoboni"
+            >Bonencontrus Ottoboni</persName>, <persName ref="#VitalisDonnolina">Vitalis de
+            Donnolina</persName>, <persName ref="#VitalisBeagua">Vitalis de <placeName ref="#Beagua"
+              >Beagua</placeName></persName>, <persName ref="#BurgensisPulica">Burgensis de
+              <placeName ref="#Pulica">Pulica</placeName></persName>, <persName
+            ref="#OliveriusCanaleIannis">Oliverius de <placeName ref="#CanaleIanni">Canale
+              Iannis</placeName></persName>, <persName ref="#VitaletusBonno">Vitaletus de
+            Bonno</persName>, <persName ref="#AmicusAicardini">Amicus quondam Aicardini</persName>,
+            <persName ref="#AttolinusGualdo">Attolinus de Gualdo</persName>, <persName
+            ref="#MorengnolusGerardini">Morengnolus quondam Gerardini de <placeName ref="#Terria"
+              >Terria</placeName></persName>, <persName ref="#BuiardusGerardiniBon">Buiardus
+              quondam<note place="foot" n="c" xml:id="CI_n_003"><term xml:lang="latin"
+                >quondam</term>: <emph>nel testo segue depennato ed espunto</emph>
+              <term xml:lang="latin">de</term></note> Gerardini de Bonfante</persName>, <persName
+            ref="#PaganinusBoniOliveto">Paganinus quondam Boni de <placeName ref="#Oliveto"
+              >Oliveto</placeName></persName>, <persName ref="#FancinellusRafanini">Fancinellus
+            quondam Rafanini</persName>, <persName ref="#GuilielmusMartinelli">Guilielmus quondam
+            Martinelli de Rafanino</persName>, <persName ref="#VitalisVindemioli">Vitalis quondam
+            Vindemioli de <placeName ref="#Tortiliano">Tortiliano</placeName></persName>, <persName
+            ref="#BernardusRafanini">Bernardus quondam Rafanini</persName>, <persName
+            ref="#BellandusVitalis">Bellandus quondam Vitalis</persName>
+          <term ref="#scarius"><roleName>escarii</roleName></term>, <persName ref="#VitalisBelseris"
+            >Vitalis quondam Belseris</persName>, <persName ref="#GuidoMontedarmo">Guido de
+              <placeName ref="#Montedarmo">Montedarmo</placeName> quondam Dominici</persName>,
+            <persName ref="#GalopinusRicii">Galopinus quondam Ricii de <placeName ref="#Montedarmo"
+              >Montedarmo</placeName></persName>, <persName ref="#TrampuliusDominici"
+              >Trampulius<note place="foot" n="d" xml:id="CI_n_004"><term xml:lang="latin"
+                >Trampulius</term>: T <emph>corretta su precedente</emph> B</note> quondam Dominici
+              <roleName>cortesiani</roleName></persName>, <persName ref="#SalvusCarençoli">Salvus
+            quondam Carençoli</persName>, <persName ref="#BonensegnaRainerii">Bonensegna quondam
+            Rainerii de <placeName ref="#Cortiola">Cortiola</placeName></persName>, <persName
+            ref="#BotrigellusFantinelli">Botrigellus quondam Fantinelli de <placeName
+              ref="#Monzolono">Monçolono</placeName></persName>, <persName ref="#UgolinusFantinelli"
+            >Ugolinus</persName> frater eius, <persName ref="#BernardusMoregnoli">Bernardus quondam
+            Moregnoli</persName>, <persName ref="#RollandinusGualdi">Rollandinus quondam
+            Gualdi</persName>, <persName ref="#ArnaldusUgolini">Arnaldus quondam Ugolini</persName>,
+            <persName ref="#RollandinusMontecello">Rollandinus de Montecello</persName>, <persName
+            ref="#IunctaTerria">Iuncta de <placeName ref="#Terria">Terria</placeName></persName>,
+            <persName ref="#IunctaGuilielmini">Iuncta quondam Guilielmini de <placeName
+              ref="#Serraursi">Serraursi</placeName></persName>, <persName ref="#ForinusUgolini"
+            >Forinus quondam Ugolini de Pilato</persName>, <persName ref="#PersonaUbertini">Persona
+            quondam Ubertini de <placeName ref="#Serraursi">Seraursi</placeName></persName>,
+            <persName ref="#RomeusVitalis">Romeus quondam Vitalis
+            <roleName>escarii</roleName></persName>, <persName ref="#SabbatinusSeraursi">Sabbatinus
+            de <placeName ref="#Serraursi">Serraursi</placeName></persName>, <persName
+            ref="#RollandinusGuilielmini">Rollandinus quondam Guilielmini</persName>, <persName
+            ref="#VivianusBosi">Vivianus quondam Bosi</persName>, <persName ref="#BonaviaDominici"
+            >Bonavia quondam Dominici de <placeName ref="#Montedarmo"
+            >Montedarmo</placeName></persName>, <persName ref="#BonencontrusSarzanelli">Bonencontrus
+            quondam Sarzanelli</persName>, <persName ref="#BonsegnusGerardini">Bonsegnus quondam
+            Gerardini de Bonfante</persName>, <persName ref="#SabbatinuDurantis">Sabbatinus quondam
+            Durantis Ravolati</persName>, <persName ref="#HenricusBoni">Henricus quondam Boni de
+              <placeName ref="#Vignola">Vignola</placeName></persName>, <persName
+            ref="#AlçadellusAraldi">Alçadellus quondam Araldi</persName>, <persName
+            ref="#RustigellusVitalis">Rustigellus quondam Vitalis
+            <roleName>escarii</roleName></persName>, <persName ref="#GerardusGerardini">Gerardus
+            quondam Gerardini</persName>, <persName ref="#TiniosusGerardini">Tiniosus</persName>
+          frater eius, <persName ref="#PasqualinusBrasile">Pasqualinus de <placeName ref="#Brasile"
+              >Brasile</placeName></persName>, <persName ref="#CastellanusMonti">Castellanus de
+              <placeName ref="#Monti">Monti</placeName></persName>, <persName
+            ref="#GerardinusGuitone">Gerardinus de Guitone</persName>.</p>
+        <p xml:id="CI_p_004" n="4"><c>§</c> Remittimus enim nos suprascriptus episcopus atque
+          condonamus omnibus suprascriptis hominibus, recipientibus pro se et omnibus aliis
+            <roleName>operariis de <placeName ref="#Sarzana">curte Sarzane</placeName></roleName> et
+          suis et eorum heredibus suoque et eorum nomine, per nos et successores nostros, de hiis
+          que in prefacto instrumento manu <persName ref="#Bartholomeusnot">Bartholomei
+            notarii</persName> scripto continebantur, ut de cetero non debeant nec teneantur portare
+          fenum ad fenile neque <pb n="215v" xml:id="fol_215v"/> facere attractus<note place="foot"
+            n="e" xml:id="CI_n_005"><term xml:lang="latin">attractus</term>: <emph>nel testo la
+              terza </emph> t <emph>corretta su</emph> l</note>, scilicet panem aut vinum vel carnes
+          vel annonam seu fruges, de <placeName ref="#Soliera">curte de Soleria</placeName> vel de
+            <placeName ref="#Bolano">curte de Bolano</placeName> aut de <placeName ref="#Carrara"
+            >curte de Carraria</placeName> seu de <placeName ref="#Luni">curte de Luna</placeName>
+          ad <placeName ref="#Sarzana">Sarzanam</placeName> vel ad <placeName ref="#Ameglia"
+            >Ameliam</placeName>, set pro facto pape et imperatoris vel cardinalis vel cancellarii
+          debeant facere attractus, si opus fuerit, per totum episcopatum de pane, vino, carne,
+          annona et frugibus tantum; et insuper pro facto pape et imperatoris vel guerre debent
+          dare, si alii homines communiter dederint. Placita vero et districta, offensiones et
+          amasiamenta omnia retinemus in nos et nostros successores, sicut fecerunt predecessores
+          nostri. De facto vero bradiarum et cafagii et iscarie et castaldie sit sicut in predicto
+          instrumento continebatur. Verumptamen pro predictis omnibus que eis remittimus et
+          condonamus et facimus debeant dare curie nostre annuatim illud affictum quod in dicto
+          instrumento continebatur et soliti fuerant, et tantum amplius quod frumentum sit modia
+          viginti tria, ad staria viginti per modium ad starium quod nunc currit, et vinum debeat
+          esse congia centum, ad congium quod nunc currit, atque ordeum debeat <supplied
+            reason="omitted">esse</supplied> tantum quantum erat prius, set debet dari de cetero ad
+          starium quod nunc currit, et starium vel congium quod nunc currit numquam crescere debeat
+          nec minui, set sicut in eodem statu perpetuo permanere, et totum hoc affictum deferatur ad
+          granarium et ad canevam nostram de <placeName ref="#Sarzana">Sarzana</placeName>;
+          frumentum detur per totum augustum mundum et siccum omni anno et vinum ad palmentum. Omnes
+          suprascripti homines ad sancta Dei evangelia iuraverunt dare annuatim curie totum illud
+          quod additum est in predicto afficto secundum quod cuilibet pro sua contingerit portione.
+            E<supplied reason="omitted">t</supplied> si aliquis foretanus de cetero intraverit in
+          aliquo podere alicuius operariorum, debeat iurare dare curie semper totum affictum illius
+          poderis ad voluntatem domini episcopi atque stare precise habitator in <placeName
+            ref="#Sarzanello">castro Sarzani</placeName>. Ad horum quoque omnium confirmationem
+          confitemur nos recepisse ab omnibus predictis operariis bonorum <measure type="Imperiales"
+            quantity="20" unit="libra">imperialium libras viginti</measure>, renuntiando exceptioni
+          non numerate pecunie, quos et nos et dictus <persName ref="#GerardusAlberti">Gerardus,
+              <roleName>vicedominus</roleName></persName> noster, atque ipsimet
+            <roleName>operarii</roleName> predicti confitemur fore datos et spenditos in
+          expignoranda <placeName ref="#Bolano">curia de Bolano</placeName>, que cuidam <persName
+            ref="#IuncteVallerano">Iuncte de Vallerano</persName> fuerat nomine pignoris obligata.
+          Sub pena <measure type="imperiales" quantity="100" unit="libra">centum librarum
+            imperialium</measure>. Promiserunt sibi ad invicem contrahentes hec omnia rata habere,
+          attendere et observare et in nullo contravenire, rato manente pacto, post penam solutam
+          parti fidem servanti ab altera parte, obligando dominus episcopus se et suos successores
+          et predicti <roleName>operarii</roleName> se atque alios pro quibus hec faciebant et suos
+          et eorum heredes, et ita sibi ad invicem, ut supra legitur, per omnia et in omnibus sunt
+            stipulanti<note place="foot" n="f" xml:id="CI_n_006"><term type="incerto"
+              >stipulanti</term>: <emph>così nel testo.</emph></note> antedicti contrahentes.<pb
+            n="216r" xml:id="fol_216r"/></p>
+        <p xml:id="CI_p_005" n="5">Acta sunt hec omnia in palatio <placeName ref="#Sarzanello"
+            >castri de Sarzana</placeName>, <date when="1212-04-02">anno a nativitate Domini
+            M°CCXII, indictione XV, die lune, secundo intrante mense aprilis</date>, sollempniter.
+          Ibi fuerunt rogati testes <persName ref="#Bonaiunctapresb"><roleName>presbyter</roleName>
+            Bonaiuncta de <placeName ref="#Sarzanello">eodem castro</placeName></persName>,
+            <persName ref="#Armanusdiac">Armanus <roleName>dyaconus</roleName> atque
+              <roleName>plebanus</roleName> de <placeName ref="#Ameglia"
+            >Amelia</placeName></persName>, <persName ref="#GibertinusCodeFal">Gibertinus quondam
+              Codeindei<note place="foot" n="g" xml:id="CI_n_007">Codeindei: <emph>così nel testo
+                per</emph> Code Iudei (cfr. doc. 160-CXXXIV).</note> de <placeName ref="#Burcione"
+              >Burtione</placeName></persName>, <persName ref="#AldebrandetusGuidolini"
+            >Aldebrandetus de <placeName ref="#Soliera"> Soleria</placeName> filius Guidolini de
+              <placeName ref="#Fossato">Fossato</placeName></persName>, <persName
+            ref="#AssalitusTiniosi">Assalitus quondam Tiniosi de <placeName ref="#Santo_Stefano"
+              >sancto Stephano</placeName></persName> et <persName ref="#VescontinusBonencontri"
+            >Vescontinus quondam Bonencontri de <placeName ref="#Trebiano"
+            >Trebiano</placeName></persName>.</p>
+        <p xml:id="CI_p_006" n="6"><c>§</c>
+          <date when="1212-04-03">Sequenti proximo die martis, tercio eiusdem mensis</date>, in
+            <placeName ref="#Sarzanello">eodem castro</placeName>, in domo <persName ref="#Ferrinus"
+            >Ferrini</persName>, in presentia <persName ref="#VivaldusFerrini">Vivaldi filii
+            Ferrini</persName> et <persName ref="#BonacursusAlbertini">Bonacursi filii Albertini de
+            Nobelino</persName>, rogatorum testium.<persName ref="#AlcarinusFolcerii"> Alcarinus
+            quondam Folcerii</persName>, pro se et investitus a <persName ref="#GerardusBellandini"
+            >Gerardo quondam Bellandini de <placeName ref="#Oliveto">Oliveto</placeName></persName>,
+            <persName ref="#AlbertusNobelini">Alberto quondam Nobelini</persName>, <persName
+            ref="#BaroncellusNobelini">Baroncello</persName> fratre eius, <persName
+            ref="#NicolosiusClaramici">Nicolosio quondam Claramici de <placeName ref="#Orto"
+              >Orto</placeName></persName>, <persName ref="#RaineriusAicardini">Rainerio quondam
+            Aicardini de <placeName ref="#Orto">Orto</placeName></persName>, <persName
+            ref="#DatiusRodolfini">Datio genero quondam Rodolfini</persName>, <persName
+            ref="#GerardusRollandini">Gerardo quondam Rollandini de <placeName ref="#Masio"
+              >Masio</placeName></persName>, <persName ref="#SegnoretusRainerii">Segnoreto quondam
+            Rainerii de <placeName ref="#Cortiola">Cortiola</placeName></persName>, <persName
+            ref="#SpinellusBaldicioni">Spinello quondam Baldicioni de <placeName ref="#Ponzanello"
+              >Ponzanello</placeName></persName>, <persName ref="#GuilielmusPatiti">Guilielmo
+            quondam Patiti de <placeName ref="#Ortale">Ortale</placeName></persName>, <persName
+            ref="#MelaneseGrossoli">Melanesi quondam Grossoli de <placeName ref="#Platia"
+              >Platia</placeName></persName> et <persName ref="#AmiliarinusParluntii">Amiliarino
+            filio Parluntii</persName>, et supra suam et eorum animam iuravit et pariter cum omnibus
+          eis promisit <persName ref="#TiniosusMaroalco">Tinioso de Maroalco</persName> et <persName
+            ref="#Ferrinus">Ferrino</persName>, recipientibus pro dicto domino episcopo et suis
+          successoribus, omnia que superius leguntur, prout suprascripti omnes alii
+            <roleName>operarii</roleName> iuraverunt et promiserunt, perpetuo rata habere, attendere
+          et observare atque in nullo contravenire simul atque quisque pro se, approbantes totum et
+          quicquid predicti fecerant cum dicto domino episcopo, ut supra legitur, obligando etiam se
+          suosque heredes, sicut predicti fecerant et ad eamdem penam. Ego <persName
+            ref="#Confortusnot">Confortus, <roleName>sacri palatii et Lunensis curie
+              notarius</roleName></persName>, hiis omnibus interfui rogatus et de voluntate
+          contrahentium de isto contractu plures cartas uno tenore scripsi.</p>
+      </div>
+      <div xml:id="CI_div2" type="autentica">
+        <p xml:id="CI_p_007" n="7">
+          <ptr target="#CI_st_002"/>Ego <persName ref="#PinosiusIacopinusnot">Pinosius nomine
+            Iacopinus</persName>, <roleName>Romanorum imperatoris notarius</roleName>, auttenticum
+          huius exempli vidi et legi et ut in eo continebatur in hoc scripsi, nichil addens vel
+          minuens quod mutet sensum vel minuat intellectum.</p>
+        <p xml:id="CI_p_008" n="8">
+          <ptr target="#CI_st_003"/>Ego <persName ref="#Prefectusnot">Prefectus, <roleName>domini
+              imperatoris atque Lunensis curie notarius</roleName></persName>, huius exempli
+          autenticum vidi atque legi et in eo subscripsi, signum proprium apponendo.</p>
+        <p xml:id="CI_p_009" n="9">
+          <ptr target="#CI_st_004"/> Ego <persName ref="#Bonencontrusnot">Bonencontrus de <placeName
+              ref="#Soliera">Soleria</placeName>, <roleName>aule sacre
+            notarius</roleName></persName>, auttenticum huius exempli vidi et legi, in quo
+          continetur ut in isto legitur, atque rogatus subscripsi, signum proprium apponendo
+            <note>Autentica databile con incertezza tra il 3 aprile 1212 e 1237, ultima data in cui
+            è attestato il notaio Bonencontrus de Soleria <date notBefore="1212-04-03"
+              notAfter="1237-12-31" cert="low"/></note>.</p>
+      </div>
+
+    </body>
+  </text>
+</TEI>

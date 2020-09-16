@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXI_273">
+    <front xml:id="CCCXI_front">
+
+      <titlePart type="numerazioneNuova">273</titlePart>
+      <titlePart type="numerazioneOrig">CCCXI</titlePart>
+
+      <docDate xml:id="CCCXI_docDate">
+        <date when="1235-01-14">1235 gennaio 14</date></docDate>
+
+
+      <div type="regesto" xml:id="CCCXI_regesto">
+        <p>Guglielmo, vescovo di Luni, loca in perpetuo a Vivaldo di Polverara del fu Pugneto un
+          pezzo di terra in parte boscosa e in parte coltivata posta sul poggio di Nicola al fitto
+          della terza parte dei prodotti. Vivaldo dichiara di non essere vassallo di alcuno ma di
+          esserlo della curia di Luni per la terra suddetta. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCXI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 286v., c. CCLXXVIIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 311,
+            p. 290.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <term xml:lang="latin">Im Nichola</term>. Il
+            14 gennaio 1235 cadeva di sabato e non di domenica. Il documento è privo di data topica.
+              <p>Stesura <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla presenza di
+              Bonagiunta de Podio di Lucca.</p> Parte del testo è stata letta con l’ausilio della
+            luce di Wood. </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCXI.
+              Locationis poderis Vivaldi de Nicola ad tertium.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXI_div">
+        <p xml:id="CCCXI_p_001" n="1">In Dei nomine, amen. <date when="1235-01-14">Millesimo CCXXXV,
+            indictione VIII, die dominico, XIIII mensis intrantis ianuarii</date>. <persName
+            ref="#VivaldusPugneti">Vivaldo de <placeName ref="#Polverara">Polverara</placeName>
+            quondam Pugneti</persName> et eius heredibus, masculis et feminis, in perpetuum dedit,
+          cessit et locavit venerabilis <persName ref="#GuilEpLuni">Guilielmus, <roleName>Dei gratia
+              Lunensis episcopus</roleName></persName>, per se suosque successores, petiam I terre,
+          partim nemorose et partim campate, que est duo iugera, sita<note xml:id="CCCXI_n_001"
+            n="a" place="foot"><term xml:lang="latin">sita</term>: <emph>così nel
+            testo</emph>.</note> in pogio de <placeName ref="#Nicola">Nichola</placeName>, salvo
+          plure, cui sunt fines superius filii quondam <persName ref="#Prodomus">Prodomi</persName>
+          et filii quondam <persName ref="#Benvenutus">Benvenuti</persName>, a pede est canale, ab
+          una parte <persName ref="#Ferrarius">Ferrarius</persName> et ab alia filii<note
+            xml:id="CCCXI_n_002" n="b" place="foot"><term xml:lang="latin">a pede-ab alia
+              filii</term>: <emph>la scrittura sembra abrasa volutamente</emph>.</note> quondam
+            <persName ref="#DominicusArea">Dominici de <placeName ref="#Ara"
+            >Area</placeName></persName>, et si qui alii sint fines, cum accessibus et regressibus
+          et cetera, ad habendum, tenendum, laborandum, meliorandum et non deteriorandum et cetera,
+          et potestatem inde tenutam intrandi ei dedit et se eius nomine interim constituit
+          possidere et cetera, promittens legitimam deffensionem suis expensis sollempniter vel
+          restituere sumptus omnes, reddendo exinde omni anno, temporibus congruis, terciam partem
+          omnium fructuum dicte terre locate perpetuum eidem curie Lunensi et cui dedit; alia
+          superimposita exinde non fiat. Confitendo et protestando se non esse hominem vel vassallum
+          alterius persone et pro ipsa terra debet esse et voluit vassallus Lunensis curie et domini
+          episcopi contra omnes homines et loca. Ambe partes omnia hec inter se sibi vicissim
+          stipulantes attendere promiserunt, sub pena <measure type="Imperiales" quantity="40"
+            unit="solidus">XL soldorum imperialium</measure> et, ea soluta, rato manente pacto,
+          coram domino <persName ref="#SalomonLucanus">Salomone</persName> et <persName
+            ref="#RollandusVagi">Rollando Vago</persName>, <placeName ref="#Lucca"
+            >Lucanis</placeName>, <persName ref="#AttolinusCacti">Attolino quondam
+          Caccii</persName>, <persName ref="#GuiçolinusNichola">Guiçolino</persName> et <persName
+            ref="#BonnomusNichola">Bonnomo de <placeName ref="#Nicola"
+            >Nichola</placeName></persName>, testibus.</p>
+      </div>
+      <div xml:id="CCCXI_div2" type="mundum">
+        <p xml:id="CCCXI_p_002" n="2"><ptr target="#CCCXI_st_001"/> Ego <persName
+            ref="#HengeramusParentisnot">Hengheramus quondam Parentis de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName>, <roleName>palatii sacri
+              notarius</roleName></persName>, hanc cartam, olim a <persName ref="#Bonencontrusnot"
+            >Bonencontro de <placeName ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et autenticavi et
+          in publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+          domino <persName ref="#Bonaiunctaiud">Bonaiuncta de <placeName ref="#PodioLucca">Podio de
+              Luca</placeName>, <roleName>iudice</roleName></persName> in <orgName
+            ref="#Lunigiana_provincia">provincia <placeName ref="#Lunigiana"
+            >Lunisiane</placeName></orgName> pro venerabili patre domino <persName ref="#GuilEpLuni"
+            >Guilielmo, <roleName>Lunensi episcopo</roleName></persName>, et <placeName ref="#Lucca"
+            >Lucano</placeName>
+          <orgName ref="#Lucca_comune">communi</orgName>, de qua auctoritate constat per
+          instrumentum publicum factum manu <persName ref="#Alcheriusnot">Alcherii
+              <roleName>notarii</roleName> de <placeName ref="#Lucca"
+            >Luca</placeName></persName><note>Stesura <emph>in mundum</emph> del documento n.
+            273-CCCXI databile tra il 1270 e il 1272 dalla presenza di Bonagiunta de Podio di Lucca
+              <date notBefore="1270-01-01" notAfter="1272-12-31" cert="medium"/></note>.. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

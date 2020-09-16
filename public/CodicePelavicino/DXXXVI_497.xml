@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXXXVI_497">
+    <front xml:id="DXXXVI_front">
+
+      <titlePart type="numerazioneNuova">497</titlePart>
+      <titlePart type="numerazioneOrig">DXXXVI</titlePart>
+
+      <docDate xml:id="DXXXVI_docDate">
+        <date when="1211-12-19">1211 dicembre 19</date>, <placeName ref="#Lucca">Lucca <emph>(<term
+              xml:lang="latin">infra Lucensem civitatem, in palacio Lucensis
+            episcopatus</term>)</emph>.</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="DXXXVI_regesto">
+        <p>Vertendo una lite tra il monastero di Aulla, rappresentato dal monaco Vernacio, e il
+          vescovo di Luni, rappresentato da Peregrino prete di S. Cassiano di Pontemoli, il vescovo
+          di Lucca Roberto, su incarico di papa Innocenzo III, pronuncia la sentenza. Il monastero
+          di Aulla chiedeva che la chiesa e cappella di S. Alessandro gli fosse restituita o che, in
+          alternativa, gli fossero restituite le cappelle di Verpiana e di Aulla che erano state
+          date al vescovo in commutazione, ma vescovo di Lucca sentenzia che le richieste del
+          monastero di Aulla non debbano essere accettate. </p>
+      </div>
+
+      <div type="footer" xml:id="DXXXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 397v.-398r., cc. CCCLXXXVIIIIv.- CCCLXXXXr. secondo la numerazione
+            originale.</p>
+        </div>
+
+
+        <div type="biblio">
+          <p>Edizione in: <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 536, pp.
+            599-601 con la data 18 dicembre.</p>
+
+        </div>
+
+        <div type="crit_notes">
+          <p>Il giorno è il 19 e non il 18 dicembre, come già osservato da <ref
+              target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 36. Per l’incarico dato da Innocenzo III
+            al vescovo di Lucca si veda il documento 498-DXXXVII</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXXXVI.
+              Petitio sindici de Avula ut episcopus faceret quod monasterium et possessionem haberet
+              de dictas capitulis</term></p>
+        </div>
+
+
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DXXXVI_div">
+        <p xml:id="DXXXVI_p_001" n="1">
+          <ptr target="DXXXVI_st_001"/> In Christi nomine, amen. Lis et controversia, que vertebatur
+          inter <persName ref="#Vernacius_monacus">Vernacium</persName>
+          <roleName>monachum, syndicum</roleName>
+          <orgName ref="#Aulla_S_Caprasio">monasterii de <placeName ref="#Aulla"
+            >Avula</placeName></orgName>, pro ipso monasterio litigantem, ex una parte, et <persName
+            ref="#Peregrinus_syndicus">Peregrinum</persName>, <roleName>syndicum, responsalem domini
+            Lunensis episcopi</roleName>, pro Lunensi episcopatu, delata atque commissa fuit a
+            <roleName>domino <persName ref="#InnocentiuspontifexIII">Innocentio</persName>, summo
+            pontifice</roleName>, <roleName>domino <persName ref="#RobertusepiLuc"
+              >Roberto</persName>, Lucensi episcopo</roleName>, ut in litteris bullatis continetur,
+          terminanda. Que talis erat: «<persName ref="#Vernacius_monacus">Vernacius</persName>
+          <roleName>monachus, syndicus</roleName>
+          <orgName ref="#Aulla_S_Caprasio">monasterii de <placeName ref="#Aulla"
+            >Avula</placeName></orgName>, pro ipso monasterio petit ut <orgName
+            ref="#Pontremoli_S_Alessandro">ecclesia et cappella</orgName>, cum omnibus suis
+          pertinenciis, <orgName ref="#Pontremoli_S_Alessandro">Sancti Alexandri</orgName>
+          restituatur in integrum ipsi monasterio, quoniam pro eius commutatione monasterium in
+          duplum deceptum est vel graviter dampnificatum, et pacta et commutationes et promissiones
+          observata non fuerunt; si autem appareret quod restitui non deberet, petit ut episcopus
+          Lunensis faciat ita quod dictum monasterium <orgName>cappellas de <placeName
+              ref="#Valle_Plana">Valle Plana</placeName></orgName> et de <placeName ref="#Aulla"
+            >Avula</placeName>, que in commutatione venerunt, in pace et quiete possideat <note
+            place="foot" n="a" xml:id="DXXXVI_n_001">possideat: de <emph>corretto su precedente
+              scrittura</emph>.</note>, et illud in vacuam possessionem mittat, sicut abbas episcopo
+          fecit. Hoc petit <pb n="398r" xml:id="fol_398r"/> a domino episcopo Lunensi et
+          archipresbytero <orgName ref="#Urceola_S_Cassiano">Sancti Cassiani</orgName> de <placeName
+            ref="#Pontremoli">Pontremulo</placeName> et a cappellano <orgName
+            ref="#Pontremoli_S_Alessandro">Sancti Alexandri</orgName> petit ut hec fieri permittant
+          et non contradicant, et super hoc implorat officium domini episcopi Lucani, iudicis
+          delegati, salvo iure plus addendi. Item petit ipsam commutationem rescindi et dictam
+            <orgName ref="#Pontremoli_S_Alessandro">ecclesiam Sancti Alexandri</orgName> sibi
+          restitui, quia commutatio fuit facta de spiritualibus ad temporalia». <persName
+            ref="#Peregrinus_syndicus">Peregrinus</persName>, <roleName>presbyter</roleName>
+          <orgName ref="#S_Colombano">Sancti Columbani</orgName>, <roleName>sindycus sive
+            responsalis vel procurator</roleName> constitutus a domino e piscopo Lunensi, ab
+          archipresbytero et cappellano <orgName ref="#Pontremoli_S_Alessandro">Sancti
+            Alexandri</orgName> opponit male et inepte petere et per falsitatem litteras
+          commissiones impetratas <note place="foot" n="b" xml:id="DXXXVI_n_002"> per falsitatem
+            litteras commissiones impetratas:<emph>così nel testo.</emph></note>, ideoque se non
+          compellandum respondere. Et cum fiat petitio, de quo commissio facta non est, et quia
+          abbati contra suum factum venire non licet, et si appareat se debere respondere, salvis
+          remanentibus omnibus dictis exceptionibus, negat se pro dictis personis aliqua dictarum
+          petitionum teneri, cum episcopus dictum abbatem in possessionem dicte cappelle miserit et
+          deceptio nulla in dicto contractu fuit et iamdictam cappellam, quam episcopus in
+          permutationem recepit, alii ecclesie <note place="foot" n="c" xml:id="DXXXVI_n_003">alii
+            ecclesie: <emph>così nel testo.</emph></note> tradidit. Quam litem seu lites diligenter
+          examinatas atque discussas, visis et auditis allegationibus utriusque partis et testibus
+          hinc inde receptis et diligenter examinatis, habito quoque consilio sapientum, ego
+            <persName ref="#RobertusepiLuc">Rubertus</persName>, <roleName>in Dei nomine Lucensis
+            episcopus</roleName>, ex delegatione domini pape cognoscens, in <note place="foot" n="d"
+            xml:id="DXXXVI_n_004">in: i <emph>corretta su precedente scrittura</emph>.</note> nomine
+          Domini, amen, per sententiam sic diffinio, videlicet predictum <persName
+            ref="#Peregrinus_syndicus">Peregrinum</persName>, <roleName>syndicum sive
+            responsalem</roleName> domini Lunensis episcopi, et ipsum Lunensem episcopatum a
+          iamscripta petitione, quam predictus <persName ref="#Vernacius_monacus"
+            >Vernacius</persName>, <roleName>syndicus</roleName>
+          <orgName ref="#Aulla_S_Caprasio">monasterii de <placeName ref="#Aulla"
+            >Avula</placeName></orgName>, pro ipso monasterio faciebat de ecclesia et cappella
+            <orgName ref="#Pontremoli_S_Alessandro">Sancti Alexandri</orgName>, cum omnibus suis
+          pertinenciis, absolvo et ab omnibus aliis presentibus petitionibus predictum <persName
+            ref="#Peregrinus_syndicus">Peregrinum</persName>, pro ipso episcopo et pro
+          archipresbytero et cappellano Sancti Alexandri respondentem, absolvo. Quod factum est
+          infra <placeName ref="#Lucca">Lucensem civitatem</placeName>, in palacio Lucensis
+          episcopatus, in presentia <persName ref="#Opichus_canonicus">Opichi</persName>
+          <roleName>canonici</roleName>, <roleName>magistri</roleName>
+          <persName ref="#RollandusSanctiPetri">Rollandi</persName>
+          <orgName ref="#Corsena_S_Pietro">Sancti Petri de <placeName ref="#Corsena"
+              >Carsena</placeName></orgName>, <persName ref="#MelioreVenture">Melioris quondam
+            Venture</persName>, <persName ref="#MinutusBuchicalis"> Minuti quondam
+            Buchicalis</persName>, <persName ref="#Saricinus"> Sarracini</persName> et aliorum,
+            <date when="1211-12-19">anno dominice nativitatis M°CCXI, XIIII kalendas ianuarii,
+            indictione XV.</date></p>
+        <p xml:id="DXXXVI_p_002" n="2">
+          <ptr target="DXXXVI_st_002"/> Ego <persName ref="#Vuilielmusnot6">Vilielmus</persName>,
+            <roleName>iudex et notarius domini imperatoris</roleName>, predictis petitioni et
+          sententie interfui et, ex iussione predicti domini episcopi Lucensis, hec in publicam
+          scripturam redegi. </p>
+      </div>
+
+    </body>
+  </text>
+</TEI>

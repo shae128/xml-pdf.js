@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DVII_468">
+    <front xml:id="DVII_front">
+
+      <titlePart type="numerazioneNuova">468</titlePart>
+      <titlePart type="numerazioneOrig">DVII</titlePart>
+
+      <docDate xml:id="DVII_docDate">
+        <date when="1181-03-07">1181 marzo 7, <placeName ref="#Sarzana">Sarzana (<term
+              xml:lang="latin">apud Sarzanam, in ecclesia Sancti Basilii</term>)</placeName></date>
+      </docDate>
+
+      <div type="regesto" xml:id="DVII_regesto">
+        <p> A seguito delle lite vertente tra il vescovo di Luni Pietro e i signori di Fosdinovo -
+          Gerardo e Atto figli del fu Guglielmo, Montanino figlio del fu Gaforio e suo figlio
+          Gaforio - sorta per il possesso di un bosco, gli arbitri eletti dalle parti - Ribello di
+          Groppo di San Pietro e Pietro di Arcola – hanno sentito alcuni testimoni. Le due parti
+          convengono che, tramite la mediazione di due fedeli della curia di Luni - Gerardo del fu
+          Napo e Bullione del fu Gerardo di Arcola - i signori di Fosdinovo cedano al vescovo i
+          diritti sul bosco in cambio di 12 lire di denari imperiali. Si disegnano i confini del
+          bosco da cui è eccettuato il prato di Montorbolo e il castagneto dato dal vescovo a
+          Gotefredo del fu Gaforio di Fosdinovo. Sono infine elencati i nomi dei testimoni sentiti
+          dai due arbitri. </p>
+      </div>
+
+      <div type="footer" xml:id="DVII_footer">
+        <div type="orig_doc">
+          <p> Copia [C] cc. 378r.-378v., cc. CCCLXXr.-CCCLXXv. secondo la numerazione originale.
+          </p>
+        </div>
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 507,
+            pp. 538-540.</p>
+          <p>Bibliografia: <ref target="#SALVATORI_2002">SALVATORI 2002</ref>; <ref
+              target="#ZOPPI_2003">ZOPPI 2003</ref>.</p>
+        </div>
+        <div type="crit_notes">
+          <p> Nel margine interno, di mano pressoché coeva: <term xml:lang="latin"
+            >confines</term>.Nel margine esterno, di mano moderna: <term xml:lang="latin">De
+              nemoribus que tenent illi de Fosdenova. </term>Segue, di altra mano: <term
+              xml:lang="latin">Instrumento e laudo degno d’essere considerato per le differenze che
+              nascono tuto il giorno tra gli huomini di Castelnovo e quelli di Fosdinovo; qui si
+              diffiniscono le confini dell’una e l’altra giurisdizione</term>. </p>
+          <p> La descrizione dei confini del bosco ricalca quella presente nei documenti
+            231-CCLXVIIII e 470-DVIIII. </p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXVII.
+              Donatio quam fecit Lumbardellus de Burçono condam Peregrini domino P(etro), Lunensi
+              episcopo, de parte sua castri Brine et pertinentiarum. </term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="DVII_div">
+        <p xml:id="DVII_p_001" n="1">
+          <pb n="378r" xml:id="fol_378r"/>
+          <ptr target="#DVII_st_001"/>In Christi nomine. Cum inter venerabilem <persName
+            ref="#PetrusEpLuni">Petrum</persName>, <roleName>Lunensem episcopum</roleName>, ab una
+          parte, et dominos de <placeName ref="#Fosdinova">Faucenova</placeName>, ab alia, videlicet
+            <persName ref="#GerardusFaucenova">Gerardum</persName> et <persName ref="#AttoFaucenova"
+            >Attonem, germanos, filios quondam Guilielmi</persName>, et <persName
+            ref="#MontaninusFaucenova">Montaninum, filium quondam Gafori</persName>, una cum filio
+          suo <persName ref="#GaforiusFaucenova">Gaforo</persName>, contentio verteretur in
+          presentia nobilium virorum <persName ref="#RibellusGroppo">Ribelli de <placeName
+              ref="#GroppoSP">Groppo Sancti Petri</placeName></persName> et <persName
+            ref="#PetrusArcola">Petri de <placeName ref="#Arcola">Arcula</placeName></persName>, qui
+          de voluntate utriusque partis ad hanc contentionem cognoscendam et diffiniendam fuerant
+          convocati, atque hinc inde testes ab eis fuissent recepti super eadem controversia,
+          scilicet cuiusdam nemoris quod protenditur per terminos a testibus inferius designatos,
+          placuit et bona convenit voluntate inter ipsum dominum episcopum et predictos dominos de
+            <placeName ref="#Fosdinova">Faucenova</placeName> quod, mediantibus nobilibus viris
+          fidelibus curie Lunensis, videlicet <persName ref="#GerardusNaponis">Gerardo quondam
+            Naponis</persName> et <persName ref="#BullioneGerardi">Bullione quondam Gerardi de
+              <placeName ref="#Arcola">Arcula</placeName></persName>, ipsi predicti domini
+          acceperint ab ipso predicto episcopo <measure type="imperiales" quantity="12" unit="libra"
+            >bonorum denariorum imperialium libras XII</measure> amicabili conventione et quod ipsi
+          predicti domini de <placeName ref="#Fosdinova">Faucenova</placeName> finem et refutationem
+          fecerint de toto nemore quod in contentione vertebatur, sicut a testibus per terminos et
+          confines inferius designatum est, ut a presenti die in antea, in perpetuum, liceat
+          prelibato domino episcopo suisque successoribus sive cui dederint vel commiserint habere
+          in tranquilla pace et quiete tenere, possidere, perfrui totum in integrum, cum
+          accessionibus et ingressibus et regressibus suis et cum superioribus et inferioribus suis,
+          quemadmodum idem nemus protenditur per confines et terminos a testibus inferius
+          designatos, sine omni suprascriptorum dominorum de <placeName ref="#Fosdinova"
+            >Faucenova</placeName> et heredum ipsorum contradictione. Preterea, si quid iuris vel
+          actionis forte in ipso nemore quovis ingenio haberent vel habere deberent, ipsi vel
+          aliquis aut aliqui per eos sive eorum heredes sive per feudum sive quocumque modo totum
+          transtulerint, dederint atque mandaverint predicto episcopo faciendi quod voluerit exinde
+          ipse et successores illius sive cui dederint vel commiserint, sine omni illorum heredum
+          ipsorum contradictione. Equidem spoponderunt atque promiserunt a presenti die in antea,
+          nullo numquam in tempore, per se neque per suos heredes neque per aliquam submissam
+          personam exinde predictum dominum episcopum sive suos successores vel cui dederint
+          molestare aut inquietare seu per placitum fatigare, set exinde taciti et contenti omni
+          tempore permanere, et quod a presenti die in antea nichil liceat eis quovis modo habere in
+          predicto nemore, quod protenditur per terminos et confines a testibus designatos, neque
+          uti nec ipsis nec alicui pro ipsis, nisi de manifesta voluntate et concessione predicti
+          domini episcopi vel sui successoris, cum stipulatione subnixa. Designatio facta a
+          testibus, quorum nomina in subsequenti scripta adesse noscuntur, de quibus superius
+          habetur memoria, talis est: «Id est a termino de <placeName ref="#StancaCaballo"
+            >Stancacaballo</placeName>, ubi est diffinitio inter homines de <placeName ref="#Pulica"
+            >Pulica</placeName> et homines de <placeName ref="#Vallecchia2">Vallecla</placeName>, et
+          exinde veniendo ad terminum <placeName ref="#AqueNigre">Aque Nigre</placeName>, ubi est
+          diffinitio inter homines de <placeName ref="#Casapoci">Casapozi</placeName> et illos de
+            <placeName ref="#Vallecchia2">Vallecla</placeName>, sicut est versus <placeName
+            ref="#Valmaiore">Valmaiorem</placeName>, et veniendo per viam publicam seu per stratam
+          versus <placeName ref="#FauxMontorbolo">Faucem de Montorbulo</placeName> et eundo usque ad
+          terminum de <placeName ref="#Collentento">Collentento</placeName>, sicut continetur
+            <supplied reason="omitted">infra</supplied> hos confines, id est versus <placeName
+            ref="#Valmaiore">Valmaiorem</placeName>, ad quem terminum de <placeName
+            ref="#Collentento">Collentento</placeName> est diffinitio inter homines de <placeName
+            ref="#Fosdinova">Faucenova</placeName> et illos de <placeName ref="#Vallecchia2"
+            >Vallecla</placeName>, et revertendo de <placeName ref="#Collentento"
+            >Collentento</placeName> versus <placeName ref="#MonteLeone">Monleonem</placeName>
+            usque<note place="foot" n="a" xml:id="DVII_n_001">usque: s <emph>aggiunta in
+              sopralinea.</emph></note> ad terminum in locum dictum <placeName ref="#Cernetorio"
+            >Cernitore</placeName> seu ad terminum in locum dictum <placeName ref="#Vallecchia2"
+            >Valli</placeName>, subter <placeName ref="#MonteLeone">Monleonem</placeName>, ubi est
+          diffinitio inter homines de <placeName ref="#Vallecchia2">Vallecla</placeName> et illos de
+            <placeName ref="#Marciano">Marciano</placeName>». Et hoc totum quod continetur infra hos
+          predictos terminos et fines atque coherencias predicti domini de <placeName
+            ref="#Fosdinova">Faucenova</placeName>, per se et per suos heredes, prefato domino
+          episcopo reliquerunt in pace et quiete et amicabiliter refutaverunt et exinde finem
+          fecerunt, sicut superius legitur, excepto prato de <placeName ref="#FauxMontorbolo"
+            >Montorbulo</placeName> et castagneto quod ab episcopo <persName
+            ref="#GotifredusfrGafori">Gotefredo quondam Gaforo</persName> de <placeName
+            ref="#Fosdinova">Faucenova</placeName> fuit concessum. Nomina vero testium sunt hec que
+          secuntur, videlicet <persName ref="#CiconusVallecla">Ciconus de <placeName
+              ref="#Vallecchia2">Vallecla</placeName></persName>, <persName
+            ref="#SegnoretusVallecla">Segniretus de <placeName ref="#Vallecchia2"
+              >Vallecla</placeName></persName>, <persName ref="#SegnorinusVallecla">Segniorinus de
+              <placeName ref="#Vallecchia2">Vallecla</placeName></persName>, <persName
+            ref="#MimonusVallecla">Minonus de <placeName ref="#Vallecchia2"
+            >Vallecla</placeName></persName>, <pb n="378v" xml:id="fol_378v"/><persName
+            ref="#BernardusVallecla">Bernardus de <placeName ref="#Vallecchia2"
+            >Vallecla</placeName></persName><note place="foot" n="b" xml:id="DVII_n_002">Vallecla:
+              <emph>seguono</emph> Seniretus de Vallecla, Seniorinus de Vallecla
+              <emph>espunti.</emph></note>, <persName ref="#Andrionus">Andrionus</persName>,
+            <persName ref="#CicolusCotiano">Cicolus de <placeName ref="#Cothalo"
+            >Cotiano</placeName></persName>, <persName ref="#GandolusSporliano">Gandolus de
+              <placeName ref="#Sporliano">Sporliano</placeName></persName>, <persName
+            ref="#AmigenusSporliano">Amigenus de <placeName ref="#Sporliano"
+            >Sporliano</placeName></persName>, <persName ref="#GerardusCodesorbo">Gerardus de
+              <placeName ref="#Codesorbo">Codesorbo</placeName></persName>, <persName
+            ref="#PlacentinusVallecla">Placentinus de <placeName ref="#Vallecchia2"
+              >Vallecla</placeName></persName>, <persName ref="#LambernonusVallecla">Lambertionus de
+              <placeName ref="#Vallecchia2">Vallecla</placeName></persName>, <persName
+            ref="#TrumpusVallecla">Trumpus de <placeName ref="#Vallecchia2"
+            >Vallecla</placeName></persName>, <persName ref="#MarchesinusVallecla">Markesinus de
+              <placeName ref="#Vallecchia2">Vallecla</placeName></persName>. Hec autem compositio et
+          amicabilis pactio atque transactio et refutatio a nobilibus viris fidelibus curie,
+            <persName ref="#GerardusNaponis">Gerardo videlicet quondam Naponis</persName> de
+            <placeName ref="#GroppoSP">Groppo Sancti Petri</placeName> et <persName
+            ref="#BullioneSarzana">Bullione de <placeName ref="#Sarzana"
+            >Sarzana</placeName></persName>, ex voluntate utriusque partis atque consensu diligenter
+          est pertractata secundum quod superius in hac carta continetur, finita atque disposita,
+          terminata atque completa. Pactum est hoc <date when="1181-03-07">anno milleno centeno
+            octogesimo primo, indictione XIIII, die sabbati, qui fuit VII intrante martio</date>,
+          feliciter, apud <placeName ref="#Sarzana">Sarzanam</placeName>, in <orgName
+            ref="#Sarzana_S_Basilio">ecclesia Sancti Basilii</orgName>, ex voluntate utriusque
+          partis. </p>
+        <p xml:id="DVII_p_002" n="2"> # Signa manus iamscripti <persName ref="#BullioneSarzana"
+            >Bullionis</persName>, qui per se et socium <persName ref="#GerardusNaponis">Gerardo
+            videlicet quondam Naponis</persName>, ex voluntate utriusque partis et iamscripti domini
+          episcopi et iamscriptorum dominorum de <placeName ref="#Fosdinova">Faucenova</placeName>,
+          qui omnes hanc cartulam fieri rogaverunt. # # Signa manuum <persName ref="#Bonifaciuscan"
+            >Bonifacii</persName>
+          <roleName>canonici Lunensis</roleName>, <persName ref="#VillanusSarzana">Villani de
+              <placeName ref="#Sarzana">Sarzana</placeName></persName>, <persName
+            ref="#BonacursusSygebaldi">Bonacursi quondam Sygebaldi de <placeName ref="#Garfagnana"
+              >Garfagnana</placeName></persName>, rogatorum testium. </p>
+        <p xml:id="DVII_p_003" n="3">
+          <ptr target="#DVII_st_002"/> Ego <persName ref="#Lombardusnot">Lombardus</persName>,
+            <roleName>notarius imperatoris et Lunensis curie</roleName>, mandato predicti <persName
+            ref="#BullioneSarzana">Bullionis</persName> et utriusque partis rogatu, hanc cartam
+          compositionis, finis atque refutationis scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

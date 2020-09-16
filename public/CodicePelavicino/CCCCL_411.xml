@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="411(CCCCL).xsl"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="CCCCL_411">
+        <front xml:id="CCCCL_front">
+            <titlePart type="numerazioneNuova">411</titlePart>
+            <titlePart type="numerazioneOrig">CCCCL</titlePart>
+            <docDate xml:id="CCCCL_docDate">
+                <date when="1241-07-14">1241 luglio 14</date>, <placeName>Vezzano <emph>(<term
+                            xml:lang="latin">ad Vezanum, in domo Frederici et fratris quon
+                            Comitis</term>)</emph></placeName>
+            </docDate>
+            <div type="regesto" xml:id="CCCCL_regesto">
+                <p>Il notaio Giacobino<term xml:lang="latin">del fu Bonaparte</term>di Santo Stefano
+                    dichiara di aver ricevuto da suo cognato Aldovrandino <term xml:lang="latin">del
+                        fu Vivaldo</term> di Lamberto di Vezzano quaranta soldi imperiali, tra
+                    denaro e oggetti, come dote della moglie Gisla. <term xml:lang="latin"/>
+                </p>
+            </div>
+            <div type="footer" xml:id="CCCCL_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] c. 352v., c. CCCXLIIIv. secondo la numerazione originale </p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 450, pp.460-461. </p>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <emph>IIIIc L. Dotis
+                            Guisle, uxoris Iacopini de Sancto Stephano.</emph></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="CCCCL_div">
+                <p xml:id="CCCCL_p_001" n="1">
+                    <pb xml:id="fol_352v" n="352v"/>
+                    <ptr target="#CCCCL_st_001"/>In nomine Domini. Ego <persName
+                        ref="#IacobinusBonapartisnot">Iacobinus
+                        <roleName>notarius</roleName></persName>
+                    <persName ref="#Bonapars">quondam Bonapartis de <placeName ref="#Santo_Stefano"
+                            >Sancto Stephano</placeName></persName> confiteor in veritate me
+                    accepisse et habuisse a te <persName ref="#AldebrandinusVivaldi">Aldevrandino,
+                        cognato meo, filio quondam domini Vivaldi</persName>
+                    <persName ref="#LambertusVezano">de Lamberto de <placeName ref="#Vezzano"
+                            >Vezano</placeName></persName>, solvente mihi nomine et vice <persName
+                        ref="#Gisla">Gisle</persName>, sororis tue, uxoris et dilecte sponse mee,
+                    pro dotibus suis et nomine dotium suarum, inter denarios et robas, iuste
+                    apreciatas, <measure type="imperialum" quantity="40" unit="librarum">libras XL
+                        imperialium</measure>, de quibus me bene qui enim<note n="a" place="foot"
+                        xml:id="CCCCL_01"><emph>così nel testo per </emph>quietum,<emph>il copista
+                            ha frainteso</emph>.</note> et solutum voco, abrenunciando exceptioni
+                    non numerate vel non solute pecunie seu non acceptarum dotium. Pro quibus libris
+                    XL imperialium ego predictus <persName ref="#Iacobinusnot">Iacobinus
+                    </persName>facio tibi <persName ref="#AldebrandinusVivaldi"
+                        >Aldevrandino</persName>, recipienti nomine et vice predicte <persName
+                        ref="#Gisla">Gisle</persName>, dilecte uxoris et sponse mee, donationem
+                    nomine antefacti propter nuptias de <measure type="imperialum" quantity="20"
+                        unit="librarum">libris XX imperialium</measure>, pro quibus omnibus libris
+                    seu denariis, tam dotis quam antefacti, obligo tibi <persName
+                        ref="#AldebrandinusVivaldi">Aldevrandino</persName>, recipienti nomine et
+                    vice predicte <persName ref="#Gisla">Gisle</persName>, dilecte uxoris et sponse
+                    mee, pignori omnia mea bona habita et habenda, secundum morem et consuetudinem
+                    Lunensis episcopatus, abrenunciando omni auxilio legum et capituli quo me tueri
+                    possum. Actum ad <placeName ref="#Vezzano">Vezanum</placeName>, in domo
+                        <persName ref="#FedericusComitis">Frederici</persName> et fratris quondam
+                    domini <persName ref="#Comes">Comitis</persName>, <date when="1241-07-14">anno
+                        dominice nativitatis M°CCXLI, indictione XIIII, die dominico, XIIII intrante
+                        iulio</date>. Interfuerunt testes <roleName>dominus</roleName>
+                    <persName ref="#RollandusGuillelmiVezano">Rollandus quondam domini Guilielmi
+                        Albi de <placeName ref="#Vezzano">Vezano</placeName></persName>, <persName
+                        ref="#FedericusComitis">Fredericus quondam domini Comitis</persName>,
+                        <persName ref="#UgolinusMercadantis">Ugolinus quondam Mercadantis</persName>
+                    <note n="b" place="foot" xml:id="CCCCL_02"><emph>Nel testo</emph>Ugolinus
+                        quondam Mercadantis, Fredericus quondam domini Comitis <emph>con segno di
+                            richiamo per invertire l’ordine delle parole.</emph></note>, <persName
+                        ref="#BenedictusSStephano">Benedictus de <placeName ref="#Santo Stefano"
+                            >Sancto Stephano</placeName></persName>, <persName
+                        ref="#BenvenutusSegnorini">Benvenutus quondam Segnorini de <placeName
+                            ref="#Vezzano">Vezano</placeName></persName>. Ego <persName
+                        ref="#Iohannesnot">Iohannes</persName>, <roleName>notarius sacri
+                        palacii</roleName>, hanc cartam rogatus scripsi </p>
+            </div>
+        </body>
+    </text>
+</TEI>

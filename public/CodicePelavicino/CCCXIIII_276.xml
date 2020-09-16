@@ -1,0 +1,193 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXIIII_276">
+    <front xml:id="CCCXIIII_front">
+
+      <titlePart type="numerazioneNuova">276</titlePart>
+      <titlePart type="numerazioneOrig">CCCXIIII</titlePart>
+
+      <docDate xml:id="CCCXIIII_docDate">
+        <date when="1180-11-12">1180 novembre 12</date>, <placeName>Carrara (<emph>Carrarie, in
+            curia Veciali</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXIIII_regesto">
+        <p>Memoria del patto siglato tra vescovo conte di Luni Pietro e alcuni <term
+            xml:lang="latin">milites</term> – i figli del fu Rollando, i figli del fu Ranuccino di
+          Carrara e i rispettivi eredi - che vogliono edificare un borgo presso il corso d’acqua
+          Avenza e la costa. Nel patto si stabilisce che il vescovo avrà il dominio del borgo, delle
+          piazze, dei suburbi e delle opere di difesa così come le tasse indirette derivanti da
+          attività commerciali, mercantili e giudiziarie; acquisterà tutta la terra dai proprietari
+          al valore stabilito da buoni uomini; terrà per sé la quarta parte del luogo e gli anfratti
+            (<term xml:lang="latin">grotacias</term>) che sono vicino alla foce del fiume e al lido
+          del mare ove costruirà a suo piacimento; le rimanenti parti saranno date in feudo ai
+          suddetti <term xml:lang="latin">milites</term>. Tutti gli abitanti del borgo giureranno
+          fedeltà al vescovo e di difendere l’abitato e le sue fortificazioni; in cambio il vescovo
+          assicurerà loro protezione nel borgo e nelle sue pertinenze eccetto che per i colpevoli di
+          determinati delitti. La metà dei proventi sarà versata ai suddetti <term xml:lang="latin"
+            >milites</term> salvo quelli derivati dalle sanzioni per i reati. Il vescovo si impegna
+          a non dare il borgo in feudo ad altri senza il consenso della controparte. Se un viandante
+          o un pellegrino muore nel borgo al vescovo andranno due terzi dei suoi beni e un terzo a
+          chi ospita. Non esisterà alcuna chiesa fuori dal controllo del vescovo e, dopo che il
+          sacerdote vi sarà istituito, i suddetti milites riceveranno un terzo dei proventi
+          derivanti da avventori, viandanti, mercanti e pellegrini, eccetto per chi proviene da
+            <term xml:lang="latin">Xago</term> e <term xml:lang="latin">Trepuncio</term>, nel qual
+          caso la cessione è della metà. Le due controparti si impegnano a non ospitare nel borgo
+          alcun nemico reciproco e, senza il mutuo consenso, nemmeno un affiliato. Se qualcuno dei
+            <term xml:lang="latin">milites</term> verrà condannato per tradimento o per la
+          distruzione del luogo i suoi beni e diritti andranno al vescovo. Non vi sarà alcun console
+          se non per volontà del vescovo e a lui fedele.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 289r.-289v., c. CCLXXXIr.-CCLXXXIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizioni: <ref target="#SFORZA_1890-1891">SFORZA 1890-1891</ref>, p. 132; <ref
+              target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 314, pp. 297-300; <ref
+              target="#CONTI_1979-1988">CONTI 1979-1988</ref>, I, doc. XVI, pp. 79-84.</p>
+          <p>Bibliografia: <ref target="#SALVATORI_2007">SALVATORI 2007</ref>; <ref
+              target="#RICCI_2012">RICCI 2012</ref>. </p>
+        </div>
+
+        <div type="crit_notes">
+          <note>L’indizione (bedana) corrisponde all’anno secondo lo stile dell’incarnazione
+            fiorentino; per <ref target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 22 l’indizione
+            sarebbe invece erronea. Nel margine esterno, di mano moderna: <term xml:lang="latin"
+              >burgum Aventie et Carraria</term>. </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCXIIII. Burci novi de Aventia.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXIIII_div">
+        <p xml:id="CCCXIIII_p_001" n="1"><ptr target="#CCCXIIII_st_001"/> In nomine Domini, amen.
+          Breve recordationis de conventione et pacto quod factum est a domino <persName
+            ref="#PetrusEpLuni">Petro, <roleName>Dei gratia Lunensi episcopo et eiusdem comitatus
+              comite</roleName></persName>, ad memoriam retinendam futuris temporibus, inter ipsum
+          episcopum et milites atque alios qui burgum, de voluntate et consensu predicti episcopi,
+          hedificare volunt iuxta aquam <placeName ref="#Avenza">Aventie</placeName> et iuxta litus
+          maris. Dominus episcopus totum dominium et districtum in integrum in ipso burgo habebit et
+          in plateis et in suburbiis, que ibi fuerint. Porte vero et munitiones eiusdem loci et
+          eorum custodia sunt domini episcopi; et si dominus episcopus voluerit facere munitionem in
+          portis vel in aliqua parte muri eiusdem burgi erit domini episcopi. Cambi<supplied
+            reason="omitted">a</supplied>tores, macellarii, furni, molendina, ripe, mercati,
+          curatura, banna, districtus, douana, falsatores, fures, homicide, tricatores, traditores,
+          adulteri publici et periuri publici sunt domini episcopi. Et quia dominus episcopus
+          propriam ibi terram non habebat<note xml:id="CCCXIIII_n_001" n="a" place="foot"><term
+              xml:lang="latin">habebat</term>: h <emph>corretta su precedente
+            scrittura.</emph>.</note>, ab illis quorum erat terra, in qua prenominatus burgus est
+          situs, in ius et proprietatem atque dominium suum et suorum successorum et Lunensis
+          Ecclesie totam illam terram recepit, dato salvo cambio illis, secundum quod tunc valebat
+          in extimatione bonorum virorum. Quartam vero partem tocius burgi et grotacias, que sunt
+          iuxta faucem fluminis et in litore maris, ultra ipsam quartam, sibi dominus episcopus
+          retinuit; in qua quarta et in grotacia dominus episcopus faciet casamenta et hedificia
+          secundum quod sibi placuerit. Reliquas vero tres partes in feudum dedit dominus episcopus
+          filiis quondam <persName ref="#Rollanduscarr">Rollandi</persName> et filiis quondam
+            <persName ref="#RanucinusCarr">Ranucini de <placeName ref="#Carrara"
+              >Carraria</placeName></persName> et eorum heredibus. Omnes vero habitatores eiusdem
+          loci fidelitatem iurabunt episcopo, qui pro tempore fuerit, et burgum et munitiones contra
+          omnes homines <supplied reason="omitted">defendere</supplied>. Ipse vero episcopus
+          habitatoribus eiusdem burgi et in ipso burgo consistentibus securitatem faciet infra
+          septam burgi per aliquem de fidelibus suis, exceptis homicidis, tricatoribus, falsariis,
+          traditoribus, furibus et raptum de mulieribus facientibus. Et medietatem omnium proventuum
+          dominus episcopus dabit in feudum filiis iamscripti <persName ref="#RollandusCarr"
+            >Rollandi</persName> et filiis <persName ref="#RanucinusCarr">Ranucini</persName> et
+          suis heredibus, hoc excepto quod homicide, tricatores, falsarii, traditores, fures, raptum
+          facientes de muliere, adulteri publici et periuri publici, qui episcopo remanebunt. <pb
+            n="289v" xml:id="fol_289v"/> Ipse vero dominus episcopus custodiam burgi sive munitionis
+          nec in feudum dare nec aliquo titulo alienare vel etiam commutare, sine consilio et
+          voluntate iamscriptorum militum eiusdem burgi, poterit. Et si viator vel peregrinus ibidem
+          obierit, due partes earum rerum quas habuerit erunt domini episcopi et tercia hospitis.
+          Ecclesia ibidem nulla erit que non sit episcopi, et ius ipsius ecclesie et patronatus
+          tantum ad episcopum pertinebit; et postquam ecclesia ibidem facta fuerit et presbyter
+          ibidem institutus terciam partem concedet<note xml:id="CCCXIIII_n_002" n="b" place="foot"
+              ><term xml:lang="latin">concedet</term>: <emph>manca probabilmente</emph>
+            <term xml:lang="latin">eis</term>.</note> dominus episcopus de eo quod provenerit de
+          advenis, peregrinis sive mercatoribus et viatoribus. Si quid vero de <placeName
+            ref="#Xago">Xago</placeName> a <placeName ref="#Treponçum">Trepuncio</placeName> usque
+          ad <placeName ref="#Avenza">Aventiam</placeName> advenerit, medietatem in integrum dominus
+          episcopus sibi retinuit et aliam medietatem iamscriptis et<note xml:id="CCCXIIII_n_003"
+            n="c" place="foot"><term xml:lang="latin">et</term>: <emph>segno tachigrafico per</emph>
+            <term xml:lang="latin">et</term>
+            <emph>aggiunto in sopralinea, con segno di richiamo</emph>.</note> eorum heredibus in
+          feudum concessit. Dominus vero episcopus in ipso burgo aliquem extraneum, si publicus
+          inimicus iamscriptorum fuerit, postquam requisitus fuerit, non recipiet nec retinebit.
+          Ipsi etiam nullum inimicum domini episcopi recipient vel retinebunt ibidem, postquam eis
+          fuerit denunciatum per ipsum vel per aliquem suum certum missum. Consortem vero nec
+          dominus episcopus aliquem nec aliquis iamscriptorum militum nec eorum heredum, sine
+          communi consensu et voluntate tam domini episcopi quam supradictorum militum, recipere
+          poterit. Si quis iamscriptorum militum vel eorum heredum convictus fuerit de proditione
+          sive de destructione eiusdem loci vel alicuius ipsius munitionis, quicquid iuris in ipso
+          loco habet ad proprietatem et dominium episcopii<note xml:id="CCCXIIII_n_004" n="d"
+            place="foot"><term type="incerto">episcopii</term>: <emph>così nel testo</emph>.</note>
+          et comitis devolvetur. Consul ibidem nullus erit, nisi de voluntate et consilio domini
+          episcopi aut certi sui nuncii ad hoc destinati<note xml:id="CCCXIIII_n_005" n="e"
+            place="foot"><term xml:lang="latin">nuncii ad hoc destinati</term>: <emph>nel
+              testo</emph>
+            <term xml:lang="latin">ad hoc destinati nuncii</term>, <emph>con segno di richiamo per
+              invertire l’ordine delle parole</emph>.</note> et qui fidelitatem domino episcopo
+          iuraverit. Hec omnia ut<note xml:id="CCCXIIII_n_006" n="f" place="foot"><term
+              xml:lang="latin">ut</term>: <emph>aggiunto in sopralinea con segno di
+            richiamo</emph>.</note> firmius in posterum teneantur et nec ab aliquo episcopo vel
+          habitatoribus eiusdem loci possint vel debeant immutari sine communi consensu et voluntate
+          tam episcopi quam consortum eiusdem loci, hanc cartulam per manum <persName
+            ref="#Lombardusnot">Lombardi <roleName>notarii</roleName></persName> scribi et firmari
+          iussimus et sigilli nostri munimine roboravimus.</p>
+        <p xml:id="CCCXIIII_p_002" n="2">Actum est hoc <date when="1180-11-12">anno incarnationis
+            dominice millesimo C octogesimo, indictione XIIII, in die mercurii qui fuit XII intrante
+            novembre</date>, feliciter, <placeName ref="#Carrara">Carrarie</placeName>, in
+            <placeName ref="#Veçale">curia Veciali</placeName>, presentibus et confirmantibus
+            <persName ref="#ArduinusVallecla">Arduino de <placeName ref="#Vallecchia2"
+              >Vallecla</placeName> filio quondam Bononi</persName>, <persName ref="#CuffusMalunto"
+            >Cuffo de Malunto<note xml:id="CCCXIIII_n_007" n="g" place="foot"><term xml:lang="latin"
+                >Malunto</term>: <emph>nel testo</emph>
+              <term xml:lang="latin">Malunlto</term>
+              <emph>con</emph> l <emph>depennata</emph>.</note></persName> pro se et suo consorte
+            <persName ref="#Albertinus">Albertino</persName>, <persName ref="#RaimundinusPerr"
+            >Raimundino de <placeName ref="#Petrognano">Perrognano</placeName><note
+              xml:id="CCCXIIII_n_008" n="h" place="foot"><term type="incerto">Perrognano</term>:
+                <emph>così nel testo probabilmente per</emph>
+              <term xml:lang="latin">Petrognano</term>.</note></persName> pro se et suis fratribus
+          et pro suo nepote <persName ref="#GuidoIacopini">Guidone, filio quondam
+            Iacopini</persName>, et <persName ref="#UgoMachetus">Ugone Macheto filio quondam
+            Guidonis Rubei</persName>, pro se et pro suo nepote, filio quondam <persName
+            ref="#Iordanus">Iordanis</persName>.</p>
+        <p xml:id="CCCXIIII_p_003" n="3"># Signa manuum domini episcopi et suprascriptorum consortum
+          insimul contrahentium, qui hanc cartulam fieri rogaverunt.</p>
+        <p xml:id="CCCXIIII_p_004" n="4"># # Signa manuum <persName ref="#Bonifaciuscan">Bonifacii,
+              <roleName>Lunensis canonici</roleName></persName>, <persName ref="#Sismunduscam"
+            >Sismundi <roleName>camerlengii</roleName></persName>, <persName ref="#Henricusvic"
+            >Henrici <roleName>vicedomini</roleName></persName>, <persName ref="#UgoMelice">Ugonis
+            Melice</persName>, Bonioccursi nepotis domini episcopi, rogatorum testium.</p>
+        <p xml:id="CCCXIIII_p_005" n="5"><ptr target="#CCCXIIII_st_002"/> Ego <persName
+            ref="#Lombardusnot">Lombardus, <roleName>domini imperatoris et Lunensis curie
+              notarius</roleName></persName>, interfui et rogatus hanc cartulam scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

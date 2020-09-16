@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="XXX_59">
+		<front xml:id="XXX_front">
+
+			<titlePart type="numerazioneNuova">59</titlePart>
+			<titlePart type="numerazioneOrig">XXX</titlePart>
+
+			<docDate xml:id="XXX_docDate">
+				<date when="1066-01-19">1066 gennaio 19</date>, <placeName ref="#Regnano">Regnano
+						(<term xml:lang="latin">infra castellum Rengnanum</term>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="XXX_regesto">
+				<p>Guiterno del fu Guido di Regnano dona all’episcopato di Luni il castello di
+					Regnano e tutte le altre sue proprietà poste a Regnano, <term xml:lang="latin"
+						>Valerio</term>, <term xml:lang="latin">Petevasia</term>, Vigneta, Reusa,
+						<term xml:lang="latin">Aquilliana</term>, Offiano, <term xml:lang="latin"
+						>Acruce</term>, <term xml:lang="latin">Arenriano</term>, Albiano, <term
+						xml:lang="latin">Sermeriano</term>, Turlago, <term xml:lang="latin"
+						>Nazo</term>, vicino a Montefiore, Tea e in Alpe. </p>
+			</div>
+
+			<div type="footer" xml:id="XXX_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] cc. 117r.-117v., cc. CVIIIIr.-CVIIIIv. secondo la numerazione
+						originale. </p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 30,
+						pp. 45-46.</p>
+				</div>
+
+				<div type="crit_notes">
+					<note>Nel margine interno di c. 117r., di mano moderna: <emph><term
+								xml:lang="latin">opidum Regnani est episcopatui donatum
+							a</term></emph> (segue parola di difficile lettura) </note>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">XXX. Regnani.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="XXX_div">
+				<pb n="117r" xml:id="fol_117r"/>
+				<p xml:id="XXX_p_001">In nomine Domini Dei et Salvatoris nostri Iesu Christi, <date
+						when="1066-01-19">anno ab incarnatione Eius millesimo LXVI, quarto decimo
+						kalendas februarii, indictione quarta</date>. Ego <persName
+						ref="#GuiternusGuidonis">Guiternus, filius qondam Guidonis de <placeName
+							ref="#Regnano">Rengnano</placeName></persName>
+					<supplied reason="omitted">qui</supplied> professus sum ex natione mea lege
+					vivere Langobardorum, presentibus dixi: <q rend="pre(«) post(»)">Vita et mors in manu Dei est; melius
+						est enim hominem metu mortis vivere quam spem vivendi morte subitanea
+						mori</q>
+				</p>
+				<p xml:id="XXX_p_002">Manifestum est mihi eo quod volo dare et tradere et concedere
+					episcopio Sancte Marie Lunensis ecclesie, vel<note xml:id="XXX_n_001" n="a"
+						place="foot">vel:<emph>così nel testo probabilmente per</emph>
+						videlicet</note> castellum, quod <note xml:id="XXX_n_002" n="b" place="foot"
+						>quod: d <emph>corretto su precedente scrittura.</emph></note> habeo
+					edificatum in loco qui dicitur <placeName ref="#Regnano">Rengnano</placeName>,
+					cum turre et muris et casis et omnibus edificiis et laboribus atque fossatis et
+					monte et poio et ripis, quod est desupra per fossas et de ambabus <note
+						xml:id="XXX_n_003" n="c" place="foot">ambabus:<emph>così nel testo
+							per</emph> ambo bus</note> lateribus per rivos iuxta currentes, infra
+					has fines, totum in integrum, per anime mee remedium; et iterum volo et statuo
+					seu iudico atque confirmo an <note xml:id="XXX_n_004" n="d" place="foot">an:
+							<emph>così nel testo.</emph></note> isto episcopio Sancte Marie Lunensis
+					ecclesie vel omnes casas et res meas, tam donnicatas quam et massaricias, que
+					mihi pertinent et pertinere debent aliquo modo sive aliquo iure, que esse
+					videntur in locis et fundis <placeName ref="#Regnano">Rengnano</placeName>,
+						<placeName ref="#Valerio">Valerio</placeName>, <placeName ref="#Petevasia"
+						>Petevasia</placeName>, <placeName ref="#Ugnita">Ungnita</placeName>,
+						<placeName ref="#Revesa">Revesa</placeName>, <placeName ref="#Aquilliana"
+						>Aquilliana</placeName>, <placeName ref="#Offiano">Offiano</placeName>,
+						<placeName ref="#Cruce3">a Cruce</placeName>, <placeName ref="#Arenriano"
+						>Arenriano</placeName>, <placeName ref="#Albiano2">Albiano</placeName>,
+						<placeName ref="#Sermeriano">Sermeriano</placeName>, <placeName
+						ref="#Turanlago">Turanlago</placeName>, <placeName ref="#Nazo"
+						>Nazo</placeName> et iuxta <placeName ref="#Monteflore"
+						>Monteflor</placeName> et in <placeName ref="#Teura">Teura</placeName> et in
+						<placeName ref="#Alpes">Alpe</placeName>, que pertinet de <placeName
+						ref="#Valerio">Valerio</placeName> atque per alia cetera loca et vocabula
+					ubicumque de rebus michi, ut dictum est, aliquo modo vel iure pertinere invente
+					fuerint, ut dictum est, tam castro, cum omnibus suis pertinentiis et omnibus
+					aliis rebus, tam casis, cum sedilibus<note xml:id="XXX_n_005" n="e" place="foot"
+							>sedilibus:<emph> così nel testo per</emph>sediminis</note> atque
+					vineis, cum areis suarum, terris arabili<supplied reason="omitted"
+					>bu</supplied>s, pratis, pascuis, silvis, buscareis, cum areis earum, ripis,
+					rupinis, paludibus, montibus, alpibus, divisis et indivisis, cursibus aquarum,
+						atqueductibus<note xml:id="XXX_n_006" n="f" place="foot"
+							>atqueductibus:<emph> così nel testo per</emph> aqueductibus</note>,
+					molendinis, piscationibus, una cum finibus et terminibus et accessionibus et cum
+					omni iure servitutis deducendi, agendi et edificandi, et cum omnibus earum
+					pertinenciis in integrum, una cum accessionibus et ingressibus earum et cum
+					superioribus et inferioribus earum rerum, ut ab hac <note xml:id="XXX_n_007"
+						n="g" place="foot">hac:<emph> seguono alcune lettere depennate ed
+							abrase.</emph></note> die in eadem ecclesia episcopatus Sancte Marie
+					Lunensis ecclesie ad habendum atque tenendum atque possidendum atque faciendum
+					quod voluerint, sine omni mea atque heredum meorum contradictione, | <pb
+						n="117v" xml:id="fol_117v"/> quia taliter in omnibus sic mea decrevit
+					voluntas per anime mee mercedem. Hanc enim cartulam ordinationis mee paginam
+						<persName ref="#Bernardus_notarius3">Bernardo<roleName> notario atque
+							iudici</roleName></persName> tradidi atque scribere rogavi, in qua etiam
+					subter confirmans, testibus atque obtuli roborandum. </p>
+				<p xml:id="XXX_p_003">Actum infra istum castellum <placeName ref="#Regnano"
+						>Rengnanum</placeName>, feliciter. </p>
+				<p xml:id="XXX_p_004">Signo <note xml:id="XXX_n_008" n="g" place="foot">signo:
+							<emph>così nel testo.</emph></note> manus istius <persName
+						ref="#GuiternusGuidonis">Guiterni</persName>, qui hanc cartulam iudicati
+					atque voluntatis eius fieri rogavi. </p>
+				<p xml:id="XXX_p_005">Signum manuum <persName ref="#Mainardus">Mainardi</persName>
+					atque <persName ref="#Aldeprandus">Aldeprandi</persName> atque <persName
+						ref="#Turnolus">Turnoli</persName> et <persName ref="#Sigefredus"
+						>Sigefredi</persName> omnium rogatorum testium. </p>
+				<p xml:id="XXX_p_006"><ptr target="XXX_st_001"/>Scripsi ego <persName
+						ref="#Bernardus_notarius3">Bernardo, <roleName>notarius atque
+							iudex</roleName></persName>, rogatus post traditam complevi atque
+						dedit<note xml:id="XXX_n_009" n="h" place="foot">dedit: <emph>così nel
+							testo.</emph></note>
+				</p>
+			</div>
+		</body>
+	</text>
+</TEI>

@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CLVII_175">
+    <front xml:id="CLVII_front">
+
+      <titlePart type="numerazioneNuova">175</titlePart>
+      <titlePart type="numerazioneOrig">CLVII</titlePart>
+
+      <docDate xml:id="CLVII_docDate">
+        <date when="1275-08-26">1275 agosto 26</date>, <placeName>Borgonuovo <emph>(<term
+              xml:lang="latin">in Burgonovo, in casamento Martignoni quondam
+          Martini</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CLVII_regesto">
+        <p>Caudasio detto Alberto, Salado e Zapironello detto Pirolo, figli del fu Attocanino <term
+            xml:lang="latin">de Masio</term>, cedono a Lombardo del fu Ugolino <term
+            xml:lang="latin">de Ticçano</term>, abitante a Borgonovo, che agisce a nome di Enrico,
+          vescovo di Luni, tutti i diritti che detenevano in feudo dal vescovo in Ponzanello, in
+          particolare sugli eredi dei defunti Venuto di Ponzanello, Iacopinello, Gerardino Feretto
+          di Ponzanello, Baudezo, Aidante Gondeto di Ponzanello e su Bonavere del fu Grimaudo di
+          Ponzanello, oltre che su tutti gli altri vassalli in Ponzanello e nel distretto. Caudasio,
+          Salado e Zapironello dichiarano che tali diritti rappresentano la quarta parte <term
+            xml:lang="latin">pro indiviso</term> del diritto che deteneva il defunto <term
+            xml:lang="latin">dominus</term> Parente di Terrarossa, padre di Attocanino. Il prezzo
+          della cessione ammonta a 40 soldi in denari genovesi.<term xml:lang="latin"/></p>
+      </div>
+
+      <div type="footer" xml:id="CLVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [CP] cc. 247v.-248r., cc. CCXXXVIIIIv.- CCXLr. secondo la numerazione
+            originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 157,
+            p. 193.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CLVII_div">
+        <p xml:id="CLVII_p_001" n="1"><pb n="247v" xml:id="fol_247v"/>In nomine Domini, amen.<date
+            when="1275-08-26">M°CCLXXV, indictione IIIa, die VII kalendas septembris</date>. Pro
+            precio<note place="foot" n="a" xml:id="CLVII_n_001"><term xml:lang="latin"
+              >Precio</term><emph>: segue non depennato </emph><term xml:lang="latin"
+            >atque</term></note> vendictionis <measure type="ianuenses" quantity="40" unit="denari"
+            >soldorum XL bonorum denariorum Ianuensium</measure>, quos denarios <persName
+            ref="#CaudaxiusActocanini">Caudaxius, qui prenominatur Albertus</persName>, et <persName
+            ref="#SaladusActocanini">Saladus</persName> et <persName ref="#ÇapironellusActocanini"
+            >Çapironellus, qui prenominatur Pirolus, fratres, filii quondam Actocanini de <placeName
+              ref="#Masio">Masio</placeName></persName>, simul fuerunt confessi et manifesti sese
+          habuisse et recepisse a <persName ref="#LumbardusUgolini">Lumbardo, habitatore de
+              <placeName ref="#Borgonuovo">Burgonovo</placeName>, quondam Ugolini de <placeName
+              ref="#Ticçano">Ticçano</placeName></persName>, dante et solvente nomine et vice
+          venerabilis patris domini <persName ref="#HenricusEpLuni">Henrici, Dei gratia
+              <roleName>Lunensis episcopi</roleName></persName>, et emente, renunciando exceptioni
+          non numerate pecunie et suprascripti precii non habiti et soluti et omni eorum iuri et
+          legum auxilio atque deffensioni et auxilio nove et veteris constitutionis et de duobus
+          reis et iuri minoritatis, confitentes suprascripti <persName ref="#CaudaxiusActocanini"
+            >Caudaxius</persName> et <persName ref="#SaladusActocanini">Saladus</persName> sese esse
+          maiores, quilibet eorum, viginti Vque annorum, et dictus <persName
+            ref="#ÇapironellusActocanini">Çapironellus</persName> confitendo se esse maior<supplied
+            reason="omitted">em</supplied> XIIII annorum et renunciando quicquid totum pro sese vel
+          aliquis pro eis possent numquam contra hec aliqua et suprascriptam confessionem facere vel
+          venire ullo tempore, aliqua occasione vel modo, vendiderunt, dederunt et tradiderunt et
+          refutaverunt et concesserunt in perpetuum, per sese <supplied reason="omitted"
+            >et</supplied> eorum heredes simul, suprascripto <persName ref="#LumbardusUgolini"
+            >Lumbardo</persName>, semper recipienti nomine atque vice dicti domini episcopi et
+          successorum eius et pro Lunensi ecclesia et cui dare voluerint, nominatim, omnia et
+          singula eorum iura, actiones et rationes, utiles et directas, quam<note place="foot" n="b"
+            xml:id="CLVII_n_002"><term type="incerto">quam</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">que</term></note> vel quas ipsi fratres habebant vel habere
+          debebant et ad eos quoquomodo spectaba<supplied reason="omitted">n</supplied>t seu
+            spectare<note place="foot" n="c" xml:id="CLVII_n_003"><term xml:lang="latin"
+              >spectare</term>: c <emph>aggiunto in sopralinea.</emph></note> debeba<supplied
+            reason="omitted">n</supplied>t occasione dicti <persName ref="#ActocaninusMasio"
+            >Actocanini</persName>, patris eorum, vel alia quacumque occasione feudi vel feudorum,
+          fidelitatis et fidelitatum, specialiter in heredibus quondam <persName
+            ref="#VenutusPonzanello">Venuti de <placeName ref="#Ponzanello"
+            >Ponzanello</placeName></persName> et quondam <persName ref="#Iacobinellus"
+            >Iacopinelli</persName> et in heredibus quondam <persName ref="#GerardinusFerreti"
+            >Gerardini Feretti de <placeName ref="#Ponzanello">Ponzanello</placeName></persName> et
+          in nepotibus suis et in heredibus quondam <persName ref="#Baudezonus">Baudeçoni</persName>
+          atque in heredibus quondam <persName ref="#AidansGondeti">Aidantis Gondeti</persName>
+          dicti loci et in <persName ref="#BonavereGrimandi">Bonavere quondam Grimandi</persName>
+          dicti loci et in omnibus aliis vassallis et singulis, quos haberent in <placeName
+            ref="#Ponzanello">Ponzanello</placeName> et districtu ipsius castri. Qui suprascripti
+          fratres eorum portionem esse dicebant in predictis vassallis feudi et fidelitatis quartam
+          partem pro indiviso tocius illius iuris quod olim dominus <persName
+            ref="#ParensTerrarossa">Parens de <placeName ref="#Terrarossola"
+            >Terrarossa</placeName></persName>, pater quondam dicti <persName
+            ref="#ActocaninusMasio">Actocanini</persName>, feudi fidelitatis et vassallatici tantum
+          habebat in predictis vassallis et in eorum maioribus habuit. Quos vassallos et iura et
+          dictam quartam partem suprascripti fratres fuerunt confessi et manifesti sese tenere in
+          feudo a dicto domino episcopo et a dicta ecclesia, ita ut amodo in perpetuum dictus
+          dominus episcopus et eius successores et cui dare voluerint, nomine et vice dicte ecclesie
+          et pro ipsa ecclesia, dictam vendictionem et refutationem, cum omni iure et actione ad eas
+          pertinentibus, in integrum habeant, teneant, fruantur et possideant et ex omni iure
+          proprie quicquid voluerint faciant absque suprascriptorum fratrum et eorum heredum
+          contradictione. Et fecerunt datum dicto <persName ref="#LumbardusUgolini"
+            >Lumbardo</persName>, ut dictum est recipienti, ut dictus dominus episcopus et eius
+          successores inde possint agere, causare, petere, deffendere contra quamlibet personam et
+          personas sicut eis placuerit, constituentes dictum dominum episcopum inde procuratorem et
+          dominum ut in rem suam propriam et dicte ecclesie, et quod de predictis tenutam accipiat,
+          quando voluerit, corporalem, sua propria auctoritate. Et interim sese dicti fratres
+          precario nomine constituerunt possidere donec dictus dominus episcopus de predictis
+          tenutam acceperit <pb n="248r" xml:id="fol_248r"/>corporalem, et inde dicti fratres
+          remiserunt necessitatem denunciandi et remiserunt titulo inter vivos donationis nomine ei
+            <persName ref="#LumbardusUgolini">Lumbardo</persName>, ut dictum est recipienti, totum
+          et quicquid plus valebat venditio suprascripta ultra dimidiam partem suprascripti precii.
+          Promiserunt quoque et convenerunt suprascripti <persName ref="#CaudaxiusActocanini"
+            >Caudaxius</persName>, <persName ref="#SaladusActocanini">Saladus</persName> et
+            <persName ref="#Çapironellus">Çapironellus</persName> sese et eorum heredes et omnia
+          eorum bona, habita et habenda, obligando dicto <persName ref="#LumbardusUgolini"
+            >Lumbardo</persName>, semper ut dictum est recipienti, dictam venditionem eorum propriis
+          expensis et iudice ubique eorum propriis expensis, ut dictum est, iure deffendere et
+          disbrigare ab omni contradicente persona; quod, si nollent facere vel non possent, dabunt
+          inde salvum cambium in bonis eorum et loco consimili, sub iusta bonorum hominum
+          extimatione. Que et quas omnia hec et singula<note place="foot" n="d" xml:id="CLVII_n_004"
+              ><term xml:lang="latin">que et quas omnia hec et singula</term><emph>: così nel
+              testo.</emph></note> dicti fratres simul convenerunt atque promiserunt, sub
+          obligatione predicta et in pena et sub pena suprascripti precii, in perpetuum attendere
+          atque observare et non contravenire, que pena tociens committatur et e<supplied
+            reason="omitted">xi</supplied>gi possit contra effectum quociens fuerit contra factum et
+          pro quolibet capitulo non observato; pena soluta vel non, hec omnia semper firma
+          permaneant. Qui suprascripti <persName ref="#SaladusActocanini">Saladus</persName> et
+            <persName ref="#Çapironellus">Çapironellus</persName> hec omnia suprascripta eorum
+          propria manu iuraverunt, tacto libro, in perpetuum attendere et non contravenire, si Deus
+          eos adiuvet, eorumque sancta Dei Evangelia, renunciando l(egi) C(odicis) <term
+            type="simbolo">§</term>
+          <cit type="codexGiust">
+            <quote rend="pre(«) post(»)">emptor</quote>
+          </cit>, <cit type="codexGiust">
+            <quote rend="pre(«) post(»)">communia de legatis</quote>
+          </cit> et <cit type="codexGiust">
+            <quote rend="pre(«) post(»)">de evictionibus</quote>
+          </cit>, <cit type="codexGiust">
+            <quote rend="pre(«) post(»)">si fundum</quote>
+          </cit><note place="foot" n="1" xml:id="CLVII_n_005"><p>Citazioni dal Codice di
+              Giustiniano, in particolare il paragrafo Emptor, della constitutio Si duobus, Codex
+              Communia de legatis (Cod., 6.43.3.4) e la constitutio Si fundum, Codex De evictionibus
+              (Cod. 8.44.27).</p></note>.</p>
+        <p xml:id="CLVII_p_002" n="2">Actum stipulatim<note place="foot" n="e" xml:id="CLVII_n_006"
+              ><term xml:lang="latin">stipulatim</term><emph>: così nel testo.</emph></note> in
+            <placeName ref="#Borgonuovo">Burgonovo</placeName>, in casamento <persName
+            ref="#MartignonusMartini">Martignoni quondam Martini</persName>, presentibus <persName
+            ref="#Bonguido">Bonguido, habitatore dicti loci, quondam Dominici</persName> et filio
+          suo <persName ref="#SabbattellusBonguidi">Sabbatello</persName> et <persName
+            ref="#VitaPiçolboni">Vita dicti loci quondam Piçolboni</persName>, testibus ad hec
+          rogatis.</p>
+        <p xml:id="CLVII_p_003" n="3"><ptr target="#CLVII_st_001"/> Ego <persName
+            ref="#Conradinusnot">Conradinus, <roleName>notarius illustris et summi Henrici
+              regis</roleName></persName>, hiis interfui et hanc cartam rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

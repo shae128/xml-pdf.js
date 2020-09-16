@@ -1,0 +1,531 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="CCCXLVIIII_311">
+		<front xml:id="CCCXLVIIII_front">
+
+			<titlePart type="numerazioneNuova">311</titlePart>
+			<titlePart type="numerazioneOrig">CCCXLVIIII</titlePart>
+
+			<docDate xml:id="CCCXLVIIII_docDate">
+				<date notBefore="1150" notAfter="1200">&lt;seconda metà del sec. XII&gt;</date>,
+					
+			</docDate>
+
+			<div type="regesto" xml:id="CCCXLVIIII_regesto">
+				<p>Elenco di uomini appartenenti al piviere di Carrara.</p>
+			</div>
+
+			<div type="footer" xml:id="CCCXLVIIII_footer">
+				<div type="orig_doc">
+					<p>Copia [C] CP cc. 306r.-307r., cc. CCLXXXXVIIIr.-CCLXXXXVIIIIr. secondo la
+						numerazione originale</p>
+				</div>
+
+				<div type="biblio">
+					<p> Notizia in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 349,
+						p. 335.</p>
+				</div>
+				<div type="crit_notes">
+					<p>Il documento è privo di data cronica e topica, oltre che di sottoscrizione
+						notarile. L’ampia datazione proposta deriva dalla constatazione che il
+						figlio di uno dei personaggi elencati - Agustinus Tremecellus – è nominato
+						in un altro documento datato alla prima metà del XIII secolo, anch’esso per
+						via induttiva (doc. 308–CCCXXXXVI).</p>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">CCCXLVIIII. Hominum curtis Carrarie
+						memoriale.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="CCCXLVIIII_div">
+				<p xml:id="CCCXLVIIII_p_001">Homines de plebebe<note xml:id="CCCXLVIIII_n_001" n="a"
+						place="foot"><term xml:lang="latin">plebebe</term>: <emph>così nel testo
+							per</emph> plebe</note>
+					<placeName ref="#Carrara"> Carrarie</placeName>.</p>
+				<p xml:id="CCCXLVIIII_p_002">§ Ad <placeName ref="#Fonti">Funti</placeName>:
+						<persName ref="#Ugolinus">Ugolinus</persName>, <persName ref="#Blancus"
+						>Blancus</persName>, <persName ref="#Bursinus">Bursinus</persName>,
+						<persName ref="#Guiscardus">Wiscardus<note xml:id="CCCXLVIIII_n_002" n="b"
+							place="foot">
+							<term xml:lang="latin">Wiscardus</term>:<emph>la prima</emph> s <emph>in
+								sopralinea.</emph></note></persName>, <persName ref="#Iohanninus"
+						>Iohanninus</persName>, <persName ref="#Bosulinus">Bosolinus</persName>,
+						<persName ref="#Marchesina">Markesina</persName>, <persName ref="#Matolinus"
+						>Matolinus</persName>, <persName ref="#Paganellus">Paganellus</persName>,
+						<persName ref="#Statius">Statius</persName>.</p>
+				<p xml:id="CCCXLVIIII_p_003"><supplied reason="omitted">§</supplied> Ad <placeName
+						ref="#Torrecla">Torreclam</placeName>: <persName ref="#Belletus"
+						>Belletus</persName>, <persName ref="#Panicolus">Panicolus</persName>,
+						<persName ref="#Losignolus">Losignolus</persName>, <persName
+						ref="#Armniardula">Armniardula</persName>, <persName ref="#Muzeconus"
+						>Muzeconus</persName>, <persName ref="#Armingardina"
+					>Armingardina</persName>, <persName ref="#Casalinus">Casalinus</persName>,
+						<persName ref="#Martinetus">Martinetus</persName>.</p>
+				<p xml:id="CCCXLVIIII_p_004">§ Ad <placeName ref="#Querca">Quercam</placeName>:
+						<persName ref="#Vitaletus">Vitaletus</persName>, <persName
+						ref="#Bonussenior">Bonussenior</persName>, <persName ref="#Dominicus"
+						>Dominicus</persName>, <persName ref="#Cafadiolus">Cafadiolus</persName>,
+						<persName ref="#Adalgrinus">Adalgrinus</persName>, <persName
+						ref="#Minicucius">Minicucius</persName>.</p>
+				<p xml:id="CCCXLVIIII_p_005">§ Ad <placeName ref="#Consi">Consi</placeName>: uxor <!-- vedi nota per "uxor Seniorelli -->
+					<persName ref="#Segnorellus" cert="medium">Seniorelli</persName>, <persName
+						ref="#Vivianus">Vivianus</persName>, <persName ref="#Brunus"
+						>Brunus</persName>, <persName ref="#Cicolus">Çicolus</persName>, <persName
+						ref="#Guidolotus">Guidolotus<note xml:id="CCCXLVIIII_n_003" n="c"
+							place="foot">
+							<term xml:lang="latin">Guidolotus</term>:i <emph>aggiunta nel margine
+								esterno con segno di richiamo.</emph></note></persName>.</p>
+				<p xml:id="CCCXLVIIII_p_006">§ Ad <placeName ref="#Lotignano">Lutignana</placeName>:
+						<persName ref="#GuilielmusAlbrico">Guilielmus de <placeName ref="#Albrico"
+							>Albrico</placeName></persName>, <persName ref="#Butrigellus"
+						>Butrigellus</persName>, <persName ref="#Oliverius">Oliverius</persName>,
+						<persName ref="#Sensus">Sensus</persName>, <persName ref="#Villanus"
+						>Villanus</persName>, <persName ref="#Bonus">Bonus</persName>, <persName
+						ref="#Bonencasa">Bonencasa</persName>, <persName ref="#Ugolinus"
+						>Ugolinus</persName>, <persName ref="#Pillitius" cert="medium"
+						>Pillitio</persName>, <persName ref="#Vitaletus">Vitaletus</persName>,
+						<persName ref="#Moregnanus">Moregnanus</persName>, <persName ref="#Amatus"
+						>Amatus</persName>, <persName ref="#VitaletusPlaça">Vitaletus de <placeName
+							ref="#Plaça">Plaça</placeName></persName>, <persName ref="#Fuscolus"
+						>Fuscolus</persName>, <persName ref="#Guilielmus">Guilielmus</persName>,
+						<persName ref="#Agustinus">Agustinus</persName>, <persName ref="#Losius"
+						>Losius</persName>, <persName ref="#UgolinusFicolungo">Ugolinus de
+							<placeName ref="#Ficolungo">Ficolungo</placeName></persName>, <persName
+						ref="#Alegretus">Alegretus</persName>, <persName ref="#Gerardinus"
+						>Girardinus</persName>, <persName ref="#GuilielmusFactore">Guilielmus de
+						Factore</persName>, <pb n="306v" xml:id="fol_306v"/>
+					<persName ref="#Torreculus">Torreculus</persName>, <persName
+						ref="#VitaletusPira">Vitaletus de <placeName ref="#Pira"
+						>Pira</placeName></persName>, <persName ref="#Barus">Barus</persName>,
+						<persName ref="#VitaletusPerbeçola">Vitaletus de <placeName ref="#Perbeçola"
+							>Perbeçola</placeName></persName>.</p>
+				<p xml:id="CCCXLVIIII_p_007">§ Ad <placeName ref="#Ficola">Ficolam</placeName>:
+						<persName ref="#Barotellus">Barosellus</persName>, <persName
+						ref="#Ubertellus">Ubertellus</persName>, <persName ref="#BonfiliolusMolino"
+						>Bonfilolus de <placeName ref="#Molino">Molino</placeName></persName>,
+						<persName ref="#PocobellaMolino">Pocobella de <placeName ref="#Molino"
+							>Molino</placeName></persName>, <persName ref="#Aicardinus"
+						>Aicardinus</persName>, <persName ref="#Rapestra">Rapestra</persName>,
+						<persName ref="#Bellandus">Bellandus</persName>, <persName ref="#Gallicus"
+						>Gallicus</persName>, <persName ref="#Iohanninusmag">Iohanninus
+							<roleName>magister</roleName></persName>, <persName ref="#Caracosa"
+						>Caracosa</persName>, <persName ref="#Gordianus">Gordianus</persName>,
+						<persName ref="#Litelda">Litelda</persName>, <persName ref="#Çuffettus"
+						>Çuffettus</persName>, <persName ref="#Amicus">Amicus</persName>, <persName
+						ref="#Albertus">Albertus</persName>, <persName ref="#Divicia"
+						>Divicia</persName>.</p>
+				<p xml:id="CCCXLVIIII_p_008">§ Ad <placeName ref="#Colle">Colle</placeName>:
+						<persName ref="#GerardinusSanMartino">Gerardinus de <placeName
+							ref="#Sancto_Martino">Sancto Martino</placeName></persName>, <persName
+						ref="#Valentinus">Valentinus</persName>, <persName ref="#Labrutus"
+						>Labrutus</persName>, <persName ref="#Rollandinus">Rollandinus</persName>,
+						<persName ref="#BelluciusStabulo">Bellutius de <placeName ref="#Stabio"
+							>Stabulo</placeName></persName>, <persName ref="#Iohannes"
+						>Iohannes</persName>, <persName ref="#Tiniosus">Tigniosus</persName>,
+						<persName ref="#Carrerius">Carrerius</persName>, <persName ref="#Amatus"
+						>Amatus</persName>, <persName ref="#GuidolinusZanza">Guidolinus
+						Zanza</persName>, uxor <persName ref="#GerardinusGrisii">Gerardini
+						Grisii</persName>, filius <persName ref="#GerardinusButrone">Gerardini de
+							<placeName ref="#Butrone">Butrone</placeName></persName>, <persName
+						ref="#Reigetus">Rigettus</persName>.</p>
+				<p xml:id="CCCXLVIIII_p_009">§ Ad <placeName ref="#Monte">Montem</placeName>:
+						<persName ref="#Bonus">Bonus</persName>, <persName ref="#Meldeprata"
+						>Meldeprata</persName>, <persName ref="#MartinusTinellus">Martinus
+						Tinellus</persName>, <persName ref="#Bonezetus">Bonezetus</persName>,
+						<persName ref="#Gerardinus">Girardinus</persName>, uxor <persName ref="#Dux"
+						>Ducis</persName>, <persName ref="#Goggus">Goggus</persName>, <persName
+						ref="#Bonuzolus">Bonuzolus</persName>, <persName ref="#Montesanus"
+						>Montesanus</persName>, <persName ref="#MartinusMaliola">Martinus de
+							<placeName ref="#Malliola">Maliola</placeName></persName>, <persName
+						ref="#Grongnutus">Grongnutus</persName>, filii <persName ref="#Iohanninus"
+					/>Iohannini, <persName ref="#Bellus">Bellus</persName>.</p>
+				<p xml:id="CCCXLVIIII_p_010">§ In plano<placeName ref="#Carrara"
+						>Carrarie</placeName>: <persName ref="#Testa">Testa</persName>, <persName
+						ref="#Paunessa">Paunessa</persName>, <persName ref="#Gibertinus"
+						>Gibertinus</persName>, <persName ref="#Vivianus">Vivianus</persName>,
+						<persName ref="#Bernardus">Bernardus</persName>, <persName
+						ref="#Fatennançus">Fatennanço</persName>, filius <persName
+						ref="#Rollandutius">Rollandutii</persName>, <persName ref="#GerardinusBona"
+						>Girardinus de Bona</persName>, <persName ref="#Bernardusmuli">Bernardus
+							<roleName>mulinarius</roleName></persName>, <persName ref="#Armanninus"
+						>Armanninus</persName>, <persName ref="#Catenacius">Catenacius</persName>,
+						<persName ref="#Rafiolus">Rafiolus</persName>, <persName ref="#Bentevegna"
+						>Bentevenia</persName>, <persName ref="#Bruniconus">Bruniconus</persName>,
+					uxor <persName ref="#Begolus">Begoli</persName>, <persName ref="#MagisterAlbano"
+						>Magister de <placeName ref="#Albano">Albano</placeName></persName>.</p>
+				<p xml:id="CCCXLVIIII_p_011">§ Ad <placeName ref="#Viciale">Viciale</placeName>:
+						<persName ref="#Agustinus">Agustinus</persName>, <persName
+						ref="#GerardinusCarola">Gerardinus de <placeName ref="#Carola"
+							>Carola</placeName></persName>, <persName ref="#RollandinusMarola"
+							>Rolla<supplied reason="omitted">n</supplied>dinus de <placeName
+							ref="#Marola">Marola</placeName></persName>, <persName ref="#Philippus"
+						>Philippus</persName>, <persName ref="#Plasentia">Plasentia</persName>,
+						<persName ref="#Lombardia">Lombardia</persName>, <persName ref="#Guidolinus"
+						>Guidolinus</persName>, <persName ref="#Tancredus">Tancredus</persName>,
+						<persName ref="#MartinusRavenna">Martinus de <placeName ref="#Ravenna"
+							>Ravenna</placeName></persName>, <persName ref="#GuilielmusPoncellana"
+						>Guilielmus de <placeName ref="#Poncellana"
+						>Poncellana</placeName></persName>, <persName ref="#FluminellusPitecus"
+						>Fluminellus Pitecus<note xml:id="CCCXLVIIII_n_004" n="d" place="foot">
+							<term xml:lang="latin">Pitecus</term>:<emph>nel manoscritto con segno
+								generico di abbreviazione abraso.</emph></note></persName>,
+						<persName ref="#Bonusfilius">Bonusfiliolus</persName>, <persName
+						ref="#Ugolinus">Ugolinus</persName>, <persName ref="#Arduinusferr">Arduinus
+							<roleName>ferrarius</roleName></persName>, <persName ref="#Vetius"
+						>Vetius</persName>, <persName ref="#Guerrolus">Guerrolus</persName>, filii
+						<persName ref="#Becatus">Beçati</persName>, <persName ref="#Fluminellus"
+						>Fluminellus</persName>, <persName ref="#Gracianus">Gracianus</persName>,
+						<persName ref="#Odo">Odo</persName>, <persName ref="#Rognosus"
+						>Rongnosus</persName>, <persName ref="#Mulinarius">Mulinarius</persName>,
+						<persName ref="#Albertinus">Albertinus</persName>, <persName
+						ref="#ArduinusCuffus">Arduinus Çuffus</persName>.</p>
+				<p xml:id="CCCXLVIIII_p_012">§ Ad <placeName ref="#Torano">Turanum</placeName>:
+						<persName ref="#MartinusCerrianus">Martinus Cerrianus</persName>, <persName
+						ref="#GuilielmusBaldineti">Guilielmus Baldineti</persName>, mater eius
+						<supplied reason="omitted">dem</supplied>
+					<persName ref="#GuilielmusBaldineti">Guilielmi</persName>, <persName
+						ref="#BellonusLara">Bellon de <placeName ref="#Lara"
+						>Lara</placeName></persName>, <persName ref="#Ribellus">Ribellus</persName>,
+						<persName ref="#MartinusFantonus">Martinus Fantonus</persName>, <persName
+						ref="#Alegretus">Alegretus</persName>, <persName ref="#Calvinus"
+						>Calvinus</persName>, <persName ref="#GerardinusCazacane">Gerardinus de
+							<placeName ref="#Cazacane">Cazacane</placeName></persName>, <persName
+						ref="#BellonusLato">Bellon de <placeName ref="#Lato"
+						>Lato</placeName></persName>, <persName ref="#Ubaldinus"
+						>Ubaldinus</persName>, <persName ref="#Ugetus">Ugetus</persName>, <persName
+						ref="#GuidolusLoiso">Guidolus de Loiso</persName>, <persName
+						ref="#Bonusiohannes">Bonus Iohannes</persName>, <persName ref="#Tillora"
+						>Tillora</persName>, <persName ref="#Citus">Çito</persName>, <persName
+						ref="#GerardinusBoiardo">Gerardinus de Boiardo</persName>, <persName
+						ref="#iniosusBaldolino">Tigniosus de Baldolino</persName>, <persName
+						ref="#Fuscolus">Fuscolus</persName>, <persName ref="#Bellosus"
+						>Bellosus</persName>, <persName ref="#Micheletus">Micheletus</persName>,
+						<persName ref="#Canetus">Canetus</persName>, filius <persName
+						ref="#Baisa_Caisum">Baisa Caisum</persName>, uxor <persName
+						ref="#Meliorinus">Meliorini</persName>, <persName ref="#Guilielmus"
+						>Guilielmus</persName>, <persName ref="#Ubertus">Ubertus</persName>, uxor
+						<persName ref="#Befulketus">Befulketi</persName>, filii <persName
+						ref="#Pansutus">Pansuti</persName>, <persName ref="#Lombardus"
+						>Lombardus</persName>, <persName ref="#Butarellus">Butarellus</persName>,
+					uxor <persName ref="#BellonusBelleti" cert="high">Bellonis Belleti</persName>,
+						<persName ref="#Romeus">Romeus</persName>, uxor <persName
+						ref="#AlbertinellusBerzola">Albertinelli de <placeName ref="#Berzola"
+							>Berzola</placeName></persName>, <persName ref="#Pançera"
+						>Pançera</persName>, <persName ref="#Calvucius">Calvutius</persName>,
+						<persName ref="#Marchetus">Marketus</persName>, <persName
+						ref="#MarchesellusTorano">Markesellus de <placeName ref="#Torano"
+							>Torano</placeName></persName>, <persName ref="#BellonusAbate">Bellon de
+						Abbate</persName>, <persName ref="#Rodulfus">Rodulfus</persName>, <persName
+						ref="#Guilieta">Guilieta</persName>.</p>
+				<p xml:id="CCCXLVIIII_p_013">§ Ad <placeName ref="#Casaliclo">Casaleclum<note
+							xml:id="CCCXLVIIII_n_005" n="e" place="foot">
+							<term xml:lang="latin">Casaleclum</term>:<emph>segue, ripetuto per
+								errore,</emph> Casaleclum.</note></placeName>: <persName
+						ref="#Iordanus">Iordanis</persName>, <persName ref="#Martinus"
+						>Martinus</persName>, <persName ref="#BosoUgolini">Boso filius
+						Ugolini</persName>, <persName ref="#Citus">Çitus</persName>, <persName
+						ref="#Calvucius">Calvutius</persName>, <persName ref="#Buterus"
+						>Buterus</persName>, <persName ref="#Bernardinus">Bernardinus</persName>,
+						<persName ref="#Villanus">Villanus</persName>. </p>
+				<p xml:id="CCCXLVIIII_p_014">§ Ad <placeName ref="#Cothalo">Cothalum</placeName>:
+						<persName ref="#Martinellus">Martinellus</persName>, <persName
+						ref="#Barotellus">Barotellus</persName>, <persName ref="#Cothanellus"
+						>Cothanellus</persName>, <persName ref="#Sabbatinus">Sabbatinus</persName>,
+						<persName ref="#Odo">Odo</persName>, <persName ref="#Buscalinus"
+						>Buscalinus</persName>, <persName ref="#Beraimus">Beraimus</persName>,
+						<persName ref="#Donatus">Donatus</persName>, <persName ref="#Bonora"
+						>Bonora</persName>, <persName ref="#Martinoçus">Martinoçus</persName>,
+						<persName ref="#Terraforte">Terraforte</persName>, <persName ref="#Pilus"
+						>Pilus</persName>, <persName ref="#Buterus">Buterus</persName>, <persName
+						ref="#Vivianus">Vivianus</persName>, <persName ref="#Georgius"
+						>Georgius</persName>, <persName ref="#Iordanus">Iordanis</persName>,
+						<persName ref="#Bernardus">Bernardus</persName>, <persName ref="#Saconus"
+						>Saconus</persName>, <persName ref="#Tuscanus">Tuscanus</persName>,
+						<persName ref="#Çukinus">Çukinus</persName>, <persName ref="#Gerardinus"
+						>Girardinus</persName>, <persName ref="#Bambolus">Bambolus</persName>,
+						<persName ref="#Martinus">Martinus</persName>, <persName ref="#Ugolinus"
+						>Ugolinus</persName>, <persName ref="#Bosulinus">Bosolinus</persName>,
+						<persName ref="#Castagnolus">Castagnolus</persName>.</p>
+				<p xml:id="CCCXLVIIII_p_015">§ Ad <placeName ref="#Berzola">Berzolam</placeName>:
+						<persName ref="#Amicus">Amicus</persName>, <persName ref="#Sikinus"
+						>Sikinus</persName>, <persName ref="#Martinus">Martinus</persName>,
+						<persName ref="#Carbo">Carbonus</persName>, <persName ref="#Gerardinellus"
+						>Girardinellus</persName>, <persName ref="#Likese">Likese</persName>,
+						<persName ref="#Guilielminus">Guilielminus</persName>, <persName
+						ref="#Compagnolus">Compagnolus</persName>, <persName ref="#Botellus"
+						>Botellus</persName>, <persName ref="#Bellomus" cert="medium"
+						>Bellomo</persName>, <persName ref="#Tiniosus">Tigniosus</persName>,
+						<persName ref="#Vitaletus">Vitaletus</persName>, <persName
+						ref="#BonamicusCovaclo">Bonamicus de <placeName ref="#Covaclo"
+							>Covaclo</placeName></persName>, <persName ref="#Testa"
+					>Testa</persName>, <persName ref="#Grillus">Grillus</persName>, <persName
+						ref="#Bernutius">Bernutius</persName>, <persName ref="#BonamicusCannovo"
+						>Bonamicus de <placeName ref="#Cannovo">Cannovo</placeName></persName>,
+						<persName ref="#Beivinum">Beivinum</persName>, <persName ref="#Citus"
+						>Çitus</persName>, <persName ref="#Bosulinus">Bosolinus</persName>,
+						<persName ref="#Cicolus">Çicolus</persName>.</p>
+				<p xml:id="CCCXLVIIII_p_016">§ Ad <placeName ref="#Monteclo">Monteclum</placeName>:
+						<persName ref="#Bernardinus">Bernardinus</persName>, <persName
+						ref="#Mannutius">Mannutius</persName>, <persName ref="#Cobolus"
+						>Çobolus</persName>, <persName ref="#Ubertinus">Ubertinus</persName>,
+						<persName ref="#Davinus">Davinus</persName>, filii <persName ref="#Albertus"
+					/>Alberti, <persName ref="#Bonfiliolus">Bonfilolus</persName>, <persName
+						ref="#Veçalinus">Veçalinus</persName>, <persName ref="#Guilielmus"
+						>Guilielmus</persName>, <persName ref="#Albertinellus"
+						>Albertinellus</persName>, <persName ref="#Monteclese"
+					>Monteclese</persName>. </p>
+				<p xml:id="CCCXLVIIII_p_017">§ Ad <placeName ref="#Bithazano">Bitusanum</placeName>:
+						<persName ref="#Wçeronus">Wçeronus</persName>, <persName ref="#Francolus"
+						>Francolus</persName>, <persName ref="#IohannesBonus">Iohannes
+						Bonus</persName>, <persName ref="#Biatella">Biatella</persName>, <persName
+						ref="#Raimundinus">Raimundinus</persName>, <persName ref="#Guidobotus"
+						>Guidobotus</persName>, <persName ref="#Albertinus">Albertinus</persName>,
+						<persName ref="#Iohannes">Iohannes</persName>, <persName ref="#Gerardinus"
+						>Girardinus</persName>, <persName ref="#Guilia">Guilia</persName>, <persName
+						ref="#Vivaldus">Wivaldus</persName>, <persName ref="#Pisanus"
+						>Pisanus</persName>, <persName ref="#Beccus">Beccus</persName>, <persName
+						ref="#Albertus">Albertus</persName>, <persName ref="#Hengolinus"
+						>Hengolinus</persName>, <persName ref="#Çafferrus">Çafferrus</persName>,
+						<persName ref="#Gunforutus">Gunforutus</persName>, <persName ref="#Çucus"
+						>Çucus</persName>, <persName ref="#Tancredinus">Tancredinus</persName>, uxor
+						<persName ref="#Guiscardus">Guiscardi</persName>, <persName ref="#Dominicus"
+						>Dominicus</persName>, <persName ref="#Mançolinus">Mançolinus</persName>,
+						<persName ref="#Iordanellus">Iordanellus</persName>, <persName
+						ref="#Gerardus">Gerardus</persName>, <persName ref="#Pesellus"
+						>Pesellus</persName>, <persName ref="#Carlinus">Carlinus</persName>,
+						<persName ref="#Catenacius">Catenatius</persName>, <persName ref="#Guilieta"
+						>Guilieta</persName>, <persName ref="#Odolinus">Odolinus</persName>,
+						<persName ref="#Veclus">Veclus</persName>, <persName ref="#Muscius"
+						>Muscius</persName>, <persName ref="#Tiralducius">Tiraldulcius<note
+							xml:id="CCCXLVIIII_n_006" n="f" place="foot">
+							<term xml:lang="latin">Tiraldulcius</term>:<emph>la seconda</emph> l
+								<emph>in sopralinea.</emph></note></persName> , <persName
+						ref="#Martinus">Martinus</persName>, <persName ref="#PisanusMonteclo"
+						>Pisanus de <placeName ref="#Monteclo">Monteclo</placeName></persName>,
+					filii <persName ref="#Conetus">Coneti</persName>, <persName ref="#Bonacursus"
+						>Bonacursus</persName>, <persName ref="#Turchius">Turcus</persName>,
+						<persName ref="#Raimençus">Raimençus</persName>, <persName
+						ref="#Castagnolus">Castagnolus</persName>, <persName ref="#Guidolinus"
+						>Guidolinus</persName>, <persName ref="#Ugolinus">Ugolinus</persName>,
+						<persName ref="#Lombardia">Lombardia</persName>, <persName ref="#Gisleta"
+						>Gisleta</persName>, <persName ref="#Bernardinus"
+					>Bernardinus</persName>.</p>
+				<p xml:id="CCCXLVIIII_p_018">§ Ad <placeName ref="#Miselia">Miseliam</placeName>:
+						<persName ref="#Nigrus">Niger</persName>, <persName ref="#Floretus"
+						>Floretus</persName>, <persName ref="#Albertonus">Albertonus</persName>,
+						<persName ref="#Odolinus">Odolinus</persName>, <persName
+						ref="#AgustinusTermeselli">Agustinus Tremecellus</persName>, <persName
+						ref="#Gordianus">Gordianus</persName>, <persName ref="#AlbertusValle2"
+						>Albertus de Valle</persName>, filius <persName ref="#Alegretus"
+						>Alegreti</persName>, <persName ref="#Bambetus">Bambetus</persName>,
+						<persName ref="#BellonusBetus">Bellon Betus</persName>, <persName
+						ref="#Blancus">Blancus</persName>
+					<persName ref="#AlbertinellusSupravia">Albertinellus de <placeName
+							ref="#Supravia">Supravia</placeName></persName>, <persName
+						ref="#Alegretus">Alegretus</persName>, <persName ref="#Albertinucius"
+						>Albertinucius</persName>, <persName ref="#Iuso">Iuso</persName>, <persName
+						ref="#Bellus">Bellus</persName>, <persName ref="#Conetus"
+					>Conetus</persName>, <persName ref="#Amica">Amica</persName>, <persName
+						ref="#MartinusDurans">Martinus Durans</persName>, <persName
+						ref="#GuidolinusPeravulpe">Guidolinus de <placeName ref="#Peravulpe"
+							>Peravulpe</placeName></persName>, <persName ref="#Cobolus"
+						>Çobolus</persName>, <persName ref="#Bricaldus">Bricaldus</persName>,
+						<persName ref="#GerardinusÇobolo">Gerardinus de <placeName ref="#Çobolo">
+							Çobolo</placeName></persName>, <persName ref="#BonusfiliusNinnolus"
+						>Bonusfiliolus Ninnolus</persName>, <persName ref="#Botellus"
+						>Botellus</persName>, <persName ref="#Becotus">Becotus</persName>, <persName
+						ref="#Boso">Boso</persName>, <pb n="307r" xml:id="fol_307r"/>
+					<persName ref="#GuidolinusTancredo">Guidolinus de Tancredo</persName>, <persName
+						ref="#Arditio">Arditio</persName>, <persName ref="#IohannesBonus">Iohannes
+						Bonus</persName>, <persName ref="#Girus">Girus</persName>, <persName
+						ref="#acciaguerra">Cacia Werra</persName>, <persName ref="#Matolinus"
+						>Matolinus</persName>, <persName ref="#Pilinketus">Pilinketus<note
+							xml:id="CCCXLVIIII_n_007" n="g" place="foot">
+							<term xml:lang="latin">Pilinketus</term>:lin <emph>corretto su
+								precedente scrittura.</emph></note></persName>, <persName
+						ref="#Calderolus">Calderolus</persName>, <persName
+						ref="#LanfranchinusStabulo">Lanfrankinus de <placeName ref="#Stabio"
+							>Stabulo</placeName></persName>, <persName ref="#Picus"
+					>Picus</persName>, <persName ref="#Bonussenior">Bonus senior</persName>,
+						<persName ref="#Reigetus">Reigetus</persName>, <persName ref="#BosoUgeto"
+						>Boso de Ugeto</persName>, <persName ref="#Litelda">Litelda</persName>,
+						<persName ref="#Guido">Guido</persName>, <persName ref="#Pilosus"
+						>Pilosus</persName>, <persName ref="#MalrasusRitius">Malrasus
+						Ritius</persName>, <persName ref="#Caçialeta">Caçialeta</persName>,
+						<persName ref="#Benetinus">Benetinus
+						<roleName>ioculator</roleName></persName>, <persName ref="#Grislus"
+						>Grislus</persName>, <persName ref="#Marchesellus">Markesellus</persName>,
+						<persName ref="#Martinus">Martinus</persName>, <persName ref="#Baldinetus"
+						>Baldinetus</persName>, <persName ref="#Raimundinus"
+					>Raimundinus</persName>.</p>
+				<p xml:id="CCCXLVIIII_p_019">§ Ad <placeName ref="#Petrognano"
+						>Petrognanum</placeName>: <persName ref="#Bonacursus">Bonacursus</persName>,
+						<persName ref="#Gandolfinus">Gandulfinus</persName>, <persName
+						ref="#Messeretus">Messeretus</persName>, <persName ref="#Guilielmus"
+						>Guilielmus</persName>, <persName ref="#Malabranca">Malabranca</persName>,
+						<persName ref="#Blancus">Blancus</persName>, <persName ref="#Bellus"
+						>Bellus</persName>, <persName ref="#Amatus">Amatus</persName>, <persName
+						ref="#Albertinellus">A<supplied reason="omitted"
+						>l</supplied>bertinellus</persName>, <persName ref="#Guilielmolus"
+						>Guilielmolus</persName>, <persName ref="#Angelellus">Angelellus</persName>,
+					uxor <persName ref="#Cosone">Cosonis</persName>, <persName ref="#Magistrellus"
+						>Magistrellus</persName>, <persName ref="#Albertinus">Albertinus</persName>,
+						<persName ref="#TiniosusBuraio">Tigniosus Buraio</persName>, <persName
+						ref="#RollandinusPadule">Rollandinus de <placeName ref="#Padule">la
+							Padule</placeName></persName>, <persName ref="#Scoita"
+					>Scoita</persName>, <persName ref="#Ymelda">Ymelda</persName>, <persName
+						ref="#Strapatus">Strapatus</persName>, <persName ref="#Guilielminus"
+						>Guilielminus</persName>, <persName ref="#GerardinusGaçano">Girardinus de
+							<placeName ref="#Graçano">Graçano</placeName></persName>, <persName
+						ref="#Albertinus">Albertinus</persName>, <persName ref="#Valletus"
+						>Valletus</persName>. </p>
+				<p xml:id="CCCXLVIIII_p_020">§ Ad <placeName ref="#Sorgnano">Sorgnanum</placeName>:
+						<persName ref="#Bonicinus">Bonicinus</persName>, <persName ref="#Cagnolus"
+						>Cagnolus</persName>, filii<persName ref="#Imiliola"> Imiliole</persName>,
+						<persName ref="#Bonone">Bonone</persName>, <persName ref="#Albertus"
+						>Albertus</persName>, <persName ref="#Carabona">Carabona</persName>,
+						<persName ref="#Ughitius" cert="medium">Ugitio</persName>, <persName
+						ref="#Albertonus">A<supplied reason="omitted"
+						>l</supplied>bertonus</persName>, <persName ref="#Iohannes"
+						>Iohannes</persName>, <persName ref="#Bernardus">Bernardus</persName>,
+						<persName ref="#Aimellus">Aimellus<note xml:id="CCCXLVIIII_n_008" n="h"
+							place="foot">
+							<term xml:lang="latin">Aimellus</term>: i <emph>corretta su precedente
+								scrittura.</emph></note></persName>, <persName ref="#Albertinucius"
+						>Albertinutius</persName>, <persName ref="#Ugolinus">Ugolinus</persName>,
+						<persName ref="#GuidolinusMalliola">Guidolinus de <placeName ref="#Malliola"
+							>Malliola</placeName></persName>, <persName ref="#GuilielmusRenarii"
+							>G<supplied reason="omitted">u</supplied>ilielmus de <placeName
+							ref="#Renario">Renario</placeName></persName>, <persName ref="#Rubeus"
+						>Rubeus</persName>, <persName ref="#Carlaxarius">Carlaxarius</persName>,
+						<persName ref="#Ugolinus">Ugolinus</persName>, <persName ref="#Montaninus"
+						>Montaninus</persName>, <persName ref="#Mainelda">Mainelda<note
+							xml:id="CCCXLVIIII_n_009" n="i" place="foot">
+							<term xml:lang="latin">Mainelda</term>: M <emph>corretto su precedente
+								scrittura.</emph></note></persName>, <persName ref="#Isa">Isa<note
+							xml:id="CCCXLVIIII_n_010" n="l" place="foot">
+							<term xml:lang="latin">Isa</term>: <emph>scritto nella riga successiva,
+								con segno di richiamo.</emph></note></persName>.</p>
+				<p xml:id="CCCXLVIIII_p_021">§ Ad <placeName ref="#Gragnana">Gra<supplied
+							reason="omitted">g</supplied>nanam</placeName>: <persName
+						ref="#GuidoFicario">Guido de <placeName ref="#Ficaro"
+						>Ficario</placeName></persName>, <persName ref="#GerardinusMoritiola"
+						>Girardinus de <placeName ref="#Moritiola">Moritiola</placeName></persName>,
+						<persName ref="#Milium">Milium</persName>, <persName ref="#CompagnusFavale"
+						>Compagnus de <placeName ref="#Favale">Favale</placeName></persName>,
+						<persName ref="#Compagnus" cert="low">alius Compagnus</persName>, <persName
+						ref="#Gragnanellus">Gragnanellus</persName>, <persName
+						ref="#IohannesLombardus">Iohannes Lombardus</persName>, <persName
+						ref="#Bonamicus">Bonamicus</persName>, <persName ref="#GuidoRiolo">Guido de
+							<placeName ref="#Riolo">Riolo</placeName></persName>, <persName
+						ref="#Gislucia">Gislucia</persName>, <persName ref="#Rognosus"
+						>Rognosus</persName>, <persName ref="#Bonfiliolus" cert="low"
+						>Bonfilolus</persName>, <persName ref="#GuidolusPopio">Guidolus de
+							<placeName ref="#Poppio">Popio</placeName></persName>, filius <persName
+						ref="#Lusiardus" cert="medium"> Lusiardi</persName>, <persName ref="#Zazon"
+						>Zazon</persName>, <persName ref="#Albertinellus">Albertinellus</persName>,
+						<persName ref="#Fellolus">Fellolus</persName>, <persName ref="#Martinellus"
+						>Martinellus</persName>, <persName ref="#Rundanellus"
+					>Rundanellus</persName>, <persName ref="#Guidolinus">Guidolinus</persName>.</p>
+				<p xml:id="CCCXLVIIII_p_022">§ Ad <placeName ref="#Parsano">Parsanum</placeName>:
+						<persName ref="#IohannellusColle">Iohannellus de <placeName ref="#Colle"
+							>Colle</placeName></persName>, <persName ref="#Baldolinus"
+						>Baldulinus</persName>, <persName ref="#Martinellus">Martinellus</persName>,
+					uxor <persName ref="#Griutus" cert="medium"> Griuti</persName>, <persName
+						ref="#AlbertinusPiçolo">Albertinus de <placeName ref="#Piculo"
+							>Piçolo</placeName></persName>, <persName ref="#Martinus"
+						>Martinus</persName>, <persName ref="#Vivianus">Vivianus</persName>,
+						<persName ref="#Vitaletus">Vitaletus</persName>, <persName ref="#Ferrarius"
+						>Ferrarius</persName>, <persName ref="#Aidelina">Aidelina</persName>,
+						<persName ref="#Bertola">Bertola</persName>, <persName ref="#Çica"
+						>Çica</persName>, <persName ref="#Bonone">Bonone</persName>, <persName
+						ref="#Ubaldinus">Ubaldinus</persName>, <persName ref="#Guilielmus"
+						>Guilielmus</persName>, <persName ref="#Guilielmetus"
+						>Guilielmetus</persName>.</p>
+				<p xml:id="CCCXLVIIII_p_023">§ Ad <placeName ref="#Plolo">Plolum</placeName>:
+						<persName ref="#BertaGrassa">Berta Grassa</persName>, <persName
+						ref="#Guilielmus">Guilielmus</persName>, <persName
+						ref="#MontaninusMuçagallina">Montaninus Muçagallinam</persName>, <persName
+						ref="#Ugolinus">Ugolinus</persName>, <persName ref="#Agustinus"
+						>Augustinus</persName>, <persName ref="#Lombardus">Lombardus</persName>,
+						<persName ref="#Dominicus">Dominicus</persName>, <persName
+						ref="#Bernardinus">Bernardinus</persName>, <persName ref="#Cichinellus"
+						>Çikinellus</persName>, <persName ref="#Lanfranchinus"
+						>Lanfrankinus</persName>, <persName ref="#Paninus">Paninus</persName>,
+						<persName ref="#CicolinusCannebiano">Çicolinus de <placeName
+							ref="#Cannebiano">Cannebiano</placeName></persName>, uxor <persName
+						ref="#Bonellus">Bonelli</persName>, filii <persName ref="#Albertinus"
+						cert="low"> Albertini<note xml:id="CCCXLVIIII_n_011" n="m" place="foot">
+							<term xml:lang="latin">Albertini</term>: A <emph>corretto su precedente
+								scrittura.</emph></note></persName>, filii<persName
+						ref="#Bellandellus"> Bellandelli</persName>, <persName ref="#Boso"
+						>Boso</persName>, <persName ref="#Bellus">Bellus</persName>, <persName
+						ref="#YmeldolaNoceto">Ymeldola de <placeName ref="#Noceto"
+							>Noceto</placeName></persName>, <persName ref="#Agustinus"
+						>Agustinus</persName>, <persName ref="#Raimundinus">Raimundinus</persName>,
+						<persName ref="#Simonetus">Symonetus</persName>, <persName ref="#Baldolinus"
+						>Baldulinus</persName>, <persName ref="#Martinetus">Martinetus</persName>,
+						<persName ref="#Blancus">Blancus</persName>.</p>
+				<p xml:id="CCCXLVIIII_p_024">§ Ad <placeName ref="#Casapoci">Casapoci</placeName>:
+						<persName ref="#MartinusGezo">Martinus de <placeName ref="#Gezo"
+							>Gezo</placeName></persName>, <persName ref="#Rusticellus"
+						>Rusticellus</persName>, <persName ref="#Ramengus">Ramengus</persName>,
+						<persName ref="#Busimannus">Busimannus</persName>, <persName ref="#Ardengus"
+						>Ardengus</persName>, <persName ref="#Bosulinus">Bosolinus</persName>,
+						<persName ref="#Fulcus">Fulcus</persName>, <persName ref="#Ugo"
+						>Ugo</persName>, <persName ref="#Bonetellus">Bonetellus</persName>,
+						<persName ref="#AmicusColle">Amicus de <placeName ref="#Colle"
+							>Colle</placeName></persName>, <persName ref="#Ugolinus"
+						>Ugolinus</persName>, <persName ref="#Gualterius">Walterius</persName>,
+						<persName ref="#Vitaletus">Vitaletus</persName>, <persName ref="#Tiniosus"
+						>Tiniosus</persName>, <persName ref="#Marchese">Markese</persName>,
+						<persName ref="#Messerus">Messerus</persName>, <persName ref="#Guilielmetus"
+						>Guilielmetus</persName>, <persName ref="#Gerardus">Girardus</persName>,
+						<persName ref="#Alegretus">Alegretus</persName>, <persName
+						ref="#Iohanninellus">Iohanninellus</persName>, <persName ref="#Guerisius"
+						>Werisius</persName> et suus frater <persName ref="#Monachellus"
+						>Monachellus</persName>.</p>
+				<p xml:id="CCCXLVIIII_p_025">§ Ad <placeName ref="#Colonnata"
+					>Colunnatam</placeName>: <persName ref="#Brunetus">Brunetus</persName>,
+						<persName ref="#Bellenzonus">Bellenzonus</persName>, uxor <persName
+						ref="#Benzus" cert="medium"> Benzi</persName>, <persName ref="#Tutobonus"
+						>Tutobonus</persName>, <persName ref="#Brendellus">Brendellus</persName>,
+						<persName ref="#Vivianus">Vivianus</persName>, <persName ref="#Guerinus"
+						>Werinus</persName>, <persName ref="#MartinusBondonnus">Martinus
+						Bondonnus</persName>, <persName ref="#Zikinus">Zikinus</persName>, filius
+						<persName ref="#Sabbatinus" cert="medium">Sabbatini</persName>, <persName
+						ref="#Pisanella">Pisanella</persName>, <persName ref="#Donnetola"
+						>Donnetola</persName>, <persName ref="#Lillus">Lillus</persName>, <persName
+						ref="#Lanfreducius">Lanfreducius</persName>, <persName ref="#Massaria"
+						>Massaria</persName>, <persName ref="#Segnoretus2" cert="medium"
+						>Senioretus</persName>, <persName ref="#Çucketus">Çucketus</persName>,
+						<persName ref="#Guidolinus">Guidolinus</persName>, <persName ref="#Bonizo"
+						>Boneço</persName>, <persName ref="#Bonandinus">Bonandinus</persName>,
+						<persName ref="#Bellandus">Bellandus</persName>, <persName ref="#Bius"
+						>Bius</persName>, <persName ref="#Calvucius">Calvucius</persName>. </p>
+				<p xml:id="CCCXLVIIII_p_026">Et de istis suprascriptis hominibus sunt curie CC.</p>
+			</div>
+		</body>
+	</text>
+</TEI>

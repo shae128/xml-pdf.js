@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXVIIII_241">
+    <front xml:id="CCLXXVIIII_front">
+
+      <titlePart type="numerazioneNuova">241</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXVIII<supplied reason="omitted">I</supplied></titlePart>
+
+      <docDate xml:id="CCLXXVIIII_docDate">
+        <date when="1200-03-20">1200 marzo 20</date>, <placeName><term xml:lang="latin">in castro de
+            Ysola, in domo Fornarii</term></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXVIIII_regesto">
+        <p>Maggiora, figlia del fu Amoroso di Arcola, insieme al marito Rollandino, locano <term
+            xml:lang="latin">nomine homagii et manentie</term> a Guidone Sazine, figlio di Boto
+            <term xml:lang="latin">de Minizano</term>, che riceve anche a nome della moglie
+          Settembrina, figlia del fu Guglielmo <term xml:lang="latin">de la Trina</term>, tutto il
+          podere <term xml:lang="latin">de la Trina</term>. Guglielmo era appartenuto a Maggiora e
+          aveva tenuto il terreno poi passato a Settembrina. La locazione costa 4 denari di
+          imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 274r.-274v., cc. CCLXVIr.-CCLXVIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 279,
+            pp. 255-256, con la data 30 agosto.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>A causa della rifilatura della carta, nel margine esterno manca l’ultima unità del
+            numero del documento.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLLXXVIIII_div">
+        <p xml:id="CCLLXXVIIII_p_001" n="1">In nomine Domini, amen.<date when="1200-03-20"> Anno a
+            nativitate Dei millesimo CC, indictione III, die qui fuit XIII kalendas aprilis</date>,
+          presentibus testibus infrascriptis. Donna <persName ref="#MaiorAmorosi">Maior, filia<note
+              xml:id="CCLLXXVIIII_n_001" n="a" place="foot"><term xml:lang="latin">filia</term>: li
+                <emph>corretto su precedente scrittura</emph>.</note> quondam Amorosi de <placeName
+              ref="#Arcola">Arcula</placeName></persName>, una cum viro suo <persName
+            ref="#RollandinusBonadoni">Rollandino</persName>, de consensu et voluntate matris ipsius
+            <persName ref="#MaiorAmorosi">Maioris</persName>, domine <persName ref="#Acciliana"
+            >Acciliane</persName>, et Bonandoni, patris ipsius <persName ref="#RollandinusBonadoni"
+            >Rollandini</persName>, presentium, dederunt et locaverunt in perpetuum nomine homagii
+          et manentie cuidam <persName ref="#GuidoSaçine">Guidoni Sazine, filio Boti de <placeName
+              ref="#Minizano">Minizano</placeName></persName><note xml:id="CCLLXXVIIII_n_002" n="b"
+            place="foot"><term xml:lang="latin">Minizano</term>: <emph>così nel
+          testo</emph>.</note>, recipienti pro se et uxore sua <persName ref="#SeptembrinaGuilielmi"
+            >Septembrina, filia quondam <persName ref="#GuilielmusTrina">Guilielmi de <placeName
+                ref="#Trina">la Trina</placeName></persName></persName>, qui fuit homo iamscripte
+          domine <persName ref="#MaiorAmorosi">Maioris</persName> pro tenuta et podere de <placeName
+            ref="#Trina">la Trina</placeName> et pro heredibus ipsius <persName ref="#GuidoSaçine"
+            >Guidonis</persName>, descendentibus ex ipsa <persName ref="#SeptembrinaGuilielmi"
+            >Septembrina</persName>, I totum et universum podere et tenutam, quod et quam habuit et
+          tenuit iamscriptus <persName ref="#GuilielmusTrina">Guilielmus</persName> et quod habet et
+          tenet iamscripta <persName ref="#SeptembrinaGuilielmi">Septembrina</persName> in
+          iamscripto loco <placeName ref="#Trina">Trina</placeName> vel alibi, ubicumque inde sit,
+          tam agrum quam cultum, cum casis, terris, vineis, omnibus rebus ad ipsum podere
+          pertinentibus, ita quod amodo perpetuo iamscripti iugales illorumque heredes, ex ea
+            <persName ref="#SeptembrinaGuilielmi">Septembrina</persName> descendentes, iamscriptum
+          podere et tenutam in integrum, cum omni iure et actione et pertinenciis suis omnibusque
+          superpositis, ubicumque si<supplied reason="omitted">n</supplied>t, in iamscripto loco
+            <placeName ref="#Trina">Trina</placeName> vel alibi, tam agrum quam cultum, cum casis,
+          terris, vineis, pascuis et nemoribus omnibusque rebus ad ipsum poder<note
+            xml:id="CCLLXXVIIII_n_003" n="c" place="foot"><term type="incerto">poder</term>:
+              <emph>così nel testo, forse per</emph>
+            <term xml:lang="latin">poder<supplied reason="omitted">e</supplied></term>.</note>
+          pertinentibus <pb n="274v" xml:id="fol_274v"/> habeant, teneant et fruantur et serviant
+          iamscriptis locatoribus illorumque heredibus sive cui hoc eorum ius commiserint sicut
+          iamscriptus <persName ref="#GuilielmusTrina">Guilielmus</persName> et iam dicta <persName
+            ref="#SeptembrinaGuilielmi">Septembrina</persName> ipsum podere habebant et serviebant,
+          sine aliqua contradictione iamscriptorum locatorum illorumque heredum et cum sua suorumque
+          heredum deffensione ab omni persona, ratione aut in consimilibus locis, prout tunc
+          valuerit, sub iusta bonorum hominum extimatione, restaurare in bonis eorum, que ad hoc
+          obligaverunt, si deffensare non possent et non deffensaverint; prestando et faciendo de
+          ipso podere et serviendo ipsum podere omnia debita et solita servicia et condictiones et
+          redditus iamscriptis dominis iugalibus locatoribus illorumque heredibus, sive cui hoc
+          eorum ius dederint de cetero, que et quos ex ipso podere iamscriptus <persName
+            ref="#GuilielmusTrina">Guilielmus</persName> et <persName ref="#SeptembrinaGuilielmi"
+            >Septembrina</persName> et illorum maiores faciebant vel facere tenebantur, tantum;
+          super alia imposita inter eos inde non fiat. Et si forte de iamscripta <persName
+            ref="#SeptembrinaGuilielmi">Septembrina</persName> heres non remanserit, ab inde in
+          antea iamscriptus <persName ref="#GuidoSaçine">Guido</persName> suique heredes perpetuo
+          similiter habeant et serviant. Pro qua iamscripta datione et locatione iamscripti domini
+          iugales locatores habuerunt ab iamscripto <persName ref="#GuidoSaçine">Guidone</persName>,
+          dante pro se et iamscripta <persName ref="#SeptembrinaGuilielmi">Septembrina</persName>,
+            <measure type="imperiales" quantity="4" unit="lire">bonorum imperialium libras
+            IIIIor</measure>, renunciando exceptioni non numerate pecunie, et fuerunt confessi iam
+          dicti iugales locatores se iurasse ad sancta Dei Evangelia iamscriptam locationem semper
+          ratam et firmam habere. Et constituerunt inter se iamscripti contrahentes ut quicumque ex
+          ipsis vel illorum heredibus contra hec iamscripta in toto vel in parte venerit, tunc
+          persolvat alteri parti, fidem servanti, nomine pene, <measure type="Imperiales"
+            quantity="100" unit="soldi">soldos C imperialium</measure>, rato manente pacto.</p>
+        <p xml:id="CCLLXXVIIII_p_002" n="2">Actum in castro de <placeName ref="#Isola2"
+            >Ysola</placeName>, in domo <persName ref="#Fornarius">Fornarii</persName>, sollempniter
+          cum stipulatione, presentibus iamscripto <persName ref="#Fornarius">Fornario</persName>,
+            <persName ref="#GerardinusTraversara">Gerardino de <placeName ref="#Traversara"
+              >Traversara</placeName></persName>, <persName ref="#RossusYsola">Rosso de <placeName
+              ref="#Isola2">Ysola</placeName></persName>, <persName ref="#BonusMinoeti">Bono quondam
+            Minoeti</persName>, <persName ref="#TrafanellusGerardini">Trafanello quondam Gerardini
+            de <placeName ref="#Isola2">Ysola</placeName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCLLXXVIIII_p_003" n="3"><ptr target="#CCLXXVIIII_st_001"/> Ego <persName
+            ref="#Prefectusnot">Prefectus, <roleName>domini imperatoris et Lunensis curie
+              notarius</roleName></persName>, hiis interfui et rogatus utrique parti instrumentum de
+          predictis uno tenore<note xml:id="CCLLXXVIIII_n_004" n="d" place="foot"><emph>Nel testo
+              segue ripetuto</emph>: <term xml:lang="latin">tenore</term>.</note> scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

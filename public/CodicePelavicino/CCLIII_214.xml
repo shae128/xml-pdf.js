@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLIII_214">
+    <front xml:id="CCLIII_front">
+
+      <titlePart type="numerazioneNuova">214</titlePart>
+      <titlePart type="numerazioneOrig">CCLIII</titlePart>
+
+      <docDate xml:id="CCLIII_docDate">
+        <date when="1232-09-10">1232 settembre 10</date>, <placeName>Moncigoli <emph>(<term
+              xml:lang="latin">in castro Moncicoli</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLIII_regesto">
+        <p>Guglielmo, vescovo di Luni e conte, Enrico Bianco, podestà delle terre dei Bianchi,
+          Lanfranchino e Pietro <term xml:lang="latin">de Herberia</term> giurano a Tignoso, console
+          di Moncigoli, che non commetteranno violenze contro gli abitanti di detto castello
+          all’interno dei fossati. Nel caso in cui qualche castellano, che sia manente o villano,
+          offenda il proprio signore e venga denunciato ai consoli, rimedi entro 15 giorni dalla
+          denuncia; se non lo fa, cadrà la salvaguardia nei suoi confronti.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 264v., c. CCLVIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. 253, p. 234.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <emph>Monciculo</emph>. <p>Stesura <emph>in
+                mundum</emph> databile tra il 1270 e il 1272 dalla presenza di Bonagiunta de Podio
+              di Lucca.</p></note>
+        </div>
+
+        <div type="appr">
+          <p>Bibliografia: <ref target="#NOBILI_2006">NOBILI</ref>, pp. 423-426.</p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLIII_div">
+        <p xml:id="CCLIII_p_001" n="1">In Dei nomine, amen. <date when="1232-09-10">M°CCXXII,
+            indictione V, die veneris, X intrante septembri</date>. In <placeName ref="#Moncigoli"
+            >castro Moncicoli</placeName>, coram <persName ref="#Grassuscan">domino Grasso Lunensi
+              <roleName>canonico</roleName></persName>, <persName ref="#Datusiur">domino Dato
+              <roleName>iurisperito</roleName> filio domini Conforti</persName>, <persName
+            ref="#UrsolusBur">domino Urçolo de <placeName ref="#Burcione"
+            >Burçono</placeName></persName>, <persName ref="#AttolinusCacti">Attolino de
+            Caccio</persName>, <persName ref="#VillanusTancredi">Villano quondam Tancredi de
+              <placeName ref="#Sala">la Sala</placeName></persName>, testibus ad hec rogatis.
+          Venerabilis <persName ref="#GuilEpLuni">Guillelmus, Dei gratia <roleName>Lunensis
+              episcopus</roleName> atque <roleName>comes</roleName></persName>, per se suosque
+          successores et Lunensem episcopatum et <orgName ref="#Luni_comitatus">comitatum</orgName>,
+          et <persName ref="#HenricusBlancus">dominus Henricus Blancus</persName>, potestas
+            <placeName ref="#TerreBianchi">terrarum Blancorum</placeName>, per se suosque heredes et
+          per suos successores et pro suis consortibus absentibus et eorum heredibus, et <persName
+            ref="#LanfranchinusHerberia">Lanfranchinus</persName> et <persName ref="#PetrusHerberia"
+            >Petrus de <placeName ref="#Erberia">Herberia</placeName></persName>, pro se et suis
+          heredibus, promiserunt et convenerunt et ad sancta Dei evangelia iuraverunt <persName
+            ref="#TiniosusMoncicolo">Tinioso, <roleName>consuli de <placeName ref="#Moncigoli"
+              >Moncicolo</placeName></roleName></persName>, recipienti pro se et toto <orgName ref="#Moncigoli_comune"
+                >communi</orgName> de <placeName
+                    ref="#Moncigoli">Moncicolo</placeName>, quod ipsi vel aliquis eorum non
+          facient nec fieri facient excogitatam vim vel fortiam, in persona vel rebus, alicui
+            <roleName>castellano</roleName>
+          <placeName ref="#Moncigoli">dicti castri</placeName> infra fossatos dicti castri, salvo
+          quod, si aliquis predictorum castellanorum qui esset manens vel villanus offenderet domino
+          suo et infra XV dies postquam denunciatum fuerit consulibus dicti loci a domino dicti
+          villani vel manentis vel alii<supplied reason="omitted">s</supplied> pro eo, quod dictus
+          villanus vel manens emendet ei dictam offensionem. Si predicta offensio ad voluntatem
+            predicti<note xml:id="CCLIII_n_001" n="a"><term xml:lang="lang">predicti</term>: pre
+              <emph>aggiunto da altro mano in un secondo tempo, in corpo più minuto.</emph></note>
+          domini non fuerit emendata, non teneatur dictus dominus de predictis promissionibus vel
+          iuramento, quin dictum villanum et manentem possit offendere ubicumque voluerit.</p>
+      </div>
+      <div xml:id="CCLIII_div2" type="mundum">
+        <p xml:id="CCLIII_p_002" n="2">
+          <ptr target="#CCLIII_st_001"/>Ego <persName ref="#HengeramusParentisnot">Hengheramus
+            quondam Parentis de <placeName ref="#Sarzanello">castro Sarzane</placeName>,
+              <roleName>palacii sacri notarius</roleName></persName>, hanc cartam olim a <persName
+            ref="#Bonencontrusnot">Bonencontro de <placeName ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et autenticavi et
+          in publicam formam redegi, auctoritate et decreto, mihi super hiis prestita atque concesso
+          a <persName ref="#Bonaiunctaiud"><roleName>domino</roleName> Bonaiuncta de <placeName
+            ref="#PodioLucca">Podio de Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+              ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre
+          domino Lunensi episcopo et <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune"
+            >communi</orgName>, de qua
+          auctoritate constat per instrumentum publicum factum manu <persName ref="#Alcheriusnot"
+            >Alcherii <roleName>notarii</roleName> de <placeName ref="#Lucca"
+            >Luca</placeName></persName><note>Stesura <emph>in mundum</emph> del documento n.
+            214-CCLIII databile tra il 1270 e il 1272 dalla presenza di Bonagiunta de Podio di Lucca
+              <date notBefore="1270-01-01" notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

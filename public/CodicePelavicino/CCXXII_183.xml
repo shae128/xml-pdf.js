@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXXII_183">
+    <front xml:id="CCXXII_front">
+
+      <titlePart type="numerazioneNuova">183</titlePart>
+      <titlePart type="numerazioneOrig">CCXXII</titlePart>
+
+      <docDate xml:id="CCXXII_docDate">
+        <date when="1255-04-15">1255 aprile 15</date>, <placeName>Ponzanello (<term xml:lang="latin"
+            >Ponçanelli in domo Aidantis quondam Gundeti</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXXII_regesto">
+        <p>Vivaldeto, figlio di Bonvicino di Caprigliola, e la moglie Audisia promettono al vescovo
+          di Luni Guglielmo di pagare, a titolo di fitto annuale, la metà di uno staio di frumento
+          per alcune terre che loro tengono per conto della curia di Luni in Ponzanello. Vivaldeto e
+          Audisia ricevono dal vescovo 20 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXXII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP, c. 251r., c. CCXLIIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 222,
+            p. 200.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXXII_div">
+        <p xml:id="CCXXII_p_001" n="1">In nomine Domini, amen.<date when="1255-04-15"> Anno a
+            nativitate Eius millesimo CC°LV°, indictione XIIIa, XV° aprilis</date>.<persName
+            ref="#VivaldetusBonvisini">Vivaldetus, filius Bonvisini de <placeName ref="#Caprigliola"
+              >Caprilliola</placeName></persName>, una cum <persName ref="#Audixia"
+            >Audixia</persName>, uxore sua, promisit et se suosque heredes obligavit dare, solvere
+          et prestare venerabili patri domino <persName ref="#GuilEpLuni">Guilielmo, Dei gratia
+              <roleName>Lunensi episcopo</roleName></persName>, recipienti pro se suisque
+          successoribus et nomine episcopatus, medium starium frumenti, nomine ficti, pulcri, mundi
+          et sicci atque bene mensurati ad starium legitimum de <placeName ref="#Ponzanello"
+            >Ponçanello</placeName>, omni anno, per totum mensem augusti, de podere et
+          possessionibus, quod et quas tenent dicti iugales a Lunensi curia in <placeName
+            ref="#Ponzanello">Ponçanello</placeName> et pertinenciis, sine briga, lite, dampno,
+          dispendio et interesse eiusdem domini episcopi et episcopatus, et omne dampnum, interesse
+          et expensas, quod vel quas idem dominus episcopus ea occasione haberet vel sustineret,
+          eidem in totum dictus <persName ref="#VivaldetusBonvisini">Vivaldetus</persName> et uxor
+          sua predicta, tam in iudicio quam extra iudicium, restituere promiserunt, pro precio
+            <measure type="Imperiales" quantity="20" unit="solidus">soldorum XX
+            imperialium</measure>, quos dicti iugales a dicto domino episcopo habuerunt et
+          receperunt coram me notario et testibus infrascriptis, renunciando exceptioni non numerate
+          pecunie et precii integri non habiti et soluti et specialiter legi que iuvat deceptos
+          ultra dimidiam iusti precii. Insuper dicti iugales promiserunt et convenerunt eidem domino
+          episcopo dictum fictum omni anno dare, solvere et prestare, ut dictum est, et deferre ad
+          canevam seu granarium, ubi ponent aliud frumentum, curie Lunensis in <placeName
+            ref="#Ponzanello">Ponçanello</placeName>, sine alterius contradictione. Et hec omnia et
+          singula suprascripta dicti iugales per se et eorum heredes promiserunt eidem domino
+          episcopo, recipienti pro se atque suis successoribus, attendere, facere et observare et in
+          nullo umquam contra venire vel facere de iure vel de facto, sub pena <measure
+            type="Imperiales" quantity="10" unit="solidus">X soldorum imperialium</measure>, quam
+          penam eidem domino<note xml:id="CCXXII_n_001" n="a" place="foot"><term xml:lang="latin"
+              >domino</term>: <emph>corretto su precedente scrittura</emph>.</note> episcopo dare et
+          solvere promiserunt tociens quociens contra facerent vel venirent atque pro quolibet
+          capitulo non observato; et, pena soluta vel non, suprascriptis<note xml:id="CCXXII_n_002"
+            n="b" place="foot"><term xml:lang="latin">suprascriptis</term>: <term xml:lang="latin"
+              >supra</term>
+            <emph>corretto su precedente scrittura</emph>.</note> omnibus et singulis nichillominus
+          semper firmis manentibus, obligando ad hec attendenda<note xml:id="CCXXII_n_003" n="c"
+            place="foot"><term xml:lang="latin">attendenda</term>: <term xml:lang="latin"
+              >denda</term>
+            <emph>corretto su precedente scrittura</emph>.</note> dicti iugales se suosque heredes
+          et omnia sua bona, et specialiter dictum podere de <placeName ref="#Ponzanello"
+            >Ponçanello</placeName>, quod podere pro ipso domino episcopo et episcopatu
+          constituerunt precario possidere, renunciando omni iuri et legibus quibus a predictis vel
+          aliquo predictorum, et specialiter a dicta pena, se tueri possent, et specialiter legi que
+          dicit quod sors et pena simul peti non possint; et dicta mulier, cerciorata primo de iure
+          suo, renunciavit beneficio senatus consultus velleani et omni alii iuri pro se
+          introducto.</p>
+        <p xml:id="CCXXII_p_002" n="2">Actum <placeName ref="#Ponzanello">Ponçanelli</placeName>, in
+          domo <persName ref="#AidansGondeti">Aidantis quondam Gundeti</persName>, presentibus
+            <persName ref="#Iacopinusarc">Iacomino <roleName>archipresbytero de <placeName
+                ref="#Ameglia"><orgName ref="#Ameglia_S_Vincenzo"
+              >Amelia</orgName></placeName></roleName></persName>, <persName ref="#BenedictusMBnot"
+            >Benedicto <roleName>notario</roleName> de <placeName ref="#Montebello">Monte
+              Bello</placeName></persName> et <persName ref="#Bonavitapre"
+              ><roleName>presbytero</roleName> Bonavita de <placeName ref="#Ponzanello"
+              >Ponçanello</placeName></persName>, testibus ad hec rogatis<note xml:id="CCXXII_n_004"
+            n="d" place="foot"><term xml:lang="latin">testibus ad hec rogatis</term>: <emph>aggiunto
+              in sottolinea</emph>.</note>.</p>
+        <p xml:id="CCXXII_p_003" n="3"><ptr target="#CCXXII_st_001"/> Ego <persName
+            ref="#PetrusGualterotinot">Petrus, <roleName>sacri palacii
+            notarius</roleName></persName>, hiis interfui et rogatus hanc cartam scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

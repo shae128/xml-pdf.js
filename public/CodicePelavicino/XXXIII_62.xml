@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="XXXIII_62">
+        <front xml:id="XXXIII_front">
+            <titlePart type="numerazioneNuova">0062</titlePart>
+            <titlePart type="numerazioneOrig">XXXIII</titlePart>
+            <docDate xml:id="XXXIII_docDate">
+                <date when="1286-03-18">1286 marzo 18</date>, <placeName>presso Ameglia (<term
+                        xml:lang="latin">in podio de Corbo</term>).</placeName>
+            </docDate>
+            <div type="regesto" xml:id="XXXIII_regesto">
+                <p> Alberto del fu Federico de <emph>Lapadule</emph> di Carrara, in veste di
+                    procuratore del vescovo di Luni Enrico, prende possesso della torre e del poggio
+                    del Corvo, oltre che dell’edificio che egli stesso aveva fatto costruire per
+                    conto del vescovo. </p>
+            </div>
+            <div type="footer" xml:id="XXXIII_footer">
+                <div type="orig_doc">
+                    <p> Copia [C] c. 118v., c. CXv. secondo la numerazione originale. </p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 33, p. 48.</p>
+                    <p>Bibliografia: <ref target="#MAZZINI_1909">MAZZINI 1909</ref>, p. 221.</p>
+                </div>
+                <div type="crit_notes">
+                    <note> Nel margine esterno, di mano moderna: <emph>De eodem</emph>
+                    </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">XXXIII. Possessio turris de Corvo.</term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="XXXIII_div">
+                <p xml:id="XXXIII_p_001" n="1"> In nomine Domini, amen. <persName
+                        ref="#AlbertusFrederici">Albertus quondam Frederici de</persName>
+                    <placeName ref="#Lapadule">Lapadule</placeName> de <placeName ref="#Carrara"
+                        >Carraria</placeName>, <roleName>sindicus atque procurator</roleName>
+                    venerabilis patris <roleName>domini</roleName>
+                    <persName ref="#HenricusEpLuni">Henrici</persName>, <roleName>Dei gratia
+                        Lunensis episcopi</roleName>, ut continetur in carta sindicatus et
+                    procurationis inde facta manu <persName ref="#LevantinusLevantonot"
+                        >Levantini</persName>
+                    <roleName>notarii</roleName> de <placeName ref="#Levanto">Levanto</placeName>,
+                    visa atque lecta a me <persName ref="#OpipzoAldebrandini_notarius"
+                        >Oppezone</persName>
+                    <roleName>notario</roleName> infrascripto, sindicatus atque procuratorio nomine
+                    pro ipso domino episcopo atque pro Lunensi curia reintravit in tenutam atque
+                    possessionem turris atque podii de <placeName ref="#Corbo">Corbo</placeName> et
+                    tocius hedificii in dicto loco facti per suprascriptum <persName
+                        ref="#AlbertusFrederici">Albertum</persName>, dicto nomine, accipiendo
+                    lapides atque terram in manibus et faciendo sarpari atque reaptari<note
+                        place="foot" n="a" xml:id="XXXIII_n_001">reaptari: <emph>la prima a aggiunta
+                            in sopralinea su precedente lettera corretta e successivamente
+                            espunta.</emph></note> atque laborari. </p>
+                <p xml:id="XXXIII_p_002" n="2">
+                    <supplied reason="omitted">Actum</supplied> in dicto loco, presentibus domino
+                        <persName ref="#Thomasius_abbas">Thomasio</persName>
+                    <roleName>abbate</roleName> de <placeName ref="#Aulla">Actouba<note place="foot"
+                            n="b" xml:id="XXXIII_n_002">Actouba: <emph>così nel testo quasi
+                                certamente per</emph> Avula</note></placeName>, <persName
+                        ref="#LevantinusLevantonot">Levantino</persName> suprascripto, <persName
+                        ref="#RaineriusSarzana_notarius">Raynerio</persName>
+                    <roleName>notario</roleName> de <placeName ref="#Sarzana">Sarzana</placeName>,
+                        <persName ref="#AlamannusMonteMarzello">Alamanno de <placeName
+                            ref="#Montemarcello">Monte Marzello</placeName></persName> et <persName
+                        ref="#BonssignoreMonteMarzello">Bonssignore</persName>
+                    <placeName ref="#Montemarcello">eiusdem loci</placeName>, testibus ad hec
+                    rogatis. <date when="1286-03-18">Anno a nativitate Domini M°CC octuagesimo VI,
+                        inditione XIIII, die lune, XVIII mensis martii.</date>
+                </p>
+                <p xml:id="XXXIII_p_003" n="3">
+                    <ptr target="#XXXIII_st_001"/> Ego <persName ref="#OpipzoAldebrandini_notarius"
+                        >Oppizo quondam domini Aldebrandi de <placeName ref="#Pistina"
+                            >Pistina</placeName></persName>, <roleName>notarius</roleName> domini
+                        <persName ref="#GuilielmusAdvocatis">Guilielmi de Advocatis de <placeName
+                            ref="#Lucca">Luca</placeName></persName>
+                    <roleName>comitis sacri palacii</roleName>, hiis<note place="foot" n="c"
+                        xml:id="XXXIII_n_003">hiis: <emph>segue a fine rigo una parola abrasa e
+                            depennata.</emph></note> interfui atque hanc cartam, rogatus, scripsi.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

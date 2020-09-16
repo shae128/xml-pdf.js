@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXXXVIIII_200">
+    <front xml:id="CCXXXVIIII_front">
+
+      <titlePart type="numerazioneNuova">200</titlePart>
+      <titlePart type="numerazioneOrig">CCXXXVIIII</titlePart>
+
+      <docDate xml:id="CCXXXVIIII_docDate">
+        <date when="1197-12-11">1197 dicembre 11</date>, <placeName>Ponzanello <emph>(<term
+              xml:lang="latin">in castro Ponçanelli</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXXXVIIII_regesto">
+        <p>Gualtiero, vescovo di Luni, affitta a Giovannino <term xml:lang="latin">de Gropo</term> e
+          Saraceno di Cormezzano, che ricevono anche a nome dei consorti, che sono uomini del
+          vescovo, beni non specificati ma probabilmente riguardanti il <term xml:lang="latin"
+            >masio</term> di Summo Vico e il <term xml:lang="latin">masio de Pallaroso</term> (cfr.
+          doc. 227-CCLVII). Per Durante, minorenne, riceve Tebaldino gastaldo di Soliera in qualità
+          di tutore. Il fitto ammonta a 8 sestari di frumento, 2 congi di mosto, 6 polli e 40 uova
+          all’anno e, quando il vescovo o un suo nunzio si reca annualmente a Soliera, anche 8 fasci
+          di fieno per i cavalli e prodotti dell’orto per la corte. Gli obblighi, uguali a quelli
+          degli altri affittuari della curia di Soliera, prevedono anche l’ospitalità ai notai del
+          vescovo; l’aiuto al vescovo per le questioni relative al papa e all’imperatore e
+          all’acquisto di terre, l’impegno a non diventare uomini di altri senza il permesso del
+          vescovo o del gastaldo. Il vescovo tiene per sé i diritti di placito, banno e <term
+            xml:lang="latin">amasiamenta</term>, mentre condona loro tutti gli altri obblighi. Il
+          prezzo della transazione ammonta a 40 &lt;soldi&gt; di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXXXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] cc. 258v.- 259r., cc. CCLv.- CCLIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 239,
+            pp. 220-221.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Un documento dal contenuto simile, ma non identico, è inserito all’interno del doc.
+            227-CCLVII. <p>Autentica databile con incertezza al quarto decennio del Duecento per la
+              presenza del notaio Bonaventura.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXXXVIIII_div">
+        <p xml:id="CCXXXVIIII_p_001" n="1"><ptr target="#CCXXXVIIII_st_001"/> In Christi nomine,
+            amen.<date when="1197-12-11"> Anno a nativitate Eius M°C nonagesimo VII, indictione XV,
+            die iovis, tercio idus decembris</date>, presentibus testibus infrascriptis. Dominus
+            <persName ref="#GualEpLuni">Gualterotus, <roleName>Dei gratia venerabilis Lunensis
+              episcopus</roleName></persName>, ex magna atque previsa utilitate sui episcopatus,
+          affictavit <persName ref="#IohanninusGropo">Iohanninum<note place="foot" n="a"
+              xml:id="CCXXXVIIII_n_001"><term type="incerto">Iohanninum</term>: <term
+                xml:lang="latin">Ianninum</term><emph>nel doc. 227-CCLVII.</emph></note> de
+              <placeName ref="#Gropo">Gropo</placeName></persName> et <persName
+            ref="#SaracenusColmezano">Sarracenum de <placeName ref="#Colmezano"
+              >Colmeçano</placeName></persName>, recipientes pro se et omnibus suis consortibus, qui
+          sunt homines suprascripti domini episcopi, ita videlicet quod ipsi homines simul et eorum
+          heredes debeant et teneantur persolvere annuatim curie domini predicti episcopi in
+          kalendis augusti sextaria VIII frumenti mundi et sicci et ad starium de Soleria mensurati
+          et debeant illud deferre apud <placeName ref="#Soliera">Soleriam</placeName>, in granarium
+          domini Lunensis episcopi, atque similiter eidem curie teneantur, omni anno, persolvere duo
+          concia musti et in natale sancti Stephani VI pullos et XL ova et semel in anno VI faxios
+          straminis pro equis, quando dominus episcopus vel suus nuncius venerit <placeName
+            ref="#Soliera">Soleriam</placeName>, et ortulatum ad opus curie quando dominus episcopus
+          venerit <placeName ref="#Soliera">Soleriam</placeName>, sicut alii affictati de curia
+            <placeName ref="#Soliera">Solerie</placeName>; notarios domini episcopi euntes per
+          partes eorum, in hospicio recipient et procurabunt, pro factis pape et imperatoris
+          similiter auxilium domino Lunensi episcopo dabunt. Si quando dominus Lunensis episcopus
+          terram emerit, sicut alii eius affictati ei dabunt et facient adiutorium; non efficientur
+          homines alicuius sine parabola domini episcopi vel castaldionis eius. Placita, banda et
+          amasiamenta retinuit in se dominus episcopus de predictis et in predictis hominibus; alias
+          omnes condictiones, usantias et servicia et omnia quecumque domino episcopo vel eius
+          nuncio atque maxime castaldo eius faciebant vel reddebant, aut facere seu reddere debebant
+          vel solebant, eis remisit, condonavit et perdonavit. Pro quibus omnibus confirmandis fuit
+          confessus se recepisse ab eis servicium <measure type="Imperiales" quantity="40">bonorum
+              imperialium<note place="foot" n="b" xml:id="CCXXXVIIII_n_002"><term xml:lang="latin"
+                >imperialium</term>: <emph>manca l’indicazione del nominale di conto,
+                probabilmente</emph>
+              <term xml:lang="latin">soldorum.</term></note> XL</measure> et renunciavit exceptioni
+          non numerate pecunie. Item promisit eis et eorum heredibus, per se et suos successores,
+          sub pena <measure type="Imperiales" quantity="200" unit="solidus">CC soldorum
+            imperialium</measure>, hanc cartam et quicquid in ea legitur attendere et observare et
+          in nullo contravenire; et ipsi, per se et suos heredes, ei et successoribus eius, sub
+          eadem pena, quicquid in hac carta legitur firmum et ratum habere promiserunt et in nullo
+          contravenire. Que pena persolvatur parti fide servanti; qua soluta, non minus hec carta in
+          sua firmitate permaneat. Pro <persName ref="#Durans">Durante</persName> vero consorte
+          eorum, qui minor erat, recepit <persName ref="#ThebaldinusSoleria">Thebaldinus de
+              <placeName ref="#Soliera">Soleria</placeName>
+            <roleName>castaldus</roleName></persName>, tutorio nomine.</p>
+        <p xml:id="CCXXXVIIII_p_002" n="2">Acta sunt hec in <placeName ref="#Ponzanello">castro
+            Ponçanelli</placeName>, in domo <persName ref="#Gondetus">Gondeti</persName>, feliciter,
+          cum stipulatione. Ibi fuerunt rogati testes <persName ref="#Ugitiuscam">Ugitio
+              <roleName>camerarius</roleName></persName>, <persName ref="#Petruspres"
+              ><roleName>presbyter</roleName> Petrus de <placeName ref="#Soliera"
+              >Soleria</placeName></persName>, <persName ref="#Rollandus">Rollandus</persName>,
+            <persName ref="#Bonencontrusses">Bonencontrus <roleName>seskalcus</roleName></persName>,
+            <persName ref="#ThebaldinusSoleria">Thebaldinus de <placeName ref="#Soliera"
+              >Soleria</placeName>
+            <roleName>castaldus</roleName></persName>, <persName ref="#Gondetuscas">Gondetus
+              <roleName>castaldus</roleName> de <placeName ref="#Bolano"
+            >Bolano</placeName></persName>, <persName ref="#CancellinusFalcinello">Cancellinus de
+              <placeName ref="#Falcinello">Falcinello</placeName></persName> et multi alii,
+            <persName ref="#Clericus">Clericus</persName>.</p>
+        <p xml:id="CCXXXVIIII_p_003" n="3">Ego <persName ref="#Confortusnot">Confortus,
+              <roleName>sacri palacii et Lunensis curie notarius</roleName></persName>, hiis
+          interfui et rogatus a predictis hominibus et precepto domini episcopi hanc cartam
+          scripsi.</p>
+      </div>
+      <div xml:id="CCXXXVIIII_div2" type="autentica">
+        <p xml:id="CCXXXVIIII_p_004" n="4"><ptr target="#CCXXXVIIII_st_002"/> Ego <persName
+            ref="#BertholotusPaganiniMonc">Bertholotus filius Paganini de <placeName
+              ref="#Moncigoli">Monciculo</placeName>, <roleName>sacri palacii
+            notarius</roleName></persName>, auttenticum huius exempli vidi et legi et diligenter
+          respexi, in quo continebatur ut in isto legitur, nil addens vel minuens quod sensum seu
+          sententiam huius mutet, nisi forte littera vel sillaba plus minusve, et rogatus fideliter
+          exemplavi, signum proprium apponendo.<pb n="259r" xml:id="fol_259r"/></p>
+        <p xml:id="CCXXXVIIII_p_005" n="5"><ptr target="#CCXXXVIIII_st_003"/> Ego <persName
+            ref="#AttolinusSymonisnot">Attolinus quondam Symonis de <placeName ref="#Soliera"
+              >Soleria</placeName>, <roleName>sacri palacii notarius</roleName></persName>,
+          auttenticum huius exempli vidi et ascultavi, in quo continebatur ut in isto legitur, et
+          rogatus me subscripsi, signum proprium apponendo.</p>
+        <p xml:id="CCXXXVIIII_p_006" n="6"><ptr target="#CCXXXVIIII_st_004"/> Ego <persName
+            ref="#Bonaventuranot">Bonaventura, <roleName>sacri palacii
+            notarius</roleName></persName>, auttenticum huius exempli vidi et ascultavi, in quo
+          continebatur ut in isto legitur, et rogatus me subscripsi, signum proprium apponendo
+            <note>Autentica databile con molta incertezza al quarto decennio del Duecento per la
+            presenza del notaio Bonaventura <date notBefore="1229-01-01" notAfter="1239-01-01"
+              cert="low"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

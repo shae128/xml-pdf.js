@@ -1,0 +1,344 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="LXIIII_91">
+        <front xml:id="LXIIII_front">
+
+            <titlePart type="numerazioneNuova">91</titlePart>
+            <titlePart type="numerazioneOrig">LXIIII</titlePart>
+
+            <docDate xml:id="LXIIII_docDate">
+                <date when="1201-04-22">1201 aprile 22</date>, <placeName>Sarzana</placeName>
+                <emph>(<term xml:lang="latin">in ecclesia beati Basilii de Sarzana</term>)</emph>
+                <date when="1201-06-24">1201 giugno 24</date>, <placeName>Sarzana</placeName>
+                <emph>(<term xml:lang="latin">in canonica plebis Sancti Andree de
+                    Sarzana</term>)</emph>
+            </docDate>
+
+            <div type="regesto" xml:id="LXIIII_regesto">
+                <p>Il console di Sarzana Carenzio, anche a nome del socio Bonrognoso, nomina
+                    Bullione, Guerino, Guglielmotto, Borgarino e Rollando, già membri del consiglio,
+                    ad agire da procuratori nel definire i patti da stipularsi assieme a lui con il
+                    vescovo di Luni Gualtiero in occasione del trasferimento della sede della chiesa
+                    di Luni. Circa due mesi dopo sono stabiliti i suddetti patti tra il vescovo di
+                    Luni e gli abitanti di Sarzana. </p>
+            </div>
+
+            <div type="footer" xml:id="LXIIII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 192v.-194v., cc. CLXXXIIIIv.-CLXXXVIv. secondo la numerazione
+                        originale.</p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione in: <ref target="#PODESTÀ_1894">PODESTÀ 1893</ref>, p. 6 ***; <ref
+                            target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 64, pp. 100-106;
+                            <ref target="#CONTI_1979-1988">CONTI 1979-1988</ref>, I, doc. 5, pp.
+                        29-33. , n. 551, p.626</p>
+                </div>
+
+                <div type="crit_notes">
+                    <note> Nel margine esterno di c. 192v, di mano moderna: <emph><term
+                                xml:lang="latin">Pacta inter episcopum et Sarzanenses.</term></emph>
+                        Nel margine esterno di c. 193r, sempre di mano moderna: <emph><term
+                                xml:lang="latin">non de Amelia.</term></emph>
+                    </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXIIII. Carta Conforti notarii inter dominum episcopum
+                            et burgenses.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="LXIIII_div">
+                <pb n="192v" xml:id="fol_192v"/>
+                <p xml:id="LXIIII_p_001" n="1">
+                    <ptr target="#LXIIII_st_001"/> In eterni Salvatoris Ihesu Christi Dei nomine,
+                    amen. Ut ea que leguntur inferius, tam modernis quam venturis, in posterum
+                    semper in memoria reserventur, cum non possent alias memoriter retineri, dignum
+                    fuit in scriptura publica eadem reserari, presentibus sibi<note place="foot"
+                        n="a" xml:id="LXIIII_n_001">sibi: <emph>così nel testo</emph>.</note>
+                    testibus infrascriptis. <persName ref="#Carentius_consul">Carentio
+                            <roleName>consul de </roleName><placeName ref="#Sarzana"
+                            >Sarzana</placeName>,</persName> pro se et <persName
+                        ref="#Bonrognosus_con">Bon<supplied reason="omitted">ro</supplied>gnoso
+                            <roleName>suo socio</roleName></persName>, burgensium ibidem presentium
+                    de communi consilio, elegit secum <persName ref="#Bullione"
+                    >Bullionem</persName>, <persName ref="#Guerinus">Guerinum</persName>, <persName
+                        ref="#Guilielmotus">Guilielmotum</persName>, <persName ref="#Borgarinus"
+                        >Borgarinum </persName>, et <persName ref="#Rollandus">Rollandum</persName>
+                    ad habendam potestatem paciscendi, transigendi, ordinandi et confirmandi pacta
+                    et conventiones cum <persName ref="#GalcheriusEpLuni">Walterio, <roleName>Dei
+                            gratia venerabili Lunensi episcopo</roleName></persName>, et cum
+                    canonicis Lunensis ecclesie de translatione et pro translatione ipsius ecclesie,
+                    promittens pro se et dicto suo socio, simul cum omnibus burgensibus, qui ibi
+                    aderant, quicquid dicti et prenominati electi cum eo inde fecerint ratum habere.
+                    Erant enim ibi de burgensibus: <persName ref="#Bottonius_consul"
+                        >Bottonius</persName>, <persName ref="#Advocatus">Advocatus</persName>,
+                        <persName ref="#Bastardus">Bastardus</persName>, <persName ref="#Montaninus"
+                        >Muntaninus</persName>, <persName ref="#Hengelensis">Hengelensis</persName>,
+                        <persName ref="#Iuncta">Iuncta</persName>, <persName ref="#Recordatus"
+                        >Recordatus</persName>, <persName ref="#Bonacursus">Bonacursus </persName>,
+                    et <persName ref="#Burgensis">Burgensis</persName> et suprascripti, quos consul
+                    dictus elegit. Actum est hoc in ecclesia beati Basilii de <placeName
+                        ref="#Sarzana">Sarzana</placeName>, sollempniter cum stipulatione, <date
+                        when="1201-04-22">anno a nativitate Domini millesimo CC primo, indictione
+                        IIIIa, die dominico, X kalendas madii</date>, presentibus et rogatis ad hec
+                    testibus <persName ref="#Guidoarch">Guidone, <roleName>archipresbytero
+                                Lunensi<note place="foot" n="b" xml:id="LXIIII_n_002">Lunensi:
+                                    <emph>segue, depennato con inchiostro rosso, segno tachigrafico
+                                    per </emph>et.</note></roleName></persName>, <persName
+                        ref="#Baldanzacan">Baldantia <roleName>cantore</roleName></persName>,
+                        <persName ref="#Philippus_canonicus_Lun">Philippo</persName> et <persName
+                        ref="#AlbertusRocha">Alberto de <placeName ref="#Rocha">Rocha</placeName>,
+                            <roleName>canonicis</roleName>. </persName> Post hec, <date
+                        when="1201-06-24">eodem anno, die dominico, VIII kalendas iulii</date>, sunt
+                    infrascripta pacta, conventiones et statuta inter dominum episcopum et burgenses
+                    facta et confirmata, que talia sunt: Dominus episcopus debet acquirere totum
+                    territorium ipsius loci, qui construendus est, ad proprietatem Lunensis ecclesie
+                    et sui et successorum ipsius, et concambium de terra vel denariis debet dari
+                    extra bradias de consilio trium legitimarum personarum, que fuerint ad hoc
+                    nominate ab ipso domino <supplied reason="omitted">episcopo</supplied> et
+                    burgensibus; que persone debeant iurare hoc facere sine fraude. Et si discordia
+                    de toto vel de parte territorii orta fuerit cum aliquo, habitatores eiusdem
+                    loci, id est illi qui habuerint domos in burgo sive extra, debeant illam
+                    discordiam sedare seu acquietare, et episcopus ad hoc debeat eos adiuvare.
+                    Episcopus autem dabit et concedet hominibus, qui ad habitandum ibi venerint,
+                    casamenta ubi sibi placuerit, cum concordia illorum, qui ad hoc fuerint ab eo
+                    designati, sub annua pensione sex denariorum, quam debent reddere annis singulis
+                    episcopo vel eius ministeriali infra octavas nativitatis Domini; quam, si per
+                    biennium quisquam tenere presumpserit, a possessione domus cadat et casamenti.
+                    Si quando expedierit plus terre occupare pro commoditate et utilitate eiusdem
+                    loci, episcopus et eius successores, undecumque conveniens cambium dando, sicut
+                        <pb n="193r" xml:id="fol_193r"/> superius dictum est, libere accipiant;
+                    statutam vero pensionem, quam infra octavas nativitatis Domini, annis singulis,
+                    debent solvere, episcopus alienare vel in feudum dare non poterit vel etiam
+                    pignori obligare, set ad usum et mensam propriam retinebit. Omnes habitatores
+                    illius loci, qui habent vel habebunt feudum ab episcopatu vel <orgName
+                        ref="Luni_comitatus">comitatu</orgName>, iurent fidelitatem episcopo et
+                    successoribus eius catholicis contra omnes homines ubique, si non habent
+                    principaliores dominos; set, si habent, in sua terra precipue. Hii vero, qui non
+                    habent feudum, iurent sacramentum de episcopatu atque <orgName
+                        ref="Luni_comitatus">comitatu</orgName> similiter, sicut usque modo
+                    iuraverunt et iurant hodie homines loci illius. De placitis concessit eis
+                    dominus episcopus de benivolencia sua ut, lite contestata, consules cognoscant
+                    de causa, non obstante appellatione, usque ad prolationem sententie; set, ante
+                    litis contestationem et post datam sententiam, liceat cuilibet ad dominum
+                    episcopum appellare; et episcopus de illis causis, que ante eum incipientur, et
+                    de eis, que ad illum fuerint appellate, cognoscat per se que voluerit et quas
+                    voluerit liceat ei consulibus illius loci et aliis personis quibuscumque
+                    voluerit delegare. Banda et deveta faciet episcopus vel ministerialis eius cum
+                    consilio consulum loci, et lucrum exinde proveniens inter episcopum et <orgName ref="#Sarzana_comune">commune</orgName>
+                    ipsius loci per medium dividatur. Nemo die sabbati erigat tabulam ad cambiandum
+                    in ipso loco sine concessione episcopi; atque, si mercatum in illa<note
+                        place="foot" n="c" xml:id="LXIIII_n_003">illa: <emph>così nel testo
+                            per</emph> alia<emph>, cfr. doc. 66 -XXXVIIII</emph>.</note> die
+                    mutaretur vel constitueretur, debeat de cambio idem fieri. Et si mutari vel
+                    constitui mercatum accideret, cum consilio episcopi et consulum illius terre
+                    debeat fieri atque de cambio similiter fiat in tribus festivitatibus beatissime
+                    Virginis Marie et in sollempnitate Sanguinis, annis singulis. Tenutas seu
+                    possessiones propter contumaciam a domino episcopo vel consulibus eiusdem loci
+                    datas, teneantur habitatores illius terre deffendere illis quibus dabuntur.
+                    Omnia macella libere sint episcopi, set curature mercatorum atque bestiarum, que
+                    per terram episcopi ab aliquo transducuntur ad vendendum, sint episcopi, excepto
+                    de habitatoribus loci. Et iusticie malefactorum et maleficiorum sint episcopi.
+                    Et mulieres, que remanent in possessionibus, sint episcopi, sine aliqua
+                    contradictione, ut nemo ingrediatur possessiones illarum sine investitura vel
+                    concessione episcopi; ille tamen mulieres excipiuntur que remanent in domibus
+                    filiorum quondam villani. Conductam et guidam per totam suam terram et per totum
+                    episcopatum habebit episcopus libere et quiete, abs<supplied reason="omitted"
+                        >que</supplied> alicuius molestia et aliqua contradictione. Nullum vero
+                    tabellionem habebunt homines de terra illa, nisi quem dominus episcopus et sui
+                    successores eis assignabunt. Omnes iusticias, ripas et pedagia et rationes in
+                    portu et ripa de <placeName ref="#Ameglia">Amelia</placeName> sive de navibus
+                    per mare ad litus, volentes vel nolentes<note place="foot" n="d"
+                        xml:id="LXIIII_n_004">volentes vel nolentes: <emph>così nel testo per
+                        </emph>volentibus vel nolentibus.</note> applicantibus, et aliis mercatis,
+                    per mare seu per flumen aut etiam per terram ad predictum portum venientibus,
+                    episcopus et eius successores libere<note place="foot" n="e"
+                        xml:id="LXIIII_n_005">libere: li <emph>corretto su precedente
+                            scrittura</emph>.</note> et sine aliqua contradictione in integrum
+                    habebunt, excepto de habitatoribus loci. Quod, si per habitatorem aut burgensem
+                        <pb n="193v" xml:id="fol_193v"/> vel per extraneum ligna empta fuerint, que
+                    per flumen sive per ripam debeant transportari ad vendendum, aut alia
+                    mercimonia, episcopo et eius successoribus vel eorum ministerialibus illi qui
+                    ligna vel mercimonia duxerint per portum <placeName ref="#Ameglia"
+                        >Amelie</placeName> ripas libere et absque calumpnia persolvent, excepto de
+                    habitatoribus loci. In loco vero ipso sive burgo consules sive habitatores aut
+                    burgenses aliquem villanum episcopi non recipi<supplied reason="omitted"
+                        >ent</supplied><note place="foot" n="f" xml:id="LXIIII_n_006"><emph>Nel
+                            manoscritto in realtà</emph> recipi <emph>seguito dal compendio
+                            abbreviativo per</emph> etiam <emph>staccato, si veda tuttavia doc. 66
+                            -XXXVIIII</emph>.</note> sine ipsius vel eius successorum licencia; et,
+                    si aliquem receperint, sine eius voluntate non retinebunt. Similiter non
+                        recipi<supplied reason="omitted">ent</supplied><note place="foot" n="g"
+                        xml:id="LXIIII_n_007"><emph>Nel manoscritto in realtà</emph> recipi
+                            <emph>seguito dal compendio abbreviativo per</emph> etiam
+                            <emph>staccato, si veda tuttavia doc. doc. 66 -XXXVIIII</emph></note>
+                    aliquem inimicum eius, scilicet episcopi, nisi prius sit eius amicus; set nec
+                    episcopus aliquem inimicum eorum recipiet <note place="foot" n="h"
+                        xml:id="LXIIII_n_008"><emph>Nel manoscritto in realtà</emph> recipi
+                            <emph>seguito dal segno tachigrafico per et staccato, cfr. tuttavia doc.
+                            doc. 66 -XXXVIIII</emph>.</note> vel successores eius, postquam a
+                    burgensibus vel civibus fuerit requisitus, donec sit amicus eorum. Turrem, nisi
+                    factam pro communi deffensione loci supra murum vel foveas aut supra portas
+                    communis muri, nullus ibi faciat aliquo tempore; et consules specialiter hoc
+                    iurabunt atque omnia supradicta annis singulis, sicut sint redacta in scripto.
+                    Episcopus vero et palatium et turres pro beneplacito suo ibidem faciet et
+                    munitiones ubi ei placuerit habitare, quas alienare vel in feudum alicui dare
+                    non poterit, set eas sibi retinebit. Set episcopus et eius successores salvabunt
+                    habitatores ipsius loci in ipso loco, in personis et rebus, exceptis
+                        manifestis<note place="foot" n="i" xml:id="LXIIII_n_009">manifestis: s
+                            <emph>aggiunta in sopralinea</emph>.</note> vite culpis, crimine lese
+                    maiestatis, de traditione domini episcopi et ipsius loci sive alicuius alterius
+                    castri vel ville, que sint domini episcopi, et studioso homicidio et incendio
+                    atque exceptis latronibus, furibus, tricatoribus, paltonariis et falsariis et
+                    aliorum servis et ancillis; quos omnes, si fuerit manifestum eos tales esse in
+                    ipso loco, absque alicuius contradictione episcopus vel ministerialis eius
+                    capere poterit, et consules vocentur a ministerialibus curie ad capiendos illos
+                    et interesse teneantur. Et episcopus vel ministerialis eius possit, cum eisdem
+                    quos ceperit vel sine eis, bona eorum capere, set de rebus talium conservetur,
+                    sicut ex hoc in carta per manum quondam <persName ref="#Lombardusnot">Lumbardi
+                            <roleName>notarii</roleName></persName> facta continetur. In loco vero
+                    ipso sive burgo consules non nisi consensu et assensu domini episcopi Lunensis
+                    et successorum eius eligentur, atque tales qui iurent seu iuraverint fidelitatem
+                    episcopo et qui suprascriptum iuramentum faciant antequam de consulatu se
+                    intromittant. Consules, qui pro tempore ibi fuerint, iurabunt salvare et
+                    deffendere episcopum Lunensem contra omnes homines et non minuere rationes,
+                    iustitias et consuetudines et alia que habet vel habere debet, tam in loco ipso
+                    quam in toto episcopatu et in nemoribus, forestis, caciis et piscationibus. Et
+                    illud idem iuramentum facient omnes habitatores ipsius loci episcopo et eius
+                    catholicis successoribus de V in V annis. Et omni anno, antequam consules de
+                    consulatu exeant, debent facere iurare novos consules, qui electi fuerint, illud
+                    idem iuramentum, sicut superius dictum est. Mensure omnes blavi, vini et olei
+                    atque pannorum et ponderum episcopi libere sunt et erunt; et si oportuerit
+                    predictas mensuras vel pondera emendari vel moderari, nuntius episcopi, qui hoc
+                    fecerit, <pb n="194r" xml:id="fol_194r"/> vocet consules ad hoc; atque iusticie
+                    universe similiter sunt et erunt episcopi. Porro<note place="foot" n="i"
+                        xml:id="LXIIII_n_010">Porro: <emph>la prima</emph> o<emph> corretta su
+                            precedente lettera con asta al di sopra del rigo</emph>.</note> si
+                    contingerit quod aliquis homo episcopi possessionem que aliquam condictionem
+                    reddat episcopo alienaverit vel per cambium alicui dederit sine consensu
+                    episcopi, talis alienatio vel commutatio, sive per libellum facta sit sive per
+                    feudum sive alio modo, <supplied reason="omitted">nulla sit et</supplied>
+                    possessio, que alienata fuerit, libere et sine alicuius contradictione ad
+                    episcopum convertetur, quoniam iam a longo tempore prohibitum est ab episcopis
+                    ne fiant huiusmodi alienationes, nec prosit illi, qui possessionem obtinuit sine
+                    manifesto consensu et voluntate episcopi, ut faciat preiudicium tenuta, etiam si
+                    ille, qui possessionem illam alienavit, heredem habeat. Sane si aliquis ab
+                    intestato sine herede ibidem obierit, quicquid habebit tanquam ad dominum terre
+                    ad episcopum pertinebit, sicut continetur in carta inde facta per manum
+                        <persName ref="#AldebrandinusSala_notarius">Aldebrandini de <placeName
+                            ref="#Sala">Sala</placeName>
+                        <roleName>notarii</roleName></persName>. Si autem episcopus voluerit alicui
+                    pro aliquo maleficio guerram facere vel vindictam de malefactoribus sumere<note
+                        place="foot" n="j" xml:id="LXIIII_n_011">sumere: su <emph>corretto su
+                            precedente scrittura</emph>.</note> in expensis propriis per tres dies
+                    et tres noctes ei hostem et cavalcatam per totum episcopatum facient; a tribus
+                    diebus et noctibus in antea non in suis, set in episcopi expensis. Storiones,
+                        utibrine<note place="foot" n="l" xml:id="LXIIII_n_012">utibrine: <emph>così
+                            nel testo per</emph> umbrine, <emph>cfr. anche doc.
+                        66-XXXVIIII</emph>.</note>, cernie vel alius magnus piscis, quociens captus
+                    fuerit, curie episcopi debet dari et deferri. De omni enim piscatione unus detur
+                    curie, scilicet maior, sicut consuetum est; de minoribus vero, quando capiuntur,
+                    secundum quod piscator habuerit, de melioribus honorabile apportum, sicut decet,
+                    debet curie destinari et dari. De manutenendo episcopatu atque <orgName
+                        ref="Luni_comitatus">comitatu</orgName> servient episcopo homines illius
+                    terre, sicut in fidelitate continetur. Consules illius loci veniant ad curiam
+                    cum C personis tantum quando episcopus celebrat curiam in die sancti Stephani et
+                    die lune post Pascha Resurrectionis. Strata cursu solito perseveret. Si quis
+                    inventus fuerit in falsa mensura, medietas pene sit episcopi et aliam medietatem
+                    concessit episcopus communi eiusdem terre in feudum, excepto in die mercati,
+                    quod totum erit episcopi. Hec omnia, qualiter leguntur superius, per singula
+                    attendere atque observare, perpetuo quoque firma et rata habere et tenere
+                    promisit <persName ref="#GualEpLuni"><roleName>dominus</roleName> Walterius,
+                            <roleName>Dei gratia venerabilis Lunensis
+                        episcopus</roleName></persName>, per se suosque successores, sub <measure
+                        type="Imperiales" quantity="100" unit="solidus">pena C marcarum
+                        argenti</measure>
+                    <persName ref="#Carentius_consul">Carentioni, <roleName>consuli</roleName> de
+                            <placeName ref="#Sarzana">Sarzana</placeName></persName>, stipulanti pro
+                    se et <persName ref="#Bonrognosus_con">Bonrognoso <roleName>suo
+                        socio</roleName></persName> et pro toto communi de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> atque pro omnibus hominibus qui sunt et qui erunt in
+                    illa terra. Versa vice, idem <persName ref="#Carentius_consul">Carentio
+                            <roleName>consul</roleName></persName>, pro se et dicto socio suo, et
+                    suprascripti, quos elegit, cum eo pro se et toto communi de Sarzana et pro
+                    omnibus qui sunt et erunt in ea terra, scilicet <persName ref="#Bullione"
+                        >Bullionus</persName>, <persName ref="#Guerinus">Guerinus</persName>,
+                        <persName ref="#Guilielmotus">Guilielmotus</persName>, <persName
+                        ref="#Borgarinus">Borgarinus</persName>, et <persName ref="#Rollandus"
+                        >Rollandus</persName> promiserunt domino suprascripto episcopo, stipulanti
+                    pro se suisque catholicis successoribus, quicquid in hac carta legitur attendere
+                    et observare atque perpetuo firmum et ratum habere et tenere et in nullo
+                    contravenire, atque insuper se et omnes homines de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> hec omnia iurasse attendere et rata habere, sicut
+                    scriptum est in hac carta, confessi sunt. Ibi erant de burgensibus idem
+                    promittentes et confitentes: <persName ref="#GerardusIusfredo">Gerardus quondam
+                        Iuffredi</persName>, <persName ref="#Bonafides">Bonafides</persName>,
+                        <persName ref="#Bonencontrus">Bonencontrus</persName>, <pb n="194v"
+                        xml:id="fol_194v"/>
+                    <persName ref="#IunctaLamberti">Iuncta quondam Lamberti</persName>, <persName
+                        ref="#Bonacursuscas">Bonacursus</persName> et <persName ref="#Recordatus"
+                        >Recordatus</persName>. Sciendum est enim quod suprascriptus consul et omnes
+                    hic prope superius scripti, qui predicta pacta omnia cum domino episcopo
+                    statuerunt, et ea sibi, ut dictum est, attendere promiserunt ea omnia, que
+                    leguntur inferius, per se et totum commune de Sarzana et per omnes homines, qui
+                    sunt et erunt in ea terra, observare, firma atque rata tenere et numquam
+                    contravenire <persName ref="#Arditio_prepositus">Arditioni
+                            <roleName>preposito</roleName></persName>, stipulanti pro se et universo
+                    Lunensi capitulo, promiserunt, videlicet quod consules eiusdem loci omni anno,
+                    antequam de consulatu se intromittant, et omnes habitatores eiusdem loci a XVIII
+                    annis superius de quinque<note place="foot" n="m" xml:id="LXIIII_n_013">quinque:
+                            <emph>corretto su precedente scrittura</emph>.</note> in V annis semper,
+                    quando iurabunt sacramentum episcopi, iurent salvare et deffendere omnes
+                        canonicos<note place="foot" n="n" xml:id="LXIIII_n_014">canonicos: <emph>la
+                            seconda</emph> c <emph>corretta su precedente</emph> t.</note> maioris
+                    ecclesie, que Lunensis dicitur, et eorum clericos omnes atque eorum iura et
+                    rationes et eorum res bona fide per omnia, salva fidelitate domini episcopi in
+                    omnibus. Et consules faciant iurare sequentes consules hoc iuramentum annuatim;
+                    et omnes habitatores illius terre facient hoc idem iurare de V in V annis, ut
+                    dictum est. Acta sunt hec in <orgName ref="#Sarzana_S_Andrea">canonica plebis
+                        Sancti Andree de <placeName ref="#Sarzana">Sarzana</placeName></orgName>,
+                    sollempniter cum stipulatione. Ibi fuerunt rogati testes <persName
+                        ref="#Guidofrater">Guido frater domini episcopi</persName>, <persName
+                        ref="#Nicholausadv">Nicholaus <roleName>advocatus
+                    eius</roleName></persName>, <persName ref="#GuidoCassio">Guido de <placeName
+                            ref="#Cassio">Cassio</placeName></persName>, <persName
+                        ref="#AlimannusVezano">Alimannus de <placeName ref="#Vezzano"
+                            >Vezano</placeName></persName>, <persName ref="#BonvillanusArcola"
+                        >Bonvillanus de <placeName ref="#Arcola">Arcula</placeName></persName> et
+                        <persName ref="#ArmanninusPalmerii">Armanninus quondam Palmerii de
+                            <placeName ref="#Trebiano">Tribiano<note place="foot" n="o"
+                                xml:id="LXIIII_n_015">Tribiano: Tribia <emph>corretto su precedente
+                                    scrittura</emph>.</note></placeName></persName>. </p>
+                <p xml:id="LXIIII_p_002" n="2"> Ego <persName ref="#Confortusnot">Confortus,
+                            <roleName>sacri palacii et Lunensis curie
+                    notarius</roleName></persName>, hiis omnibus interfui et de mandato domini
+                    episcopi et rogatus a predictis contrahentibus hec omnia in publicam scripturam
+                    redegi, propriis manibus et proprio signo signavi. </p>
+            </div>
+        </body>
+
+    </text>
+</TEI>

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXVIIII_180">
+    <front xml:id="CCXVIIII_front">
+
+      <titlePart type="numerazioneNuova">180</titlePart>
+      <titlePart type="numerazioneOrig">CCXVIIII</titlePart>
+
+      <docDate xml:id="CCXVIIII_docDate">
+        <date when="0998-10-14">998 ottobre 14</date>, <placeName>Carrara <emph>(<term
+              xml:lang="latin">in curte Carreriare</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXVIIII_regesto">
+        <p>Adevrando di Ponzano chiede a Gotifredo, vescovo di Luni, metà delle terre poste in <term
+            xml:lang="latin">Genestitulo</term>, Ponzano, <term xml:lang="latin">Sevino</term> e
+            <term xml:lang="latin">Cetulo</term>, che fanno parte della corte di <term
+            xml:lang="latin">Cepanana</term>, con l’obbligo per Adevrando e i suoi eredi di pagare
+          al vescovo una pensione annuale di 24 denari.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 250r.-250v., cc. CCXLIIr.- CCXLIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#Ughelli_1644">UGELLI, 1644</ref>, I, 839; <ref
+              target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 219, pp. 197-198.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Lupo Gentile data erroneamente al 986. In realtà il terzo anno di regno di Ottone
+            III corrisponde al 998, come già osservò <ref target="#MAZZINI_1914">MAZZINI 1914</ref>,
+            p. 15. Il documento è preceduto dalla scritta <emph>De Ponçano</emph> all’interno di un
+            riquadro. Il testo presenta formule ceterate ed è alquanto scorretto; si è ritenuto
+            quindi di non segnalare i ripetuti errori.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXVIIII_div">
+        <p xml:id="CCXVIIII_p_001" n="1">
+          <ptr target="#CCXVIIII_st_001"/>In nomine Domini Dei atque Salvatoris nostri Ihesu
+          Christi. <date when="0998-10-14"><persName ref="#Otto_imperator3">Tercius Otto,
+                <roleName>gratia Dei imperator augustus</roleName></persName>, anno imperii eius,
+            Deo propicio, tercio, quartodecimo<note place="foot" n="a" xml:id="CCXVIIII_n_001"
+              >quartodecimo: <emph>nel testo</emph> decimoquarto <emph>con segno di richiamo per
+                inversione.</emph></note> die mensis octobris, indictione XII.</date> Peto ego
+            <persName ref="#AldevrandusAzo">Adevrando<note place="foot" n="b"
+              xml:id="CCXVIIII_n_002">Adevrando: <emph>nel testo</emph> de <emph>corretto su
+                precedente scrittura</emph></note> quondam Azo, filius quondam Rodolfi quondam
+              Bonizoni<note place="foot" n="c" xml:id="CCXVIIII_n_003">quondam Azo, filius quondam
+              Rodolfi quondam Bonizoni<emph>così nel testo. Il trascrittore, tuttavia, potrebbe aver
+                equivocato la lettura. La lezione originaria potrebbe essere stata</emph> Adevrando
+              qui et Azo, filius quondam Rodolfi, qui et Bonizoni<emph>, formule utilizzate
+                nell’onomastica di IX – XI secolo.</emph></note> de loco <placeName ref="#Ponzano"
+              >Ponzano</placeName></persName>, una cum meis heredibus, ad vos dominus <persName
+            ref="#GotefredEpLuni">Gotefredus, <roleName>episcopus sancte Lunensis
+              ecclesie</roleName></persName>, hoc est medietatem res terras episcopio vestro in
+            <placeName ref="#Genestitulo">Genestitulo</placeName> et in <placeName ref="#Ponzano"
+            >Ponciano</placeName>, <placeName ref="#Sevino">Sevino</placeName>, <placeName
+            ref="#Cetulo">Cetulo</placeName><note place="foot" n="d" xml:id="CCXVIIII_n_004">Sevino,
+              Cetulo<emph>: interpunzione tra i toponimi incerta.</emph></note> et pro aliis ceteris
+          locis, ubicumque de ipsa res de <placeName ref="#Genestitulo">Genestitulo</placeName> est
+          pertinente suprascriptam medietatem, cum casis<note place="foot" n="e"
+            xml:id="CCXVIIII_n_005">casis<emph>: corretto su precedente scrittura.</emph></note> et
+          terris, vineis, salectis, ficetis, campis, silvis et pascuis diversisque terra conreis,
+          plenum et vacuum, atque cum omnia super se abente in integrum; ipsa iamscriptam medietatem
+          iuris episcopio vestro atque est pertinente de curte nostra <placeName ref="#Cepanana"
+            >Cepanana</placeName><note place="foot" n="f" xml:id="CCXVIIII_n_006">Cepanana<emph>: la
+              prima n corretta su precedente lettera.</emph></note>, alendum, colendum, laborandum
+          atque meliorandum. Et super resedere debeam ego <persName ref="#AldevrandusAzo"
+            >Adevrando</persName> vel meis heredes aut nostro misso ad abitandum et a mandato vestro
+          veniamus de ipsa res ad lex faciendum et exinde persolvere debeam ego <persName
+            ref="#AldevrandusAzo">Adevrando</persName> vel meis heredes vobis domni Gotefredi
+          episcopi vel ad successores vestris in curte vestra <placeName ref="#Cepanana"
+            >Cepanana</placeName> aut ad vestro misso per annum octava de nativitatem Domini aficta
+          pensione denarios bonos et espendibiles numeratos XXIIII etc. etc. atque de ec homnia si
+          annue aliquot minime compleverimus ad dandum vel persolvendum de quod superius legitur,
+          aut ipsa iamscriptas res dimiserimus, tunc comp<supplied reason="omitted">onam</supplied>
+          ego <persName ref="#AldevrandusAzo">Adevrando</persName> vel meis heredes vobis <persName
+            ref="#GotefredEpLuni">domni Gotifredi <roleName>episcopi</roleName></persName> vel ad
+          successores vestris, pena numerata <measure type="Imperiales" quantity="12" unit="solidus"
+            >soldorum XII</measure>. Et ego <persName ref="#GotefredEpLuni">Gotefredus
+            episcopus</persName> sic repromitto vel meis successores tibi <persName
+            ref="#AldevrandusAzo">Adevrandi</persName> vel ad tuis heredibus, si vobis aliqua
+          superimposita fecerimus aut ipsas res retollerimus pro qualibet ingenio, tunc
+            comp<supplied reason="omitted">onam</supplied> similiter <measure type="Imperiales"
+            quantity="12" unit="solidus">soldos XII</measure>. Et ipsa liberaliter inter nos
+            facti<note place="foot" n="g" xml:id="CCXVIIII_n_008">inter nos facti<emph>: aggiunto al
+              termine della penultima riga di testo, con segno di richiamo.</emph></note>, in sua
+          maneat firmitatem.</p>
+        <p xml:id="CCXVIIII_p_002" n="2">Actum in curte <placeName ref="#Carrara"
+            >Carreriare</placeName><note place="foot" n="h" xml:id="CCXVIIII_n_009"><term
+              type="incerto">Carreriare</term><emph>:così nel testo.</emph></note>.</p>
+        <p xml:id="CCXVIIII_p_003" n="3">Signum manus suprascripti <persName ref="#AldevrandusAzo"
+            >Adevrandi</persName>, qui oc libello fieri rogavit.</p>
+        <p xml:id="CCXVIIII_p_004" n="4">Signum # # # manibus <persName ref="#IohannesAmizoni"
+            >Iohanni, qui est Amizoni</persName>, atque <persName ref="#Eldezonus"
+            >Eldezoni</persName> seu baronibus, omnes rogati testes. <pb n="250v" xml:id="fol_250v"
+          /></p>
+        <p xml:id="CCXVIIII_p_005" n="5"><ptr target="#CCXVIIII_st_002"/> Ego <persName
+            ref="#Berardusnot">Berardus, <roleName>notarius sacri palacii</roleName></persName>,
+          scripsi, post tradito complevi et dedi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

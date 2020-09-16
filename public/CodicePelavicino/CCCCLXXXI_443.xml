@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXXXI_443">
+    <front xml:id="CCCCLXXXI_front">
+
+      <titlePart type="numerazioneNuova">443</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXI</titlePart>
+
+      <docDate xml:id="CCCCLXXXI_docDate">
+        <date when="1261-12-24">1261 dicembre 24</date>, <placeName>Carpena (<term xml:lang="latin"
+            >Carpene, in scala palacii domini Nicholai</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXXXI_regesto">
+        <p>Il notaio papale Guala, delegato della sede apostolica, consegna una lettera al canonico
+          Percivalle di Parma, scritta a Lucca il giorno precedente, in cui gli chiede di assolvere
+          Niccolò Fieschi dalla scomunica in cui era incorso per aver favorito Bernabò Malaspina.
+          Percivalle assolve al compito richiesto, riammettendo Niccolò Fieschi tra i fedeli della
+          Chiesa. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXXXI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 365v.-366r., cc. CCCLVIv.-CCCLVIIr., secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 481, pp.
+            493-495.</p>
+          <p>Bibliografia : <ref target="#NUTI_1997">NUTI 1997</ref></p>
+        </div>
+
+        <div type="crit_notes">
+          <note> Nella datazione della lettera inserta è stata usata l’indizione bedana; nel
+            documento quella romana. <p>La pergamena reca un foro di forma più o meno circolare del
+              diametro di mm. 45, preesistente alla scrittura.</p>
+          </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXXI. Absolutionis domini Nicholai de Frisco ab excomunicatione.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+
+      <div xml:id="CCCCLXXXI_div">
+
+        <p xml:id="CCCCLXXXI_p_001" n="1"> In nomine Domini, amen. <persName ref="#Gualalegatus"
+            >Dominus Guala, <roleName>domini pape notarius et Sedis Apostolice
+            legatus</roleName></persName>, misit <persName ref="#Percivalcan"
+              ><roleName>domino</roleName> Percivalli, <placeName ref="#Parma">Parmensi</placeName>
+            <roleName>canonico</roleName></persName>, suas litteras, roboratas sub sui sigilli
+          munimine, in hac forma: «Prudenti ac discreto viro <persName ref="#Percivalcan"
+              ><roleName>domino</roleName> Percivalli, <roleName>canonico
+            Parmensi</roleName></persName>, germano venerabilis patris <persName
+            ref="#Ottobonuscard"><roleName>domini</roleName>
+            <expan>O<ex>toboni</ex></expan>
+            <roleName>cardinalis</roleName></persName>, <persName ref="#Gualalegatus">Guala,
+              <roleName>domini pape notarius et Sedis Apostolice legatus</roleName></persName>,
+          salutem in Domino. Licet deferre velimus et debeamus, in quantum cum Deo possumus, nobili
+          viro <persName ref="#NicholausFlisco"><roleName>domino</roleName> Nicholao</persName>,
+          germano vestro, honorem, tamen ecclesie deffensionem, pro cuius in <placeName
+            ref="#Tuscia">Tuscia</placeName> legatione fungimur, negligere non possumus nec debemus,
+          quin statui et honori eiusdem ecclesie in hoc periculoso tempore, quod multam cautelam
+          requirit et diligenciam, debite caveatur. Cum autem nobilis predictus <persName
+            ref="#NicholausFlisco"><roleName>dominus</roleName> Nicholaus</persName>, germanus
+          vester, propter auxilium quod nuper domino <persName ref="#BernabosMalaspina">Barnabe
+            Malespine</persName>, fa<supplied reason="omitted">u</supplied>ctori <persName
+            ref="#Manfrediprinc">Manfredi quondam <roleName>principis</roleName>
+            <placeName ref="#Tarentum">Terantini</placeName></persName>, Dei et ecclesie inimici,
+          contra fideles ecclesie nuper prestitit, excommunicationis sententiam incurrisse noscatur,
+          nos, qui vobis et dicto cardinali placere intendimus ac vestris <supplied reason="omitted"
+            >et</supplied> ips<supplied reason="omitted">i</supplied>us nobilis in hac parte
+          precibus anuentes, discretioni vestre committimus ut, recepto iuramento predicti domini
+            <persName ref="#NicholausFlisco">Nicholai</persName> de parendo mandatis ecclesie, ab
+          huius sententia absolvatis eundem et interdictum, cui sua terra subiacet, relaxetis,
+          iniungentes eidem, sub debito iuramenti, ut de cetero nullum auxilium, consilium vel
+          favorem <note place="foot" n="a" xml:id="CCCCLXXXI_n_001">favorem: <emph>segue una parola
+              abrasa e depennata</emph>.</note> prestet <persName ref="#Manfrediprinc">Manfredo,
+              <roleName>principi</roleName></persName> suprascripto, seu <persName
+            ref="#BernabosMalaspina">Barnabeo</persName> vel aliis eius nunciis seu vicariis aut
+          factoribus contra Romanam ecclesiam adherentes<note place="foot" n="b"
+            xml:id="CCCCLXXXI_n_002">adherentes: <emph>così nel testo per</emph> adherentibus</note>
+          eidem, et quod non permittet aliquos rebelles Romane et Lunensis ecclesie applicare | <pb
+            xml:id="fol_366r" n="366r"/> seu descendere vel transire per terram seu fortiam suam,
+          qui lesionem seu impedimentum prestare<note place="foot" n="c" xml:id="CCCCLXXXI_n_003"
+            >prestare: <emph>così nel testo per</emph> procurare</note> possint ecclesiis<note
+            place="foot" n="d" xml:id="CCCCLXXXI_n_004">ecclesiis: ii <emph>corretto su precedente
+              scrittura.</emph></note> vel fidelibus antedictis; et de hiis faciatis fieri publicum
+          instrumentum, quod nobis per specialem nuncium transmittatis, proviso quod eidem nobili
+          pro huius excessu iniungatis penitenciam salutarem, prout anime ipsius salutis videritis
+          expedire. Datum <placeName ref="#Lucca">Luce</placeName>, <date when="1261-12-23">X
+            kalendas ianu arii, indictione V</date>». Unde nos <persName ref="#Percivalcan"
+            >Percivallis, <roleName>canonicus</roleName></persName> suprascriptus, auctoritate dicti
+          domini legati, recepto prius iuramento dicti <persName ref="#NicholausFlisco"
+              ><roleName>domini</roleName> Nicholai</persName> de parendo mandatis ecclesie et de
+          observando ea que in dictis litteris continentur, a sententia suprascripta ipsum
+          absolvimus et interdictum<note place="foot" n="e" xml:id="CCCCLXXXI_n_005">interdictum:
+            terdictum <emph>corretto su precedente scrittura.</emph></note>, cui sua terra subiacet,
+          relaxamus; et precipimus ei debito iuramenti quod non permittat applicare, descendere vel
+          transire per terram seu fortiam suam aliquos rebelles Romane<note place="foot" n="f"
+            xml:id="CCCCLXXXI_n_006">Romane: <emph>in parte corretto su precedente
+            scrittura.</emph></note> ecclesie ac Lunensis, qui lesionem seu impedimentum
+            prestare<note place="foot" n="c" xml:id="CCCCLXXXI_n_007"><term xml:lang="latin"
+              >prestare</term>: <emph>così nel testo per</emph> procurare</note> possint ecclesiis
+          et fidelibus suprascriptis. </p>
+
+        <p xml:id="CCCCLXXXI_p_002" n="2"> Actum <placeName ref="#Carpeneto">Carpene</placeName>, in
+          scala palacii domini <persName ref="#NicholausFlisco">Nicholai</persName> suprascripti,
+          sollempniter, presentibus <persName ref="#Giffreduscam"><roleName>magistro</roleName>
+            Giffredo</persName>, <persName ref="#Ottobonuscard"><roleName>camerario
+              domini</roleName>
+            <expan>O<ex>ttoboni</ex></expan>
+            <roleName>cardinalis</roleName></persName>, <persName ref="#Zazonusmag"
+              ><roleName>magistro</roleName> Zanono <placeName ref="#Lauda"
+            >Laudensi</placeName></persName> et <persName ref="#RollanndinusVez"
+              ><roleName>domino</roleName> Rollando de <placeName ref="#Vezzano"
+            >Vezano</placeName></persName>, testibus ad hec vocatis. <date when="1261-12-24">Anno a
+            nativitate Domini M°CCLXI, indictione IIII, XXIIII mensis decembris.</date>
+        </p>
+
+        <p xml:id="CCCCLXXXI_p_003" n="3">
+          <ptr target="#CCCCLXXXI_st_001"/> Ego <persName ref="#Rollandinusnot">Rollandinus,
+              <roleName>sacri palacii notarius</roleName></persName>, hiis interfui et predictas
+          litteras, de mandato dicti <persName ref="#Percivalcan"><roleName>domini</roleName>
+            Percivallis</persName>, scripsi et in publicam formam redegi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

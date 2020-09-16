@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXLIIII_162">
+    <front xml:id="CXLIIII_front">
+
+      <titlePart type="numerazioneNuova">162</titlePart>
+      <titlePart type="numerazioneOrig">CXLIIII</titlePart>
+
+      <docDate xml:id="CXLIIII_docDate">
+        <date when="1255-12-04">1255 dicembre 4</date>, <placeName>Ponzanello (<term
+            xml:lang="latin">in ecclesia de Ponzanello</term>)</placeName>.</docDate>
+
+      <div type="regesto" xml:id="CXLIIII_regesto">
+        <p>Venuto del fu Remondino, per sé e in qualità di tutore di Ferro di Bonaiuto, entrambi del
+            <term xml:lang="latin">castrum</term> di Sarzana, vende a Guglielmo, vescovo di Luni, il
+          podere e i possessi che Ferro detiene in Ponzanello. Il prezzo ammonta a 8 lire di
+          imperiali, che il vescovo aveva ricavato dall’affrancamento dei rustici di Carrara.</p>
+      </div>
+
+      <div type="footer" xml:id="CXLIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 241r., c. CCXXXIIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 144, pp.
+            181-182.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine interno, di mano moderna: <term xml:lang="latin">Podere in
+              Ponzanelo</term>.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CXLIIII_div">
+        <p xml:id="CXLIIII_p_001" n="1">In Dei nomine, amen.<date when="1255-12-04"> Anno a
+            nativitate Eius millesimo CCLV°<note place="foot" n="a" xml:id="CXLIIII_n_001"><term
+                xml:lang="latin">L</term> corretto su precedente scrittura.</note>, indictione XIII,
+            IIII° decembris</date>. <persName ref="#VegnutusRamondini">Venutus quondam Ramundini de
+              <placeName ref="#Sarzanello">castro Sarzane</placeName></persName>, tutor quondam<note
+            place="foot" n="b" xml:id="CXLIIII_n_002"><term xml:lang="latin"> quondam</term>:
+              <emph>probabile refuso in quanto il personaggio appare vivente nel resto del
+              documento</emph>.</note>
+          <persName ref="#FerrusBonaiuti">Ferri Bonaiuti de <placeName ref="#Sarzanello">castro
+              Sarzane</placeName></persName>, ut dicebant, tutorio nomine pro ipso <persName
+            ref="#FerrusBonaiuti">Ferro</persName> et eius nomine et vice, vendidit, dedit atque
+          tradidit venerabili patri domino <persName ref="#GuilEpLuni">Guilielmo, Dei gratia
+              <roleName>Lunensi episcopo</roleName></persName>, recipienti pro se suisque
+          successoribus et nomine episcopatus, totum podere et possessiones quod et quas idem
+            <persName ref="#FerrusBonaiuti">Ferrus</persName> habebat in <placeName
+            ref="#Ponzanello">Ponzanello</placeName> atque eius districtu ratione matris sue olim
+          nomine <persName ref="#Riccadonna">Ricadonne</persName>, cum terris, casis et casamentis,
+          ortis, pratis, silvis, pascuis, nemoribus, divisis et indivisis, ubicumque de suprascripto
+          podere reperi<supplied reason="omitted">ri</supplied> posset, et dedit, tradidit, cessit
+          atque mandavit eidem domino episcopo, recipienti ut dictum est, omne dominium,
+          proprietatem, usum et utilitatem, actiones et rationes, utiles et directas, reales atque
+          personales seu mixtas et omnes alias sibi competentes et competencia seu competitura in
+          suprascripto podere et eius occasione, ita ut ex hiis omnibus suprascriptus dominus
+          episcopus suique successores et cui dare vel committere voluerit possint agere et
+          experiri, causari, tueri et deffendere adversus quamcumque personam atque locum et exinde
+          facere quicquid voluerit, cum omnibus suis pertinenciis in integrum, sine ipsius <persName
+            ref="#VegnutusRamondini">Venuti</persName> et <persName ref="#FerrusBonaiuti"
+            >Ferri</persName> vel heredum eorum vel alterius contradictione, faciendo de hiis
+          omnibus procuratorem et dominum ipsum episcopum ut<note place="foot" n="c"
+            xml:id="CXLIIII_n_003"><term type="latin">Ut</term>: aggiunto in sopralinea con segno di
+            richiamo.</note> in rem suam, promittendo idem <persName ref="#VegnutusRamondini"
+            >Venutus</persName>, curatorio nomine pro dicto <persName ref="#FerrusBonaiuti"
+            >Ferro</persName> minore et pro se ipso, dictum podere, sicut dictum est, cum omnibus
+          suis pertinenciis, non imbrigare vel molestare deinceps, immo deffendere et exbrigare ab
+          omni molestante atque contradicente persona et loco; quod si non faceret vel non posset,
+          salvum cambium eis inde dare promisit in arbitrio bonorum hominum. Pro qua venditione fuit
+          confessus suprascriptus <persName ref="#VegnutusRamondini">Venutus</persName> tutor,
+          tutorio nomine pro suprascripto <persName ref="#FerrusBonaiuti">Ferro</persName>,
+          recepisse et habuisse <measure type="Imperiales" quantity="8" unit="libra">libras VIII
+            imperialium</measure>, qui denarii fuerunt de francatione rusticorum de <placeName
+            ref="#Carrara">Carraria</placeName>, renunciando exceptioni non numerate pecunie et non
+          recepte et omni alii iuri atque legum auxilio; unde dedit eidem domino episcopo licenciam
+          intrandi in tenutam et possessionem suprascripti poderis quandocumque voluerit, sua
+          auctoritate, constituendo se pro ipso <persName ref="#FerrusBonaiuti">Ferro</persName>,
+          tutorio nomine, possidere donec tenutam et possessionem ipsius poderis fuerit
+          introgressus. Hanc autem venditionem et omnia suprascripta suprascriptus <persName
+            ref="#VegnutusRamondini">Venutus</persName>, tutorio nomine pro suprascripto <persName
+            ref="#FerrusBonaiuti">Ferro</persName>, promisit et convenit suprascripto domino
+          episcopo, recipienti ut dictum est, attendere atque observare et in nullo contravenire de
+          iure vel de facto, sub pena <measure type="imperiales" quantity="100" unit="solidus">C
+            soldorum imperialium</measure>, quam dare et solvere promisit ipsi domino episcopo pro
+          ipso minore et se ipso, si contra faceret vel veniret, tociens quotiens fuerit
+          contraventum et pro quolibet capitulo non observato, qua soluta suprascriptis omnibus et
+          singulis nichillominus manentibus semper firmis, obligando se et dictum <persName
+            ref="#FerrusBonaiuti">Ferrum</persName> et eius heredes et sua atque ipsius <persName
+            ref="#FerrusBonaiuti">Ferri</persName> et eius heredum bona omnia ad hec attendenda et
+          observanda, renunciando omni iuri et legibus contra hec introductis.</p>
+        <p xml:id="CXLIIII_p_002" n="2">Actum in <orgName ref="#Ponzanello_S_Martino">ecclesia de
+              <placeName ref="#Ponzanello">Ponzanello</placeName></orgName>, presentibus <persName
+            ref="#ParensPasqualini">Parente <roleName>castaldione suprascripti domini episcopi de
+                <placeName ref="#Sarzanello">castro Sarzane</placeName></roleName></persName>,
+            <persName ref="AidansGondeti">Aidante quondam Gondeti de <placeName ref="#Ponzanello"
+              >Ponzanello</placeName></persName> et <persName ref="#BonaiunctaPesticio">Bonaiuncta
+            dicto Pesticio</persName> et <persName ref="#CeciusLucca">Cecio</persName>, civibus
+            <placeName ref="#Lucca">Lucanis</placeName>, testibus ad hec rogatis.</p>
+        <p xml:id="CXLIIII_p_003" n="3"><ptr target="#CXLIIII_st_001"/> Ego <persName
+            ref="#Adiutusnot">Adiutus, <roleName>sacri palatii notarius</roleName></persName>, hiis
+          interfui atque de mandato suprascripti domini episcopi hec scripsi et in publicam formam
+          redegi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

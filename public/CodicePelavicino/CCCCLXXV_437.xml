@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="CCCCLXXV_437">
+        <front xml:id="CCCCLXXV_front">
+
+            <titlePart type="numerazioneNuova">437</titlePart>
+            <titlePart type="numerazioneOrig">CCCCLXXV</titlePart>
+
+            <docDate xml:id="CCCCLXXV_docDate">
+                <date when="1221-08-01">1221 agosto 1</date>
+            </docDate>
+
+            <div type="regesto" xml:id="CCCCLXXV_regesto">
+                <p> Guido del fu Guigezone di Tivegna, Gisemaldo di Castagnolesi e Guidobono
+                    elencano i diritti della curia lunense sul castello di Tivegna.</p>
+            </div>
+
+            <div type="footer" xml:id="CCCCLXXV_footer">
+                <div type="orig_doc">
+                    <p> Copia [C] c. 363r., c. CCCLIIIIr., secondo la numerazione originale.</p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione pressoché integrale in <ref type="biblio"
+                            target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 475, pp.
+                        486-487.</p>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">IIIIc LXXV. Designationis reddituum de
+                        Tivegna.</term></p>
+                </div>
+            </div>
+
+        </front>
+        <body>
+            <div xml:id="CCCCLXXV_div">
+                <pb n="363r" xml:id="fol_363r"/>
+                <p xml:id="CCCCLXXV_p_001" n="1"> In nomine Domini, amen. <date when="1221-08-01"
+                        >Anno a nativitate Eius M°CCXXI, indictione IX, die dominico, in kalendis
+                        augusti</date>. <persName ref="#GuidoGuigeçoni">Guidus quondam Guigeçoni de
+                            <placeName ref="#Tivegna">Tivegna</placeName></persName> et <persName
+                        ref="#GisemaldusCastagnolesi">Gisemaldus de Castagnolesi</persName> et
+                        <persName ref="#GuidobonusTivegna">Guidobonus</persName> ad sancta Dei
+                    evangelia iuraverunt assignare, monstrare, confessare et testimoniare omnes
+                    rationes, condictiones, redditus et factiones que et quas Lunensis curia habet
+                    vel habuit seu debet habere in castello <placeName ref="#Tivegna"
+                        >Tivegne</placeName> et in eius districtu, scilicet porcatas, amiscera et
+                    omnes alias condictiones que et quas Lunensis curia habet vel habuit seu debet
+                    habere in curia <placeName ref="#Tivegna">Tivegne</placeName> et in eius
+                    districtu. Primitus per concordiam dixerunt: de manso de <placeName ref="#Folo"
+                        >Folo</placeName> debet habere curia Lunensis <measure quantity="6"
+                        unit="solidus">VI soldos</measure>, <measure quantity="2" unit="denarius">II
+                        denariis</measure> minus, porcata; de manso de <placeName ref="#Roxolo"
+                        >Roxolo</placeName>
+                    <measure quantity="6" unit="solidus">VI soldos</measure>, <measure quantity="2"
+                        unit="denarius">II denariis</measure> minus, porcata; de manso de <placeName
+                        ref="#Piaçola">Piaçola</placeName>
+                    <measure quantity="6" unit="solidus">VI soldos</measure>, <measure quantity="2"
+                        unit="denarius">II denariis</measure> minus, porcata; de manso de <placeName
+                        ref="#Guerçola">Guerçola</placeName>
+                    <measure quantity="6" unit="solidus">VI soldos</measure>, <measure quantity="4"
+                        unit="denarius">IIII denariis</measure> minus, porcata; de manso de
+                        <placeName ref="#Ripetoso">Ripetoso</placeName>
+                    <measure type="imperiales" quantity="2" unit="solidus">II soldos
+                        imperialium</measure> porcata; mansus de <placeName ref="#Carbellola"
+                        >Carbellola</placeName>
+                    <measure quantity="4.5" unit="solidus">IIII soldos et medium</measure> porcata.
+                    Item, in domo filiorum <persName ref="#GerardetusTranci">Gerardeti de <placeName
+                            ref="#Tranci">Tranci</placeName></persName>
+                    <measure quantity="14" unit="denarius">XIIII denarios</measure> porcata; in domo
+                    illorum de <placeName ref="#Puteo">Puteo</placeName>
+                    <measure type="imperiales" quantity="14" unit="denarius">XIIII denarios
+                        imperialium</measure> porcata. Omnes predicti denarii sunt imperialium. Item
+                    de manso de <placeName ref="#Folo">Folo</placeName> omni anno I magistrum ad
+                    stringendum vegetes, set nesciunt cernere quot dies debeat stare ad stringendum
+                    vegetes. Item de manso de <placeName ref="#Piaçola">Piaçola</placeName>
+                    similiter omni anno I magistrum; item de manso de <placeName ref="#Guerçola"
+                        >Guerçola</placeName> I magistrum annuatim. Item de manso de <placeName
+                        ref="#Folo">Folo</placeName> omni anno tria amiscera et <measure
+                        quantity="3" unit="solidus">tres soldos</measure>, <measure quantity="4.5"
+                        unit="denarius">IIII denarios et medium</measure> pensione. <supplied
+                        reason="omitted">De manso</supplied> Decani de <placeName ref="#Postiçola"
+                        >Postiçola</placeName> omni anno I amiscere et <measure quantity="3"
+                        unit="solidus">III soldos</measure> pensione. Item de manso de <placeName
+                        ref="#Roxolo">Roxolo</placeName>
+                    <measure quantity="14" unit="denarius">XIIII denarios</measure> pensione et
+                        <measure quantity="3" unit="denarius">denarios III</measure> de eodem manso,
+                    qui sunt affictati. Item de manso de <placeName ref="#Piaçola"
+                        >Piaçola</placeName> omni anno duo amiscera et <measure quantity="4"
+                        unit="solidus">IIII soldos</measure> pensione et <measure quantity="9"
+                        unit="denarius">IX denarios</measure> de eodem manso in domo illorum de
+                        <placeName ref="#Controla">Controla</placeName>. Item in domo illorum de
+                        <persName ref="#CuspitusBastremo">Cuspito de <placeName ref="#Bastremo"
+                            >Bastremo</placeName></persName> annuatim I amiscere. In domo illorum de
+                        <placeName ref="#Beçola">Beçola</placeName> omni anno I amiscere. In domo
+                    illorum de <placeName ref="#Cassola">Cassola</placeName> omni anno I amiscere
+                    sine vino et <measure quantity="8" unit="denarius">VIII denarios</measure>
+                    pensione et I starium <term ref="#mortana">mortane</term> ad Natalem. In domo
+                    illorum de <placeName ref="#Viara">Viara</placeName> cum suis consortibus
+                        <measure quantity="4" unit="denarius">IIII denarios</measure> pensione et,
+                    de duobus annis uno, I amiscere, sicuti dicunt homines qui solvunt pensionem.
+                    Item de manso de <placeName ref="#Salva">Salva</placeName>, de duobus annis uno,
+                    I amiscere. Item de manso de <placeName ref="#Guerçola">Guerçola</placeName>
+                    <measure quantity="5" unit="solidus">V soldos</measure> pensione, salvo plure.
+                    Item homines de <placeName ref="#Novelectulo">Novelectulo</placeName> omni anno
+                    I amiscere sine vino et I congium vini ad tinam et omni septimana operam I. Item
+                    in domo <persName ref="#AmigetusPanicale">Amigeti de <placeName ref="#Panicale"
+                            >Panicale</placeName></persName> omni anno I amiscere et <measure
+                        quantity="14" unit="denarius">XIIII denarios</measure> pensione. Item in
+                    domo <persName ref="#BonometusCasavecla">Bonometi</persName> et <persName
+                        ref="#PiçolelusCasavecla">Piçoleli</persName> et <persName
+                        ref="#BellandusCasavecla">Bellandi</persName> de <placeName ref="#CasaVecla"
+                        >Casa Vecla</placeName> omni anno, ad Natalem, cedria et herbaxaria in
+                        <placeName ref="#Carbellola">Carbelola</placeName>. Item de tenuta de
+                    hospitale omni anno I amiscere sine vino. Item de tenuta de <placeName
+                        ref="#PlaçiaTiv">Plaçia</placeName> omni anno I amiscere de pane et de carne
+                    sine vino et I congium vini ad tinam et I montonem et pensionem: I annum
+                        <measure quantity="3" unit="solidus">III soldos</measure> et alium annum
+                        <measure quantity="18" unit="denarius">XVIII denarios</measure>. Item in
+                    domo filiorum <persName ref="#BeccolusSantAndrea">Beccoli</persName> de
+                        <placeName ref="#Sant_Andrea">Sancto Andrea</placeName> omni anno I
+                    amiscere. Item in domo <persName ref="#AycardinusTorenco">Aycardini de
+                            <placeName ref="#Torenco">Torenco</placeName></persName> omni anno I
+                    amiscere de pane et vino et carne et <measure quantity="5" unit="denarius">V
+                        denarios</measure> pensione. Item omnes alii<note place="foot" n="a"
+                        xml:id="CCCCLXXV_n_002"><term>alii</term>: <emph>nel testo</emph>
+                            alios<emph>con seconda</emph> i <emph>in sopralinea</emph>, o
+                            <emph>e</emph> s <emph>espunti.</emph></note> homines de <placeName
+                        ref="#Torenco">Torenco</placeName> similiter I alium amiscere. Item de
+                    tenuta de <placeName ref="#Viacava">Viacava</placeName> petunt inducias, set
+                    dicunt quod domus <persName ref="#Girardellus">Girardelli</persName> sunt
+                    imbaxatores cortesi et credentes. Item in <placeName ref="#Castiglione"
+                        >Castilione</placeName> omni anno <measure quantity="8" unit="solidus">VIII
+                        soldos</measure> et medium porcata et amiscera, I annum V et alium annum VI,
+                    pane et spalla. Item in <placeName ref="#Bracellis">Blaçellio</placeName> omni
+                    anno IX amiscera, pane et spalla. </p>
+                <p xml:id="CCCCLXXV_p_002" n="2"> Acta sunt hec in castello <placeName
+                        ref="#Bracellis">Blaçelli</placeName>, in domo <persName
+                        ref="#IohannesHenrigi">Iohanni<supplied reason="omitted">s</supplied>
+                        quondam Henrigi</persName>, presentibus <roleName>magistro</roleName>
+                    <persName ref="#Mannusmag">Manno</persName>, <persName ref="#IunctaUberçoni"
+                        >Iuncta de <placeName ref="#Valerano">Valerano</placeName></persName> et
+                        <persName ref="#IacobusSala">Iacobo de <placeName ref="#Sala"
+                            >Sala</placeName></persName>, testibus ad hec rogatis. </p>
+                <p xml:id="CCCCLXXV_p_003" n="3">
+                    <ptr target="#CCCCLXXV_st_001"/>Ego <persName ref="#Confortus_notarius2"
+                        >Confortus</persName>, <roleName>domini Ottonis quarti inperatoris
+                        notarius</roleName>, hec rogatus scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

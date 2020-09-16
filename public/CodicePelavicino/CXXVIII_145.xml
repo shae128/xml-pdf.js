@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXXVIII_145">
+    <front xml:id="CXXVIII_front">
+
+      <titlePart type="numerazioneNuova">145</titlePart>
+      <titlePart type="numerazioneOrig">CXXVIII</titlePart>
+
+      <docDate xml:id="CXXVIII_docDate">
+        <date when="1235-08-17">1235 agosto 17</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in camera Lunensis episcopi de castro
+          Sarzane</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXXVIII_regesto">
+        <p>Guglielmo, vescovo di Luni, loca a Parente del fu Pasqualino due iugeri di terra <term
+            xml:lang="latin">in Padule</term>. La locazione costa 6 lire. Il fitto ammonta a 4
+          &lt;denari&gt; di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CXXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 230v.- 231r., cc. CCXXIIv.- CCXXIIIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 128,
+            p. 160.</p>
+        </div>
+
+        <div type="crit_notes">
+          <p>Stesura <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla presenza di
+            Bonagiunta de Podio di Lucca.</p>
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXXVIII_div">
+        <p xml:id="CXXVIII_p_001" n="1">In Dei nomine, amen.<date when="1235-08-17">M°CC°XXXV,
+            indictione VIII, die veneris, XVI kalendas septembris</date>. In camera Lunensis
+          episcopi, in <placeName ref="#Sarzanello">castro Sarzane</placeName>, coram <persName
+            ref="#UbertusZurri">Uberto quondam Çurri</persName>, <persName ref="#RollandusVagus"
+            >Rollando Vago</persName> et <persName ref="#VillanusAlioti">Villano quondam Alioti
+              Luc<supplied reason="omitted">ano</supplied></persName>, testibus. Venerabilis
+            <persName ref="#GuilEpLuni">Guilielmus, Dei gratia <roleName>Lunensis
+              episcopus</roleName></persName>, suo et episcopatus nomine dedit, cessit et locavit
+            <persName ref="#ParensPasqualini">Parenti quondam Pasqualini</persName> et heredibus
+          eius ab eo descendentibus, in perpetuum, duo iugera terre site in <placeName ref="#Padule"
+            >Padule</placeName>, cum accessibus et cetera, et promisit legitimam deffensionem atque
+          sumptus omnes reficere vel restituere, pro <measure type="imperiales" quantity="6"
+            unit="libra">libris VI</measure>, quas confessus fuit se inde servicium recepisse,
+          renunciando et cetera, et exinde teneatur omni anno solvere, nomine pensionis, <measure
+            type="Imperiales" quantity="4" unit="denarius">IIII imperialium</measure> per mensem
+          ianuarii. Alia et cetera. Hec sunt fines<note place="foot" n="a" xml:id="CXXVIII_n_001"
+              ><emph>Il testo si interrompe.</emph>
+          </note>.</p>
+      </div>
+      <div xml:id="CXXVIII_div2" type="mundum">
+        <p xml:id="CXXVIII_p_002" n="2"><ptr target="#CXXVIII_st_001"/> Ego <persName
+            ref="#Henricusnot">Henricus de <placeName ref="#Sarzanello">castro Sarzane</placeName>,
+              <roleName>sacri palatii notarius</roleName></persName>, hanc cartam olim a <persName
+            ref="#Bonencontrusnot">Bonencontro de <placeName ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam,<pb n="231r"
+            xml:id="fol_231r"/>prout in eius sceda et in eius contractibus et imbreviaturis inveni,
+          ita hic bona fide scripsi et auttenticavi et in publicam formam redegi, auctoritate et
+          decreto super hiis mihi prestita et concesso a <persName ref="#Bonaiunctaiud"
+              ><roleName>domino</roleName> Bonaiuncta de <placeName ref="#PodioLucca">Podio de
+                Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia
+                  <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre domino Lunensi episcopo et
+          <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName>, de qua auctoritate et decreto
+          constat per instrumentum publicum factum manu <persName ref="#Alcheriusnot">Alcherii
+              <roleName>notarii</roleName> de <placeName ref="#Lucca">Luca</placeName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 145-CXXVIII databile tra il 1270 e
+            il 1272 dalla presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

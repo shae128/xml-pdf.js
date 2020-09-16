@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXXXV_257">
+    <front xml:id="CCLXXXXV_front">
+
+      <titlePart type="numerazioneNuova">257</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXXXV</titlePart>
+
+      <docDate xml:id="CCLXXXXV_docDate">
+        <date when="1235-12-07">1235 dicembre 7</date>, <placeName>Sarzanello (<term
+            xml:lang="latin">in curia castri Sarzane</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXXXV_regesto">
+        <p>Guglielmo, vescovo di Luni, loca a Gerardino del fu Coneto de Mommio, abitante a
+          Castelnuovo, una casa in Castelnuovo, che una volta era di Giovanni de Collichia, anche
+          lui abitante di Castelunovo. Gerardino deve essere uomo della curia di Luni e dare ogni
+          anno un sestario di frumento e una libbra di olio. La concessione costa 30 soldi di
+          imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXXXV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 280r., c. CCLXXIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 295,
+            p. 268.</p>
+        </div>
+
+        <div type="crit_notes">
+          <p>Stesura <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla presenza di
+            Bonagiunta de Podio di Lucca nel ruolo di vicario.</p>
+          <note/>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCLXXXXV. Locationis Gerardi Conecti ad I starium frumenti ficti.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXXXV_div">
+        <p xml:id="CCLXXXXV_p_001" n="1"><pb n="280r" xml:id="fol_280r"/>In Dei nomine, amen.<date
+            when="1235-12-07">Anno a nativitate Eius millesimo CCXXXV, indictione VIII, die veneris,
+            VII mensis intrantis decembris</date>, in curia <placeName ref="#Sarzanello">castri
+            Sarzane</placeName>, coram nobili <persName ref="#Aldeprandusvic2">Aldeprando
+              <roleName>vicedomino</roleName></persName> et eius filio <persName
+            ref="#VinciguerraAldeprandi">Vinciguerra</persName>, <persName ref="#ParensPasqualini"
+            >Parente <roleName>castaldione</roleName> de <placeName ref="#Sarzanello">castro
+              Sarzane</placeName></persName> et pluribus aliis testibus rogatis. Venerabilis
+            <persName ref="#GuilEpLuni">Guilielmus, Dei gratia <roleName>Lunensis
+              episcopus</roleName></persName>, suo et episcopatus nomine dedit, cessit atque locavit
+            <persName ref="#GirardinusConeti">Girardino quondam Coneti de <placeName ref="#Mommio"
+              >Mommio</placeName></persName>, habitatori <placeName ref="#Castelnuovo"
+            >Castrinovi</placeName>, et eius heredibus ab eo descendentibus, in perpetuum,
+          nominatim, unam domum cum platea sitam in <placeName ref="#Castelnuovo"
+            >Castronovo</placeName>, cum omnibus massaritiis et rebus mobilibus, salvo<note
+            xml:id="CCLXXXXV_n_001" n="a" place="foot"><term type="incerto">salvo</term>: <emph>così
+              nel testo per evidente omissione di una o più parole da parte
+            dell’amanuense</emph>.</note> et cum tota castellaria et presa, que olim fuit <persName
+            ref="#IohannesCollichia">Iohannis de <placeName ref="#Collecchia"
+            >Collichia</placeName></persName>, habitatoris <placeName ref="#Castelnuovo"
+            >Castrinovi</placeName>: et quam domum et castellariam, massaritias et res habuit,
+          tenuit et possedit vel quasi idem <persName ref="#IohannesCollichia">Iohannes</persName>
+          et sibi competeba<supplied reason="omitted">n</supplied>t vel competere debere<supplied
+            reason="omitted">n</supplied>t. Confines domus hee sunt: a pede muri castri et
+          castellaria ipsius domus, superius via publica castri, ab una parte <persName
+            ref="#Opeçus">Opeço</persName> et ab alia filius quondam <persName ref="#Branchetus"
+            >Brancheti</persName>, cum accessibus et regressibus omnique iure conctaque utilitate
+          sibi competentibus et competituris, promittens legitimam deffensionem et sumptus omnes
+          reficere vel restituere, si deffendere non posset, et potestatem inde tenutam intrandi ei
+          dedit, constituendo<note xml:id="CCLXXXXV_n_002" n="b" place="foot"><term xml:lang="latin"
+              >constituendo</term>: do <emph>in sopralinea</emph>.</note> se pro eo interim
+          possidere; pro qua domo, castellaria et presa, massaritiis et rebus idem et eius heredes
+          tenentur et debent esse homines Lunensis curie, et fuit confessus se hominem deinceps fore
+          Lunensis curie et reddere omni anno per mensem augusti I sextarium frumenti mundi et sicci
+          et I libram olei boni et puri per mensem decembris, ad sextarium et libram legitimam
+          Lunensis curie tantum; alia superimposita ei non fiant. Et promisit se non facturum
+          hominem alicuius domini sine licencia et consensu Lunensis episcopi; et si aliquis eum vel
+          eius heredes vendicaret pro suo legitime seu cum ratione, cadat ipso iure a tota
+          suprascripta domo, possessione, castellaria et rebus, tam mobilibus quam immobilibus, quas
+          eo tempore possideret, et predicta libere et immediate pertineant ad dominum Lunensem
+          episcopum, nullo iure obstante et nemine contradicente. Et fuit confessus se exinde
+          servicium recepisse <measure type="imperiales" quantity="30" unit="solidus">soldorum XXX
+            imperialium</measure>, renunciando exceptioni non numerate pecunie. Que omnia
+          suprascripta et singula ambe partes, inter se sibi vicissim stipulantes, attendere et
+          observare promiserunt per se et suos successores et heredes ad penam <measure
+            type="Imperiales" quantity="40" unit="solidus">XL soldorum imperialium</measure>,
+            solvenda<supplied reason="omitted">m</supplied> parti predicta servanti quociens
+          incidetur in eam; et, ea soluta, rato manente pacto.</p>
+      </div>
+      <div xml:id="CCLXXXXV_div2" type="mundum">
+        <p xml:id="CCLXXXXV_p_002" n="2"><ptr target="#CCLXXXXV_st_001"/> Ego <persName
+            ref="#Henricusnot">Henricus de <placeName ref="#Sarzanello">castro Sarzane</placeName>,
+              <roleName>sacri palacii notarius</roleName></persName>, hanc cartam olim a <persName
+            ref="#Bonencontrusnot">Bonencontro de <placeName ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et autenticavi et
+          in publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+          domino <persName ref="#Bonaiunctaiud">Bonaiuncta de <placeName ref="#PodioLucca">Podio de
+            Luca</placeName>, <roleName>iudice</roleName></persName> in <orgName ref="#Lunigiana_provincia">provincia <placeName
+              ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre domino Lunensi
+          episcopo et <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName>, de qua auctoritate et
+          decreto constat per instrumentum publicum factum manu <persName ref="#Alcheriusnot"
+            >Alcherii <roleName>notarii</roleName> de <placeName ref="#Lucca"
+            >Luca</placeName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 257-CCLXXXXV databile tra il 1270 e
+            il 1272 dalla presenza di Bonagiunta de Podio di Lucca nel ruolo di vicario <date
+              notBefore="1270-01-01" notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

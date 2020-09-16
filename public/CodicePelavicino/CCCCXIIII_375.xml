@@ -1,0 +1,124 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXIIII_375">
+    <front xml:id="CCCCXIIII_front">
+
+      <titlePart type="numerazioneNuova">375</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXIIII</titlePart>
+
+      <docDate xml:id="CCCCXIIII_docDate">
+        <date when="1256-09-02">1256 settembre 2</date>, <placeName>Ponzanello (<term
+            xml:lang="latin">in ecclesia de Ponzanello</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXIIII_regesto">
+        <p>Parentino del fu Brizio di Bolano cede al vescovo di Luni Guglielmo, per la somma di 3
+          lire di imperiali, una terra posta nel distretto di Bolano, a Cobia. Parentino, che prima
+          teneva tale terra in feudo dallo stesso vescovo e dalla curia lunense, la riceve ora in
+          affitto al censo di uno staio e mezzo di frumento l’anno. Il vescovo paga il dovuto con
+          quello che ha ricavato dalla liberazione di Mercadante <emph>Peçameçane</emph>.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 331r.-331v., cc. CCCXXIIIr.-CCCXXIIIv. secondo la numerazione
+            originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>n. 414,
+            pp. 407-408</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCCXIIII. Unius starii et dimidii frumenti, quod reddit Parentinus. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXIIII_div">
+        <p xml:id="CCCCXIIII_p_001" n="1">In nomine Domini, amen. <date when="1256-09-02">Anno a
+            nativitate Eius M°CCLVI, indictione XIIII, II intrantis septembris</date>. <persName
+            ref="#ParentinusBricti">Parentinus quondam Brictii de <placeName ref="#Bolano"
+              >Bolano</placeName></persName> per se suosque heredes fecit finem et refutationem et
+          pactum de non petendo et datum venerabili patri domino <persName ref="#GuilEpLuni"
+            >Guilielmo</persName>, <roleName>Dei gratia Lunensi episcopo</roleName>, recipienti pro
+          se suisque successoribus et nomine episcopatus, de I petia terre, cum vineis, olivis et
+          aliis arboribus super se habentibus, posite in districtu <placeName ref="#Bolano"
+            >Bolani</placeName>, in loco dicto <placeName ref="#Cobia">Cobia</placeName>, in capite
+          orti, quam terram ab ipso domino episcopo et a Lunensi curia, ut dicebat, in feudum
+          detinebat, cui coheret superius heredes <persName ref="#ConsiliusCobia">Consilii <pb
+              n="331v" xml:id="fol_331v"/> de <placeName ref="#Cobia">Cobia</placeName></persName>,
+          inferius et ab uno latere <persName ref="#BonalbergusCobia">Bonalbergus de <placeName
+              ref="#Cobia">Cobia</placeName></persName>, ab alio latere <persName
+            ref="#PercivalCobia">Percevallis <placeName ref="#Cobia">eiusdem loci</placeName>
+          </persName>, cedendo et dando eidem domino episcopo, recipienti ut dictum est, omnia iura,
+          actiones et rationes, utiles et directas, reales, personales seu mixtas, que et quas
+          habebat in suprascripta petia terre vel sibi competere possent aliquo modo vel iure,
+          confitendo se recepisse idem <persName ref="#ParentinusBricti">Parentinus</persName> et
+          habuisse a suprascripto domino episcopo, pro predictis fine et refutatione, dato et pacto,
+          libras III imperialium, qui denarii fuerunt de francatione <persName
+            ref="#MercadantusPeçameçane">Mercadantis Peçemeçane de <placeName ref="#Sarzana"
+              >Sarzana</placeName></persName>, quos <persName ref="#Pizolbonus"
+            >Piçolbonus</persName> habebat in deposito, renunciando exceptioni non numerate pecunie
+          et precii non habiti et soluti et omni alii iuri et legum auxilio, promittendo dictam
+          finem et refutationem et predicta omnia suprascriptus <persName ref="#ParentinusBricti"
+            >Parentinus</persName> per suosque heredes rata habere et firma tenere et non
+          contravenire aliquo modo vel iure, obligando se suosque heredes et bona ad penam dupli
+          suprascripte pecunie et eius tocius quod in questione veniret; qua soluta, predicta omnia
+          et singula in suo robore perseverent, renunciando omni exceptioni, iuri et legibus contra
+          hec introductis. Ibidem incontinenti suprascriptus dominus episcopus per se suosque
+          successores et nomine episcopatus locavit et dedit nomine ficti suprascripto <persName
+            ref="#ParentinusBricti">Parentino</persName>, recipienti pro se suisque heredibus ex se
+          legitime descendentibus, suprascriptam petiam terre, ita quod ut amodo perpetuo, nomine
+          ficti, suprascriptus <persName ref="#ParentinusBricti">Parentinus</persName> suique
+          heredes habeant, teneant, fruantur et possideant predictam petiam terre, cum accessionibus
+          et ingressibus suis et omnibus suis pertinenciis et rebus super se habentibus in integrum,
+          sine alicuius aliqua contradictione, dando et reddendo exinde suprascriptus <persName
+            ref="#ParentinusBricti">Parentinus</persName> suique heredes suprascripto domino
+          episcopo suisque successoribus et curie Lunensi, nomine ficti, starium I et dimidium
+          frumenti annuatim, ad starium currens Lunensis curie de <placeName ref="#Sarzana"
+            >Sarzana</placeName>, mundi, sicci et bene mensurati, tracti et parati <placeName
+            ref="#Ceparana">Cepparane</placeName>, ad archam curie Lunensis, per totum mensem
+          augusti tantum; alia superimposita eis non fiat. Et hec omnia et singula attendere et
+          observare sibi ad invicem promiserunt, sub pena <measure type="imperialium" quantity="40"
+            unit="solidus">XL soldorum imperialium</measure> , quam dare et solvere teneatur pars
+          que contra venerit parti fidem servanti; qua soluta, suprascriptis omnibus et singulis
+          semper in suo robore duraturis, obligando se ad hec idem dominus episcopus suosque
+          successores et bona episcopatus et suprascriptus <persName ref="#ParentinusBricti"
+            >Parentinus</persName> se suosque heredes et omnia sua bona, renunciando omni iuri et
+          legibus contra hec introductis.</p>
+        <p xml:id="CCCCXIIII_p_002" n="2">Actum in <orgName ref="#Ponzanello_S_Martino">ecclesia de
+              <placeName ref="#Ponzanello"> Ponzanello</placeName></orgName>, presentibus
+            <roleName>presbytero</roleName>
+          <persName ref="#Adiutuscap">Adiuto, <roleName>cappellano suprascripti domini
+              episcopi</roleName></persName>, <persName ref="#CeciusIacopini">Cecio quondam
+              <roleName>domini</roleName> Iacopini</persName>, cive <placeName ref="#Lucca"
+            >Lucano</placeName>, <roleName>presbytero</roleName>
+          <persName ref="#Bonavitapre"> Bonavita de <placeName ref="#Ponzanello"
+              >Ponzanello</placeName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCCCXIIII_p_003" n="3"><ptr target="#CCCCXIIII_st_001"/>Ego <persName
+            ref="#Benedictusnot">Benedictus</persName>, <roleName>imperialis aule
+            notarius</roleName>, hanc cartam scripsi et rogatus fui.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

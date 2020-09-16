@@ -1,0 +1,307 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXXVIIII_251">
+    <front xml:id="CCLXXXVIIII_front">
+
+      <titlePart type="numerazioneNuova">251</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXXVIIII</titlePart>
+
+      <docDate xml:id="CCLXXXVIIII_docDate">
+        <date when="1255-03-17">1255 marzo 17</date> e <date when="1255-05-05">1255 maggio 5</date>,
+          <placeName>Sarzana (<term xml:lang="latin">in claustro Sancte Marie, in porticu Lunensium
+            canonicorum</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXXVIIII_regesto">
+        <p>Guglielmo del fu Alberto detto Mascardo di Trebiano, a nome suo e dei fratelli Attolino e
+          Gigliolo e della nipote Albertosca, figlia di un altro fratello, Pietro, ora defunto,
+          vende a Nicoletto di Soliera del fu Ugolino Bianchi, procuratore del vescovo di Luni
+          Guglielmo, il fitto di 3 sestari di frumento, l’ottava parte di 1 staio di frumento e 6
+          situle di mosto che riceveva annualmente da Guglielmina del fu Bonagiunta di Castelnuovo,
+          da Verdilia di Castelnuovo e dal figlio di Castagnola di Castelnuovo. Il fitto è venduto
+          assieme a tutti i diritti inerenti i terreni e le proprietà da questo gravati per il
+          prezzo di 9 lire e 5 soldi di denari imperiali. Tutti i venditori si impegnano, entro 15
+          giorni dalla richiesta del vescovo, di giurare l’osservanza a quanto stabilito; così come
+          giureranno anche Imelda e Rembursa, rispettivamente madre e moglie di Guglielmo, e Simona,
+          moglie di Attolino. Gigliolo e Albertosca giureranno appena raggiunta la maggiore età. In
+          realtà il venditore Guglielmo giura immediatamente alla presenza di Guglielmo, preposito
+          lunense e figlio del fu Gerardo visdomino di Trebiano. Guglielmo preposito e Gerardetto
+          detto Capello del fu Boccadicane di Sarzanello si costituiscono inoltre fideiussori del
+          venditore.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 277r.-278r., cc. CCLXVIIIIr.-CCLXXr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 289,
+            pp. 262-263.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine inferiore di c. CCLXVIIIIr., di mano moderna, la seguente annotazione:
+              <term xml:lang="latin">Venditio facta a Mascardis episcopo Lunensi</term>.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCLXXXVIIII. Emptionis trium stariorum frumenti ficti a Guilielmo Maschardo.
+            </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXXVIIII_div">
+        <p xml:id="CCLXXXVIIII_p_001" n="1">In nomine Domini, amen.<date when="1255-03-17"> Anno a
+            nativitate Eius millesimo CCLV°, indictione XIII, die XVII intrantis martii</date>.
+            <persName ref="#GuilielmusAlberti">Guilielmus quondam domini Alberti dicti Mascardi de
+              <placeName ref="#Trebiano">Trebiano</placeName></persName>, pro se et pro fratribus
+          suis <persName ref="#AttolinusAlberti">Attolino</persName> et <persName
+            ref="#GiliolusAlberti">Giliolo, filiis quondam dicti domini Alberti</persName>, et pro
+          nepte sua <persName ref="#AlbertoscaPetri">Albertosca, filia quondam Petri olim dicti
+            domini Alberti</persName>, et se pro eis et eorum nomine obligando principaliter per se
+          suosque heredes dedit in perpetuum, tradidit et vendidit <persName
+            ref="#NicholetusUgolini">Nicholeto de <placeName ref="#Soliera">Soleria</placeName>
+            quondam Ugolini Blanci, <roleName>procuratori</roleName></persName> domini <persName
+            ref="#GuilEpLuni">Guilielmi, Dei gratia <roleName>Lunensis
+            episcopi</roleName></persName>, procuratorio nomine et vice recipienti pro ipso domino
+          episcopo et pro successoribus suis et episcopatu Lunensi et cui dare vel committere
+          voluerit aliquo modo vel iure, tam pro anima quam pro corpore, sextaria tria frumenti
+          ficti et octavam partem unius starii frumenti ficti et situlas sex musti ficti, cum omni
+          iure soli, pro quo redditur, et personarum totum illud fictum reddere debentium, quod
+          frumentum recipiebant et recipere debebant annuatim infra mensem augusti a <persName
+            ref="#GuilielminaBonaiuncte">Guilielmina quondam Bonaiuncte de <placeName
+              ref="#Castelnuovo">Castronovo</placeName></persName>; staria duo frumenti ficti et
+          bene mensurati ad commune starium de <placeName ref="#Castelnuovo">Castronovo</placeName>
+          de omni et toto eo quod ipsa habet, tenet et possidet aut que dictus eius pater in
+            <placeName ref="#Castelnuovo">Castronovo</placeName> et districtu et pertinentiis et
+          alibi habuit et tenuit a dicto <persName ref="#GuilielmusAlberti">Guilielmo</persName> et
+          suis fratribus suprascriptis et quondam dictorum eorum patre; et aliud sextarium I et
+          octavam partem unius starii frumenti ficti recipiebant et recipere debebant annuatim infra
+          mensem augusti a filiabus <persName ref="#VerdiliaCastronovo">Verdilie de <placeName
+              ref="#Castelnuovo">Castronovo</placeName></persName>, cum omni homagio et resedio, et
+          mensurati ad commune starium <placeName ref="#Castelnuovo">Castrinovi</placeName>,
+          nominatim, de omni et toto eo quod ipse habent et possident ubicumque sit, iaceat vel
+          decurrat seu modo aliquo poterit reperiri pro parte contingente ipsi venditori et dictis
+          suis fratribus, que est quarta pars pro indiviso, unde ab eis recipiebant totum dictum
+          fictum, et situlas musti suprascripti recipiebant ipse et dicti sui fratres et recipere
+          debebant annuatim infra mensem septembris et mensurat(i) ad situlam <placeName
+            ref="#Castelnuovo">Castrinovi</placeName> a filio <persName ref="#CastangnolaCastronovo"
+              >Castangno<supplied reason="omitted">le</supplied><note xml:id="CCLXXXVIIII_n_001"
+              n="a" place="foot"><emph>Per integrazione cfr. doc. 261 (CCLXXXX)</emph>.</note> de
+              <placeName ref="#Castelnuovo">Castronovo</placeName></persName>, cum omni homagio et
+          resedio de omni et toto eo quod habet et quondam dictus suus pater habuit et tenuit ab eo
+          et dictis suis fratribus et quondam dicto eorum patre domino <persName
+            ref="#AlbertusMascardi">Alberto</persName>, ubicumque sit, iaceat vel decurrat seu
+          reperiri possit pro parte eis contingente, que est quarta pars omnium suorum bonorum et
+          persone sue, unde tenentur reddere totum dictum fictum, sicut dictum est superius. Et
+          dedit, tradidit, cessit atque mandavit eidem emptori, procuratori<note
+            xml:id="CCLXXXVIIII_n_002" n="b" place="foot"><term type="incerto">emptori,
+                <roleName>procuratori</roleName></term>: <emph>in realtà nel testo</emph>
+            <term xml:lang="latin">procuratori, emptori</term>
+            <emph>probabilmente con segno di inversione omesso</emph>.</note> suprascripti domini
+          episcopi et episcopatus, recipienti nomine et vice ipsius domini episcopi et episcopatus
+          et successorum eius et cui dare vel committere voluerit<note xml:id="CCLXXXVIIII_n_003"
+            n="c" place="foot"><term xml:lang="latin">voluerit</term>: o <emph>aggiunto in
+              sopralinea</emph>.</note>, omnia iura, dominium, proprietatem, usum et utilitatem, <pb
+            n="277v" xml:id="fol_277v"/> amasiamentum et dismasiamentum, accessum et regressum,
+          superiora et inferiora, actiones et rationes omnes, utiles et directas, reales, personales
+          seu mixtas sibi in toto dicto ficto vendito, terreno et possessionibus et podere, unde
+          datur, et personis reddere debentibus competentes et competiture, ut exinde suo nomine
+          directo et utiliter possit agere, tueri, respondere et deffendere adversus quamlibet
+          personam et locum et facere quicquid sibi placuerit sine alicuius aliqua contradictione,
+          remissa necessitate denunciandi et inquirendi et causam appellationis prosequendi, finito
+          precio cuius venditionis suprascriptus <persName ref="#GuilielminaAlberti"
+            >Guilielmus</persName>, pro se et dictis suis fratribus, coram me notario et testibus
+          infrascriptis habuit et recepit a dicto <persName ref="#NicholetusUgolini"
+            >Nicholeto</persName>, dante dicto nomine pro dicto domino episcopo et episcopatu et
+          successoribus suis et cui dare vel committere voluerit, <measure type="Imperiales"
+            quantity="9" unit="libra">bonorum denariorum imperialium libras IX</measure> et <measure
+            type="imperiales" quantity="5" unit="solidus">soldos V</measure>. Et fuit confessus
+          dictus venditor quod predicta omnia vendita, data, tradita atque cessa valebant plus
+          suprascripto precio, unde totum et quicquid plus valebant vel unquam valere poter(int),
+          dedit et donavit eidem emptori, recipienti dicto nomine, ut dictum est, inrevocabiliter
+          pure ac simplicis donationis titulo inter vivos et fecit eundem emptorem, recipientem
+          dicto nomine, procuratorem et dominum ut in rem suam et dedit eidem <persName
+            ref="#NicholetusUgolini">Nicholeto</persName>, recipienti dicto nomine, ut superius
+          dictum est, licenciam intrandi tenutam de predictis omnibus venditis, datis, traditis
+          atque cessis, auctoritate sua, quando voluerit, constituendo<note
+            xml:id="CCLXXXVIIII_n_004" n="d" place="foot"><term xml:lang="latin"
+            >constituendo</term>: do <emph>in sopralinea</emph>.</note> se pro eo et eius nomine
+          precario possidere donec tenutam vel quasi fuerit apprehensus. Promisit insuper et
+          convenit dictus <persName ref="#GuilielminaAlberti">Guilielmus</persName>, venditor
+          suprascriptus, per se suosque heredes et per dictos suos fratres et nepotem, pro quibus
+          promisit de rato habendo, eidem <persName ref="#NicholetusUgolini">Nicholeto</persName>,
+          procuratorio nomine recipienti vice et nomine pro dicto domino episcopo et episcopatu et
+          successoribus suis et cui dare vel committere voluerit, dictum fictum totum venditum et
+            nostruum<note xml:id="CCLXXXVIIII_n_005" n="e" place="foot"><term type="incerto"
+              >nostruum</term>: <emph>così nel testo, errore di copiatura per</emph>
+            <term xml:lang="latin">terrenum</term>; <emph>cfr. doc. 261 (CCLXXXXX)</emph>.</note>,
+          podere et possessiones, unde dari debet et pensiones<note xml:id="CCLXXXVIIII_n_006" n="f"
+            place="foot"><term type="incerto">pensiones</term>: <emph>così nel testo, errore di
+              copiatura per</emph>
+            <term xml:lang="latin">personas</term>; <emph>cfr. doc. 261 (CCLXXXXX)</emph>.</note>
+          reddere debentes, cum omnibus suprascriptis et suis pertinenciis in integrum, inde<note
+            xml:id="CCLXXXVIIII_n_007" n="g" place="foot"><term type="incerto">inde</term>:
+              <emph>corretto su</emph>
+            <term xml:lang="latin">iure</term>.</note> et personam iure deffendere et exbrigare<note
+            xml:id="CCLXXXVIIII_n_008" n="h" place="foot"><term xml:lang="latin">exbrigare</term>: e
+              <emph>finale corretta su</emph> i.</note> et non inquietare, nec molestare vel
+          impedire perpetuo, immo deffendere et exbrigare ab omni contradicente vel molestante
+          persona et loco, cum propriis expensis suis et advocato suo de proprietate vel dominio
+          ipsarum rerum venditarum inde vel in personam aliqua sive de possessione vel detentatione
+          vel alia quacumque occasione vel modo ipsi domino episcopo vel episcopatu<supplied
+            reason="omitted">i</supplied> vel successoribus suis atque cui dederit vel commiserit
+          questio vel controversia moveatur et omnes expensas, dampnum et interesse etiam singulare,
+          quas idem dominus episcopus et episcopatus vel successores sui aut cui dederit vel
+          commiserit fecerint in predictis seu occasione predictorum in causis seu extra causas vel
+          aliis quibuscumque in integrum resercire promisit et restaurare, credendo et stando de
+          dampno et expensis eius soli, nudo et simplici verbo, absque iuramento et testium vel
+          instrumenti probationis honere; et si quid de predictis ei evictum fuerit, in duplum
+          restaurare promisit et salvum cambium dare loco consimili, sub extimatione et arbitrio
+          boni viri, qualis tunc fuerit vel meliorata fuerit res evicta a tempore huius contractus
+          usque ad tempus evictionis, et quod possit eundem venditorem et eius heredes et bona omnia
+          de predictis omnibus et singulis convenire ubique et sub quocumque iudice voluerit, nec
+          possint locum vel iudicem aliquem recusare ubi et sub quo conveniantur de predictis, nec
+          ab eius sententia vel sententiis eis liceat appellare, tali pacto de communi concordia
+          addito inter eos quod, si de predictis vel aliquo predictorum eidem domino episcopo vel
+            episcopatu<supplied reason="omitted">i</supplied> seu successoribus suis aut cui dare
+          vel committere voluerit questio vel controversia moveatur, non debeat vel teneatur
+          denunciare eidem <persName ref="#GuilielminaAlberti">Guilielmo</persName>, venditori
+          suprascripto, vel suis fratribus suprascriptis vel nepoti vel eorum heredibus aut cui dare
+          vel committere voluerint; et si sententia vel sententie aliqua vel alique lata vel late
+          fuerint contra eum de predictis vel eorum occasione, non teneatur ab ipsa vel ipsis
+          sententiis appellare, et si appellare voluerit seu appellaverit, non teneatur prosequi
+          causam vel causas appellationum et nichillominus habeat regressum de evictione, interesse
+          et expensis et aliis omnibus et singulis suprascriptis contra eundem venditorem et eius
+          heredes et bona. Hanc venditionem et omnia et singula que in hac carta leguntur promisit
+          dictus <persName ref="#GuilielminaAlberti">Guilielmus</persName>, venditor suprascriptus,
+          eidem <persName ref="#NicholetusUgolini">Nicholeto</persName>, stipulanti, agenti et
+          recipienti vice et nomine suprascripto, attendere et observare perpetuo et contra non
+          venire unquam de iure vel de facto, sub pena dupli suprascriptorum denariorum et rei
+          vendite; que pena tociens committatur et possint<note xml:id="CCLXXXVIIII_n_009" n="i"
+            place="foot"><term type="incerto">possint</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">possit</term>.</note> exigi cum effectu quociens in aliquo fuerit
+          contraventum et pro quolibet capitulo non observato; et, pena soluta vel non,
+          suprascriptis omnibus nichillominus manentibus semper ratis, cum eadem pena<note
+            xml:id="CCLXXXVIIII_n_010" n="l" place="foot"><term type="incerto">pena</term>:
+              <emph>così nel testo per</emph>
+            <term xml:lang="latin">pene</term>.</note> commissione. Preterea promisit dictus
+            <persName ref="#GuilielminaAlberti">Guilielmus</persName>, venditor suprascriptus, ipsi
+            <persName ref="#NicholetusUgolini">Nicholeto</persName>, stipulanti et recipienti nomine
+          et vice suprascripti domini episcopi et episcopatus et suorum successorum et cui dare et
+          vel committere voluerit et sub dicta pena, que in omnibus committantur et possint
+            exigi<note xml:id="CCLXXXVIIII_n_011" n="m" place="foot"><term type="incerto"
+              >committantur et possint exigi</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">committatur et possit exigi</term>.</note> cum effectu, ut
+          superius promisit, quod suprascripti sui fratres et neptis consentient suprascripte
+          venditioni et curare ita quod ipsi vendent et cartam vendictionis facient. Et attendere
+          omnia suprascripta iurabunt ad sancta Dei evangelia, corporaliter tacto libro, et hoc
+          facient in laude sapientis ipsius emptoris, ut dictum est, et hoc infra XV dies postquam a
+          dicto domino episcopo et episcopatu et successoribus suis fuerint requisiti; et tantum
+          plus idem per omnia in omnibus facient, promittent, <pb n="278r" xml:id="fol_278r"/> ut
+          suprascriptus <persName ref="#GuilielminaAlberti">Guilielmus</persName> fecit, promisit et
+          vendidit, et specialiter suprascriptus <persName ref="#AttolinusAlberti"
+            >Attolinus</persName> faciet in termino suprascripto, ut dictum est, et <persName
+            ref="#GiliolusAlberti">Giliolus</persName> et <persName ref="#AlbertoscaPetri"
+            >Albertosca</persName> facient, ut dictum est, cum fuerint in etate XIIII annorum,
+          postquam ab eo, ut dictum est, exinde fuerint requisiti; et in termino suprascripto et
+          iurabunt et facient in omnibus et per omnia ut <persName ref="#GuilielminaAlberti"
+            >Guilielmus</persName>, venditor suprascriptus, fecit et promisit, et quod in dicto
+          termino domina <persName ref="#Ymelda">Ymelda</persName>, mater suprascripti <persName
+            ref="#GuilielminaAlberti">Guilielmi</persName> et fratrum, et <persName ref="#Remburça"
+            >Remburça</persName>, eius uxor, et <persName ref="#Simona">Symona</persName>, uxor
+          suprascripti <persName ref="#AttolinusAlberti">Attolini</persName>, consentient
+          suprascripte vendictioni et omnibus suprascriptis et omnibus earum iuribus dotis et
+          donationis renunciabunt et cartam ei inde facient in laude et arbitrio sapientis ipsius
+          emptoris et sub dicta pena idem per omnia obligabunt, ut superius continetur. Et ad hec
+          attendenda et perpetuo observanda obligavit se, pro se et dictis suis fratribus et nepti,
+          suosque heredes et omnia sua bona mobilia et immobilia, habita et habenda, renunciando
+          omni iuri et legibus, iuri quo dicitur quod, si fuerit in contractibus deceptio ultra
+          dimidiam, possit rescindi et quod sors<note xml:id="CCLXXXVIIII_n_012" n="n" place="foot"
+              ><term xml:lang="latin">sors</term>: o <emph>corretto su precedente
+            lettera</emph>.</note> et pena simul peti non possunt, et <supplied reason="omitted"
+            >iuri</supplied> fori et doli, domicilii, contractus, deceptionis minoris etatis, in
+          integrum restitutionis et omnibus aliis iuribus et auxilio contra hec introductis; et ut
+          per omnia et in omnibus dictum est ita attendere, facere, adimplere et numquam in aliquo
+          contravenire de iure vel de facto, aliquo modo vel iure, ad sancta Dei evangelia iuravit
+          dictus <persName ref="#GuilielminaAlberti">Guilielmus</persName> venditor, corporaliter
+          tacto libro, ibi presens dominus <persName ref="#Guilielmusprep">Guilielmus,
+              <roleName>prepositus</roleName> Lunensis</persName> et filius quondam domini <persName
+            ref="#GerardusTrebiano">Gerardi <roleName>vicedomini</roleName> de <placeName
+              ref="#Trebiano">Trebiano</placeName></persName> pro se, renunciando omni iuri
+          ecclesiastico et civili et, quantum ad eum spectat, vendictionem suprascriptam approbavit
+          et confirmavit et omnino consensit et se suo proprio nomine obligavit et attendere omnia
+          suprascripta promisit, sub suprascriptis pena et promissionibus. Idem per omnia et in
+          omnibus, ut suprascriptus venditor fecit et promisit, et <persName
+            ref="#GerardetusBoccadecanis">Gerardetus dictus Capellus quondam Boccadecanis de
+              <placeName ref="#Sarzanello">castro Sarzane</placeName></persName>, precibus et
+          mandato suprascripti venditoris, et ipse dominus prepositus, ambo simul et quisque eorum
+          in solidum, suo proprio nomine de predictis omnibus et singulis se fecerunt et
+          constituerunt apud suprascriptum procuratorem suprascriptum<note
+            xml:id="CCLXXXVIIII_n_013" n="o" place="foot"><term type="incerto">suprascriptum
+              procuratorem suprascriptum</term>: <emph>così nel testo</emph>.</note>, recipientem
+          dicto nomine, et ipsum episcopum et episcopatum et successores suos et cui dare vel
+          committere voluerit, principales debitores, actores, deffensores, responsales et proprios
+          pagatores, sub suprascriptis pena et promissionibus et obligationibus, obligando,
+          promittendo et renunciando in solidum in omnibus et per omnia ut suprascriptus venditor
+          fecit et promisit, et tantum plus quod renunciavit beneficio nove constitutionis de
+          fideiussoribus et de duobus reis debendis et conveniendis et epistule divi Adriani et
+          omnibus aliis iuribus et auxilio contra hec introductis.</p>
+        <p xml:id="CCLXXXVIIII_p_002" n="2">Actum <placeName ref="Sarzana">Sarzane</placeName>, in
+          claustro <orgName ref="#Sarzana_S_Maria">Sancte Marie de Sarzana</orgName>, sollempniter,
+          presentibus <persName ref="#RusticellusRogete">Rusticello Rogete Stiporto</persName>,
+            <persName ref="#BonavitaGuilielmiTancredi">Bonavita quondam Guilielmi
+            Tancredi</persName>, <persName ref="#GuilielminusPovici">Guilielmino de <placeName
+              ref="#Povici">Povici</placeName></persName> et <persName ref="#MercadanteRainaldini"
+            >Mercadante de <placeName ref="#Fosdinovo">Fosdenova</placeName></persName>,
+          habitatoribus <placeName ref="#Sarzana">Sarzane</placeName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCLXXXVIIII_p_003" n="3"><date when="1255-05-16">Eodem anno, indictione et die
+            XVI intrantis madii</date>, <persName ref="#NicholetusUgolini">Nicholinus</persName>
+          suprascriptus et filius quondam domini Alberti suprascripte vendictioni et omnibus
+          suprascriptis et singulis consensit et eam approbavit, ratificavit et confirmavit et etiam
+          vendidit, promisit et se obligavit et suos heredes et bona sua omnia idem per omnia et in
+          omnibus ut suprascriptus <persName ref="#GuilielminaAlberti">Guilielmus</persName>,
+          venditor suprascriptus, eius frater, fecit, vendidit et promisit, confitendo quod totum
+          precium denariorum suprascriptorum suprascripte vendictionis, quos exinde habuit dictus
+          venditor suprascriptus, ipse <persName ref="#AttolinusAlberti">Attolinus</persName> habuit
+          omnes a dicto suo fratre pro dicta vendictione et eos expendit et versi sunt in eius
+          utilitate et attendere et observare perpetuo promisit, sub suprascriptis pena,
+          promissionibus et obligationibus. Idem per omnia et in omnibus, ut <persName
+            ref="#GuilielminaAlberti">Guilielmus</persName> frater eius promisit, vendidit et
+          renunciavit et attendere omnia suprascripta et contra non venire, ratione minoris etatis,
+          in integrum restitutionis vel alia qualibet ratione, ad sancta Dei evangelia iuravit
+          dictus <persName ref="#AttolinusAlberti">Attolinus</persName>, corporaliter tacto
+          libro.</p>
+        <p xml:id="CCLXXXVIIII_p_004" n="4">Actum <placeName ref="#Sarzana">Sarzane</placeName>, in
+          porticu Lunensium <roleName>canonicorum</roleName>, sollempniter, presentibus <persName
+            ref="#Simonetusnot">Symoneto <roleName>notario</roleName></persName> et <persName
+            ref="#MercadanteRainaldini">Mercadante quondam Rainaldini de Fosdenova</persName>,
+          testibus ad hec rogatis.</p>
+        <p xml:id="CCLXXXVIIII_p_005" n="5"><ptr target="#CCLXXXVIIII_st_001"/> Ego <persName
+            ref="#Testafortenot">Testafortis, <roleName>imperii sacri iudex et
+            notarius</roleName></persName>, interfui rogatus et scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXXIII_140">
+    <front xml:id="CXXIII_front">
+
+      <titlePart type="numerazioneNuova">140</titlePart>
+      <titlePart type="numerazioneOrig">CXXIII</titlePart>
+
+      <docDate xml:id="CXXIII_docDate">
+        <date when="1269-05-30">1269 maggio 30</date>, <placeName>&lt;Sarzana&gt; <emph>(<term
+              xml:lang="latin">ad bancum ubi ius redditur</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXXIII_regesto">
+        <p>Giacomino detto Tagliavacca, notaio, procuratore di Guglielmo, vescovo di Luni, agisce in
+          giudizio contro Stoppio, speziale di Sarzana, per ottenere la restituzione di una terra
+          spettante alla curia di Luni, posta presso il <term xml:lang="latin">castrum</term> di
+          Sarzana, nel luogo detto <term xml:lang="latin">Paternulo</term> o <term xml:lang="latin">
+            Bistioleta</term>, che un tempo teneva Guizolo del fu Rusticone. Stoppio dichiara di
+          fronte al giudice Normannino, vicario di Guglielmo nella provincia di Lunigiana, di non
+          voler andare in giudizio e di rinunciare a detto bene.</p>
+      </div>
+
+      <div type="footer" xml:id="CXXIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia [C] CP cc. 228r.-228v., c. CCXXr.- CCXXv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 123,
+            pp. 156-157.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>L’atto è scritto <emph>ad bancum ubi ius redditur</emph> senza altre specificazioni
+            topografiche, tuttavia i documenti nn. 118-XCII, 141-CXV, 147-CXXI e 150-CXXIV
+            consentono di indicare il luogo di redazione. L’atto viene copiato nel Codice con una
+            premessa che racconta la sua precedente presenza nel “libro delle cause” redatto quando
+            Moroello Malaspina era vicario del vescovo Guglielmo in Lunigiana. Esistono solo due
+            atti con queste caratteristiche, il 140-CXXIII e il 141-CXXIIII. Ritenendo poco
+            probabile che il <emph>liber causarum </emph> di Moroello Malaspina contenesse solo due
+            atti o che solo due atti del <emph>liber causarum </emph> siano stati scelti da maestro
+            Egidio per essere copiati nel Codice, pensiamo che egli abbia riprodotto due copie
+            semplici, fatte in data sconosciuta ed estratte appunto dal <emph>liber causarum </emph>
+            del 1269. </note>
+
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXXIII_div">
+        <p xml:id="CXXIII_p_001" n="1">Continetur in libro causarum facto et composito tempore
+          illustris viri domini<persName ref="#Morruellusvic"> Morruelli</persName>,
+            <roleName>vicarii</roleName> in <orgName ref="#Lunigiana_provincia">provincia
+              <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre domino <persName
+            ref="#GuilEpLuni">Guilielmo, <roleName>Lunensi episcopo</roleName></persName>, in anno
+          nativitatis Domini <date when="1269">millesimo ducentesimo LXIX°</date>, inter alia, que
+          in eo continentur, ita videlicet:</p>
+        <div xml:id="CXXIII_div2" type="quotation">
+        <quote rend="pre(«) post(»)">
+          <p xml:id="CXXIII_p_002" n="2"><persName ref="#IacopinusTalliavachanot">Iacopinus
+                <roleName>notarius</roleName>, qui dicitur Talliavacha,
+                <roleName>syndicus</roleName> atque <roleName>actor</roleName></persName>
+            venerabilis patris domini <persName ref="#GuilEpLuni">Guilielmi, <roleName>Lunensis
+                episcopi</roleName></persName>, syndicatus et actorio nomine pro ipso episcopo et
+            episcopatu, agit contra <persName ref="#StoppusSarz">Stoppium
+                <roleName>speciarium</roleName> de <placeName ref="#Sarzana"
+              >Sarzana</placeName></persName>, petens ab eo petiam unam terre posite in pertinenciis
+              <placeName ref="#Sarzanello">castri Sarzane</placeName>, in loco dicto <placeName
+              ref="#Paternulo">Paternulo</placeName> sive <placeName ref="#Bistioleta">Bistio
+              loco</placeName><note place="foot" n="a" xml:id="CXXIII_n_001">Bistio loco<emph>: così nel testo per </emph>Bistioleta<emph>, cfr. documento n. 155 (CXXIX).</emph></note>, que terra
+            fuit de podere quod tenebat olim <persName ref="#GuizolusRusticoni">Guizolus quondam
+                Rusticoni<note place="foot" n="b" xml:id="CXXIII_n_002">Rusticoni: on <emph>corretto su precedente scrittura.</emph></note> de
+                <placeName ref="#Sarzanello">castro Sarzane</placeName></persName>, cui coheret ab
+            uno latere <persName ref="#Recordatus">Recordati de <placeName ref="#Sarzana"
+                >Sarzana</placeName></persName> in parte et in parte dicti <persName
+              ref="#StoppusSarz">Stoppii</persName> et in parte quondam <persName
+              ref="#CompagnonusProvincialis">Compangnoni de Provinchale</persName>, ab alio
+              <persName ref="#GerardusLealis">Gerardi Lealis</persName> in parte atque in parte
+              <persName ref="#AdalbertinusSar">Aldebertini de <placeName ref="#Sarzana"
+                >Sarzana</placeName></persName>, a capite heredum quondam <persName ref="#Podestas"
+              >Potestatis de <placeName ref="#Fliolino">Fliolino</placeName></persName>, a <pb
+              n="228v" xml:id="fol_228v"/>pede suprascripti <persName ref="#GerardusLealis"
+              >Gerardi</persName>. Quam terram suprascriptam petitam dicit idem
+              <roleName>syndicus</roleName> et <roleName>actor</roleName> ad dictum dominum
+            episcopum pro ipso episcopatu et ad ipsum episcopatum pertinere iure dominii directi vel
+            utilis vel quasi, et hec petit omni iure quo melius potest, salvo iure fructuum
+            perceptorum et percipiendorum et salvo omni alio iure ipsius domini episcopi et
+            episcopatus, et petit expensas litis et advocati.<persName ref="#StoppusSarz"
+              >Stoppius</persName> suprascriptus dixit et protestatus fuit coram <persName
+              ref="#NormanninusBernanduccisiud"><roleName>domino</roleName> Normannino</persName>,
+                <roleName>iudice</roleName> et locum <roleName>vicarii</roleName> tenente in
+                <orgName ref="#Lunigiana_provincia">provincia <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> pro
+            venerabili patre domino <persName ref="#GuilEpLuni">Guilielmo, <roleName>Lunensi
+                episcopo</roleName></persName>, quod de suprascripta terra non intendit nec vult
+            causam facere, nec intendit eam deffendere, set liti renunciat in toto. Presentibus
+              <persName ref="#Rubeusiud">domino Rosso <roleName>iudice</roleName></persName> et
+              <persName ref="#Pasqualinusnot">Pasqualino <roleName>notario</roleName></persName>,
+              <date when="1269-05-30">die iovis, XXX maii</date>, ad bancum ubi ius redditur. Qui
+            vero <roleName>iudex</roleName> suprascriptus, auditis predictis ab ipso <persName
+              ref="#StoppusSarz">Stoppio</persName>, dedit licenciam dicto <persName
+              ref="#IacopinusTalliavachanot">Iacopino <roleName>syndico</roleName> seu
+                <roleName>actori</roleName></persName> intrandi in possessionem dicte terre et
+            corporaliter, voluntate ipsius <persName ref="#StoppusSarz">Stoppii</persName>.
+            Suprascripto loco et anno et die et coram dictis testibus.</p>
+          <p xml:id="CXXIII_p_003" n="3"><ptr target="#CXXIII_st_001"/>
+            <persName ref="#Aliottusnot">Aliottus, <roleName>notarius</roleName> de <placeName
+                ref="#Lucca">Luca</placeName>, et dicte curie
+            <roleName>scriba</roleName></persName>, suprascriptis interfui et hec scripsi atque
+            publicavi.</p>
+        </quote>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

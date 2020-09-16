@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="LV_82">
+        <front xml:id="LV_front">
+            <titlePart type="numerazioneNuova">82</titlePart>
+            <titlePart type="numerazioneOrig">LV</titlePart>
+            <docDate xml:id="LV_docDate">
+                <date when="1219-04-26">1219 aprile 26</date>, <placeName>Brancaliano (<term
+                        xml:lang="latin">in ecclesia Sancti Bartholomei de Brancaliano, iuxta portam
+                        burgi de Brancaliano</term>).</placeName>
+            </docDate>
+            <div type="regesto" xml:id="LV_regesto">
+                <p> Il vescovo di Luni Marzucco ordina a Bonorogroso, sindaco del comune di Sarzana,
+                    di giurare e far giurare a tutti gli uomini di Sarzana di osservare i patti
+                    scritti dal notaio Conforto e stipulati tra il defunto vescovo Gualtiero e i
+                    burgensi di Sarzana, impegnandosi anche ad osservare la sentenza del giudice
+                    pisano Bandino, in particolare per ciò che attiene a quanto deve versare ai
+                    burgensi eccetto la somma che a lui devono i signori di Corvaia e Vallecchia.
+                    Costoro, il giorno medesimo, tramite il loro podestà Parente, dichiarano che
+                    Bonorogroso devea dare al vescovo entro il mese di maggio 150 lire in denari
+                    pisani nuovi. </p>
+            </div>
+            <div type="footer" xml:id="LV_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] cc. 158v.-159r., cc. CLv.-CLIr. secondo la numerazione originale.
+                    </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                            1912</ref>, n. 55, pp. 90-92.</p>
+                </div>
+                <div type="crit_notes">
+                    <note>
+                        <p> Nel margine esterno di c. 158v., di mano moderna: <term xml:lang="latin"
+                                >Iuramentum fidelitatis terre Sarzane</term>. </p>
+                        <p> Parte del documento è stata letta con l’ausilio della luce di Wood.</p>
+                    </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LV. Preceptum factum burgensibus et restitutione
+                            feudorum.</term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="LV_div">
+                <pb n="158v" xml:id="fol_158v"/>
+                <p xml:id="LV_p_001" n="1"> In nomine Dei, amen. Ego <persName
+                        ref="#MarzuccusEpLuni">Marzuccus</persName>, <roleName>Lunensis<note
+                            place="foot" n="a" xml:id="LV_n_001">Nel testo segue, non depennato: dei
+                                <emph>con segno generico di abbreviazione.</emph></note>
+                        episcopus</roleName>, precipio tibi <persName ref="#Bonorogruosus_syndicus"
+                            >Bonorogruoso</persName>, <roleName>syndico et actori <orgName ref="#Sarzana_comune">communis et
+                        universitatis</orgName></roleName> de <placeName ref="#Sarzana">Sarzana</placeName>,
+                    et omnibus et singulis qui nobis iuraverunt obedire nostra precepta, ut
+                        <persName ref="#Bonorogruosus_syndicus">Bonorogruosus</persName> et ipsi,
+                    qui nobis iuraverunt, iures tu et ipsi iurent et iurari facias et ipsi faciant
+                    omnes homines de <placeName ref="#Sarzana">Sarzana</placeName>, remota omni
+                    malicia et fraude, observare pacta et conventiones scripta manu <persName
+                        ref="#Confortusnot">Conforti</persName>
+                    <roleName>notarii</roleName> et factas inter olim <persName
+                        ref="#GalcheriusEpLuni">Gualterium</persName>, <roleName>Lunensem
+                        episcopum</roleName>, et burgenses de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> et non contraveniant sine parabola Lunensis episcopi,
+                    qui pro tempore erit vel fuerit; atque, si fecerint compagniam seu societatem
+                    contra episcopum vel episcopatum per cartam vel per pignora aut per promissiones
+                    pro commune<note place="foot" n="b" xml:id="LV_n_002">commune: <emph>così nel
+                            testo per </emph>Communi</note> vel singularitate alicuius persone a
+                    tempore quo discordia cepit oriri inter predictos burgenses et suprascriptum
+                    episcopum, inter se absolvant et liberent et de cetero non faciant aliquo modo
+                    et non faciant<note place="foot" n="c" xml:id="LV_n_003"><emph>Segue, ripetuto
+                            nel testo:</emph> et non faciant</note> aliquod constitutum seu
+                    ordinamentum preiudicio iuris Lunensis episcopi nec eiusdem ecclesie Sancte
+                    Marie; atque, si fecerint, destruant et in irritum revocent; atque, si aliquis
+                    burgensium recepit vasalum seu comadum<note place="foot" n="d" xml:id="LV_n_004"
+                            >comadum:<emph>così nel testo, forse per </emph>comendatum</note> qui
+                    habitet vel habitare debeat in Sarzana et non ante premiserit Lunensem episcopum
+                    et eius episcopatum de manutenendo episcopum et episcopatum quantum in hoc
+                    capitulo, absolvat et absolvant illum et illos et de cetero aliquem non
+                    recipiant. Item teneantur consules seu potestas de <placeName ref="#Sarzana"
+                        >Sarzana</placeName> non recipere aliquem in burgensem seu habitatorem qui
+                    non iuret prius pacta et conventiones suprascriptas inter suprascriptum
+                    episcopum atque burgenses factas observare et non contravenire. Hoc totum
+                    precipio tibi <persName ref="#Bonorogruosus_syndicus">Bonorogruoso</persName>,
+                    nomine et vice communis et universitatis de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>, et omnibus qui nobis sacramento tenentur, sub debito
+                    sacramenti et sub pena pignorum et obligationum nobis a vobis date<note
+                        place="foot" n="e" xml:id="LV_n_005">date:<emph> così nel
+                        testo.</emph></note>, ut ita tu pro commune<note place="foot" n="f"
+                        xml:id="LV_n_006">commune: <emph>così nel testo per </emph>Communi</note> et
+                    universitate observes et ipsi observent atque non contraveniant. Restituimus te
+                        <persName ref="#Bonorogruosus_syndicus">Bonorogruosum</persName>,
+                        <roleName>syndicum et procuratorem vice et nomine communis et universitatis
+                        de</roleName>
+                    <placeName ref="#Sarzana">Sarzana</placeName>, in omnibus feudis que nobis
+                    iudicata fuerunt per sententiam seu per laudamentum a
+                        <roleName>domino</roleName>
+                    <persName ref="#BandinusGaitani">Bandino</persName>
+                    <roleName>iudicem<note place="foot" n="g" xml:id="LV_n_007">iudicem: <emph>così
+                                nel testo per </emph>iudice</note></roleName><placeName ref="#Pisa"
+                        >Pisano</placeName>. Reservamus nobis de factu casamentorum ut possimus
+                    adhuc vobiscum esse atque tractare, atque de saltaria<note place="foot" n="h"
+                        xml:id="LV_n_008">saltaria: <emph>nel testo </emph>saltariarum <emph>con
+                            segno abbreviativo finale per</emph> rum <emph>non
+                        depennato.</emph></note> vinearum similiter. Remittimus vobis omnibus de
+                        <placeName ref="#Sarzana">Sarzana</placeName>, universitati et communi,
+                    iniurias omnes et quicquid nobis per illam sententiam seu laudamentum aut
+                    arbitrium laudatum fuit seu iudicatum a <persName ref="#BandinusGaitani"
+                        >Bandino</persName> suprascripto <placeName ref="#Pisa">Pisano</placeName>
+                    de pecunia nobis danda a burgensibus de <placeName ref="#Sarzana"
+                        >Sarzana</placeName>, preter de quantita<supplied reason="omitted"
+                            >te</supplied> illa quam <name type="familia" ref="#CorvariaVallecchiaFamilia">domini de
+                            <placeName ref="#Vallecchia1"
+                            ><expan>Vall<ex>echia</ex></expan></placeName> et de <placeName
+                            ref="#Corvaia"><expan>Corva<ex>ria</ex></expan></placeName></name> seu
+                    potestas ipsorum dicere debent et laudare ut mihi solvere debeant. In aliis vero
+                    volumus et mandamus et precipimus ut dictam sententiam observent et non
+                    contraveniant, sub predicta pena, nisi remissum fuerit a Lunensi episcopo.</p>
+                <p xml:id="LV_p_002" n="2">Actum in ecclesia <orgName
+                        ref="#Brancaliano_S_Bartolomeo">Sancti Bartholomei de</orgName>
+                    <placeName ref="#Brancaliano">Brancaliano</placeName>, presentia <persName
+                        ref="#IudexGuilielmini">Iudicis quondam Guilielmini</persName> atque
+                        <persName ref="#GerardusGuidi">Gerardi quondam Guidi</persName> atque
+                        <persName ref="#BonacursusAldebrandini">Bonacorsi,
+                        Aldebrandini</persName><pb n="159r" xml:id="fol_159r"/><persName
+                        ref="#BonacursusAldebrandini">filii</persName>, atque aliorum plurium. <date
+                        when="1219-04-26">Anno Domini nativitatis millesimo CCXVIIII, sexto kalendas
+                        madii, indictione VII</date>
+                </p>
+                <p xml:id="LV_p_003" n="3"> Postea, eadem die, iuxta portam burgi de <placeName
+                        ref="#Brancaliano">Brancaliano</placeName>, <roleName>dominus</roleName>
+                    <persName ref="#Parens">Parens</persName>, <roleName>potestas</roleName>
+                    <name type="familia" ref="#CorvariaVallecchiaFamilia">Corvariensium et
+                                <expan>Vall<ex>echianiensium</ex></expan></name>, cum consensu
+                    suorum consortum, dixit et laudavit inter predictum episcopum et burgenses de
+                        <placeName ref="#Sarzana">Sarzana</placeName> ut ipse <persName
+                        ref="#Bonorogruosus_syndicus">Bonorogruosus</persName> vel ipsum commune seu
+                    universitas de <placeName ref="#Sarzana">Sarzana</placeName> solvat et tribuat
+                    suprascripto domino episcopo de hinc per totum mensem madii de predicta pecunia
+                    condempnata super eos a suprascripto <roleName>domino</roleName>
+                    <persName ref="#BandinusGaitani">Bandino</persName>, <roleName>iudice</roleName>
+                    <placeName ref="#Pisa">Pisano</placeName>, solummodo <measure type="Denarios"
+                        quantity="150" unit="denarius">libras centum quinquaginta bonorum dicti<note
+                            place="foot" n="i" xml:id="LV_n_009">dicti: <emph>così nel testo per
+                            </emph>denariorum</note> pisanorum novorum</measure> ad eius voluntatem. </p>
+                <p xml:id="LV_p_004" n="4"> Acta sunt hec iuxta portam burgi de <placeName
+                        ref="#Brancaliano">Brancaliano</placeName>, presentibus <persName
+                        ref="#GuiciolaArcula">Guiciola de <placeName ref="#Arcola"
+                            >Arcula</placeName></persName> et <persName ref="#LoctariusHermanni"
+                        >Loctario quondam Hermanni de <placeName ref="#Borcari"
+                        >Borcari</placeName></persName> et aliorum plurium<note place="foot" n="j"
+                        xml:id="LV_n_010">aliorum plurium: <emph>così nel testo per </emph>aliis
+                        pluribus</note>. </p>
+                <p xml:id="LV_p_005" n="5">
+                    <ptr target="LV_st_001"/>Ego quidem <persName ref="#Cancellarius_notarius"
+                        >Cancellarius</persName>, <roleName>domini Frederici palatinus Romanorum
+                        imperatoris notarius ac invectissimi domini imperatoris Henrici iudex
+                        ordinarius</roleName>, hiis verbis interfui et rogatu suprascripti episcopi
+                    atque etiam predicti <persName ref="#Bonorogruosus_syndicus"
+                        >Bonorogruosi</persName>, quem per publicum instrumentum a <persName
+                        ref="#Benvenutusnot1">Be<supplied reason="omitted"
+                        >n</supplied>venuto</persName>
+                    <roleName>notario</roleName> factum cognovi <placeName ref="#Sarzana"
+                        >Sarzanensium</placeName> esse syndicum atque procuratorem, causa memorie
+                    descripsi et in publicam scripturam redegi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

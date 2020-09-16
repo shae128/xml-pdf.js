@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXVIIII_281">
+    <front xml:id="CCCXVIIII_front">
+
+      <titlePart type="numerazioneNuova">281</titlePart>
+      <titlePart type="numerazioneOrig">CCCXVIIII</titlePart>
+
+      <docDate xml:id="CCCXVIIII_docDate">
+        <date when="1231-12-14">1231 dicembre 14</date>, <placeName>Carrara (<emph>in platea de
+            Carraria</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXVIIII_regesto">
+        <p>Peregrino, gastaldo del vescovo di Luni Guglielmo, loca a livello a Domenico del fu
+          Viviano <term xml:lang="latin">de Fonti</term> mezzo iugero di terra posta <term
+            xml:lang="latin">in monte de Fonti</term>, per la pensione di 2 denari di imperiali. La
+          transazione costa 2 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP c. 293r., c. CCLXXXVr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 319,
+            p. 308.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Autentica databile tra il 1231 e il 1272 dalla presenza dei notai Pagano, Pasqualino
+            e Aiuto</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCXVIIII. Pensionis quam reddit Dominicus de Funti.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXVIIII_div">
+        <pb n="293r" xml:id="fol_293r"/>
+        <p xml:id="CCCXVIIII_p_001" n="1">In nomine Domini, amen. <date when="1231-12-14">Anno a
+            nativitate Eius millesimo CCXXXI, indictione IIII, die dominico, XIIII mensis
+            decembris</date>. Ego <persName ref="#Peregrinuscas">Peregrinus,
+              <roleName>castaldus</roleName></persName> domini <persName ref="#GuilEpLuni"
+            >Guilielmi, <roleName>Dei gratia Lunensis episcopi</roleName></persName>, do et loco per
+          libellum tibi <persName ref="#DominicusViviani">Dominico quondam Viviani de <placeName
+              ref="#Fonti">Functi</placeName></persName>, in te et tuis heredibus, nominatim, mediam
+            <term ref="#iuva">iuvam</term> terre agre, sitam in <placeName ref="#Fonti">monte de
+            Fonti</placeName>, in loco dicto ad <placeName ref="#SummoLama">Summum Lamam</placeName>
+          de <placeName ref="#Pastena">Pasteno</placeName>, a pede <placeName ref="#ColleMarci"
+            >colle de Marci</placeName>, cui coheret undique terra curie, ita ut amodo perpetuo,
+          nomine libelli, tu tuique heredes habeatis, teneatis, fruamini et possideatis totam dictam
+          terram, cum accessibus et regressibus suis et omnibus suis pertinenciis in integrum, sine
+          alicuius aliqua contradictione et cum mea meorumque successorum rationabili deffensione ab
+          omni persona vel restauratione facienda in bonis Lunensis curie ad hoc obligatis in
+          consimili loco, in arbitrio bonorum hominum, prout tunc valuerit, si ego et successores
+          mei dictam terram tibi tuisque heredibus rationabiliter deffendere non possemus; et exinde
+          teneamini dare et reddere Lunensi curie aut cui predicta curia fuerit commissum omni anno,
+          infra octavam nativitatis Domini, certam pensionem <measure unit="Imperiales" quantity="2"
+            type="denari">denariorum II imperialium</measure> tantum; alia superimposita non fiat.
+          Pro hac vero locatione sum confessus me recepisse a te servicium <measure
+            unit="Imperiales" quantity="2" type="soldi">soldorum II imperialium</measure> et do tibi
+          licenciam intrandi inde in tenutam tua auctoritate et constituo tecum ut quicumque nostrum
+          vel nostrorum successorum aut heredum umquam dictam terram tollere vel laxare aut
+          contravenire voluerit alteri parti, fidem servanti, penam <measure unit="Imperiales"
+            quantity="20" type="soldi">XX soldorum imperialium</measure> solvat, rato manente pacto
+          pena soluta.</p>
+        <p xml:id="CCCXVIIII_p_002" n="2">Actum in platea de <placeName ref="#Carrara"
+            >Carraria</placeName>, presentibus <persName ref="#DamianusCamua">Damiano de <placeName
+              ref="#Canina">Canina</placeName></persName>, <persName ref="#DolcebonusMiselia"
+            >Dulcebone de <placeName ref="#Miselia">Miselia</placeName></persName> et <persName
+            ref="#MartinusDrago">Martino Drago de <placeName ref="#Codena"
+            >Codana</placeName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCCXVIIII_p_003" n="3"><ptr target="#CCCXVIIII_st_001"/> Ego <persName
+            ref="#Confaloneriusnot">Confalonerius, <roleName>sacri palacii
+            notarius</roleName></persName>, hanc cartulam ab <persName ref="#Ugolinusnot">Ugolino
+              <roleName>notario</roleName></persName> abreviatam, visa eius sceda, de suo mandato
+          scripsi, complevi et proprio signo signavi.</p>
+      </div>
+      <div xml:id="CCCXVIIII_div2" type="autentica">
+        <p xml:id="CCCXVIIII_p_004" n="4"><ptr target="#CCCXVIIII_st_002"/> Ego <persName
+            ref="#Paganusnot">Paganus, <roleName>notarius sacri palacii</roleName></persName>,
+          exemplum huius transcripti vidi et legi et quicquid in eo repperi fideliter exemplavi, nil
+          addens vel minuens quod mutet sensum, nisi forte litteram vel sillabam.</p>
+        <p xml:id="CCCXVIIII_p_005" n="5"><ptr target="#CCCXVIIII_st_003"/> Ego <persName
+            ref="#Pasqualinusnot">Pasqualinus, <roleName>sacri palacii
+            notarius</roleName></persName>, autenticum huius exemplum vidi et legi et, cognito quod
+          non erat plus in uno quam in alio, ideo huic subscripsi, signum proprium apponendo.</p>
+        <p xml:id="CCCXVIIII_p_006" n="6"><ptr target="#CCCXVIIII_st_004"/> Ego <persName
+            ref="#Adiutusnot">Adiutus, <roleName>sacri palacii notarius</roleName></persName>,
+          autenticum huius transcripti vidi et legi et, cognito quod essent eiusdem tenoris, huic
+          subscripsi, signum proprium apponendo.<note>Autentica del documento n. 281-CCCXVIIII
+            databile tra il 1231 e il 1272 dalla presenza dei notai Pagano, Pasqualino e Aiuto <date
+              notBefore="1231-12-14" notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="XXXII_61">
+        <front xml:id="XXXII_front">
+            <titlePart type="numerazioneNuova">61</titlePart>
+            <titlePart type="numerazioneOrig">XXXII</titlePart>
+            <docDate xml:id="XXXII_docDate">
+                <date when="1286-03-16">1286 marzo 16</date>, <placeName>presso Ameglia (<term
+                        xml:lang="latin">in podio de Corbo</term>).</placeName>
+            </docDate>
+            <div type="regesto" xml:id="XXXII_regesto">
+                <p> Alberto del fu Federico de <emph>Lapadule</emph> di Carrara, podestà e castaldo
+                    della curia di Ameglia e Barbazano a nome del vescovo di Luni Enrico, procede
+                    alla fortificazione del poggio e della torre del Corvo, per difendersi dai
+                    pericoli provenienti dalla terra, dal mare, e, soprattutto, dai Genovesi. </p>
+            </div>
+            <div type="footer" xml:id="XXXII_footer">
+                <div type="orig_doc">
+                    <p> Copia [C] cc. 118r.-118v., cc. CXr.-CXv. secondo la numerazione originale.
+                    </p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione parziale <ref target="#MAZZINI_1909">MAZZINI 1909</ref>, p. 221;
+                        Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO
+                            GENTILE 1912</ref>, n. 32, pp. 47-48.</p>
+                </div>
+                <div type="crit_notes">
+                    <note> Nel margine interno di c. 118r., di mano poco più tarda: <emph>de
+                            iurisditione Amelie</emph>. Una mano alquanto posteriore ha aggiunto:
+                            <emph>Edificatio turris super montem Corvi per episcopum</emph>
+                    </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">XXXII. Hedificationis betefredi de Corvo.</term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="XXXII_div">
+                <p xml:id="XXXII_p_001" n="1"> In nomine Domini, amen. Omnibus presentem paginam
+                    inspecturis appareat manifeste quod <persName ref="#AlbertusFrederici">Albertus,
+                        filius quondam Frederici de</persName>
+                    <placeName ref="#Lapadule">Lapadule</placeName> de <placeName ref="#Carrara"
+                        >Carraria</placeName>, <roleName>potestas atque castaldio tocius
+                        curie</roleName>
+                    <placeName ref="#Ameglia">Amelie</placeName> atque <placeName ref="#Barbazzano"
+                        >Barbacani</placeName> atque eorum pertinentiis<note place="foot" n="a"
+                        xml:id="XXXII_n_001">pertinentiis: <emph>così nel testo.</emph></note> atque
+                    districtus pro venerabili patre <roleName>domino</roleName>
+                    <persName ref="#HenricusEpLuni">Henrico</persName>, <roleName>Dei gratia Lunensi
+                        episcopo</roleName>, castaldatus atque potestarie nomine pro ipso domino
+                    episcopo <supplied reason="omitted">et</supplied> episcopatus, fecit construi,
+                    hedificari, dicto nomine, unum botifredum sive hedificium super podio atque
+                    circa turrim de <placeName ref="#Corbo">Corbo</placeName> ad honorem ipsius
+                    domini episcopi atque sui episcopatus atque ad custodiam maris atque terre atque
+                    ne aliqui ibidem offendantur<note place="foot" n="b" xml:id="XXXII_n_002">
+                            offenda<supplied reason="omitted">n</supplied>tur: a <emph>corretta
+                            probabilmente su</emph> i</note>, atque maxime <placeName ref="#Ianua"
+                        >Ianuenses</placeName>, tanquam in loco proprio ipsius domini episcopi atque
+                    sui episcopatus atque tanquam in iuridictione Lunensis curie. </p>
+                <p xml:id="XXXII_p_002" n="2"> Actum in dicto loco, presentibus <persName
+                        ref="#AlamannusCazana">Alamanno de <placeName ref="#Cazana"
+                            >Cazana</placeName></persName>
+                    <roleName>familiare suprascripti domini episcopi</roleName>, <persName
+                        ref="#ParrellusBarbazano">Parrello de</persName>
+                    <placeName ref="#Barbazzano">Barbazano</placeName>, <persName
+                        ref="#NicholausPortayono">Nicholao de <placeName ref="#Portayono"
+                            >Portayono</placeName> de <placeName ref="#Barbazzano"
+                            >Barbazano</placeName></persName>, <persName ref="#RaphanusBonssignoris"
+                        >Raphano filio Bonssignoris de <placeName ref="#Montemarcello">Monte
+                            Marzello</placeName></persName>, <persName ref="#BruscusViaAmelia"
+                        >Brusco de <placeName ref="#Via">Via</placeName> de <placeName
+                            ref="#Ameglia">Amelia</placeName></persName>, <persName ref="#Bonaiutus"
+                        >Bonaiuto</persName> atque <persName ref="#MarchesellusSorbolo"
+                        >Marchesello</persName> de <placeName ref="#Sorbolo">Sorbolo</placeName>,
+                    testibus ad hec rogatis. <date when="1286-03-16">Anno a nativitate Domini
+                        millesimo CC octuagesimo VI, indictione XIIII, die sabbati, XVI mensis
+                        martii</date>. <pb n="118v" xml:id="fol_118v"/>
+                </p>
+                <p xml:id="XXXII_p_003" n="3">
+                    <ptr target="#XXXII_st_001"/> Ego <persName ref="#OpipzoAldebrandini_notarius"
+                        >Oppizo quondam domini Aldebrandi de <placeName ref="#Pistina"
+                            >Pistina</placeName></persName>, notarius domini <persName
+                        ref="#GuilielmusAdvocatis">Guilielmi de Advocatis de <placeName ref="#Lucca"
+                            >Luca</placeName></persName> comitis sacri palacii, hiis interfui atque
+                    hanc cartam, rogatus, scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

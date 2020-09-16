@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXXXIIII_195">
+    <front xml:id="CCXXXIIII_front">
+
+      <titlePart type="numerazioneNuova">195</titlePart>
+      <titlePart type="numerazioneOrig">CCXXXIIII</titlePart>
+
+      <docDate xml:id="CCXXXIIII_docDate">
+        <date when="1229-05-21">1229 maggio 21</date>, <placeName>Soliera (<term xml:lang="latin">in
+            castro Solerie</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXXXIIII_regesto">
+        <p>Pietro di Valenza e suo figlio giurano fedeltà a Rollando, gastaldo di Guglielmo, vescovo
+          di Luni, per il feudo che tiene in <term xml:lang="latin">Collechio</term>, di cui è
+          investito.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXXXIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 256v., c. CCXLVIIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. 234, p. 217.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel testo compare una formula ceterata. <p>Stesura <emph>in mundum</emph> databile
+              tra il 1270 e il 1272 dalla presenza di Bonagiunta de Podio di Lucca.</p></note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCXXXIIII. De eadem.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXXXIIII_div">
+        <p xml:id="CCXXXIIII_p_001" n="1">In Dei nomine, amen.<date when="1229-05-21"> Anno a
+            nativitate Eius M°CCXXIX, indictione IIa, die lune, XI exeunte madio</date>, in
+            <placeName ref="#Soliera">castro Solerie</placeName>, coram <persName
+            ref="#RamundetusIovello">Ramundeto de <placeName ref="#Iovello"
+            >Iovello</placeName></persName>, <persName ref="#Portenariuspre"
+              ><roleName>presbytero</roleName> Portenario</persName>, testibus. <persName
+            ref="#PetrusValença">Petrus de <placeName ref="#Valença">Valença</placeName></persName>
+          iuravit fidelitatem <persName ref="#Rollanduscast">Rollando castaldo</persName>,
+          recipienti pro domino <persName ref="#GuilEpLuni">Guillelmo, <roleName>Lunensi
+              episcopo</roleName></persName>, et suis successoribus contra omnes homines in terris
+          suis, et filius eius, eius nomine, iuravit contra omnes homines ubique et locum et
+          personam pro feudo quod ab ipso domino episcopo tenet in <placeName ref="#Collecchia"
+            >Collechio</placeName> atque quod faciet ibi dominum ad voluntatem ipsius castaldi. Qui
+            <persName ref="#Rollanduscast">Rollandus</persName> eis investivit de feudo et
+          cetera.</p>
+      </div>
+      <div xml:id="CCXXXIIII_div2" type="mundum">
+        <p xml:id="CCXXXIIII_p_002" n="2"><ptr target="#CCXXXIIII_st_001"/> Ego <persName
+            ref="#Henricusnot">Henricus de <placeName ref="#Sarzanello">castro Sarzane</placeName>,
+              <roleName>sacri palacii notarius</roleName></persName>, hanc cartam olim a <persName
+            ref="#Bonencontrusnot">Bonencontro de <placeName ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et auttenticavi et
+          in publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+          domino <persName ref="#Bonaiunctaiud">Bonaiuncta de <placeName ref="#PodioLucca">Podio de
+            Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia
+              <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre domino Lunensi episcopo et
+          <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName>, de qua auctoritate et decreto
+          constat per instrumentum publicum factum manu <persName ref="#Alcheriusnot">Alcherii
+              <roleName>notarii</roleName> de <placeName ref="#Lucca">Luca</placeName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 195-CCXXXIIII databile tra il 1270 e
+            il 1272 dalla presenza di Bonagiunta de Podio di Lucca<date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

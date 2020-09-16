@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXXXVIII_199">
+    <front xml:id="CCXXXVIII_front">
+
+      <titlePart type="numerazioneNuova">199</titlePart>
+      <titlePart type="numerazioneOrig">CCXXXVIII</titlePart>
+
+      <docDate xml:id="CCXXXVIII_docDate">
+        <date when="1215-12-30">1215 dicembre 30</date>, <placeName>Gragnola <emph>(<term
+              xml:lang="latin">in foro Gragnole</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXXXVIII_regesto">
+        <p>Palmerio, figlio di Guido di Erberia, vende ad Attolino del fu Opizo <term
+            xml:lang="latin">de Pilodericio</term> di Soliera il villano Pizolo di Alberto <term
+            xml:lang="latin">de Follis</term> di Barci con la tenuta a costui connessa, per il
+          prezzo di 3 lire di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXXXVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 258r.- 258v., cc. CCLr.- CCLv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 238,
+            pp. 219-220.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Lupo Gentile data il documento al 1° gennaio 1216, che però cadeva di venerdì e non
+            di mercoledì come dichiara il documento; da qui l’integrazione proposta. Cfr.<ref
+              target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 16.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXXXVIII_div">
+        <p xml:id="CCXXXVIII_p_001" n="1"><ptr target="#CCXXXVIII_st_001"/> In nomine Domini,
+            amen.<date when="1215-12-30"> Anno a nativitate Eius M°CC°XVI°, indictione IIIIa, die
+            mercurii, <supplied reason="omitted">III</supplied> kalendas ianuarii.</date> Ex hac
+          publica serie litterarum tam posteris quam presentibus liqueat manifeste quod <persName
+            ref="#PalmerinusGuidonis">Palmerius, filius domini Guidonis de <placeName ref="#Erberia"
+              >Herberia</placeName></persName>, per se suosque heredes vendidit, dedit atque
+          tradidit inrevocabiliter <persName ref="#AttolinusOpiçonis">Attolino quondam Opiçonis de
+            Pilodericio de <placeName ref="#Soliera">Soleria</placeName></persName>, recipienti pro
+          se suisque heredibus atque cui dare vel committere voluerit, unum villanum sui iuris
+          nomine <persName ref="#PizolusAlberti">Pizolum, filium Alberti de Follis de <placeName
+              ref="#Barci">Barzi</placeName></persName>, cum tota tenuta et possessione quam ab eo
+          habebat, tenebat atque possidebat et cum omnibus redditibus, factionibus et condictionibus
+          atque cum omni dominio et proprietate, usu atque utilitate, ita quod ut amodo perpetuo
+          suprascriptus <persName ref="#AttolinusOpiçonis">Attolinus</persName> suique heredes et
+          cui dederint vel commiserint habeant, teneant, fruantur et possideant suprascriptum
+          villanum cum tota tenuta et possessione et faciant de eo quicquid voluerint iure
+          proprietario, sine suprascripti venditoris eiusque heredum et cuiusque persone
+          contradictione. Et promisit suprascriptus <persName ref="#PalmerinusGuidonis"
+            >Palmerius</persName> per se suosque heredes predicto emptori, recipienti pro se suisque
+          heredibus et cui dederint vel commiserint, per sollempnem stipulationem ab ipso
+          interpositam, suprascriptam vendictionem totam in integrum, cum omnibus rationibus et
+          pertinenciis suis, iure deffendere et exbrigare et esse eius actorem<note place="foot"
+            n="a" xml:id="CCXXXVIII_n_001"><term xml:lang="latin">actorem</term>: <emph>nel
+              testo</emph>
+            <term type="incerto">auctorem</term><emph>con</emph> u <emph>espunta</emph>.</note> et
+          deffensorem ab omni contradicente et impediente persona et loco, in parte et toto, et
+          restaurare in duplum et salvum cambium inde dare in consimili loco, prout tunc valuerit
+          sive meliorata fuerit, sub iusta bonorum hominum extimatione, si deffendere et exbrigare
+          non possent vel si non deffenderent et exbrigarent, ipse ac sui heredes, et restaurare
+          totum dampnum et dispendium ex eo vel ob id vel ea occasione habitum seu factum. Et fuit
+          confessus se recepisse ab eo, finito precio huius vendictionis in veritate et non spe
+          future numerationis, bonorum imperialium libras tres, renunciando exceptioni non numerate
+          pecunie, et confessus fuit quod satis plus valebat, unde totum et quicquid plus valebat ei
+          dono dedit atque concessit, renunciando iuri quo cavetur quod, si fuerit in vendictione
+          deceptio ultra dimidiam iusti precii, quod possit rescindi. Et dedit ei licenciam intrandi
+          tenutam de suprascripta vendictione sua auctoritate, precipiendo <persName
+            ref="#GuizolusPaganini">Guizolo quondam Paganini de <placeName ref="#Stazone"
+              >Stazone</placeName></persName> ut eum mitteret in corporalem tenutam, atque
+          constituit se ipsam pro eo et eius nomine precario possidere. Et cessit et mandavit ei
+          omnia iura et omnes actiones et rationes, utiles et directas, reales, personales atque
+          mixtas in dicto atque pro dicto villano atque tenuta atque redditibus, factionibus atque
+          condictionibus <pb n="258v" xml:id="fol_258v"/>vel eorum occasione sibi quoquo modo vel
+          iure competentes vel competencia, ut hiis omnibus et singulis suo nomine directo et
+          utiliter possit agere et experiri adversus quamcumque personam et locum, et eum fecit
+          procuratorem in rem suam. Hanc vendictionem et omnia et singula supradicta promisit
+          suprascriptus <persName ref="#PalmerinusGuidonis">Palmerius</persName> per se suosque
+          heredes omni tempore rata habere, firma tenere, attendere, inviolabiliter observare atque
+          in nullo contravenire, sub pena <measure type="Imperiales" quantity="20" unit="solidus">XX
+            soldorum imperialium</measure> solvenda suprascripto emptori vel eius heredibus aut cui
+          dederint vel commiserint, rato manente pacto. Ad quam deffensionem, restaurationem et
+          penam solvendam et omnia et singula supradicta firmiter attendenda et observanda
+            obligavis<note place="foot" n="b" xml:id="CCXXXVIII_n_002"><term type="incerto"
+              >obligavis</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">obligavit</term></note> suprascriptus <persName
+            ref="#PalmerinusGuidonis">Palmerius</persName> se suosque heredes et universa et singula
+          sua bona, mobilia et immobilia, presentia et futura, renunciando universo iuri, legibus,
+          constitutionibus, auxilio cum deffensionibus, quibus se a predictis vel ab aliquo
+          predictorum posset tueri vel iuvare seu etiam in aliquo contravenire.</p>
+        <p xml:id="CCXXXVIII_p_002" n="2">Actum <placeName ref="#Gragnola">in foro
+            Gragnole</placeName>, sollempniter, cum stipulatione subnixa, presentibus domino
+            <persName ref="#GuilielmusAttolinini">Guilielmo quondam Attolini de <placeName
+              ref="#Gragnana">Gragnana</placeName></persName>, <persName ref="#BonaventuraUbaldini"
+            >Bonaventura quondam Ubaldini de <placeName ref="#Felicta"
+            >Felecta</placeName></persName>, <persName ref="#EgidiusRodulfi">Egidio filio Rodulfi de
+              <placeName ref="#Cervaria">Cervaria</placeName></persName>, <persName
+            ref="#GuizolusPaganini">Guizolo predicto de <placeName ref="#Stazone"
+              >Stazone</placeName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCXXXVIII_p_003" n="3">Ego <persName ref="#Philippusnot">Philippus,
+              <roleName>domini Ottonis quarti Romanorum serenissimi imperatoris
+            notarius</roleName></persName>, hiis interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

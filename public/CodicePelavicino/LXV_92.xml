@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="LXV_92">
+        <front xml:id="LXV_front">
+
+            <titlePart type="numerazioneNuova">92</titlePart>
+            <titlePart type="numerazioneOrig">LXV</titlePart>
+
+            <docDate xml:id="LXV_docDate">
+                <date when="1198-08-16">1198 agosto 16</date>, <placeName>Sarzanello</placeName>
+                <emph>(<term xml:lang="latin">in castro Sarzani</term>)</emph>
+            </docDate>
+
+            <div type="regesto" xml:id="LXV_regesto">
+                <p>Il vescovo di Luni Gualtiero concede in affitto a Guglielmo di Cafaggio del fu
+                    Citolo e a suo fratello Gottolo un mulino ed un orto, posti nel luogo detto
+                    Bradia, al censo di tre staia di frumento l’anno. Se per caso il corso d’acqua
+                    Carcandola distruggerà il mulino i due fratelli potranno ricostruirlo in altro
+                    terreno del vescovo a patto di trovarne uno idoneo; se troveranno il terreno, ma
+                    non vorranno ricostruire il mulino, dovranno comunque pagare l’affitto. </p>
+            </div>
+
+            <div type="footer" xml:id="LXV_footer">
+
+                <div type="orig_doc">
+                    <p>Copia di copia autentica [C] cc. 194v.-195r., cc. CLXXXVIv.-CLXXXVIIr.
+                        secondo la numerazione originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 65, pp. 107-108</p>
+                </div>
+
+                <div type="crit_notes">
+                    <note> Nel margine esterno di c. 194v., di mano moderna: <emph><term
+                                xml:lang="latin">: Locatio facta ab episcopo de molendino de
+                                Bradia</term></emph> Il 15° giorno prima delle calende di settembre
+                        del 1198 era martedì e non domenica. Si deve presumibilmente correggere la
+                        data in <emph><term xml:lang="latin">XVII kalendas septembris</term></emph>,
+                        corrispondente al 16 agosto. Già in <ref target="#MAZZINI_1914">MAZZINI
+                            1914, </ref>p. 11. <p>L’autentica è stata redatta da Aldebrandino,
+                            notaio del podestà di Sarzana Rainerio Russo di Lucca, il 26 agosto
+                            1256.</p>
+                    </note>
+                </div>
+
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">LXV. Carta de prima locatione molendini de domo
+                            fratrum.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="LXV_div">
+                <p xml:id="LXV_p_001" n="1">
+                    <ptr target="#LXV_st_001"/> In nomine Ihesu Christi, amen. <date
+                        when="1198-08-16">Anno a nativitate Eius millesimo centesimo nonagesimo
+                        VIII, indictione prima, die dominico, XV kalendas septembris</date>.
+                        <persName ref="#GalcheriusEpLuni"><roleName>Dominus</roleName> Gualterius,
+                            <roleName>Dei gratia Lunensis ecclesie episcopus</roleName></persName>,
+                    per se et suos successores dedit <persName ref="#GuilielmusCafazo">Guilielmo de
+                            <placeName ref="#Cafazo">Cafazo</placeName> quondam Citoli de <placeName
+                            ref="#Mamiano">Mamiano</placeName></persName>, recipienti pro se et
+                    fratre suo <persName ref="#GottolusCafazo">Gottolo</persName> et pro suis et
+                    dicti fratris suis<note place="foot" n="a" xml:id="LXV_n_001">suis: <emph>così
+                            nel testo per</emph> sui.</note> heredibus, nomine afficti, unum
+                    molendinum, quod est positum in loco dicto <placeName ref="#Bradia"
+                        >Bradia</placeName>, cum omni iure et proprietate et pertinencia sua, et
+                    unum ortum, in eodem loco positum, iuxta idem molendinum. Quibus molendino et
+                    orto ab omni parte coheret terra curie, tali<note place="foot" n="b"
+                        xml:id="LXV_n_002">tali: ta <emph>corretto su precedente
+                        scrittura</emph>.</note> quidem pacto quod suprascriptum molendinum et ortus
+                    de cetero in perpetuum sint suprascriptorum fratrum et eorum heredum ad
+                    habendum, tenendum, fruendum, reddendo exinde annuatim curie domini episcopi,
+                    per mensem augusti, affictum III sextaria frumenti mundi et sicci tantum; alia
+                    superimposita non fiat. Et promisit dictus dominus episcopus per<note
+                        place="foot" n="c" xml:id="LXV_n_003">per: <emph>corretto su</emph>
+                        pro</note> se et suos successores dicto <persName ref="#GuilielmusCafazo"
+                        >Guilielmo</persName>, recipienti pro se et dicto fratre <pb n="195r"
+                        xml:id="fol_195r"/> suo et pro suis et eius heredibus, dictum molendinum et
+                    ortum numquam inbrigare nec molestare, set ab omni contradicente persona
+                    rationabiliter deffendere et exbrigare vel, si deffendere non posset, dare
+                    salvum cambium. Hoc tamen inter se constituerunt quod, si forte acciderit quod
+                        <placeName ref="#Carcandola">Carcandula</placeName> aliquo tempore dictum
+                    molendinum rueret, possint et debeant<note place="foot" n="d" xml:id="LXV_n_004"
+                        >debeant: ebe <emph>corretto su precedente scrittura</emph>.</note> sine
+                    alicuius contradictione, hedificare aliud molendinum in convenienti loco in
+                    terra domini episcopi, suprascripti fratres vel eorum heredes, semper annuatim
+                    persolvendo curie domini episcopi dictum affictum. Si autem locum non invenirent
+                    ydoneum in terra domini episcopi dicti germani sive heredes eorum in <supplied
+                        reason="omitted">quo</supplied> molendinum posset hedificari, tenentur
+                    nullatenus nec debent ulterius predictum affictum persolvere. Si vero locum ad
+                    hedificandum invenerint predicti germani sive eorum heredes et negligencia
+                    detenti non hedificabunt vel et hedificare noluerint molendinum, nonminus curie
+                    domini episcopi ab eisdem predictum de iure persolvant affictum. Talis enim ab
+                    utraque parte fuit pena statuta, quod quicumque ex ipsis aut eorum successoribus
+                    sive heredibus que predicta sunt omnia in omnibus non observabit vel observare
+                    noluerit <measure type="Imperiales" quantity="20" unit="soldi">bonorum
+                        imperialium soldos XX</measure> parti fidem servanti persolvat. Preterea hoc
+                    inter se addiderunt, quod, si forte dictorum germanorum aliquis sine herede
+                    obierit, alter qui vixerit in omnibus suprascriptis partem habeat et succedat
+                    defuncti. </p>
+                <p xml:id="LXV_p_002" n="2"> Actum est hoc in <placeName ref="#Sarzanello">castro
+                        Sarzani</placeName>, feliciter, cum stipulatione subnixa, ibi presentibus
+                        <persName ref="#AlbertusParentis">Alberto quondam Parentis</persName>,
+                        <persName ref="#Bonacursuscas">Bonacurso
+                        <roleName>castaldo</roleName></persName>, <persName
+                        ref="#Girardettus_scarius">Girardetto <roleName>scario</roleName></persName>
+                    et <persName ref="#GuilielmusViano">Guilielmo de <placeName ref="#Viano"
+                            >Viano</placeName></persName>, ad hec testibus animo benigno
+                        rogatis<note place="foot" n="e" xml:id="LXV_n_005">rogatis: <emph>scritto su
+                            abrasione</emph>.</note>. Ego <persName ref="#Guilielmusnot5"
+                            >Guilielminus<note place="foot" n="f" xml:id="LXV_n_006">Guilielminus:
+                                <emph>corretto su precedente</emph> Guilielmus.</note>,
+                            <roleName>sacri palatii et Lunensis curie
+                    notarius</roleName></persName>, hiis interfui et rogatus scripsi, complevi et
+                    dedi. </p>
+            </div>
+            <div xml:id="LXV_div2" type="autentica">
+                <p xml:id="LXV_p_003" n="3">
+                    <ptr target="LXV_st_002"/> Ego <persName ref="#Aldebrandinusnot"
+                        >Albebrandinus</persName>, <persName ref="#RoffinusLomello"
+                            ><roleName>domini</roleName> Roffini <roleName>comitis</roleName> de
+                            <placeName ref="#Lomello">Lomello
+                            </placeName><roleName>notarius</roleName></persName>, huius exempli
+                    auttenticum vidi et legi, in quo inveni ut in isto scripsi, nichil addens vel
+                    minuens quod mutaret sensum aut variet intellectum et mandato et auctoritate
+                    mihi data et facto a <persName ref="#Mercadante_iudex"
+                            ><roleName>domino</roleName> Mercadante, <roleName>iudice ordinario</roleName>
+                        <orgName ref="#Sarzana_comune">communis</orgName>
+                        <placeName ref="#Sarzana">Sarzane</placeName></persName> tempore <persName
+                        ref="#RayneriusRussi"><roleName>domini</roleName> Raynerii Russi de
+                            <placeName ref="#Lucca">Luca</placeName>,
+                            <roleName>podestatis</roleName><placeName ref="#Sarzana">
+                            Sarzane</placeName></persName>, sedente pro tribunali sub porticu
+                        <orgName ref="#S_Maria_Sarzana">ecclesie Sancte Marie de <placeName
+                            ref="#Sarzana">Sarzana</placeName></orgName>, ubi iura redduntur pro
+                    communi suprascripto, <date when="1256-08-26">anno currente MCCLVI, indictione
+                        XIIII, die sabbati, XXVI mensis augusti<note>Autentica del documento
+                            92-LXV</note></date>, presentibus <persName ref="#Simonetusnot"
+                        >Symonetto</persName> atque <persName ref="#Philippusnot2">Philippo
+                            <roleName>notario</roleName></persName> et <persName
+                        ref="#Parentinusnot">Parentino <roleName>notario</roleName></persName>,
+                    rogatis testibus. Hoc exemplum auttenticavi et in publicam formam redegi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

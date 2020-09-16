@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCXXXV_196">
+    <front xml:id="CCXXXV_front">
+
+      <titlePart type="numerazioneNuova">196</titlePart>
+      <titlePart type="numerazioneOrig">CCXXXV</titlePart>
+
+      <docDate xml:id="CCXXXV_docDate">
+        <date when="1270-05-24">1270 maggio 24</date>, <placeName>Pisa (<term xml:lang="latin"
+            >Pisis, in apotheca domus que fuit Bonacursi Muculi, in platea sancti
+          Systi</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCXXXV_regesto">
+        <p>Benvenuto <term xml:lang="latin">calcularius</term> del fu Bonfiglio di Soliera di Luni,
+          residente a Pisa, vende a Pietro del fu Villaneto di Soliera di Luni un pezzo di terra
+          posta nei confini di Soliera di Luni, nel luogo detto <term xml:lang="latin"
+            >Draggiare</term>. Il prezzo della vendita ammonta a 10 lire in denari pisani
+          minuti.</p>
+      </div>
+
+      <div type="footer" xml:id="CCXXXV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 257r., c. CCXLVIIIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 235,
+            pp. 217-218.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note/>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCXXXV_div">
+        <p xml:id="CCXXXV_p_001" n="1"><pb n="257r" xml:id="fol_257r"/>
+          <ptr target="#CCXXXV_st_001"/> In nomine Domini nostri Ihesu Christi Dei eterni,
+            amen.<date when="1270-05-24">Anno ab incarnatione Eius M°CC°LXXI°, indictione XIIIa,
+            nono kalendas iunii</date>. Ex huius publici instrumenti clareat lectione quod <persName
+            ref="#BenvenutusBonfilioli">Benvenutus <roleName>calcularius</roleName></persName>, qui
+          moratur <placeName ref="#Pisa">Pisis</placeName>, in <orgName
+            ref="#Pisa_S_Sebastiano_Fabbriche">cappella sancti Sebastiani vel Fabricis
+            Maioribus</orgName>, <persName ref="#BenvenutusBonfilioli">quondam Bonfilioli de
+              <placeName ref="SolieraLuna">Soleria de Luna</placeName></persName> vendidit et
+          tradidit <persName ref="#PetrusVillaneti">Petro quondam domini<note xml:id="CCXXXV_n_001"
+              n="a" place="foot"><term xml:lang="latin">domini</term>: d <emph>corretto su
+                precedente scrittura</emph>.</note> Villaneti de <placeName ref="#SolieraLuna"
+              >Soleria de Luna</placeName></persName> I petiam terre positam infra confines
+            <placeName ref="#SolieraLuna">Solerie de Luna</placeName>, in loco dicto <placeName
+            ref="#Draggiare">Draggiare</placeName>, que tenet unum caput in terra <persName
+            ref="#BonfiliolusUberti">Bonfilioli Uberti</persName>, aliud caput, cum ambobus
+            latentibus<note xml:id="CCXXXV_n_002" n="b" place="foot"><term xml:lang="latin"
+              >latentibus</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">lateribus</term>.</note>, in terra suprascripti <persName
+            ref="#PetrusVillaneti">Petri</persName> emptoris, quantumcumque est per mensuram, cum
+          omni iure, actione, ratione, proprietate et pertinenciis eius. Insuper suprascriptus
+            <persName ref="#BenvenutusBonfilioli">Benvenutus</persName> vendidit, dedit, cessit,
+          concessit atque mandavit suprascripto <persName ref="#PetrusVillaneti">Petro</persName>
+          omnia iura omnesque actiones et rationes, utiles et directas, reales et personales atque
+          mixtas, que sibi quoquo modo pertinent et competunt seu pertinere et competere possunt
+          infra et de suprascripta terra et re vendita et tradita quatenus suprascriptus <persName
+            ref="#PetrusVillaneti">Petrus</persName>, et sui heredes et successores, eorum nomine
+          proprio directo et utiliter inde agat et experiat et se tueatur contra omnem personam et
+          locum, pro precio <measure type="Pisani" quantity="10" unit="libra">librarum X denariorum
+            Pisanorum minutorum</measure> sibi <persName ref="#BenvenutusBonfilioli"
+            >Benvenuto</persName> soluto et dato a suprascripto <persName ref="#PetrusVillaneti"
+            >Petro</persName> coram me <persName ref="#Datusnot">Dato
+            <roleName>notario</roleName></persName> et subscriptis testibus, de quo toto precio
+          suprascriptus <persName ref="#BenvenutusBonfilioli">Benvenutus</persName> vocavit se a
+          suprascripto <persName ref="#PetrusVillaneti">Petro</persName> bene quietum<note
+            xml:id="CCXXXV_n_003" n="c" place="foot"><term xml:lang="latin">quietum</term>:
+              <emph>nel testo</emph>
+            <term type="incerto">quiietum</term>
+            <emph>con la seconda</emph> i <emph>espunta</emph>.</note> et pacatum et suprascriptum
+            <persName ref="#PetrusVillaneti">Petrum</persName> et eius heredes inde absolvit et
+          liberavit in totum. Et per stipulationem sollempnem suprascriptus <persName
+            ref="#BenvenutusBonfilioli">Benvenutus</persName> promisit et convenit suprascripto
+            <persName ref="#PetrusVillaneti">Petro</persName>, et se et suos heredes et bona omnia
+          obligando, ubicumque sint<note xml:id="CCXXXV_n_004" n="d" place="foot"><term
+              xml:lang="latin">sint</term>: <emph>aggiunto in sopralinea</emph>.</note>, et
+          specialiter bona sua que habet in Soleria et eius pertinenciis, ei et eius heredibus, ad
+          penam dupli extimationis tocius suprascripte terre et rei vendite et tradite, sub
+          extimatione etiam qualis tunc fuerit, stipulatione promissa quod de predicta vel pro
+          predicta terra et re vendita et tradita vel eius aut alicuius suprascriptorum occasione
+          nullo modo vel ingenio quolibet per se vel per alium imbrigabit vel molestabit sive per
+          placitum vel alio modo fatigabit suprascriptum <persName ref="#PetrusVillaneti"
+            >Petrum</persName>, vel eius heredes sive eos cui vel quibus dederint vel habere
+          decreverint, et quod ab omnibus imbrigantibus personis et locis inde suprascriptum
+            <persName ref="#PetrusVillaneti">Petrum</persName>, et eius heredes atque eos<note
+            xml:id="CCXXXV_n_005" n="e" place="foot"><term xml:lang="latin">atque eos</term>:
+              <emph>corretto su precedente scrittura</emph>.</note>quibus dederint vel habere
+          decreverint, deffendet et disbrigabit et indempnes conservabit. Et auctoritas et deffensio
+          inde eis, ut dictum est, existet et quod faciet suprascriptum <persName
+            ref="#PetrusVillaneti">Petrum</persName> et eius heredes et successores pociores circa
+          proprietatem et possessionem tocius suprascripte terre et rei vendite et tradite et quod
+          ipsam terram et rem venditam et traditam et quamlibet eius potestatem et eius posse semper
+          vacuam, liberam et expeditam ab omni et de omni honere dabit eis, cum omnibus suis
+          expensis curie et advocati et omnibus aliis que, si inde fierent, se eis eas redditurum
+          integre promisit et convenit, renunciando omni iuri sibi adversus predicta competenti. Et
+          precepit eidem <persName ref="#PetrusVillaneti">Petro</persName> ingredi et apprehendere
+          possessionem tocius suprascripte terre et rei vendite et tradite, quam suo nomine iure
+          proprio possideat et se pro eo possidere constituit.</p>
+        <p xml:id="CCXXXV_p_002" n="2">Actum <placeName ref="#Pisa">Pisis</placeName>, in
+            apotheca<note xml:id="CCXXXV_n_006" n="f" place="foot"><term xml:lang="latin"
+              >apotheca</term>: h <emph>aggiunto in sopralinea</emph>.</note> domus que fuit
+            <persName ref="#BonacursusMuculi">Bonacursi Muculi</persName>, in platea sancti Systi,
+          presentibus <persName ref="#VenturaRollandini">Ventura quondam Rollandini</persName> atque
+            <persName ref="#IunctaUgolini">Iuncta Ugolini de <placeName ref="#Soliera"
+              >Soleria</placeName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CCXXXV_p_003" n="3"><ptr target="#CCXXXV_st_002"/>
+          <supplied reason="omitted">Ego</supplied>
+          <persName ref="#Datusnot">Datus, filius quondam Bonacursi de <placeName ref="#Limite"
+              >Limite</placeName>, <roleName>imperialis aule notarius</roleName></persName>,
+          predictis omnibus interfui atque hanc inde cartam rogatus scripsi atque in publicam formam
+          redegi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

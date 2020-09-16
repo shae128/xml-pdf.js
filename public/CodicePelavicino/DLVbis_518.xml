@@ -1,0 +1,500 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="DLVbis_518">
+        <front xml:id="DVLbis_front">
+
+            <titlePart type="numerazioneNuova">518</titlePart>
+            <titlePart type="numerazioneOrig"/>
+
+            <docDate xml:id="DVLbis_docDate">
+                <date when="1237-03-05">1237 marzo 5</date>, <placeName ref="#Lucca"
+                    >&#60;Lucca&#62;</placeName>
+            </docDate>
+
+
+
+            <div type="regesto" xml:id="DVLbis_regesto">
+                <p> Deposizioni del vescovo di Luni e del priore del monastero di Santa Croce del
+                    Corvo rese dinanzi ai priori di Santa Maria Foris Portam e di Sant’Alessandro di
+                    Lucca. </p>
+            </div>
+
+            <div type="footer" xml:id="DVLbis_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] CP cc. 406v.-408r., cc. CCCLXXXXVIIIv.-CCCCr. secondo la
+                        numerazione originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p> Il documento, privo di numerazione, è scritto di seguito al documento
+                        precedente (517-DLV), di argomento analogo. Non compare in <ref
+                            target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>. </p>
+                </div>
+
+                <div type="crit_notes">
+                    <p>Non viene dichiarato il luogo di redazione ma, date le identità di chi
+                        raccoglie le deposizioni, è molto probabile che sia Lucca.</p>
+                </div>
+
+
+                <div type="appr">
+                    <p/>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="DVLbis_div">
+                <p xml:id="DVLbis_p_001" n="1"> In Christi nomine, amen. Intuentibus hanc scripturam
+                    pateat manifeste quod dilectus in Christo <roleName>frater</roleName>
+                    <persName ref="#AttoCampigiola">Atto</persName>, <roleName>canonicus</roleName>
+                    de <orgName ref="#Campiliola_S_Maria"><placeName ref="#Campiliola"
+                            >Campiliola</placeName></orgName>, <roleName>domini</roleName>
+                    <persName ref="#PetrusFesso">Petri</persName>, <roleName>nunc <orgName
+                            ref="#Tortona_diocesi"><placeName ref="#Terdona"
+                            >Tardonensis</placeName></orgName><note place="foot" n="a"
+                            xml:id="DLVbis_n_001"> Tardonensis<emph>: così nel testo per</emph>
+                            Terdonensis.</note> episcopi</roleName>, <roleName>domini pape
+                        delegati</roleName>, subdelegatus, scripsit nobis prioribus <orgName
+                        ref="#Lucca_S_Maria_Forisportam">Sancte Marie Foris Portam</orgName> et
+                        <orgName ref="#Lucca_S_Alessandro">Sancti Alexandri</orgName>
+                    <placeName ref="#Lucca">Luce</placeName> in hunc modum: «Viris religiosis et
+                    discretis domino priori <orgName ref="#Lucca_S_Maria_Forisportam">Sancte Marie
+                        Foris Portam</orgName>
+                    <placeName ref="#Lucca">Lucensis</placeName> et priori de <orgName
+                        ref="#Lucca_S_Alessandro">Sancto Alexandro</orgName>. <persName
+                        ref="#AttoCampigiola">Atto</persName>, <roleName>canonicus</roleName> et
+                    cetera», quarum <supplied reason="omitted">litterarum</supplied> auctoritate
+                    partes fecimus coram nobis convenire, scilicet dominum episcopum Lunensem et
+                    priorem <orgName ref="#Corvo_S_Croce">Sancte Crucis de <placeName ref="#Corvo"
+                            >Corvo</placeName></orgName>
+                    <supplied reason="omitted">et</supplied> eosdem personaliter iurare fecimus de
+                    veritate dicenda, scilicet dominus episcopus iuravit de veritate dicenda super
+                    positionibus et responsionibus que fient vicissim secundum formam suprascripti
+                    mandati, sacrosanctis evangeliis coram positis. Item dictus prior iuravit, ut
+                    dictum est, de veritate dicenda, sacrosanctis evangeliis tactis, <date
+                        when="1237-02-18">XII kalendas martii <note>Giuramento del priore di S.
+                            Croce del Corvo</note></date>, coram <roleName>fratre</roleName>
+                    <persName ref="#Iacobinus_frater">Iacopino</persName> et
+                        <roleName>presbytero</roleName>
+                    <persName ref="#Ubertus_presbyter">Uberto</persName>,
+                        <roleName>canonico</roleName>
+                    <orgName ref="#Lucca_S_Maria_Forisportam">Sancte Marie Foris Portam</orgName> et
+                        <roleName>donno</roleName>
+                    <persName ref="#Iordanus_monachus">Iordano</persName>
+                    <roleName>monacho</roleName>. </p>
+                <p xml:id="DVLbis_p_002" n="2"> § Positiones prioris. Ponit prior prefatus quod
+                    suprascriptum <orgName ref="#Corvo_S_Croce">monasterium</orgName> de <placeName
+                        ref="#Corvo">Corvo</placeName> fuit liberum et absolutum ab omni obedientia
+                    episcopali iam sunt anni XLVI et ultra. Dominus episcopus negat dictum eius.</p>
+                <p xml:id="DVLbis_p_003" n="3"> § Ponit prior quod suprascriptum monasterium fuit
+                    liberum et absolutum ab illa obedientia manuali quam ipse dominus episcopus
+                    petit. Dominus episcopus non credit. </p>
+                <p xml:id="DVLbis_p_004" n="4">Item ponit quod dictum <orgName ref="#Corvo_S_Croce"
+                        >monasterium de <placeName ref="#Corvo">Corvo</placeName></orgName> fuit
+                    habitum et possessum a <orgName ref="#Pisa_S_Michele_Orticaria">monasterio
+                        Sancti Michaelis</orgName> de <placeName ref="#Orticaria"
+                        >Orticaria</placeName> de <placeName ref="#Pisa">Pisis</placeName> et hoc a
+                    prefato tempore XLVI annorum citra. Dominus episcopus negat possessum habitum;
+                    petit ut determinet quomodo habitum et paratus est respondere. Determinat
+                    habitum quoad obedientiam et reverentiam et ordinationem et dispositionem tam de
+                    monachis quam de rebus et etiam de conversis. Dominus episcopus in hiis que ad
+                    observantiam regularem specta<supplied reason="omitted">n</supplied>t
+                    confitetur; in aliis vero que ad iurisdictionem episcopalem pertinent non
+                    credit.</p>
+                <p xml:id="DVLbis_p_005" n="5"> § Item ponit<note place="foot" n="b"
+                        xml:id="DLVbis_n_002"><emph>Segue depennato ed espunto:</emph> quod dictum
+                        mo</note> prefatus prior quod prefatus abbas Sancti Michaelis posuit et
+                    instituit rectores<note place="foot" n="c" xml:id="DLVbis_n_003">rectores<emph>:
+                            corretto su</emph> rectorem</note> in prefato monasterio a prefato
+                    tempore cum ecclesia vacavit, qui ministraverunt in prefata ecclesia in
+                    temporalibus et spiritualibus. Dominus episcopus de voluntate episcopi, qui pro
+                    tempore fuit, confitetur et aliter negat. </p>
+                <p xml:id="DVLbis_p_006" n="6"> § Item ponit quod prefatus abbas posuit ibi monachos
+                    et removit pro sua voluntate a predicto tempore. Dominus episcopus de voluntate
+                    episcopi, qui pro tempore fuit, confitetur et aliter negat. </p>
+                <p xml:id="DVLbis_p_007" n="7"> § Item ponit quod prefatus abbas absolvit monachos
+                    et alios ministros suprascripti monasterii de <placeName ref="#Corvo"
+                        >Corbo</placeName>, videlicet cellarium et alios qui ibi gerebant aliquod
+                    officium et alios monachos et conversos pro sua voluntate, cum necessarium
+                    fuerit, ab omni excomunicatione et gravamine quibus dictus abbas vel prior aut
+                    rector aliquem eorum gravaret vel excomunicaret. Dominus episcopus confitetur
+                    secundum ordinis disciplinam, set in hiis que ad episcopalem iurisdictionem
+                    pertinent negat. </p>
+                <p xml:id="DVLbis_p_008" n="8"> § Item ponit quod prefatus abbas <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis</orgName> vel rector
+                    positus ab eo in prefato monasterio de <placeName ref="#Corvo">Corbo</placeName>
+                    disposuit et disponit de temporalibus et spiritualibus et ordinat pro voluntate
+                    prefati abbatis vel pro voluntate rectoris. Dominus episcopus secundum ordinis
+                    disciplinam confitetur, set in hiis que ad temporalem iurisdictionem pertinent
+                    negat. </p>
+                <p xml:id="DVLbis_p_009" n="9"> § Item ponit quod rector suprascripti monasterii de
+                        <placeName ref="#Corvo">Corbo</placeName> et monachi fecerunt et
+                    prestiterunt a predicto tempore obedientiam abbati <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis de <placeName
+                            ref="#Orticaria">Orticaria</placeName></orgName>. Dominus episcopus in
+                    hiis que ad regularem observantiam pertinent confitetur, in aliis negat. </p>
+                <p xml:id="DVLbis_p_010" n="10"> § Item ponit quod prefati rector et monachi
+                    prestiterunt prefatam obedientiam soli prefato abbati a predicto tempore.
+                    Dominus episcopus in hiis que ad regularem observantiam pertinent confitetur, in
+                    aliis negat que ad episcopalem iurisdictionem pertinent negat<note place="foot"
+                        n="d" xml:id="DLVbis_n_004">negat-negat<emph>: così nel
+                    testo.</emph></note>. </p>
+                <p xml:id="DVLbis_p_011" n="11"> § Item ponit quod ecclesia <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis de <placeName
+                            ref="#Orticaria">Orticaria</placeName></orgName> est membrum <orgName
+                        ref="#Pulsano_S_Maria">Sancte Marie de <placeName ref="#Pulsano"
+                            >Ponchano</placeName></orgName>. Dominus episcopus credit. </p>
+                <p xml:id="DVLbis_p_012" n="12"> § Item ponit quod ecclesia <orgName
+                        ref="#Pulsano_S_Maria">Sancte Marie de <placeName ref="#Pulsano"
+                            >Ponchano</placeName></orgName> est exemptum<note place="foot" n="e"
+                        xml:id="DLVbis_n_005">exemptum<emph>: così nel testo.</emph></note> cum
+                        mensuris<note place="foot" n="f" xml:id="DLVbis_n_006">mensuris<emph>: così
+                            nel testo per membris.</emph></note> suis. Dominus episcopus non credit
+                    cum membris, set de capite credit. </p>
+                <p xml:id="DVLbis_p_013" n="13"> § Item ponit quod prefatum <orgName
+                        ref="#Corvo_S_Croce">monasterium de <placeName ref="#Corvo"
+                            >Corbo</placeName></orgName> pertinet ad prefatam ecclesiam <orgName
+                        ref="#Pulsano_S_Maria">Sancte Marie de <placeName ref="#Pulsano"
+                            >Ponchano</placeName></orgName> et ei subest mediante ecclesia <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis de <placeName
+                            ref="#Orticaria">Orticaria</placeName></orgName>. Dominus episcopus non
+                    credit. </p>
+                <p xml:id="DVLbis_p_014" n="14"> § Item ponit prefatus rector quod iam sunt anni LI
+                    quod dictum <orgName ref="#Corvo_S_Croce">monasterium Sancte Crucis</orgName>
+                    stetit in hoc liberum, scilicet quod nullam fecit vel prestitit obedientiam
+                    episcopo Lunensi. Dominus episcopus negat dictum eius. </p>
+                <p xml:id="DVLbis_p_015" n="15"> § Item ponit quod dictum <orgName
+                        ref="#Corvo_S_Croce">monasterium de <placeName ref="#Corvo"
+                            >Corbo</placeName></orgName> est et fuit ordinis seu obediente <orgName
+                        ref="#Pulsano_S_Maria">Sancte Marie de <placeName ref="#Pulsano"
+                            >Ponchano</placeName></orgName> mediante ecclesia <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis de <placeName
+                            ref="#Orticaria">Orticaria</placeName></orgName>
+                    <pb n="407r" xml:id="fol_407r"/> iam sunt anni LI. Dominus episcopus de
+                    obedientia in hiis que iurisdictionis episcopalis sunt et maxime in
+                    spiritualibus negat; credit tamen quod deberent servare ordinem quem servant
+                    illi de <orgName ref="#Pisa_S_Michele_Orticaria">Sancto Michaele de <placeName
+                            ref="#Orticaria">Orticaria</placeName></orgName>, set non servant:
+                        <orgName ref="#Pulsano_S_Maria">monasterio autem de <placeName
+                            ref="#Pulsano">Ponchano</placeName></orgName> in nullo subest neque quo
+                    ad obedientiam neque quo ad ordinem neque mediante neque inmediante.</p>
+                <p xml:id="DVLbis_p_016" n="16"> § Ponit quod rector et monachi <orgName
+                        ref="#Corvo_S_Croce">monasterii Sancte Crucis</orgName> qui pro tempore sunt
+                    in ipso monasterio respondent abbati <orgName ref="#Pisa_S_Michele_Orticaria"
+                        >Sancti Michaelis de <placeName ref="#Orticaria"
+                        >Orticaria</placeName></orgName> tanquam suo abbati et in omnibus eius
+                    mandata observant et faciunt et observare et facere consueverunt. Dominus
+                    episcopus non credit. </p>
+                <p xml:id="DVLbis_p_017" n="17"> § Item ponit quod prefatus abbas <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis</orgName> posuit et
+                    instituit rectores in suprascripto monasterio de <placeName ref="#Corvo"
+                        >Corbo</placeName> non requisito expresso consensu Lunensis episcopi et qui
+                    taliter ibidem instituti et positi administraverunt in temporalibus et
+                    spiritualibus. Dominus episcopus credit quod aliquos posuit et instituit de
+                    facto et non de iure, preter voluntatem expressam Lunensis episcopi, et aliquos
+                    cum voluntate expressa ipsius. </p>
+                <p xml:id="DVLbis_p_018" n="18"> § Ponit prefatus rector quod dictus abbas <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis</orgName> et capitulum
+                    ponit rectores et monachos et removet in prefato <orgName ref="#Corvo_S_Croce"
+                        >monasterio Sancte Crucis</orgName> pro sue voluntatis arbitrio, inrequisito
+                    consensu episcopi Lunensis. Dominus episcopus quod aliquos ponit et non ponit et
+                    aliquos removet et non removet secundum predictum modum confitetur et quos ponit
+                    et removet de facto ponit et removet et non de iure.</p>
+                <p xml:id="DVLbis_p_019" n="19"> § Item ponit quod monachi <orgName
+                        ref="#Corvo_S_Croce">monasterii Sancte Crucis</orgName> tempore quo monachi
+                    tantum professionem faciunt in manibus abbatis <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis</orgName> et apud altare
+                        <orgName ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis</orgName> et quod
+                    tempore professionis ipsi monachi faciunt obedientiam suprascripto abbati sicut
+                    suo prelato et eo modo sicut faciunt monachi <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis</orgName>. Dominus
+                    episcopus in hiis que ad regularem observantiam spectant confitetur quod faciunt
+                    professionem et de facto et non de iure; in spiritualibus autem que ad
+                    episcopalis officii dignitatem pertinent negat; de obedientia respondit ut
+                    supra, videlicet quia non credit in spiritualibus, que ad episcopalis officii
+                    dignitatem pertinent, quod obedientiam faciant; quando tamen faciunt in hiis que
+                    ad regularem observantiam pertinent, salvo iure episcopi Lunensis, faciunt sicut
+                    monachi <orgName ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis</orgName>;
+                    aliter et alio modo negat. </p>
+                <p xml:id="DVLbis_p_020" n="21"> § Ponit prior prefatus quod quidam bone memorie
+                        <persName ref="#RollandusEpLuni">Rollandus</persName>, <roleName>tunc
+                        Lunensis episcopus</roleName>, cum consensu capituli Lunensis concessionem
+                    factam per suprascriptum<note place="foot" n="g" xml:id="DLVbis_n_007">
+                        suprascriptum: <emph>il vescovo Pietro non è citato precedentemente nel
+                            documento.</emph></note>
+                    <roleName>episcopum</roleName>
+                    <persName ref="#PetrusEpLuni">Petrum</persName> approbavit et confirmavit et
+                    indulxit et concessit. Dominus episcopus quod concessionem de facto et non de
+                    iure approbaverit dictus <roleName>episcopus</roleName>
+                    <persName ref="#RollandusEpLuni">Rollandus</persName> credit; de consensu autem
+                    capituli negat nisi apparuerit per privilegium legitimum vel per alias legitimas
+                    probationes. </p>
+                <p xml:id="DVLbis_p_021" n="21"> § Ponit prior quod ea que in prefata concessione
+                    facta a suprascripto <roleName>episcopo</roleName>
+                    <persName ref="#PetrusEpLuni">Petro</persName> tam de iure quam de facto
+                    continentur tempore predicte concessionis valebant minus <measure type="Marchis"
+                        quantity="30" unit="solidus">XXX<note place="foot" n="h"
+                            xml:id="DLVbis_n_008"> XXX<emph>: corretto su</emph> XXVI</note> marchis
+                        argenti</measure>. Dominus episcopus negat dictum eius.</p>
+                <p xml:id="DVLbis_p_022" n="22"> § Ponit prior quod predicta non valebant<note
+                        place="foot" n="i" xml:id="DLVbis_n_009"><emph>Segue ripetuto:</emph> non
+                        valebant</note>
+                    <measure type="Marchis" quantity="30" unit="solidus">XXX marchas</measure>
+                    tempore predicte concessionis. Dominus episcopus credit quod valebant tunc
+                    temporis octoaginta marchas. </p>
+                <p xml:id="DVLbis_p_023" n="23"> § Positiones domini episcopi. Ponit dominus
+                    episcopus quod <orgName ref="#Corvo_S_Croce">monasterium Sancte Crucis de
+                            <placeName ref="#Corvo">Corbo</placeName></orgName> situm et hedificatum
+                    est in dyocesi Lunensi. Prior confitetur quod sit situm et hedificatum in
+                    episcopatu Lunensi. </p>
+                <p xml:id="DVLbis_p_024" n="24"> § Item ponit quod situm et hedificatum est
+                    predictum monasterium in proprio solo Lunensis episcopi et episcopatus. Prior
+                    suprascriptus non credit.</p>
+                <p xml:id="DVLbis_p_025" n="25"> § Item ponit quod fuit hedificatum in proprio solo
+                    Lunensis episcopi et episcopatus. Prior non credit.</p>
+                <p xml:id="DVLbis_p_026" n="26"> § Item ponit quod idem episcopus fecit citari
+                    priorem et capitulum <orgName ref="#Corvo_S_Croce">Sancte Crucis de <placeName
+                            ref="#Corvo">Corbo</placeName></orgName> super obedientia et reverencia
+                    a priore <orgName ref="#Carrara_S_Andrea">Sancti Andree de <placeName
+                            ref="#Carrara">Carraria</placeName></orgName> de ordine Sancti Frediani,
+                    qui tunc erat iudex delegatus <roleName>domini</roleName>
+                    <persName ref="#Giffredus_legatus">Giffredi</persName>
+                    <roleName>tunc Apostolice Sedis legati</roleName> in <placeName ref="#Tuscia"
+                        >Tuscia</placeName>, super premissis, iam sunt anni VII. Prior prefatus
+                    credit quod rector qui illo tempore erat ibi fuerit citatus per dictum priorem
+                    de <placeName ref="#Carrara">Carraria</placeName> super reverentia et obedientia
+                    et iam sunt anni VII. </p>
+                <p xml:id="DVLbis_p_027" n="27"> § Ponit <roleName>dominus episcopus</roleName> quod
+                        <orgName ref="#Corvo_S_Croce">conventus Sancte Crucis</orgName> reddunt<note
+                        place="foot" n="l" xml:id="DLVbis_n_010"> reddunt <emph>: così nel
+                            testo.</emph></note> episcopo Lunensi, annuum censum, <measure
+                        type="Obulus" unit="solidus">obulum aureum</measure> de XXXII iugiis terre,
+                    que sunt posite in ipso loco ubi est hedificatum dictum monasterium, et domus et
+                    vinee et alia que sunt in circuitu. Prior quod <orgName ref="#Corvo_S_Croce"
+                        >monasterium de <placeName ref="#Corvo">Corbo</placeName></orgName> reddat
+                    episcopo Lunensi <measure type="Obulus" unit="solidus">massamutinum seu obulum
+                        aureum</measure> annuum nomine censi credit, set de dictis terris vel rebus
+                    prior non credit. </p>
+                <p xml:id="DVLbis_p_028" n="28"> § Item ponit dominus episcopus quod monachi
+                        <orgName ref="#Corvo_S_Croce">Sancte Crucis de <placeName ref="#Corvo"
+                            >Corbo</placeName></orgName> recipiunt ordines cum sunt ordinandi ab
+                    episcopo Lunensi tanquam a suo episcopo. Prior negat totaliter, set confitetur
+                    quod, quando vult mittere monachos ad dictum episcopum ad ordinandum, recipiunt
+                    ab eo ordinationes et non aliter, set non tanquam a proprio episcopo. </p>
+                <p xml:id="DVLbis_p_029" n="29"> § Item ponit dominus episcopus quod prior <orgName
+                        ref="#Corvo_S_Croce">Sancte Crucis</orgName> monachos ordinandos de
+                        ips<supplied reason="omitted">i</supplied>us conventu representav<supplied
+                        reason="omitted">i</supplied>t Lunensi episcopo sine litteris vel mandato
+                        alic<supplied reason="omitted">ui</supplied>us episcopi vel archiepiscopi
+                    vel abbatis aut capituli <orgName ref="#Pisa_S_Michele_Orticaria">Sancti
+                        Michaelis de <placeName ref="#Orticaria">Orticaria</placeName></orgName> et
+                    episcopus sic representatos ordinat et consueverunt ordinare predecessores sui.
+                    Prior confitetur de illis monachis quos vult facere ordinare.</p>
+                <p xml:id="DVLbis_p_030" n="30"> § Item ponit dominus episcopus quod prior et
+                    monachi <orgName ref="#Corvo_S_Croce">Sancte Crucis de <placeName ref="#Corvo"
+                            >Corbo</placeName></orgName>, vocati, veniunt ad concilium episcopi
+                    Lunensis quando episcopus facit concilium clericorum. Prior quod iverint credit. </p>
+                <pb n="407v" xml:id="fol_407v"/>
+                <p xml:id="DVLbis_p_031" n="31"> § Item ponit dominus episcopus quod dicti prior et
+                    capitulum <orgName ref="#Corvo_S_Croce">Sancte Crucis</orgName> ad mandatum
+                    Lunensis episcopi vel eius archipresbyteri excomunicatum ab eo vel
+                    archipresbytero eius denunciant excomunicatos et tanquam excomunicatos
+                        evitant<note place="foot" n="m" xml:id="DLVbis_n_011">dicti
+                            prior-evitant<emph>: così nel testo;</emph> excomunicatum ab<emph>:
+                            corretto su precedente scrittura.</emph></note>. Prior non credit, set
+                    quos dominus episcopus vel archipresbyter Lunensis excomunicat idem prior tenet
+                    excomunicatos.</p>
+                <p xml:id="DVLbis_p_032" n="32"> § Item ponit quod capitulum <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis de <placeName
+                            ref="#Orticaria">Orticaria</placeName></orgName>, dum vacat eorum
+                    monasterium, consueverunt eligere et eligerunt abbatem obmissis vel inrequisitis
+                    priore et monachis <orgName ref="#Corvo_S_Croce">Sancte Crucis de <placeName
+                            ref="#Corvo">Corbo</placeName></orgName>. Prior confitetur.</p>
+                <p xml:id="DVLbis_p_033" n="33"> § Item ponit de hiis contractibus ubi requiritur
+                    consensus capituli, videlicet quod inrequisitis priore et <orgName
+                        ref="#Corvo_S_Croce">monasterio Sancte Crucis</orgName> contrahunt. Prior
+                    confitetur, monachis existentibus apud dictum <orgName ref="#Corvo_S_Croce"
+                        >monasterium de <placeName ref="#Corvo">Corbo</placeName></orgName>, absque
+                    eorum requisitione. </p>
+                <p> Ponit dominus episcopus quod bone memorie <persName ref="#PetrusEpLuni"
+                        >Petrus</persName>, antecessor eius, vixit episcopus Lunensis X annis et
+                    ultra. Prior credit. </p>
+                <p xml:id="DVLbis_p_034" n="34"> § Item ponit quod ecclesia Lunensis vacavit, a
+                    tempore mortis dicti <persName ref="#PetrusEpLuni">Petri</persName> usque ad
+                    confirmationem <persName ref="#RollandusEpLuni">Rollandi</persName> sibi
+                    substituti, mensibus sexdecim. Prior credi<supplied reason="omitted"
+                        >t</supplied>. </p>
+                <p xml:id="DVLbis_p_035" n="35"> § Item ponit quod <persName ref="#RollandusEpLuni"
+                        >Rollandus</persName> predictus vixit <roleName>episcopus</roleName> XVIII
+                    mensibus. Prior credit.</p>
+                <p xml:id="DVLbis_p_036" n="36"> § Item ponit quod a morte ipsius <persName
+                        ref="#RollandusEpLuni">Rollandi</persName> usque ad confirmationem <persName
+                        ref="#GualEpLuni">Gualterii</persName>, sibi su<supplied reason="omitted"
+                        >b</supplied>stituti, ecclesia Lunensis vacavit I anno. Prior credit.</p>
+                <p xml:id="DVLbis_p_037" n="37"> § Item ponit quod a tempore mortis ipsius <persName
+                        ref="#GualEpLuni">Gualterii</persName> usque ad confirmationem <persName
+                        ref="#MarzuccusEpLuni">Marzuchi</persName> ecclesia Lunensis vacavit III
+                    mensibus. Prior credit. </p>
+                <p xml:id="DVLbis_p_038" n="38"> § Item ponit quod a morte dicti <persName
+                        ref="#MarzuccusEpLuni">Marzuchi</persName> usque ad confirmationem <persName
+                        ref="#NorandEpLuni">Noradini</persName> ecclesia Lunensis vacavit III
+                    mensibus. Prior credit. </p>
+                <p xml:id="DVLbis_p_039" n="39"> § Item ponit quod a morte ipsius <persName
+                        ref="#NorandEpLuni">Noradini</persName> usque ad confirmationem <persName
+                        ref="#ButtafavaEpLuni">Butafave<note place="foot" n="n"
+                            xml:id="DLVbis_n_012"> Butafave: v <emph>corretto su </emph>
+                        b</note></persName> vacavit I mense. Prior credit. </p>
+                <p xml:id="DVLbis_p_040" n="40"> § Item ponit quod a morte ipsius <persName
+                        ref="#ButtafavaEpLuni">Butafave</persName> usque ad confirmationem predicti
+                        <roleName>domini</roleName>
+                    <persName ref="#GuilEpLuni">Guilielmi</persName>
+                    <roleName>episcopi<note place="foot" n="o" xml:id="DLVbis_n_013"> predicti
+                                <emph>: il vescovo Guglielmo non è citato precedentemente nel
+                                documento.</emph></note></roleName>, vacavit dicta ecclesia Lunensis
+                    pro XXII mensibus. Prior de XVIII credit. </p>
+                <p xml:id="DVLbis_p_041" n="41"> § Item ponit dominus episcopus quod <persName
+                        ref="#GualEpLuni">Gualterius</persName> et <persName ref="#MarzuccusEpLuni"
+                        >Marzuchus</persName>, predecessores sui, visitaverunt <orgName
+                        ref="#Corvo_S_Croce">monasterium Sancte Crucis de <placeName ref="#Corvo"
+                            >Corbo</placeName></orgName> et sepius et ibi procurationem vel
+                    refectionem receperunt a priore <orgName ref="#Corvo_S_Croce">conventus Sancte
+                        Crucis</orgName> pro se et suis. Prior negat. </p>
+                <p xml:id="DVLbis_p_042" n="42"> § Item ponit dominus episcopus quod
+                        <roleName>episcopus</roleName>
+                    <persName ref="#PetrusEpLuni">Petrus</persName>, antecessor suprascriptus suus,
+                    fecit certas pactiones vel concessiones de facto cum abbate <orgName
+                        ref="#Pisa_S_Michele_Orticaria">Sancti Michaelis de <placeName
+                            ref="#Orticaria">Orticaria</placeName></orgName>, qui tunc preerat ipsi
+                    monasterio, et capitulo ipsius ecclesie <orgName ref="#Pisa_S_Michele_Orticaria"
+                        >Sancti Michaelis</orgName> vel cum ipso abbate pro capitulo de <orgName
+                        ref="#Corvo_S_Croce">monasterio Sancte Crucis de <placeName ref="#Corvo"
+                            >Corvo</placeName></orgName> de<note place="foot" n="p"
+                        xml:id="DLVbis_n_014">de<emph>: aggiunto in sopralinea con segno di
+                            richiamo.</emph></note> quo agitur, secundum hunc modum: «Quia igitur,
+                    peccatis exigentibus, Lunensis episcopatus multa religiosarum personarum
+                    paupertate laborat, quendam locum solitarium, qui dicitur <placeName
+                        ref="#Corvo">Corbus</placeName>, cum ecclesia eiusdem loci <orgName
+                        ref="#Corvo_S_Croce">Sancte Crucis</orgName> religioni, sicut creditur
+                    aptum, a bone memorie <persName ref="#PipEpLuni">Pipino</persName>,
+                        <roleName>predecessore nostro</roleName>, instrumentum<note place="foot"
+                        n="q" xml:id="DLVbis_n_015">instrumentum<emph>: così nel testo per</emph>
+                            institutum<emph>, cfr. doc. 502-DXXXXI.</emph></note> et pro personarum
+                    defectu iam fere positus<note place="foot" n="r" xml:id="DLVbis_n_016"
+                            >positus<emph>: così nel testo per</emph> penitus<emph>, cfr. doc.
+                            502-DXXXXI.</emph></note> anullatum, vobis et per vos ecclesie vobis
+                    commisse ad habendum et utendum et presertim in religione, Domino adiuvante, in
+                    habito monastico observandum, absolute et libere damus atque concedimus cum
+                    omnibus que iuste nunc habet, possidet mobilibus vel immobilibus vel in antea,
+                    prestante Domino, canonice poteritis adipisci, ita ut vos vestrique successores
+                    liberam habeatis potestatem ibidem monachos collocare vel removere, priores vel
+                    maiores, quos vestro arbitrio fidedignos iudicaveritis, instituere atque
+                    deponere, reservata tamen nobis in eodem loco nostrisque successoribus in
+                    spiritualibus episcopalis officii dignitate, pro temporalibus vero nichil preter
+                    massamatinum unum census nomine, singulis annis in inventione <orgName
+                        ref="#Corvo_S_Croce">Sancte Crucis</orgName>, nobis nostrisque successoribus
+                    persolvendum», ut supra dicitur, scilicet in initio istius materie de <orgName
+                        ref="#Corvo_S_Croce">monasterio Sancte Crucis de <placeName ref="#Corvo"
+                            >Corvo</placeName></orgName>. Prior quod <roleName>episcopus</roleName>
+                    <persName ref="#PetrusEpLuni">Petrus</persName> fecerat certas concessiones de
+                    iure et de facto abbati et <orgName ref="#Pisa_S_Michele_Orticaria">conventui
+                        Sancti Michaelis de <placeName ref="#Orticaria"
+                        >Orticaria</placeName></orgName> ut eorum privilegio continetur, cuius tenor
+                    superius scriptus est, confitetur et alia negat. Dominus episcopus negat de iure
+                    factum fuisse privilegium vel privilegium esse de iure. </p>
+                <p xml:id="DVLbis_p_043" n="43"> § Item ponit dominus episcopus quod concessionem
+                    vel pactum, quod fecit <roleName>episcopus</roleName>
+                    <persName ref="#PetrusEpLuni">Petrus</persName> suprascriptus secundum tenorem
+                    superius scriptum, fecit absque licencia domini pape vel eius legati aut
+                    specialis delegati ad hoc, et sine consensu capituli Lunensis. Prior de pacto
+                    negat ut supra et de concessione credit quod idem episcopus fecisset eam absque
+                    licencia pape vel eius legati aut subdelegati specialis et absque expresso
+                    consensu Lunensis capituli, set non sine tacito consensu Lunensis capituli.
+                    Dominus episcopus negat de tacito vel expresso consensu. </p>
+                <p xml:id="DVLbis_p_044" n="44"> § Item ponit dominus episcopus quod ea que de facto
+                        <roleName>dominus</roleName>
+                    <persName ref="#PetrusEpLuni">Petrus</persName> concessit <orgName
+                        ref="#Pisa_S_Michele_Orticaria">monasterio Sancti Michaelis de <placeName
+                            ref="#Orticaria">Orticaria</placeName></orgName> secundum premissum
+                    tenorem valent <measure type="Marchis" quantity="200" unit="solidus">CC marchas
+                        argenti</measure> et plus, quod multum est si vendi possent de iure vel
+                    extimari. Prior de <measure type="Marchis" quantity="80" unit="solidus">LXXX
+                            marc<supplied reason="omitted">h</supplied>is</measure> credit, plus
+                    negat. </p>
+                <p xml:id="DVLbis_p_045" n="45"> § Ponit dominus episcopus quod prior et monasterium
+                    de <placeName ref="#Corvo">Corbo</placeName> quocienscumque vocati fuerint ad
+                    synodum per episcopum Lunensem venerunt nisi essent canonica impeditione <note
+                        place="foot" n="s" xml:id="DLVbis_n_017"> impeditione: im <emph>corretto
+                            su</emph> pre</note> impediti, nisi remaneret de licencia episcopi qui
+                    pro tempore esset. Prior quod <pb n="408r" xml:id="fol_408r"/> iverint
+                    quandocumque vocati fuerint confitetur et, si remanserint aliqua vice, negat
+                    quod remansissent licencia episcopi.</p>
+                <p xml:id="DVLbis_p_046" n="46"> § Item ponit quod prior qui pro tempore fuerit in
+                    dicto monasterio consuevit visitare cathedralem ecclesiam in festo Sanguinis et
+                    in festo Assumptionis Sancte Marie Virginis, sicut alii prelati ecclesiarum
+                    episcopi et episcopatus. Prior non credit. </p>
+                <p xml:id="DVLbis_p_047" n="47"> § Item ponit quod episcopi Lunenses fecerunt
+                    aliquando indulgentias omnibus qui benefaciunt <orgName ref="#Corvo_S_Croce"
+                        >monasterio Sancte Crucis</orgName> tanquam monasterio et ecclesie sui
+                    episcopatus et taliter indulgentiis usi sunt predicti prior et monachi qui pro
+                    tempore fuerint ibidem. Prior credit quod episcopi Lunenses fecissent aliquando
+                    indulgentias tanquam ecclesia et monasterio quod est infra confines episcopatus
+                    et dicti monachi eis taliter usi sunt, et aliter negat. </p>
+                <p xml:id="DVLbis_p_048" n="48"> § Item ponit quod dicti prior et monasterium
+                    indulgentiis similibus usi sunt episcoporum Lunensium tantum in ipso monasterio
+                    a tempore constitutionis ipsius et non alterius episcoporum vel archiepiscoporum
+                    vel inferiorum prelatorum <placeName ref="#Tuscia">Tuscie</placeName>. Prior
+                    credit. </p>
+                <p xml:id="DVLbis_p_049" n="49"> § Item ponit quod prior et monachi <orgName
+                        ref="#Corvo_S_Croce">Sancte Crucis</orgName> petierunt et receperunt ab
+                    episcopis Lunensibus licenciam danda penitenciam hominibus qui eis confiteri
+                    vellent et post interdictum episcopi a talibus restiterunt. Prior credit.</p>
+                <p xml:id="DVLbis_p_050" n="50"> § Item ponit quod predictus prior et monachi per se
+                    vel suum syndicum aut procuratorem respondere consueverunt de se conquerentibus
+                    in curia Lunensis episcopi vel eius vicarii. Prior credit.</p>
+                <p xml:id="DVLbis_p_051" n="51"> § Item ponit quod <roleName>episcopus</roleName>
+                    <persName ref="#PipEpLuni">Pipinus</persName> concessit monacho qui prius
+                    habitavit in dicto loco de <placeName ref="#Corvo">Corbo</placeName> continuas
+                    XXXII vel XXXIII tantum <term ref="#iuva">iuvas</term> terre ad hedificandum
+                        <orgName ref="#Corvo_S_Croce">monasterium Sancte Crucis de <placeName
+                            ref="#Corvo">Corbo</placeName></orgName>. Prior credit. </p>
+                <p xml:id="DVLbis_p_052" n="52"> § Item ponit dictus episcopus quod dictus monachus
+                    cepit hedificare monasterium in dicto loco. Prior credit, set addit quod non
+                    illam ecclesiam quam nunc pro monasterio retinent.</p>
+                <p xml:id="DVLbis_p_053" n="53"> § Utraque pars, scilicet dominus episcopus et
+                    dictus prior, personaliter dederunt licenciam dictis prioribus sigillandi
+                    predicta et dirigendi ad dictum iudicem subdelegatum, dicentes se nolle plures
+                    positiones coram dictis iudicibus seu prioribus facere in predictis. </p>
+                <p xml:id="DVLbis_p_054" n="54"> § Dantes etiam dicte partes et dicti priores omnia
+                    suprascripta redigenda in publicam scripturam mihi <persName
+                        ref="#Nigochanus_notarius">Nigochano <roleName>iudici et
+                        notario</roleName></persName> licenciam et mandatum coram <persName
+                        ref="#Aracese_iudex">Aracese <roleName>iudice</roleName></persName> et
+                        <persName ref="#Bonvisinusnot">Bonviso</persName> et <persName
+                        ref="#Aliottus_nuntius">Aliotto</persName>
+                    <roleName>nuntiis</roleName> et abbate <orgName ref="#Pisa_S_Michele_Orticaria"
+                        >Sancti Michaelis de <placeName ref="#Orticaria"
+                        >Orticaria</placeName></orgName> de <placeName ref="#Pisa"
+                    >Pisis</placeName>. <date when="1237-03-05">Millesimo ducentesimo tricesimo
+                        septimo, tercio nonas martii, indictione decima</date>. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

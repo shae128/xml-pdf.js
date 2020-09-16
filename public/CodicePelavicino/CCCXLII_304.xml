@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="CCCXLII_304">
+		<front xml:id="CCCXLII_front">
+
+			<titlePart type="numerazioneNuova">304</titlePart>
+			<titlePart type="numerazioneOrig">CCCXLII</titlePart>
+
+			<docDate xml:id="CCCXLII_docDate">
+				<date when="1232-10-26">1232 ottobre 26</date>, <placeName>Carrara (<emph>in camera
+						palacii et curie Lunensis episcopi de Carraria</emph>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="CCCXLII_regesto">
+				<p>Iacopino giudice di Carrara, vedovo di donna Diamante di Carrara, che fu di
+					Carpeneta, vende al vescovo di Luni Guglielmo tutto il suo podere, composto di
+					diverse terre, beni, redditi e villani, ottenuto in seguito a una permuta fatta
+					con Aldebrandino di Castello Ranaldo ed i suoi fratelli Gerardo e Gotifredo,
+					figli della suddetta Diamante. Il prezzo ammonta a 60 lire di imperiali che
+					vengono date in deposito da Iacopino al priore di Santa Croce del Corvo e al
+					monaco Guilielmo di Gragnana. </p>
+			</div>
+
+			<div type="footer" xml:id="CCCXLII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] CP cc. 303v.-304r., cc. CCLXXXXVv.-CCLXXXXVIr. secondo la
+						numerazione originale</p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+						1912</ref>, n. 342, pp. 329-330.</p>
+				</div>
+
+				<div type="crit_notes">
+					<note><p>Stesura <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla
+							presenza di Bonagiunta de Podio di Lucca.</p></note>
+					<p/>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">CCCXLII. Emptionis poderis Iacopini iudicis.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="CCCXLII_div">
+				<p xml:id="CCCXLII_p_001" n="1">In Dei nomine, amen. <date when="1232-10-26">Anno a
+						nativitate eius millesimo CCXXXII, indictione V, die martis, VII kalendas
+						novembris</date>, in camera palacii et curie Lunensis episcopi de <placeName
+						ref="#Carrara">Carraria</placeName>, coram <persName ref="#Bentevegnaarc"
+							><roleName>archipresbytero</roleName> Bentevegna de <placeName
+							ref="#Santo_Stefano">Sancto Stephano</placeName></persName>, <persName
+						ref="#GuidoMontedarmo"><roleName>domino</roleName> Guidone quondam
+						Dominici</persName> Lucano, <persName ref="#VillanusAlioti">Villano quondam
+						Alioti</persName> civitatis eiusdem, <persName ref="#Benvenutuscler"
+						>Benvenuto <roleName>clerico</roleName>
+						<orgName ref="#S_Vitale">Sancti Vitalis</orgName></persName> et <persName
+						ref="#PeregrinusPal">Peregrino de <placeName ref="#Padule">la
+							Padule</placeName></persName>, testibus ad hec rogatis. <persName
+						ref="#IacopinusCarraria">Iacopinus <roleName>iudex</roleName> de <placeName
+							ref="#Carrara">Carraria</placeName></persName>, vir quondam
+						<roleName>domine</roleName>
+					<persName ref="#DiamanteCarrara">Dyamantis de <placeName ref="#Carrara"
+							>Carraria</placeName></persName>, qui fuit de <placeName
+						ref="#Carpeneta">Carpeneta</placeName>, per se suosque heredes dedit,
+					vendidit et tradidit venerabili domino <persName ref="#GuilEpLuni">Guilielmo,
+							<roleName>Dei gratia Lunensi episcopo</roleName></persName>, recipienti
+					pro se suisque successoribus et episcopatu Lunensi aut cui dederit vel
+					commiserit, in perpetuum, nominatim, totum podere et tenimentum et universam
+					tenutam atque omnes terras et possessionem immobilem quod et quam seu quas idem
+					Iacopinus habet, tenet et possidet seu habebat, tenebat et possidebat sive
+					habere, tenere et possidere visus est vel fuit, aut alia persona <note
+						xml:id="CCCXLII_n_001" n="a" place="foot"> persona: <emph>segue, non
+							depennato,</emph> eo.</note> pro eo vel eius nomine, quoquo modo vel per
+					mutationem, ratione aliqua, iure sibi cesso seu permutationis, cambii, dati et
+					facti confessi a domino <persName ref="#AldeprandinusCastello">Aldebrandino de
+							<placeName ref="#CastelloRadaldo">Castello
+						Radaldo</placeName></persName> et a fratribus suis, scilicet <persName
+						ref="#GirardusDiamantis">Girardo</persName> et <persName
+						ref="#GotefredusDiamantis">Gotefredo, filiis quondam domine suprascripte
+						Dyamantis</persName>, prout continetur in duobus instrumentis publicis manu
+						<persName ref="#Henrigetus_notarius">Henrigeti</persName>
+					<roleName>notarii</roleName> inde confectis et a me <persName
+						ref="#Bonencontrusnot">Bonencontro <roleName>notario</roleName></persName>
+					infrascripto visis et lectis, seu ab aliis personis, in <placeName
+						ref="#Carrara">Carraia</placeName> et districtu et alibi ubique terrarum in
+					Lunensi episcopatu et <orgName ref="#Luni_comitatus">comitatu</orgName>,
+					ubicumque de ipso podere, tenuta, tenimento, terris et possessione fuerit
+					aliquid inventum seu modo aliquo poterit inveniri, quicquid sit et quantumcumque
+					et ubicumque et quocumque decurrat, in plano et monte, in casis, capannis et
+					casamentis, in terris cultis et incultis, in pratis, pascuis, silvis,
+					castagnetis, olivetis, vignalibus <note xml:id="CCCXLII_n_002" n="b"
+						place="foot">
+						<term xml:lang="latin">vignalibus</term>:<emph> in realtà</emph>
+						<term xml:lang="latin">vingnalibus</term>
+						<emph>con segno generico di abbreviazione per <term xml:lang="latin"
+								>n</term> non depennato</emph>.</note>, gercetis <note
+						xml:id="CCCXLII_n_003" n="c" place="foot">
+						<term xml:lang="latin">gercetis</term>: <emph>così nel testo per</emph>
+						<term xml:lang="latin">quercetis</term></note>, cerretis, boschis seu
+					nemoribus et in molendinis, aqualibus, levatis et aqueductilibus, rivis et
+					rupinis et in locis domesticis et agrestibus <note xml:id="CCCXLII_n_004" n="d"
+						place="foot">
+						<term xml:lang="latin">agrestibus</term>: <emph>la prima</emph>
+						<term xml:lang="latin">s</term>
+						<emph>corretta su precedente lettera</emph>.</note>, in villanis, collectis,
+					fidelibus et vassallis, redditibus, condictionibus, albergariis, pensionibus,
+					homagiis, si qui sunt et invenire possent, agrum et cultum, plenum et vacuum,
+					divisim et indivisim, cum accessibus et regressibus, superioribus et
+					inferioribus suis omnique iure cunctaque utilitate, dominio et proprietate
+					suprascripto poderi et tenute et possessionibus et terris prenominatis et rebus
+					aliis suprascriptis competentibus et competituris, ad habendum, tenendum,
+					fruendum et cetera. De suprascripto podere et tenuta et possessione sunt et
+					iacent in istis locis: in primis, in <placeName ref="#Trulliano"
+						>Trulliano</placeName>, due petie terre, que sunt una iuva terre; in
+						<placeName ref="#Broilo">Brolo</placeName>, medietas unius <term ref="#iuva"
+						>iuve</term>, terra de prato, que est una iuva, et est iuxta plebem
+						<placeName ref="#Carrara">Carrarie</placeName>, et terra de fondo et terra
+					que est in paludibus, que terra est ultra <placeName ref="#Luni"
+						>Lunam</placeName>, et sunt tres iuve et plus; terra que est a <placeName
+						ref="#Plaça">la Pl<supplied reason="omitted">a</supplied>çia</placeName>,
+					que est I iugerum; terra que est iuxta seu prope <orgName ref="#Luni_S_Pietro"
+						>Sanctum Petrum</orgName> de <placeName ref="#Luni">Luna</placeName>;
+						vine<supplied reason="omitted">a</supplied> de <placeName ref="#Capagnano"
+						>Capangnano</placeName>; pensiones de <placeName ref="#Sarzana"
+						>Sarzana</placeName>; domus de <placeName ref="#Veçale">Veçale</placeName>,
+					cum casamento et brolo et terra in <placeName ref="#Bradia">Bradia</placeName>
+					filiorum <persName ref="#Spinelli">Spinelli</persName> et pratum de <placeName
+						ref="#Çunseto">Çunseto</placeName>; sexta pars molendinorum de <placeName
+						ref="#Campilia">Campilia</placeName>
+					<note xml:id="CCCXLII_n_005" n="e" place="foot"> sexta-Campilia: <emph>scritto
+							dopo</emph> Rustiginus, <emph>nel primo rigo della carta
+						seguente</emph></note>. Villani hii sunt: <persName
+						ref="#ConnettusCasalechio">Conettus de <placeName ref="#Casalechio"
+							>Casalechio</placeName></persName>, <persName ref="#UrsettusBellucii"
+						>Ursettus, filius quondam Bellucii de <placeName ref="#Cazano"
+							>Cacano</placeName></persName>, <pb n="304r" xml:id="fol_304r"/>
+					<persName ref="#BellaColle">Bella de <placeName ref="#Colle"
+						>Colle</placeName></persName> et eius vir <persName ref="#Rustiginus"
+						>Rustiginus</persName>. Item hii sunt communes villani eiusdem poderis, cum
+						<persName ref="#GuilielmusVallechia">Guilielmo de <placeName
+							ref="#Vallecchia2">Vallechia</placeName></persName>: illi de <placeName
+						ref="#Aquavivola">Aquavivola</placeName> in districtu <placeName
+						ref="#Massa">Masse</placeName>; item filii <persName ref="#RamengusCasapoci"
+						>Ramengi de <placeName ref="#Casapoci">Casapoci</placeName></persName>,
+					filii <persName ref="#LucianaPassano">Luciane de <placeName ref="#Passano"
+							>Paxano</placeName></persName>, <persName ref="#MartinusStabio">Martinus
+						de <placeName ref="#Stabio">Stabio</placeName></persName>, <persName
+						ref="#BellonusColonnata">Bellonus de <placeName ref="#Colonnata"
+							>Columpnata</placeName></persName>, filii <persName
+						ref="#MartinusMiselia">Martini de <placeName ref="#Miselia"
+							>Miselia</placeName></persName>. Et si qua<note xml:id="CCCXLII_n_006"
+						n="f" place="foot">
+						<term xml:lang="latin">qua</term>: <emph>così nel testo</emph></note> alia
+					reperiantur que ad <persName ref="#IacopinusCarraria">Iacopinum</persName>, iure
+					sibi cesso seu quocumque alio modo pertineant vel pertinuissent seu pertinerent,
+					in hac eadem vendictione permaneant et consistant, promittens idem Iacopinus
+					super predictis omnibus et singulis predictorum legitimam deffensionem suo
+					advocato et expensis suis vel restauratione<supplied reason="omitted"
+						>m</supplied>, si deffendere non posset, se suosque heredes et omnia sua
+					bona ad predicta obligando. Insuper titulo vendictionis dedit, cessit et
+					mandavit ipsi domino episcopo suprascriptus Iacopinus omnia iura omnesque
+					actiones et rationes, utiles et directas, reales, personales et mixtas, que et
+					quas habebat in predictis seu super predictis, in eodem modo et iure, suo nomine
+					directo et utili, <supplied reason="omitted">ut</supplied> possit agere et
+					experiri adversus quamcumque personam et locum, ut <note xml:id="CCCXLII_n_007"
+						n="g" place="foot">
+						<term xml:lang="latin">ut</term>: <emph>corretto su precedente
+							scrittura</emph>.</note> ipse per omnia et in omnibus melius poterat, et
+					constituit eum procuratorem et dominum de predictis omnibus tanquam in rem suam,
+					dans ei licenciam tenutam intrandi, auctoritate propria, et se interim pro eo et
+					eius nomine constituit possidere. Pro qua vendictione et omnibus suprascriptis
+					fuit idem Iacopinus confessus se in veritate ab eodem domino episcopo precium
+					recepisse bonorum <measure type="Imperiales" unit="libra" quantity="60"
+						>imperialium libras LX</measure>, renunciando exceptioni et cetera; et
+					confessus quod plus valebat, unde de superfluo quod valerent suprascripta, fecit
+					eidem domino episcopo pro remedio anime sue et parentum suorum datum nomine
+					donationis inter vivos, quod nullo iuris auxilio possit revocari, renunciando
+					legi que iuvat deceptos ultra dimidiam iusti precii omnique alii iuri per se
+					introducto. Et predicta omnia per se suosque heredes, omni tempore, ratam et
+					firmam <note xml:id="CCCXLII_n_008" n="h" place="foot">
+						<term xml:lang="latin">ratam et firmam</term>: <emph>così nel testo per rata
+							et firma</emph>.</note> habere et tenere, attendere et observare
+					promisit nec contravenire vel facere, per se vel per alium, aliqua occasione vel
+					exceptione, sub pena dupli suprascripte rei vendite et dupli omnium expensarum,
+					ipsi domino episcopo suisque successoribus aut cui dederit stipulatione
+					sollempni promissa et, ea soluta et cetera, sua bona et suos heredes obligando.
+					Quibus sic peractis, idem venerabilis episcopus, per se et suos successores,
+					ipsi Iacopino promisit solvere et reddere illam pensionem et redditus illos
+					illis quibus debetur ex ipso podere. Quas <measure type="Imperiales"
+						unit="libra" quantity="60">libras LX imperialium</measure> idem <persName
+						ref="#IacopinusCarraria">Iacopinus</persName>, me presente <persName
+						ref="#Bonencontrusnot">Bonencontro <roleName>notario</roleName></persName>
+					infrascripto et suprascriptis <persName ref="#Bentevegnaarc"
+							><roleName>archipresbytero</roleName> Bentevegna</persName>,
+						<roleName>domino</roleName>
+					<persName ref="#GuidoMontedarmo">Guidone</persName> et <persName
+						ref="#PeregrinusPal">Peregrino</persName>, testibus iamscriptis,
+					presentibus, dedit in deposito et in custodia <roleName>priori</roleName>
+					<orgName ref="#Corvo_S_Croce">Sancte Crucis</orgName> de <placeName ref="#Corvo"
+						>Corvo</placeName> et <roleName>donno</roleName>
+					<persName ref="#GuilEpLuni">Guilielmo de <placeName ref="#Gragnana"
+							>Gragnana</placeName></persName>, <roleName>eius ecclesie
+						monacho</roleName>, suscipientibus ab eo pecuniam iam dictam. Item sunt de
+					eo podere <measure type="Imperiales" quantity="6">VI imperialium</measure>, quos
+					sibi <persName ref="#IacopinusCarraria">Iacopino</persName>, ut dicebat,
+					reddebat omni anno <persName ref="#IacopinusFaina">Iacopinus domine Faine de
+						domo sua burgi <placeName ref="#Sarzana">Sarzane</placeName></persName>;
+					item <measure type="Imperiales" quantity="12">XII imperialium</measure>, quos
+					annuatim sibi reddit <persName ref="#BonaventuraTreguana">Bonaventura de la
+						Treguana <placeName ref="#Carcandola_rivus">de
+						Carcandula</placeName></persName> de una petia terre, que est I iugerum,
+					posita iuxta flumen seu rivum <placeName ref="#Carcandola_rivus"
+						>Carcandule</placeName>, prope burgum <placeName ref="#Carcandola"
+						>Carcandule</placeName>. Item isti erant comunes ipsius <persName
+						ref="#IacopinusCarraria">Iacopini</persName> et <persName
+						ref="#GuilielmusVallechia">Guilielmi de <placeName ref="#Vallecchia2"
+							>Vallechia</placeName></persName>: <persName ref="#BaldiçonusMandriani"
+						>Baldiçonus filius Mandriani de <placeName ref="#Sarzanello">castro
+							Sarzane</placeName></persName>, omni anno, <measure type="Imperiales"
+						quantity="6">VI imperialium</measure>; filii <persName
+						ref="#BonacaptuscastSarz">Bonacati</persName>, <measure type="Imperiales"
+						quantity="18">XVIII imperialium</measure>; filii <persName ref="#Nobilinus"
+						>Nobilini</persName>, <measure type="Imperiales" quantity="4">IIII denarios
+						et dimidium</measure>; filius <persName ref="#DuransFornolo">Durantis de
+							<placeName ref="#Fornolo">Fornolo</placeName></persName>, <measure
+						type="Imperiales" quantity="3">III imperialium et dimidium</measure>, omni
+					anno. Et has pensiones solvunt suprascripti de <placeName ref="#Sarzanello"
+						>castro Sarzane</placeName> de terris quas possident et habent ab ipso
+						<persName ref="#IacopinusCarraria">Iacopino</persName> et <persName
+						ref="#GuilielmusVallechia">Guilielmo in <placeName ref="#Fornolo"
+							>Furnulo</placeName></persName>, a pede <placeName ref="#Sarzanello"
+						>castri Sarzane</placeName> et iuxta ipsum castrum; item <persName
+						ref="#RamengusCasapoci">Ramengus de <placeName ref="#Casapoci"
+							>Casaposo</placeName></persName>, <measure type="Imperiales"
+						quantity="2">II imperialium</measure> annuatim et <measure type="Imperiales"
+						quantity="1">I</measure> amiscere de duobus <note xml:id="CCCXLII_n_009"
+						n="i" place="foot">
+						<term xml:lang="latin">duobus</term>: <emph>corretto su precedente
+							scrittura</emph></note> annis et I secam, et <persName
+						ref="#DuransFornolo">Durantis</persName> I amiscere ex II annis. </p>
+			</div>
+			<div xml:id="CCCXLII_div2" type="mundum">
+				<p xml:id="CCCXLII_p_002" n="2"><ptr target="#CCCXLII_st_001"/> Ego <persName
+						ref="#Henricusnot">Henricus de <placeName ref="#Sarzanello">castro
+							Sarzane</placeName></persName>, <roleName>sacri palacii
+						notarius</roleName>, hanc cartam a <persName ref="#Bonencontrusnot"
+						>Bonencontro de <placeName ref="#Soliera">Soleria</placeName></persName>
+					<roleName>notario</roleName> abreviatam sive rogatam, prout in eius sceda et in
+					eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et
+					autenticavi et in publicam formam redegi, auctoritate et decreto super hiis mihi
+					prestita et concesso a domino <persName ref="#Bonaiunctaiud">Bonaiuncta de
+							<placeName ref="#PodioLucca">Podio de Luca</placeName></persName>,
+					<roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre
+					domino Lunensi episcopo et <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName> de qua auctoritate et decreto constat
+					per instrumentum publicum factum manu <persName ref="#Alcheriusnot">Alcherii
+							<roleName>notarii</roleName> de <placeName ref="#Lucca"
+						>Luca</placeName></persName><note>Stesura <emph>in mundum</emph> del
+						documento n. 304-CCCXLII databile tra il 1270 e il 1272 dalla presenza di
+						Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+							notAfter="1272-12-31" cert="medium"/></note>.. </p>
+			</div>
+		</body>
+	</text>
+</TEI>

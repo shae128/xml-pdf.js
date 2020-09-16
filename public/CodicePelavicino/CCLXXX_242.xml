@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXXX_242">
+    <front xml:id="CCLXXX_front">
+
+      <titlePart type="numerazioneNuova">242</titlePart>
+      <titlePart type="numerazioneOrig">CCLXXX</titlePart>
+
+      <docDate xml:id="CCLXXX_docDate">
+        <date when="1253-12-02">1253 dicembre 2</date>, <placeName>Castelnuovo Magra (<term
+            xml:lang="latin">in Castro Novo, in ecclesia</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXXX_regesto">
+        <p>Il prete Iacopo, rettore della chiesa di San Terenzo, vende a Guglielmo, vescovo di Luni,
+          alcuni uomini con i diritti e i fitti ad essi collegati. Si tratta di Cosa e Fosco figli
+          del fu Cancio, Gilio del fu Riciolo, Lanfranchino e Fosco del fu Guido Sagina. Il prezzo è
+          di 36 lire di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXXX_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 274v.-275r., cc. CCLXVIv.-CCLXVIIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 280,
+            pp. 256-257.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Parti del documento sono state lette con l’ausilio della lampada di Wood. </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCLXXX.
+              Emptionis istorum hominum cum homagio et ficto: Cose et Fusci, fratrum, quondam
+              Camcii, cum stariis III frumenti; Guilielmi condam Ricoli, cum ficto stariorum IIII
+              frumenti; Lanfranchini et Fuschi condam Guidonis Saçine, cum fictu stariorum III
+              frumenti.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXXX_div">
+        <p xml:id="CCLXXX_p_01" n="1">In Dei nomine, amen.<date when="1253-12-02">Anno a nativitate
+            Eius millesimo CCLIII°, indictione XI, II intrantis decembris</date>. Pro precio
+            <measure type="Imperiales" quantity="36" unit="lire">librarum XXXVI
+            imperialium</measure>, quos <persName ref="#Iacopuspre"><roleName>presbyter</roleName>
+            Iacobus, <roleName>rector</roleName>
+            <orgName ref="#Bardina_S_Terenzo">ecclesie <placeName ref="#SanTerenzo">sancti
+                Terentii</placeName></orgName></persName>, se recepisse a domino <persName
+            ref="#GuilEpLuni">Guilielmo, Dei gratia <roleName>Lunensi
+          episcopo</roleName></persName>, confessus fuit, et recepit coram me notario et testibus
+          infrascriptis, vendidit, dedit et tradidit nomine sue ecclesie ipsi domino episcopo,
+          recipienti nomine sui episcopatus, infrascriptos homines, cum homagio, ficto, podere et
+          possessionibus eorum, videlicet <persName ref="#CosaCançii">Cosam</persName> et <persName
+            ref="#FuscusCancii">Fuscum, fratres, filios quondam Cancii</persName>, cum ficto
+          stariorum IIII frumenti, <persName ref="#GiliusRicioli">Gilium quondam Ricioli</persName>
+          cum ficto <supplied reason="omitted">stariorum</supplied> IIIIor frumentia, <persName
+            ref="#LanfranchinusGuidonis">Lanfranchinum</persName> et <persName
+            ref="#FuscusGuidonisSagine">Fuscum, fratres, filios quondam Guidonis Sagine</persName>,
+          cum ficto stariorum trium frumenti; et cessit ei, recipienti nomine sui episcopatus, omnia
+          iura et actiones utiles et directas, reales, personales et mixtas, sibi pro dicta ecclesia
+          competencia et competentes in predictis hominibus, ficto et possessionibus eorum. Et
+          constituit se pro eo et eius nomine predicta possidere et quasi et fecit eum procuratorem
+          et dominum in rem suam, promittendo idem rector, nomine sue ecclesie, ipsi domino
+          episcopo, recipienti nomine sui episcopatus, predictos homines cum ficto et possessionibus
+          eorum deffendere et expedire ab omni contradicente et impediente persona et loco et ipsam
+          deffensionem suis expensis et dampna reficere et expensas et interesse etiam singulare et
+          conservare ipsum dominum episcopum de predictis indempnem. Et hanc vendictionem et omnia
+          que in hac carta leguntur promisit ipsi domino episcopo, recipienti nomine sui
+          episcopatus, rata habere et non contravenire, obligando se idem rector, nomine sue
+          predicte ecclesie, et bona ipsius <orgName ref="#Bardina_S_Terenzo">ecclesie <placeName
+              ref="#SanTerenzo">sancti Terencii</placeName></orgName> pro predictis omnibus et
+          singulis observandis, ut dictum est, ipsi domino episcopo, recipienti nomine sui
+          episcopatus, ad penam dupli suprascripte pecunie et eius tocius quod in questionem
+          veniret, renunciando omni iuri et consuetudini et legum auxilio quo posset contra predicta
+          venire vel tueri se a predictis seu ab aliquo predictorum, et nominatim a predicta pena
+          quam ipso domino episcopo, recipienti nomine sui episcopatus, solvere nomine predicte sue
+          ecclesie promisit, si contra predicta venerit seu factum fuerit, et, ea soluta, predicta
+          semper nichillominus in suo robore perseverent. Ibidem predicti <persName
+            ref="#CosaCançii">Cosa</persName> et <persName ref="#FuscusCancii">Fuscus</persName>,
+          fratres, <persName ref="#GiliusRicioli">Gilius</persName> et <persName
+            ref="#LanfranchinusGuidonis">Lanfranchinus</persName> et <persName
+            ref="#FuscusGuidonisSagine">Fuscus</persName> confessi fuerunt quod fuerant homines
+          predicti rectoris pro suprascripta <orgName ref="#Bardina_S_Terenzo">ecclesia sancti
+            Terencii</orgName> et per homagium dictum fictum ipsi rectori reddebant, ut superius
+          distinctum est, et sic esse volunt et se esse confitentur homines predicti domini episcopi
+          et Lunensis curie et dictum fictum annuatim reddere, sicut est superius declaratum, et
+          taliter ipsi domino episcopo sunt confessi et promiserunt, sub obligatione bonorum suorum.
+          Et quod sic predicti fuerint affictati constat per instrumentum publicum factum manu
+          quondam <persName ref="#Ugolinusnot">Ugolini <roleName>notarii</roleName></persName>,
+          prout ipsi confitebantur.</p>
+        <p xml:id="CCLXXX_p_02" n="2">Actum in <placeName ref="#Castelnuovo">Castro
+          Novo</placeName>, in ecclesia, testibus <persName ref="#ParensPasqualini">Parente quondam
+            Pasqualini</persName>, <persName ref="#ButafavaSaladini">Butafava nepote domini
+            Saladini</persName>, <persName ref="#Melanesesen">Malanese <roleName>domini episcopi
+              suprascripti senescalco</roleName></persName>, et aliis multis presentibus et rogatis.
+            <pb n="275r" xml:id="fol_275r"/></p>
+        <p xml:id="CCLXXX_p_03" n="3"><ptr target="#CCLXXX_st_001"/> Ego <persName
+            ref="#Bonalbergusnot">Bonalbergus, <roleName>domini Frederici invictissimi Romanorum
+              imperatoris notarius</roleName></persName>, hiis interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

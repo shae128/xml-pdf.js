@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXVIIII_431">
+    <front xml:id="CCCCLXVIIII_front">
+
+      <titlePart type="numerazioneNuova">431</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXVIIII</titlePart>
+
+      <docDate xml:id="CCCCLXVIIII_docDate">
+        <date when="1240-06-26">1240 giugno 26</date>, <placeName>Santo Stefano Magra (<term
+            xml:lang="latin">ante ecclesiam Sancti Stephani</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXVIIII_regesto">
+        <p>Il vescovo di Luni Guglielmo loca a Conforto del fu Bernardo di Tivegna il podere che fu
+          di Tancredo di Agnetula. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 360r., c. CCCLIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 469,
+            pp. 476-477, con data errata, nel regesto, 1230. </p>
+        </div>
+        <div type="crit_notes">
+          <note> </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXVIIII. Locationis facte Conforto suprascripto de quodam podere ad pensionem
+              denariorum XII.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCLXVIIII_div">
+        <pb n="360r" xml:id="fol_360r"/>
+        <p xml:id="CCCCLXVIIII_p_001" n="1"> In nomine Domini, amen. <date when="1240-07-06">Anno
+            nativitatis dominice M°CCXL, indictione XIII, die martis, VI kalendas iulii</date>. In
+          presentia infrascriptorum testium venerabilis pater dominus <persName ref="#GuilEpLuni"
+            >Guilielmus, <roleName>divina paciencia Lunensis episcopus</roleName>, </persName> suo
+          et episcopatus Lunensis nomine, dedit et locavit nomine locationis perpetue <persName
+            ref="#ConfortusBernardi">Conforto quondam Bernardi de <placeName ref="#Tivegna"
+              >Tivenia</placeName>, </persName> recipienti suo nomine et nomine filiorum suorum,
+          ibidem presentium, videlicet <persName ref="#BenvenutusConfortiTiv">Benvenuti</persName>,
+            <persName ref="#ParentinusConfortiTiv">Parentini</persName> et <persName
+            ref="#AlbertinusConfortiTiv">Albertini</persName> et <persName ref="#BenedictusConforti"
+            >Benedicti</persName>, absentis ad presens, in perpetuum, in eis eorumque heredibus,
+          masculis et feminis, legitimis ab eis descendentibus, nominatim totum podere et tenutam
+          quod et quam <note place="foot" n="a" xml:id="CCCCLXVIIII_n_001">quam: <emph>così nel
+              testo per </emph>que</note> olim fuit <persName ref="#TancredusAgnetula">Tancredi de
+              <placeName ref="#Agnetula">Agnetula</placeName>, </persName> et quod et quam ipse
+            <persName ref="#TancredusAgnetula">Tancredus</persName> olim tenuit et possedit in
+            <placeName ref="#Agnetula">Agnetula</placeName> et in districtu <placeName ref="#Bolano"
+            >Bolani</placeName> et <placeName ref="#Montebello">Montisbelli</placeName> et in
+          territorio et pertinenciis, quantum et quale sit illud podere et tenuta ubicumque sit et
+          decurrat et inveniri possit, in domibus, terris, vineis, arboribus, agris, cultis,
+          gherbidis vel pascuis, salvaticis et prat<supplied reason="omitted">i</supplied>vis, in
+          plano et monte et valle, diviso et indiviso, ubicumque de bonis olim dicti <persName
+            ref="#TancredusAgnetula">Tancredi</persName> tam de mobilibus quam de immobilibus,
+          posset aliquid aliquatenus reperiri; et dedit ei, ut supra recipienti, illud podere et
+          tenutam simul cum accessibus, finibus et egressibus, superioribus et inferioribus et omni
+          iure, et mandavit eidem <persName ref="#ConfortusBernardi">Conforto</persName>, ut supra
+          recipienti, ut intret inde corporaliter in tenutam sua auctoritate, ita ut amodo et
+          deinceps ipse <persName ref="#ConfortusBernardi">Confortus</persName> et dictis suis
+          filiis, presentibus et absentibus, et eorum descendentibus <note place="foot" n="b"
+            xml:id="CCCCLXVIIII_n_002">et dictis suis filiis, presentibus et absentibus, et eorum
+            descendentibus: <emph>così nel testo per </emph>et dicti sui filii, presentes et
+            absentes, et eorum descendentes</note> predictum podere et tenutam habeant, teneant et
+          possideant et fruantur et quicquid ex eo voluerint faciant iure consimilis locationis,
+          sine omni contradictione dicti domini episcopi et sui successorum. Et interea constituit
+          se illud eorum nomine possidere ea contemplatione et cessit eis iura et actiones ad
+          agendum et deffendendum et promisit eidem <persName ref="#ConfortusBernardi"
+            >Conforto</persName>, ut supra recipienti, obligando se suosque successores, predictum
+          podere et tenutam ab omni homine cum ratione deffendere et disbrigare suis advocato,
+          pignoribus et expensis, in iudicio et extra, remissa necessitate denunciandi; quod, si
+          facere noluerit atque nequiverit, ei salvum cambium dare sicut res pro tempore fuerit
+          meliorata aut magis valuerit, sub extimatione, in consimili loco. Pro hac locatione et
+          servicio huius locationis fuit confessus dictus dominus episcopus se recepisse a dicto
+            <persName ref="#ConfortusBernardi">Conforto</persName>
+          <measure type="Imperiales" quantity="40" unit="solidus">soldos XL imperialium</measure>,
+          renunciando exceptioni non habiti servicii et recepti et omni alii exceptioni,
+            qua<supplied reason="omitted">m</supplied> contra posset opponere. Unde dictus <persName
+            ref="#ConfortusBernardi">Confortus</persName>, pro se et filiis suprascriptis et ipsis
+            <note place="foot" n="c" xml:id="CCCCLXVIIII_n_003">ipsis: s <emph>finale in
+              sopralinea</emph></note> ibidem presentibus, quilibet obligando se suosque heredes et
+          sua bona, promiserunt et convenerunt eidem domino episcopo predictum podere et tenutam
+          laborare, procurare, meliorare et non deteriorare et dare et reddere eidem domino <note
+            place="foot" n="d" xml:id="CCCCLXVIIII_n_004">eidem domino: <emph>corretto su precedente
+              scrittura</emph></note> episcopo <note place="foot" n="e" xml:id="CCCCLXVIIII_n_005"
+            >episcopo: <emph>aggiunto in sopralinea con segno di richiamo e ripetuto a
+              margine</emph></note> et suis successoribus aut certo suo misso sive cui commiserit
+          annuatim, in perpetuum, infra octavam nativitatis Domini, pensionis nomine, <measure
+            type="Imperiales" quantity="12" unit="solidus">XII <supplied reason="omitted"
+              >soldorum</supplied> imperialium </measure> et omnes redditus, condictiones et usus
+          qui de ipso podere et tenuta olim reddi solebant; alia super imposita eis non fiat. Et
+          promiserunt sibi ad invicem, si ab isto contractu discedere temptaverint aut tollere vel
+          laxare voluerint vel hec omnia ut supra non observaverint, dare penam <measure
+            type="Imperiales" quantity="100" unit="solidus">C soldorum imperialium</measure>; qua
+          soluta, rato manente pacto. Unde obligaverunt sibi ad invicem pignori omnia eorum bona et
+          eorum heredum vel successorum. </p>
+        <p xml:id="CCCCLXVIIII_p_002" n="2"> Actum, cum stipulatione, ante <orgName
+            ref="#S_Stefano_Magra">ecclesiam </orgName>
+          <placeName ref="#Santo_Stefano">Sancti Stephani</placeName>, presentibus <persName
+            ref="#GerardusclerSS">
+            <roleName>presbytero</roleName> Gerardo <roleName>clerico eiusdem ecclesie</roleName>
+          </persName> et <persName ref="#Valerianuspres">
+            <roleName>presbytero</roleName> Valeriano <note place="foot" n="f"
+              xml:id="CCCCLXVIIII_n_006">Valeriano: nel testo<emph>Valleriano</emph> con la seconda
+                <emph>l</emph> espunta</note> de <orgName ref="#Bibola_S_Bartolomeo">
+              <placeName ref="#Bibola">Bibola</placeName>
+            </orgName>
+          </persName> et <persName ref="#SalomonLucanus">Salomone de <placeName ref="#Lucca"
+              >Luca</placeName>
+          </persName> et <persName ref="#MontezellusÇegnuli">Montezello quondam Çegnuli</persName>
+          et <persName ref="#RollandetusBonardi">Rollandeto quondam Bonardi de <placeName
+              ref="#Montebello">Montebello</placeName></persName>, testibus rogatis. </p>
+        <p xml:id="CCCCLXVIIII_p_003" n="3">
+          <ptr target="#CCCCLXVIIII_st_001"/> Ego <persName ref="#IacopinusMartininot">Iacobinus,
+            filius Martini Rose, <roleName>imperatoris aule notarius</roleName>, </persName> hiis
+          interfui et hanc cartam rogatus scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXXVII_388">
+    <front xml:id="CCCCXXVII_front">
+
+      <titlePart type="numerazioneNuova">388</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXXVII</titlePart>
+
+      <docDate xml:id="CCCCXXVII_docDate">
+        <date when="1266-07-15">1266 luglio 15</date>, <placeName>Ponzanello (<term xml:lang="latin"
+            >Ponzanelli, in ecclesia Sancti Martini</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXXVII_regesto">
+        <p>Magiolo e Ferro, rispettivamente capitano e sindaco degli uomini di Albiano, a nome della
+          comunità, chiedono al vescovo di Luni Guglielmo, dato che è troppo laborioso adattare
+            (<emph>retificare</emph>) ed abitare il castello di Belvedere, di potersi trasferire in
+          un luogo più comodo da abitare e fortificare, dove poter risiedere come castellani e
+          vassalli del vescovo, alle condizioni degli altri castellani del comitato lunense. Il
+          vescovo concede che si possano stabilire nel luogo detto Groppo, che si trova sopra la
+          chiesa di S. Martino di Albiano e assegna anche il terreno per costruire il castello su un
+          altro monticello lì vicino, detto Castiglione. Il nuovo castello dovrà avere il nome di
+          Albiano. Quanto stabilito negli statuti del 1231, al tempo della costruzione del castello
+          di Belvedere, rimane valido, anche per le modifiche successive, eccetto che per quel che
+          riguarda il castello stesso. Il vescovo è tentuto ad assegnare un adeguato distretto
+            (<emph>iura</emph>) al nuovo castello in modo che gli abitanti ne siano protetti.
+          Costoro non saranno sottoposti ai podestà di Bolano, ma ogni anno eleggano, ai primi di
+          gennaio, consoli o rettori col consenso del vescovo o del suo castaldo e dei consoli o
+          rettori precedenti. Tutti gli uomini di Albiano dai 16 ai 70 anni sono tenuti a giurare
+          quanto stabilito ora e gli statuti precedenti, così anche i consoli o rettori. Si danno
+          quindi norme per l’elezione dei saltari; la gestione della saltaria e del banno; la tassa
+          sul legname che si trasporta lungo il Magra e sulla raccolta di quello che approda
+          naturalmente nel distretto di Albiano, tra Stadano e Santo Stefano di Magra; le tasse
+          sulle merci in transito, la struttura da costruire per la pesca
+          (<emph>mecchia</emph>).</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 336v.-337r., cc. CCCXXVIIIv.-CCCXXVIIIIr.. secondo la numerazione
+            originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref> n. 427,
+            pp. 417-420; edizione integrale in <ref target="#CONTI_1979-1988">CONTI 1979-1988</ref>,
+            I, XXVI, pp.121-126. Bibliografia: <ref target="#PIEROTTI_1972">PIEROTTI 1972</ref>, pp.
+            68-71,</p>
+        </div>
+
+        <div type="crit_notes">
+          <note> Una parte del documento è stata letta con l’ausilio della luce di Wood.</note>
+        </div>
+
+        <div type="crit_notes">
+          <note> L’interpretazione di iura (maschile, prima declinazione) come disctictum o area di
+            pertinenza del castrum viene dal confronto con altri documenti del codice come ad
+            esempio il 374 (CCCCXIII).</note>
+        </div>
+
+        <div type="crit_notes">
+          <note> Nel margine esterno, di mano moderna: <emph>Albiano</emph></note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCCXXVII. De Albiano et fundationis eius.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXXVII_div">
+        <pb n="336v" xml:id="fol_336v"/>
+        <p xml:id="CCCCXXVII_p_001" n="1">In nomine Domini, amen. <date when="1266-07-15">Anno a
+            nativitate Domini M°CCLXVI, indictione IX, XV iulii</date>. <persName ref="#Maçoluscon"
+            >Magiolus, <roleName>capitaneus hominum</roleName> de <placeName ref="#Albiano"
+              >Albiano</placeName></persName>, et <persName ref="#FerrusCordula">Ferrus,
+              <roleName>syndicus hominum dicte ville</roleName> de <placeName ref="#Albiano"
+              >Albiano</placeName></persName>, sicut dicebat publice contineri descriptum manu
+            <persName ref="#IacobinusSStephanonot">Iacobini de <placeName ref="#Santo_Stefano"
+              >Sancto Stephano</placeName></persName>
+          <roleName>notarii et rogatarii</roleName>, venientes ad presentiam
+            <roleName>domini</roleName>
+          <persName ref="#GuilEpLuni">Guilielmi</persName>, <roleName>Dei gratia Lunensis
+            episcopi</roleName>, de cuius iurisdictione et dominatu se et dictos homines de villa
+            <placeName ref="#Albiano">Albiani</placeName> esse fatentur, sicut ceteri homines
+            <orgName ref="#Luni_comitatus">comitatus Lunensis</orgName>, petierunt humiliter quod,
+          cum laboriosum sit nimium retificare<note n="a" place="foot" xml:id="CCCCXXVII_n_001"
+              ><term xml:lang="latin">retificare</term>: <emph>così nel testo forse per
+              rehedificare</emph>.</note> et habitare castrum, quod dicebatur <placeName
+            ref="#Belvedere">Belvedere</placeName>, propter difficultatem loci, et non possent ibi
+          commode vivere vel perseverare, quod dare dignetur<note n="b" place="foot"
+            xml:id="CCCCXXVII_n_002"><term xml:lang="latin"> dignetur</term>: <emph>d corretto su
+              precedente lettera.</emph>.</note> eis auctoritatem et licenciam congregandi se in
+          unum locum alium<note n="c" place="foot" xml:id="CCCCXXVII_n_003"><term xml:lang="latin"
+              >alium</term>: <emph>al corretto su precedente scrittura.</emph>.</note> magis
+          commodum et muniendi se ibidem cum muris et fossatis et aliis municionibus<note n="d"
+            place="foot" xml:id="CCCCXXVII_n_004"><term xml:lang="latin">municionibus</term>:
+              <emph>la m iniziale sembra corretta su altra lettera.</emph>.</note> competentibus, et
+          ut habitent<note n="e" place="foot" xml:id="CCCCXXVII_n_005"><term xml:lang="latin"
+              >habitent</term>: <emph>h iniziale corretta su u.</emph>.</note> et stent<note n="f"
+            place="foot" xml:id="CCCCXXVII_n_006"><term xml:lang="latin">stent</term>: <emph>nel
+              testo segue una parola abrasa.</emph>.</note>
+          <supplied reason="illegible">recte</supplied>, ipsi et heredes eorum, in perpetuum sicut
+          castellani et vassalli et fideles Lunensis Ecclesie et in[<supplied reason="illegible"
+            >ter</supplied>ea<note n="g" place="foot" xml:id="CCCCXXVII_n_007"><term
+              xml:lang="latin">interea</term>: <emph>la pergamena è lacera.</emph>.</note>
+            libere<note n="h" place="foot" xml:id="CCCCXXVII_n_008"><term xml:lang="latin"
+              >libere</term>: <emph>lettura incerta e comunque la parola è corretta su precedente
+              scrittura.</emph>.</note> et secure<note n="i" place="foot" xml:id="CCCCXXVII_n_009"
+              ><term xml:lang="latin">secure</term>: <emph>proposta di lettura, la pergamena è
+              abrasa.</emph>.</note>. Idem dominus episcopus ipsos tenere debent<note n="l"
+            place="foot" xml:id="CCCCXXVII_n_010"><term xml:lang="latin">debent</term>: <emph>così
+              nel testo per debet</emph>.</note>. in qua <supplied reason="omitted"
+            >conditione</supplied> tenet vel tenere debet alia castra et alios castellanos <orgName
+            ref="#Luni_comitatus">comitatus</orgName> Lunensis, et ipsi<note n="m" place="foot"
+            xml:id="CCCCXXVII_n_011"><term xml:lang="latin">ipsi</term>: <emph>corretto su
+              precedente scrittura.</emph>.</note> universi et singuli et eorum heredes in perpetuum
+          teneantur servire et obedire domino episcopo et successoribus eius<note n="n" place="foot"
+            xml:id="CCCCXXVII_n_012"><term xml:lang="latin">eius</term>: <emph>corretto su
+              precedente scrittura.</emph>.</note> in omnibus et singulis, sicut tenentur alii<note
+            n="o" place="foot" xml:id="CCCCXXVII_n_013"><term xml:lang="latin">alii</term>:
+              <emph>corretto su precedente scrittura.</emph>.</note> homines et vassalli et
+          castellani <orgName ref="#Luni_comitatus">comitatus Lunensis</orgName>. Unde idem dominus
+          episcopus, eorum precibus humilibus inclinatus, attendens utilitatem ipsorum et Lunensis
+          ecclesie, dedit eis licenciam postulatam secundum predictum modum. Locus autem ubi se
+          ponere debeant hic est <placeName ref="#GropoAlb">Gropus</placeName>, qui est supra
+          ecclesiam <orgName ref="#Albiano_S_Martino">Sancti Martini de <placeName ref="#Albiano"
+              >Albiano</placeName></orgName>, ubi habitabunt et casamenta ibi tenebunt ab ipso
+          domino episcopo et successoribus eius, sicut veri castellani et fideles Lunensis ecclesie
+          et in feudum, et de ipsis casamentis et alio territorio necessario pro ipso castro
+          perficiendo idem dominus episcopus teneatur dare salvum cambium eis, quorum est ad
+            <supplied reason="illegible">extimationem</supplied><note n="p" place="foot"
+            xml:id="CCCCXXVII_n_014"><term xml:lang="latin">extimationem</term>: <emph>La pergamena
+              è abrasa.</emph>.</note> bonorum virorum; hoc idem sit de alio monticulo, qui est ibi
+          prope et dicitur <placeName ref="#CastiglioneAlb">Castilione</placeName>. Castrum autem
+          vocetur <placeName ref="#Albiano">Albianum</placeName>. Et hoc actum est inter partes,
+          quod statutum <supplied reason="omitted">et</supplied> banna nullum fiat vel fiant inter
+          predictos homines vel in dicto loco, nisi auctoritate et expresso consensu domini episcopi
+          et consulum predicti loci voluntate. Et statutum quod factum fuit tempore quo positum fuit
+          castrum <placeName ref="#Belvedere">Belvedere</placeName> in <date when="1231-11-05">anno
+            nativitatis Domini M°CCXXXI, indictione IIII, die mercurii, V intrante novembre</date>,
+          robur habeat firmitatis; et de additis ipsi statuto teneantur homines ipsius loci et de
+          diminuto absolvantur, si addita et diminuta fuerint secundum predictum modum; et de
+          omnibus que continentur in statuto <supplied reason="omitted">et</supplied> respiciunt
+          positionem castri de <placeName ref="#Belvedere">Belvedere</placeName> vel ipsum castrum
+          de <placeName ref="#Belvedere">Belvedere</placeName>, absoluta sit pars utraque, silicet
+          dictus dominus episcopus et universitas hominum de <placeName ref="#Albiano"
+            >Albiano</placeName> et eorum successores et heredes in perpetuum; et dominus episcopus
+          teneatur assignare competentem iuram illi castro in quo se adunaverint modo et conservare
+          et facere hominibus habitantibus in ipso castro, infra castrum et iuram, ea que tenetur
+          facere aliis fidelibus et castellanis <orgName ref="#Luni_comitatus">comitatus
+            Lunensis</orgName>; et quod non subiciet eos potestatibus que fuerint pro tempore in
+            <placeName ref="#Bolano">Bolano</placeName> absque eorum voluntate, set singulis annis,
+          in kalendis ianuarii vel antea per VIII dies, eligantur ibi consules sive rector<supplied
+            reason="omitted">es</supplied>, quocumque nomine censeantur, de voluntate et expresso
+          consensu tantum domini episcopi vel eius castaldionis et consulum seu rectorum preteriti
+          anni vel aliorum qui electi fuerint de voluntate eorum ad eligendum rectores ibidem. Et
+          omnes iurent, a sexdecim usque<note n="q" place="foot" xml:id="CCCCXXVII_n_015"><term
+              xml:lang="latin">usque</term>: <emph>Nel testo segue, non depennato:
+            iusque</emph>.</note> in LXX annos, huic statuto et alteri quod factum est supra, a
+          longis retro temporibus, et hoc idem iurent consules seu rectores qui electi fuerint.
+          Saltarii eligantur annis singulis de voluntate et consensu castaldionis et rectoris dicti
+          loci et quarta pars saltarie sit curie Lunensis et tres partes sint saltariorum et
+          communis in feudum, et medietas bannorum omnium dicte terre, tam eorum que continentur in
+          statuto quam aliorum, sint curie Lunensis et aliam medietatem concessit dictus dominus
+          episcopus eidem communi in feudum, preterquam de homicidiis, proditoribus et incendiariis,
+          publicis latronibus, paltoneriis et tricatoribus, qui vel <supplied reason="illegible"
+            >que iure</supplied><note n="r" place="foot" xml:id="CCCCXXVII_n_016"><term
+              xml:lang="latin">que iure</term>: <emph>la pergamena è abrasa.</emph>.</note> ad
+          Lunensem curiam pertinent. Concessit eis preterea in feudum, sicut a longis temporibus eis
+          concessum fuerit, accipere ripam lignaminis, quod trahitur per flumen <placeName
+            ref="#Magra">Macre</placeName>, ita tamen quod medietas sit libere curie Lunensis et
+          alia medietas communis et ripatorum, et in feudum teneant <pb n="337r" xml:id="fol_337r"/>
+          a curia Lunensi, et ripatores eligantur communiter per castaldionem et rectores dicti
+          <orgName ref="#Albiano_comune">communis</orgName>. Lignamina vero, que per aluvionem <placeName ref="#Magra">Macra</placeName>
+          perducit et dimittit in districtu de <placeName ref="#Albiano">Albiano</placeName> vel
+          capiuntur in ipso flumine per homines de <placeName ref="#Albiano">Albiano</placeName> a
+          confinibus de <placeName ref="#Stadano">Stadano</placeName> usque ad confines burgi
+            <placeName ref="#Santo_Stefano">Sancti Stephani</placeName> vel usque ad confines de
+            <placeName ref="#Bolano">Bolano</placeName> et trahuntur in territorium de <placeName
+            ref="#Albiano">Albiano</placeName> etiam per quoscumque alios, et sunt dolata seu apta
+          ad laborerium aut armamenta navis, fuerunt et sunt domini episcopi et curie Lunensis;
+          verumptamen dictus dominus episcopus concessit ipsi communi et hiis qui extrahant ipsa
+          lignamina de flumine medietatem in feudum. Preterea curatura rerum venalium, que transeunt
+          per districtum <placeName ref="#Albiano">Albiani</placeName>, fuit et est episcopi
+          Lunensis; verumptamen, quia fideles exstiterint<note n="s" place="foot"
+            xml:id="CCCCXXVII_n_017"><term xml:lang="latin">exstiterint</term>: <emph>s aggiunta in
+              sopralinea.</emph>.</note> Lunensi curie, idem dominus episcopus concessit ipsi
+          communi et curatori medietatem ipsius curature et alia medietas sit libere domini episcopi
+          et Lunensis curie; et quod ipsa curatura non accipiatur nisi ab hiis quibus accipi
+          consuevit, et curatorem eligat dominus episcopus vel castaldio tantum. Et concessit eis in
+          feudum quod liceat eis facere mecchiam a rivo de <placeName ref="#Cordula"
+            >Cordula</placeName> supra usque ad pedem <placeName ref="#Stadano">Stadani</placeName>,
+          et medietas piscium sit curie et alia medietas dicti communis; et ipsam mecchiam facere
+          possint auctoritate propria, absque mandato alio domini episcopi, et teneantur etiam
+          facere ad mandatum domini episcopi vel eius castaldionis. Hoc etiam actum est inter eos,
+          quod dicti homines, neque universaliter neque particulariter, dum habitaverint in castro
+          vel in toto districtu de <placeName ref="#Albiano">Albiano</placeName>, nullius
+          iurisdictioni se subhiciant nec associent se alicui communi in iurisdictione vel ad ea que
+          ad iurisdictionem pertineant absque expresso et speciali mandato dicti domini episcopi vel
+          successorum eius et curie Lunensis. Et si qua<note n="t" place="foot"
+            xml:id="CCCCXXVII_n_018"><term xml:lang="latin">qua</term>: <emph>così nel
+            testo.</emph>.</note> alia pacta sunt vel apparerent, que fuerint contraria predictis,
+          sint cassa. Hec omnia acta sunt concessa, firmata et promissa inter dominum episcopum, suo
+          et successorum eius et curie Lunensis nomine, ex una parte, et <persName
+            ref="#FerrusCordula">Ferrum, syndicum et procuratorem</persName>, et <persName
+            ref="#Maçoluscon">Magiolum, capitaneum communis et hominum predictorum</persName> de
+            <placeName ref="#Albiano">Albiano</placeName>, pro se et hominibus et universitate dicti
+          loci, ex altera, perpetuo valitura, promittentes sibi ad invicem omnia suprascripta et
+          singula observare, facere et contra non venire, aliquo modo vel ingenio, ad penam <measure
+            type="argentum" quantity="50" unit="solidus">L marcharum argenti</measure>, stipulatione
+          sollempni interveniente, obligando se idem dominus episcopus et successores eius in
+          perpetuum et episcopales redditus ad hec, et dictus syndicus et <persName
+            ref="#Maçoluscon">Magiolus </persName>obligando se nomine suo et dictam universitatem et
+          singulos dicte universitatis et eorum heredes et bona, ad eandem penam et sub eadem pena,
+          ita videlicet quod, pena suprascripta soluta seu commissa, nichillominus predicta omnia
+          omni tempore firma persistant, et que pena tociens committatur exigi possit quociens
+          contra predicta vel aliquod predictorum factum fuerit. </p>
+        <p xml:id="CCCCXXVII_p_002" n="2">Actum <placeName ref="#Ponzanello">Ponzanelli</placeName>,
+          in <orgName ref="#Ponzanello_S_Martino">ecclesia Sancti Martini</orgName>, coram
+            <roleName>presbytero</roleName>
+          <persName ref="#Iacopinusarc">Iacopino <roleName>archipresbytero</roleName>
+          </persName>de <placeName ref="#Ameglia">Amelia</placeName> et <persName
+            ref="#Gerardinuscler">Gerardino <roleName>clerico</roleName>
+          </persName> et <persName ref="#PeregrinusBonalbergi">Peregrino filio Bonalbergi
+          </persName>et <persName ref="#PaganinusBenedicti">Paganino Benedicti de <placeName
+              ref="#Santo_Stefano">Sancto Stephano</placeName></persName> et <persName
+            ref="#IacominusSol">Iacobino de <placeName ref="#Soliera">Soleria</placeName></persName>
+          et <persName ref="#MelanenseBrixiolini">Melanense Brisiorini</persName> et <persName
+            ref="#CeciusCohi">Cecio Cohi de <placeName ref="#Lucca">Luca</placeName></persName>,
+          testibus ad hec rogatis.</p>
+
+        <p xml:id="CCCCXXVII_p_003" n="3">
+          <ptr target="#CCCCXXVII_st_001"/>Ego <persName ref="#ValardusTraseinot">Valardus
+            Trasei</persName>, <roleName>Romani notarius Imperii</roleName>, suprascriptis omnibus
+          interfui et predicta omnia publice descripsi, meo signo et nomine confirmando.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

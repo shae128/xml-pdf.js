@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="XXI_50">
+        <front xml:id="XXI_front">
+
+            <titlePart type="numerazioneNuova">50</titlePart>
+            <titlePart type="numerazioneOrig">XXI</titlePart>
+
+            <docDate xml:id="XXI_docDate">
+                <date when="1185-07-29">1185 luglio 29</date>, <placeName>San Miniato (<term
+                        xml:lang="latin">in castro Sancti Miniatis</term>)</placeName>
+            </docDate>
+
+            <div type="regesto" xml:id="XXI_regesto">
+                <p>L’imperatore Federico I prende sotto la sua protezione la Chiesa di Luni.</p>
+            </div>
+
+            <div type="footer" xml:id="XXI_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C] cc. 67v.-68v., cc. LVIIIIv-LXv. secondo la numerazione
+                        originale.</p>
+                    <p>Altri esemplari:</p>
+                    <p>[C’] copia di copia autentica nello stesso Codice Pelavicino alle cc.
+                        395r.-395v., cc. CCCLXXXVIIr.-CCCLXXXVIIv. secondo la numerazione originale
+                        (cfr. n. 491-DXXX); </p>
+                    <p> [C’'] copia di C di età moderna in Archivio di Stato di Torino, Vesovadi
+                        Sarzana-Brugnato, fasc. 1; </p>
+                    <p> [C’''] copia di C' di età moderna in Archivio di Stato di Torino, Vesovadi
+                        Sarzana-Brugnato, fasc. 1; </p>
+                    <p>[D] copia autentica in Archivio Comunale di Sarzana, Pergamene, n. 8; </p>
+                    <p>[D’] copia semplice di D in Archivio Comunale di Sarzana, Registrum Vetus,
+                        cc. XIa-XIb;</p>
+                    <p> [D’’] copia semplice di D’ in Archivio Comunale di Sarzana, Registrum Novum,
+                        cc. 121a-122; </p>
+                    <p>[E] inserito nel diploma di Carlo IV del 1355 febbraio 12 in copia autentica
+                        del 1417 aprile 6 nell’Archivio di Stato di Lucca (Tarpea – pergamena –
+                        12-02-1355). </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione di C in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n.
+                        532, pp. 594-596; regesto in <ref target="#SFORZA_1922">SFORZA 1922</ref>,
+                        p. 129, n. 12. </p>
+                    <p>Edizione di C’ in <ref target="#UGHELLI_1644">UGHELLI 1644</ref>, p. 914-916;
+                            <ref target="#UGHELLI_1717">UGHELLI 1717</ref>, pp. 848-850;</p>
+                    <p>Edizione di D in <ref target="#SFORZA_1890-1891">SFORZA 1890-1891</ref>, p.
+                        419***; <ref target="#MGH_DD_FI">MGH DD FI</ref>, n. 911, pp. 171-172;</p>
+                    <p> Edizione di D’ in <ref target="#PISTARINO_1965">PISTARINO 1965</ref>, n. 21.
+                        Edizione di E in <ref target="#ZIMMERMANN_1891">ZIMMERMANN 1891</ref>, n. 6
+                    </p>
+                </div>
+
+                <div type="crit_notes">
+                    <note>Nel margine esterno di c. 67v. un'annotazione di mano moderna, disposta su
+                        sette righe, illeggibile per macchia di umidità. Sono inoltre presenti le
+                        seguenti annotazioni, sempre di mano moderna: <term xml:lang="latin"
+                            >Imperator Fredericus</term> nel margine esterno di c. 67v.; <term
+                            xml:lang="latin">Privilegium confirmationis bonorum episcopatus</term>
+                        nel margine esterno di c. 68r.; <term xml:lang="latin">Carraria,
+                            Massa</term> poco più in basso; <term xml:lang="latin">Amelia</term>
+                        ancora più in basso; in calce a c. 68v., sempre di mano posteriore, le prime
+                        parole del fascicolo successivo: <term xml:lang="latin">In nomine sancte et
+                            individue</term></note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">XXI. Privilegium imperatoris Flederici.</term></p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="XXI_div">
+                <p xml:id="XXI_p_001" n="1">In nomine sancte et individue Trinitatis. <persName
+                        ref="#Fredericus_imperator_I">Fridericus</persName>, <roleName>divina
+                            fovente<note place="foot" n="a" xml:id="XXI_n_001">fovente: <emph>così
+                                nel testo per</emph> favente; favente <emph>in D.</emph></note>
+                        clementia Romanorum imperator augustus</roleName>. Cum maiestatem imperialis
+                    excellentie decet circa sacri principes imperii sane discretionis pariter et
+                    dilectionis habere constantiam ut liquido, consideratis unicuiusque <note
+                        place="foot" n="b" xml:id="XXI_n_002">unicuiusque: uniuscuiusque <emph>in
+                            D</emph>.</note> meritis, non solum prosperitati eorum quietem <note
+                        place="foot" n="c" xml:id="XXI_n_003">quietem: <emph>così nel testo
+                            per</emph> quietam, <emph>cfr. D e doc. 491-DXXX</emph>.</note> pacem
+                    provideat, verum eciam devotione sinceritatis eorum pensata honoribus ipsorum et
+                    augmentis dignitatum libenter intendat, ut quorum fides officiosa sedullitate
+                    multos antecellit, principali favore specialis gratie multos anteire possit. In
+                    quorum numero digne computantes dilectum ac fidelem nostrum <persName
+                        ref="#PetrusEpLuni">Petrum</persName>, <roleName>venerabilem virum, Lunensem
+                        episcopum</roleName>, sobria morum honestate decenter illustratum
+                    scientiaque litterarum pariter et christiane religionis cultu merito venerandum,
+                    iustis favorabilibusque petitionibus suis facilem prebuimus assensum, sperantes
+                    in esamine Iudicis eterni, precibus suis ecclesie sue iuvari. || [c. 68r.]
+                    Eapropter cognoscat, tam pressens etas fidelium imperii quam succesura
+                    posteritas, quod nos, ad imitationem predecessorum nostrorum divorum, regum,
+                    imperatorum, ecclesiam Lunensem et personam predicti venerabilis episcopi et
+                    omnia, tam episcopatus quam ecclesie, bona que nunc habet vel im posterum,
+                    auctore Domino, canonice poterit obtinere, sub protectione defensionis nostre
+                    suscepimus et nominatim civitatem <placeName ref="#Luni">Lunensem</placeName>,
+                    cum fosatis et suburbiis et suburbanis suis, cum ripa et theloneo atque mercato,
+                    banno et pedagio, iusticia atque guidatico a <placeName ref="#Lavello"
+                        >Lavello</placeName> et per totam terram episcopatui eidem et ecclesie
+                    attinentem et plateam, que est inter murum civitatis et mare, et edifficium quod
+                        <term ref="#circulus">circulum</term> vocatur aut arena; comittatum etiam
+                    Lunensem totum in integrum; castra etiam que ad Lunensem ecclesiam <supplied
+                        reason="omitted">et</supplied>
+                    <note place="foot" n="d" xml:id="XXI_n_004">et: <emph>presente in
+                        D</emph>.</note>ad <orgName ref="Luni_comitatus">comitatum</orgName>
+                    pertinent, curtem<note place="foot" n="e" xml:id="XXI_n_005">curtem: turrem
+                            <emph>in D e in 491-DXXX</emph>.</note> videlicet <placeName
+                        ref="#Guidenga_torre">Guidengam</placeName>, que <placeName ref="#Corvaia"
+                        >Corvaria</placeName> dicitur, et quicquid in burgo de <placeName
+                        ref="#Brancaliano">Brancalliano</placeName> ad ius Lunensis ecclesie
+                    pertinet; castrum de <placeName ref="#Stectoria">Strectoria</placeName>, cum
+                    districtu et pertinentiis eius, et quicquid in castro Aginulphi ad supradictam
+                    ecclesiam pertinet; castrum <placeName ref="#Campilia">Campilie</placeName> et
+                    curtem <placeName ref="#Carrara">Carrarie</placeName>, cum alpibus, lapicidiniis
+                    etiam marmorum, cum montibus, nemoribus, terris, pratis, pascuis, aquis
+                    aquarumque decursibus, silvis plenum et vacuum, cum erbatico eiusdem curtis,
+                    piscariis, venationibus; curtem etiam que <placeName ref="#SupraLuna">Supra
+                        Lunam</placeName> dicitur; <placeName ref="#Massa">Massam</placeName>
+                    <note place="foot" n="f" xml:id="XXI_n_006">Massam: <emph>lettura incerta,
+                        </emph>Iliaolum <emph>in D e in 491-DXXX</emph>.</note> cum herbatico de
+                        <placeName ref="#Alione">Allione</placeName><note place="foot" n="g"
+                        xml:id="XXI_n_007">Allione: l <emph>aggiunto in sopralinea</emph>. </note>
+                    et alias villas que ad ipsam curtem pertinent; nemus <placeName ref="#Valmaiore"
+                        >Maioris Vallis</placeName>; castrum de <placeName ref="#Sarzana"
+                        >Sarzane</placeName><note place="foot" n="h" xml:id="XXI_n_008">Sarzane:
+                            <emph>così nel testo anche in D</emph>.</note> cum curte et districtu
+                    suo et villas que ad ipsam curtem pertinent et erbaticum eiusdem curtis; burgum
+                    de <placeName ref="#Sarzana">Sarzana</placeName> et iusticiam eius et mercatum,
+                    bannum et d<supplied reason="omitted">e</supplied>vetum<note place="foot" n="i"
+                        xml:id="XXI_n_009">devetum <emph> in D</emph>.</note>; quartam partem castri
+                    de <placeName ref="#Brina">Brina</placeName> et castrum de <placeName
+                        ref="#Falcinello">Fa<supplied reason="omitted"
+                        >l</supplied>cinello</placeName><note place="foot" n="j" xml:id="XXI_n_010"
+                        >Falcinello <emph>in D.</emph></note> cum pertinentiis suis; castrum de
+                        <placeName ref="#Caprigliola">Caprilliola</placeName>, cum curte et
+                    pertinentiis et piscatione<note place="foot" n="l" xml:id="XXI_n_011">castrum de
+                        Caprilliola, cum curte et pertinentiis et piscatione: <emph>sottolineato da
+                            mano posteriore</emph>.</note>; burgum <placeName ref="#Santo_Stefano"
+                        >Sancti Stephani</placeName> cum mercato, banno, iusticia, districtu,
+                    piscationibus; castrum de <placeName ref="#Bolano">Bolano</placeName> cum burgo,
+                    mercato de <placeName ref="#Ceparana"><supplied reason="illegible"
+                            >Ceppar</supplied>ana</placeName><note place="foot" n="m"
+                        xml:id="XXI_n_012">Cepparana: <emph>cfr. D e doc. 491-DXXX.</emph></note>,
+                    cum omni curte et districtu, erbatico et pertinentiis suis; castrum de
+                        <placeName ref="#Tivegna">Tivenia</placeName> cum omni curte et
+                    pertinentiis; burgum de <placeName ref="#Padulvarmo">Pavularmo</placeName>; ius
+                    etiam quod ipse episcopus vel antecessores sui in homines et loco de <placeName
+                        ref="#Bruniade">Bruniade</placeName> et pertinentiis suis, presertim in
+                    observatione treuge<note place="foot" n="n" xml:id="XXI_n_013">treuge:
+                            <emph>così nel testo anche in D</emph>.</note> et pacis, habuerunt; quem
+                    utique locum, ex tenore privilegiorum predecessorum nostrorum imperatorum et
+                    regum, <persName ref="#Carolus_imperator_3">Karoli</persName> scilicet,
+                        <persName ref="#Otto_imperator">Ottonis</persName>, <persName
+                        ref="#Berengarius_rex">Berengarii</persName>, <persName ref="#Ludovicus_rex"
+                        >Ludewici</persName>, <persName ref="#Conradusimp">Lunradi</persName><note
+                        place="foot" n="o" xml:id="XXI_n_014">Lunradi: <emph>così nel testo per
+                        </emph>Cunradi; Cunradi <emph>in D</emph>.</note>
+                    <roleName>regis</roleName> et <persName ref="#Conradusimp">Cunradi</persName>
+                    <roleName>imperatoris</roleName> et aliorum, aperte <supplied reason="illegible"
+                        >cognovi</supplied>mus<note place="foot" n="p" xml:id="XXI_n_015"
+                        >cognovimus: <emph>cfr. D e doc. 491-DXXX.</emph></note> in Lunensi
+                    commitatu esistere, ei et succesoribus suis imperiali auctoritate confirmamus.
+                    Nichillominus quoque castrum de <placeName ref="#Trebiano">Triblano</placeName>
+                    cum fodro et pertinentiis suis; castrum de <placeName ref="#Ameglia"
+                        >Amelia</placeName> cum curte, districtu, portu, venationibus, piscationibus
+                    et erbatico eiusdem curtis; montem de <placeName ref="#Caprione"
+                        >Caprione</placeName>; locum qui dicitur <placeName ref="#Panticella"
+                        >Particella</placeName> et montem <placeName ref="#Ylice"
+                        >Illicis</placeName> cum portu et piscatione sua, curaturam quoque animalium
+                    que per terram et districtum suum transeunt; castrum de <placeName
+                        ref="#Ponzanello">Po<supplied reason="omitted"/>nzanello</placeName><note
+                        place="foot" n="q" xml:id="XXI_n_016">Punzanello <emph>in D</emph>. </note>
+                    cum curte et districtu et venatione sua; castrum <placeName ref="#Soliera"
+                        >Solerie</placeName> cum curte et districtu suo, villis et pertinentiis
+                    suis; locum et villam que dicitur <placeName ref="#SanTerenzo">Sancti
+                        Terentii</placeName>; castrum de <placeName ref="#Renario"
+                        >Reniano</placeName> cum curte et pertinentiis suis; castrum <placeName
+                        ref="#Monteflore">Montisfloris</placeName> cum pertinentiis suis; castrum de
+                        <placeName ref="#Malliano">Maliano</placeName> cum pertinentiis; castrum de
+                        <placeName ref="#Sograsio">Sograsio</placeName><note place="foot" n="r"
+                        xml:id="XXI_n_017">Sograsio: <emph>lettura incerta.</emph></note> cum
+                    pertinentiis suis; castrum de <placeName ref="#Congia">Congia</placeName> cum
+                    pertinentiis et tertiam partem castri de <placeName ref="#Marciaso"
+                        >Marciasio</placeName> cum omnibus aliis eius bonis, eadem imperiali
+                    auctoritate ipsi episcopo et successoribus suis confirmamus, || [c. 68v.] salva
+                    in omnibus imperiali iusticia, statuentes et imperiali auctoritate
+                        sancientes<note place="foot" n="s" xml:id="XXI_n_018">sancientes:
+                        sanctitientes <emph>in 491-DXXX</emph>, sanctientientes <emph>in D</emph>.
+                    </note> ut nullus dux, nullus marchio neque comes, nulla civitas, nullum
+                    commune, nulla denique persona, humilis vel alta, secularis vel ecclesiastica,
+                        ha<supplied reason="omitted">n</supplied>c<note place="foot" n="t"
+                        xml:id="XXI_n_019">hanc <emph>in D</emph>.</note> nostre maiestatis paginam
+                    audeat violare, nec aliquibus iniuriis calumpniarum seu dampnis presumat
+                    attemptare. Quod qui fecerit in ultionem temeritatis sue componat centum libras
+                    auri, dimidium imperiali camere et dimidium iniuriam passis. Huius rei testes
+                    sunt <persName ref="#WillielmusEpAsti">Wiellmus</persName>
+                    <placeName ref="#Asti">Astastensis</placeName><note place="foot" n="u"
+                        xml:id="XXI_n_020">Astasensis: <emph>così nel testo per</emph> Astensis;
+                        Astensis <emph>in D</emph>. </note><roleName>episcopus</roleName>, <persName
+                        ref="#Hildebrandus_episcopus">Hildebrandus</persName>
+                    <placeName ref="#Volterra">Wulterranus</placeName>
+                    <roleName>episcopus</roleName>, <persName ref="#Bonifacius_Episcopus_Nov"
+                        >Bonifatius</persName>
+                    <placeName ref="#Novara">Novariensis</placeName>
+                    <roleName>episcopus</roleName>, <persName ref="#Fredericus_prepositus"
+                        >Fridericus</persName>
+                    <roleName>prepositus</roleName> de <placeName ref="#Argentina"
+                        >Argentina</placeName>, <roleName>comes</roleName>
+                    <persName ref="#Thebaldus_comes">Tepaldus de <placeName ref="#Leschemunde"
+                            >Lechilgemunde</placeName></persName>, <roleName>comes</roleName>
+                    <persName ref="#Symon_comes">Simon de <placeName ref="#Spancheim"
+                            >Spanheim</placeName></persName>, <persName ref="#Rodulfuscam"
+                        >Rudulphus</persName>
+                    <roleName>camerarius</roleName>, <persName ref="#EzelinusHunare">Ezelinus de
+                            <placeName ref="#Hunare">Hunare</placeName></persName>, <persName
+                        ref="#Ottonovellus_iudex_PC">Ottonovellus</persName>
+                    <placeName ref="#">Placentinus</placeName>
+                    <roleName>iudex</roleName>, <persName ref="#Oddobellus_iudex_MI"
+                        >Oddobellus</persName>
+                    <roleName>iudex</roleName>
+                    <placeName ref="#Mediolano">Mediolanensis</placeName>.</p>
+                <p xml:id="XXI_p_002" n="2">Signum <persName ref="#Fredericus_imperator_I"
+                        >Friderici</persName>, <roleName>domini Romanorum imperatoris
+                        invictissimi</roleName>
+                    <ptr target="#XXI_m_001"/>(M)<note place="foot" n="v" xml:id="XXI_n_021"
+                            ><emph>Nessun monogramma in D.</emph></note>.</p>
+                <p xml:id="XXI_p_003" n="3">Ego <persName ref="#Gotifreduscanc"
+                        >Gotefridus</persName>, <roleName>imperiali<supplied reason="omitted"
+                            >s</supplied> aule cancellarius</roleName>, vice <persName
+                        ref="#Philippus_arc">Philipi</persName>
+                    <placeName ref="#Colonia">Collonensis</placeName>
+                    <roleName>archiepiscopi et <placeName ref="#Italia">Ytalie</placeName>
+                            archicancellarius<note place="foot" n="w" xml:id="XXI_n_022"
+                            >archicancellarius: <emph>così nel testo e anche in D per</emph>
+                            archicancellarii.</note></roleName>, recognovi<note place="foot" n="x"
+                        xml:id="XXI_n_023">recognovi: co <emph>corretto su precedente scrittura. In
+                            D dopo</emph> recognovi <emph>Acta sunt hec anno Dominice incarnationis
+                            M° C° LXXXV, indictione III, regnante domino Friderico Romanorum
+                            imperatore gloriosissimo, anno regni eius XXX° III°, imperi vero eius
+                            XXX° I°</emph>.</note>.</p>
+                <p xml:id="XXI_p_004" n="4">Datum in castro <placeName ref="#San_Miniato">Sancti
+                        Miniatis</placeName>, <date when="1185-07-29">IIIIo kalendas augusti,
+                        feliciter</date>. Amen, amen, amen.<ptr target="XXI_m_001"/></p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXLVII_165">
+    <front xml:id="CXLVII_front">
+
+      <titlePart type="numerazioneNuova">165</titlePart>
+      <titlePart type="numerazioneOrig">CXLVII</titlePart>
+
+      <docDate xml:id="CXLVII_docDate">
+        <date when="1237-01-18">1237 gennaio 18</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in curia castri Sarzane</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXLVII_regesto">
+        <p>Parente del fu Pasqualino, gastaldo di Guglielmo, vescovo di Luni, loca ad Aidante di
+          Ponzanello, che riceve a titolo di dote per il figlio Aitantello, futuro marito di
+          Declara, figlia di Ugerino di Pietro di Ponzanello, tutto il podere un tempo di proprietà
+          di detto Ugerino. La locazione costa 3 lire di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CXLVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 242r., c. CCXXXIIIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE,
+              1912</ref>, n. 147, p. 184.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Rogito in stesura sommaria, con formule ceterate nel corpo del testo. <p>Stesura
+                <emph>in mundum</emph> databile tra il 1270 e il 1272 dalla presenza di Bonagiunta
+              de Podio di Lucca.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXLVII_div">
+        <p xml:id="CXLVII_p_001" n="1">In Dei nomine, amen. <date when="1237-01-18">M°CCXXXVII,
+            indictione X, die dominico, XV kalendas februarii</date>. In <placeName
+            ref="#Sarzanello">curia castri Sarzane</placeName>, coram nobili <persName
+            ref="#GuilielmusFosdenova">Guilielmo de <placeName ref="#Fosdinovo"
+              >Fosdenova</placeName></persName>, <persName ref="#VillanusAlioti">Villano Alioti
+            Lucano</persName>, <persName ref="#BennatusSpu">Bennato de <placeName ref="#Spulizano"
+              >Spuliçano</placeName></persName>, <persName ref="#FormentinusTranpulii">Formentino
+            Tranpulii</persName> et <persName ref="#GerardusVernaccii">Gerardo Vernaccii de
+              <placeName ref="#Sarzanello">castro Sarzane</placeName></persName>. <persName
+            ref="#ParensPasqualini">Parens quondam Pasqualini</persName>,
+            <roleName>castaldio</roleName> venerabilis <persName ref="#GuilEpLuni">Guilielmi, Dei
+            gratia Lunenis episcopi</persName>, in <placeName ref="#Sarzanello">curia castri
+            Sarzane</placeName>, pro ipso domino episcopo et eius, ut dicebat, mandato, dedit,
+          cessit atque locavit <persName ref="#AidansPonz">Aidanto de <placeName ref="#Ponzanello"
+              >Ponzanello</placeName></persName>, recipienti nomine dotis pro filio suo <persName
+            ref="#Aitantellus">Aitantello</persName>, futuro sponso et viro <persName
+            ref="#DeclaraUgerini">Declare</persName>, filie <persName ref="#UgerinusdePetro"
+              >Ugerini<note place="foot" n="a" xml:id="CXLVII_n_001"><term type="incerto"
+                >Ugerini</term><emph>: nel testo</emph>
+              <term xml:lang="latin">Uigerini</term>
+              <emph>con la prima i espunta.</emph></note> de Petro</persName> eiusdem loci, pro
+          heredibus ex ipsis ad invicem descendentibus, in perpetuum, totum podere, tenutam et
+          possessionem, mobilem et immobilem, quod et que olim fuit dicti <persName
+            ref="#UgerinusdePetro">Ugerini de Petro</persName>, quicquid sit et quantumcumque sit et
+          cetera et nunc ad ipsam <persName ref="#DeclaraUgerini">Declaram</persName>, successionis
+          iure, spectare videtur, cum accessibus et regressibus suis, et potestatem tenutam intrandi
+          et cetera, faciendo exinde fidelitatem et servicia Lunensi curie et domino episcopo que
+          exinde fieri consueverunt; et fuit confessus idem <roleName>castaldio</roleName> se pro
+          curia servicium recepisse <measure type="imperiales" quantity="3" unit="libra">librarum
+            III imperialium</measure>, renunciando et cetera.</p>
+      </div>
+      <div xml:id="CXLVII_div2" type="mundum">
+        <p xml:id="CXLVII_p_002" n="2"><ptr target="#CXLVII_st_001"/> Ego <persName
+            ref="#HengeramusParentisnot">Hengherramus quondam Parentis de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName>, <roleName>palatii sacri
+              notarius</roleName></persName>, hanc cartam olim a <persName ref="#Bonencontrusnot"
+            >Bonencontro de <placeName ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus inveni, ita hic bona fide scripsi et auttenticavi et in publicam
+          formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a domino
+            <persName ref="#Bonaiunctaiud">Bonaiuncta de <placeName ref="#PodioLucca">Podio de
+              Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia
+                <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre domino <persName
+            ref="#GuilEpLuni">Guilielmo, <roleName>Lunensi episcopo</roleName></persName>, et
+          <placeName ref="#Lucca">Lucano <orgName ref="#Lucca_comune">communi</orgName></placeName>, de qua auctoritate constat per
+          instrumentum publicum factum manu <persName ref="#Alcheriusnot">Alcherii <roleName>notarii
+              de <placeName ref="#Lucca">Luca</placeName></roleName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 165-CXLVII databile tra il 1270 e il
+            1272 dalla presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

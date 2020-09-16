@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXLIII_161">
+    <front xml:id="CXLIII_front">
+
+      <titlePart type="numerazioneNuova">161</titlePart>
+      <titlePart type="numerazioneOrig">CXLIII</titlePart>
+
+      <docDate xml:id="CXLIII_docDate">
+        <date when="1201-06-08">1201 giugno 8</date>, <placeName>Sarzana <emph>(<term
+              xml:lang="latin">Sarzani, in canonica sancti Basilii</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXLIII_regesto">
+        <p>Nicolò, giudice di Gualtiero, vescovo di Luni, definisce una lite sull’uso dei boschi,
+          vertente fra gli uomini di Falcinello, rappresentati dai consoli Romeo et Borlengo, e
+          quelli di Ponzanello, rappresentati dal console Ferreto. Il giudice stabilisce che, nello
+          spazio indicato, gli uomini di Falcinello possano cacciare, fare legna, pascolare e
+          tagliare pali per le vigne, purché non arrechino danno alle terre messe a coltura o
+          recintate dagli abitanti di Ponzanello.</p>
+      </div>
+
+      <div type="footer" xml:id="CXLIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] cc. 240v.- 241r., c. CCXXXIIv.- CCXXXIIIr. secondo la
+            numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 143,
+            pp. 180-181.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno di c.241v., di mano moderna: <emph>Diferentia inter homines de
+              Falcinelo et de Ponzanelo.</emph> Poco più sotto, di altra mano tarda: <emph>nota pro
+              illis de Ponzanello et Falcinello e<supplied reason="omitted">t</supplied> de
+              differenciis eorum super confinibus.</emph> Parte del documento è stata letta con
+            l’ausilio della lampada di Wood. <p>Autentica del 15 gennaio 1274.</p></note>
+        </div>
+
+        <div type="appr">
+          <p>Bibliografia: <ref target="#GENTILI_2000">Gentili</ref>.</p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXLIII_div">
+        <p xml:id="CXLIII_p_001" n="1"><pb n="240v" xml:id="fol_240v"/>In Christi nomine, amen.
+          Causa vertebatur, ex una parte, inter <roleName>consules</roleName> de <placeName
+            ref="#Falcinello">Falcinello</placeName>, nomine tocius <orgName ref="#Falcinello_comune">communis</orgName> ipsius loci, scilicet
+            <persName ref="#RomeusFal">Romeum</persName> et <persName ref="#BorlengusFal"
+            >Borlengum</persName>, necnon, ex alia, <persName ref="#FerretusPonz"
+            >Ferretum</persName>, <roleName>consulem</roleName> de <placeName ref="#Ponzanello"
+            >Ponzanello</placeName>, super eo videlicet quod predicti <roleName>consules</roleName>
+          de <placeName ref="#Falcinello">Falcinello</placeName>, nomine eiusdem loci communis,
+          dicebant quod homines de <placeName ref="#Falcinello">Falcinello</placeName> debebant uti,
+          boscare, caciare, ocellare et pascere et talliare et sepes facere in bosco qui est ultra
+          montes versus <placeName ref="#Bardano">Bardanum</placeName>, scilicet a summitate montis
+          usque in <placeName ref="#Bardano">Bardano</placeName>, et eundo per ipsum <placeName
+            ref="#Bardano">Bardanum</placeName> inferius usque in rivo de <placeName ref="#Sertulo"
+            >Sertulo</placeName>, et veniendo superius per ipsum rivum usque in <placeName
+            ref="#Cruce">valle de Cruce</placeName>, et ab ipsa valle veniendo usque in seta
+            <placeName ref="#Fayto">montis de Fayto</placeName>, et ab ipsa seta montis veniendo
+          usque in <placeName ref="#Bifurca">montem Bifurcam</placeName> et eundo per ipsum montem
+          sicuti dividitur cum <placeName ref="#Boinaculo">costa de Boinaculo</placeName><note
+            place="foot" n="a" xml:id="CXLIII_n_001"><term xml:lang="latin">Boinaculo</term><emph>:
+              la prima</emph> o <emph>aggiunta in sopralinea.</emph></note> cum illa de <placeName
+            ref="#Deblola">Deblola</placeName>, et eundo per illam costam de <placeName
+            ref="#Deblola">Deblola</placeName> usque in <placeName ref="#Carcandola_rivus"
+            >Carcandula</placeName> et eundo superius per illam <placeName ref="#Carcandola_rivus"
+            >Carcandulam</placeName> usque in <placeName ref="#Romola">Romola</placeName>, et eundo
+          per <placeName ref="#Romola">Romolam</placeName> usque in <placeName ref="#Neblone"
+            >Neblone</placeName>, et eundo per <placeName ref="#Neblone">Neblonem</placeName> usque
+          in <placeName ref="#FossaCeca">Fossa Ceca</placeName>, et eundo per <placeName
+            ref="#FossaCeca">Fossam Cecam</placeName> usque in <placeName ref="#PecteCavallino"
+            >Pecte Cavallino</placeName> et eundo in canalle<note place="foot" n="b"
+            xml:id="CXLIII_n_002"><term type="incerto">canalle</term><emph>: così nel
+            testo.</emph></note> quod venit ad <placeName ref="#Tendola">Tendolam</placeName>, et
+          eundo per ipsum canalem usque in <placeName ref="#Capriola">Capriola</placeName>, et eundo
+          per <placeName ref="#Capriola">Capriolam</placeName> usque in <placeName ref="#Bardano"
+            >Bardano</placeName>. Etiam dicebant quod debebant colligere glandes in ipso bosco.
+          Quibus e contra predictus <persName ref="#FerretusPonz">Ferretus</persName>, nomine tocius
+          loci de <placeName ref="#Ponzanello">Ponzanello</placeName>, contradicebat, asserens non
+          esse ius hominibus de <placeName ref="#Falcinello">Falcinello</placeName> utendi,
+          buscandi, talliandi, caciandi, ocellandi, piscandi, sepes faciendi, glandes colligendi.
+          Unde <persName ref="#Nicholausiud">Nicholaus</persName>, <roleName>iudex</roleName> domini
+            <persName ref="#GualEpLuni">Gualterii, <roleName>Dei gratia Lunensis ecclesie
+              episcopi</roleName></persName>, visis et cognitis rationibus utriusque partis atque
+          dictis testium diligenter inspectis, per laudamentum sic dixit seu per transactionem
+          diffinivit, videlicet quod homines de <placeName ref="#Falcinello">Falcinello</placeName>
+          debeant uti lignis predicti bosci ad ignem faciendum et palos facere ad vineas actandas et
+          ruscum et herbam, et quod non liceat hominibus de <placeName ref="#Falcinello"
+            >Falcinello</placeName> intrare in folam et in ensetatos et campos<note place="foot"
+            n="c" xml:id="CXLIII_n_003"><term xml:lang="latin">campos</term>: s <emph>aggiunta in
+              sopralinea.</emph></note> seminatos pro dampno faciendo - atque, si dampnum fecerint,
+          emendent - et clausuras hominum de <placeName ref="#Ponzanello">Ponzanello</placeName>,
+          salva in omnibus et per omnia domini episcopi auctoritate; et si ipse dominus episcopus et
+          sui successores in aliquo tempore facere voluerint folam predicti bosci propter caciam
+          faciendam, non liceat hominibus de <placeName ref="#Falcinello">Falcinello</placeName> nec
+          de <placeName ref="#Ponzanello">Ponzanello</placeName> in predictam folam intrare quousque
+            predicta<note place="foot" n="d" xml:id="CXLIII_n_004"><term xml:lang="latin"
+              >predicta</term>: pre <emph>aggiunto in sopralinea.</emph></note> fola duraverit. Ab
+          omnibus aliis petitionibus homines de <placeName ref="#Ponzanello">Ponzanello</placeName>
+          absolvit. Interpretatus<note place="foot" n="e" xml:id="CXLIII_n_005"><term
+              xml:lang="latin">Interpretatus</term><emph>: la parola è scritta nella riga seguente
+              con segno di richiamo.</emph></note> sequenti die dominus <persName ref="#GualEpLuni"
+            >Gualterus, <roleName>Dei gratia Lunensis ecclesie episcopus</roleName></persName>,
+          omnia predicta approbavit, preter quod est fola<note place="foot" n="f"
+            xml:id="CXLIII_n_006"><term xml:lang="latin">fola</term>: folam<emph> nel testo con
+              segno finale di abbreviazione depennato.</emph></note> quam fecerint homines de
+            <placeName ref="#Ponzanello">Ponzanello</placeName> pro glandibus atque campis seminatis
+          et pratis. Et hoc fuit in curia <placeName ref="#Sarzanello">castri Sarzane</placeName>,
+          ibi presentibus <persName ref="#Balzanus">Balzano</persName> et <persName ref="#Bandinus"
+            >Bandino</persName> et aliis multis.</p>
+        <p xml:id="CXLIII_p_002" n="2">Acta sunt hec <placeName ref="#Sarzana"
+            >Sarzani</placeName><note place="foot" n="g" xml:id="CXLIII_n_007"><term type="incerto"
+              >Sarzani</term><emph>: così nel testo.</emph></note>, in <orgName type="chiesa"
+            >canonica sancti Basilii</orgName>, <date when="1201-06-08">M°CC°I, indictione IIII, die
+            veneris, VIII mensis iunii</date>, presentibus <persName ref="#Mantectuscas">Mantecto
+              <roleName>castaldione</roleName> de <placeName ref="#Ameglia"
+            >Amelia</placeName></persName>, <persName ref="#Ughitiusarc">Ughitione
+              <roleName>archipresbytero</roleName>
+            <orgName type="chiesa">ecclesie sancti Stephani</orgName></persName>, <persName
+            ref="#Baldanzacan">Baldancia <roleName>canonico Lunensi cantore</roleName></persName>,
+            <persName ref="#Ubertusmag"><roleName>magistro</roleName> Uberto</persName> et aliis
+          testibus ad hec rogatis.</p>
+        <p xml:id="CXLIII_p_003" n="3"><ptr target="#CXLIII_st_001"/> Ego <persName
+            ref="#Prefectusnot"><supplied reason="illeggibile">Prefec</supplied>tus,
+              <roleName>domini imperatoris et Lunensis curie notarius</roleName></persName>, hanc
+          sententie cartulam scripsi.</p>
+
+      </div>
+      <div xml:id="CXLIII_div2" type="autentica">
+        <p xml:id="CXLIII_p_004" n="4"><ptr target="#CXLIII_st_002"/> Ego <persName
+            ref="#HengeramusParentisnot">Hengherramus quondam Parentis de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName>, <roleName>palatii sacri
+              notarius</roleName></persName>, auttenticum huius exempli vidi et legi et hic
+          fideliter exemplavi, signum proprium apponendo,<pb n="241r" xml:id="fol_241r"/>
+          auctoritate et decreto mihi super hoc prestita et concesso a venerabili patre domino
+            <persName ref="#HenricusEpLuni">Henrico, <roleName>Dei gratia Lunensi
+              episcopo</roleName></persName>, que auctoritas mihi data fuit <placeName
+            ref="#Ponzanello">Ponzanelli</placeName>, ante <orgName ref="#Ponzanello_S_Martino"
+            >ecclesiam</orgName> de <placeName ref="#Ponzanello">Ponzanello</placeName>, in platea,
+            <date when="1274-01-15">MCCLXXIIII, indictione IIa, die lune, XV ianuarii<note>autentica
+              del documento n. 161-CXLIII</note></date>, presentibus domino <persName
+            ref="#Rollandinuscan">Rollandino, <roleName>Lunensi canonico</roleName></persName>,
+            <persName ref="#TiniosusParenti">Tingnoso quondam Parentis</persName> et aliis pluribus
+          testibus ad hec rogatis.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="CCCLXXXXVII_358">
+    <front xml:id="CCCLXXXXVII_front">
+
+      <titlePart type="numerazioneNuova">358</titlePart>
+      <titlePart type="numerazioneOrig">CCCLXXXXVII</titlePart>
+
+      <docDate xml:id="CCCLXXXXVII_docDate">
+        <date when="1260-11-29">1260 novembre 29</date>
+        <placeName>Sarzanello</placeName> (<emph>in castro Sarzane, in palatio domini
+          episcopi</emph>) </docDate>
+      <div type="regesto" xml:id="CCCLXXXXVII_regesto">
+        <p>Guglielmo, Iacopino, Giovanni, figlio del fu Parentino di Manzeto, e Buonborghese del fu
+          Manzeto giurano fedeltà al vescovo di Luni Guglielmo, corroborati da quattro
+          fideiussori.</p>
+      </div>
+      <div type="footer" xml:id="CCCLXXXXVII_footer">
+        <div type="orig_doc">
+          <p> Copia [C] CP c. 321v., c. CCCXIIIv. secondo la numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p> Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 397, p. 376.
+          </p>
+        </div>
+        <div type="crit_notes">
+          <p/>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXXXXVII. Iuramenti fidelitatis et sequimenti.</term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCLXXXXVII_div">
+        <p xml:id="CCCLXXXXVII_p_001">In Dei nomine, amen. <date when="1260-11-29">Anno a nativitate
+            Eius M°CCLX, indictione III, die penultimo mensis novembris</date>. <persName
+            ref="#GuilielmusParentini">Guilielmus</persName>, <persName ref="#IacopinusParentini"
+            >Iacopinus</persName> et <persName ref="#IohannesParentini">Iohannes, filius quondam
+            Parentini de Mançeto</persName>, et <persName ref="#BonburgensisMançeti">Bonburgensis,
+            quondam Mançeti filius</persName>, iuraverunt fidelitatem et sequimentum venerabilis
+          patris domini <persName ref="#GuilEpLuni">Guilielmi, <roleName>Lunensis
+              episcopi</roleName></persName>, et stare mandatis eius, datis fideiussoribus
+          principalibus <persName ref="#FolceriusCervaroli">Folcerio quondam Cervaroli</persName>,
+            <persName ref="#SaladinusFosdenova">Saladino de <placeName ref="Fosdinovos"
+              >Fosdenova</placeName></persName> et <persName ref="#GuilielmusBonensigne">Guilielmo
+            quondam Bonensigne</persName> et <persName ref="#AldebrandutiusVinciguerre"
+            >Aldebrandutio quondam Vinciguerre</persName>; qui promiserunt simul, et quisque eorum
+          in solidum, ad penam <measure type="Lucensium" unit="libre" quantity="100">librarum C
+            Lucensium</measure> pro quolibet eorum, precibus et mandatis predictorum <persName
+            ref="#GuilielmusParentini">Guilielmi</persName>, <persName ref="#IacopinusParentini"
+            >Iacopini</persName>, <persName ref="#IohannesParentini">Iohannis</persName> et
+            <persName ref="#BonburgensisMançeti">Bonburgensis</persName>, ita facere et procurare
+          quod ipsi <persName ref="#GuilielmusParentini">Guilielmus</persName>, <persName
+            ref="#IacopinusParentini">Iacopinus</persName>, <persName ref="#IohannesParentini"
+            >Iohannes</persName> et <persName ref="#BonburgensisMançeti"> Bonburgensis</persName>
+          attendent et observabunt omnia mandata ipsius domini episcopi, ut superius dictum est,
+          renunciando nove constitutioni de fideiussoribus, nove constitutioni de duobus reis et
+          epistule divi Adriani et omni alii iuri et legibus contra hec introductis</p>
+
+        <p xml:id="CCCLXXXXVII_p_002"> Actum in <placeName ref="#Sarzanello">castro
+            Sarzane</placeName>, in palatio ipsius <roleName>domini episcopi</roleName>, presentibus
+            <roleName>magistro</roleName>
+          <persName ref="#Saladinusmag">Saladino</persName>, <persName ref="#Aiutuspres2"
+              ><roleName>presbytero</roleName> Adiuto</persName> et <persName
+            ref="#IohannesFormichella">Iohanne Formichella de <placeName ref="#Lucca"
+              >Luca</placeName></persName>, familiaribus ipsius <roleName>domini
+          episcopi</roleName>, testibus ad hec rogatis. </p>
+
+        <p xml:id="CCCLXXXXVII_p_003">
+          <ptr target="#CCCLXXXXVII_st_001"/>Ego <persName ref="#Pasqualinusnot"
+            >Pasqualinus</persName>, <roleName>sacri palacii notarius</roleName>, hiis interfui et
+          rogatus scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

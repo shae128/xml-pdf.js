@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXLVIII_166">
+    <front xml:id="CXLVIII_front">
+
+      <titlePart type="numerazioneNuova">166</titlePart>
+      <titlePart type="numerazioneOrig">CXLVIII</titlePart>
+
+      <docDate xml:id="CXLVIII_docDate">
+        <date when="1234-08-24">1234 agosto 24</date>, <placeName>Caprigliola <emph>(<term
+              xml:lang="latin">in cassaro Capriliole</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXLVIII_regesto">
+        <p>Guglielmo, vescovo di Luni, cede <term xml:lang="latin">pro castellaria</term> a
+          Pellegrino di Apognana del fu Alberto, che riceve anche a nome del fratello Allegretto, un
+            <term xml:lang="latin">casamentum</term> in Ponzanello, nel borgo di <term
+            xml:lang="latin">Area</term>, un canale (<term xml:lang="latin">presa</term>) di
+          Caprigliola, un pezzo di terra con castagni <term xml:lang="latin">in Tavola</term> e un
+          orto in località <term xml:lang="latin">al Castagno</term>. Infine gli loca anche una
+          porzione di bosco <term xml:lang="latin">in Nibiono</term>. Pellegrino e Allegretto devono
+          restare suoi castellani a Ponzanello. Il fitto ammonta a 2 &lt;denari&gt; di
+          imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CXLVIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 242v., c. CCXXXIIIIv. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>n. 148,
+            pp. 184-185.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <emph>In Ponzanelo et districtu.</emph> Nel
+            testo compare una formula ceterata. <p>Stesura <emph>in mundum</emph> databile tra il
+              1270 e il 1272 dalla presenza di Bonagiunta de Podio di Lucca.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXLVIII_div">
+        <p xml:id="CXLVIII_p_001" n="1"><pb n="242v" xml:id="fol_242v"/>In nomine Domini, amen.
+            <date when="1234-08-24">M°CC°XXXIIII, indictione VII, die iovis, VIIII kalendas
+            septembris</date>. In <placeName ref="#Caprigliola">cassaro Capriliole</placeName>,
+          coram <persName ref="#GualterotusSoleria">Gualteroto de <placeName ref="#Soliera"
+              >Soleria</placeName></persName>, <persName ref="#AidansPonz">Aidanto</persName> et
+            <persName ref="#StephanusPonz">Stephano de <placeName ref="#Ponzanello"
+              >Ponzanello</placeName></persName>, testibus. Venerabilis <persName ref="#GuilEpLuni"
+            >Guilielmus, <roleName>Dei gratia Lunensis episcopus</roleName></persName>, dedit et
+          tradidit <persName ref="#PeregrinusAlberti">Peregrino de <ref target="#Apognana"
+              >Apognana</ref> quondam Alberti</persName>, recipienti pro se et fratre suo <persName
+            ref="#Alegretus">Alegreto</persName> et eorum heredibus masculis atque feminis, in
+          perpetuum, subce<supplied reason="omitted">de</supplied>ndo unus alteri, pro castellaria
+          et nomine castellarie, unum casamentum situm in <placeName ref="#Ponzanello"
+            >Ponzanello</placeName>, in <placeName ref="#Ara">burgo de Area</placeName>, superius
+            <persName ref="#Guido">Guido</persName>, a pede via publica, et presam unam de
+            <placeName ref="#Caprigliola">Capri<supplied reason="omitted"
+            >li</supplied>ola</placeName>, quam ipsi habent iam, et petiam unam terre, cum
+          castaneis, site in <placeName ref="#Tavola">Tavola</placeName>, cui sunt fines superius
+          via publica de <placeName ref="#Tavola">Tavola</placeName>, a pede <placeName
+            ref="#Tavola">canale de Tavola</placeName>, ab una parte <persName ref="#Folbertus"
+            >Folbertus</persName> atque ab alia <persName ref="#BerraTavola">Berra de <placeName
+              ref="#Tavola">Tavola</placeName></persName>; item unum ortum situm al <placeName
+            ref="#Castagno">Castagno</placeName>, cui sunt fines: superius via publica, a pede via
+          publica et si qui alii sint fines. Item dedit, cessit et locavit ei, pro se atque fratre
+          suo recipienti ut dictum est, unum iugerum boschi in <placeName ref="#Neblone"
+            >Nibiono</placeName> ad pensionem et libellario nomine sui iuris, cum accessibus et
+          regressibus suis omnique iure conctaque utilitate sibi competentibus et competituris et
+          cetera, promittens legitimam deffensionem et sumptus omnes reficere vel restituere locis
+          consimilibus, sicut pro tempore valuerint, sub extimatione legitima. Et potestatem inde
+          tenutam intrandi ei dedit et se pro eo interim constituit possidere, reddendo de bosco et
+          terra suprascripta de Nibiono omni anno <placeName ref="#Luni">Lunensi curie</placeName>,
+          infra octavam nativitatis Domini, <measure type="Imperiales" quantity="2">II
+            imperialium</measure> nomine pensionis, et ipsam terram debeat meliorare et non peiorare
+          et de suprascripta castellaria debeant esse viri fideles et castellani sui in <placeName
+            ref="#Ponzanello">Ponzanello</placeName>. Atque hec omnia suprascripta ambe partes
+          attendere et observare promiserunt sibi ad invicem, sub pena <measure type="imperiales"
+            quantity="20" unit="solidus">XX soldorum imperialium</measure>, et, ea soluta, rato
+          manente pacto.</p>
+      </div>
+      <div xml:id="CXLVIII_div2" type="mundum">
+        <p xml:id="CXLVIII_p_002" n="2"><ptr target="#CXLVIII_st_001"/> Ego <persName
+            ref="#HengeramusParentisnot">Hengherramus quondam Parentis de <placeName
+              ref="#Sarzanello">castro Sarzane</placeName>, <roleName>palatii sacri
+              notarius</roleName></persName>, hanc cartam olim a <persName ref="#Bonencontrusnot"
+            >Bonencontro de <placeName ref="#Soliera">Soleria</placeName>
+            <roleName>notario</roleName></persName> abreviatam sive rogatam, prout in eius sceda et
+          in eius contractibus et imbreviaturis inveni, ita hic bona fide scripsi et auttenticavi et
+          in publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+          domino <persName ref="#Bonaiunctaiud">Bonaiuncta de <placeName ref="#PodioLucca">Podio de
+            Luca</placeName></persName>, <roleName>iudice</roleName> in <orgName ref="#Lunigiana_provincia">provincia
+              <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili patre domino <persName
+            ref="#GuilEpLuni">Guilielmo, <roleName>Lunensi episcopo</roleName></persName>, et
+          <placeName ref="#Lucca">Lucano</placeName> <orgName ref="#Lucca_comune">communi</orgName>, de qua auctoritate constat per
+          instrumentum publicum factum manu <persName ref="#Alcheriusnot">Alcherii
+              <roleName>notarii</roleName> de <placeName ref="#Lucca">Luca</placeName></persName>
+          <note>Stesura <emph>in mundum</emph> del documento n. 166-CXLVIII databile tra il 1270 e
+            il 1272 dalla presenza di Bonagiunta de Podio di Lucca <date notBefore="1270-01-01"
+              notAfter="1272-12-31" cert="medium"/></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

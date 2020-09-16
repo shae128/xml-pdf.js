@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DLII_514">
+    <front xml:id="DLII_front">
+      <titlePart type="numerazioneNuova">514</titlePart>
+      <titlePart type="numerazioneOrig">DLII</titlePart>
+
+      <docDate xml:id="DLII_docDate">
+        <date when="1238-02-06">1238 febbraio 6</date>, <placeName> Reggio Emilia</placeName> (<term
+          xml:lang="latin">in canonica Regiensi</term>) </docDate>
+
+      <div type="regesto" xml:id="DLII_regesto">
+        <p>Atto <term xml:lang="latin">de Casellis</term>, canonico della pieve di Campiliola e
+          delegato dal vescovo di Tortona, a sua volta delegato dal pontefice, emana una sentenza
+          sulla lite fra il vescovo di Luni Guglielmo e il monastero di Santa Croce del Corvo,
+          rappresentati rispettivamente dai sindaci Palmerio e Guglielmo. Stabilisce quindi la
+          soggezione del monastero al vescovo di Luni fatta salva la regola di S. Michele di
+          Orticaria. Inseriti nel testo l’incarico dato da Gregorio IX a Pietro di Fesso del 18
+          luglio 1235 e la delega di quest’ultimo ad Atto del 1° ottobre 1236. </p>
+      </div>
+      <div type="footer" xml:id="DLII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] c. 404r., c. CCCLXXXXVv. secondo la numerazione originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>n. 552, p.
+            627-628.</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DLII.
+              Quedam positiones et acta cause inter episcopum Lunensem et monasterium de
+              Orticaria.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="DLII_div">
+        <pb n="404r" xml:id="fol_404r"/>
+        <p xml:id="DLII_p_001" n="1">In nomine Domini. Ego <persName ref="#AttoCampigiola"
+            >Atto</persName>, <roleName>canonicus</roleName>
+          <orgName ref="Campiliola_S_Maria">plebis de <placeName ref="#Campiliola"
+              >Campiliola</placeName></orgName>, <roleName>subdelegatus domini episcopi</roleName>
+          <orgName ref="Tortona_diocesi"><placeName ref="#Terdona"
+            >Terronensi</placeName></orgName><note place="foot" n="a" xml:id="DLII_n_001"
+            >Terronensis: <emph>così nel testo per </emph>Terdonensis</note>, delegati domini pape,
+          in causa que vertebatur vel vertitur inter episcopum Lunensem sive <persName
+            ref="#Palmerius_syndicus">Palmerium</persName>, <roleName>predicti domini episcopi
+            syndicum seu procuratorem</roleName>, ex una parte, et <orgName ref="Corvo_S_Croce"
+            >monasterium Sancte Crucis de </orgName><placeName ref="#Corvo">Corvo</placeName> sive
+            <persName ref="#Guilielmus_syndicus">Guilielmum</persName>, <roleName>eius
+            syndicum</roleName>, ex altera, que quidem causa talis erat. Petebat namque dictus
+            <persName ref="#Palmerius_syndicus">Palmerius</persName>, <roleName>syndicus et
+            procurator domini <persName ref="#Guilielmus_syndicus">Guilielmi</persName> Lunensis
+            episcopi</roleName> , nomine ipsius domini episcopi et episcopatus Lunensis, a <persName
+            ref="#GuilEpLuni">Guilielmo</persName>, <roleName>syndico et procuratore</roleName>
+          <orgName ref="Corvo_S_Croce">monasterii Sancte Crucis de</orgName>
+          <placeName ref="#Corvo">Corvo</placeName>, et a priore et monachis eiusdem loci
+          reverenciam et obedienciam, manualem institutionem et deinstitutionem ipsius prioris,
+          correptionem et reformationem ipsius monasterii tam in capite quam in membris<note
+            place="foot" n="b" xml:id="DLII_n_002">membris: memb <emph>corretto su precedente
+              scrittura.</emph></note> et ut eidem episcopo subiaceant idem prior et monachi in
+          spiritualibus et temporalibus, pleno iure, cum dictum monasterium sit situm et fondatum in
+          dyocesi Lunensi. Ad que respondebat, litem contestando, dictus <persName
+            ref="#Guilielmus_syndicus">Guilielmus</persName> se a predicto nomine dicti monasterii
+          non teneri<note place="foot" n="c" xml:id="DLII_n_003">se a predicto-non teneri:
+              <emph>così nel testo.</emph></note>, volens deffendere dictum monasterium et ecclesiam
+          dictam, et ita lite<supplied reason="omitted">m</supplied> legitime coram dicto delegato,
+          tunc archipresbytero de <orgName ref="Rubiera_S_Faustino_Giovita"><placeName
+              ref="#Erberia">Herberia</placeName></orgName>, contestare, qui commisit mihi in dicto
+          negocio sive causa vices suas. Unde, visis et auditis et intellectis confessionibus,
+          pactionibus et allegationibus utriusque partis et diligenter inspectis<note place="foot"
+            n="d" xml:id="DLII_n_004">et diligenter inspectis: <emph>nel testo </emph>inspectis et
+            diligenter<emph/>con segno di richiamo per invertire l’ordine delle parole.</note> et
+          habita diligenti deliberatione, actione et habito consilio diligenti, sententiando in
+          scriptis pronuncio et adiudico, presentibus et existentibus dictis syndicis seu
+          procuratoribus ad audiendam sententiam et etiam dari cum instantia petentibus,
+          subiectionem ipsius <orgName ref="Corvo_S_Croce">monasterii Sancte Crucis de <placeName
+              ref="#Corvo">Corvo</placeName></orgName> et ipsum monasterium pleno iure in
+          spiritualibus et in aliis domino episcopo Lunensi sive <persName ref="#Palmerius_syndicus"
+            >Palmerio</persName>, eius syndici<note place="foot" n="e" xml:id="DLII_n_005">syndici:
+              <emph>così nel testo per </emph>syndico</note>, nomine predicti domini episcopi et
+          episcopatus, debere subesse dicto domino episcopo<note place="foot" n="f"
+            xml:id="DLII_n_006">dicto domino episcopo: <emph>ripetuto nel testo. </emph></note>
+          tanquam monasterium situm in <supplied reason="omitted">iuris</supplied>dictione Lunensi,
+          salva regulari disciplina abbatis <orgName ref="Pisa_S_Michele_Orticaria">Sancti Michaelis
+            de</orgName><placeName ref="#Orticaria">Orticaria</placeName>. </p>
+        <p xml:id="DLII_p_002" n="2">Datum fuit in <orgName ref="Reggio_S_Maria_canonica">canonica
+              <placeName ref="#Regio">Regiensi</placeName></orgName>, coram
+            <roleName>magistro</roleName>
+          <persName ref="#Bernardus_canonicus">Bernardo</persName>, <roleName>Regiensi
+            canonico</roleName>, <roleName>domino</roleName>
+          <persName ref="#GerardusVeralus">Gerardo Veralo</persName><note place="foot" n="g"
+            xml:id="DLII_n_007">Veralo: e <emph>aggiunta in sopralinea.</emph></note>,
+            <roleName>magistro</roleName>
+          <persName ref="#GerardusNormandia">Gerardo de <placeName ref="#Normandia"
+              >Normandia</placeName></persName> et presbytero de <placeName ref="#Luni"
+            >Lani</placeName>, <date when="1238-02-06">die sesto intrante februario millesimo
+            CCXXXVIII, indictione XI</date>. </p>
+        <p xml:id="DLII_p_003" n="3">Commissio <roleName>domini</roleName>
+          <persName ref="#PetrusFesso">Petri de <placeName ref="#Fiesso"
+            >Fesso</placeName></persName>, <roleName>canonici</roleName>
+          <placeName ref="#Regio">Regiensis</placeName> tunc et nunc <orgName ref="Tortona_diocesi"
+              ><placeName ref="#Terdona">Terronensi</placeName></orgName><note place="foot" n="h"
+            xml:id="DLII_n_008">Terronensis: <emph>così nel testo per </emph>Terdonensis</note>
+          <roleName>episcopi</roleName>, talis est: «<persName ref="#GreoriuspontifexIX">Gregorius </persName>
+          <roleName>episcopus servus servorum Dei</roleName> dilecto filio <persName
+            ref="#PetrusFesso">Petro de <placeName ref="#Fiesso">Fesso</placeName></persName>,
+            <roleName>canonico</roleName>
+          <orgName ref="Reggio_S_Maria_canonica"><placeName ref="#Regio"
+            >Regiensi</placeName></orgName>, salutem et apostolicam beneditionem. Venerabilis frater
+          noster Lunensis episcopus nobis exposuit conquerendo quod prior et capitulum <orgName
+            ref="Corvo_S_Croce">Sancte Crucis de <placeName ref="#Corvo"
+          >Corvo</placeName></orgName>, abbas et <orgName ref="Ceparana_S_Venanzio">conventus de
+              <placeName ref="#Ceparana">Cepparana</placeName></orgName> et quidam alii clerici
+          Lunensis dyocesis sibi obedientiam et reverentiam, ut tenentur, denegant exhibere
+            <emph>alias ei universi plurimum existentes</emph>; ideoque discretioni tua<note
+            place="foot" n="i" xml:id="DLII_n_009">tua: <emph>così nel testo per </emph>tue.</note>
+          per apostolica scripta mandamus quatinus, partibus convocatis, audias causam et quod
+          iustum fuerit, appellatione remota, decernas, scientis<note place="foot" n="l"
+            xml:id="DLII_n_010">scientis: <emph>così nel testo.</emph></note> quod decreveris per
+          censuram ecclesiasticam firmiter observari. Testes autem qui fuerint nominati si, se
+          gratia vel odio vel timore subtraxerint per censuram eandem, appellatione cessante,
+          compellas veritati testimonium perhibere. Datum <placeName ref="#Perusium"
+            >Perusii</placeName>, <date when="1235-07-18">
+            <note> Incarico dato da Gregorio IX al vescovo di Tortona Pietro di Fesso </note>XV
+            kalendas augusti, pontificatus nostri anno IX°».</date>
+        </p>
+        <p xml:id="DLII_p_004" n="4">Commissio <roleName>domini</roleName>
+          <persName ref="#AttoCampigiola">Attonis</persName> talis est:
+            «<roleName>Dominus</roleName>
+          <persName ref="#PetrusFesso">Petrus de <placeName ref="#Fiesso"
+            >Fisso</placeName></persName>, tunc <orgName ref="Reggio_S_Maria_canonica"><placeName
+              ref="#Regio">Regiensis</placeName></orgName>
+          <roleName>canonicus</roleName> et nunc <orgName ref="Tortona_diocesi"><placeName
+              ref="#Terdona">Terronensi</placeName></orgName><note place="foot" n="m"
+            xml:id="DLII_n_011">Terronensis: <emph>così nel testo per </emph>Terdonensis</note>
+          <roleName>episcopus</roleName>, iudex a domino papa delegatus in causa que vertitur inter
+          dominum episcopum Lunensem, ex una parte, et dominum priorem et conventum <orgName
+            ref="Corvo_S_Croce">monasterii Sancte Crucis de </orgName><placeName ref="#Corvo"
+            >Corvo</placeName>, ex alia, multis variis et negotiis<note place="foot" n="n"
+            xml:id="DLII_n_012">multis variis et negociis: <emph>così nel testo per </emph>multis et
+            variis negociis.</note> impredictis<note place="foot" n="o" xml:id="DLII_n_013"
+            >impredictis: <emph>così nel testo per </emph>impeditus.</note> commisit et delegavit
+            <roleName>domino</roleName>
+          <persName ref="#AttoCampigiola">Actoni de Casellis</persName> omnes suas vices. Actum in
+          canonica <orgName ref="Reggio_S_Maria_canonica"><placeName ref="#Regio"
+              >Regiensis</placeName></orgName>, coram <roleName>domino</roleName>
+          <persName ref="#Henricus_archidyaconusBer">Henrico</persName>,
+            <roleName>archidyacono</roleName>
+          <placeName ref="#Bergamo">Bergamensi</placeName>, <roleName>domino</roleName>
+          <persName ref="#Atto_archipresbyterMin">Azone</persName>, <orgName
+            ref="Modolena_S_Michele"><roleName>archipresbytero</roleName> de <placeName
+              ref="#Modolena">Minileva</placeName></orgName>, et <roleName>domino</roleName>
+          <persName ref="#GuidoFavano">Guidoto Favano</persName>, testibus rogatis, <date
+            when="1236-10-01">
+            <note> Delega del vescovo di Tortona ad Atto de Casellis </note> die primo intrantis
+            octubris M°CCXXXVI, indictione IXa</date>».</p>
+        <p xml:id="DLII_p_005" n="5">Petit <persName ref="#Palmerius_syndicus">Palmerius</persName>,
+            <roleName>syndicus et procurator</roleName>
+          <roleName>domini</roleName>
+          <persName ref="#GuilEpLuni">Guilielmi</persName>
+          <roleName>Lunensis episcopi</roleName>, nomine ipsius domini episcopi et episcopatus
+          Lunensis a <persName ref="#Guilielmus_syndicus">Guilielmo</persName>, <roleName>syndico et
+            procuratore</roleName>
+          <orgName ref="#Corvo_S_Croce">monasterii Sancte Crucis de </orgName><placeName
+            ref="#Corvo">Corvo</placeName>, et a priore et monachis eiusdem loci reverentiam et
+          obedientiam, manualem institutionem et destitutionem ipsius prioris, correptionem et
+          reformationem ipsius monasterii tam in capite quam in membris et ut eidem episcopo
+          subiaceant idem prior et monachi in spiritualibus et temporalibus pleno iure, cum dictum
+          monasterium sit situm et fondatum in dyocesi Lunensi. Ad quod respondit dictus <persName
+            ref="#Guilielmus_syndicus">Guilielmus</persName> se a predicto nomine dicti monasterii
+          non teneric, volens deffendere dictum monasterium et ecclesiam ipsam cum omnibus
+          accessionibus ipsius ecclesie usque ad finem cause. Ponit <persName
+            ref="#Palmerius_syndicus">Palmerius</persName> quod dictum <orgName ref="#Corvo_S_Croce"
+            >monaterium Sancte Crucis</orgName> est situm et fondatum in dyocesi Lunensi; quod
+          dictus <persName ref="#Guilielmus_syndicus">Guilielmus</persName>
+          <roleName>syndicus</roleName> confitetur. Lis contestata super petitione predicta coram
+            <roleName>domino</roleName>
+          <persName ref="#PetrusFesso">Petro</persName>, <roleName>tunc archipresbytero</roleName>
+          de <orgName ref="#Rubiera_S_Faustino_Giovita">He<placeName ref="#Erberia"
+              >rberia</placeName></orgName>
+          <roleName>et nunc episcopo</roleName>
+          <orgName ref="Tortona_diocesi"><placeName ref="#Terdona">Terronensi</placeName></orgName>
+          <note place="foot" n="p" xml:id="DLII_n_014">Terronensis: <emph>così nel testo per
+            </emph>Terdonensis</note>, a domino papa iudice delegato. </p>
+        <p xml:id="DLII_p_006" n="6">
+          <ptr target="DLII_st_001"/>Ego <persName ref="#Gibertus_notarius">Gibertus</persName>,
+            <roleName>sacri palacii notarius</roleName>, rogatus hiis omnibus suprascriptis
+          interfui, audivi, vidi et scripsi. </p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,257 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCXIII_275">
+    <front xml:id="CCCXIII_front">
+
+      <titlePart type="numerazioneNuova">275</titlePart>
+      <titlePart type="numerazioneOrig">CCCXIII</titlePart>
+
+      <docDate xml:id="CCCXIII_docDate">
+        <date when="1260-05-29">1260 maggio 29</date>, <placeName>Carrara (<emph>in ecclesia Sancti
+            Andree de Carraria</emph>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCXIII_regesto">
+        <p>Capitoli degli statuti del comune di Carrara elaborati da alcuni rappresentanti eletti –
+          Veltro di Petrognano, il notaio Bonaccorso, Durante di Vezale, maestro Guglielmo di Codena
+          – e approvati dal vescovo di Luni Guglielmo.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCXIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 288r.-289r., c. CCLXXXr.-CCLXXXIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1910">LUPO GENTILE 1910</ref>, pp
+            14-15; <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 313, pp. 295-297;
+              <ref target="#CONTI_1979-1988">CONTI 1979-1988</ref>, I, doc. XXV, pp. 116-119.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note> Nel margine esterno di c. CCLXXXv. di mano moderna: <term xml:lang="latin"
+              >Carraria</term>.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCXIII.
+              Statuta comunis Carrarie. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCXIII_div">
+        <p xml:id="CCCXIII_p_001" n="1">In Dei nomine, amen. Capitula inventa ab infrascriptis pro
+          <orgName ref="#Carrara_comune">communi</orgName> <placeName ref="#Carrara">Carrarie</placeName>, videlicet <persName
+            ref="#VeltroPetrognano">Veltro de <placeName ref="#Petrognano"
+            >Petrognano</placeName></persName>, <persName ref="#Bonacursusnot">Bonacurso</persName>
+          <roleName>notario</roleName>, <persName ref="#DuransVeçale">Durante de <placeName
+              ref="#Veçale">Veçale</placeName></persName>, magistro <persName
+            ref="#GuilielmusCodano">Guilielmo de <placeName ref="#Codena"
+            >Codano</placeName></persName>, <roleName>electos</roleName><note xml:id="CCCXIII_n_001"
+            n="a" place="foot"><term type="incerto">electos</term>: <emph>così nel testo per</emph>
+            <term xml:lang="latin">electis</term>.</note> ad hec per consilium premissi communis
+            <placeName ref="#Carrara">Carrarie</placeName>, et approbata per venerabilem <persName
+            ref="#GuilEpLuni">Guilielmum, <roleName>Lunensem episcopum</roleName></persName>, sunt
+          hec; qui suprascriptus dominus episcopus approbavit et iudicavit adiungi statuto communis
+            <placeName ref="#Carrara">Carrarie</placeName>:</p>
+        <div xml:id="CCCXIII_div2" type="quotation">
+        <quote rend="pre(«) post(»)">Statuerunt et ordinaverunt quod
+            omnibus iuratis potestatis credatur de accusis vel accusationibus de dampnis illatis <pb
+              n="288v" xml:id="fol_288v"/> a quantitate <measure type="Lucenses" quantity="2"
+              unit="solidus">soldorum II Lucensium</measure> inferius, si iurare voluerit quod
+            dampnum fuerit datum, inspecta qualitate persone, si est bone fame.
+          <p xml:id="CCCXIII_p_003" n="3">Item statuerunt quod si dampnum aliquod factum fuerit in
+            aliquibus blavis, lino vel lupinis, caprarii et pastores qui proximiores fuerint dampno
+            dato emendare teneantur, si non probaverint quod alia persona fecerit.</p>
+          <p xml:id="CCCXIII_p_004" n="4">Item quod aliqua bestia non intret in vineam alicuius
+            aliquo tempore in toto districtu <placeName ref="#Carrara">Carrarie</placeName>; et, si
+            intraverit, perdat pro banno cuius fuerit bestia, pro qualibet, <measure type="Lucenses"
+              quantity="1" unit="denarius">denarium I Lucensium</measure>.</p>
+          <p xml:id="CCCXIII_p_005" n="5">Item statuerunt quod unusquisque de <placeName
+              ref="#Carrara">Carraria</placeName> habeat folia de suis de castaneis, dummodo ea
+            colligere voluerit et traxerit de castagneto usque ad kalendas ianuarii; et post ipsas
+            kalendas, et non antea, sit licitum unicuique colligere per totum districtum <placeName
+              ref="#Carrara">Carrarie</placeName>; et qui contra fecerit perdat pro banno, qualibet
+            vice, <measure type="Lucenses" quantity="2" unit="solidus">soldos II</measure> Lucensium
+            et emendet dampnum cuius fuerit.</p>
+          <p xml:id="CCCXIII_p_006" n="6">Item quod nemo incidat aliquas arbores fructificantes pro
+            carbonibus faciendis in <placeName ref="#Carrara">Carraria</placeName> et districtu ab
+            octava die post kalendas ianuarii proxime venturas, et qui contra fecerit perdat pro
+            banno, pro quolibet pede, <measure type="Lucenses" quantity="20" unit="solidus">soldos
+              XX Lucensium</measure> et dampnum emendet; et quicumque pro dicto misterio venditur,
+            perdat pro qualibet vice, pro quolibet pede, <measure type="Lucenses" quantity="20"
+              unit="solidus">soldos XX lucensium</measure>.</p>
+          <p xml:id="CCCXIII_p_007" n="7">Item teneantur omnes qui habent fabricam dare libram ferri
+            unicuique habitatori de <placeName ref="#Carrara">Carraria</placeName> ad suum opus
+            precio <measure type="Lucenses" quantity="3" unit="denarius">denariorum trium
+              Lucensium</measure> aut <measure type="Ianuenses" quantity="1.5" unit="denarius"
+              >denarii I et dimidii Ianuensium</measure>; et <supplied reason="omitted"
+              >qui</supplied> contra fecerit perdat pro banno, qualibet vice, <measure
+              type="Lucenses" quantity="2" unit="solidus">soldos II Lucensium</measure>.</p>
+          <p xml:id="CCCXIII_p_008" n="8">Item quod aliqua mulier, viro defuncto, si exierit<note
+              xml:id="CCCXIII_n_002" n="b" place="foot"><term type="incerto">exierit</term>:
+                <emph>così nel testo per</emph>
+              <term xml:lang="latin">exire</term>.</note> voluerit de domo, non possit relevare
+            donationem sive antefactum dummodo filium vel filiam habuerit ex viro defuncto.</p>
+          <p xml:id="CCCXIII_p_009" n="9">Item teneantur superstites facere fieri viam de <placeName
+              ref="#Bonasculo">Bonasculo</placeName> a <placeName ref="#PonteCimatico">ponte de
+              Cimatico</placeName> usque ad canalem <placeName ref="#Monte_Libero">montis
+              Liberi</placeName> et canalem de <placeName ref="#Castangna_Robbia">Castangna
+              Robbia</placeName>, que sit ampla brachia V.</p>
+          <p xml:id="CCCXIII_p_010" n="10">Item teneatur potestas facere fieri pontes de <placeName
+              ref="#Treponçum">Trepunçio</placeName> de lignamine vel alias, ita quod inde possint
+            viatores transire.</p>
+          <p xml:id="CCCXIII_p_011" n="11">Item teneatur potestas facere fieri fossam a capanna
+              <persName ref="#Armanninus">Armannini</persName> usque ad capannam heredum quondam
+              <persName ref="#GuilielmusSorgnano">Guilielmi de <placeName ref="#Sorgnano"
+                >Sorgnano</placeName></persName>, ita quod aqua sive rivi non possint destruere viam
+            sive terras; et hoc fieri faciat ab illis hominibus qui habent facere intra hos
+            confines, scilicet a via que vadit versus <placeName ref="#Lavadarium"
+              >Lavadarium</placeName>, sicut trahit altera via de <placeName ref="#Broilo"
+              >Broilo</placeName>, usque ad viam que incipit a molendino <persName ref="#Gualterone"
+              >Gualteroni</persName>, et versus <placeName ref="#Sarzana">Sarzanam</placeName> usque
+            ad illam viam que venit a pede vinearum de <placeName ref="#Monteverde"
+              >Monteverde</placeName>; et fieri debeat per totum mensem madii.</p>
+          <p xml:id="CCCXIII_p_012" n="12">Item teneatur potestas sive consules, qui pro tempore
+            fuerint vel fuerit, facere solvi datia communis intra duos menses postquam imposita
+            fuerit in denariis vel pignoribus. Et potestas sive consules faciant preconiçari publice
+            in platea quod illi quorum pignora fiunt redimant ex predicto casu vel aliis casis data
+            camerariis infra certum tempus, sicut diffinitum fuerit pro consilio; quod, si non
+            fecerint, camerarius possit ea vendere et in solutum dare illi qui recipere debuerit a
+            communi.</p>
+          <p xml:id="CCCXIII_p_013" n="13">Item teneatur camerarius, qui pro tempore fuerit, facere
+            quaternum de qualibet data et recipere tale pignus de quo possit habere denarios pro
+            quibus receperit; quod, si non fecerit, de suo proprio teneatur complere.</p>
+          <p xml:id="CCCXIII_p_014" n="14">Item teneatur suprascriptus camerarius reddere rationem
+            de introitu et exitu in omnibus mensibus semel, et postea non teneatur reddere rationem
+            de hiis que semel reddiderit; et, facta ratione de hiis que restituerit ad solvendum et
+            dandum sive colligendum, teneatur scribere in alio quaterno vel I de [omnibus aliis]
+            mensibus reddere rationem.</p>
+          <p xml:id="CCCXIII_p_015" n="15">Item quod quicumque fuerit officialis communis ex
+            quocumque officio non excusetur […]<note xml:id="CCCXIII_n_003" n="d" place="foot"
+                ><emph>seguono tre parole di difficile lettura</emph>.</note> vel prestancia
+            communis salvo in officialibus domini episcopi privilegio consueto.</p>
+          <p xml:id="CCCXIII_p_016" n="16">Item potestas facere fieri […]<note
+              xml:id="CCCXIII_n_004" n="e" place="foot"><emph>segue a fine rigo una parola di
+                problematica lettura, terminante nel rigo seguente con le lettere</emph> iis.</note>
+            de lignamine ad puteum de <placeName ref="#Avenza">Aventia</placeName> cum cathena
+            ferrea et commune de <placeName ref="#Avenza">Aventia</placeName> etiam<note
+              xml:id="CCCXIII_n_005" n="f" place="foot"><term xml:lang="latin">et iam</term>:
+                <emph>parola aggiunta in sopralinea, lettura incerta</emph>.</note> pro […]<note
+              xml:id="CCCXIII_n_006" n="g" place="foot"><emph>perdita di testo per lo spazio di due
+                parole</emph>.</note> et […]<note xml:id="CCCXIII_n_007" n="h" place="foot"
+                ><emph>seguono tre parole illeggibili, l'ultima delle quali termina con</emph>
+              s.</note> ita quod unusquisque possit haurire aquam de ipso puteo.</p>
+          <p xml:id="CCCXIII_p_017" n="17">Item teneatur potestas facere fieri […]<note
+              xml:id="CCCXIII_n_008" n="i" place="foot"><emph>due parole illeggibili, la prima
+                inizia con fo</emph> (<emph>forse</emph>
+              <term xml:lang="latin">fossam</term>
+              <emph>o</emph>
+              <term xml:lang="latin">foveam</term>).</note> a [..]<note xml:id="CCCXIII_n_009" n="l"
+              place="foot"><emph>una parola illeggibile, le lettere finali sono</emph> po
+                (<emph>forse</emph>
+              <term xml:lang="latin">campo</term>).</note>
+            <persName ref="#GordianusGrazano">Gordiani de <placeName ref="#Grazano"
+                >Grazano</placeName></persName><note xml:id="CCCXIII_n_010" n="m" place="foot"
+                ><emph>la lettura della desinenza è incerta</emph>.</note>, quem habet <placeName
+              ref="#Melaro">Melarius</placeName>, usque ad terminum […]<note xml:id="CCCXIII_n_011"
+              n="n" place="foot"><emph>parola di problematica lettura, la seconda sillaba è</emph>
+              ca.</note> sicut vadunt confines inter dominum episcopum et commune <placeName
+              ref="#Carrara">Carrarie</placeName>, designate inter <placeName ref="#Melaro"
+              >Melarium</placeName> et <placeName ref="#Bonasculo">Bonascolum</placeName>, que sit
+            ampla brachia IIII et […]<note xml:id="CCCXIII_n_012" n="o" place="foot"><emph>perdita
+                di testo per lo spazio di una parola</emph>.</note> et eam faciant illi qui habent
+            facere in <placeName ref="#Melaro">Melaro</placeName> et Fidiano<note
+              xml:id="CCCXIII_n_013" n="p" place="foot"><emph>lettura incerta</emph>.</note> per
+            totum mensem maii.</p>
+          <p xml:id="CCCXIII_p_018" n="18">Item teneatur dictus potestas […]<note
+              xml:id="CCCXIII_n_014" n="q" place="foot"><emph>perdita di testo per lo spazio di tre
+                o quattro parole</emph>.</note>, qui homines tenentur facere fieri becale<note
+              xml:id="CCCXIII_n_015" n="r" place="foot"><term type="incerto">becale</term>:
+                <emph>così nel testo per</emph>
+              <term xml:lang="latin">bedale</term>.</note> quod recipiat aquam de rivo de [terra]
+            domini <persName ref="#Gerardus">Gerardi</persName> et alteram de alio rivo ad adquandum
+            illas terras quas poterit in plano <placeName ref="#Carrara">Carrarie</placeName> et
+            ipsum faciant quod habent facere in plano <placeName ref="#Carrara">Carrarie</placeName>
+            per totum mensem maii, dummodo dominus episcopus habeat […]<note xml:id="CCCXIII_n_016"
+              n="s" place="foot"><emph>perdita di testo per lo spazio di una
+            parola</emph>.</note>.</p>
+          <p xml:id="CCCXIII_p_019" n="19">Item ordinaverunt quod nullus de <placeName
+              ref="#Carrara">Carraria</placeName> frangat vel disrumpat aquam de <placeName
+              ref="#Naçano">Naçano</placeName>, in loco dicto <placeName ref="#Becarolo"
+              >Becarolo</placeName>, pro possessione vel alia aliqua occasione, postquam remissa
+            fuerit, sed semper <pb n="289r" xml:id="fol_289r"/> remaneat intacta; et si frangere
+            oportebit, frangatur superius vel inferius; et qui contrafecerit perdat pro banno
+              <measure type="Lucenses" quantity="10" unit="solidus">solidos X
+            Lucensium</measure>.</p>
+          <p xml:id="CCCXIII_p_020" n="20">Item statuit<note xml:id="CCCXIII_n_017" n="t"
+              place="foot"><term type="incerto">statuit</term>: <emph>così nel testo per</emph>
+              <term xml:lang="latin">statuerunt</term>.</note> dominus Lunensis episcopus et
+            consilium <placeName ref="#Carrara">Carrarie</placeName> quod nullus de <placeName
+              ref="#Carrara">Carraria</placeName> proponat in consilio communis <placeName
+              ref="#Carrara">Carrarie</placeName> quod in <placeName ref="#Bonasculo"
+              >Bonasculo</placeName> fiat aliqua incisio sive tallia de istis arboribus, scilicet
+            castaneo, guercio, ylice, cerro, nec aliquis faciat ibi carbones si semper sit in banno
+            per venerabilem Lunensem episcopum et commune <placeName ref="#Carrara"
+              >Carrarie</placeName>; et qui contra fecerit perdat, pro qualibet vice, <measure
+              type="Lucenses" quantity="100" unit="solidus">soldos C Lucensium</measure>; et si
+            potestas vel consules, qui pro tempore fuerit vel fuerint, proponi promiseri<supplied
+              reason="omitted">n</supplied>t, perdant de eorum feudo <measure type="Lucenses"
+              quantity="10" unit="libra">libras X Lucensium</measure>; et hoc potestas sive
+            consules, qui erunt pro tempore, teneantur iurari facere omnes a XIIII annis superius et
+            sexaginta inferius. Et si aliquod capitulum reperiatur in prioribus statutis quod
+            contradicat illis capitulis, reducatur ad formam illius capituli cui
+          contradicat.</p>
+        </quote>
+        </div>
+        <div xml:id="CCCXIII_div3">
+        <p xml:id="CCCXIII_p_021" n="21">Acta sunt hec et recitata in <orgName
+            ref="#Carrara_S_Andrea">ecclesia Sancti Andree</orgName> de <placeName ref="#Carrara"
+            >Carraria</placeName> et approbata per venerabilem patrem dominum <persName
+            ref="#GuilEpLuni">Guilielmum, <roleName>Lunensem episcopum</roleName></persName>, et
+          consilium communis <placeName ref="#Carrara">Carrarie</placeName> et consules villarum de
+            <placeName ref="#Carrara">Carraria</placeName>, presentibus domino <persName
+            ref="#Gerardusarc">Gerardo <roleName>archipresbytero</roleName> de <placeName
+              ref="#Marnasco"><orgName ref="#Marinasco_S_Stefano"
+            >Marnasco</orgName></placeName></persName>, domino <persName ref="#GerardusGandulfini"
+            >Gerardo quondam domini Gandulfini</persName> et <persName ref="#VivianusBidiçano"
+            >Viviano de <placeName ref="#Biduzzano">Bidiçano</placeName></persName><note
+            xml:id="CCCXIII_n_018" n="u" place="foot"><term type="incerto">Bidiçano</term>:
+              <emph>così nel testo per</emph>
+            <term xml:lang="latin">Biduçano</term>, <emph>località di Carrara</emph>.</note>,
+          testibus rogatis ad hec. <date when="1235-05-22">Anno quod<note xml:id="CCCXIII_n_019"
+              n="v" place="foot"><term type="incerto">quod</term>: <emph>così nel testo per</emph>
+              <term xml:lang="latin">a</term>.</note> nativitate Domini M°CCLX, indictione III, XXIX
+            mensis madii</date>.</p>
+        <p xml:id="CCCXIII_p_022" n="22"><ptr target="#CCCXIII_st_001"/> Ego <persName
+            ref="#Guilielmusnot4">Guilielmus, <roleName>sacri palacii
+          notarius</roleName></persName>, tunc scriba publicus communis <placeName ref="#Carrara"
+            >Carrarie</placeName>, mandato dicti domini <persName ref="#GuilEpLuni">Guilielmi,
+              <roleName>Lunensis episcopi</roleName></persName>, et dicti consilii atque dictorum
+          consulum villarum de <placeName ref="#Carrara">Carraria</placeName>, predicta scripsi,
+          publicavi atque in publicam formam redegi.</p>
+      </div>
+      </div>
+    </body>
+  </text>
+</TEI>

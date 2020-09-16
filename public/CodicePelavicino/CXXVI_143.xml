@@ -1,0 +1,203 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXXVI_143">
+    <front xml:id="CXXVI_front">
+
+      <titlePart type="numerazioneNuova">143</titlePart>
+      <titlePart type="numerazioneOrig">CXXVI</titlePart>
+
+      <docDate xml:id="CXXVI_docDate">
+        <date when="1281-02-02">1281 febbraio 2</date>, <placeName>tra Sarzana e Sarzanello
+              <emph>(<term xml:lang="latin">inter burgum atque castrum Sarzane, sub porticu domus
+              domini Rollandini de Vezano, que domus est posita iuxta domum Fratrum
+            Minorum</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXXVI_regesto">
+        <p>Sachino del fu Gualdo di Santo Stefano, la madre Benfatta e la moglie Corradina vendono a
+          Giacomino, <term xml:lang="latin">magister fisicus</term>, di Sarzana del fu Ienuino di
+          Felegaria un pezzo di terra, sito nel luogo detto <term xml:lang="latin">Bovetulo</term>.
+          Il prezzo è di 18 lire in denari genovesi.</p>
+      </div>
+
+      <div type="footer" xml:id="CXXVI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 229v.- 230v., cc. CCXXIv.- CCXXIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 126,
+            p. 159.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <emph>Bovetulo</emph>.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXXVI_div">
+        <p xml:id="CXXVI_p_001" n="1"><pb n="229v" xml:id="fol_229v"/>In nomine Domini, amen. Anno a
+          nativitate Eius <date when="1281-02-02">M°CCLXXXI°, indictione VIIII, die secundo mensis
+            februarii</date>.<persName ref="#SachinusGualdi">Sachinus quondam domini Gualdi de
+              <placeName ref="#Santo_Stefano">sancto Stephano</placeName></persName>, <persName
+            ref="#Benfaita">domine Benfaita, mater sua atque uxor quondam suprascripti domini
+            Gualdi</persName>, et <persName ref="#Conradina">Cunradina, uxor ipsius <persName
+              ref="#SachinusGualdi">Sachini</persName></persName>, non choacte predicte<note
+            place="foot" n="a" xml:id="CXXVI_n_001">
+            <term xml:lang="latin">predicte</term>: pre <emph>aggiunto in sopralinea in corpo più
+              piccolo.</emph>
+          </note> mulieres ab aliquo publice vel privatim, immo earum pura et libera voluntate et de
+          consensu et voluntate dicti <persName ref="#SachinusGualdi">Sachini</persName>, ibidem
+          presentis et consentientis, et ipse cum eis omnes simul et quilibet eorum in solidum, per
+          se et eorum heredes, vendiderunt, dederunt et tradiderunt <persName
+            ref="#IacopinusIenuini"><roleName>magistro</roleName> Iacopino
+              <roleName>fisico</roleName> de <placeName ref="#Sarzana">Sarzana</placeName> quondam
+            Ienuini <roleName>calçolarii</roleName> de <placeName ref="#Felegaria"
+              >Felegaria</placeName></persName>, recipienti pro se suisque heredibus atque cui
+          dederit vel cui commiserit, unum petium terre que est sex iugera et plus, quantacumque sit
+          infra istas coherencias, posite in loco dicto <placeName ref="#Bovetulo"
+            >Bovetulo</placeName>. Que terra est in parte campia atque in parte buscara atque in
+          parte plandara et in parte vineara, cui coheret ab una parte <placeName ref="#Amola"
+            >canalis seu rivus de Amola</placeName>, ab alia parte terra campia <persName
+            ref="#FuscusFer">Fuschi de Ferrino de <placeName ref="#Sarzanello">castro
+              Sarzane</placeName></persName> in parte et in parte terra campia suprascripti
+            <persName ref="#SachinusGualdi">Sachini</persName>, ab alia parte via publica et ab alia
+          parte terra buschara suprascripti <persName ref="#SachinusGualdi">Sachini</persName>, et
+          si que alie sint ibi coherencie. Et dederunt, tradiderunt, cesserunt atque mandaverunt
+          eidem emptori, recipienti ut dictum est, omne dominium et proprietatem, usum et
+          utilitatem, accessum atque regressum, superiora et inferiora, et omnia iura, actiones et
+          rationes utiles et directas, reales et personales seu mixtas, sibi competentes et
+          competencia seu competitura in dicta terra et eius occasione, faciendo eundem emptorem de
+          hiis procuratorem et dominum ut in rem suam, ita ut ex hiis omnibus et singulis ipse
+          emptor suique heredes atque cui dederit vel commiserit possit agere et experiri, tueri,
+          causari et deffendere suo proprio nomine directo et utiliter adversus quamcumque personam
+          et locum et exinde facere quicquid voluerit, sine contradictione dictorum venditorum vel
+          alterius persone; dando omnes simul et quilibet eorum in solidum eidem emptori licenciam
+          et bailliam ut sua auctoritate ingrediatur et accipiat corporalem tenutam et possessionem,
+          quandocumque voluerit, de dicta terra, constituendo se pro eo et eius nomine precario
+          possidere donec tenutam corporalem de ea fuerit ingressus; pro precio cuius terre predicti
+          venditores et quilibet eorum in solidum confessi fuerunt, coram me notario et testibus
+          infrascriptis, se habuisse et recepisse a dicto emptore <measure type="Ianuenses"
+            quantity="18" unit="libra">libras XVIII bonorum denariorum Ianuensium</measure>, et
+          renunciaverunt etiam exceptioni non numerate pecunie et precii integre non habiti,
+          traditi, recepti et soluti et omni alii iuri et legum auxilio. Et confessi fuerunt
+          predicti venditores et quilibet eorum in solidum quod dicta terra valebat plus precio
+          suprascripto, unde totum et quicquid ipsa terra, cum omnibus suis iuribus atque
+          pertinenciis, plus valebat, eidem emptori donaverunt titulo pure ac simplicis donationis
+          inrevocabiliter, in perpetuum, inter vivos, et renunciaverunt illi legi que iuvat deceptos
+          in venditionibus ultra dimidiam iusti precii. Insuper dicti venditores, omnes simul et
+          quilibet eorum in solidum, per se et eorum heredes, convenerunt et promiserunt dicto
+          emptori, recipienti pro se suisque heredibus et cui dederit vel commiserit, dictam terram
+          non imbrigare vel molestare deinceps, immo eam, cum omni<supplied reason="omitted"
+            >bus</supplied> iuribus et pertinenciis suis, ei deffendere et exbrigare iure ab omni
+          molestante persona et loco propriis expensis et advocato eorumdem venditorum et cuiuslibet
+          eorum in solidum eorumque heredum, sive de dominio vel de possessione vel detemptione
+          ipsius terre vel alio modo vel iure, in toto vel in parte, <supplied reason="omitted"
+            >si</supplied> aliqua eidem questio vel controversia mota fuerit per aliquam personam
+          vel locum. Et, si non deffenderent vel non possent deffendere, teneantur, <pb n="230r"
+            xml:id="fol_230r"/>quilibet eorum in solidum, eidem emptori dare et restaurare salvum
+          cambium de bonis eorum in loco consimili eius tocius quod ex dicta terra evictum fuerit,
+          secundum quod res evicta tunc valeret et meliorata esset, sub extimatione et arbitrio
+          bonorum hominum. Et omne dampnum et expensas et interesse etiam singulare, quod vel quas
+          idem emptor suique heredes ea occasione haberet vel substineret, teneantur predicti
+          venditores et quilibet eorum in solidum eorumque heredes eidem emptori suisque heredibus
+          et cui dederit vel commiserit integre restaurare, credendo de dampno et expensis soli,
+          nudo et simplici verbo ipsius emptoris suorumque heredum et cui dederit vel commiserit,
+          sine iuramento et testium vel instrumenti vel alterius honere probationis. Tali pacto
+          apposito de communi concordia inter eos quod, si questio vel controversia mota fuerit
+          eidem emptori vel eius heredibus vel cui dederit de dicta terra in toto vel in parte vel
+          eius occasione ab aliqua persona vel loco, non teneatur ipse emptor vel eius heredes, seu
+          cui dederit, denunciare dictis venditoribus vel alicui eorum vel eorum heredibus. Et si
+          sententia vel sententie lata vel late fuerint contra eum vel contra<note place="foot"
+            n="b" xml:id="CXXVI_n_002">
+            <term xml:lang="latin">contra</term>: pre <emph>: aggiunto al termine del testo, prima
+              di</emph>
+            <term xml:lang="latin">Actum</term>
+            <emph>con segno di richiamo.</emph>
+          </note> eos, non teneantur predictus emptor neque sui heredes, seu cui dederit vel
+          commiserit, ab ea vel ab eis appellare, et si appellaret vel appellarent non teneantur pro
+          se quod causam appellationis, atque nichillominus habeat regressum contra dictos
+          venditores et quemlibet eorum in solidum et eorum heredes et bona de evictione vel
+          deffensione et omnibus et singulis suprascriptis. Hanc autem venditionem et omnia et
+          singula que in hac carta leguntur suprascripti <persName ref="#SachinusGualdi"
+            >Sachinus</persName>, <persName ref="#Benfaita">domine Benfaita</persName> et <persName
+            ref="#Conradina">Cunradina</persName>, omnes simul et quilibet eorum in solidum, per se
+          et eorum heredes, convenerunt atque promiserunt suprascripto <persName
+            ref="#IacopinusIenuini"><roleName>magistro</roleName> Iacopino</persName>, recipienti
+          pro se suisque heredibus et cui dederit vel commiserit, attendere et observare et numquam
+          contra facere vel venire, de iure vel de facto, in pena et sub pena <measure
+            type="Ianuenses" quantity="18" unit="libra">librarum XVIII bonorum denariorum
+            Ianuensium</measure>; quam penam dare atque solvere promiserunt predicti venditores et
+          quilibet eorum in solidum eidem emptori, recipienti pro se suisque heredibus et cui
+          dederit vel commiserit, tociens quociens fuerit contraventum et pro quolibet capitulo non
+          observato; et, pena soluta vel non, suprascripta omnia et singula nichillominus semper
+          firma permaneant, cum eadem pena commissione<note place="foot" n="c" xml:id="CXXVI_n_003">
+            <term type="incerto">cum eadem pena commissione</term><emph>: così nel testo.</emph>
+          </note>, obligando omnes simul et quilibet eorum in solidum ad hec<note place="foot" n="d"
+            xml:id="CXXVI_n_004">
+            <term type="incerto">hec</term>: h <emph>corretto su precedente lettera.</emph>
+          </note> attendenda et observanda se et eorum heredes et omnia eorum bona mobilia et
+          immobilia, habita et habenda, et renunciando nove constitutioni de pluribus reis, qua
+          dicitur unusquisque pro parte conveniri debere, et epistule <persName ref="#Adrianus">divi
+            Adriani</persName>; et specialiter dicte mulieres renunciando omni iuri dotis et
+          donationis, pignoris et ypothecarum atque beneficio senatus consultui<note place="foot"
+            n="e" xml:id="CXXVI_n_005">
+            <term type="incerto">consultui</term><emph>: così nel testo.</emph>
+          </note>
+          <placeName ref="#Velleia">Velleiani</placeName>, quod loquitur de promissionibus et
+          intercessionibus mulierum, certiorate primo a me <persName ref="#AdornellusTranchedinot"
+            >Adornello <roleName>notario</roleName> et <roleName>iudice
+            ordinario</roleName></persName> quod sit beneficium senatus consulti <placeName
+            ref="#Velleia">Velleiani</placeName> et quod mulieribus prosit, et etiam legi dicenti
+            uxore<supplied reason="omitted">m</supplied> cum viro obligari non posse in eodem
+          instrumento crediti et omni alii iuri et legibus, quibus contra predicta vel aliquod
+          predictorum possent ullo tempore facere vel venire.</p>
+        <p xml:id="CXXVI_p_002" n="2">Actum inter <placeName ref="#Sarzana">burgum</placeName> atque
+            <placeName ref="#Sarzanello">castrum Sarzane</placeName>, sub porticu domus <persName
+            ref="#RollanndinusVez">domini Rollandini de <placeName ref="#Vezzano"
+            >Vezano</placeName></persName>, que domus est posita iuxta domum Fratrum Minorum,
+          presentibus <persName ref="#CursusVez">Curso de <placeName ref="#Vezzano"
+              >Vezano</placeName> quondam Vitalis de <placeName ref="#Campola"
+            >Campola</placeName></persName> districtus <placeName ref="#Vezzano">Vezani</placeName>,
+          habitatore <placeName ref="#Sarzana">Sarzane</placeName>, <persName
+            ref="#GibertusFancellus">Giberto Fancello Adorneti</persName>,<pb n="230v"
+            xml:id="fol_230v"/><persName ref="#Burdonis">Burdoni de <placeName ref="#Sarzana"
+              >Sarzana</placeName> quondam <roleName>Prefecti de <placeName ref="#Campiza"
+                >Campiza</placeName></roleName></persName> de districtu <placeName ref="#Parma"
+            >Parme</placeName> et <persName ref="#LazarinusBonsignoris">Lazarino quondam Bonsegnori
+            de <placeName ref="#Sarzanello">castro Sarzane</placeName></persName>, testibus ad hec
+          rogatis.</p>
+        <p xml:id="CXXVI_p_003" n="3"><ptr target="#CXXVI_st_001"/>Ego <persName
+            ref="#AdornellusTranchedinot">Addornellus de <placeName ref="#Sarzana"
+              >Sarzana</placeName>, domini Tranchedi comitis de Advocatis de <placeName ref="#Lucca"
+              >Luca</placeName>
+            <roleName>iudex ordinarius</roleName> atque <roleName>notarius</roleName></persName>,
+          hiis interfui rogatus et scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="\schema\tei_cp.rng" type="application\xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="CCCCLXXXXVIII_459">
+    <front>
+      <titlePart type="numerazioneNuova">459</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXXVIII</titlePart>
+
+      <docDate xml:id="CCCCLXXXXVIII_docDate"><date when="1189-02-01">1186 febbraio 1</date> e <date
+          when="1186-03-28">1186 marzo 28</date>, Calcandola presso Sarzana (in
+        Carcandula)</docDate>
+
+      <div type="regesto" xml:id="CCCCLXXXXVIII_regesto">
+        <p> Gibertino di Mabilia del fu Buttafava chiede in livello ad Atto del fu Guglielmo di
+          Fosdinovo una tenuta detta terra Carrarese. La transazione costa 20 soldi di
+          imperiali.</p>
+      </div>
+      <div type="footer" xml:id="CCCCLXXXXVIII_footer">
+        <div type="orig_doc">
+          <p>Copia [C] cc. 374v.-374&lt;bis&gt;r., cc. CCCLXVv.-CCCLXVIr. <emph>secondo la
+              numerazione originale</emph>.</p>
+        </div>
+        <div type="biblio">
+          <p> Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 498, pp.
+            525-526. Bibliografia: <ref target="#ZOPPI_2013">ZOPPI 2013</ref> p. 17.</p>
+        </div>
+        <div type="crit_notes">
+          <note> Nel margine superiore, al centro: <term xml:lang="latin">De Faucenova vel de
+              Fosdenova</term>; nel margine esterno, di mano moderna: <term xml:lang="latin"
+              >Fosdinovo</term>.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXXXVIII. Pensionis Guibertini de Mabilia in Fesdenova. </term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCCLXXXXVIII_div">
+        <p xml:id="CCCCLXXXXVIII_p_002" n="2">
+          <date when="1186-02-01">Anno dominice incarnationis M° centesimo octogesimo VI, indictione
+            IIII</date>. Peto ego <persName ref="#GibertinusMabilia">Gibertino de Mabilia, filius
+            quondam Butafabe</persName>, una cum meis heredibus, a vobis <persName
+            ref="#AttoFaucenova">Attone de <placeName ref="#Fosdinovo">Faucenova</placeName>, filio
+            quondam Guilielmi</persName>, tuisque heredibus libellario nomine habere, tenere,
+          laborare, frui, meliorare, id est totam tenutam in integrum, cum accessibus et regressibus
+          suis, que quondam fuit recta et laborata per quemdam filium <persName ref="#Carentionus"
+            >Carentionis</persName>, de terra videlicet que dicitur <placeName ref="#Carrareseterra"
+            >terra Carrarese</placeName>, tali tenore videlicet quod a presenti die in antea in
+          perpetuum ego predictus <persName ref="#GibertinusMabilila">Gibertinus</persName> et mei
+          heredes sive cui dederimus exinde faciamus <pb n="374bisr" xml:id="fol_374bisr"/> quicquid
+          facere voluerimus, sine omni tua tuorumque heredum contradictione, reddendo exinde vobis
+          in singulis annis, infra octavam Domini nativitatis, fictam pensionem <measure
+            quantity="2" unit="denarius">denariorum II tantum</measure> et nichil aliud; et exinde
+          datum fuit finitum precium <measure quantity="40" unit="solidus">soldorum XL</measure>
+          predicto <persName ref="#AttoFaucenova">Attoni</persName>
+          <measure type="imperiales" unit="denarius">bonorum denariorum imperialium</measure>. Et
+          insuper penam ambo constituerunt ut, si quis eorum vel eorum heredum hoc retollere vel
+          laxare voluerit, componat pars parti fidem servanti <measure quantity="20" unit="solidus"
+            >soldos XX</measure> et, post penam solutam, iste libellus in sua permaneat
+          firmitate.</p>
+        <p xml:id="CCCCLXXXXVIII_p_003" n="3"> Actum est hoc in <placeName ref="#Carcandola"
+            >Carcandula</placeName>, <date when="1186-02-01">die sabbati, qui fuit primus intrante
+            mense februario</date>, feliciter. Preterea <date when="1186-03-28">eodem anno, die
+            veneris, qui fuit V kalendas aprilis</date>, <roleName>domina</roleName>
+          <persName ref="#CarrareseFaucenova">Carrarese</persName>, coniunx eiusdem <persName
+            ref="#AttoFaucenova">Attonis</persName>, in castro <placeName ref="#Fosdinovo"
+            >Faucenova</placeName>, in domum suam <note place="foot" n="b"
+            xml:id="CCCCLXXXXVIII_n_001">in domum suam: <emph>così nel testo per in domo
+            sua</emph></note> , assensit et firmavit totum quod superius legitur in testimonio
+            <persName ref="#CorsusFaucenova">Corsi, nepotis <roleName>presbyteri</roleName> Raimundi
+            de <placeName ref="#Fosdinovo">Faucenova</placeName></persName>, et <persName
+            ref="#HubertinusPorta">Hubertini de la <placeName ref="#Porta"
+            >Porta</placeName></persName>.</p>
+        <p xml:id="CCCCLXXXXVIII_p_004" n="4"> Signa manuum iamscripti <persName
+            ref="#AttoFaucenova">Attonis</persName> et iamscripte sue coniugis <persName
+            ref="#CarrareseFaucenova">Carrarese</persName>, locatorum, et iamscripti <persName
+            ref="#GibertinusMabilila">Gibertini</persName> petitoris, qui hunc libellum in hunc
+          modum fieri rogaverunt.</p>
+        <p xml:id="CCCCLXXXXVIII_p_005" n="5"> Signa manuum <persName ref="#UgolinusAmelia">Ugolini
+            de <placeName ref="#Ameglia">Amelia</placeName></persName>, <persName ref="#Tedescus"
+            >Teudiski de <placeName ref="#Fosdinovo">Faucenova</placeName></persName>, <persName
+            ref="#GerardusFaucenova">Gerardi de <placeName ref="#Fosdinovo"
+            >Faucenova</placeName></persName>, rogatorum testium.</p>
+
+
+        <p xml:id="CCCCLXXXXVIII_p_006" n="6">
+          <ptr target="#CCCCLXXXXVIII_st_001"/>Ego <persName ref="#Lombardusnot"
+            >Lombardus</persName>, <roleName>domini imperatoris et Lunensis curie
+            notarius</roleName>, interfui et rogatus hunc libellum scripsi.</p>
+      </div>
+
+    </body>
+  </text>
+
+</TEI>

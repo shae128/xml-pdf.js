@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="X_39">
+		<front xml:id="X_front">
+
+			<titlePart type="numerazioneNuova">39</titlePart>
+			<titlePart type="numerazioneOrig">X</titlePart>
+
+			<docDate xml:id="X_docDate">
+				<date when="1183-02-06"> 1183 febbraio 6</date>, <placeName ref="#Fabiano">
+					Fabbiano </placeName> (<term xml:lang="latin">in loco Fabiani</term>) </docDate>
+
+			<div type="regesto" xml:id="X_regesto">
+				<p>Il prete Martino e Lisiardo del fu Marhaturta e Bonitero Debasate dichiarano che
+					al tempo in cui il vescovo di Luni Andrea consacrò la chiesa di S. Andrea di
+					Corvaia, Albizo de Bacano e Uguicio chiesero al vescovo di incaricare il prete
+					Pandolfo e il diacono Bulamonte di stabilire a Isola Santa, presso l'Alpe
+					Terricie, una chiesa e un ospedale intitolati ai santi Iacopo e Cristoforo,
+					sottoposti al vescovo suddetto; e che il vescovo, dietro richiesta dei suddetti
+					prete e diacono, incaricò un certo Martellino, che aveva iniziato a costruire in
+					quel luogo un edificio, di adibirlo a chiesa e ospedale. </p>
+			</div>
+
+			<div type="footer" xml:id="X_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] cc. 62r.,c. LIIIIr. secondo la numerazione originale</p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione: <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 16,
+						pp. 10, pp. 13-14. </p>
+					<p>Bibliografia: si accettano in questa sede le analisi di <ref
+							target="#CONTI_1963">CONTI 1963</ref>e <ref target="#LALLAI_2010">LALLAI
+							2010</ref>, ma si vedano anche <ref target="#AMBROSI_CARROZZI_1986"
+							>AMBROSI CARROZZI 1986</ref>
+					</p>
+				</div>
+
+				<div type="crit_notes">
+					<note>Nel margine esterno, di mano moderna:<emph>Carrara</emph>, in un secondo
+						tempo depennato con tre tratti obliqui. </note>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">X. Lictere super hospitale Corvarensium.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="X_div">
+				<p xml:id="X_p_001">
+					<pb n="62r" xml:id="fol_062r"/>
+					<ptr target="X_st_001"/> In Dei eterni nomine. Breve qualiter in loco<placeName
+						ref="#Fabiano2"> Fabiani</placeName>, presentia bonorum virorum, nomina
+					quorum inferius continentur,<roleName> presbyter<persName
+							ref="#Martinus_presbyter"> Martinus</persName></roleName> et <persName
+						ref="#LisiardusMarhaturte">Lisiardus quondam Marhaturte</persName> et
+						<persName ref="#BonitherusDebasate">Bonitherus Debasate</persName> dicunt
+					quod in tempore <persName ref="#AndreaEpLuni">Andree,<roleName> episcopi
+							Lunensis</roleName></persName>, quando consecravit <orgName
+						ref="#Corvaia_S_Andrea">ecclesiae <note xml:id="X_n_01" place="foot" n="a"
+							>ecclesiae: <emph>così nel testo per</emph> ecclesiam.</note> Sancti
+						Andree</orgName> de <placeName ref="#Corvaia">burgo
+						Corvariensium</placeName>, viderunt venire <persName ref="#AlbithusBacano"
+						>Albithum de <placeName ref="#Bacano">Bacano</placeName></persName>
+					<note xml:id="X_n_02" place="foot" n="b">Bacano: <emph>lettura
+						incerta</emph></note>; et petivit, insimul cum <persName ref="#Uguicio"
+						>Uguicione</persName>, a prefacto episcopo ut daret eis
+						<roleName>presbyterum <persName ref="#Pandulfus_presbyter"
+							>Pandulfum</persName></roleName> et <persName ref="#Bulamons_diaconus"
+						>Bulamontem <roleName>diaconem</roleName></persName>
+					<note xml:id="X_n_03" place="foot" n="c">diaconem: <emph>così nel
+						testo</emph></note>, ut designarent in <placeName ref="#Alpe_Terricie">Alpe
+						Terricie</placeName>, in loco ubi dicitur <placeName ref="#Insula_Sancta"
+						>Insula Sancta</placeName>, <orgName
+						ref="#Isola_Santa_SS_Iacopo_e_Cristoforo" type="ecclesia_hospitalis">
+						ecclesiam et hospitale, in onore Sancti Iacobi et Sancti
+						Christophori</orgName> et ad onorem predicti episcopi et sive<note
+						xml:id="X_n_04" place="foot" n="d"> sive: <emph>così nel testo per </emph>
+						sue.</note> plebis; et quod, ut petivit predictus presbyter cum diacono,
+					fecit et insuper investivit quendam <persName ref="#Martellinus"
+								><expan>Martellin<ex>um</ex></expan>
+					</persName>nomine, qui inceperat casam unam, ut ipse haberet et teneret locum
+					illum et ecclesiam et ospitale pro predicto Lunensi episcopo et sue plebis. </p>
+				<p xml:id="X_p_002"> Hoc actum est presentia <roleName>presbyteri <persName
+							ref="#Gratianus_presbyter">Gratiani</persName></roleName>,
+						<roleName>presbyteri <persName ref="#Hondus_presbyter"
+						>Hondi</persName></roleName> et <persName ref="#Manens_diaconus">Manentis
+							<roleName> diaconi</roleName></persName>, <persName
+						ref="#Ubaldus_plebanus">Ubaldi <roleName>plebani</roleName></persName>,
+						<date when="1183-02-06">anno dominice incarnationis millesimo centesimo
+						octogesimo tercio, octavo idus februarii, indicione quintadecima</date>.
+					Predicti homines ibi fuerunt. </p>
+				<p xml:id="X_p_003">
+					<ptr target="X_st_002"/>Ego <persName ref="#Rolandus_notarius">Rolandus
+							<roleName> notarius</roleName></persName>
+					<persName ref="#Linprarius"> domni Linprarius</persName>, cuius presentia
+					suprascripta <note xml:id="X_n_05" place="foot" n="e"> suprascripta:
+							<emph>lettura incerta</emph>.</note> fuerunt addita, hec scripsi. </p>
+			</div>
+		</body>
+	</text>
+</TEI>

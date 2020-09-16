@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="DXXXIIII_495">
+    <front xml:id="DXXXIIII_front">
+      <titlePart type="numerazioneNuova">495</titlePart>
+      <titlePart type="numerazioneOrig">DXXXIIII</titlePart>
+      <docDate xml:id="DXXXIIII_docDate">
+        <date when="1184-12-21">1184 dicembre 21</date>, <placeName>Sarzana (<term xml:lang="latin"
+            >in burgo Sarzana, in ecclesia Beati Basilii</term>)</placeName>
+      </docDate>
+      <div type="regesto" xml:id="DXXXIIII_regesto">
+        <p>Rainaldo, abate del monastero di Linari, riceve la benedizione del vescovo di Luni al
+          quale giura fedeltà.</p>
+      </div>
+      <div type="biblio">
+        <p> Copia [C] c. 397r., c. CCCLXXXVIIIIr. secondo la numerazione originale.</p>
+        <p>Edizione in<ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref> n. 534, pp. 597-598
+          con data 1185. </p>
+
+      </div>
+      <div type="note" xml:id="DXXXIIII_note">
+        <p> La indicata corrisponde al 21 dicembre 1184; non accettabile la correzione di <ref
+            type="biblio" target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 36 al <term xml:lang="latin"
+            >XII kalendas Ianuarii</term> del 1185. </p>
+      </div>
+      <div type="note" xml:id="DXXXIIII_note2">
+        <p>La trascrizione in <term xml:lang="latin">mundum</term> è stata fatta dopo la morte del
+          notaio Lombardo dal figlio Prefetto, durante l’episcopato di Marzucco (1214-1220). </p>
+      </div>
+      <div type="appr">
+        <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXXXIIII.
+            Qualiter abbas de Linario accepit benedictionem ab episcopo Lunensi et ei iuravit
+            fidelitatem.</term></p>
+      </div>
+    </front>
+    <body>
+      <div xml:id="DXXXIIII_div">
+        <p xml:id="DXXXIIII_p_01"> In eterni Dei nomine, amen. <date when="1184-12-21">Anno ab
+            incarnatione Eius M°C octogesimo V, indictione III</date>, in burgo <placeName
+            ref="#Sarzana">Sarzana</placeName>, in ecclesia <orgName ref="#Sarzana_S_Basilio">Beati
+            Basilii</orgName>, die sabbati, qui fuit XI kalendas ianuarii, in presentia <persName
+            ref="#Rodulfusarc"><expan>R<ex>odulfi</ex></expan></persName><note place="foot" n="a"
+            xml:id="DXXXIIII_n_001"><emph>Integrazione da docc. 231-CCLXVIIII e 372-CCCCX</emph>. </note>
+          <roleName>Lunensis archidyaconi</roleName>, <persName ref="#Sismunduscan"
+            >Sysmundi</persName>
+          <roleName>Lunensis canonici</roleName><note place="foot" n="b" xml:id="DXXXIIII_n_002"
+            >canonici: <emph>corretto su precedente scrittura abrasa</emph>.</note>,
+            <roleName>domni</roleName>
+          <persName ref="#IohannesMontePosario">Iohannis</persName>
+          <placeName ref="#Monte_Posario">de monte Posario</placeName>
+          <roleName>presbyteri et monachi</roleName>, <roleName>presbyteri</roleName>
+          <persName ref="#OdoParmapres">Odonis</persName> de <placeName ref="#Parma">Parma
+          </placeName> et aliorum plurimorum. <roleName>Domnus</roleName>
+          <persName ref="#Rainaldus_abbas">Rainaldus</persName>, <placeName ref="#Linari"
+            >Linarensis</placeName>
+          <roleName>abbas</roleName>, benedictionem accepit a <roleName>domino</roleName>
+          <persName ref="#PetrusEpLuni">Petro</persName>, <roleName>Dei gratia Lunensi
+            episcopo</roleName>, eique fidelitatem iuravit, secundum quod in ordine continetur,
+          suisque successoribus catholicis. </p>
+        <p xml:id="DXXXIIII_p_02">
+          <ptr target="#DXXXIIII_st_001"/> Ego <persName ref="#Prefectusnot">Prefectus</persName>,
+            <roleName>domini imperatoris et Lunensis curie notarius</roleName>, hanc cartulam
+          quondam a <persName ref="#Lombardusnot">Lombardo</persName>
+          <roleName>notario</roleName>, genitore meo, abreviatam, mihi commendatis illius contractis
+          a Lunensi episcopo et accepta auctoritate illiusdem contractus ab episcopo Lunensi
+          complendi, visa sceda, bona fide, de parabola et auctoritate domini <persName
+            ref="#MarzuccusEpLuni">Marzucci</persName>, <roleName>Lunensis episcopi</roleName>,
+          nichil addens vel minuens, complevi et scripsi et meo signo signavi. </p>
+      </div>
+    </body>
+
+  </text>
+</TEI>

@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXIIIIbis_226">
+    <front xml:id="CCLXIIIIbis_front">
+
+      <titlePart type="numerazioneNuova">226</titlePart>
+      <titlePart type="numerazioneOrig"/>
+
+      <docDate xml:id="CCLXIIIIbis_docDate">
+        <date when="1200-01-20">1200 gennaio 20</date>, <placeName>Soliera (<term xml:lang="latin"
+            >apud castrum Solerie, in camera archipresbyteri</term>) </placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXIIIIbis_regesto">
+        <p>Gualtiero (<term xml:lang="latin">Gualterotus</term>), vescovo di Luni, loca agli uomini
+            <term xml:lang="latin">de Lacanova</term> della villa di Gassano tutta la terra e tenuta
+            <term xml:lang="latin">de manso Rivi</term>, al fitto annuo di 1 sestario di frumento ad
+          agosto, 7 uova, 1 pollo e 1 fascio di fieno nel giorno di Santo Stefano, soltanto se in
+          quel giorno il vescovo si recherà a Soliera. Rangorello e Bentivegna <term
+            xml:lang="latin">de Lacanova</term>, per sé e i loro consorti, devono dare l’affitto al
+            <term xml:lang="latin">villico</term> del vescovo di Luni. La locazione costa 9 soldi di
+          imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXIIIIbis_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP c. 269r., c. CCLXIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912bis">LUPO GENTILE 1912</ref>, n. 264 bis, p.
+            244, con la data 1213.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel manoscritto il documento è privo di numerazione. <p>Autentica databile al terzo
+              quarto del XIII secolo.</p></note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXIIIIbis_div">
+        <p xml:id="CCLXIIIIbis_p_001" n="1"><pb n="269r" xml:id="fol_269r"/><date when="1200-01-20"
+            >Millesimo CC, XIII kalendas februarii, qui est dies iovis, indictione
+            III</date>.<persName ref="#GualEpLuni">Gualterotus, Dei gratia <roleName>Lunensis
+              episcopus</roleName></persName>, dedit, concessit atque locavit omnibus illis de
+            <placeName ref="#Lacanova">Lacanova</placeName> de villa <placeName ref="#Gassano"
+            >Gassani</placeName> totam terram et tenutam, quam tenent ab eo, de manso <placeName
+            ref="#Rivo">Rivi</placeName>, atque eorum heredibus, ut ab hac die in antea habeant
+            <supplied reason="omitted">et</supplied> fruantur ad eorum utilitatem, cum omnibus
+          accessionibus et ingressionibus suis et cum omnibus super se habentibus et ad eam
+          pertinentibus, ita quod omnes illi de predicto loco de <placeName ref="#Lacanova"
+            >Lacanova</placeName>, una cum eorum heredibus, annuatim fictum I sextarium frumenti per
+            <date when="--08">mensem augusti</date> et in die sancti Stephani VII ova et I pullum et
+          I fassium straminis, si episcopus <placeName ref="#Soliera">Soleriam</placeName> venerit,
+          persolvant tantum; alia superimposita non fiat, set tamen <persName
+            ref="#RangolellusLacanova">Rangolellus</persName> et <persName ref="#BenteveniaLacanova"
+            >Bentevenia de <placeName ref="#Lacanova">Lacanova</placeName></persName> et eorum
+          heredes debent respondere de ipso afficto <roleName>villico</roleName> Lunensis episcopi
+          per se et per eorum consortes omnes. Qui suprascriptus episcopus confitetur recepisse
+            <measure type="imperiales" quantity="9" unit="solidus">IX soldorum imperialium</measure>
+          ab eis servicium propter locationem illam.</p>
+        <p xml:id="CCLXIIIIbis_p_002" n="2">Actum apud <placeName ref="#Soliera">castrum
+            Solerie</placeName>, in camera <roleName>archipresbyteri</roleName>, sub pena <measure
+            type="Imperiales" quantity="20" unit="solidus">XX soldorum</measure>, si quis ex ipsis
+          vel eorum heredibus aut successoribus hec omnia, qualiter superius leguntur, non iure
+          tenuerit, aut si retollere<note xml:id="CCLXIIIIbis_n_001" n="a" place="foot"><term
+              xml:lang="latin">retollere</term>: re <emph>iniziale aggiunto in
+            sopralinea</emph>.</note> vel laxare voluerit et, post penam solutam, hec carta in sua
+          permaneat firmitate. <persName ref="#PetrusCuscugnanopres"><roleName>Presbyter</roleName>
+            Petrus de <placeName ref="#Cuscugnano">Cuscugnano</placeName></persName>, <persName
+            ref="#ArmanninusSoleria">Armanninus de <placeName ref="#Soliera"
+            >Soleria</placeName></persName>, <persName ref="#ThebaldinusPadule">Tebaldinus de
+              <placeName ref="#Padule">Padule</placeName></persName>, rogati testes,
+          interfuerunt.</p>
+        <p xml:id="CCLXIIIIbis_p_003" n="3">
+          <ptr target="#CCLXIIIIbis_st_001"/> Ego <persName ref="#Albertusnot">Albertus,
+              <roleName>notarius Frederici invictissimi imperatoris</roleName></persName>, interfui
+          et rogatus hanc cartam scripsi.</p>
+      </div>
+      <div xml:id="CCLXIIIIbis_div2" type="autentica">
+        <p xml:id="CCLXIIIIbis_p_004" n="4"><ptr target="#CCLXIIIIbis_st_002"/> Ego <persName
+            ref="#PetrusGualterotinot">Petrus, <roleName>sacri palacii
+            notarius</roleName></persName>, autenticum huius exempli vidi et legi et diligenter
+          respexi, in quo continebatur ut in isto legitur, nil addens vel minuens quod mutet sensum
+          vel variet intellectum et, rogatus, fideliter exemplavi, signum proprium apponendo; quod
+          auttenticum erat rasum in duobus locis, in quibus dimisi spacia.</p>
+        <p xml:id="CCLXIIIIbis_p_005" n="5"><ptr target="#CCLXIIIIbis_st_003"/> Ego <persName
+            ref="#Guidonot">Guido, <roleName>sacri palacii notarius</roleName></persName>, huius
+          exempli autenticum vidi, legi et ascultavi, in quo continebatur ut in isto legitur et,
+          rogatus, me subscripsi, signum proprium apponendo.</p>
+        <p xml:id="CCLXIIIIbis_p_006" n="6"><ptr target="#CCLXIIIIbis_st_004"/> Ego <persName
+            ref="#PetrusSolerianot">Petrus de <placeName ref="#Soliera">Soleria</placeName>,
+              <roleName>sacri palacii notarius</roleName></persName>, autenticum h<supplied
+            reason="omitted">ui</supplied>us exempli vidi, legi et diligenter respexi et, rogatus,
+          me subscripsi, signum proprium apponendo. <note>Autentica del documento n. 226-CCLXIIIIbis
+            databile al terzo quarto del XIII secolo <date notBefore="1250-01-01"
+              notAfter="1275-12-31" cert="low"/></note></p>
+      </div>
+    </body>
+  </text>
+</TEI>

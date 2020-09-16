@@ -1,0 +1,190 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="DXIII_474">
+    <front xml:id="DXIII_front">
+
+      <titlePart type="numerazioneNuova">474</titlePart>
+      <titlePart type="numerazioneOrig">DXIII</titlePart>
+
+      <docDate xml:id="DXIII_docDate">
+        <date when="1233-07-31">1233 luglio 31</date>, <placeName ref="#Fosdinovo"
+          >Fosdinovo</placeName> (<term xml:lang="latin">Fosdenove, in domo filiorum quondam Attonis
+          de Fosdenova</term>) </docDate>
+
+      <div type="regesto" xml:id="DXIII_regesto">
+        <p>Il vescovo di Luni Guglielmo conferma a Refolco del fu Ugolino di Cicero e Guidolino del
+          fu Alberto di Antognaco, consoli di Marciaso ciò che era già stato concesso in feudo allo
+          stesso comune dal suo predecessore Gualtiero e li investe di altri beni, liberandoli da
+          ogni nuova imposta raccolta al tempo del vescovo Norandino. La concessione costa 10 lire
+          di imperiali. I consoli giurani quindi fedeltà al vescovo a nome del comune di Marciaso
+          contro tutti, eccetto che contro i signori di Marciaso e di Fosdinovo; giurano assieme a
+          loro Marzesello ferrario, Guido ferrario, Amato del fu Alberto di Antognaco e Bonamico di
+          Marciaso.</p>
+      </div>
+
+      <div type="footer" xml:id="DXIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 380v.-381r., cc. CCCLXXIIv.-CCCLXXIIIr. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 513,
+            pp. 547-549.</p>
+          <p>Bibliografia: <ref target="#ZOPPI_2003">Zoppi 2003.</ref></p>
+        </div>
+
+        <div type="crit_notes">
+          <p>La redazione <emph>in mundum</emph> della minuta, ad opera del notaio Aldobrandino, è
+            del 26 luglio 1258.</p>
+          <p>Nel margine esterno, di mano moderna: <term xml:lang="latin">Per giurisdizione di
+              Marzatio, di Monte di Forca e di Ortonuovo</term></p>
+          <p>Nel margine inferiore di c. 380v, di mano moderna, le prime parole del fascicolo
+            successivo: <term xml:lang="latin">mobilia et immobilia</term></p>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">DXIII.
+              Feudum confirmatum comuni de Marçasio nemorum datorum eis de novo in
+            feudum.</term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="DXIII_div">
+        <p> In nomine Domini, amen. <date when="1231-03-15">Anno a nativitate Eius M°CCXXXIII,
+            indictione VI, die dominico, pridie kalendas augusti</date>.
+            <roleName>Dominus</roleName>
+          <persName ref="#GuilEpLuni">Guilielmus</persName>, <roleName>Dei gratia Lunensis episcopus
+            et comes</roleName>, per se suosque successores, vice et nomine Lunensis episcopatus et
+            <orgName ref="#Luni_comitatus">comitatus</orgName> et pro Lunensi episcopatu et <orgName
+            ref="#Luni_comitatus">comitatu</orgName>, dedit et tradidit et cum investitura
+          reconfirmavit nomine recti et honorifici feudi <persName ref="#RefulcusUgolini"
+            >Refulco</persName> quondam Ugolini de Cicero et <persName ref="#GuidolinusAlberti"
+            >Guidolino</persName> quondam Alberti de <placeName ref="#Antognaco"
+            >Antognaco</placeName>, <roleName>consulibus</roleName> de <placeName ref="#Marciaso"
+              >Marzasio</placeName>, recipientibus pro se suisque successoribus et pro toto <orgName ref="#Marciaso_comune">communi</orgName> et
+          universitate hominum de <placeName ref="#Marciaso">Marzasio</placeName>, totum illud quod
+            <roleName>dominus</roleName>
+          <persName ref="#GualEpLuni">Gualterius</persName>, <roleName>bone memorie Lunensis
+            episcopus</roleName>, dedit in feudum <note>Nel corso del suo episcopato, il vescovo
+            Gualtiero concede un feudo al comune di Marciaso <date notBefore="1193-11-05"
+              notAfter="1212-04-02" cert="medium"/></note> hominibus de <placeName ref="#Marciaso"
+            >Marzasio</placeName> ad prata de <placeName ref="#MonteFurca">Monte de
+            Furca</placeName>, sicut in carta manu facta <persName ref="#UgolinusCarrarianot"
+            >Ugolini</persName>
+          <roleName>notarii</roleName> de <placeName ref="#Carrara">Carraria</placeName> continetur.
+          Insuper addidit eis eodem modo totum locum de <placeName ref="#Panagatuli"
+            >Panagatuli</placeName>, qui est infra hos confines sive infra istas coherencias,
+          videlicet a canale <placeName ref="#Sica">Sica</placeName> usque ad fontanam de <placeName
+            ref="#MonteFurca">Monte de Furca</placeName>, sicut vadit vel sicut est seca de
+            <placeName ref="#Monte_Porrata">Monte de Porrata</placeName>, descendendo ad <placeName
+            ref="#StancaCaballo">Stancacavallum</placeName>, revertendo plane ad summum fontane de
+            <placeName ref="#Favachiola">Favachiola</placeName> usque ad canalem <placeName
+            ref="#Sica">Sicam</placeName>, salvis pactis et conventionibus pascatici et herbatici,
+          que in ipsa carta continentur. Et remisit eis omnem novam curaturam, inventam sive ablatam
+          a tempore <roleName>domini</roleName>
+          <persName ref="#NorandEpLuni">Noradini,</persName>
+          <note>Nel corso del suo episcopato, il vescovo Norandino impone una agli uomini di
+            Marciaso <date notBefore="1222-01-01" notAfter="1223-05-31" cert="medium"/></note>
+          <roleName>olim Lunensis episcopi<note place="foot" n="a" xml:id="DXIII_n_001">episcopi:
+                <emph>segue, in parte abraso,</emph> amodo</note></roleName>, quod non debeant nec
+          teneantur amodo solvere quicquam, nisi ut homines iurisdictionis eiusdem domini episcopi
+          et episcopatus, ita quod ut amodo perpetuo, nomine recti et honorifici feudi, suprascripti
+          consules suique successores et totum commune et universitas hominum de <placeName
+            ref="#Marciaso">Marzasio</placeName> habeant, teneant, fruantur et possideant omnia
+          suprascripta, sicut predicitur et determinatur, cum accessu et regressu et cum
+          superioribus et inferioribus et omnibus rationibus et pertinenciis suis, in integrum, et
+          faciant de eis quicquid voluerint, sine suprascripti domini suorumque successorum et
+          cuiusque persone contradictione; et dedit licenciam intrandi tenutam de predictis sua
+          auctoritate ut de cetero, suo nomine, iure feudi possideant et faciant quicquid voluerint,
+          nemine contradicente, constituendo se pro eis et eorum nomine iure feudi precario
+          possidere. Insuper titulo recti et honorifici feudi dedit, cessit, tradidit et mandavit
+          eis omnia iura et omnes actiones et rationes utiles, directas, reales, personales et
+          mixtas, et omnes alias in predictis et pro predictis omnibus et quolibet predictorum aut
+          horum nomine vel occasione sibi quoquo modo vel iure competencia et competentes, ut hiis
+          omnibus et singulis suo nomine directo et utilitate possint agere et experiri adversus
+          quamcumque personam et locum et respondere cuilibet persone et loco, sine requisitione
+          facta ipsi domino vel suis successoribus; qui suprascriptus dominus, dando licenciam
+          placitandi, remisit eis necessitatem denunciandi et fecit et constituit eos, iure feudi,
+          procuratores et dominos in rem suam. Et fuit confessus suprascriptus dominus se recepisse
+          ab eis servicium huius feudi et investiture, in veritate et non spe future, bonorum
+            <measure type="Imperiales" quantity="10" unit="solidus">imperialium libras
+            decem</measure>, renunciando exceptioni non numerate pecunie et non dati et recepti
+          servicii. Et promisit suprascriptus dominus per se suosque successores, stipulatione
+          sollempni, totum suprascriptum feudum, sicut dictum est, cum omnibus rationibus et
+          pertinenciis suis, in integrum, iure deffendere et exbrigare ab omni contradicente et
+          impediente persona et loco, in parte et toto, seu restaurare et salvum cambium inde dare
+          in consimili loco, prout tunc valuerit sive melioratum fuerit, sub iusta bonorum hominum
+          exstimatione, obligando se suosque successores et universa et singula bona Lunensis
+          episcopatus et <orgName ref="#Luni_comitatus">comitatus</orgName>, <pb n="381r"
+            xml:id="fol_381r"/> mobilia et immobilia, presentia et futura, et renunciando exceptioni
+          fori domicilii et contractus et omni alii iuris legum constitutionis, consuetudinis et
+          deffensionis auxilio, civili et ecclesiastico, et omni privilegio pro se introducto. Qui
+          suprascripti consules, pro se et toto communi et universitate hominum eiusdem loci,
+          iuraverunt suprascripto domino episcopo suisque successoribus fidelitatem contra omnes
+          homines, excepto contra dominos de <placeName ref="#Marciaso">Marzasio</placeName>, quibus
+          tenentur contra omnes homines ubicumque terrarum, et excepto contra dominos de <placeName
+            ref="#Fosdinovo">Fosdenova</placeName> in eorum districtu, ipsum pacis osculo devocius
+          osculando et promittendo ita facere et curare quod omnes homines de <placeName
+            ref="#Marciaso">Marzasio</placeName> ei similiter fidelitatem iurabunt. Ibidem,
+          incontinenti, <persName ref="#Marzesellusfer">Marzesellus</persName>
+          <roleName>ferrarius</roleName>, <persName ref="#Guidofer">Guido</persName>
+          <roleName>ferrarius</roleName>, <persName ref="#AmatusAlberti">Amatus quondam
+            Alberti</persName> de <placeName ref="#Antognaco">Antognaco</placeName> et <persName
+            ref="#BonamicusMarzasio">Bonamicus</persName> de <placeName ref="#Marciaso"
+            >Marzasio</placeName> iuraverunt eidem domino episcopo similiter fidelitatem. Actum
+            <placeName ref="#Fosdinovo">Fosdenove</placeName>, in domo filiorum quondam <persName
+            ref="#AttoFaucenova">Attonis</persName> de <placeName ref="#Fosdinovo"
+            >Fosdenova</placeName>, in presentia <persName ref="#SaladinusFosdenova"
+            >Saladini</persName> et <persName ref="#GuilielmusFosdenova">Guilielmini, filiorum
+            quondam eiusdem Attonis</persName>, <persName ref="#UbertinusUgolini">Ubertini quondam
+            Ugolini de Ramondino</persName>, <persName ref="#DonatusRamondini">Donati quondam
+            Ramondini</persName>, <persName ref="#BandinusBellandi">Bandini quondam
+            Bellandi</persName> de <placeName ref="#Fosdinovo">Fosdenova</placeName>, testium
+          rogatorum. </p>
+        <p xml:id="DXIII_p_001" n="1"><ptr target="DXIII_st_001"/> Ego <persName
+            ref="#Aldebrandinusnot">Aldebrandinus</persName>, domini <persName ref="#RoffinusLomello">Roffini comitis de <placeName ref="#Lomello">Lomello</placeName></persName>
+          <roleName>notarius</roleName>, hanc cartam a <persName ref="#Philippusnot2"
+            >Philippo</persName>
+          <roleName>notario</roleName> abreviatam de voluntate suprascripti <persName
+            ref="#Philippusnot2">Philippi</persName>, ipsam propter oculorum et cerebri gravitatem
+          scribere nequeuntis, visa eius sceda, bona fide scripsi et in publicam formam redegi et
+          hec sic feci de mandato, auctoritate atque decreto domini <persName ref="#UbaldusCustor"
+            >Hubaldi Custoris</persName> de <placeName ref="#Lucca">Luca</placeName>,
+            <roleName>potestatis</roleName> burgi <placeName ref="#Sarzana">Sarzane</placeName> qui,
+          pro tribunali residens, mihi suum mandatum, auctoritatem et decretum fecit, prestitit et
+          interposuit in predictis. In burgo <placeName ref="#Sarzana">Sarzane</placeName>, sub
+          porticu <orgName ref="Sarzana_S_Maria">ecclesie Sancte Marie</orgName>, presentibus
+            <persName ref="#Simonnot">Symone</persName>
+          <roleName>notario</roleName>, <persName ref="#Thebaldinusnot">Thebaldino</persName>
+          <roleName>notario</roleName>, <persName ref="#UgolinusDati">Ugolino quondam domini
+            Dati</persName> et <persName ref="#RomeusBonafeste">Romeo quondam Bonafeste</persName>
+          de <placeName ref="#Sarzana">Sarzana</placeName> et <persName
+            ref="#AldebranduciusTrebiano">Aldebranducio</persName> de <placeName ref="#Trebiano"
+            >Trebiano</placeName>, testibus ad hec rogatis. <date when="1258-07-26"> Anno a
+            nativitate Domini M°CCLVIII, indictione I, die veneris, XXVI mensis iulii. <note>
+              Stesura <emph>in mundum</emph> del documento n. 474-DXIII. </note></date>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

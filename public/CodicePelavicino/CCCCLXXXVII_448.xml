@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXXXVII_448">
+    <front xml:id="CCCCLXXXVII_front">
+
+      <titlePart type="numerazioneNuova">448</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXVII</titlePart>
+
+      <docDate xml:id="CCCCLXXXVII_docDate">
+        <date when="1277-01-18">1277 gennaio 18</date>, <placeName ref="#Viterbo"
+          >Viterbo</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXXXVII_regesto">
+        <p>Papa Giovanni XXI incarica lo scriba e cappellano Alberto di Parma di far restituire dal
+          comune di Genova al vescovo di Luni i castelli di Tivegna, Castiglione, Bracelli, il borgo
+          di Padivarma e parte del castello di Carpena, che erano stati venduti al comune da Niccolò
+          Fischi senza il permesso del vescovo di Luni. Se Genova riterrà di vantare dei diritti su
+          tali beni dovrà presentare le proprie ragioni entro un mese dal ricevimento della
+          richiesta. <term xml:lang="latin"/></p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXXXVII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 368r.-368v., cc. CCCLVIIIIr.-CCCLVIIIIv., secondo la numerazione
+            originale. </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione in <ref target="#PODESTÀ_1894">L. PODESTÀ</ref> cit., pp. 98-99; <ref
+              target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 487, pp. 504-506. </p>
+        </div>
+
+        <div type="crit_notes">
+          <note>
+            <p/>
+          </note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXXVII. Licterarum pape pro domino Nicholao.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCLXXXVII_div">
+        <p xml:id="CCCCLXXXVII_p_001" n="1">
+          <persName ref="#IohannespontifexXXI">Iohannes <roleName>episcopus, servus servorum
+              Dei</roleName></persName>, dilecto filio <roleName>magistro <persName
+              ref="#AlbertusParmascri">Alberto de <placeName ref="#Parma"
+              >Parma</placeName></persName>, scriptori nostro, cappellano dilecti filii nostri sub
+            titulo Sancti Martini presbyteris cardinalis</roleName>, salutem et apostolicam
+          benedictionem. Habet conquestio venerabilis fratris nostri episcopi Lunensis, sepius
+          nostris auribus iterata, quod, licet nobilis vir <roleName><persName
+              ref="#NicholausFlisco">Nicholaus de Flisco</persName>, comes</roleName>
+          <placeName ref="#Lavania">Lavanie</placeName>, <placeName ref="#Tivegna"
+            >Tivegne</placeName>, <placeName ref="#CastiglionediVarese">Castellionis</placeName> et
+            <placeName ref="#Bracellis">Bracelli</placeName> castra, burgum Paluarmi et
+            parte<supplied reason="omitted">m</supplied> castri <placeName ref="#Carpena"
+            >Carpene</placeName>, cum eorum pertinenciis, et quedam alia bona immobilia in Lunensi
+          dyocesi constituta ab eodem episcopo in Lunensi ecclesia teneret in feudum, idem tamen
+          nobilis castra et alia premissa, irrequisito eodem episcopo, <orgName ref="#Genova_comune"
+            >communi <placeName ref="#Ianua">Ianue</placeName></orgName> de facto vendidit, que tali
+          pretextu dictia <orgName ref="#Genova_comune">commune</orgName> in eorumdem episcopi et
+          ecclesie non modicum preiudicium detinere noscuntur. Quare prefatus episcopus, recurrens
+          ad Sedis Apostolice presidium, a nobis instanter petiit ut super hiis congruum adhibere
+          remedium curaremus. Unde dilectis filiis potestati, capitaneis, antianis et consilio
+            <placeName ref="#Ianua">Ianuensium</placeName> ac eidem communi preces per nostras
+          litteras porrigimus et mandatumb ut castra, burgum, partem et bona premissa, occasione
+          venditionis huiusmodi, que de iure sortiri non debet effectum, <pb n="368v"
+            xml:id="fol_368v"/> non detineant ulterius, set ea, cum omnibus eorum pertinenciis,
+          dicto episcopo restituere cum integritate procurent, preces nostras et mandatum taliter
+          impleturi ut idem episcopus propter hoc retinere ad nostram providenciam ulterius non
+          cogatur nosque nichillominus devotionis eorum promptitudinem proinde commendare possimus.
+          Alioquin, quantumcumque nos potestati, capitaneis, antianis, consilio et <orgName ref="#Genova_comune"
+            >communi</orgName> prefatis,
+          qui ex eo quod noviter ad mandatum nostrum et ecclesie redierint, leticiam in Domino
+          spiritualem concepimus, deferamus ad presens clamores ipsius episcopi; urgente
+          consciencia, conventibus oculis, non poterimus pertransire quin super hoc contra eos suo
+          loco et tempore, prout ius exigerit, procedamus et viderimus expedire. Verumptamen prefati
+          potestas, capitanei, anciani, consilium et <orgName ref="#Genova_comune"
+            >commune</orgName>, si credant se in premissis aliquod ius
+          habere, ipsi infra I mensem a receptione litterarum ipsarum, quem eis et eidem episcopo ad
+          hoc pro termino perhemptorio assignavimus, per procuratorem ydoneum seu legitimum syndicum
+          coram nobis comparere procurent, facturi et recepturi super premissis quod ordo dictaverit
+          rationis. Et ut potestati, capitaneis, antianis, consilio et communi prefatis plenius
+          pateat quod ad effectum deduci cupimus que ipsis scripsimus in hac parte, te ad civitatem
+            <placeName ref="#Ianua">Ianuensem</placeName> transmittimus, discretioni tue per
+          apostolica scripta mandantes quatinus memoratos potestatem, capitaneos, ancianos,
+          consilium et commune ad ea moneas, citationem quoque huiusmodi, si necesse fuerit, eis,
+          iuxta premissum modum, ipsis denunciare procures; et nichillominus quicquid feceris et
+          inveneris nobis per tuas litteras fideliter scribere seu referre personaliter non omittas.
+          Datum <placeName ref="#Viterbo">Viterbii</placeName>, <date when="1277-01-18">XV kalendas
+            februarii, pontificatus nostri anno primo</date>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

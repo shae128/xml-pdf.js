@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXIIII_425">
+    <front xml:id="CCCCLXIIII_front">
+
+      <titlePart type="numerazioneNuova">425</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXIIII</titlePart>
+
+      <docDate xml:id="CCCCLXIIII_docDate">
+        <date when="1235-07-15">1235 luglio 15</date>, <placeName>Caprigliola (<term
+            xml:lang="latin">in arce de Capriliola</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXIIII_regesto">
+        <p>Vivaldo e Corrado del fu Lamberto, nobili di Vezzano, dichiarano che alcuni uomini
+          nominalmente elencati fanno parte della rinuncia che essi fecero in favore del vescovo di
+          Luni Guglielmo; danno a costoro il permesso di giurare fedeltà a vescovo, liberandoli del
+          giuramento di fedeltà nel loro confronti. Quindi Tonso e suo figlio Signorino, Pietro di
+          Zilio, Bonavere di Cobia, Bonalbergo di Stabia, Guillizoneto e Ponzio di Vezzano giurano
+          fedeltà al vescovo di Luni, che li investe del feudo un tempo dei figli di Lamberto di
+          Vezzano. </p>
+      </div>
+
+      <div type="footer" xml:id="CCCCLXIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia [C] c. 358r., c. CCCXLVIIIIr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 464, pp. 471-472 138-141.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note> L' <term xml:lang="latin">instrumentum</term> rogato dal notaio Bonalbergo, citato
+            nel testo, corrisponde al doc. 400-CCCCXXXVIIII. . </note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXIIII. Quorumdam vassallorum de Veçano.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCLXIIII_div">
+        <p xml:id="CCCCLXIIII_p_001" n="1"> In Dei nomine, amen. <date when="1235-07-15">M°CCXXXV,
+            indictione VIII, die dominico, XV mensis iulii.</date> In arce de <placeName
+            ref="#Caprigliola">Capriliola</placeName>, coram <persName ref="#Peregrinusarc"
+            >Peregrino <roleName>archipresbytero</roleName>
+            <orgName ref="Soliera_S_Maria">plebis</orgName> de <placeName ref="#Soliera"
+              >Soleria</placeName></persName>, <persName ref="#RollandusVagus">Rollando
+            Vago</persName>, <persName ref="#RolandinusBoniorni">Rollandino filio
+            Boniorni</persName>, <persName ref="#BonotusLucanus">Bonoto</persName> et <persName
+            ref="#BonaventuraLuchese">Bonaventura</persName>, <placeName ref="#Lucca"
+            >Lucanis</placeName>, testibus rogatis ad hec. <persName ref="#VivaldusLamberti">
+            <roleName>Nobiles</roleName>
+          </persName> et <persName ref="#CunradusLamberti">Conradus</persName>, germani, de
+            <placeName ref="#Vezzano">Vezano</placeName> confessi fuerunt quod <persName
+            ref="#Tonsus">Tonsus</persName> et <persName ref="#SeniorinusTonsi"
+            >Segnorinus</persName>, eius filius, cum aliis filiis suis, <persName ref="#PetrusÇilii"
+            >Petrus quondam Çilii</persName>, <persName ref="#BonavereCobia">Bonavere de <placeName
+              ref="#Cobia">Cobia</placeName></persName>, <persName ref="#BonalbergusStabia"
+            >Bonalbergus de <placeName ref="#Stabia">Stabia</placeName></persName>, <persName
+            ref="#Guillieçonetus">Guillieçonetus</persName> et <persName ref="#PonçiusVezano"
+            >Ponzius de <placeName ref="#Vezzano">Vezano</placeName>
+          </persName> sunt pars de illa parte quam domini suprascripti cum domino <persName
+            ref="#GuilEpLuni">G(uilielmo) <roleName>Dei gratia Lunensi
+            episcopo</roleName></persName>, fecerunt de illa renunciatione quam ipsi domini fecerunt
+          domino episcopo, sicut continet publicum instrumentum, rogatum manu <persName
+            ref="#Bonalbergusnot4">Bonalbergi <roleName>notarii</roleName></persName>. Dederunt ipsi
+          germani prefatis hominibus, pro se et aliis de eadem parte recipientibus, licenciam plenam
+          et potestatem inrevocabilem ut iurent fidelitatem domino episcopo contra omnes homines et
+          personas et loca, et eos liberaverunt et absolverunt ab omni fidelitate et sacramento
+          fidelitatis, quo vel qua sibi tenebantur cum omni eo quod ab eis tenebant et cetera, ita
+          videlicet ut sint deinceps fideles et vassalli domini Lunensis episcopi et sibi teneantur,
+          ut tenebantur huc usque, ipsis factionibus; et sic prefati <persName ref="#Tonsus"
+            >Tonsus</persName>, <persName ref="#SeniorinusTonsi">Sennorinus</persName>, <persName
+            ref="#PetrusÇilii">Petrus</persName>, <persName ref="#BonavereCobia"
+          >Bonavere</persName>, <persName ref="#Bonalbergusnot4">Bonalbergi</persName>, <persName
+            ref="#Guillieçonetus">Guillieçonetus</persName> et <persName ref="#PonçiusVezano"
+            >Ponzius</persName> ipsi venerabili domino episcopo et Lunensi curie contra omnes
+          homines fidelitatem iurarunt; ac idem dominus episcopus, pro se et episcopatu Lunensi, de
+          feudo quod olim a dictis filiis <persName ref="#LambertusVezano">Lamberti</persName>
+          <supplied reason="omitted">tenebatur</supplied> invistivit (<note place="foot" n="a"
+            xml:id="CCCCLXIIII_n_001">invistivit: <emph>così nel testo</emph></note>) eosdem et
+          promisit eos et ipsum feudum deffendere et auctorizare ab omni homine, persona et loco.
+        </p>
+      </div>
+      <div xml:id="CCCCLXIIII_div2" type="mundum">
+        <p xml:id="CCCCLXIIII_p_002" n="2">
+          <ptr target="#CCCCLXIIII_st_001"/> Ego <persName ref="#Henricusnot"> Henricus de
+              <placeName ref="#Sarzanello">castro Sarzane</placeName>, <roleName>sacri palacii
+              notarius</roleName></persName>, hanc cartam olim a <persName ref="#Bonencontrusnot"
+            >Bonencontro de <placeName ref="#Soliera">Soleria</placeName>,
+              <roleName>notario</roleName>
+          </persName> abreviatam sive rogatam, prout in eius sceda et in eius contractibus et
+          inbreviaturis (<note place="foot" n="b" xml:id="CCCCLXIIII_n_002">breviaturis: <emph>e in
+              sopralinea</emph></note>) inveni, ita hic bona fide scripsi et autenticavi et in
+          publicam formam redegi, auctoritate et decreto super hiis mihi prestita et concesso a
+            <persName ref="#Bonaiunctaiud">
+            <roleName>domino</roleName> Bonaiuncta de <placeName ref="#PodioLucca">Podio de
+              Luca</placeName>, <roleName>iudice</roleName>
+            </persName> in <orgName ref="#Lunigiana_provincia">provincia <placeName ref="#Lunigiana">Lunisiane</placeName></orgName> pro venerabili
+          patre domino Lunensi episcopo et <orgName ref="#Lucca_comune"
+            ><placeName ref="#Lucca">Lucano</placeName> communi</orgName>, de
+          qua auctoritate et decreto constat per instrumentum publicum factum manu <persName
+            ref="#Alcheriusnot">Alcherii <roleName>notarii</roleName> de <placeName ref="#Lucca"
+              >Luca</placeName></persName>. <note>Stesura <emph>in mundum</emph> del documento n.
+            425-CCCCLXIIII databile tra il 1270 e il 1272 dalla presenza di Bonagiunta de Podio di
+              Lucca<date notBefore="1270-01-01" notAfter="1272-12-31" cert="medium"/></note>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

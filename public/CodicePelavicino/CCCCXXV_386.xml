@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCXXV_386">
+    <front xml:id="CCCCXXV_front">
+
+      <titlePart type="numerazioneNuova">386</titlePart>
+      <titlePart type="numerazioneOrig">CCCCXXV</titlePart>
+
+      <docDate xml:id="CCCCXXV_docDate">
+        <date when="1257-05-21">1257 maggio 21</date>, <placeName>Ceparana (<term xml:lang="latin"
+            >in burgo Cepparane, apud domum Pedoni</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCXXV_regesto">
+        <p>Bonalbergo del fu Guido de Cobia, del distretto di Bolano, cede a Paganino, notaio di
+          Santo Stefano, castaldo del vescovo di Luni Guglielmo, al prezzo di 20 soldi di imperiali,
+          un pezzo di terra in Cobia. Bonalbergo, che teneva tale terra in feudo dalla curia di
+          Luni, la ottiene ora in affitto al censo annuale di una libbra d’olio.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCCXXV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 335v.-336r., cc. CCCXXVIIv.-CCCXXVIIIr. secondo la numerazione
+            originale</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref> n. 425,
+            p. 415.</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">CCCCXXV.
+              Unius libre olei a Bonalbergo Guidi de Cabia.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCCXXV_div">
+        <p xml:id="CCCCXXV_p_001" n="1">In nomine Domini, amen. <date when="1257-05-21"> Anno a
+            nativitate Eius M°CCLVII, indictione XV, XXI maii</date>. <persName
+            ref="#BonalbergusGuidiCobia">Bonusalbergus quondam Guidi de <placeName ref="#Cobia"
+              >Cobia </placeName></persName> districtus <placeName ref="#Bolano">Bolani</placeName>,
+          per se suosque erede, fecit finem et refutationem et pactum de non petendo et datum
+            <persName ref="#Paganinusnot">Paganino <roleName>notario</roleName> de <placeName
+              ref="#Santo_Stefano">Sancto Stephano</placeName></persName>, castaldioni venerabilis
+          patris <roleName>domini</roleName>
+          <persName ref="#GuilEpLuni">Guilielmi</persName>, <roleName> Dei gratia Lunensis
+            episcopi</roleName>, recipienti nomine predicti domini episcopi et episcopatus, de I
+          petia terre, cum omnibus super se positis, posita in pertinenciis <placeName ref="#Bolano"
+            > Bolani</placeName>, in loco dicto <placeName ref="#Cobia">Cobia</placeName>, cui
+          coheret superius et inferius et ab uno latere <persName ref="#PercivalBolanetiCobia"
+            >Percavallus <note n="a" place="foot" xml:id="CCCCXXV_n_001"><term xml:lang="latin"
+                >Percavallus</term>: <emph>così nel testo probabilmente per
+              Percevallus.</emph>.</note> quondam Bolaneti de <placeName ref="#Cobia">
+              Cobia</placeName></persName>, ab alio latere <persName ref="#ParentinusBricti"
+            >Parentinus quondam Bricii </persName>, quam a Lunensi curia tenebat. Quam finem et
+          refutationem promisit dictus <persName ref="#BonalbergusGuidiCobia"
+            >Bonusalbergus</persName> dicto <persName ref="#Paganinusnot"> Paganino</persName>,
+          recipienti ut dictum est, perpetuo firmam habere et tenere et numquam in aliquo contra
+          venire, de iure vel de facto, et ipsam terram deffendere ab omni contradicente persona,
+          specialiter de suo dato et facto, sub obligatione bonorum et heredum suorum, sub pena
+            <measure type="imperiales" quantity="20" unit="solidus">soldorum XX
+            imperialium</measure>, quam dare et solvere dicto <persName ref="#Paganinusnot"
+            >Paganino</persName> promisit, recipienti nomine predicti domini episcopi et
+          episcopatus, si contra predicta venerit vel non observaverit, quociens fuerit
+          contraventum, confitendo se recepisse ab ipso <persName ref="#Paganinusnot"
+            >Paganino</persName>, dante nomine predicti domini episcopi et episcopatus, <measure
+            type="imperialium" quantity="20" unit="solidus">soldos XX imperialium</measure> pro
+          melioramento suprascripte terre, renunciando exceptioni non numerate pecunie. Ibidem
+          incontinenti suprascriptus <persName ref="#Paganinusnot">Paganinus</persName>, nomine et
+          vice predicti domini episcopi et episcopatus, dedit et locavit ei suprascriptam terram,
+          cum omnibus super se positis et suis pertinenciis, ita ut ipse <persName
+            ref="#BonalbergusGuidiCobia">Bonusalbergus</persName> et sui heredes, ex se
+          descendentes, habeant, teneant et fruantur suprascriptam terram, cum omnibus super se
+          positis et pertinenciis suis, dando et reddendo exinde annuatim curie Lunensi, in curia de
+            <placeName ref="#Bolano">Bolano</placeName>, ubi alii redditus episcopales dantur et
+          consignantur, libram I olei, ad currentem libram curie Lunensis de <placeName
+            ref="#Sarzana">Sarzana</placeName>, per totum mensem ianuarii, promittendo dictus
+            <persName ref="#Paganinusnot">Paganinus</persName>, nomine et vice predicti domini
+          episcopi et episcopatus, dicto <persName ref="#BonalbergusGuidiCobia"
+            >Bonalbergo</persName>, recipienti pro se suisque heredibus, dictam locationem perpetuo
+          firmam et ratam habere et tenere et non contra venire. Et pro predictis omnibus sic
+          attendendis et observandis obligaverunt se, dictus <persName ref="#Paganinusnot"
+            >Paganinus</persName> bona episcopatus et dictus <persName ref="#BonalbergusGuidiCobia"
+            >Bonusalbergus</persName> se suosque heredes et omnia sua bona, ad penam <pb n="336r"
+            xml:id="fol_336r"/>
+          <measure type="imperiales" quantity="20" unit="solidus">XX soldorum</measure>, quam pars
+          non observans parti fidem servanti solvere teneatur quociens in eam inciderit; et, ea
+          soluta, predicta omnia in suo robore perseverent. Et nichillominus idem <persName
+            ref="#BonalbergusGuidiCobia">Bonusalbergus</persName> teneatur ex ipsa terra Lunensi
+          curie respondere sicut ante presentem contractum facere et respondere tenebatur. </p>
+        <p xml:id="CCCCXXV_p_002" n="2">Actum in burgo <placeName ref="#Ceparana"
+            >Cepparane</placeName>, apud domum <persName ref="#Pedone">Pedoni</persName>,
+          presentibus <persName ref="#BonsengnoreCasese">Bonsegnore de <placeName ref="#Casese"
+              >Casese</placeName></persName>, <persName ref="#BertholetusOrdelaphi">Bertholeto filio
+            Ordelaphi</persName> et <persName ref="#Banlioncellus">Banlioncello de <placeName
+              ref="#Olivetulo">Olivetulo</placeName></persName>, testibus ad hec rogatis.</p>
+
+        <p xml:id="CCCCXXV_p_003" n="3"><ptr target="#CCCCXXV_st_001"/>Ego <persName
+            ref="#Benedictusnot">Benedictus</persName>, <roleName>imperialis aule
+            notarius</roleName>, hiis interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

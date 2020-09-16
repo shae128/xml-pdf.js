@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="XXXVIII_67">
+        <front xml:id="XXXVIII_front">
+            <titlePart type="numerazioneNuova">67</titlePart>
+            <titlePart type="numerazioneOrig">XXXVIII</titlePart>
+            <docDate xml:id="XXXVIII_docDate">
+                <date when="1257-06">1257 giugno</date>
+            </docDate>
+            <div type="regesto" xml:id="XXXVIII_regesto">
+                <p> Papa Alessandro IV, tramite l’ostiario Giovanni Migliore, dà mandato a Ottobono
+                    cardinale di Sant’Adriano di dirimere la controversia tra il vescovo di Luni e
+                    il comune di Sarzana. </p>
+            </div>
+            <div type="footer" xml:id="XXXVIII_footer">
+                <div type="orig_doc">
+                    <p> Copia [C] c. 122r., cc. CXIIIIr. secondo la numerazione originale. </p>
+                </div>
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 38, pp. 54-55, con la data 1257, giugno</p>
+                </div>
+                <div type="crit_notes">
+                    <note> Stesura in <emph>mundum</emph> da parte del notaio Gifredo di Vezzano
+                        fatta a Rieti il 1260 settembre 1 </note>
+                    <note> Nel margine interno, di mano moderna: <emph>Commissio pape facta domino
+                            Ottobono ut intelligat omnes diferentias inter episcopum et homines de
+                            Sarzana</emph>
+                    </note>
+                </div>
+                <div type="appr">
+                    <p>Nell'indice del codice (doc. 1) il documento è titolato <term
+                            xml:lang="latin">XXXVIII. Lictere pape Alexandri, misse domino Octobono
+                            super questione audienda.</term></p>
+                </div>
+            </div>
+        </front>
+        <body>
+            <div xml:id="XXXVIII_div">
+                <pb n="122r" xml:id="fol_122r"/>
+                <p xml:id="XXXVIII_p_001" n="1"> In nomine Domini, amen. <date when="1257-06">Anno a
+                        nativitate Ipsius millesimo ducentesimo quinquagesimo septimo, de mense
+                        iunii, pontificatus sanctissimi patris domini Alexandri pape quarti anno
+                        tercio.</date> Mandavit idem dominus papa venerabili patri
+                        <roleName>domino</roleName>
+                    <persName ref="#Ottobonuscard">Ottobono</persName>, <orgName
+                        ref="#Roma_S_Adriano_Foro">Sancti Adriani</orgName>
+                    <roleName>dyacono cardinali</roleName>, per <persName ref="#IohannesMelioris"
+                        >Iohannem Melioris</persName>, <roleName>hostiarium</roleName> suum, quod
+                    audiret omnes causas que vertuntur seu verti sperantur inter venerabilem patrem
+                    Lunensem episcopum, ex una parte, et <orgName ref="#Sarzana_comune">commune</orgName> ac campsores et becarios burgi
+                        <placeName ref="#Sarzana">Sarzane</placeName>, ex altera, super iuriditione
+                    temporali et spirituali, iniuriis, dampnis, redditibus atque aliis, tam super
+                    principali negocio quam super appellatione interposita ad sedem apostolicam ex
+                    parte hominum de <placeName ref="#Sarzana">Sarzana</placeName>. </p>
+            </div>
+            <div xml:id="XXXVIII_div2" type="mundum">
+                <p xml:id="XXXVIII_p_002" n="2"> Ego <persName ref="#GiffredusVezano_notairus"
+                        >Gifredus de <placeName ref="#Vezzano">Vexano</placeName></persName>,
+                            <roleName>imperiali<note place="foot" n="a" xml:id="XXXVIII_n_001"
+                            >imperiali: <emph>la seconda</emph> i <emph>aggiunta in
+                                sopralinea.</emph></note> auttoritate notarius</roleName>, relationi
+                    facte per dictum <persName ref="#IohannesMelioris">Iohannem</persName>
+                    <roleName>hostiarium</roleName> eidem domino cardinali, ex parte domini pape,
+                    super dicto mandato interfui atque ipsum mandatum, per me scriptum in actis
+                    eiusdem domini cardinalis, de mandato et auctoritate predicti domini cardinalis
+                    in publicam formam redegi. <date when="1260-09-01"> Die primo mensis septembris,
+                        anno Domini M°CC° sexagesimo <note>Setesura in mumndum del doc.
+                            67-XXXVIII</note></date>, apud <placeName ref="#Reate"
+                    >Reate</placeName>. Et idem dominus cardinalis ad maiorem firmitatem suo fecit
+                    sigillo muniri <ptr target="#XXXVIII_st_001"/>. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

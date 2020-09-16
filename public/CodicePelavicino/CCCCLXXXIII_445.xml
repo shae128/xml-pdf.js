@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCCLXXXIII_445">
+    <front xml:id="CCCCLXXXIII_front">
+
+      <titlePart type="numerazioneNuova">445</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXIII</titlePart>
+
+      <docDate xml:id="CCCCLXXXIII_docDate">
+        <date when="1269-01-17">1269 gennaio 17</date>, <placeName>Sarzana (<term xml:lang="latin"
+            >Sarzane, in domo Henrigucii quondam Gaiardi</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCCLXXXIII_regesto">
+        <p>Oradino <term xml:lang="latin">del fu Guidetto di Folo</term>, procuratore del conte di
+          Lavagna Niccolò Fieschi, dichiara di avere ricevuto da Guglielmo Mascardo <term
+            xml:lang="latin">del fu Alberto da Trebiano</term>, procuratore del vescovo di Luni
+          Guglielmo, la somma di cento lire di genovesi dovuta dal vescovo a titolo di mutuo
+          contratto nel 1265 con il conte di Lavagna Spino; restituisce quindi al vescovo di Luni la
+          quinta parte del castello di Vezzano data come pegno. </p>
+      </div>
+
+
+      <div type="footer" xml:id="CCCCLXXXIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] cc. 366r.-366v., cc. CCCLVIIr.-CCCLVIIv., secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Regesto in <ref target="#FERRETTO_1901">FERRETTO 1901</ref>, n. CDLVI, p. 182.</p>
+          <p>Edizione pressoché integrale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+              1912</ref>, n. 483, pp. 497-498.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Le prime righe del documento sono state lette con l’ausilio della luce di
+            Wood.</note>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXXIII. Solutionis facte procuratori domini Nicholai. </term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+
+      <div xml:id="CCCCLXXXIII_div">
+
+        <p xml:id="CCCCLXXXIII_p_001" n="1"> In nomine Domini, amen. <date when="1269-01-17">Anno a
+            nativitate Eius M°CCLXIX, indictione XII, die XVII mensis ianuarii</date>. <persName
+            ref="#OradinusGuideti">Oradinus quondam Guideti de <placeName ref="#Folo"
+              >Folo</placeName></persName>, <persName ref="#NicholausFlisco"><roleName>procurator
+              domini</roleName> Nicholai de Flisco, <roleName>comitis</roleName>
+            <placeName ref="#Lavagna">Lavanie</placeName></persName>, ad infrascripta facienda et
+          recipienda constitutus, prout continetur in publico instrumento, hodie facto manu mei
+            <persName ref="#BonaiunctaBonaiutinot">Bonaiuncte
+            <roleName>notarii</roleName></persName>, || <pb xml:id="fol_366v" n="366v"/>
+          procuratorio nomine pro ipso <persName ref="#NicholausFlisco"><roleName>domino</roleName>
+            Nicholao</persName>, fuit confessus se habuisse et recepisse a <persName
+            ref="#GuilielmusMascardus">Guilielmo Mascardo quondam domini Alberti de <placeName
+              ref="#Trebiano">Trebiano</placeName></persName>, dante et solvente procuratorio seu
+          gestorio nomine pro <persName ref="#GuilEpLuni"><roleName>domino</roleName> Guilielmo,
+              <roleName>Dei gratia Lunensi episcopo</roleName></persName>, et de pecunia ipsius
+          domini episcopi <measure unit="soldi">libras C Ianuensium</measure>, quas idem <persName
+            ref="#NicholausFlisco"><roleName>dominus</roleName> Nicholaus</persName> recipere
+          habebat a dicto domino episcopo ex causa mutui facti de <measure unit="soldi">libris C
+            Ianuensium</measure> a <persName ref="#SpinusLavanie"><roleName>domino</roleName> Spino,
+              <roleName>comite</roleName>
+            <placeName ref="#Lavagna">Lavanie</placeName></persName>, dante et solvente seu mutuante
+          dicto domino episcopo pro ipso <persName ref="#NicholausFlisco"
+              ><roleName>domino</roleName> Nicholao</persName>, ut de ipsa mutui datione continetur
+          in instrumento publice scripto manu <persName ref="#GualardusLucanot">Gualardi Trasei de
+              <placeName ref="#Lucca">Luca</placeName>
+            <roleName>notarii</roleName></persName>, cuius instrumenti anni sunt <date
+            when="1265-03-17"><note>Prestito di 100 lire di genovesi concesso dal conte di Lavagna
+              al vescovo di Luni</note> MCCLXV, indictione VIII, die martis, XVII intrante
+            marcio</date>. Et quas <measure unit="soldi">libras C Ianuensium</measure> recepit
+          dictus <persName ref="#OradinusGuideti">Oradinus</persName> coram me notario et testibus
+          infrascriptis, renunciando exceptioni non numerate pecunie habite et recepte et omni alii
+          legum auxilio. Insuper restituit idem <persName ref="#OradinusGuideti"
+          >Oradinus</persName>, procuratorio nomine pro dicto <persName ref="#NicholausFlisco"
+              ><roleName>domino</roleName> Nicholao</persName>, <persName ref="#GuilEpLuni"
+            >Guilielmo</persName>, recipienti syndicatus et procuratorio nomine pro dicto domino
+          episcopo, omnem possessionem vel quasi, dominium vel quasi quinte partis iurisdictionis
+          castri <placeName ref="#Vezzano">Vezani</placeName> et tocius districtus, in vassallis seu
+          fidelibus et redditibus et proventibus et omni iurisdictione ad ipsam quintam partem
+          pertinentibus, et in quantum inde possideret vel teneret pro ipsa obligatione suprascripta
+          seu de ipsa obligatione ab ipso <persName ref="#GuilEpLuni">Guilielmo</persName> pro ipso
+          domino episcopo precariam possessionem rogavit et que idem dominus episcopus obligaverat
+            <persName ref="#SpinusLavanie"><roleName>domino</roleName> Spino</persName>, pro ipso
+            <persName ref="#NicholausFlisco"><roleName>domino</roleName> Nicholao</persName>
+          recipienti, prout continetur in dicto instrumento inde facto manu dicti <persName
+            ref="#GualardusLucanot">Gualardi <roleName>notarii</roleName></persName>; promittens
+          idem <persName ref="#OradinusGuideti">Oradinus</persName>, procuratorio seu gestorio
+          nomine pro dicto <persName ref="#NicholausFlisco"><roleName>domino</roleName>
+            Nicholao</persName>, dicto <persName ref="#GuilEpLuni">Guilielmo</persName>, recipienti
+          pro dicto domino episcopo, quod idem dictus <persName ref="#NicholausFlisco"
+              ><roleName>dominus</roleName> Nicholaus</persName> vel eius heredes suprascriptam
+          solutionem factam eidem <persName ref="#OradinusGuideti">Oradino</persName> et
+          restitutionem factam per ipsum <persName ref="#OradinusGuideti">Oradinum</persName> dicto
+            <persName ref="#GuilEpLuni">Guilielmo</persName> et omnia et singula suprascripta et
+          infrascripta perpetuo habebunt et tenebunt firma et rata et incorrupta et contra non
+          venient vel facient ullo tempore. Insuper restituit idem <persName ref="#OradinusGuideti"
+            >Oradinus</persName>, habuit et habere voluit et precepit ipsum instrumentum et omnia
+          alia instrumenta, que inde essent vel reperirentur, esse cassa, vana et irrita et nullius
+          momenti vel valoris deinceps. Et pro predictis omnibus et singulis sic attendendis et
+          observandis, ut supra dictum est, et firmis et ratis habendis obligavit idem <persName
+            ref="#OradinusGuideti">Oradinus</persName> se, procuratorio nomine pro dicto <persName
+            ref="#NicholausFlisco"><roleName>domino</roleName> Nicholao</persName>, et ipsum
+            <persName ref="#NicholausFlisco"><roleName>dominum</roleName> Nicholaum</persName> et
+          eius heredes et bona ad penam <measure unit="soldi">librarum CC ianuensium</measure>, quam
+          penam, dicto nomine, dare et solvere promisit eidem <persName ref="#GuilEpLuni"
+            >Guilielmo</persName>, recipienti pro dicto domino episcopo, tociens quociens fuerit
+          contraventum et pro quolibet capitulo non observato; et, pena soluta vel non,
+          suprascriptis omnibus et singulis nichillominus semper firmis et ratis manentibus,
+          obligando ad hec idem <persName ref="#OradinusGuideti">Oradinus</persName> se,
+          procuratorio nomine pro dicto <persName ref="#NicholausFlisco"><roleName>domino</roleName>
+            Nicholao</persName>, et ipsum <persName ref="#NicholausFlisco"
+              ><roleName>dominum</roleName> Nicholaum</persName> et eius heredes et bona,
+          renunciando omni iuri et legibus contra hec introductis. </p>
+
+        <p xml:id="CCCCLXXXIII_p_002" n="2"> Actum <placeName ref="#Sarzana">Sarzane</placeName>, in
+          domo <persName ref="#HenriguciusGaiardi">Henrigucii quondam Gaiardi</persName>,
+          presentibus <persName ref="#Tegrinusiud"><roleName>domino</roleName> Tegrimo
+              <roleName>iudice</roleName> de <placeName ref="#Lucca">Luca</placeName></persName>,
+            <persName ref="#Rubeusiud"><roleName>domino</roleName> Rubeo <roleName>iudice</roleName>
+            de <placeName ref="#Sarzana">Sarzana</placeName></persName>, <persName
+            ref="#MercadanteRollandi">Mercadante quondam Rollandi</persName>, <persName
+            ref="#IohannesMercadantis">Iohanne</persName> eius filio, <persName
+            ref="#GerardusHenriciFal">Gerardo filio Henrici de <placeName ref="#Falcinello"
+              >Falcinello</placeName></persName> et <persName ref="#CartenutusFalcinellonot"
+            >Cartenuto <roleName>notario</roleName> de <placeName ref="#Falcinello"
+              >Falcinello</placeName></persName>, testibus ad hec rogatis. </p>
+
+        <p xml:id="CCCCLXXXIII_p_003" n="3">
+          <ptr target="#CCCCLXXXIII_st_001"/>Ego <persName ref="#BonaiunctaBonaiutinot">Bonaiuncta ,
+            filius quondam Bonaiuti de <placeName ref="#Sarzana">Sarzana</placeName>,
+              <roleName>auctoritate imperiali notarius</roleName></persName>, hiis interfui et
+          rogatus scripsi. </p>
+      </div>
+    </body>
+  </text>
+</TEI>

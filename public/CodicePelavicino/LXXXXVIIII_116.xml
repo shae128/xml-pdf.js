@@ -1,0 +1,325 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="LXXXXVIIII_116">
+        <front xml:id="LXXXXVIIII_front">
+
+            <titlePart type="numerazioneNuova">116</titlePart>
+            <titlePart type="numerazioneOrig">LXXXXVIIII</titlePart>
+
+            <docDate xml:id="LXXXXVIIII_docDate">
+                <date when="1283-11-25">1283 novembre 25</date>, <placeName ref="#Sarzana"
+                    >Sarzana</placeName> (<emph><term xml:lang="latin">in ecclesia Sancti Francisci
+                        Fratrum Minorum</term></emph>) </docDate>
+
+            <div type="regesto" xml:id="LXXXXVIIII_regesto">
+                <p> Avendo Averoisio del fu Iacopino di Filattiera, abitante in Sarzana, venduto a
+                    Rolandino del fu Guglielmo di Vezzano un pezzo di terra di 8 iugeri sita in
+                            <emph><term xml:lang="latin">Meçuleto</term></emph>; avendo
+                    successivamente Rolandino venduto il medesimo appezzamento a Mannoca di Sarzana
+                    del fu Bonacorso de Prova, al prezzo di 84 fiorini d’oro, e avendo infine il
+                    vescovo di Luni Enrico rivendicato il possesso del bene come spettante
+                    all’episcopato di Luni, quest’ultimo acconsente di restituire a Mannoca e al
+                    notaio Gasparino, suo procuratore, la somma versata in cambio della rinuncia di
+                    Mannoca ad ogni diritto sulla terra in questione. Si costituiscono fideiussori
+                    per il vescovo Lando Gualteroni di Lucca et Vivo di Licciana. </p>
+            </div>
+
+            <div type="footer" xml:id="LXXXXVIIII_footer">
+
+                <div type="orig_doc">
+                    <p>Copia [C], cc. 212r.-213v., cc. CCIIIIr.-CCVv. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                        1912</ref>, n. 99, pp. 130-131.</p>
+                </div>
+
+                <div type="crit_notes">
+                    <p>Parte del documento è stata letta con l’ausilio della luce di Wood.</p>
+                </div>
+
+
+                <div type="appr">
+                    <p> Nel margine esterno di c. 212r., di mano moderna: <emph>Vendita di terra nel
+                            sopradetto logo</emph>. Nel margine esterno della medesima carta il
+                        numero <emph><term xml:lang="latin">LXXXXVIIII</term></emph> ha perso la
+                        cifra I finale a causa della rifilatura della pergamena. </p>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="LXXXXVIIII_div">
+                <p> In nomine Domini, amen. <date when="1283-11-25">Anno a nativitate Eius
+                        M°CC°LXXXIII°, indictione XIa, die XXV novembris</date>. Cum <persName
+                        ref="#AveroysiusIacopini">Averoysius, habitator <placeName ref="#Sarzana"
+                            >Sarzane</placeName>, qondam magistri Iacopini de <placeName
+                            ref="#Feleteria">Feleteraria<note place="foot" n="a"
+                                xml:id="LXXXXVIIII_n_001">Feleteraria<emph>: così nel
+                                testo.</emph></note></placeName></persName> fecerit et fecisset
+                    venditionem et traditionem et datum et concessionem <roleName>domino</roleName>
+                    <persName ref="#RollandinusGuilielmiBlanci">Rollandino quondam domini Guilielmi
+                        de <placeName ref="#Vezzano">Vezano</placeName></persName> de quadam petia
+                    terre posite in <placeName ref="#Meçuleto">Meçuleto</placeName>, que dicitur
+                    esse VIIII iugera, pro certo precio, quod totum precium idem <persName
+                        ref="#AveroysiusIacopini">Averoysius</persName> habuit et recepit vel fuit
+                    confessus se habuisse et recepisse ab ipso <roleName>domino</roleName>
+                    <persName ref="#RollandinusGuilielmiBlanci">Rollandino</persName>, cui vero toti
+                    petie terre coheret ut inferius continetur, ut de ipsa emptione et venditione
+                    dicebatur contineri in carta facta sive rogata per <persName
+                        ref="#BenvenutusVezano_notarius">Benvenutum de <placeName ref="#Vezzano"
+                            >Vezano</placeName></persName>
+                    <roleName>notarium</roleName> vel per alium notarium; et cum idem
+                        <roleName>dominus</roleName>
+                    <persName ref="#RollandinusGuilielmiBlanci">Rollandinus</persName> vendiderit et
+                    dederit et tradiderit <persName ref="#MannochaBonacursi">Mannoche de <placeName
+                            ref="#Sarzana">Sarzana</placeName> quondam Bonacursi de <placeName
+                            ref="#Prova">Prova</placeName></persName> suprascriptam petiam terre,
+                    cum omnibus iuribus dicte terre, pro precio florinorum octuaginta quatuor de
+                    bono auro, sicut dicitur et dicebatur contineri in carta facta sive rogata per
+                        <persName ref="#PetrusGentisnot">Petrum <roleName>notarium</roleName>
+                        quondam Gentis</persName> vel alium notarium; et post hec venerabilis pater
+                        <roleName>dominus</roleName> Henricus, <roleName>Lunensis
+                        episcopus</roleName>, diceret et assereret dictam terram ad se pro dicto suo
+                    episcopatu Lunensi et ipsi episcopatui et eius curie pertinere de iure et esse
+                    suam et iuris dicti episcopatus et eius curie, quam volebat et petebat quod
+                    dicta terra deberet sibi, dicto nomine et iamdicti episcopatus et pro ipso
+                    episcopatu et ipsi episcopatui et eius curie restitui atque libere et expedite
+                    dimitti et repudiari et renuntiari a dicto<note place="foot" n="b"
+                        xml:id="LXXXXVIIII_n_002">dicto<emph>: così nel testo per</emph>
+                        dicta.</note>
+                    <persName ref="#MannochaBonacursi">Mannocha</persName>; que <persName
+                        ref="#MannochaBonacursi">Mannocha</persName> sive <persName
+                        ref="#GasparinusSarzananot">Gasparinus</persName>
+                    <roleName>notarius</roleName>, procurator <persName ref="#MannochaBonacursi"
+                        >Mannoche</persName> predicte, prout de procuratione apparet per cartam
+                    publicam factam manu dicti <persName ref="#PetrusGentisnot">Petri</persName>
+                    <roleName>notarii</roleName>, procuratorio nomine pro ea, non confiteretur nec
+                    sciret dictam terram esse vel fuisse ipsius domini episcopi vel episcopatus sui
+                    vel curie Lunensis nec ad ipsum dominum episcopum vel episcopatum predictum vel
+                    curiam Lunensem pertinere vel esse de iure, set volens conservari indempnis de
+                    precio suprascripto per eam dato et volendo recuperare et rehabere precium
+                    dationis in ipsa et pro ipsa terra, supplicabat eidem venerabili patri quod ei,
+                    pro dicta <persName ref="#MannochaBonacursi">Mannocha</persName>, et eidem
+                        <persName ref="#MannochaBonacursi">Mannoche</persName> restitueret seu
+                    restitui faceret precium suprascriptum; qui venerabilis pater dominus episcopus,
+                    per se suosque successores in perpetuum obligando et nomine et vice predicti
+                    episcopatus, <pb n="212v" xml:id="fol_212v"/> promisit et convenit <persName
+                        ref="#GasparinusSarzananot">Gasparino</persName>
+                    <roleName>notario</roleName> suprascripto, procuratori dicte <persName
+                        ref="#MannochaBonacursi">Mannoche</persName>, stipulanti et recipienti pro
+                    dicta Mannocha pro se suisque heredibus et cui dare vel committere voluerit, ei
+                    dare et solvere seu dari et solvi et restitui facere <measure type="Florinus"
+                        quantity="84" unit="solidus">florinos LXXXIIII de bono auro</measure> usque
+                    ad unum annum proxime venturum, sine lite, briga, dampno, expensis atque
+                    interesse et sine querimonia exinde facienda alicui potestati, iudici vel
+                    rectori, sub pena <measure type="Florinus" quantity="84" unit="solidus"
+                        >florinorum LXXXIIII aureorum</measure>, quam dare et solvere promisit et
+                    convenit idem dominus episcopus, per se suosque successores et nomine et vice
+                    dicti episcopatus et curie Lunensis, eidem procuratori sive ipsi <persName
+                        ref="#MannochaBonacursi">Mannoche</persName> tociens quotiens fuerit
+                    contraventum et pro quolibet capitulo non observato; et, pena soluta vel non,
+                    suprascriptis nichillominus semper firmis manentibus, cum eadem pene
+                    commissione, obligando ad hec attendenda et observanda se dictus dominus
+                    episcopus suosque successores et Lunensem episcopatum et bona Lunensis
+                    episcopatus, habita et habenda, atque renunciando omni iuri et legibus contra
+                    hec introductis. Unde dictus procurator, procuratorio nomine pro dicta <persName
+                        ref="#MannochaBonacursi">Mannocha</persName>, ex causa et iure predicte
+                    transactionis et pacti vestiti, refutavit et renunciavit seu repudiavit eidem
+                    domino episcopo, agenti et recipienti nomine et vice sui episcopatus et curie
+                    Lunensis, terram suprascriptam, que est in <placeName ref="#Meçuleto"
+                        >Meçuleto</placeName>, et omnia iura et actiones et rationes, que et quas
+                    habebat in dicta terra et eius occasione, et etiam fecit datum et concessionem
+                    de dicta petia terre et de omni suo iure et etiam remissionem, hoc tamen per
+                    pactum apposito inter eos, de communi concordia, quod dicta <persName
+                        ref="#MannochaBonacursi">Mannocha</persName> eiusque heredes non teneantur
+                    de evictione in aliquo de predicta terra ratione sui dominii vel possessionis
+                    vel detemptionis<note place="foot" n="c" xml:id="LXXXXVIIII_n_003">detemptionis:
+                        t <emph>corretta su</emph> c</note> quomodo fient vel moventur vel evitentur
+                    nec ad restitutionem vel aliquam redditionem faciendum de predictis <measure
+                        type="Florinus" quantity="84" unit="solidus">LXXXIIII florinis</measure> vel
+                    aliquo eorum vel aliqua parte eorum vel de aliquibus dampnis, expensis et
+                    interesse, ita ut ipse dominus episcopus et cui daret vel committeret et
+                    successores ab hinc in antea exinde faciant quicquid velint. Preterea ibi
+                    presentes <persName ref="#LandusGualteroni">Landus Gualteroni de <placeName
+                            ref="#Lucca">Luca</placeName></persName> et <persName ref="#VivusLiçana"
+                            >Vivus<note place="foot" n="d" xml:id="LXXXXVIIII_n_004">Vivus: vus
+                                <emph>corretto su precedente scrittura.</emph></note></persName> de
+                        <placeName ref="#Liçana">Liçana</placeName>, habitator <placeName
+                        ref="#Sarzana">Sarzane</placeName>, precibus dicti domini episcopi, ambo
+                    simul et uterque eorum in solidum, se fecerunt et constituerunt proprios et
+                    principales fideiussores, debitores etiam pacatores de predictis denariis et
+                    omnibus suprascriptis apud suprascriptum <persName ref="#GasparinusSarzananot"
+                        >Gasparinum</persName>, procuratorem dicte <persName
+                        ref="#MannochaBonacursi">Mannoche</persName>, pro dicta <persName
+                        ref="#MannochaBonacursi">Mannocha</persName>, constituentes et promittentes
+                    uterque eorum in solidum et obligantes etiam se eidem procuratori, stipulanti et
+                    recipienti pro dicta <persName ref="#MannochaBonacursi">Mannocha</persName>, ei
+                    aut dicte <persName ref="#MannochaBonacursi">Mannoche</persName> dare et solvere
+                    aut dari et solvi facere suprascriptos <measure type="Florinus" quantity="84"
+                        unit="solidus">LXXXIIII florinos aureos</measure>, ad terminum
+                    suprascriptum, in quocumque loco et terra et sub quocumque iudice, et
+                    specialiter in burgo <placeName ref="#Sarzana">Sarzane</placeName>, sine lite et
+                    briga, dampno, expensis et interesse et sine petitione vel porrectione libelli
+                    vel petitionis in scriptis, sub pena <measure type="Florinus" quantity="84"
+                        unit="solidus">LXXXIIII florinorum aureorum</measure>; <pb n="213r"
+                        xml:id="fol_213r"/> quam penam dare et solvere promiserunt eidem procuratori
+                    vel dicte <persName ref="#MannochaBonacursi">Mannoche</persName>, recipienti ut
+                    dictum est, si de predictis fuerit in aliquo contraventum et pro quolibet
+                    capitulo non observato atque, pena soluta vel non, suprascriptis nichillominus
+                    semper firmis manentibus usque ad integram solutionem et satisfationem
+                    predictorum <measure type="Florinus" quantity="84" unit="solidus">LXXXIIII
+                        florinorum aureorum</measure> eidem procuratori, nomine dicte <persName
+                        ref="#MannochaBonacursi">Mannoche</persName>, aut eidem <persName
+                        ref="#MannochaBonacursi">Mannoche</persName>, hoc apposito per pactum inter
+                    eos quod de predictis aut occasione predictorum predicti <persName
+                        ref="#LandusGualteroni">Landus</persName> et <persName ref="#VivusLiçana"
+                        >Vivus</persName> et uterque eorum in solidum possint conveniri ubique
+                    terrarum et sub quocumque iudice, et ex certa scientia supposuerunt se de
+                    predictis sub iurisdictione ecclesie Romane et cuiuslibet alterius curie, tam
+                    ecclesiastice quam secularis, obligantes ad hec predicti <persName
+                        ref="#LandusGualteroni">Landus</persName> et <persName ref="#VivusLiçana"
+                        >Vivus</persName> se ambos simul et utrumque eorum in solidum et eorum et
+                    utriusque eorum heredes et bona, habita et habenda, et renuntiantes omni iuri et
+                    legibus contra hec introductis et specialiter nove constitutioni de duobus reis
+                    et epistule divi Adriani et nove constitutioni de fideiussionibus et
+                    mandationibus, iuri et condictioni sine causa vel ex<note place="foot" n="e"
+                        xml:id="LXXXXVIIII_n_005">ex<emph>: aggiunto in sopralinea con segno di
+                            richiamo.</emph></note> iniusta causa et omnibus aliis iuribus et
+                    beneficiis, tam specialibus quam generalibus, ecclesiasticis et civilibus, quam
+                    statutis et constitutionibus presentibus et futuris suprascriptis et faciendis,
+                    que nocere vel preiudicare possent in aliquo predicte <persName
+                        ref="#MannochaBonacursi">Mannoche</persName> vel eius heredibus in
+                    perpetuum. Ipse vero dominus episcopus dedit et assignavit et obligavit eisdem
+                    Lando et Vivo<note place="foot" n="f" xml:id="LXXXXVIIII_n_006">Vivo: v
+                            <emph>iniziale corretta su </emph> b</note> suprascriptam petiam terre,
+                    que est in <placeName ref="#Meçuleto">Meçuleto</placeName>, ita quod ipsam
+                    terram et iura atque fructus eiusdem terre habeant, teneant et possideant nomine
+                    pignoris et ypothece, quousque de predictis eis fuerit integre satisfactum<note
+                        place="foot" n="g" xml:id="LXXXXVIIII_n_007">satisfactum<emph>: così nel
+                            testo.</emph></note>, sine contradictione ipsius domini episcopi vel
+                    eius successorum vel alterius persone, quia de predictis omnibus eos indempnes
+                    conservare promisit, sub dicta pena et obligatione et renuntiatione. Confines
+                    autem atque coherentie predicte petie terre sunt iste, cui toti coheret ut
+                    infra, et est ipsa terra in IIIIor peciis tamen contigua. Prima quarum est ab
+                    uno capite iuxta viam versus <placeName ref="#Trebiano">Trebianum</placeName>
+                    per amplum brachia CLXIIII, a pede versus <placeName ref="#Luni"
+                        >Lunam</placeName> brachia LV, per longum versus <placeName ref="#Fosdinovo"
+                        >Fosdenovam</placeName> est brachia DLX, ab alio latere versus <placeName
+                        ref="#Ameglia">Ameliam</placeName> est brachia DXXXIII; et coheret ei,
+                    versus <placeName ref="#Fosdinovo">Fosdenovam</placeName>, ab uno latere terra
+                        <persName ref="#BonensegnaYlice">Bonensegne de <placeName ref="#Ylice"
+                            >Ylice</placeName></persName> in parte et in parte <persName
+                        ref="#ParentinusGualteroti">Parentini quondam Gualteroti de <placeName
+                            ref="#Ameglia">Amelia</placeName></persName> et in parte heredum
+                        <persName ref="#HenrigarellusYlice">Henrigarelli de <placeName ref="#Ylice"
+                            >Ylice</placeName></persName> et in parte <orgName ref="#Corvo_S_Croce"
+                        >monasterii de ecclesia<note place="foot" n="h" xml:id="LXXXXVIIII_n_008"
+                                >ecclesia<emph>: così nel testo per</emph> Sancta</note>
+                        Cruce</orgName>, ab alio latere versus <placeName ref="#Ameglia"
+                        >Ameliam</placeName> terra que fuit <persName ref="#PanicusLacanale">Panici
+                        de <placeName ref="#Lacanale">Lacanale</placeName></persName> atque nunc est
+                    heredum quondam dicti <persName ref="#IacopinusIannini">Iacopini</persName>
+                    <roleName>fisici</roleName> in parte et in parte terra heredum <persName
+                        ref="#BonaiunctaCer">Bonaiuncte de <placeName ref="#Cervarolo"
+                            >Cervarola</placeName></persName>, a capite versus <placeName
+                        ref="#Trebiano">Trebianum</placeName> coheret ei via publica, a pede versus
+                        <placeName ref="#Luni">Lunam</placeName> terra <persName
+                        ref="#GiliolusGuiçoli">Gilioli quondam Guiçoli</persName>, vendita
+                        <roleName>magistro</roleName>
+                    <persName ref="#IacopinusIannini">Iacopino</persName>
+                    <roleName>fisico</roleName>, in parte et in parte terra <persName
+                        ref="#GerardinaYlice">Gerardine de <placeName ref="#Ylice"
+                        >Ylice</placeName></persName> et<note place="foot" n="i"
+                        xml:id="LXXXXVIIII_n_009">et<emph>: aggiunto in sopralinea.</emph></note> in
+                    parte <pb n="213v" xml:id="fol_213v"/> terra <persName
+                        ref="#BaruncellusFosdenova">Baruncelli de <placeName ref="#Fosdinovo"
+                            >Fosdenova</placeName></persName>, intra quam terram est medium iugerum
+                    terre heredum quondam <persName ref="#RavaronusYlice">Ravaroni de <placeName
+                            ref="#Ylice">Ylice</placeName></persName>, que est sulche XXV de duabus
+                    voltis. Secunda petia terre est per longum versus <placeName ref="#Ameglia"
+                        >Ameliam</placeName> ab uno latere brachia CCLXXXVIII, ab alio versus
+                        <placeName ref="#Fosdinovo">Fosdenovam</placeName> est brachia CCLXXXV, a
+                    capite versus <placeName ref="#Trebiano">Trebianum</placeName> per amplum est
+                    brachia LXIII; et coheret ei ab uno latere terra suprascripte <persName
+                        ref="#GerardinaYlice">Gerardine</persName>, ab alio terra suprascripti
+                        <persName ref="#GiliolusGuiçoli">Gilioli</persName>, eidem magistro
+                        <persName ref="#IacopinusIannini">Iacopino</persName> vendita, et in parte
+                    terra monasterii suprascripti, a capite versus <placeName ref="#Trebiano"
+                        >Trebianum</placeName> suprascripta terra vendita, a pede versus <placeName
+                        ref="#Luni">Lunam</placeName> heredum <persName ref="#GalteriusCapirolo"
+                        >Galterii de <placeName ref="#Capriola">Capriolo</placeName></persName> in
+                    parte et in parte terra<note place="foot" n="l" xml:id="LXXXXVIIII_n_010"
+                            ><emph>Manca l’indicazione.</emph></note>. Tercia petia est per longum
+                    versus <placeName ref="#Fosdinovo">Fosdenovam</placeName> brachia CV et medium,
+                    ab alio versus <placeName ref="#Ameglia">Ameliam</placeName> brachia LV, a
+                    capite versus <placeName ref="#Trebiano">Trebianum</placeName> iuxta viam
+                    brachia CXXV per amplum, a pede versus <placeName ref="#Luni">Lunam</placeName>
+                    brachia CXV; cui coheret versus <placeName ref="#Ameglia">Ameliam</placeName>
+                    suprascripta pri<supplied reason="omitted">m</supplied>a petia terre vendite, ab
+                    alio versus <placeName ref="#Fosdinovo">Fosdenovam</placeName> terra
+                    suprascripti <persName ref="#GiliolusGuiçoli">Gilioli</persName>, eidem
+                        <roleName>domino</roleName>
+                    <persName ref="#RollandinusGuilielmiBlanci">Rollandino</persName> vendita, a
+                    capite versus <placeName ref="#Trebiano">Trebianum</placeName> via publica, a
+                    pede versus <placeName ref="#Fosdinovo">Fosdenovam</placeName> terra <persName
+                        ref="#BastardusPontoniarii">Bastardi quondam Pontonarii</persName> in parte
+                    et in parte terra <persName ref="#UbaldetusGuilielmi">Ubaldeti quondam Guilielmi
+                        de <placeName ref="#Sarzana">Sarzana</placeName></persName>. Quarta petia
+                    versus <placeName ref="#Ameglia">Ameliam</placeName> est ab uno latere per
+                    longum brachia CLIIII, ab alio versus <placeName ref="#Fosdinovo"
+                        >Fosdenovam</placeName> est brachia CLXXX, a capite versus <placeName
+                        ref="#Trebiano">Trebianum</placeName> est per amplum brachia LXIIII, a pede
+                    versus <placeName ref="#Luni">Lunam</placeName> est brachia CXL; et coheret ei a
+                    capite versus <placeName ref="#Ameglia">Ameliam</placeName> terra predicta
+                    vendita, ab alio versus <placeName ref="#Fosdinovo">Fosdenovam</placeName> via
+                    in parte et in parte terra <persName ref="#PetrusPelacani">Petri
+                        Pelacani</persName>, a<note place="foot" n="m" xml:id="LXXXXVIIII_n_011">a:
+                            <emph>segue</emph> a <emph>ripetuto nel testo.</emph></note> capite
+                    versus <placeName ref="#Trebiano">Trebianum</placeName> via publica, a pede
+                    versus <placeName ref="#Luni">Lunam</placeName> terra <placeName
+                        ref="#Percevalle">Persavallis</placeName>, intra quam terram inde vendita
+                    est quedam petiola terre cuiusdam hominis de <placeName ref="#Sarzanello">castro
+                        Sarzane</placeName>, que est brachia XII per amplum; et si qui alii sint
+                    confines de dicta terra que fuit heredum<note place="foot" n="n"
+                        xml:id="LXXXXVIIII_n_012"><emph>Manca l’indicazione.</emph></note>. Que est
+                    de dicta terra et que est de dicta terra<note place="foot" n="o"
+                        xml:id="LXXXXVIIII_n_013">Que-terra <emph>: così nel testo</emph></note>.
+                    Actum in <orgName ref="#Sarzana_S_Francesco">ecclesia Sancti Francisci fratrum
+                        Minorum de <placeName ref="#Sarzana">Sarzana</placeName></orgName>,
+                    presentibus <roleName>domino</roleName>
+                    <persName ref="#Theobaldus_canonicus">Theobaldo</persName>
+                    <roleName>Lunensi canonico</roleName>, <roleName>fratribus</roleName><note
+                        place="foot" n="p" xml:id="LXXXXVIIII_n_014"><emph>Nel testo segue segno
+                            tachigrafico per</emph> et <emph>non depennato.</emph></note>
+                    <persName ref="#Prefectus_frater">Prefecto</persName> et <persName
+                        ref="#Bonifacius_frater">Bonifacio</persName>
+                    <roleName>de ordine Minorum</roleName>, testibus ad hec rogatis.</p>
+                <p xml:id="LXXXXVIIII_p_001" n="1">
+                    <ptr target="LXXXXVIIII_st_001"/> Ego <persName ref="#BondiesRubeinot">Bondies,
+                        filius domini Rubei de <placeName ref="#Sarzana">Sarzana</placeName>
+                        iudicis</persName>, <roleName>sacri palacii notarius</roleName>,
+                        <roleName>iudex et ordinarius</roleName>, hiis interfui et rogatus scripsi.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,280 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CLV_173">
+    <front xml:id="CLV_front">
+
+      <titlePart type="numerazioneNuova">173</titlePart>
+      <titlePart type="numerazioneOrig">CLV</titlePart>
+
+      <docDate xml:id="CLV_docDate">
+        <date when="1255-09-19">1255 settembre 19</date>, <placeName>Ponzanello <emph>(<term
+              xml:lang="latin">ante ecclesiam de Ponzanello</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CLV_regesto">
+        <p>Non intendendo più Gaidifero del fu Pasqueto di Falcinello abitare a Ponzanello, come era
+          tenuto a fare in qualità di castellano e prestare servizio a quel Comune, come altri
+          abitanti di Ponzanello, per il podere ivi posseduto un tempo della madre Riccadonna, il
+          suo curatore Ugolino del fu Lanfranchino di Ponzanello vende a Guglielmo, vescovo di Luni,
+          quanto che Gaidifero possedeva in Ponzanello e nel suo distretto. In particolare un <term
+            xml:lang="latin">casamentum</term> nel <term xml:lang="latin">castrum</term> di
+          Ponzanello e un <term xml:lang="latin">casamentum</term> nel borgo, oltre a diversi pezzi
+          di terra nei luoghi detti <term xml:lang="latin">Felicina, Scara, Cute, Posticio,
+            Vechieta, Secalaro Subtano, Cafadio Baruçoli, Carbonara, Burculo, Tapillionica, Fossa
+            Lupara, a la (o a ra) Valentina, Cafaçaro, Ficortiçola, Navola, Colle, Guecçola o
+            Querçola, Rosseculo, Ortale, e in Corvasana, Summo Prato, Petra Cava e Capanna
+            Martina</term>. Il prezzo ammonta a 8 lire e 40 soldi di imperiali.</p>
+      </div>
+
+      <div type="footer" xml:id="CLV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP cc. 245r.-246v., cc. CCXXXVIIr.-CCXXXVIIIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 155,
+            pp. 190-191.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Una parte del documento è stata letta con l’ausilio della lampada di Wood.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CLV_div">
+        <p xml:id="CLV_p_001" n="1">In Dei nomine, amen. Anno a nativitate Eius <date
+            when="1255-09-19">M°CC°LV°, indictione XIII, XVIIII septembris</date>. Cum <persName
+            ref="#GaidiferusPasqueti">Gaidiferus quondam Pasqueti de <placeName ref="#Falcinello"
+              >Falcinello</placeName></persName> teneretur stare et habitare <placeName
+            ref="#Ponzanello">Ponzanelli</placeName> tanquam castellanus ipsius terre et facere
+          servicia loci ipsius communis<note place="foot" n="a" xml:id="CLV_n_001">
+            <term xml:lang="latin">loci ipsius communis</term><emph>: nel testo</emph>
+            <term xml:lang="latin">ipsius communis loci</term>
+            <emph>con segno di richiamo per indicare l’inversione delle parole.</emph></note>,
+          quemadmodum alii homines et habitatores de <placeName ref="#Ponzanello"
+            >Ponzanello</placeName> faciunt, occasione poderis et possessionum quod et que habebat
+          in <placeName ref="#Ponzanello">Ponzanello</placeName> atque districtu eius et quod et que
+          olim fuerunt <persName ref="#Riccadonna">Ricadonne, matris sue</persName>, et ipse
+            <persName ref="#GaidiferusPasqueti">Gaidiferus</persName> predicta facere non posset et
+          nollet, cum esset sibi dampnosum, <persName ref="#UgolinusLanfranchini">Ugolinus quondam
+            Lanfranchini de <placeName ref="#Ponzanello">Ponzanello</placeName></persName>, curator
+          ipsius <persName ref="#GaidiferusPasqueti">Gaidiferi</persName>, sicut apparebat de
+          curatione ipsius <persName ref="#UgolinusLanfranchini">Ugolini</persName> per publicum
+          instrumentum factum manu <persName ref="#Bonalbergusnot">Bonalbergi <roleName>notarii de
+                <placeName ref="#Carrara">Carraria</placeName></roleName></persName> currente <date
+            when="1255">MCCLV, indictione XIII</date>, presentibus <persName ref="#Adiutuscap"
+              ><roleName>presbytero</roleName> Adiuto <roleName>capellano</roleName></persName>
+          <persName ref="#GuilEpLuni">domini Guilielmi, Dei gratia <roleName>Lunensis
+              episcopi</roleName></persName>, <persName ref="#AidansGondeti">Aidante quondam Gondeti
+            de <placeName ref="#Ponzanello">Ponzanello</placeName></persName> et <persName
+            ref="#BonafestaPonzanello">Bonafesta de <placeName ref="#Ponzanello">eodem
+              loco</placeName></persName>, curatorio nomine pro ipso <persName
+            ref="#GaidiferusPasqueti">Gaidifero</persName> et nomine et vice ipsius, respiciens et
+          attendens utilitatem dicti <persName ref="#GaidiferusPasqueti">Gaidiferi</persName>, quod
+          utilius erat ipsi <persName ref="#GaidiferusPasqueti">Gaidifero</persName> vendere dictum
+          podere et possessiones quam habitare <placeName ref="#Ponzanello">Ponzanelli</placeName>
+          et facere predicta servicia communis predicti, sicut dictum est, vendidit, dedit et
+          tradidit una cum dicto <persName ref="#GaidiferusPasqueti">Gaidifero</persName> venerabili
+          patri <persName ref="#GuilEpLuni">domino Guilielmo, Dei gratia <roleName>Lunensi
+              episcopo</roleName></persName>, recipienti pro se suisque successoribus atque nomine
+          episcopatus, totum podere et possessiones quod et quas <persName ref="#Gaideferrus"
+              ><supplied reason="omitted">Gaidiferus</supplied></persName> habebat in <placeName
+            ref="#Ponzanello">Ponzanello</placeName> et eius districtu ratione matris sue <persName
+            ref="#Riccadonna">Ricadonne</persName>, cum terris, casis et casamentis, ortis, silvis,
+          pascuis, agris atque cultis, fictis, pensionibus et omnibus aliis redditibus ad
+          suprascriptum podere spectantibus, et totum etiam aliud quod habebat in <placeName
+            ref="#Ponzanello">Ponzanello</placeName> et districtu, quocumque modo vel iure haberet,
+          teneret vel possideret, ultra suprascriptum podere, de quo podere est unum casamentum in
+          castro <placeName ref="#Ponzanello">Ponzanelli</placeName>, cui coheret ab uno latere
+            <persName ref="#Guido">Guidonis</persName> et <persName ref="#Bernardus"
+            >Bernardi</persName>, ab alio heredum quondam <persName ref="#Segnorellus"
+            >Segnorelli</persName>,<pb n="245v" xml:id="fol_245v"/>superius via publica. Item de
+          ipso podere est aliud casamentum in burgo <placeName ref="#Ponzanello"
+            >Ponzanelli</placeName>, cui coheret ab uno latere heredum <persName ref="#Prodomus"
+            >Prodomi</persName>, ab alio heredum quondam <persName ref="#Lanfranchinus"
+            >Lanfranchini</persName>, superius via publica. Item in loco dicto <placeName
+            ref="#Felicina">Felicina</placeName> est unum petium terre, cui coheret ab uno latere
+            <persName ref="#AidansBottoni">Aidante quondam Bottoni</persName>, ab alio <persName
+            ref="#PetrusGibertini">Petri quondam Gibertini</persName>, superius via publica, de qua
+          terra, scilicet de <placeName ref="#Felicina">Filicina</placeName>, reddunt duo staria
+          frumenti et dimidium annuatim heredes quondam <persName ref="#Fornarius"
+            >Fornarii</persName>; item de ipso podere est unum petium terre in loco dicto <placeName
+            ref="#Scara">Scara</placeName>, cui coheret ab uno latere <persName ref="#Alegretus"
+            >Alegreti</persName>, ab alio <persName ref="#PetrusGibertini">Petri quondam
+            Gibertini</persName>, superius via publica. Item in loco dicto <placeName ref="#Cute"
+            >Cute</placeName> aliud petium terre, cui coheret ab uno latere <persName
+            ref="#PetrusGibertini">Petri</persName> suprascripti, ab alio <persName
+            ref="#Bonfiletus">Bonfileti</persName>. Item in loco dicto <placeName ref="#Posticio"
+            >Posticio</placeName> unum petium terre vineate, cui coheret ab uno latere suprascripti
+            <persName ref="#PetrusGibertini">Petri</persName>, ab alio <persName ref="#Bonaventura"
+            >Bonaventure</persName>. Item in loco dicto <placeName ref="#VechietaSuprana"
+            >Vechieta</placeName> est unum petium terre, cui coheret ab uno latere <persName
+            ref="#Bonafesta">Bonafeste</persName>, ab alio <persName ref="#Stephanus"
+            >Stephani</persName>. Item in loco dicto <placeName ref="#SecalaroSubtano">Secalaro
+            Subtano</placeName> est aliud petium terre, cui coheret ab uno latere <persName
+            ref="#Stephanus">Stephani</persName> suprascripti, ab alio <persName ref="#Bonaventura"
+            >Bonaventure</persName>. Item in loco dicto <placeName ref="#CafadioBaruçoli">Cafadio
+            Baruçoli</placeName> sunt duo petia terre castaneate, quarum uni coheret superius
+            <persName ref="#Ricobaldus">Ricobaldi</persName>, inferius heredum <persName
+            ref="#Rollandinus">Rollandini</persName>, alteri petie coheret inferius et ab uno latere
+          heredum <persName ref="#Ugerinus">Ugerini</persName>. Item in loco dicto <placeName
+            ref="#Carbonara">Carbonara</placeName> est unus ortus, cui coheret superius <persName
+            ref="#Bruna">Brune</persName>, inferius via publica. Item unum petium terre castaneate
+          in loco dicto <placeName ref="#Burculo">Burculo</placeName>, cui coheret ab uno latere
+          heredum <persName ref="#Zanbonus">Zanboni</persName>, ab alio canale. Item in loco dicto
+            <placeName ref="#Tapillionica">Tapillionica</placeName> sunt duo petia terre, quarum uni
+          coheret ab uno latere et superius <persName ref="#Parentinus">Parentini</persName>, ab
+          alio via publica, alteri petie coheret ab uno latere et superius <persName
+            ref="#BonaventuraOgerini">Bonaventure quondam Ugerini</persName>, inferius et ab uno
+          latere via publica, quas terras, scilicet de <placeName ref="#Tapillionica"
+            >Tapillionica</placeName>, <persName ref="#UgolinusLanfranchini">Ugolinus quondam
+            Lanfranchini</persName> predictus detinet ad affictum ab ipso <persName
+            ref="#Gaideferrus">Gaidifero</persName>, de quo annuatim solvit ipsi <persName
+            ref="#Gaideferrus">Gaidifero</persName> medium starium frumenti. Item in <placeName
+            ref="#FossaLupara">Fossa Lupara</placeName> unum petium terre, cui coheret superius
+            <persName ref="#BonaventuraOgerini">Bonaventure Ugerini</persName>, ab alio latere
+            <persName ref="#AidansBottoni">Aidantis quondam Botoni</persName>. Item in loco dicto
+            <placeName ref="#AraValentina">ala Valentina</placeName> unum petium terre, cui coheret
+          ab uno latere <persName ref="#Dolcebonus">Dolceboni</persName>, ab alio fossatus quidam.
+          Item in loco dicto <placeName ref="#Cafaçaro">Cafaçaro</placeName> unum petium terre, cui
+          coheret ab uno latere heredum <persName ref="#Segnorellus">Segnorelli</persName>, ab alio
+            <persName ref="#IacobinusBoso">Iacopini quondam Bosi</persName>. Item in loco dicto
+            <placeName ref="#Ficortiçola">Ficortiçola</placeName> unum petium terre, cui coheret
+          inferius <persName ref="#HenricusSorete">Henrici filii Sorete</persName>, superius
+            <persName ref="#Floreta">Florete</persName>. Item in confinibus <placeName
+            ref="#Corvasana">Corvasane</placeName> sunt IIII petia terre, cui prime coheret ab uno
+          latere <persName ref="#Bonus">Boni</persName> et ab alio <persName ref="#Stephanus"
+            >Stephani</persName>, secunde petie coheret superius <persName ref="#Todeschus"
+            >Todeschi</persName>, inferius <persName ref="#Henricus">Henrici</persName>, tercie
+          petie coheret inferius <persName ref="#Todeschus">Todeschi</persName> suprascripti,
+          superius <persName ref="#Vivaldetus">Vivaldeti</persName>, quarte petie coheret superius
+          via publica, inferius <persName ref="#Bruna">Brune</persName>. Item in loco dicto
+            <placeName ref="#Navola">Navola</placeName> sunt duo petia terre, cui prime coheret ab
+          uno latere terra <persName ref="#Bonavere">Bonavere</persName>, ab alio <persName
+            ref="#VitarellusGalisigna">Vitarelli de Galisingna</persName>, secunde petie terre
+          coheret terra suprascripti <persName ref="#VitarellusGalisigna">Vitarelli</persName> ab
+          uno latere et ab alio <persName ref="#Bonfiletus">Bonfileti</persName>. Item in <placeName
+            ref="#SummoPrato">Summo Prato</placeName> unum petium terre, cui coheret ab uno latere
+            <persName ref="#Montaninus">Montanini</persName>, ab alio heredum <persName
+            ref="#Segnorellus">Sengnorelli</persName>. Item in loco dicto <placeName ref="#Colle"
+            >Colle</placeName> duo petia, cui prime coheret inferius <persName ref="#Compagnonus"
+            >Compagnoni</persName>, secunde coheret eiusdem <persName ref="#Compagnonus"
+            >Compagnoni</persName> inferius, et in <placeName ref="#PetraCava">Petra
+            Cava</placeName> unum, cui coheret ab uno latere <persName ref="#Confortus"
+            >Conforti</persName>, ab alio <persName ref="#Bonaventura">Bonaventure</persName>, et in
+          loco dicto <placeName ref="#Guecçola">Guecçola</placeName> unum petium terre, cui coheret
+          ab uno latere <pb n="246r" xml:id="fol_246r"/>canale quidam et inferius similiter, de qua,
+          scilicet de <placeName ref="#Querçola">Querçola</placeName>, reddit <persName
+            ref="#Alegretus">Alegretus</persName> medium starium frumenti. Item in loco dicto
+            <placeName ref="#Rosetulo">Rosseculo</placeName> unum petium terre, cui coheret inferius
+          heredum <persName ref="#Lanfranchetus">Lanfrancheti</persName> et superius <persName
+            ref="#Amicus">Amici</persName>, cuius quarta pars ad dictum podere pertinet tantum. Item
+          in loco dicto <placeName ref="#Burculo">Burculo</placeName> est unum petium terre
+          castaneate, cuius quarta pars similiter ad dictum podere pertinet, cui coheret ab uno
+          latere <persName ref="#Guidobonus">Guidoboni</persName> et <persName ref="#Vivaldetus"
+            >Vivaldeti</persName>. Item in loco dicto <placeName ref="#Ortale">Ortale</placeName>,
+          in duobus locis, sunt duo petiola terre, de quibus octava pars ad dictum podere pertinet,
+          cui prime petiole coheret inferius <persName ref="#HenricusSorete">Henrici
+            Sorecte</persName>, superius <persName ref="#Todeschus">Todeschi</persName>, secunde
+          petiole coheret inferius <persName ref="#Todeschus">Todeschi</persName>, superius
+            <persName ref="#Vivaldetus">Vivaldeti</persName>. Item in loco dicto <placeName
+            ref="#AraValentina">Ara Valentina</placeName> est quidam campus, medietas cuius ad<note
+            place="foot" n="b" xml:id="CLV_n_002">
+            <term xml:lang="latin">ad</term><emph>: segue ripetuto</emph>
+            <term xml:lang="latin">ad</term></note> dictum podere pertinet, cui coheret a capite
+            <persName ref="#Dolcebonus">Dolceboni</persName>, inferius <persName ref="#Prodomus"
+            >Prodomi</persName>. Item in <placeName ref="#CapannaMartina">Capanna
+            Martina</placeName> est unum petium terre, de qua octava pars ad dictum podere pertinet,
+          cui coheret ab una parte <persName ref="#Dolcebonus">Dolceboni</persName>, ab alia
+            <persName ref="#Fercinus">Fercini</persName>. Et dedit, tradidit, cessit atque mandavit
+          eidem domino episcopo, recipienti ut dictum est, omne dominium, proprietatem, usum et
+          utilitatem et omnia iura, actiones et rationes, utiles et directas, reales, personales seu
+          mixtas et omnes alias que et quas habet vel ei competunt in suprascripto podere et in eo
+          toto quod habet in <placeName ref="#Ponzanello">Ponzanello</placeName> et districtu ultra
+          suprascriptum podere, faciendo ipsum dominum episcopum procuratorem et dominum in rem suam
+          de hiis, ita ut ex hiis omnibus et singulis ipse dominus episcopus suique successores
+          possint agere et experiri, causari, tueri et deffendere suo proprio nomine directo et
+          utilitate adversus quamcumque personam et locum et exinde facere quicquid voluerit sine
+          contradictione suprascripti curatoris et ipsius <persName ref="#Gaideferrus"
+            >Gaidiferi</persName> vel alterius persone, dando eidem domino episcopo licenciam ut,
+          sua auctoritate, de suprascripto podere possessionem ingrediatur quandocumque voluerit,
+          constituendo se idem curator<supplied reason="omitted">io</supplied> nomine pro ipso
+            <persName ref="#Gaideferrus">Gaidifero</persName> pro eo et eius nomine possidere, donec
+          possessionem vel quasi fuerit introgressus, pro precio cuius tocius suprascripti poderis
+          fuit confessus suprascriptus <persName ref="#UgolinusVenuti">Ugolinus</persName> curator ,
+          curatorio nomine pro suprascripto <persName ref="#Gaideferrus">Gaidifero</persName>, se
+          recepisse et habuisse, et habuit et recepit, coram me <persName ref="#Adiutusnot">Adiuto
+              <roleName>notario</roleName></persName> et testibus infrascriptis, a suprascripto
+          domino episcopo <measure type="Imperiales" quantity="8" unit="libra">libras VIII
+            imperialium</measure> et de illo quod ultra dictum podere habebat in <placeName
+            ref="#Ponzanello">Ponzanello</placeName> et districtu dedit suprascripto <persName
+            ref="#UgolinusVenuti">Ugolino</persName>
+          <measure type="Imperiales" quantity="40" unit="solidus">soldos XL imperialium</measure>,
+          renunciando exceptioni non numerate pecunie et precii integre non habiti et soluti et omni
+          alii iuri et legum auxilio. Et fuit confessus quod suprascripta venditio plus valebat
+          precio suprascripto, unde totum et quicquid plus valebat eidem domino episcopo donavit
+          titulo pure ac simplicis donationis inter vivos, et renunciando specialiter illi legi que
+          iuvat deceptos in venditionibus ultra dimidiam iusti precii; quos denarios promisit idem
+            <persName ref="#UgolinusVenuti">Ugolinus</persName> ipsi domino episcopo expendere et
+          convertere in possessionibus seu in affictis ad utilitatem dicti <persName
+            ref="#Gaideferrus">Gaidiferi</persName> et ipsos in aliis non expendere. Insuper
+          suprascriptus curator, curatorio nomine pro dicto <persName ref="#Gaideferrus"
+            >Gaidifero</persName>, promisit et convenit eidem domino episcopo, recipienti ut dictum
+          est, dictum podere et id totum quod ultra ab ipso podere emit non imbrigare vel molestare
+          deinceps, immo ipsum iure deffendere ab omni contradicente persona et loco; quod si non
+          faceret vel non posset, salvum cambium inde dare promisit. Hanc autem venditionem et omnia
+          que in hac carta leguntur suprascriptus <persName ref="#UgolinusVenuti"
+            >Ugolinus</persName>, curatorio nomine pro suprascripto <persName ref="#Gaideferrus"
+            >Gaidifero</persName>, promisit et convenit suprascripto domino episcopo, recipienti ut
+          dictum est, facere et observare atque in nullo contravenire de iure vel de facto, sub pena
+            <measure type="Imperiales" quantity="100" unit="solidus">soldorum C
+            imperialium</measure>, quam dare et solvere promisit ipsi domino episcopo tociens
+          quociens fuerit contraventum et pro quolibet capitulo non observato; qua soluta,
+          suprascriptis omnibus et singulis nichillominus semper firmis, obligando se et dictum
+            <persName ref="#Gaideferrus">Gaidiferum</persName><pb n="246v" xml:id="fol_246v"/>et
+          eius et sua bona, renunciando omni iuri et legibus contra hec introductis. Insuper dictus
+            <persName ref="#Gaideferrus">Gaidiferus</persName> iuravit corporaliter dictam
+          venditionem et omnia suprascripta ratam et rata habere, attendere et observare atque
+          numquam in aliquo contravenire de iure vel de facto, ratione minoris etatis vel doli seu
+          deceptionis vel in integrum restitutionis vel alia quacumque occasione vel modo.</p>
+        <p xml:id="CLV_p_002" n="2">Actum ante <orgName ref="#Ponzanello_S_Martino">ecclesiam de
+              <placeName ref="#Ponzanello">Ponzanello</placeName></orgName>, presentibus <persName
+            ref="#Saladinusarc"><roleName>magistro</roleName> Saladino <roleName>archipresbytero de
+                <placeName ref="#Viano">Viano</placeName></roleName></persName>, <persName
+            ref="#Iacopinusarc">Iacopino <roleName>archipresbytero de <placeName ref="#Ameglia"
+                  ><orgName ref="#Ameglia_S_Vincenzo"
+            >Amelia</orgName></placeName></roleName></persName>, <persName ref="#UgolinusVenuti"
+            >Ugolino quondam Venuti</persName> et <persName ref="#AidansGondeti">Aidante quondam
+            Gondeti</persName>, <roleName>consulibus tunc de <placeName ref="#Ponzanello"
+              >Ponzanello</placeName></roleName>, et pluribus aliis testibus ad hec rogatis.</p>
+        <p xml:id="CLV_p_003" n="3"><ptr target="#CLV_st_001"/>Ego <persName ref="#Adiutusnot"
+            >Adiutus, <roleName>sacri palatii notarius</roleName></persName>, hiis interfui et de
+          mandato suprascripti domini episcopi hec scripsi et in publicam formam redegi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

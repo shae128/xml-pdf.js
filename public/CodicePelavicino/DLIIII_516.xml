@@ -1,0 +1,246 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="DLIIII_516">
+		<front xml:id="DLIIII_front">
+
+			<titlePart type="numerazioneNuova">516</titlePart>
+			<titlePart type="numerazioneOrig">DLIIII</titlePart>
+
+			<docDate xml:id="DLIIII_docDate">
+				<date when="1257-12-29">1257 dicembre 29</date><placeName ref="#Lucca">Lucca (<term
+						xml:lang="latin">Luce, in domo hospitalis Sancti Martini de
+					Luca</term>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="DLIIII_regesto">
+				<p>Si definisce la lite vertente fra la curia Lunense e il monastero di San Michele
+					di Orticaria di Pisa nei riguardi della chiesa di Santa Croce del Corvo. Dato
+					che il vescovo chiedeva che il priore, i monaci e i conversi di Santa Croce gli
+					prestassero obbedienza nelle cose spirituali, ma obiettando il priore di non
+					poter agire contro la regola osservata dal monastero di San Michele di
+					Orticaria, si stabilisce concordemente che il vescovo possa recarsi una volta
+					all’anno in visita a Santa Croce e restare lì per due giorni e una notte a spese
+					della chiesa; se vorrà trattenersi per più tempo o soggiornarvi più di una volta
+					all’anno lo dovrà fare a sue spese. Se, nel corso della visita, troverà
+					inadempienze da correggere, le dovrà denunciare all’abate di San Michele, che
+					avrà un mese di tempo per provvedere, altrimenti agirà lui stesso. Il vescovo
+					conferma infine tutti i privilegi concessi dai suoi predecessori alla chiesa di
+					Santa Croce.</p>
+			</div>
+
+			<div type="footer" xml:id="DLIIII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] cc. 405r.-405v., cc. CCCLXXXXVIIr.-CCCLXXXXVIIv. secondo la
+						numerazione originale. </p>
+				</div>
+
+				<div type="biblio">
+					<p>Edizione pressoché integrale in <ref type="biblio"
+							target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>,n. 554, pp.
+						630-633.</p>
+				</div>
+
+				<div type="crit_notes">
+					<p>Lupo Gentile riporta come data del documento il 21 dicembre 1258 (in realtà
+						1257), che però è solo citata entro il testo, in riferimento al mandato
+						dell’abate di S. Michele di Orticaria. Mazzini ha segnalato il problema, ma
+						non ha controllato nel codice la data effettivamente espressa (<ref
+							type="biblio" target="#MAZZINI_1914">MAZZINI 1914</ref>, p. 37). </p>
+					<p>Nel margine esterno di c. 405r., di mano moderna:<emph>Contra priorem
+							monasterii Sancte Crucis de Corvo</emph></p>
+				</div>
+
+				<div type="appr">
+
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">DLIIII. Compositio inter dominum episcopum et
+							monasterium de Corbo.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="DLIIII_div">
+				<pb n="405r" xml:id="fol_405r"/>
+				<p xml:id="DLIIII_p_001"> In nomine Patris et Filii et Spiritus Sancti, amen. Cum
+					lis et controversia diutius agitata fuisset coram diversis iudicibus inter
+					venerabilem patrem dominum <persName ref="#GuilEpLuni">Guilielmum<roleName>, Dei
+							gratia Lunensem episcopum</roleName></persName>, pro ipso episcopatu, ex
+					una parte, et abbatem et monachos <orgName ref="#S_Michele_Orticaria"
+						type="monasterium">monasterii Sancti Michaelis de <placeName
+							ref="#Orticaria">Orticaria</placeName></orgName>, <orgName
+						ref="#diocesis_Pisa" type="diocesis">Pisane dyocesis</orgName>, et priorem
+					sive maiorem <orgName ref="#S_Croce_Corvo" type="monsterium_ecclesia_capitulum"
+						>ecclesie Sancte Crucis de Corvo</orgName>, Lunensis dyocesis, ad dictum
+						<orgName ref="#S_Michele_Orticaria">monasterium Sancti Michaelis</orgName>
+					pertinentis, ex altera, super obedientia quam idem dominus episcopus sibi
+					prestari petebat ab ipso priore sive maiore <orgName ref="#S_Croce_Corvo"
+						>ecclesie Sancte Crucis</orgName>predicte super spiritualibus que ad
+					episcopalem dignitatem pertinent, que sibi reservaverunt antecessores eiusdem
+					domini episcopi tempore quo dictam <orgName ref="#S_Croce_Corvo">ecclesie Sancte
+						Crucis</orgName><orgName ref="#S_Michele_Orticaria" type="monasterium"
+						>monasterio Sancti Michaelis</orgName> predicti contulerunt, sicut de ipsa
+					collatione constat per publica instrumenta sive privilegia et rebus aliis, idem
+					dominus episcopus, pro ipso episcopatu, et <roleName>donnus <persName
+							ref="#Iacopus_abbas2">Iacopus </persName>abbas </roleName>
+					<orgName ref="#S_Michele_Orticaria">monasterii Sancti Michaelis
+					</orgName>suprascripti, habens ad hoc licenciam et mandatum inrevocabile a
+					fratribus suis dicti monasterii per cartam inde rogatam<note
+						xml:id="DLIIII_n_001" n="a" place="foot"> inde rogatam<emph>nel testo</emph>
+						rogatam inde<emph> con segno di richiamo per invertire l’ordine delle
+							parole.</emph>.</note> et firmatam a <persName
+						ref="#IohannesBonacciani_notarius">Iohanne Bonacciani
+							<roleName>notario</roleName> de <placeName ref="#Pisa"
+						>Pisis</placeName></persName>, rogatam sub <date when="1257-12-21"> anno
+						incarnationis Domini M°CCLVIII, indictione prima, XII kalendas ianuarii
+							<note>Mandato dei monaci di S. Michele di Orticaria al loro abate Iacopo
+							per trattare la lite riguardante la chiesa e monastero di S. Croce al
+							Corvo</note></date>ad infrascriptam amicabilem compositionem devenerunt,
+					videlicet quod prior sive maior dicte <orgName ref="#S_Croce_Corvo">ecclesie
+						Sancte Crucis</orgName> et sui successores ipsi domino episcopo obedientiam
+					pro spiritualibus in hiis que pertinent ad episcopalis officii dignitatem, que
+					sibi reservaverunt antecessores ipsius domini episcopi tempore predicte
+					collationis, facere debeant et teneantur pro se et monachis et conversis
+					residentibus in loco suprascripto. Priores autem sive maiores, monachi et
+					conversi in eadem <orgName ref="#S_Croce_Corvo">ecclesia Sancte Crucis</orgName>
+					ponantur, instituantur et removeantur per abbatem predicti <orgName
+						ref="#S_Michele_Orticaria">monasterii Sancti Michaelis <note
+							xml:id="DLIIII_n_002" n="b" place="foot">Michaelis: ch<emph> con segno
+								di abbreviazione corretto su precedente abrasura</emph>.</note> de
+							<placeName ref="#Orticaria">Orticaria</placeName></orgName> iuxta ipsius
+					ordinis disciplinam et iuxta quod concessum est et ex tenore privilegiorum
+					apparet que predecessores ipsius domini episcopi <orgName
+						ref="#S_Michele_Orticaria">monasterio </orgName>suprascripto <orgName
+						ref="#S_Michele_Orticaria">de <placeName ref="#Orticaria"
+							>Orticaria</placeName></orgName> concesserunt, hoc etiam addito quod ex
+					ipsa obedientia respondere illi de predicta <orgName ref="#S_Croce_Corvo"
+						>ecclesia Sancte Crucis </orgName>non teneantur ipsi domino episcopo in hiis
+					que ess<supplied reason="omitted">e</supplied>nt contra sui ordinis disciplinam
+					nec possit idem dominus episcopus ipsos compellere ex ipsa obedientia ad aliam
+					observantiam religionis quam sint soliti observare vel aliquid ibidem exercere
+					contra privilegiorum tenorem concessorum dicto <orgName
+						ref="#S_Michele_Orticaria">monasterio Sancti Michaelis</orgName>. Ipsi autem
+					de predicta <orgName ref="#S_Croce_Corvo">ecclesia Sancte Crucis </orgName>in
+					ceteris que competunt dicto domino episcopo ex forma privilegiorum teneantur
+					obedire eidem; possit etiam idem dominus episcopus annis singulis visitare
+					ecclesiam predictam <orgName ref="#S_Croce_Corvo"> Sancte Crucis </orgName>cum
+					VI equitaturis et XII personis per duos dies et unam noctem, recipiens moderatam
+					procurationem a priore sive maiore et fratribus dicti loci; quod, si amplius
+					visitaverit quam semel in anno, tunc predicti de <orgName ref="#S_Croce_Corvo"
+						>ecclesia Sancte Crucis </orgName>ad nullam aliam procurationem exhibendam
+					ipsi domino episcopo teneantur; set ipse dominus episcopus in expensis propriis,
+					si voluerit amplius quam semel, visitet ipsum locum. Cum autem dictus dominus
+					episcopus visitaverit locum ipsum, plenam et liberam habeat potestatem faciendi
+					ea que ad visitationem pertinere noscuntur de iure, ita tamen quod, si idem
+					dominus episcopus aliquid ibidem invenerit corrigendum vel reformandum, teneatur
+					idem dominus episcopus denuntiare abbati vel <orgName ref="#S_Michele_Orticaria"
+						>conventui Sancti Michaelis </orgName>predicti que invenerit corrigenda vel
+					reformanda et ipse abbas vel conventus teneantur, infra mensem post
+					denunciationem sibi factam, corrigere et reformare que per ipsum dominum
+					episcopum vel eius nuncium seu litteras, secundum formam inquisitionis et
+					visitationis facte, eis fuerint nuntiata. Quod, si infra mensem dicti abbas et
+					conventus denuntiata secundum predictum modum neglexerint adimplere, ex tunc
+					idem dominus episcopus inquisitionem factam in dicto loco libere exequatur et
+					idem dominus episcopus, favore religionis predictorum abbatis et monachorum
+					prefati <orgName ref="#S_Michele_Orticaria"> monasterii Sancti Michaelis de
+							<placeName ref="#Orticaria">Orticaria</placeName></orgName>, obtentu
+					etiam eiusdem <orgName ref="#S_Croce_Corvo">ecclesie Sancte Crucis </orgName>et
+					ibidem degentium, cuius ecclesie augmentum desiderat et profectum, omnia
+					privilegia suorum antecessorum usque ad hec tempora concessa prefato <orgName
+						ref="#S_Michele_Orticaria">monasterio Sancti Michaelis de <placeName
+							ref="#Orticaria">Orticaria </placeName></orgName>de ipsa<orgName
+						ref="#S_Croce_Corvo">ecclesia Sancte Crucis </orgName>et rebus ad ipsam
+					pertinentibus, quoad spiritualia et temporalia in eis comprehensa et concessa
+					ipsi <orgName ref="#S_Michele_Orticaria">monasterio Sancti Michaelis
+					</orgName>rata et firma habens, per hanc scripturam publicam et amicabilem
+					compositionem confirmavit et ipsis omnibus suum assensum prestitit, hoc ipsum
+					faciens de omnibus et singulis possessionibus ab eisdem suis antecessoribus ipsi
+						<orgName ref="#S_Croce_Corvo">ecclesie Sancte Crucis</orgName>concessis et
+					de aliis iuxte<note xml:id="DLIIII_n_003" n="c" place="foot"> iuxte: <emph>così
+							nel testo per</emph> iuste.</note> ipsi <orgName ref="#S_Croce_Corvo"
+						>ecclesie Sancte Crucis </orgName>acquisitis, iuxta quod termini ponentur
+						<note xml:id="DLIIII_n_004" n="d" place="foot"> iuxta quod termini ponentur:
+							<emph>così nel testo</emph>.</note> de consensu utriusque partis, non
+					obstante quod ab ipso domino episcopo et episcopatu in feudo vel aliquo quolibet
+					titulo a quibuscumque personis vel locis tenebantur antequam pervenirent ad
+					ecclesiam suprascriptam <orgName ref="#S_Croce_Corvo">Sancte Crucis</orgName>,
+					dummodo, si quid debent vel tenentur ex ipsis possessionibus dare vel solvere,
+					quod illud solvetur et detur. Que omnia suprascripta et singula suprascriptorum
+					dictus dominus episcopus pro dicto episcopatu et dictus dominus abbas dicti
+					monasterii pro dicto monasterio ex baillia predicta sic se per omnia facturos et
+					observaturos omni tempore inter se ad invicem per stipulationem sollempnem
+					convenerunt et promiserunt, obligando se idem dominus episcopus et suos
+					successores pro dicto episcopatu et ipsum episcopatum et eius bona et dictus
+					abbas obligando se suosque successores pro dicto monasterio et ipsum monasterium
+					et eius bona ad penam marcharum centum argenti vicissim inter se per
+					stipulationem promissam. Item dictus dominus episcopus pro dicto episcopatu
+					promisit dicto abbati, recipienti pro dicto monasterio, obligando se suosque
+					successores pro dicto episcopatu et ipsum episcopatum et eius bona ad penam
+					iamdictam, stipulatione promissa, se facturum ita et procuraturum cum effectu
+					quod canonici Lunenses predicta omnia et singula firma et rata habebunt per
+					publicum instrumentum et ipsis omnibus suum consensum prestabunt infra XV dies
+					post reditum eius hac vice. </p>
+				<p xml:id="DLIIII_p_002">Actum <placeName ref="#Lucca">Luce</placeName>, in domo
+						<orgName ref="#S_Martino_Lucca_hosp">hospitalis Sancti Martini de
+						Luca</orgName>, presentibus <roleName>magistro <persName ref="#Saladinusarc"
+							>Saladino </persName>archipresbytero </roleName> de <placeName
+						ref="#Viano">Viano</placeName>
+					<pb n="405v" xml:id="fol_405v"/> et <roleName>magistro <persName
+							ref="#Gerardusarc">Gerardo </persName>archipresbytero </roleName>de
+						<placeName ref="#Marnasco">Marnasco </placeName> et <roleName>domino
+							<persName ref="#Vivasinuscan">Vivasio </persName>canonico
+						Lunensi</roleName>, predictis omnibus consentiente, et <roleName>magistro </roleName>
+					<persName ref="#PetrusPisis_plebanus">Petro de <placeName ref="#Pisa">Pisis
+						</placeName></persName>
+					<roleName>plebano </roleName>de <orgName ref="#S_Giulia_Caprona"><placeName
+							ref="#Caprona">Caprona</placeName></orgName>, <orgName
+						ref="#Pisa_diocesi">dyocesis Pisana</orgName>, et <persName
+						ref="#CompagnusGradi_notarius">Compagno <roleName>notario </roleName>de
+							<placeName ref="#Pisa">Pisis</placeName>, filio Gradi</persName>, et
+						<roleName>donno </roleName>
+					<persName ref="#Benettus_monacus">Benetto, <roleName>monacho
+						</roleName></persName>
+					<orgName ref="#S_Michele_Orticaria" type="monasterium">Sancti Michaelis
+					</orgName>predicti, et <roleName>donno <persName ref="#Luca_monacus"
+							>Luca</persName>, altero monacho</roleName> dicti monasterii, et aliis
+					pluribus testibus ad hec rogatis. <date when="1257-12-29">Anno a nativitate Eius
+						M°CCLVIII, indictione prima, IIII kalendas ianuarii</date>. Qui
+						<roleName>donnus <persName ref="#Luca_monacus">Lucas</persName>, nunc prior
+						sive maior</roleName> dicte <orgName ref="#S_Croce_Corvo">ecclesie Sancte
+						Crucis</orgName>, sequens formam dicte amicabilis compositionis, presente ac
+					consentiente dicto abbate <orgName ref="#S_Michele_Orticaria">Sancti
+						Michaelis</orgName>, fecit et prestitit obedientiam dicto domino episcopo
+					pro episcopatu Lunensi. Actum eodem suprascripto die et loco et suprascriptis
+					testibus presentibus. </p>
+				<p xml:id="DLIIII_p_003">
+					<ptr target="DLIIII_st_001"/>Ego <persName ref="#Adiutusnot">Adiutus,
+							<roleName>sacri palacii notarius</roleName></persName>, hiis interfui et
+					de mandato et voluntate suprascriptorum domini episcopi et abbatis <orgName
+						ref="#S_Michele_Orticaria">monasterii predicti de <placeName
+							ref="#Orticaria">Orticaria</placeName></orgName> et <roleName>donni
+							<persName ref="#Luca_monacus">Luce</persName> tunc prioris</roleName>
+					dicte <orgName ref="#S_Croce_Corvo">ecclesie de Corvo</orgName>, hec scripsi et
+					in publicam formam redegi. Et sunt due carte de hoc eiusdem tenoris, quarum
+					aliam scripsit suprascriptus Iohannes pro parte suprascriptorum abbatis et
+					prioris. </p>
+			</div>
+		</body>
+	</text>
+</TEI>

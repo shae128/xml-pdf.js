@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="XII_41">
+		<front xml:id="XII_front">
+
+			<titlePart type="numerazioneNuova">41</titlePart>
+			<titlePart type="numerazioneOrig">XII</titlePart>
+
+			<docDate xml:id="XII_docDate">
+				<date from="1186-09-10" to="1187-09-10">&lt;1186-1186&gt; settembre 10</date>,
+					<placeName ref="#Verona"> Verona (<term xml:lang="latin"
+					>Verone</term>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="XII_regesto">
+				<p>Papa Urbano III, ricordando gli esempi dei predecessori Alessandro III e Lucio
+					III, condanna temporaneamente il vescovo, l’arciprete e i canonici di Luni. </p>
+			</div>
+
+			<div type="footer" xml:id="XII_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] cc. 62r.-62v., cc. LIIIIr.-LIIIIv. secondo la numerazione
+						originale. </p>
+				</div>
+
+				<div type="biblio">
+					<p>Regesto: <ref target="#JAFFÉ_1885"> JAFFÉ 1885</ref>, 15917° con data 1186
+						settembre 13; <ref target="#KEHR_19145"> KEHR 1914</ref>, p. 381, n. 36 con
+						data 1186-1187 settembre 10</p>
+					<p> Edizione parziale:<ref target="#DESIMONI_1888">DESIMONI 1888</ref>, n. XIX,
+						pp. 116-117 con data 1186-1187 settembre;<ref target="#LUPO_GENTILE_1912"
+							>Lupo Gentile 1912</ref>n. 12, p. 15, senza data. </p>
+				</div>
+
+				<div type="crit_notes">
+					<note>Per la datazione del documento si segue <ref target="#KEHR_1914">KEHR
+							1914</ref>, p. 381, n. 36, con le considerazioni di <ref
+							target="#AIRALDI_1970-71">AIRALDI 1970-71</ref>, p. 53, derivate dal
+						fatto che Urbano III restò a Verona fino al 22 settembre 1187. L’evanescenza
+						dell’inchiostro, unitamente a macchie d’umidità, rende problematica la
+						lettura di parti del testo. </note>
+				</div>
+
+				<div type="appr">
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">XII. Lictere pape Urbani de confirmatione
+							privilegiorum.</term></p>
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="XII_div">
+				<p xml:id="XII_p_001">
+					<persName ref="#Urbanus_pontifex_III">Urbanus<roleName> episcopus, servus
+							servorum Dei</roleName></persName><note xml:id="XII_n_1" place="foot"
+						n="a">Urbanus: <emph>in</emph> littere elongatae.</note>, venerabili fratri
+					.. episcopo et dilectis filiis archipresbyteris et canonicis Lunensibus, salutem
+					et apostolicam <supplied reason="omitted">benedictionem</supplied>.<pb n="62v"
+						xml:id="fol_062v"/> Dum ecclesiarum <supplied reason="illeggibile"
+						>iura</supplied><note xml:id="XII_n_2" place="foot" n="b">Lettura
+						incerta.</note> tueri pro suscepto ministerio teneamur, dignum est et
+					rationi conveniens <supplied reason="illeggibile">sati</supplied> indempnitati
+					earum, quantum cum iusticia possumus, intendamus. Inde est quod ad exemplar
+					felicis recordationis predecessorum nostrorum <persName
+						ref="#AlexanderpontifexIII">Alexandri </persName> et <persName
+						ref="#Lucius_pontifex_III">Lucii<roleName>, Romanorum
+						pontificum</roleName></persName> qui remedium simile quibusdam adhibuit
+						<note xml:id="XII_n_3" place="foot" n="c">adhibuit: <emph>così nel
+							testo.</emph></note> scismaticis f<supplied reason="illeggibile"
+						>ervoribu</supplied> depressis, presentium auctoritate statuimus ne tempus
+					elapsum inde <supplied reason="illeggibile"/><note xml:id="XII_n_4" place="foot"
+						n="d"> Tre parole illeggibili a causa dell'inchiostro sbiadito.</note>
+					ecclesiam vestram in proscriptione a quoque valeat computari. Nulli ergo omnino
+					hominum liceat hanc paginam nostre constitutionis infringere vel ei ausu
+					temerario contraire. Si quis autem hoc attemptare <note xml:id="XII_n_5"
+						place="foot" n="e">attempare: <emph>la prima </emph>t <emph>aggiunta in
+							sopralinea da mano moderna in carattere più minuto. La </emph>e
+							<emph>finale corretta su precedente
+					scrittura.</emph></note>presumpserit, indignationem omnipotentis Dei et beatorum
+					Petri et Pauli, apostolorum Eius, se noverit incursurum. </p>
+				<p xml:id="XII_p_002"> Datum <placeName ref="#Verona">Verone</placeName>, <date
+						from="1186-09-10" to="1187-09-10">III idus decembris</date>. </p>
+			</div>
+		</body>
+	</text>
+</TEI>

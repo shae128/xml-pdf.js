@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="\schema\tei_cp.rng" type="application\xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+
+  <text xml:id="CCCCLXXXXVI_457">
+    <front>
+      <titlePart type="numerazioneNuova">457</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXXVI</titlePart>
+
+      <docDate xml:id="CCCCLXXXXVI_docDate"><date when="1285-01-03">1285 gennaio 3</date>,
+          <placeName ref="#Ameglia">Ameglia</placeName> (<emph>in plebe Sancti Vincentii de
+          Amelia</emph>)</docDate>
+
+      <div type="regesto" xml:id="CCCCLXXXXVI_regesto">
+        <p> Garfagnina, vedova di Faccio di Trebiano e madre e tutrice dei figli Bertolino,
+          Franceschino e Maurizio, insieme a Bonacorso di Montale de Trebiano, anch’egli tutore,
+          vendono al vescovo di Luni Enrico i vassalli Niccolò del fu Bonavere di Portexono, Corrado
+          e Conforto figli di Simone e nipoti di Niccolò, Bonafemmina del fu Raffino, Melioruccio
+          del fu Bonensegna Gordiani et Iacopino barbiere, insieme ai fitti e prestazioni che
+          costoro devono versare alla curia di Ameglia e Barbazzano. Il prezzo è di 7 lire di
+          imperiali.</p>
+      </div>
+      <div type="footer" xml:id="CCCCLXXXXVI_footer">
+        <div type="orig_doc">
+          <p>Copia [C] cc. 373v.-374r., cc. CCCLXIIIIv.-CCCLXVr. <emph>secondo la numerazione
+              originale</emph>.</p>
+        </div>
+        <div type="biblio">
+          <p>Edizione in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 496, pp.
+            522-524.</p>
+        </div>
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin">IIIIc
+              LXXXXVI. Emptionis a domina Garfagnina pro filiis condam Facii de Tribiano, olim
+              domini Paganelli, fidelium et vasallorum suorum. </term></p>
+        </div>
+      </div>
+    </front>
+    <body>
+      <div xml:id="CCCCLXXXXVI_div">
+        <p xml:id="CCCCLXXXXVI_p_001" n="1"> In eterni Dei nomine, amen. <date when="1285-01-03"
+            >Anno Eiusdem M°CCLXXXV, indictione XIII, die III intrantis ianuarii</date>.
+            <roleName>Domina</roleName>
+          <persName ref="#GarfagninaFacii">Guarfagnina</persName>, uxor olim Facii, filii quondam
+          domini <persName ref="#PaganellusGuidoni">Paganelli de <placeName ref="#Trebiano"
+              >Trebiano</placeName></persName>, mater <persName ref="#BertolinusFacii"
+            >Bertholini</persName>, <persName ref="#FranceschinusFacii">Franceschini</persName> et
+            <persName ref="#MauriciusFacii">Mauricii</persName>, filiorum quondam dicti Facii et
+          predicte <roleName>domine</roleName>
+          <persName ref="#GarfagninaFacii">Guarfagnine</persName>, tutricis testamentarie date
+          dictis filiis suis a dicto quondam domino <persName ref="#PaganellusGuidoni"
+            >Paganello</persName>, filio quondam domini Guidonis de <placeName ref="#Trebiano"
+            >Trebiano</placeName>, et <persName ref="#BonacursusMontali">Bonacursus de Montali de
+              <placeName ref="#Trebiano">Trebiano</placeName></persName>, tutor etiam
+          testamentarius, una cum dicta domina <persName ref="#GarfagninaFacii"
+            >Guarfagnina</persName>, predictorum <persName ref="#BertolinusFacii"
+            >Bertholini</persName>, <persName ref="#FranceschinusFacii">Franceschini</persName> et
+            <persName ref="#MauriciusFacii">Mauricii</persName>, de qua tutella continetur in
+          testamento facto a dicto quondam domino <persName ref="#PaganellusGuidoni"
+            >Paganello</persName>, scripto manu <persName ref="#SalvusTrebianonot">Salvi de
+              <placeName ref="#Trebiano">Trebiano</placeName></persName>
+          <roleName>notarii</roleName>
+          <date when="1283-03-13">anno nativitatis Domini M°CCLXXXIII, indictione XI, die XIII
+            mensis marcii</date>, a me infrascripto notario viso et lecto, confecto etiam inventario
+          per eos, sicut dicunt contineri in carta publica scripta manu <persName
+            ref="#Falconcellonot">Falconcelli</persName>
+          <roleName>notarii</roleName>
+          <note place="foot" n="a" xml:id="CCCCLXXXXVI_n_001">notarii: <emph>segue, depennato,
+              predicti e un segno di richiamo a forma di croce</emph>.</note> et dicta domina
+            <persName ref="#GarfagninaFacii">Guarfagnina</persName>, etiam tutrix data et confirmata
+          per curiam <placeName ref="#Trebiano">Trebiani</placeName> predictis filiis eius, prout de
+          predicta confirmatione et tutella constat per instrumentum publicum factum et extractum de
+          actis curie predicte <placeName ref="#Trebiano">Trebiani</placeName> manu <persName
+            ref="#Falconcellonot">Falconctelli</persName>
+          <roleName>notarii</roleName> predicti <note place="foot" n="b" xml:id="CCCCLXXXXVI_n_002"
+            >da et dicta domina Garfagnina a notarii predicti <emph>frase richiamata, termina con un
+              altro segno di richiamo costituito da due linee con sopra dei puntini e una lettera
+              a</emph>.</note> sub <date when="1284-02-10">annis Domini M°CCLXXXIIII, indictione
+            XII, die X februarii</date>, a me infrascripto notario visum et lectum, tutorio nomine
+          pro ipsis pupillis et minoribus, propter hes alienum dictorum minorum <note place="foot"
+            n="c" xml:id="CCCCLXXXXVI_n_003">dictorum minorum: <emph>segue il segno di richiamo
+              costituito da linee e puntini, la lettera b e il segno di richiamo a forma di
+              croce</emph>.</note> , et debita creditorum, que solvi tenentur et debent urgentibus
+          creditoribus, credita sibi considerata et previsa maiori utilitate ipsorum minorum et
+          minori dampno et detrimento, cum non sit in bonis pecunia, aurum vel argentum nec aliquod
+          mobile de quibus dicta debita solvi possint, vendiderunt, tradiderunt et cesserunt,
+          predicto nomine, et ipsa domina <persName ref="#GarfagninaFacii">Guarfagnina</persName>,
+          pro omni suo iure ad proprium et iure proprio, in perpetuum, <persName
+            ref="#NicholausBonavere">Nicholaum quondam Bonaver de <placeName ref="#Portesone"
+              >Portexono</placeName></persName> de districtu <placeName ref="#Barbazzano"
+            >Barbazani</placeName>, <persName ref="#ConradusSymonis">Conradum</persName> et
+            <persName ref="#ConfortusSymonis">Confortum</persName>, fratres et filios quondam
+          Symonis, fratris dicti quondam Nicholai, <persName ref="#BonafeminaRaffani">Bonafeminam
+            filiam quondam Raffani</persName>
+          <note place="foot" n="d" xml:id="CCCCLXXXXVI_n_004">Raffani: <emph>nel testo Raffini con i
+              espunta e a in sopralinea</emph>.</note> de eodem loco, <persName
+            ref="#MelioruciusBonensegne">Meliorucium filium quondam Bonensegne Gordiani</persName>,
+          et <persName ref="#Iacobinusbar">Iacobinum</persName>
+          <roleName>barberium</roleName>, <roleName>vassallos predictorum minorum et
+            fideles</roleName>, venerabili patri <roleName>domino</roleName>
+          <persName ref="#HenricusEpLuni">Henrico</persName>, <roleName>divina miseratione Lunensi
+            episcopo</roleName>, recipienti et ementi nomine et vice Lunensis Ecclesie et
+          episcopatus et successorum suorum, cum omni iure feudi et feudorum et fidelitatis feudorum
+          et omnibus aliis condictionibus et redditibus et generaliter omnes quoscumque fideles
+          atque vassallos, villanos, angarios et perangarios seu ascripticios, cuiuscumque generis
+          sint, et omnia ficta, redditus et pensiones et prestationes et factiones, cuiuscumque
+          generis sint vel condictionis existant, cum omni iure personarum, tenutarum, possessionum
+          et terrarum, domorum sive casamentorum obligatorum vel obligatarum et solvere et prestare
+          debencium, videlicet in curia et districtibus castrorum <placeName ref="#Ameglia"
+            >Amelie</placeName> et <placeName ref="#Barbazzano">Barbazani</placeName>, que dicta
+          ficta deberent recipere dicti minores in castris predictis, pro precio et nomine precii
+            <measure type="Imperiales" quantity="7" unit="libra">librarum VII imperialium</measure>,
+          quas dicti domina <persName ref="#GarfagninaFacii">Guarfagnina</persName> et <persName
+            ref="#BonacursusMontali">Bonacursus</persName> fuerunt confessi et contenti se a
+          predicto domino episcopo habuisse et recepisse, renunciantes exceptioni non habite et non
+          recepte pecunie et omni legum auxilio. Quos fideles et vassallos et redditus sive ficta
+          dicti tutores se, <pb n="374r" xml:id="fol_374r"/> nomine dicti domini episcopi,
+          constituerunt possidere donec exinde possessionem acceperit corporaliter, quam accipiendi
+          et retinendi deinceps ei licenciam omnimodam dederunt, promittentes pro se et dicto nomine
+          de dictis villanis et vassallis et predictis rebus venditis dicto domino episcopo vel eius
+          successoribus vel cui commiserit litem vel controversiam non inferre nec inferenti
+          consentire, set pocius ab omni persona et loco impediente vel molestante legitime
+          deffendere, auctorizare et disbrigare, suis et dictorum minorum propriis expensis litis et
+          extra; et, si deffendere et disbrigare non possent, promiserunt eidem salvum cambium inde
+          dare de suis vel dictorum minorum bonis in arbitrio boni viri, habita ratione
+          meliorationis que pro tempore fuerit. Predictam quidem venditionem et omnia et singula
+          suprascripta promiserunt perpetuo per se et dictos minores firmam et firma, ratam et rata
+          habere et tenere et non contra facere vel venire per se vel dictos minores vel eorum
+          heredes aliqua causa vel ingenio, de iure vel de facto, sub pena dupli exstimationis <note
+            place="foot" n="e" xml:id="CCCCLXXXXVI_n_005">exstimationis: <emph>x aggiunto in
+              sopralinea</emph>.</note> dictorum vassallorum et rerum, habita <note place="foot"
+            n="f" xml:id="CCCCLXXXXVI_n_006">habita: <emph>corretto su habitatione con tione
+              depennato edespunto</emph>.</note> ratione meliorationis que pro tempore fuerit,
+          stipulatione promissa; qua soluta vel non, predicta omnia firma perdurent. Item reficere
+          et restituere promiserunt eidem domino episcopo omnia dampna, expensas ac interesse omne
+          litis et extra. Pro quibus omnibus sic perpetuo observandis obligaverunt dicto domino
+          episcopo omnia sua et dictorum minorum bona, habita et habenda, renunciantes in predictis
+          omni legum, capitulorum et consuetudinum auxilio, quo contra predicta possent facere vel
+          venire et omnibus iuribus contra predicta introductis. Et specialiter dicta domina
+            <persName ref="#GarfagninaFacii">Guarfagnina</persName> renunciavit omni iuri
+          ypothecarum sibi competenti in predictis rebus et vassallis venditis nomine dotis sue.
+            <persName ref="#NicholausBonavere">Nicholaus</persName> et <persName
+            ref="#MelioruciusBonensegne">Meliorucius</persName>
+          <note place="foot" n="g" xml:id="CCCCLXXXXVI_n_007">Meliorucius: <emph>la prima u corretta
+              su precedente scrittura</emph>.</note> suprascripti, ibidem presentes, coram me
+          notario et testibus infrascriptis, fuerunt confessi se esse et eorum maiores fuisse
+          fideles et vassallos dicti domini <persName ref="#PaganellusGuidoni">Paganelli</persName>,
+          Facii et filiorum dicti Facii.</p>
+        <p xml:id="CCCCLXXXXVI_p_002" n="2"> Actum in plebe <orgName ref="#Ameglia_S_Vincenzo"
+            >Sancti Vincentii de <placeName ref="#Ameglia">Amelia</placeName></orgName>, presentibus
+          testibus <roleName>domino</roleName>
+          <persName ref="#Guilielmusprep">Guilielmo</persName>
+          <roleName>Lunensi preposito</roleName>, <roleName>dominis</roleName>
+          <persName ref="#Peregrinuscan">Peregrino</persName> et <persName ref="#Egidiuscan"
+            >Egidio</persName>, <roleName>Lunensibus canonicis</roleName>, et <persName
+            ref="#RodulfusFicechio">Rodulfo de <placeName ref="#Ficechio"
+            >Ficechio</placeName></persName>, ad hec rogatis et vocatis.</p>
+
+
+        <p xml:id="CCCCLXXXXVI_p_003" n="3">
+          <ptr target="#CCCCLXXXXVI_st_001"/> Ego <persName ref="#LevantinusLevantonot">Levantinus
+            de <placeName ref="#Levanto">Levanto</placeName></persName>, <roleName>imperialis aule
+            notarius</roleName>, hiis omnibus interfui et rogatus scripsi.</p>
+
+      </div>
+    </body>
+  </text>
+</TEI>

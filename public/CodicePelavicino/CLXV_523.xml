@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="\schema\tei_cp.rng" type="application\xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text xml:id="CLXV_523">
+        <front xml:id="CLXV_front">
+
+            <titlePart type="numerazioneNuova">523</titlePart>
+            <titlePart type="numerazioneOrig">CLXV</titlePart>
+
+            <docDate xml:id="CLXV_docDate">
+                <date when="1271-02-06">1271 febbraio 6</date>, <placeName><placeName
+                        ref="#Feleteria">Filattiera </placeName> (<term xml:lang="latin">Feletere,
+                        sub porticu ubi iura redduntur</term>)</placeName>
+            </docDate>
+
+
+
+            <div type="regesto" xml:id="CLXV_regesto">
+                <p> Gigliolo del fu Parente ratifica quanto dato in dote a Opizzino del fu Guglielmo
+                    di Castiglione dalla moglie Flordolina e si impegna a non rivendicare alcun
+                    diritto sull’eredità ricevuta da Flordolina e da suo fratello Ottofiore, ora
+                    defunto, dal padre di entrambi Domalfollo di Terrarossa. </p>
+            </div>
+
+            <div type="footer" xml:id="CLXV_footer">
+
+                <div type="orig_doc">
+                    <p> Copia [C] cc. 410v.-411r., cc. CCCCIIv.-CCCCIIIr. secondo la numerazione
+                        originale. </p>
+                </div>
+
+                <div type="biblio">
+                    <p> Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+                            1912</ref>, Addenda, n. 20, pp. 671-672. </p>
+                </div>
+
+                <div type="crit_notes"> </div>
+
+
+                <div type="appr">
+                    <p/>
+                </div>
+            </div>
+        </front>
+
+        <body>
+            <div xml:id="CLXV_div">
+                <p xml:id="CLXV_p_001" n="1"> In nomine Domini, amen. <date when="1271-02-06">M°CC°
+                        septuagesimo primo, indictione XIIII, die veneris, sexto mensis
+                        februarii</date>. Ad postulationem <persName ref="#UppecinusGuilielmi"
+                        >Opecini quondam <persName ref="#GuilielmusCastilliono">Guilielmi de
+                                <placeName ref="#Castilliono"
+                        >Castilliono</placeName></persName></persName>, mariti domine <persName
+                        ref="#FrordolinaDomalfolli">Flordoline, filie quondam <persName
+                            ref="#DomafolleTerrarossola">Domalfolli de <placeName
+                                ref="#Terrarossola">Terra Rosa</placeName></persName></persName>,
+                    stipulantis pro se et nomine et vice dicte domine <persName
+                        ref="#FrordolinaDomalfolli">Flordoline</persName>, <persName
+                        ref="#GiliolusParentis">Giliolus quondam domini <persName
+                            ref="#ParensTerrarossa">Parentis de <placeName ref="#Terrarossola"
+                                >Terrarosa</placeName></persName></persName> per se suosque heredes
+                    firmavit, approbavit, ratificavit, concessit et sibi placere dixit datum factum
+                        <persName ref="#UppecinusGuilielmi">Opecino</persName>, iure dotis, in
+                    extimatum per dictam dominam <persName ref="#FrordolinaDomalfolli"
+                        >Flord&#60;ol&#62;inam</persName> occasione bonorum et hereditatis que
+                    quondam fuerunt <persName ref="#DomafolleTerrarossola">Domalfolli, patris
+                        predicte domine <persName ref="#FrordolinaDomalfolli"
+                        >Flordoline</persName></persName>, et <persName ref="#OctoflosDomalfolli"
+                        >Ottofloris quondam, fratris predicte domine <persName
+                            ref="#FrordolinaDomalfolli">Flordoline</persName> et filii quondam
+                        suprascripti <persName ref="#DomafolleTerrarossola"
+                        >Domalfolli</persName></persName>, et in omnibus et per omnia predictis
+                    omnibus parabolam dedit et se obligavit, ut predicta domina <persName
+                        ref="#FrordolinaDomalfolli">Flordolina</persName> se obligavit, salvo quod
+                    non teneatur de evictione, nec eius heredes, nisi pro se et de suo facto tantum,
+                    ut de dicto dato contineri dixerunt in instrumento facto manu <persName
+                        ref="#Giffrolus_notarius">Giliolia<note place="foot" n="a"
+                            xml:id="CLXV_n_001"> Gilioli<emph>: così nel testo per</emph>
+                                Giffroli<emph>, cfr. doc. 521-CLXIII.</emph></note>
+                        <roleName>notarii</roleName></persName>. Insuper fecit eidem finem,
+                    refutationem, cessionem et pactum de non petendo in perpetuum de omni eo et toto
+                    eo quod petere seu exigere posset a predicta domina <persName
+                        ref="#FrordolinaDomalfolli">Flordolina</persName> et ex eo quod evenire
+                    posset sibi occasione hereditatis et successionis et vassallorum atque iurium
+                    vassallorum et omnium bonorum que quondam fuerunt suprascriptorum <persName
+                        ref="#DomafolleTerrarossola">Domalfolli</persName> et <persName
+                        ref="#OctoflosDomalfolli">Octofloris</persName> et ipsius domine <persName
+                        ref="#FrordolinaDomalfolli">Flordoline</persName> qualitercumque excogitari
+                    posset <persName ref="#UppecinusGuilielmi">Opecino</persName> predicto, marito
+                    dicte domine <persName ref="#FrordolinaDomalfolli">Flordoline</persName>,
+                    stipulanti pro se et nomine et vice ipsius domine <persName
+                        ref="#FrordolinaDomalfolli">Flordoline</persName>. Quam finem, refutationem,
+                    pactum et cessionem de non petendo in perpetuum idem <persName
+                        ref="#Giffrolus_notarius">Giliolus</persName> promisit per se suosque
+                    heredes firmum et firmam, ratum et ratam perpetuo habere atque tenere atque
+                    numquam contra facere vel venire per se vel alterum, in pena et sub pena
+                        <measure quantity="25" unit="solidus">XXV librarum Ianuensium</measure>; que
+                    pena tociens committatur et exigi possit cum effectu, quociens contra factum
+                    fuerit, <pb n="411r" xml:id="fol_411r"/> in solidum et in quolibet capitulo non
+                    observato, rato manente pacto. Et pro hiis omnibus atque singulis suprascriptis
+                    et specialiter pro<note place="foot" n="b" xml:id="CLXV_n_002"> pro : p<emph>
+                            corretto su precedente lettera abrasa.</emph></note> pena omnia sua bona
+                    eidem <persName ref="#UppecinusGuilielmi">Opecino</persName>, stipulanti et
+                    agenti pro se et nomine et vice dicte domine <persName
+                        ref="#FrordolinaDomalfolli">Flordoline</persName>, uxoris sue, iure pignoris
+                    obligavit, de quibus se pro eo et eius nomine constituit possidere.</p>
+                <p xml:id="CLXV_p_002" n="2">Actum <placeName ref="#Feleteria">Feletere</placeName>,
+                    sub porticu ubi iura redduntur, presentibus <roleName>domino</roleName>
+                    <persName ref="#YsaacFeletera_iudex">Ysaac <roleName>iudice de</roleName>
+                        <placeName ref="#Feleteria">Feletera</placeName></persName>, <persName
+                        ref="#GualteriusIacopi">Gualterio quondam Iacobi de <placeName
+                            ref="#Pratulo">Pratulo</placeName></persName> et <persName
+                        ref="#Bonavota_barberius">Bonavota <roleName>barberio</roleName></persName>
+                    eiusdem terre, testibus ad hec rogatis.</p>
+                <p xml:id="CLXV_p_003" n="3"><ptr target="#CLXV_st_001"/>Ego <persName
+                        ref="#BonsegnonisFeletera_notarius">Bonsegnonis de <placeName
+                            ref="#Feleteria">Feletera</placeName></persName>, <roleName>iudex et
+                        notarius ordinarius</roleName>, auctoritate <roleName>domini</roleName>
+                    <persName ref="#TancredusAdvocatis">Tancredi de Advocatis</persName> de
+                        <placeName ref="#Lucca">Luca</placeName>, hiis interfui et hanc cartam
+                    rogatus scripsi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

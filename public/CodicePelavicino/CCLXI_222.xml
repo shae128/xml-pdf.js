@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCLXI_222">
+    <front xml:id="CCLXI_front">
+
+      <titlePart type="numerazioneNuova">222</titlePart>
+      <titlePart type="numerazioneOrig">CCLXI</titlePart>
+
+      <docDate xml:id="CCLXI_docDate">
+        <date when="1187-11-13">1187 novembre 13</date>, <placeName>Sarzanello (<term
+            xml:lang="latin">in castro Sarzana, in palacio domini episcopi</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCLXI_regesto">
+        <p>Lombardello di Soliera, figlio del fu Ubertino, restituisce a Pietro, vescovo di Luni,
+          sia le terre e i redditi che aveva dal vescovo <term xml:lang="latin">in donicum</term>
+          nelle corti di Soliera e di Viano, sia quello che egli e i suoi predecessori avevano in
+          qualche modo alienato.</p>
+      </div>
+
+      <div type="footer" xml:id="CCLXI_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 268r., c. CCLXr. secondo la numerazione originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 261,
+            p. 240.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine esterno, di mano moderna: <term xml:lang="latin">Solerie et
+              Viani</term>.<ref target="#MAZZINI_1914">MAZZINI 1914</ref> p. 18 nota che l’indizione
+            dovrebbe essere la V, ma in realtà qui è in uso lo stile dell’incarnazione fiorentino
+            con indizione bedana, che, nel novembre 1187, era appunto la VI.</note>
+        </div>
+
+        <div type="appr">
+          <p/>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCLXI_div">
+        <p xml:id="CCLXI_p_001" n="1">In eterni Dei nomine, amen.<date when="1187"> Anno ab Eius
+            incarnatione millesimo centesimo octogesimo VII, indictione VI</date>, in <placeName
+            ref="#Sarzanello">castro Sarzana</placeName><note xml:id="CCLXI_n_001" n="a"
+            place="foot"><term xml:lang="latin">Sarzana</term>: <emph>così nel testo</emph>.</note>,
+          in palacio domini episcopi, <date when="--11-13">die veneris, qui fuit XIII intrante mense
+            novembri</date>, in presentia testium, quorum nomina infrascripta adesse
+            videntur.<persName ref="#LombardellusUbertini">Lombardellus de <placeName ref="#Soliera"
+              >Soleria</placeName>, filius quondam Ubertini</persName>, in manu domini <persName
+            ref="#PetrusEpLuni">Petri, Dei gratia <roleName>Lunensis episcopi</roleName></persName>,
+          fecit finem et refutationem de omni eo quod ipse <persName ref="#LombardellusUbertini"
+            >Lombardellus</persName> habebat seu tenebat ab ipso domino episcopo Lunensi tam in
+          curte <placeName ref="#Soliera">Solerie</placeName> quam in curte <placeName ref="#Viano"
+            >Viani</placeName>, terras scilicet, redditus seu condictiones totas quas ipse <persName
+            ref="#LombardellusUbertini">Lombardellus</persName> in donicum habebat vel quas ipse
+          Lombardellus sive sui predecessores alienaverant vel aliquo modo obliverat<note
+            xml:id="CCLXI_n_002" n="b" place="foot"><term xml:lang="latin">obliverat</term>:
+              <emph>così nel testo</emph>.</note> seu quovis ingenio habebat vel ad ipsum pertinebat
+          in predictis curtibus vel in earum pertinenciis, que detinent ab episcopo Lunensi. Totum
+          predicto domino episcopo refutavit et finem illi, tam pro se quam suis successoribus, per
+          se suosque heredes fecit, actionibus et iuribus, quas vel que iamscriptus habebat,
+          traditis atque mandatis; et liceat predicto episcopo suisque successoribus facere quicquid
+          facere voluerit, sine omni eiusdem <persName ref="#LombardellusUbertini"
+            >Lombardelli</persName> suorumque heredum contradictione.</p>
+        <p xml:id="CCLXI_p_002" n="2"># Signa manuum suprascripti <persName
+            ref="#LombardellusUbertini">Lombardelli</persName>, qui hanc cartulam fieri rogavit.</p>
+        <p xml:id="CCLXI_p_003" n="3"># # Signa manuum <persName ref="#Gibertusdiac">Giberti
+              <roleName>dyaconi</roleName></persName>, <persName ref="#Advocatus"
+            >Advocati</persName>, <persName ref="#Rogerinus">Rogerini</persName>, <persName
+            ref="#Bucadecanis">Bucadecane</persName>, <persName ref="#BalzanusSarzana">Balzani de
+              <placeName ref="#Sarzana">Sarzana</placeName></persName>, <persName ref="#Arditio"
+            >Arditionis</persName>, rogatorum testium.</p>
+        <p xml:id="CCLXI_p_004" n="4"><ptr target="#CCLXI_st_001"/> Ego <persName
+            ref="#Lombardusnot">Lombardus, <roleName>domini imperatoris et Lunensis curie
+              notarius</roleName></persName>, interfui et rogatus hanc cartulam scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

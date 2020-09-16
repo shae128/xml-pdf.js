@@ -1,0 +1,159 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title/>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+			</publicationStmt>
+			<sourceDesc>
+				<msDesc>
+					<msIdentifier/>
+				</msDesc>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:id="XX_49">
+		<front xml:id="XX_front">
+
+			<titlePart type="numerazioneNuova">49</titlePart>
+			<titlePart type="numerazioneOrig">XX</titlePart>
+
+			<docDate xml:id="XX_docDate">
+				<date when="1028-04-07">1028 (ma <date when="1027-04-07">1027</date>), aprile
+					7</date>,<placeName ref="#Roma">Roma (<term xml:lang="latin"
+					>Rome</term>)</placeName>
+			</docDate>
+
+			<div type="regesto" xml:id="XX_regesto">
+				<p>Corrado II conferma al vescovo Guido la piccola abbazia di Brumiade, sita nel
+					comitato di Luni, insieme con tutte le pertinenze </p>
+			</div>
+
+			<div type="footer" xml:id="XX_footer">
+
+				<div type="orig_doc">
+					<p>Copia [C] cc. 67r.-67v., cc. LVIIIIr.-LVIIIIv. secondo la numerazione
+						originale. </p>
+				</div>
+
+				<div type="biblio">
+					<p>Regesti:<ref type="biblio" target="#BÖHMER_1931">BÖHMER 1931</ref>, n.
+							1312;<ref type="biblio" target="#STUMPF BRENTANO_1865">STUMPF BRENTANO
+							1865</ref>, n.1933</p>
+					<p>Edizioni:<ref type="biblio" target="#UGHELLI_1648">UGHELLI 1648</ref>, I,
+						coll. 901; <ref type="biblio" target="#UGHELLI_1717">UGHELLI 1717</ref>, I,
+						coll. 839-840; <ref type="biblio" target="#MGH DD CII">MGH DD CII</ref>,
+						doc. 81, pp. 109-110; <ref target="#LUPO_GENTILE_1912">LUPO GENTILE
+							1912</ref>, n. 20, pp. 28-29.</p>
+				</div>
+
+				<div type="crit_notes">
+					<note>
+						<p>Nel margine interno di c. 67r, di mano moderna:<emph><term
+									xml:lang="latin">Imperator Conradus confirmat iura episcopi
+									super quadam abbatia Brumiade</term></emph>
+						</p>
+						<p>Le integrazioni sono proposte anche sulla base dell’edizione MGH DD CII,
+							doc. 81.</p>
+					</note>
+				</div>
+
+				<div type="appr">
+					<p>Massimo Dadà (<ref type="biblio" target="#DADA2012">DADÀ 2012</ref>, p. 82)
+						ha avanzato l’ipotesi che il diploma sia un falso della prima metà del XII
+						secolo sulla base di considerazioni squisitamente storiche; tuttavia
+						rileviamo che non sussistono elementi diplomatistici che inficino
+						l’autenticità del contenuto e notiamo inoltre l’assenza nel codice, e quindi
+						nell’archivio del vescovo di Luni, di altri diplomi di Corrado II che
+						potessero essere eventualmente usati come modello per la redazione del
+						falso.</p>
+					<p>Nell'indice del codice (doc. 1) il documento è titolato <term
+							xml:lang="latin">XX. Privilegium imperatoris Conradi.</term></p>
+
+				</div>
+			</div>
+		</front>
+
+		<body>
+			<div xml:id="XX_div">
+				<p xml:id="XX_p_001">In nomine sancte et individue Trinitatis. <persName
+						ref="#Conradusimp">Conradus <roleName>divina favente clementia Romanorum
+							imperator augustus.</roleName></persName>
+					<supplied reason="omitted">Quia, disponente</supplied><note xml:id="XX_n_001"
+						n="a" place="foot"><emph>Spazio di mm. 33 lasciato in bianco dal
+							copista.</emph>.</note> Deo cui<note xml:id="XX_n_002" n="b"
+						place="foot">cui:<emph> così nel testo probabilmente per</emph> qui.</note>
+					bonorum omnium largitor est, imperiale diadema suscepimus, dignum est, ut et nos
+					nostrorum procerum petitionibus libenter annuamus, eorum maxime per<note
+						xml:id="XX_n_003" n="c" place="foot">per:<emph> così nel testo probabilmente
+							per</emph> qui.</note> sacra misteria cotidie tra<supplied
+						reason="omitted">c</supplied>tant ac pro reipublice statu nostrorumque<note
+						xml:id="XX_n_004" n="d" place="foot">nostrorumque: <emph>così nel testo
+							probabilmente per</emph> nostraque.</note> omniumque fidelium nostrorum
+					salute Deum incessanter exorant, quatinus, id agendo, ceteros ad nostram
+					fidelitatem intentius atrahamus necnun <note xml:id="XX_n_005" n="e"
+						place="foot">necnun: <emph>così nel testo probabilmente per</emph>
+						necnon.</note>ab eterno remuneratore premia, sine fine mansura, percipiamus.
+					Proinde omnibus sancte Dei ecclesie nostrisque fidelibus presentibus pateat et
+					futuris, qualiter nos, interventu <roleName>domine <persName
+							ref="#Gisla_imperatrix">Gisle</persName>, dilecte coniugis nostre ac
+						imperatricis auguste</roleName>, necnon <roleName>donni <persName
+							ref="#Haribonis_achiepiscopus">Haribonis</persName> archiepiscopi et
+						archicancellarii</roleName> atque <persName ref="#Ugo_cancellarius"
+							>Ugonis<roleName> cancellarii</roleName></persName>,confirmamus
+						<roleName> donno <persName ref="#GuidoEpLuni1">Widoni</persName>, venerabili
+						Lunensis ecclesie episcopo</roleName>, suisque successoribus et <supplied
+						reason="omitted">per</supplied>presentem firmitatis cartulam roboramus sue
+					sancte ecclesie im perpetuum, secundum predecessorum nostrorum regum et
+					imperatorum data munimina, quandam <orgName ref="#Brugnato_abbazia">abbatiolam
+							<placeName ref="#Bruniade">Brumiade</placeName></orgName> nomine in
+						<orgName ref="#Luni_comitatus">comitatu <placeName ref="#Luni"
+							>Lunense</placeName></orgName> sitam, una cum corticellis, titulis sive
+					oratoriis et cellis tam in <orgName ref="#Luni_comitatus">comitatu <placeName
+							ref="#Luni">Lunense</placeName></orgName>quam et <orgName
+						ref="#Genova_comitatus"><placeName ref="#Ianua"
+						>Ianuense</placeName></orgName>, necnon et <orgName ref="#Modena_comitatus"
+						>Mutinense</orgName> vel <orgName ref="#Piacenza_comitatus"><placeName
+							ref="#Piacenza">Placentino</placeName></orgName> aut <orgName
+						ref="#Lodi_comitatus"><placeName ref="#Lauda">Laudense</placeName></orgName>
+					aut etiam <orgName ref="#Volterra_comitatus"><placeName ref="#Volterra"
+							>Volateranense</placeName></orgName> sive ubicumque <note
+						xml:id="XX_n_006" n="f" place="foot"> ubicumque: <emph>nel testo</emph>
+							ubicumcumque<emph>con</emph> cum<emph>ripetuto per errore</emph>.</note>
+					per loca possitis <note xml:id="XX_n_007" n="g" place="foot">
+							possitis:<emph>così nel testo per</emph> positis.</note>rebus iuste et
+					legaliter per qualencumque lineam vel <pb n="67v" xml:id="fol_067v"/> titulum
+					sive ordine<supplied reason="omitted">m</supplied> ad iam dictam abbatiamolam
+						<note xml:id="XX_n_008" n="h" place="foot">abbatiamolam: <emph>così nel
+							testo per</emph> abbatiolam.</note> pertinentibus vel aspicientibus, cum
+					servis et ancillis utriusque sexus, ita sane ut nullus dux, marchio, episcopus,
+					comes, vicecomes, gastaldio aut quisquam publicus exactor seu etiam quevis
+					imperii nostri magna vel parva persona aliquam audeat prescripte ecclesie
+					Lunensi scilicet suisque rectoribus inferre molestiam, violentias vel
+					diminutionem seu aliquam invasionem de prefata <orgName ref="#Brugnato_abbazia"
+						>abbatiola <placeName ref="#Bruniade">Brumiade</placeName></orgName> sita in
+						<orgName ref="#Luni_comitatus">comitatu <placeName ref="#Luni">Lunense
+						</placeName></orgName>et de omnibus ibi iure pertinentibus; sed quod a nobis
+					roboratum esse omnibus patet, firmissimum quoque cuncto tempore perseveret. Si
+					quis igitur huius confirmatorii precepti edictum temerario ausu corruperit, vel
+					diminorare quesierit,<measure type="aurum" quantity="100" unit="libra"> auri
+						optimi libras C </measure>se compossiturum sciat, dimidietatem camere nostre
+					et dimidiam prenominate ecclesie Lunensi suisque rectoribus. Quod, ut verius
+					credatur et diligentius observetur, manu propria corrobotantes sigillo nostro
+					repercusso iussimus insigniri. </p>
+				<p xml:id="XX_p_002">Signum donni <persName ref="#Conradusimp">Conradui</persName>,
+						invi<ptr target="XX_m_001"/>ctissimi imperatoris augusti. </p>
+				<p xml:id="XX_p_003">Hugo cancellarius vice donni Haribonis archiepiscopi et
+					archicancellarii recognovi. </p>
+				<p xml:id="XX_p_004">Datum <date when="1028-04-07">anno dominice incarnationis M
+						vicessimo octavo, indictione decima, septimo idus aprilis, anno domini
+								<expan>Ch<ex>uonradi</ex></expan> II regnantis IIIo, imperii vero
+						primo</date> Actum <placeName ref="#Roma">Rome</placeName>, feliciter. </p>
+			</div>
+		</body>
+	</text>
+</TEI>

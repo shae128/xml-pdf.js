@@ -1,0 +1,284 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <publicationStmt>
+                <publisher/>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier/>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+
+    <text xml:id="LXI_88">
+        <front xml:id="LXI_front">
+
+            <titlePart type="numerazioneNuova">88</titlePart>
+            <titlePart type="numerazioneOrig">LXI</titlePart>
+
+            <docDate xml:id="LXI_docDate">
+                <date when="1170-08">1170 agosto</date>
+            </docDate>
+
+            <div type="regesto" xml:id="LXI_regesto">
+                <p>Il vescovo di Luni Pipino concede ai consoli e agli uomini di Sarzana (<term
+                        xml:lang="latin">Sarzano</term>) di trasferire il borgo in località detta
+                    Asiano, sulla riva del fiume Magra, a condizione di acquisire l’intero
+                    territorio di quel luogo e di dare agli abitanti 120 casamenti al censo annuo di
+                    6 denari milanesi. Gli abitanti sarebbero diventati fedeli del vescovo alle
+                    condizioni che si dettagliano, riguardanti l’uso di approdi, mulini, forni e
+                    piazze; la gestione della giustizia; lo sfruttamento di eventuale nuovo spazio;
+                    il pagamento dei censi; i proventi che arrivano dalle imbarcazioni che arrivano
+                    nel porto di Ameglia; l’arrivo di nuovi abitanti; la dimora in Asiano del
+                    vescovo stesso e l’eventuale costruzione di fortificazioni </p>
+            </div>
+
+            <div type="footer" xml:id="LXI_footer">
+
+                <p>Copia [C] cc. 189v.-191r,, cc CLXXXIv.-CLXXXIIIr. secondo la numerazione
+                    originale.</p>
+            </div>
+
+            <div type="biblio">
+                <p> Edizioni: <ref target="#HPM_CHARTARUM">HPM_CHARTARUM</ref>, II, coll. 1020-1023,
+                    doc. MDXXXII; <ref target="#CONTI_1979-1988">CONTI 1978-1988</ref>, I, doc. II,
+                    pp. 15-17; parziale <ref target="#PODESTÀ_1895">PODESTA' 1895</ref>, pp. 46-47. </p>
+                <p> Regesto <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 61, p. 98. </p>
+                <p> Bibliografia <ref target="#POLONIO_2007">POLONIO 2007</ref> pp. 227-230 e <ref
+                        target="#SALVATORI_2007a">SALVATORI 2007a</ref>, pp. 255-272. </p>
+            </div>
+
+            <div type="crit_notes">
+                <note>
+                    <p>Nel margine esterno di c. 189v., di mano moderna: <term xml:lang="latin"
+                            >Transmutatio terre Sarzane;</term> aggiunto da altra mano: <term
+                            xml:lang="latin">et acquisitio transmutationis facta est
+                            episcopo.</term>
+                    </p>
+                    <p> Nel margine interno di c. 190r., di mano moderna: <term xml:lang="latin">de
+                            littore maris</term>. </p>
+                </note>
+            </div>
+            <div type="appr">
+                <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+                        >LXI. Sicut Sarçana fuit posita et hedificata.</term></p>
+            </div>
+
+        </front>
+
+        <body>
+            <div xml:id="LXI_div">
+                <pb n="189v" xml:id="fol_189v"/>
+                <p xml:id="LXI_p_001" n="1">
+                    <ptr target="LXI_st_001"/> In nomine Dei eterni. <date when="1170-08">Anno ab
+                        incarnatione Domini nostri Ihesu Christi MC septuagesimo, indictione II,
+                        mense augusti</date>. Sancti Spiritus adsit nobis gratia. In nomine sancte
+                    et individue Trinitatis. Manifestum est quod <persName ref="#PipEpLuni"
+                            ><roleName>dominus </roleName> Pipinus, <roleName>Dei gratia Lunensis
+                            episcopus</roleName></persName>, suorum fratrum et Lunensis ecclesie
+                    fidelium consilio, ad honorem Dei et Sancte Marie et Lunensis ecclesie,
+                    concessit, per se atque per suos catholicos successores, consulibus et hominibus
+                    de <placeName ref="#Sarzana">Sarzano</placeName> transmutare burgus <note
+                        place="foot" n="a" xml:id="LXI_n_001">burgus: <emph>così nel testo
+                            per</emph> burgum.</note> supra ripam <placeName ref="#Magra"
+                        >Macre</placeName>, in loco ubi dicitur <placeName ref="#Asiano"
+                        >Asianus</placeName>, tali pacto et tali conventu quod <persName
+                        ref="#PipEpLuni"><expan>P<ex>ipinus</ex></expan>, <roleName>Lunensis
+                            episcopus</roleName></persName>, debet acquirere totum territorium
+                    ipsius loci ad proprium Lunensis ecclesie et sui et eius successorum, et debet
+                    dare salvum concambium illis hominibus quorum terre sunt, in providencia
+                    consulum ipsius loci et IIIIor aliorum suorum fidelium. Si vero aliquo in
+                    tempore lis de hoc territorio, de toto vel de parte, apparuerit, habitantes
+                    ipsius loci per bonam fidem adiuvare debent <persName ref="#PipEpLuni">
+                        <roleName>episcopum</roleName>
+                        <expan>P<ex>ipinus</ex></expan></persName>, eiusque successores, et
+                        <persName ref="#PipEpLuni"><roleName>episcopus</roleName>
+                        <expan>P<ex>ipinus</ex></expan></persName>, atque eius successores similiter
+                    eos. <persName ref="#PipEpLuni"><roleName>Episcopus</roleName> autem
+                                <expan>P<ex>ipinus</ex></expan></persName> dedit et concessit
+                    hominibus de <placeName ref="#Sarzana">Sarzano</placeName> C casamenta et XX
+                    alia dabit illis de quibus concordia fuerit inter episcopum et consules. De
+                    unoquoque casamento ipsius loci, tam burgensium quam aliorum qui illuc ad
+                    habitandum venerint, episcopus <persName ref="#PipEpLuni"
+                                ><expan>P<ex>ipinus</ex></expan></persName> eiusque catholici
+                    successores debent habere omni anno <measure type="Imperiales" quantity="6"
+                        unit="soldi">VI denarios Mediolanensium</measure> pro pensione tantum et
+                    fidelitatem de unoquoque qui illuc ad habitandum venerint<note place="foot"
+                        n="b" xml:id="LXI_n_002">unoquoque-venerint: <emph>così nel
+                        testo</emph>.</note> et alia iuramenta sicuti a burgensibus similiter.
+                        <persName ref="#PipEpLuni"><expan>P<ex>ipinus</ex></expan>
+                        <roleName>episcopus</roleName></persName> et eius catholici successores
+                    omnes antiquas rationes et usus atque consuetudines, quas ipse suique
+                    antecessores in predicto burgo <placeName ref="#Sarzana">Sarzano</placeName>
+                    habuerunt, ita habeant in <placeName ref="#Asiano">Asiano</placeName>, silicet
+                    de placitis, bannis, macellis, tabulis cambitorum atque curatura mercati et de
+                    mulieribus in possessione remanentibus virisque tradendis, de conductu per
+                    terram episcopi. Omnes vero ripe que ibi fuerint et omnia molendina et furni que
+                    ibidem fuerint et omnes platee que fuerint iuxta fossam vel iuxta ripas fluminis
+                    erunt episcopi <persName ref="#PipEpLuni"
+                        ><expan>P<ex>ipinus</ex></expan></persName> et eius catholicorum
+                    successorum, in quibus plateis predictus episcopus eiusque successores nulla
+                    hedificia debent construere, exceptis <supplied reason="illegible"
+                        >stac</supplied>tionibus et excepto molendino et domo ad molendinum
+                    necessaria, nisi consilio consulum qui pro tempore ibi fuerint. Omnia vero
+                    placita de quibus querimonie fuerint ante episcopum <persName ref="#PipEpLuni"
+                                ><expan>P<ex>ipinus</ex></expan></persName> eiusque catholicos
+                    successores vel ante consules ipsius loci debent predictus episcopus et eius
+                    successores ante se habere <pb n="190r" xml:id="fol_190r"/> et per se cognoscere
+                    que voluerint aut delegare consulibus ipsius loci que voluerint et quibus
+                    voluerint cognoscenda. Similiter quicumque habuerit domum ex latere platearum
+                    nullam apothecam construere debet, infra domum vel extra, ex latere platearum.
+                    Si quando vero expedierit plus terre occupare pro utilitate et commoditate
+                    episcopi et ipsius loci, episcopus <persName ref="#PipEpLuni"
+                                ><expan>P<ex>ipinus</ex></expan></persName> et eius successores
+                    libere undecumque, cambium dando, accipiant. Quisquis autem pensionem statutam
+                    in octavis nativitatis Domini annis singulis nos<note place="foot" n="c"
+                        xml:id="LXI_n_003">nos: <emph>così nel testo per</emph> non.</note>
+                    exsolverit, ipsam reddat in duplum, sine omni placito. Hanc pensionem episcopus
+                        <persName ref="#PipEpLuni"><expan>P<ex>ipinus</ex></expan></persName>
+                    eiusque successores non debent infeudare vel alias alienare, et in mensam
+                    propriam retinere. Similiter quoque omnes usus et rationes atque consuetudines,
+                    quas solent habere burgenses ab episcopo in <placeName ref="#Sarzana"
+                        >Sarzano</placeName>, ita habeant in <placeName ref="#Asiano"
+                        >Asiano</placeName>. De longitudine vero et latitudine domorum ipsius loci
+                    et L ortis, quos debent habere burgenses superiores, erit in concordia <persName
+                        ref="#PipEpLuni"><expan>P<ex>ipini</ex></expan></persName> episcopi et
+                    consulum ipsius loci. De placitis vero et bannis et molendinis et furnis, de
+                    ripa nova et ex eo quod de novo ibi addetur, de istis inquam VI, <persName
+                        ref="#PipEpLuni"><expan>P<ex>ipinus</ex></expan>, <roleName>Lunensis
+                            episcopus</roleName></persName>, per se et per suos successores,
+                    medietatem silicet et proventuum<note place="foot" n="d" xml:id="LXI_n_004"
+                        >medietatem scilicet et proventuum: <emph>così nel testo, probabilmente
+                            con</emph> et <emph>pleonastico</emph>.</note> istorum VI in beneficio
+                    pro feudo <orgName ref="#Sarzana_comune">communi ipsius loci</orgName> dedit et concessit, exceptis omnibus aliis et
+                    excepto uno furno atque molendino que ipse episcopus ad suam proprietatem
+                    suorumque successorum retinuit. Similiter omnes rationes, iusticias, usus,
+                    consuetudines quas predictus episcopus et predecessores eius in portu de
+                        <placeName ref="#Ameglia">Amelia</placeName> habuerunt, sive de navibus per
+                    mare venientibus et aliis mercatis per mare sive per flumen seu per terram ad
+                    predictum portum venientibus et de navibus iuxta litus maris periclitantibus,
+                    ita <persName ref="#PipEpLuni"><expan>P<ex>ipinus</ex></expan>,
+                            <roleName>Lunensis episcopus</roleName></persName>, eiusque successores
+                    habeant. De lignis autem que venerint per flumen ad <placeName ref="#Asiano"
+                        >Asianum</placeName>, tantum quantum fuerit necessarium ad hedificationem
+                    ipsius loci, non debent dari aliquod<note place="foot" n="e" xml:id="LXI_n_005"
+                        >non debent dari aliquod: <emph>così nel testo</emph>.</note> usque ad V
+                    annos; et si ligna ibi empta fuerint, sive per civem sive per extraneum, et
+                    ultra transportata fuerint, predictus episcopus et eius successores antiquos
+                    usus et rationes et consuetudines, quas ipse et predecessores eius habuerunt in
+                    portu <placeName ref="#Ameglia">Amelie</placeName>, ita habeant. Consules vero
+                    ipsius loci non recipient aliquem villanum Lunensis episcopi sine licencia eius
+                    suorumque successorum. Similiter non recipient ullum inimicum <persName
+                        ref="#PipEpLuni"><expan>P<ex>ipini</ex></expan>
+                        <roleName>episcopi</roleName></persName>, nisi prius fuerit amicus eius vel
+                    eius successorum, et predictus episcopus et eius successores non recipient ullum
+                    inimicum illorum, nisi prius fuerit amicus eorum. Dominus utique <persName
+                        ref="#PipEpLuni"><expan>P<ex>ipinus</ex></expan>
+                        <roleName>episcopus</roleName></persName> vel eius successores ad honorem
+                    Dei et Lunensis ecclesie facient in loco illo suum palatium et turrem vel
+                    turres, set nullus habitantium eiusdem loci ibi faciet turrim; verumptamen, si
+                    necesse fuerit pro muni <pb n="190v" xml:id="fol_190v"/> tione et utilitate
+                    ipsius loci aliquod munimentum ibi fieri, hoc fiet in concordia Lunensis
+                    episcopi et consulum ipsius loci, qui pro tempore ibi fuerint, et nullus
+                    habitancium ipsius loci debet dare aliquam condicionem vel datum ibi alicui,
+                    nisi pro communi utilitate ipsius loci, preter supradictas rationes et usus et
+                    consuetudines et pensiones <persName ref="#PipEpLuni"
+                            ><expan>P<ex>ipini</ex></expan><roleName>episcopi</roleName></persName>
+                    et eius successorum. Consules <placeName ref="#Asiano">Asiani</placeName>, qui
+                    modo sunt vel quicumque pro tempore ibi fuerint, debent iurare salvare et
+                    deffendere contra omnes homines et non minuere predictas rationes et usus et
+                    consuetudines et alia que debet habere Lunensis episcopus per totum episcopatum,
+                        <persName ref="#PipEpLuni"><expan>P<ex>ipino</ex></expan>
+                        <roleName>episcopo</roleName></persName> et eius successoribus et debent
+                    facere iurare omnes habitantes in predicto loco <placeName ref="#Asiano"
+                        >Asiano</placeName> illud idem iuramentum. Et omni anno consules ipsius loci
+                    debent facere alios consules iurare illud idem iuramentum, antequam ipsi exeant
+                    de consulatu; et consules ipsius loci, qui eliguntur pro tempore consilio
+                        <persName ref="#PipEpLuni"
+                            ><expan>P<ex>ipini</ex></expan><roleName>episcopi</roleName></persName>
+                    et eius successorum debent eligi, et illi qui eliguntur debent facere illud idem
+                    iuramentum. Si vero, propter hoc, <persName ref="#PipEpLuni"
+                                ><expan>P<ex>ipino</ex></expan>, <roleName>Lunensi
+                            episcopo</roleName></persName>, vel successoribus eius guerra apparuerit
+                    vel aliam guerram habuerit, omnes homines ipsius loci <placeName ref="#Asiano"
+                        >Asiani</placeName> debent iurare quod iuvabunt predictum <persName
+                        ref="#PipEpLuni"><roleName>episcopum</roleName>
+                        <expan>P<ex>ipinum</ex></expan></persName> suosque successores bona fide,
+                    sine fraude et malo ingenio. Episcopus autem <persName ref="#PipEpLuni"
+                                ><expan>P<ex>ipinus</ex></expan></persName> et eius successores
+                    debent salvare et deffendere omnes homines habitantes in ipso loco <placeName
+                        ref="#Asiano">Asiano</placeName>, in personis atque rebus, exceptis vite
+                    culpis, scilicet istis, crimine videlicet et lese maiestatis, de traditione
+                    domini episcopi et ipsius loci et de studioso homicidio et incendio, et exceptis
+                    publicis latronibus, tricatoribus, paltonariis et falsariis et servis aliorum.
+                    Ego <persName ref="#PipEpLuni"><expan>P<ex>ipinus</ex></expan></persName>, Dei
+                    gratia Sancte Lunensis ecclesie humilis minister, per me et meos successores, ad
+                    honorem Dei et eius sanctissime matris semper Virginis Marie et ad utilitatem
+                    Lunensis ecclesie, omnibus hominibus habitantibus in loco ubi dicitur <placeName
+                        ref="#Asiano">Asianum</placeName> hec que in presenti pagina continentur,
+                    consilio fratrum meorum canonicorum aliorumque meorum fidelium, firmavi et
+                    concessi. Si mei successores quod ego feci hominibus de <placeName ref="#Asiano"
+                        >Asiano</placeName> facere noluerint, consules et habitantes in predicto
+                    loco <placeName ref="#Asiano">Asiano</placeName> non teneantur eis de iuramento
+                    ipsius loci quousque Lunensis episcopus, qui pro tempore fuerit, illud idem
+                    iuramentum prestiterit eis quod ego <persName ref="#PipEpLuni"
+                                ><expan>P<ex>ipinus</ex></expan>, <roleName>Lunensis
+                            episcopus</roleName></persName>, feci de loco <placeName ref="#Asiano"
+                        >Asiano</placeName>. Preterea domum unam, quam <persName ref="#PipEpLuni"
+                                ><expan>P<ex>ipinus</ex></expan></persName> episcopus sibi et sue
+                    mense in burgo retinuit, nec ipse nec eius successor debet eam dare alicui
+                    homini in feudum nec in proprietatem, set ad proprium usum sue mense semper eam
+                    retinere. Si aliquo in tempore <persName ref="#PipEpLuni"
+                                ><expan>P<ex>ipinus</ex></expan>, <roleName>Lunensis
+                            episcopus</roleName></persName> vel eius catholici successores consilio
+                    consulum ipsius loci <placeName ref="#Asiano">Asiani</placeName> addere vel
+                    minuere seu meliorare vel aliquod mutare in hac cartula voluerint, similiter
+                    iuramento tenebuntur. </p>
+                <p xml:id="LXI_p_002" n="2">
+                    <c>†</c> Ego <persName ref="#PipEpLuni"><expan>P<ex>ipinus</ex></expan>,
+                            <roleName>Lunensis Ecclesie episcopus</roleName></persName>, propria
+                    manu mea subscripsi. <pb n="191r" xml:id="fol_191r"/> Signa # # # manuum
+                    suprascripti domini <persName ref="#PipEpLuni"><expan>P<ex>ipini</ex></expan>,
+                            <roleName>Lunensis ecclesie
+                        <supplied>episcopi</supplied></roleName></persName>, et consulum ipsius loci
+                        <placeName ref="#Asiano">Asiani</placeName>, qui hanc cartulam fieri
+                    rogaverunt. </p>
+                <p xml:id="LXI_p_003" n="3"> Signa # # # manuum <persName ref="#ParensVallecla"
+                        >Parentis de <placeName ref="#Vallecchia1">Valleecla</placeName></persName>,
+                        <persName ref="#LevacastellusBuzano">Levacastelli de <placeName
+                            ref="#Buçano">Buzano</placeName></persName>, <persName
+                        ref="#VillanusSarzana">Villani de <placeName ref="#Sarzana"
+                            >Sarzana</placeName></persName>, <persName ref="#Gerarduscan">Gerardi
+                            <roleName>canonici</roleName></persName>, <persName
+                        ref="#AldebrandinusFlorentia">Aldebrandini de <placeName ref="#Florencia"
+                            >Florencia</placeName></persName>, <persName ref="#GerardusFaucenova"
+                        >Gerardi</persName> et <persName ref="#MontaninusFaucenova"
+                        >Montanini</persName> et <persName ref="#TeudiskusFaucenova">Theudeski de
+                            <placeName ref="#Fosdinovo">Fundenova<note place="foot" n="f"
+                                xml:id="LXI_n_006">Fundenova: <emph>così nel
+                            testo</emph>.</note></placeName></persName>, <persName
+                        ref="#CagnolusTrebiano">Cagnoli</persName> et <persName
+                        ref="#GattusTrebiano">Gatti</persName> et <persName ref="#PalmeriusTrebiano"
+                        >Petri de <placeName ref="#Trebiano">Trebiano</placeName></persName>,
+                        <persName ref="#RivellusGroppoSanPietro">Rivelli<note place="foot" n="g"
+                            xml:id="LXI_n_007">Rivelli: <emph>nel manoscritto con due lettere finali
+                                abrase e depennate con due linee orizzontali in inchiostro
+                                rosso</emph>.</note> de <placeName ref="#GroppoSP">Groppo Sancti
+                            Petri</placeName></persName>, <persName ref="#GuilielmusViano">Guilielmi
+                        de <placeName ref="#Viano">Viano</placeName></persName>, <persName
+                        ref="#BaldicioLune">Baldicioni de <placeName ref="#Luni"
+                        >Lune</placeName></persName>, rogatorum testium. </p>
+                <p xml:id="LXI_p_004" n="4">
+                    <ptr target="LXI_st_002"/> Ego <persName ref="#Bartholomeusnot"
+                            >Bartholomeus,<roleName> sacri palatii notarius</roleName></persName>,
+                    hanc cartulam scripsi, complevi atque dedi. </p>
+            </div>
+        </body>
+    </text>
+</TEI>

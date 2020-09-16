@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CCCLXXXVIIII_350">
+    <front xml:id="CCCLXXXVIIII_front">
+
+      <titlePart type="numerazioneNuova">350</titlePart>
+      <titlePart type="numerazioneOrig">CCCCLXXXVIIII</titlePart>
+
+      <docDate xml:id="CCCLXXXVIIII_docDate">
+        <date when="1139-02">1139 febbraio</date>, <placeName>Ameglia (<term xml:lang="latin">castro
+            Amelie</term>)</placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CCCLXXXVIIII_regesto">
+        <p>Gerardino Befolco chiede in livello al vescovo Gotifredo il manso di Balognano, detto
+          manso di <term xml:lang="latin">Fotigero</term>, posto a Balognano; 72 solchi a Isola di
+          Ameglia dove si dice di Trainello; due pezzi di terra di 60 solchi a <term
+            xml:lang="latin">Pantaleo</term> e un altro pezzo di terra nel medesimo luogo. Il fitto
+          annuale ammonta a 11 denari e beni in natura.</p>
+      </div>
+
+      <div type="footer" xml:id="CCCLXXXVIIII_footer">
+
+        <div type="orig_doc">
+          <p>Copia di copia autentica [C] CP cc. 319v.-320r., cc. CCCXIv.-CCCXIIr. secondo la
+            numerazione originale </p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 389,
+            pp. 368-369.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>L’incarnazione è espressa in stile pisano. L’autentica è databile alla prima metà
+            del XIII secolo, presumibilmente tra 1220 e 1240, dalla presenza del notaio Pinioso
+            detto Iacopino.</note>
+        </div>
+
+        <div type="appr">
+          <p>Nell'indice del codice (doc. 1) il documento è titolato <term xml:lang="latin"
+              >CCCLXXXVIIII. Denariorum XI pensionis de uno masio in Balognano.</term></p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CCCLXXXVIIII_div">
+        <p xml:id="CCCLXXXVIIII_p_001" n="1"><ptr target="#CCCLXXXVIIII_st_001"/> In nomine Domini
+          nostri Ihesu Christi, Dei eterni. <date when="1139-02">Anno ab incarnatione Eius M°CXXXIX,
+            mense februario, indictione II.</date> Peto ego <persName ref="#GerardinusBifulci"
+            >Gerardinus Befolcus</persName>, una cum meis heredibus, a vobis domino <persName
+            ref="#GotefredEpLuni2">Gotefredo</persName>, <roleName>Lunensi episcopo</roleName>, et a
+          vestris successoribus, id est mansum illum de <placeName ref="#Baloganano"
+            >Balognano</placeName>, quod vocatur mansum de <placeName ref="#Fotigero"
+            >Fotigero</placeName>, in predicto loco <placeName ref="#Baloganano"
+            >Balognano</placeName> et in <placeName ref="#Isola3">Isola</placeName>
+          <placeName ref="#Ameglia"> Amelie</placeName>, se ubi<note n="a" place="foot"
+            xml:id="CCCLXXXVIIII_n_001"><term xml:lang="latin">ubi</term>: <emph>così nel
+              testo</emph>.</note> dicitur de <persName ref="#Trainellus">Trainello</persName>, LXXa
+          et duas sulcas, ad latus de terra <persName ref="#UbertusFormicoso">Uberti de <placeName
+              ref="#Formicoso">Formicoso</placeName></persName>, de alio latere <persName
+            ref="#AndreaBaognano">Andree de <placeName ref="#Baloganano"
+            >Balognano</placeName></persName>, et in <placeName ref="#Pantaleo">Pantaleo</placeName>
+          petias duas, una est LXa sulca, ad latus de terra iamscripti <persName
+            ref="#UbertusFormicoso">Uberti</persName> et iamscripti <persName ref="#AndreaBaognano"
+            >Andree</persName>, et altera petia est IX sulcas<note n="b" place="foot"
+            xml:id="CCCLXXXVIIII_n_002"><term xml:lang="latin">sulcas</term>: <emph>così nel
+              testo</emph>.</note>. Et similiter petimus a vobis I petiam de terra in predicto loco
+            <placeName ref="#Pantaleo">Pantaleo</placeName>; coheret ei de uno capite terra
+            <persName ref="#Panigacius">Panigacii</persName>, de alio <placeName ref="#Baloganano"
+            >Balognanese</placeName>, de uno latere flumen, de alio pratum nostrum <placeName
+            ref="#Basanum">Basanum</placeName>. Iamscriptas terras in integrum habere, tenere,
+          laborare, frui et meliorare, et exinde vobis persolvamus, omni anno, inter pensiones et
+          amescere et gallinam et agnellum, <measure quantity="21" unit="denarium">denarios
+            XI</measure> tantum; alia superimposita non fiat eis.</p>
+        <p xml:id="CCCLXXXVIIII_p_002" n="2">Actum castro <placeName ref="#Ameglia"
+            >Amelie</placeName>, sub pena <measure quantity="20" unit="solidus">XX
+            soldorum</measure>, si quis eorum tollere aut laxare voluerit. Ego <persName
+            ref="#GotefredEpLuni2">Gotefredus <roleName>episcopus<note n="c" place="foot"
+                xml:id="CCCLXXXVIIII_n_003"><term xml:lang="latin">Gotefredus episcopus</term>:
+                  <emph>nel manoscritto episcopus Gotefredus con segno di richiamo per invertire
+                  l’ordine delle parole.</emph>.</note></roleName></persName> subscripsi.
+          Iamscriptus petitor hunc libellum me <persName ref="#Rodulfusnot">Rodulfum</persName>,
+            <roleName>domini imperatoris notarium</roleName>, scribere rogaverunt<note n="d"
+            place="foot" xml:id="CCCLXXXVIIII_n_004"><term xml:lang="latin">rogaverunt</term>:
+              <emph>così nel testo per rogavit</emph>.</note>. <persName ref="#TorselleroSarzana"
+            >Torsellero</persName> et <persName ref="#GotolusSarzana">Gotolus de <placeName
+              ref="#Sarzana">Sarzana</placeName></persName>, <persName ref="#GuilielminusCarraria"
+            >Guilielminus de <placeName ref="#Carrara">Carraria</placeName></persName>, <persName
+            ref="#Baldinellus">Baldinello</persName> et <persName ref="#RigalporusAmelia"
+            >Rigalporo</persName> et <persName ref="#CorsusAmelia">Corsus de <placeName
+              ref="#Ameglia">Amelia</placeName></persName>, rogati testes, interfuerunt. <pb
+            n="320r" xml:id="fol_320r"/>
+        </p>
+        <p xml:id="CCCLXXXVIIII_p_003" n="3"><ptr target="#CCCLXXXVIIII_st_002"/> Ego <persName
+            ref="#Rodulfusnot">Rodolfus</persName>, <roleName>domini imperatoris
+          notarius</roleName>, post traditam complevi et dedi.</p>
+      </div>
+      <div xml:id="CCCLXXXVIIII_div2" type="autentica">
+        <p xml:id="CCCLXXXVIIII_p_004" n="4"><ptr target="#CCCLXXXVIIII_st_003"/> Ego <persName
+            ref="#PinosiusIacopinusnot">Pinosius nomine Iacopinus</persName>, <roleName>Romanorum
+            imperatoris notarius</roleName>, autenticum huius exempli vidi et legi et ut in eo
+          continebatur in hoc scripsi, nichil addens vel minuens quod mutet sensum vel minuat
+          intellectum.</p>
+        <p xml:id="CCCLXXXVIIII_p_005" n="5"><ptr target="#CCCLXXXVIIII_st_004"/> Ego <persName
+            ref="#Georgiusnot">Georgius</persName>, <roleName>sacri palacii notarius</roleName>,
+          autenticum huius exempli vidi et legi, in quo ut in isto legitur continebatur, et ideo
+          huic subscripsi, meum signum proprium apponendo.<note>Autentica del documento n.
+            350-CCCLXXXVIIII databile con incertezza tra il 1220 e il 1240 dalla presenza di Pinioso
+            detto Iacopino <date notBefore="1220-01-01" notAfter="1240-12-31" cert="low"
+          /></note>.</p>
+      </div>
+    </body>
+  </text>
+</TEI>

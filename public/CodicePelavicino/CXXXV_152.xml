@@ -1,0 +1,147 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="../schema/tei_cp.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title/>
+      </titleStmt>
+      <publicationStmt>
+        <publisher/>
+      </publicationStmt>
+      <sourceDesc>
+        <msDesc>
+          <msIdentifier/>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+  </teiHeader>
+  <text xml:id="CXXXV_152">
+    <front xml:id="CXXXV_front">
+
+      <titlePart type="numerazioneNuova">152</titlePart>
+      <titlePart type="numerazioneOrig">CXXXV</titlePart>
+
+      <docDate xml:id="CXXXV_docDate">
+        <date when="1238-05-04">1238 maggio 4</date>, <placeName>Sarzanello <emph>(<term
+              xml:lang="latin">in porticu curie domini episcopi, in castro
+          Sarzane</term>)</emph></placeName>
+      </docDate>
+
+      <div type="regesto" xml:id="CXXXV_regesto">
+        <p>Giffredo e Gerardo, figli del fu Boso di Falcinello, seguendo le orme degli altri membri
+          della consorteria dei signori di Falcinello, danno a Guglielmo, vescovo di Luni, tutta la
+          porzione di loro proprietà del castello di Falcinello e del suo <term xml:lang="latin"
+            >districtus</term>, in cambio di 12 lire e mezzo di denari imperiali. La loro quota è
+          costituita da 1/36 del totale del sesto di signoria tenuto in comune con Gerardino Conte,
+          Balcano e Gibertino <term xml:lang="latin">de Bernaçone</term>, e da 1/24 del totale, che
+          un tempo era di Gualdo <term xml:lang="latin">de Verugula</term>, del sesto di signoria
+          tenuto in comune con Guido e Tancredino de Vallecchia e Aldebrandino visdomino. I patti
+          che li legano al vescovo sono i medesimi già giurati dagli altri consorti nel 1230 (cfr.
+          documento n. 160 - CXXXIII).</p>
+      </div>
+
+      <div type="footer" xml:id="CXXXV_footer">
+
+        <div type="orig_doc">
+          <p>Copia [C] CP c. 234r.- 234v., c. CCXXVIr.- CCXXVIv. secondo la numerazione
+            originale.</p>
+        </div>
+
+        <div type="biblio">
+          <p>Edizione parziale in <ref target="#LUPO_GENTILE_1912">LUPO GENTILE 1912</ref>, n. 135,
+            p. 168.</p>
+        </div>
+
+        <div type="crit_notes">
+          <note>Nel margine interno, di mano moderna: <emph>De castro Falcineli</emph>. La pergamena
+            è restaurata con cucitura. Parte di c. 234v. è stata letta con l’ausilio della lampada
+            di Wood.</note>
+        </div>
+
+        <div type="appr">
+          <p>Bibliografia: PAVONI 1999, pp. 145-147; GENTILE 2000, pp. 15-16.</p>
+        </div>
+      </div>
+    </front>
+
+    <body>
+      <div xml:id="CXXXV_div">
+        <p xml:id="CXXXV_p_001" n="1">In Ihesu Christi Dei eterni nomine, amen. Anno a nativitate
+          Ipsius <date when="1238-05-04">M°CCXXXVIII, indictione XI, IIII° intrantis madii</date>.
+          Pro <measure type="Imperiales" quantity="12.5" unit="libra">libris XII et dimidium bonorum
+            denariorum imperialium</measure>, quos <persName ref="#GiffredusBosiFal"
+            >Giffredus</persName> et frater eius <persName ref="#GerardusBosiFal">Gerardus, filii
+            quondam Bosi de <placeName ref="#Falcinello">Falcinello</placeName></persName>, fuerunt
+          confessi se recepisse et habere a venerabili patre <persName ref="#GuilEpLuni">domino
+            Guilielmo, Dei gratia <roleName>episcopo Lunensi</roleName></persName>, renunciando
+          exceptioni non habiti precii et soluti, dederunt, cesserunt et obtulerunt inrevocabiliter,
+          pro sui suorumque parentum remedio animarum, eidem venerabili patri domino episcopo
+          Lunensi, recipienti nomine suo et eius successorum et episcopatus Lunensis, in perpetuum,
+          totam suam portionem castri de <placeName ref="#Falcinello">Falcinello</placeName> et eius
+          curie et districtus, <pb n="234v" xml:id="fol_234v"/>quam dicebant sui iuris esse, cum
+          omni honore et iurisdictione, domibus, hedificiis, munitionibus, terris, possessionibus,
+          hominibus, tam vassallis quam villanis, et omnibus aliis suis pertinenciis, in integrum,
+          sequentes in omnibus et per omnia vestigia suorum consortum aliorum dominorum de
+          Falcinello, scilicet <persName ref="#CarboBottacciFal">Carboni</persName>, <persName
+            ref="#LombardellusGuilielmiFal">Lombardelli</persName>, <persName
+            ref="#GerardusBottacciFal">Gerardi</persName>, <persName ref="#AlbertinusBernardiFal"
+            >Albertini</persName>, <persName ref="#TancredinusBernardiFal">Tancredini</persName>,
+            <persName ref="#GuidoGerardiFal">Guidonis</persName> et <persName
+            ref="#TancredinusGerardiFal">Tancredini</persName>, fratris eius, et aliorum suorum
+          consortum, qui dederunt et obtulerunt ipsi domino episcopo suas portiones suprascripti
+          castri, prout per omnia aperte patet in instrumentis publicis inde factis per manum mei
+            <persName ref="#GerardetusMontoni">Gerardeti Muntoni
+            <roleName>notarii</roleName></persName>, et ad ea pacta et conventiones in omnibus et
+          per omnia, ut in ipsis instrumentis plenius continetur. Que portio suprascriptorum
+            <persName ref="#GiffredusBosiFal">Giffredi</persName> et fratris eius <persName
+            ref="#GerardusBosiFal">Gerardi</persName> est sexta pars tercie medietatis tocius
+          iuridictionis de <placeName ref="#Falcinello">Falcinello</placeName>, que est de illo
+          tercio quod erat eis commune cum <persName ref="#GerardinusComitis">Gerardino
+            Comitis</persName>, <persName ref="#Balzanus">Balcano</persName> et <persName
+            ref="#GibertinusBern">Gibertino de Bernaçone</persName>; item et quarta pars alterius
+          tercie medietatis iuridictionis suprascripti castri, que fuit olim filiorum <persName
+            ref="#GualdusVer">Gualdi de <placeName ref="#VerrucolaBosi"
+            >Verugula</placeName></persName>, que est de tercia parte que erat eis communis cum
+            <persName ref="#GuidoVal">Guidone</persName> et <persName ref="#TancredinusVal"
+            >Tancredino de <placeName ref="#Vallecchia1">Vallechia</placeName></persName> et domino
+            <persName ref="#Aldebrandusvic">Aldebrando <roleName>vicedomino</roleName></persName>.
+          Ipse vero dominus episcopus dedit et concessit suprascriptis <persName
+            ref="#GiffredusBosiFal">Giffredo</persName> et <persName ref="#GerardusBosiFal"
+            >Gerardo</persName>, recipientibus pro se et eorum heredibus, in perpetuum, totum illud
+          quod ei dederunt et obtulerunt nomine recti et honorifici feudi, ita quod ipsi et eorum
+          heredes debeant inde esse vassalli suprascripti domini episcopi et successorum eius
+          canonice intrancium et episcopatus Lunensis contra omnes homines in tota terra Lunensis
+          episcopi et alibi, eorum anterioribus dominis exceptatis. Et sic inde iuraverunt
+          fidelitatem domino episcopo suprascripto, salvis et reservatis suprascripto domino
+          episcopo et eius episcopatui pactis et conventionibus et capitulis omnibus que in
+          instrumentis superius nominatis, factis per me <persName ref="#GerardetusMontoni"
+            >Gerardetum Muntonum <roleName>notarium</roleName></persName> inter suprascriptum
+          dominum episcopum atque episcopatum Lunensem et alios dominos de <placeName
+            ref="#Falcinello">Falcinello</placeName>, plenius continetur. Quia de voluntate et
+          sollempni stipulatione, promissione et obligatione suprascripti domini episcopi, pro se et
+          episcopatu, et <persName ref="#GiffredusBosiFal">Giffredi</persName> suprascripti atque
+          fratris eius <persName ref="#GerardusBosiFal">Gerardi</persName> suprascripti, pro se et
+          suis heredibus, in perpetuum, sic actum est inter eos ut, sicut illi domini de <placeName
+            ref="#Falcinello">Falcinello</placeName> dederunt et obtulerunt ipsi domino episcopo et
+          episcopatui, ita et isti, et sicut ipse dominus dedit et concessit ipsis in feudum, ita et
+          istis, salvis et reservatis capitulis omnibus super dominio et iurisdictione Falcinelli et
+          pactis ipsi domino episcopo et episcopatui, prout in ipsis instrumentis exprimitur
+          manifeste.</p>
+        <p xml:id="CXXXV_p_002" n="2">Actum in porticu curie suprascripti domini episcopi, in
+            <placeName ref="#Sarzanello">castro Sarzane</placeName>, sollempniter, presentibus
+            <persName ref="#IacobinusDonnisi">Iacobino Donnisi <placeName ref="#Lucca">curie
+              Lucane</placeName></persName>, <persName ref="#BonafestaDurantis">Bonafesta quondam
+            Durantis</persName>, <persName ref="#AbraciatorArmannini">Abraciatore</persName> et
+            <persName ref="#AldebertinusArmannini">Aldebertino quondam Armannini</persName>,
+            <persName ref="#GualdusVer">Gualdo quondam Bosi de <placeName ref="#VerrucolaBosi"
+              >Verugola</placeName></persName> et <persName ref="#BottacciusGerardi">Bottaccio,
+            filio Gerardi de suprascripto <placeName ref="#Falcinello"
+            >Falcinello</placeName></persName>, testibus ad hec rogatis.</p>
+        <p xml:id="CXXXV_p_003" n="3"><ptr target="#CXXXV_st_001"/>Ego <persName
+            ref="#GerardetusMontoni">Gerardetus, qui nominor Muntonus,<roleName> palacii sacri
+              notarius</roleName></persName> hiis interfui et rogatus scripsi.</p>
+      </div>
+    </body>
+  </text>
+</TEI>
