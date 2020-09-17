@@ -1,6 +1,7 @@
 const path = require('path');
 const fs = require('fs');
 const express = require('express');
+const testInit = require('./testInit');
 
 // express app
 const app = express();
@@ -14,6 +15,8 @@ app.set('view engine', 'ejs');
 // middleware & static files
 app.use(express.static('public'));
 app.use(express.urlencoded({ extended: true }));
+
+
 // *****************************
 // *********Reading files*******
 // *****************************
@@ -55,8 +58,10 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
-  console.log(req.body.file);
+  //console.log(req.body);
+  testInit.init(req.body);
   res.redirect('/');
+
 });
 
 app.get('/about', (req, res) => {

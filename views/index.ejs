@@ -7,7 +7,7 @@
   <div class="content">
     <h2>Select Document:</h2>
     <form action="/" method="POST">
-      <select name="file" id="files">
+      <select name="filesName" id="files">
         <option value="">---------</option>
         <% if (filesName.length > 0) { %>
           <% filesName.forEach(file => { %>
@@ -19,6 +19,187 @@
  
       </select>
       <br><br>
+		
+      <h3><a onclick="toggleDiv('pageLayout')"><img id="pageLayoutIMG" src="/images/right.gif" border="0"/> Page layout, font size, etc.</a></h3>
+      		
+      <div id="pageLayout" style="display: none;">
+      		Font size: 
+      		<select name="baseFontSize">
+      			<option value="8">8pt</option>
+      			<option value="9">9pt</option>
+      			<option value="10">10pt</option>
+      			<option value="11">11pt</option>
+      			<option value="12" selected>12pt</option>
+      			<option value="14">14pt</option>
+      			<option value="17">17pt</option>
+      			<option value="20">20pt</option>
+      		</select>
+      		
+      		<br/>Space after each paragraph (in cm): <input type="text" name="parStylevSpace" size="3" value="0.1"/>
+      		
+      		<br/>Page size: 
+      		<select name="pageSize">		
+      			<option value="LETTER">LETTER (8.5 x 11")</option>
+      			<option value="EXECUTIVE">EXECUTIVE (7.25 x 10.5")</option>
+      			<option value="LEGAL">LEGAL (8.5 x 14")</option>
+      			<option value="a0paper">A0 paper</option>
+      			<option value="a1paper">A1 paper</option>
+      			<option value="a2paper">A2 paper</option>
+      			<option value="a3paper">A3 paper</option>
+      			<option value="a4paper" selected>A4 paper (210 x 297mm)</option>
+      			<option value="a5paper">A5 paper (148 x 210mm)</option>
+      			<option value="a6paper">A6 paper</option>
+      			<option value="a6paper">A7 paper</option>
+      			<option value="a6paper">A8 paper</option>
+      			<option value="a6paper">A9 paper</option>
+      			<option value="a6paper">A10 paper</option>
+      			<option value="b0paper">B0 paper</option>
+      			<option value="b1paper">B1 paper</option>
+      			<option value="b2paper">B2 paper</option>
+      			<option value="b3paper">B3 paper</option>
+      			<option value="b4paper">B4 paper</option>
+      			<option value="b5paper">B5 paper (176 x 250mm)</option>
+      			<option value="b6paper">B6 paper</option>
+      			<option value="b6paper">B7 paper</option>
+      			<option value="b6paper">B8 paper</option>
+      			<option value="b6paper">B9 paper</option>
+      			<option value="b6paper">B10 paper</option>
+      			<option value="c0paper">C0 paper</option>
+      			<option value="c1paper">C1 paper</option>
+      			<option value="c2paper">C2 paper</option>
+      			<option value="c3paper">C3 paper</option>
+      			<option value="c4paper">C4 paper</option>
+      			<option value="c5paper">C5 paper</option>
+      			<option value="c6paper">C6 paper</option>
+      			<option value="c6paper">C7 paper</option>
+      			<option value="c6paper">C8 paper</option>
+      			<option value="c6paper">C9 paper</option>
+      			<option value="c6paper">C10 paper</option>
+      			<option value="AR0">AR0</option>
+      			<option value="AR1">AR1</option>
+      			<option value="AR2">AR2</option>
+      			<option value="AR3">AR3</option>
+      			<option value="AR4">AR4</option>
+      			<option value="SRA0">SRA0</option>
+      			<option value="SRA1">SRA1</option>
+      			<option value="SRA2">SRA2</option>
+      			<option value="SRA3">SRA3</option>
+      			<option value="SRA4">SRA4</option>
+     		</select>
+      		<br/>Margins in points (72 point = 1 inch): <br/>
+      		<table>
+      		<tr>
+      		<td></td><td align="center">Top margin<br/>
+      		<input type="text" size="3" value="72" name="marginTop"/>
+      		</td><td></td>
+      		</tr>
+      		<tr>
+      		<td align="center">Inner margin<br/>
+      		<input type="text" size="3" value="72" name="marginInner"/></td>
+      		<td></td>
+      		<td align="center">Outer margin<br/>
+      		<input type="text" size="3" value="72" name="marginOuter"/></td>
+      		</tr>
+      		<tr>
+      		<td></td><td align="center">Bottom margin<br/>
+      		<input type="text" size="3" value="72" name="marginBottom"/></td><td></td>
+      		</tr>
+      		</table>
+      		Binding offset (in cm): <input type="text" size="3" value="0.5" name="marginBinding"/>
+      </div>
+
+      <h3><a onclick="toggleDiv('pageNumbering')"><img id="pageNumberingIMG" src="./images/right.gif" border="0"/> Page numbering</a></h3>
+      <div id="pageNumbering" style="display: none;">
+      		Page numbering style: 
+      		<select name="pageNumberingStyle">
+      		 <option value="arabic" selected>arabic numerals (1, 2, 3, ...)</option> 
+      		 <option value="roman">lowercase roman numerals (i, ii, iii, ...)</option>
+      		 <option value="Roman">uppercase roman numerals (I, II, III, ...)</option>
+      		 <option value="alph">lowercase letters (a, b, c, ...)</option> 
+      		 <option value="Alph">uppercase letters (A, B, C, ...)</option>
+      		</select>
+      		<br/>Start numbering from: 
+      		<input type="text" size="3" name="fromPage" value="1"/>
+      		<br/>Should there be a page number on the first page?
+      		<input type="radio" name="pageNumFirstPage" value="1"> Yes 
+      		<input type="radio" name="pageNumFirstPage" value="0" checked> No
+      
+      		
+      		<br/>Should the page number be in the header or footer? 
+      		<select name="pageNumPlace">
+      			<option value="head" selected>header</option>
+      			<option value="footer">footer</option>
+      		</select>
+      		<br/>Position of the page numbers: 
+      		<select name="pageNumPosition">
+      			<option value="L">Left</option>
+      			<option value="R">Right</option>
+      			<option value="C">Center</option>
+      			<option value="LE,RO" selected>Left on even pages, right on odd pages (outer))</option>
+      			<option value="RE,LO">Right on even pages, left on odd pages (inner)</option>
+      		</select>
+      		<br/>Size of the page number text? (relatively to the main text)
+      		<select name="pageNumSize">
+      			<option value="" selected>Default</option>
+      			<option value="tiny">tiny</option>
+      			<option value="scriptsize">scriptsize</option>
+      			<option value="footnotesize">footnotesize</option>
+      			<option value="normalsize">normalsize</option>
+      			<option value="large">large</option>
+      			<option value="Large">Large</option>
+      			<option value="LARGE">LARGE</option>
+      			<option value="huge">huge</option>
+      			<option value="Huge">Huge</option>
+      		</select>
+      </div>	
+      
+      <h3><a onclick="toggleDiv('lineNumbering')"><img id="lineNumberingIMG" src="./images/right.gif" border="0"/> Line numbering</a></h3>
+      <div id="lineNumbering" style="display: none;">
+      		Number the lines by: 
+      		<select name="lineationStyle"> 
+      			<option value="pstart">paragraphe</option>
+      			<option value="page" selected>page</option>
+      			<option value="section">section</option>
+      		</select>
+      		<br/>Start from (default=0): <input type="text" name="lineationStart" size="3" value="0"/>
+      		<br/>Step (default=5): <input type="text" name="lineationStep" size="3" value="5"/>
+      </div>
+      
+      <h3><a onclick="toggleDiv('docTitle')"><img id="docTitleIMG" src="./images/right.gif" border="0"/> Document title and list of witnesses</a></h3>
+      <div id="docTitle" style="display: none;">
+      		Do you want to print the document title? (value of /TEI/teiHeader/fileDesc/titleStmt/title)
+      		<input type="radio" name="printTitle" value="1" checked> Yes 
+      		<input type="radio" name="printTitle" value="0"> No
+      		<br/>Do you want to print the document title in small capitals, capitals, or regular letters? 
+      		<select name="printTitleStyle">
+      			<option value="0">regular letters</option>
+      			<option value="smallcaps" selected>small capitals</option>
+      			<option value="caps">capitals</option>
+      		</select>
+      		<br/>How big should we print the title?
+      		<select name="printTitleSize">
+      			<option value="tiny">tiny</option>
+      			<option value="scriptsize">scriptsize</option>
+      			<option value="footnotesize">footnotesize</option>
+      			<option value="normalsize">normalsize</option>
+      			<option value="large">large</option>
+      			<option value="Large" selected>Large</option>
+      			<option value="LARGE">LARGE</option>
+      			<option value="huge">huge</option>
+      			<option value="Huge">Huge</option>
+      		</select>
+      
+      		<br/>Do you want to print the list of witnesses (tei:listWit)? 
+      		<input type="radio" name="printListWit" value="1" checked> Yes 
+      		<input type="radio" name="printListWit" value="0"> No		
+      </div>
+
+
+
+
+      <br><br><br>
+
+
       <input type="submit" value="Submit">
     </form>
    
