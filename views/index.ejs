@@ -4,11 +4,11 @@
 <body>
   <%- include("./partials/nav.ejs") %>
 
-  <div class="blogs content">
-
+  <div class="content">
     <h2>Select Document:</h2>
-    <form action="">
-      <select name="files" id="files">
+    <form action="/" method="POST">
+      <select name="file" id="files">
+        <option value="">---------</option>
         <% if (filesName.length > 0) { %>
           <% filesName.forEach(file => { %>
             <option value=<%= file %>><%= file %></option>
