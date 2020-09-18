@@ -24,11 +24,16 @@ const init = (req, res) => {
   // nomalizing file path
   const xmlFilePath = './public/CodicePelavicino/' + data.filesName;
 
+  // Check copy allowed
+  if (data.copyAllowed == '0') 
+    copyAllowed = false
+  else
+    copyAllowed = true
+
   // PDF - Document info
   const info = {
     Title: data.filesName.slice(0, -4),
-    Author: 'SeyedHosseinAli Emami',
-    Subject: 'Codice Pelavicino'
+    Author: data.customizedAuthor,
   }
   
   // make new pdf ducument
@@ -36,6 +41,10 @@ const init = (req, res) => {
   const doc = new PDFDocument({
     info,
     size: data.pageSize,
+    pdfVersion: data.pdfVersion,
+    permissions: {
+      copying: copyAllowed,
+    },
     font: 'Times-Roman',
     autoFirstPage: false,
     margins: {
@@ -45,7 +54,6 @@ const init = (req, res) => {
       right: Number(data.marginOuter)
     }
   })
-
 
   // Open file 
   fs.readFile(xmlFilePath, 'utf8', (err, xml) => {
