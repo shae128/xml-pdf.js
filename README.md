@@ -1,5 +1,28 @@
 # xml-pdf.js
-This JavaScript/Node.js library is aimed to convert XML documents especially documents in TEI format to well formed scientif PDF.
+The purpose of this project is to develop a JavaScript library which could convert easily any XML document to PDF format,  respect a related DTD schema. The main goal of this library would be making programmers and users able to produce well-formed scientific PDF base on Encoded-Texts. 
+
+
+# Run with Docker
+
+To run the node application on a docker container , clone the ripository: 
+```
+git clone https://github.com/shae128/xml-pdf.js.git
+```
+
+build the docker image (pay attention to the dot at the end of the command): 
+```
+docker build -t shae128/xml-pdf .
+```
+
+after building docker iamge, start docker container:
+```
+docker run -p 49160:3000 -d shae128/xml-pdf
+```
+
+done! Now the application is accessible via: 
+```
+127.0.0.1:49162
+```
 
 
 Contributing
