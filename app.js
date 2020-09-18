@@ -62,7 +62,6 @@ app.post('/', (req, res) => {
     res.redirect('/');
   else
     pg.init(req, res);
- // res.redirect('/');
 
 });
 

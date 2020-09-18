@@ -78,6 +78,7 @@ const init = (req, res) => {
     // add a new page to document
     doc.addPage()
       
+    // check page numbering condition
     if (data.pageNumbering == '1') {
     // adding page number after first page
       let pageNumber = 1;
@@ -105,7 +106,7 @@ const init = (req, res) => {
          });
       }
 
-    // find page title
+    // check printing page title condition
     if (data.printTitle == "1") {
   
       PageTitle = ' '
@@ -116,7 +117,7 @@ const init = (req, res) => {
       else
         titlePath += data.customizedTitle
 
-      
+      //  find page title
       xq.find(titlePath).each(function(node) {
           PageTitle += xmlQuery(node).text() + " "
       });
@@ -131,6 +132,73 @@ const init = (req, res) => {
       doc.moveDown()
   
     }
+
+
+    // Check docDate condition
+    if (data.docDate == '1') {
+       // find docDate text childs and remove newlines from them 
+       const docDate = xq.find('docDate').text().replace(/\r?\n|\r/g, " ")
+       doc.fontSize(Number(data.baseFontSize)).text(docDate, {
+         align: 'justify',
+         indent: 18
+       })
+       // move down cursor for two lines
+       doc.moveDown()
+    }
+
+
+    // Check regesto condition
+    if (data.regesto == '1') {
+       // find  text childs and remove newlines from them 
+       let regesto = '';
+       xq.find('div').each(function(node){
+          if (xmlQuery(node).attr().type == "regesto")
+            regesto += xmlQuery(node).text();
+          });
+       regesto = regesto.replace(/\r?\n|\r/g, " ")
+       doc.fontSize(Number(data.baseFontSize)).text(regesto, {
+         align: 'justify',
+         indent: 18
+       })
+       // move down cursor for two lines
+       doc.moveDown()
+    }
+
+
+    // Check docDate condition
+    if (data.orig_doc == '1') {
+       // find  text childs and remove newlines from them 
+       let orig_doc = '';
+       xq.find('div').each(function(node){
+          if (xmlQuery(node).attr().type == "orig_doc")
+            orig_doc += xmlQuery(node).text();
+          });
+       orig_doc = orig_doc.replace(/\r?\n|\r/g, " ")
+       doc.fontSize(Number(data.baseFontSize)).text(orig_doc, {
+         align: 'justify',
+         indent: 18
+       })
+    }
+
+    // Check biblio condition
+    if (data.biblio == '1') {
+       // find  text childs and remove newlines from them 
+       let biblio = '';
+       xq.find('div').each(function(node){
+          console.log(xmlQuery(node).attr())
+          if (xmlQuery(node).attr().type == "biblio")
+            biblio += xmlQuery(node).text();
+          });
+       biblio = biblio.replace(/\r?\n|\r/g, " ")
+       doc.fontSize(Number(data.baseFontSize)).text(biblio, {
+         align: 'justify',
+         indent: 18
+       })
+       // move down cursor for two lines
+       doc.moveDown()
+    }
+
+
 
     // find body text childs and remove newlines from them 
     const body = xq.find('body').text().replace(/\r?\n|\r/g, " ")

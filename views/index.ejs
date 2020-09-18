@@ -155,6 +155,39 @@
       			<option value="20">20pt</option>
       		</select>
       
+
+      </div>
+
+      <h3><a onclick="toggleDiv('TeiConfig')"><img id="TeiConfigIMG" src="./images/right.gif" border="0"/> TEI elements selection </a></h3>
+      <div id="TeiConfig" style="display: none;">
+      		Should these TEI tags be present on PDF document? (If there is any)
+          <ul style="margin-left:40px;">
+          <br/>
+            <li>
+          		docDate: 
+              <input type="radio" name="docDate" value="1" checked> Yes 
+          		<input type="radio" name="docDate" value="0"> No
+            </li>
+            <li>
+          		regesto: 
+              <input type="radio" name="regesto" value="1" checked> Yes 
+          		<input type="radio" name="regesto" value="0"> No
+            </li>
+
+            <li>
+          		orig_doc: 
+              <input type="radio" name="orig_doc" value="1" checked> Yes 
+          		<input type="radio" name="orig_doc" value="0"> No
+            </li>
+
+            <li>
+          		biblio: 
+              <input type="radio" name="biblio" value="1" checked> Yes 
+          		<input type="radio" name="biblio" value="0"> No
+            </li>
+          </ul>
+     
+
       </div>
 
 
