@@ -95,7 +95,7 @@ const init = (req, res) => {
               });
      
           // Reset text writer position
-          doc.text('', 50, 50,
+          doc.text('',  Number(data.marginBottom), Number(data.marginTop),
            {
              align: 'justify',
              indent: 18
