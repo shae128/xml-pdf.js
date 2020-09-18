@@ -8,22 +8,25 @@ const destinationPdfPath = 'output_test.pdf'
 //***************************************
 
 const init = (req, res) => {
+
+  // Extracting request body from http 
   const data = req.body;
+
   console.log(data)
 
   //Setting http respons header 
   res.writeHead( 200, {
     'Content-Type': 'application/pdf',
     'Content-Disposition': 'attachment; filename=' + data.filesName.slice(0, -4) + '.pdf'
-} );
+  });
 
 
-//  res.redirect('/');
+  // nomalizing file path
   const xmlFilePath = './public/CodicePelavicino/' + data.filesName;
 
   // PDF - Document info
   const info = {
-    Title: 'test',
+    Title: data.filesName.slice(0, -4),
     Author: 'SeyedHosseinAli Emami',
     Subject: 'Codice Pelavicino'
   }
@@ -32,70 +35,77 @@ const init = (req, res) => {
   // margins and indents are in PDF points: (72 per inch)
   const doc = new PDFDocument({
     info,
-    size: "A4",
+    size: data.pageSize,
     font: 'Times-Roman',
     autoFirstPage: false,
     margins: {
-    top: 146.88,
-    bottom: 155.52,
-    left: 128,
-    right: 128
-// 
-//    size: data.pageSize,
-//    font: 'Times-Roman',
-//    autoFirstPage: false,
-//    margins: {
-//      top: data.marginTop,
-//      bottom: data.marginBottom,
-//      left: data.marginInner,
-//      right: data.marginOuter
+      top: Number(data.marginTop),
+      bottom: Number(data.marginBottom),
+      left: Number(data.marginInner),
+      right: Number(data.marginOuter)
     }
   })
 
 
-  fs.readFile(xmlFilePath, 'utf8', (err, data) => {
+  // Open file 
+  fs.readFile(xmlFilePath, 'utf8', (err, xml) => {
     if (err) throw err
 
-    const ast = XmlReader.parseSync(data)
+    // read xml structure
+    const ast = XmlReader.parseSync(xml)
 
     // creating xQuery from single ast
     const xq = xmlQuery(ast)
     
-    // open file stream
-    //doc.pipe(fs.createWriteStream(destinationPdfPath)) // write to PDF
+    // Respons to http request
     doc.pipe(res);
     
-    // to add a new page to document
+    // add a new page to document
     doc.addPage()
       
-    PageTitle = ' '
-    xq.find('titlePart').each(function(node) {
-        PageTitle += xmlQuery(node).text() + " "
-    });
-     
-     doc.fontSize(17.2).text(PageTitle, {
-       align: 'center'
-     })
-    
-    // move down cursor for two lines
-    doc.moveDown()
-    doc.moveDown()
-    
-    
-    
+
+    // find page title
+    if (data.printTitle == "1") {
+  
+      PageTitle = ' '
+      titlePath = ''
+      
+      if (data.customizedTitle == '')  
+        titlePath += 'titlePart'
+      else
+        titlePath += data.customizedTitle
+
+      
+      xq.find(titlePath).each(function(node) {
+          PageTitle += xmlQuery(node).text() + " "
+      });
+       
+      // write page title to pdf document
+      doc.fontSize(Number(data.printTitleSize)).text(PageTitle, {
+          align: 'center'
+      })
+      
+      // move down cursor for two lines
+      doc.moveDown()
+      doc.moveDown()
+  
+    }
+
+    // find body text childs and remove newlines from them 
     const body = xq.find('body').text().replace(/\r?\n|\r/g, " ")
-    doc.fontSize(10).text(body, {
+    doc.fontSize(Number(data.baseFontSize)).text(body, {
       align: 'justify',
       indent: 18
     })
     
-    doc.end() // finalize the PDF and end the stream
+    // finalize the PDF and end the stream
+    doc.end() 
    
   })
-   
 
 }
  
+// export init function to be accesible project wide
 module.exports = {
   init
 }

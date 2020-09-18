@@ -35,7 +35,6 @@
       			<option value="20">20pt</option>
       		</select>
       		
-      		<br/>Space after each paragraph (in cm): <input type="text" name="parStylevSpace" size="3" value="0.1"/>
       		
       		<br/>Page size: 
       		<select name="pageSize">		
@@ -105,7 +104,6 @@
       		<input type="text" size="3" value="155" name="marginBottom"/></td><td></td>
       		</tr>
       		</table>
-      		Binding offset (in cm): <input type="text" size="3" value="0.5" name="marginBinding"/>
       </div>
 
       <h3><a onclick="toggleDiv('pageNumbering')"><img id="pageNumberingIMG" src="./images/right.gif" border="0"/> Page numbering</a></h3>
@@ -165,33 +163,24 @@
       		<br/>Step (default=5): <input type="text" name="lineationStep" size="3" value="5"/>
       </div>
       
-      <h3><a onclick="toggleDiv('docTitle')"><img id="docTitleIMG" src="./images/right.gif" border="0"/> Document title and list of witnesses</a></h3>
+      <h3><a onclick="toggleDiv('docTitle')"><img id="docTitleIMG" src="./images/right.gif" border="0"/> Document title </a></h3>
       <div id="docTitle" style="display: none;">
-      		Do you want to print the document title? (value of /TEI/teiHeader/fileDesc/titleStmt/title)
+      		Do you want to print the document title? (<strong>Specify</strong> if it's other than <strong>'titlepart'</strong>)
+          <input type="text" name="customizedTitle" value="">
       		<input type="radio" name="printTitle" value="1" checked> Yes 
       		<input type="radio" name="printTitle" value="0"> No
-      		<br/>Do you want to print the document title in small capitals, capitals, or regular letters? 
-      		<select name="printTitleStyle">
-      			<option value="0">regular letters</option>
-      			<option value="smallcaps" selected>small capitals</option>
-      			<option value="caps">capitals</option>
-      		</select>
       		<br/>How big should we print the title?
       		<select name="printTitleSize">
-      			<option value="tiny">tiny</option>
-      			<option value="scriptsize">scriptsize</option>
-      			<option value="footnotesize">footnotesize</option>
-      			<option value="normalsize">normalsize</option>
-      			<option value="large">large</option>
-      			<option value="Large" selected>Large</option>
-      			<option value="LARGE">LARGE</option>
-      			<option value="huge">huge</option>
-      			<option value="Huge">Huge</option>
+      			<option value="8">8pt</option>
+      			<option value="9">9pt</option>
+      			<option value="10">10pt</option>
+      			<option value="11">11pt</option>
+      			<option value="12">12pt</option>
+      			<option value="14">14pt</option>
+      			<option value="17" selected>17pt</option>
+      			<option value="20">20pt</option>
       		</select>
       
-      		<br/>Do you want to print the list of witnesses (tei:listWit)? 
-      		<input type="radio" name="printListWit" value="1" checked> Yes 
-      		<input type="radio" name="printListWit" value="0"> No		
       </div>
 
 
