@@ -55,6 +55,13 @@ const init = (req, res) => {
     }
   })
 
+
+
+ 
+
+
+
+
   // Open file 
   fs.readFile(xmlFilePath, 'utf8', (err, xml) => {
     if (err) throw err
@@ -71,6 +78,32 @@ const init = (req, res) => {
     // add a new page to document
     doc.addPage()
       
+    if (data.pageNumbering == '1') {
+    // adding page number after first page
+      let pageNumber = 1;
+      doc.on('pageAdded', () => {
+          pageNumber++;
+          let bottom = doc.page.margins.bottom;
+          doc.page.margins.bottom = 0;
+     
+          doc.text(pageNumber,
+              0.5 * (doc.page.width - 100),
+              doc.page.height - 50,
+              {
+                  width: 100,
+                  align: 'center',
+                  lineBreak: false,
+              });
+     
+          // Reset text writer position
+          doc.text('', 50, 50,
+           {
+             align: 'justify',
+             indent: 18
+           });
+          doc.page.margins.bottom = bottom;
+         });
+      }
 
     // find page title
     if (data.printTitle == "1") {

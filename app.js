@@ -58,8 +58,10 @@ app.get('/', (req, res) => {
 });
 
 app.post('/', (req, res) => {
-  //console.log(req.body);
-  pg.init(req, res);
+  if (req.body.filesName == '')
+    res.redirect('/');
+  else
+    pg.init(req, res);
  // res.redirect('/');
 
 });
