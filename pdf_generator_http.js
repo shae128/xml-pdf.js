@@ -12,8 +12,6 @@ const init = (req, res) => {
   // Extracting request body from http 
   const data = req.body;
 
-  console.log(data)
-
   //Setting http respons header 
   res.writeHead( 200, {
     'Content-Type': 'application/pdf',
@@ -185,7 +183,6 @@ const init = (req, res) => {
        // find  text childs and remove newlines from them 
        let biblio = '';
        xq.find('div').each(function(node){
-          console.log(xmlQuery(node).attr())
           if (xmlQuery(node).attr().type == "biblio")
             biblio += xmlQuery(node).text();
           });

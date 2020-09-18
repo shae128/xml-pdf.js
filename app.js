@@ -18,7 +18,7 @@ app.use(express.urlencoded({ extended: true }));
 
 
 // *****************************
-// *********Reading files*******
+// *******Reading files list****
 // *****************************
 
 let filesName = [];
@@ -38,15 +38,8 @@ fs.readdir(directoryPath, function (err, files) {
 });
 
 // *****************************
-
-
-//app.use((req, res, next) => {
-//  console.log('new request made:');
-//  console.log('host: ', req.hostname);
-//  console.log('path: ', req.path);
-//  console.log('method: ', req.method);
-//  next();
-//});
+// *********HTTP Handlers*******
+// *****************************
 
 app.use((req, res, next) => {
   res.locals.path = req.path;

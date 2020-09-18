@@ -13,6 +13,10 @@
       color: #222;
     }
 
+    a, select, input[type="radio"] {
+      cursor: pointer;
+    }
+
     /* nav & footer styles */
     nav{
       display: flex;
@@ -56,33 +60,15 @@
 
     /* index styles */
 
-    /* details styles */
 
-    /* create styles */
-    .create-blog form{
-      max-width: 400px;
-      margin: 0 auto;
+    /* about styles */
+    .about p{
+      margin: 30px auto;
+      text-align: justify;
+      font-size: 1.4em;
     }
-    .create-blog input,
-    .create-blog textarea{
-      display: block;
-      width: 100%;
-      margin: 10px 0;
-      padding: 8px;
+
+    .about h2{
+      font-size: 2.1em;
     }
-    .create-blog label{
-      display: block;
-      margin-top: 24px;
-    }
-    textarea{
-      height: 120px;
-    }
-    .create-blog button{
-      margin-top: 20px;
-      background: crimson;
-      color: white;
-      padding: 6px;
-      border: 0;
-      font-size: 1.2em;
-      cursor: pointer;
-    }
+    
