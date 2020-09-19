@@ -24,6 +24,38 @@ done! Now the application is accessible via:
 127.0.0.1:49162
 ```
 
+## Map docker container to runnig apache server
+If you already have apache web server up and running on your server, and you would like to map apache 80 port to docker container, you need to enable these apache modules:
+```
+sudo a2enmod proxy
+sudo a2enmod proxy_http
+```
+
+then you need to add these lines to your apache config file which is on `/etc/apache2/sites-enabled/000-default.conf` on the Ubuntu server, but the config file location could vary (Do not forget to replace example.com with you domain)
+
+```
+<VirtualHost *:80>
+  ProxyPreserveHost On
+  ProxyRequests Off
+  ServerName example.com
+  ServerAlias example.com
+  ProxyPass / http://localhost:49160/
+  ProxyPassReverse / http://localhost:49160/
+</VirtualHost>
+```
+Now the application would be accessible as the default web-app on your domain. Of course, you could config subdomain to access the app, rather than using your main domain. For such purpose, use add these lines to the apache config file instead
+
+```
+<VirtualHost *:80>
+  ProxyPreserveHost On
+  ProxyRequests Off
+  ServerName subdomain.example.com
+  ServerAlias subdomain.example.com
+  ProxyPass / http://localhost:49160/
+  ProxyPassReverse / http://localhost:49160/
+</VirtualHost>
+```
+
 
 Contributing
 ============
