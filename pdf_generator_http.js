@@ -140,8 +140,8 @@ const init = (req, res) => {
     if (data.docDate == '1') {
        // find docDate text childs and remove newlines from them 
        const docDate = xq.find('docDate').text().replace(/\r?\n|\r/g, " ").replace(/\s+/g, ' ')
-       doc.fontSize(Number(data.baseFontSize)).text(docDate, {
-         align: 'center'
+       doc.fontSize(Number(data.baseFontSize)).font('Times-Italic').text(docDate, {
+         align: 'center',
        })
        // move down cursor for two lines
        doc.moveDown()
@@ -159,7 +159,7 @@ const init = (req, res) => {
        // remove newlines and more than one white space
        regesto = regesto.replace(/\r?\n|\r/g, " ").replace(/\s+/g, ' ')
 
-       doc.fontSize(Number(data.baseFontSize)).text(regesto, {
+       doc.fontSize(Number(data.baseFontSize)).font('Times-Roman').text(regesto, {
          align: 'left'
        })
        // move down cursor for two lines
@@ -180,6 +180,9 @@ const init = (req, res) => {
        doc.fontSize(Number(data.baseFontSize)).text(orig_doc, {
          align: 'left'
        })
+       // move down cursor for two lines
+       doc.moveDown()
+
     }
 
     // Check biblio condition
@@ -198,6 +201,24 @@ const init = (req, res) => {
        // move down cursor for two lines
        doc.moveDown()
     }
+    
+    // add apparato critico 
+//   let appr = '';
+//   xq.find('div').each(function(node){
+//      if (xmlQuery(node).attr().type == "appr")
+//        console.log(node)
+//        appr += xmlQuery(node).text();
+//      });
+//   // remove newlines and more than one white space
+//   appr = appr.replace(/\r?\n|\r/g, " ").replace(/\s+/g, ' ')
+//   doc.fontSize(Number(data.baseFontSize)).text(appr, {
+//     align: 'left',
+//     link: 'http://www.example.com',
+//     underline: true
+//   })
+//   // move down cursor for two lines
+//   doc.moveDown()
+
 
 
 
