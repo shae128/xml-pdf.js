@@ -115,9 +115,17 @@ const init = (req, res) => {
       else
         titlePath += data.customizedTitle
 
+      //Distinguish between numerazioneNuova e Orig
+      numerazioneNuova = 1
+
       //  find page title
       xq.find(titlePath).each(function(node) {
-          PageTitle += xmlQuery(node).text() + " "
+        if (numerazioneNuova == 1 ) {
+            PageTitle += "Numerazione nuova: " + xmlQuery(node).text() + "\n"
+            numerazioneNuova = 0;
+          }
+        else
+          PageTitle += "Numerazione originale: " + xmlQuery(node).text() + "\n"
       });
        
       // write page title to pdf document
@@ -125,20 +133,15 @@ const init = (req, res) => {
           align: 'center'
       })
       
-      // move down cursor for two lines
-      doc.moveDown()
-      doc.moveDown()
-  
     }
 
 
     // Check docDate condition
     if (data.docDate == '1') {
        // find docDate text childs and remove newlines from them 
-       const docDate = xq.find('docDate').text().replace(/\r?\n|\r/g, " ")
+       const docDate = xq.find('docDate').text().replace(/\r?\n|\r/g, " ").replace(/\s+/g, ' ')
        doc.fontSize(Number(data.baseFontSize)).text(docDate, {
-         align: 'justify',
-         indent: 18
+         align: 'center'
        })
        // move down cursor for two lines
        doc.moveDown()
@@ -147,16 +150,17 @@ const init = (req, res) => {
 
     // Check regesto condition
     if (data.regesto == '1') {
-       // find  text childs and remove newlines from them 
+       // find  text childs remove newlines from them 
        let regesto = '';
        xq.find('div').each(function(node){
           if (xmlQuery(node).attr().type == "regesto")
             regesto += xmlQuery(node).text();
           });
-       regesto = regesto.replace(/\r?\n|\r/g, " ")
+       // remove newlines and more than one white space
+       regesto = regesto.replace(/\r?\n|\r/g, " ").replace(/\s+/g, ' ')
+
        doc.fontSize(Number(data.baseFontSize)).text(regesto, {
-         align: 'justify',
-         indent: 18
+         align: 'left'
        })
        // move down cursor for two lines
        doc.moveDown()
@@ -171,10 +175,10 @@ const init = (req, res) => {
           if (xmlQuery(node).attr().type == "orig_doc")
             orig_doc += xmlQuery(node).text();
           });
-       orig_doc = orig_doc.replace(/\r?\n|\r/g, " ")
+       // remove newlines and more than one white space
+       orig_doc = orig_doc.replace(/\r?\n|\r/g, " ").replace(/\s+/g, ' ')
        doc.fontSize(Number(data.baseFontSize)).text(orig_doc, {
-         align: 'justify',
-         indent: 18
+         align: 'left'
        })
     }
 
@@ -186,10 +190,10 @@ const init = (req, res) => {
           if (xmlQuery(node).attr().type == "biblio")
             biblio += xmlQuery(node).text();
           });
-       biblio = biblio.replace(/\r?\n|\r/g, " ")
+       // remove newlines and more than one white space
+       biblio = biblio.replace(/\r?\n|\r/g, " ").replace(/\s+/g, ' ')
        doc.fontSize(Number(data.baseFontSize)).text(biblio, {
-         align: 'justify',
-         indent: 18
+         align: 'left'
        })
        // move down cursor for two lines
        doc.moveDown()
@@ -198,10 +202,9 @@ const init = (req, res) => {
 
 
     // find body text childs and remove newlines from them 
-    const body = xq.find('body').text().replace(/\r?\n|\r/g, " ")
+    const body = xq.find('body').text().replace(/\r?\n|\r/g, " ").replace(/\s+/g, ' ')
     doc.fontSize(Number(data.baseFontSize)).text(body, {
-      align: 'justify',
-      indent: 18
+      align: 'left'
     })
     
     // finalize the PDF and end the stream
