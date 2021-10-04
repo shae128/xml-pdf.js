@@ -76,33 +76,33 @@ const init = (req, res) => {
     // add a new page to document
     doc.addPage()
       
-    // check page numbering condition
-    if (data.pageNumbering == '1') {
-    // adding page number after first page
-      let pageNumber = 1;
-      doc.on('pageAdded', () => {
-          pageNumber++;
-          let bottom = doc.page.margins.bottom;
-          doc.page.margins.bottom = 0;
-     
-          doc.text(pageNumber,
-              0.5 * (doc.page.width - 100),
-              doc.page.height - 50,
-              {
-                  width: 100,
-                  align: 'center',
-                  lineBreak: false,
-              });
-     
-          // Reset text writer position
-          doc.text('',  Number(data.marginBottom), Number(data.marginTop),
-           {
-             align: 'justify',
-             indent: 18
-           });
-          doc.page.margins.bottom = bottom;
-         });
-      }
+//    // check page numbering condition
+//    if (data.pageNumbering == '1') {
+//    // adding page number after first page
+//      let pageNumber = 1;
+//      doc.on('pageAdded', () => {
+//          pageNumber++;
+//          let bottom = doc.page.margins.bottom;
+//          doc.page.margins.bottom = 0;
+//     
+//          doc.text(pageNumber,
+//              0.5 * (doc.page.width - 100),
+//              doc.page.height - 50,
+//              {
+//                  width: 100,
+//                  align: 'center',
+//                  lineBreak: false,
+//              });
+//     
+//          // Reset text writer position
+//          doc.text('',  Number(data.marginBottom), Number(data.marginTop),
+//           {
+//             align: 'justify',
+//             indent: 18
+//           });
+//          doc.page.margins.bottom = bottom;
+//         });
+//      }
 
     // check printing page title condition
     if (data.printTitle == "1") {
@@ -135,7 +135,6 @@ const init = (req, res) => {
       
     }
 
-
     // Check docDate condition
     if (data.docDate == '1') {
        // find docDate text childs and remove newlines from them 
@@ -164,8 +163,19 @@ const init = (req, res) => {
        })
        // move down cursor for two lines
        doc.moveDown()
+       doc.moveDown()
     }
 
+      // Draw a line for regesto footer 
+      doc.lineWidth(0.5);
+  
+      // line cap settings
+      doc.moveTo(doc.x, doc.y)
+      .lineTo(doc.page.width - Number(data.marginOuter), doc.y)
+      .stroke();
+
+       doc.moveDown()
+   
 
     // Check docDate condition
     if (data.orig_doc == '1') {
@@ -201,25 +211,27 @@ const init = (req, res) => {
        // move down cursor for two lines
        doc.moveDown()
     }
-    
+
     // add apparato critico 
-//   let appr = '';
-//   xq.find('div').each(function(node){
-//      if (xmlQuery(node).attr().type == "appr")
-//        console.log(node)
-//        appr += xmlQuery(node).text();
-//      });
-//   // remove newlines and more than one white space
-//   appr = appr.replace(/\r?\n|\r/g, " ").replace(/\s+/g, ' ')
-//   doc.fontSize(Number(data.baseFontSize)).text(appr, {
-//     align: 'left',
-//     link: 'http://www.example.com',
-//     underline: true
-//   })
-//   // move down cursor for two lines
-//   doc.moveDown()
+    let appr = '';
+    xq.find('div').each(function(node){
+       if (xmlQuery(node).attr().type == "appr")
+         appr += xmlQuery(node).text();
+       });
+    // remove newlines and more than one white space
+    appr = appr.replace(/\r?\n|\r/g, " ").replace(/\s+/g, ' ')
+    doc.fontSize(Number(data.baseFontSize)).text(appr, {
+      align: 'left',
+      link: 'http://www.example.com',
+      underline: true
+    })
+    // move down cursor for two lines
+    doc.moveDown()
 
 
+    // add a new page to document
+    doc.addPage()
+ 
 
 
     // find body text childs and remove newlines from them 
